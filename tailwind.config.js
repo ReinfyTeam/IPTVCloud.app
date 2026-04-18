@@ -4,13 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        cyan: {
-          500: 'var(--accent)',
-          400: 'var(--accent)',
+        accent: {
+          DEFAULT: 'var(--accent)',
+          glow: 'var(--accent-glow)',
         },
-      },
-      backgroundColor: {
-        'cyan-500/20': 'var(--accent-glow)',
       },
     },
   },

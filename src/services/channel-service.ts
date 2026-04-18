@@ -19,14 +19,26 @@ const CHANNELS_CACHE_KEY = 'channels:dataset';
 
 function normalizeChannel(channel: Channel): Channel {
   const isGeoBlocked = channel.name.includes('[GEO BLOCKED]');
-  const cleanName = channel.name.replace('[GEO BLOCKED]', '').trim();
 
-  // Attempt to extract language from name or other attributes if missing
+  // 1. Remove [GEO BLOCKED]
+  let cleanName = channel.name.replace('[GEO BLOCKED]', '');
+
+  // 2. Remove browser strings
+  cleanName = cleanName.replace(/(?:Gecko\)|(?:Chrome|Safari|Edg)\/\d+(?:\.\d+)*)/gi, '');
+
+  // 3. Keep existing logic to extract language before removal
   let lang = channel.language;
   if (!lang || lang === 'Uncategorized') {
     const match = cleanName.match(/\(([^)]+)\)$/);
     if (match) lang = match[1];
   }
+
+  // 4. Remove language tags (e.g., (EN)) and empty parens
+  cleanName = cleanName.replace(/\([A-Z]{2,3}\)/gi, '');
+  cleanName = cleanName.replace(/\(\s*\)/g, '');
+
+  // 5. Cleanup whitespace
+  cleanName = cleanName.replace(/\s+/g, ' ').trim();
 
   // Clean language from resolution tags
   if (lang) {

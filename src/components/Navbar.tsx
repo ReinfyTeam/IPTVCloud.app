@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import { useAuthStore } from '@/store/auth-store';
 import { useNetworkStatus } from '@/hooks/use-network';
@@ -105,10 +106,9 @@ export default function Navbar() {
               className="flex items-center gap-3 group shrink-0 transition-transform active:scale-95"
             >
               <div className="text-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-400">
-                IPTVCloud<span className="text-cyan-500">.</span>app
+                IPTVCloud
               </div>
-            </Link>
-
+            </Link>{' '}
             <nav className="hidden md:flex items-center gap-1 ml-4">
               <Link
                 href="/home"
@@ -146,7 +146,6 @@ export default function Navbar() {
                 active={pathname === '/status'}
               />
             </nav>
-
             <div
               ref={searchRef}
               className="hidden lg:flex flex-1 max-w-[300px] ml-auto relative group/search"
@@ -186,7 +185,13 @@ export default function Navbar() {
                     >
                       <div className="h-8 w-8 rounded-lg bg-slate-800 overflow-hidden shrink-0 border border-white/5">
                         {ch.logo ? (
-                          <img src={ch.logo} alt="" className="h-full w-full object-contain" />
+                          <Image
+                            src={ch.logo}
+                            alt=""
+                            width={32}
+                            height={32}
+                            className="h-full w-full object-contain"
+                          />
                         ) : (
                           <div className="h-full w-full flex items-center justify-center text-[10px] font-bold text-slate-500 uppercase">
                             {ch.name[0]}
@@ -211,7 +216,6 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-
             <div className="flex items-center gap-2 ml-auto lg:ml-0">
               {mounted &&
                 (user ? (
@@ -235,7 +239,7 @@ export default function Navbar() {
                       onClick={() => void handleLogout()}
                       className="hidden sm:flex rounded-full px-4 py-2 text-sm font-bold text-slate-500 hover:text-white hover:bg-white/5 transition-all duration-200 active:scale-95 uppercase tracking-widest text-[10px]"
                     >
-                      Exit
+                      Sign Out
                     </button>
                   </div>
                 ) : (

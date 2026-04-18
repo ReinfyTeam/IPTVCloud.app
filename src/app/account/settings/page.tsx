@@ -125,7 +125,7 @@ export default function SettingsPage() {
               label="Dark Mode"
               description="Switch between light and dark visual themes."
               checked={settings.darkMode}
-              onChange={(v) => updateAndSync('darkMode', v)}
+              onChange={(_v) => updateAndSync('darkMode', !settings.darkMode)}
             />
           </div>
         </SettingsSection>
@@ -136,19 +136,19 @@ export default function SettingsPage() {
               label="Autoplay"
               description="Start playing streams automatically when selected."
               checked={settings.autoplay}
-              onChange={(v) => updateAndSync('autoplay', v)}
+              onChange={(_v) => updateAndSync('autoplay', !settings.autoplay)}
             />
             <Toggle
               label="Show EPG Strip"
               description="Display the program guide strip inside the player overlay."
               checked={settings.showEpg}
-              onChange={(v) => updateAndSync('showEpg', v)}
+              onChange={(_v) => updateAndSync('showEpg', !settings.showEpg)}
             />
             <Toggle
               label="Performance Mode"
               description="Optimize animations for smoother performance on low-end devices."
               checked={settings.performanceMode}
-              onChange={(v) => updateAndSync('performanceMode', v)}
+              onChange={(_v) => updateAndSync('performanceMode', !settings.performanceMode)}
             />
             <div>
               <label className="block text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-4">
@@ -219,8 +219,8 @@ function SettingsSection({
   return (
     <section className="rounded-[40px] border border-white/[0.08] bg-white/[0.03] p-8 shadow-xl backdrop-blur-xl">
       <div className="flex items-center gap-4 mb-8">
-        <div className="h-10 w-10 rounded-2xl bg-white/5 flex items-center justify-center text-xl">
-          {icon}
+        <div className="h-10 w-10 rounded-2xl bg-accent/10 flex items-center justify-center text-xl text-accent">
+          <span className="material-icons">{icon}</span>
         </div>
         <h2 className="text-xl font-bold text-white tracking-tight">{title}</h2>
       </div>
@@ -238,7 +238,7 @@ function Toggle({
   label: string;
   description?: string;
   checked: boolean;
-  onChange: (v: boolean) => void;
+  onChange: (_v: boolean) => void;
 }) {
   return (
     <div className="flex items-center justify-between gap-4 group">

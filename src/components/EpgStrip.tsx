@@ -55,16 +55,20 @@ export default function EpgStrip({ channelId, compact = false }: Props) {
     >
       {data.now && (
         <div className="flex items-start gap-4">
+          import Image from 'next/image'; ...
           {data.now.image && (
             <div className="hidden sm:block relative shrink-0 aspect-video h-14 rounded-lg overflow-hidden border border-white/10 shadow-lg">
-              <img
+              <Image
                 src={data.now.image}
                 alt={data.now.title}
+                width={100}
+                height={56}
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             </div>
           )}
+          ...
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-2 mb-1.5">
               <span className="shrink-0 rounded-full bg-red-500/80 px-2 py-0.5 text-[9px] font-bold text-white shadow-sm animate-pulse">

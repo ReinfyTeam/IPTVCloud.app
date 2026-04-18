@@ -20,9 +20,10 @@ export default function Footer() {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-cyan-500/20 to-transparent" />
 
       <div className="mx-auto max-w-[1460px] px-6 sm:px-8 grid gap-16 lg:grid-cols-4">
+        import {BRAND_NAME} from './Brand'; ...
         <div className="lg:col-span-2 space-y-8">
           <div className="text-2xl font-black tracking-tighter text-white uppercase italic">
-            IPTVCloud<span className="text-cyan-500">.</span>app
+            {BRAND_NAME}
           </div>
           <p className="text-slate-500 text-sm max-w-sm leading-relaxed font-medium">
             The next generation of television streaming. Advanced, private, and community-driven.
@@ -34,7 +35,6 @@ export default function Footer() {
             <SocialLink href="https://github.com/ReinfyTeam/IPTVCloud.app" icon="github" isGithub />
           </div>
         </div>
-
         <div className="grid grid-cols-2 gap-10">
           <div className="space-y-6">
             <h4 className="text-[10px] font-black uppercase tracking-[0.3em] text-white opacity-40">
@@ -69,24 +69,23 @@ export default function Footer() {
             </h4>
             <ul className="space-y-4 text-xs font-bold text-slate-400">
               <li>
-                <Link href="#" className="hover:text-cyan-400 transition-colors">
+                <Link href="/privacy" className="hover:text-cyan-400 transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-cyan-400 transition-colors">
+                <Link href="/tos" className="hover:text-cyan-400 transition-colors">
                   Terms of Service
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-cyan-400 transition-colors">
+                <Link href="/dmca" className="hover:text-cyan-400 transition-colors">
                   DMCA Disclaimer
                 </Link>
               </li>
             </ul>
           </div>
         </div>
-
         <div className="space-y-8">
           <div className="space-y-2">
             <h4 className="text-[10px] font-black uppercase tracking-[0.3em] text-white opacity-40">

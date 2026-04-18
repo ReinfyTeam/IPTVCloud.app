@@ -3,6 +3,7 @@
 import React, { useMemo, useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 import { useAuthStore } from '@/store/auth-store';
 import { useFavoritesStore } from '@/store/favorites-store';
 import { useHistoryStore } from '@/store/history-store';
@@ -403,15 +404,15 @@ function UserHome({ allChannels, user }: { allChannels: Channel[]; user: any }) 
                     <div className="flex items-center gap-4 mb-3">
                       <div className="h-6 w-8 rounded-md overflow-hidden bg-slate-900 border border-white/10 shrink-0">
                         {code ? (
-                          <img
+                          <Image
                             src={`https://flagcdn.com/w40/${code}.png`}
                             alt=""
+                            width={40}
+                            height={30}
                             className="h-full w-full object-cover grayscale group-hover:grayscale-0 transition-all"
                           />
                         ) : (
-                          <span className="material-icons text-[16px] flex items-center justify-center h-full text-slate-700">
-                            public
-                          </span>
+                          <div className="h-full w-full bg-slate-800" />
                         )}
                       </div>
                       <div className="text-xs font-black text-white group-hover:text-cyan-400 transition-colors truncate tracking-widest uppercase">
@@ -452,11 +453,40 @@ function SectionHeader({ title, href }: { title: string; href?: string }) {
 }
 
 function HorizontalScroll({ children }: { children: React.ReactNode }) {
+  const scrollRef = React.useRef<HTMLDivElement>(null);
+
+  const scroll = (direction: 'left' | 'right') => {
+    if (scrollRef.current) {
+      const scrollAmount = 800;
+      scrollRef.current.scrollBy({
+        left: direction === 'left' ? -scrollAmount : scrollAmount,
+        behavior: 'smooth',
+      });
+    }
+  };
+
   return (
-    <div className="flex gap-8 overflow-x-auto pb-12 scrollbar-hide -mx-6 px-6 snap-x">
-      {React.Children.map(children, (child) => (
-        <div className="shrink-0 w-[320px] snap-start">{child}</div>
-      ))}
+    <div className="relative group">
+      <button
+        onClick={() => scroll('left')}
+        className="absolute -left-4 top-1/2 z-10 -translate-y-1/2 h-14 w-14 rounded-full bg-slate-900/80 border border-white/10 text-white shadow-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-slate-800"
+      >
+        <span className="material-icons">chevron_left</span>
+      </button>
+      <div
+        ref={scrollRef}
+        className="flex gap-8 overflow-x-auto pb-12 scrollbar-hide -mx-6 px-6 snap-x"
+      >
+        {React.Children.map(children, (child) => (
+          <div className="shrink-0 w-[320px] snap-start">{child}</div>
+        ))}
+      </div>
+      <button
+        onClick={() => scroll('right')}
+        className="absolute -right-4 top-1/2 z-10 -translate-y-1/2 h-14 w-14 rounded-full bg-slate-900/80 border border-white/10 text-white shadow-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-slate-800"
+      >
+        <span className="material-icons">chevron_right</span>
+      </button>
     </div>
   );
 }

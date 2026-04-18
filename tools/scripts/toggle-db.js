@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const schemaPath = path.join(__dirname, '..', 'prisma', 'schema.prisma');
+const schemaPath = path.join(__dirname, '..', '..', 'prisma', 'schema.prisma');
 const mode = process.argv[2]; // 'dev' or 'prod'
 
 if (!['dev', 'prod'].includes(mode)) {
