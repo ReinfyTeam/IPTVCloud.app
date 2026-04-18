@@ -4,4 +4,15 @@ module.exports = {
   experimental: {
     appDir: true,
   },
+  // Allow all hosts for Replit preview proxy
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+        ],
+      },
+    ];
+  },
 };
