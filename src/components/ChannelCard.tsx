@@ -150,17 +150,16 @@ import Image from 'next/image';
             />
           ) : (
 ...
-                ) : countryCode ? (
-                  <Image
-                    src={`https://flagcdn.com/w20/${countryCode}.png`}
-                    alt={channel.country}
-                    width={20}
-                    height={15}
-                    className="h-3 w-4 rounded-sm object-cover shadow-sm"
-                  />
+                <Image
+                  src={`https://flagcdn.com/w20/${countryCode}.png`}
+                  alt={channel.country}
+                  width={20}
+                  height={15}
+                  className="h-3 w-4 rounded-sm object-cover shadow-sm"
+                />
                 ) : null}
-              </div>
-            </div>
+                </div>
+                </div>
             <div className="flex-1 min-w-0">
               <h3 className="font-bold text-white truncate group-hover:text-cyan-400 transition-colors">
                 {channel.name}
