@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
-import { authorizeRequest, sanitizeUser } from '@/services/auth-service';
+import { authorizeRequest } from '@/services/auth-service';
 
 export async function GET(req: Request) {
   const url = new URL(req.url);

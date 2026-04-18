@@ -5,15 +5,9 @@ import type { Channel } from '@/types';
 import { useFavoritesPersistence, useFavoritesStore } from '@/store/favorites-store';
 import { usePlayerStore } from '@/store/player-store';
 
-type FacetSummary = {
-  name: string;
-  count: number;
-  sample: Channel[];
-};
-
 function buildFacetSummary(
   channels: Channel[],
-  pickValue: (channel: Channel) => string | undefined,
+  pickValue: (_channel: Channel) => string | undefined,
   limit = 6,
 ) {
   const map = new Map<string, Channel[]>();
@@ -54,7 +48,7 @@ export function useChannelBrowser(channels: Channel[]) {
     const urlChannelId = new URLSearchParams(window.location.search).get('channel');
     if (!channels.length) return;
 
-    if (urlChannelId && channels.some((channel) => channel.id === urlChannelId)) {
+    if (urlChannelId && channels.some((_channel) => _channel.id === urlChannelId)) {
       if (selectedChannelId !== urlChannelId) {
         setSelectedChannelId(urlChannelId);
       }
@@ -86,9 +80,9 @@ export function useChannelBrowser(channels: Channel[]) {
       Array.from(new Set(items.filter(Boolean))).sort((a, b) => a.localeCompare(b));
 
     return {
-      countries: sort(channels.map((channel) => channel.country || '')),
-      categories: sort(channels.map((channel) => channel.category || '')),
-      languages: sort(channels.map((channel) => channel.language || '')),
+      countries: sort(channels.map((_channel) => _channel.country || '')),
+      categories: sort(channels.map((_channel) => _channel.category || '')),
+      languages: sort(channels.map((_channel) => _channel.language || '')),
     };
   }, [channels]);
 
@@ -123,12 +117,12 @@ export function useChannelBrowser(channels: Channel[]) {
   );
 
   const categoryHighlights = useMemo(
-    () => buildFacetSummary(channels, (channel) => channel.category),
+    () => buildFacetSummary(channels, (_channel) => _channel.category),
     [channels],
   );
 
   const countryHighlights = useMemo(
-    () => buildFacetSummary(channels, (channel) => channel.country),
+    () => buildFacetSummary(channels, (_channel) => _channel.country),
     [channels],
   );
 

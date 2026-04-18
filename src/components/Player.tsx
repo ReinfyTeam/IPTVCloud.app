@@ -13,7 +13,7 @@ type Props = {
   title?: string;
   subtitle?: string;
   streamUrl?: string;
-  shareUrl?: string;
+  _shareUrl?: string;
   autoPlay?: boolean;
   className?: string;
   onNextChannel?: () => void;
@@ -22,6 +22,13 @@ type Props = {
 
 type PlayerStatus = 'idle' | 'loading' | 'playing' | 'paused' | 'error';
 
+type QualityLevel = {
+  id: number;
+  height: number;
+  bitrate: number;
+  name: string;
+};
+
 export default function Player({
   channel,
   url,
@@ -29,7 +36,7 @@ export default function Player({
   title,
   subtitle,
   streamUrl,
-  shareUrl,
+  _shareUrl,
   autoPlay = false,
   className,
   onNextChannel,
@@ -43,7 +50,7 @@ export default function Player({
   const [muted, setMuted] = useState(false);
   const [volume, setVolume] = useState(1);
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const [isPiP, setIsPiP] = useState(false);
+  const [_isPiP, _setIsPiP] = useState(false);
   const [status, setStatus] = useState<PlayerStatus>('idle');
   const [errorMsg, setErrorMsg] = useState('');
   const [theaterMode, setTheaterMode] = useState(false);
@@ -54,6 +61,9 @@ export default function Player({
   const [stats, setStats] = useState({ bitrate: 0, res: '0x0', buffer: 0, dropped: 0 });
   const [showEmbed, setShowEmbed] = useState(false);
   const [captionsEnabled, setCaptionsEnabled] = useState(false);
+  const [showQualityMenu, setShowQualityMenu] = useState(false);
+  const [qualities, setQualities] = useState<QualityLevel[]>([]);
+  const [currentQualityId, setCurrentQualityId] = useState<number>(-1); // -1 = Auto
   const controlsTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const sourceCandidates = useMemo(() => {
@@ -76,7 +86,10 @@ export default function Player({
   const resetControlsTimer = useCallback(() => {
     setShowControls(true);
     if (controlsTimeoutRef.current) clearTimeout(controlsTimeoutRef.current);
-    controlsTimeoutRef.current = setTimeout(() => setShowControls(false), 3000);
+    controlsTimeoutRef.current = setTimeout(() => {
+      setShowControls(false);
+      setShowQualityMenu(false);
+    }, 3000);
   }, []);
 
   const destroyHls = useCallback(() => {
@@ -84,6 +97,8 @@ export default function Player({
       hlsRef.current.destroy();
       hlsRef.current = null;
     }
+    setQualities([]);
+    setCurrentQualityId(-1);
   }, []);
 
   const clearLoadTimeout = useCallback(() => {
@@ -138,7 +153,6 @@ export default function Player({
           lowLatencyMode: true,
           backBufferLength: 60,
           capLevelToPlayerSize: true,
-          // Optimization settings
           abrBandWidthFactor: 0.95,
           abrBandWidthUpFactor: 0.9,
           maxBufferLength: 30,
@@ -150,9 +164,26 @@ export default function Player({
         hlsRef.current = hls;
         hls.loadSource(proxiedSrc);
         hls.attachMedia(video);
+
         hls.on(Hls.Events.MANIFEST_PARSED, () => {
+          const mappedQualities = hls.levels.map((level, id) => ({
+            id,
+            height: level.height,
+            bitrate: level.bitrate,
+            name: `${level.height}p`,
+          }));
+          setQualities(mappedQualities.sort((a, b) => b.height - a.height));
           if (autoPlay) video.play().catch(() => {});
         });
+
+        hls.on(Hls.Events.LEVEL_SWITCHED, (_evt, data) => {
+          if (hls.autoLevelEnabled) {
+            setCurrentQualityId(-1);
+          } else {
+            setCurrentQualityId(data.level);
+          }
+        });
+
         hls.on(Hls.Events.ERROR, (_evt, data) => {
           if (data.fatal) tryNextSource('Primary stream failed.');
         });
@@ -215,10 +246,7 @@ export default function Player({
       setMuted(video.muted);
       setVolume(video.volume);
     };
-    const onFullscreenChange = () =>
-      setIsFullscreen(
-        document.fullscreenElement === video || document.fullscreenElement === containerRef.current,
-      );
+    const onFullscreenChange = () => setIsFullscreen(Boolean(document.fullscreenElement));
 
     video.addEventListener('playing', onPlaying);
     video.addEventListener('pause', onPause);
@@ -251,8 +279,10 @@ export default function Player({
   const toggleFullscreen = useCallback(async () => {
     const el = containerRef.current;
     if (!el) return;
-    if (document.fullscreenElement) await document.exitFullscreen?.();
-    else await el.requestFullscreen?.();
+    try {
+      if (document.fullscreenElement) await document.exitFullscreen?.();
+      else await el.requestFullscreen?.();
+    } catch {}
   }, []);
 
   const togglePiP = useCallback(async () => {
@@ -263,6 +293,13 @@ export default function Player({
       else await video.requestPictureInPicture();
     } catch {}
   }, []);
+
+  const changeQuality = (id: number) => {
+    if (!hlsRef.current) return;
+    hlsRef.current.currentLevel = id;
+    setCurrentQualityId(id);
+    setShowQualityMenu(false);
+  };
 
   const openPopout = () => {
     if (!activeUrl) return;
@@ -280,7 +317,10 @@ export default function Player({
   };
 
   useEffect(() => {
-    const hide = () => setShowContextMenu(false);
+    const hide = () => {
+      setShowContextMenu(false);
+      setShowQualityMenu(false);
+    };
     window.addEventListener('click', hide);
     return () => window.removeEventListener('click', hide);
   }, []);
@@ -305,12 +345,49 @@ export default function Player({
       ref={containerRef}
       onMouseMove={resetControlsTimer}
       onMouseEnter={resetControlsTimer}
-      onMouseLeave={() => setShowControls(false)}
+      onMouseLeave={() => {
+        setShowControls(false);
+        setShowQualityMenu(false);
+      }}
       onDoubleClick={() => void toggleFullscreen()}
       onContextMenu={handleContextMenu}
-      className={`group relative overflow-hidden bg-black transition-all duration-500 transform-gpu ${theaterMode ? 'rounded-none' : 'rounded-[40px] border border-white/[0.08] shadow-2xl shadow-black/50'} ${className || ''} ${theaterMode ? 'aspect-video w-full' : isFullscreen ? 'h-screen w-screen' : 'h-[300px] sm:h-[500px] lg:h-[640px] w-full'}`}
+      className={`group relative overflow-hidden bg-black transition-all duration-500 transform-gpu 
+        ${isFullscreen ? 'fixed inset-0 z-[9999] h-screen w-screen border-none rounded-none' : theaterMode ? 'rounded-none h-[60vh]' : 'rounded-[40px] border border-white/[0.08] shadow-2xl shadow-black/50 h-[300px] sm:h-[500px] lg:h-[640px]'} 
+        ${className || ''}`}
     >
       <video ref={videoRef} className="h-full w-full object-contain" poster={poster} playsInline />
+
+      {/* Quality Selection Menu */}
+      {showQualityMenu && qualities.length > 0 && (
+        <div className="absolute bottom-24 right-8 z-50 bg-slate-900/95 backdrop-blur-2xl border border-white/10 rounded-2xl p-1.5 shadow-2xl animate-fade-in w-40">
+          <div className="px-3 py-2 text-[10px] font-bold text-slate-500 uppercase tracking-widest border-b border-white/5 mb-1">
+            Quality
+          </div>
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              changeQuality(-1);
+            }}
+            className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs transition-all ${currentQualityId === -1 ? 'bg-cyan-500 text-slate-950 font-bold' : 'text-slate-300 hover:bg-white/5'}`}
+          >
+            <span>Auto</span>
+            {currentQualityId === -1 && <span className="material-icons text-sm">check</span>}
+          </button>
+          {qualities.map((q) => (
+            <button
+              key={q.id}
+              onClick={(e) => {
+                e.stopPropagation();
+                changeQuality(q.id);
+              }}
+              className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs transition-all ${currentQualityId === q.id ? 'bg-cyan-500 text-slate-950 font-bold' : 'text-slate-300 hover:bg-white/5'}`}
+            >
+              <span>{q.name}</span>
+              {currentQualityId === q.id && <span className="material-icons text-sm">check</span>}
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* Stats for Nerds Overlay */}
       {showStats && (
@@ -426,7 +503,7 @@ export default function Player({
                 </span>
               )}
             </div>
-            <div className="truncate text-xl sm:text-2xl font-black text-white tracking-tighter drop-shadow-2xl uppercase">
+            <div className="truncate text-xl sm:text-2xl font-black text-white tracking-tighter drop-shadow-2xl uppercase italic">
               {displayTitle || 'No Source'}
             </div>
             {displaySubtitle && (
@@ -481,6 +558,15 @@ export default function Player({
 
             <div className="flex items-center gap-1 sm:gap-3">
               <IconButton
+                onClick={(e) => {
+                  e?.stopPropagation();
+                  setShowQualityMenu(!showQualityMenu);
+                }}
+                active={currentQualityId !== -1}
+              >
+                <span className="material-icons text-xl">settings</span>
+              </IconButton>
+              <IconButton
                 onClick={() => setCaptionsEnabled(!captionsEnabled)}
                 active={captionsEnabled}
               >
@@ -511,14 +597,14 @@ function IconButton({
   active,
 }: {
   children: React.ReactNode;
-  onClick?: () => void;
+  onClick?: (e?: React.MouseEvent) => void;
   active?: boolean;
 }) {
   return (
     <button
       onClick={(e) => {
         e.stopPropagation();
-        onClick?.();
+        onClick?.(e);
       }}
       className={`h-11 w-11 rounded-full flex items-center justify-center transition-all duration-300 active:scale-90 ${active ? 'bg-cyan-500 text-slate-950 shadow-[0_0_20px_rgba(6,182,212,0.4)]' : 'text-white hover:bg-white/10'}`}
     >

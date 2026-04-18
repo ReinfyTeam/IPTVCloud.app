@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState, useCallback } from 'react';
 import { useAuthStore } from '@/store/auth-store';
-import type { AuthUser } from '@/types';
 
 type AdminUser = {
   id: string;
@@ -61,8 +60,8 @@ export default function AdminDashboard() {
   const [users, setUsers] = useState<AdminUser[]>([]);
   const [incidents, setIncidents] = useState<Incident[]>([]);
   const [tickets, setTickets] = useState<Ticket[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
+  const [_loading, setLoading] = useState(false);
+  const [_error, setError] = useState('');
   const [suspendTarget, setSuspendTarget] = useState<AdminUser | null>(null);
   const [suspendReason, setSuspendReason] = useState('');
   const [actionMsg, setActionMsg] = useState('');
@@ -258,7 +257,7 @@ export default function AdminDashboard() {
     setProbing(true);
     try {
       const res = await fetch('/api/admin/probe-channels', { headers: authHeaders() });
-      const data = await res.json();
+      const _data = await res.json();
       setActionMsg(`Probe complete.`);
     } catch {
       setActionMsg('Network error.');
@@ -577,19 +576,7 @@ export default function AdminDashboard() {
                       onClick={() => void handleDeleteIncident(inc.id)}
                       className="p-2 rounded-xl text-slate-500 hover:text-red-400 hover:bg-red-400/10 transition-all"
                     >
-                      <svg
-                        className="h-4 w-4"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
-                        />
-                      </svg>
+                      <span className="material-icons text-sm">delete</span>
                     </button>
                   </div>
                 </div>

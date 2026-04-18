@@ -5,9 +5,9 @@ import { persist } from 'zustand/middleware';
 
 type FavoritesStore = {
   ids: string[];
-  toggleFavorite: (channelId: string) => void;
-  hydrate: (channelIds: string[]) => void;
-  isFavorite: (channelId: string) => boolean;
+  toggleFavorite: (_channelId: string) => void;
+  hydrate: (_channelIds: string[]) => void;
+  isFavorite: (_channelId: string) => boolean;
 };
 
 export const useFavoritesStore = create<FavoritesStore>()(

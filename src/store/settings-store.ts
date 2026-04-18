@@ -7,9 +7,9 @@ import { DEFAULT_SETTINGS } from '@/types';
 
 type SettingsStore = {
   settings: UserSettings;
-  updateSetting: <K extends keyof UserSettings>(key: K, value: UserSettings[K]) => void;
+  updateSetting: <K extends keyof UserSettings>(_key: K, _value: UserSettings[K]) => void;
   resetSettings: () => void;
-  hydrate: (settings: Partial<UserSettings>) => void;
+  hydrate: (_settings: Partial<UserSettings>) => void;
 };
 
 export const useSettingsStore = create<SettingsStore>()(

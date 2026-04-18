@@ -19,9 +19,9 @@ export type CustomShortcut = {
 
 type ShortcutStore = {
   shortcuts: CustomShortcut[];
-  setShortcut: (action: ShortcutAction, key: string) => void;
-  getShortcutKey: (action: ShortcutAction) => string;
-  loadShortcuts: (shortcuts: CustomShortcut[]) => void;
+  setShortcut: (_action: ShortcutAction, _key: string) => void;
+  getShortcutKey: (_action: ShortcutAction) => string;
+  loadShortcuts: (_shortcuts: CustomShortcut[]) => void;
 };
 
 const DEFAULT_SHORTCUTS: CustomShortcut[] = [

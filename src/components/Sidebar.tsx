@@ -4,17 +4,17 @@ import { COUNTRY_NAMES } from '@/lib/countries';
 
 type SidebarProps = {
   search: string;
-  setSearch: (v: string) => void;
+  setSearch: (_v: string) => void;
   country: string;
-  setCountry: (v: string) => void;
+  setCountry: (_v: string) => void;
   category: string;
-  setCategory: (v: string) => void;
+  setCategory: (_v: string) => void;
   language: string;
-  setLanguage: (v: string) => void;
+  setLanguage: (_v: string) => void;
   resolution: string;
-  setResolution: (v: string) => void;
+  setResolution: (_v: string) => void;
   favoritesOnly: boolean;
-  setFavoritesOnly: (v: boolean | ((prev: boolean) => boolean)) => void;
+  setFavoritesOnly: (_v: boolean | ((_prev: boolean) => boolean)) => void;
   filterOptions: {
     countries: string[];
     categories: string[];
@@ -22,7 +22,7 @@ type SidebarProps = {
     resolutions: string[];
   };
   isMobileOpen: boolean;
-  setIsMobileOpen: (v: boolean) => void;
+  setIsMobileOpen: (_v: boolean) => void;
 };
 
 const REVERSE_COUNTRY_MAP: Record<string, string> = {};

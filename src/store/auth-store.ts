@@ -7,7 +7,7 @@ import type { AuthUser } from '@/types';
 type AuthStore = {
   user: AuthUser | null;
   token: string | null;
-  setAuth: (user: AuthUser, token: string) => void;
+  setAuth: (_user: AuthUser, _token: string) => void;
   clearAuth: () => void;
   isAdmin: () => boolean;
   isStaff: () => boolean;

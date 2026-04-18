@@ -3,7 +3,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { useAuthStore } from '@/store/auth-store';
-import type { AuthUser } from '@/types';
 
 type CommentUser = { id: string; name: string | null; email: string; role: string };
 

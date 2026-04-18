@@ -13,8 +13,8 @@ export type HistoryEntry = {
 
 type HistoryStore = {
   history: HistoryEntry[];
-  addEntry: (channel: Channel) => void;
-  removeEntry: (channelId: string) => void;
+  addHistory: (_channel: Channel) => void;
+  removeHistory: (_channelId: string) => void;
   clearHistory: () => void;
 };
 
@@ -24,7 +24,7 @@ export const useHistoryStore = create<HistoryStore>()(
   persist(
     (set) => ({
       history: [],
-      addEntry: (channel) =>
+      addHistory: (channel) =>
         set((state) => {
           const filtered = state.history.filter((e) => e.channelId !== channel.id);
           const entry: HistoryEntry = {
@@ -35,7 +35,7 @@ export const useHistoryStore = create<HistoryStore>()(
           };
           return { history: [entry, ...filtered].slice(0, MAX_HISTORY) };
         }),
-      removeEntry: (channelId) =>
+      removeHistory: (channelId) =>
         set((state) => ({ history: state.history.filter((e) => e.channelId !== channelId) })),
       clearHistory: () => set({ history: [] }),
     }),

@@ -27,7 +27,7 @@ export async function POST(request: Request) {
   const auth = await authorizeRequest(request, { requireStaff: true });
   if (auth instanceof NextResponse) return auth;
 
-  const { userId, action, reason, value } = await request.json();
+  const { userId, action, reason, value: _unusedValue } = await request.json();
 
   if (action === 'SUSPEND') {
     await prisma.user.update({

@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 import Hls from 'hls.js';
 import { buildStreamProxyUrl } from '@/services/stream-service';
 
@@ -77,7 +78,7 @@ export default function HeroVideo({ streamUrl, channelId, poster }: Props) {
           playsInline
         />
       )}
-      import Image from 'next/image'; ...
+
       {hasError && poster && (
         <Image
           src={poster}
@@ -87,7 +88,7 @@ export default function HeroVideo({ streamUrl, channelId, poster }: Props) {
           className="absolute inset-0 h-full w-full object-cover opacity-30 blur-xl scale-110"
         />
       )}
-      ...
+
       {/* Gradient Overlay to ensure text readability */}
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-950/40" />

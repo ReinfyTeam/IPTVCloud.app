@@ -1,5 +1,3 @@
-import { setCache, getCache } from '@/services/cache-service';
-
 const STREAM_PROXY_BASE = '/api/stream';
 
 export function isHttpUrl(value: string) {

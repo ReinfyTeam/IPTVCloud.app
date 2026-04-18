@@ -66,7 +66,7 @@ function normalizeChannel(channel: Channel): Channel {
 function dedupeChannels(channels: Channel[]): Channel[] {
   const map = new Map<string, Channel>();
 
-  channels.forEach((ch, idx) => {
+  channels.forEach((ch, _idx) => {
     const normalized = normalizeChannel(ch);
     const key = normalized.epgId || normalized.streamUrl;
     const existing = map.get(key);

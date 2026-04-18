@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
+import Image from 'next/image';
 import type { Channel } from '@/types';
 import { useNetworkStatus } from '@/hooks/use-network';
 import Hls from 'hls.js';
@@ -9,11 +10,11 @@ import { REVERSE_COUNTRY_MAP } from '@/lib/countries';
 
 type Props = {
   channel: Channel;
-  onSelect: (channel: Channel) => void;
+  onSelect: (_channel: Channel) => void;
   active?: boolean;
   mode?: 'grid' | 'list';
   favorite?: boolean;
-  onToggleFavorite?: (channelId: string) => void;
+  onToggleFavorite?: (_channelId: string) => void;
 };
 
 export default function ChannelCard({
@@ -131,13 +132,18 @@ export default function ChannelCard({
         }`}
       >
         <div className="relative shrink-0 overflow-hidden rounded-xl h-12 w-12 bg-slate-900 shadow-inner">
-import Image from 'next/image';
-
-...
           {showPreview && !channel.isGeoBlocked ? (
             <div className="relative h-full w-full">
               <video ref={videoRef} className="h-full w-full object-cover scale-150" playsInline />
-...
+              <button
+                onClick={toggleMute}
+                className="absolute bottom-1 right-1 h-4 w-4 rounded-full bg-black/60 flex items-center justify-center text-white/80 hover:text-white"
+              >
+                <span className="material-icons text-[10px]">
+                  {muted ? 'volume_off' : 'volume_up'}
+                </span>
+              </button>
+            </div>
           ) : channel.logo && !imgError ? (
             <Image
               src={channel.logo}
@@ -149,64 +155,152 @@ import Image from 'next/image';
               className="h-full w-full object-contain p-1 group-hover:scale-110 transition-transform duration-500"
             />
           ) : (
-...
+            <div className="flex h-full w-full items-center justify-center text-xs font-bold text-slate-700 uppercase italic">
+              {initials}
+            </div>
+          )}
+        </div>
+
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2">
+            <h3 className="font-bold text-white truncate group-hover:text-cyan-400 transition-colors uppercase italic tracking-tighter">
+              {channel.name}
+            </h3>
+            {countryCode && (
+              <div className="h-3 w-4 rounded-sm overflow-hidden border border-white/10 shrink-0">
                 <Image
-                  src={`https://flagcdn.com/w20/${countryCode}.png`}
-                  alt={channel.country}
+                  src={`https://flagcdn.com/w20/${countryCode.toLowerCase()}.png`}
+                  alt={channel.country || ''}
                   width={20}
                   height={15}
-                  className="h-3 w-4 rounded-sm object-cover shadow-sm"
+                  className="h-full w-full object-cover"
                 />
-                ) : null}
-                </div>
-                </div>
-            <div className="flex-1 min-w-0">
-              <h3 className="font-bold text-white truncate group-hover:text-cyan-400 transition-colors">
-                {channel.name}
-              </h3>
-              <p className="text-[10px] text-slate-500 uppercase tracking-widest font-bold">
-                {channel.category}
-              </p>
-            </div>
+              </div>
+            )}
+          </div>
+          <p className="text-[10px] text-slate-500 uppercase tracking-widest font-black truncate opacity-60">
+            {channel.category}
+          </p>
+        </div>
+
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            onToggleFavorite?.(channel.id);
+          }}
+          className={`shrink-0 rounded-full p-2 transition-all duration-300 active:scale-90 ${
+            favorite
+              ? 'text-amber-400 bg-amber-400/10'
+              : 'text-slate-700 hover:text-slate-400 hover:bg-white/5'
+          }`}
+        >
+          <span className="material-icons text-lg">{favorite ? 'star' : 'star_border'}</span>
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div
+      onClick={handleSelect}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      className={`group relative flex cursor-pointer flex-col overflow-hidden rounded-[32px] border transition-all duration-500 transform-gpu ${
+        !isOnline ? 'opacity-50 grayscale select-none pointer-events-none' : ''
+      } ${
+        active
+          ? 'border-cyan-500/50 bg-cyan-500/[0.05] shadow-[0_0_30px_rgba(6,182,212,0.15)] ring-1 ring-cyan-500/30'
+          : 'border-white/[0.08] bg-white/[0.03] hover:border-white/20 hover:bg-white/[0.06] hover:-translate-y-2'
+      }`}
+    >
+      <div className="relative aspect-video w-full overflow-hidden bg-slate-900 shadow-inner">
+        {showPreview && !channel.isGeoBlocked ? (
+          <div className="relative h-full w-full">
+            <video ref={videoRef} className="h-full w-full object-cover" playsInline />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+            <button
+              onClick={toggleMute}
+              className="absolute bottom-3 right-3 h-8 w-8 rounded-full bg-black/60 flex items-center justify-center text-white backdrop-blur-md hover:bg-black/80 transition-all border border-white/10"
+            >
+              <span className="material-icons text-sm">{muted ? 'volume_off' : 'volume_up'}</span>
+            </button>
           </div>
         ) : channel.logo && !imgError ? (
           <Image
             src={channel.logo}
             alt={channel.name}
-            width={200}
-            height={200}
+            width={320}
+            height={180}
             loading="lazy"
             onError={() => setImgError(true)}
-            className="h-full w-full object-contain p-4 group-hover:scale-105 transition-transform"
-          />
             className="h-full w-full object-contain p-6 transition-transform duration-[800ms] group-hover:scale-110"
           />
         ) : (
-...
-                ) : countryCode ? (
-                  <Image
-                    src={`https://flagcdn.com/w20/${countryCode}.png`}
-                    alt={channel.country}
-                    width={20}
-                    height={15}
-                    className="h-2.5 w-3.5 rounded-[2px] object-cover shadow-sm opacity-60"
-                  />
-                ) : null}
-...
-          <button
-            onClick={(e) => {
-              e.stopPropagation();
-              onToggleFavorite?.(channel.id);
-            }}
-            className={`shrink-0 rounded-full p-2 transition-all duration-300 active:scale-90 ${
-              favorite
-                ? 'text-amber-400 bg-amber-400/10'
-                : 'text-slate-700 hover:text-slate-400 hover:bg-white/5'
-            }`}
-          >
-            <span className="material-icons text-xl">{favorite ? 'star' : 'star_border'}</span>
-          </button>
+          <div className="flex h-full w-full items-center justify-center text-3xl font-black text-slate-800 uppercase italic tracking-tighter">
+            {initials}
+          </div>
+        )}
+
+        <div className="absolute top-4 left-4 flex flex-col gap-2">
+          <div className="rounded-full bg-black/40 px-3 py-1 text-[9px] font-black text-white backdrop-blur-md border border-white/10 tracking-widest uppercase italic">
+            {channel.category}
+          </div>
         </div>
+
+        {channel.isGeoBlocked && (
+          <div className="absolute inset-0 flex items-center justify-center bg-slate-950/80 backdrop-blur-sm p-4 text-center">
+            <div className="space-y-2">
+              <span className="material-icons text-red-500 text-3xl">public_off</span>
+              <p className="text-[10px] font-bold text-red-300 uppercase tracking-widest leading-tight">
+                GEO BLOCKED
+              </p>
+            </div>
+          </div>
+        )}
+      </div>
+
+      <div className="p-5 flex items-center justify-between gap-4 relative">
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center gap-2 mb-0.5">
+            <h3 className="truncate font-black text-white uppercase italic tracking-tighter group-hover:text-cyan-400 transition-colors">
+              {channel.name}
+            </h3>
+            {countryCode && (
+              <div className="h-2.5 w-3.5 rounded-[2px] overflow-hidden border border-white/10 shrink-0 opacity-60">
+                <Image
+                  src={`https://flagcdn.com/w20/${countryCode.toLowerCase()}.png`}
+                  alt={channel.country || ''}
+                  width={20}
+                  height={15}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            )}
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">
+              Live Stream
+            </span>
+            <span className="h-1 w-1 rounded-full bg-slate-700" />
+            <span className="text-[9px] font-black text-cyan-500/60 uppercase tracking-tighter">
+              {channel.viewersCount?.toLocaleString()} VIEWERS
+            </span>
+          </div>
+        </div>
+
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            onToggleFavorite?.(channel.id);
+          }}
+          className={`shrink-0 rounded-full p-2.5 transition-all duration-300 active:scale-90 ${
+            favorite
+              ? 'text-amber-400 bg-amber-400/10 border border-amber-400/20'
+              : 'text-slate-600 hover:text-slate-300 hover:bg-white/5 border border-transparent'
+          }`}
+        >
+          <span className="material-icons text-xl">{favorite ? 'star' : 'star_border'}</span>
+        </button>
       </div>
     </div>
   );
