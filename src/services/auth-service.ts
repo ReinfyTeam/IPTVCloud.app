@@ -3,9 +3,10 @@ import jwt from 'jsonwebtoken';
 import { NextResponse } from 'next/server';
 import type { User } from '@prisma/client';
 import prisma from '@/lib/prisma';
+import { getTokenFromRequest } from '@/lib/cookies';
 import type { AuthPayload, AuthUser } from '@/types';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'changeme';
+const JWT_SECRET = process.env.JWT_SECRET || 'changeme-set-JWT_SECRET-env';
 const ADMIN_ROLE = 'ADMIN';
 
 type AuthorizeOptions = {
@@ -22,7 +23,7 @@ type AuthContext = {
 function getConfiguredAdminEmails() {
   return (process.env.ADMIN_EMAILS || '')
     .split(',')
-    .map((value) => value.trim().toLowerCase())
+    .map((v) => v.trim().toLowerCase())
     .filter(Boolean);
 }
 
@@ -56,20 +57,15 @@ export function resolveRegistrationRole(email: string) {
 }
 
 export async function hashPassword(password: string) {
-  return bcrypt.hash(password, 10);
+  return bcrypt.hash(password, 12);
 }
 
 export async function verifyPassword(password: string, hash: string) {
   return bcrypt.compare(password, hash);
 }
 
-export function readBearerToken(request: Request) {
-  const authorization = request.headers.get('authorization') || '';
-  return authorization.startsWith('Bearer ') ? authorization.slice(7) : null;
-}
-
-export async function getUserFromRequest(request: Request) {
-  const token = readBearerToken(request);
+export async function getUserFromRequest(request: Request): Promise<User | null> {
+  const token = getTokenFromRequest(request);
   if (!token) return null;
 
   try {
@@ -84,15 +80,9 @@ function getApiKeyContext(request: Request): AuthContext | null {
   const configuredKey = process.env.ADMIN_API_KEY;
   const incomingKey = request.headers.get('x-api-key');
 
-  if (!configuredKey || !incomingKey || incomingKey !== configuredKey) {
-    return null;
-  }
+  if (!configuredKey || !incomingKey || incomingKey !== configuredKey) return null;
 
-  return {
-    authMethod: 'api-key',
-    isAdmin: true,
-    user: null,
-  };
+  return { authMethod: 'api-key', isAdmin: true, user: null };
 }
 
 export async function authorizeRequest(
@@ -100,8 +90,8 @@ export async function authorizeRequest(
   options: AuthorizeOptions = {},
 ): Promise<AuthContext | NextResponse> {
   if (options.allowApiKey) {
-    const apiKeyContext = getApiKeyContext(request);
-    if (apiKeyContext) return apiKeyContext;
+    const apiKeyCtx = getApiKeyContext(request);
+    if (apiKeyCtx) return apiKeyCtx;
   }
 
   const user = await getUserFromRequest(request);

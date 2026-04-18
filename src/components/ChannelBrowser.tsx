@@ -1,677 +1,427 @@
 'use client';
 
-import Link from 'next/link';
-import React, { useEffect, useState } from 'react';
-import { useChannelBrowser } from '@/hooks/use-channel-browser';
+import React, { useEffect, useMemo, useRef, useState, useCallback } from 'react';
+import type { Channel } from '@/types';
+import { useFavoritesStore } from '@/store/favorites-store';
+import { usePlayerStore } from '@/store/player-store';
+import { useHistoryStore } from '@/store/history-store';
 import Player from './Player';
 import ChannelCard from './ChannelCard';
-import type { Channel } from '@/types';
+import EpgStrip from './EpgStrip';
 
-function SectionHeading({
-  eyebrow,
-  title,
-  description,
-  action,
-}: {
-  eyebrow: string;
-  title: string;
-  description: string;
-  action?: React.ReactNode;
-}) {
-  return (
-    <div className="mb-5 flex flex-wrap items-end justify-between gap-4">
-      <div>
-        <p className="text-xs uppercase tracking-[0.35em] text-cyan-300">{eyebrow}</p>
-        <h2 className="mt-2 text-2xl font-semibold text-white sm:text-3xl">{title}</h2>
-        <p className="mt-2 max-w-2xl text-sm text-slate-400">{description}</p>
-      </div>
-      {action}
-    </div>
-  );
+function useDebounce<T>(value: T, delay: number): T {
+  const [debounced, setDebounced] = useState(value);
+  useEffect(() => {
+    const t = setTimeout(() => setDebounced(value), delay);
+    return () => clearTimeout(t);
+  }, [value, delay]);
+  return debounced;
 }
 
-function scrollToSection(sectionId: string) {
-  document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-}
+type FacetItem = { name: string; count: number; sample: Channel[] };
 
-function HighlightCard({
-  title,
-  value,
-  tone = 'default',
-}: {
-  title: string;
-  value: string | number;
-  tone?: 'default' | 'accent' | 'warm';
-}) {
-  const toneClass =
-    tone === 'accent'
-      ? 'from-cyan-400/25 to-sky-500/10'
-      : tone === 'warm'
-        ? 'from-amber-300/20 to-orange-500/10'
-        : 'from-white/10 to-white/5';
-
-  return (
-    <div className={`rounded-[28px] border border-white/10 bg-gradient-to-br ${toneClass} p-4 shadow-lg shadow-black/20`}>
-      <div className="text-sm text-slate-400">{title}</div>
-      <div className="mt-2 text-3xl font-semibold text-white">{value}</div>
-    </div>
-  );
+function buildFacets(channels: Channel[], pick: (c: Channel) => string | undefined, limit = 8): FacetItem[] {
+  const map = new Map<string, Channel[]>();
+  for (const ch of channels) {
+    const v = pick(ch)?.trim();
+    if (!v) continue;
+    const arr = map.get(v) || [];
+    arr.push(ch);
+    map.set(v, arr);
+  }
+  return [...map.entries()]
+    .map(([name, items]) => ({ name, count: items.length, sample: items.slice(0, 4) }))
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+    .slice(0, limit);
 }
 
 export default function ChannelBrowser({ channels }: { channels: Channel[] }) {
-  const {
-    applyCategory,
-    applyCountry,
-    category,
-    categoryHighlights,
-    clearFilters,
-    country,
-    countryHighlights,
-    favoriteChannels,
-    favoritesOnly,
-    filteredChannels,
-    filterOptions,
-    hasActiveFilters,
-    isFavorite,
-    language,
-    quickPicks,
-    search,
-    selectedChannel,
-    selectChannel,
-    selectNextChannel,
-    selectPreviousChannel,
-    setCategory,
-    setCountry,
-    setFavoritesOnly,
-    setLanguage,
-    setSearch,
-    setViewMode,
-    toggleFavorite,
-    viewMode,
-  } = useChannelBrowser(channels);
-  const [feedback, setFeedback] = useState<string | null>(null);
-  const [currentShareUrl, setCurrentShareUrl] = useState('');
+  const { selectedChannelId, setSelectedChannelId, viewMode, setViewMode } = usePlayerStore();
+  const { ids: favoriteIds, toggleFavorite, isFavorite } = useFavoritesStore();
+  const { addEntry: addHistory } = useHistoryStore();
+
+  const [search, setSearch] = useState('');
+  const [country, setCountry] = useState('');
+  const [category, setCategory] = useState('');
+  const [language, setLanguage] = useState('');
+  const [favoritesOnly, setFavoritesOnly] = useState(false);
+  const [page, setPage] = useState(1);
+  const [shareUrl, setShareUrl] = useState('');
+
+  const debouncedSearch = useDebounce(search, 280);
+  const ITEMS_PER_PAGE = 48;
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-    setCurrentShareUrl(window.location.href);
-  }, [selectedChannel?.id]);
+    if (typeof window !== 'undefined') setShareUrl(window.location.href);
+  }, [selectedChannelId]);
 
-  async function handleShareChannel() {
-    if (!selectedChannel) return;
-
-    try {
-      if (navigator.share) {
-        await navigator.share({
-          title: `${selectedChannel.name} on IPTVCloud.app`,
-          text: `Watch ${selectedChannel.name} live on IPTVCloud.app`,
-          url: window.location.href,
-        });
-      } else {
-        await navigator.clipboard.writeText(window.location.href);
-        setFeedback('Channel link copied to clipboard.');
-      }
-    } catch {
-      // Ignore user-cancelled shares.
+  useEffect(() => {
+    if (!channels.length) return;
+    const urlId = typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('channel') : null;
+    if (urlId && channels.some((c) => c.id === urlId)) {
+      setSelectedChannelId(urlId);
+    } else if (!selectedChannelId) {
+      setSelectedChannelId(channels[0].id);
     }
-  }
+  }, [channels]);
 
-  async function handleCopyStreamUrl() {
-    if (!selectedChannel?.streamUrl) return;
-    await navigator.clipboard.writeText(selectedChannel.streamUrl);
-    setFeedback('Stream URL copied to clipboard.');
-  }
+  useEffect(() => {
+    if (!selectedChannelId || typeof window === 'undefined') return;
+    const url = new URL(window.location.href);
+    url.searchParams.set('channel', selectedChannelId);
+    window.history.replaceState({}, '', url.toString());
+  }, [selectedChannelId]);
 
-  React.useEffect(() => {
-    if (!feedback) return;
-    const timer = window.setTimeout(() => setFeedback(null), 2200);
-    return () => window.clearTimeout(timer);
-  }, [feedback]);
+  useEffect(() => { setPage(1); }, [debouncedSearch, country, category, language, favoritesOnly]);
+
+  const filterOptions = useMemo(() => ({
+    countries: [...new Set(channels.map((c) => c.country || '').filter(Boolean))].sort(),
+    categories: [...new Set(channels.map((c) => c.category || '').filter(Boolean))].sort(),
+    languages: [...new Set(channels.map((c) => c.language || '').filter(Boolean))].sort(),
+  }), [channels]);
+
+  const filteredChannels = useMemo(() => {
+    const q = debouncedSearch.toLowerCase();
+    return channels.filter((c) => {
+      if (q && !['name', 'country', 'category', 'language'].some((k) => (c[k as keyof Channel] as string)?.toLowerCase().includes(q))) return false;
+      if (country && c.country !== country) return false;
+      if (category && c.category !== category) return false;
+      if (language && c.language !== language) return false;
+      if (favoritesOnly && !favoriteIds.includes(c.id)) return false;
+      return true;
+    });
+  }, [channels, debouncedSearch, country, category, language, favoritesOnly, favoriteIds]);
+
+  const pagedChannels = useMemo(
+    () => filteredChannels.slice(0, page * ITEMS_PER_PAGE),
+    [filteredChannels, page],
+  );
+
+  const categoryFacets = useMemo(() => buildFacets(channels, (c) => c.category), [channels]);
+  const countryFacets = useMemo(() => buildFacets(channels, (c) => c.country), [channels]);
+  const favoriteChannels = useMemo(() => channels.filter((c) => favoriteIds.includes(c.id)), [channels, favoriteIds]);
+
+  const selectedChannel = useMemo(
+    () => channels.find((c) => c.id === selectedChannelId) || null,
+    [channels, selectedChannelId],
+  );
+
+  const currentIndex = filteredChannels.findIndex((c) => c.id === selectedChannelId);
+
+  const selectChannel = useCallback((ch: Channel) => {
+    setSelectedChannelId(ch.id);
+    addHistory(ch);
+    document.getElementById('watch')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, [setSelectedChannelId, addHistory]);
+
+  const selectNext = useCallback(() => {
+    if (!filteredChannels.length) return;
+    const next = filteredChannels[(currentIndex + 1) % filteredChannels.length];
+    selectChannel(next);
+  }, [filteredChannels, currentIndex, selectChannel]);
+
+  const selectPrev = useCallback(() => {
+    if (!filteredChannels.length) return;
+    const prev = filteredChannels[(currentIndex - 1 + filteredChannels.length) % filteredChannels.length];
+    selectChannel(prev);
+  }, [filteredChannels, currentIndex, selectChannel]);
+
+  const clearFilters = () => { setSearch(''); setCountry(''); setCategory(''); setLanguage(''); setFavoritesOnly(false); };
+  const hasFilters = Boolean(search || country || category || language || favoritesOnly);
 
   return (
-    <div className="px-4 py-6 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-[1460px] space-y-8">
-        <nav className="sticky top-4 z-30 animate-fade-up rounded-full border border-white/[0.12] bg-slate-950/70 px-3 py-3 shadow-2xl shadow-black/30 backdrop-blur-xl">
-          <div className="flex flex-wrap items-center justify-between gap-3">
-            <div className="flex items-center gap-3">
-              <div className="flex h-11 w-11 items-center justify-center rounded-full bg-cyan-400 text-sm font-semibold text-slate-950">
-                IC
+    <div className="pb-20">
+      <section id="hero" className="pt-24 pb-12 px-4 sm:px-6">
+        <div className="mx-auto max-w-[1460px]">
+          <div className="flex flex-col lg:flex-row gap-6">
+            <div className="flex-1 animate-fade-up">
+              <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/[0.07] px-3 py-1.5 text-xs font-medium text-cyan-300 mb-5">
+                <span className="h-1.5 w-1.5 rounded-full bg-cyan-400 animate-pulse" />
+                Premium IPTV Dashboard
               </div>
-              <div>
-                <div className="text-sm font-semibold text-white">IPTVCloud.app</div>
-                <div className="text-xs text-slate-400">Live channels, cleaner navigation, faster browsing</div>
-              </div>
-            </div>
-
-            <div className="flex flex-wrap items-center gap-2 text-sm">
-              {[
-                ['Watch', 'watch'],
-                ['Quick Picks', 'quick-picks'],
-                ['Favorites', 'favorites'],
-                ['Categories', 'categories'],
-                ['Countries', 'countries'],
-                ['Library', 'channels'],
-              ].map(([label, id]) => (
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-white leading-[1.1]">
+                Watch live TV,<br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-400">anywhere.</span>
+              </h1>
+              <p className="mt-5 text-lg text-slate-400 max-w-xl">
+                {channels.length.toLocaleString()} live channels across {filterOptions.countries.length} countries.
+                Browse by category, save favorites, and switch channels instantly.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
                 <button
-                  className="rounded-full border border-transparent bg-white/5 px-4 py-2 text-slate-200 transition hover:border-white/10 hover:bg-white/10"
-                  key={id}
-                  onClick={() => scrollToSection(id)}
-                  type="button"
+                  onClick={() => document.getElementById('watch')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="rounded-full bg-cyan-500 px-6 py-3 text-sm font-semibold text-slate-950 hover:bg-cyan-400 transition-colors shadow-lg shadow-cyan-500/25"
                 >
-                  {label}
+                  Start watching
                 </button>
-              ))}
-              <Link
-                className="rounded-full bg-cyan-400 px-4 py-2 font-medium text-slate-950 transition hover:bg-cyan-300"
-                href="/admin"
-              >
-                Admin
-              </Link>
-            </div>
-          </div>
-        </nav>
-
-        <section className="grid gap-5 lg:grid-cols-[1.05fr_0.95fr]">
-          <div className="animate-fade-up rounded-[36px] border border-white/10 bg-white/[0.06] p-6 shadow-2xl shadow-black/30 backdrop-blur-xl sm:p-8">
-            <div className="inline-flex rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-cyan-200">
-              Premium IPTV Dashboard
-            </div>
-            <h1 className="mt-6 max-w-3xl text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-              Cleaner browsing, smarter sections, and quicker channel switching.
-            </h1>
-            <p className="mt-5 max-w-2xl text-base leading-7 text-slate-300">
-              Jump between curated picks, favorites, categories, and countries without losing the live player.
-              The layout keeps discovery and watching in one continuous flow.
-            </p>
-
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              <button
-                className="rounded-full bg-cyan-400 px-5 py-3 text-sm font-medium text-slate-950 transition hover:bg-cyan-300"
-                onClick={() => scrollToSection('watch')}
-                type="button"
-              >
-                Start watching
-              </button>
-              <button
-                className="rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm text-slate-100 transition hover:border-white/20 hover:bg-white/10"
-                onClick={() => scrollToSection('channels')}
-                type="button"
-              >
-                Open channel library
-              </button>
-              <button
-                className="rounded-full border border-amber-300/20 bg-amber-300/10 px-5 py-3 text-sm text-amber-100 transition hover:bg-amber-300/[0.15]"
-                onClick={() => scrollToSection('favorites')}
-                type="button"
-              >
-                View favorites
-              </button>
+                <button
+                  onClick={() => document.getElementById('channels')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="rounded-full border border-white/10 bg-white/[0.04] px-6 py-3 text-sm text-slate-300 hover:bg-white/[0.08] hover:text-white transition-colors"
+                >
+                  Browse channels
+                </button>
+              </div>
+              <div className="mt-8 grid grid-cols-3 gap-4 max-w-sm">
+                {[
+                  { label: 'Live channels', value: channels.length.toLocaleString() },
+                  { label: 'Countries', value: filterOptions.countries.length },
+                  { label: 'Categories', value: filterOptions.categories.length },
+                ].map(({ label, value }) => (
+                  <div key={label} className="rounded-2xl border border-white/[0.07] bg-white/[0.03] p-3 text-center">
+                    <div className="text-xl font-bold text-white">{value}</div>
+                    <div className="text-xs text-slate-500 mt-0.5">{label}</div>
+                  </div>
+                ))}
+              </div>
             </div>
 
-            <div className="mt-8 grid gap-3 sm:grid-cols-3">
-              <HighlightCard title="Live channels" tone="accent" value={channels.length} />
-              <HighlightCard title="Visible now" value={filteredChannels.length} />
-              <HighlightCard title="Saved favorites" tone="warm" value={favoriteChannels.length} />
-            </div>
-          </div>
-
-          <div className="animate-fade-up-delayed rounded-[36px] border border-white/10 bg-gradient-to-br from-slate-900/80 to-slate-950/95 p-6 shadow-2xl shadow-black/30">
-            <SectionHeading
-              action={
-                <div className="flex flex-wrap gap-2">
-                  <button
-                    className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-100 transition hover:bg-white/10"
-                    onClick={() => void handleShareChannel()}
-                    type="button"
-                  >
-                    Share channel
-                  </button>
-                  <button
-                    className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-100 transition hover:bg-white/10"
-                    onClick={() => void handleCopyStreamUrl()}
-                    type="button"
-                  >
-                    Copy stream URL
-                  </button>
-                </div>
-              }
-              description="The current channel stays pinned as your live focus while the rest of the dashboard adapts around it."
-              eyebrow="Now Playing"
-              title={selectedChannel?.name || 'Select a channel'}
-            />
-
-            <div className="flex items-start gap-4 rounded-[28px] border border-white/10 bg-white/5 p-4">
-              {selectedChannel?.logo ? (
-                <img
-                  alt={selectedChannel.name}
-                  className="h-20 w-20 rounded-[22px] bg-black object-cover shadow-lg shadow-black/30"
-                  src={selectedChannel.logo}
-                />
-              ) : (
-                <div className="flex h-20 w-20 items-center justify-center rounded-[22px] bg-black text-xs text-slate-500">
-                  No logo
-                </div>
-              )}
-              <div className="min-w-0 flex-1">
-                <div className="text-lg font-semibold text-white">{selectedChannel?.name || 'Waiting for selection'}</div>
-                <div className="mt-2 text-sm text-slate-400">
-                  {[selectedChannel?.country, selectedChannel?.category, selectedChannel?.language].filter(Boolean).join(' • ') ||
-                    'Choose a live channel to begin playback.'}
-                </div>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {selectedChannel?.country && (
-                    <button
-                      className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200 transition hover:bg-white/10"
-                      onClick={() => {
-                        applyCountry(selectedChannel.country!);
-                        scrollToSection('channels');
-                      }}
-                      type="button"
-                    >
-                      {selectedChannel.country}
-                    </button>
-                  )}
-                  {selectedChannel?.category && (
-                    <button
-                      className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200 transition hover:bg-white/10"
-                      onClick={() => {
-                        applyCategory(selectedChannel.category!);
-                        scrollToSection('channels');
-                      }}
-                      type="button"
-                    >
-                      {selectedChannel.category}
-                    </button>
-                  )}
-                  <div className="rounded-full border border-cyan-300/20 bg-cyan-300/10 px-3 py-1.5 text-xs text-cyan-100">
-                    Shareable link ready
+            {selectedChannel && (
+              <div className="lg:w-80 animate-fade-up-delayed">
+                <div className="rounded-2xl border border-white/[0.07] bg-white/[0.03] p-4 space-y-3">
+                  <div className="flex items-center gap-2 text-xs text-slate-500 font-medium uppercase tracking-wider">
+                    <span className="h-1.5 w-1.5 rounded-full bg-red-400 animate-pulse" />
+                    Now Playing
+                  </div>
+                  <div className="flex items-center gap-3">
+                    {selectedChannel.logo ? (
+                      <img src={selectedChannel.logo} alt={selectedChannel.name} className="h-12 w-12 rounded-xl object-contain bg-slate-900" />
+                    ) : (
+                      <div className="h-12 w-12 rounded-xl bg-slate-800 flex items-center justify-center text-xs font-bold text-slate-500">
+                        {selectedChannel.name.slice(0, 2).toUpperCase()}
+                      </div>
+                    )}
+                    <div className="min-w-0">
+                      <div className="font-semibold text-white truncate">{selectedChannel.name}</div>
+                      <div className="text-xs text-slate-500 truncate">
+                        {[selectedChannel.country, selectedChannel.category].filter(Boolean).join(' · ')}
+                      </div>
+                    </div>
+                  </div>
+                  <EpgStrip channelId={selectedChannel.epgId} compact />
+                  <div className="flex gap-2">
+                    <button onClick={selectPrev} className="flex-1 rounded-xl bg-white/[0.04] border border-white/[0.07] py-2 text-xs text-slate-400 hover:text-white hover:bg-white/[0.08] transition-colors">← Prev</button>
+                    <button onClick={selectNext} className="flex-1 rounded-xl bg-white/[0.04] border border-white/[0.07] py-2 text-xs text-slate-400 hover:text-white hover:bg-white/[0.08] transition-colors">Next →</button>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            <div className="mt-4 grid gap-3 sm:grid-cols-3">
-              <div className="rounded-[24px] border border-white/10 bg-slate-950/70 p-4">
-                <div className="text-sm text-slate-400">Channel link</div>
-                <div className="mt-2 truncate text-sm text-white">{currentShareUrl || 'Current page URL'}</div>
-              </div>
-              <div className="rounded-[24px] border border-white/10 bg-slate-950/70 p-4">
-                <div className="text-sm text-slate-400">Keyboard</div>
-                <div className="mt-2 text-sm text-white">Space, F, M, Arrow keys</div>
-              </div>
-              <div className="rounded-[24px] border border-white/10 bg-slate-950/70 p-4">
-                <div className="text-sm text-slate-400">Focus mode</div>
-                <div className="mt-2 text-sm text-white">Pinned live player, filter-driven browsing</div>
-              </div>
-            </div>
-
-            {feedback && (
-              <div className="mt-4 rounded-2xl border border-emerald-400/20 bg-emerald-400/10 px-4 py-3 text-sm text-emerald-100">
-                {feedback}
               </div>
             )}
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="animate-fade-up" id="watch">
-          <SectionHeading
-            description="Everything needed to watch, search, and filter is grouped here so the live experience stays simple."
-            eyebrow="Watch"
-            title="Live player and controls"
-          />
-
-          <div className="grid gap-5 xl:grid-cols-[1.35fr_0.65fr]">
+      <section id="watch" className="px-4 sm:px-6 py-6">
+        <div className="mx-auto max-w-[1460px]">
+          <div className="grid gap-5 xl:grid-cols-[1fr_340px]">
             <Player
-              autoPlay={false}
-              onNextChannel={selectNextChannel}
-              onPreviousChannel={selectPreviousChannel}
-              poster={selectedChannel?.logo}
-              shareUrl={currentShareUrl}
-              streamUrl={selectedChannel?.streamUrl}
-              subtitle={selectedChannel?.country || selectedChannel?.category || selectedChannel?.language}
-              title={selectedChannel?.name}
+              channel={selectedChannel}
               url={selectedChannel?.streamUrl}
+              poster={selectedChannel?.logo}
+              title={selectedChannel?.name}
+              subtitle={selectedChannel ? [selectedChannel.country, selectedChannel.category].filter(Boolean).join(' · ') : undefined}
+              streamUrl={selectedChannel?.streamUrl}
+              shareUrl={shareUrl}
+              onNextChannel={selectNext}
+              onPreviousChannel={selectPrev}
             />
 
-            <section className="rounded-[32px] border border-white/10 bg-white/[0.06] p-5 shadow-2xl shadow-black/20 backdrop-blur-xl">
-              <div className="mb-5 flex items-center justify-between gap-3">
-                <div>
-                  <p className="text-xs uppercase tracking-[0.3em] text-slate-400">Control Deck</p>
-                  <h3 className="mt-2 text-2xl font-semibold text-white">Browse with intent</h3>
-                </div>
-                <div className="flex rounded-full border border-white/10 bg-slate-900/80 p-1">
-                  <button
-                    className={`rounded-full px-3 py-1.5 text-sm ${viewMode === 'grid' ? 'bg-cyan-400 text-slate-950' : 'text-slate-300'}`}
-                    onClick={() => setViewMode('grid')}
-                    type="button"
-                  >
-                    Grid
-                  </button>
-                  <button
-                    className={`rounded-full px-3 py-1.5 text-sm ${viewMode === 'list' ? 'bg-cyan-400 text-slate-950' : 'text-slate-300'}`}
-                    onClick={() => setViewMode('list')}
-                    type="button"
-                  >
-                    List
-                  </button>
+            <div className="rounded-[24px] border border-white/[0.07] bg-white/[0.03] p-4 space-y-4">
+              <div className="flex items-center justify-between">
+                <h3 className="font-semibold text-white">Browse</h3>
+                <div className="flex rounded-xl border border-white/[0.07] bg-slate-950/80 p-1 text-xs">
+                  {(['grid', 'list'] as const).map((m) => (
+                    <button
+                      key={m}
+                      onClick={() => setViewMode(m)}
+                      className={`rounded-lg px-3 py-1.5 capitalize transition-colors ${viewMode === m ? 'bg-cyan-500 text-slate-950 font-medium' : 'text-slate-400 hover:text-white'}`}
+                    >
+                      {m}
+                    </button>
+                  ))}
                 </div>
               </div>
 
-              <label className="mb-3 block">
-                <span className="mb-2 block text-sm text-slate-300">Search by name, country, category, or language</span>
+              <div className="relative">
+                <svg className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><circle cx="11" cy="11" r="8"/><path strokeLinecap="round" strokeLinejoin="round" d="m21 21-4.35-4.35"/></svg>
                 <input
-                  className="w-full rounded-2xl border border-white/10 bg-slate-950/80 px-4 py-3 text-sm text-white outline-none placeholder:text-slate-500"
-                  onChange={(event) => setSearch(event.target.value)}
-                  placeholder="Try News, Philippines, Sports, English..."
+                  type="text"
                   value={search}
+                  onChange={(e) => setSearch(e.target.value)}
+                  placeholder="Search channels…"
+                  className="w-full rounded-xl border border-white/[0.07] bg-slate-950/80 py-2.5 pl-9 pr-4 text-sm text-white placeholder:text-slate-500 outline-none focus:border-cyan-500/50 focus:ring-1 focus:ring-cyan-500/25 transition-colors"
                 />
-              </label>
+              </div>
 
-              <div className="mb-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
-                <select
-                  className="rounded-2xl border border-white/10 bg-slate-950/80 px-4 py-3 text-sm text-white"
-                  onChange={(event) => setCountry(event.target.value)}
-                  value={country}
-                >
+              <div className="grid grid-cols-2 gap-2">
+                <select value={country} onChange={(e) => setCountry(e.target.value)} className="rounded-xl border border-white/[0.07] bg-slate-950/80 px-3 py-2 text-xs text-slate-300 outline-none">
                   <option value="">All countries</option>
-                  {filterOptions.countries.map((item) => (
-                    <option key={item} value={item}>
-                      {item}
-                    </option>
-                  ))}
+                  {filterOptions.countries.map((c) => <option key={c} value={c}>{c}</option>)}
                 </select>
-                <select
-                  className="rounded-2xl border border-white/10 bg-slate-950/80 px-4 py-3 text-sm text-white"
-                  onChange={(event) => setCategory(event.target.value)}
-                  value={category}
-                >
+                <select value={category} onChange={(e) => setCategory(e.target.value)} className="rounded-xl border border-white/[0.07] bg-slate-950/80 px-3 py-2 text-xs text-slate-300 outline-none">
                   <option value="">All categories</option>
-                  {filterOptions.categories.map((item) => (
-                    <option key={item} value={item}>
-                      {item}
-                    </option>
-                  ))}
+                  {filterOptions.categories.map((c) => <option key={c} value={c}>{c}</option>)}
                 </select>
-                <select
-                  className="rounded-2xl border border-white/10 bg-slate-950/80 px-4 py-3 text-sm text-white"
-                  onChange={(event) => setLanguage(event.target.value)}
-                  value={language}
-                >
+                <select value={language} onChange={(e) => setLanguage(e.target.value)} className="rounded-xl border border-white/[0.07] bg-slate-950/80 px-3 py-2 text-xs text-slate-300 outline-none">
                   <option value="">All languages</option>
-                  {filterOptions.languages.map((item) => (
-                    <option key={item} value={item}>
-                      {item}
-                    </option>
-                  ))}
+                  {filterOptions.languages.map((l) => <option key={l} value={l}>{l}</option>)}
                 </select>
                 <button
-                  className={`rounded-2xl border px-4 py-3 text-sm transition ${
-                    favoritesOnly
-                      ? 'border-amber-400 bg-amber-400 text-slate-950'
-                      : 'border-white/10 bg-slate-950/80 text-white hover:bg-slate-900'
-                  }`}
-                  onClick={() => setFavoritesOnly(!favoritesOnly)}
-                  type="button"
+                  onClick={() => setFavoritesOnly((v) => !v)}
+                  className={`rounded-xl border px-3 py-2 text-xs transition-colors ${favoritesOnly ? 'border-amber-400/50 bg-amber-400/10 text-amber-300' : 'border-white/[0.07] bg-slate-950/80 text-slate-400 hover:text-white'}`}
                 >
-                  {favoritesOnly ? 'Showing favorites only' : 'Favorites filter'}
+                  {favoritesOnly ? '★ Favorites only' : '☆ Favorites filter'}
                 </button>
               </div>
 
-              <div className="grid grid-cols-2 gap-3 text-sm lg:grid-cols-4">
-                <HighlightCard title="Channels" value={channels.length} />
-                <HighlightCard title="Visible" tone="accent" value={filteredChannels.length} />
-                <HighlightCard title="Playing" value={selectedChannel?.name || 'None'} />
-                <HighlightCard title="Favorites" tone="warm" value={favoriteChannels.length} />
-              </div>
-
-              {hasActiveFilters && (
-                <div className="mt-4 flex flex-wrap items-center gap-2">
-                  {[search && `Search: ${search}`, country, category, language, favoritesOnly && 'Favorites']
-                    .filter((item): item is string => Boolean(item))
-                    .map((item) => (
-                      <div
-                        className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-slate-200"
-                        key={item}
-                      >
-                        {item}
-                      </div>
-                    ))}
-                  <button
-                    className="rounded-full border border-white/10 bg-slate-950/80 px-3 py-1.5 text-xs text-slate-200 transition hover:bg-white/10"
-                    onClick={clearFilters}
-                    type="button"
-                  >
-                    Clear all
-                  </button>
+              {hasFilters && (
+                <div className="flex flex-wrap items-center gap-1.5">
+                  {[search && `"${search}"`, country, category, language, favoritesOnly && 'Favorites'].filter((v): v is string => Boolean(v)).map((tag) => (
+                    <span key={tag} className="rounded-full bg-cyan-400/10 border border-cyan-400/20 px-2 py-0.5 text-[10px] text-cyan-300">
+                      {tag}
+                    </span>
+                  ))}
+                  <button onClick={clearFilters} className="rounded-full border border-white/[0.07] px-2 py-0.5 text-[10px] text-slate-400 hover:text-white transition-colors">Clear</button>
                 </div>
               )}
-            </section>
-          </div>
-        </section>
 
-        <section className="animate-fade-up" id="quick-picks">
-          <SectionHeading
-            description="A compact rail that keeps discovery fast. These picks adapt to your current filters and selected channel."
-            eyebrow="Quick Picks"
-            title="Jump back into live viewing"
-          />
-
-          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-            {quickPicks.map((channel, index) => (
-              <button
-                className={`group rounded-[28px] border border-white/10 bg-white/5 p-4 text-left transition duration-300 hover:-translate-y-1 hover:border-cyan-300/30 hover:bg-white/[0.08] ${
-                  index === 0 ? 'animate-fade-up' : 'animate-fade-up-delayed'
-                }`}
-                key={channel.id}
-                onClick={() => {
-                  selectChannel(channel);
-                  scrollToSection('watch');
-                }}
-                type="button"
-              >
-                <div className="flex items-center gap-4">
-                  {channel.logo ? (
-                    <img alt={channel.name} className="h-16 w-16 rounded-[20px] bg-black object-cover shadow-lg shadow-black/20" src={channel.logo} />
-                  ) : (
-                    <div className="flex h-16 w-16 items-center justify-center rounded-[20px] bg-black text-xs text-slate-500">
-                      No logo
-                    </div>
-                  )}
-                  <div className="min-w-0">
-                    <div className="truncate text-lg font-semibold text-white">{channel.name}</div>
-                    <div className="mt-1 truncate text-sm text-slate-400">
-                      {[channel.country, channel.category, channel.language].filter(Boolean).join(' • ') || 'Live stream'}
-                    </div>
-                  </div>
-                </div>
-              </button>
-            ))}
-          </div>
-        </section>
-
-        <section className="animate-fade-up" id="favorites">
-          <SectionHeading
-            action={
-              favoriteChannels.length > 0 ? (
-                <button
-                  className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-200 transition hover:bg-white/10"
-                  onClick={() => {
-                    setFavoritesOnly(true);
-                    scrollToSection('channels');
-                  }}
-                  type="button"
-                >
-                  Open favorites in library
-                </button>
-              ) : null
-            }
-            description="Saved channels live in their own section so returning to your go-to streams takes one click."
-            eyebrow="Favorites"
-            title="Your saved channels"
-          />
-
-          {favoriteChannels.length === 0 ? (
-            <div className="rounded-[32px] border border-dashed border-white/10 bg-white/[0.04] p-8 text-center text-slate-400">
-              Save channels from any card and they will appear here for fast access.
+              <div className="text-xs text-slate-500">
+                {filteredChannels.length.toLocaleString()} channel{filteredChannels.length !== 1 ? 's' : ''}
+                {hasFilters ? ' match' : ' total'}
+              </div>
             </div>
-          ) : (
-            <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-              {favoriteChannels.map((channel) => (
+          </div>
+        </div>
+      </section>
+
+      {favoriteChannels.length > 0 && (
+        <section className="px-4 sm:px-6 py-6">
+          <div className="mx-auto max-w-[1460px]">
+            <div className="mb-4 flex items-center justify-between">
+              <div>
+                <div className="text-xs font-semibold uppercase tracking-widest text-amber-400 mb-1">Your Favorites</div>
+                <h2 className="text-xl font-semibold text-white">{favoriteChannels.length} saved channel{favoriteChannels.length !== 1 ? 's' : ''}</h2>
+              </div>
+            </div>
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
+              {favoriteChannels.slice(0, 12).map((ch) => (
                 <ChannelCard
-                  active={channel.id === selectedChannel?.id}
-                  channel={channel}
-                  favorite={isFavorite(channel.id)}
-                  key={channel.id}
-                  onSelect={(item) => {
-                    selectChannel(item);
-                    scrollToSection('watch');
-                  }}
-                  onToggleFavorite={toggleFavorite}
-                />
-              ))}
-            </div>
-          )}
-        </section>
-
-        <section className="animate-fade-up" id="categories">
-          <SectionHeading
-            description="Browse by programming intent instead of raw lists. Pick a category and jump directly into a focused library state."
-            eyebrow="Categories"
-            title="Category overview"
-          />
-
-          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {categoryHighlights.map((item) => (
-              <button
-                className="group rounded-[30px] border border-white/10 bg-gradient-to-br from-white/[0.07] to-white/[0.03] p-5 text-left shadow-xl shadow-black/20 transition duration-300 hover:-translate-y-1 hover:border-cyan-300/30"
-                key={item.name}
-                onClick={() => {
-                  applyCategory(item.name);
-                  scrollToSection('channels');
-                }}
-                type="button"
-              >
-                <div className="flex items-center justify-between gap-3">
-                  <div>
-                    <div className="text-xl font-semibold text-white">{item.name}</div>
-                    <div className="mt-1 text-sm text-slate-400">{item.count} channels available</div>
-                  </div>
-                  <div className="rounded-full border border-cyan-300/20 bg-cyan-300/10 px-3 py-1 text-xs text-cyan-100">
-                    Explore
-                  </div>
-                </div>
-                <div className="mt-5 flex -space-x-3">
-                  {item.sample.map((sample) =>
-                    sample.logo ? (
-                      <img
-                        alt={sample.name}
-                        className="h-12 w-12 rounded-full border-2 border-slate-950 bg-black object-cover shadow-md shadow-black/30"
-                        key={sample.id}
-                        src={sample.logo}
-                      />
-                    ) : (
-                      <div
-                        className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-slate-950 bg-black text-[10px] text-slate-500"
-                        key={sample.id}
-                      >
-                        TV
-                      </div>
-                    ),
-                  )}
-                </div>
-              </button>
-            ))}
-          </div>
-        </section>
-
-        <section className="animate-fade-up" id="countries">
-          <SectionHeading
-            description="Navigate region-first when you know where you want to watch from. Country cards apply filters and move you straight to the relevant list."
-            eyebrow="Countries"
-            title="Country overview"
-          />
-
-          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {countryHighlights.map((item) => (
-              <button
-                className="group rounded-[30px] border border-white/10 bg-gradient-to-br from-slate-900/80 to-slate-950/90 p-5 text-left shadow-xl shadow-black/20 transition duration-300 hover:-translate-y-1 hover:border-white/20"
-                key={item.name}
-                onClick={() => {
-                  applyCountry(item.name);
-                  scrollToSection('channels');
-                }}
-                type="button"
-              >
-                <div className="flex items-center justify-between gap-3">
-                  <div>
-                    <div className="text-xl font-semibold text-white">{item.name}</div>
-                    <div className="mt-1 text-sm text-slate-400">{item.count} channels ready</div>
-                  </div>
-                  <div className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-slate-200">
-                    Filter
-                  </div>
-                </div>
-                <div className="mt-5 grid grid-cols-2 gap-2 text-xs text-slate-400">
-                  {item.sample.slice(0, 4).map((sample) => (
-                    <div className="truncate rounded-2xl border border-white/10 bg-white/5 px-3 py-2 text-slate-200" key={sample.id}>
-                      {sample.name}
-                    </div>
-                  ))}
-                </div>
-              </button>
-            ))}
-          </div>
-        </section>
-
-        <section className="animate-fade-up" id="channels">
-          <SectionHeading
-            action={
-              filteredChannels.length > 0 ? (
-                <div className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-200">
-                  {filteredChannels.length} visible channels
-                </div>
-              ) : null
-            }
-            description="The full channel library remains here, now cleaner to scan and easier to navigate after using the dashboard shortcuts above."
-            eyebrow="Library"
-            title="Channel library"
-          />
-
-          {filteredChannels.length === 0 ? (
-            <div className="rounded-[32px] border border-dashed border-white/10 bg-white/[0.04] p-10 text-center">
-              <div className="text-lg font-medium text-white">No channels match the current filters.</div>
-              <p className="mt-2 text-sm text-slate-400">Reset the active filters and try another combination.</p>
-              <button
-                className="mt-5 rounded-full bg-cyan-400 px-5 py-3 text-sm font-medium text-slate-950"
-                onClick={clearFilters}
-                type="button"
-              >
-                Clear filters
-              </button>
-            </div>
-          ) : (
-            <div
-              className={
-                viewMode === 'grid'
-                  ? 'grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5'
-                  : 'grid grid-cols-1 gap-3'
-              }
-            >
-              {filteredChannels.map((channel) => (
-                <ChannelCard
-                  active={channel.id === selectedChannel?.id}
-                  channel={channel}
-                  favorite={isFavorite(channel.id)}
-                  key={channel.id}
+                  key={ch.id}
+                  channel={ch}
+                  active={ch.id === selectedChannelId}
+                  favorite={isFavorite(ch.id)}
                   mode={viewMode}
                   onSelect={selectChannel}
                   onToggleFavorite={toggleFavorite}
                 />
               ))}
             </div>
-          )}
+          </div>
         </section>
-      </div>
+      )}
+
+      <section className="px-4 sm:px-6 py-6">
+        <div className="mx-auto max-w-[1460px]">
+          <div className="mb-4">
+            <div className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-1">Browse by Category</div>
+            <h2 className="text-xl font-semibold text-white">Categories</h2>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {categoryFacets.map((facet) => (
+              <button
+                key={facet.name}
+                onClick={() => { setCategory(facet.name); document.getElementById('channels')?.scrollIntoView({ behavior: 'smooth' }); }}
+                className={`group rounded-2xl border p-4 text-left transition-all duration-200 hover:-translate-y-0.5 ${category === facet.name ? 'border-cyan-400/40 bg-cyan-400/[0.06]' : 'border-white/[0.07] bg-white/[0.03] hover:border-white/15 hover:bg-white/[0.06]'}`}
+              >
+                <div className="flex items-center justify-between mb-2">
+                  <div className="font-medium text-white text-sm">{facet.name}</div>
+                  <div className="text-xs text-slate-500">{facet.count}</div>
+                </div>
+                <div className="flex gap-1">
+                  {facet.sample.slice(0, 4).map((ch) =>
+                    ch.logo ? (
+                      <img key={ch.id} src={ch.logo} alt={ch.name} className="h-7 w-7 rounded-lg object-contain bg-slate-900" loading="lazy" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
+                    ) : null
+                  )}
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="px-4 sm:px-6 py-6">
+        <div className="mx-auto max-w-[1460px]">
+          <div className="mb-4">
+            <div className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-1">Browse by Country</div>
+            <h2 className="text-xl font-semibold text-white">Countries</h2>
+          </div>
+          <div className="grid gap-2 sm:grid-cols-3 lg:grid-cols-6">
+            {countryFacets.map((facet) => (
+              <button
+                key={facet.name}
+                onClick={() => { setCountry(facet.name); document.getElementById('channels')?.scrollIntoView({ behavior: 'smooth' }); }}
+                className={`rounded-xl border p-3 text-left transition-all duration-200 ${country === facet.name ? 'border-cyan-400/40 bg-cyan-400/[0.06]' : 'border-white/[0.07] bg-white/[0.03] hover:border-white/15 hover:bg-white/[0.06]'}`}
+              >
+                <div className="font-medium text-white text-sm">{facet.name}</div>
+                <div className="text-xs text-slate-500 mt-0.5">{facet.count} channels</div>
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="channels" className="px-4 sm:px-6 py-6">
+        <div className="mx-auto max-w-[1460px]">
+          <div className="mb-4 flex items-center justify-between">
+            <div>
+              <div className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-1">Channel Library</div>
+              <h2 className="text-xl font-semibold text-white">
+                {hasFilters ? `${filteredChannels.length.toLocaleString()} results` : `All ${channels.length.toLocaleString()} channels`}
+              </h2>
+            </div>
+            {hasFilters && (
+              <button onClick={clearFilters} className="rounded-full border border-white/[0.07] px-4 py-2 text-sm text-slate-400 hover:text-white hover:bg-white/[0.04] transition-colors">
+                Clear filters
+              </button>
+            )}
+          </div>
+
+          {filteredChannels.length === 0 ? (
+            <div className="rounded-2xl border border-dashed border-white/[0.07] p-12 text-center">
+              <div className="text-4xl mb-3">📺</div>
+              <div className="text-slate-400">No channels match your filters.</div>
+              <button onClick={clearFilters} className="mt-4 rounded-full bg-cyan-500/10 border border-cyan-500/20 px-4 py-2 text-sm text-cyan-400 hover:bg-cyan-500/20 transition-colors">
+                Clear filters
+              </button>
+            </div>
+          ) : (
+            <>
+              <div className={viewMode === 'grid' ? 'grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6' : 'space-y-2'}>
+                {pagedChannels.map((ch) => (
+                  <ChannelCard
+                    key={ch.id}
+                    channel={ch}
+                    active={ch.id === selectedChannelId}
+                    favorite={isFavorite(ch.id)}
+                    mode={viewMode}
+                    onSelect={selectChannel}
+                    onToggleFavorite={toggleFavorite}
+                  />
+                ))}
+              </div>
+              {pagedChannels.length < filteredChannels.length && (
+                <div className="mt-8 flex justify-center">
+                  <button
+                    onClick={() => setPage((p) => p + 1)}
+                    className="rounded-full border border-white/10 bg-white/[0.04] px-8 py-3 text-sm text-slate-300 hover:bg-white/[0.08] hover:text-white transition-colors"
+                  >
+                    Load more ({filteredChannels.length - pagedChannels.length} remaining)
+                  </button>
+                </div>
+              )}
+            </>
+          )}
+        </div>
+      </section>
     </div>
   );
 }

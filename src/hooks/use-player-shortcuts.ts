@@ -9,42 +9,58 @@ type Options = {
   onPreviousChannel?: () => void;
   onNextChannel?: () => void;
   onTogglePictureInPicture?: () => void;
+  onScreenshot?: () => void;
+  onToggleLive?: () => void;
+  onToggleTheater?: () => void;
+  onSleepTimer?: () => void;
 };
 
 export function usePlayerShortcuts(options: Options) {
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
       const target = event.target as HTMLElement | null;
-      const isTypingTarget = target && ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName);
-      if (isTypingTarget) return;
+      const isTyping = target && ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName);
+      if (isTyping) return;
 
-      const key = event.key.toLowerCase();
-
-      if (key === ' ' || event.code === 'Space') {
-        event.preventDefault();
-        options.onTogglePlay?.();
-      }
-
-      if (key === 'm') {
-        options.onToggleMute?.();
-      }
-
-      if (key === 'f') {
-        options.onToggleFullscreen?.();
-      }
-
-      if (key === 'p') {
-        options.onTogglePictureInPicture?.();
-      }
-
-      if (event.key === 'ArrowLeft') {
-        event.preventDefault();
-        options.onPreviousChannel?.();
-      }
-
-      if (event.key === 'ArrowRight') {
-        event.preventDefault();
-        options.onNextChannel?.();
+      switch (event.key) {
+        case ' ':
+          event.preventDefault();
+          options.onTogglePlay?.();
+          break;
+        case 'm':
+        case 'M':
+          options.onToggleMute?.();
+          break;
+        case 'f':
+        case 'F':
+          options.onToggleFullscreen?.();
+          break;
+        case 'p':
+        case 'P':
+          options.onTogglePictureInPicture?.();
+          break;
+        case 's':
+        case 'S':
+          options.onScreenshot?.();
+          break;
+        case 'l':
+        case 'L':
+          options.onToggleLive?.();
+          break;
+        case 't':
+        case 'T':
+          options.onToggleTheater?.();
+          break;
+        case 'ArrowLeft':
+        case 'ArrowUp':
+          event.preventDefault();
+          options.onPreviousChannel?.();
+          break;
+        case 'ArrowRight':
+        case 'ArrowDown':
+          event.preventDefault();
+          options.onNextChannel?.();
+          break;
       }
     }
 

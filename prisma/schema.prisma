@@ -3,28 +3,59 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
 model User {
-  id        String   @id @default(cuid())
-  email     String   @unique
-  password  String
-  name      String?
-  role      String   @default("USER")
-  suspendedAt DateTime?
+  id               String        @id @default(cuid())
+  email            String        @unique
+  password         String
+  name             String?
+  role             String        @default("USER")
+  suspendedAt      DateTime?
   suspensionReason String?
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  favorites Favorite[]
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+  favorites        Favorite[]
+  watchHistory     WatchHistory[]
+  settings         UserSettings?
 }
 
 model Favorite {
   id        String   @id @default(cuid())
-  user      User     @relation(fields: [userId], references: [id])
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   userId    String
   channelId String
   createdAt DateTime @default(now())
+
+  @@unique([userId, channelId])
   @@index([userId, channelId])
+}
+
+model WatchHistory {
+  id          String   @id @default(cuid())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId      String
+  channelId   String
+  channelName String
+  channelLogo String?
+  watchedAt   DateTime @default(now())
+
+  @@index([userId, watchedAt])
+}
+
+model UserSettings {
+  id              String   @id @default(cuid())
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId          String   @unique
+  accentColor     String   @default("cyan")
+  playerLayout    String   @default("theater")
+  defaultVolume   Float    @default(1.0)
+  autoplay        Boolean  @default(false)
+  performanceMode Boolean  @default(false)
+  language        String   @default("en")
+  darkMode        Boolean  @default(true)
+  showEpg         Boolean  @default(true)
+  updatedAt       DateTime @updatedAt
 }
