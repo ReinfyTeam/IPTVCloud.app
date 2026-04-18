@@ -144,19 +144,34 @@ export default function SettingsPage() {
             Reset
           </button>
         </div>
-
+// ... existing code ...
         {user && (
-          <button
+          <div className="flex flex-col gap-3">
+             <button
             onClick={() => void saveToServer()}
             disabled={saving}
             className="w-full rounded-xl bg-cyan-500 py-3 text-sm font-semibold text-slate-950 hover:bg-cyan-400 disabled:opacity-60 transition-colors shadow-lg shadow-cyan-500/20"
           >
             {saving ? 'Syncing…' : 'Save & Sync to Account'}
           </button>
+            <button
+              onClick={handleDeleteAccount}
+              className="w-full rounded-xl bg-red-500/10 py-3 text-sm font-semibold text-red-400 hover:bg-red-500/20 transition-colors"
+            >
+              Delete Account
+            </button>
+          </div>
         )}
       </div>
     </div>
   );
+}
+
+async function handleDeleteAccount() {
+  if (!confirm('Are you sure you want to delete your account? This action is irreversible.')) return;
+  const res = await fetch('/api/user/delete', { method: 'DELETE' });
+  if (res.ok) window.location.href = '/';
+  else alert('Failed to delete account.');
 }
 
 function SettingsSection({ title, children }: { title: string; children: React.ReactNode }) {

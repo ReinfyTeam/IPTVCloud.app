@@ -14,9 +14,9 @@ function normalizeChannel(channel: Channel): Channel {
     id: channel.id || generateId(`${channel.streamUrl}:${channel.name}`),
     name: channel.name.trim(),
     logo: channel.logo || undefined,
-    country: channel.country || undefined,
+    country: (channel.country || 'Unknown').toUpperCase(),
     language: channel.language || undefined,
-    category: channel.category || undefined,
+    category: channel.category || 'Uncategorized',
     fallbackUrls: Array.from(new Set(channel.fallbackUrls || [])),
     isLive: true,
   };
@@ -56,7 +56,7 @@ function dedupeChannels(channels: Channel[]): Channel[] {
 
 export async function refreshChannels(): Promise<ChannelDataset> {
   const response = await fetch(DEFAULT_M3U_URL, {
-    next: { revalidate: Math.floor(CACHE_TTL_MS / 1000) },
+    cache: 'no-store',
   });
 
   if (!response.ok) {

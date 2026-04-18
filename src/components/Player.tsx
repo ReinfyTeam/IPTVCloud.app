@@ -1,8 +1,9 @@
 'use client';
 
-import React, { useEffect, useRef, useState, useCallback } from 'react';
+import React, { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import Hls from 'hls.js';
 import { usePlayerShortcuts } from '@/hooks/use-player-shortcuts';
+import { buildStreamProxyUrl, isLikelyHlsManifest } from '@/services/stream-service';
 import type { Channel } from '@/types';
 
 type Props = {
@@ -38,6 +39,7 @@ export default function Player({
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const hlsRef = useRef<Hls | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const loadTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const [muted, setMuted] = useState(false);
   const [volume, setVolume] = useState(1);
@@ -52,7 +54,22 @@ export default function Player({
   const [sleepCountdown, setSleepCountdown] = useState<number | null>(null);
   const controlsTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const activeUrl = channel?.streamUrl ?? url;
+  const sourceCandidates = useMemo(() => {
+    return Array.from(
+      new Set(
+        [channel?.streamUrl, ...(channel?.fallbackUrls || []), url, streamUrl]
+          .filter((value): value is string => Boolean(value && value.trim()))
+          .map((value) => value.trim()),
+      ),
+    );
+  }, [channel?.fallbackUrls, channel?.streamUrl, streamUrl, url]);
+
+  const [sourceIndex, setSourceIndex] = useState(0);
+  const activeUrl = sourceCandidates[sourceIndex] || null;
+
+  useEffect(() => {
+    setSourceIndex(0);
+  }, [sourceCandidates]);
 
   const resetControlsTimer = useCallback(() => {
     setShowControls(true);
@@ -67,65 +84,128 @@ export default function Player({
     }
   }, []);
 
-  const loadStream = useCallback((src: string) => {
+  const clearLoadTimeout = useCallback(() => {
+    if (loadTimeoutRef.current) {
+      clearTimeout(loadTimeoutRef.current);
+      loadTimeoutRef.current = null;
+    }
+  }, []);
+
+  const tryNextSource = useCallback((message = 'Trying backup stream...') => {
+    let advanced = false;
+
+    setSourceIndex((current) => {
+      if (current < sourceCandidates.length - 1) {
+        advanced = true;
+        return current + 1;
+      }
+      return current;
+    });
+
+    destroyHls();
+    clearLoadTimeout();
+
+    if (advanced) {
+      setStatus('loading');
+      setErrorMsg(message);
+      return true;
+    }
+
+    setStatus('error');
+    setErrorMsg('Could not resolve any streams for this channel.');
+    return false;
+  }, [clearLoadTimeout, destroyHls, sourceCandidates.length]);
+
+  const isLikelyHlsUrl = useCallback((value: string) => /\.m3u8($|[?#])/i.test(value), []);
+
+  const loadStream = useCallback(async (src: string, originalUrl: string) => {
     const video = videoRef.current;
     if (!video) return;
 
+    // Await the proxy URL generation
+    const proxiedSrc = await buildStreamProxyUrl(src);
+
     destroyHls();
+    clearLoadTimeout();
     setStatus('loading');
     setErrorMsg('');
 
-    if (video.canPlayType('application/vnd.apple.mpegurl')) {
-      video.src = src;
+    loadTimeoutRef.current = setTimeout(() => {
+      tryNextSource('Stream load timed out. Trying backup stream...');
+    }, 12000);
+
+    let isHls = isLikelyHlsUrl(originalUrl);
+    if (!isHls) {
+      try {
+        const headRes = await fetch(proxiedSrc, { method: 'HEAD' });
+        const cType = headRes.headers.get('content-type') || '';
+        isHls = cType.toLowerCase().includes('mpegurl') || cType.toLowerCase().includes('m3u8');
+      } catch (e) {
+        // Ignore HEAD error and fall back
+      }
+    }
+
+    if (video.canPlayType('application/vnd.apple.mpegurl') && isHls) {
+      video.src = proxiedSrc;
+      video.load();
       if (autoPlay) video.play().catch(() => {});
       return;
     }
 
-    if (Hls.isSupported()) {
+    if (isHls && Hls.isSupported()) {
       const hls = new Hls({
         enableWorker: true,
         lowLatencyMode: true,
         backBufferLength: 30,
       });
       hlsRef.current = hls;
-      hls.loadSource(src);
+      hls.loadSource(proxiedSrc);
       hls.attachMedia(video);
       hls.on(Hls.Events.MANIFEST_PARSED, () => {
         if (autoPlay) video.play().catch(() => {});
       });
       hls.on(Hls.Events.ERROR, (_evt, data) => {
         if (data.fatal) {
-          setStatus('error');
-          setErrorMsg('Stream unavailable. Try another channel.');
+          tryNextSource('Primary stream failed. Trying backup stream...');
         }
       });
     } else {
-      video.src = src;
+      video.src = proxiedSrc;
+      video.load();
       if (autoPlay) video.play().catch(() => {});
     }
-  }, [autoPlay, destroyHls]);
+  }, [autoPlay, clearLoadTimeout, destroyHls, isLikelyHlsUrl, tryNextSource]);
 
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
     if (!activeUrl) {
       destroyHls();
+      clearLoadTimeout();
       video.src = '';
       setStatus('idle');
       return;
     }
-    loadStream(activeUrl);
-    return destroyHls;
-  }, [activeUrl, loadStream, destroyHls]);
+    loadStream(activeUrl, activeUrl);
+    return () => {
+      clearLoadTimeout();
+      destroyHls();
+    };
+  }, [activeUrl, clearLoadTimeout, loadStream, destroyHls]);
 
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
 
-    const onPlay = () => setStatus('playing');
+    const onPlay = () => { clearLoadTimeout(); setStatus('playing'); };
     const onPause = () => setStatus('paused');
     const onWaiting = () => setStatus('loading');
-    const onError = () => { setStatus('error'); setErrorMsg('Playback error.'); };
+    const onLoadedMetadata = () => clearLoadTimeout();
+    const onError = () => {
+      if (!tryNextSource('Playback failed. Trying backup stream...')) {
+        setStatus('error');
+      }
+    };
     const onVolumeChange = () => { setMuted(video.muted); setVolume(video.volume); };
     const onFullscreenChange = () => setIsFullscreen(document.fullscreenElement === video || document.fullscreenElement === containerRef.current);
     const onEnterPiP = () => setIsPiP(true);
@@ -134,6 +214,7 @@ export default function Player({
     video.addEventListener('play', onPlay);
     video.addEventListener('pause', onPause);
     video.addEventListener('waiting', onWaiting);
+    video.addEventListener('loadedmetadata', onLoadedMetadata);
     video.addEventListener('error', onError);
     video.addEventListener('volumechange', onVolumeChange);
     document.addEventListener('fullscreenchange', onFullscreenChange);
@@ -144,13 +225,14 @@ export default function Player({
       video.removeEventListener('play', onPlay);
       video.removeEventListener('pause', onPause);
       video.removeEventListener('waiting', onWaiting);
+      video.removeEventListener('loadedmetadata', onLoadedMetadata);
       video.removeEventListener('error', onError);
       video.removeEventListener('volumechange', onVolumeChange);
       document.removeEventListener('fullscreenchange', onFullscreenChange);
       video.removeEventListener('enterpictureinpicture', onEnterPiP as EventListener);
       video.removeEventListener('leavepictureinpicture', onLeavePiP as EventListener);
     };
-  }, []);
+  }, [clearLoadTimeout, tryNextSource]);
 
   useEffect(() => {
     if (!sleepTimer) { setSleepCountdown(null); return; }
@@ -339,7 +421,11 @@ export default function Player({
             </div>
             <p className="text-sm text-red-300">{errorMsg}</p>
             <button
-              onClick={() => activeUrl && loadStream(activeUrl)}
+              onClick={() => {
+                setSourceIndex(0);
+                setStatus('loading');
+                setErrorMsg('');
+              }}
               className="rounded-full bg-white/10 px-4 py-2 text-xs text-white hover:bg-white/20 transition-colors"
             >
               Retry

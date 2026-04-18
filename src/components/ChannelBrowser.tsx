@@ -30,7 +30,7 @@ function buildFacets(channels: Channel[], pick: (c: Channel) => string | undefin
     map.set(v, arr);
   }
   return [...map.entries()]
-    .map(([name, items]) => ({ name, count: items.length, sample: items.slice(0, 4) }))
+    .map(([name, items]) => ({ name, count: items.length, sample: items.filter(c => c.logo).slice(0, 4) }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
     .slice(0, limit);
 }
@@ -75,9 +75,9 @@ export default function ChannelBrowser({ channels }: { channels: Channel[] }) {
   useEffect(() => { setPage(1); }, [debouncedSearch, country, category, language, favoritesOnly]);
 
   const filterOptions = useMemo(() => ({
-    countries: [...new Set(channels.map((c) => c.country || '').filter(Boolean))].sort(),
-    categories: [...new Set(channels.map((c) => c.category || '').filter(Boolean))].sort(),
-    languages: [...new Set(channels.map((c) => c.language || '').filter(Boolean))].sort(),
+    countries: [...new Set(channels.map((c) => c.country || 'Unknown').filter(Boolean))].sort(),
+    categories: [...new Set(channels.map((c) => c.category || 'Uncategorized').filter(Boolean))].sort(),
+    languages: [...new Set(channels.map((c) => c.language || 'Unknown').filter(Boolean))].sort(),
   }), [channels]);
 
   const filteredChannels = useMemo(() => {
@@ -222,6 +222,7 @@ export default function ChannelBrowser({ channels }: { channels: Channel[] }) {
               shareUrl={shareUrl}
               onNextChannel={selectNext}
               onPreviousChannel={selectPrev}
+              autoPlay
             />
 
             <div className="rounded-[24px] border border-white/[0.07] bg-white/[0.03] p-4 space-y-4">

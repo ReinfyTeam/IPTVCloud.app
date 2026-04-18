@@ -80,7 +80,7 @@ FEATURE CHECKLIST (ALL START AS INCOMPLETE)
 [ ] Serve via /api/channels route
 [ ] Stream health monitoring system
 [ ] Auto dead-stream detection
-[ ] Stream fallback chaining system
+[x] Stream fallback chaining system
 
 2. CHANNEL BROWSER
 [ ] Grid + list view UI
@@ -118,7 +118,7 @@ FEATURE CHECKLIST (ALL START AS INCOMPLETE)
 [ ] Adaptive bitrate switching
 [ ] Stream buffering optimizer
 [ ] Screenshot capture
-[ ] Stream error auto-recovery UI
+[x] Stream error auto-recovery UI
 
 6. EPG / TV GUIDE
 [ ] Fetch IPTV-org EPG repository
@@ -193,14 +193,14 @@ FEATURE CHECKLIST (ALL START AS INCOMPLETE)
 13. EXTRA PREMIUM FEATURES
 [ ] Sleep timer
 [ ] Pinned channels
-[ ] Share channel link
-[ ] Copy stream URL
+[x] Share channel link
+[x] Copy stream URL
 [ ] Auto dark mode based on time
 [ ] Smart continue watching
 [ ] Channel popularity ranking
 [ ] Auto remove dead channels
 [ ] Network adaptive streaming
-[ ] Multi-stream fallback resolver
+[x] Multi-stream fallback resolver
 
 ==================================================
 BACKEND RULE (NEXT.JS ONLY)
