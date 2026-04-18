@@ -8,15 +8,20 @@ export const metadata: Metadata = {
   description: 'Real-time status and incident reports for IPTVCloud.',
 };
 
-export const revalidate = 60; // Refresh every minute
+export const dynamic = 'force-dynamic';
 
 export default async function StatusPage() {
-  const incidents = await prisma.incident.findMany({
-    orderBy: { createdAt: 'desc' },
-    take: 10,
-  });
+  let incidents: any[] = [];
+  try {
+    incidents = await prisma.incident.findMany({
+      orderBy: { createdAt: 'desc' },
+      take: 10,
+    });
+  } catch (e) {
+    console.error('Failed to fetch incidents during render:', e);
+  }
 
-  const activeIncidents = incidents.filter((i) => i.status !== 'RESOLVED');
+  const activeIncidents = Array.isArray(incidents) ? incidents.filter((i) => i.status !== 'RESOLVED') : [];
   const hasActiveIssues = activeIncidents.length > 0;
 
   return (
