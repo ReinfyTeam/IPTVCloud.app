@@ -1,3 +1,4 @@
+import { BRAND_NAME } from '@/components/Brand';
 import Link from 'next/link';
 import SupportTicketForm from '@/components/SupportTicketForm';
 
@@ -30,7 +31,7 @@ export default function Forbidden() {
           <h2 className="text-sm font-bold text-white uppercase tracking-widest mb-6 px-1">
             Submit an Appeal
           </h2>
-          <SupportTicketForm type="APPEAL" />
+          <SupportTicketForm initialType="APPEAL" />
         </div>
 
         <Link

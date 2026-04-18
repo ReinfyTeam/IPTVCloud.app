@@ -3,11 +3,17 @@
 import React, { useState } from 'react';
 import { useAuthStore } from '@/store/auth-store';
 
-export default function SupportTicketForm() {
+type TicketType = 'SUPPORT' | 'APPEAL' | 'BUG' | 'FEATURE';
+
+type Props = {
+  initialType?: TicketType;
+};
+
+export default function SupportTicketForm({ initialType = 'SUPPORT' }: Props) {
   const { token, user } = useAuthStore();
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
-  const [type, setType] = useState('SUPPORT');
+  const [type, setType] = useState<TicketType>(initialType);
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
   const [error, setError] = useState('');
@@ -88,7 +94,7 @@ export default function SupportTicketForm() {
         </label>
         <select
           value={type}
-          onChange={(e) => setType(e.target.value)}
+          onChange={(e) => setType(e.target.value as TicketType)}
           className="w-full rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
         >
           <option value="SUPPORT">Support Request</option>
