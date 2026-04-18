@@ -1,12 +1,17 @@
 export interface AuthUser {
   id: string;
   email: string;
+  username: string | null;
   name?: string | null;
   role: string;
+  isVerified: boolean;
+  twoFactorEnabled: boolean;
+  lastUsernameChange: string | null;
   suspendedAt?: string | null;
   suspensionReason?: string | null;
   isMuted?: boolean;
   isRestricted?: boolean;
+  createdAt: string;
 }
 
 export interface AuthPayload {
@@ -23,6 +28,7 @@ export interface LoginRequest {
 
 export interface RegisterRequest {
   email: string;
+  username: string;
   password: string;
   name?: string;
 }

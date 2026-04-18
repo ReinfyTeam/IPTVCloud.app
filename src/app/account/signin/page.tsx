@@ -9,10 +9,16 @@ import type { AuthResponse } from '@/types';
 export default function LoginPage() {
   const router = useRouter();
   const setAuth = useAuthStore((s) => s.setAuth);
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+
+  // 2FA state
+  const [twoFactorRequired, setTwoFactorRequired] = useState(false);
+  const [twoFactorUserId, setTwoFactorUserId] = useState('');
+  const [otpToken, setOtpToken] = useState('');
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -25,96 +31,164 @@ export default function LoginPage() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
       });
-      const data: AuthResponse = await res.json();
+      const data: any = await res.json();
 
-      if (!data.ok || !data.user || !data.token) {
+      if (!data.ok) {
         setError(data.error || 'Login failed. Please try again.');
+        setLoading(false);
+        return;
+      }
+
+      if (data.twoFactorRequired) {
+        setTwoFactorRequired(true);
+        setTwoFactorUserId(data.userId);
+        setLoading(false);
         return;
       }
 
       setAuth(data.user, data.token);
-      router.push('/');
+      router.push('/home');
     } catch {
       setError('Network error. Please try again.');
-    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function handle2FAVerify(e: React.FormEvent) {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+
+    try {
+      const res = await fetch('/api/auth/2fa/verify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ userId: twoFactorUserId, token: otpToken }),
+      });
+      const data = await res.json();
+
+      if (!data.ok) {
+        setError(data.error || 'Invalid verification code.');
+        setLoading(false);
+        return;
+      }
+
+      setAuth(data.user, data.token);
+      router.push('/home');
+    } catch {
+      setError('Network error.');
       setLoading(false);
     }
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center px-4 pt-16">
+    <div className="flex min-h-screen items-center justify-center px-4 pt-24 pb-20 bg-slate-950">
       <div className="w-full max-w-sm animate-fade-up">
         <div className="text-center mb-8">
-          <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-[24px] bg-white/[0.03] border border-white/10 text-cyan-400 shadow-2xl">
-            <span className="material-icons text-3xl">login</span>
+          <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-[32px] bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 shadow-2xl">
+            <span className="material-icons text-4xl">
+              {twoFactorRequired ? 'verified_user' : 'login'}
+            </span>
           </div>
-          <h1 className="text-2xl font-bold text-white">Welcome back</h1>
-          <p className="mt-1 text-slate-400 text-sm">Sign in to your IPTVCloud account</p>
+          <h1 className="text-3xl font-black text-white uppercase italic tracking-tighter leading-none">
+            {twoFactorRequired ? 'Verify 2FA' : 'Welcome back'}
+            <span className="text-cyan-500">.</span>
+          </h1>
+          <p className="mt-2 text-slate-500 font-bold uppercase tracking-widest text-[10px]">
+            {twoFactorRequired ? 'Enter your authenticator code' : 'Access your technical player'}
+          </p>
         </div>
 
-        <div className="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 shadow-2xl shadow-black/30">
+        <div className="rounded-[32px] border border-white/[0.08] bg-white/[0.03] p-8 shadow-2xl backdrop-blur-xl">
           {error && (
-            <div className="mb-4 flex items-center gap-2 rounded-xl border border-red-400/20 bg-red-400/[0.08] px-3 py-2.5 text-sm text-red-300">
-              <svg
-                className="h-4 w-4 shrink-0"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <circle cx="12" cy="12" r="10" />
-                <path strokeLinecap="round" d="M12 8v4m0 4h.01" />
-              </svg>
+            <div className="mb-6 flex items-center gap-2 rounded-2xl border border-red-500/20 bg-red-500/10 px-4 py-3 text-xs font-bold text-red-400 animate-fade-in">
+              <span className="material-icons text-base">error_outline</span>
               {error}
             </div>
           )}
 
-          <form onSubmit={(e) => void handleSubmit(e)} className="space-y-4">
-            <div>
-              <label className="block text-xs font-medium text-slate-400 mb-1.5">
-                Email address
-              </label>
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                placeholder="you@example.com"
-                className="w-full rounded-xl border border-white/[0.08] bg-slate-900/80 px-3.5 py-2.5 text-sm text-white placeholder:text-slate-600 outline-none focus:border-cyan-500/50 focus:ring-1 focus:ring-cyan-500/20 transition-colors"
-              />
-            </div>
-            <div>
-              <div className="flex items-center justify-between mb-1.5">
-                <label className="text-xs font-medium text-slate-400">Password</label>
+          {!twoFactorRequired ? (
+            <form onSubmit={(e) => void handleSubmit(e)} className="space-y-5">
+              <div>
+                <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
+                  Email address
+                </label>
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  placeholder="you@example.com"
+                  className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-sm text-white placeholder:text-slate-600 outline-none focus:border-cyan-500 transition-all shadow-inner"
+                />
               </div>
-              <input
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-                placeholder="••••••••"
-                className="w-full rounded-xl border border-white/[0.08] bg-slate-900/80 px-3.5 py-2.5 text-sm text-white placeholder:text-slate-600 outline-none focus:border-cyan-500/50 focus:ring-1 focus:ring-cyan-500/20 transition-colors"
-              />
-            </div>
-            <button
-              type="submit"
-              disabled={loading}
-              className="w-full rounded-xl bg-cyan-500 py-2.5 text-sm font-semibold text-slate-950 hover:bg-cyan-400 disabled:opacity-60 transition-colors shadow-lg shadow-cyan-500/20"
-            >
-              {loading ? 'Signing in…' : 'Sign in'}
-            </button>
-          </form>
+              <div>
+                <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                  placeholder="••••••••"
+                  className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-sm text-white placeholder:text-slate-600 outline-none focus:border-cyan-500 transition-all shadow-inner"
+                />
+              </div>
+              <button
+                type="submit"
+                disabled={loading}
+                className="w-full rounded-2xl bg-cyan-500 py-4 text-xs font-black uppercase tracking-widest text-slate-950 hover:bg-cyan-400 disabled:opacity-50 transition-all active:scale-95 shadow-lg shadow-cyan-900/20"
+              >
+                {loading ? 'Authenticating…' : 'Sign In'}
+              </button>
+            </form>
+          ) : (
+            <form onSubmit={(e) => void handle2FAVerify(e)} className="space-y-6">
+              <div>
+                <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-4 text-center">
+                  Verification Code
+                </label>
+                <input
+                  type="text"
+                  value={otpToken}
+                  onChange={(e) => setOtpToken(e.target.value)}
+                  required
+                  maxLength={6}
+                  placeholder="000000"
+                  className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-center text-2xl font-mono tracking-[0.5em] text-cyan-400 outline-none focus:border-cyan-500 shadow-inner"
+                  autoFocus
+                />
+              </div>
+              <button
+                type="submit"
+                disabled={loading || otpToken.length !== 6}
+                className="w-full rounded-2xl bg-cyan-500 py-4 text-xs font-black uppercase tracking-widest text-slate-950 hover:bg-cyan-400 disabled:opacity-50 transition-all active:scale-95 shadow-lg shadow-cyan-900/20"
+              >
+                {loading ? 'Verifying…' : 'Confirm'}
+              </button>
+              <button
+                type="button"
+                onClick={() => setTwoFactorRequired(false)}
+                className="w-full text-[10px] font-bold text-slate-600 uppercase tracking-widest hover:text-white transition-all"
+              >
+                Back to Login
+              </button>
+            </form>
+          )}
         </div>
 
-        <p className="mt-5 text-center text-sm text-slate-500">
-          Don&apos;t have an account?{' '}
-          <Link
-            href="/account/signup"
-            className="text-cyan-400 hover:text-cyan-300 transition-colors font-medium"
-          >
-            Create an account
-          </Link>
-        </p>
+        {!twoFactorRequired && (
+          <p className="mt-8 text-center text-[10px] font-bold text-slate-600 uppercase tracking-widest">
+            Don&apos;t have an account?{' '}
+            <Link
+              href="/account/signup"
+              className="text-cyan-400 hover:text-cyan-300 transition-all"
+            >
+              Create account
+            </Link>
+          </p>
+        )}
       </div>
     </div>
   );

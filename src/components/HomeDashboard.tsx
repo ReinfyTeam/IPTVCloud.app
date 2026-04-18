@@ -12,6 +12,22 @@ import ChannelCard from '@/components/ChannelCard';
 import HeroVideo from '@/components/HeroVideo';
 import { REVERSE_COUNTRY_MAP } from '@/lib/countries';
 
+const CATEGORY_ICONS: Record<string, string> = {
+  music: 'music_note',
+  movies: 'movie',
+  news: 'newspaper',
+  sports: 'sports_soccer',
+  kids: 'child_care',
+  entertainment: 'theater_comedy',
+  documentary: 'visibility',
+  education: 'school',
+  lifestyle: 'style',
+  religious: 'church',
+  animation: 'animation',
+  general: 'widgets',
+  uncategorized: 'folder_open',
+};
+
 export default function HomeDashboard({ allChannels }: { allChannels: Channel[] }) {
   const { isLoggedIn, user } = useAuthStore();
   const [mounted, setMounted] = useState(false);
@@ -36,6 +52,7 @@ export default function HomeDashboard({ allChannels }: { allChannels: Channel[] 
 
 function GuestHome({ allChannels }: { allChannels: Channel[] }) {
   const [randomChannel, setRandomChannel] = useState<Channel | null>(null);
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     if (allChannels.length > 0) {
@@ -44,17 +61,31 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
     }
   }, [allChannels]);
 
+  const handleMouseMove = (e: React.MouseEvent) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    setMousePos({ x: e.clientX - rect.left, y: e.clientY - rect.top });
+  };
+
   const trending = useMemo(() => allChannels.filter((c) => c.logo).slice(0, 12), [allChannels]);
 
   return (
     <div className="animate-fade-in transform-gpu">
       {/* SaaS Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+      <section
+        onMouseMove={handleMouseMove}
+        className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
+      >
         <div className="absolute inset-0 z-0">
           {randomChannel && (
             <HeroVideo streamUrl={randomChannel.streamUrl} channelId={randomChannel.id} />
           )}
           <div className="absolute inset-0 bg-slate-950/80 backdrop-blur-[2px]" />
+          <div
+            className="absolute inset-0 opacity-40 pointer-events-none transition-opacity duration-300"
+            style={{
+              background: `radial-gradient(600px circle at ${mousePos.x}px ${mousePos.y}px, rgba(6, 182, 212, 0.15), transparent 80%)`,
+            }}
+          />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-950/60 to-slate-950" />
         </div>
 
@@ -62,10 +93,13 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
           <div className="max-w-4xl mx-auto space-y-10">
             <div className="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-6 py-2.5 text-xs font-bold text-white backdrop-blur-xl shadow-2xl animate-fade-up">
               <span className="h-2 w-2 rounded-full bg-cyan-400 animate-pulse" />
-              <span className="opacity-70 uppercase tracking-widest">Global Community Powered</span>
+              <span className="opacity-70 uppercase tracking-widest">
+                {allChannels.reduce((sum, ch) => sum + (ch.viewersCount || 0), 0).toLocaleString()}{' '}
+                Currently Watching
+              </span>
             </div>
 
-            <h1 className="text-5xl sm:text-7xl font-black tracking-tighter text-white leading-[0.95] animate-fade-up-delayed drop-shadow-2xl uppercase italic">
+            <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black tracking-tighter text-white leading-[0.95] animate-fade-up-delayed drop-shadow-2xl uppercase italic">
               STREAMING
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-500">
@@ -95,8 +129,11 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
           </div>
         </div>
 
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-20">
-          <span className="material-icons text-3xl text-white">keyboard_double_arrow_down</span>
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce flex flex-col items-center gap-2 opacity-40">
+          <span className="text-[10px] font-black uppercase tracking-[0.4em] text-white">
+            Scroll
+          </span>
+          <span className="material-icons text-2xl text-white">keyboard_double_arrow_down</span>
         </div>
       </section>
 
@@ -108,7 +145,7 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
             <h2 className="text-sm font-black uppercase tracking-[0.4em] text-cyan-500">
               The IPTV Standard
             </h2>
-            <h3 className="text-4xl sm:text-5xl font-black text-white tracking-tight leading-tight uppercase italic">
+            <h3 className="text-4xl sm:text-5xl font-black text-white tracking-tight leading-tight uppercase italic text-center">
               Everything You Need To
               <br />
               Stream Like A Pro.
@@ -246,7 +283,7 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
                   Get Started Free
                 </Link>
                 <Link
-                  href="/forbidden"
+                  href="/support"
                   className="rounded-[24px] bg-black/20 border border-white/20 backdrop-blur-xl px-14 py-6 text-sm font-black text-white hover:bg-white/10 transition-all active:scale-95 uppercase tracking-widest"
                 >
                   Contact Support
@@ -382,10 +419,15 @@ function UserHome({ allChannels, user }: { allChannels: Channel[]; user: any }) 
                   href={`/search?category=${encodeURIComponent(cat || '')}`}
                   className="group p-8 rounded-[36px] bg-white/[0.02] border border-white/[0.08] hover:border-cyan-500/50 transition-all hover:bg-cyan-500/5 shadow-lg active:scale-[0.98] transform-gpu"
                 >
-                  <div className="text-xs font-black text-white group-hover:text-cyan-400 transition-colors capitalize truncate tracking-widest uppercase italic">
-                    {cat}
+                  <div className="flex items-center gap-3 mb-3">
+                    <span className="material-icons text-slate-600 group-hover:text-cyan-400 transition-colors">
+                      {CATEGORY_ICONS[(cat || '').toLowerCase()] || 'folder'}
+                    </span>
+                    <div className="text-xs font-black text-white group-hover:text-cyan-400 transition-colors capitalize truncate tracking-widest uppercase italic">
+                      {cat}
+                    </div>
                   </div>
-                  <div className="text-[9px] text-slate-600 mt-2 uppercase tracking-[0.2em] font-black group-hover:text-slate-400 transition-colors">
+                  <div className="text-[9px] text-slate-600 uppercase tracking-[0.2em] font-black group-hover:text-slate-400 transition-colors">
                     EXPLORE
                   </div>
                 </Link>
@@ -438,7 +480,7 @@ function UserHome({ allChannels, user }: { allChannels: Channel[]; user: any }) 
 function SectionHeader({ title, href }: { title: string; href?: string }) {
   return (
     <div className="flex items-end justify-between mb-10 px-2">
-      <h2 className="text-3xl font-black text-white tracking-tighter uppercase italic leading-none">
+      <h2 className="text-3xl font-black text-white tracking-tighter uppercase italic leading-none text-center">
         {title}
         <span className="text-cyan-500">.</span>
       </h2>

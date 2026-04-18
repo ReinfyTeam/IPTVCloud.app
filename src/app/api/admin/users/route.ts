@@ -10,8 +10,10 @@ export async function GET(request: Request) {
     select: {
       id: true,
       email: true,
+      username: true,
       name: true,
       role: true,
+      isVerified: true,
       suspendedAt: true,
       isMuted: true,
       isRestricted: true,
@@ -27,7 +29,8 @@ export async function POST(request: Request) {
   const auth = await authorizeRequest(request, { requireStaff: true });
   if (auth instanceof NextResponse) return auth;
 
-  const { userId, action, reason, value: _unusedValue } = await request.json();
+  const body = await request.json();
+  const { userId, action, reason, value } = body;
 
   if (action === 'SUSPEND') {
     await prisma.user.update({
@@ -58,6 +61,24 @@ export async function POST(request: Request) {
     await prisma.user.update({
       where: { id: userId },
       data: { isRestricted: false },
+    });
+  } else if (action === 'SET_ROLE') {
+    // Only admins can change roles
+    if (!auth.isAdmin) {
+      return NextResponse.json({ ok: false, error: 'Forbidden' }, { status: 403 });
+    }
+    await prisma.user.update({
+      where: { id: userId },
+      data: { role: value },
+    });
+  } else if (action === 'SET_VERIFIED') {
+    // Only admins can set verified status
+    if (!auth.isAdmin) {
+      return NextResponse.json({ ok: false, error: 'Forbidden' }, { status: 403 });
+    }
+    await prisma.user.update({
+      where: { id: userId },
+      data: { isVerified: value, verifiedAt: value ? new Date() : null },
     });
   }
 

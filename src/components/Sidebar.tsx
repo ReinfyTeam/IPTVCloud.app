@@ -23,12 +23,30 @@ type SidebarProps = {
   };
   isMobileOpen: boolean;
   setIsMobileOpen: (_v: boolean) => void;
+  sortBy: string;
+  setSortBy: (v: string) => void;
 };
 
 const REVERSE_COUNTRY_MAP: Record<string, string> = {};
 Object.entries(COUNTRY_NAMES).forEach(([code, name]) => {
   REVERSE_COUNTRY_MAP[name.toUpperCase()] = code.toLowerCase();
 });
+
+const CATEGORY_ICONS: Record<string, string> = {
+  music: 'music_note',
+  movies: 'movie',
+  news: 'newspaper',
+  sports: 'sports_soccer',
+  kids: 'child_care',
+  entertainment: 'theater_comedy',
+  documentary: 'visibility',
+  education: 'school',
+  lifestyle: 'style',
+  religious: 'church',
+  animation: 'animation',
+  general: 'widgets',
+  uncategorized: 'folder_open',
+};
 
 export default function Sidebar({
   search,
@@ -37,8 +55,6 @@ export default function Sidebar({
   setCountry,
   category,
   setCategory,
-  language,
-  setLanguage,
   resolution,
   setResolution,
   favoritesOnly,
@@ -46,6 +62,8 @@ export default function Sidebar({
   filterOptions,
   isMobileOpen,
   setIsMobileOpen,
+  sortBy,
+  setSortBy,
 }: SidebarProps) {
   const countryOptions = useMemo(
     () =>
@@ -60,19 +78,27 @@ export default function Sidebar({
   );
 
   const categoryOptions = useMemo(
-    () => filterOptions.categories.map((c) => ({ label: c, value: c, icon: 'folder' })),
+    () =>
+      filterOptions.categories.map((c) => ({
+        label: c || 'Uncategorized',
+        value: c || 'Uncategorized',
+        icon: CATEGORY_ICONS[(c || '').toLowerCase()] || 'folder',
+      })),
     [filterOptions.categories],
-  );
-
-  const languageOptions = useMemo(
-    () => filterOptions.languages.map((l) => ({ label: l, value: l, icon: 'language' })),
-    [filterOptions.languages],
   );
 
   const resolutionOptions = useMemo(
     () => filterOptions.resolutions.map((r) => ({ label: r, value: r, icon: 'high_quality' })),
     [filterOptions.resolutions],
   );
+
+  const sortOptions = [
+    { label: 'Sort by Name', value: 'name', icon: 'sort_by_alpha' },
+    { label: 'Most Viewed', value: 'viewers', icon: 'visibility' },
+    { label: 'Recommended', value: 'recommended', icon: 'auto_awesome' },
+    { label: 'Featured', value: 'featured', icon: 'grade' },
+    { label: 'Most Favorited', value: 'favorites', icon: 'favorite' },
+  ];
 
   return (
     <>
@@ -143,6 +169,14 @@ export default function Sidebar({
             </div>
 
             <CustomSelect
+              label="Sort By"
+              options={sortOptions}
+              value={sortBy}
+              onChange={setSortBy}
+              placeholder="Recommended"
+            />
+
+            <CustomSelect
               label="Category"
               options={categoryOptions}
               value={category}
@@ -159,14 +193,6 @@ export default function Sidebar({
             />
 
             <CustomSelect
-              label="Language"
-              options={languageOptions}
-              value={language}
-              onChange={setLanguage}
-              placeholder="All Languages"
-            />
-
-            <CustomSelect
               label="Resolution"
               options={resolutionOptions}
               value={resolution}
@@ -175,16 +201,16 @@ export default function Sidebar({
             />
           </div>
 
-          {(search || country || category || language || resolution || favoritesOnly) && (
+          {(search || country || category || resolution || favoritesOnly) && (
             <div className="pt-4">
               <button
                 onClick={() => {
                   setSearch('');
                   setCountry('');
                   setCategory('');
-                  setLanguage('');
                   setResolution('');
                   setFavoritesOnly(false);
+                  setSortBy('recommended');
                 }}
                 className="w-full rounded-2xl border border-red-500/20 bg-red-500/10 py-4 text-[10px] font-bold uppercase tracking-widest text-red-400 hover:bg-red-500/20 transition-all active:scale-95 transform-gpu"
               >

@@ -10,7 +10,7 @@ export async function GET(req: Request) {
     if (auth instanceof NextResponse) return auth;
 
     const url = new URL(req.url);
-    const limit = Math.min(100, Number(url.searchParams.get('limit') || '20'));
+    const limit = Math.min(100, Number(url.searchParams.get('limit') || '50'));
 
     const history = await prisma.watchHistory.findMany({
       where: { userId: auth.user!.id },
@@ -32,7 +32,7 @@ export async function POST(req: Request) {
     const auth = await authorizeRequest(req);
     if (auth instanceof NextResponse) return auth;
 
-    const { channelId, channelName, channelLogo } = await req.json();
+    const { channelId, channelName, channelLogo, category, country } = await req.json();
     if (!channelId || !channelName) {
       return NextResponse.json(
         { ok: false, error: 'channelId and channelName are required.' },
@@ -46,6 +46,8 @@ export async function POST(req: Request) {
         channelId,
         channelName,
         channelLogo: channelLogo || null,
+        category: category || null,
+        country: country || null,
       },
     });
 

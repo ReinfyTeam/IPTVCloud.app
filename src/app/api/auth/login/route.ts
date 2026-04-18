@@ -43,6 +43,10 @@ export async function POST(req: Request) {
       );
     }
 
+    if (user.twoFactorEnabled) {
+      return NextResponse.json({ ok: true, twoFactorRequired: true, userId: user.id });
+    }
+
     const token = signToken(user);
     const response = NextResponse.json({ ok: true, user: sanitizeUser(user), token });
     return setTokenCookie(response, token);

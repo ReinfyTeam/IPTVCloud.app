@@ -12,6 +12,7 @@ import Player from '@/components/Player';
 import EpgStrip from '@/components/EpgStrip';
 import CommentSection from '@/components/CommentSection';
 import ChannelCard from '@/components/ChannelCard';
+import { getProxiedImageUrl } from '@/lib/image-proxy';
 
 type Props = {
   channel: Channel;
@@ -68,7 +69,7 @@ export default function ChannelPlayerView({ channel, relatedChannels, allChannel
                   <div className="flex items-center gap-4">
                     {channel.logo ? (
                       <Image
-                        src={channel.logo}
+                        src={getProxiedImageUrl(channel.logo)}
                         alt={channel.name}
                         width={64}
                         height={64}

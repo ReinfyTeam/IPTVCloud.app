@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { BRAND_NAME } from './Brand';
+import BrandLogo from './BrandLogo';
 
 export default function Footer() {
   const [commit, setCommit] = useState<{ sha: string; url: string; date: string } | null>(null);
@@ -22,9 +22,7 @@ export default function Footer() {
 
       <div className="mx-auto max-w-[1460px] px-6 sm:px-8 grid gap-16 lg:grid-cols-4">
         <div className="lg:col-span-2 space-y-8">
-          <div className="text-2xl font-black tracking-tighter text-white uppercase italic">
-            {BRAND_NAME}
-          </div>
+          <BrandLogo className="text-2xl" />
           <p className="text-slate-500 text-sm max-w-sm leading-relaxed font-medium">
             The next generation of television streaming. Advanced, private, and community-driven.
             Built for the modern web with performance at its core.
@@ -57,7 +55,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/forbidden" className="hover:text-cyan-400 transition-colors">
+                <Link href="/support" className="hover:text-cyan-400 transition-colors">
                   Support
                 </Link>
               </li>
@@ -115,10 +113,11 @@ export default function Footer() {
             <div className="text-[9px] font-black text-cyan-500 uppercase tracking-widest">
               Disclaimer
             </div>
-            <p className="text-[9px] leading-relaxed text-slate-600 font-medium italic">
-              {BRAND_NAME} is a technical player and does not host, provide or distribute any media
-              content. All streams are sourced from public M3U repositories.
-            </p>
+            <div className="text-[9px] leading-relaxed text-slate-600 font-medium italic">
+              <BrandLogo className="inline-flex text-[9px] mr-1" />
+              is a technical player and does not host, provide or distribute any media content. All
+              streams are sourced from public M3U repositories.
+            </div>
           </div>
         </div>
       </div>

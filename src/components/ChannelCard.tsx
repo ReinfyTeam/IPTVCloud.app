@@ -4,9 +4,11 @@ import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import type { Channel } from '@/types';
 import { useNetworkStatus } from '@/hooks/use-network';
+import { useAuthStore } from '@/store/auth-store';
 import Hls from 'hls.js';
 import { buildStreamProxyUrl } from '@/services/stream-service';
 import { REVERSE_COUNTRY_MAP } from '@/lib/countries';
+import { getProxiedImageUrl } from '@/lib/image-proxy';
 
 type Props = {
   channel: Channel;
@@ -32,6 +34,7 @@ export default function ChannelCard({
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const hlsRef = useRef<Hls | null>(null);
   const isOnline = useNetworkStatus();
+  const { isLoggedIn } = useAuthStore();
   const hoverTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   const initials = channel.name
@@ -117,6 +120,17 @@ export default function ChannelCard({
     onSelect(channel);
   };
 
+  const handleToggleFavorite = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (!isLoggedIn()) {
+      if (confirm('Please sign in to save channels to your favorites.')) {
+        window.location.href = '/account/signin';
+      }
+      return;
+    }
+    onToggleFavorite?.(channel.id);
+  };
+
   if (mode === 'list') {
     return (
       <div
@@ -146,7 +160,7 @@ export default function ChannelCard({
             </div>
           ) : channel.logo && !imgError ? (
             <Image
-              src={channel.logo}
+              src={getProxiedImageUrl(channel.logo)}
               alt={channel.name}
               width={48}
               height={48}
@@ -184,10 +198,7 @@ export default function ChannelCard({
         </div>
 
         <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onToggleFavorite?.(channel.id);
-          }}
+          onClick={handleToggleFavorite}
           className={`shrink-0 rounded-full p-2 transition-all duration-300 active:scale-90 ${
             favorite
               ? 'text-amber-400 bg-amber-400/10'
@@ -227,7 +238,7 @@ export default function ChannelCard({
           </div>
         ) : channel.logo && !imgError ? (
           <Image
-            src={channel.logo}
+            src={getProxiedImageUrl(channel.logo)}
             alt={channel.name}
             width={320}
             height={180}
@@ -289,10 +300,7 @@ export default function ChannelCard({
         </div>
 
         <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onToggleFavorite?.(channel.id);
-          }}
+          onClick={handleToggleFavorite}
           className={`shrink-0 rounded-full p-2.5 transition-all duration-300 active:scale-90 ${
             favorite
               ? 'text-amber-400 bg-amber-400/10 border border-amber-400/20'

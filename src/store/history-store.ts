@@ -8,6 +8,8 @@ export type HistoryEntry = {
   channelId: string;
   channelName: string;
   channelLogo?: string;
+  category?: string;
+  country?: string;
   watchedAt: number;
 };
 
@@ -31,6 +33,8 @@ export const useHistoryStore = create<HistoryStore>()(
             channelId: channel.id,
             channelName: channel.name,
             channelLogo: channel.logo,
+            category: channel.category,
+            country: channel.country,
             watchedAt: Date.now(),
           };
           return { history: [entry, ...filtered].slice(0, MAX_HISTORY) };

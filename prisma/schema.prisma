@@ -8,24 +8,34 @@ datasource db {
 }
 
 model User {
-  id               String        @id @default(cuid())
-  email            String        @unique
-  password         String
-  name             String?
-  role             String        @default("USER") // USER, STAFF, ADMIN
-  suspendedAt      DateTime?
-  suspensionReason String?
-  isMuted          Boolean       @default(false)
-  muteExpiresAt    DateTime?
-  isRestricted     Boolean       @default(false)
-  createdAt        DateTime      @default(now())
-  updatedAt        DateTime      @updatedAt
-  favorites        Favorite[]
-  watchHistory     WatchHistory[]
-  settings         UserSettings?
-  comments         Comment[]
-  tickets          Ticket[]
-  shortcuts        CustomShortcut[]
+  id                String           @id @default(cuid())
+  email             String           @unique
+  username          String?          @unique
+  password          String
+  name              String?
+  role              String           @default("USER") // USER, MODERATOR, STAFF, ADMIN
+  suspendedAt       DateTime?
+  suspensionReason  String?
+  isMuted           Boolean          @default(false)
+  muteExpiresAt     DateTime?
+  isRestricted      Boolean          @default(false)
+  isVerified        Boolean          @default(false)
+  verifiedAt        DateTime?
+  twoFactorSecret   String?
+  twoFactorEnabled  Boolean          @default(false)
+  lastUsernameChange DateTime?
+  createdAt         DateTime         @default(now())
+  updatedAt         DateTime         @updatedAt
+  favorites         Favorite[]
+  watchHistory      WatchHistory[]
+  settings          UserSettings?
+  comments          Comment[]
+  tickets           Ticket[]         @relation("UserTickets")
+  handledTickets    Ticket[]         @relation("AdminTickets")
+  shortcuts         CustomShortcut[]
+  posts             Post[]
+  postComments      PostComment[]
+  postLikes         PostLike[]
 }
 
 model Favorite {
@@ -46,6 +56,8 @@ model WatchHistory {
   channelId   String
   channelName String
   channelLogo String?
+  category    String?
+  country     String?
   watchedAt   DateTime @default(now())
 
   @@index([userId, watchedAt])
@@ -67,12 +79,12 @@ model UserSettings {
 }
 
 model CustomShortcut {
-  id        String   @id @default(cuid())
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  userId    String
-  action    String   // toggle_fullscreen, toggle_mute, next_channel, prev_channel, toggle_play, screenshot, theater_mode
-  key       String   // e.g. "f", "m", "ArrowRight"
-  
+  id     String @id @default(cuid())
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId String
+  action String // toggle_fullscreen, toggle_mute, next_channel, prev_channel, toggle_play, screenshot, theater_mode
+  key    String // e.g. "f", "m", "ArrowRight"
+
   @@unique([userId, action])
 }
 
@@ -90,24 +102,89 @@ model Comment {
 }
 
 model Ticket {
-  id          String    @id @default(cuid())
-  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  id          String           @id @default(cuid())
+  user        User             @relation("UserTickets", fields: [userId], references: [id], onDelete: Cascade)
   userId      String
+  handledBy   User?            @relation("AdminTickets", fields: [handledById], references: [id])
+  handledById String?
   subject     String
   message     String
-  type      String    @default("SUPPORT") // SUPPORT, APPEAL, BUG, FEATURE
-  status      String    @default("OPEN")    // OPEN, IN_PROGRESS, CLOSED
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
+  type        String           @default("SUPPORT") // SUPPORT, APPEAL, BUG, FEATURE
+  status      String           @default("OPEN") // OPEN, IN_PROGRESS, HANDLED, CLOSED, NOT_PLANNED, INVALID
+  isArchived  Boolean          @default(false)
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+  responses   TicketResponse[]
+}
+
+model TicketResponse {
+  id        String   @id @default(cuid())
+  ticket    Ticket   @relation(fields: [ticketId], references: [id], onDelete: Cascade)
+  ticketId  String
+  userId    String
+  message   String
+  createdAt DateTime @default(now())
 }
 
 model Incident {
-  id          String    @id @default(cuid())
+  id          String           @id @default(cuid())
   title       String
   description String
-  tags        String[]  @default([])
-  status      String    @default("INVESTIGATING") // INVESTIGATING, IDENTIFIED, MONITORING, RESOLVED
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
+  tags        String[]         @default([])
+  status      String           @default("INVESTIGATING") // INVESTIGATING, IDENTIFIED, MONITORING, RESOLVED
+  severity    String           @default("LOW") // LOW, MEDIUM, HIGH, CRITICAL
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
   resolvedAt  DateTime?
+  updates     IncidentUpdate[]
+}
+
+model IncidentUpdate {
+  id          String   @id @default(cuid())
+  incident    Incident @relation(fields: [incidentId], references: [id], onDelete: Cascade)
+  incidentId  String
+  message     String
+  status      String
+  createdAt   DateTime @default(now())
+}
+
+model Post {
+  id        String        @id @default(cuid())
+  user      User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
+  title     String
+  content   String
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+  comments  PostComment[]
+  likes     PostLike[]
+}
+
+model PostComment {
+  id        String   @id @default(cuid())
+  post      Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
+  postId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
+  content   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model PostLike {
+  id        String   @id @default(cuid())
+  post      Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
+  postId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
+  createdAt DateTime @default(now())
+
+  @@unique([postId, userId])
+}
+
+model UptimeRecord {
+  id        String   @id @default(cuid())
+  status    String   // UP, DOWN, DEGRADED
+  latency   Int?
+  createdAt DateTime @default(now())
 }

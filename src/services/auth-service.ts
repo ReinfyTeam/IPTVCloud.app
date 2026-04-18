@@ -9,6 +9,7 @@ import type { AuthPayload, AuthUser } from '@/types';
 const JWT_SECRET = process.env.JWT_SECRET || 'changeme-set-JWT_SECRET-env';
 const ADMIN_ROLE = 'ADMIN';
 const STAFF_ROLE = 'STAFF';
+const MODERATOR_ROLE = 'MODERATOR';
 
 type AuthorizeOptions = {
   requireAdmin?: boolean;
@@ -30,28 +31,21 @@ function getConfiguredAdminEmails() {
     .filter(Boolean);
 }
 
-export function sanitizeUser(
-  user: Pick<
-    User,
-    | 'id'
-    | 'email'
-    | 'name'
-    | 'role'
-    | 'suspendedAt'
-    | 'suspensionReason'
-    | 'isMuted'
-    | 'isRestricted'
-  >,
-): AuthUser {
+export function sanitizeUser(user: User): AuthUser {
   return {
     id: user.id,
     email: user.email,
+    username: user.username || null,
     name: user.name,
     role: user.role,
+    isVerified: user.isVerified,
+    twoFactorEnabled: user.twoFactorEnabled,
+    lastUsernameChange: user.lastUsernameChange?.toISOString() || null,
     suspendedAt: user.suspendedAt?.toISOString() || null,
     suspensionReason: user.suspensionReason || null,
     isMuted: user.isMuted,
     isRestricted: user.isRestricted,
+    createdAt: user.createdAt.toISOString(),
   };
 }
 
@@ -66,6 +60,11 @@ export function hasAdminRole(role?: string | null) {
 export function hasStaffRole(role?: string | null) {
   const r = String(role || '').toUpperCase();
   return r === STAFF_ROLE || r === ADMIN_ROLE;
+}
+
+export function hasModeratorRole(role?: string | null) {
+  const r = String(role || '').toUpperCase();
+  return r === MODERATOR_ROLE || r === STAFF_ROLE || r === ADMIN_ROLE;
 }
 
 export function isSuspended(user: Pick<User, 'suspendedAt'> | null | undefined) {

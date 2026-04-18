@@ -56,7 +56,7 @@ export function parseM3U(content: string): { channels: Channel[]; epgUrl?: strin
       // iptv-org uses semicolons for multi-category — take first
       const rawCategory = attrs['group-title'] || attrs['group'] || undefined;
       let category = rawCategory ? rawCategory.split(';')[0].trim() || undefined : undefined;
-      if (category && /^(undefined|unknown)$/i.test(category)) {
+      if (!category || /^(undefined|unknown)$/i.test(category)) {
         category = 'Uncategorized';
       }
       const language = attrs['tvg-language'] || attrs['language'] || undefined;
@@ -65,6 +65,9 @@ export function parseM3U(content: string): { channels: Channel[]; epgUrl?: strin
       if (!country && epgId) {
         const m = epgId.match(/\.([a-z]{2,3})(?:@|$)/i);
         if (m) country = m[1].toLowerCase();
+      }
+      if (!country || /^(undefined|unknown)$/i.test(country)) {
+        country = 'International';
       }
 
       const nameRaw = displayName || attrs['tvg-name'] || attrs['title'] || url;

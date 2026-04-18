@@ -20,7 +20,6 @@ export default async function SearchPage({
       initialSearch={searchParams.q || ''}
       initialCountry={searchParams.country || ''}
       initialCategory={searchParams.category || ''}
-      initialLanguage={searchParams.language || ''}
     />
   );
 }

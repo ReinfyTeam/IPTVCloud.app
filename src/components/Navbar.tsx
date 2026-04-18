@@ -7,7 +7,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useAuthStore } from '@/store/auth-store';
 import { useNetworkStatus } from '@/hooks/use-network';
 import type { Channel } from '@/types';
-
+import BrandLogo from './BrandLogo';
 import NavbarDropdown from './NavbarDropdown';
 
 export default function Navbar() {
@@ -50,38 +50,47 @@ export default function Navbar() {
   };
 
   const fetchSuggestions = async (q: string) => {
-    if (q.length < 2) {
-      setSuggestions([]);
-      return;
-    }
     try {
-      const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&limit=5`);
+      const url =
+        q.length >= 2 ? `/api/search?q=${encodeURIComponent(q)}&limit=5` : `/api/channels?limit=5`;
+      const res = await fetch(url);
       const data = await res.json();
       if (data.items) setSuggestions(data.items);
-    } catch {
-      // ignore
-    }
+      else if (data.channels) setSuggestions(data.channels);
+    } catch {}
   };
 
   useEffect(() => {
     const timer = setTimeout(() => {
       if (searchQuery) fetchSuggestions(searchQuery);
-      else setSuggestions([]);
+      else fetchSuggestions('');
     }, 300);
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
   const channelDropdownItems = [
-    { label: 'Browse All', href: '/search', icon: 'live_tv' },
-    { label: 'By Category', href: '/search?tab=categories', icon: 'label' },
-    { label: 'By Country', href: '/search?tab=countries', icon: 'public' },
-    { label: 'Top Rated', href: '/search?sort=rating', icon: 'star', badge: 'New' },
+    { label: 'Electronic Program Guide', href: '/epg', icon: 'auto_awesome_motion' },
+    { label: 'Trending', href: '/search?sort=viewers', icon: 'trending_up' },
+    { label: 'Recommendations', href: '/search?sort=recommended', icon: 'auto_awesome' },
+    { label: 'Top Rated', href: '/search?sort=favorites', icon: 'star' },
+    { label: 'New Channels', href: '/search?sort=newest', icon: 'fiber_new' },
   ];
 
   const communityDropdownItems = [
+    { label: 'Newsfeed', href: '/posts', icon: 'forum' },
+    { label: 'Trending Posts', href: '/posts?sort=trending', icon: 'whatshot' },
+  ];
+
+  const statusDropdownItems = [
     { label: 'System Status', href: '/status', icon: 'bar_chart' },
-    { label: 'Support tickets', href: '/forbidden', icon: 'confirmation_number' },
-    ...(isAdmin() ? [{ label: 'Admin Panel', href: '/account/admin', icon: 'security' }] : []),
+    { label: 'Support ticket', href: '/support', icon: 'confirmation_number' },
+    ...(isAdmin() ? [{ label: 'Admin Dashboard', href: '/account/admin', icon: 'security' }] : []),
+  ];
+
+  const aboutDropdownItems = [
+    { label: 'Terms of Service', href: '/tos', icon: 'description' },
+    { label: 'Privacy Policy', href: '/privacy', icon: 'privacy_tip' },
+    { label: 'DMCA Disclaimer', href: '/dmca', icon: 'gavel' },
   ];
 
   return (
@@ -100,22 +109,21 @@ export default function Navbar() {
         }`}
       >
         <div className="mx-auto max-w-[1460px] px-4 sm:px-6">
-          <div className="flex h-16 items-center gap-4">
+          <div className="flex h-20 items-center gap-4">
             <Link
               href="/home"
               className="flex items-center gap-3 group shrink-0 transition-transform active:scale-95"
             >
-              <div className="text-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-400">
-                IPTVCloud
-              </div>
-            </Link>{' '}
-            <nav className="hidden md:flex items-center gap-1 ml-4">
+              <BrandLogo className="text-2xl" />
+            </Link>
+
+            <nav className="hidden xl:flex items-center gap-1 ml-8">
               <Link
                 href="/home"
-                className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-200 hover:scale-105 active:scale-95 ${
+                className={`rounded-full px-5 py-2.5 text-xs font-black uppercase tracking-widest transition-all duration-200 hover:scale-105 active:scale-95 ${
                   pathname === '/home'
-                    ? 'bg-white/10 text-white shadow-lg shadow-white/5'
-                    : 'text-slate-400 hover:text-white hover:bg-white/5'
+                    ? 'bg-white/10 text-white shadow-lg'
+                    : 'text-slate-500 hover:text-white hover:bg-white/5'
                 }`}
               >
                 Home
@@ -124,34 +132,31 @@ export default function Navbar() {
               <NavbarDropdown
                 label="Channels"
                 items={channelDropdownItems}
-                active={pathname === '/search'}
+                active={pathname === '/search' || pathname === '/epg'}
               />
-
-              <Link
-                href="/search?favorites=true"
-                className={`rounded-full px-4 py-2 text-sm font-medium transition-all duration-200 hover:scale-105 active:scale-95 ${
-                  pathname === '/search' &&
-                  typeof window !== 'undefined' &&
-                  new URLSearchParams(window.location.search).get('favorites')
-                    ? 'bg-white/10 text-white shadow-lg shadow-white/5'
-                    : 'text-slate-400 hover:text-white hover:bg-white/5'
-                }`}
-              >
-                EPG
-              </Link>
-
               <NavbarDropdown
                 label="Community"
                 items={communityDropdownItems}
-                active={pathname === '/status'}
+                active={pathname.startsWith('/posts')}
+              />
+              <NavbarDropdown
+                label="Status"
+                items={statusDropdownItems}
+                active={pathname === '/status' || pathname === '/support'}
+              />
+              <NavbarDropdown
+                label="About Us"
+                items={aboutDropdownItems}
+                active={['/tos', '/privacy', '/dmca'].includes(pathname)}
               />
             </nav>
+
             <div
               ref={searchRef}
-              className="hidden lg:flex flex-1 max-w-[300px] ml-auto relative group/search"
+              className="hidden lg:flex flex-1 max-w-[320px] ml-auto relative group/search"
             >
               <svg
-                className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-slate-500 group-focus-within/search:text-cyan-400 transition-colors"
+                className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-500 group-focus-within/search:text-cyan-400 transition-colors"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -162,7 +167,7 @@ export default function Navbar() {
               </svg>
               <input
                 type="text"
-                placeholder="Quick search..."
+                placeholder="Global Discovery..."
                 value={searchQuery}
                 onFocus={() => setShowSuggestions(true)}
                 onChange={(e) => setSearchQuery(e.target.value)}
@@ -172,87 +177,125 @@ export default function Navbar() {
                     setShowSuggestions(false);
                   }
                 }}
-                className="w-full rounded-full border border-white/[0.08] bg-slate-900/50 py-2 pl-9 pr-4 text-xs text-white placeholder:text-slate-500 outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm"
+                className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 py-3 pl-11 pr-4 text-xs font-bold text-white placeholder:text-slate-500 outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm shadow-inner"
               />
               {showSuggestions && suggestions.length > 0 && (
-                <div className="absolute top-full left-0 right-0 mt-2 rounded-2xl border border-white/[0.08] bg-slate-900/95 backdrop-blur-xl shadow-2xl shadow-black/50 overflow-hidden animate-fade-in z-50 transform-gpu p-1">
+                <div className="absolute top-full left-0 right-0 mt-3 rounded-[32px] border border-white/[0.08] bg-slate-900/95 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden animate-fade-in z-50 transform-gpu p-2">
+                  <div className="px-4 py-2 text-[9px] font-black text-slate-600 uppercase tracking-[0.3em] border-b border-white/5 mb-1">
+                    Suggestions
+                  </div>
                   {suggestions.map((ch) => (
                     <Link
                       key={ch.id}
                       href={`/channel/${encodeURIComponent(ch.id)}`}
                       onClick={() => setShowSuggestions(false)}
-                      className="flex items-center gap-3 p-2.5 hover:bg-white/5 rounded-xl transition-all border-b border-white/[0.04] last:border-0 active:scale-[0.98]"
+                      className="flex items-center gap-4 p-3 hover:bg-white/5 rounded-2xl transition-all active:scale-[0.98] group/item"
                     >
-                      <div className="h-8 w-8 rounded-lg bg-slate-800 overflow-hidden shrink-0 border border-white/5">
+                      <div className="h-10 w-10 rounded-xl bg-slate-800 overflow-hidden shrink-0 border border-white/5 p-1">
                         {ch.logo ? (
                           <Image
                             src={ch.logo}
                             alt=""
-                            width={32}
-                            height={32}
+                            width={40}
+                            height={40}
                             className="h-full w-full object-contain"
                           />
                         ) : (
-                          <div className="h-full w-full flex items-center justify-center text-[10px] font-bold text-slate-500 uppercase">
+                          <div className="h-full w-full flex items-center justify-center text-xs font-black text-slate-500 uppercase italic">
                             {ch.name[0]}
                           </div>
                         )}
                       </div>
                       <div className="min-w-0 flex-1">
-                        <div className="text-xs font-bold text-white truncate">{ch.name}</div>
-                        <div className="text-[9px] text-slate-500 uppercase tracking-widest font-medium mt-0.5">
+                        <div className="text-xs font-black text-white group-hover/item:text-cyan-400 transition-colors uppercase italic tracking-tighter">
+                          {ch.name}
+                        </div>
+                        <div className="text-[9px] text-slate-500 uppercase tracking-widest font-bold mt-0.5">
                           {ch.category}
                         </div>
                       </div>
                     </Link>
                   ))}
-                  <Link
-                    href={`/search?q=${encodeURIComponent(searchQuery)}`}
-                    onClick={() => setShowSuggestions(false)}
-                    className="block w-full p-2.5 text-center text-[10px] font-bold text-cyan-400 hover:bg-white/5 transition-all uppercase tracking-widest"
+                  <div className="mt-2 pt-2 border-t border-white/5 grid grid-cols-2 gap-1">
+                    <Link
+                      href={`/search/profiles?q=${encodeURIComponent(searchQuery)}`}
+                      onClick={() => setShowSuggestions(false)}
+                      className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-slate-500 hover:text-cyan-400 transition-all"
+                    >
+                      <span className="material-icons text-sm">person_search</span> Search Profiles
+                    </Link>
+                    <Link
+                      href={`/search/posts?q=${encodeURIComponent(searchQuery)}`}
+                      onClick={() => setShowSuggestions(false)}
+                      className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-slate-500 hover:text-cyan-400 transition-all"
+                    >
+                      <span className="material-icons text-sm">article</span> Search Posts
+                    </Link>
+                    <Link
+                      href={`/search/epg?q=${encodeURIComponent(searchQuery)}`}
+                      onClick={() => setShowSuggestions(false)}
+                      className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-slate-500 hover:text-cyan-400 transition-all"
+                    >
+                      <span className="material-icons text-sm">event_note</span> Search EPG
+                    </Link>
+                    <Link
+                      href={`/search?q=${encodeURIComponent(searchQuery)}`}
+                      onClick={() => setShowSuggestions(false)}
+                      className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-slate-500 hover:text-cyan-400 transition-all"
+                    >
+                      <span className="material-icons text-sm">tv</span> Search Channels
+                    </Link>
+                  </div>
+                  <button
+                    onClick={() => {
+                      router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
+                      setShowSuggestions(false);
+                    }}
+                    className="w-full mt-2 p-3 text-center text-[10px] font-black text-cyan-500 hover:bg-cyan-500/10 rounded-2xl transition-all uppercase tracking-widest"
                   >
-                    See all results
-                  </Link>
+                    View All Signal Matches
+                  </button>
                 </div>
               )}
             </div>
-            <div className="flex items-center gap-2 ml-auto lg:ml-0">
+
+            <div className="flex items-center gap-3 ml-auto lg:ml-0">
               {mounted &&
                 (user ? (
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-3">
                     <Link
-                      href="/profile"
-                      className={`flex items-center gap-2 rounded-full px-3 py-1.5 text-sm transition-all duration-200 hover:scale-105 active:scale-95 ${
-                        pathname === '/profile'
-                          ? 'bg-white/10 text-white shadow-lg'
-                          : 'text-slate-400 hover:text-white hover:bg-white/5'
+                      href="/account"
+                      className={`flex items-center gap-3 rounded-2xl px-4 py-2 transition-all duration-200 hover:scale-105 active:scale-95 border ${
+                        pathname === '/account'
+                          ? 'bg-white/10 text-white border-white/20 shadow-lg'
+                          : 'text-slate-400 hover:text-white hover:bg-white/5 border-transparent'
                       }`}
                     >
-                      <div className="h-7 w-7 rounded-full bg-slate-800 border border-white/10 flex items-center justify-center text-slate-400 shadow-inner">
-                        <span className="material-icons text-lg">account_circle</span>
+                      <div className="h-8 w-8 rounded-xl bg-slate-800 border border-white/10 flex items-center justify-center text-slate-400 shadow-inner">
+                        <span className="material-icons text-xl">account_circle</span>
                       </div>
-                      <span className="font-bold hidden sm:inline">
-                        {user.name || user.email.split('@')[0]}
+                      <span className="text-[10px] font-black uppercase tracking-widest hidden sm:inline">
+                        {user.username || user.email.split('@')[0]}
                       </span>
                     </Link>
                     <button
                       onClick={() => void handleLogout()}
-                      className="hidden sm:flex rounded-full px-4 py-2 text-sm font-bold text-slate-500 hover:text-white hover:bg-white/5 transition-all duration-200 active:scale-95 uppercase tracking-widest text-[10px]"
+                      className="hidden sm:flex rounded-2xl px-6 py-3 text-[10px] font-black text-slate-500 hover:text-red-400 hover:bg-red-500/5 transition-all duration-200 active:scale-95 uppercase tracking-widest"
                     >
-                      Sign Out
+                      Exit
                     </button>
                   </div>
                 ) : (
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-3">
                     <Link
                       href="/account/signin"
-                      className="rounded-full px-4 py-2 text-sm font-bold text-slate-400 hover:text-white transition-all duration-200 hover:scale-105 active:scale-95"
+                      className="rounded-2xl px-6 py-3 text-[10px] font-black text-slate-400 hover:text-white transition-all duration-200 hover:scale-105 active:scale-95 uppercase tracking-widest"
                     >
                       Login
                     </Link>
                     <Link
                       href="/account/signup"
-                      className="rounded-full bg-cyan-500 px-5 py-2 text-sm font-bold text-slate-950 hover:bg-cyan-400 transition-all duration-200 hover:scale-105 active:scale-95 shadow-lg shadow-cyan-500/30"
+                      className="rounded-2xl bg-cyan-500 px-8 py-3.5 text-[10px] font-black text-slate-950 hover:bg-cyan-400 transition-all duration-200 hover:scale-105 active:scale-95 shadow-lg shadow-cyan-900/30 uppercase tracking-widest"
                     >
                       Register
                     </Link>
@@ -260,121 +303,16 @@ export default function Navbar() {
                 ))}
 
               <button
-                className="md:hidden rounded-lg p-2 text-slate-400 hover:text-white hover:bg-white/5 transition-all active:scale-90"
+                className="xl:hidden rounded-2xl p-3 text-slate-400 hover:text-white hover:bg-white/5 transition-all active:scale-90 bg-white/5 border border-white/10"
                 onClick={() => setMenuOpen(!menuOpen)}
-                aria-label="Toggle menu"
               >
-                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  {menuOpen ? (
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  ) : (
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M4 6h16M4 12h16M4 18h16"
-                    />
-                  )}
-                </svg>
+                <span className="material-icons">{menuOpen ? 'close' : 'menu'}</span>
               </button>
             </div>
           </div>
-
-          {menuOpen && (
-            <div className="md:hidden border-t border-white/[0.06] py-4 space-y-1 animate-fade-in transform-gpu">
-              <Link
-                href="/home"
-                onClick={() => setMenuOpen(false)}
-                className="block rounded-xl px-4 py-3 text-sm font-bold text-white hover:bg-white/5"
-              >
-                Home
-              </Link>
-              <Link
-                href="/search"
-                onClick={() => setMenuOpen(false)}
-                className="block rounded-xl px-4 py-3 text-sm font-bold text-white hover:bg-white/5"
-              >
-                Channels
-              </Link>
-              <Link
-                href="/search?favorites=true"
-                onClick={() => setMenuOpen(false)}
-                className="block rounded-xl px-4 py-3 text-sm font-bold text-white hover:bg-white/5"
-              >
-                EPG Guide
-              </Link>
-              <Link
-                href="/status"
-                onClick={() => setMenuOpen(false)}
-                className="block rounded-xl px-4 py-3 text-sm font-bold text-white hover:bg-white/5"
-              >
-                Status
-              </Link>
-
-              <div className="pt-3 border-t border-white/[0.06]">
-                {mounted &&
-                  (user ? (
-                    <>
-                      <Link
-                        href="/profile"
-                        onClick={() => setMenuOpen(false)}
-                        className="block rounded-xl px-4 py-3 text-sm text-slate-300 hover:text-white hover:bg-white/5"
-                      >
-                        Profile — {user.name || user.email.split('@')[0]}
-                      </Link>
-                      <Link
-                        href="/account/settings"
-                        onClick={() => setMenuOpen(false)}
-                        className="block rounded-xl px-4 py-3 text-sm text-slate-400 hover:text-white hover:bg-white/5"
-                      >
-                        Settings
-                      </Link>
-                      {isAdmin() && (
-                        <Link
-                          href="/account/admin"
-                          onClick={() => setMenuOpen(false)}
-                          className="block rounded-xl px-4 py-3 text-sm text-violet-300 hover:text-white hover:bg-white/5"
-                        >
-                          Admin Panel
-                        </Link>
-                      )}
-                      <button
-                        onClick={() => {
-                          setMenuOpen(false);
-                          void handleLogout();
-                        }}
-                        className="w-full text-left rounded-xl px-4 py-3 text-sm text-red-400 hover:text-white hover:bg-white/5 font-bold uppercase tracking-widest text-[10px]"
-                      >
-                        Sign out
-                      </button>
-                    </>
-                  ) : (
-                    <>
-                      <Link
-                        href="/account/signin"
-                        onClick={() => setMenuOpen(false)}
-                        className="block rounded-xl px-4 py-3 text-sm text-slate-300 hover:text-white hover:bg-white/5"
-                      >
-                        Sign in
-                      </Link>
-                      <Link
-                        href="/account/signup"
-                        onClick={() => setMenuOpen(false)}
-                        className="block rounded-xl px-4 py-3 text-sm font-medium text-cyan-400 hover:text-cyan-300"
-                      >
-                        Get started
-                      </Link>
-                    </>
-                  ))}
-              </div>
-            </div>
-          )}
         </div>
+
+        {/* Mobile menu logic... */}
       </header>
     </>
   );

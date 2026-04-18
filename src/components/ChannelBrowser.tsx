@@ -9,9 +9,6 @@ import { useHistoryStore } from '@/store/history-store';
 import ChannelCard from './ChannelCard';
 import Sidebar from './Sidebar';
 
-import { getCountryName } from '@/lib/countries';
-import { getLanguageName } from '@/lib/languages';
-
 function useDebounce<T>(value: T, delay: number): T {
   const [debounced, setDebounced] = useState(value);
   useEffect(() => {
@@ -21,12 +18,27 @@ function useDebounce<T>(value: T, delay: number): T {
   return debounced;
 }
 
+const CATEGORY_ICONS: Record<string, string> = {
+  music: 'music_note',
+  movies: 'movie',
+  news: 'newspaper',
+  sports: 'sports_soccer',
+  kids: 'child_care',
+  entertainment: 'theater_comedy',
+  documentary: 'visibility',
+  education: 'school',
+  lifestyle: 'style',
+  religious: 'church',
+  animation: 'animation',
+  general: 'widgets',
+  uncategorized: 'folder_open',
+};
+
 type Props = {
   channels: Channel[];
   initialSearch?: string;
   initialCountry?: string;
   initialCategory?: string;
-  initialLanguage?: string;
   initialResolution?: string;
 };
 
@@ -35,7 +47,6 @@ export default function ChannelBrowser({
   initialSearch = '',
   initialCountry = '',
   initialCategory = '',
-  initialLanguage = '',
   initialResolution = '',
 }: Props) {
   const router = useRouter();
@@ -43,26 +54,12 @@ export default function ChannelBrowser({
   const { ids: favoriteIds, toggleFavorite, isFavorite } = useFavoritesStore();
   const { addHistory } = useHistoryStore();
 
-  // Resolve initial country if it's a code
-  const resolvedCountry = useMemo(() => {
-    if (!initialCountry) return '';
-    if (initialCountry.length <= 3) return getCountryName(initialCountry).toUpperCase();
-    return initialCountry.toUpperCase();
-  }, [initialCountry]);
-
-  // Resolve initial language if it's a code
-  const resolvedLanguage = useMemo(() => {
-    if (!initialLanguage) return '';
-    if (initialLanguage.length <= 3) return getLanguageName(initialLanguage);
-    return initialLanguage;
-  }, [initialLanguage]);
-
   const [search, setSearch] = useState(initialSearch);
-  const [country, setCountry] = useState(resolvedCountry);
+  const [country, setCountry] = useState(initialCountry);
   const [category, setCategory] = useState(initialCategory);
-  const [language, setLanguage] = useState(resolvedLanguage);
   const [resolution, setResolution] = useState(initialResolution);
   const [favoritesOnly, setFavoritesOnly] = useState(false);
+  const [sortBy, setSortBy] = useState('recommended');
   const [page, setPage] = useState(1);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
   const observerTarget = useRef<HTMLDivElement>(null);
@@ -72,17 +69,25 @@ export default function ChannelBrowser({
 
   useEffect(() => {
     setPage(1);
-  }, [debouncedSearch, country, category, language, resolution, favoritesOnly]);
+  }, [debouncedSearch, country, category, resolution, favoritesOnly, sortBy]);
 
   const filterOptions = useMemo(
     () => ({
       countries: [
-        ...new Set(channels.map((c) => c.country || 'International').filter(Boolean)),
+        ...new Set(
+          channels
+            .map((c) => (c.country && c.country !== 'UNKNOWN' ? c.country : 'International'))
+            .filter(Boolean),
+        ),
       ].sort(),
       categories: [
-        ...new Set(channels.map((c) => c.category || 'uncategorized').filter(Boolean)),
+        ...new Set(
+          channels
+            .map((c) => (c.category && c.category !== 'Undefined' ? c.category : 'Uncategorized'))
+            .filter(Boolean),
+        ),
       ].sort(),
-      languages: [...new Set(channels.map((c) => c.language || 'Unknown').filter(Boolean))].sort(),
+      languages: [],
       resolutions: [
         ...new Set(channels.map((c) => c.resolution).filter((r): r is string => Boolean(r))),
       ].sort(),
@@ -94,10 +99,9 @@ export default function ChannelBrowser({
     const q = debouncedSearch.toLowerCase();
     const cry = country.toLowerCase();
     const cat = category.toLowerCase();
-    const lng = language.toLowerCase();
     const res = resolution.toLowerCase();
 
-    return channels.filter((c) => {
+    let filtered = channels.filter((c) => {
       if (
         q &&
         !['name', 'country', 'category', 'language'].some((k) =>
@@ -105,22 +109,41 @@ export default function ChannelBrowser({
         )
       )
         return false;
-      if (country && c.country?.toLowerCase() !== cry) return false;
-      if (category && c.category?.toLowerCase() !== cat) return false;
-      if (language && c.language?.toLowerCase() !== lng) return false;
+      if (country && (c.country?.toLowerCase() || 'international') !== cry) return false;
+      if (category && (c.category?.toLowerCase() || 'uncategorized') !== cat) return false;
       if (resolution && c.resolution?.toLowerCase() !== res) return false;
       if (favoritesOnly && !favoriteIds.includes(c.id)) return false;
       return true;
     });
+
+    filtered = [...filtered].sort((a, b) => {
+      switch (sortBy) {
+        case 'name':
+          return a.name.localeCompare(b.name);
+        case 'viewers':
+          return (b.viewersCount || 0) - (a.viewersCount || 0);
+        case 'favorites':
+          const aFav = favoriteIds.includes(a.id) ? 1 : 0;
+          const bFav = favoriteIds.includes(b.id) ? 1 : 0;
+          return bFav - aFav;
+        case 'featured':
+          return (b.logo ? 1 : 0) - (a.logo ? 1 : 0);
+        case 'recommended':
+        default:
+          return 0;
+      }
+    });
+
+    return filtered;
   }, [
     channels,
     debouncedSearch,
     country,
     category,
-    language,
     resolution,
     favoritesOnly,
     favoriteIds,
+    sortBy,
   ]);
 
   const pagedChannels = useMemo(
@@ -141,14 +164,6 @@ export default function ChannelBrowser({
     return () => observer.disconnect();
   }, [pagedChannels.length, filteredChannels.length]);
 
-  useEffect(() => {
-    const q = debouncedSearch.toLowerCase().trim();
-    if (q.length > 2) {
-      const match = channels.find((c) => c.name.toLowerCase().trim() === q);
-      if (match) router.push(`/channel/${encodeURIComponent(match.id)}`);
-    }
-  }, [debouncedSearch, channels, router]);
-
   const selectChannel = useCallback(
     (ch: Channel) => {
       addHistory(ch);
@@ -161,13 +176,11 @@ export default function ChannelBrowser({
     setSearch('');
     setCountry('');
     setCategory('');
-    setLanguage('');
     setResolution('');
     setFavoritesOnly(false);
+    setSortBy('recommended');
   };
-  const hasFilters = Boolean(
-    search || country || category || language || resolution || favoritesOnly,
-  );
+  const hasFilters = Boolean(search || country || category || resolution || favoritesOnly);
 
   return (
     <div className="flex pt-16">
@@ -178,8 +191,8 @@ export default function ChannelBrowser({
         setCountry={setCountry}
         category={category}
         setCategory={setCategory}
-        language={language}
-        setLanguage={setLanguage}
+        language=""
+        setLanguage={() => {}}
         resolution={resolution}
         setResolution={setResolution}
         favoritesOnly={favoritesOnly}
@@ -187,65 +200,93 @@ export default function ChannelBrowser({
         filterOptions={filterOptions}
         isMobileOpen={isMobileOpen}
         setIsMobileOpen={setIsMobileOpen}
+        sortBy={sortBy}
+        setSortBy={setSortBy}
       />
 
-      <div className="flex-1 lg:pl-72 transition-all duration-500 pb-20 transform-gpu">
+      <div className="flex-1 lg:pl-72 transition-all duration-500 pb-20 transform-gpu bg-slate-950 min-h-screen">
         <section id="channels" className="px-6 py-10">
           <div className="mx-auto max-w-[1460px]">
-            <div className="mb-10 flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+            <div className="flex items-center gap-2 overflow-x-auto pb-10 scrollbar-hide -mx-2 px-2">
+              <button
+                onClick={() => setCategory('')}
+                className={`shrink-0 flex items-center gap-3 px-8 py-4 rounded-3xl text-[10px] font-black uppercase tracking-widest border transition-all active:scale-95 transform-gpu ${!category ? 'bg-cyan-500 border-cyan-500 text-slate-950 shadow-[0_0_30px_rgba(6,182,212,0.4)]' : 'bg-white/5 border-white/10 text-slate-400 hover:text-white hover:bg-white/10'}`}
+              >
+                <span className="material-icons text-lg">apps</span>
+                All
+              </button>
+              {filterOptions.categories.slice(0, 15).map((cat) => (
+                <button
+                  key={cat}
+                  onClick={() => setCategory(cat)}
+                  className={`shrink-0 flex items-center gap-3 px-8 py-4 rounded-3xl text-[10px] font-black uppercase tracking-widest border transition-all active:scale-95 transform-gpu ${category === cat ? 'bg-cyan-500 border-cyan-500 text-slate-950 shadow-[0_0_30px_rgba(6,182,212,0.4)]' : 'bg-white/5 border-white/10 text-slate-400 hover:text-white hover:bg-white/10'}`}
+                >
+                  <span className="material-icons text-lg">
+                    {CATEGORY_ICONS[cat.toLowerCase()] || 'folder'}
+                  </span>
+                  {cat}
+                </button>
+              ))}
+            </div>
+
+            <div className="mb-10 flex flex-col sm:flex-row sm:items-center justify-between gap-6 px-1">
               <div>
                 <div className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 mb-2">
-                  Search Library
+                  Technical Discovery
                 </div>
-                <h2 className="text-3xl font-black text-white flex items-center gap-4 italic uppercase">
-                  {hasFilters
-                    ? `${filteredChannels.length.toLocaleString()} results`
-                    : `All Channels`}
+                <h2 className="text-4xl font-black text-white flex items-center gap-4 italic uppercase tracking-tighter leading-none">
+                  {hasFilters ? `${filteredChannels.length.toLocaleString()} matches` : `Library.`}
                   {hasFilters && (
-                    <span className="rounded-full bg-cyan-500/10 border border-cyan-500/20 px-4 py-1 text-[10px] font-black text-cyan-400 animate-fade-in tracking-widest">
-                      FILTERED
+                    <span className="rounded-full bg-cyan-500/10 border border-cyan-500/20 px-4 py-1.5 text-[9px] font-black text-cyan-400 animate-fade-in tracking-[0.2em]">
+                      ACTIVE FILTERS
                     </span>
                   )}
                 </h2>
               </div>
               <div className="flex items-center gap-4">
-                <div className="flex rounded-2xl border border-white/[0.08] bg-slate-900/80 backdrop-blur-md p-1.5 text-[10px] font-black uppercase tracking-widest">
+                <div className="flex rounded-3xl border border-white/[0.08] bg-slate-900/80 backdrop-blur-md p-2 shadow-2xl">
                   {(['grid', 'list'] as const).map((m) => (
                     <button
                       key={m}
                       onClick={() => setViewMode(m)}
-                      className={`rounded-xl px-5 py-2.5 transition-all duration-300 active:scale-95 ${viewMode === m ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/30' : 'text-slate-500 hover:text-white hover:bg-white/5'}`}
+                      className={`rounded-2xl px-6 py-3 transition-all duration-500 active:scale-95 flex items-center gap-3 ${viewMode === m ? 'bg-white text-slate-950 shadow-xl' : 'text-slate-500 hover:text-white hover:bg-white/5'}`}
                     >
-                      {m}
+                      <span className="material-icons text-lg">
+                        {m === 'grid' ? 'grid_view' : 'view_list'}
+                      </span>
+                      <span className="text-[10px] font-black uppercase tracking-widest hidden sm:inline">
+                        {m}
+                      </span>
                     </button>
                   ))}
                 </div>
                 <button
                   onClick={() => setIsMobileOpen(true)}
-                  className="lg:hidden rounded-2xl border border-white/[0.08] bg-slate-900/80 backdrop-blur-md px-6 py-3 text-xs font-black uppercase tracking-widest text-slate-300 hover:text-white transition-all shadow-lg active:scale-95"
+                  className="lg:hidden rounded-3xl border border-white/[0.08] bg-slate-900/80 backdrop-blur-md px-8 py-4 text-[10px] font-black uppercase tracking-widest text-slate-300 hover:text-white transition-all shadow-xl active:scale-95 flex items-center gap-3"
                 >
-                  Filters
+                  <span className="material-icons text-lg">tune</span>
+                  Options
                 </button>
               </div>
             </div>
 
             {filteredChannels.length === 0 ? (
-              <div className="rounded-[56px] border border-dashed border-white/[0.08] p-32 text-center bg-slate-900/20 backdrop-blur-md animate-fade-in shadow-inner">
-                <span className="material-icons text-8xl mb-8 opacity-10 text-slate-500">
+              <div className="rounded-[64px] border border-dashed border-white/[0.08] p-32 text-center bg-slate-900/20 backdrop-blur-md animate-fade-in shadow-inner">
+                <span className="material-icons text-8xl mb-8 opacity-5 text-white">
                   settings_input_antenna
                 </span>
-                <div className="text-2xl font-black text-white mb-3 text-transparent bg-clip-text bg-gradient-to-r from-slate-200 to-slate-500 italic uppercase">
-                  No channels found
+                <div className="text-3xl font-black text-white mb-4 italic uppercase tracking-tighter">
+                  No signals detected.
                 </div>
-                <div className="text-slate-500 max-w-sm mx-auto mb-10 font-medium">
-                  Try broadening your search or resetting all active filters to explore more
-                  content.
+                <div className="text-slate-500 max-w-sm mx-auto mb-10 font-medium leading-relaxed">
+                  The search parameters did not match any community-provided streams. Try adjusting
+                  your filters.
                 </div>
                 <button
                   onClick={clearFilters}
-                  className="rounded-full bg-white/5 border border-white/10 px-12 py-4 text-xs font-black text-white hover:bg-white/10 transition-all active:scale-95 shadow-2xl tracking-[0.2em] uppercase"
+                  className="rounded-full bg-cyan-500 text-slate-950 px-12 py-5 text-xs font-black hover:bg-cyan-400 transition-all active:scale-95 shadow-2xl shadow-cyan-950/40 tracking-widest uppercase"
                 >
-                  Reset All Filters
+                  Clear Signal Filters
                 </button>
               </div>
             ) : (
@@ -253,8 +294,8 @@ export default function ChannelBrowser({
                 <div
                   className={
                     viewMode === 'grid'
-                      ? 'grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5'
-                      : 'space-y-4'
+                      ? 'grid gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4'
+                      : 'space-y-6'
                   }
                 >
                   {pagedChannels.map((ch) => (
@@ -268,12 +309,12 @@ export default function ChannelBrowser({
                     />
                   ))}
                 </div>
-                <div ref={observerTarget} className="h-40 flex items-center justify-center mt-10">
+                <div ref={observerTarget} className="h-64 flex items-center justify-center mt-12">
                   {pagedChannels.length < filteredChannels.length && (
-                    <div className="flex flex-col items-center gap-3 animate-pulse">
-                      <div className="h-1.5 w-1.5 rounded-full bg-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.8)]" />
-                      <div className="text-[10px] font-black text-slate-600 uppercase tracking-[0.4em]">
-                        Syncing more data
+                    <div className="flex flex-col items-center gap-4 animate-pulse">
+                      <div className="h-2 w-2 rounded-full bg-cyan-500 shadow-[0_0_20px_rgba(6,182,212,0.8)]" />
+                      <div className="text-[10px] font-black text-slate-600 uppercase tracking-[0.5em]">
+                        Syncing Node Data
                       </div>
                     </div>
                   )}

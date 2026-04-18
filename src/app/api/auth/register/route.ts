@@ -28,17 +28,30 @@ export async function POST(req: Request) {
     const email = String(body.email || '')
       .trim()
       .toLowerCase();
+    const username = String(body.username || '')
+      .trim()
+      .toLowerCase();
     const password = String(body.password || '');
     const name = body.name ? String(body.name).trim() : undefined;
 
-    if (!email || !password) {
+    if (!email || !password || !username) {
       return NextResponse.json(
-        { ok: false, error: 'Email and password are required.' },
+        { ok: false, error: 'Email, username and password are required.' },
         { status: 400 },
       );
     }
     if (!EMAIL_RE.test(email)) {
       return NextResponse.json({ ok: false, error: 'Invalid email address.' }, { status: 400 });
+    }
+    if (username.length < 3 || !/^[a-z0-9_]+$/.test(username)) {
+      return NextResponse.json(
+        {
+          ok: false,
+          error:
+            'Username must be at least 3 characters and contain only letters, numbers, and underscores.',
+        },
+        { status: 400 },
+      );
     }
     if (password.length < 8) {
       return NextResponse.json(
@@ -47,10 +60,18 @@ export async function POST(req: Request) {
       );
     }
 
-    const existing = await prisma.user.findUnique({ where: { email } });
-    if (existing) {
+    const existingEmail = await prisma.user.findUnique({ where: { email } });
+    if (existingEmail) {
       return NextResponse.json(
         { ok: false, error: 'An account with that email already exists.' },
+        { status: 409 },
+      );
+    }
+
+    const existingUser = await prisma.user.findUnique({ where: { username } });
+    if (existingUser) {
+      return NextResponse.json(
+        { ok: false, error: 'That username is already taken.' },
         { status: 409 },
       );
     }
@@ -59,6 +80,7 @@ export async function POST(req: Request) {
     const user = await prisma.user.create({
       data: {
         email,
+        username,
         password: hashed,
         name,
         role: resolveRegistrationRole(email),

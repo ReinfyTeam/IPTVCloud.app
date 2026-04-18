@@ -1,29 +1,38 @@
 import { NextResponse } from 'next/server';
 import prisma from '@/lib/prisma';
-import { getUserFromReq } from '@/lib/auth';
+import { authorizeRequest, sanitizeUser } from '@/services/auth-service';
 
-export async function POST(request: Request) {
-  const user = await getUserFromReq(request);
-  if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+export const dynamic = 'force-dynamic';
 
+export async function POST(req: Request) {
   try {
-    const { email } = await request.json();
-    if (!email || !email.includes('@')) {
-      return NextResponse.json({ error: 'Invalid email address' }, { status: 400 });
+    const auth = await authorizeRequest(req);
+    if (auth instanceof NextResponse) return auth;
+
+    const { email } = await req.json();
+    const cleanEmail = String(email || '')
+      .trim()
+      .toLowerCase();
+
+    if (!cleanEmail || !cleanEmail.includes('@')) {
+      return NextResponse.json({ ok: false, error: 'Invalid email address.' }, { status: 400 });
     }
 
-    const existing = await prisma.user.findUnique({ where: { email } });
-    if (existing) {
-      return NextResponse.json({ error: 'Email already in use' }, { status: 400 });
+    const existing = await prisma.user.findUnique({ where: { email: cleanEmail } });
+    if (existing && existing.id !== auth.user!.id) {
+      return NextResponse.json({ ok: false, error: 'Email already in use.' }, { status: 409 });
     }
 
-    await prisma.user.update({
-      where: { id: user.id },
-      data: { email },
+    const updated = await prisma.user.update({
+      where: { id: auth.user!.id },
+      data: { email: cleanEmail },
     });
 
-    return NextResponse.json({ success: true });
+    return NextResponse.json({ ok: true, user: sanitizeUser(updated) });
   } catch (error) {
-    return NextResponse.json({ error: 'Failed to update email' }, { status: 500 });
+    return NextResponse.json(
+      { ok: false, error: error instanceof Error ? error.message : 'Update failed.' },
+      { status: 500 },
+    );
   }
 }

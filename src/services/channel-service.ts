@@ -33,8 +33,9 @@ function normalizeChannel(channel: Channel): Channel {
     if (match) lang = match[1];
   }
 
-  // 4. Remove language tags (e.g., (EN)) and empty parens
+  // 4. Remove language tags (e.g., (EN)), resolution tags (e.g., (576i)), and empty parens
   cleanName = cleanName.replace(/\([A-Z]{2,3}\)/gi, '');
+  cleanName = cleanName.replace(/\(\d+[ip]\)/gi, ''); // Removes (576i), (1080p), etc.
   cleanName = cleanName.replace(/\(\s*\)/g, '');
 
   // 5. Cleanup whitespace

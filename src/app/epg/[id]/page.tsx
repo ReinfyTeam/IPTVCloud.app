@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { getChannelById } from '@/services/channel-service';
 import { fetchEpgForId } from '@/services/epg-service';
 import EpgStrip from '@/components/EpgStrip';
+import { getProxiedImageUrl } from '@/lib/image-proxy';
 
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const channel = await getChannelById(decodeURIComponent(params.id));
@@ -26,7 +27,7 @@ export default async function EpgDetailsPage({ params }: { params: { id: string 
   const epg = await fetchEpgForId(channel.epgId || '');
 
   return (
-    <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6">
+    <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 bg-slate-950">
       <div className="mx-auto max-w-4xl space-y-12 animate-fade-in transform-gpu">
         <div className="flex flex-col md:flex-row items-center gap-8 p-8 rounded-[40px] bg-white/[0.03] border border-white/[0.08] backdrop-blur-xl shadow-2xl relative overflow-hidden">
           <div className="absolute top-0 right-0 h-64 w-64 bg-cyan-500/5 blur-[100px] rounded-full" />
@@ -38,7 +39,7 @@ export default async function EpgDetailsPage({ params }: { params: { id: string 
             <div className="h-24 w-32 rounded-3xl bg-slate-900 border border-white/10 flex items-center justify-center overflow-hidden p-4 group-hover:border-cyan-500/50 transition-all shadow-xl group-hover:scale-105 active:scale-95">
               {channel.logo ? (
                 <Image
-                  src={channel.logo}
+                  src={getProxiedImageUrl(channel.logo)}
                   alt={channel.name}
                   width={96}
                   height={80}
@@ -122,7 +123,7 @@ export default async function EpgDetailsPage({ params }: { params: { id: string 
                         {prog.image && (
                           <div className="aspect-video w-full max-w-xs rounded-2xl overflow-hidden border border-white/10 shadow-lg mb-4 opacity-80 group-hover:opacity-100 transition-opacity">
                             <Image
-                              src={prog.image}
+                              src={getProxiedImageUrl(prog.image)}
                               alt=""
                               width={320}
                               height={180}

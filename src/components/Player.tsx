@@ -66,6 +66,33 @@ export default function Player({
   const [currentQualityId, setCurrentQualityId] = useState<number>(-1); // -1 = Auto
   const controlsTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  // Persistence for volume
+  useEffect(() => {
+    const savedVol = localStorage.getItem('player-volume');
+    const savedMuted = localStorage.getItem('player-muted');
+    if (savedVol !== null) setVolume(parseFloat(savedVol));
+    if (savedMuted === 'true') setMuted(true);
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('player-volume', volume.toString());
+    localStorage.setItem('player-muted', muted.toString());
+    if (videoRef.current) {
+      videoRef.current.volume = volume;
+      videoRef.current.muted = muted;
+    }
+  }, [volume, muted]);
+
+  // CC Implementation
+  useEffect(() => {
+    if (videoRef.current) {
+      const tracks = videoRef.current.textTracks;
+      for (let i = 0; i < tracks.length; i++) {
+        tracks[i].mode = captionsEnabled ? 'showing' : 'hidden';
+      }
+    }
+  }, [captionsEnabled, status]);
+
   const sourceCandidates = useMemo(() => {
     return Array.from(
       new Set(
@@ -87,10 +114,12 @@ export default function Player({
     setShowControls(true);
     if (controlsTimeoutRef.current) clearTimeout(controlsTimeoutRef.current);
     controlsTimeoutRef.current = setTimeout(() => {
-      setShowControls(false);
-      setShowQualityMenu(false);
+      if (status === 'playing') {
+        setShowControls(false);
+        setShowQualityMenu(false);
+      }
     }, 3000);
-  }, []);
+  }, [status]);
 
   const destroyHls = useCallback(() => {
     if (hlsRef.current) {
@@ -151,15 +180,16 @@ export default function Player({
         const hls = new Hls({
           enableWorker: true,
           lowLatencyMode: true,
-          backBufferLength: 60,
+          backBufferLength: 30, // Reduced for bandwidth
           capLevelToPlayerSize: true,
-          abrBandWidthFactor: 0.95,
-          abrBandWidthUpFactor: 0.9,
-          maxBufferLength: 30,
-          maxMaxBufferLength: 60,
-          maxBufferSize: 60 * 1000 * 1000,
+          abrBandWidthFactor: 0.85, // More conservative for bandwidth
+          abrBandWidthUpFactor: 0.7,
+          maxBufferLength: 20, // Reduced for bandwidth
+          maxMaxBufferLength: 40,
+          maxBufferSize: 30 * 1000 * 1000, // 30MB max buffer
           maxBufferHole: 0.5,
-          startLevel: -1,
+          startLevel: -1, // Auto start
+          autoStartLoad: true,
         });
         hlsRef.current = hls;
         hls.loadSource(proxiedSrc);
@@ -185,7 +215,19 @@ export default function Player({
         });
 
         hls.on(Hls.Events.ERROR, (_evt, data) => {
-          if (data.fatal) tryNextSource('Primary stream failed.');
+          if (data.fatal) {
+            switch (data.type) {
+              case Hls.ErrorTypes.NETWORK_ERROR:
+                hls.startLoad();
+                break;
+              case Hls.ErrorTypes.MEDIA_ERROR:
+                hls.recoverMediaError();
+                break;
+              default:
+                tryNextSource('Primary stream failed.');
+                break;
+            }
+          }
         });
       } else {
         video.src = proxiedSrc;
@@ -352,7 +394,7 @@ export default function Player({
       onDoubleClick={() => void toggleFullscreen()}
       onContextMenu={handleContextMenu}
       className={`group relative overflow-hidden bg-black transition-all duration-500 transform-gpu 
-        ${isFullscreen ? 'fixed inset-0 z-[9999] h-screen w-screen border-none rounded-none' : theaterMode ? 'rounded-none h-[60vh]' : 'rounded-[40px] border border-white/[0.08] shadow-2xl shadow-black/50 h-[300px] sm:h-[500px] lg:h-[640px]'} 
+        ${isFullscreen ? 'fixed inset-0 z-[9999] h-screen w-screen !border-none !rounded-none !p-0 !m-0' : theaterMode ? 'rounded-none h-[60vh]' : 'rounded-[40px] border border-white/[0.08] shadow-2xl shadow-black/50 h-[300px] sm:h-[500px] lg:h-[640px]'} 
         ${className || ''}`}
     >
       <video ref={videoRef} className="h-full w-full object-contain" poster={poster} playsInline />
@@ -360,15 +402,15 @@ export default function Player({
       {/* Quality Selection Menu */}
       {showQualityMenu && qualities.length > 0 && (
         <div className="absolute bottom-24 right-8 z-50 bg-slate-900/95 backdrop-blur-2xl border border-white/10 rounded-2xl p-1.5 shadow-2xl animate-fade-in w-40">
-          <div className="px-3 py-2 text-[10px] font-bold text-slate-500 uppercase tracking-widest border-b border-white/5 mb-1">
-            Quality
+          <div className="px-3 py-2 text-[10px] font-black text-slate-500 uppercase tracking-widest border-b border-white/5 mb-1">
+            Stream Quality
           </div>
           <button
             onClick={(e) => {
               e.stopPropagation();
               changeQuality(-1);
             }}
-            className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs transition-all ${currentQualityId === -1 ? 'bg-cyan-500 text-slate-950 font-bold' : 'text-slate-300 hover:bg-white/5'}`}
+            className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs transition-all ${currentQualityId === -1 ? 'bg-cyan-500 text-slate-950 font-black' : 'text-slate-300 hover:bg-white/5'}`}
           >
             <span>Auto</span>
             {currentQualityId === -1 && <span className="material-icons text-sm">check</span>}
@@ -380,7 +422,7 @@ export default function Player({
                 e.stopPropagation();
                 changeQuality(q.id);
               }}
-              className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs transition-all ${currentQualityId === q.id ? 'bg-cyan-500 text-slate-950 font-bold' : 'text-slate-300 hover:bg-white/5'}`}
+              className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs transition-all ${currentQualityId === q.id ? 'bg-cyan-500 text-slate-950 font-black' : 'text-slate-300 hover:bg-white/5'}`}
             >
               <span>{q.name}</span>
               {currentQualityId === q.id && <span className="material-icons text-sm">check</span>}
@@ -417,15 +459,17 @@ export default function Player({
       {showEmbed && (
         <div className="absolute inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-8 animate-fade-in">
           <div className="max-w-md w-full text-center space-y-6">
-            <h3 className="text-xl font-bold text-white">Embed this stream</h3>
+            <h3 className="text-xl font-bold text-white uppercase italic tracking-tighter">
+              Embed Player.
+            </h3>
             <div className="bg-slate-900 border border-white/10 p-4 rounded-2xl text-[10px] font-mono text-slate-400 break-all select-all">
               {`<iframe src="${window.location.origin}/embed/${channel?.id}" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>`}
             </div>
             <button
               onClick={() => setShowEmbed(false)}
-              className="px-8 py-3 rounded-full bg-white/10 text-white font-bold text-xs hover:bg-white/20 transition-all"
+              className="px-8 py-3 rounded-full bg-white/10 text-white font-black text-[10px] uppercase tracking-widest hover:bg-white/20 transition-all active:scale-95"
             >
-              CLOSE
+              Close
             </button>
           </div>
         </div>
@@ -450,7 +494,7 @@ export default function Player({
             <button
               key={item.label}
               onClick={item.onClick}
-              className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-white/5 text-xs text-slate-300 hover:text-white transition-all"
+              className="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-white/5 text-xs text-slate-300 hover:text-white transition-all font-bold uppercase tracking-widest text-[10px]"
             >
               <span className="material-icons text-sm opacity-50">{item.icon}</span>
               <span>{item.label}</span>
@@ -468,7 +512,7 @@ export default function Player({
       {status === 'error' && (
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 bg-slate-950/90 z-40 px-6 text-center">
           <span className="material-icons text-5xl text-red-500 mb-2">error_outline</span>
-          <p className="text-sm font-bold text-red-300 uppercase tracking-widest">{errorMsg}</p>
+          <p className="text-sm font-black text-red-300 uppercase tracking-widest">{errorMsg}</p>
           <button
             onClick={() => {
               setSourceIndex(0);
@@ -507,7 +551,7 @@ export default function Player({
               {displayTitle || 'No Source'}
             </div>
             {displaySubtitle && (
-              <div className="truncate text-[10px] font-bold text-slate-400 drop-shadow-md tracking-widest uppercase mt-1 opacity-80">
+              <div className="truncate text-[10px] font-black text-slate-400 drop-shadow-md tracking-widest uppercase mt-1 opacity-80 italic">
                 {displaySubtitle}
               </div>
             )}
@@ -529,7 +573,7 @@ export default function Player({
                 <span className="material-icons text-2xl">skip_next</span>
               </IconButton>
 
-              <div className="flex items-center gap-3 ml-4 group/volume bg-white/5 rounded-full px-2 py-1 border border-white/5">
+              <div className="flex items-center gap-3 ml-4 group/volume bg-white/5 rounded-full px-2 py-1 border border-white/5 transition-all">
                 <IconButton onClick={toggleMute}>
                   <span className="material-icons text-xl">
                     {muted || volume === 0
@@ -551,7 +595,7 @@ export default function Player({
                       videoRef.current.muted = Number(e.target.value) === 0;
                     }
                   }}
-                  className="w-0 sm:w-20 opacity-0 group-hover/volume:w-20 group-hover/volume:opacity-100 transition-all duration-300 accent-white cursor-pointer"
+                  className="w-0 sm:w-20 opacity-0 group-hover/volume:w-20 group-hover/volume:opacity-100 transition-all duration-300 accent-white cursor-pointer h-1"
                 />
               </div>
             </div>
@@ -578,7 +622,7 @@ export default function Player({
               <IconButton onClick={() => setTheaterMode(!theaterMode)} active={theaterMode}>
                 <span className="material-icons text-xl">width_normal</span>
               </IconButton>
-              <IconButton onClick={() => void toggleFullscreen()}>
+              <IconButton onClick={() => void toggleFullscreen()} active={isFullscreen}>
                 <span className="material-icons text-xl">
                   {isFullscreen ? 'fullscreen_exit' : 'fullscreen'}
                 </span>
