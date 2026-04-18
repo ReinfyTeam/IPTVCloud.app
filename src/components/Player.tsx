@@ -156,7 +156,12 @@ export default function Player({
       const hls = new Hls({
         enableWorker: true,
         lowLatencyMode: true,
-        backBufferLength: 30,
+        backBufferLength: 60,
+        // Adaptive Streaming Optimizations
+        maxBufferLength: 30,
+        maxMaxBufferLength: 60,
+        capLevelToPlayerSize: true,
+        progressive: true,
       });
       hlsRef.current = hls;
       hls.loadSource(proxiedSrc);
@@ -179,6 +184,11 @@ export default function Player({
   useEffect(() => {
     const video = videoRef.current;
     if (!video) return;
+    if (channel?.isGeoBlocked) {
+      setStatus('error');
+      setErrorMsg('This content is GEO BLOCKED in your region.');
+      return;
+    }
     if (!activeUrl) {
       destroyHls();
       clearLoadTimeout();
@@ -191,7 +201,7 @@ export default function Player({
       clearLoadTimeout();
       destroyHls();
     };
-  }, [activeUrl, clearLoadTimeout, loadStream, destroyHls]);
+  }, [activeUrl, clearLoadTimeout, loadStream, destroyHls, channel?.isGeoBlocked]);
 
   useEffect(() => {
     const video = videoRef.current;
