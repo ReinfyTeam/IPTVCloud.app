@@ -15,6 +15,7 @@ export interface Channel {
 export interface ChannelDataset {
   channels: Channel[];
   fetchedAt: number;
+  epgUrl?: string;
 }
 
 export interface ChannelQuery {

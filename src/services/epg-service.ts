@@ -67,8 +67,9 @@ async function simplifyProgram(program: any): Promise<EpgProgram | null> {
   };
 }
 
-export async function fetchEpgForId(epgId: string): Promise<EpgLookupResult> {
+export async function fetchEpgForId(epgId: string, preferredSourceUrl?: string): Promise<EpgLookupResult> {
   const bases = [
+    preferredSourceUrl,
     process.env.EPG_BASE_URL?.replace(/\/$/, ''),
     'https://iptv-org.github.io/epg',
     'https://raw.githubusercontent.com/iptv-org/epg/master',
@@ -80,6 +81,18 @@ export async function fetchEpgForId(epgId: string): Promise<EpgLookupResult> {
   let sourceUrl: string | null = null;
 
   for (const base of bases) {
+    if (base === preferredSourceUrl) {
+      try {
+        const response = await fetch(base, { next: { revalidate: 3600 } });
+        if (response.ok) {
+          xmlText = await response.text();
+          sourceUrl = base;
+          break;
+        }
+      } catch { }
+      continue;
+    }
+
     for (const name of names) {
       const url = `${base}/${name}`;
       try {
@@ -117,8 +130,14 @@ export async function fetchEpgForId(epgId: string): Promise<EpgLookupResult> {
     const fullSchedule: EpgProgram[] = [];
 
     for (const program of programmes) {
+      // Strictly filter by channel ID
+      const progChannelId = program.channel || '';
+      if (progChannelId !== epgId && !epgId.startsWith(progChannelId)) continue;
+
       const simplified = await simplifyProgram(program);
-      if (simplified) fullSchedule.push(simplified);
+      if (!simplified) continue;
+      
+      fullSchedule.push(simplified);
 
       const start = parseXmlDate(program.start);
       const stop = parseXmlDate(program.stop);

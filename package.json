@@ -7,9 +7,11 @@
     "url": "https://github.com/ReinfyTeam/IPTVCloud.app"
   },
   "scripts": {
-    "dev": "next dev -p 8080 -H 0.0.0.0",
-    "build": "next build",
-    "start": "next start -p 8080 -H 0.0.0.0",
+    "dev": "next dev -p 5000 -H 0.0.0.0",
+    "db:dev": "node scripts/toggle-db.js dev && prisma generate",
+    "db:prod": "node scripts/toggle-db.js prod && prisma generate",
+    "build": "npm run db:prod && next build",
+    "start": "next start -p 5000 -H 0.0.0.0",
     "lint": "eslint . --ext .ts,.tsx --fix",
     "test": "vitest"
   },
