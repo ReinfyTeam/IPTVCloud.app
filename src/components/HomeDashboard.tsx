@@ -62,10 +62,10 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
           <div className="max-w-4xl mx-auto space-y-10">
             <div className="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-6 py-2.5 text-xs font-bold text-white backdrop-blur-xl shadow-2xl animate-fade-up">
               <span className="h-2 w-2 rounded-full bg-cyan-400 animate-pulse" />
-              <span className="opacity-70">TRUSTED BY 50,000+ USERS GLOBALLY</span>
+              <span className="opacity-70 uppercase tracking-widest">Global Community Powered</span>
             </div>
 
-            <h1 className="text-6xl sm:text-9xl font-black tracking-tighter text-white leading-[0.85] animate-fade-up-delayed drop-shadow-2xl">
+            <h1 className="text-5xl sm:text-7xl font-black tracking-tighter text-white leading-[0.95] animate-fade-up-delayed drop-shadow-2xl uppercase italic">
               STREAMING
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-500">
@@ -73,30 +73,30 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
               </span>
             </h1>
 
-            <p className="text-xl sm:text-2xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-medium animate-fade-up-delayed opacity-80">
+            <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-medium animate-fade-up-delayed opacity-80">
               Access {allChannels.length.toLocaleString()} premium channels with zero
               advertisements. Experience the most advanced IPTV platform ever built.
             </p>
 
-            <div className="flex flex-wrap justify-center gap-6 pt-4 animate-fade-up-delayed">
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-6 pt-4 animate-fade-up-delayed">
               <Link
                 href="/account/signup"
-                className="rounded-[24px] bg-cyan-500 px-12 py-5 text-sm font-black text-slate-950 hover:bg-cyan-400 hover:scale-105 transition-all shadow-[0_0_40px_rgba(6,182,212,0.3)] active:scale-95"
+                className="rounded-[24px] bg-cyan-500 px-10 py-5 text-sm font-black text-slate-950 hover:bg-cyan-400 hover:scale-105 transition-all shadow-[0_0_40px_rgba(6,182,212,0.3)] active:scale-95 uppercase tracking-widest"
               >
-                START WATCHING NOW
+                Start Free
               </Link>
               <Link
                 href="/search"
-                className="rounded-[24px] border border-white/20 bg-white/5 backdrop-blur-xl px-12 py-5 text-sm font-black text-white hover:bg-white/10 transition-all active:scale-95"
+                className="rounded-[24px] border border-white/20 bg-white/5 backdrop-blur-xl px-10 py-5 text-sm font-black text-white hover:bg-white/10 transition-all active:scale-95 uppercase tracking-widest"
               >
-                EXPLORE CHANNELS
+                Browse Library
               </Link>
             </div>
           </div>
         </div>
 
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-20">
-          <span className="material-icons text-3xl">keyboard_double_arrow_down</span>
+          <span className="material-icons text-3xl text-white">keyboard_double_arrow_down</span>
         </div>
       </section>
 
@@ -108,7 +108,7 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
             <h2 className="text-sm font-black uppercase tracking-[0.4em] text-cyan-500">
               The IPTV Standard
             </h2>
-            <h3 className="text-4xl sm:text-5xl font-black text-white tracking-tight leading-tight">
+            <h3 className="text-4xl sm:text-5xl font-black text-white tracking-tight leading-tight uppercase italic">
               Everything You Need To
               <br />
               Stream Like A Pro.
@@ -146,7 +146,7 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
               <h2 className="text-sm font-black uppercase tracking-[0.4em] text-indigo-400">
                 Why Choose Us
               </h2>
-              <h3 className="text-5xl font-black text-white tracking-tight">
+              <h3 className="text-5xl font-black text-white tracking-tight uppercase italic">
                 Elegance Meets
                 <br />
                 Performance.
@@ -200,7 +200,9 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
               <h2 className="text-sm font-black uppercase tracking-[0.4em] text-emerald-400">
                 Discovery
               </h2>
-              <h3 className="text-4xl font-black text-white tracking-tight">Trending Right Now</h3>
+              <h3 className="text-4xl font-black text-white tracking-tight uppercase italic">
+                Trending Right Now
+              </h3>
             </div>
             <Link
               href="/search"
@@ -214,7 +216,7 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
               <ChannelCard
                 key={ch.id}
                 channel={ch}
-                onSelect={(c) => (window.location.href = `/channel/${c.id}`)}
+                onSelect={(c) => (window.location.href = `/channel/${encodeURIComponent(c.id)}`)}
               />
             ))}
           </div>
@@ -227,7 +229,7 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
           <div className="rounded-[64px] bg-gradient-to-br from-cyan-600 via-blue-600 to-indigo-700 p-12 sm:p-24 text-center relative overflow-hidden shadow-2xl shadow-cyan-900/30">
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
             <div className="relative z-10 space-y-10">
-              <h2 className="text-5xl sm:text-7xl font-black text-white tracking-tighter leading-none">
+              <h2 className="text-5xl sm:text-7xl font-black text-white tracking-tighter leading-none uppercase italic">
                 Ready for the better way
                 <br />
                 to watch television?
@@ -239,15 +241,15 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
               <div className="flex flex-wrap justify-center gap-6 pt-4">
                 <Link
                   href="/account/signup"
-                  className="rounded-[24px] bg-white px-14 py-6 text-sm font-black text-slate-950 hover:bg-cyan-50 transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-black/20"
+                  className="rounded-[24px] bg-white px-14 py-6 text-sm font-black text-slate-950 hover:bg-cyan-50 transition-all hover:scale-105 active:scale-95 shadow-2xl shadow-black/20 uppercase tracking-widest"
                 >
-                  GET STARTED FREE
+                  Get Started Free
                 </Link>
                 <Link
                   href="/forbidden"
-                  className="rounded-[24px] bg-black/20 border border-white/20 backdrop-blur-xl px-14 py-6 text-sm font-black text-white hover:bg-white/10 transition-all active:scale-95"
+                  className="rounded-[24px] bg-black/20 border border-white/20 backdrop-blur-xl px-14 py-6 text-sm font-black text-white hover:bg-white/10 transition-all active:scale-95 uppercase tracking-widest"
                 >
-                  CONTACT SUPPORT
+                  Contact Support
                 </Link>
               </div>
             </div>
@@ -303,10 +305,10 @@ function UserHome({ allChannels, user }: { allChannels: Channel[]; user: any }) 
           <div className="absolute top-0 right-0 h-64 w-64 bg-cyan-500/5 blur-[80px] rounded-full" />
           <div className="flex items-center gap-6 relative z-10">
             <div className="h-20 w-20 rounded-[32px] bg-gradient-to-br from-cyan-500 to-indigo-600 flex items-center justify-center text-white shadow-2xl shadow-cyan-950/40">
-              <span className="material-icons text-4xl">account_circle</span>
+              <span className="material-icons text-4xl text-white">account_circle</span>
             </div>
             <div className="space-y-1">
-              <h1 className="text-3xl font-black text-white tracking-tight uppercase italic">
+              <h1 className="text-3xl font-black text-white tracking-tight uppercase italic leading-none">
                 Dashboard.
               </h1>
               <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px]">
@@ -380,7 +382,7 @@ function UserHome({ allChannels, user }: { allChannels: Channel[]; user: any }) 
                   href={`/search?category=${encodeURIComponent(cat || '')}`}
                   className="group p-8 rounded-[36px] bg-white/[0.02] border border-white/[0.08] hover:border-cyan-500/50 transition-all hover:bg-cyan-500/5 shadow-lg active:scale-[0.98] transform-gpu"
                 >
-                  <div className="text-xs font-black text-white group-hover:text-cyan-400 transition-colors capitalize truncate tracking-widest">
+                  <div className="text-xs font-black text-white group-hover:text-cyan-400 transition-colors capitalize truncate tracking-widest uppercase italic">
                     {cat}
                   </div>
                   <div className="text-[9px] text-slate-600 mt-2 uppercase tracking-[0.2em] font-black group-hover:text-slate-400 transition-colors">
@@ -415,7 +417,7 @@ function UserHome({ allChannels, user }: { allChannels: Channel[]; user: any }) 
                           <div className="h-full w-full bg-slate-800" />
                         )}
                       </div>
-                      <div className="text-xs font-black text-white group-hover:text-cyan-400 transition-colors truncate tracking-widest uppercase">
+                      <div className="text-xs font-black text-white group-hover:text-cyan-400 transition-colors truncate tracking-widest uppercase italic">
                         {c}
                       </div>
                     </div>
@@ -436,7 +438,7 @@ function UserHome({ allChannels, user }: { allChannels: Channel[]; user: any }) 
 function SectionHeader({ title, href }: { title: string; href?: string }) {
   return (
     <div className="flex items-end justify-between mb-10 px-2">
-      <h2 className="text-3xl font-black text-white tracking-tighter uppercase italic">
+      <h2 className="text-3xl font-black text-white tracking-tighter uppercase italic leading-none">
         {title}
         <span className="text-cyan-500">.</span>
       </h2>
@@ -469,9 +471,9 @@ function HorizontalScroll({ children }: { children: React.ReactNode }) {
     <div className="relative group">
       <button
         onClick={() => scroll('left')}
-        className="absolute -left-4 top-1/2 z-10 -translate-y-1/2 h-14 w-14 rounded-full bg-slate-900/80 border border-white/10 text-white shadow-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-slate-800"
+        className="absolute -left-4 top-1/2 z-10 -translate-y-1/2 h-14 w-14 rounded-full bg-slate-900/80 border border-white/10 text-white shadow-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-slate-800 active:scale-90"
       >
-        <span className="material-icons">chevron_left</span>
+        <span className="material-icons text-white">chevron_left</span>
       </button>
       <div
         ref={scrollRef}
@@ -483,9 +485,9 @@ function HorizontalScroll({ children }: { children: React.ReactNode }) {
       </div>
       <button
         onClick={() => scroll('right')}
-        className="absolute -right-4 top-1/2 z-10 -translate-y-1/2 h-14 w-14 rounded-full bg-slate-900/80 border border-white/10 text-white shadow-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-slate-800"
+        className="absolute -right-4 top-1/2 z-10 -translate-y-1/2 h-14 w-14 rounded-full bg-slate-900/80 border border-white/10 text-white shadow-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-slate-800 active:scale-90"
       >
-        <span className="material-icons">chevron_right</span>
+        <span className="material-icons text-white">chevron_right</span>
       </button>
     </div>
   );
@@ -505,12 +507,14 @@ function FeatureCard({
   return (
     <div className="p-12 rounded-[56px] bg-white/[0.02] border border-white/[0.07] hover:bg-white/[0.04] transition-all group hover:-translate-y-3 shadow-2xl relative overflow-hidden">
       <div className="absolute top-0 right-0 p-8 opacity-[0.03] group-hover:opacity-[0.06] transition-opacity">
-        <span className="material-icons text-9xl">{icon}</span>
+        <span className="material-icons text-9xl text-white">{icon}</span>
       </div>
       <div className={`material-icons text-5xl mb-10 transition-all scale-110 ${color}`}>
         {icon}
       </div>
-      <h3 className="text-2xl font-black text-white mb-6 tracking-tight">{title}</h3>
+      <h3 className="text-2xl font-black text-white mb-6 tracking-tight uppercase italic">
+        {title}
+      </h3>
       <p className="text-slate-400 leading-relaxed font-medium text-base">{desc}</p>
     </div>
   );
@@ -523,7 +527,7 @@ function WhyCard({ title, desc, icon }: { title: string; desc: string; icon: str
         <span className="material-icons text-xl">{icon}</span>
       </div>
       <div className="space-y-1">
-        <h4 className="font-black text-white text-sm uppercase tracking-wider">{title}</h4>
+        <h4 className="font-black text-white text-sm uppercase tracking-wider italic">{title}</h4>
         <p className="text-xs text-slate-500 leading-relaxed font-medium">{desc}</p>
       </div>
     </div>

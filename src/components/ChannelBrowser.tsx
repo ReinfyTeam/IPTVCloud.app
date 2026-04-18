@@ -41,7 +41,7 @@ export default function ChannelBrowser({
   const router = useRouter();
   const { viewMode, setViewMode } = usePlayerStore();
   const { ids: favoriteIds, toggleFavorite, isFavorite } = useFavoritesStore();
-  const { addEntry: addHistory } = useHistoryStore();
+  const { addHistory } = useHistoryStore();
 
   // Resolve initial country if it's a code
   const resolvedCountry = useMemo(() => {

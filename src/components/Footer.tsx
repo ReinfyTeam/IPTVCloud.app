@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { BRAND_NAME } from './Brand';
 
 export default function Footer() {
   const [commit, setCommit] = useState<{ sha: string; url: string; date: string } | null>(null);
@@ -20,7 +21,6 @@ export default function Footer() {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-cyan-500/20 to-transparent" />
 
       <div className="mx-auto max-w-[1460px] px-6 sm:px-8 grid gap-16 lg:grid-cols-4">
-        import {BRAND_NAME} from './Brand'; ...
         <div className="lg:col-span-2 space-y-8">
           <div className="text-2xl font-black tracking-tighter text-white uppercase italic">
             {BRAND_NAME}
@@ -116,7 +116,7 @@ export default function Footer() {
               Disclaimer
             </div>
             <p className="text-[9px] leading-relaxed text-slate-600 font-medium italic">
-              IPTVCloud.app is a technical player and does not host, provide or distribute any media
+              {BRAND_NAME} is a technical player and does not host, provide or distribute any media
               content. All streams are sourced from public M3U repositories.
             </p>
           </div>
