@@ -43,6 +43,8 @@ __pycache__/
 .replit
 .repl
 .cache
+.agents/
+skills-lock.json
 
 # IDE / System
 .vscode/

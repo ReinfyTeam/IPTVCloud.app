@@ -7,10 +7,10 @@ export function generateId(input: string): string {
 
 export function parseAttributes(input: string): Record<string, string> {
   const attrs: Record<string, string> = {};
-  const re = /(\w+?)="([^"]*?)"/g;
+  const re = /([a-zA-Z][a-zA-Z0-9_-]*)="([^"]*?)"/g;
   let m: RegExpExecArray | null;
   while ((m = re.exec(input)) !== null) {
-    attrs[m[1]] = m[2];
+    attrs[m[1].toLowerCase()] = m[2];
   }
   return attrs;
 }
@@ -41,9 +41,16 @@ export function parseM3U(content: string): Channel[] {
 
       const epgId = attrs['tvg-id'] || attrs['id'] || undefined;
       const logo = attrs['tvg-logo'] || attrs['logo'] || undefined;
-      const category = attrs['group-title'] || attrs['group'] || undefined;
-      const language = attrs['language'] || attrs['tvg-language'] || undefined;
-      const country = attrs['country'] || undefined;
+      // iptv-org uses semicolons for multi-category — take first
+      const rawCategory = attrs['group-title'] || attrs['group'] || undefined;
+      const category = rawCategory ? rawCategory.split(';')[0].trim() || undefined : undefined;
+      const language = attrs['tvg-language'] || attrs['language'] || undefined;
+      // Extract country from tvg-country attr, or decode from tvg-id (format: ChannelName.CC@Quality)
+      let country = attrs['tvg-country'] || attrs['country'] || undefined;
+      if (!country && epgId) {
+        const m = epgId.match(/\.([a-z]{2,3})(?:@|$)/i);
+        if (m) country = m[1].toLowerCase();
+      }
       const name = displayName || attrs['tvg-name'] || attrs['title'] || url;
       const id = epgId || generateId(url + name);
 

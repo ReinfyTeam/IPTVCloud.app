@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
+import { clearTokenCookie } from '@/lib/cookies';
 
 export async function POST() {
-  // For stateless JWT, logout is handled client-side. This endpoint exists for parity.
-  return NextResponse.json({ ok: true });
+  const response = NextResponse.json({ ok: true });
+  return clearTokenCookie(response);
 }

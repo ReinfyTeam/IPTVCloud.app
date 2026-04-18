@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import type { Channel } from '@/types';
 
 type Props = {
@@ -20,53 +20,123 @@ export default function ChannelCard({
   favorite = false,
   onToggleFavorite,
 }: Props) {
+  const [imgError, setImgError] = useState(false);
+
+  const initials = channel.name
+    .split(' ')
+    .map((w) => w[0])
+    .join('')
+    .slice(0, 2)
+    .toUpperCase();
+
+  if (mode === 'list') {
+    return (
+      <div
+        onClick={() => onSelect(channel)}
+        className={`group flex cursor-pointer items-center gap-3 rounded-2xl border p-3 transition-all duration-200 ${
+          active
+            ? 'border-cyan-400/50 bg-cyan-400/[0.08] shadow-md shadow-cyan-900/20'
+            : 'border-white/[0.07] bg-white/[0.03] hover:border-white/15 hover:bg-white/[0.06]'
+        }`}
+      >
+        <div className="relative shrink-0">
+          {channel.logo && !imgError ? (
+            <img
+              src={channel.logo}
+              alt={channel.name}
+              loading="lazy"
+              onError={() => setImgError(true)}
+              className="h-12 w-12 rounded-xl bg-slate-900 object-contain p-1"
+            />
+          ) : (
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-800 text-xs font-bold text-slate-400">
+              {initials}
+            </div>
+          )}
+          {active && (
+            <span className="absolute -top-1 -right-1 h-3 w-3 rounded-full bg-cyan-400 ring-2 ring-slate-950 animate-pulse" />
+          )}
+        </div>
+        <div className="min-w-0 flex-1">
+          <div className="truncate text-sm font-medium text-white">{channel.name}</div>
+          <div className="truncate text-xs text-slate-500">
+            {[channel.country, channel.category].filter(Boolean).join(' · ') || 'Live'}
+          </div>
+        </div>
+        <button
+          onClick={(e) => { e.stopPropagation(); onToggleFavorite?.(channel.id); }}
+          className={`shrink-0 rounded-lg p-1.5 transition-colors ${
+            favorite ? 'text-amber-400' : 'text-slate-600 hover:text-slate-400'
+          }`}
+          aria-label={favorite ? 'Remove from favorites' : 'Add to favorites'}
+        >
+          <svg className="h-4 w-4" fill={favorite ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.562.562 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+          </svg>
+        </button>
+      </div>
+    );
+  }
+
   return (
     <div
       onClick={() => onSelect(channel)}
-      className={`hover-lift group cursor-pointer overflow-hidden rounded-[24px] border transition duration-300 ${
+      className={`group relative cursor-pointer overflow-hidden rounded-2xl border transition-all duration-200 ${
         active
-          ? 'border-cyan-400 bg-cyan-400/10 shadow-lg shadow-cyan-900/30'
-          : 'border-white/10 bg-white/5 hover:border-white/20'
-      } ${mode === 'list' ? 'flex items-center gap-4 p-3' : ''}`}
-      title={channel.name}
+          ? 'border-cyan-400/50 bg-cyan-400/[0.08] shadow-lg shadow-cyan-900/30'
+          : 'border-white/[0.07] bg-white/[0.03] hover:border-white/15 hover:bg-white/[0.06] hover:-translate-y-0.5'
+      }`}
     >
-      {channel.logo ? (
-        <img
-          alt={channel.name}
-          className={mode === 'list' ? 'h-16 w-16 rounded-2xl bg-black object-cover transition duration-300 group-hover:scale-[1.04]' : 'h-36 w-full bg-black object-cover transition duration-300 group-hover:scale-[1.04]'}
-          loading="lazy"
-          src={channel.logo}
-        />
-      ) : (
-        <div
-          className={
-            mode === 'list'
-              ? 'flex h-16 w-16 items-center justify-center rounded-2xl bg-black text-xs text-gray-400'
-              : 'flex h-36 w-full items-center justify-center bg-black text-gray-400'
-          }
-        >
-          No logo
-        </div>
-      )}
-      <div className={mode === 'list' ? 'min-w-0 flex-1' : 'p-3'}>
-        <div className="flex items-center justify-between gap-2">
-          <div className="truncate text-sm font-semibold text-white">{channel.name}</div>
+      <div className="relative aspect-video overflow-hidden bg-slate-900">
+        {channel.logo && !imgError ? (
+          <img
+            src={channel.logo}
+            alt={channel.name}
+            loading="lazy"
+            onError={() => setImgError(true)}
+            className="h-full w-full object-contain p-4 transition-transform duration-300 group-hover:scale-105"
+          />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center text-2xl font-bold text-slate-700">
+            {initials}
+          </div>
+        )}
+        {active && (
+          <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+            <div className="flex items-center gap-2 rounded-full bg-cyan-400 px-3 py-1.5 text-xs font-semibold text-slate-950">
+              <span className="h-1.5 w-1.5 rounded-full bg-slate-950 animate-pulse" />
+              Live
+            </div>
+          </div>
+        )}
+      </div>
+      <div className="p-3">
+        <div className="flex items-start justify-between gap-2">
+          <div className="min-w-0">
+            <div className="truncate text-sm font-medium text-white">{channel.name}</div>
+            <div className="mt-0.5 truncate text-xs text-slate-500">
+              {[channel.country, channel.category].filter(Boolean).join(' · ') || 'Live'}
+            </div>
+          </div>
           <button
-            className={`shrink-0 rounded-full px-2 py-1 text-xs ${
-              favorite ? 'bg-amber-400 text-slate-950' : 'bg-white/10 text-slate-300'
+            onClick={(e) => { e.stopPropagation(); onToggleFavorite?.(channel.id); }}
+            className={`shrink-0 rounded-lg p-1.5 transition-colors ${
+              favorite ? 'text-amber-400' : 'text-slate-700 hover:text-slate-400'
             }`}
-            onClick={(event) => {
-              event.stopPropagation();
-              onToggleFavorite?.(channel.id);
-            }}
-            type="button"
+            aria-label={favorite ? 'Remove from favorites' : 'Add to favorites'}
           >
-            {favorite ? 'Saved' : 'Save'}
+            <svg className="h-4 w-4" fill={favorite ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.562.562 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+            </svg>
           </button>
         </div>
-        <div className="truncate text-xs text-slate-400">
-          {[channel.country, channel.category, channel.language].filter(Boolean).join(' • ') || 'Live stream'}
-        </div>
+        {channel.language && (
+          <div className="mt-2">
+            <span className="inline-flex items-center rounded-full border border-white/[0.06] bg-white/[0.04] px-2 py-0.5 text-[10px] text-slate-500">
+              {channel.language}
+            </span>
+          </div>
+        )}
       </div>
     </div>
   );
