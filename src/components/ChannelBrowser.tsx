@@ -95,6 +95,16 @@ export default function ChannelBrowser({ channels, initialSearch = '' }: { chann
     return () => observer.disconnect();
   }, [pagedChannels.length, filteredChannels.length]);
 
+  useEffect(() => {
+    const q = debouncedSearch.toLowerCase().trim();
+    if (q.length > 2) {
+      const match = channels.find(c => c.name.toLowerCase().trim() === q);
+      if (match) {
+        router.push(`/channel/${encodeURIComponent(match.id)}`);
+      }
+    }
+  }, [debouncedSearch, channels, router]);
+
   const selectChannel = useCallback((ch: Channel) => {
     addHistory(ch);
     router.push(`/channel/${encodeURIComponent(ch.id)}`);

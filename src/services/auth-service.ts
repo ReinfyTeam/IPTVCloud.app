@@ -8,15 +8,18 @@ import type { AuthPayload, AuthUser } from '@/types';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'changeme-set-JWT_SECRET-env';
 const ADMIN_ROLE = 'ADMIN';
+const STAFF_ROLE = 'STAFF';
 
 type AuthorizeOptions = {
   requireAdmin?: boolean;
+  requireStaff?: boolean;
   allowApiKey?: boolean;
 };
 
 type AuthContext = {
   authMethod: 'jwt' | 'api-key';
   isAdmin: boolean;
+  isStaff: boolean;
   user: User | null;
 };
 
@@ -28,7 +31,7 @@ function getConfiguredAdminEmails() {
 }
 
 export function sanitizeUser(
-  user: Pick<User, 'id' | 'email' | 'name' | 'role' | 'suspendedAt' | 'suspensionReason'>,
+  user: Pick<User, 'id' | 'email' | 'name' | 'role' | 'suspendedAt' | 'suspensionReason' | 'isMuted' | 'isRestricted'>,
 ): AuthUser {
   return {
     id: user.id,
@@ -37,6 +40,8 @@ export function sanitizeUser(
     role: user.role,
     suspendedAt: user.suspendedAt?.toISOString() || null,
     suspensionReason: user.suspensionReason || null,
+    isMuted: user.isMuted,
+    isRestricted: user.isRestricted,
   };
 }
 
@@ -46,6 +51,11 @@ export function signToken(user: Pick<User, 'id' | 'role'>) {
 
 export function hasAdminRole(role?: string | null) {
   return String(role || '').toUpperCase() === ADMIN_ROLE;
+}
+
+export function hasStaffRole(role?: string | null) {
+  const r = String(role || '').toUpperCase();
+  return r === STAFF_ROLE || r === ADMIN_ROLE;
 }
 
 export function isSuspended(user: Pick<User, 'suspendedAt'> | null | undefined) {
@@ -82,7 +92,7 @@ function getApiKeyContext(request: Request): AuthContext | null {
 
   if (!configuredKey || !incomingKey || incomingKey !== configuredKey) return null;
 
-  return { authMethod: 'api-key', isAdmin: true, user: null };
+  return { authMethod: 'api-key', isAdmin: true, isStaff: true, user: null };
 }
 
 export async function authorizeRequest(
@@ -110,9 +120,14 @@ export async function authorizeRequest(
     return NextResponse.json({ ok: false, error: 'Forbidden' }, { status: 403 });
   }
 
+  if (options.requireStaff && !hasStaffRole(user.role)) {
+    return NextResponse.json({ ok: false, error: 'Forbidden' }, { status: 403 });
+  }
+
   return {
     authMethod: 'jwt',
     isAdmin: hasAdminRole(user.role),
+    isStaff: hasStaffRole(user.role),
     user,
   };
 }

@@ -5,6 +5,8 @@ export interface AuthUser {
   role: string;
   suspendedAt?: string | null;
   suspensionReason?: string | null;
+  isMuted?: boolean;
+  isRestricted?: boolean;
 }
 
 export interface AuthPayload {

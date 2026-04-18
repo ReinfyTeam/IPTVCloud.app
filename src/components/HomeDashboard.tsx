@@ -1,7 +1,8 @@
 'use client';
 
-import React, { useMemo } from 'react';
+import React, { useMemo, useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { useAuthStore } from '@/store/auth-store';
 import { useFavoritesStore } from '@/store/favorites-store';
 import { useHistoryStore } from '@/store/history-store';
@@ -11,6 +12,90 @@ import HeroVideo from '@/components/HeroVideo';
 
 export default function HomeDashboard({ allChannels }: { allChannels: Channel[] }) {
   const { isLoggedIn, user } = useAuthStore();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return (
+    <div className="min-h-screen bg-slate-950 flex items-center justify-center">
+       <div className="h-10 w-10 border-4 border-cyan-400/30 border-t-cyan-400 animate-spin rounded-full" />
+    </div>
+  );
+
+  return isLoggedIn() ? (
+    <UserHome allChannels={allChannels} user={user} />
+  ) : (
+    <GuestHome allChannels={allChannels} />
+  );
+}
+
+function GuestHome({ allChannels }: { allChannels: Channel[] }) {
+  const [randomChannel, setRandomChannel] = useState<Channel | null>(null);
+
+  useEffect(() => {
+    if (allChannels.length > 0) {
+      const liveCandidates = allChannels.filter(c => c.streamUrl && c.logo && c.country === 'UNITED STATES');
+      const pick = liveCandidates.length > 0 
+        ? liveCandidates[Math.floor(Math.random() * liveCandidates.length)] 
+        : allChannels[Math.floor(Math.random() * allChannels.length)];
+      setRandomChannel(pick);
+    }
+  }, [allChannels]);
+
+  const trending = useMemo(() => allChannels.filter(c => c.logo).slice(0, 12), [allChannels]);
+
+  return (
+    <div className="pt-16 pb-20 animate-fade-in transform-gpu">
+      <section className="relative min-h-[700px] flex items-center border-b border-white/[0.06] overflow-hidden">
+        {randomChannel && (
+          <HeroVideo streamUrl={randomChannel.streamUrl} channelId={randomChannel.id} poster={randomChannel.logo} />
+        )}
+        <div className="relative z-10 w-full mx-auto max-w-[1460px] px-4 sm:px-6 py-20 text-center lg:text-left">
+           <div className="max-w-3xl">
+             <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/[0.1] px-3 py-1.5 text-xs font-bold text-cyan-300 mb-6 shadow-lg backdrop-blur-md">
+               <span className="h-1.5 w-1.5 rounded-full bg-cyan-400 animate-pulse" />
+               Join the Revolution
+             </div>
+             <h1 className="text-5xl sm:text-8xl font-bold tracking-tighter text-white leading-[0.9] mb-8">
+               Watch TV<br />
+               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-400 to-indigo-500">Live & Free.</span>
+             </h1>
+             <p className="text-xl text-slate-300 mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium">Experience thousands of global channels with a premium, ad-free interface. No subscription required.</p>
+             <div className="flex flex-wrap justify-center lg:justify-start gap-4">
+               <Link href="/account/signup" className="rounded-2xl bg-cyan-500 px-10 py-4 text-sm font-bold text-slate-950 hover:bg-cyan-400 hover:scale-105 transition-all shadow-xl shadow-cyan-500/30 active:scale-95">CREATE FREE ACCOUNT</Link>
+               <Link href="/search" className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-md px-10 py-4 text-sm font-bold text-white hover:bg-white/10 hover:border-white/20 transition-all active:scale-95">BROWSE CHANNELS</Link>
+             </div>
+           </div>
+        </div>
+      </section>
+      
+      <section className="py-24 px-4 sm:px-6 bg-slate-950">
+         <div className="mx-auto max-w-[1460px]">
+            <div className="grid gap-12 md:grid-cols-3 mb-32">
+               <FeatureCard title="Adaptive HD" desc="Smart network-aware streaming that adjusts quality in real-time." icon="⚡" />
+               <FeatureCard title="Global EPG" desc="Full program guides with images and localized schedules." icon="📅" />
+               <FeatureCard title="Sync Anywhere" desc="Cloud-powered history and favorites across all devices." icon="☁️" />
+            </div>
+            
+            <div className="mb-20">
+              <div className="flex items-center justify-between mb-10">
+                 <h2 className="text-3xl font-bold text-white tracking-tight">Trending Worldwide</h2>
+                 <Link href="/search" className="text-sm font-bold text-cyan-400 hover:underline uppercase tracking-widest">View All</Link>
+              </div>
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
+                 {trending.map(ch => <ChannelCard key={ch.id} channel={ch} onSelect={(c) => window.location.href=`/channel/${c.id}`} />)}
+              </div>
+            </div>
+         </div>
+      </section>
+    </div>
+  );
+}
+
+function UserHome({ allChannels, user }: { allChannels: Channel[], user: any }) {
+  const router = useRouter();
   const { ids: favoriteIds } = useFavoritesStore();
   const { history } = useHistoryStore();
 
@@ -31,111 +116,72 @@ export default function HomeDashboard({ allChannels }: { allChannels: Channel[] 
      return allChannels.filter(c => c.category === topCat && !favoriteIds.includes(c.id)).slice(0, 12);
   }, [allChannels, favorites, favoriteIds]);
 
-  if (!isLoggedIn) {
-     return (
-       <div className="pt-16 pb-20">
-         <section className="relative min-h-[600px] flex items-center border-b border-white/[0.06] overflow-hidden">
-           {allChannels.length > 0 && (
-             <HeroVideo streamUrl={allChannels[0].streamUrl} channelId={allChannels[0].id} poster={allChannels[0].logo} />
-           )}
-           <div className="relative z-10 w-full mx-auto max-w-[1460px] px-4 sm:px-6 py-20 animate-fade-in text-center lg:text-left">
-              <div className="max-w-3xl">
-                <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/[0.1] px-3 py-1.5 text-xs font-medium text-cyan-300 mb-6 shadow-lg backdrop-blur-md">
-                  <span className="h-1.5 w-1.5 rounded-full bg-cyan-400 animate-pulse" />
-                  Premium IPTV Reimagined
-                </div>
-                <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.1] mb-6">
-                  Watch live TV,<br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-400">anywhere.</span>
-                </h1>
-                <p className="text-lg text-slate-300 mb-8 max-w-xl mx-auto lg:mx-0">Join thousands of users watching global channels with our lightning-fast, ad-free player.</p>
-                <div className="flex flex-wrap justify-center lg:justify-start gap-4">
-                  <Link href="/account/signup" className="rounded-full bg-cyan-500 px-8 py-3.5 text-sm font-bold text-slate-950 hover:scale-105 transition-all shadow-lg shadow-cyan-500/25">Get Started</Link>
-                  <Link href="/search" className="rounded-full border border-white/10 bg-white/5 backdrop-blur-md px-8 py-3.5 text-sm font-medium text-white hover:bg-white/10 transition-all">Browse Channels</Link>
-                </div>
-              </div>
-           </div>
-         </section>
-         
-         <section className="py-20 px-4 sm:px-6">
-            <div className="mx-auto max-w-[1460px]">
-               <div className="grid gap-8 md:grid-cols-3 mb-24">
-                  <FeatureCard title="Adaptive Streaming" desc="Network-aware bitrates for smooth playback on any connection." icon="⚡" />
-                  <FeatureCard title="Global Guide" desc="Real-time EPG with program images and detailed schedules." icon="📅" />
-                  <FeatureCard title="Cloud Sync" desc="Your favorites and history, synced across all your devices." icon="☁️" />
-               </div>
-               
-               <div className="mb-12">
-                 <h2 className="text-2xl font-bold text-white mb-8">Trending Now</h2>
-                 <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
-                    {trending.map(ch => <ChannelCard key={ch.id} channel={ch} onSelect={() => {}} />)}
-                 </div>
-               </div>
-            </div>
-         </section>
-       </div>
-     );
-  }
+  const onSelect = (ch: Channel) => router.push(`/channel/${encodeURIComponent(ch.id)}`);
 
   return (
-    <div className="pt-24 pb-20 space-y-12">
+    <div className="pt-24 pb-20 space-y-16 animate-fade-in transform-gpu bg-slate-950 min-h-screen">
       <div className="mx-auto max-w-[1460px] px-4 sm:px-6">
-        <h1 className="text-2xl font-bold text-white mb-8 flex items-center gap-3">
-          Welcome back, {user?.name || user?.email.split('@')[0]}
-          <span className="text-xs font-normal text-slate-500 bg-slate-900 border border-white/5 px-2 py-1 rounded-lg">PRO</span>
-        </h1>
+        <div className="flex items-center gap-4 mb-12">
+          <div className="h-12 w-12 rounded-2xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-white shadow-xl shadow-cyan-950/40">
+             <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          </div>
+          <div>
+            <h1 className="text-3xl font-bold text-white tracking-tight">Welcome back, {user?.name || user?.email.split('@')[0]}</h1>
+            <p className="text-slate-500 text-sm font-medium">Continue where you left off or explore what's trending.</p>
+          </div>
+        </div>
 
         {favorites.length > 0 && (
-          <section>
+          <section className="mb-16">
             <SectionHeader title="Your Favorites" href="/search?favorites=true" />
             <HorizontalScroll>
-               {favorites.map(ch => <ChannelCard key={ch.id} channel={ch} onSelect={() => {}} mode="grid" />)}
+               {favorites.map(ch => <ChannelCard key={ch.id} channel={ch} onSelect={onSelect} mode="grid" />)}
             </HorizontalScroll>
           </section>
         )}
 
         {recent.length > 0 && (
-          <section>
+          <section className="mb-16">
             <SectionHeader title="Recently Watched" />
             <HorizontalScroll>
-               {recent.map(ch => <ChannelCard key={ch.id} channel={ch} onSelect={() => {}} mode="grid" />)}
+               {recent.map(ch => <ChannelCard key={ch.id} channel={ch} onSelect={onSelect} mode="grid" />)}
             </HorizontalScroll>
           </section>
         )}
 
-        <section>
-          <SectionHeader title="Trending Channels" href="/search" />
+        <section className="mb-16">
+          <SectionHeader title="Trending on IPTVCloud" href="/search" />
           <HorizontalScroll>
-             {trending.map(ch => <ChannelCard key={ch.id} channel={ch} onSelect={() => {}} mode="grid" />)}
+             {trending.map(ch => <ChannelCard key={ch.id} channel={ch} onSelect={onSelect} mode="grid" />)}
           </HorizontalScroll>
         </section>
 
-        <section>
-          <SectionHeader title="Recommendations for You" />
+        <section className="mb-16">
+          <SectionHeader title="Picked for You" />
           <HorizontalScroll>
-             {recommendations.map(ch => <ChannelCard key={ch.id} channel={ch} onSelect={() => {}} mode="grid" />)}
+             {recommendations.map(ch => <ChannelCard key={ch.id} channel={ch} onSelect={onSelect} mode="grid" />)}
           </HorizontalScroll>
         </section>
 
-        <div className="grid gap-8 lg:grid-cols-2">
+        <div className="grid gap-12 lg:grid-cols-2">
            <section>
              <SectionHeader title="Categories" />
-             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                 {categories.slice(0, 9).map(cat => (
-                  <Link key={cat} href={`/search?category=${encodeURIComponent(cat || '')}`} className="group p-4 rounded-2xl bg-white/[0.03] border border-white/[0.07] hover:border-cyan-500/50 transition-all hover:bg-cyan-500/5">
-                    <div className="text-sm font-bold text-white group-hover:text-cyan-400 transition-colors capitalize">{cat}</div>
-                    <div className="text-[10px] text-slate-500 mt-1 uppercase tracking-widest font-medium">Explore →</div>
+                  <Link key={cat} href={`/search?category=${encodeURIComponent(cat || '')}`} className="group p-6 rounded-3xl bg-white/[0.02] border border-white/[0.08] hover:border-cyan-500/50 transition-all hover:bg-cyan-500/5 shadow-lg">
+                    <div className="text-sm font-bold text-white group-hover:text-cyan-400 transition-colors capitalize truncate">{cat}</div>
+                    <div className="text-[9px] text-slate-500 mt-2 uppercase tracking-widest font-bold">Explore Content →</div>
                   </Link>
                 ))}
              </div>
            </section>
            <section>
-             <SectionHeader title="Top Countries" />
-             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+             <SectionHeader title="Countries" />
+             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                 {countries.slice(0, 9).map(c => (
-                  <Link key={c} href={`/search?country=${encodeURIComponent(c || '')}`} className="group p-4 rounded-2xl bg-white/[0.03] border border-white/[0.07] hover:border-cyan-500/50 transition-all hover:bg-cyan-500/5">
-                    <div className="text-sm font-bold text-white group-hover:text-cyan-400 transition-colors">{c}</div>
-                    <div className="text-[10px] text-slate-500 mt-1 uppercase tracking-widest font-medium">Browse →</div>
+                  <Link key={c} href={`/search?country=${encodeURIComponent(c || '')}`} className="group p-6 rounded-3xl bg-white/[0.02] border border-white/[0.08] hover:border-cyan-500/50 transition-all hover:bg-cyan-500/5 shadow-lg">
+                    <div className="text-sm font-bold text-white group-hover:text-cyan-400 transition-colors truncate">{c}</div>
+                    <div className="text-[9px] text-slate-500 mt-2 uppercase tracking-widest font-bold">Browse Region →</div>
                   </Link>
                 ))}
              </div>
@@ -148,18 +194,18 @@ export default function HomeDashboard({ allChannels }: { allChannels: Channel[] 
 
 function SectionHeader({ title, href }: { title: string; href?: string }) {
   return (
-    <div className="flex items-center justify-between mb-6">
-      <h2 className="text-xl font-bold text-white">{title}</h2>
-      {href && <Link href={href} className="text-xs font-bold text-cyan-400 hover:text-cyan-300 uppercase tracking-widest">See all</Link>}
+    <div className="flex items-center justify-between mb-8 px-1">
+      <h2 className="text-2xl font-bold text-white tracking-tight">{title}</h2>
+      {href && <Link href={href} className="text-xs font-bold text-cyan-400 hover:text-cyan-300 uppercase tracking-widest transition-colors">See all results</Link>}
     </div>
   );
 }
 
 function HorizontalScroll({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide -mx-1 px-1 snap-x">
+    <div className="flex gap-6 overflow-x-auto pb-8 scrollbar-hide -mx-4 px-4 snap-x">
       {React.Children.map(children, child => (
-        <div className="shrink-0 w-[240px] snap-start">{child}</div>
+        <div className="shrink-0 w-[280px] snap-start">{child}</div>
       ))}
     </div>
   );
@@ -167,10 +213,10 @@ function HorizontalScroll({ children }: { children: React.ReactNode }) {
 
 function FeatureCard({ title, desc, icon }: { title: string; desc: string; icon: string }) {
   return (
-    <div className="p-8 rounded-[32px] bg-white/[0.02] border border-white/[0.06] hover:bg-white/[0.04] transition-colors group">
-      <div className="text-3xl mb-6 grayscale group-hover:grayscale-0 transition-all scale-110">{icon}</div>
-      <h3 className="text-lg font-bold text-white mb-2">{title}</h3>
-      <p className="text-sm text-slate-500 leading-relaxed">{desc}</p>
+    <div className="p-10 rounded-[40px] bg-white/[0.02] border border-white/[0.07] hover:bg-white/[0.04] transition-all group hover:-translate-y-2 shadow-2xl">
+      <div className="text-4xl mb-8 grayscale group-hover:grayscale-0 transition-all scale-110">{icon}</div>
+      <h3 className="text-xl font-bold text-white mb-4">{title}</h3>
+      <p className="text-slate-400 leading-relaxed font-medium">{desc}</p>
     </div>
   );
 }

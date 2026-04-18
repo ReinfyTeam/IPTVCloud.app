@@ -1,6 +1,7 @@
 import { getCache, setCache } from '@/services/cache-service';
 import { generateId, parseM3U } from '@/lib/m3uParser';
 import { getCountryName } from '@/lib/countries';
+import { getLanguageName } from '@/lib/languages';
 import type { Channel, ChannelDataset, ChannelFilters, ChannelQuery, PaginatedChannels, SearchResponse } from '@/types';
 
 const DEFAULT_M3U_URL = process.env.M3U_PRIMARY_URL || 'https://iptv-org.github.io/iptv/index.m3u';
@@ -19,7 +20,7 @@ function normalizeChannel(channel: Channel): Channel {
     name: cleanName,
     logo: channel.logo || undefined,
     country: (getCountryName(channel.country || 'International')).toUpperCase(),
-    language: channel.language || undefined,
+    language: getLanguageName(channel.language || ''),
     category: channel.category || 'uncategorized',
     fallbackUrls: Array.from(new Set(channel.fallbackUrls || [])),
     isLive: true,
@@ -30,31 +31,32 @@ function normalizeChannel(channel: Channel): Channel {
 function dedupeChannels(channels: Channel[]): Channel[] {
   const map = new Map<string, Channel>();
 
-  for (const channel of channels.map(normalizeChannel)) {
-    const key = channel.epgId || channel.streamUrl;
+  channels.forEach((ch, idx) => {
+    const normalized = normalizeChannel(ch);
+    const key = normalized.epgId || normalized.streamUrl;
     const existing = map.get(key);
 
     if (!existing) {
-      map.set(key, channel);
-      continue;
+      map.set(key, normalized);
+      return;
     }
 
     const fallbackUrls = new Set([
       ...(existing.fallbackUrls || []),
-      existing.streamUrl !== channel.streamUrl ? channel.streamUrl : '',
-      ...(channel.fallbackUrls || []),
+      existing.streamUrl !== normalized.streamUrl ? normalized.streamUrl : '',
+      ...(normalized.fallbackUrls || []),
     ]);
 
     map.set(key, {
       ...existing,
-      name: existing.name || channel.name,
-      logo: existing.logo || channel.logo,
-      country: existing.country || channel.country,
-      language: existing.language || channel.language,
-      category: existing.category || channel.category,
+      name: existing.name || normalized.name,
+      logo: existing.logo || normalized.logo,
+      country: existing.country || normalized.country,
+      language: existing.language || normalized.language,
+      category: existing.category || normalized.category,
       fallbackUrls: Array.from(fallbackUrls).filter(Boolean),
     });
-  }
+  });
 
   return Array.from(map.values());
 }
@@ -69,7 +71,8 @@ export async function refreshChannels(): Promise<ChannelDataset> {
   }
 
   const source = await response.text();
-  const channels = dedupeChannels(parseM3U(source));
+  const rawChannels = parseM3U(source);
+  const channels = dedupeChannels(rawChannels);
   const dataset: ChannelDataset = { channels, fetchedAt: Date.now() };
 
   await setCache(CHANNELS_CACHE_KEY, dataset, Math.floor(CACHE_TTL_MS / 1000));
@@ -136,7 +139,8 @@ export function filterChannels(channels: Channel[], query: ChannelQuery): Channe
     items = items.filter((channel) => ids.has(channel.id));
   }
 
-  return items;
+  // Sort by name (alphabetical) as a baseline ranking
+  return items.sort((a, b) => a.name.localeCompare(b.name));
 }
 
 export function paginateChannels(dataset: ChannelDataset, query: ChannelQuery): PaginatedChannels {

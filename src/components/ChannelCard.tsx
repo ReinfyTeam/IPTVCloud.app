@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 import type { Channel } from '@/types';
 import { useNetworkStatus } from '@/hooks/use-network';
 import Hls from 'hls.js';
@@ -27,6 +26,7 @@ export default function ChannelCard({
   const [imgError, setImgError] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
+  const [muted, setMuted] = useState(true);
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const hlsRef = useRef<Hls | null>(null);
   const isOnline = useNetworkStatus();
@@ -45,10 +45,11 @@ export default function ChannelCard({
     if (isHovered) {
       hoverTimerRef.current = setTimeout(() => {
         setShowPreview(true);
-      }, 800); // Wait 800ms before showing preview
+      }, 5000); // 5 second delay before preview starts
     } else {
       if (hoverTimerRef.current) clearTimeout(hoverTimerRef.current);
       setShowPreview(false);
+      setMuted(true);
     }
     return () => {
       if (hoverTimerRef.current) clearTimeout(hoverTimerRef.current);
@@ -65,6 +66,7 @@ export default function ChannelCard({
           const proxiedSrc = await buildStreamProxyUrl(channel.streamUrl);
           if (video.canPlayType('application/vnd.apple.mpegurl')) {
             video.src = proxiedSrc;
+            video.muted = muted;
             video.play().catch(() => {});
           } else if (Hls.isSupported()) {
             const hls = new Hls({ enableWorker: true, lowLatencyMode: true, backBufferLength: 0 });
@@ -72,11 +74,13 @@ export default function ChannelCard({
             hls.loadSource(proxiedSrc);
             hls.attachMedia(video);
             hls.on(Hls.Events.MANIFEST_PARSED, () => {
+              video.muted = muted;
               video.play().catch(() => {});
             });
+            hls.on(Hls.Events.ERROR, () => setShowPreview(false));
           }
         } catch {
-          // ignore
+          setShowPreview(false);
         }
       };
       initHls();
@@ -90,12 +94,23 @@ export default function ChannelCard({
         videoRef.current.load();
       }
     }
-  }, [showPreview, channel.streamUrl, channel.isGeoBlocked]);
+  }, [showPreview, channel.streamUrl, channel.isGeoBlocked, muted]);
+
+  const toggleMute = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setMuted(!muted);
+  };
+
+  const handleSelect = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    onSelect(channel);
+  };
 
   if (mode === 'list') {
     return (
       <div
-        onClick={() => onSelect(channel)}
+        onClick={handleSelect}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         className={`group flex cursor-pointer items-center gap-3 rounded-2xl border p-3 backdrop-blur-md transition-all duration-300 transform-gpu ${
@@ -108,7 +123,19 @@ export default function ChannelCard({
       >
         <div className="relative shrink-0 overflow-hidden rounded-xl h-12 w-12 bg-slate-900">
           {showPreview && !channel.isGeoBlocked ? (
-            <video ref={videoRef} className="h-full w-full object-cover scale-150" muted playsInline />
+            <div className="relative h-full w-full">
+              <video ref={videoRef} className="h-full w-full object-cover scale-150" playsInline />
+              <button
+                onClick={toggleMute}
+                className="absolute bottom-0.5 right-0.5 h-4 w-4 rounded-full bg-black/60 flex items-center justify-center text-white z-10 hover:bg-cyan-500 transition-colors"
+              >
+                {muted ? (
+                  <svg className="h-2 w-2" fill="currentColor" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77zM3 9v6h4l5 5V4L7 9H3z"/></svg>
+                ) : (
+                  <svg className="h-2 w-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+                )}
+              </button>
+            </div>
           ) : channel.logo && !imgError ? (
             <img
               src={channel.logo}
@@ -128,7 +155,7 @@ export default function ChannelCard({
         </div>
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
-            <div className="truncate text-sm font-medium text-white">{channel.name}</div>
+            <div className="truncate text-sm font-medium text-white group-hover:text-cyan-400 transition-colors">{channel.name}</div>
             {channel.isGeoBlocked && (
               <span className="shrink-0 rounded-full bg-red-500/20 px-1.5 py-0.5 text-[8px] font-bold text-red-400 border border-red-500/30">GEO BLOCKED</span>
             )}
@@ -144,7 +171,6 @@ export default function ChannelCard({
           className={`shrink-0 rounded-lg p-1.5 transition-all duration-200 active:scale-90 ${
             favorite ? 'text-amber-400' : 'text-slate-600 hover:text-slate-400 hover:bg-white/5'
           }`}
-          aria-label={favorite ? 'Remove from favorites' : 'Add to favorites'}
         >
           <svg className="h-4 w-4" fill={favorite ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.562.562 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
@@ -156,7 +182,7 @@ export default function ChannelCard({
 
   return (
     <div
-      onClick={() => onSelect(channel)}
+      onClick={handleSelect}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className={`group relative cursor-pointer overflow-hidden rounded-2xl border backdrop-blur-md transition-all duration-300 animate-fade-in transform-gpu ${
@@ -174,13 +200,23 @@ export default function ChannelCard({
       )}
       <div className="relative aspect-video overflow-hidden bg-slate-900">
         {showPreview && !channel.isGeoBlocked ? (
-          <video
-            ref={videoRef}
-            className="h-full w-full object-cover transition-opacity duration-300"
-            muted
-            playsInline
-            autoPlay
-          />
+          <div className="relative h-full w-full">
+            <video
+              ref={videoRef}
+              className="h-full w-full object-cover transition-opacity duration-300"
+              playsInline
+            />
+            <button
+              onClick={toggleMute}
+              className="absolute bottom-2 right-2 h-8 w-8 rounded-full bg-black/60 flex items-center justify-center text-white z-10 hover:bg-cyan-500 transition-colors shadow-lg"
+            >
+              {muted ? (
+                <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77zM3 9v6h4l5 5V4L7 9H3z"/></svg>
+              ) : (
+                <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+              )}
+            </button>
+          </div>
         ) : channel.logo && !imgError ? (
           <img
             src={channel.logo}
