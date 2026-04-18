@@ -73,72 +73,71 @@ FEATURE CHECKLIST (ALL START AS INCOMPLETE)
 ==================================================
 
 1. CORE IPTV SYSTEM
-[x] Fetch M3U playlists server-side
-[x] Parse and normalize channels
-[x] Deduplicate channel entries
-[x] Cache channel dataset
-[x] Serve via /api/channels route
-[x] Stream health monitoring system
+[ ] Fetch M3U playlists server-side
+[ ] Parse and normalize channels
+[ ] Deduplicate channel entries
+[ ] Cache channel dataset
+[ ] Serve via /api/channels route
+[ ] Stream health monitoring system
 [ ] Auto dead-stream detection
-[x] Stream fallback chaining system
+[ ] Stream fallback chaining system
 
 2. CHANNEL BROWSER
-[x] Grid + list view UI
+[ ] Grid + list view UI
 [ ] Infinite scroll support
 [ ] Virtualized rendering for performance
-[x] Lazy image loading
+[ ] Lazy image loading
 [ ] Channel preview hover playback
 [ ] Smart channel recommendations
 
 3. SEARCH SYSTEM
-[x] Search by name
-[x] Search by country
-[x] Search by category
-[x] Debounced input
-[x] Instant results
+[ ] Search by name
+[ ] Search by country
+[ ] Search by category
+[ ] Debounced input
+[ ] Instant results
 [ ] AI-assisted search suggestions
 [ ] Trending search keywords
 
 4. FILTER SYSTEM
-[x] Country filters
-[x] Category filters
-[x] Language filters
-[x] Favorites filter
+[ ] Country filters
+[ ] Category filters
+[ ] Language filters
+[ ] Favorites filter
 [ ] Advanced multi-filter builder UI
 [ ] Smart filter presets
 
 5. IPTV PLAYER (CORE)
-[x] HLS.js playback support
-[x] Native fallback video support
-[x] Fullscreen mode
-[x] PiP mode
-[x] Volume + mute control
-[x] Channel switching without reload
+[ ] HLS.js playback support
+[ ] Native fallback video support
+[ ] Fullscreen mode
+[ ] PiP mode
+[ ] Volume + mute control
+[ ] Channel switching without reload
 [ ] Ultra-fast zapping mode (<200ms switching)
-[x] Adaptive bitrate switching
+[ ] Adaptive bitrate switching
 [ ] Stream buffering optimizer
 [ ] Screenshot capture
 [ ] Stream error auto-recovery UI
 
 6. EPG / TV GUIDE
 [ ] Fetch IPTV-org EPG repository
-[x] Parse XMLTV server-side
-[x] Show current program
-[x] Show next program
+[ ] Parse XMLTV server-side
+[ ] Show current program
+[ ] Show next program
 [ ] Timeline grid view
 [ ] Auto timezone sync
 [ ] DVR-like UI scrubbing (if data exists)
 
 7. USER ACCOUNT SYSTEM (NEW)
-[x] User registration system
-[x] Login system (JWT/session)
-[x] Logout system
-[x] Password hashing (bcrypt)
+[ ] User registration system
+[ ] Login system (JWT/session)
+[ ] Logout system
+[ ] Password hashing (bcrypt)
 [ ] Email change system
 [ ] Password reset system
 [ ] Account deletion system
 [ ] Account profile page
-[ ] Avatar support (optional)
 
 8. USER SETTINGS SYSTEM (NEW)
 [ ] Personalized player theme
@@ -152,20 +151,20 @@ FEATURE CHECKLIST (ALL START AS INCOMPLETE)
 [ ] Reset settings to default
 
 9. ADMIN / DEVELOPER DASHBOARD (NEW)
-[x] Admin authentication role system
-[x] View all user accounts
-[x] Suspend/ban accounts
-[x] Unsuspend accounts
+[ ] Admin authentication role system
+[ ] View all user accounts
+[ ] Suspend/ban accounts
+[ ] Unsuspend accounts
 [ ] Delete user accounts
 [ ] View active sessions
 [ ] System analytics dashboard
-[x] Channel health overview
+[ ] Channel health overview
 [ ] Stream failure reports
-[x] Manual cache refresh control
-[x] Scheduled probe-channels cron job
+[ ] Manual cache refresh control
+[ ] Scheduled probe-channels cron job
 
 10. USER FEATURES (LOCAL + SERVER HYBRID)
-[x] Favorites system
+[ ] Favorites system
 [ ] Recently watched
 [ ] Watch history
 [ ] Continue watching
@@ -173,9 +172,9 @@ FEATURE CHECKLIST (ALL START AS INCOMPLETE)
 
 11. HOME DASHBOARD
 [ ] Trending channels
-[x] Categories overview
-[x] Countries overview
-[x] Favorites section
+[ ] Categories overview
+[ ] Countries overview
+[ ] Favorites section
 [ ] Recently watched
 [ ] Continue watching
 [ ] Live now section
@@ -183,10 +182,10 @@ FEATURE CHECKLIST (ALL START AS INCOMPLETE)
 [ ] Personalized homepage ranking
 
 12. KEYBOARD SHORTCUTS
-[x] Space = play/pause
-[x] F = fullscreen
-[x] M = mute
-[x] Arrow keys = channel navigation
+[ ] Space = play/pause
+[ ] F = fullscreen
+[ ] M = mute
+[ ] Arrow keys = channel navigation
 [ ] S = screenshot
 [ ] L = live mode toggle
 [ ] T = theater mode toggle
@@ -194,8 +193,8 @@ FEATURE CHECKLIST (ALL START AS INCOMPLETE)
 13. EXTRA PREMIUM FEATURES
 [ ] Sleep timer
 [ ] Pinned channels
-[x] Share channel link
-[x] Copy stream URL
+[ ] Share channel link
+[ ] Copy stream URL
 [ ] Auto dark mode based on time
 [ ] Smart continue watching
 [ ] Channel popularity ranking
@@ -231,9 +230,9 @@ Rules:
 SECURITY REQUIREMENTS
 ==================================================
 
-[x] Password hashing (bcrypt)
-[x] Role-based access control (user/admin)
-[x] Protected API routes
+[ ] Password hashing (bcrypt)
+[ ] Role-based access control (user/admin)
+[ ] Protected API routes
 [ ] Rate limiting on auth endpoints
 [ ] Session validation middleware
 [ ] Input sanitization
