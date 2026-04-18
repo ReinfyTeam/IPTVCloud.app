@@ -1,0 +1,310 @@
+You are a senior full-stack engineer.
+
+Build a production-ready IPTV web application using Next.js App Router + TypeScript + TailwindCSS.
+
+APP NAME: IPTVCloud.app  
+AUTHOR: ReinfyTeam  
+NO LOGO
+
+==================================================
+ARCHITECTURE RULE (HARD REQUIREMENT)
+==================================================
+
+- Use Next.js App Router
+- ALL source code MUST be inside /src
+- /src/app is the only valid app router location
+- NO separate backend server
+- NO microservices
+- Everything runs in ONE Next.js monolith deployment
+
+FINAL STRUCTURE:
+- /src/app
+- /src/components
+- /src/lib
+- /src/services
+- /src/hooks
+- /src/store
+- /src/types
+
+==================================================
+DATA SOURCE RULE (STRICT)
+==================================================
+
+ONLY USE IPTV-org M3U SOURCES:
+
+PRIMARY:
+https://iptv-org.github.io/iptv/index.m3u
+
+OPTIONAL:
+https://iptv-org.github.io/iptv/countries/{code}.m3u
+https://iptv-org.github.io/iptv/categories/{category}.m3u
+
+EPG SOURCE:
+https://github.com/iptv-org/epg
+
+IMPORTANT:
+IPTV-org is NOT a REST API. It is M3U-based.
+
+You MUST:
+- Fetch M3U on server-side only
+- Parse M3U into structured JSON
+- Normalize all data
+- Deduplicate channels
+- Cache results
+
+==================================================
+NORMALIZED CHANNEL MODEL
+==================================================
+
+{
+  id: string,
+  name: string,
+  logo?: string,
+  country?: string,
+  language?: string,
+  category?: string,
+  streamUrl: string,
+  epgId?: string,
+  isLive: true
+}
+
+==================================================
+FEATURE CHECKLIST (ALL START AS INCOMPLETE)
+==================================================
+
+1. CORE IPTV SYSTEM
+[x] Fetch M3U playlists server-side
+[x] Parse and normalize channels
+[x] Deduplicate channel entries
+[x] Cache channel dataset
+[x] Serve via /api/channels route
+[x] Stream health monitoring system
+[ ] Auto dead-stream detection
+[x] Stream fallback chaining system
+
+2. CHANNEL BROWSER
+[x] Grid + list view UI
+[ ] Infinite scroll support
+[ ] Virtualized rendering for performance
+[x] Lazy image loading
+[ ] Channel preview hover playback
+[ ] Smart channel recommendations
+
+3. SEARCH SYSTEM
+[x] Search by name
+[x] Search by country
+[x] Search by category
+[x] Debounced input
+[x] Instant results
+[ ] AI-assisted search suggestions
+[ ] Trending search keywords
+
+4. FILTER SYSTEM
+[x] Country filters
+[x] Category filters
+[x] Language filters
+[x] Favorites filter
+[ ] Advanced multi-filter builder UI
+[ ] Smart filter presets
+
+5. IPTV PLAYER (CORE)
+[x] HLS.js playback support
+[x] Native fallback video support
+[x] Fullscreen mode
+[x] PiP mode
+[x] Volume + mute control
+[x] Channel switching without reload
+[ ] Ultra-fast zapping mode (<200ms switching)
+[x] Adaptive bitrate switching
+[ ] Stream buffering optimizer
+[ ] Screenshot capture
+[ ] Stream error auto-recovery UI
+
+6. EPG / TV GUIDE
+[ ] Fetch IPTV-org EPG repository
+[x] Parse XMLTV server-side
+[x] Show current program
+[x] Show next program
+[ ] Timeline grid view
+[ ] Auto timezone sync
+[ ] DVR-like UI scrubbing (if data exists)
+
+7. USER ACCOUNT SYSTEM (NEW)
+[x] User registration system
+[x] Login system (JWT/session)
+[x] Logout system
+[x] Password hashing (bcrypt)
+[ ] Email change system
+[ ] Password reset system
+[ ] Account deletion system
+[ ] Account profile page
+[ ] Avatar support (optional)
+
+8. USER SETTINGS SYSTEM (NEW)
+[ ] Personalized player theme
+[ ] UI accent color picker
+[ ] Player layout preferences
+[ ] Default volume control
+[ ] Autoplay toggle
+[ ] Performance mode toggle
+[ ] Language selection
+[ ] Privacy settings
+[ ] Reset settings to default
+
+9. ADMIN / DEVELOPER DASHBOARD (NEW)
+[x] Admin authentication role system
+[x] View all user accounts
+[x] Suspend/ban accounts
+[x] Unsuspend accounts
+[ ] Delete user accounts
+[ ] View active sessions
+[ ] System analytics dashboard
+[x] Channel health overview
+[ ] Stream failure reports
+[x] Manual cache refresh control
+[x] Scheduled probe-channels cron job
+
+10. USER FEATURES (LOCAL + SERVER HYBRID)
+[x] Favorites system
+[ ] Recently watched
+[ ] Watch history
+[ ] Continue watching
+[ ] Cross-device sync (optional backend storage)
+
+11. HOME DASHBOARD
+[ ] Trending channels
+[x] Categories overview
+[x] Countries overview
+[x] Favorites section
+[ ] Recently watched
+[ ] Continue watching
+[ ] Live now section
+[ ] AI recommendations feed
+[ ] Personalized homepage ranking
+
+12. KEYBOARD SHORTCUTS
+[x] Space = play/pause
+[x] F = fullscreen
+[x] M = mute
+[x] Arrow keys = channel navigation
+[ ] S = screenshot
+[ ] L = live mode toggle
+[ ] T = theater mode toggle
+
+13. EXTRA PREMIUM FEATURES
+[ ] Sleep timer
+[ ] Pinned channels
+[x] Share channel link
+[x] Copy stream URL
+[ ] Auto dark mode based on time
+[ ] Smart continue watching
+[ ] Channel popularity ranking
+[ ] Auto remove dead channels
+[ ] Network adaptive streaming
+[ ] Multi-stream fallback resolver
+
+==================================================
+BACKEND RULE (NEXT.JS ONLY)
+==================================================
+
+ALL backend logic must be inside:
+/src/app/api/* route handlers
+
+Required APIs:
+[x] /api/channels
+[x] /api/search
+[x] /api/channel/[id]
+[x] /api/epg/[id]
+[x] /api/auth/login
+[x] /api/auth/register
+[x] /api/auth/logout
+[x] /api/admin/users
+[x] /api/admin/suspend
+[ ] /api/settings/update
+
+Rules:
+- No external backend server
+- No microservices
+- Everything inside Next.js monolith only
+
+==================================================
+SECURITY REQUIREMENTS
+==================================================
+
+[x] Password hashing (bcrypt)
+[x] Role-based access control (user/admin)
+[x] Protected API routes
+[ ] Rate limiting on auth endpoints
+[ ] Session validation middleware
+[ ] Input sanitization
+
+==================================================
+M3U PARSER (SERVER ONLY)
+==================================================
+
+Must:
+- Extract EXTINF metadata
+- Parse logo, category, country
+- Handle malformed entries
+- Deduplicate streams
+- Normalize structure
+- Optimize for performance
+
+==================================================
+UI DESIGN SYSTEM
+==================================================
+
+[x] Tailwind CSS installed and configured
+- Frosted glass UI (performance optimized)
+- Dark mode default
+- Minimal blur usage
+- Rounded 2xl cards
+- Smooth animations
+- Premium dashboard layout
+- Mobile-first responsive design
+- Netflix-style browsing feel
+
+==================================================
+PERFORMANCE REQUIREMENTS
+==================================================
+
+- Server-side caching for M3U
+- Virtualized large lists
+- Lazy image loading
+- Memoized components
+- Route prefetching
+- Optimized bundle size
+- Fast navigation transitions
+- Avoid excessive blur rendering
+
+==================================================
+ERROR HANDLING RULES
+==================================================
+
+If IPTV source fails:
+- Use cached dataset if available
+- Otherwise return empty safe response
+- Never crash UI
+- Show fallback UI message
+
+==================================================
+OUTPUT REQUIREMENTS
+==================================================
+
+Generate:
+1. Full /src project structure
+2. Complete production-ready codebase
+3. M3U parser implementation
+4. IPTV player (HLS.js)
+5. Auth system (JWT/session-based)
+6. Admin dashboard system
+7. User settings system
+8. API route handlers (/api/*)
+9. State management (Zustand)
+10. Hooks + utilities
+11. Setup instructions
+12. Deployment guide (Vercel-ready)
+
+All features must be implemented step-by-step and tracked using the checklist above.
+
+BEGIN BUILD NOW.
