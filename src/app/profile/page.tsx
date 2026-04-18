@@ -103,14 +103,13 @@ export default function ProfilePage() {
     clearAuth();
     router.push('/');
   };
+if (!mounted || !user) return null;
 
-  if (!mounted || !user) return null;
-
-  return (
-    <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6">
-      <div className="mx-auto max-w-[1000px] space-y-8 animate-fade-in transform-gpu">
-        <div className="flex flex-col lg:flex-row gap-8 items-start">
-          <div className="flex-1 w-full space-y-8">
+return (
+  <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6">
+    <div className="mx-auto max-w-[1000px] space-y-8 animate-fade-in transform-gpu">
+      <div className="flex flex-col lg:flex-row gap-8 items-start">
+        <div className="flex-1 w-full space-y-8">
             <div className="rounded-[40px] bg-white/[0.03] border border-white/[0.08] p-8 backdrop-blur-xl relative overflow-hidden shadow-2xl">
               <div className="absolute top-0 right-0 p-8 opacity-5">
                 <svg className="h-32 w-32 text-white" fill="currentColor" viewBox="0 0 24 24">
