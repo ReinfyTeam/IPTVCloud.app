@@ -35,13 +35,13 @@ function buildFacets(channels: Channel[], pick: (c: Channel) => string | undefin
     .slice(0, limit);
 }
 
-export default function ChannelBrowser({ channels }: { channels: Channel[] }) {
+export default function ChannelBrowser({ channels, initialSearch = '' }: { channels: Channel[], initialSearch?: string }) {
   const router = useRouter();
   const { viewMode, setViewMode } = usePlayerStore();
   const { ids: favoriteIds, toggleFavorite, isFavorite } = useFavoritesStore();
   const { addEntry: addHistory } = useHistoryStore();
 
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState(initialSearch);
   const [country, setCountry] = useState('');
   const [category, setCategory] = useState('');
   const [language, setLanguage] = useState('');

@@ -3,6 +3,8 @@ export interface EpgProgram {
   stop: string | null;
   title: string;
   desc: string;
+  image?: string | null;
+  category?: string | null;
 }
 
 export interface EpgLookupResult {
@@ -10,6 +12,7 @@ export interface EpgLookupResult {
   url?: string | null;
   now?: EpgProgram | null;
   next?: EpgProgram | null;
+  schedule?: EpgProgram[];
   raw?: string;
   error?: string;
 }

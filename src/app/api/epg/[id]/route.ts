@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic';
 
 export async function GET(req: Request, { params }: { params: { id: string } }) {
   try {
-    const id = params.id;
+    const id = decodeURIComponent(params.id);
     const res = await fetchEpgForId(id);
     if (!res || !res.found) return NextResponse.json({ ok: false, error: 'EPG not found' }, { status: 404 });
     return NextResponse.json({ ok: true, url: res.url, now: res.now, next: res.next });

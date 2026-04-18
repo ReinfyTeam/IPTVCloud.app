@@ -29,26 +29,44 @@ export default function EpgStrip({ channelId, compact = false }: Props) {
   if (!channelId) return null;
   if (loading) return (
     <div className={`rounded-xl border border-white/[0.06] bg-white/[0.03] ${compact ? 'p-2' : 'p-3'} animate-pulse`}>
-      <div className="h-3 w-24 rounded bg-white/10" />
+      <div className="flex gap-3">
+        {compact && <div className="h-10 w-16 shrink-0 rounded-lg bg-white/5" />}
+        <div className="flex-1 space-y-2">
+          <div className="h-3 w-32 rounded bg-white/10" />
+          <div className="h-2 w-24 rounded bg-white/5" />
+        </div>
+      </div>
     </div>
   );
   if (!data?.found || (!data.now && !data.next)) return null;
 
   return (
-    <div className={`rounded-xl border border-white/[0.06] bg-white/[0.03] ${compact ? 'p-2 text-xs' : 'p-3 text-sm'}`}>
+    <div className={`rounded-2xl border border-white/[0.06] bg-white/[0.03] overflow-hidden ${compact ? 'p-2.5 text-xs' : 'p-4 text-sm'} backdrop-blur-md transition-all`}>
       {data.now && (
-        <div className="flex items-start gap-2">
-          <span className="mt-0.5 shrink-0 rounded-full bg-red-500/20 px-1.5 py-0.5 text-[10px] font-semibold text-red-400">NOW</span>
-          <div className="min-w-0">
-            <div className="font-medium text-white truncate">{data.now.title}</div>
-            {data.now.desc && !compact && <div className="mt-0.5 text-slate-500 line-clamp-2">{data.now.desc}</div>}
+        <div className="flex items-start gap-4">
+          {data.now.image && (
+            <div className="hidden sm:block relative shrink-0 aspect-video h-14 rounded-lg overflow-hidden border border-white/10 shadow-lg">
+              <img src={data.now.image} alt={data.now.title} className="h-full w-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+            </div>
+          )}
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="shrink-0 rounded-full bg-red-500/80 px-2 py-0.5 text-[9px] font-bold text-white shadow-sm animate-pulse">LIVE NOW</span>
+              {data.now.category && <span className="truncate text-[9px] font-bold uppercase tracking-wider text-slate-500">{data.now.category}</span>}
+            </div>
+            <div className="font-bold text-white truncate leading-tight">{data.now.title}</div>
+            {data.now.desc && !compact && <div className="mt-1 text-slate-400 text-xs line-clamp-2 leading-relaxed opacity-80">{data.now.desc}</div>}
           </div>
         </div>
       )}
       {data.next && (
-        <div className={`flex items-start gap-2 ${data.now ? 'mt-2 pt-2 border-t border-white/[0.06]' : ''}`}>
-          <span className="mt-0.5 shrink-0 rounded-full bg-slate-700/50 px-1.5 py-0.5 text-[10px] font-semibold text-slate-400">NEXT</span>
-          <div className="min-w-0 text-slate-400 truncate">{data.next.title}</div>
+        <div className={`flex items-start gap-3 ${data.now ? 'mt-3 pt-3 border-t border-white/[0.06]' : ''}`}>
+          <span className="mt-0.5 shrink-0 rounded-full bg-slate-700/50 px-1.5 py-0.5 text-[9px] font-bold text-slate-400 uppercase tracking-tight">COMING UP</span>
+          <div className="min-w-0">
+            <div className="font-medium text-slate-300 truncate leading-tight">{data.next.title}</div>
+            {data.next.category && <div className="text-[9px] font-medium text-slate-600 uppercase mt-0.5">{data.next.category}</div>}
+          </div>
         </div>
       )}
     </div>
