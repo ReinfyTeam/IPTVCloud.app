@@ -1,5 +1,5 @@
 import xml2js from 'xml2js';
-import type { EpgLookupResult } from '@/types';
+import type { EpgLookupResult, EpgProgram } from '@/types';
 
 function parseXmlDate(value?: string | number) {
   if (!value) return null;
@@ -20,14 +20,50 @@ function parseXmlDate(value?: string | number) {
   return Number.isNaN(fallback.getTime()) ? null : fallback;
 }
 
-function simplifyProgram(program: any) {
+async function enrichWithWikiImage(title: string): Promise<string | null> {
+  if (!title) return null;
+  try {
+    // Basic cleanup of title (remove "HD", "Season x", etc to improve wiki match)
+    const cleanTitle = title.replace(/\b(HD|SD|FHD|4K|S\d+E\d+|Season \d+|Episode \d+)\b/gi, '').split(':')[0].trim();
+    const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(cleanTitle)}`, {
+      headers: { 'User-Agent': 'IPTVCloud.app/1.0' },
+      next: { revalidate: 86400 } // cache aggressively for 24h
+    });
+    if (res.ok) {
+      const data = await res.json();
+      return data.thumbnail?.source || null;
+    }
+  } catch {
+    // ignore
+  }
+  return null;
+}
+
+async function simplifyProgram(program: any): Promise<EpgProgram | null> {
   if (!program) return null;
+
+  const title = typeof program.title === 'string' ? program.title : program.title?._ || '';
+  const desc = typeof program.desc === 'string' ? program.desc : program.desc?._ || '';
+  
+  // Extract image from standard XMLTV <icon src="..." />
+  let image = program.icon?.$?.src || program.icon?.[0]?.$?.src || null;
+  
+  // If no image is provided by the XMLTV, attempt to fetch a fallback from Wikipedia
+  if (!image && title) {
+    image = await enrichWithWikiImage(title);
+  }
+
+  const category = typeof program.category === 'string' 
+    ? program.category 
+    : program.category?._ || program.category?.[0]?._ || null;
 
   return {
     start: parseXmlDate(program.start)?.toISOString() || null,
     stop: parseXmlDate(program.stop)?.toISOString() || null,
-    title: typeof program.title === 'string' ? program.title : program.title?._ || '',
-    desc: typeof program.desc === 'string' ? program.desc : program.desc?._ || '',
+    title,
+    desc,
+    image,
+    category
   };
 }
 
@@ -78,8 +114,12 @@ export async function fetchEpgForId(epgId: string): Promise<EpgLookupResult> {
     const now = new Date();
     let currentProgram: any = null;
     let nextProgram: any = null;
+    const fullSchedule: EpgProgram[] = [];
 
     for (const program of programmes) {
+      const simplified = await simplifyProgram(program);
+      if (simplified) fullSchedule.push(simplified);
+
       const start = parseXmlDate(program.start);
       const stop = parseXmlDate(program.stop);
       if (!start || !stop) continue;
@@ -94,8 +134,9 @@ export async function fetchEpgForId(epgId: string): Promise<EpgLookupResult> {
     return {
       found: true,
       url: sourceUrl,
-      now: simplifyProgram(currentProgram),
-      next: simplifyProgram(nextProgram),
+      now: await simplifyProgram(currentProgram),
+      next: await simplifyProgram(nextProgram),
+      schedule: fullSchedule.sort((a, b) => (a.start || '').localeCompare(b.start || '')),
       raw: xmlText.slice(0, 16 * 1024),
     };
   } catch (error) {

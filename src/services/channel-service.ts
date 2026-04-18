@@ -1,5 +1,6 @@
 import { getCache, setCache } from '@/services/cache-service';
 import { generateId, parseM3U } from '@/lib/m3uParser';
+import { getCountryName } from '@/lib/countries';
 import type { Channel, ChannelDataset, ChannelFilters, ChannelQuery, PaginatedChannels, SearchResponse } from '@/types';
 
 const DEFAULT_M3U_URL = process.env.M3U_PRIMARY_URL || 'https://iptv-org.github.io/iptv/index.m3u';
@@ -9,16 +10,20 @@ const CACHE_TTL_MS = process.env.M3U_CACHE_TTL
 const CHANNELS_CACHE_KEY = 'channels:dataset';
 
 function normalizeChannel(channel: Channel): Channel {
+  const isGeoBlocked = channel.name.includes('[GEO BLOCKED]');
+  const cleanName = channel.name.replace('[GEO BLOCKED]', '').trim();
+  
   return {
     ...channel,
     id: channel.id || generateId(`${channel.streamUrl}:${channel.name}`),
-    name: channel.name.trim(),
+    name: cleanName,
     logo: channel.logo || undefined,
-    country: (channel.country || 'International').toUpperCase(),
+    country: (getCountryName(channel.country || 'International')).toUpperCase(),
     language: channel.language || undefined,
     category: channel.category || 'uncategorized',
     fallbackUrls: Array.from(new Set(channel.fallbackUrls || [])),
     isLive: true,
+    isGeoBlocked,
   };
 }
 

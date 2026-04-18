@@ -52,7 +52,7 @@ export function parseM3U(content: string): Channel[] {
         if (m) country = m[1].toLowerCase();
       }
       const name = displayName || attrs['tvg-name'] || attrs['title'] || url;
-      const id = epgId || generateId(url + name);
+      const id = generateId(url + name);
 
       channels.push({
         id,

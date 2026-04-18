@@ -9,6 +9,7 @@ export interface Channel {
   epgId?: string;
   isLive: true;
   fallbackUrls?: string[];
+  isGeoBlocked?: boolean;
 }
 
 export interface ChannelDataset {
