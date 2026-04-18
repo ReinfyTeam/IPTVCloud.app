@@ -58,9 +58,18 @@ export default function ChannelCard({
           )}
         </div>
         <div className="min-w-0 flex-1">
-          <div className="truncate text-sm font-medium text-white">{channel.name}</div>
+          <div className="flex items-center gap-2">
+            {channel.country && channel.country !== 'UNKNOWN' && (
+              <img
+                src={`https://flagcdn.com/w20/${channel.country.toLowerCase()}.png`}
+                alt={channel.country}
+                className="h-3 w-4 rounded-sm object-cover"
+              />
+            )}
+            <div className="truncate text-sm font-medium text-white">{channel.name}</div>
+          </div>
           <div className="truncate text-xs text-slate-500">
-            {[channel.country, channel.category].filter(Boolean).join(' · ') || 'Live'}
+            {channel.category}
           </div>
         </div>
         <button
@@ -101,21 +110,22 @@ export default function ChannelCard({
             {initials}
           </div>
         )}
-        {active && (
-          <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-            <div className="flex items-center gap-2 rounded-full bg-cyan-400 px-3 py-1.5 text-xs font-semibold text-slate-950">
-              <span className="h-1.5 w-1.5 rounded-full bg-slate-950 animate-pulse" />
-              Live
-            </div>
-          </div>
-        )}
       </div>
       <div className="p-3">
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
-            <div className="truncate text-sm font-medium text-white">{channel.name}</div>
+            <div className="flex items-center gap-2">
+              {channel.country && channel.country !== 'UNKNOWN' && (
+                <img
+                  src={`https://flagcdn.com/w20/${channel.country.toLowerCase()}.png`}
+                  alt={channel.country}
+                  className="h-3 w-4 rounded-sm object-cover"
+                />
+              )}
+              <div className="truncate text-sm font-medium text-white">{channel.name}</div>
+            </div>
             <div className="mt-0.5 truncate text-xs text-slate-500">
-              {[channel.country, channel.category].filter(Boolean).join(' · ') || 'Live'}
+              {channel.category}
             </div>
           </div>
           <button
@@ -123,20 +133,12 @@ export default function ChannelCard({
             className={`shrink-0 rounded-lg p-1.5 transition-colors ${
               favorite ? 'text-amber-400' : 'text-slate-700 hover:text-slate-400'
             }`}
-            aria-label={favorite ? 'Remove from favorites' : 'Add to favorites'}
           >
             <svg className="h-4 w-4" fill={favorite ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.562.562 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
             </svg>
           </button>
         </div>
-        {channel.language && (
-          <div className="mt-2">
-            <span className="inline-flex items-center rounded-full border border-white/[0.06] bg-white/[0.04] px-2 py-0.5 text-[10px] text-slate-500">
-              {channel.language}
-            </span>
-          </div>
-        )}
       </div>
     </div>
   );
