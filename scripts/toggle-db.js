@@ -13,7 +13,7 @@ let content = fs.readFileSync(schemaPath, 'utf8');
 
 if (mode === 'dev') {
   content = content.replace(/provider\s*=\s*"postgresql"/, 'provider = "sqlite"');
-  content = content.replace(/url\s*=\s*env\("DATABASE_URL"\)/, 'url = "file:./dev.db"');
+  content = content.replace(/url\s*=\s*env\("DATABASE_URL"\)/, 'url = env("DATABASE_FILE")');
   console.log('Switched Prisma to SQLite (dev mode)');
 } else {
   content = content.replace(/provider\s*=\s*"sqlite"/, 'provider = "postgresql"');
