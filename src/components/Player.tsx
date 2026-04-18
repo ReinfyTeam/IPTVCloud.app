@@ -332,7 +332,7 @@ export default function Player({
     ? 'aspect-video w-full'
     : isFullscreen
     ? 'h-screen w-screen'
-    : 'h-[240px] sm:h-[360px] lg:h-[460px] w-full';
+    : 'h-[300px] sm:h-[460px] lg:h-[560px] w-full';
 
   const displayTitle = channel?.name || title;
   const displaySubtitle = channel
@@ -344,164 +344,179 @@ export default function Player({
       ref={containerRef}
       onMouseMove={resetControlsTimer}
       onMouseEnter={resetControlsTimer}
-      className={`relative overflow-hidden rounded-[28px] border border-white/[0.08] bg-black shadow-2xl shadow-black/50 ${theaterMode ? 'rounded-none border-0' : ''} ${className || ''}`}
+      onMouseLeave={() => setShowControls(false)}
+      onDoubleClick={() => void toggleFullscreen()}
+      className={`group relative overflow-hidden bg-black ${theaterMode ? 'rounded-none' : 'rounded-[28px] border border-white/[0.08] shadow-2xl shadow-black/50'} ${className || ''} ${videoHeight}`}
     >
-      <div className={`flex items-center justify-between gap-4 border-b border-white/[0.07] bg-gradient-to-r from-slate-950 to-slate-900 px-4 py-3 ${!showControls && status === 'playing' ? 'opacity-0 pointer-events-none' : ''} transition-opacity duration-300`}>
-        <div className="min-w-0">
-          <div className="flex items-center gap-2">
-            {status === 'playing' && (
-              <span className="flex items-center gap-1.5 rounded-full bg-red-500/20 px-2 py-0.5 text-[10px] font-semibold text-red-400">
-                <span className="h-1.5 w-1.5 rounded-full bg-red-400 animate-pulse" />
-                LIVE
-              </span>
-            )}
-            {status === 'loading' && (
-              <span className="text-[10px] font-semibold uppercase tracking-widest text-cyan-400 animate-pulse">
-                Loading…
-              </span>
-            )}
-          </div>
-          <div className="mt-0.5 truncate text-sm font-semibold text-white">{displayTitle || 'Select a channel'}</div>
-          {displaySubtitle && <div className="truncate text-xs text-slate-500">{displaySubtitle}</div>}
-        </div>
-        <div className="flex shrink-0 items-center gap-1.5">
-          <IconButton onClick={togglePlay} title={status === 'playing' ? 'Pause (Space)' : 'Play (Space)'}>
-            {status === 'playing' ? (
-              <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>
-            ) : (
-              <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-            )}
-          </IconButton>
-          <IconButton onClick={toggleMute} title={muted ? 'Unmute (M)' : 'Mute (M)'}>
-            {muted ? (
-              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/><path strokeLinecap="round" strokeLinejoin="round" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2"/></svg>
-            ) : (
-              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15.536 8.464a5 5 0 010 7.072M12 6v12m-3.536-9.536A5 5 0 008 12m0 0a5 5 0 00.464 2.536M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-            )}
-          </IconButton>
-          <IconButton onClick={() => void togglePiP()} title="Picture-in-Picture (P)" active={isPiP}>
-            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><rect x="2" y="4" width="20" height="16" rx="2"/><rect x="12" y="12" width="9" height="7" rx="1" fill="currentColor" stroke="none"/></svg>
-          </IconButton>
-          <IconButton onClick={takeScreenshot} title="Screenshot (S)">
-            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><circle cx="12" cy="13" r="3"/></svg>
-          </IconButton>
-          <IconButton onClick={() => setTheaterMode((v) => !v)} title="Theater mode (T)" active={theaterMode}>
-            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><rect x="2" y="7" width="20" height="14" rx="2"/><path strokeLinecap="round" d="M7 3h10"/></svg>
-          </IconButton>
-          <IconButton onClick={() => void toggleFullscreen()} title="Fullscreen (F)" active={isFullscreen}>
-            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              {isFullscreen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 9L4 4m0 0l5 0m-5 0l0 5m6 6l5 5m0 0l-5 0m5 0l0-5"/>
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 3h6m0 0v6m0-6l-7 7M9 21H3m0 0v-6m0 6l7-7"/>
-              )}
-            </svg>
-          </IconButton>
-        </div>
-      </div>
+      <video
+        ref={videoRef}
+        className="h-full w-full object-contain"
+        poster={poster}
+        playsInline
+      />
 
-      <div className={`relative bg-black ${videoHeight}`}>
-        <video
-          ref={videoRef}
-          className="h-full w-full object-contain"
-          poster={poster}
-          playsInline
-        />
-        {status === 'idle' && !activeUrl && (
-          <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-slate-950/80">
-            <div className="h-16 w-16 rounded-full bg-white/5 flex items-center justify-center">
-              <svg className="h-8 w-8 text-slate-600" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-            </div>
-            <p className="text-sm text-slate-500">Select a channel to start watching</p>
+      {status === 'idle' && !activeUrl && (
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-slate-950/80">
+          <div className="h-16 w-16 rounded-full bg-white/5 flex items-center justify-center">
+            <svg className="h-8 w-8 text-slate-600" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
           </div>
-        )}
-        {status === 'loading' && (
-          <div className="absolute inset-0 flex items-center justify-center bg-black/60">
-            <div className="h-10 w-10 rounded-full border-2 border-cyan-400/30 border-t-cyan-400 animate-spin" />
+          <p className="text-sm text-slate-500">Select a channel to start watching</p>
+        </div>
+      )}
+      {status === 'loading' && (
+        <div className="absolute inset-0 flex items-center justify-center bg-black/60 pointer-events-none">
+          <div className="h-12 w-12 rounded-full border-[3px] border-cyan-400/30 border-t-cyan-400 animate-spin shadow-lg shadow-cyan-500/20" />
+        </div>
+      )}
+      {status === 'error' && (
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-slate-950/90 z-20">
+          <div className="h-14 w-14 rounded-full bg-red-500/10 flex items-center justify-center">
+            <svg className="h-7 w-7 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
           </div>
-        )}
-        {status === 'error' && (
-          <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-slate-950/90">
-            <div className="h-14 w-14 rounded-full bg-red-500/10 flex items-center justify-center">
-              <svg className="h-7 w-7 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>
+          <p className="text-sm font-medium text-red-300">{errorMsg}</p>
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              setSourceIndex(0);
+              setStatus('loading');
+              setErrorMsg('');
+            }}
+            className="rounded-full bg-white/10 px-5 py-2.5 text-sm font-medium text-white hover:bg-white/20 transition-colors"
+          >
+            Retry Connection
+          </button>
+        </div>
+      )}
+
+      {/* Scrim Overlays */}
+      <div className={`absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black/80 pointer-events-none transition-opacity duration-300 ${showControls || status !== 'playing' ? 'opacity-100' : 'opacity-0'}`} />
+
+      {/* Controls Container */}
+      <div className={`absolute inset-0 flex flex-col justify-between p-4 transition-opacity duration-300 ${showControls || status !== 'playing' ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+        
+        {/* Top Bar */}
+        <div className="flex items-start justify-between gap-4">
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center gap-2 mb-1">
+              {status === 'playing' && (
+                <span className="flex items-center gap-1.5 rounded-full bg-red-500/80 backdrop-blur-md px-2.5 py-0.5 text-[10px] font-bold text-white shadow-lg">
+                  <span className="h-1.5 w-1.5 rounded-full bg-white animate-pulse" />
+                  LIVE
+                </span>
+              )}
             </div>
-            <p className="text-sm text-red-300">{errorMsg}</p>
+            <div className="truncate text-base md:text-lg font-bold text-white drop-shadow-md">{displayTitle || 'Select a channel'}</div>
+            {displaySubtitle && <div className="truncate text-xs md:text-sm font-medium text-slate-300 drop-shadow-md">{displaySubtitle}</div>}
+          </div>
+          <div className="flex shrink-0 items-center gap-2">
             <button
-              onClick={() => {
-                setSourceIndex(0);
-                setStatus('loading');
-                setErrorMsg('');
-              }}
-              className="rounded-full bg-white/10 px-4 py-2 text-xs text-white hover:bg-white/20 transition-colors"
+              onClick={(e) => { e.stopPropagation(); void copyValue('share'); }}
+              className="flex items-center gap-2 rounded-full bg-white/10 backdrop-blur-md px-3 py-1.5 text-xs font-medium text-white hover:bg-white/20 transition-colors"
             >
-              Retry
+              <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" /></svg>
+              {copiedLabel === 'share' ? 'Copied!' : 'Share'}
             </button>
           </div>
-        )}
-        {sleepCountdown !== null && sleepCountdown <= 60 && (
-          <div className="absolute bottom-4 right-4 rounded-xl bg-black/70 px-3 py-2 text-xs text-amber-400 backdrop-blur-sm">
-            Sleep in {sleepCountdown}s
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="flex flex-col gap-2">
+          {/* Timeline Bar (Visual only for live streams) */}
+          <div className="group/timeline flex cursor-pointer items-center h-4 relative">
+            <div className="h-1 w-full bg-white/20 rounded-full overflow-hidden">
+              <div className="h-full bg-red-500 w-[98%]" />
+            </div>
+            <div className="absolute right-[2%] h-3 w-3 bg-red-500 rounded-full scale-0 group-hover/timeline:scale-100 transition-transform" />
           </div>
-        )}
+
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-1 sm:gap-2">
+              <IconButton onClick={(e) => { e.stopPropagation(); togglePlay(); }} title={status === 'playing' ? 'Pause (Space)' : 'Play (Space)'}>
+                {status === 'playing' ? (
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>
+                ) : (
+                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                )}
+              </IconButton>
+              
+              <IconButton onClick={(e) => { e.stopPropagation(); onPreviousChannel?.(); }} title="Previous channel (←)">
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7"/></svg>
+              </IconButton>
+              <IconButton onClick={(e) => { e.stopPropagation(); onNextChannel?.(); }} title="Next channel (→)">
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7"/></svg>
+              </IconButton>
+
+              <div className="flex items-center gap-2 ml-2 group/volume">
+                <IconButton onClick={(e) => { e.stopPropagation(); toggleMute(); }} title={muted ? 'Unmute (M)' : 'Mute (M)'}>
+                  {muted || volume === 0 ? (
+                    <svg className="h-5 w-5 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/><path strokeLinecap="round" strokeLinejoin="round" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2"/></svg>
+                  ) : volume < 0.5 ? (
+                    <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/><path strokeLinecap="round" strokeLinejoin="round" d="M15.536 8.464a5 5 0 010 7.072"/></svg>
+                  ) : (
+                    <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15.536 8.464a5 5 0 010 7.072M12 6v12m-3.536-9.536A5 5 0 008 12m0 0a5 5 0 00.464 2.536M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+                  )}
+                </IconButton>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.05"
+                  value={muted ? 0 : volume}
+                  onClick={(e) => e.stopPropagation()}
+                  onChange={(e) => {
+                    const v = Number(e.target.value);
+                    if (videoRef.current) {
+                      videoRef.current.volume = v;
+                      videoRef.current.muted = v === 0;
+                    }
+                  }}
+                  className="w-0 sm:w-20 opacity-0 sm:opacity-100 group-hover/volume:w-20 group-hover/volume:opacity-100 transition-all duration-300 accent-white cursor-pointer"
+                />
+              </div>
+              <div className="hidden sm:block text-xs font-medium text-white/90 ml-2">LIVE</div>
+            </div>
+
+            <div className="flex items-center gap-1 sm:gap-2">
+              <select
+                value={sleepTimer ?? ''}
+                onClick={(e) => e.stopPropagation()}
+                onChange={(e) => setSleepTimer(e.target.value ? Number(e.target.value) : null)}
+                className="hidden sm:block rounded-lg bg-black/40 backdrop-blur-md border border-white/20 px-2 py-1 text-xs font-medium text-white cursor-pointer outline-none hover:bg-white/20 transition-colors"
+                title="Sleep timer"
+              >
+                <option value="">Off</option>
+                <option value="15">15m</option>
+                <option value="30">30m</option>
+                <option value="60">1h</option>
+              </select>
+
+              <IconButton onClick={(e) => { e.stopPropagation(); void togglePiP(); }} title="Picture-in-Picture (P)" active={isPiP}>
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><rect x="2" y="4" width="20" height="16" rx="2"/><rect x="12" y="12" width="9" height="7" rx="1" fill="currentColor" stroke="none"/></svg>
+              </IconButton>
+              
+              <IconButton onClick={(e) => { e.stopPropagation(); setTheaterMode((v) => !v); }} title="Theater mode (T)" active={theaterMode}>
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><rect x="2" y="7" width="20" height="14" rx="2"/><path strokeLinecap="round" d="M7 3h10"/></svg>
+              </IconButton>
+
+              <IconButton onClick={(e) => { e.stopPropagation(); void toggleFullscreen(); }} title="Fullscreen (F)" active={isFullscreen}>
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  {isFullscreen ? (
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 9L4 4m0 0l5 0m-5 0l0 5m6 6l5 5m0 0l-5 0m5 0l0-5"/>
+                  ) : (
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 3h6m0 0v6m0-6l-7 7M9 21H3m0 0v-6m0 6l7-7"/>
+                  )}
+                </svg>
+              </IconButton>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className="flex flex-wrap items-center justify-between gap-3 border-t border-white/[0.07] bg-slate-950/80 px-4 py-3">
-        <div className="flex items-center gap-2">
-          <IconButton onClick={onPreviousChannel} title="Previous channel (←)">
-            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7"/></svg>
-          </IconButton>
-          <IconButton onClick={onNextChannel} title="Next channel (→)">
-            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7"/></svg>
-          </IconButton>
-
-          <label className="flex items-center gap-2">
-            <svg className="h-3.5 w-3.5 text-slate-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M15.536 8.464a5 5 0 010 7.072M12 6v12M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
-            <input
-              type="range"
-              min="0"
-              max="1"
-              step="0.05"
-              value={muted ? 0 : volume}
-              onChange={(e) => {
-                const v = Number(e.target.value);
-                if (videoRef.current) {
-                  videoRef.current.volume = v;
-                  videoRef.current.muted = v === 0;
-                }
-              }}
-              className="w-20 accent-cyan-400 cursor-pointer"
-            />
-          </label>
-
-          <select
-            value={sleepTimer ?? ''}
-            onChange={(e) => setSleepTimer(e.target.value ? Number(e.target.value) : null)}
-            className="rounded-lg bg-white/[0.05] border border-white/[0.07] px-2 py-1 text-xs text-slate-400 cursor-pointer"
-            title="Sleep timer"
-          >
-            <option value="">No timer</option>
-            <option value="15">15 min</option>
-            <option value="30">30 min</option>
-            <option value="60">1 hour</option>
-            <option value="120">2 hours</option>
-          </select>
+      {sleepCountdown !== null && sleepCountdown <= 60 && (
+        <div className="absolute top-4 right-4 z-20 rounded-xl bg-black/70 px-3 py-2 text-xs font-bold text-amber-400 backdrop-blur-sm border border-amber-400/20">
+          Sleep in {sleepCountdown}s
         </div>
-
-        <div className="flex items-center gap-2">
-          <button
-            onClick={() => void copyValue('share')}
-            className="rounded-lg bg-white/[0.05] border border-white/[0.07] px-3 py-1.5 text-xs text-slate-400 hover:text-white hover:bg-white/10 transition-colors"
-          >
-            {copiedLabel === 'share' ? 'Copied!' : 'Share'}
-          </button>
-          <button
-            onClick={() => void copyValue('stream')}
-            className="rounded-lg bg-white/[0.05] border border-white/[0.07] px-3 py-1.5 text-xs text-slate-400 hover:text-white hover:bg-white/10 transition-colors"
-          >
-            {copiedLabel === 'stream' ? 'Copied!' : 'Copy URL'}
-          </button>
-        </div>
-      </div>
+      )}
     </div>
   );
 }
@@ -513,7 +528,7 @@ function IconButton({
   active,
 }: {
   children: React.ReactNode;
-  onClick?: () => void;
+  onClick?: (e: React.MouseEvent) => void;
   title?: string;
   active?: boolean;
 }) {
@@ -521,8 +536,8 @@ function IconButton({
     <button
       onClick={onClick}
       title={title}
-      className={`rounded-lg p-1.5 transition-colors ${
-        active ? 'bg-cyan-400/20 text-cyan-400' : 'text-slate-400 hover:text-white hover:bg-white/10'
+      className={`rounded-full p-2 transition-all duration-200 ${
+        active ? 'bg-cyan-500/20 text-cyan-400' : 'text-white hover:bg-white/20'
       }`}
     >
       {children}

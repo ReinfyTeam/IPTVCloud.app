@@ -1,13 +1,12 @@
 'use client';
 
 import React, { useEffect, useMemo, useRef, useState, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import type { Channel } from '@/types';
 import { useFavoritesStore } from '@/store/favorites-store';
 import { usePlayerStore } from '@/store/player-store';
 import { useHistoryStore } from '@/store/history-store';
-import Player from './Player';
 import ChannelCard from './ChannelCard';
-import EpgStrip from './EpgStrip';
 import Sidebar from './Sidebar';
 
 function useDebounce<T>(value: T, delay: number): T {
@@ -37,7 +36,8 @@ function buildFacets(channels: Channel[], pick: (c: Channel) => string | undefin
 }
 
 export default function ChannelBrowser({ channels }: { channels: Channel[] }) {
-  const { selectedChannelId, setSelectedChannelId, viewMode, setViewMode } = usePlayerStore();
+  const router = useRouter();
+  const { viewMode, setViewMode } = usePlayerStore();
   const { ids: favoriteIds, toggleFavorite, isFavorite } = useFavoritesStore();
   const { addEntry: addHistory } = useHistoryStore();
 
@@ -47,32 +47,10 @@ export default function ChannelBrowser({ channels }: { channels: Channel[] }) {
   const [language, setLanguage] = useState('');
   const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [page, setPage] = useState(1);
-  const [shareUrl, setShareUrl] = useState('');
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
   const debouncedSearch = useDebounce(search, 280);
   const ITEMS_PER_PAGE = 48;
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') setShareUrl(window.location.href);
-  }, [selectedChannelId]);
-
-  useEffect(() => {
-    if (!channels.length) return;
-    const urlId = typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('channel') : null;
-    if (urlId && channels.some((c) => c.id === urlId)) {
-      setSelectedChannelId(urlId);
-    } else if (!selectedChannelId) {
-      setSelectedChannelId(channels[0].id);
-    }
-  }, [channels]);
-
-  useEffect(() => {
-    if (!selectedChannelId || typeof window === 'undefined') return;
-    const url = new URL(window.location.href);
-    url.searchParams.set('channel', selectedChannelId);
-    window.history.replaceState({}, '', url.toString());
-  }, [selectedChannelId]);
 
   useEffect(() => { setPage(1); }, [debouncedSearch, country, category, language, favoritesOnly]);
 
@@ -99,34 +77,12 @@ export default function ChannelBrowser({ channels }: { channels: Channel[] }) {
     [filteredChannels, page],
   );
 
-  const categoryFacets = useMemo(() => buildFacets(channels, (c) => c.category), [channels]);
-  const countryFacets = useMemo(() => buildFacets(channels, (c) => c.country), [channels]);
   const favoriteChannels = useMemo(() => channels.filter((c) => favoriteIds.includes(c.id)), [channels, favoriteIds]);
 
-  const selectedChannel = useMemo(
-    () => channels.find((c) => c.id === selectedChannelId) || null,
-    [channels, selectedChannelId],
-  );
-
-  const currentIndex = filteredChannels.findIndex((c) => c.id === selectedChannelId);
-
   const selectChannel = useCallback((ch: Channel) => {
-    setSelectedChannelId(ch.id);
     addHistory(ch);
-    document.getElementById('watch')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, [setSelectedChannelId, addHistory]);
-
-  const selectNext = useCallback(() => {
-    if (!filteredChannels.length) return;
-    const next = filteredChannels[(currentIndex + 1) % filteredChannels.length];
-    selectChannel(next);
-  }, [filteredChannels, currentIndex, selectChannel]);
-
-  const selectPrev = useCallback(() => {
-    if (!filteredChannels.length) return;
-    const prev = filteredChannels[(currentIndex - 1 + filteredChannels.length) % filteredChannels.length];
-    selectChannel(prev);
-  }, [filteredChannels, currentIndex, selectChannel]);
+    router.push(`/channel/${encodeURIComponent(ch.id)}`);
+  }, [addHistory, router]);
 
   const clearFilters = () => { setSearch(''); setCountry(''); setCategory(''); setLanguage(''); setFavoritesOnly(false); };
   const hasFilters = Boolean(search || country || category || language || favoritesOnly);
@@ -150,127 +106,11 @@ export default function ChannelBrowser({ channels }: { channels: Channel[] }) {
       />
       
       <div className="flex-1 lg:pl-64 transition-all duration-300 pb-20">
-        <section id="hero" className="py-12 px-4 sm:px-6">
-          <div className="mx-auto max-w-[1460px]">
-            <div className="flex flex-col xl:flex-row gap-6">
-              <div className="flex-1 animate-fade-in">
-                <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/[0.07] px-3 py-1.5 text-xs font-medium text-cyan-300 mb-5 shadow-lg shadow-cyan-500/10 backdrop-blur-md">
-                  <span className="h-1.5 w-1.5 rounded-full bg-cyan-400 animate-pulse" />
-                  Premium IPTV Dashboard
-                </div>
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-white leading-[1.1]">
-                  Watch live TV,<br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-400">anywhere.</span>
-                </h1>
-                <p className="mt-5 text-lg text-slate-400 max-w-xl">
-                  {channels.length.toLocaleString()} live channels across {filterOptions.countries.length} countries.
-                  Browse by category, save favorites, and switch channels instantly.
-                </p>
-                <div className="mt-8 flex flex-wrap gap-3">
-                  <button
-                    onClick={() => document.getElementById('watch')?.scrollIntoView({ behavior: 'smooth' })}
-                    className="rounded-full bg-gradient-to-r from-cyan-500 to-sky-500 px-6 py-3 text-sm font-semibold text-slate-950 hover:scale-105 transition-transform shadow-lg shadow-cyan-500/25"
-                  >
-                    Start watching
-                  </button>
-                  <button
-                    onClick={() => document.getElementById('channels')?.scrollIntoView({ behavior: 'smooth' })}
-                    className="rounded-full border border-white/10 bg-white/[0.04] backdrop-blur-md px-6 py-3 text-sm text-slate-300 hover:bg-white/[0.08] hover:text-white transition-all"
-                  >
-                    Browse channels
-                  </button>
-                  <button
-                    onClick={() => setIsMobileOpen(true)}
-                    className="lg:hidden rounded-full border border-white/10 bg-white/[0.04] backdrop-blur-md px-6 py-3 text-sm text-slate-300 hover:bg-white/[0.08] hover:text-white transition-all flex items-center gap-2"
-                  >
-                    <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" /></svg>
-                    Filters
-                  </button>
-                </div>
-              </div>
-
-              {selectedChannel && (
-                <div className="xl:w-80 animate-fade-in">
-                  <div className="rounded-2xl border border-white/[0.07] bg-slate-900/50 backdrop-blur-xl p-4 shadow-xl shadow-black/20">
-                    <div className="flex items-center gap-2 text-xs text-slate-500 font-medium uppercase tracking-wider mb-4">
-                      <span className="h-1.5 w-1.5 rounded-full bg-red-400 animate-pulse" />
-                      Now Playing
-                    </div>
-                    <div className="flex items-center gap-3 mb-4">
-                      {selectedChannel.logo ? (
-                        <img src={selectedChannel.logo} alt={selectedChannel.name} className="h-12 w-12 rounded-xl object-contain bg-slate-800/80 p-1" />
-                      ) : (
-                        <div className="h-12 w-12 rounded-xl bg-slate-800 flex items-center justify-center text-xs font-bold text-slate-500">
-                          {selectedChannel.name.slice(0, 2).toUpperCase()}
-                        </div>
-                      )}
-                      <div className="min-w-0">
-                        <div className="font-semibold text-white truncate">{selectedChannel.name}</div>
-                        <div className="text-xs text-slate-500 truncate">
-                          {[selectedChannel.country, selectedChannel.category].filter(Boolean).join(' · ')}
-                        </div>
-                      </div>
-                    </div>
-                    <EpgStrip channelId={selectedChannel.epgId} compact />
-                    <div className="mt-4 flex gap-2">
-                      <button onClick={selectPrev} className="flex-1 rounded-xl bg-white/[0.04] border border-white/[0.07] py-2 text-xs text-slate-400 hover:text-white hover:bg-white/[0.08] transition-colors">← Prev</button>
-                      <button onClick={selectNext} className="flex-1 rounded-xl bg-white/[0.04] border border-white/[0.07] py-2 text-xs text-slate-400 hover:text-white hover:bg-white/[0.08] transition-colors">Next →</button>
-                    </div>
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
-        </section>
-
-        <section id="watch" className="px-4 sm:px-6 py-6 animate-fade-in">
-          <div className="mx-auto max-w-[1460px]">
-            <Player
-              channel={selectedChannel}
-              url={selectedChannel?.streamUrl}
-              poster={selectedChannel?.logo}
-              title={selectedChannel?.name}
-              subtitle={selectedChannel ? [selectedChannel.country, selectedChannel.category].filter(Boolean).join(' · ') : undefined}
-              streamUrl={selectedChannel?.streamUrl}
-              shareUrl={shareUrl}
-              onNextChannel={selectNext}
-              onPreviousChannel={selectPrev}
-              autoPlay
-            />
-          </div>
-        </section>
-
-        {favoriteChannels.length > 0 && (
-          <section className="px-4 sm:px-6 py-6">
-            <div className="mx-auto max-w-[1460px]">
-              <div className="mb-4 flex items-center justify-between">
-                <div>
-                  <div className="text-xs font-semibold uppercase tracking-widest text-amber-400 mb-1">Your Favorites</div>
-                  <h2 className="text-xl font-semibold text-white">{favoriteChannels.length} saved channel{favoriteChannels.length !== 1 ? 's' : ''}</h2>
-                </div>
-              </div>
-              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-                {favoriteChannels.slice(0, 10).map((ch) => (
-                  <ChannelCard
-                    key={ch.id}
-                    channel={ch}
-                    active={ch.id === selectedChannelId}
-                    favorite={isFavorite(ch.id)}
-                    mode={viewMode}
-                    onSelect={selectChannel}
-                    onToggleFavorite={toggleFavorite}
-                  />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-
         <section id="channels" className="px-4 sm:px-6 py-6">
           <div className="mx-auto max-w-[1460px]">
             <div className="mb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div>
-                <div className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-1">Channel Library</div>
+                <div className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-1">Search & Filter</div>
                 <h2 className="text-xl font-semibold text-white flex items-center gap-3">
                   {hasFilters ? `${filteredChannels.length.toLocaleString()} results` : `All ${channels.length.toLocaleString()} channels`}
                   {hasFilters && (
@@ -317,7 +157,6 @@ export default function ChannelBrowser({ channels }: { channels: Channel[] }) {
                     <ChannelCard
                       key={ch.id}
                       channel={ch}
-                      active={ch.id === selectedChannelId}
                       favorite={isFavorite(ch.id)}
                       mode={viewMode}
                       onSelect={selectChannel}
