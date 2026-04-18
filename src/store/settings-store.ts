@@ -16,10 +16,10 @@ export const useSettingsStore = create<SettingsStore>()(
   persist(
     (set) => ({
       settings: DEFAULT_SETTINGS,
-      updateSetting: (key, value) =>
-        set((state) => ({ settings: { ...state.settings, [key]: value } })),
+      updateSetting: (_key, _value) =>
+        set((state) => ({ settings: { ...state.settings, [_key]: _value } })),
       resetSettings: () => set({ settings: DEFAULT_SETTINGS }),
-      hydrate: (incoming) => set((state) => ({ settings: { ...state.settings, ...incoming } })),
+      hydrate: (_settings) => set((state) => ({ settings: { ...state.settings, ..._settings } })),
     }),
     {
       name: 'iptvcloud:settings',

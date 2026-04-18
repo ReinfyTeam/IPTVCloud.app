@@ -38,19 +38,19 @@ export const useShortcutStore = create<ShortcutStore>()(
   persist(
     (set, get) => ({
       shortcuts: DEFAULT_SHORTCUTS,
-      setShortcut: (action, key) =>
+      setShortcut: (_action, _key) =>
         set((state) => ({
-          shortcuts: state.shortcuts.map((s) => (s.action === action ? { ...s, key } : s)),
+          shortcuts: state.shortcuts.map((s) => (s.action === _action ? { ...s, key: _key } : s)),
         })),
       getShortcutKey: (action) => {
         const s = get().shortcuts.find((s) => s.action === action);
         return s ? s.key : DEFAULT_SHORTCUTS.find((ds) => ds.action === action)?.key || '';
       },
-      loadShortcuts: (incoming) =>
+      loadShortcuts: (_shortcuts) =>
         set({
           shortcuts: [
             ...DEFAULT_SHORTCUTS.map((ds) => {
-              const found = incoming.find((i) => i.action === ds.action);
+              const found = _shortcuts.find((i) => i.action === ds.action);
               return found ? found : ds;
             }),
           ],

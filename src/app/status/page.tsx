@@ -21,7 +21,9 @@ export default async function StatusPage() {
     console.error('Failed to fetch incidents during render:', e);
   }
 
-  const activeIncidents = Array.isArray(incidents) ? incidents.filter((i) => i.status !== 'RESOLVED') : [];
+  const activeIncidents = Array.isArray(incidents)
+    ? incidents.filter((i) => i.status !== 'RESOLVED')
+    : [];
   const hasActiveIssues = activeIncidents.length > 0;
 
   return (
