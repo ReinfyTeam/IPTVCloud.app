@@ -12,7 +12,15 @@ type AdminUser = {
   createdAt: Date;
 };
 
-type Tab = 'users' | 'channels' | 'system';
+type Incident = {
+  id: string;
+  title: string;
+  description: string;
+  status: string;
+  createdAt: Date;
+};
+
+type Tab = 'users' | 'channels' | 'system' | 'incidents';
 
 function StatCard({ label, value, accent }: { label: string; value: string | number; accent?: string }) {
   return (
@@ -27,6 +35,7 @@ export default function AdminDashboard() {
   const { user, token, isAdmin } = useAuthStore();
   const [tab, setTab] = useState<Tab>('users');
   const [users, setUsers] = useState<AdminUser[]>([]);
+  const [incidents, setIncidents] = useState<Incident[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [suspendTarget, setSuspendTarget] = useState<AdminUser | null>(null);
@@ -35,7 +44,12 @@ export default function AdminDashboard() {
   const [channelCount, setChannelCount] = useState<number | null>(null);
   const [refreshing, setRefreshing] = useState(false);
   const [probing, setProbing] = useState(false);
-  const [probeSummary, setProbeSummary] = useState<Record<string, number> | null>(null);
+
+  // Incident form state
+  const [showIncidentForm, setShowIncidentForm] = useState(false);
+  const [incidentTitle, setIncidentTitle] = useState('');
+  const [incidentDesc, setIncidentDesc] = useState('');
+  const [incidentStatus, setIncidentStatus] = useState('INVESTIGATING');
 
   const authHeaders = useCallback((): HeadersInit => ({
     'Content-Type': 'application/json',
@@ -48,9 +62,16 @@ export default function AdminDashboard() {
       const res = await fetch('/api/admin/users', { headers: authHeaders() });
       const data = await res.json();
       if (Array.isArray(data)) setUsers(data);
-      else setError('Failed to load users.');
-    } catch { setError('Network error.'); }
+    } catch {}
     finally { setLoading(false); }
+  }, [authHeaders]);
+
+  const fetchIncidents = useCallback(async () => {
+    try {
+      const res = await fetch('/api/admin/incidents', { headers: authHeaders() });
+      const data = await res.json();
+      if (Array.isArray(data)) setIncidents(data);
+    } catch {}
   }, [authHeaders]);
 
   const fetchChannelCount = useCallback(async () => {
@@ -61,7 +82,11 @@ export default function AdminDashboard() {
     } catch {}
   }, []);
 
-  useEffect(() => { if (user && isAdmin()) { fetchUsers(); fetchChannelCount(); } }, [fetchUsers, fetchChannelCount, user, isAdmin]);
+  useEffect(() => { 
+    if (user && isAdmin()) { 
+      fetchUsers(); fetchChannelCount(); fetchIncidents(); 
+    } 
+  }, [fetchUsers, fetchChannelCount, fetchIncidents, user, isAdmin]);
 
   useEffect(() => {
     if (!actionMsg) return;
@@ -82,6 +107,60 @@ export default function AdminDashboard() {
         setSuspendTarget(null); setSuspendReason(''); await fetchUsers(); 
       }
       else setActionMsg(data.error || 'Action failed.');
+    } catch { setActionMsg('Network error.'); }
+  };
+
+  const handleCreateIncident = async () => {
+    if (!incidentTitle || !incidentDesc) return;
+    try {
+      const res = await fetch('/api/admin/incidents', {
+        method: 'POST',
+        headers: authHeaders(),
+        body: JSON.stringify({ action: 'CREATE', title: incidentTitle, description: incidentDesc, status: incidentStatus }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setActionMsg('Incident created.');
+        setShowIncidentForm(false);
+        setIncidentTitle('');
+        setIncidentDesc('');
+        setIncidentStatus('INVESTIGATING');
+        await fetchIncidents();
+      } else {
+        setActionMsg(data.error || 'Failed to create incident.');
+      }
+    } catch { setActionMsg('Network error.'); }
+  };
+
+  const handleUpdateIncident = async (id: string, status: string) => {
+    try {
+      const res = await fetch('/api/admin/incidents', {
+        method: 'POST',
+        headers: authHeaders(),
+        body: JSON.stringify({ action: 'UPDATE', id, status }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setActionMsg('Incident updated.');
+        await fetchIncidents();
+      } else {
+        setActionMsg(data.error || 'Failed to update incident.');
+      }
+    } catch { setActionMsg('Network error.'); }
+  };
+
+  const handleDeleteIncident = async (id: string) => {
+    try {
+      const res = await fetch('/api/admin/incidents', {
+        method: 'POST',
+        headers: authHeaders(),
+        body: JSON.stringify({ action: 'DELETE', id }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setActionMsg('Incident deleted.');
+        await fetchIncidents();
+      }
     } catch { setActionMsg('Network error.'); }
   };
 
@@ -141,8 +220,8 @@ export default function AdminDashboard() {
         </div>
 
         <div className="flex gap-1 rounded-xl border border-white/[0.07] bg-white/[0.03] p-1 mb-6 w-fit">
-          {(['users', 'channels', 'system'] as Tab[]).map((t) => (
-            <button key={t} onClick={() => setTab(t)} className={`rounded-lg px-4 py-2 text-sm font-medium capitalize transition-colors ${tab === t ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'}`}>{t}</button>
+          {(['users', 'channels', 'system', 'incidents'] as Tab[]).map((t) => (
+            <button key={t} onClick={() => setTab(t)} className={`rounded-lg px-4 py-2 text-sm font-medium capitalize transition-colors ${tab === t ? 'bg-cyan-500 text-slate-950' : 'text-slate-400 hover:text-white'}`}>{t.replace('_', ' ')}</button>
           ))}
         </div>
 
@@ -166,13 +245,79 @@ export default function AdminDashboard() {
                       <td className="px-5 py-4">{u.suspendedAt ? <span className="text-red-400">Suspended</span> : <span className="text-emerald-400">Active</span>}</td>
                       <td className="px-5 py-4 text-right">
                         {u.role !== 'ADMIN' && (
-                          <button onClick={() => u.suspendedAt ? handleAction(u, 'UNSUSPEND') : setSuspendTarget(u)} className="text-cyan-400">{u.suspendedAt ? 'Unsuspend' : 'Suspend'}</button>
+                          <button onClick={() => u.suspendedAt ? handleAction(u, 'UNSUSPEND') : setSuspendTarget(u)} className="text-cyan-400 hover:underline">{u.suspendedAt ? 'Unsuspend' : 'Suspend'}</button>
                         )}
                       </td>
                     </tr>
                   ))}
                 </tbody>
               </table>
+            </div>
+          </div>
+        )}
+
+        {tab === 'channels' && (
+          <div className="rounded-2xl border border-white/[0.07] bg-white/[0.03] p-6 space-y-6">
+            <div>
+              <h2 className="text-xl font-semibold text-white mb-2">Channel Management</h2>
+              <p className="text-slate-400 text-sm mb-4">Manage the M3U channel cache and probe streams for availability.</p>
+              <div className="flex gap-3">
+                <button disabled={refreshing} onClick={() => void handleRefreshChannels()} className="rounded-xl bg-cyan-500 px-5 py-2.5 text-sm font-semibold text-slate-950 hover:bg-cyan-400 disabled:opacity-50 transition-colors">
+                  {refreshing ? 'Refreshing...' : 'Refresh M3U Cache'}
+                </button>
+                <button disabled={probing} onClick={() => void handleProbe()} className="rounded-xl border border-white/10 bg-white/5 px-5 py-2.5 text-sm font-medium text-white hover:bg-white/10 disabled:opacity-50 transition-colors">
+                  {probing ? 'Probing...' : 'Probe Offline Channels'}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {tab === 'incidents' && (
+          <div className="space-y-6">
+            <div className="flex items-center justify-between">
+              <h2 className="text-xl font-semibold text-white">Incident Management</h2>
+              <button onClick={() => setShowIncidentForm(true)} className="rounded-xl bg-cyan-500 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-cyan-400 transition-colors">
+                Report Incident
+              </button>
+            </div>
+
+            {showIncidentForm && (
+              <div className="rounded-2xl border border-white/[0.07] bg-white/[0.03] p-6 space-y-4">
+                <input type="text" placeholder="Incident Title" value={incidentTitle} onChange={(e) => setIncidentTitle(e.target.value)} className="w-full rounded-xl border border-white/10 bg-slate-900 px-4 py-2 text-white outline-none focus:border-cyan-500" />
+                <textarea placeholder="Description" value={incidentDesc} onChange={(e) => setIncidentDesc(e.target.value)} className="w-full rounded-xl border border-white/10 bg-slate-900 px-4 py-2 text-white outline-none focus:border-cyan-500 h-24" />
+                <select value={incidentStatus} onChange={(e) => setIncidentStatus(e.target.value)} className="w-full rounded-xl border border-white/10 bg-slate-900 px-4 py-2 text-white outline-none focus:border-cyan-500">
+                  <option value="INVESTIGATING">Investigating</option>
+                  <option value="IDENTIFIED">Identified</option>
+                  <option value="MONITORING">Monitoring</option>
+                  <option value="RESOLVED">Resolved</option>
+                </select>
+                <div className="flex gap-2">
+                  <button onClick={() => void handleCreateIncident()} className="rounded-xl bg-emerald-500 px-4 py-2 text-sm font-semibold text-slate-950">Publish</button>
+                  <button onClick={() => setShowIncidentForm(false)} className="rounded-xl bg-slate-700 px-4 py-2 text-sm font-medium text-white">Cancel</button>
+                </div>
+              </div>
+            )}
+
+            <div className="space-y-4">
+              {incidents.map((inc) => (
+                <div key={inc.id} className="rounded-2xl border border-white/[0.07] bg-white/[0.03] p-5">
+                  <div className="flex items-center justify-between mb-2">
+                    <h3 className="font-bold text-white text-lg">{inc.title}</h3>
+                    <div className="flex gap-2">
+                      <select value={inc.status} onChange={(e) => void handleUpdateIncident(inc.id, e.target.value)} className="rounded-lg bg-slate-800 text-xs text-white px-2 py-1 outline-none cursor-pointer">
+                        <option value="INVESTIGATING">Investigating</option>
+                        <option value="IDENTIFIED">Identified</option>
+                        <option value="MONITORING">Monitoring</option>
+                        <option value="RESOLVED">Resolved</option>
+                      </select>
+                      <button onClick={() => void handleDeleteIncident(inc.id)} className="text-xs text-red-400 hover:underline">Delete</button>
+                    </div>
+                  </div>
+                  <p className="text-slate-400 text-sm">{inc.description}</p>
+                </div>
+              ))}
+              {incidents.length === 0 && <p className="text-slate-500 text-center py-8">No incidents found.</p>}
             </div>
           </div>
         )}

@@ -1,15 +1,25 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { useSettingsStore } from '@/store/settings-store';
 import { useAuthStore } from '@/store/auth-store';
 import { ACCENT_COLORS } from '@/types';
 
 export default function SettingsPage() {
+  const router = useRouter();
   const { settings, updateSetting, resetSettings } = useSettingsStore();
-  const { user, token } = useAuthStore();
+  const { user, token, isLoggedIn } = useAuthStore();
   const [saving, setSaving] = useState(false);
   const [msg, setMsg] = useState('');
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+    if (!isLoggedIn()) {
+      router.push('/account/signin');
+    }
+  }, [isLoggedIn, router]);
 
   async function saveToServer() {
     if (!user || !token) return;
@@ -28,6 +38,8 @@ export default function SettingsPage() {
       setTimeout(() => setMsg(''), 3000);
     }
   }
+
+  if (!mounted || !isLoggedIn()) return null;
 
   return (
     <div className="min-h-screen px-4 sm:px-6 py-24 max-w-2xl mx-auto">
@@ -144,7 +156,7 @@ export default function SettingsPage() {
             Reset
           </button>
         </div>
-// ... existing code ...
+
         {user && (
           <div className="flex flex-col gap-3">
              <button

@@ -29,9 +29,10 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { href: '/', label: 'Watch' },
-    { href: '/settings', label: 'Settings' },
-    ...(isAdmin() ? [{ href: '/admin', label: 'Admin' }] : []),
+    { href: '/home', label: 'Home' },
+    { href: '/search', label: 'Search' },
+    { href: '/account/settings', label: 'Settings' },
+    ...(isAdmin() ? [{ href: '/account/admin', label: 'Admin' }] : []),
   ];
 
   return (
@@ -48,13 +49,9 @@ export default function Navbar() {
       >
       <div className="mx-auto max-w-[1460px] px-4 sm:px-6">
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-400 to-cyan-600 text-xs font-bold text-slate-950 shadow-lg shadow-cyan-500/25 group-hover:shadow-cyan-500/40 transition-shadow">
-              IC
-            </div>
-            <div className="hidden sm:block">
-              <div className="text-sm font-semibold text-white">IPTVCloud.app</div>
-              <div className="text-xs text-slate-500">Live TV, smarter</div>
+          <Link href="/home" className="flex items-center gap-3 group">
+            <div className="text-xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-400">
+              IPTVCloud<span className="text-cyan-500">.</span>app
             </div>
           </Link>
 
@@ -64,7 +61,7 @@ export default function Navbar() {
                 key={href}
                 href={href}
                 className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
-                  pathname === href
+                  pathname?.startsWith(href)
                     ? 'bg-white/10 text-white'
                     : 'text-slate-400 hover:text-white hover:bg-white/5'
                 }`}
@@ -98,13 +95,13 @@ export default function Navbar() {
             ) : (
               <div className="hidden md:flex items-center gap-2">
                 <Link
-                  href="/login"
+                  href="/account/signin"
                   className="rounded-full px-4 py-2 text-sm text-slate-300 hover:text-white transition-colors"
                 >
                   Sign in
                 </Link>
                 <Link
-                  href="/register"
+                  href="/account/signup"
                   className="rounded-full bg-cyan-500 px-4 py-2 text-sm font-medium text-slate-950 hover:bg-cyan-400 transition-colors shadow-lg shadow-cyan-500/20"
                 >
                   Get started
@@ -136,7 +133,7 @@ export default function Navbar() {
                 href={href}
                 onClick={() => setMenuOpen(false)}
                 className={`block rounded-xl px-4 py-3 text-sm font-medium transition-colors ${
-                  pathname === href ? 'bg-white/10 text-white' : 'text-slate-400 hover:text-white hover:bg-white/5'
+                  pathname?.startsWith(href) ? 'bg-white/10 text-white' : 'text-slate-400 hover:text-white hover:bg-white/5'
                 }`}
               >
                 {label}
@@ -154,8 +151,8 @@ export default function Navbar() {
                 </>
               ) : (
                 <>
-                  <Link href="/login" onClick={() => setMenuOpen(false)} className="block rounded-xl px-4 py-3 text-sm text-slate-300 hover:text-white hover:bg-white/5">Sign in</Link>
-                  <Link href="/register" onClick={() => setMenuOpen(false)} className="block rounded-xl px-4 py-3 text-sm font-medium text-cyan-400 hover:text-cyan-300">Get started</Link>
+                  <Link href="/account/signin" onClick={() => setMenuOpen(false)} className="block rounded-xl px-4 py-3 text-sm text-slate-300 hover:text-white hover:bg-white/5">Sign in</Link>
+                  <Link href="/account/signup" onClick={() => setMenuOpen(false)} className="block rounded-xl px-4 py-3 text-sm font-medium text-cyan-400 hover:text-cyan-300">Get started</Link>
                 </>
               ))}
             </div>
