@@ -8,7 +8,7 @@ export async function POST(request: Request) {
 
   try {
     const { currentPassword, newPassword } = await request.json();
-    
+
     if (!currentPassword || !newPassword) {
       return NextResponse.json({ error: 'Missing password fields' }, { status: 400 });
     }

@@ -12,8 +12,10 @@
     "db:prod": "node scripts/toggle-db.js prod && prisma generate",
     "build": "npm run db:prod && next build",
     "start": "next start -p 5000 -H 0.0.0.0",
-    "lint": "eslint . --ext .ts,.tsx --fix",
-    "test": "vitest"
+    "lint": "next lint --fix",
+    "format": "prettier --write .",
+    "test": "vitest",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@prisma/client": "^4.16.2",
@@ -35,7 +37,10 @@
     "autoprefixer": "^10.5.0",
     "eslint": "^8.45.0",
     "eslint-config-next": "13.4.8",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
     "postcss": "^8.5.10",
+    "prettier": "^3.8.3",
     "prisma": "^4.16.2",
     "tailwindcss": "^4.2.2",
     "typescript": "^5.2.2",

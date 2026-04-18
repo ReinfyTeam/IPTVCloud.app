@@ -28,7 +28,16 @@ export async function PUT(req: Request) {
     if (auth instanceof NextResponse) return auth;
 
     const body = await req.json();
-    const allowed = ['accentColor', 'playerLayout', 'defaultVolume', 'autoplay', 'performanceMode', 'language', 'darkMode', 'showEpg'];
+    const allowed = [
+      'accentColor',
+      'playerLayout',
+      'defaultVolume',
+      'autoplay',
+      'performanceMode',
+      'language',
+      'darkMode',
+      'showEpg',
+    ];
     const data: Record<string, unknown> = {};
     for (const key of allowed) {
       if (key in body) data[key] = body[key];

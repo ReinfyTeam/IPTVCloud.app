@@ -17,6 +17,9 @@ export async function GET(req: Request) {
     });
   } catch (e: any) {
     console.error('refresh-channels error', e);
-    return NextResponse.json({ ok: false, error: (e as any).message || String(e) }, { status: 500 });
+    return NextResponse.json(
+      { ok: false, error: (e as any).message || String(e) },
+      { status: 500 },
+    );
   }
 }

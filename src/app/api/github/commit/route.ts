@@ -9,7 +9,7 @@ export async function GET() {
     const pkgPath = path.join(process.cwd(), 'package.json');
     const pkgStr = await fs.readFile(pkgPath, 'utf8');
     const pkg = JSON.parse(pkgStr);
-    
+
     let repoUrl = pkg.repository?.url || pkg.repository;
     if (!repoUrl) {
       return NextResponse.json({ error: 'No repository found in package.json' }, { status: 404 });
@@ -22,17 +22,20 @@ export async function GET() {
 
     const githubRes = await fetch(`https://api.github.com/repos/${repoPath}/commits/main`, {
       headers: {
-        'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'IPTVCloud.app'
-      }
+        Accept: 'application/vnd.github.v3+json',
+        'User-Agent': 'IPTVCloud.app',
+      },
     });
 
     if (!githubRes.ok) {
-      return NextResponse.json({ error: 'Failed to fetch commit from GitHub' }, { status: githubRes.status });
+      return NextResponse.json(
+        { error: 'Failed to fetch commit from GitHub' },
+        { status: githubRes.status },
+      );
     }
 
     const data = await githubRes.json();
-    
+
     return NextResponse.json({
       sha: data.sha,
       url: data.html_url,

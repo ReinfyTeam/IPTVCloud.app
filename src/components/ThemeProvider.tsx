@@ -9,10 +9,10 @@ export default function ThemeProvider({ children }: { children: React.ReactNode 
 
   useEffect(() => {
     const root = document.documentElement;
-    const color = ACCENT_COLORS.find(c => c.id === settings.accentColor) || ACCENT_COLORS[0];
-    
+    const color = ACCENT_COLORS.find((c) => c.id === settings.accentColor) || ACCENT_COLORS[0];
+
     root.style.setProperty('--accent', color.hex);
-    
+
     // Hex to RGB for glow effect (opacity support)
     const r = parseInt(color.hex.slice(1, 3), 16);
     const g = parseInt(color.hex.slice(3, 5), 16);

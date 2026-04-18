@@ -34,7 +34,10 @@ export async function POST(req: Request) {
 
     const { channelId, channelName, channelLogo } = await req.json();
     if (!channelId || !channelName) {
-      return NextResponse.json({ ok: false, error: 'channelId and channelName are required.' }, { status: 400 });
+      return NextResponse.json(
+        { ok: false, error: 'channelId and channelName are required.' },
+        { status: 400 },
+      );
     }
 
     const entry = await prisma.watchHistory.create({

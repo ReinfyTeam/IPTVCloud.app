@@ -15,7 +15,7 @@ export function parseAttributes(input: string): Record<string, string> {
   return attrs;
 }
 
-export function parseM3U(content: string): { channels: Channel[], epgUrl?: string } {
+export function parseM3U(content: string): { channels: Channel[]; epgUrl?: string } {
   const lines = content.split(/\r?\n/);
   const channels: Channel[] = [];
   let epgUrl: string | undefined;
@@ -46,7 +46,10 @@ export function parseM3U(content: string): { channels: Channel[], epgUrl?: strin
         }
         j++;
       }
-      if (!url) { i = j; continue; }
+      if (!url) {
+        i = j;
+        continue;
+      }
 
       const epgId = attrs['tvg-id'] || attrs['id'] || undefined;
       const logo = attrs['tvg-logo'] || attrs['logo'] || undefined;
@@ -60,8 +63,16 @@ export function parseM3U(content: string): { channels: Channel[], epgUrl?: strin
         const m = epgId.match(/\.([a-z]{2,3})(?:@|$)/i);
         if (m) country = m[1].toLowerCase();
       }
-      const name = displayName || attrs['tvg-name'] || attrs['title'] || url;
-      const id = generateId(url + name);
+
+      const nameRaw = displayName || attrs['tvg-name'] || attrs['title'] || url;
+      // Resolution extraction logic
+      const resMatch = nameRaw.match(/\b(4K|2160p|1080p|720p|576p|480p|FHD|HD|SD)\b/i);
+      const resolution = resMatch ? resMatch[1].toUpperCase() : undefined;
+
+      // Clean name: remove resolution tags from display name
+      const name = nameRaw.replace(/\b(4K|2160p|1080p|720p|576p|480p|FHD|HD|SD)\b/gi, '').trim();
+
+      const id = generateId(url + nameRaw);
 
       channels.push({
         id,
@@ -70,10 +81,11 @@ export function parseM3U(content: string): { channels: Channel[], epgUrl?: strin
         country,
         language,
         category,
+        resolution,
         streamUrl: url,
         epgId,
         isLive: true,
-        fallbackUrls: []
+        fallbackUrls: [],
       });
 
       i = j;

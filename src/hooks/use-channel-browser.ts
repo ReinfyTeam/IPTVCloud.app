@@ -11,7 +11,11 @@ type FacetSummary = {
   sample: Channel[];
 };
 
-function buildFacetSummary(channels: Channel[], pickValue: (channel: Channel) => string | undefined, limit = 6) {
+function buildFacetSummary(
+  channels: Channel[],
+  pickValue: (channel: Channel) => string | undefined,
+  limit = 6,
+) {
   const map = new Map<string, Channel[]>();
 
   for (const channel of channels) {
@@ -78,7 +82,8 @@ export function useChannelBrowser(channels: Channel[]) {
   }, [search]);
 
   const filterOptions = useMemo(() => {
-    const sort = (items: string[]) => Array.from(new Set(items.filter(Boolean))).sort((a, b) => a.localeCompare(b));
+    const sort = (items: string[]) =>
+      Array.from(new Set(items.filter(Boolean))).sort((a, b) => a.localeCompare(b));
 
     return {
       countries: sort(channels.map((channel) => channel.country || '')),
@@ -100,7 +105,9 @@ export function useChannelBrowser(channels: Channel[]) {
       const matchesLanguage = !language || channel.language === language;
       const matchesFavorites = !favoritesOnly || favoriteIds.includes(channel.id);
 
-      return matchesSearch && matchesCountry && matchesCategory && matchesLanguage && matchesFavorites;
+      return (
+        matchesSearch && matchesCountry && matchesCategory && matchesLanguage && matchesFavorites
+      );
     });
   }, [category, channels, country, debouncedSearch, favoriteIds, favoritesOnly, language]);
 
@@ -127,7 +134,10 @@ export function useChannelBrowser(channels: Channel[]) {
 
   const quickPicks = useMemo(() => {
     const pool = selectedChannel
-      ? [selectedChannel, ...filteredChannels.filter((channel) => channel.id !== selectedChannel.id)]
+      ? [
+          selectedChannel,
+          ...filteredChannels.filter((channel) => channel.id !== selectedChannel.id),
+        ]
       : filteredChannels;
     return pool.slice(0, 6);
   }, [filteredChannels, selectedChannel]);
@@ -139,7 +149,10 @@ export function useChannelBrowser(channels: Channel[]) {
   function stepChannel(direction: 1 | -1) {
     if (filteredChannels.length === 0) return;
     const currentIndex = filteredChannels.findIndex((channel) => channel.id === selectedChannelId);
-    const nextIndex = currentIndex === -1 ? 0 : (currentIndex + direction + filteredChannels.length) % filteredChannels.length;
+    const nextIndex =
+      currentIndex === -1
+        ? 0
+        : (currentIndex + direction + filteredChannels.length) % filteredChannels.length;
     updateSelectedChannel(filteredChannels[nextIndex].id);
   }
 

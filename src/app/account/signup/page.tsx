@@ -17,7 +17,10 @@ export default function RegisterPage() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (password.length < 8) { setError('Password must be at least 8 characters.'); return; }
+    if (password.length < 8) {
+      setError('Password must be at least 8 characters.');
+      return;
+    }
     setLoading(true);
     setError('');
 
@@ -47,8 +50,8 @@ export default function RegisterPage() {
     <div className="flex min-h-screen items-center justify-center px-4 pt-16">
       <div className="w-full max-w-sm animate-fade-up">
         <div className="text-center mb-8">
-          <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-400 to-cyan-600 text-sm font-bold text-slate-950 shadow-lg shadow-cyan-500/25">
-            IC
+          <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-[24px] bg-white/[0.03] border border-white/10 text-cyan-400 shadow-2xl">
+            <span className="material-icons text-3xl">person_add</span>
           </div>
           <h1 className="text-2xl font-bold text-white">Create your account</h1>
           <p className="mt-1 text-slate-400 text-sm">Start watching live TV in seconds</p>
@@ -57,14 +60,25 @@ export default function RegisterPage() {
         <div className="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-6 shadow-2xl shadow-black/30">
           {error && (
             <div className="mb-4 flex items-center gap-2 rounded-xl border border-red-400/20 bg-red-400/[0.08] px-3 py-2.5 text-sm text-red-300">
-              <svg className="h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><circle cx="12" cy="12" r="10"/><path strokeLinecap="round" d="M12 8v4m0 4h.01"/></svg>
+              <svg
+                className="h-4 w-4 shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path strokeLinecap="round" d="M12 8v4m0 4h.01" />
+              </svg>
               {error}
             </div>
           )}
 
           <form onSubmit={(e) => void handleSubmit(e)} className="space-y-4">
             <div>
-              <label className="block text-xs font-medium text-slate-400 mb-1.5">Display name</label>
+              <label className="block text-xs font-medium text-slate-400 mb-1.5">
+                Display name
+              </label>
               <input
                 type="text"
                 value={name}
@@ -74,7 +88,9 @@ export default function RegisterPage() {
               />
             </div>
             <div>
-              <label className="block text-xs font-medium text-slate-400 mb-1.5">Email address</label>
+              <label className="block text-xs font-medium text-slate-400 mb-1.5">
+                Email address
+              </label>
               <input
                 type="email"
                 value={email}
@@ -108,7 +124,10 @@ export default function RegisterPage() {
 
         <p className="mt-5 text-center text-sm text-slate-500">
           Already have an account?{' '}
-          <Link href="/account/signin" className="text-cyan-400 hover:text-cyan-300 transition-colors font-medium">
+          <Link
+            href="/account/signin"
+            className="text-cyan-400 hover:text-cyan-300 transition-colors font-medium"
+          >
             Sign in
           </Link>
         </p>

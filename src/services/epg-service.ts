@@ -24,11 +24,17 @@ async function enrichWithWikiImage(title: string): Promise<string | null> {
   if (!title) return null;
   try {
     // Basic cleanup of title (remove "HD", "Season x", etc to improve wiki match)
-    const cleanTitle = title.replace(/\b(HD|SD|FHD|4K|S\d+E\d+|Season \d+|Episode \d+)\b/gi, '').split(':')[0].trim();
-    const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(cleanTitle)}`, {
-      headers: { 'User-Agent': 'IPTVCloud.app/1.0' },
-      next: { revalidate: 86400 } // cache aggressively for 24h
-    });
+    const cleanTitle = title
+      .replace(/\b(HD|SD|FHD|4K|S\d+E\d+|Season \d+|Episode \d+)\b/gi, '')
+      .split(':')[0]
+      .trim();
+    const res = await fetch(
+      `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(cleanTitle)}`,
+      {
+        headers: { 'User-Agent': 'IPTVCloud.app/1.0' },
+        next: { revalidate: 86400 }, // cache aggressively for 24h
+      },
+    );
     if (res.ok) {
       const data = await res.json();
       return data.thumbnail?.source || null;
@@ -44,18 +50,19 @@ async function simplifyProgram(program: any): Promise<EpgProgram | null> {
 
   const title = typeof program.title === 'string' ? program.title : program.title?._ || '';
   const desc = typeof program.desc === 'string' ? program.desc : program.desc?._ || '';
-  
+
   // Extract image from standard XMLTV <icon src="..." />
   let image = program.icon?.$?.src || program.icon?.[0]?.$?.src || null;
-  
+
   // If no image is provided by the XMLTV, attempt to fetch a fallback from Wikipedia
   if (!image && title) {
     image = await enrichWithWikiImage(title);
   }
 
-  const category = typeof program.category === 'string' 
-    ? program.category 
-    : program.category?._ || program.category?.[0]?._ || null;
+  const category =
+    typeof program.category === 'string'
+      ? program.category
+      : program.category?._ || program.category?.[0]?._ || null;
 
   return {
     start: parseXmlDate(program.start)?.toISOString() || null,
@@ -63,11 +70,14 @@ async function simplifyProgram(program: any): Promise<EpgProgram | null> {
     title,
     desc,
     image,
-    category
+    category,
   };
 }
 
-export async function fetchEpgForId(epgId: string, preferredSourceUrl?: string): Promise<EpgLookupResult> {
+export async function fetchEpgForId(
+  epgId: string,
+  preferredSourceUrl?: string,
+): Promise<EpgLookupResult> {
   const bases = [
     preferredSourceUrl,
     process.env.EPG_BASE_URL?.replace(/\/$/, ''),
@@ -89,7 +99,7 @@ export async function fetchEpgForId(epgId: string, preferredSourceUrl?: string):
           sourceUrl = base;
           break;
         }
-      } catch { }
+      } catch {}
       continue;
     }
 
@@ -136,7 +146,7 @@ export async function fetchEpgForId(epgId: string, preferredSourceUrl?: string):
 
       const simplified = await simplifyProgram(program);
       if (!simplified) continue;
-      
+
       fullSchedule.push(simplified);
 
       const start = parseXmlDate(program.start);

@@ -21,7 +21,11 @@ async function probeUrl(url: string, timeoutMs = 8000) {
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
-    let response = await fetch(url, { method: 'HEAD', redirect: 'follow', signal: controller.signal });
+    let response = await fetch(url, {
+      method: 'HEAD',
+      redirect: 'follow',
+      signal: controller.signal,
+    });
     if (!response.ok) {
       response = await fetch(url, {
         method: 'GET',

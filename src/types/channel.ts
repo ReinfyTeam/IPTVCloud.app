@@ -5,6 +5,8 @@ export interface Channel {
   country?: string;
   language?: string;
   category?: string;
+  resolution?: string;
+  viewersCount?: number;
   streamUrl: string;
   epgId?: string;
   isLive: true;
@@ -25,6 +27,7 @@ export interface ChannelQuery {
   country?: string;
   category?: string;
   language?: string;
+  resolution?: string;
   ids?: string[];
 }
 
@@ -38,6 +41,7 @@ export interface ChannelFilters {
   countries: string[];
   categories: string[];
   languages: string[];
+  resolutions: string[];
 }
 
 export interface SearchResponse extends PaginatedChannels {

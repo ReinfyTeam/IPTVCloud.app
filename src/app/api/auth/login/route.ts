@@ -18,11 +18,16 @@ export async function POST(req: Request) {
     }
 
     const body = await req.json();
-    const email = String(body.email || '').trim().toLowerCase();
+    const email = String(body.email || '')
+      .trim()
+      .toLowerCase();
     const password = String(body.password || '');
 
     if (!email || !password) {
-      return NextResponse.json({ ok: false, error: 'Email and password are required.' }, { status: 400 });
+      return NextResponse.json(
+        { ok: false, error: 'Email and password are required.' },
+        { status: 400 },
+      );
     }
 
     const user = await prisma.user.findUnique({ where: { email } });

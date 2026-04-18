@@ -24,11 +24,17 @@ export async function POST(req: Request) {
     }
 
     if (auth.user?.id === targetUser.id) {
-      return NextResponse.json({ ok: false, error: 'Cannot suspend your own account' }, { status: 400 });
+      return NextResponse.json(
+        { ok: false, error: 'Cannot suspend your own account' },
+        { status: 400 },
+      );
     }
 
     if (hasAdminRole(targetUser.role)) {
-      return NextResponse.json({ ok: false, error: 'Cannot suspend another admin account' }, { status: 403 });
+      return NextResponse.json(
+        { ok: false, error: 'Cannot suspend another admin account' },
+        { status: 403 },
+      );
     }
 
     const updatedUser = await prisma.user.update({

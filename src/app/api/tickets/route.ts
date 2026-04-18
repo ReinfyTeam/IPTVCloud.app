@@ -11,8 +11,14 @@ export async function GET(req: Request) {
 
   try {
     const tickets = auth.isStaff
-      ? await prisma.ticket.findMany({ include: { user: { select: { email: true, name: true, role: true } } }, orderBy: { createdAt: 'desc' } })
-      : await prisma.ticket.findMany({ where: { userId: user.id }, orderBy: { createdAt: 'desc' } });
+      ? await prisma.ticket.findMany({
+          include: { user: { select: { email: true, name: true, role: true } } },
+          orderBy: { createdAt: 'desc' },
+        })
+      : await prisma.ticket.findMany({
+          where: { userId: user.id },
+          orderBy: { createdAt: 'desc' },
+        });
 
     return NextResponse.json(tickets);
   } catch (error) {

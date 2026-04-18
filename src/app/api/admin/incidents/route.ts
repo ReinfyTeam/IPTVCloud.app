@@ -17,7 +17,8 @@ export async function GET() {
 export async function POST(req: Request) {
   try {
     const user = await getUserFromReq(req);
-    if (!user || user.role !== 'ADMIN') return NextResponse.json({ error: 'Unauthorized' }, { status: 403 });
+    if (!user || user.role !== 'ADMIN')
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 403 });
 
     const { action, id, title, description, status } = await req.json();
 

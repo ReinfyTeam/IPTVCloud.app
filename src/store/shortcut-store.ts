@@ -3,7 +3,14 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-export type ShortcutAction = 'toggle_play' | 'toggle_mute' | 'toggle_fullscreen' | 'next_channel' | 'prev_channel' | 'screenshot' | 'theater_mode';
+export type ShortcutAction =
+  | 'toggle_play'
+  | 'toggle_mute'
+  | 'toggle_fullscreen'
+  | 'next_channel'
+  | 'prev_channel'
+  | 'screenshot'
+  | 'theater_mode';
 
 export type CustomShortcut = {
   action: ShortcutAction;
@@ -31,20 +38,26 @@ export const useShortcutStore = create<ShortcutStore>()(
   persist(
     (set, get) => ({
       shortcuts: DEFAULT_SHORTCUTS,
-      setShortcut: (action, key) => set((state) => ({
-        shortcuts: state.shortcuts.map(s => s.action === action ? { ...s, key } : s)
-      })),
+      setShortcut: (action, key) =>
+        set((state) => ({
+          shortcuts: state.shortcuts.map((s) => (s.action === action ? { ...s, key } : s)),
+        })),
       getShortcutKey: (action) => {
-        const s = get().shortcuts.find(s => s.action === action);
-        return s ? s.key : (DEFAULT_SHORTCUTS.find(ds => ds.action === action)?.key || '');
+        const s = get().shortcuts.find((s) => s.action === action);
+        return s ? s.key : DEFAULT_SHORTCUTS.find((ds) => ds.action === action)?.key || '';
       },
-      loadShortcuts: (incoming) => set({ shortcuts: [...DEFAULT_SHORTCUTS.map(ds => {
-        const found = incoming.find(i => i.action === ds.action);
-        return found ? found : ds;
-      })] }),
+      loadShortcuts: (incoming) =>
+        set({
+          shortcuts: [
+            ...DEFAULT_SHORTCUTS.map((ds) => {
+              const found = incoming.find((i) => i.action === ds.action);
+              return found ? found : ds;
+            }),
+          ],
+        }),
     }),
     {
       name: 'iptvcloud:shortcuts',
-    }
-  )
+    },
+  ),
 );

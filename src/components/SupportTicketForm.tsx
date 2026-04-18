@@ -15,7 +15,8 @@ export default function SupportTicketForm({ type = 'SUPPORT' }: { type?: 'SUPPOR
     e.preventDefault();
     if (!token) return;
 
-    setLoading(true); setError('');
+    setLoading(true);
+    setError('');
     try {
       const res = await fetch('/api/tickets', {
         method: 'POST',
@@ -39,10 +40,20 @@ export default function SupportTicketForm({ type = 'SUPPORT' }: { type?: 'SUPPOR
     return (
       <div className="p-8 rounded-[32px] border border-emerald-500/20 bg-emerald-500/5 text-center animate-fade-in">
         <div className="h-16 w-16 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto mb-4">
-          <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"/></svg>
+          <svg
+            className="h-8 w-8"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+          </svg>
         </div>
         <h3 className="text-xl font-bold text-white mb-2">Ticket Received</h3>
-        <p className="text-slate-400 text-sm">Our staff will review your request and get back to you via email shortly.</p>
+        <p className="text-slate-400 text-sm">
+          Our staff will review your request and get back to you via email shortly.
+        </p>
       </div>
     );
   }
@@ -50,18 +61,22 @@ export default function SupportTicketForm({ type = 'SUPPORT' }: { type?: 'SUPPOR
   return (
     <form onSubmit={handleSubmit} className="space-y-4 p-1 animate-fade-in transform-gpu">
       <div>
-        <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">Subject</label>
+        <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">
+          Subject
+        </label>
         <input
           type="text"
           required
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
-          placeholder={type === 'APPEAL' ? "Appeal for restriction" : "How can we help?"}
+          placeholder={type === 'APPEAL' ? 'Appeal for restriction' : 'How can we help?'}
           className="w-full rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
         />
       </div>
       <div>
-        <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">Detailed Message</label>
+        <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">
+          Detailed Message
+        </label>
         <textarea
           required
           value={message}

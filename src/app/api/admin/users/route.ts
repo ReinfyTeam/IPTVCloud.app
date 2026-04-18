@@ -17,7 +17,7 @@ export async function GET(request: Request) {
       isRestricted: true,
       createdAt: true,
     },
-    orderBy: { createdAt: 'desc' }
+    orderBy: { createdAt: 'desc' },
   });
 
   return NextResponse.json(users);

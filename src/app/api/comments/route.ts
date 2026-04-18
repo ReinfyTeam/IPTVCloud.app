@@ -12,10 +12,7 @@ export async function GET(req: Request) {
     const comments = await prisma.comment.findMany({
       where: { channelId },
       include: { user: { select: { id: true, name: true, email: true, role: true } } },
-      orderBy: [
-        { isPinned: 'desc' },
-        { createdAt: 'desc' }
-      ],
+      orderBy: [{ isPinned: 'desc' }, { createdAt: 'desc' }],
       take: 50,
     });
 
@@ -33,7 +30,10 @@ export async function POST(req: Request) {
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
   if (user.isMuted && user.muteExpiresAt && user.muteExpiresAt > new Date()) {
-    return NextResponse.json({ error: 'You are muted until ' + user.muteExpiresAt.toLocaleString() }, { status: 403 });
+    return NextResponse.json(
+      { error: 'You are muted until ' + user.muteExpiresAt.toLocaleString() },
+      { status: 403 },
+    );
   }
 
   try {
@@ -45,7 +45,10 @@ export async function POST(req: Request) {
 
     // Link filtering for non-admins
     if (!auth.isAdmin && /(https?:\/\/[^\s]+)/g.test(text)) {
-      return NextResponse.json({ error: 'Links are not allowed for non-admin users' }, { status: 403 });
+      return NextResponse.json(
+        { error: 'Links are not allowed for non-admin users' },
+        { status: 403 },
+      );
     }
 
     const comment = await prisma.comment.create({
@@ -54,7 +57,7 @@ export async function POST(req: Request) {
         channelId,
         text,
       },
-      include: { user: { select: { id: true, name: true, email: true, role: true } } }
+      include: { user: { select: { id: true, name: true, email: true, role: true } } },
     });
 
     return NextResponse.json(comment);

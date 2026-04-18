@@ -2,7 +2,14 @@ import { getCache, setCache } from '@/services/cache-service';
 import { generateId, parseM3U } from '@/lib/m3uParser';
 import { getCountryName } from '@/lib/countries';
 import { getLanguageName } from '@/lib/languages';
-import type { Channel, ChannelDataset, ChannelFilters, ChannelQuery, PaginatedChannels, SearchResponse } from '@/types';
+import type {
+  Channel,
+  ChannelDataset,
+  ChannelFilters,
+  ChannelQuery,
+  PaginatedChannels,
+  SearchResponse,
+} from '@/types';
 
 const DEFAULT_M3U_URL = process.env.M3U_PRIMARY_URL || 'https://iptv-org.github.io/iptv/index.m3u';
 const CACHE_TTL_MS = process.env.M3U_CACHE_TTL
@@ -13,7 +20,7 @@ const CHANNELS_CACHE_KEY = 'channels:dataset';
 function normalizeChannel(channel: Channel): Channel {
   const isGeoBlocked = channel.name.includes('[GEO BLOCKED]');
   const cleanName = channel.name.replace('[GEO BLOCKED]', '').trim();
-  
+
   // Attempt to extract language from name or other attributes if missing
   let lang = channel.language;
   if (!lang || lang === 'Uncategorized') {
@@ -21,17 +28,26 @@ function normalizeChannel(channel: Channel): Channel {
     if (match) lang = match[1];
   }
 
+  // Clean language from resolution tags
+  if (lang) {
+    lang = lang.replace(/\b(4K|2160p|1080p|720p|576p|480p|FHD|HD|SD)\b/gi, '').trim();
+  }
+
+  // Generate a random stable viewers count between 100 and 5000 based on the hashed ID
+  const viewersCount = 100 + (parseInt(generateId(channel.name).slice(0, 4), 16) % 4901);
+
   return {
     ...channel,
     id: channel.id || generateId(`${channel.streamUrl}:${channel.name}`),
     name: cleanName,
     logo: channel.logo || undefined,
-    country: (getCountryName(channel.country || 'International')).toUpperCase(),
+    country: getCountryName(channel.country || 'International').toUpperCase(),
     language: getLanguageName(lang || ''),
     category: channel.category || 'uncategorized',
     fallbackUrls: Array.from(new Set(channel.fallbackUrls || [])),
     isLive: true,
     isGeoBlocked,
+    viewersCount,
   };
 }
 
@@ -61,6 +77,7 @@ function dedupeChannels(channels: Channel[]): Channel[] {
       country: existing.country || normalized.country,
       language: existing.language || normalized.language,
       category: existing.category || normalized.category,
+      resolution: existing.resolution || normalized.resolution,
       fallbackUrls: Array.from(fallbackUrls).filter(Boolean),
     });
   });
@@ -105,12 +122,15 @@ export async function getChannels(forceRefresh = false): Promise<ChannelDataset>
 
 export function getChannelFilters(channels: Channel[]): ChannelFilters {
   const normalize = (values: Array<string | undefined>) =>
-    Array.from(new Set(values.filter(Boolean).map((value) => value!.trim()))).sort((a, b) => a.localeCompare(b));
+    Array.from(new Set(values.filter(Boolean).map((value) => value!.trim()))).sort((a, b) =>
+      a.localeCompare(b),
+    );
 
   return {
     countries: normalize(channels.map((channel) => channel.country)),
     categories: normalize(channels.map((channel) => channel.category)),
     languages: normalize(channels.map((channel) => channel.language)),
+    resolutions: normalize(channels.map((channel) => channel.resolution)),
   };
 }
 
@@ -139,6 +159,11 @@ export function filterChannels(channels: Channel[], query: ChannelQuery): Channe
   if (query.language) {
     const value = query.language.toLowerCase();
     items = items.filter((channel) => channel.language?.toLowerCase() === value);
+  }
+
+  if (query.resolution) {
+    const value = query.resolution.toLowerCase();
+    items = items.filter((channel) => channel.resolution?.toLowerCase() === value);
   }
 
   if (query.ids && query.ids.length > 0) {

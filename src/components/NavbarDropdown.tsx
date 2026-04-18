@@ -55,7 +55,11 @@ export default function NavbarDropdown({ label, items, active }: Props) {
               className="flex items-center justify-between gap-3 p-2.5 rounded-xl hover:bg-white/5 text-sm text-slate-300 hover:text-white transition-all group/item active:scale-[0.98]"
             >
               <div className="flex items-center gap-2.5">
-                {item.icon && <span className="text-lg opacity-70 group-hover/item:opacity-100 transition-opacity">{item.icon}</span>}
+                {item.icon && (
+                  <span className="material-icons text-lg opacity-70 group-hover/item:opacity-100 transition-opacity">
+                    {item.icon}
+                  </span>
+                )}
                 <span className="font-medium">{item.label}</span>
               </div>
               {item.badge && (

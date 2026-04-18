@@ -8,7 +8,19 @@ export const metadata: Metadata = {
   description: 'Browse thousands of live IPTV channels. Filter by country, category, or language.',
 };
 
-export default async function SearchPage({ searchParams }: { searchParams: { q?: string } }) {
+export default async function SearchPage({
+  searchParams,
+}: {
+  searchParams: { q?: string; country?: string; category?: string; language?: string };
+}) {
   const { channels } = await getChannels();
-  return <ChannelBrowser channels={channels} initialSearch={searchParams.q || ''} />;
+  return (
+    <ChannelBrowser
+      channels={channels}
+      initialSearch={searchParams.q || ''}
+      initialCountry={searchParams.country || ''}
+      initialCategory={searchParams.category || ''}
+      initialLanguage={searchParams.language || ''}
+    />
+  );
 }

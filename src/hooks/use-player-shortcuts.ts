@@ -26,7 +26,8 @@ export function usePlayerShortcuts(options: Options) {
       if (isTyping) return;
 
       const key = event.key.toLowerCase();
-      const getActionKey = (action: string) => shortcuts.find(s => s.action === action)?.key.toLowerCase();
+      const getActionKey = (action: string) =>
+        shortcuts.find((s) => s.action === action)?.key.toLowerCase();
 
       if (key === getActionKey('toggle_play')) {
         event.preventDefault();

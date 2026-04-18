@@ -31,7 +31,17 @@ function getConfiguredAdminEmails() {
 }
 
 export function sanitizeUser(
-  user: Pick<User, 'id' | 'email' | 'name' | 'role' | 'suspendedAt' | 'suspensionReason' | 'isMuted' | 'isRestricted'>,
+  user: Pick<
+    User,
+    | 'id'
+    | 'email'
+    | 'name'
+    | 'role'
+    | 'suspendedAt'
+    | 'suspensionReason'
+    | 'isMuted'
+    | 'isRestricted'
+  >,
 ): AuthUser {
   return {
     id: user.id,
