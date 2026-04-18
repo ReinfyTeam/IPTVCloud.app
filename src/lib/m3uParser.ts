@@ -15,12 +15,21 @@ export function parseAttributes(input: string): Record<string, string> {
   return attrs;
 }
 
-export function parseM3U(content: string): Channel[] {
+export function parseM3U(content: string): { channels: Channel[], epgUrl?: string } {
   const lines = content.split(/\r?\n/);
   const channels: Channel[] = [];
+  let epgUrl: string | undefined;
+
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
     if (!line) continue;
+
+    if (line.startsWith('#EXTM3U')) {
+      const attrs = parseAttributes(line);
+      epgUrl = attrs['url-tvg'] || attrs['x-tvg-url'];
+      continue;
+    }
+
     if (line.startsWith('#EXTINF')) {
       const commaIdx = line.indexOf(',');
       const displayName = commaIdx !== -1 ? line.slice(commaIdx + 1).trim() : '';
@@ -70,7 +79,7 @@ export function parseM3U(content: string): Channel[] {
       i = j;
     }
   }
-  return channels;
+  return { channels, epgUrl };
 }
 
 export default parseM3U;

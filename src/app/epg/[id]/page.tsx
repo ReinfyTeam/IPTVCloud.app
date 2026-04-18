@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getChannelById } from '@/services/channel-service';
+import { getChannelById, getEpgUrl } from '@/services/channel-service';
 import { fetchEpgForId } from '@/services/epg-service';
 import Link from 'next/link';
 
@@ -15,7 +15,8 @@ export default async function EpgPage({ params }: { params: { id: string } }) {
   const channel = await getChannelById(decodeURIComponent(params.id));
   if (!channel || !channel.epgId) notFound();
 
-  const epg = await fetchEpgForId(channel.epgId);
+  const preferredEpgUrl = await getEpgUrl();
+  const epg = await fetchEpgForId(channel.epgId, preferredEpgUrl);
   if (!epg.found) notFound();
 
   const schedule = epg.schedule || [];

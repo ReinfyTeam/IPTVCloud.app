@@ -14,13 +14,20 @@ function normalizeChannel(channel: Channel): Channel {
   const isGeoBlocked = channel.name.includes('[GEO BLOCKED]');
   const cleanName = channel.name.replace('[GEO BLOCKED]', '').trim();
   
+  // Attempt to extract language from name or other attributes if missing
+  let lang = channel.language;
+  if (!lang || lang === 'Uncategorized') {
+    const match = cleanName.match(/\(([^)]+)\)$/);
+    if (match) lang = match[1];
+  }
+
   return {
     ...channel,
     id: channel.id || generateId(`${channel.streamUrl}:${channel.name}`),
     name: cleanName,
     logo: channel.logo || undefined,
     country: (getCountryName(channel.country || 'International')).toUpperCase(),
-    language: getLanguageName(channel.language || ''),
+    language: getLanguageName(lang || ''),
     category: channel.category || 'uncategorized',
     fallbackUrls: Array.from(new Set(channel.fallbackUrls || [])),
     isLive: true,
@@ -71,9 +78,9 @@ export async function refreshChannels(): Promise<ChannelDataset> {
   }
 
   const source = await response.text();
-  const rawChannels = parseM3U(source);
+  const { channels: rawChannels, epgUrl } = parseM3U(source);
   const channels = dedupeChannels(rawChannels);
-  const dataset: ChannelDataset = { channels, fetchedAt: Date.now() };
+  const dataset: ChannelDataset = { channels, fetchedAt: Date.now(), epgUrl };
 
   await setCache(CHANNELS_CACHE_KEY, dataset, Math.floor(CACHE_TTL_MS / 1000));
   return dataset;
@@ -159,6 +166,11 @@ export function paginateChannels(dataset: ChannelDataset, query: ChannelQuery): 
 export async function getChannelById(id: string) {
   const dataset = await getChannels(false);
   return dataset.channels.find((channel) => channel.id === id) || null;
+}
+
+export async function getEpgUrl(): Promise<string | undefined> {
+  const dataset = await getChannels(false);
+  return dataset.epgUrl;
 }
 
 export async function searchChannels(query: ChannelQuery): Promise<SearchResponse> {
