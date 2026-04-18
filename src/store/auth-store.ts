@@ -10,6 +10,7 @@ type AuthStore = {
   setAuth: (user: AuthUser, token: string) => void;
   clearAuth: () => void;
   isAdmin: () => boolean;
+  isStaff: () => boolean;
   isLoggedIn: () => boolean;
 };
 
@@ -21,6 +22,7 @@ export const useAuthStore = create<AuthStore>()(
       setAuth: (user, token) => set({ user, token }),
       clearAuth: () => set({ user: null, token: null }),
       isAdmin: () => get().user?.role === 'ADMIN',
+      isStaff: () => get().user?.role === 'STAFF' || get().user?.role === 'ADMIN',
       isLoggedIn: () => Boolean(get().user),
     }),
     {
