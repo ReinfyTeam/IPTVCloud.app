@@ -81,35 +81,35 @@ export default function Sidebar({
             <select
               value={category}
               onChange={(e) => setCategory(e.target.value)}
-              className="w-full rounded-xl border border-white/[0.07] bg-slate-950 px-3 py-2.5 text-sm text-slate-300 outline-none hover:border-white/15 focus:border-cyan-500/50 transition-colors cursor-pointer appearance-none"
+              className="w-full rounded-xl border border-white/[0.07] bg-slate-950 px-3 py-2.5 text-sm text-slate-300 outline-none hover:border-white/15 focus:border-cyan-500/50 transition-all cursor-pointer appearance-none active:scale-[0.98] transform-gpu"
             >
               <option value="">All Categories</option>
-              {filterOptions.categories.map((c) => <option key={c} value={c}>{c}</option>)}
+              {filterOptions.categories.map((c) => <option key={c} value={c} className="bg-slate-900">{c}</option>)}
             </select>
 
             <select
               value={country}
               onChange={(e) => setCountry(e.target.value)}
-              className="w-full rounded-xl border border-white/[0.07] bg-slate-950 px-3 py-2.5 text-sm text-slate-300 outline-none hover:border-white/15 focus:border-cyan-500/50 transition-colors cursor-pointer appearance-none"
+              className="w-full rounded-xl border border-white/[0.07] bg-slate-950 px-3 py-2.5 text-sm text-slate-300 outline-none hover:border-white/15 focus:border-cyan-500/50 transition-all cursor-pointer appearance-none active:scale-[0.98] transform-gpu"
             >
               <option value="">All Countries</option>
-              {filterOptions.countries.map((c) => <option key={c} value={c}>{c}</option>)}
+              {filterOptions.countries.map((c) => <option key={c} value={c} className="bg-slate-900">{c}</option>)}
             </select>
 
             <select
               value={language}
               onChange={(e) => setLanguage(e.target.value)}
-              className="w-full rounded-xl border border-white/[0.07] bg-slate-950 px-3 py-2.5 text-sm text-slate-300 outline-none hover:border-white/15 focus:border-cyan-500/50 transition-colors cursor-pointer appearance-none"
+              className="w-full rounded-xl border border-white/[0.07] bg-slate-950 px-3 py-2.5 text-sm text-slate-300 outline-none hover:border-white/15 focus:border-cyan-500/50 transition-all cursor-pointer appearance-none active:scale-[0.98] transform-gpu"
             >
               <option value="">All Languages</option>
-              {filterOptions.languages.map((l) => <option key={l} value={l}>{l}</option>)}
+              {filterOptions.languages.map((l) => <option key={l} value={l} className="bg-slate-900">{l}</option>)}
             </select>
           </div>
 
           {(search || country || category || language || favoritesOnly) && (
             <button
               onClick={() => { setSearch(''); setCountry(''); setCategory(''); setLanguage(''); setFavoritesOnly(false); }}
-              className="mt-4 w-full rounded-xl border border-red-500/20 bg-red-500/10 px-4 py-2 text-sm text-red-400 hover:bg-red-500/20 transition-colors"
+              className="mt-4 w-full rounded-xl border border-red-500/20 bg-red-500/10 px-4 py-2 text-sm text-red-400 hover:bg-red-500/20 transition-all active:scale-95 transform-gpu"
             >
               Clear Filters
             </button>

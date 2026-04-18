@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import type { Channel } from '@/types';
 import { useFavoritesStore } from '@/store/favorites-store';
 import { useHistoryStore } from '@/store/history-store';
@@ -104,7 +105,12 @@ export default function ChannelPlayerView({
               </div>
 
               <div className="pt-6 border-t border-white/[0.06]">
-                <div className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-4">Live Program Guide</div>
+                <div className="flex items-center justify-between mb-4">
+                  <div className="text-xs font-semibold uppercase tracking-widest text-slate-500">Live Program Guide</div>
+                  <Link href={`/epg/${encodeURIComponent(channel.id)}`} className="text-[10px] font-bold text-cyan-400 hover:text-cyan-300 uppercase tracking-widest transition-colors">
+                    Full Schedule →
+                  </Link>
+                </div>
                 <EpgStrip channelId={channel.epgId} />
               </div>
             </div>

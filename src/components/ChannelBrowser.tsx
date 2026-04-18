@@ -48,6 +48,7 @@ export default function ChannelBrowser({ channels, initialSearch = '' }: { chann
   const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [page, setPage] = useState(1);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
+  const observerTarget = useRef<HTMLDivElement>(null);
 
   const debouncedSearch = useDebounce(search, 280);
   const ITEMS_PER_PAGE = 48;
@@ -77,7 +78,22 @@ export default function ChannelBrowser({ channels, initialSearch = '' }: { chann
     [filteredChannels, page],
   );
 
-  const favoriteChannels = useMemo(() => channels.filter((c) => favoriteIds.includes(c.id)), [channels, favoriteIds]);
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && pagedChannels.length < filteredChannels.length) {
+          setPage((prev) => prev + 1);
+        }
+      },
+      { threshold: 0.1, rootMargin: '400px' }
+    );
+
+    if (observerTarget.current) {
+      observer.observe(observerTarget.current);
+    }
+
+    return () => observer.disconnect();
+  }, [pagedChannels.length, filteredChannels.length]);
 
   const selectChannel = useCallback((ch: Channel) => {
     addHistory(ch);
@@ -105,7 +121,7 @@ export default function ChannelBrowser({ channels, initialSearch = '' }: { chann
         setIsMobileOpen={setIsMobileOpen}
       />
       
-      <div className="flex-1 lg:pl-64 transition-all duration-300 pb-20">
+      <div className="flex-1 lg:pl-64 transition-all duration-300 pb-20 transform-gpu">
         <section id="channels" className="px-4 sm:px-6 py-6">
           <div className="mx-auto max-w-[1460px]">
             <div className="mb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
@@ -114,7 +130,7 @@ export default function ChannelBrowser({ channels, initialSearch = '' }: { chann
                 <h2 className="text-xl font-semibold text-white flex items-center gap-3">
                   {hasFilters ? `${filteredChannels.length.toLocaleString()} results` : `All ${channels.length.toLocaleString()} channels`}
                   {hasFilters && (
-                    <span className="rounded-full bg-cyan-400/10 border border-cyan-400/20 px-2.5 py-0.5 text-xs text-cyan-400">
+                    <span className="rounded-full bg-cyan-400/10 border border-cyan-400/20 px-2.5 py-0.5 text-xs text-cyan-400 animate-fade-in">
                       Filtered
                     </span>
                   )}
@@ -126,7 +142,7 @@ export default function ChannelBrowser({ channels, initialSearch = '' }: { chann
                     <button
                       key={m}
                       onClick={() => setViewMode(m)}
-                      className={`rounded-lg px-3 py-1.5 capitalize transition-all ${viewMode === m ? 'bg-cyan-500 text-slate-950 font-medium shadow-md' : 'text-slate-400 hover:text-white hover:bg-white/5'}`}
+                      className={`rounded-lg px-3 py-1.5 capitalize transition-all duration-300 active:scale-95 ${viewMode === m ? 'bg-cyan-500 text-slate-950 font-bold shadow-lg shadow-cyan-500/20' : 'text-slate-400 hover:text-white hover:bg-white/5'}`}
                     >
                       {m}
                     </button>
@@ -142,17 +158,17 @@ export default function ChannelBrowser({ channels, initialSearch = '' }: { chann
             </div>
 
             {filteredChannels.length === 0 ? (
-              <div className="rounded-2xl border border-dashed border-white/[0.07] p-16 text-center bg-slate-900/30 backdrop-blur-md">
-                <div className="text-5xl mb-4 opacity-50">📡</div>
-                <div className="text-lg font-medium text-white mb-2">No channels found</div>
-                <div className="text-slate-400 max-w-sm mx-auto">Try adjusting your search or clearing the active filters to see more results.</div>
-                <button onClick={clearFilters} className="mt-6 rounded-full bg-cyan-500/10 border border-cyan-500/20 px-6 py-2.5 text-sm font-medium text-cyan-400 hover:bg-cyan-500/20 transition-all shadow-lg hover:shadow-cyan-500/10">
+              <div className="rounded-[40px] border border-dashed border-white/[0.07] p-24 text-center bg-slate-900/30 backdrop-blur-md animate-fade-in">
+                <div className="text-6xl mb-6 opacity-20">📡</div>
+                <div className="text-xl font-bold text-white mb-2 text-transparent bg-clip-text bg-gradient-to-r from-slate-200 to-slate-500">No channels found</div>
+                <div className="text-slate-500 max-w-sm mx-auto mb-8">We couldn't find any channels matching your current filters. Try broadening your search.</div>
+                <button onClick={clearFilters} className="rounded-full bg-white/10 border border-white/20 px-8 py-3 text-sm font-bold text-white hover:bg-white/20 transition-all active:scale-95 shadow-xl">
                   Clear all filters
                 </button>
               </div>
             ) : (
               <>
-                <div className={viewMode === 'grid' ? 'grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5' : 'space-y-2'}>
+                <div className={viewMode === 'grid' ? 'grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5' : 'space-y-3'}>
                   {pagedChannels.map((ch) => (
                     <ChannelCard
                       key={ch.id}
@@ -164,16 +180,16 @@ export default function ChannelBrowser({ channels, initialSearch = '' }: { chann
                     />
                   ))}
                 </div>
-                {pagedChannels.length < filteredChannels.length && (
-                  <div className="mt-10 flex justify-center">
-                    <button
-                      onClick={() => setPage((p) => p + 1)}
-                      className="rounded-full border border-white/10 bg-white/[0.04] backdrop-blur-md px-8 py-3 text-sm font-medium text-slate-300 hover:bg-white/[0.08] hover:text-white transition-all shadow-lg hover:-translate-y-0.5"
-                    >
-                      Load more ({filteredChannels.length - pagedChannels.length} remaining)
-                    </button>
-                  </div>
-                )}
+                
+                {/* Infinite Scroll Trigger */}
+                <div ref={observerTarget} className="h-20 flex items-center justify-center mt-10">
+                   {pagedChannels.length < filteredChannels.length && (
+                     <div className="flex flex-col items-center gap-2 animate-pulse">
+                        <div className="h-1.5 w-1.5 rounded-full bg-cyan-400" />
+                        <div className="text-[10px] font-bold text-slate-600 uppercase tracking-widest">Loading more</div>
+                     </div>
+                   )}
+                </div>
               </>
             )}
           </div>
