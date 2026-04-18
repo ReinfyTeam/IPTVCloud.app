@@ -14,9 +14,9 @@ function normalizeChannel(channel: Channel): Channel {
     id: channel.id || generateId(`${channel.streamUrl}:${channel.name}`),
     name: channel.name.trim(),
     logo: channel.logo || undefined,
-    country: (channel.country || 'Unknown').toUpperCase(),
+    country: (channel.country || 'International').toUpperCase(),
     language: channel.language || undefined,
-    category: channel.category || 'Uncategorized',
+    category: channel.category || 'uncategorized',
     fallbackUrls: Array.from(new Set(channel.fallbackUrls || [])),
     isLive: true,
   };

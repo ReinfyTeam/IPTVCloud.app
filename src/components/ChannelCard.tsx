@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import type { Channel } from '@/types';
+import { useNetworkStatus } from '@/hooks/use-network';
 
 type Props = {
   channel: Channel;
@@ -21,6 +22,7 @@ export default function ChannelCard({
   onToggleFavorite,
 }: Props) {
   const [imgError, setImgError] = useState(false);
+  const isOnline = useNetworkStatus();
 
   const initials = channel.name
     .split(' ')
@@ -29,14 +31,18 @@ export default function ChannelCard({
     .slice(0, 2)
     .toUpperCase();
 
+  const hasFlag = channel.country && channel.country !== 'UNKNOWN' && channel.country !== 'INTERNATIONAL';
+
   if (mode === 'list') {
     return (
       <div
         onClick={() => onSelect(channel)}
-        className={`group flex cursor-pointer items-center gap-3 rounded-2xl border p-3 transition-all duration-200 ${
+        className={`group flex cursor-pointer items-center gap-3 rounded-2xl border p-3 backdrop-blur-md transition-all duration-300 ${
+          !isOnline ? 'opacity-50 grayscale select-none pointer-events-none' : ''
+        } ${
           active
             ? 'border-cyan-400/50 bg-cyan-400/[0.08] shadow-md shadow-cyan-900/20'
-            : 'border-white/[0.07] bg-white/[0.03] hover:border-white/15 hover:bg-white/[0.06]'
+            : 'border-white/[0.07] bg-white/[0.03] hover:border-white/15 hover:bg-white/[0.06] hover:-translate-y-0.5'
         }`}
       >
         <div className="relative shrink-0">
@@ -59,9 +65,9 @@ export default function ChannelCard({
         </div>
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
-            {channel.country && channel.country !== 'UNKNOWN' && (
+            {hasFlag && (
               <img
-                src={`https://flagcdn.com/w20/${channel.country.toLowerCase()}.png`}
+                src={`https://flagcdn.com/w20/${channel.country?.toLowerCase() || ''}.png`}
                 alt={channel.country}
                 className="h-3 w-4 rounded-sm object-cover"
               />
@@ -75,7 +81,7 @@ export default function ChannelCard({
         <button
           onClick={(e) => { e.stopPropagation(); onToggleFavorite?.(channel.id); }}
           className={`shrink-0 rounded-lg p-1.5 transition-colors ${
-            favorite ? 'text-amber-400' : 'text-slate-600 hover:text-slate-400'
+            favorite ? 'text-amber-400' : 'text-slate-600 hover:text-slate-400 hover:bg-white/5'
           }`}
           aria-label={favorite ? 'Remove from favorites' : 'Add to favorites'}
         >
@@ -90,12 +96,19 @@ export default function ChannelCard({
   return (
     <div
       onClick={() => onSelect(channel)}
-      className={`group relative cursor-pointer overflow-hidden rounded-2xl border transition-all duration-200 ${
+      className={`group relative cursor-pointer overflow-hidden rounded-2xl border backdrop-blur-md transition-all duration-300 animate-fade-in ${
+        !isOnline ? 'opacity-50 grayscale select-none pointer-events-none' : ''
+      } ${
         active
           ? 'border-cyan-400/50 bg-cyan-400/[0.08] shadow-lg shadow-cyan-900/30'
-          : 'border-white/[0.07] bg-white/[0.03] hover:border-white/15 hover:bg-white/[0.06] hover:-translate-y-0.5'
+          : 'border-white/[0.07] bg-white/[0.03] hover:border-white/15 hover:bg-white/[0.06] hover:-translate-y-1 hover:shadow-xl hover:shadow-black/20'
       }`}
     >
+      {!isOnline && (
+        <div className="absolute top-2 left-2 z-10 rounded-full bg-red-500/80 px-2 py-0.5 text-[10px] font-bold text-white backdrop-blur-sm">
+          OFFLINE
+        </div>
+      )}
       <div className="relative aspect-video overflow-hidden bg-slate-900">
         {channel.logo && !imgError ? (
           <img
@@ -103,7 +116,7 @@ export default function ChannelCard({
             alt={channel.name}
             loading="lazy"
             onError={() => setImgError(true)}
-            className="h-full w-full object-contain p-4 transition-transform duration-300 group-hover:scale-105"
+            className="h-full w-full object-contain p-4 transition-transform duration-500 group-hover:scale-110"
           />
         ) : (
           <div className="flex h-full w-full items-center justify-center text-2xl font-bold text-slate-700">
@@ -115,11 +128,11 @@ export default function ChannelCard({
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
             <div className="flex items-center gap-2">
-              {channel.country && channel.country !== 'UNKNOWN' && (
+              {hasFlag && (
                 <img
-                  src={`https://flagcdn.com/w20/${channel.country.toLowerCase()}.png`}
+                  src={`https://flagcdn.com/w20/${channel.country?.toLowerCase() || ''}.png`}
                   alt={channel.country}
-                  className="h-3 w-4 rounded-sm object-cover"
+                  className="h-3 w-4 rounded-sm object-cover shadow-sm"
                 />
               )}
               <div className="truncate text-sm font-medium text-white">{channel.name}</div>
@@ -131,7 +144,7 @@ export default function ChannelCard({
           <button
             onClick={(e) => { e.stopPropagation(); onToggleFavorite?.(channel.id); }}
             className={`shrink-0 rounded-lg p-1.5 transition-colors ${
-              favorite ? 'text-amber-400' : 'text-slate-700 hover:text-slate-400'
+              favorite ? 'text-amber-400' : 'text-slate-700 hover:text-slate-400 hover:bg-white/5'
             }`}
           >
             <svg className="h-4 w-4" fill={favorite ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

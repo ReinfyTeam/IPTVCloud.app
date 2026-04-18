@@ -198,6 +198,8 @@ export default function Player({
     if (!video) return;
 
     const onPlay = () => { clearLoadTimeout(); setStatus('playing'); };
+    const onPlaying = () => { clearLoadTimeout(); setStatus('playing'); };
+    const onCanPlay = () => { clearLoadTimeout(); setStatus(video.paused ? 'paused' : 'playing'); };
     const onPause = () => setStatus('paused');
     const onWaiting = () => setStatus('loading');
     const onLoadedMetadata = () => clearLoadTimeout();
@@ -212,6 +214,8 @@ export default function Player({
     const onLeavePiP = () => setIsPiP(false);
 
     video.addEventListener('play', onPlay);
+    video.addEventListener('playing', onPlaying);
+    video.addEventListener('canplay', onCanPlay);
     video.addEventListener('pause', onPause);
     video.addEventListener('waiting', onWaiting);
     video.addEventListener('loadedmetadata', onLoadedMetadata);
@@ -223,6 +227,8 @@ export default function Player({
 
     return () => {
       video.removeEventListener('play', onPlay);
+      video.removeEventListener('playing', onPlaying);
+      video.removeEventListener('canplay', onCanPlay);
       video.removeEventListener('pause', onPause);
       video.removeEventListener('waiting', onWaiting);
       video.removeEventListener('loadedmetadata', onLoadedMetadata);

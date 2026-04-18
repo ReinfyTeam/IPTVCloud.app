@@ -4,10 +4,12 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useAuthStore } from '@/store/auth-store';
+import { useNetworkStatus } from '@/hooks/use-network';
 
 export default function Navbar() {
   const pathname = usePathname();
   const { user, clearAuth, isAdmin } = useAuthStore();
+  const isOnline = useNetworkStatus();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -33,11 +35,17 @@ export default function Navbar() {
   ];
 
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-slate-950/90 backdrop-blur-xl border-b border-white/[0.06] shadow-xl shadow-black/20' : 'bg-transparent'
-      }`}
-    >
+    <>
+      {!isOnline && mounted && (
+        <div className="fixed top-0 left-0 right-0 z-[60] bg-red-500/90 text-white text-xs font-semibold px-4 py-1.5 text-center shadow-lg backdrop-blur-md animate-fade-in">
+          ⚠️ You are currently offline. Check your internet connection.
+        </div>
+      )}
+      <header
+        className={`fixed left-0 right-0 z-50 transition-all duration-300 ${!isOnline && mounted ? 'top-[28px]' : 'top-0'} ${
+          scrolled ? 'bg-slate-950/80 backdrop-blur-xl border-b border-white/[0.06] shadow-xl shadow-black/20' : 'bg-transparent'
+        }`}
+      >
       <div className="mx-auto max-w-[1460px] px-4 sm:px-6">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
@@ -155,5 +163,6 @@ export default function Navbar() {
         )}
       </div>
     </header>
+    </>
   );
 }
