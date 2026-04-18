@@ -59,7 +59,6 @@ venv/
 env/
 dist/
 build/
-package-lock.json
 
 # Logs and databases
 *.log
