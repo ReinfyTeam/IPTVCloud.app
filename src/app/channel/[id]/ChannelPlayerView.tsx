@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 
-...
                     {channel.logo ? (
                       <Image
                         src={channel.logo}
