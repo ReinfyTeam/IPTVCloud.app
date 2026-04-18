@@ -1,7 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
 /.pnp
 .pnp.js
 
@@ -34,3 +33,30 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Replit specific
+.env
+.python-version
+__pycache__/
+*.py[cod]
+.upm/
+.replit
+.repl
+.cache
+
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Dependencies
+node_modules/
+venv/
+env/
+dist/
+build/
+
+# Logs and databases
+*.log
+*.sqlite3
