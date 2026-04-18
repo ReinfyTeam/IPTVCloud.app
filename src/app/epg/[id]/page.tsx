@@ -10,7 +10,13 @@ import { getChannelById } from '@/services/channel-service';
 import { getEpgData } from '@/services/epg-service';
 import EpgStrip from '@/components/EpgStrip';
 
-                <Image src={channel.logo} alt="" width={96} height={80} className="h-full w-full object-contain" />
+                <Image 
+                  src={channel.logo} 
+                  alt="" 
+                  width={96} 
+                  height={80} 
+                  className="h-full w-full object-contain" 
+                />
               ) : (
                 <span className="text-2xl font-bold text-slate-700">{channel.name[0]}</span>
               )}

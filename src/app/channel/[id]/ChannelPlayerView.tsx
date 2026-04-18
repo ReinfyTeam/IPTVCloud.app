@@ -1,28 +1,40 @@
 'use client';
 
-import Image from 'next/image';
+                <div className="flex items-center gap-4">
+                  {channel.logo ? (
+                    <Image
+                      src={channel.logo}
+                      alt={channel.name}
+                      width={64}
+                      height={64}
+                      className="h-16 w-16 rounded-2xl object-contain bg-slate-900 border border-white/10 p-2 shadow-lg shadow-black/50"
+                    />
+                  ) : (
+                    <div className="h-16 w-16 rounded-2xl bg-slate-900 border border-white/10 flex items-center justify-center font-bold text-2xl text-slate-700 shadow-lg">
+                      {channel.name[0]}
+                    </div>
+                  )}
 
-                    {channel.logo ? (
-                      <Image
-                        src={channel.logo}
-                        alt={channel.name}
-                        width={64}
-                        height={64}
-                        className="h-16 w-16 rounded-2xl object-contain bg-slate-900 border border-white/10 p-2 shadow-lg shadow-black/50"
-                      />
-                    ) : (
-...
-                        {channel.country &&
-                          channel.country !== 'UNKNOWN' &&
-                          channel.country !== 'INTERNATIONAL' && (
-                            <Image
-                              src={`https://flagcdn.com/w20/${channel.country.toLowerCase()}.png`}
-                              alt={channel.country}
-                              width={20}
-                              height={15}
-                              className="h-3 w-4 rounded-sm"
-                            />
-                          )}
+                  <div className="min-w-0 flex-1">
+                    <h1 className="text-2xl font-black text-white truncate">{channel.name}</h1>
+                    <div className="flex items-center gap-2 mt-1">
+                      <span className="px-2 py-0.5 rounded-md bg-white/10 text-[10px] font-bold text-slate-400 uppercase tracking-widest">
+                        {channel.category}
+                      </span>
+                      {channel.country &&
+                        channel.country !== 'UNKNOWN' &&
+                        channel.country !== 'INTERNATIONAL' && (
+                          <Image
+                            src={`https://flagcdn.com/w20/${channel.country.toLowerCase()}.png`}
+                            alt={channel.country}
+                            width={20}
+                            height={15}
+                            className="h-3 w-4 rounded-sm"
+                          />
+                        )}
+                    </div>
+                  </div>
+                </div>
 ...
 
                   <button

@@ -159,7 +159,17 @@ import Image from 'next/image';
                     className="h-3 w-4 rounded-sm object-cover shadow-sm"
                   />
                 ) : null}
-...
+              </div>
+            </div>
+            <div className="flex-1 min-w-0">
+              <h3 className="font-bold text-white truncate group-hover:text-cyan-400 transition-colors">
+                {channel.name}
+              </h3>
+              <p className="text-[10px] text-slate-500 uppercase tracking-widest font-bold">
+                {channel.category}
+              </p>
+            </div>
+          </div>
         ) : channel.logo && !imgError ? (
           <Image
             src={channel.logo}
@@ -168,6 +178,8 @@ import Image from 'next/image';
             height={200}
             loading="lazy"
             onError={() => setImgError(true)}
+            className="h-full w-full object-contain p-4 group-hover:scale-105 transition-transform"
+          />
             className="h-full w-full object-contain p-6 transition-transform duration-[800ms] group-hover:scale-110"
           />
         ) : (
