@@ -45,6 +45,7 @@ __pycache__/
 .cache
 .agents/
 skills-lock.json
+replit.md
 
 # IDE / System
 .vscode/
@@ -58,6 +59,7 @@ venv/
 env/
 dist/
 build/
+package-lock.json
 
 # Logs and databases
 *.log
