@@ -12,7 +12,6 @@ export default function SettingsPage() {
   const { settings, updateSetting, resetSettings } = useSettingsStore();
   const { shortcuts, setShortcut, loadShortcuts } = useShortcutStore();
   const { user, token, isLoggedIn } = useAuthStore();
-  const [saving, setSaving] = useState(false);
   const [msg, setMsg] = useState('');
   const [mounted, setMounted] = useState(false);
 
@@ -34,7 +33,6 @@ export default function SettingsPage() {
   const saveToServer = useCallback(
     async (newSettings?: any) => {
       if (!user || !token) return;
-      setSaving(true);
       try {
         await fetch('/api/settings/update', {
           method: 'POST',
@@ -45,7 +43,6 @@ export default function SettingsPage() {
       } catch {
         setMsg('Error syncing settings.');
       } finally {
-        setSaving(false);
         setTimeout(() => setMsg(''), 2000);
       }
     },
@@ -125,7 +122,7 @@ export default function SettingsPage() {
               label="Dark Mode"
               description="Switch between light and dark visual themes."
               checked={settings.darkMode}
-              onChange={(_v) => updateAndSync('darkMode', !settings.darkMode)}
+              onChange={() => updateAndSync('darkMode', !settings.darkMode)}
             />
           </div>
         </SettingsSection>
@@ -136,19 +133,19 @@ export default function SettingsPage() {
               label="Autoplay"
               description="Start playing streams automatically when selected."
               checked={settings.autoplay}
-              onChange={(_v) => updateAndSync('autoplay', !settings.autoplay)}
+              onChange={() => updateAndSync('autoplay', !settings.autoplay)}
             />
             <Toggle
               label="Show EPG Strip"
               description="Display the program guide strip inside the player overlay."
               checked={settings.showEpg}
-              onChange={(_v) => updateAndSync('showEpg', !settings.showEpg)}
+              onChange={() => updateAndSync('showEpg', !settings.showEpg)}
             />
             <Toggle
               label="Performance Mode"
               description="Optimize animations for smoother performance on low-end devices."
               checked={settings.performanceMode}
-              onChange={(_v) => updateAndSync('performanceMode', !settings.performanceMode)}
+              onChange={() => updateAndSync('performanceMode', !settings.performanceMode)}
             />
             <div>
               <label className="block text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-4">
@@ -238,7 +235,7 @@ function Toggle({
   label: string;
   description?: string;
   checked: boolean;
-  onChange: (_v: boolean) => void;
+  onChange: () => void;
 }) {
   return (
     <div className="flex items-center justify-between gap-4 group">
@@ -251,7 +248,7 @@ function Toggle({
         )}
       </div>
       <button
-        onClick={() => onChange(!checked)}
+        onClick={onChange}
         className={`relative h-7 w-12 shrink-0 rounded-full transition-all transform-gpu active:scale-95 ${checked ? 'bg-cyan-500 shadow-[0_0_15px_rgba(6,182,212,0.4)]' : 'bg-slate-800'}`}
       >
         <span
