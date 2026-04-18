@@ -77,17 +77,20 @@ export default function HeroVideo({ streamUrl, channelId, poster }: Props) {
           playsInline
         />
       )}
+      import Image from 'next/image'; ...
       {hasError && poster && (
-        <img
+        <Image
           src={poster}
           alt="Channel Poster"
+          width={1920}
+          height={1080}
           className="absolute inset-0 h-full w-full object-cover opacity-30 blur-xl scale-110"
         />
       )}
+      ...
       {/* Gradient Overlay to ensure text readability */}
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-950/40" />
-
       {/* Play Icon Overlay */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-24 w-24 rounded-full bg-cyan-500/20 backdrop-blur-md flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 scale-75 group-hover:scale-100 border border-cyan-400/30">
         <svg className="h-10 w-10 text-cyan-400 ml-1.5" fill="currentColor" viewBox="0 0 24 24">

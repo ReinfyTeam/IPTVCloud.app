@@ -8,8 +8,9 @@
   },
   "scripts": {
     "dev": "npm run db:dev && next dev -p 8080 -H 0.0.0.0",
-    "db:dev": "node scripts/toggle-db.js dev && prisma generate",
-    "db:prod": "node scripts/toggle-db.js prod && prisma generate",
+    "db:dev": "node tools/scripts/toggle-db.js dev && prisma generate",
+    "db:prod": "node tools/scripts/toggle-db.js prod && prisma generate",
+    "db:migrate": "node tools/scripts/migrate-db.js",
     "build": "npm run db:prod && prisma db push --accept-data-loss && next build",
     "start": "next start -p 8080 -H 0.0.0.0",
     "lint": "next lint --fix",
@@ -27,6 +28,8 @@
     "next": "13.4.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-markdown": "^10.1.0",
+    "recharts": "^3.8.1",
     "xml2js": "^0.4.23",
     "zustand": "^4.1.5"
   },

@@ -138,6 +138,14 @@ export default function Player({
           lowLatencyMode: true,
           backBufferLength: 60,
           capLevelToPlayerSize: true,
+          // Optimization settings
+          abrBandWidthFactor: 0.95,
+          abrBandWidthUpFactor: 0.9,
+          maxBufferLength: 30,
+          maxMaxBufferLength: 60,
+          maxBufferSize: 60 * 1000 * 1000,
+          maxBufferHole: 0.5,
+          startLevel: -1,
         });
         hlsRef.current = hls;
         hls.loadSource(proxiedSrc);

@@ -36,8 +36,9 @@ export async function POST(req: Request) {
   try {
     const { subject, message, type } = await req.json();
 
-    if (!subject || !message) {
-      return NextResponse.json({ error: 'Subject and message are required' }, { status: 400 });
+    const allowedTypes = ['SUPPORT', 'APPEAL', 'BUG', 'FEATURE'];
+    if (!subject || !message || !allowedTypes.includes(type)) {
+      return NextResponse.json({ error: 'Invalid or missing fields' }, { status: 400 });
     }
 
     const ticket = await prisma.ticket.create({
@@ -45,7 +46,7 @@ export async function POST(req: Request) {
         userId: user.id,
         subject,
         message,
-        type: type || 'SUPPORT',
+        type,
       },
     });
 

@@ -95,7 +95,7 @@ model Ticket {
   userId      String
   subject     String
   message     String
-  type        String    @default("SUPPORT") // SUPPORT, APPEAL
+  type      String    @default("SUPPORT") // SUPPORT, APPEAL, BUG, FEATURE
   status      String    @default("OPEN")    // OPEN, IN_PROGRESS, CLOSED
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
@@ -105,6 +105,7 @@ model Incident {
   id          String    @id @default(cuid())
   title       String
   description String
+  tags        String[]  @default([])
   status      String    @default("INVESTIGATING") // INVESTIGATING, IDENTIFIED, MONITORING, RESOLVED
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt

@@ -1,116 +1,30 @@
 'use client';
 
-import React, { useEffect, useState, useCallback } from 'react';
-import { useRouter } from 'next/navigation';
-import Link from 'next/link';
-import type { Channel } from '@/types';
-import { useFavoritesStore } from '@/store/favorites-store';
-import { useHistoryStore } from '@/store/history-store';
-import Player from '@/components/Player';
-import ChannelCard from '@/components/ChannelCard';
-import EpgStrip from '@/components/EpgStrip';
-import CommentSection from '@/components/CommentSection';
+import Image from 'next/image';
 
-export default function ChannelPlayerView({
-  channel,
-  relatedChannels,
-  allChannels,
-}: {
-  channel: Channel;
-  relatedChannels: Channel[];
-  allChannels: Channel[];
-}) {
-  const router = useRouter();
-  const { ids: favoriteIds, toggleFavorite, isFavorite } = useFavoritesStore();
-  const { addEntry: addHistory } = useHistoryStore();
-  const [shareUrl, setShareUrl] = useState('');
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') setShareUrl(window.location.href);
-    addHistory(channel);
-  }, [channel, addHistory]);
-
-  const selectChannel = useCallback(
-    (ch: Channel) => {
-      router.push(`/channel/${encodeURIComponent(ch.id)}`);
-    },
-    [router],
-  );
-
-  const currentIndex = allChannels.findIndex((c) => c.id === channel.id);
-
-  const selectNext = useCallback(() => {
-    if (allChannels.length === 0) return;
-    const next = allChannels[(currentIndex + 1) % allChannels.length];
-    selectChannel(next);
-  }, [allChannels, currentIndex, selectChannel]);
-
-  const selectPrev = useCallback(() => {
-    if (allChannels.length === 0) return;
-    const prev = allChannels[(currentIndex - 1 + allChannels.length) % allChannels.length];
-    selectChannel(prev);
-  }, [allChannels, currentIndex, selectChannel]);
-
-  return (
-    <div className="pt-16 pb-20 px-4 sm:px-6">
-      <div className="mx-auto max-w-[1600px] mt-6">
-        <div className="grid gap-6 lg:grid-cols-[1fr_360px] xl:grid-cols-[1fr_400px]">
-          <div className="flex flex-col gap-6">
-            <Player
-              channel={channel}
-              url={channel.streamUrl}
-              poster={channel.logo}
-              title={channel.name}
-              subtitle={[channel.country, channel.category].filter(Boolean).join(' · ')}
-              streamUrl={channel.streamUrl}
-              shareUrl={shareUrl}
-              onNextChannel={selectNext}
-              onPreviousChannel={selectPrev}
-              autoPlay
-            />
-
-            <div className="grid gap-6 md:grid-cols-[1fr_320px]">
-              <div className="rounded-3xl border border-white/[0.07] bg-white/[0.03] p-6 backdrop-blur-md">
-                <div className="flex items-start justify-between gap-4 mb-6">
-                  <div className="flex items-center gap-4">
+...
                     {channel.logo ? (
-                      <img
+                      <Image
                         src={channel.logo}
                         alt={channel.name}
+                        width={64}
+                        height={64}
                         className="h-16 w-16 rounded-2xl object-contain bg-slate-900 border border-white/10 p-2 shadow-lg shadow-black/50"
                       />
                     ) : (
-                      <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-slate-800 text-xl font-bold text-slate-500 border border-white/10 shadow-lg">
-                        {channel.name.slice(0, 2).toUpperCase()}
-                      </div>
-                    )}
-                    <div>
-                      <h1 className="text-2xl font-bold text-white">{channel.name}</h1>
-                      <div className="flex items-center gap-3 mt-2">
-                        <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-red-500/10 border border-red-500/20">
-                          <span className="h-1 w-1 rounded-full bg-red-500 animate-pulse" />
-                          <span className="text-[10px] font-black text-red-400">
-                            {channel.viewersCount?.toLocaleString() || '0'} WATCHING
-                          </span>
-                        </div>
-                        <div className="h-4 w-px bg-white/10" />
+...
                         {channel.country &&
                           channel.country !== 'UNKNOWN' &&
                           channel.country !== 'INTERNATIONAL' && (
-                            <img
+                            <Image
                               src={`https://flagcdn.com/w20/${channel.country.toLowerCase()}.png`}
                               alt={channel.country}
+                              width={20}
+                              height={15}
                               className="h-3 w-4 rounded-sm"
                             />
                           )}
-                        <span className="text-sm text-slate-400 font-medium">
-                          {channel.category}
-                        </span>
-                        <span className="text-slate-600">•</span>
-                        <span className="text-sm text-slate-400">{channel.language}</span>
-                      </div>
-                    </div>{' '}
-                  </div>
+...
 
                   <button
                     onClick={() => toggleFavorite(channel.id)}

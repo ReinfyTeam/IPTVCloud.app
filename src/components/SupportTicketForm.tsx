@@ -3,17 +3,18 @@
 import React, { useState } from 'react';
 import { useAuthStore } from '@/store/auth-store';
 
-export default function SupportTicketForm({ type = 'SUPPORT' }: { type?: 'SUPPORT' | 'APPEAL' }) {
-  const { token } = useAuthStore();
+export default function SupportTicketForm() {
+  const { token, user } = useAuthStore();
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+  const [type, setType] = useState('SUPPORT');
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
   const [error, setError] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!token) return;
+    if (!token || !user) return;
 
     setLoading(true);
     setError('');
@@ -35,6 +36,14 @@ export default function SupportTicketForm({ type = 'SUPPORT' }: { type?: 'SUPPOR
       setLoading(false);
     }
   };
+
+  if (!user) {
+    return (
+      <div className="p-8 rounded-[32px] border border-amber-500/20 bg-amber-500/5 text-center">
+        <p className="text-amber-400 font-bold">Please log in to submit a support ticket.</p>
+      </div>
+    );
+  }
 
   if (sent) {
     return (
@@ -69,10 +78,26 @@ export default function SupportTicketForm({ type = 'SUPPORT' }: { type?: 'SUPPOR
           required
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
-          placeholder={type === 'APPEAL' ? 'Appeal for restriction' : 'How can we help?'}
+          placeholder="How can we help?"
           className="w-full rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
         />
       </div>
+      <div>
+        <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">
+          Issue Type
+        </label>
+        <select
+          value={type}
+          onChange={(e) => setType(e.target.value)}
+          className="w-full rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
+        >
+          <option value="SUPPORT">Support Request</option>
+          <option value="APPEAL">Account Appeal</option>
+          <option value="BUG">Bug Report</option>
+          <option value="FEATURE">Feature Request</option>
+        </select>
+      </div>
+
       <div>
         <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">
           Detailed Message

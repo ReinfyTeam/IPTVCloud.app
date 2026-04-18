@@ -55,7 +55,10 @@ export function parseM3U(content: string): { channels: Channel[]; epgUrl?: strin
       const logo = attrs['tvg-logo'] || attrs['logo'] || undefined;
       // iptv-org uses semicolons for multi-category — take first
       const rawCategory = attrs['group-title'] || attrs['group'] || undefined;
-      const category = rawCategory ? rawCategory.split(';')[0].trim() || undefined : undefined;
+      let category = rawCategory ? rawCategory.split(';')[0].trim() || undefined : undefined;
+      if (category && /^(undefined|unknown)$/i.test(category)) {
+        category = 'Uncategorized';
+      }
       const language = attrs['tvg-language'] || attrs['language'] || undefined;
       // Extract country from tvg-country attr, or decode from tvg-id (format: ChannelName.CC@Quality)
       let country = attrs['tvg-country'] || attrs['country'] || undefined;

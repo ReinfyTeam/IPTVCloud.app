@@ -183,19 +183,20 @@ export default function ProfilePage() {
                       href={`/channel/${encodeURIComponent(h.channelId)}`}
                       className="group flex items-center gap-4 p-4 rounded-3xl bg-white/[0.03] border border-white/[0.07] hover:border-cyan-500/50 transition-all hover:bg-cyan-500/5 hover:-translate-y-1"
                     >
+import Image from 'next/image';
+
+...
                       <div className="h-12 w-12 rounded-2xl bg-slate-900 border border-white/5 overflow-hidden shrink-0 shadow-lg">
                         {h.channelLogo ? (
-                          <img
+                          <Image
                             src={h.channelLogo}
                             alt=""
+                            width={48}
+                            height={48}
                             className="h-full w-full object-contain p-1"
                           />
                         ) : (
-                          <div className="h-full w-full flex items-center justify-center text-lg font-bold text-slate-600">
-                            {h.channelName[0]}
-                          </div>
-                        )}
-                      </div>
+...
                       <div className="min-w-0 flex-1">
                         <div className="text-sm font-bold text-white group-hover:text-cyan-400 transition-colors truncate">
                           {h.channelName}
