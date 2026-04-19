@@ -13,6 +13,16 @@ type SidebarProps = {
   setLanguage: (_v: string) => void;
   resolution: string;
   setResolution: (_v: string) => void;
+  timezone: string;
+  setTimezone: (_v: string) => void;
+  subdivision: string;
+  setSubdivision: (_v: string) => void;
+  city: string;
+  setCity: (_v: string) => void;
+  region: string;
+  setRegion: (_v: string) => void;
+  blocklist: string;
+  setBlocklist: (_v: string) => void;
   favoritesOnly: boolean;
   setFavoritesOnly: (_v: boolean | ((_prev: boolean) => boolean)) => void;
   filterOptions: {
@@ -20,6 +30,11 @@ type SidebarProps = {
     categories: string[];
     languages: string[];
     resolutions: string[];
+    timezones: string[];
+    subdivisions: string[];
+    cities: string[];
+    regions: string[];
+    blocklist: string[];
   };
   isMobileOpen: boolean;
   setIsMobileOpen: (_v: boolean) => void;
@@ -55,8 +70,20 @@ export default function Sidebar({
   setCountry,
   category,
   setCategory,
+  language,
+  setLanguage,
   resolution,
   setResolution,
+  timezone,
+  setTimezone,
+  subdivision,
+  setSubdivision,
+  city,
+  setCity,
+  region,
+  setRegion,
+  blocklist,
+  setBlocklist,
   favoritesOnly,
   setFavoritesOnly,
   filterOptions,
@@ -92,6 +119,31 @@ export default function Sidebar({
     [filterOptions.resolutions],
   );
 
+  const languageOptions = useMemo(
+    () => filterOptions.languages.map((l) => ({ label: l, value: l, icon: 'language' })),
+    [filterOptions.languages],
+  );
+
+  const timezoneOptions = useMemo(
+    () => filterOptions.timezones.map((t) => ({ label: t, value: t, icon: 'schedule' })),
+    [filterOptions.timezones],
+  );
+
+  const subdivisionOptions = useMemo(
+    () => filterOptions.subdivisions.map((s) => ({ label: s, value: s, icon: 'map' })),
+    [filterOptions.subdivisions],
+  );
+
+  const cityOptions = useMemo(
+    () => filterOptions.cities.map((c) => ({ label: c, value: c, icon: 'location_city' })),
+    [filterOptions.cities],
+  );
+
+  const regionOptions = useMemo(
+    () => filterOptions.regions.map((r) => ({ label: r, value: r, icon: 'public' })),
+    [filterOptions.regions],
+  );
+
   const sortOptions = [
     { label: 'Sort by Name', value: 'name', icon: 'sort_by_alpha' },
     { label: 'Most Viewed', value: 'viewers', icon: 'visibility' },
@@ -112,7 +164,7 @@ export default function Sidebar({
 
       {/* Sidebar Container */}
       <aside
-        className={`fixed top-16 bottom-0 left-0 z-[70] w-72 transform border-r border-white/[0.06] bg-slate-950/80 backdrop-blur-2xl transition-transform duration-500 ease-in-out lg:translate-x-0 ${
+        className={`fixed top-16 bottom-0 left-0 z-[70] w-80 transform border-r border-white/[0.06] bg-slate-950/80 backdrop-blur-2xl transition-transform duration-500 ease-in-out lg:translate-x-0 ${
           isMobileOpen ? 'translate-x-0 shadow-2xl shadow-black' : '-translate-x-full'
         } transform-gpu`}
       >
@@ -144,11 +196,11 @@ export default function Sidebar({
           </div>
 
           <div className="space-y-6">
-            <h3 className="text-[10px] font-bold uppercase tracking-widest text-slate-500 px-1">
-              Filters & Search
+            <h3 className="text-[10px] font-bold uppercase tracking-widest text-slate-500 px-1 mb-2">
+              Discovery & Content Filters
             </h3>
 
-            <div className="relative group/search">
+            <div className="relative group/search mb-4">
               <svg
                 className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-500 group-focus-within/search:text-cyan-400 transition-colors"
                 fill="none"
@@ -168,40 +220,143 @@ export default function Sidebar({
               />
             </div>
 
-            <CustomSelect
-              label="Sort By"
-              options={sortOptions}
-              value={sortBy}
-              onChange={setSortBy}
-              placeholder="Recommended"
-            />
+            <div className="space-y-4">
+              <div>
+                <div className="text-[9px] uppercase tracking-widest text-slate-500 mb-1 ml-1 font-bold">
+                  Sort Order
+                </div>
+                <CustomSelect
+                  label="Sort By"
+                  options={sortOptions}
+                  value={sortBy}
+                  onChange={setSortBy}
+                  placeholder="Recommended"
+                />
+              </div>
 
-            <CustomSelect
-              label="Category"
-              options={categoryOptions}
-              value={category}
-              onChange={setCategory}
-              placeholder="All Categories"
-            />
+              <div>
+                <div className="text-[9px] uppercase tracking-widest text-slate-500 mb-1 ml-1 font-bold">
+                  Content Type
+                </div>
+                <CustomSelect
+                  label="Category"
+                  options={categoryOptions}
+                  value={category}
+                  onChange={setCategory}
+                  placeholder="All Categories"
+                />
+                <p className="text-[9px] text-slate-600 mt-1 ml-1">Filter by programming genre</p>
+              </div>
 
-            <CustomSelect
-              label="Country"
-              options={countryOptions}
-              value={country}
-              onChange={setCountry}
-              placeholder="All Countries"
-            />
+              <div>
+                <div className="text-[9px] uppercase tracking-widest text-slate-500 mb-1 ml-1 font-bold">
+                  Geography
+                </div>
+                <CustomSelect
+                  label="Country"
+                  options={countryOptions}
+                  value={country}
+                  onChange={setCountry}
+                  placeholder="All Countries"
+                />
+                <p className="text-[9px] text-slate-600 mt-1 ml-1">Filter by origin country</p>
+              </div>
 
-            <CustomSelect
-              label="Resolution"
-              options={resolutionOptions}
-              value={resolution}
-              onChange={setResolution}
-              placeholder="All Qualities"
-            />
+              <div>
+                <CustomSelect
+                  label="Language"
+                  options={languageOptions}
+                  value={language}
+                  onChange={setLanguage}
+                  placeholder="All Languages"
+                />
+                <p className="text-[9px] text-slate-600 mt-1 ml-1">
+                  Filter by broadcast language (ISO 639)
+                </p>
+              </div>
+
+              {regionOptions.length > 0 && (
+                <div>
+                  <CustomSelect
+                    label="Region"
+                    options={regionOptions}
+                    value={region}
+                    onChange={setRegion}
+                    placeholder="All Regions"
+                  />
+                  <p className="text-[9px] text-slate-600 mt-1 ml-1">
+                    Filter by broader world regions
+                  </p>
+                </div>
+              )}
+
+              {subdivisionOptions.length > 0 && (
+                <div>
+                  <CustomSelect
+                    label="Subdivision"
+                    options={subdivisionOptions}
+                    value={subdivision}
+                    onChange={setSubdivision}
+                    placeholder="All Subdivisions"
+                  />
+                  <p className="text-[9px] text-slate-600 mt-1 ml-1">Filter by state or province</p>
+                </div>
+              )}
+
+              {cityOptions.length > 0 && (
+                <div>
+                  <CustomSelect
+                    label="City"
+                    options={cityOptions}
+                    value={city}
+                    onChange={setCity}
+                    placeholder="All Cities"
+                  />
+                </div>
+              )}
+
+              <div>
+                <div className="text-[9px] uppercase tracking-widest text-slate-500 mb-1 ml-1 font-bold">
+                  Technical
+                </div>
+                <CustomSelect
+                  label="Resolution"
+                  options={resolutionOptions}
+                  value={resolution}
+                  onChange={setResolution}
+                  placeholder="All Qualities"
+                />
+                <p className="text-[9px] text-slate-600 mt-1 ml-1">
+                  Filter by video format (e.g. 1080p, 720p)
+                </p>
+              </div>
+
+              <div>
+                <CustomSelect
+                  label="Timezone"
+                  options={timezoneOptions}
+                  value={timezone}
+                  onChange={setTimezone}
+                  placeholder="All Timezones"
+                />
+                <p className="text-[9px] text-slate-600 mt-1 ml-1">
+                  Filter by broadcast timezone (tz db)
+                </p>
+              </div>
+            </div>
           </div>
 
-          {(search || country || category || resolution || favoritesOnly) && (
+          {(search ||
+            country ||
+            category ||
+            resolution ||
+            language ||
+            timezone ||
+            subdivision ||
+            city ||
+            region ||
+            blocklist ||
+            favoritesOnly) && (
             <div className="pt-4">
               <button
                 onClick={() => {
@@ -209,6 +364,12 @@ export default function Sidebar({
                   setCountry('');
                   setCategory('');
                   setResolution('');
+                  setLanguage('');
+                  setTimezone('');
+                  setSubdivision('');
+                  setCity('');
+                  setRegion('');
+                  setBlocklist('');
                   setFavoritesOnly(false);
                   setSortBy('recommended');
                 }}

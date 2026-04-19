@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="lg:col-span-2 space-y-8">
           <BrandLogo className="text-2xl" />
           <p className="text-slate-500 text-sm max-w-sm leading-relaxed font-medium">
-            The next generation of television streaming. Advanced, private, and community-driven.
+            The next generation of television streaming. Advanced, public, and community-driven.
             Built for the modern web with performance at its core.
           </p>
           <div className="flex items-center gap-5">

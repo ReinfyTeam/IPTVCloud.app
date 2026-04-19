@@ -3,6 +3,14 @@ const nextConfig = {
   experimental: {
     esmExternals: 'loose',
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**', // Allows all https domains
+      },
+    ],
+  },
   async headers() {
     return [
       {

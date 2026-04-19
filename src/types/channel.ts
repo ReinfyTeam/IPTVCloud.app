@@ -3,15 +3,25 @@ export interface Channel {
   name: string;
   logo?: string;
   country?: string;
+  subdivision?: string;
+  city?: string;
+  region?: string;
+  timezone?: string;
   language?: string;
   category?: string;
   resolution?: string;
   viewersCount?: number;
   streamUrl: string;
   epgId?: string;
-  isLive: true;
+  isLive: boolean;
   fallbackUrls?: string[];
   isGeoBlocked?: boolean;
+  isNsfw?: boolean;
+  launched?: string;
+  closed?: string;
+  replacedBy?: string;
+  website?: string;
+  description?: string;
 }
 
 export interface ChannelDataset {
@@ -25,6 +35,11 @@ export interface ChannelQuery {
   page?: number;
   limit?: number;
   country?: string;
+  subdivision?: string;
+  city?: string;
+  region?: string;
+  timezone?: string;
+  blocklist?: string;
   category?: string;
   language?: string;
   resolution?: string;
@@ -42,6 +57,11 @@ export interface ChannelFilters {
   categories: string[];
   languages: string[];
   resolutions: string[];
+  subdivisions: string[];
+  cities: string[];
+  regions: string[];
+  timezones: string[];
+  blocklist: string[];
 }
 
 export interface SearchResponse extends PaginatedChannels {

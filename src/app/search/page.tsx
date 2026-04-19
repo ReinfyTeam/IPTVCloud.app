@@ -11,7 +11,13 @@ export const metadata: Metadata = {
 export default async function SearchPage({
   searchParams,
 }: {
-  searchParams: { q?: string; country?: string; category?: string; language?: string };
+  searchParams: {
+    q?: string;
+    country?: string;
+    category?: string;
+    language?: string;
+    timezone?: string;
+  };
 }) {
   const { channels } = await getChannels();
   return (
@@ -20,6 +26,8 @@ export default async function SearchPage({
       initialSearch={searchParams.q || ''}
       initialCountry={searchParams.country || ''}
       initialCategory={searchParams.category || ''}
+      initialLanguage={searchParams.language || ''}
+      initialTimezone={searchParams.timezone || ''}
     />
   );
 }

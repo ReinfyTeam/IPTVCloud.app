@@ -1,5 +1,5 @@
 import { getCache, setCache } from '@/services/cache-service';
-import { generateId, parseM3U } from '@/lib/m3uParser';
+import { generateId } from '@/lib/m3uParser'; // Just for hashing viewers
 import { getCountryName } from '@/lib/countries';
 import { getLanguageName } from '@/lib/languages';
 import type {
@@ -11,107 +11,135 @@ import type {
   SearchResponse,
 } from '@/types';
 
-const DEFAULT_M3U_URL = process.env.M3U_PRIMARY_URL || 'https://iptv-org.github.io/iptv/index.m3u';
-const CACHE_TTL_MS = process.env.M3U_CACHE_TTL
-  ? Number(process.env.M3U_CACHE_TTL) * 1000
-  : 10 * 60 * 1000;
-const CHANNELS_CACHE_KEY = 'channels:dataset';
+const CACHE_TTL_MS = 10 * 60 * 1000;
+const CHANNELS_CACHE_KEY = 'channels:dataset:iptvorg';
 
-function normalizeChannel(channel: Channel): Channel {
-  const isGeoBlocked = channel.name.includes('[GEO BLOCKED]');
-
-  // 1. Remove [GEO BLOCKED]
-  let cleanName = channel.name.replace('[GEO BLOCKED]', '');
-
-  // 2. Remove browser strings
-  cleanName = cleanName.replace(/(?:Gecko\)|(?:Chrome|Safari|Edg)\/\d+(?:\.\d+)*)/gi, '');
-
-  // 3. Keep existing logic to extract language before removal
-  let lang = channel.language;
-  if (!lang || lang === 'Uncategorized') {
-    const match = cleanName.match(/\(([^)]+)\)$/);
-    if (match) lang = match[1];
-  }
-
-  // 4. Remove language tags (e.g., (EN)), resolution tags (e.g., (576i)), and empty parens
-  cleanName = cleanName.replace(/\([A-Z]{2,3}\)/gi, '');
-  cleanName = cleanName.replace(/\(\d+[ip]\)/gi, ''); // Removes (576i), (1080p), etc.
-  cleanName = cleanName.replace(/\(\s*\)/g, '');
-
-  // 5. Cleanup whitespace
-  cleanName = cleanName.replace(/\s+/g, ' ').trim();
-
-  // Clean language from resolution tags
-  if (lang) {
-    lang = lang.replace(/\b(4K|2160p|1080p|720p|576p|480p|FHD|HD|SD)\b/gi, '').trim();
-  }
-
-  // Generate a random stable viewers count between 100 and 5000 based on the hashed ID
-  const viewersCount = 100 + (parseInt(generateId(channel.name).slice(0, 4), 16) % 4901);
-
-  return {
-    ...channel,
-    id: channel.id || generateId(`${channel.streamUrl}:${channel.name}`),
-    name: cleanName,
-    logo: channel.logo || undefined,
-    country: getCountryName(channel.country || 'International').toUpperCase(),
-    language: getLanguageName(lang || ''),
-    category: channel.category || 'uncategorized',
-    fallbackUrls: Array.from(new Set(channel.fallbackUrls || [])),
-    isLive: true,
-    isGeoBlocked,
-    viewersCount,
+// Fetch from iptv-org API
+async function fetchIptvOrgData() {
+  const endpoints = {
+    channels: 'https://iptv-org.github.io/api/channels.json',
+    streams: 'https://iptv-org.github.io/api/streams.json',
+    categories: 'https://iptv-org.github.io/api/categories.json',
+    languages: 'https://iptv-org.github.io/api/languages.json',
+    countries: 'https://iptv-org.github.io/api/countries.json',
+    subdivisions: 'https://iptv-org.github.io/api/subdivisions.json',
+    cities: 'https://iptv-org.github.io/api/cities.json',
+    regions: 'https://iptv-org.github.io/api/regions.json',
+    timezones: 'https://iptv-org.github.io/api/timezones.json',
+    blocklist: 'https://iptv-org.github.io/api/blocklist.json',
+    guides: 'https://iptv-org.github.io/api/guides.json',
+    logos: 'https://iptv-org.github.io/api/logos.json',
+    feeds: 'https://iptv-org.github.io/api/feeds.json',
   };
-}
 
-function dedupeChannels(channels: Channel[]): Channel[] {
-  const map = new Map<string, Channel>();
+  const results = await Promise.all(
+    Object.entries(endpoints).map(async ([key, url]) => {
+      const res = await fetch(url, { cache: 'no-store' });
+      const data = res.ok ? await res.json() : [];
+      return [key, data];
+    }),
+  );
 
-  channels.forEach((ch, _idx) => {
-    const normalized = normalizeChannel(ch);
-    const key = normalized.epgId || normalized.streamUrl;
-    const existing = map.get(key);
-
-    if (!existing) {
-      map.set(key, normalized);
-      return;
-    }
-
-    const fallbackUrls = new Set([
-      ...(existing.fallbackUrls || []),
-      existing.streamUrl !== normalized.streamUrl ? normalized.streamUrl : '',
-      ...(normalized.fallbackUrls || []),
-    ]);
-
-    map.set(key, {
-      ...existing,
-      name: existing.name || normalized.name,
-      logo: existing.logo || normalized.logo,
-      country: existing.country || normalized.country,
-      language: existing.language || normalized.language,
-      category: existing.category || normalized.category,
-      resolution: existing.resolution || normalized.resolution,
-      fallbackUrls: Array.from(fallbackUrls).filter(Boolean),
-    });
-  });
-
-  return Array.from(map.values());
+  return Object.fromEntries(results) as Record<keyof typeof endpoints, any[]>;
 }
 
 export async function refreshChannels(): Promise<ChannelDataset> {
-  const response = await fetch(DEFAULT_M3U_URL, {
-    cache: 'no-store',
+  const data = await fetchIptvOrgData();
+
+  // Create lookups
+  const blocklistSet = new Set(data.blocklist.map((b) => b.channel));
+
+  const streamMap = new Map<string, any[]>();
+  data.streams.forEach((s) => {
+    if (s.channel) {
+      if (!streamMap.has(s.channel)) streamMap.set(s.channel, []);
+      streamMap.get(s.channel)!.push(s);
+    }
   });
 
-  if (!response.ok) {
-    throw new Error(`Failed to fetch M3U: ${response.status}`);
+  const logoMap = new Map<string, string>();
+  data.logos.forEach((l) => {
+    if (l.channel && l.url) {
+      logoMap.set(l.channel, l.url);
+    }
+  });
+
+  const feedMap = new Map<string, any[]>();
+  data.feeds.forEach((f) => {
+    if (f.channel) {
+      if (!feedMap.has(f.channel)) feedMap.set(f.channel, []);
+      feedMap.get(f.channel)!.push(f);
+    }
+  });
+
+  const guideMap = new Map<string, string>();
+  data.guides.forEach((g) => {
+    if (g.channel && g.site_id) {
+      guideMap.set(g.channel, g.site_id);
+    }
+  });
+
+  const channels: Channel[] = [];
+
+  for (const ch of data.channels) {
+    if (blocklistSet.has(ch.id)) continue;
+    if (ch.closed) continue;
+
+    const streams = streamMap.get(ch.id) || [];
+    if (streams.length === 0) continue; // Only include channels with at least one stream
+
+    const feeds = feedMap.get(ch.id) || [];
+
+    // Pick best stream (or first)
+    const primaryStream = streams[0];
+    const fallbackUrls = streams.slice(1).map((s) => s.url);
+    const logoUrl = logoMap.get(ch.id);
+
+    // Categories
+    const category = ch.categories && ch.categories.length > 0 ? ch.categories[0] : 'general';
+
+    // Languages/Regions from feeds
+    let language = 'unknown';
+    let resolution = primaryStream.quality || undefined;
+    let timezone = 'unknown';
+
+    if (feeds.length > 0) {
+      const mainFeed = feeds.find((f) => f.is_main) || feeds[0];
+      if (mainFeed.languages && mainFeed.languages.length > 0) {
+        language = mainFeed.languages[0];
+      }
+      if (mainFeed.timezones && mainFeed.timezones.length > 0) {
+        timezone = mainFeed.timezones[0];
+      }
+      if (!resolution && mainFeed.format) {
+        resolution = mainFeed.format;
+      }
+    }
+
+    const viewersCount = 100 + (parseInt(generateId(ch.name).slice(0, 4), 16) % 4901);
+
+    channels.push({
+      id: ch.id,
+      name: ch.name || 'Unknown Channel',
+      logo: logoUrl,
+      country: ch.country || 'International',
+      language: language,
+      category: category,
+      resolution: resolution,
+      timezone: timezone,
+      isNsfw: ch.is_nsfw || false,
+      launched: ch.launched || undefined,
+      website: ch.website || undefined,
+      viewersCount: viewersCount,
+      streamUrl: primaryStream.url,
+      epgId: guideMap.get(ch.id) || undefined,
+      isLive: true,
+      fallbackUrls: fallbackUrls.length > 0 ? fallbackUrls : undefined,
+      isGeoBlocked: primaryStream.label === 'Geo-blocked',
+    });
   }
 
-  const source = await response.text();
-  const { channels: rawChannels, epgUrl } = parseM3U(source);
-  const channels = dedupeChannels(rawChannels);
-  const dataset: ChannelDataset = { channels, fetchedAt: Date.now(), epgUrl };
-
+  const dataset: ChannelDataset = { channels, fetchedAt: Date.now() };
   await setCache(CHANNELS_CACHE_KEY, dataset, Math.floor(CACHE_TTL_MS / 1000));
   return dataset;
 }
@@ -144,6 +172,11 @@ export function getChannelFilters(channels: Channel[]): ChannelFilters {
     categories: normalize(channels.map((channel) => channel.category)),
     languages: normalize(channels.map((channel) => channel.language)),
     resolutions: normalize(channels.map((channel) => channel.resolution)),
+    subdivisions: [], // Subdivisions usually parsed differently if provided, kept empty for now
+    cities: [],
+    regions: [],
+    timezones: normalize(channels.map((channel) => channel.timezone)),
+    blocklist: [],
   };
 }
 
@@ -179,13 +212,18 @@ export function filterChannels(channels: Channel[], query: ChannelQuery): Channe
     items = items.filter((channel) => channel.resolution?.toLowerCase() === value);
   }
 
+  if (query.timezone) {
+    const value = query.timezone.toLowerCase();
+    items = items.filter((channel) => channel.timezone?.toLowerCase() === value);
+  }
+
   if (query.ids && query.ids.length > 0) {
     const ids = new Set(query.ids);
     items = items.filter((channel) => ids.has(channel.id));
   }
 
-  // Sort by name (alphabetical) as a baseline ranking
-  return items.sort((a, b) => a.name.localeCompare(b.name));
+  // Sort by viewers by default for better initial ranking
+  return items.sort((a, b) => (b.viewersCount || 0) - (a.viewersCount || 0));
 }
 
 export function paginateChannels(dataset: ChannelDataset, query: ChannelQuery): PaginatedChannels {
@@ -223,6 +261,7 @@ export async function searchChannels(query: ChannelQuery): Promise<SearchRespons
       country: query.country,
       category: query.category,
       language: query.language,
+      timezone: query.timezone,
     },
   };
 }

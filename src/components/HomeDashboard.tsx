@@ -99,7 +99,7 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
               </span>
             </div>
 
-            <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black tracking-tighter text-white leading-[0.95] animate-fade-up-delayed drop-shadow-2xl uppercase italic">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tighter text-white leading-[0.95] animate-fade-up-delayed drop-shadow-2xl uppercase italic">
               STREAMING
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-500">
@@ -107,12 +107,12 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
               </span>
             </h1>
 
-            <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-medium animate-fade-up-delayed opacity-80">
+            <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-medium animate-fade-up-delayed opacity-80 pb-10">
               Access {allChannels.length.toLocaleString()} premium channels with zero
               advertisements. Experience the most advanced IPTV platform ever built.
             </p>
 
-            <div className="flex flex-wrap justify-center gap-4 sm:gap-6 pt-4 animate-fade-up-delayed">
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-6 pt-4 animate-fade-up-delayed pb-20">
               <Link
                 href="/account/signup"
                 className="rounded-[24px] bg-cyan-500 px-10 py-5 text-sm font-black text-slate-950 hover:bg-cyan-400 hover:scale-105 transition-all shadow-[0_0_40px_rgba(6,182,212,0.3)] active:scale-95 uppercase tracking-widest"
@@ -205,7 +205,7 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
                 icon="security"
               />
               <WhyCard
-                title="SaaS Speed"
+                title="Cloud Speed"
                 desc="Cloud-synced preferences for instant access."
                 icon="sync_alt"
               />
@@ -510,10 +510,10 @@ function HorizontalScroll({ children }: { children: React.ReactNode }) {
   };
 
   return (
-    <div className="relative group">
+    <div className="relative group/scroll">
       <button
         onClick={() => scroll('left')}
-        className="absolute -left-4 top-1/2 z-10 -translate-y-1/2 h-14 w-14 rounded-full bg-slate-900/80 border border-white/10 text-white shadow-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-slate-800 active:scale-90"
+        className="absolute -left-4 top-1/2 z-10 -translate-y-1/2 h-14 w-14 rounded-full bg-slate-900/80 border border-white/10 text-white shadow-xl flex items-center justify-center opacity-0 group-hover/scroll:opacity-100 transition-all hover:bg-slate-800 active:scale-90"
       >
         <span className="material-icons text-white">chevron_left</span>
       </button>
@@ -522,12 +522,12 @@ function HorizontalScroll({ children }: { children: React.ReactNode }) {
         className="flex gap-8 overflow-x-auto pb-12 scrollbar-hide -mx-6 px-6 snap-x"
       >
         {React.Children.map(children, (child) => (
-          <div className="shrink-0 w-[320px] snap-start">{child}</div>
+          <div className="shrink-0 w-[280px] sm:w-[320px] snap-start">{child}</div>
         ))}
       </div>
       <button
         onClick={() => scroll('right')}
-        className="absolute -right-4 top-1/2 z-10 -translate-y-1/2 h-14 w-14 rounded-full bg-slate-900/80 border border-white/10 text-white shadow-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-slate-800 active:scale-90"
+        className="absolute -right-4 top-1/2 z-10 -translate-y-1/2 h-14 w-14 rounded-full bg-slate-900/80 border border-white/10 text-white shadow-xl flex items-center justify-center opacity-0 group-hover/scroll:opacity-100 transition-all hover:bg-slate-800 active:scale-90"
       >
         <span className="material-icons text-white">chevron_right</span>
       </button>

@@ -30,10 +30,21 @@ export async function POST(req: Request) {
       );
     }
 
-    const user = await prisma.user.findUnique({ where: { email } });
+    const user = await prisma.user.findFirst({
+      where: {
+        OR: [{ email: email }, { username: email }],
+      },
+    });
 
-    if (!user || !(await verifyPassword(password, user.password))) {
-      return NextResponse.json({ ok: false, error: 'Invalid email or password.' }, { status: 401 });
+    if (!user) {
+      return NextResponse.json(
+        { ok: false, error: 'This email/username is not registered yet.' },
+        { status: 401 },
+      );
+    }
+
+    if (!(await verifyPassword(password, user.password))) {
+      return NextResponse.json({ ok: false, error: 'Invalid password.' }, { status: 401 });
     }
 
     if (isSuspended(user)) {
@@ -41,6 +52,10 @@ export async function POST(req: Request) {
         { ok: false, error: user.suspensionReason || 'This account has been suspended.' },
         { status: 403 },
       );
+    }
+
+    if (user.forcePasswordReset) {
+      return NextResponse.json({ ok: true, forcePasswordReset: true, userId: user.id });
     }
 
     if (user.twoFactorEnabled) {

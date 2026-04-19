@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
+import VerifiedBadge from '@/components/VerifiedBadge';
 
 type Profile = {
   id: string;
@@ -59,9 +60,7 @@ export default function SearchProfilesPage() {
                   <span className="text-lg font-black text-white uppercase italic tracking-tighter leading-none">
                     @{p.username}
                   </span>
-                  {p.isVerified && (
-                    <span className="material-icons text-cyan-500 text-sm">verified</span>
-                  )}
+                  {p.isVerified && <VerifiedBadge className="text-sm ml-1" />}
                 </div>
                 <div className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-1">
                   {p.role} ACCOUNT

@@ -4,6 +4,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import { useAuthStore } from '@/store/auth-store';
+import VerifiedBadge from '@/components/VerifiedBadge';
 
 type Comment = {
   id: string;
@@ -111,9 +112,7 @@ export default function PostDetailPage({ params }: { params: { id: string } }) {
                   <span className="font-black text-white uppercase italic tracking-tighter">
                     @{post.user.username}
                   </span>
-                  {post.user.isVerified && (
-                    <span className="material-icons text-cyan-500 text-sm">verified</span>
-                  )}
+                  {post.user.isVerified && <VerifiedBadge className="text-sm ml-1" />}
                 </div>
                 <div className="text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-0.5">
                   {new Date(post.createdAt).toLocaleDateString()}

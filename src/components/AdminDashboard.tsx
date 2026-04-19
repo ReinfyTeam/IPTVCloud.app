@@ -1,7 +1,8 @@
 'use client';
 
-import React, { useEffect, useState, useCallback, useMemo } from 'react';
+import React, { useEffect, useState, useCallback, useMemo, useRef } from 'react';
 import { useAuthStore } from '@/store/auth-store';
+import Link from 'next/link';
 
 type AdminUser = {
   id: string;
@@ -10,10 +11,11 @@ type AdminUser = {
   name: string | null;
   role: string;
   isVerified: boolean;
-  suspendedAt: Date | null;
+  suspendedAt: string | null;
   isMuted: boolean;
   isRestricted: boolean;
-  createdAt: Date;
+  createdAt: string;
+  twoFactorEnabled: boolean;
 };
 
 type Incident = {
@@ -22,11 +24,28 @@ type Incident = {
   description: string;
   status: string;
   severity: string;
+  type: string;
   tags: string[];
-  createdAt: Date;
+  createdAt: string;
 };
 
-type Tab = 'users' | 'channels' | 'incidents' | 'tickets' | 'posts';
+type Post = {
+  id: string;
+  title: string;
+  content: string;
+  createdAt: string;
+  user: {
+    id: string;
+    username: string | null;
+    email: string;
+  };
+  _count: {
+    comments: number;
+    likes: number;
+  };
+};
+
+type Tab = 'users' | 'incidents' | 'tickets' | 'posts';
 
 type Ticket = {
   id: string;
@@ -42,48 +61,39 @@ type Ticket = {
   user: { email: string; name: string | null; role: string; username: string | null };
 };
 
-function StatCard({
-  label,
-  value,
-  accent,
-}: {
-  label: string;
-  value: string | number;
-  accent?: string;
-}) {
-  return (
-    <div className="rounded-[32px] border border-white/[0.07] bg-white/[0.03] p-6 backdrop-blur-md shadow-xl">
-      <div className="text-[10px] text-slate-500 font-bold uppercase tracking-widest mb-2">
-        {label}
-      </div>
-      <div className={`text-3xl font-bold ${accent || 'text-white'}`}>{value}</div>
-    </div>
-  );
-}
-
 export default function AdminDashboard() {
   const { user, token, isAdmin, isStaff } = useAuthStore();
   const [tab, setTab] = useState<Tab>('users');
+
+  // Users State
   const [users, setUsers] = useState<AdminUser[]>([]);
+  const [userSearch, setUserSearch] = useState('');
+  const [userPage, setUserPage] = useState(1);
+  const [usersHasMore, setUsersHasMore] = useState(true);
+  const [usersLoading, setUsersLoading] = useState(false);
+  const observerTarget = useRef<HTMLDivElement>(null);
+
+  // Incidents State
   const [incidents, setIncidents] = useState<Incident[]>([]);
-  const [tickets, setTickets] = useState<Ticket[]>([]);
-  const [_loading, setLoading] = useState(false);
-  const [actionMsg, setActionMsg] = useState('');
-
-  // Sorting & Filtering
-  const [ticketSort, setTicketSort] = useState('newest');
-  const [showArchived, setShowArchived] = useState(false);
-
-  const [suspendTarget, setSuspendTarget] = useState<AdminUser | null>(null);
-  const [suspendReason, setSuspendReason] = useState('');
-
-  // Incident form state
   const [showIncidentForm, setShowIncidentForm] = useState(false);
+  const [incidentId, setIncidentId] = useState('');
   const [incidentTitle, setIncidentTitle] = useState('');
   const [incidentDesc, setIncidentDesc] = useState('');
   const [incidentStatus, setIncidentStatus] = useState('INVESTIGATING');
   const [incidentSeverity, setIncidentSeverity] = useState('LOW');
+  const [incidentType, setIncidentType] = useState('SYSTEM');
   const [incidentTags, setIncidentTags] = useState('');
+
+  // Tickets State
+  const [tickets, setTickets] = useState<Ticket[]>([]);
+  const [ticketSort, setTicketSort] = useState('newest');
+  const [showArchived, setShowArchived] = useState(false);
+
+  // Posts State
+  const [posts, setPosts] = useState<Post[]>([]);
+  const [postSearch, setPostSearch] = useState('');
+
+  const [actionMsg, setActionMsg] = useState('');
 
   const authHeaders = useCallback(
     (): HeadersInit => ({
@@ -93,18 +103,61 @@ export default function AdminDashboard() {
     [token],
   );
 
-  const fetchUsers = useCallback(async () => {
-    setLoading(true);
-    try {
-      const res = await fetch('/api/admin/users', { headers: authHeaders() });
-      const data = await res.json();
-      if (Array.isArray(data)) setUsers(data);
-    } catch {
-    } finally {
-      setLoading(false);
-    }
-  }, [authHeaders]);
+  const showActionMessage = (msg: string) => {
+    setActionMsg(msg);
+    setTimeout(() => setActionMsg(''), 3000);
+  };
 
+  // FETCH USERS
+  const fetchUsers = useCallback(
+    async (pageToLoad: number, q: string, append: boolean = false) => {
+      setUsersLoading(true);
+      try {
+        const res = await fetch(
+          `/api/admin/users?page=${pageToLoad}&limit=20&q=${encodeURIComponent(q)}`,
+          { headers: authHeaders() },
+        );
+        const data = await res.json();
+        if (data.users) {
+          if (append) {
+            setUsers((prev) => [...prev, ...data.users]);
+          } else {
+            setUsers(data.users);
+          }
+          setUsersHasMore(data.users.length === 20);
+        }
+      } catch {
+      } finally {
+        setUsersLoading(false);
+      }
+    },
+    [authHeaders],
+  );
+
+  useEffect(() => {
+    if (tab === 'users' && token) {
+      setUserPage(1);
+      fetchUsers(1, userSearch, false);
+    }
+  }, [userSearch, tab, token, fetchUsers]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && usersHasMore && !usersLoading) {
+          const nextPage = userPage + 1;
+          setUserPage(nextPage);
+          fetchUsers(nextPage, userSearch, true);
+        }
+      },
+      { threshold: 0.1 },
+    );
+
+    if (observerTarget.current) observer.observe(observerTarget.current);
+    return () => observer.disconnect();
+  }, [usersHasMore, usersLoading, userPage, userSearch, fetchUsers]);
+
+  // FETCH INCIDENTS
   const fetchIncidents = useCallback(async () => {
     try {
       const res = await fetch('/api/admin/incidents', { headers: authHeaders() });
@@ -113,6 +166,7 @@ export default function AdminDashboard() {
     } catch {}
   }, [authHeaders]);
 
+  // FETCH TICKETS
   const fetchTickets = useCallback(async () => {
     try {
       const res = await fetch(`/api/tickets?sort=${ticketSort}&archived=${showArchived}`, {
@@ -123,14 +177,24 @@ export default function AdminDashboard() {
     } catch {}
   }, [authHeaders, ticketSort, showArchived]);
 
-  useEffect(() => {
-    if (user && (isAdmin() || isStaff())) {
-      fetchUsers();
-      fetchIncidents();
-      fetchTickets();
-    }
-  }, [fetchUsers, fetchIncidents, fetchTickets, user, isAdmin, isStaff]);
+  // FETCH POSTS
+  const fetchPosts = useCallback(async () => {
+    try {
+      const res = await fetch(`/api/admin/posts?q=${encodeURIComponent(postSearch)}`, {
+        headers: authHeaders(),
+      });
+      const data = await res.json();
+      if (Array.isArray(data)) setPosts(data);
+    } catch {}
+  }, [authHeaders, postSearch]);
 
+  useEffect(() => {
+    if (tab === 'incidents' && token) fetchIncidents();
+    if (tab === 'tickets' && token) fetchTickets();
+    if (tab === 'posts' && token) fetchPosts();
+  }, [tab, token, fetchIncidents, fetchTickets, fetchPosts, ticketSort, showArchived, postSearch]);
+
+  // ACTION HANDLERS
   const handleUpdateTicket = async (id: string, data: any) => {
     try {
       const res = await fetch('/api/tickets', {
@@ -139,15 +203,15 @@ export default function AdminDashboard() {
         body: JSON.stringify({ id, ...data }),
       });
       if (res.ok) {
-        setActionMsg('Ticket updated.');
+        showActionMessage('Ticket updated.');
         fetchTickets();
       }
     } catch {
-      setActionMsg('Error.');
+      showActionMessage('Error updating ticket.');
     }
   };
 
-  const handleModeration = async (userId: string, action: string, value: any) => {
+  const handleModeration = async (userId: string, action: string, value?: any) => {
     try {
       const res = await fetch('/api/admin/users', {
         method: 'POST',
@@ -155,40 +219,59 @@ export default function AdminDashboard() {
         body: JSON.stringify({
           userId,
           action,
-          reason: typeof value === 'string' ? value : undefined,
-          value: typeof value === 'boolean' ? value : undefined,
+          value,
         }),
       });
+      const data = await res.json();
       if (res.ok) {
-        setActionMsg(`${action} successful.`);
-        setSuspendTarget(null);
-        setSuspendReason('');
-        fetchUsers();
+        if (action === 'RESET_PASSWORD') {
+          showActionMessage(`Password reset to: ${data.newPassword}`);
+        } else {
+          showActionMessage(`${action} successful.`);
+        }
+
+        // Refresh local user state softly without refetching everything
+        setUsers(
+          users.map((u) => {
+            if (u.id !== userId) return u;
+            const u2 = { ...u };
+            if (action === 'SET_ROLE') u2.role = value;
+            if (action === 'SET_VERIFIED') u2.isVerified = value;
+            if (action === 'MUTE') u2.isMuted = true;
+            if (action === 'UNMUTE') u2.isMuted = false;
+            if (action === 'SUSPEND') u2.suspendedAt = new Date().toISOString();
+            if (action === 'UNSUSPEND') u2.suspendedAt = null;
+            if (action === 'RESTRICT') u2.isRestricted = true;
+            if (action === 'UNRESTRICT') u2.isRestricted = false;
+            if (action === 'RESET_2FA') u2.twoFactorEnabled = false;
+            return u2;
+          }),
+        );
+
+        if (action === 'DELETE') {
+          setUsers(users.filter((u) => u.id !== userId));
+        }
+      } else {
+        showActionMessage(data.error || 'Action failed.');
       }
     } catch {
-      setActionMsg('Action failed.');
+      showActionMessage('Action failed.');
     }
   };
 
-  const handleSetRole = async (userId: string, role: string) => {
-    await handleModeration(userId, 'SET_ROLE', role);
-  };
-
-  const handleToggleVerified = async (userId: string, isVerified: boolean) => {
-    await handleModeration(userId, 'SET_VERIFIED', isVerified);
-  };
-
-  const handleCreateIncident = async () => {
+  const handleCreateOrUpdateIncident = async () => {
     try {
       const res = await fetch('/api/admin/incidents', {
         method: 'POST',
         headers: authHeaders(),
         body: JSON.stringify({
-          action: 'CREATE',
+          action: incidentId ? 'UPDATE' : 'CREATE',
+          id: incidentId || undefined,
           title: incidentTitle,
           description: incidentDesc,
           status: incidentStatus,
           severity: incidentSeverity,
+          type: incidentType,
           tags: incidentTags
             .split(',')
             .map((t) => t.trim())
@@ -196,12 +279,67 @@ export default function AdminDashboard() {
         }),
       });
       if (res.ok) {
-        setActionMsg('Incident published.');
+        showActionMessage(incidentId ? 'Incident updated.' : 'Incident published.');
         setShowIncidentForm(false);
         fetchIncidents();
       }
     } catch {
-      setActionMsg('Error.');
+      showActionMessage('Error.');
+    }
+  };
+
+  const handleDeleteIncident = async (id: string) => {
+    if (!confirm('Are you sure you want to delete this incident?')) return;
+    try {
+      const res = await fetch('/api/admin/incidents', {
+        method: 'POST',
+        headers: authHeaders(),
+        body: JSON.stringify({ action: 'DELETE', id }),
+      });
+      if (res.ok) {
+        showActionMessage('Incident deleted.');
+        fetchIncidents();
+      }
+    } catch {
+      showActionMessage('Error deleting incident.');
+    }
+  };
+
+  const openIncidentEdit = (inc: Incident) => {
+    setIncidentId(inc.id);
+    setIncidentTitle(inc.title);
+    setIncidentDesc(inc.description);
+    setIncidentStatus(inc.status);
+    setIncidentSeverity(inc.severity);
+    setIncidentType(inc.type || 'SYSTEM');
+    setIncidentTags(inc.tags.join(', '));
+    setShowIncidentForm(true);
+  };
+
+  const resetIncidentForm = () => {
+    setIncidentId('');
+    setIncidentTitle('');
+    setIncidentDesc('');
+    setIncidentStatus('INVESTIGATING');
+    setIncidentSeverity('LOW');
+    setIncidentType('SYSTEM');
+    setIncidentTags('');
+    setShowIncidentForm(true);
+  };
+
+  const handleDeletePost = async (id: string) => {
+    if (!confirm('Are you sure you want to delete this post?')) return;
+    try {
+      const res = await fetch(`/api/admin/posts?id=${id}`, {
+        method: 'DELETE',
+        headers: authHeaders(),
+      });
+      if (res.ok) {
+        showActionMessage('Post deleted.');
+        fetchPosts();
+      }
+    } catch {
+      showActionMessage('Error deleting post.');
     }
   };
 
@@ -238,87 +376,271 @@ export default function AdminDashboard() {
         ))}
       </div>
 
+      {/* USERS TAB */}
       {tab === 'users' && (
-        <div className="rounded-[40px] border border-white/[0.07] bg-white/[0.02] overflow-hidden backdrop-blur-xl shadow-2xl">
-          <table className="w-full text-left text-sm">
-            <thead className="bg-white/[0.03] border-b border-white/[0.07]">
-              <tr className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
-                <th className="px-8 py-6">Identity</th>
-                <th className="px-8 py-6">Privileges</th>
-                <th className="px-8 py-6">Verification</th>
-                <th className="px-8 py-6 text-right">Moderation</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-white/[0.03]">
-              {users.map((u) => (
-                <tr key={u.id} className="hover:bg-white/[0.01] transition-colors group">
-                  <td className="px-8 py-6">
-                    <div className="flex items-center gap-3">
-                      <div className="h-10 w-10 rounded-xl bg-slate-900 border border-white/5 flex items-center justify-center text-slate-700">
-                        <span className="material-icons">account_circle</span>
-                      </div>
-                      <div>
-                        <div className="font-black text-white text-base uppercase italic tracking-tighter">
-                          @{u.username || 'anonymous'}
+        <div className="space-y-6">
+          <div className="relative max-w-md">
+            <span className="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">
+              search
+            </span>
+            <input
+              type="text"
+              value={userSearch}
+              onChange={(e) => setUserSearch(e.target.value)}
+              placeholder="Search ID, email, username, or name..."
+              className="w-full bg-white/[0.02] border border-white/[0.08] rounded-2xl py-3 pl-12 pr-4 text-white text-sm outline-none focus:border-cyan-500 transition-colors"
+            />
+          </div>
+
+          <div className="rounded-[40px] border border-white/[0.07] bg-white/[0.02] overflow-hidden backdrop-blur-xl shadow-2xl">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-sm min-w-[900px]">
+                <thead className="bg-white/[0.03] border-b border-white/[0.07]">
+                  <tr className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
+                    <th className="px-8 py-6">Identity</th>
+                    <th className="px-8 py-6">Privileges</th>
+                    <th className="px-8 py-6">Verification & Security</th>
+                    <th className="px-8 py-6 text-right">Moderation Actions</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-white/[0.03]">
+                  {users.map((u) => (
+                    <tr key={u.id} className="hover:bg-white/[0.01] transition-colors group">
+                      <td className="px-8 py-6">
+                        <div className="flex items-center gap-3">
+                          <div className="h-10 w-10 shrink-0 rounded-xl bg-slate-900 border border-white/5 flex items-center justify-center text-slate-700">
+                            <span className="material-icons">account_circle</span>
+                          </div>
+                          <div className="min-w-0">
+                            <div className="font-black text-white text-base uppercase italic tracking-tighter truncate">
+                              @{u.username || 'anonymous'}
+                            </div>
+                            <div className="text-[10px] font-bold text-slate-500 uppercase truncate">
+                              {u.email}
+                            </div>
+                            <div className="text-[8px] font-mono text-slate-600 mt-0.5 truncate">
+                              {u.id}
+                            </div>
+                          </div>
                         </div>
-                        <div className="text-[10px] font-bold text-slate-500 uppercase">
-                          {u.email}
+                      </td>
+                      <td className="px-8 py-6">
+                        <select
+                          value={u.role}
+                          onChange={(e) => handleModeration(u.id, 'SET_ROLE', e.target.value)}
+                          disabled={!isAdmin()}
+                          className="bg-white/5 border border-white/10 rounded-lg px-3 py-1.5 text-[9px] font-black uppercase text-white outline-none focus:border-cyan-500 disabled:opacity-50"
+                        >
+                          <option value="USER">USER</option>
+                          <option value="MODERATOR">MODERATOR</option>
+                          <option value="STAFF">STAFF</option>
+                          <option value="ADMIN">ADMIN</option>
+                        </select>
+                      </td>
+                      <td className="px-8 py-6">
+                        <div className="flex flex-col gap-2 items-start">
+                          <button
+                            onClick={() => handleModeration(u.id, 'SET_VERIFIED', !u.isVerified)}
+                            disabled={!isAdmin()}
+                            className={`flex items-center gap-2 px-3 py-1.5 rounded-full border text-[9px] font-black uppercase transition-all disabled:opacity-50 ${u.isVerified ? 'bg-cyan-500/10 border-cyan-500/30 text-cyan-400' : 'bg-white/5 border-white/10 text-slate-500 hover:bg-white/10'}`}
+                          >
+                            <span className="material-icons text-[10px]">verified</span>
+                            {u.isVerified ? 'VERIFIED' : 'UNVERIFIED'}
+                          </button>
+                          {u.twoFactorEnabled && (
+                            <div className="flex items-center gap-2 text-[9px] font-bold text-amber-400 uppercase">
+                              <span className="material-icons text-[10px]">lock</span> 2FA Active
+                            </div>
+                          )}
                         </div>
-                      </div>
-                    </div>
-                  </td>
-                  <td className="px-8 py-6">
-                    <select
-                      value={u.role}
-                      onChange={(e) => handleSetRole(u.id, e.target.value)}
-                      className="bg-white/5 border border-white/10 rounded-lg px-3 py-1.5 text-[9px] font-black uppercase text-white outline-none focus:border-cyan-500"
-                    >
-                      <option value="USER">USER</option>
-                      <option value="MODERATOR">MODERATOR</option>
-                      <option value="STAFF">STAFF</option>
-                      <option value="ADMIN">ADMIN</option>
-                    </select>
-                  </td>
-                  <td className="px-8 py-6">
-                    <button
-                      onClick={() => handleToggleVerified(u.id, !u.isVerified)}
-                      className={`flex items-center gap-2 px-3 py-1.5 rounded-full border text-[9px] font-black uppercase transition-all ${u.isVerified ? 'bg-cyan-500/10 border-cyan-500/30 text-cyan-400' : 'bg-white/5 border-white/10 text-slate-500'}`}
-                    >
-                      <span className="material-icons text-xs">verified</span>
-                      {u.isVerified ? 'VERIFIED' : 'UNVERIFIED'}
-                    </button>
-                  </td>
-                  <td className="px-8 py-6 text-right space-x-2">
-                    {u.role !== 'ADMIN' && (
-                      <div className="flex justify-end gap-1">
-                        <button
-                          onClick={() =>
-                            handleModeration(u.id, u.isMuted ? 'UNMUTE' : 'MUTE', true)
-                          }
-                          className="px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest bg-white/5 text-slate-500 hover:text-amber-400 hover:bg-amber-400/10 transition-all"
-                        >
-                          {u.isMuted ? 'UNMUTE' : 'MUTE'}
-                        </button>
-                        <button
-                          onClick={() =>
-                            u.suspendedAt
-                              ? handleModeration(u.id, 'UNSUSPEND', true)
-                              : setSuspendTarget(u)
-                          }
-                          className="px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest bg-white/5 text-slate-500 hover:text-red-400 hover:bg-red-400/10 transition-all"
-                        >
-                          {u.suspendedAt ? 'UNSUSPEND' : 'SUSPEND'}
-                        </button>
-                      </div>
-                    )}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                      </td>
+                      <td className="px-8 py-6 text-right space-x-2">
+                        {u.role !== 'ADMIN' && (
+                          <div className="flex flex-wrap justify-end gap-1.5">
+                            <button
+                              onClick={() => handleModeration(u.id, u.isMuted ? 'UNMUTE' : 'MUTE')}
+                              className={`px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all ${u.isMuted ? 'bg-amber-400 text-slate-900 shadow-lg shadow-amber-900/20' : 'bg-white/5 text-slate-500 hover:text-amber-400 hover:bg-amber-400/10'}`}
+                            >
+                              {u.isMuted ? 'MUTED' : 'MUTE'}
+                            </button>
+                            <button
+                              onClick={() =>
+                                handleModeration(u.id, u.isRestricted ? 'UNRESTRICT' : 'RESTRICT')
+                              }
+                              className={`px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all ${u.isRestricted ? 'bg-orange-500 text-white shadow-lg shadow-orange-900/20' : 'bg-white/5 text-slate-500 hover:text-orange-400 hover:bg-orange-500/10'}`}
+                            >
+                              {u.isRestricted ? 'RESTRICTED' : 'RESTRICT'}
+                            </button>
+                            <button
+                              onClick={() =>
+                                handleModeration(
+                                  u.id,
+                                  u.suspendedAt ? 'UNSUSPEND' : 'SUSPEND',
+                                  'Administrative action',
+                                )
+                              }
+                              className={`px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all ${u.suspendedAt ? 'bg-red-500 text-white shadow-lg shadow-red-900/20' : 'bg-white/5 text-slate-500 hover:text-red-400 hover:bg-red-500/10'}`}
+                            >
+                              {u.suspendedAt ? 'SUSPENDED' : 'SUSPEND'}
+                            </button>
+
+                            {/* Dropdown for rare actions */}
+                            {isAdmin() && (
+                              <div className="relative group/actions inline-block">
+                                <button className="px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest bg-white/5 text-slate-500 hover:bg-white/10">
+                                  MORE{' '}
+                                  <span className="material-icons text-[10px] ml-1">
+                                    expand_more
+                                  </span>
+                                </button>
+                                <div className="absolute right-0 top-full mt-1 w-48 bg-slate-900 border border-white/10 rounded-xl shadow-2xl opacity-0 group-hover/actions:opacity-100 pointer-events-none group-hover/actions:pointer-events-auto transition-all z-50 overflow-hidden text-left">
+                                  <button
+                                    onClick={() => {
+                                      const em = prompt('New Email:');
+                                      if (em) handleModeration(u.id, 'CHANGE_EMAIL', em);
+                                    }}
+                                    className="w-full px-4 py-2.5 text-[9px] font-bold text-white hover:bg-white/5 uppercase transition-all"
+                                  >
+                                    Change Email
+                                  </button>
+                                  <button
+                                    onClick={() => {
+                                      const un = prompt('New Username:');
+                                      if (un) handleModeration(u.id, 'CHANGE_USERNAME', un);
+                                    }}
+                                    className="w-full px-4 py-2.5 text-[9px] font-bold text-white hover:bg-white/5 uppercase transition-all"
+                                  >
+                                    Change Username
+                                  </button>
+                                  {u.twoFactorEnabled && (
+                                    <button
+                                      onClick={() => {
+                                        if (confirm('Remove 2FA?'))
+                                          handleModeration(u.id, 'RESET_2FA');
+                                      }}
+                                      className="w-full px-4 py-2.5 text-[9px] font-bold text-amber-400 hover:bg-white/5 uppercase transition-all"
+                                    >
+                                      Remove 2FA
+                                    </button>
+                                  )}
+                                  <button
+                                    onClick={() => {
+                                      if (confirm('Force Password Reset?'))
+                                        handleModeration(u.id, 'RESET_PASSWORD');
+                                    }}
+                                    className="w-full px-4 py-2.5 text-[9px] font-bold text-orange-400 hover:bg-white/5 uppercase transition-all"
+                                  >
+                                    Force Password Reset
+                                  </button>
+                                  <div className="h-px bg-white/10" />
+                                  <button
+                                    onClick={() => {
+                                      if (confirm('Delete account permanently?'))
+                                        handleModeration(u.id, 'DELETE');
+                                    }}
+                                    className="w-full px-4 py-2.5 text-[9px] font-bold text-red-500 hover:bg-red-500/10 uppercase transition-all"
+                                  >
+                                    Delete Account
+                                  </button>
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        )}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {/* INFINITE SCROLL OBSERVER */}
+            <div
+              ref={observerTarget}
+              className="h-20 flex items-center justify-center border-t border-white/5"
+            >
+              {usersLoading && (
+                <div className="h-6 w-6 rounded-full border-2 border-cyan-500/20 border-t-cyan-500 animate-spin" />
+              )}
+              {!usersHasMore && users.length > 0 && (
+                <span className="text-[10px] font-black text-slate-600 uppercase tracking-widest">
+                  End of results
+                </span>
+              )}
+            </div>
+          </div>
         </div>
       )}
 
+      {/* POSTS TAB */}
+      {tab === 'posts' && (
+        <div className="space-y-6">
+          <div className="relative max-w-md">
+            <span className="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">
+              search
+            </span>
+            <input
+              type="text"
+              value={postSearch}
+              onChange={(e) => setPostSearch(e.target.value)}
+              placeholder="Search post ID, title, or content..."
+              className="w-full bg-white/[0.02] border border-white/[0.08] rounded-2xl py-3 pl-12 pr-4 text-white text-sm outline-none focus:border-cyan-500 transition-colors"
+            />
+          </div>
+
+          <div className="grid gap-4">
+            {posts.map((post) => (
+              <div
+                key={post.id}
+                className="p-8 rounded-[40px] border border-white/[0.08] bg-white/[0.02] hover:bg-white/[0.04] transition-all transform-gpu shadow-xl flex flex-col sm:flex-row gap-6 justify-between items-start sm:items-center"
+              >
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-3 mb-2 text-[10px] font-bold uppercase tracking-widest text-slate-500">
+                    <span className="text-cyan-400">@{post.user.username || 'unknown'}</span>
+                    <span className="h-1 w-1 rounded-full bg-white/20" />
+                    <span>{new Date(post.createdAt).toLocaleDateString()}</span>
+                    <span className="h-1 w-1 rounded-full bg-white/20" />
+                    <span className="font-mono text-slate-600">ID: {post.id}</span>
+                  </div>
+                  <Link
+                    href={`/posts/${post.id}`}
+                    className="text-xl font-bold text-white hover:text-cyan-400 transition-colors uppercase italic tracking-tight line-clamp-1 mb-2"
+                  >
+                    {post.title}
+                  </Link>
+                  <p className="text-sm text-slate-400 line-clamp-1 font-medium">{post.content}</p>
+                </div>
+
+                <div className="flex items-center gap-4 shrink-0">
+                  <div className="flex items-center gap-4 mr-4 text-[10px] font-bold text-slate-500">
+                    <div className="flex items-center gap-1">
+                      <span className="material-icons text-[14px]">favorite</span>{' '}
+                      {post._count.likes}
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <span className="material-icons text-[14px]">chat_bubble</span>{' '}
+                      {post._count.comments}
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => handleDeletePost(post.id)}
+                    className="h-12 w-12 rounded-2xl bg-red-500/10 border border-red-500/20 text-red-400 flex items-center justify-center hover:bg-red-500 hover:text-slate-900 transition-all"
+                  >
+                    <span className="material-icons">delete_outline</span>
+                  </button>
+                </div>
+              </div>
+            ))}
+            {posts.length === 0 && (
+              <div className="p-12 text-center text-slate-500 font-bold text-xs uppercase tracking-widest border border-dashed border-white/10 rounded-[40px]">
+                No posts found.
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* TICKETS TAB */}
       {tab === 'tickets' && (
         <div className="space-y-6">
           <div className="flex items-center justify-between mb-6 px-2">
@@ -363,8 +685,14 @@ export default function AdminDashboard() {
                     <option value="INVALID">INVALID</option>
                   </select>
                 </div>
-                <h3 className="text-2xl font-black text-white mb-4 uppercase italic tracking-tighter">
+                <h3 className="text-2xl font-black text-white mb-4 uppercase italic tracking-tighter flex items-center gap-4">
                   {tk.subject}
+                  <Link
+                    href={`/support/tickets/${tk.id}`}
+                    className="text-[10px] font-bold tracking-widest text-cyan-500 hover:text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full not-italic"
+                  >
+                    VIEW THREAD
+                  </Link>
                 </h3>
                 <p className="text-sm text-slate-400 leading-relaxed font-medium mb-8 p-6 rounded-3xl bg-slate-950/50 border border-white/5">
                   {tk.message}
@@ -412,7 +740,7 @@ export default function AdminDashboard() {
         </div>
       )}
 
-      {/* Incident logic here... */}
+      {/* INCIDENTS TAB */}
       {tab === 'incidents' && (
         <div className="space-y-8">
           <div className="flex items-center justify-between px-2">
@@ -420,7 +748,7 @@ export default function AdminDashboard() {
               Global Incidents.
             </h2>
             <button
-              onClick={() => setShowIncidentForm(true)}
+              onClick={() => resetIncidentForm()}
               className="px-8 py-3.5 rounded-2xl bg-cyan-500 text-slate-950 font-black text-[10px] uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95"
             >
               Log New Incident
@@ -429,8 +757,8 @@ export default function AdminDashboard() {
 
           {showIncidentForm && (
             <div className="p-10 rounded-[48px] bg-white/[0.03] border border-white/[0.08] shadow-2xl animate-fade-in space-y-6">
-              <div className="grid sm:grid-cols-2 gap-6">
-                <div>
+              <div className="grid sm:grid-cols-3 gap-6">
+                <div className="sm:col-span-2">
                   <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">
                     Title
                   </label>
@@ -441,6 +769,20 @@ export default function AdminDashboard() {
                     className="w-full rounded-2xl bg-slate-900 border border-white/10 p-4 text-white outline-none focus:border-cyan-500"
                     placeholder="e.g., API Node Latency"
                   />
+                </div>
+                <div>
+                  <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">
+                    Type
+                  </label>
+                  <select
+                    value={incidentType}
+                    onChange={(e) => setIncidentType(e.target.value)}
+                    className="w-full rounded-2xl bg-slate-900 border border-white/10 p-4 text-white outline-none focus:border-cyan-500"
+                  >
+                    <option value="SYSTEM">SYSTEM</option>
+                    <option value="API">API</option>
+                    <option value="APP">APP</option>
+                  </select>
                 </div>
                 <div>
                   <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">
@@ -457,6 +799,33 @@ export default function AdminDashboard() {
                     <option value="CRITICAL">CRITICAL</option>
                   </select>
                 </div>
+                <div>
+                  <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">
+                    Status
+                  </label>
+                  <select
+                    value={incidentStatus}
+                    onChange={(e) => setIncidentStatus(e.target.value)}
+                    className="w-full rounded-2xl bg-slate-900 border border-white/10 p-4 text-white outline-none focus:border-cyan-500"
+                  >
+                    <option value="INVESTIGATING">INVESTIGATING</option>
+                    <option value="IDENTIFIED">IDENTIFIED</option>
+                    <option value="MONITORING">MONITORING</option>
+                    <option value="RESOLVED">RESOLVED</option>
+                  </select>
+                </div>
+                <div>
+                  <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">
+                    Tags (Comma separated)
+                  </label>
+                  <input
+                    type="text"
+                    value={incidentTags}
+                    onChange={(e) => setIncidentTags(e.target.value)}
+                    className="w-full rounded-2xl bg-slate-900 border border-white/10 p-4 text-white outline-none focus:border-cyan-500"
+                    placeholder="API, Internal, Node-4"
+                  />
+                </div>
               </div>
               <div>
                 <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">
@@ -469,24 +838,12 @@ export default function AdminDashboard() {
                   placeholder="Provide details..."
                 />
               </div>
-              <div>
-                <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">
-                  Tags (Comma separated)
-                </label>
-                <input
-                  type="text"
-                  value={incidentTags}
-                  onChange={(e) => setIncidentTags(e.target.value)}
-                  className="w-full rounded-2xl bg-slate-900 border border-white/10 p-4 text-white outline-none focus:border-cyan-500"
-                  placeholder="API, Internal, Node-4"
-                />
-              </div>
               <div className="flex gap-4 pt-4">
                 <button
-                  onClick={handleCreateIncident}
+                  onClick={handleCreateOrUpdateIncident}
                   className="flex-1 py-4 rounded-2xl bg-cyan-500 text-slate-950 font-black text-[10px] uppercase tracking-widest hover:bg-cyan-400"
                 >
-                  PUBLISH INCIDENT
+                  {incidentId ? 'UPDATE INCIDENT' : 'PUBLISH INCIDENT'}
                 </button>
                 <button
                   onClick={() => setShowIncidentForm(false)}
@@ -502,22 +859,38 @@ export default function AdminDashboard() {
             {incidents.map((inc) => (
               <div
                 key={inc.id}
-                className="p-8 rounded-[40px] border border-white/[0.08] bg-white/[0.02] backdrop-blur-md"
+                className="p-8 rounded-[40px] border border-white/[0.08] bg-white/[0.02] backdrop-blur-md flex flex-col md:flex-row gap-6 justify-between items-start"
               >
-                <div className="flex justify-between items-start mb-6">
-                  <div>
-                    <div className="flex items-center gap-3 mb-2">
-                      <span className="text-[10px] font-black text-cyan-400 uppercase tracking-widest">
-                        {inc.severity} SEVERITY
-                      </span>
-                      <span className="text-[10px] font-bold text-slate-600 uppercase">
-                        {new Date(inc.createdAt).toLocaleString()}
-                      </span>
-                    </div>
-                    <h3 className="text-xl font-black text-white uppercase italic tracking-tighter">
-                      {inc.title}
-                    </h3>
+                <div>
+                  <div className="flex items-center gap-3 mb-2">
+                    <span className="text-[10px] font-black text-cyan-400 uppercase tracking-widest px-2 py-0.5 rounded-full border border-cyan-500/20 bg-cyan-500/10">
+                      {inc.type}
+                    </span>
+                    <span
+                      className={`text-[10px] font-black uppercase tracking-widest ${inc.severity === 'CRITICAL' ? 'text-red-400' : 'text-slate-400'}`}
+                    >
+                      {inc.severity} SEVERITY
+                    </span>
+                    <span className="text-[10px] font-bold text-slate-600 uppercase">
+                      {new Date(inc.createdAt).toLocaleString()}
+                    </span>
                   </div>
+                  <h3 className="text-xl font-black text-white uppercase italic tracking-tighter">
+                    {inc.title}
+                  </h3>
+                  <div className="flex flex-wrap gap-2 mt-3">
+                    {inc.tags.map((t) => (
+                      <span
+                        key={t}
+                        className="px-2 py-0.5 rounded bg-white/5 border border-white/5 text-[8px] font-black text-slate-500 uppercase tracking-widest"
+                      >
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-3 w-full md:w-auto">
                   <select
                     value={inc.status}
                     onChange={(e) => {
@@ -530,23 +903,25 @@ export default function AdminDashboard() {
                         }),
                       }).then(() => fetchIncidents());
                     }}
-                    className="bg-white/5 border border-white/10 rounded-xl px-4 py-2 text-[10px] font-black uppercase text-white outline-none"
+                    className="bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-[10px] font-black uppercase text-white outline-none cursor-pointer flex-1 md:flex-none"
                   >
                     <option value="INVESTIGATING">INVESTIGATING</option>
                     <option value="IDENTIFIED">IDENTIFIED</option>
                     <option value="MONITORING">MONITORING</option>
                     <option value="RESOLVED">RESOLVED</option>
                   </select>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  {inc.tags.map((t) => (
-                    <span
-                      key={t}
-                      className="px-2 py-0.5 rounded bg-white/5 text-[8px] font-black text-slate-500 uppercase tracking-widest"
-                    >
-                      {t}
-                    </span>
-                  ))}
+                  <button
+                    onClick={() => openIncidentEdit(inc)}
+                    className="h-10 w-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white transition-all shrink-0"
+                  >
+                    <span className="material-icons text-sm">edit</span>
+                  </button>
+                  <button
+                    onClick={() => handleDeleteIncident(inc.id)}
+                    className="h-10 w-10 rounded-xl bg-red-500/10 border border-red-500/20 flex items-center justify-center text-red-400 hover:bg-red-500 hover:text-slate-900 transition-all shrink-0"
+                  >
+                    <span className="material-icons text-sm">delete_outline</span>
+                  </button>
                 </div>
               </div>
             ))}

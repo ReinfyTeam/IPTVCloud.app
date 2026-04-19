@@ -104,16 +104,16 @@ export default function AccountPage() {
               </p>
             </div>
 
-            <div className="flex gap-3">
+            <div className="flex flex-col sm:flex-row gap-3">
               <Link
                 href="/account/settings"
-                className="px-8 py-4 rounded-2xl bg-white/5 border border-white/10 text-[10px] font-black text-white uppercase tracking-widest hover:bg-white/10 transition-all active:scale-95"
+                className="inline-flex items-center justify-center px-8 py-4 rounded-2xl bg-white/5 border border-white/10 text-[10px] font-black text-white uppercase tracking-widest hover:bg-white/10 transition-all active:scale-95"
               >
                 Settings
               </Link>
               <button
                 onClick={() => void handleLogout()}
-                className="px-8 py-4 rounded-2xl bg-red-500/10 border border-red-500/20 text-[10px] font-black text-red-400 uppercase tracking-widest hover:bg-red-500/20 transition-all active:scale-95"
+                className="inline-flex items-center justify-center px-8 py-4 rounded-2xl bg-red-500/10 border border-red-500/20 text-[10px] font-black text-red-400 uppercase tracking-widest hover:bg-red-500/20 transition-all active:scale-95"
               >
                 Logout
               </button>

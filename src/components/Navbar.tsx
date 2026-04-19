@@ -9,6 +9,7 @@ import { useNetworkStatus } from '@/hooks/use-network';
 import type { Channel } from '@/types';
 import BrandLogo from './BrandLogo';
 import NavbarDropdown from './NavbarDropdown';
+import VerifiedBadge from './VerifiedBadge';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -22,6 +23,8 @@ export default function Navbar() {
   const [suggestions, setSuggestions] = useState<Channel[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
+  const [profileOpen, setProfileOpen] = useState(false);
+  const profileRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setMounted(true);
@@ -38,12 +41,16 @@ export default function Navbar() {
       if (searchRef.current && !searchRef.current.contains(e.target as Node)) {
         setShowSuggestions(false);
       }
+      if (profileRef.current && !profileRef.current.contains(e.target as Node)) {
+        setProfileOpen(false);
+      }
     };
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   const handleLogout = async () => {
+    setProfileOpen(false);
     await fetch('/api/auth/logout', { method: 'POST' });
     clearAuth();
     window.location.href = '/';
@@ -84,7 +91,6 @@ export default function Navbar() {
   const statusDropdownItems = [
     { label: 'System Status', href: '/status', icon: 'bar_chart' },
     { label: 'Support ticket', href: '/support', icon: 'confirmation_number' },
-    ...(isAdmin() ? [{ label: 'Admin Dashboard', href: '/account/admin', icon: 'security' }] : []),
   ];
 
   const aboutDropdownItems = [
@@ -109,7 +115,7 @@ export default function Navbar() {
         }`}
       >
         <div className="mx-auto max-w-[1460px] px-4 sm:px-6">
-          <div className="flex h-20 items-center gap-4">
+          <div className="flex h-16 items-center gap-4">
             <Link
               href="/home"
               className="flex items-center gap-3 group shrink-0 transition-transform active:scale-95"
@@ -120,7 +126,7 @@ export default function Navbar() {
             <nav className="hidden xl:flex items-center gap-1 ml-8">
               <Link
                 href="/home"
-                className={`rounded-full px-5 py-2.5 text-xs font-black uppercase tracking-widest transition-all duration-200 hover:scale-105 active:scale-95 ${
+                className={`rounded-full px-5 py-2.5 text-xs font-black uppercase tracking-widest transition-all duration-200 flex items-center gap-2 active:scale-95 ${
                   pathname === '/home'
                     ? 'bg-white/10 text-white shadow-lg'
                     : 'text-slate-500 hover:text-white hover:bg-white/5'
@@ -177,7 +183,7 @@ export default function Navbar() {
                     setShowSuggestions(false);
                   }
                 }}
-                className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 py-3 pl-11 pr-4 text-xs font-bold text-white placeholder:text-slate-500 outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm shadow-inner"
+                className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 py-2.5 pl-11 pr-4 text-xs font-bold text-white placeholder:text-slate-500 outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm shadow-inner"
               />
               {showSuggestions && suggestions.length > 0 && (
                 <div className="absolute top-full left-0 right-0 mt-3 rounded-[32px] border border-white/[0.08] bg-slate-900/95 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden animate-fade-in z-50 transform-gpu p-2">
@@ -259,51 +265,126 @@ export default function Navbar() {
               )}
             </div>
 
-            <div className="flex items-center gap-3 ml-auto lg:ml-0">
+            <div className="flex items-center gap-1.5 sm:gap-3 ml-auto lg:ml-0">
+              {mounted && user && (
+                <Link
+                  href="/account/notifications"
+                  className="h-10 w-10 hidden sm:flex items-center justify-center rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all border border-transparent hover:border-white/10 active:scale-95 relative"
+                >
+                  <span className="material-icons text-xl">notifications</span>
+                  <span className="absolute top-2 right-2 h-2 w-2 rounded-full bg-cyan-500 shadow-[0_0_10px_rgba(6,182,212,0.8)]" />
+                </Link>
+              )}
+
               {mounted &&
                 (user ? (
-                  <div className="flex items-center gap-3">
-                    <Link
-                      href="/account"
-                      className={`flex items-center gap-3 rounded-2xl px-4 py-2 transition-all duration-200 hover:scale-105 active:scale-95 border ${
-                        pathname === '/account'
+                  <div className="relative" ref={profileRef}>
+                    <button
+                      onClick={() => setProfileOpen(!profileOpen)}
+                      className={`flex items-center gap-3 rounded-xl px-2 py-1.5 transition-all duration-200 hover:scale-105 active:scale-95 border ${
+                        profileOpen ||
+                        pathname.startsWith('/profile') ||
+                        pathname.startsWith('/account')
                           ? 'bg-white/10 text-white border-white/20 shadow-lg'
                           : 'text-slate-400 hover:text-white hover:bg-white/5 border-transparent'
                       }`}
                     >
-                      <div className="h-8 w-8 rounded-xl bg-slate-800 border border-white/10 flex items-center justify-center text-slate-400 shadow-inner">
-                        <span className="material-icons text-xl">account_circle</span>
+                      <div className="h-7 w-7 rounded-lg bg-slate-800 border border-white/10 flex items-center justify-center text-slate-400 shadow-inner">
+                        <span className="material-icons text-lg">account_circle</span>
                       </div>
-                      <span className="text-[10px] font-black uppercase tracking-widest hidden sm:inline">
+                      <span className="text-[10px] font-black uppercase tracking-widest hidden sm:inline mr-1">
                         {user.username || user.email.split('@')[0]}
                       </span>
-                    </Link>
-                    <button
-                      onClick={() => void handleLogout()}
-                      className="hidden sm:flex rounded-2xl px-6 py-3 text-[10px] font-black text-slate-500 hover:text-red-400 hover:bg-red-500/5 transition-all duration-200 active:scale-95 uppercase tracking-widest"
-                    >
-                      Exit
                     </button>
+
+                    {profileOpen && (
+                      <div className="absolute top-full right-0 mt-3 w-64 rounded-[32px] border border-white/[0.08] bg-slate-900/95 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden animate-fade-in z-50 p-2">
+                        <div className="p-4 border-b border-white/5 mb-2 flex items-center gap-3">
+                          <div className="flex-1 min-w-0">
+                            <div className="text-sm font-black text-white truncate flex items-center gap-1">
+                              {user.username || user.email.split('@')[0]}
+                              {user.isVerified && <VerifiedBadge className="text-[12px] ml-1" />}
+                            </div>
+                            <div className="text-[10px] text-slate-500 truncate">{user.email}</div>
+                          </div>
+                        </div>
+                        <div className="grid gap-1">
+                          <DropdownLink
+                            href={`/profile/${user.username || user.id}`}
+                            icon="person"
+                            label="Show profile"
+                            setOpen={setProfileOpen}
+                          />
+                          <DropdownLink
+                            href="/account/posts"
+                            icon="article"
+                            label="Manage Posts"
+                            setOpen={setProfileOpen}
+                          />
+                          {isAdmin() && (
+                            <DropdownLink
+                              href="/account/admin"
+                              icon="security"
+                              label="Admin Dashboard"
+                              setOpen={setProfileOpen}
+                            />
+                          )}
+                          <DropdownLink
+                            href="/account/settings"
+                            icon="settings"
+                            label="Personal Settings"
+                            setOpen={setProfileOpen}
+                          />
+                          <DropdownLink
+                            href="/account/settings/credentials"
+                            icon="lock"
+                            label="Privacy & Security"
+                            setOpen={setProfileOpen}
+                          />
+                          <button
+                            onClick={handleLogout}
+                            className="w-full flex items-center gap-4 p-4 hover:bg-red-500/10 rounded-2xl transition-all group/item text-left text-red-400 mt-1"
+                          >
+                            <div className="h-9 w-9 rounded-xl bg-red-500/10 border border-red-500/20 flex items-center justify-center group-hover/item:bg-red-500 group-hover/item:text-slate-900 transition-all">
+                              <span className="material-icons text-lg">logout</span>
+                            </div>
+                            <span className="text-[11px] font-black uppercase tracking-widest group-hover/item:text-red-300">
+                              Logout
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 ) : (
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-2 sm:gap-3">
                     <Link
                       href="/account/signin"
-                      className="rounded-2xl px-6 py-3 text-[10px] font-black text-slate-400 hover:text-white transition-all duration-200 hover:scale-105 active:scale-95 uppercase tracking-widest"
+                      className="rounded-xl px-4 py-2.5 text-[10px] font-black text-slate-400 hover:text-white transition-all duration-200 hover:scale-105 active:scale-95 uppercase tracking-widest"
                     >
                       Login
                     </Link>
                     <Link
                       href="/account/signup"
-                      className="rounded-2xl bg-cyan-500 px-8 py-3.5 text-[10px] font-black text-slate-950 hover:bg-cyan-400 transition-all duration-200 hover:scale-105 active:scale-95 shadow-lg shadow-cyan-900/30 uppercase tracking-widest"
+                      className="rounded-xl bg-cyan-500 px-5 py-2.5 text-[10px] font-black text-slate-950 hover:bg-cyan-400 transition-all duration-200 hover:scale-105 active:scale-95 shadow-lg shadow-cyan-900/30 uppercase tracking-widest"
                     >
                       Register
                     </Link>
                   </div>
                 ))}
 
+              {mounted && user && (
+                <Link
+                  href="/account/notifications"
+                  className="h-10 w-10 sm:hidden flex items-center justify-center rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all border border-transparent hover:border-white/10 active:scale-95 relative"
+                >
+                  <span className="material-icons text-xl">notifications</span>
+                  <span className="absolute top-2 right-2 h-2 w-2 rounded-full bg-cyan-500 shadow-[0_0_10px_rgba(6,182,212,0.8)]" />
+                </Link>
+              )}
+
               <button
-                className="xl:hidden rounded-2xl p-3 text-slate-400 hover:text-white hover:bg-white/5 transition-all active:scale-90 bg-white/5 border border-white/10"
+                className="xl:hidden rounded-xl p-2 text-slate-400 hover:text-white hover:bg-white/5 transition-all active:scale-90 bg-white/5 border border-white/10 ml-1"
                 onClick={() => setMenuOpen(!menuOpen)}
               >
                 <span className="material-icons">{menuOpen ? 'close' : 'menu'}</span>
@@ -312,8 +393,129 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile menu logic... */}
+        {/* Mobile menu logic */}
+        {menuOpen && (
+          <div className="xl:hidden fixed inset-0 z-40 bg-slate-950/95 backdrop-blur-xl border-t border-white/[0.05] top-[64px] animate-fade-in overflow-y-auto pb-20">
+            <div className="px-4 py-6 space-y-6">
+              <nav className="grid gap-2">
+                <MobileLink
+                  href="/home"
+                  label="Home"
+                  icon="home"
+                  onClick={() => setMenuOpen(false)}
+                  active={pathname === '/home'}
+                />
+                <MobileSection
+                  label="Channels"
+                  items={channelDropdownItems}
+                  setOpen={setMenuOpen}
+                />
+                <MobileSection
+                  label="Community"
+                  items={communityDropdownItems}
+                  setOpen={setMenuOpen}
+                />
+                <MobileSection label="Status" items={statusDropdownItems} setOpen={setMenuOpen} />
+                <MobileSection label="About Us" items={aboutDropdownItems} setOpen={setMenuOpen} />
+              </nav>
+            </div>
+          </div>
+        )}
       </header>
     </>
+  );
+}
+
+function DropdownLink({
+  href,
+  icon,
+  label,
+  setOpen,
+}: {
+  href: string;
+  icon: string;
+  label: string;
+  setOpen: (v: boolean) => void;
+}) {
+  return (
+    <Link
+      href={href}
+      onClick={() => setOpen(false)}
+      className="flex items-center gap-4 p-3 hover:bg-white/5 rounded-2xl transition-all active:scale-[0.98] group/item"
+    >
+      <div className="h-9 w-9 rounded-xl bg-slate-800 border border-white/5 flex items-center justify-center text-slate-500 group-hover/item:text-cyan-400 group-hover/item:border-cyan-500/20 transition-all">
+        <span className="material-icons text-lg">{icon}</span>
+      </div>
+      <span className="text-[11px] font-black text-slate-400 group-hover/item:text-white transition-colors uppercase tracking-widest">
+        {label}
+      </span>
+    </Link>
+  );
+}
+
+function MobileLink({
+  href,
+  label,
+  icon,
+  onClick,
+  active,
+}: {
+  href: string;
+  label: string;
+  icon: string;
+  onClick: () => void;
+  active?: boolean;
+}) {
+  return (
+    <Link
+      href={href}
+      onClick={onClick}
+      className={`flex items-center gap-4 p-4 rounded-2xl transition-all active:scale-[0.98] ${active ? 'bg-white/10 text-white' : 'hover:bg-white/5 text-slate-400'}`}
+    >
+      <span className={`material-icons ${active ? 'text-cyan-400' : ''}`}>{icon}</span>
+      <span className="text-[11px] font-black uppercase tracking-widest">{label}</span>
+    </Link>
+  );
+}
+
+function MobileSection({
+  label,
+  items,
+  setOpen,
+}: {
+  label: string;
+  items: any[];
+  setOpen: (v: boolean) => void;
+}) {
+  const [open, setOpenSection] = useState(false);
+  return (
+    <div className="border border-white/5 rounded-2xl bg-white/[0.02] overflow-hidden">
+      <button
+        onClick={() => setOpenSection(!open)}
+        className="w-full flex items-center justify-between p-4 text-slate-400 hover:bg-white/5 transition-all"
+      >
+        <span className="text-[11px] font-black uppercase tracking-widest">{label}</span>
+        <span
+          className={`material-icons transition-transform duration-300 ${open ? 'rotate-180' : ''}`}
+        >
+          expand_more
+        </span>
+      </button>
+      {open && (
+        <div className="px-2 pb-2 grid gap-1 border-t border-white/5 pt-2">
+          {items.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              onClick={() => setOpen(false)}
+              className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 text-slate-500 hover:text-white transition-all"
+            >
+              {item.icon && <span className="material-icons text-sm">{item.icon}</span>}
+              <span className="text-[10px] font-black uppercase tracking-widest">{item.label}</span>
+            </Link>
+          ))}
+        </div>
+      )}
+    </div>
   );
 }

@@ -14,6 +14,11 @@ export async function GET(request: Request) {
       country: url.searchParams.get('country') || undefined,
       category: url.searchParams.get('category') || undefined,
       language: url.searchParams.get('language') || undefined,
+      subdivision: url.searchParams.get('subdivision') || undefined,
+      city: url.searchParams.get('city') || undefined,
+      region: url.searchParams.get('region') || undefined,
+      timezone: url.searchParams.get('timezone') || undefined,
+      blocklist: url.searchParams.get('blocklist') || undefined,
     });
 
     return NextResponse.json(response);

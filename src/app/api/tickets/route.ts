@@ -66,13 +66,31 @@ export async function POST(req: Request) {
 
 export async function PATCH(req: Request) {
   try {
-    const auth = await authorizeRequest(req, { requireStaff: true });
+    const auth = await authorizeRequest(req);
     if (auth instanceof NextResponse) return auth;
 
     const { id, status, handledById, isArchived } = await req.json();
     if (!id) return NextResponse.json({ error: 'ID required' }, { status: 400 });
 
-    const ticket = await prisma.ticket.update({
+    const ticket = await prisma.ticket.findUnique({ where: { id } });
+    if (!ticket) return NextResponse.json({ error: 'Not found' }, { status: 404 });
+
+    if (!auth.isStaff) {
+      if (ticket.userId !== auth.user!.id) {
+        return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+      }
+      // User can only archive
+      if (status !== undefined || handledById !== undefined) {
+        return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+      }
+      const updated = await prisma.ticket.update({
+        where: { id },
+        data: { ...(isArchived !== undefined ? { isArchived } : {}) },
+      });
+      return NextResponse.json(updated);
+    }
+
+    const updatedTicket = await prisma.ticket.update({
       where: { id },
       data: {
         ...(status ? { status } : {}),
@@ -81,7 +99,25 @@ export async function PATCH(req: Request) {
       },
     });
 
-    return NextResponse.json(ticket);
+    return NextResponse.json(updatedTicket);
+  } catch (error) {
+    return NextResponse.json({ error: 'Failed' }, { status: 500 });
+  }
+}
+
+export async function DELETE(req: Request) {
+  try {
+    const auth = await authorizeRequest(req, { requireStaff: true });
+    if (auth instanceof NextResponse) return auth;
+
+    const { searchParams } = new URL(req.url);
+    const id = searchParams.get('id');
+
+    if (!id) return NextResponse.json({ error: 'ID required' }, { status: 400 });
+
+    await prisma.ticket.delete({ where: { id } });
+
+    return NextResponse.json({ success: true });
   } catch (error) {
     return NextResponse.json({ error: 'Failed' }, { status: 500 });
   }

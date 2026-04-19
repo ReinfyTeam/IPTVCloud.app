@@ -21,13 +21,14 @@ export async function POST(req: Request) {
     const auth = await authorizeRequest(req, { requireStaff: true });
     if (auth instanceof NextResponse) return auth;
 
-    const { action, id, title, description, status, severity, tags } = await req.json();
+    const { action, id, title, description, status, severity, tags, type } = await req.json();
 
     if (action === 'CREATE') {
       const incident = await prisma.incident.create({
         data: {
           title,
           description,
+          type: type || 'SYSTEM',
           status: status || 'INVESTIGATING',
           severity: severity || 'LOW',
           tags: tags || [],
@@ -43,6 +44,7 @@ export async function POST(req: Request) {
         data: {
           ...(title ? { title } : {}),
           ...(description ? { description } : {}),
+          ...(type ? { type } : {}),
           status,
           severity,
           tags,

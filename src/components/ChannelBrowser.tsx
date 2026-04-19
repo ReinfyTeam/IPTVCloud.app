@@ -40,6 +40,8 @@ type Props = {
   initialCountry?: string;
   initialCategory?: string;
   initialResolution?: string;
+  initialLanguage?: string;
+  initialTimezone?: string;
 };
 
 export default function ChannelBrowser({
@@ -48,6 +50,8 @@ export default function ChannelBrowser({
   initialCountry = '',
   initialCategory = '',
   initialResolution = '',
+  initialLanguage = '',
+  initialTimezone = '',
 }: Props) {
   const router = useRouter();
   const { viewMode, setViewMode } = usePlayerStore();
@@ -58,6 +62,13 @@ export default function ChannelBrowser({
   const [country, setCountry] = useState(initialCountry);
   const [category, setCategory] = useState(initialCategory);
   const [resolution, setResolution] = useState(initialResolution);
+  const [language, setLanguage] = useState(initialLanguage);
+  const [timezone, setTimezone] = useState(initialTimezone);
+  const [subdivision, setSubdivision] = useState('');
+  const [city, setCity] = useState('');
+  const [region, setRegion] = useState('');
+  const [blocklist, setBlocklist] = useState('');
+
   const [favoritesOnly, setFavoritesOnly] = useState(false);
   const [sortBy, setSortBy] = useState('recommended');
   const [page, setPage] = useState(1);
@@ -69,7 +80,20 @@ export default function ChannelBrowser({
 
   useEffect(() => {
     setPage(1);
-  }, [debouncedSearch, country, category, resolution, favoritesOnly, sortBy]);
+  }, [
+    debouncedSearch,
+    country,
+    category,
+    resolution,
+    language,
+    timezone,
+    subdivision,
+    city,
+    region,
+    blocklist,
+    favoritesOnly,
+    sortBy,
+  ]);
 
   const filterOptions = useMemo(
     () => ({
@@ -87,10 +111,25 @@ export default function ChannelBrowser({
             .filter(Boolean),
         ),
       ].sort(),
-      languages: [],
+      languages: [
+        ...new Set(channels.map((c) => c.language).filter((r): r is string => Boolean(r))),
+      ].sort(),
       resolutions: [
         ...new Set(channels.map((c) => c.resolution).filter((r): r is string => Boolean(r))),
       ].sort(),
+      timezones: [
+        ...new Set(channels.map((c) => c.timezone).filter((r): r is string => Boolean(r))),
+      ].sort(),
+      subdivisions: [
+        ...new Set(channels.map((c) => c.subdivision).filter((r): r is string => Boolean(r))),
+      ].sort(),
+      cities: [
+        ...new Set(channels.map((c) => c.city).filter((r): r is string => Boolean(r))),
+      ].sort(),
+      regions: [
+        ...new Set(channels.map((c) => c.region).filter((r): r is string => Boolean(r))),
+      ].sort(),
+      blocklist: [],
     }),
     [channels],
   );
@@ -100,11 +139,16 @@ export default function ChannelBrowser({
     const cry = country.toLowerCase();
     const cat = category.toLowerCase();
     const res = resolution.toLowerCase();
+    const lang = language.toLowerCase();
+    const tz = timezone.toLowerCase();
+    const sub = subdivision.toLowerCase();
+    const ct = city.toLowerCase();
+    const reg = region.toLowerCase();
 
     let filtered = channels.filter((c) => {
       if (
         q &&
-        !['name', 'country', 'category', 'language'].some((k) =>
+        !['name', 'country', 'category', 'language', 'timezone'].some((k) =>
           (c[k as keyof Channel] as string)?.toLowerCase().includes(q),
         )
       )
@@ -112,6 +156,11 @@ export default function ChannelBrowser({
       if (country && (c.country?.toLowerCase() || 'international') !== cry) return false;
       if (category && (c.category?.toLowerCase() || 'uncategorized') !== cat) return false;
       if (resolution && c.resolution?.toLowerCase() !== res) return false;
+      if (language && c.language?.toLowerCase() !== lang) return false;
+      if (timezone && c.timezone?.toLowerCase() !== tz) return false;
+      if (subdivision && c.subdivision?.toLowerCase() !== sub) return false;
+      if (city && c.city?.toLowerCase() !== ct) return false;
+      if (region && c.region?.toLowerCase() !== reg) return false;
       if (favoritesOnly && !favoriteIds.includes(c.id)) return false;
       return true;
     });
@@ -141,6 +190,11 @@ export default function ChannelBrowser({
     country,
     category,
     resolution,
+    language,
+    timezone,
+    subdivision,
+    city,
+    region,
     favoritesOnly,
     favoriteIds,
     sortBy,
@@ -177,10 +231,29 @@ export default function ChannelBrowser({
     setCountry('');
     setCategory('');
     setResolution('');
+    setLanguage('');
+    setTimezone('');
+    setSubdivision('');
+    setCity('');
+    setRegion('');
+    setBlocklist('');
     setFavoritesOnly(false);
     setSortBy('recommended');
   };
-  const hasFilters = Boolean(search || country || category || resolution || favoritesOnly);
+
+  const hasFilters = Boolean(
+    search ||
+    country ||
+    category ||
+    resolution ||
+    language ||
+    timezone ||
+    subdivision ||
+    city ||
+    region ||
+    blocklist ||
+    favoritesOnly,
+  );
 
   return (
     <div className="flex pt-16">
@@ -191,10 +264,20 @@ export default function ChannelBrowser({
         setCountry={setCountry}
         category={category}
         setCategory={setCategory}
-        language=""
-        setLanguage={() => {}}
+        language={language}
+        setLanguage={setLanguage}
         resolution={resolution}
         setResolution={setResolution}
+        timezone={timezone}
+        setTimezone={setTimezone}
+        subdivision={subdivision}
+        setSubdivision={setSubdivision}
+        city={city}
+        setCity={setCity}
+        region={region}
+        setRegion={setRegion}
+        blocklist={blocklist}
+        setBlocklist={setBlocklist}
         favoritesOnly={favoritesOnly}
         setFavoritesOnly={setFavoritesOnly}
         filterOptions={filterOptions}
@@ -204,13 +287,17 @@ export default function ChannelBrowser({
         setSortBy={setSortBy}
       />
 
-      <div className="flex-1 lg:pl-72 transition-all duration-500 pb-20 transform-gpu bg-slate-950 min-h-screen">
+      <div className="flex-1 lg:pl-80 transition-all duration-500 pb-20 transform-gpu bg-slate-950 min-h-screen">
         <section id="channels" className="px-6 py-10">
           <div className="mx-auto max-w-[1460px]">
             <div className="flex items-center gap-2 overflow-x-auto pb-10 scrollbar-hide -mx-2 px-2">
               <button
                 onClick={() => setCategory('')}
-                className={`shrink-0 flex items-center gap-3 px-8 py-4 rounded-3xl text-[10px] font-black uppercase tracking-widest border transition-all active:scale-95 transform-gpu ${!category ? 'bg-cyan-500 border-cyan-500 text-slate-950 shadow-[0_0_30px_rgba(6,182,212,0.4)]' : 'bg-white/5 border-white/10 text-slate-400 hover:text-white hover:bg-white/10'}`}
+                className={`shrink-0 flex items-center gap-3 px-8 py-4 rounded-3xl text-[10px] font-black uppercase tracking-widest border transition-all active:scale-95 transform-gpu ${
+                  !category
+                    ? 'bg-cyan-500 border-cyan-500 text-slate-950 shadow-[0_0_30px_rgba(6,182,212,0.4)]'
+                    : 'bg-white/5 border-white/10 text-slate-400 hover:text-white hover:bg-white/10'
+                }`}
               >
                 <span className="material-icons text-lg">apps</span>
                 All
@@ -219,7 +306,11 @@ export default function ChannelBrowser({
                 <button
                   key={cat}
                   onClick={() => setCategory(cat)}
-                  className={`shrink-0 flex items-center gap-3 px-8 py-4 rounded-3xl text-[10px] font-black uppercase tracking-widest border transition-all active:scale-95 transform-gpu ${category === cat ? 'bg-cyan-500 border-cyan-500 text-slate-950 shadow-[0_0_30px_rgba(6,182,212,0.4)]' : 'bg-white/5 border-white/10 text-slate-400 hover:text-white hover:bg-white/10'}`}
+                  className={`shrink-0 flex items-center gap-3 px-8 py-4 rounded-3xl text-[10px] font-black uppercase tracking-widest border transition-all active:scale-95 transform-gpu ${
+                    category === cat
+                      ? 'bg-cyan-500 border-cyan-500 text-slate-950 shadow-[0_0_30px_rgba(6,182,212,0.4)]'
+                      : 'bg-white/5 border-white/10 text-slate-400 hover:text-white hover:bg-white/10'
+                  }`}
                 >
                   <span className="material-icons text-lg">
                     {CATEGORY_ICONS[cat.toLowerCase()] || 'folder'}
@@ -249,7 +340,11 @@ export default function ChannelBrowser({
                     <button
                       key={m}
                       onClick={() => setViewMode(m)}
-                      className={`rounded-2xl px-6 py-3 transition-all duration-500 active:scale-95 flex items-center gap-3 ${viewMode === m ? 'bg-white text-slate-950 shadow-xl' : 'text-slate-500 hover:text-white hover:bg-white/5'}`}
+                      className={`rounded-2xl px-6 py-3 transition-all duration-500 active:scale-95 flex items-center gap-3 ${
+                        viewMode === m
+                          ? 'bg-white text-slate-950 shadow-xl'
+                          : 'text-slate-500 hover:text-white hover:bg-white/5'
+                      }`}
                     >
                       <span className="material-icons text-lg">
                         {m === 'grid' ? 'grid_view' : 'view_list'}
@@ -294,7 +389,7 @@ export default function ChannelBrowser({
                 <div
                   className={
                     viewMode === 'grid'
-                      ? 'grid gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4'
+                      ? 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8'
                       : 'space-y-6'
                   }
                 >

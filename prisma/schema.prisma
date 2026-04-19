@@ -23,6 +23,7 @@ model User {
   verifiedAt        DateTime?
   twoFactorSecret   String?
   twoFactorEnabled  Boolean          @default(false)
+  forcePasswordReset Boolean         @default(false)
   lastUsernameChange DateTime?
   createdAt         DateTime         @default(now())
   updatedAt         DateTime         @updatedAt
@@ -124,12 +125,14 @@ model TicketResponse {
   userId    String
   message   String
   createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
 
 model Incident {
   id          String           @id @default(cuid())
   title       String
   description String
+  type        String           @default("SYSTEM") // SYSTEM, API, APP
   tags        String[]         @default([])
   status      String           @default("INVESTIGATING") // INVESTIGATING, IDENTIFIED, MONITORING, RESOLVED
   severity    String           @default("LOW") // LOW, MEDIUM, HIGH, CRITICAL

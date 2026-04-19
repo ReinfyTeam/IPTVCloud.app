@@ -20,6 +20,10 @@ export default function LoginPage() {
   const [twoFactorUserId, setTwoFactorUserId] = useState('');
   const [otpToken, setOtpToken] = useState('');
 
+  // Force Password Reset state
+  const [forceResetRequired, setForceResetRequired] = useState(false);
+  const [newPassword, setNewPassword] = useState('');
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setLoading(true);
@@ -35,6 +39,13 @@ export default function LoginPage() {
 
       if (!data.ok) {
         setError(data.error || 'Login failed. Please try again.');
+        setLoading(false);
+        return;
+      }
+
+      if (data.forcePasswordReset) {
+        setForceResetRequired(true);
+        setTwoFactorUserId(data.userId);
         setLoading(false);
         return;
       }
@@ -81,21 +92,63 @@ export default function LoginPage() {
     }
   }
 
+  async function handleForceReset(e: React.FormEvent) {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+
+    try {
+      const res = await fetch('/api/auth/force-reset', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ userId: twoFactorUserId, oldPassword: password, newPassword }),
+      });
+      const data = await res.json();
+
+      if (!data.ok) {
+        setError(data.error || 'Failed to update password.');
+        setLoading(false);
+        return;
+      }
+
+      if (data.twoFactorRequired) {
+        setForceResetRequired(false);
+        setTwoFactorRequired(true);
+        setLoading(false);
+        return;
+      }
+
+      setAuth(data.user, data.token);
+      router.push('/home');
+    } catch {
+      setError('Network error.');
+      setLoading(false);
+    }
+  }
+
   return (
     <div className="flex min-h-screen items-center justify-center px-4 pt-24 pb-20 bg-slate-950">
       <div className="w-full max-w-sm animate-fade-up">
         <div className="text-center mb-8">
           <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-[32px] bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 shadow-2xl">
             <span className="material-icons text-4xl">
-              {twoFactorRequired ? 'verified_user' : 'login'}
+              {forceResetRequired ? 'lock_reset' : twoFactorRequired ? 'verified_user' : 'login'}
             </span>
           </div>
           <h1 className="text-3xl font-black text-white uppercase italic tracking-tighter leading-none">
-            {twoFactorRequired ? 'Verify 2FA' : 'Welcome back'}
+            {forceResetRequired
+              ? 'Security Update'
+              : twoFactorRequired
+                ? 'Verify 2FA'
+                : 'Welcome back'}
             <span className="text-cyan-500">.</span>
           </h1>
           <p className="mt-2 text-slate-500 font-bold uppercase tracking-widest text-[10px]">
-            {twoFactorRequired ? 'Enter your authenticator code' : 'Access your technical player'}
+            {forceResetRequired
+              ? 'An admin has requested a password change'
+              : twoFactorRequired
+                ? 'Enter your authenticator code'
+                : 'Access your technical player'}
           </p>
         </div>
 
@@ -107,18 +160,18 @@ export default function LoginPage() {
             </div>
           )}
 
-          {!twoFactorRequired ? (
+          {!twoFactorRequired && !forceResetRequired && (
             <form onSubmit={(e) => void handleSubmit(e)} className="space-y-5">
               <div>
                 <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
-                  Email address
+                  Email or Username
                 </label>
                 <input
-                  type="email"
+                  type="text"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  placeholder="you@example.com"
+                  placeholder="you@example.com or username"
                   className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-sm text-white placeholder:text-slate-600 outline-none focus:border-cyan-500 transition-all shadow-inner"
                 />
               </div>
@@ -143,7 +196,50 @@ export default function LoginPage() {
                 {loading ? 'Authenticating…' : 'Sign In'}
               </button>
             </form>
-          ) : (
+          )}
+
+          {forceResetRequired && (
+            <form onSubmit={(e) => void handleForceReset(e)} className="space-y-6">
+              <div className="bg-orange-500/10 border border-orange-500/20 rounded-2xl p-4 text-[10px] font-bold text-orange-400 uppercase tracking-widest leading-relaxed">
+                Your password was reset by an administrator. For security reasons, you must set a
+                new password before you can proceed.
+              </div>
+              <div>
+                <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
+                  New Password
+                </label>
+                <input
+                  type="password"
+                  value={newPassword}
+                  onChange={(e) => setNewPassword(e.target.value)}
+                  required
+                  minLength={8}
+                  placeholder="New secure password"
+                  className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-sm text-white placeholder:text-slate-600 outline-none focus:border-cyan-500 transition-all shadow-inner"
+                  autoFocus
+                />
+              </div>
+              <button
+                type="submit"
+                disabled={loading || newPassword.length < 8}
+                className="w-full rounded-2xl bg-cyan-500 py-4 text-xs font-black uppercase tracking-widest text-slate-950 hover:bg-cyan-400 disabled:opacity-50 transition-all active:scale-95 shadow-lg shadow-cyan-900/20"
+              >
+                {loading ? 'Updating...' : 'Set New Password'}
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setForceResetRequired(false);
+                  setPassword('');
+                }}
+                className="w-full text-[10px] font-bold text-slate-600 uppercase tracking-widest hover:text-white transition-all mt-2"
+              >
+                Cancel
+              </button>
+            </form>
+          )}
+
+          {twoFactorRequired && (
             <form onSubmit={(e) => void handle2FAVerify(e)} className="space-y-6">
               <div>
                 <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-4 text-center">
@@ -178,7 +274,7 @@ export default function LoginPage() {
           )}
         </div>
 
-        {!twoFactorRequired && (
+        {!twoFactorRequired && !forceResetRequired && (
           <p className="mt-8 text-center text-[10px] font-bold text-slate-600 uppercase tracking-widest">
             Don&apos;t have an account?{' '}
             <Link
