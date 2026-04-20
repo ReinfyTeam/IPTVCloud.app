@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 
 export const dynamic = 'force-dynamic';
 
@@ -8,13 +8,13 @@ export async function GET() {
     const thirtyDaysAgo = new Date();
     thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
 
-    const records = await prisma.uptimeRecord.findMany({
-      where: { createdAt: { gte: thirtyDaysAgo } },
-      orderBy: { createdAt: 'asc' },
-    });
+    const result = await db.query(
+      'SELECT * FROM "UptimeRecord" WHERE "createdAt" >= $1 ORDER BY "createdAt" ASC',
+      [thirtyDaysAgo],
+    );
 
-    return NextResponse.json(records);
-  } catch {
+    return NextResponse.json(result.rows);
+  } catch (error) {
     return NextResponse.json({ error: 'Failed' }, { status: 500 });
   }
 }

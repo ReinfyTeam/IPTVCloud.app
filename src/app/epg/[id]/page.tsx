@@ -7,9 +7,10 @@ import { getChannelById } from '@/services/channel-service';
 import { fetchEpgForId } from '@/services/epg-service';
 import EpgStrip from '@/components/EpgStrip';
 import { getProxiedImageUrl } from '@/lib/image-proxy';
+import { decodeBase64Url, encodeBase64Url } from '@/lib/base64';
 
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
-  const channel = await getChannelById(decodeURIComponent(params.id));
+  const channel = await getChannelById(decodeBase64Url(params.id));
   if (!channel) return { title: 'Channel Not Found — IPTVCloud.app' };
 
   return {
@@ -19,7 +20,7 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
 }
 
 export default async function EpgDetailsPage({ params }: { params: { id: string } }) {
-  const decodedId = decodeURIComponent(params.id);
+  const decodedId = decodeBase64Url(params.id);
   const channel = await getChannelById(decodedId);
 
   if (!channel) notFound();
@@ -29,11 +30,11 @@ export default async function EpgDetailsPage({ params }: { params: { id: string 
   return (
     <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 bg-slate-950">
       <div className="mx-auto max-w-4xl space-y-12 animate-fade-in transform-gpu">
-        <div className="flex flex-col md:flex-row items-center gap-8 p-8 rounded-[40px] bg-white/[0.03] border border-white/[0.08] backdrop-blur-xl shadow-2xl relative overflow-hidden">
+        <div className="flex flex-col md:flex-row items-center gap-8 p-6 sm:p-8 rounded-[32px] sm:rounded-[40px] bg-white/[0.03] border border-white/[0.08] backdrop-blur-xl shadow-2xl relative overflow-hidden">
           <div className="absolute top-0 right-0 h-64 w-64 bg-cyan-500/5 blur-[100px] rounded-full" />
 
           <Link
-            href={`/channel/${encodeURIComponent(channel.id)}`}
+            href={`/channel/${encodeBase64Url(channel.id)}`}
             className="group shrink-0 relative z-10"
           >
             <div className="h-24 w-32 rounded-3xl bg-slate-900 border border-white/10 flex items-center justify-center overflow-hidden p-4 group-hover:border-cyan-500/50 transition-all shadow-xl group-hover:scale-105 active:scale-95">
@@ -65,7 +66,7 @@ export default async function EpgDetailsPage({ params }: { params: { id: string 
                 {channel.country}
               </span>
               <Link
-                href={`/channel/${encodeURIComponent(channel.id)}`}
+                href={`/channel/${encodeBase64Url(channel.id)}`}
                 className="px-6 py-2 rounded-full bg-white text-slate-950 text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 ml-2"
               >
                 Watch Now

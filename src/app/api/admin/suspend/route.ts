@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { authorizeRequest, hasAdminRole, sanitizeUser } from '@/services/auth-service';
 
 export const dynamic = 'force-dynamic';
@@ -18,7 +18,9 @@ export async function POST(req: Request) {
       return NextResponse.json({ ok: false, error: 'Missing userId' }, { status: 400 });
     }
 
-    const targetUser = await prisma.user.findUnique({ where: { id: userId } });
+    const targetUserRes = await db.query('SELECT * FROM "User" WHERE id = $1', [userId]);
+    const targetUser = targetUserRes.rows[0];
+
     if (!targetUser) {
       return NextResponse.json({ ok: false, error: 'User not found' }, { status: 404 });
     }
@@ -37,17 +39,14 @@ export async function POST(req: Request) {
       );
     }
 
-    const updatedUser = await prisma.user.update({
-      where: { id: userId },
-      data: {
-        suspendedAt: suspended ? new Date() : null,
-        suspensionReason: suspended ? reason || 'Suspended by admin' : null,
-      },
-    });
+    const updatedUserRes = await db.query(
+      'UPDATE "User" SET "suspendedAt" = $1, "suspensionReason" = $2 WHERE id = $3 RETURNING *',
+      [suspended ? new Date() : null, suspended ? reason || 'Suspended by admin' : null, userId],
+    );
 
     return NextResponse.json({
       ok: true,
-      user: sanitizeUser(updatedUser),
+      user: sanitizeUser(updatedUserRes.rows[0]),
     });
   } catch (error) {
     return NextResponse.json(

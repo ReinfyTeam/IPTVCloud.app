@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { isSuspended, sanitizeUser, signToken, verifyPassword } from '@/services/auth-service';
 import { rateLimit } from '@/lib/rate-limit';
 import { setTokenCookie } from '@/lib/cookies';
@@ -30,11 +30,11 @@ export async function POST(req: Request) {
       );
     }
 
-    const user = await prisma.user.findFirst({
-      where: {
-        OR: [{ email: email }, { username: email }],
-      },
-    });
+    const { rows } = await db.query(
+      'SELECT * FROM "User" WHERE email = $1 OR username = $1 LIMIT 1',
+      [email],
+    );
+    const user = rows[0];
 
     if (!user) {
       return NextResponse.json(

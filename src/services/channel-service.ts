@@ -72,12 +72,21 @@ export async function refreshChannels(): Promise<ChannelDataset> {
     }
   });
 
-  const guideMap = new Map<string, string>();
+  const guideMap = new Map<string, { site_id: string; url: string }>();
   data.guides.forEach((g) => {
-    if (g.channel && g.site_id) {
-      guideMap.set(g.channel, g.site_id);
+    if (g.channel && g.site_id && g.url) {
+      guideMap.set(g.channel, { site_id: g.site_id, url: g.url });
     }
   });
+
+  const subdivisionsMap = new Map<string, string>();
+  data.subdivisions.forEach((s) => subdivisionsMap.set(s.id, s.name));
+
+  const citiesMap = new Map<string, string>();
+  data.cities.forEach((c) => citiesMap.set(c.id, c.name));
+
+  const regionsMap = new Map<string, string>();
+  data.regions.forEach((r) => regionsMap.set(r.id, r.name));
 
   const channels: Channel[] = [];
 
@@ -98,6 +107,12 @@ export async function refreshChannels(): Promise<ChannelDataset> {
     // Categories
     const category = ch.categories && ch.categories.length > 0 ? ch.categories[0] : 'general';
 
+    // Metadata
+    const subdivision = ch.subdivision ? subdivisionsMap.get(ch.subdivision) : undefined;
+    const city = ch.city ? citiesMap.get(ch.city) : undefined;
+    const region = ch.region ? regionsMap.get(ch.region) : undefined;
+    const guide = guideMap.get(ch.id);
+
     // Languages/Regions from feeds
     let language = 'unknown';
     let resolution = primaryStream.quality || undefined;
@@ -109,7 +124,7 @@ export async function refreshChannels(): Promise<ChannelDataset> {
         language = mainFeed.languages[0];
       }
       if (mainFeed.timezones && mainFeed.timezones.length > 0) {
-        timezone = mainFeed.timezones[0];
+        timezone = mainFeed.timezones[0].replace(/_/g, ' ');
       }
       if (!resolution && mainFeed.format) {
         resolution = mainFeed.format;
@@ -123,6 +138,9 @@ export async function refreshChannels(): Promise<ChannelDataset> {
       name: ch.name || 'Unknown Channel',
       logo: logoUrl,
       country: ch.country || 'International',
+      subdivision,
+      city,
+      region,
       language: language,
       category: category,
       resolution: resolution,
@@ -132,10 +150,13 @@ export async function refreshChannels(): Promise<ChannelDataset> {
       website: ch.website || undefined,
       viewersCount: viewersCount,
       streamUrl: primaryStream.url,
-      epgId: guideMap.get(ch.id) || undefined,
+      epgId: guide?.site_id,
+      epgUrl: guide?.url,
       isLive: true,
       fallbackUrls: fallbackUrls.length > 0 ? fallbackUrls : undefined,
       isGeoBlocked: primaryStream.label === 'Geo-blocked',
+      description: ch.description || undefined,
+      tags: ch.categories || [],
     });
   }
 
@@ -172,9 +193,9 @@ export function getChannelFilters(channels: Channel[]): ChannelFilters {
     categories: normalize(channels.map((channel) => channel.category)),
     languages: normalize(channels.map((channel) => channel.language)),
     resolutions: normalize(channels.map((channel) => channel.resolution)),
-    subdivisions: [], // Subdivisions usually parsed differently if provided, kept empty for now
-    cities: [],
-    regions: [],
+    subdivisions: normalize(channels.map((channel) => channel.subdivision)),
+    cities: normalize(channels.map((channel) => channel.city)),
+    regions: normalize(channels.map((channel) => channel.region)),
     timezones: normalize(channels.map((channel) => channel.timezone)),
     blocklist: [],
   };
@@ -186,7 +207,15 @@ export function filterChannels(channels: Channel[], query: ChannelQuery): Channe
   if (query.q) {
     const q = query.q.toLowerCase();
     items = items.filter((channel) =>
-      [channel.name, channel.country, channel.category, channel.language]
+      [
+        channel.name,
+        channel.country,
+        channel.category,
+        channel.language,
+        channel.subdivision,
+        channel.city,
+        channel.region,
+      ]
         .filter(Boolean)
         .some((value) => value!.toLowerCase().includes(q)),
     );
@@ -217,9 +246,34 @@ export function filterChannels(channels: Channel[], query: ChannelQuery): Channe
     items = items.filter((channel) => channel.timezone?.toLowerCase() === value);
   }
 
+  if (query.subdivision) {
+    const value = query.subdivision.toLowerCase();
+    items = items.filter((channel) => channel.subdivision?.toLowerCase() === value);
+  }
+
+  if (query.city) {
+    const value = query.city.toLowerCase();
+    items = items.filter((channel) => channel.city?.toLowerCase() === value);
+  }
+
+  if (query.region) {
+    const value = query.region.toLowerCase();
+    items = items.filter((channel) => channel.region?.toLowerCase() === value);
+  }
+
   if (query.ids && query.ids.length > 0) {
     const ids = new Set(query.ids);
     items = items.filter((channel) => ids.has(channel.id));
+  }
+
+  if (query.status) {
+    if (query.status === 'online') {
+      items = items.filter((channel) => !channel.isOffline && !channel.isGeoBlocked);
+    } else if (query.status === 'offline') {
+      items = items.filter((channel) => channel.isOffline);
+    } else if (query.status === 'geo-blocked') {
+      items = items.filter((channel) => channel.isGeoBlocked);
+    }
   }
 
   // Sort by viewers by default for better initial ranking

@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { authorizeRequest, sanitizeUser } from '@/services/auth-service';
 
 export const dynamic = 'force-dynamic';
@@ -18,15 +18,17 @@ export async function POST(req: Request) {
       return NextResponse.json({ ok: false, error: 'Invalid email address.' }, { status: 400 });
     }
 
-    const existing = await prisma.user.findUnique({ where: { email: cleanEmail } });
+    const existingResult = await db.query('SELECT id FROM "User" WHERE email = $1', [cleanEmail]);
+    const existing = existingResult.rows[0];
     if (existing && existing.id !== auth.user!.id) {
       return NextResponse.json({ ok: false, error: 'Email already in use.' }, { status: 409 });
     }
 
-    const updated = await prisma.user.update({
-      where: { id: auth.user!.id },
-      data: { email: cleanEmail },
-    });
+    const updatedResult = await db.query('UPDATE "User" SET email = $1 WHERE id = $2 RETURNING *', [
+      cleanEmail,
+      auth.user!.id,
+    ]);
+    const updated = updatedResult.rows[0];
 
     return NextResponse.json({ ok: true, user: sanitizeUser(updated) });
   } catch (error) {

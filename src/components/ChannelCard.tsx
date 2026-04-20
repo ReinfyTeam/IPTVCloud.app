@@ -7,7 +7,8 @@ import { useNetworkStatus } from '@/hooks/use-network';
 import { useAuthStore } from '@/store/auth-store';
 import Hls from 'hls.js';
 import { buildStreamProxyUrl } from '@/services/stream-service';
-import { REVERSE_COUNTRY_MAP } from '@/lib/countries';
+import { REVERSE_COUNTRY_MAP, getCountryName } from '@/lib/countries';
+import { getLanguageName } from '@/lib/languages';
 import { getProxiedImageUrl } from '@/lib/image-proxy';
 
 type Props = {
@@ -36,13 +37,24 @@ export default function ChannelCard({
   const isOnline = useNetworkStatus();
   const { isLoggedIn } = useAuthStore();
   const hoverTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const [offline, setOffline] = useState(channel.isOffline);
 
-  const initials = channel.name
-    .split(' ')
-    .map((w) => w[0])
-    .join('')
-    .slice(0, 2)
-    .toUpperCase();
+  useEffect(() => {
+    if (channel.isOffline === undefined && !offline) {
+      const check = async () => {
+        try {
+          const res = await fetch(channel.streamUrl, {
+            method: 'HEAD',
+            signal: AbortSignal.timeout(3000),
+          });
+          setOffline(!res.ok);
+        } catch {
+          setOffline(true);
+        }
+      };
+      void check();
+    }
+  }, [channel.streamUrl, channel.isOffline, offline]);
 
   const isInternational =
     !channel.country || channel.country === 'INTERNATIONAL' || channel.country === 'UNKNOWN';
@@ -53,7 +65,7 @@ export default function ChannelCard({
     if (isHovered) {
       hoverTimerRef.current = setTimeout(() => {
         setShowPreview(true);
-      }, 5000); // 5 second delay before preview
+      }, 1000); // Reduced delay to 1 second
     } else {
       if (hoverTimerRef.current) clearTimeout(hoverTimerRef.current);
       setShowPreview(false);
@@ -151,7 +163,7 @@ export default function ChannelCard({
               <video ref={videoRef} className="h-full w-full object-cover scale-150" playsInline />
               <button
                 onClick={toggleMute}
-                className="absolute bottom-1 right-1 h-4 w-4 rounded-full bg-black/60 flex items-center justify-center text-white/80 hover:text-white"
+                className="absolute bottom-1 right-1 h-4 w-4 rounded-full bg-black/60 flex items-center justify-center text-foreground/80 hover:text-foreground"
               >
                 <span className="material-icons text-[10px]">
                   {muted ? 'volume_off' : 'volume_up'}
@@ -169,31 +181,34 @@ export default function ChannelCard({
               className="h-full w-full object-contain p-1 group-hover:scale-110 transition-transform duration-500"
             />
           ) : (
-            <div className="flex h-full w-full items-center justify-center text-xs font-bold text-slate-700 uppercase italic">
-              {initials}
+            <div className="flex h-full w-full items-center justify-center text-slate-700">
+              <span className="material-icons text-2xl">tv</span>
             </div>
           )}
         </div>
 
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2">
-            <h3 className="font-bold text-white truncate group-hover:text-cyan-400 transition-colors uppercase italic tracking-tighter">
+            <h3 className="font-bold text-foreground truncate group-hover:text-cyan-400 transition-colors uppercase italic tracking-tighter">
               {channel.name}
             </h3>
             {countryCode && (
               <div className="h-3 w-4 rounded-sm overflow-hidden border border-white/10 shrink-0">
                 <Image
-                  src={`https://flagcdn.com/w20/${countryCode.toLowerCase()}.png`}
-                  alt={channel.country || ''}
-                  width={20}
-                  height={15}
+                  src={getProxiedImageUrl(
+                    `https://flagcdn.com/w80/${countryCode.toLowerCase()}.png`,
+                  )}
+                  alt=""
+                  width={16}
+                  height={12}
                   className="h-full w-full object-cover"
                 />
               </div>
             )}
           </div>
           <p className="text-[10px] text-slate-500 uppercase tracking-widest font-black truncate opacity-60">
-            {channel.category}
+            {channel.category} • {getCountryName(channel.country || 'International')} •{' '}
+            {getLanguageName(channel.language || 'English')}
           </p>
         </div>
 
@@ -216,7 +231,7 @@ export default function ChannelCard({
       onClick={handleSelect}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className={`group relative flex cursor-pointer flex-col overflow-hidden rounded-[32px] border transition-all duration-500 transform-gpu ${
+      className={`group relative flex cursor-pointer flex-col overflow-hidden rounded-[24px] sm:rounded-[32px] border transition-all duration-500 transform-gpu ${
         !isOnline ? 'opacity-50 grayscale select-none pointer-events-none' : ''
       } ${
         active
@@ -231,7 +246,7 @@ export default function ChannelCard({
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
             <button
               onClick={toggleMute}
-              className="absolute bottom-3 right-3 h-8 w-8 rounded-full bg-black/60 flex items-center justify-center text-white backdrop-blur-md hover:bg-black/80 transition-all border border-white/10"
+              className="absolute bottom-3 right-3 h-8 w-8 rounded-full bg-black/60 flex items-center justify-center text-foreground backdrop-blur-md hover:bg-black/80 transition-all border border-white/10"
             >
               <span className="material-icons text-sm">{muted ? 'volume_off' : 'volume_up'}</span>
             </button>
@@ -247,13 +262,13 @@ export default function ChannelCard({
             className="h-full w-full object-contain p-6 transition-transform duration-[800ms] group-hover:scale-110"
           />
         ) : (
-          <div className="flex h-full w-full items-center justify-center text-3xl font-black text-slate-800 uppercase italic tracking-tighter">
-            {initials}
+          <div className="flex h-full w-full items-center justify-center text-slate-800">
+            <span className="material-icons text-6xl">tv</span>
           </div>
         )}
 
         <div className="absolute top-4 left-4 flex flex-col gap-2">
-          <div className="rounded-full bg-black/40 px-3 py-1 text-[9px] font-black text-white backdrop-blur-md border border-white/10 tracking-widest uppercase italic">
+          <div className="rounded-full bg-black/40 px-3 py-1 text-[9px] font-black text-foreground backdrop-blur-md border border-white/10 tracking-widest uppercase italic">
             {channel.category}
           </div>
         </div>
@@ -268,18 +283,33 @@ export default function ChannelCard({
             </div>
           </div>
         )}
+
+        {!channel.isGeoBlocked && offline && (
+          <div className="absolute inset-0 flex items-center justify-center bg-slate-950/60 backdrop-blur-sm p-4 text-center">
+            <div className="space-y-2">
+              <span className="material-icons text-foreground/40 text-3xl">
+                signal_disconnected
+              </span>
+              <p className="text-[10px] font-bold text-foreground/60 uppercase tracking-widest leading-tight">
+                OFFLINE
+              </p>
+            </div>
+          </div>
+        )}
       </div>
 
-      <div className="p-5 flex items-center justify-between gap-4 relative">
+      <div className="p-4 sm:p-5 flex items-center justify-between gap-4 relative">
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2 mb-0.5">
-            <h3 className="truncate font-black text-white uppercase italic tracking-tighter group-hover:text-cyan-400 transition-colors">
+            <h3 className="truncate font-black text-foreground uppercase italic tracking-tighter group-hover:text-cyan-400 transition-colors">
               {channel.name}
             </h3>
             {countryCode && (
               <div className="h-2.5 w-3.5 rounded-[2px] overflow-hidden border border-white/10 shrink-0 opacity-60">
                 <Image
-                  src={`https://flagcdn.com/w20/${countryCode.toLowerCase()}.png`}
+                  src={getProxiedImageUrl(
+                    `https://flagcdn.com/w80/${countryCode.toLowerCase()}.png`,
+                  )}
                   alt={channel.country || ''}
                   width={20}
                   height={15}
@@ -288,9 +318,9 @@ export default function ChannelCard({
               </div>
             )}
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-wrap">
             <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">
-              Live Stream
+              {getCountryName(channel.country || 'International')}
             </span>
             <span className="h-1 w-1 rounded-full bg-slate-700" />
             <span className="text-[9px] font-black text-cyan-500/60 uppercase tracking-tighter">

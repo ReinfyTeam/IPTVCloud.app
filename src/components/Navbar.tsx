@@ -5,16 +5,21 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import { useAuthStore } from '@/store/auth-store';
+import { useSettingsStore } from '@/store/settings-store';
 import { useNetworkStatus } from '@/hooks/use-network';
 import type { Channel } from '@/types';
 import BrandLogo from './BrandLogo';
 import NavbarDropdown from './NavbarDropdown';
 import VerifiedBadge from './VerifiedBadge';
+import NotificationDropdown from './NotificationDropdown';
+import { encodeBase64Url } from '@/lib/base64';
+import { getProxiedImageUrl } from '@/lib/image-proxy';
 
 export default function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
   const { user, clearAuth, isAdmin } = useAuthStore();
+  const { settings, updateSetting } = useSettingsStore();
   const isOnline = useNetworkStatus();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,6 +30,7 @@ export default function Navbar() {
   const searchRef = useRef<HTMLDivElement>(null);
   const [profileOpen, setProfileOpen] = useState(false);
   const profileRef = useRef<HTMLDivElement>(null);
+  const [showMobileSearch, setShowMobileSearch] = useState(false);
 
   useEffect(() => {
     setMounted(true);
@@ -75,17 +81,32 @@ export default function Navbar() {
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
+  const toggleTheme = () => {
+    updateSetting('darkMode', !settings.darkMode);
+  };
+
   const channelDropdownItems = [
-    { label: 'Electronic Program Guide', href: '/epg', icon: 'auto_awesome_motion' },
-    { label: 'Trending', href: '/search?sort=viewers', icon: 'trending_up' },
-    { label: 'Recommendations', href: '/search?sort=recommended', icon: 'auto_awesome' },
-    { label: 'Top Rated', href: '/search?sort=favorites', icon: 'star' },
-    { label: 'New Channels', href: '/search?sort=newest', icon: 'fiber_new' },
+    { label: 'Browse Channels', href: '/search/channels', icon: 'explore' },
+    { label: 'Create your own channel', href: '/channel/create', icon: 'add_circle' },
+    { label: 'Trending Channels', href: '/search/channels?sort=viewers', icon: 'trending_up' },
+    ...(user
+      ? [{ label: 'Favorited Channels', href: '/search/channels?favorites=true', icon: 'star' }]
+      : []),
+    { label: 'Top Rated Channels', href: '/search/channels?sort=favorites', icon: 'grade' },
+    { label: 'New Channels', href: '/search/channels?sort=newest', icon: 'fiber_new' },
+    {
+      label: 'Recommended Channels',
+      href: '/search/channels?sort=recommended',
+      icon: 'auto_awesome',
+    },
+    { label: 'Electronic Program Guide', href: '/epg', icon: 'event_note' },
   ];
 
   const communityDropdownItems = [
-    { label: 'Newsfeed', href: '/posts', icon: 'forum' },
+    { label: 'Browse Newsfeed', href: '/posts', icon: 'forum' },
     { label: 'Trending Posts', href: '/posts?sort=trending', icon: 'whatshot' },
+    { label: 'New Posts', href: '/posts?sort=newest', icon: 'fiber_new' },
+    { label: 'Recommended Posts', href: '/posts?sort=recommended', icon: 'auto_awesome' },
   ];
 
   const statusDropdownItems = [
@@ -124,17 +145,6 @@ export default function Navbar() {
             </Link>
 
             <nav className="hidden xl:flex items-center gap-1 ml-8">
-              <Link
-                href="/home"
-                className={`rounded-full px-5 py-2.5 text-xs font-black uppercase tracking-widest transition-all duration-200 flex items-center gap-2 active:scale-95 ${
-                  pathname === '/home'
-                    ? 'bg-white/10 text-white shadow-lg'
-                    : 'text-slate-500 hover:text-white hover:bg-white/5'
-                }`}
-              >
-                Home
-              </Link>
-
               <NavbarDropdown
                 label="Channels"
                 items={channelDropdownItems}
@@ -159,10 +169,10 @@ export default function Navbar() {
 
             <div
               ref={searchRef}
-              className="hidden lg:flex flex-1 max-w-[320px] ml-auto relative group/search"
+              className={`${showMobileSearch ? 'flex absolute inset-x-0 top-0 h-16 bg-slate-950 z-50 px-4 items-center gap-2' : 'hidden'} lg:flex flex-1 max-w-[560px] ml-auto relative group/search`}
             >
               <svg
-                className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-500 group-focus-within/search:text-cyan-400 transition-colors"
+                className="absolute left-4 lg:left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-500 group-focus-within/search:text-cyan-400 transition-colors"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -181,10 +191,19 @@ export default function Navbar() {
                   if (e.key === 'Enter') {
                     router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
                     setShowSuggestions(false);
+                    setShowMobileSearch(false);
                   }
                 }}
                 className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 py-2.5 pl-11 pr-4 text-xs font-bold text-white placeholder:text-slate-500 outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm shadow-inner"
               />
+              {showMobileSearch && (
+                <button
+                  onClick={() => setShowMobileSearch(false)}
+                  className="lg:hidden p-2 text-slate-400"
+                >
+                  <span className="material-icons">close</span>
+                </button>
+              )}
               {showSuggestions && suggestions.length > 0 && (
                 <div className="absolute top-full left-0 right-0 mt-3 rounded-[32px] border border-white/[0.08] bg-slate-900/95 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden animate-fade-in z-50 transform-gpu p-2">
                   <div className="px-4 py-2 text-[9px] font-black text-slate-600 uppercase tracking-[0.3em] border-b border-white/5 mb-1">
@@ -193,22 +212,25 @@ export default function Navbar() {
                   {suggestions.map((ch) => (
                     <Link
                       key={ch.id}
-                      href={`/channel/${encodeURIComponent(ch.id)}`}
-                      onClick={() => setShowSuggestions(false)}
+                      href={`/channel/${encodeBase64Url(ch.id)}`}
+                      onClick={() => {
+                        setShowSuggestions(false);
+                        setShowMobileSearch(false);
+                      }}
                       className="flex items-center gap-4 p-3 hover:bg-white/5 rounded-2xl transition-all active:scale-[0.98] group/item"
                     >
                       <div className="h-10 w-10 rounded-xl bg-slate-800 overflow-hidden shrink-0 border border-white/5 p-1">
                         {ch.logo ? (
                           <Image
-                            src={ch.logo}
+                            src={getProxiedImageUrl(ch.logo)}
                             alt=""
                             width={40}
                             height={40}
                             className="h-full w-full object-contain"
                           />
                         ) : (
-                          <div className="h-full w-full flex items-center justify-center text-xs font-black text-slate-500 uppercase italic">
-                            {ch.name[0]}
+                          <div className="h-full w-full flex items-center justify-center text-slate-600">
+                            <span className="material-icons text-xl">tv</span>
                           </div>
                         )}
                       </div>
@@ -225,28 +247,40 @@ export default function Navbar() {
                   <div className="mt-2 pt-2 border-t border-white/5 grid grid-cols-2 gap-1">
                     <Link
                       href={`/search/profiles?q=${encodeURIComponent(searchQuery)}`}
-                      onClick={() => setShowSuggestions(false)}
+                      onClick={() => {
+                        setShowSuggestions(false);
+                        setShowMobileSearch(false);
+                      }}
                       className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-slate-500 hover:text-cyan-400 transition-all"
                     >
                       <span className="material-icons text-sm">person_search</span> Search Profiles
                     </Link>
                     <Link
                       href={`/search/posts?q=${encodeURIComponent(searchQuery)}`}
-                      onClick={() => setShowSuggestions(false)}
+                      onClick={() => {
+                        setShowSuggestions(false);
+                        setShowMobileSearch(false);
+                      }}
                       className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-slate-500 hover:text-cyan-400 transition-all"
                     >
                       <span className="material-icons text-sm">article</span> Search Posts
                     </Link>
                     <Link
                       href={`/search/epg?q=${encodeURIComponent(searchQuery)}`}
-                      onClick={() => setShowSuggestions(false)}
+                      onClick={() => {
+                        setShowSuggestions(false);
+                        setShowMobileSearch(false);
+                      }}
                       className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-slate-500 hover:text-cyan-400 transition-all"
                     >
                       <span className="material-icons text-sm">event_note</span> Search EPG
                     </Link>
                     <Link
                       href={`/search?q=${encodeURIComponent(searchQuery)}`}
-                      onClick={() => setShowSuggestions(false)}
+                      onClick={() => {
+                        setShowSuggestions(false);
+                        setShowMobileSearch(false);
+                      }}
                       className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-slate-500 hover:text-cyan-400 transition-all"
                     >
                       <span className="material-icons text-sm">tv</span> Search Channels
@@ -256,6 +290,7 @@ export default function Navbar() {
                     onClick={() => {
                       router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
                       setShowSuggestions(false);
+                      setShowMobileSearch(false);
                     }}
                     className="w-full mt-2 p-3 text-center text-[10px] font-black text-cyan-500 hover:bg-cyan-500/10 rounded-2xl transition-all uppercase tracking-widest"
                   >
@@ -266,15 +301,30 @@ export default function Navbar() {
             </div>
 
             <div className="flex items-center gap-1.5 sm:gap-3 ml-auto lg:ml-0">
-              {mounted && user && (
-                <Link
-                  href="/account/notifications"
-                  className="h-10 w-10 hidden sm:flex items-center justify-center rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all border border-transparent hover:border-white/10 active:scale-95 relative"
+              <button
+                onClick={() => setShowMobileSearch(true)}
+                className="lg:hidden h-10 w-10 flex items-center justify-center rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all border border-white/10"
+              >
+                <span className="material-icons text-xl">search</span>
+              </button>
+
+              {/* Theme Toggle with BETA Badge */}
+              <div className="flex items-center gap-2 mr-2">
+                <button
+                  onClick={toggleTheme}
+                  className="h-10 w-10 flex items-center justify-center rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all border border-white/10 relative"
+                  title="Toggle Light/Dark Mode"
                 >
-                  <span className="material-icons text-xl">notifications</span>
-                  <span className="absolute top-2 right-2 h-2 w-2 rounded-full bg-cyan-500 shadow-[0_0_10px_rgba(6,182,212,0.8)]" />
-                </Link>
-              )}
+                  <span className="material-icons text-xl">
+                    {mounted && settings.darkMode ? 'light_mode' : 'dark_mode'}
+                  </span>
+                </button>
+                <span className="hidden sm:inline-flex bg-cyan-500/10 text-cyan-500 text-[8px] font-black px-1.5 py-0.5 rounded border border-cyan-500/20 tracking-tighter">
+                  BETA
+                </span>
+              </div>
+
+              {mounted && user && <NotificationDropdown />}
 
               {mounted &&
                 (user ? (
@@ -319,6 +369,12 @@ export default function Navbar() {
                             href="/account/posts"
                             icon="article"
                             label="Manage Posts"
+                            setOpen={setProfileOpen}
+                          />
+                          <DropdownLink
+                            href="/account/messages"
+                            icon="forum"
+                            label="My Messages"
                             setOpen={setProfileOpen}
                           />
                           {isAdmin() && (
@@ -398,13 +454,6 @@ export default function Navbar() {
           <div className="xl:hidden fixed inset-0 z-40 bg-slate-950/95 backdrop-blur-xl border-t border-white/[0.05] top-[64px] animate-fade-in overflow-y-auto pb-20">
             <div className="px-4 py-6 space-y-6">
               <nav className="grid gap-2">
-                <MobileLink
-                  href="/home"
-                  label="Home"
-                  icon="home"
-                  onClick={() => setMenuOpen(false)}
-                  active={pathname === '/home'}
-                />
                 <MobileSection
                   label="Channels"
                   items={channelDropdownItems}

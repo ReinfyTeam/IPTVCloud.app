@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { authorizeRequest } from '@/services/auth-service';
 
 export async function GET(req: Request) {
@@ -10,11 +10,10 @@ export async function GET(req: Request) {
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
   try {
-    const shortcuts = await prisma.customShortcut.findMany({
-      where: { userId: user.id },
-    });
-    return NextResponse.json(shortcuts);
+    const result = await db.query('SELECT * FROM "CustomShortcut" WHERE "userId" = $1', [user.id]);
+    return NextResponse.json(result.rows);
   } catch (error) {
+    console.error('Fetch shortcuts error:', error);
     return NextResponse.json({ error: 'Failed to fetch shortcuts' }, { status: 500 });
   }
 }
@@ -33,14 +32,17 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Missing action or key' }, { status: 400 });
     }
 
-    const shortcut = await prisma.customShortcut.upsert({
-      where: { userId_action: { userId: user.id, action } },
-      update: { key },
-      create: { userId: user.id, action, key },
-    });
+    const result = await db.query(
+      `INSERT INTO "CustomShortcut" ("userId", "action", "key")
+       VALUES ($1, $2, $3)
+       ON CONFLICT ("userId", "action") DO UPDATE SET "key" = EXCLUDED."key"
+       RETURNING *`,
+      [user.id, action, key],
+    );
 
-    return NextResponse.json(shortcut);
+    return NextResponse.json(result.rows[0]);
   } catch (error) {
+    console.error('Save shortcut error:', error);
     return NextResponse.json({ error: 'Failed to save shortcut' }, { status: 500 });
   }
 }

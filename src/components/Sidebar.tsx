@@ -1,6 +1,8 @@
 import React, { useMemo } from 'react';
 import CustomSelect from './CustomSelect';
-import { COUNTRY_NAMES } from '@/lib/countries';
+import { COUNTRY_NAMES, getCountryName } from '@/lib/countries';
+import { getLanguageName } from '@/lib/languages';
+import { getProxiedImageUrl } from '@/lib/image-proxy';
 
 type SidebarProps = {
   search: string;
@@ -21,6 +23,8 @@ type SidebarProps = {
   setCity: (_v: string) => void;
   region: string;
   setRegion: (_v: string) => void;
+  status: string;
+  setStatus: (_v: string) => void;
   blocklist: string;
   setBlocklist: (_v: string) => void;
   favoritesOnly: boolean;
@@ -82,6 +86,8 @@ export default function Sidebar({
   setCity,
   region,
   setRegion,
+  status,
+  setStatus,
   blocklist,
   setBlocklist,
   favoritesOnly,
@@ -98,7 +104,9 @@ export default function Sidebar({
         label: c,
         value: c,
         image: REVERSE_COUNTRY_MAP[c.toUpperCase()]
-          ? `https://flagcdn.com/w40/${REVERSE_COUNTRY_MAP[c.toUpperCase()]}.png`
+          ? getProxiedImageUrl(
+              `https://flagcdn.com/w80/${REVERSE_COUNTRY_MAP[c.toUpperCase()]}.png`,
+            )
           : undefined,
       })),
     [filterOptions.countries],
@@ -120,7 +128,12 @@ export default function Sidebar({
   );
 
   const languageOptions = useMemo(
-    () => filterOptions.languages.map((l) => ({ label: l, value: l, icon: 'language' })),
+    () =>
+      filterOptions.languages.map((l) => ({
+        label: getLanguageName(l),
+        value: l,
+        icon: 'language',
+      })),
     [filterOptions.languages],
   );
 
@@ -150,6 +163,11 @@ export default function Sidebar({
     { label: 'Recommended', value: 'recommended', icon: 'auto_awesome' },
     { label: 'Featured', value: 'featured', icon: 'grade' },
     { label: 'Most Favorited', value: 'favorites', icon: 'favorite' },
+    { label: 'By Subdivision', value: 'subdivision', icon: 'map' },
+    { label: 'By City', value: 'city', icon: 'location_city' },
+    { label: 'By Region', value: 'region', icon: 'public' },
+    { label: 'Offline First', value: 'offline', icon: 'signal_disconnected' },
+    { label: 'Geo-Blocked First', value: 'geo-blocked', icon: 'public_off' },
   ];
 
   return (
@@ -164,11 +182,19 @@ export default function Sidebar({
 
       {/* Sidebar Container */}
       <aside
-        className={`fixed top-16 bottom-0 left-0 z-[70] w-80 transform border-r border-white/[0.06] bg-slate-950/80 backdrop-blur-2xl transition-transform duration-500 ease-in-out lg:translate-x-0 ${
+        className={`fixed top-0 bottom-0 left-0 z-[70] w-full sm:w-80 transform border-r border-white/[0.06] bg-slate-950 transition-transform duration-500 ease-in-out lg:translate-x-0 lg:top-16 ${
           isMobileOpen ? 'translate-x-0 shadow-2xl shadow-black' : '-translate-x-full'
         } transform-gpu`}
       >
-        <div className="flex h-full flex-col p-6 space-y-8 overflow-y-auto scrollbar-hide">
+        <div className="flex h-full flex-col p-6 sm:p-6 space-y-8 overflow-y-auto scrollbar-hide pt-20 lg:pt-6">
+          {/* Mobile Close Button */}
+          <button
+            onClick={() => setIsMobileOpen(false)}
+            className="lg:hidden absolute top-6 right-6 h-10 w-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white"
+          >
+            <span className="material-icons">close</span>
+          </button>
+
           <div className="space-y-3">
             <h3 className="text-[10px] font-bold uppercase tracking-widest text-slate-500 px-1">
               Navigation
@@ -342,6 +368,21 @@ export default function Sidebar({
                 <p className="text-[9px] text-slate-600 mt-1 ml-1">
                   Filter by broadcast timezone (tz db)
                 </p>
+              </div>
+
+              <div>
+                <CustomSelect
+                  label="Status"
+                  options={[
+                    { label: 'All Streams', value: '', icon: 'stream' },
+                    { label: 'Online Only', value: 'online', icon: 'check_circle' },
+                    { label: 'Offline Only', value: 'offline', icon: 'error' },
+                    { label: 'Geo-Blocked', value: 'geo-blocked', icon: 'public_off' },
+                  ]}
+                  value={status}
+                  onChange={setStatus}
+                  placeholder="Any Status"
+                />
               </div>
             </div>
           </div>

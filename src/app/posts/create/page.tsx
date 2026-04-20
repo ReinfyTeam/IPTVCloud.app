@@ -10,6 +10,8 @@ export default function CreatePostPage() {
   const { user, token, isLoggedIn } = useAuthStore();
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
+  const [attachments, setAttachments] = useState<{ url: string; filename: string }[]>([]);
+  const [uploading, setUploading] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [mounted, setMounted] = useState(false);
@@ -20,6 +22,39 @@ export default function CreatePostPage() {
       router.push('/account/signin');
     }
   }, [isLoggedIn, router]);
+
+  const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file || !token) return;
+    setUploading(true);
+    const formData = new FormData();
+    formData.append('file', file);
+    try {
+      const res = await fetch('/api/attachments/upload', {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${token}` },
+        body: formData,
+      });
+      if (res.ok) setAttachments([...attachments, await res.json()]);
+    } catch {
+      setError('Upload failed');
+    } finally {
+      setUploading(false);
+    }
+  };
+
+  const insertMarkdown = (prefix: string, suffix = prefix) => {
+    const textarea = document.querySelector('textarea');
+    if (!textarea) return;
+    const start = textarea.selectionStart;
+    const end = textarea.selectionEnd;
+    const text = textarea.value;
+    const before = text.substring(0, start);
+    const selection = text.substring(start, end);
+    const after = text.substring(end);
+    setContent(before + prefix + selection + suffix + after);
+    textarea.focus();
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -34,7 +69,7 @@ export default function CreatePostPage() {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${token}`,
         },
-        body: JSON.stringify({ title, content }),
+        body: JSON.stringify({ title, content, attachments }),
       });
       const data = await res.json();
       if (res.ok) {
@@ -93,17 +128,87 @@ export default function CreatePostPage() {
               />
             </div>
 
-            <div>
-              <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
-                Content (Markdown Supported)
-              </label>
-              <textarea
-                value={content}
-                onChange={(e) => setContent(e.target.value)}
-                required
-                placeholder="Share reviews, feedback, or ideas..."
-                className="w-full rounded-2xl border border-white/10 bg-slate-900/50 p-6 text-sm text-slate-300 outline-none focus:border-cyan-500 h-64 transition-all shadow-inner font-medium leading-relaxed"
-              />
+            <div className="space-y-4">
+              <div className="flex items-center gap-1 px-4 py-2 rounded-2xl bg-white/[0.02] border border-white/5">
+                <button
+                  type="button"
+                  onClick={() => insertMarkdown('**')}
+                  className="p-2 text-slate-500 hover:text-white transition-colors"
+                  title="Bold"
+                >
+                  <span className="material-icons text-sm">format_bold</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => insertMarkdown('_')}
+                  className="p-2 text-slate-500 hover:text-white transition-colors"
+                  title="Italic"
+                >
+                  <span className="material-icons text-sm">format_italic</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => insertMarkdown('### ')}
+                  className="p-2 text-slate-500 hover:text-white transition-colors"
+                  title="Heading"
+                >
+                  <span className="material-icons text-sm">title</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => insertMarkdown('- ')}
+                  className="p-2 text-slate-500 hover:text-white transition-colors"
+                  title="List"
+                >
+                  <span className="material-icons text-sm">format_list_bulleted</span>
+                </button>
+                <div className="h-4 w-px bg-white/10 mx-2" />
+                <label
+                  className={`cursor-pointer p-2 rounded-xl transition-all ${uploading ? 'opacity-30' : 'text-slate-500 hover:text-white hover:bg-white/5'}`}
+                >
+                  <input
+                    type="file"
+                    className="hidden"
+                    onChange={handleFileUpload}
+                    disabled={uploading}
+                  />
+                  <span className="material-icons text-sm">attach_file</span>
+                </label>
+              </div>
+
+              {attachments.length > 0 && (
+                <div className="flex flex-wrap gap-2 px-1">
+                  {attachments.map((a, i) => (
+                    <div
+                      key={i}
+                      className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white/5 border border-white/10 text-[10px] font-bold text-slate-400"
+                    >
+                      <span className="material-icons text-xs">attachment</span>
+                      {a.filename}
+                      <button
+                        type="button"
+                        onClick={() => setAttachments(attachments.filter((_, idx) => idx !== i))}
+                        className="text-red-400 hover:text-red-300"
+                      >
+                        <span className="material-icons text-[10px]">close</span>
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              <div>
+                <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
+                  Content (Markdown Supported)
+                </label>
+                <textarea
+                  value={content}
+                  onChange={(e) => setContent(e.target.value)}
+                  required
+                  placeholder="Share reviews, feedback, or ideas..."
+                  className="w-full rounded-2xl border border-white/10 bg-slate-900/50 p-6 text-sm text-slate-300 outline-none focus:border-cyan-500 h-64 transition-all shadow-inner font-medium leading-relaxed"
+                />
+              </div>
             </div>
           </div>
 

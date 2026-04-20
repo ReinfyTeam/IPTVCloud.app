@@ -1,12 +1,13 @@
 import { NextResponse } from 'next/server';
 import { fetchEpgForId } from '@/services/epg-service';
 import { getChannelById, getEpgUrl } from '@/services/channel-service';
+import { decodeBase64Url } from '@/lib/base64';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET(req: Request, { params }: { params: { id: string } }) {
   try {
-    const channelId = decodeURIComponent(params.id);
+    const channelId = decodeBase64Url(params.id);
     const channel = await getChannelById(channelId);
 
     if (!channel || !channel.epgId) {
@@ -16,8 +17,7 @@ export async function GET(req: Request, { params }: { params: { id: string } }) 
       );
     }
 
-    const preferredEpgUrl = await getEpgUrl();
-    const res = await fetchEpgForId(channel.epgId, preferredEpgUrl);
+    const res = await fetchEpgForId(channel.epgId, channel.epgUrl);
 
     if (!res || !res.found) {
       return NextResponse.json(

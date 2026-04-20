@@ -2,11 +2,13 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useSettingsStore } from '@/store/settings-store';
 import { useAuthStore } from '@/store/auth-store';
 import { useShortcutStore, ShortcutAction } from '@/store/shortcut-store';
 import { ACCENT_COLORS } from '@/types';
+import { getProxiedImageUrl } from '@/lib/image-proxy';
 
 export default function SettingsPage() {
   const router = useRouter();
@@ -15,6 +17,17 @@ export default function SettingsPage() {
   const { user, token, isLoggedIn, setAuth } = useAuthStore();
 
   const [username, setUsername] = useState('');
+  const [bio, setBio] = useState('');
+  const [about, setAbout] = useState('');
+  const [privacySettings, setPrivacySettings] = useState<any>({
+    showPostHistory: true,
+    showCommentHistory: true,
+    showRecentlyWatched: true,
+    showFollowList: true,
+  });
+  const [profileIcon, setProfileIcon] = useState('account_circle');
+  const [profileIconUrl, setProfileIconUrl] = useState('');
+  const [uploading, setUploading] = useState(false);
   const [msg, setMsg] = useState('');
   const [error, setError] = useState('');
   const [mounted, setMounted] = useState(false);
@@ -26,14 +39,25 @@ export default function SettingsPage() {
       return;
     }
     setUsername(user?.username || '');
+    setBio(user?.bio || '');
+    setAbout(user?.about || '');
+    setProfileIcon(user?.profileIcon || 'account_circle');
+    setProfileIconUrl(user?.profileIconUrl || '');
+    if (user?.privacySettings) {
+      try {
+        setPrivacySettings(JSON.parse((user as any).privacySettings));
+      } catch {}
+    }
 
     // Load shortcuts from server
-    fetch('/api/user/shortcuts', { headers: { Authorization: `Bearer ${token}` } })
-      .then((res) => res.json())
-      .then((data) => {
-        if (Array.isArray(data)) loadShortcuts(data);
-      });
-  }, [isLoggedIn, router, token, loadShortcuts, user?.username]);
+    if (token) {
+      fetch('/api/user/shortcuts', { headers: { Authorization: `Bearer ${token}` } })
+        .then((res) => res.json())
+        .then((data) => {
+          if (Array.isArray(data)) loadShortcuts(data);
+        });
+    }
+  }, [isLoggedIn, router, token, loadShortcuts, user]);
 
   const saveToServer = useCallback(
     async (newSettings?: any) => {
@@ -53,6 +77,55 @@ export default function SettingsPage() {
     },
     [user, token, settings],
   );
+
+  const handleIconUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file || !token) return;
+
+    setUploading(true);
+    const formData = new FormData();
+    formData.append('file', file);
+
+    try {
+      const res = await fetch('/api/attachments/upload', {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${token}` },
+        body: formData,
+      });
+      if (res.ok) {
+        const data = await res.json();
+        setProfileIconUrl(data.url);
+        setProfileIcon(''); // Clear material icon if using custom
+      }
+    } catch {
+      setError('Upload failed');
+    } finally {
+      setUploading(false);
+    }
+  };
+
+  const handleUpdateProfile = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setMsg('Updating...');
+    setError('');
+    try {
+      const res = await fetch('/api/user/update-profile', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ bio, about, privacySettings, profileIcon, profileIconUrl }),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        setMsg('Profile updated successfully.');
+        if (data.user) setAuth(data.user, token!);
+      } else {
+        setError(data.error || 'Update failed.');
+        setMsg('');
+      }
+    } catch {
+      setError('Network error.');
+    }
+  };
 
   const updateAndSync = (key: keyof typeof settings, value: any) => {
     updateSetting(key, value);
@@ -98,13 +171,13 @@ export default function SettingsPage() {
 
   return (
     <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 bg-slate-950">
-      <div className="mx-auto max-w-2xl space-y-12 animate-fade-in transform-gpu">
-        <div className="flex items-center justify-between">
+      <div className="mx-auto max-w-2xl space-y-8 sm:space-y-12 animate-fade-in transform-gpu">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
-            <h1 className="text-3xl font-black text-white uppercase italic tracking-tighter leading-none">
+            <h1 className="text-2xl sm:text-3xl font-black text-white uppercase italic tracking-tighter leading-none">
               Settings<span className="text-cyan-500">.</span>
             </h1>
-            <p className="text-slate-500 text-sm mt-1 font-medium">
+            <p className="text-slate-500 text-xs sm:text-sm mt-1 font-medium">
               Personalize your player and dashboard experience.
             </p>
           </div>
@@ -113,36 +186,36 @@ export default function SettingsPage() {
               resetSettings();
               void saveToServer();
             }}
-            className="rounded-2xl border border-white/10 px-6 py-2.5 text-[10px] font-black text-slate-500 hover:text-white uppercase tracking-widest transition-all active:scale-95"
+            className="rounded-xl sm:rounded-2xl border border-white/10 px-6 py-2.5 text-[9px] sm:text-[10px] font-black text-slate-500 hover:text-white uppercase tracking-widest transition-all active:scale-95 w-full sm:w-auto text-center"
           >
             Reset All
           </button>
         </div>
 
         {error && (
-          <div className="p-4 rounded-2xl bg-red-500/10 border border-red-500/20 text-red-400 text-sm font-bold animate-fade-in">
+          <div className="p-4 rounded-2xl bg-red-500/10 border border-red-500/20 text-red-400 text-xs sm:text-sm font-bold animate-fade-in">
             {error}
           </div>
         )}
 
         {/* Global Account Redirect */}
-        <section className="p-8 rounded-[40px] bg-gradient-to-br from-cyan-600/20 to-indigo-600/20 border border-white/[0.08] backdrop-blur-xl shadow-2xl flex items-center justify-between gap-6">
-          <div className="flex items-center gap-4">
-            <div className="h-12 w-12 rounded-2xl bg-white/10 flex items-center justify-center text-white">
-              <span className="material-icons">security</span>
+        <section className="p-6 sm:p-8 rounded-[32px] sm:rounded-[40px] bg-gradient-to-br from-cyan-600/20 to-indigo-600/20 border border-white/[0.08] backdrop-blur-xl shadow-2xl flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div className="flex items-center gap-4 w-full">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl sm:rounded-2xl bg-white/10 flex items-center justify-center text-white shrink-0">
+              <span className="material-icons text-xl sm:text-2xl">security</span>
             </div>
             <div>
-              <h2 className="text-lg font-bold text-white tracking-tight">
+              <h2 className="text-base sm:text-lg font-bold text-white tracking-tight">
                 Security & Credentials
               </h2>
-              <p className="text-xs text-slate-400 font-medium">
+              <p className="text-[10px] sm:text-xs text-slate-400 font-medium">
                 Change email, password, and setup 2FA.
               </p>
             </div>
           </div>
           <Link
             href="/account/settings/credentials"
-            className="px-6 py-3 rounded-2xl bg-white text-slate-950 text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95"
+            className="w-full sm:w-auto px-6 py-3 rounded-xl sm:rounded-2xl bg-white text-slate-950 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 text-center"
           >
             Manage
           </Link>
@@ -152,25 +225,25 @@ export default function SettingsPage() {
         <SettingsSection title="Identity" icon="person">
           <form onSubmit={handleUpdateUsername} className="space-y-6">
             <div>
-              <label className="block text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">
+              <label className="block text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">
                 Global Username
               </label>
-              <div className="flex gap-4">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <input
                   type="text"
                   value={username}
                   onChange={(e) => setUsername(e.target.value.toLowerCase())}
-                  className="flex-1 rounded-2xl border border-white/10 bg-slate-900/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
+                  className="flex-1 rounded-xl sm:rounded-2xl border border-white/10 bg-slate-900/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
                 />
                 <button
                   type="submit"
                   disabled={username === user?.username || !username}
-                  className="px-8 rounded-2xl bg-white/5 border border-white/10 text-[10px] font-black uppercase tracking-widest text-white hover:bg-white/10 transition-all active:scale-95 disabled:opacity-50"
+                  className="px-8 py-4 sm:py-0 rounded-xl sm:rounded-2xl bg-white/5 border border-white/10 text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-white hover:bg-white/10 transition-all active:scale-95 disabled:opacity-50"
                 >
                   Save
                 </button>
               </div>
-              <p className="text-[10px] text-slate-600 mt-3 italic px-1">
+              <p className="text-[9px] sm:text-[10px] text-slate-600 mt-3 italic px-1 leading-relaxed">
                 Note: Usernames can only be changed once every 3 months.
               </p>
             </div>
@@ -180,26 +253,39 @@ export default function SettingsPage() {
         <SettingsSection title="Appearance" icon="palette">
           <div className="space-y-8">
             <div>
-              <label className="block text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-4">
-                Theme Accent Color
-              </label>
+              <div className="flex items-center justify-between mb-4 px-1">
+                <label className="block text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-widest">
+                  Theme Accent Color
+                </label>
+                <div className="flex items-center gap-2">
+                  <span className="text-[9px] sm:text-[10px] font-black text-slate-500 uppercase tracking-widest">
+                    Custom
+                  </span>
+                  <input
+                    type="color"
+                    value={settings.accentColor.startsWith('#') ? settings.accentColor : '#06b6d4'}
+                    onChange={(e) => updateAndSync('accentColor', e.target.value)}
+                    className="h-5 w-5 sm:h-6 sm:w-6 rounded-md bg-transparent border-none cursor-pointer"
+                  />
+                </div>
+              </div>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {ACCENT_COLORS.map((c) => (
                   <button
                     key={c.id}
                     onClick={() => updateAndSync('accentColor', c.id)}
-                    className={`group flex flex-col items-center gap-3 p-4 rounded-3xl border transition-all active:scale-95 ${
+                    className={`group flex flex-col items-center gap-2 sm:gap-3 p-3 sm:p-4 rounded-2xl sm:rounded-3xl border transition-all active:scale-95 ${
                       settings.accentColor === c.id
                         ? 'border-white bg-white/[0.08] shadow-lg shadow-black/20'
                         : 'border-white/[0.05] bg-white/[0.02] hover:border-white/20'
                     }`}
                   >
                     <span
-                      className="h-6 w-6 rounded-full shadow-inner"
+                      className="h-5 w-5 sm:h-6 sm:w-6 rounded-full shadow-inner"
                       style={{ backgroundColor: c.hex }}
                     />
                     <span
-                      className={`text-[10px] font-black uppercase tracking-widest ${
+                      className={`text-[9px] sm:text-[10px] font-black uppercase tracking-widest ${
                         settings.accentColor === c.id
                           ? 'text-white'
                           : 'text-slate-500 group-hover:text-slate-300'
@@ -216,6 +302,7 @@ export default function SettingsPage() {
               description="Switch between light and dark visual themes."
               checked={settings.darkMode}
               onChange={() => updateAndSync('darkMode', !settings.darkMode)}
+              isBeta
             />
           </div>
         </SettingsSection>
@@ -242,7 +329,7 @@ export default function SettingsPage() {
             />
             <div>
               <div className="flex justify-between items-center mb-4 px-1">
-                <label className="block text-[11px] font-bold text-slate-500 uppercase tracking-widest">
+                <label className="block text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-widest">
                   Default Volume
                 </label>
                 <span className="text-xs font-black text-cyan-400">
@@ -264,16 +351,16 @@ export default function SettingsPage() {
 
         <SettingsSection title="Keyboard Shortcuts" icon="keyboard">
           <div className="space-y-6">
-            <p className="text-sm text-slate-500 px-1 font-medium leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-500 px-1 font-medium leading-relaxed">
               Customize how you control the player. Click a field and press any key to rebind.
             </p>
             <div className="grid gap-3 sm:grid-cols-2">
               {shortcuts.map((s) => (
                 <div
                   key={s.action}
-                  className="flex items-center justify-between p-5 rounded-3xl bg-white/[0.03] border border-white/[0.07] hover:bg-white/[0.05] transition-all"
+                  className="flex items-center justify-between p-4 sm:p-5 rounded-[24px] sm:rounded-3xl bg-white/[0.03] border border-white/[0.07] hover:bg-white/[0.05] transition-all"
                 >
-                  <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">
+                  <span className="text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-slate-400">
                     {s.action.replace(/_/g, ' ')}
                   </span>
                   <input
@@ -284,7 +371,7 @@ export default function SettingsPage() {
                       e.preventDefault();
                       void handleShortcutChange(s.action, e.key);
                     }}
-                    className="w-24 text-center rounded-xl bg-slate-950 border border-white/10 py-2.5 text-[11px] font-black text-cyan-400 cursor-pointer focus:border-cyan-500 outline-none transition-all shadow-inner"
+                    className="w-20 sm:w-24 text-center rounded-lg sm:rounded-xl bg-slate-950 border border-white/10 py-2 sm:py-2.5 text-[10px] sm:text-[11px] font-black text-cyan-400 cursor-pointer focus:border-cyan-500 outline-none transition-all shadow-inner"
                   />
                 </div>
               ))}
@@ -292,8 +379,190 @@ export default function SettingsPage() {
           </div>
         </SettingsSection>
 
+        <SettingsSection title="Profile & Privacy" icon="account_box">
+          <form onSubmit={handleUpdateProfile} className="space-y-8">
+            <div>
+              <label className="block text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-3 px-1">
+                Profile Icon
+              </label>
+
+              <div className="flex flex-col sm:flex-row gap-6 items-center p-5 sm:p-6 rounded-[24px] sm:rounded-[32px] bg-white/[0.02] border border-white/5 mb-6">
+                <div className="relative h-20 w-20 sm:h-24 sm:w-24 rounded-[24px] sm:rounded-[32px] bg-slate-800 border border-white/10 overflow-hidden shrink-0 shadow-inner flex items-center justify-center">
+                  {profileIconUrl ? (
+                    <Image
+                      src={getProxiedImageUrl(profileIconUrl)}
+                      alt="Preview"
+                      fill
+                      className="object-cover"
+                    />
+                  ) : profileIcon ? (
+                    <span className="material-icons text-4xl sm:text-5xl text-slate-500">
+                      {profileIcon}
+                    </span>
+                  ) : (
+                    <span className="material-icons text-4xl sm:text-5xl text-slate-700">
+                      account_circle
+                    </span>
+                  )}
+                  {uploading && (
+                    <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+                      <div className="h-6 w-6 rounded-full border-2 border-white/10 border-t-cyan-500 animate-spin" />
+                    </div>
+                  )}
+                </div>
+
+                <div className="flex-1 space-y-4 text-center sm:text-left w-full">
+                  <div className="flex flex-wrap justify-center sm:justify-start gap-2">
+                    {[
+                      'account_circle',
+                      'person',
+                      'face',
+                      'psychology',
+                      'pets',
+                      'sports_esports',
+                      'rocket_launch',
+                      'celebration',
+                    ].map((icon) => (
+                      <button
+                        key={icon}
+                        type="button"
+                        onClick={() => {
+                          setProfileIcon(icon);
+                          setProfileIconUrl('');
+                        }}
+                        className={`h-9 w-9 sm:h-10 sm:w-10 rounded-lg sm:rounded-xl flex items-center justify-center transition-all ${
+                          profileIcon === icon && !profileIconUrl
+                            ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20 scale-110'
+                            : 'bg-white/5 text-slate-400 hover:bg-white/10'
+                        }`}
+                      >
+                        <span className="material-icons text-lg">{icon}</span>
+                      </button>
+                    ))}
+                  </div>
+
+                  <div className="flex items-center gap-3 sm:gap-4">
+                    <label
+                      className={`flex-1 cursor-pointer flex items-center justify-center gap-2 py-3 rounded-xl sm:rounded-2xl border border-dashed border-white/20 text-slate-400 hover:text-white hover:border-cyan-500/50 transition-all ${uploading ? 'opacity-50 pointer-events-none' : ''}`}
+                    >
+                      <input
+                        type="file"
+                        className="hidden"
+                        accept="image/*"
+                        onChange={handleIconUpload}
+                        disabled={uploading}
+                      />
+                      <span className="material-icons text-sm">upload</span>
+                      <span className="text-[9px] sm:text-[10px] font-black uppercase tracking-widest">
+                        {uploading ? 'Uploading...' : 'Custom Icon'}
+                      </span>
+                    </label>
+                    {(profileIconUrl || profileIcon !== 'account_circle') && (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setProfileIcon('account_circle');
+                          setProfileIconUrl('');
+                        }}
+                        className="p-3 rounded-xl sm:rounded-2xl bg-red-500/10 text-red-400 hover:bg-red-500/20 transition-all"
+                      >
+                        <span className="material-icons text-sm">delete</span>
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <div>
+                <label className="block text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">
+                  Bio (Short)
+                </label>
+                <input
+                  type="text"
+                  value={bio}
+                  onChange={(e) => setBio(e.target.value)}
+                  placeholder="Tell us about yourself..."
+                  maxLength={160}
+                  className="w-full rounded-xl sm:rounded-2xl border border-white/10 bg-slate-900/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
+                />
+              </div>
+              <div>
+                <label className="block text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">
+                  About Me (Detailed)
+                </label>
+                <textarea
+                  value={about}
+                  onChange={(e) => setAbout(e.target.value)}
+                  placeholder="More about you..."
+                  rows={4}
+                  className="w-full rounded-xl sm:rounded-2xl border border-white/10 bg-slate-900/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner resize-none"
+                />
+              </div>
+            </div>
+
+            <div className="space-y-6 pt-6 border-t border-white/5">
+              <h3 className="text-[9px] sm:text-[10px] font-black text-slate-600 uppercase tracking-[0.2em] px-1">
+                Privacy Signals
+              </h3>
+              <Toggle
+                label="Show Post History"
+                description="Allow others to see your posts on your profile."
+                checked={privacySettings.showPostHistory}
+                onChange={() =>
+                  setPrivacySettings({
+                    ...privacySettings,
+                    showPostHistory: !privacySettings.showPostHistory,
+                  })
+                }
+              />
+              <Toggle
+                label="Show Comment History"
+                description="Allow others to see your comments on your profile."
+                checked={privacySettings.showCommentHistory}
+                onChange={() =>
+                  setPrivacySettings({
+                    ...privacySettings,
+                    showCommentHistory: !privacySettings.showCommentHistory,
+                  })
+                }
+              />
+              <Toggle
+                label="Show Recently Watched"
+                description="Allow others to see what you've recently watched."
+                checked={privacySettings.showRecentlyWatched}
+                onChange={() =>
+                  setPrivacySettings({
+                    ...privacySettings,
+                    showRecentlyWatched: !privacySettings.showRecentlyWatched,
+                  })
+                }
+              />
+              <Toggle
+                label="Show Follow Lists"
+                description="Allow others to see who you follow and who follows you."
+                checked={privacySettings.showFollowList}
+                onChange={() =>
+                  setPrivacySettings({
+                    ...privacySettings,
+                    showFollowList: !privacySettings.showFollowList,
+                  })
+                }
+              />
+            </div>
+
+            <button
+              type="submit"
+              className="w-full rounded-xl sm:rounded-2xl bg-white text-slate-950 py-4 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 shadow-lg shadow-black/20"
+            >
+              Update Profile
+            </button>
+          </form>
+        </SettingsSection>
+
         {msg && (
-          <div className="fixed bottom-8 left-1/2 -translate-x-1/2 rounded-full bg-cyan-500 px-8 py-3 text-xs font-bold text-slate-950 shadow-2xl animate-fade-up z-50">
+          <div className="fixed bottom-8 left-1/2 -translate-x-1/2 rounded-full bg-cyan-500 px-8 py-3 text-[10px] sm:text-xs font-bold text-slate-950 shadow-2xl animate-fade-up z-50">
             {msg}
           </div>
         )}
@@ -312,12 +581,12 @@ function SettingsSection({
   children: React.ReactNode;
 }) {
   return (
-    <section className="rounded-[40px] border border-white/[0.08] bg-white/[0.03] p-8 shadow-2xl backdrop-blur-xl">
+    <section className="rounded-[32px] sm:rounded-[40px] border border-white/[0.08] bg-white/[0.03] p-6 sm:p-8 shadow-2xl backdrop-blur-xl overflow-hidden">
       <div className="flex items-center gap-4 mb-8">
-        <div className="h-10 w-10 rounded-2xl bg-white/5 flex items-center justify-center text-xl text-slate-400">
+        <div className="h-10 w-10 rounded-xl sm:rounded-2xl bg-white/5 flex items-center justify-center text-lg sm:text-xl text-slate-400">
           <span className="material-icons">{icon}</span>
         </div>
-        <h2 className="text-xl font-bold text-white tracking-tight uppercase italic leading-none">
+        <h2 className="text-lg sm:text-xl font-bold text-white tracking-tight uppercase italic leading-none">
           {title}
         </h2>
       </div>
@@ -331,30 +600,37 @@ function Toggle({
   description,
   checked,
   onChange,
+  isBeta,
 }: {
   label: string;
   description?: string;
   checked: boolean;
   onChange: () => void;
+  isBeta?: boolean;
 }) {
   return (
     <div className="flex items-center justify-between gap-4 group">
-      <div className="min-w-0">
-        <div className="text-sm font-bold text-white group-hover:text-cyan-400 transition-colors uppercase tracking-tight">
+      <div className="min-w-0 flex-1">
+        <div className="text-xs sm:text-sm font-bold text-white group-hover:text-cyan-400 transition-colors uppercase tracking-tight flex items-center gap-2">
           {label}
+          {isBeta && (
+            <span className="bg-cyan-500/10 text-cyan-500 text-[7px] sm:text-[8px] font-black px-1.5 py-0.5 rounded border border-cyan-500/20 tracking-tighter shrink-0">
+              BETA
+            </span>
+          )}
         </div>
         {description && (
-          <div className="text-xs text-slate-500 mt-1 leading-relaxed font-medium">
+          <div className="text-[10px] sm:text-xs text-slate-500 mt-1 leading-relaxed font-medium">
             {description}
           </div>
         )}
       </div>
       <button
         onClick={onChange}
-        className={`relative h-7 w-12 shrink-0 rounded-full transition-all transform-gpu active:scale-95 ${checked ? 'bg-cyan-500 shadow-[0_0_20px_rgba(6,182,212,0.4)]' : 'bg-slate-800'}`}
+        className={`relative h-6 w-10 sm:h-7 sm:w-12 shrink-0 rounded-full transition-all transform-gpu active:scale-95 ${checked ? 'bg-cyan-500 shadow-[0_0_20px_rgba(6,182,212,0.4)]' : 'bg-slate-800'}`}
       >
         <span
-          className={`absolute top-1 left-1 h-5 w-5 rounded-full bg-white shadow-xl transition-all duration-300 ${checked ? 'translate-x-5' : 'translate-x-0'}`}
+          className={`absolute top-0.5 left-0.5 sm:top-1 sm:left-1 h-5 w-5 rounded-full bg-white shadow-xl transition-all duration-300 ${checked ? 'translate-x-4 sm:translate-x-5' : 'translate-x-0'}`}
         />
       </button>
     </div>

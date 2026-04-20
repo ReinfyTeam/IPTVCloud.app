@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ThemeProvider from '@/components/ThemeProvider';
 import CookieConsent from '@/components/CookieConsent';
+import NotificationPopup from '@/components/NotificationPopup';
 
 export const metadata: Metadata = {
   title: 'IPTVCloud.app — Live TV Browser',
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen bg-slate-950 text-slate-100 antialiased flex flex-col">
         <ThemeProvider>
           <Navbar />
+          <NotificationPopup />
           <main className="flex-1">{children}</main>
           <Footer />
           <CookieConsent />

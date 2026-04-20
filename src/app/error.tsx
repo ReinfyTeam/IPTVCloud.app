@@ -14,34 +14,33 @@ export default function Error({
   }, [error]);
 
   return (
-    <div className="flex min-h-[80vh] items-center justify-center px-4 pt-16">
-      <div className="w-full max-w-md animate-fade-up text-center">
-        <div className="text-9xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-red-600 opacity-80 mb-4">
-          500
+    <div className="flex min-h-screen items-center justify-center px-4 pt-32 pb-20 bg-slate-950">
+      <div className="w-full max-w-md animate-fade-up text-center space-y-8">
+        <div className="relative inline-block">
+          <div className="text-9xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-red-400 to-red-600 opacity-20 italic">
+            500
+          </div>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <span className="material-icons text-6xl text-red-500">error_outline</span>
+          </div>
         </div>
-        <h1 className="text-3xl font-bold text-white mb-4">Something went wrong</h1>
-        <p className="text-slate-400 mb-8 max-w-sm mx-auto">
-          An unexpected server error occurred. Our engineers have been notified and are working to
-          resolve the issue.
-        </p>
+
+        <div className="space-y-4">
+          <h1 className="text-3xl sm:text-4xl font-black text-white uppercase italic tracking-tighter">
+            System Failure<span className="text-red-500">.</span>
+          </h1>
+          <p className="text-slate-400 text-sm sm:text-base max-w-xs mx-auto leading-relaxed font-medium">
+            An unexpected error has disrupted the signal. Our technicians are currently
+            investigating the cause.
+          </p>
+        </div>
+
         <button
           onClick={() => reset()}
-          className="inline-flex items-center gap-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-md px-8 py-3.5 text-sm font-semibold text-white hover:bg-white/20 transition-all"
+          className="inline-flex items-center gap-3 rounded-2xl bg-white/5 border border-white/10 px-10 py-4 text-xs font-black uppercase tracking-widest text-white hover:bg-white/10 transition-all active:scale-95"
         >
-          <svg
-            className="h-4 w-4"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-            />
-          </svg>
-          Try again
+          <span className="material-icons text-lg">refresh</span>
+          Re-synchronize
         </button>
       </div>
     </div>

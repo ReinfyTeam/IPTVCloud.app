@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 
 export const dynamic = 'force-dynamic';
 
@@ -9,22 +9,15 @@ export async function GET(req: Request) {
     const q = searchParams.get('q') || '';
     const limit = parseInt(searchParams.get('limit') || '10');
 
-    const users = await prisma.user.findMany({
-      where: {
-        OR: [
-          { username: { contains: q, mode: 'insensitive' } },
-          { name: { contains: q, mode: 'insensitive' } },
-        ],
-      },
-      select: {
-        id: true,
-        username: true,
-        name: true,
-        role: true,
-        isVerified: true,
-      },
-      take: limit,
-    });
+    const { rows: users } = await db.query(
+      `
+      SELECT id, username, name, role, "isVerified"
+      FROM "User"
+      WHERE username ILIKE $1 OR name ILIKE $1
+      LIMIT $2
+    `,
+      [`%${q}%`, limit],
+    );
 
     return NextResponse.json(users);
   } catch {

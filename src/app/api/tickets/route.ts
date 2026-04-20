@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { authorizeRequest } from '@/services/auth-service';
 
 export const dynamic = 'force-dynamic';
@@ -14,24 +14,31 @@ export async function GET(req: Request) {
     const filterType = searchParams.get('type');
     const archived = searchParams.get('archived') === 'true';
 
-    let orderBy: any = { createdAt: 'desc' };
-    if (sort === 'oldest') orderBy = { createdAt: 'asc' };
-    if (sort === 'type') orderBy = { type: 'asc' };
-    if (sort === 'name') orderBy = { user: { username: 'asc' } };
+    let orderBy = 't."createdAt" DESC';
+    if (sort === 'oldest') orderBy = 't."createdAt" ASC';
+    if (sort === 'type') orderBy = 't."type" ASC';
+    if (sort === 'name') orderBy = 'u."username" ASC';
 
-    const tickets = await prisma.ticket.findMany({
-      where: {
-        isArchived: archived,
-        ...(filterType ? { type: filterType } : {}),
-      },
-      include: {
-        user: { select: { email: true, name: true, role: true, username: true } },
-        handledBy: { select: { name: true, username: true } },
-      },
-      orderBy,
-    });
+    let query = `
+      SELECT t.*, 
+             json_build_object('email', u."email", 'name', u."name", 'role', u."role", 'username', u."username") as user,
+             CASE WHEN h."id" IS NOT NULL THEN json_build_object('name', h."name", 'username', h."username") ELSE NULL END as "handledBy"
+      FROM "Ticket" t
+      JOIN "User" u ON t."userId" = u."id"
+      LEFT JOIN "User" h ON t."handledById" = h."id"
+      WHERE t."isArchived" = $1
+    `;
+    const params: any[] = [archived];
 
-    return NextResponse.json(tickets);
+    if (filterType) {
+      query += ` AND t."type" = $2`;
+      params.push(filterType);
+    }
+
+    query += ` ORDER BY ${orderBy}`;
+
+    const result = await db.query(query, params);
+    return NextResponse.json(result.rows);
   } catch (error) {
     return NextResponse.json({ error: 'Failed' }, { status: 500 });
   }
@@ -42,24 +49,41 @@ export async function POST(req: Request) {
     const auth = await authorizeRequest(req);
     if (auth instanceof NextResponse) return auth;
 
-    const { subject, message, type } = await req.json();
+    const { subject, message, type, attachments } = await req.json();
 
-    const allowedTypes = ['SUPPORT', 'APPEAL', 'BUG', 'FEATURE'];
+    const allowedTypes = ['SUPPORT', 'APPEAL', 'BUG', 'FEATURE', 'CHANNEL'];
     if (!subject || !message || !allowedTypes.includes(type)) {
       return NextResponse.json({ error: 'Invalid or missing fields' }, { status: 400 });
     }
 
-    const ticket = await prisma.ticket.create({
-      data: {
-        userId: auth.user!.id,
-        subject,
-        message,
-        type,
-      },
-    });
+    const ticketId = crypto.randomUUID();
+    const ticketResult = await db.query(
+      `INSERT INTO "Ticket" ("id", "userId", "subject", "message", "type", "updatedAt") 
+       VALUES ($1, $2, $3, $4, $5, NOW()) RETURNING *`,
+      [ticketId, auth.user!.id, subject, message, type],
+    );
+    const ticket = ticketResult.rows[0];
+
+    if (attachments && Array.isArray(attachments)) {
+      for (const a of attachments) {
+        await db.query(
+          `INSERT INTO "Attachment" ("id", "ticketId", "url", "filename", "type", "expiresAt")
+           VALUES ($1, $2, $3, $4, $5, $6)`,
+          [
+            crypto.randomUUID(),
+            ticketId,
+            a.url,
+            a.filename,
+            a.type || 'FILE',
+            a.expiresAt ? new Date(a.expiresAt) : null,
+          ],
+        );
+      }
+    }
 
     return NextResponse.json(ticket);
   } catch (error) {
+    console.error(error);
     return NextResponse.json({ error: 'Failed' }, { status: 500 });
   }
 }
@@ -72,7 +96,8 @@ export async function PATCH(req: Request) {
     const { id, status, handledById, isArchived } = await req.json();
     if (!id) return NextResponse.json({ error: 'ID required' }, { status: 400 });
 
-    const ticket = await prisma.ticket.findUnique({ where: { id } });
+    const ticketResult = await db.query('SELECT * FROM "Ticket" WHERE "id" = $1', [id]);
+    const ticket = ticketResult.rows[0];
     if (!ticket) return NextResponse.json({ error: 'Not found' }, { status: 404 });
 
     if (!auth.isStaff) {
@@ -83,23 +108,24 @@ export async function PATCH(req: Request) {
       if (status !== undefined || handledById !== undefined) {
         return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
       }
-      const updated = await prisma.ticket.update({
-        where: { id },
-        data: { ...(isArchived !== undefined ? { isArchived } : {}) },
-      });
-      return NextResponse.json(updated);
+      const updatedResult = await db.query(
+        `UPDATE "Ticket" SET "isArchived" = COALESCE($1, "isArchived"), "updatedAt" = NOW() WHERE "id" = $2 RETURNING *`,
+        [isArchived !== undefined ? isArchived : null, id],
+      );
+      return NextResponse.json(updatedResult.rows[0]);
     }
 
-    const updatedTicket = await prisma.ticket.update({
-      where: { id },
-      data: {
-        ...(status ? { status } : {}),
-        ...(handledById ? { handledById } : {}),
-        ...(isArchived !== undefined ? { isArchived } : {}),
-      },
-    });
+    const updatedResult = await db.query(
+      `UPDATE "Ticket" 
+       SET "status" = COALESCE($1, "status"), 
+           "handledById" = COALESCE($2, "handledById"), 
+           "isArchived" = COALESCE($3, "isArchived"),
+           "updatedAt" = NOW()
+       WHERE "id" = $4 RETURNING *`,
+      [status || null, handledById || null, isArchived !== undefined ? isArchived : null, id],
+    );
 
-    return NextResponse.json(updatedTicket);
+    return NextResponse.json(updatedResult.rows[0]);
   } catch (error) {
     return NextResponse.json({ error: 'Failed' }, { status: 500 });
   }
@@ -115,7 +141,7 @@ export async function DELETE(req: Request) {
 
     if (!id) return NextResponse.json({ error: 'ID required' }, { status: 400 });
 
-    await prisma.ticket.delete({ where: { id } });
+    await db.query('DELETE FROM "Ticket" WHERE "id" = $1', [id]);
 
     return NextResponse.json({ success: true });
   } catch (error) {

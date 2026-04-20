@@ -79,7 +79,6 @@ export async function fetchEpgForId(
   preferredSourceUrl?: string,
 ): Promise<EpgLookupResult> {
   const bases = [
-    preferredSourceUrl,
     process.env.EPG_BASE_URL?.replace(/\/$/, ''),
     'https://iptv-org.github.io/epg',
     'https://raw.githubusercontent.com/iptv-org/epg/master',
@@ -90,34 +89,35 @@ export async function fetchEpgForId(
   let xmlText: string | null = null;
   let sourceUrl: string | null = null;
 
-  for (const base of bases) {
-    if (base === preferredSourceUrl) {
-      try {
-        const response = await fetch(base, { next: { revalidate: 3600 } });
-        if (response.ok) {
-          xmlText = await response.text();
-          sourceUrl = base;
-          break;
-        }
-      } catch {}
-      continue;
-    }
-
-    for (const name of names) {
-      const url = `${base}/${name}`;
-      try {
-        const response = await fetch(url, { next: { revalidate: 3600 } });
-        if (!response.ok) continue;
-
+  // 1. Try preferredSourceUrl first if it exists
+  if (preferredSourceUrl) {
+    try {
+      const response = await fetch(preferredSourceUrl, { next: { revalidate: 3600 } });
+      if (response.ok) {
         xmlText = await response.text();
-        sourceUrl = url;
-        break;
-      } catch {
-        // Try the next candidate.
+        sourceUrl = preferredSourceUrl;
       }
-    }
+    } catch {}
+  }
 
-    if (xmlText) break;
+  // 2. Fallback to standard bases if no xmlText yet
+  if (!xmlText) {
+    for (const base of bases) {
+      for (const name of names) {
+        const url = `${base}/${name}`;
+        try {
+          const response = await fetch(url, { next: { revalidate: 3600 } });
+          if (!response.ok) continue;
+
+          xmlText = await response.text();
+          sourceUrl = url;
+          break;
+        } catch {
+          // Try the next candidate.
+        }
+      }
+      if (xmlText) break;
+    }
   }
 
   if (!xmlText) return { found: false };

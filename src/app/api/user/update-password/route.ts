@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { authorizeRequest, verifyPassword, hashPassword } from '@/services/auth-service';
 
 export const dynamic = 'force-dynamic';
@@ -28,10 +28,10 @@ export async function POST(req: Request) {
     }
 
     const hashedPassword = await hashPassword(newPassword);
-    await prisma.user.update({
-      where: { id: auth.user!.id },
-      data: { password: hashedPassword },
-    });
+    await db.query('UPDATE "User" SET "password" = $1 WHERE "id" = $2', [
+      hashedPassword,
+      auth.user!.id,
+    ]);
 
     return NextResponse.json({ ok: true });
   } catch (error) {

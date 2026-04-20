@@ -13,7 +13,8 @@ export interface Channel {
   viewersCount?: number;
   streamUrl: string;
   epgId?: string;
-  isLive: boolean;
+  epgUrl?: string;
+  isLive?: boolean;
   fallbackUrls?: string[];
   isGeoBlocked?: boolean;
   isNsfw?: boolean;
@@ -22,6 +23,8 @@ export interface Channel {
   replacedBy?: string;
   website?: string;
   description?: string;
+  isOffline?: boolean;
+  tags?: string[];
 }
 
 export interface ChannelDataset {
@@ -43,6 +46,7 @@ export interface ChannelQuery {
   category?: string;
   language?: string;
   resolution?: string;
+  status?: 'online' | 'offline' | 'geo-blocked';
   ids?: string[];
 }
 

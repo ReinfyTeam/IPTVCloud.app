@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
 import { authorizeRequest } from '@/services/auth-service';
+import db from '@/lib/db';
 
 export const dynamic = 'force-dynamic';
 
@@ -9,68 +9,14 @@ export async function GET(req: Request) {
     const auth = await authorizeRequest(req);
     if (auth instanceof NextResponse) return auth;
 
-    const url = new URL(req.url);
-    const limit = Math.min(100, Number(url.searchParams.get('limit') || '50'));
-
-    const history = await prisma.watchHistory.findMany({
-      where: { userId: auth.user!.id },
-      orderBy: { watchedAt: 'desc' },
-      take: limit,
-    });
-
-    return NextResponse.json({ ok: true, history });
-  } catch (error) {
-    return NextResponse.json(
-      { ok: false, error: error instanceof Error ? error.message : 'Failed.' },
-      { status: 500 },
+    const result = await db.query(
+      'SELECT * FROM "WatchHistory" WHERE "userId" = $1 ORDER BY "watchedAt" DESC LIMIT 50',
+      [auth.user!.id],
     );
-  }
-}
 
-export async function POST(req: Request) {
-  try {
-    const auth = await authorizeRequest(req);
-    if (auth instanceof NextResponse) return auth;
-
-    const { channelId, channelName, channelLogo, category, country } = await req.json();
-    if (!channelId || !channelName) {
-      return NextResponse.json(
-        { ok: false, error: 'channelId and channelName are required.' },
-        { status: 400 },
-      );
-    }
-
-    const entry = await prisma.watchHistory.create({
-      data: {
-        userId: auth.user!.id,
-        channelId,
-        channelName,
-        channelLogo: channelLogo || null,
-        category: category || null,
-        country: country || null,
-      },
-    });
-
-    return NextResponse.json({ ok: true, entry });
+    return NextResponse.json(result.rows);
   } catch (error) {
-    return NextResponse.json(
-      { ok: false, error: error instanceof Error ? error.message : 'Failed.' },
-      { status: 500 },
-    );
-  }
-}
-
-export async function DELETE(req: Request) {
-  try {
-    const auth = await authorizeRequest(req);
-    if (auth instanceof NextResponse) return auth;
-
-    await prisma.watchHistory.deleteMany({ where: { userId: auth.user!.id } });
-    return NextResponse.json({ ok: true });
-  } catch (error) {
-    return NextResponse.json(
-      { ok: false, error: error instanceof Error ? error.message : 'Failed.' },
-      { status: 500 },
-    );
+    console.error('WatchHistory GET error:', error);
+    return NextResponse.json({ error: 'Failed' }, { status: 500 });
   }
 }

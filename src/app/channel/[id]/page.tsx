@@ -3,10 +3,11 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getChannels } from '@/services/channel-service';
 import ChannelPlayerView from './ChannelPlayerView';
+import { decodeBase64Url } from '@/lib/base64';
 
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const { channels } = await getChannels();
-  const channel = channels.find((c) => c.id === decodeURIComponent(params.id));
+  const channel = channels.find((c) => c.id === decodeBase64Url(params.id));
   if (!channel) return { title: 'Channel Not Found — IPTVCloud.app' };
 
   return {
@@ -16,7 +17,7 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
 }
 
 export default async function ChannelPage({ params }: { params: { id: string } }) {
-  const decodedId = decodeURIComponent(params.id);
+  const decodedId = decodeBase64Url(params.id);
   const { channels } = await getChannels();
 
   const channel = channels.find((c) => c.id === decodedId);

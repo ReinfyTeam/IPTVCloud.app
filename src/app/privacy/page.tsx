@@ -1,15 +1,13 @@
 import InfoPage from '@/components/InfoPage';
 
 export default function Privacy() {
-  const content = `# Privacy Policy
+  const content = `
 
 **Last Updated:** April 18, 2026
 
 **IPTVCloud.app** ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy describes how we collect, use, process, and share your information when you use our application and website (the "Service").
 
 By using the Service, you agree to the collection and use of information in accordance with this policy.
-
------
 
 ## 1. LEGAL BASIS FOR PROCESSING (GDPR COMPLIANCE)
 
@@ -91,14 +89,12 @@ Our Service is not intended for use by children under the age of 13 (or the rele
 
 This Privacy Policy is governed by the laws of the **Philippines** and the **Data Privacy Act of 2012**. Any disputes arising under this policy shall be subject to the jurisdiction of the courts in **Valenzuela, Metro Manila**.
 
------
-
 ### CONTACT US
 
 If you have any questions about this Privacy Policy or wish to make a data request, please contact our Data Protection Officer at:
 
-**Email:** support@iptvcloud.app
-**Official Website:** https://iptvcloud.app`;
+**Email:** [support@iptvcloud.app](mailto://support@iptvcloud.app]
+**Official Website:** [www.iptvcloud.app](https://iptvcloud.app)`;
 
   return <InfoPage title="Privacy Policy" content={content} />;
 }

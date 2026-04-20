@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import {
   hashPassword,
   resolveRegistrationRole,
@@ -8,6 +8,7 @@ import {
 } from '@/services/auth-service';
 import { rateLimit } from '@/lib/rate-limit';
 import { setTokenCookie } from '@/lib/cookies';
+import { randomUUID } from 'crypto';
 
 export const dynamic = 'force-dynamic';
 
@@ -32,11 +33,15 @@ export async function POST(req: Request) {
       .trim()
       .toLowerCase();
     const password = String(body.password || '');
-    const name = body.name ? String(body.name).trim() : undefined;
+    const firstName = body.firstName ? String(body.firstName).trim() : undefined;
+    const lastName = body.lastName ? String(body.lastName).trim() : undefined;
+    const middleInitial = body.middleInitial ? String(body.middleInitial).trim() : undefined;
+    const suffix = body.suffix ? String(body.suffix).trim() : undefined;
+    const name = [firstName, middleInitial, lastName, suffix].filter(Boolean).join(' ');
 
-    if (!email || !password || !username) {
+    if (!email || !password || !username || !firstName || !lastName) {
       return NextResponse.json(
-        { ok: false, error: 'Email, username and password are required.' },
+        { ok: false, error: 'Email, username, password, first name and last name are required.' },
         { status: 400 },
       );
     }
@@ -60,16 +65,18 @@ export async function POST(req: Request) {
       );
     }
 
-    const existingEmail = await prisma.user.findUnique({ where: { email } });
-    if (existingEmail) {
+    const { rows: emailRows } = await db.query('SELECT id FROM "User" WHERE email = $1', [email]);
+    if (emailRows.length > 0) {
       return NextResponse.json(
         { ok: false, error: 'An account with that email already exists.' },
         { status: 409 },
       );
     }
 
-    const existingUser = await prisma.user.findUnique({ where: { username } });
-    if (existingUser) {
+    const { rows: userRows } = await db.query('SELECT id FROM "User" WHERE username = $1', [
+      username,
+    ]);
+    if (userRows.length > 0) {
       return NextResponse.json(
         { ok: false, error: 'That username is already taken.' },
         { status: 409 },
@@ -77,15 +84,16 @@ export async function POST(req: Request) {
     }
 
     const hashed = await hashPassword(password);
-    const user = await prisma.user.create({
-      data: {
-        email,
-        username,
-        password: hashed,
-        name,
-        role: resolveRegistrationRole(email),
-      },
-    });
+    const id = randomUUID();
+    const role = resolveRegistrationRole(email);
+
+    const { rows } = await db.query(
+      `INSERT INTO "User" (id, email, username, password, name, "firstName", "lastName", "middleInitial", suffix, role)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+       RETURNING *`,
+      [id, email, username, hashed, name, firstName, lastName, middleInitial, suffix, role],
+    );
+    const user = rows[0];
 
     const token = signToken(user);
     const response = NextResponse.json({ ok: true, user: sanitizeUser(user), token });

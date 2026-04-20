@@ -1,13 +1,30 @@
 @import 'tailwindcss';
 
 :root {
+  /* Default Dark Mode */
   --bg: #020617;
   --bg-elevated: #0b1120;
   --panel: rgba(11, 17, 32, 0.75);
   --text: #f8fafc;
-  --muted: #94a3b8;
+  --text-muted: #94a3b8;
   --accent: #06b6d4;
   --accent-glow: rgba(6, 182, 212, 0.15);
+  --border: rgba(255, 255, 255, 0.08);
+  --dot-color: rgba(255, 255, 255, 0.03);
+  color-scheme: dark;
+}
+
+.light {
+  --bg: #f8fafc;
+  --bg-elevated: #f1f5f9;
+  --panel: rgba(241, 245, 249, 0.75);
+  --text: #0f172a;
+  --text-muted: #475569;
+  --accent: #06b6d4;
+  --accent-glow: rgba(6, 182, 212, 0.1);
+  --border: rgba(15, 23, 42, 0.1);
+  --dot-color: rgba(15, 23, 42, 0.04);
+  color-scheme: light;
 }
 
 html {
@@ -24,7 +41,7 @@ body {
     radial-gradient(ellipse 80% 50% at 50% -20%, var(--accent-glow), transparent),
     radial-gradient(ellipse 60% 40% at 80% 80%, rgba(14, 165, 233, 0.07), transparent),
     radial-gradient(ellipse 50% 30% at 10% 90%, rgba(139, 92, 246, 0.05), transparent),
-    radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    radial-gradient(var(--dot-color) 1px, transparent 1px);
   background-size:
     100% 100%,
     100% 100%,

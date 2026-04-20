@@ -4,15 +4,17 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { REVERSE_COUNTRY_MAP } from '@/lib/countries';
 import BrandLogo from '@/components/BrandLogo';
+import { encodeBase64Url } from '@/lib/base64';
+import { getProxiedImageUrl } from '@/lib/image-proxy';
 
-export default async function EpgListPage() {
+export default async function EpgPage() {
   const dataset = await getChannels();
   const sortedChannels = [...dataset.channels].sort((a, b) => a.name.localeCompare(b.name));
 
   return (
-    <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 bg-slate-950">
+    <div className="min-h-screen pt-32 pb-20 px-4 sm:px-6 bg-slate-950">
       <div className="mx-auto max-w-[1460px] space-y-12">
-        <div className="flex flex-col md:flex-row items-end justify-between gap-8 p-12 rounded-[48px] bg-white/[0.02] border border-white/5 relative overflow-hidden shadow-2xl backdrop-blur-xl">
+        <div className="flex flex-col md:flex-row items-end justify-between gap-8 p-6 sm:p-12 rounded-[32px] sm:rounded-[48px] bg-white/[0.02] border border-white/5 relative overflow-hidden shadow-2xl backdrop-blur-xl">
           <div className="absolute top-0 right-0 h-64 w-64 bg-cyan-500/5 blur-[100px] rounded-full" />
           <div className="space-y-4 relative z-10">
             <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-[10px] font-black text-cyan-400 uppercase tracking-widest">
@@ -36,14 +38,14 @@ export default async function EpgListPage() {
           {sortedChannels.map((ch) => (
             <Link
               key={ch.id}
-              href={`/epg/${encodeURIComponent(ch.id)}`}
+              href={`/epg/${encodeBase64Url(ch.id)}`}
               className="group p-6 rounded-[32px] bg-white/[0.02] border border-white/[0.08] hover:border-cyan-500/50 hover:bg-cyan-500/[0.03] transition-all transform-gpu hover:-translate-y-1 shadow-xl"
             >
               <div className="flex items-center gap-4 mb-6">
                 <div className="h-14 w-14 rounded-2xl bg-slate-900 border border-white/5 flex items-center justify-center p-2 shadow-lg group-hover:scale-110 transition-transform">
                   {ch.logo ? (
                     <Image
-                      src={ch.logo}
+                      src={getProxiedImageUrl(ch.logo)}
                       alt=""
                       width={48}
                       height={48}
@@ -63,7 +65,9 @@ export default async function EpgListPage() {
                     {ch.country && REVERSE_COUNTRY_MAP[ch.country.toUpperCase()] && (
                       <div className="h-3 w-4 rounded-sm overflow-hidden border border-white/10 shrink-0">
                         <Image
-                          src={`https://flagcdn.com/w20/${REVERSE_COUNTRY_MAP[ch.country.toUpperCase()]}.png`}
+                          src={getProxiedImageUrl(
+                            `https://flagcdn.com/w20/${REVERSE_COUNTRY_MAP[ch.country.toUpperCase()]}.png`,
+                          )}
                           alt=""
                           width={20}
                           height={15}

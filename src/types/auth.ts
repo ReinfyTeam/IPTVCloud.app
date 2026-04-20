@@ -3,6 +3,16 @@ export interface AuthUser {
   email: string;
   username: string | null;
   name?: string | null;
+  firstName?: string | null;
+  lastName?: string | null;
+  middleInitial?: string | null;
+  suffix?: string | null;
+  bio?: string | null;
+  about?: string | null;
+  profileIcon?: string | null;
+  profileIconUrl?: string | null;
+  privacySettings?: string | null;
+  notificationSettings?: string | null;
   role: string;
   isVerified: boolean;
   twoFactorEnabled: boolean;
@@ -31,6 +41,10 @@ export interface RegisterRequest {
   username: string;
   password: string;
   name?: string;
+  firstName?: string;
+  lastName?: string;
+  middleInitial?: string;
+  suffix?: string;
 }
 
 export interface AuthResponse {

@@ -8,6 +8,7 @@ import { usePlayerStore } from '@/store/player-store';
 import { useHistoryStore } from '@/store/history-store';
 import ChannelCard from './ChannelCard';
 import Sidebar from './Sidebar';
+import { encodeBase64Url } from '@/lib/base64';
 
 function useDebounce<T>(value: T, delay: number): T {
   const [debounced, setDebounced] = useState(value);
@@ -42,6 +43,11 @@ type Props = {
   initialResolution?: string;
   initialLanguage?: string;
   initialTimezone?: string;
+  initialSubdivision?: string;
+  initialCity?: string;
+  initialRegion?: string;
+  initialStatus?: string;
+  initialSortBy?: string;
 };
 
 export default function ChannelBrowser({
@@ -52,6 +58,11 @@ export default function ChannelBrowser({
   initialResolution = '',
   initialLanguage = '',
   initialTimezone = '',
+  initialSubdivision = '',
+  initialCity = '',
+  initialRegion = '',
+  initialStatus = '',
+  initialSortBy = 'viewers',
 }: Props) {
   const router = useRouter();
   const { viewMode, setViewMode } = usePlayerStore();
@@ -64,13 +75,14 @@ export default function ChannelBrowser({
   const [resolution, setResolution] = useState(initialResolution);
   const [language, setLanguage] = useState(initialLanguage);
   const [timezone, setTimezone] = useState(initialTimezone);
-  const [subdivision, setSubdivision] = useState('');
-  const [city, setCity] = useState('');
-  const [region, setRegion] = useState('');
+  const [subdivision, setSubdivision] = useState(initialSubdivision);
+  const [city, setCity] = useState(initialCity);
+  const [region, setRegion] = useState(initialRegion);
+  const [status, setStatus] = useState(initialStatus);
   const [blocklist, setBlocklist] = useState('');
 
   const [favoritesOnly, setFavoritesOnly] = useState(false);
-  const [sortBy, setSortBy] = useState('recommended');
+  const [sortBy, setSortBy] = useState(initialSortBy);
   const [page, setPage] = useState(1);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
   const observerTarget = useRef<HTMLDivElement>(null);
@@ -93,6 +105,7 @@ export default function ChannelBrowser({
     blocklist,
     favoritesOnly,
     sortBy,
+    status,
   ]);
 
   const filterOptions = useMemo(
@@ -161,6 +174,11 @@ export default function ChannelBrowser({
       if (subdivision && c.subdivision?.toLowerCase() !== sub) return false;
       if (city && c.city?.toLowerCase() !== ct) return false;
       if (region && c.region?.toLowerCase() !== reg) return false;
+      if (status) {
+        if (status === 'online' && (c.isOffline || c.isGeoBlocked)) return false;
+        if (status === 'offline' && !c.isOffline) return false;
+        if (status === 'geo-blocked' && !c.isGeoBlocked) return false;
+      }
       if (favoritesOnly && !favoriteIds.includes(c.id)) return false;
       return true;
     });
@@ -177,6 +195,16 @@ export default function ChannelBrowser({
           return bFav - aFav;
         case 'featured':
           return (b.logo ? 1 : 0) - (a.logo ? 1 : 0);
+        case 'subdivision':
+          return (a.subdivision || '').localeCompare(b.subdivision || '');
+        case 'city':
+          return (a.city || '').localeCompare(b.city || '');
+        case 'region':
+          return (a.region || '').localeCompare(b.region || '');
+        case 'offline':
+          return (a.isOffline ? 1 : 0) - (b.isOffline ? 1 : 0);
+        case 'geo-blocked':
+          return (a.isGeoBlocked ? 1 : 0) - (b.isGeoBlocked ? 1 : 0);
         case 'recommended':
         default:
           return 0;
@@ -198,6 +226,7 @@ export default function ChannelBrowser({
     favoritesOnly,
     favoriteIds,
     sortBy,
+    status,
   ]);
 
   const pagedChannels = useMemo(
@@ -221,7 +250,7 @@ export default function ChannelBrowser({
   const selectChannel = useCallback(
     (ch: Channel) => {
       addHistory(ch);
-      router.push(`/channel/${encodeURIComponent(ch.id)}`);
+      router.push(`/channel/${encodeBase64Url(ch.id)}`);
     },
     [addHistory, router],
   );
@@ -276,6 +305,8 @@ export default function ChannelBrowser({
         setCity={setCity}
         region={region}
         setRegion={setRegion}
+        status={status}
+        setStatus={setStatus}
         blocklist={blocklist}
         setBlocklist={setBlocklist}
         favoritesOnly={favoritesOnly}
@@ -296,7 +327,7 @@ export default function ChannelBrowser({
                 className={`shrink-0 flex items-center gap-3 px-8 py-4 rounded-3xl text-[10px] font-black uppercase tracking-widest border transition-all active:scale-95 transform-gpu ${
                   !category
                     ? 'bg-cyan-500 border-cyan-500 text-slate-950 shadow-[0_0_30px_rgba(6,182,212,0.4)]'
-                    : 'bg-white/5 border-white/10 text-slate-400 hover:text-white hover:bg-white/10'
+                    : 'bg-white/5 border-white/10 text-slate-400 hover:text-foreground hover:bg-white/10'
                 }`}
               >
                 <span className="material-icons text-lg">apps</span>
@@ -309,7 +340,7 @@ export default function ChannelBrowser({
                   className={`shrink-0 flex items-center gap-3 px-8 py-4 rounded-3xl text-[10px] font-black uppercase tracking-widest border transition-all active:scale-95 transform-gpu ${
                     category === cat
                       ? 'bg-cyan-500 border-cyan-500 text-slate-950 shadow-[0_0_30px_rgba(6,182,212,0.4)]'
-                      : 'bg-white/5 border-white/10 text-slate-400 hover:text-white hover:bg-white/10'
+                      : 'bg-white/5 border-white/10 text-slate-400 hover:text-foreground hover:bg-white/10'
                   }`}
                 >
                   <span className="material-icons text-lg">
@@ -325,7 +356,7 @@ export default function ChannelBrowser({
                 <div className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 mb-2">
                   Technical Discovery
                 </div>
-                <h2 className="text-4xl font-black text-white flex items-center gap-4 italic uppercase tracking-tighter leading-none">
+                <h2 className="text-4xl font-black text-foreground flex items-center gap-4 italic uppercase tracking-tighter leading-none">
                   {hasFilters ? `${filteredChannels.length.toLocaleString()} matches` : `Library.`}
                   {hasFilters && (
                     <span className="rounded-full bg-cyan-500/10 border border-cyan-500/20 px-4 py-1.5 text-[9px] font-black text-cyan-400 animate-fade-in tracking-[0.2em]">
@@ -343,7 +374,7 @@ export default function ChannelBrowser({
                       className={`rounded-2xl px-6 py-3 transition-all duration-500 active:scale-95 flex items-center gap-3 ${
                         viewMode === m
                           ? 'bg-white text-slate-950 shadow-xl'
-                          : 'text-slate-500 hover:text-white hover:bg-white/5'
+                          : 'text-slate-500 hover:text-foreground hover:bg-white/5'
                       }`}
                     >
                       <span className="material-icons text-lg">
@@ -357,7 +388,7 @@ export default function ChannelBrowser({
                 </div>
                 <button
                   onClick={() => setIsMobileOpen(true)}
-                  className="lg:hidden rounded-3xl border border-white/[0.08] bg-slate-900/80 backdrop-blur-md px-8 py-4 text-[10px] font-black uppercase tracking-widest text-slate-300 hover:text-white transition-all shadow-xl active:scale-95 flex items-center gap-3"
+                  className="lg:hidden rounded-3xl border border-white/[0.08] bg-slate-900/80 backdrop-blur-md px-8 py-4 text-[10px] font-black uppercase tracking-widest text-slate-300 hover:text-foreground transition-all shadow-xl active:scale-95 flex items-center gap-3"
                 >
                   <span className="material-icons text-lg">tune</span>
                   Options
@@ -367,10 +398,10 @@ export default function ChannelBrowser({
 
             {filteredChannels.length === 0 ? (
               <div className="rounded-[64px] border border-dashed border-white/[0.08] p-32 text-center bg-slate-900/20 backdrop-blur-md animate-fade-in shadow-inner">
-                <span className="material-icons text-8xl mb-8 opacity-5 text-white">
+                <span className="material-icons text-8xl mb-8 opacity-5 text-foreground">
                   settings_input_antenna
                 </span>
-                <div className="text-3xl font-black text-white mb-4 italic uppercase tracking-tighter">
+                <div className="text-3xl font-black text-foreground mb-4 italic uppercase tracking-tighter">
                   No signals detected.
                 </div>
                 <div className="text-slate-500 max-w-sm mx-auto mb-10 font-medium leading-relaxed">
@@ -389,8 +420,8 @@ export default function ChannelBrowser({
                 <div
                   className={
                     viewMode === 'grid'
-                      ? 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8'
-                      : 'space-y-6'
+                      ? 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-6 gap-4 sm:gap-6'
+                      : 'space-y-4'
                   }
                 >
                   {pagedChannels.map((ch) => (

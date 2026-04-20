@@ -5,6 +5,8 @@ import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Hls from 'hls.js';
 import { buildStreamProxyUrl } from '@/services/stream-service';
+import { encodeBase64Url } from '@/lib/base64';
+import { getProxiedImageUrl } from '@/lib/image-proxy';
 
 type Props = {
   streamUrl: string;
@@ -66,7 +68,7 @@ export default function HeroVideo({ streamUrl, channelId, poster }: Props) {
   return (
     <div
       className="absolute inset-0 cursor-pointer overflow-hidden bg-slate-950 group"
-      onClick={() => router.push(`/channel/${encodeURIComponent(channelId)}`)}
+      onClick={() => router.push(`/channel/${encodeBase64Url(channelId)}`)}
     >
       {!hasError && (
         <video
@@ -81,7 +83,7 @@ export default function HeroVideo({ streamUrl, channelId, poster }: Props) {
 
       {hasError && poster && (
         <Image
-          src={poster}
+          src={getProxiedImageUrl(poster)}
           alt="Channel Poster"
           width={1920}
           height={1080}

@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { hashPassword, verifyPassword, sanitizeUser, signToken } from '@/services/auth-service';
 import { setTokenCookie } from '@/lib/cookies';
 import { rateLimit } from '@/lib/rate-limit';
@@ -23,7 +23,8 @@ export async function POST(req: Request) {
       );
     }
 
-    const user = await prisma.user.findUnique({ where: { id: userId } });
+    const { rows: userRows } = await db.query('SELECT * FROM "User" WHERE id = $1', [userId]);
+    const user = userRows[0];
     if (!user) {
       return NextResponse.json({ ok: false, error: 'User not found.' }, { status: 404 });
     }
@@ -41,13 +42,11 @@ export async function POST(req: Request) {
 
     const hashedPassword = await hashPassword(newPassword);
 
-    const updatedUser = await prisma.user.update({
-      where: { id: userId },
-      data: {
-        password: hashedPassword,
-        forcePasswordReset: false,
-      },
-    });
+    const { rows: updateRows } = await db.query(
+      'UPDATE "User" SET password = $1, "forcePasswordReset" = false WHERE id = $2 RETURNING *',
+      [hashedPassword, userId],
+    );
+    const updatedUser = updateRows[0];
 
     if (updatedUser.twoFactorEnabled) {
       return NextResponse.json({ ok: true, twoFactorRequired: true, userId: updatedUser.id });

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState, useMemo, useCallback } from 'react';
 import Link from 'next/link';
 import {
   AreaChart,
@@ -58,18 +58,18 @@ export default function StatusPage() {
     });
   }, []);
 
-  const fetchStats = () => {
+  const fetchStats = useCallback(() => {
     fetch(`/api/status/stats?range=${range}`)
       .then((r) => r.json())
       .then((d) => setStats(d))
       .catch(() => {});
-  };
+  }, [range]);
 
   useEffect(() => {
     fetchStats();
     const interval = setInterval(fetchStats, 5000); // Realtime update every 5 seconds
     return () => clearInterval(interval);
-  }, [range]);
+  }, [fetchStats]);
 
   const activeIncidents = useMemo(
     () => incidents.filter((i) => i.status !== 'RESOLVED'),
@@ -95,13 +95,13 @@ export default function StatusPage() {
   };
 
   return (
-    <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 bg-slate-950">
+    <div className="min-h-screen pt-32 pb-20 px-4 sm:px-6 bg-slate-950">
       <div className="mx-auto max-w-[1460px] space-y-12 animate-fade-in transform-gpu">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8 p-12 rounded-[48px] bg-white/[0.02] border border-white/5 relative overflow-hidden shadow-2xl backdrop-blur-xl">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8 p-8 sm:p-12 rounded-[32px] sm:rounded-[48px] bg-white/[0.02] border border-white/5 relative overflow-hidden shadow-2xl backdrop-blur-xl">
           <div className="absolute top-0 right-0 h-64 w-64 bg-cyan-500/5 blur-[100px] rounded-full" />
           <div className="space-y-4 relative z-10 text-center md:text-left">
             <div
-              className={`inline-flex items-center gap-2 px-4 py-1 rounded-full border text-[10px] font-black uppercase tracking-widest ${activeIncidents.length === 0 ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400' : 'bg-amber-500/10 border-amber-500/20 text-amber-400'}`}
+              className={`inline-flex items-center gap-2 px-4 py-1 rounded-full border text-[9px] sm:text-[10px] font-black uppercase tracking-widest ${activeIncidents.length === 0 ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400' : 'bg-amber-500/10 border-amber-500/20 text-amber-400'}`}
             >
               <span
                 className={`h-1.5 w-1.5 rounded-full animate-pulse ${activeIncidents.length === 0 ? 'bg-emerald-400' : 'bg-amber-400'}`}
@@ -110,18 +110,18 @@ export default function StatusPage() {
                 ? 'All Systems Operational'
                 : 'Partial Service Disruption'}
             </div>
-            <h1 className="text-5xl font-black text-white tracking-tighter uppercase italic leading-none">
+            <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tighter uppercase italic leading-none">
               System Health<span className="text-cyan-500">.</span>
             </h1>
-            <p className="text-slate-400 text-sm font-medium max-w-lg leading-relaxed">
+            <p className="text-slate-400 text-xs sm:text-sm font-medium max-w-lg leading-relaxed mx-auto md:mx-0">
               Real-time monitoring of our core infrastructure, streaming nodes, and community APIs.
             </p>
           </div>
           <div className="relative z-10 text-center">
-            <div className="text-5xl font-black text-cyan-400 tracking-tighter">
+            <div className="text-4xl sm:text-5xl font-black text-cyan-400 tracking-tighter">
               {uptimePercentage}%
             </div>
-            <div className="text-[10px] font-black text-slate-500 uppercase tracking-widest mt-1">
+            <div className="text-[9px] sm:text-[10px] font-black text-slate-500 uppercase tracking-widest mt-1">
               30-Day Uptime
             </div>
           </div>
@@ -129,15 +129,15 @@ export default function StatusPage() {
 
         <section className="space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 px-2">
-            <h2 className="text-2xl font-black text-white uppercase italic tracking-tighter">
+            <h2 className="text-xl sm:text-2xl font-black text-white uppercase italic tracking-tighter">
               Performance Metrics
             </h2>
-            <div className="flex bg-white/5 border border-white/10 rounded-2xl p-1">
+            <div className="flex bg-white/5 border border-white/10 rounded-xl sm:rounded-2xl p-1 overflow-x-auto scrollbar-hide">
               {(['hour', 'month', 'year'] as const).map((r) => (
                 <button
                   key={r}
                   onClick={() => setRange(r)}
-                  className={`px-6 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${
+                  className={`px-4 sm:px-6 py-2 rounded-lg sm:rounded-xl text-[9px] sm:text-[10px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${
                     range === r
                       ? 'bg-cyan-500 text-slate-950 shadow-lg'
                       : 'text-slate-500 hover:text-white'
@@ -149,16 +149,16 @@ export default function StatusPage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
             {/* Latency Graph */}
-            <div className="p-8 rounded-[40px] bg-white/[0.02] border border-white/[0.08] shadow-xl backdrop-blur-md">
+            <div className="p-6 sm:p-8 rounded-[32px] sm:rounded-[40px] bg-white/[0.02] border border-white/[0.08] shadow-xl backdrop-blur-md">
               <div className="flex items-center gap-2 mb-6">
                 <span className="h-2 w-2 rounded-full bg-cyan-500 shadow-[0_0_10px_rgba(6,182,212,0.5)]" />
-                <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest">
+                <span className="text-[9px] sm:text-[10px] font-black text-slate-500 uppercase tracking-widest">
                   Network Latency (ms)
                 </span>
               </div>
-              <div className="h-64 w-full">
+              <div className="h-48 sm:h-64 w-full">
                 <ResponsiveContainer width="100%" height="100%">
                   <AreaChart data={stats}>
                     <defs>
@@ -172,14 +172,15 @@ export default function StatusPage() {
                       dataKey="time"
                       tickFormatter={formatXAxis}
                       stroke="#ffffff20"
-                      tick={{ fontSize: 10, fill: '#64748b' }}
+                      tick={{ fontSize: 9, fill: '#64748b' }}
                     />
-                    <YAxis stroke="#ffffff20" tick={{ fontSize: 10, fill: '#64748b' }} width={40} />
+                    <YAxis stroke="#ffffff20" tick={{ fontSize: 9, fill: '#64748b' }} width={30} />
                     <Tooltip
                       contentStyle={{
                         backgroundColor: '#0f172a',
                         border: '1px solid #ffffff10',
                         borderRadius: '16px',
+                        fontSize: '10px',
                       }}
                       itemStyle={{ color: '#22d3ee', fontWeight: 'bold' }}
                       labelFormatter={(label) => formatXAxis(label as string)}
@@ -198,22 +199,22 @@ export default function StatusPage() {
             </div>
 
             {/* Viewers & Watching Users Graph */}
-            <div className="p-8 rounded-[40px] bg-white/[0.02] border border-white/[0.08] shadow-xl backdrop-blur-md">
-              <div className="flex items-center gap-4 mb-6">
+            <div className="p-6 sm:p-8 rounded-[32px] sm:rounded-[40px] bg-white/[0.02] border border-white/[0.08] shadow-xl backdrop-blur-md">
+              <div className="flex flex-wrap items-center gap-4 mb-6">
                 <div className="flex items-center gap-2">
                   <span className="h-2 w-2 rounded-full bg-indigo-500 shadow-[0_0_10px_rgba(99,102,241,0.5)]" />
-                  <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest">
+                  <span className="text-[9px] sm:text-[10px] font-black text-slate-500 uppercase tracking-widest">
                     Total Viewers
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="h-2 w-2 rounded-full bg-pink-500 shadow-[0_0_10px_rgba(236,72,153,0.5)]" />
-                  <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest">
+                  <span className="text-[9px] sm:text-[10px] font-black text-slate-500 uppercase tracking-widest">
                     Watching Users
                   </span>
                 </div>
               </div>
-              <div className="h-64 w-full">
+              <div className="h-48 sm:h-64 w-full">
                 <ResponsiveContainer width="100%" height="100%">
                   <AreaChart data={stats}>
                     <defs>
@@ -231,14 +232,15 @@ export default function StatusPage() {
                       dataKey="time"
                       tickFormatter={formatXAxis}
                       stroke="#ffffff20"
-                      tick={{ fontSize: 10, fill: '#64748b' }}
+                      tick={{ fontSize: 9, fill: '#64748b' }}
                     />
-                    <YAxis stroke="#ffffff20" tick={{ fontSize: 10, fill: '#64748b' }} width={40} />
+                    <YAxis stroke="#ffffff20" tick={{ fontSize: 9, fill: '#64748b' }} width={30} />
                     <Tooltip
                       contentStyle={{
                         backgroundColor: '#0f172a',
                         border: '1px solid #ffffff10',
                         borderRadius: '16px',
+                        fontSize: '10px',
                       }}
                       labelFormatter={(label) => formatXAxis(label as string)}
                     />
@@ -264,22 +266,22 @@ export default function StatusPage() {
             </div>
 
             {/* Streams Graph */}
-            <div className="p-8 rounded-[40px] bg-white/[0.02] border border-white/[0.08] shadow-xl backdrop-blur-md lg:col-span-2">
-              <div className="flex items-center gap-4 mb-6">
+            <div className="p-6 sm:p-8 rounded-[32px] sm:rounded-[40px] bg-white/[0.02] border border-white/[0.08] shadow-xl backdrop-blur-md lg:col-span-2">
+              <div className="flex flex-wrap items-center gap-4 mb-6">
                 <div className="flex items-center gap-2">
                   <span className="h-2 w-2 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]" />
-                  <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest">
+                  <span className="text-[9px] sm:text-[10px] font-black text-slate-500 uppercase tracking-widest">
                     Active IPTV Streams
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="h-2 w-2 rounded-full bg-red-500 shadow-[0_0_10px_rgba(239,68,68,0.5)]" />
-                  <span className="text-[10px] font-black text-slate-500 uppercase tracking-widest">
+                  <span className="text-[9px] sm:text-[10px] font-black text-slate-500 uppercase tracking-widest">
                     Down Streams
                   </span>
                 </div>
               </div>
-              <div className="h-64 w-full">
+              <div className="h-48 sm:h-64 w-full">
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart data={stats}>
                     <CartesianGrid strokeDasharray="3 3" stroke="#ffffff05" vertical={false} />
@@ -287,14 +289,15 @@ export default function StatusPage() {
                       dataKey="time"
                       tickFormatter={formatXAxis}
                       stroke="#ffffff20"
-                      tick={{ fontSize: 10, fill: '#64748b' }}
+                      tick={{ fontSize: 9, fill: '#64748b' }}
                     />
-                    <YAxis stroke="#ffffff20" tick={{ fontSize: 10, fill: '#64748b' }} width={40} />
+                    <YAxis stroke="#ffffff20" tick={{ fontSize: 9, fill: '#64748b' }} width={30} />
                     <Tooltip
                       contentStyle={{
                         backgroundColor: '#0f172a',
                         border: '1px solid #ffffff10',
                         borderRadius: '16px',
+                        fontSize: '10px',
                       }}
                       labelFormatter={(label) => formatXAxis(label as string)}
                       cursor={{ fill: '#ffffff05' }}
@@ -320,7 +323,7 @@ export default function StatusPage() {
 
         {activeIncidents.length > 0 && (
           <section className="space-y-6">
-            <h2 className="text-2xl font-black text-white uppercase italic tracking-tighter px-2">
+            <h2 className="text-xl sm:text-2xl font-black text-white uppercase italic tracking-tighter px-2">
               Active Incidents
             </h2>
             <div className="grid gap-4">
@@ -332,7 +335,7 @@ export default function StatusPage() {
         )}
 
         <section className="space-y-6">
-          <h2 className="text-2xl font-black text-white uppercase italic tracking-tighter px-2">
+          <h2 className="text-xl sm:text-2xl font-black text-white uppercase italic tracking-tighter px-2">
             Past Reports
           </h2>
           <div className="grid gap-4">
@@ -340,7 +343,7 @@ export default function StatusPage() {
               <IncidentCard key={inc.id} incident={inc} />
             ))}
             {resolvedIncidents.length === 0 && !loading && (
-              <div className="p-12 rounded-[32px] border border-dashed border-white/5 text-center text-slate-600 font-bold uppercase tracking-widest text-[10px]">
+              <div className="p-12 rounded-[32px] border border-dashed border-white/5 text-center text-slate-600 font-bold uppercase tracking-widest text-[9px] sm:text-[10px]">
                 No recent incidents reported.
               </div>
             )}
@@ -362,29 +365,29 @@ function IncidentCard({ incident }: { incident: Incident }) {
   return (
     <Link
       href={`/status/${incident.id}`}
-      className="group p-8 rounded-[40px] border border-white/[0.08] bg-white/[0.02] hover:bg-white/[0.04] transition-all transform-gpu hover:-translate-y-1 shadow-xl block"
+      className="group p-6 sm:p-8 rounded-[32px] sm:rounded-[40px] border border-white/[0.08] bg-white/[0.02] hover:bg-white/[0.04] transition-all transform-gpu hover:-translate-y-1 shadow-xl block"
     >
-      <div className="flex items-center justify-between mb-4">
-        <div className="flex items-center gap-3">
+      <div className="flex items-center justify-between mb-4 gap-4">
+        <div className="flex flex-wrap items-center gap-2 sm:gap-3">
           <span
-            className={`px-3 py-1 rounded-full text-[9px] font-black uppercase tracking-widest border ${severityColors[incident.severity] || severityColors.LOW}`}
+            className={`px-3 py-1 rounded-full text-[8px] sm:text-[9px] font-black uppercase tracking-widest border ${severityColors[incident.severity] || severityColors.LOW}`}
           >
             {incident.severity}
           </span>
-          <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">
+          <span className="text-[9px] sm:text-[10px] font-bold text-slate-500 uppercase tracking-widest whitespace-nowrap">
             {new Date(incident.createdAt).toLocaleDateString()}
           </span>
         </div>
         <span
-          className={`text-[10px] font-black uppercase tracking-widest ${incident.status === 'RESOLVED' ? 'text-emerald-400' : 'text-cyan-400'}`}
+          className={`text-[9px] sm:text-[10px] font-black uppercase tracking-widest ${incident.status === 'RESOLVED' ? 'text-emerald-400' : 'text-cyan-400'}`}
         >
           {incident.status}
         </span>
       </div>
-      <h3 className="text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors uppercase italic tracking-tight">
+      <h3 className="text-lg sm:text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors uppercase italic tracking-tight">
         {incident.title}
       </h3>
-      <p className="text-sm text-slate-500 leading-relaxed font-medium line-clamp-2">
+      <p className="text-xs sm:text-sm text-slate-500 leading-relaxed font-medium line-clamp-2">
         {incident.description}
       </p>
 

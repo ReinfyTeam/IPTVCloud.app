@@ -1,6 +1,5 @@
-/* eslint-disable */
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { sanitizeUser, signToken } from '@/services/auth-service';
 import { setTokenCookie } from '@/lib/cookies';
 
@@ -13,7 +12,8 @@ export async function POST(req: Request) {
   try {
     const { userId, token } = await req.json();
 
-    const user = await prisma.user.findUnique({ where: { id: userId } });
+    const { rows } = await db.query('SELECT * FROM "User" WHERE id = $1', [userId]);
+    const user = rows[0];
     if (!user || !user.twoFactorSecret) {
       return NextResponse.json(
         { ok: false, error: 'User not found or 2FA not enabled.' },

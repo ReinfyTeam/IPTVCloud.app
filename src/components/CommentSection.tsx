@@ -2,9 +2,24 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useAuthStore } from '@/store/auth-store';
+import EmojiPicker from './EmojiPicker';
+import UserHoverCard from './UserHoverCard';
+import ReactMarkdown from 'react-markdown';
+import { getProxiedImageUrl } from '@/lib/image-proxy';
 
-type CommentUser = { id: string; name: string | null; email: string; role: string };
+type CommentUser = {
+  id: string;
+  name: string | null;
+  username: string | null;
+  email: string;
+  role: string;
+  profileIconUrl: string | null;
+  profileIcon: string | null;
+};
+
+type Attachment = { id: string; url: string; filename: string; type: string };
 
 type Comment = {
   id: string;
@@ -13,27 +28,37 @@ type Comment = {
   isPinned: boolean;
   createdAt: string;
   user: CommentUser;
+  attachments: Attachment[];
 };
 
 type Props = {
   channelId: string;
+  ownerId?: string; // ID of the channel owner or OP
 };
 
-export default function CommentSection({ channelId }: Props) {
+export default function CommentSection({ channelId, ownerId }: Props) {
   const { user, token, isAdmin, isStaff } = useAuthStore();
   const [comments, setComments] = useState<Comment[]>([]);
   const [text, setText] = useState('');
+  const [attachments, setAttachments] = useState<{ url: string; filename: string; type: string }[]>(
+    [],
+  );
+  const [uploading, setUploading] = useState(false);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [editText, setEditText] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
   const fetchComments = useCallback(async () => {
     try {
-      const res = await fetch(`/api/comments?channelId=${encodeURIComponent(channelId)}`);
+      const res = await fetch(`/api/comments?channelId=${encodeURIComponent(channelId)}`, {
+        headers: token ? { Authorization: `Bearer ${token}` } : {},
+      });
       if (res.ok) setComments(await res.json());
     } catch {
       // ignore
     }
-  }, [channelId]);
+  }, [channelId, token]);
 
   useEffect(() => {
     fetchComments();
@@ -41,9 +66,41 @@ export default function CommentSection({ channelId }: Props) {
     return () => clearInterval(interval);
   }, [fetchComments]);
 
-  const postComment = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!text.trim() || !user || !token) return;
+  const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file || !token) return;
+    setUploading(true);
+    const formData = new FormData();
+    formData.append('file', file);
+    try {
+      const res = await fetch('/api/attachments/upload', {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${token}` },
+        body: formData,
+      });
+      if (res.ok) setAttachments([...attachments, await res.json()]);
+    } catch {
+    } finally {
+      setUploading(false);
+    }
+  };
+
+  const insertMarkdown = (prefix: string, suffix = prefix) => {
+    const input = document.querySelector('input[type="text"]') as HTMLInputElement;
+    if (!input) return;
+    const start = input.selectionStart || 0;
+    const end = input.selectionEnd || 0;
+    const val = input.value;
+    const before = val.substring(0, start);
+    const selection = val.substring(start, end);
+    const after = val.substring(end);
+    setText(before + prefix + selection + suffix + after);
+    input.focus();
+  };
+
+  const postComment = async (e?: React.FormEvent) => {
+    if (e) e.preventDefault();
+    if ((!text.trim() && attachments.length === 0) || !user || !token) return;
 
     setLoading(true);
     setError('');
@@ -51,11 +108,12 @@ export default function CommentSection({ channelId }: Props) {
       const res = await fetch('/api/comments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-        body: JSON.stringify({ channelId, text }),
+        body: JSON.stringify({ channelId, text, attachments }),
       });
       const data = await res.json();
       if (res.ok) {
         setText('');
+        setAttachments([]);
         setComments([data, ...comments]);
       } else {
         setError(data.error || 'Failed to post');
@@ -65,6 +123,22 @@ export default function CommentSection({ channelId }: Props) {
     } finally {
       setLoading(false);
     }
+  };
+
+  const handleEdit = async (id: string) => {
+    if (!editText.trim() || !token) return;
+    try {
+      const res = await fetch('/api/comments', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ id, text: editText }),
+      });
+      if (res.ok) {
+        const updated = await res.json();
+        setComments(comments.map((c) => (c.id === id ? updated : c)));
+        setEditingId(null);
+      }
+    } catch {}
   };
 
   const deleteComment = async (id: string) => {
@@ -110,56 +184,124 @@ export default function CommentSection({ channelId }: Props) {
             key={c.id}
             className={`group relative flex gap-3 animate-fade-in ${c.isPinned ? 'bg-cyan-500/5 -mx-2 px-2 py-3 rounded-2xl border border-cyan-500/10' : ''}`}
           >
-            <div className="h-8 w-8 rounded-full bg-slate-800 border border-white/10 flex items-center justify-center shrink-0">
-              <svg className="h-4 w-4 text-slate-500" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-              </svg>
+            <div className="h-8 w-8 rounded-xl bg-slate-800 border border-white/10 flex items-center justify-center shrink-0 overflow-hidden relative">
+              {c.user.profileIconUrl ? (
+                <Image
+                  src={getProxiedImageUrl(c.user.profileIconUrl)}
+                  alt=""
+                  fill
+                  className="object-cover"
+                />
+              ) : c.user.profileIcon ? (
+                <span className="material-icons text-lg text-slate-500">{c.user.profileIcon}</span>
+              ) : (
+                <span className="material-icons text-lg text-slate-600">account_circle</span>
+              )}
             </div>
             <div className="min-w-0 flex-1">
               <div className="flex items-center gap-2 mb-0.5">
-                <span
-                  className={`text-xs font-bold truncate ${c.user.role === 'ADMIN' ? 'text-red-400' : c.user.role === 'STAFF' ? 'text-violet-400' : 'text-slate-300'}`}
-                >
-                  {c.user.name || c.user.email.split('@')[0]}
-                </span>
+                <UserHoverCard username={c.user.username || c.user.id}>
+                  <span
+                    className={`text-[11px] font-black uppercase italic tracking-tighter truncate ${c.user.role === 'ADMIN' ? 'text-red-400' : c.user.role === 'STAFF' ? 'text-violet-400' : 'text-slate-300'}`}
+                  >
+                    {c.user.username || c.user.name || c.user.email.split('@')[0]}
+                  </span>
+                </UserHoverCard>
+                {c.userId === ownerId && (
+                  <span className="bg-cyan-500 text-slate-950 text-[8px] font-black px-1 rounded-sm uppercase tracking-tighter">
+                    OP
+                  </span>
+                )}
                 {c.isPinned && (
                   <span className="text-[10px] text-cyan-400 flex items-center gap-1">
-                    <span className="material-icons text-[10px]">push_pin</span> Pinned
+                    <span className="material-icons text-[10px]">push_pin</span>
                   </span>
                 )}
               </div>
-              <p className="text-sm text-slate-100 break-words leading-relaxed">{c.text}</p>
+              <div className="text-xs text-slate-100 break-words leading-relaxed prose prose-invert prose-xs max-w-none">
+                {editingId === c.id ? (
+                  <div className="flex flex-col gap-2 mt-2">
+                    <textarea
+                      value={editText}
+                      onChange={(e) => setEditText(e.target.value)}
+                      className="w-full rounded-xl bg-slate-950 border border-white/10 p-3 text-xs outline-none focus:border-cyan-500"
+                    />
+                    <div className="flex gap-2">
+                      <button
+                        onClick={() => handleEdit(c.id)}
+                        className="text-[9px] font-black uppercase text-cyan-400"
+                      >
+                        Save
+                      </button>
+                      <button
+                        onClick={() => setEditingId(null)}
+                        className="text-[9px] font-black uppercase text-slate-500"
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  </div>
+                ) : (
+                  <ReactMarkdown
+                    allowedElements={['strong', 'em', 'p', 'span', 'ul', 'ol', 'li']}
+                    unwrapDisallowed
+                  >
+                    {c.text}
+                  </ReactMarkdown>
+                )}
+              </div>
+              {c.attachments && c.attachments.length > 0 && (
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {c.attachments.map((a) => (
+                    <a
+                      key={a.id}
+                      href={a.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="group relative h-12 w-12 rounded-lg bg-slate-900 border border-white/5 overflow-hidden flex items-center justify-center"
+                    >
+                      {a.type === 'IMAGE' ? (
+                        <Image
+                          src={getProxiedImageUrl(a.url)}
+                          alt=""
+                          fill
+                          className="object-cover group-hover:scale-110 transition-transform"
+                        />
+                      ) : (
+                        <span className="material-icons text-slate-600 text-xs">attach_file</span>
+                      )}
+                    </a>
+                  ))}
+                </div>
+              )}
             </div>
 
             {(isAdmin() || isStaff() || c.userId === user?.id) && (
               <div className="absolute top-0 right-0 opacity-0 group-hover:opacity-100 transition-opacity flex gap-1">
+                {c.userId === user?.id && (
+                  <button
+                    onClick={() => {
+                      setEditingId(c.id);
+                      setEditText(c.text);
+                    }}
+                    className="p-1.5 text-slate-500 hover:text-cyan-400 transition-colors"
+                  >
+                    <span className="material-icons text-sm">edit</span>
+                  </button>
+                )}
                 {(isAdmin() || isStaff()) && (
                   <button
                     onClick={() => togglePin(c.id, !c.isPinned)}
                     className="p-1.5 text-slate-500 hover:text-cyan-400 transition-colors"
                   >
-                    <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"
-                      />
-                    </svg>
+                    <span className="material-icons text-sm">push_pin</span>
                   </button>
                 )}
                 <button
                   onClick={() => deleteComment(c.id)}
                   className="p-1.5 text-slate-500 hover:text-red-400 transition-colors"
                 >
-                  <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
+                  <span className="material-icons text-sm">delete</span>
                 </button>
               </div>
             )}
@@ -169,38 +311,80 @@ export default function CommentSection({ channelId }: Props) {
 
       <div className="p-4 bg-white/[0.02] border-t border-white/[0.05]">
         {user ? (
-          <form onSubmit={postComment} className="space-y-2">
-            <div className="relative">
+          <div className="space-y-3">
+            <div className="flex items-center justify-between mb-1 px-1">
+              <div className="flex items-center gap-2">
+                <EmojiPicker onSelect={(emoji) => setText((prev) => prev + emoji)} />
+                <div className="flex gap-2 opacity-50">
+                  <button
+                    type="button"
+                    onClick={() => insertMarkdown('**')}
+                    className="text-[10px] font-bold text-white hover:opacity-100 transition-opacity"
+                  >
+                    B
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => insertMarkdown('_')}
+                    className="text-[10px] italic font-bold text-white hover:opacity-100 transition-opacity"
+                  >
+                    I
+                  </button>
+                </div>
+              </div>
+              <label
+                className={`cursor-pointer p-2 rounded-xl transition-all ${uploading ? 'opacity-30' : 'text-slate-500 hover:text-white hover:bg-white/5'}`}
+              >
+                <input
+                  type="file"
+                  className="hidden"
+                  onChange={handleFileUpload}
+                  disabled={uploading}
+                />
+                <span className="material-icons text-sm">{uploading ? 'sync' : 'attach_file'}</span>
+              </label>
+            </div>
+
+            {attachments.length > 0 && (
+              <div className="flex flex-wrap gap-2 px-1 mb-2">
+                {attachments.map((a, i) => (
+                  <div
+                    key={i}
+                    className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[9px] font-bold text-slate-400"
+                  >
+                    <span className="material-icons text-xs">attachment</span>
+                    <span className="truncate max-w-[80px]">{a.filename}</span>
+                    <button
+                      type="button"
+                      onClick={() => setAttachments(attachments.filter((_, idx) => idx !== i))}
+                      className="text-red-400 hover:text-red-300"
+                    >
+                      <span className="material-icons text-xs">close</span>
+                    </button>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            <form onSubmit={postComment} className="relative">
               <input
                 type="text"
                 value={text}
                 onChange={(e) => setText(e.target.value)}
                 placeholder={user.isMuted ? 'You are muted' : 'Write a message...'}
                 disabled={loading || user.isMuted}
-                className="w-full rounded-2xl border border-white/10 bg-slate-950 px-4 py-3 text-sm text-white placeholder:text-slate-500 outline-none focus:border-cyan-500/50 transition-all"
+                className="w-full rounded-2xl border border-white/10 bg-slate-950 px-4 py-3 text-sm text-white placeholder:text-slate-500 outline-none focus:border-cyan-500/50 transition-all pr-12"
               />
               <button
                 type="submit"
-                disabled={loading || !text.trim() || user.isMuted}
+                disabled={loading || (!text.trim() && attachments.length === 0) || user.isMuted}
                 className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-xl bg-cyan-500 text-slate-950 flex items-center justify-center hover:bg-cyan-400 disabled:opacity-50 transition-all active:scale-90"
               >
-                <svg
-                  className="h-4 w-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={3}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M5 10l7-7m0 0l7 7m-7-7v18"
-                  />
-                </svg>
+                <span className="material-icons text-sm">send</span>
               </button>
-            </div>
+            </form>
             {error && <div className="text-[10px] text-red-400 font-medium px-2">{error}</div>}
-          </form>
+          </div>
         ) : (
           <div className="text-center py-2">
             <Link

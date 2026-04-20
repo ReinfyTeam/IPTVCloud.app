@@ -39,7 +39,15 @@ export function useChannelBrowser(channels: Channel[]) {
   const [country, setCountry] = useState('');
   const [category, setCategory] = useState('');
   const [language, setLanguage] = useState('');
+  const [resolution, setResolution] = useState('');
+  const [timezone, setTimezone] = useState('');
+  const [subdivision, setSubdivision] = useState('');
+  const [city, setCity] = useState('');
+  const [region, setRegion] = useState('');
+  const [status, setStatus] = useState('');
+  const [blocklist, setBlocklist] = useState('');
   const [favoritesOnly, setFavoritesOnly] = useState(false);
+  const [sortBy, setSortBy] = useState('viewers');
 
   useFavoritesPersistence();
 
@@ -80,14 +88,20 @@ export function useChannelBrowser(channels: Channel[]) {
       Array.from(new Set(items.filter(Boolean))).sort((a, b) => a.localeCompare(b));
 
     return {
-      countries: sort(channels.map((_channel) => _channel.country || '')),
-      categories: sort(channels.map((_channel) => _channel.category || '')),
-      languages: sort(channels.map((_channel) => _channel.language || '')),
+      countries: sort(channels.map((c) => c.country || '')),
+      categories: sort(channels.map((c) => c.category || '')),
+      languages: sort(channels.map((c) => c.language || '')),
+      resolutions: sort(channels.map((c) => c.resolution || '')),
+      timezones: sort(channels.map((c) => c.timezone || '')),
+      subdivisions: sort(channels.map((c) => c.subdivision || '')),
+      cities: sort(channels.map((c) => c.city || '')),
+      regions: sort(channels.map((c) => c.region || '')),
+      blocklist: [],
     };
   }, [channels]);
 
   const filteredChannels = useMemo(() => {
-    return channels.filter((channel) => {
+    let items = channels.filter((channel) => {
       const matchesSearch =
         !debouncedSearch ||
         [channel.name, channel.country, channel.category, channel.language]
@@ -97,13 +111,56 @@ export function useChannelBrowser(channels: Channel[]) {
       const matchesCountry = !country || channel.country === country;
       const matchesCategory = !category || channel.category === category;
       const matchesLanguage = !language || channel.language === language;
+      const matchesResolution = !resolution || channel.resolution === resolution;
+      const matchesTimezone = !timezone || channel.timezone === timezone;
+      const matchesSubdivision = !subdivision || channel.subdivision === subdivision;
+      const matchesCity = !city || channel.city === city;
+      const matchesRegion = !region || channel.region === region;
       const matchesFavorites = !favoritesOnly || favoriteIds.includes(channel.id);
 
+      let matchesStatus = true;
+      if (status === 'online') matchesStatus = !channel.isOffline && !channel.isGeoBlocked;
+      else if (status === 'offline') matchesStatus = !!channel.isOffline;
+      else if (status === 'geo-blocked') matchesStatus = !!channel.isGeoBlocked;
+
       return (
-        matchesSearch && matchesCountry && matchesCategory && matchesLanguage && matchesFavorites
+        matchesSearch &&
+        matchesCountry &&
+        matchesCategory &&
+        matchesLanguage &&
+        matchesResolution &&
+        matchesTimezone &&
+        matchesSubdivision &&
+        matchesCity &&
+        matchesRegion &&
+        matchesFavorites &&
+        matchesStatus
       );
     });
-  }, [category, channels, country, debouncedSearch, favoriteIds, favoritesOnly, language]);
+
+    // Sorting
+    if (sortBy === 'viewers') items.sort((a, b) => (b.viewersCount || 0) - (a.viewersCount || 0));
+    else if (sortBy === 'name') items.sort((a, b) => a.name.localeCompare(b.name));
+    else if (sortBy === 'favorites') items.sort((a, b) => (favoriteIds.includes(b.id) ? 1 : -1));
+    else if (sortBy === 'recommended') items.sort((a, b) => (b.isLive ? 1 : -1));
+
+    return items;
+  }, [
+    category,
+    channels,
+    country,
+    debouncedSearch,
+    favoriteIds,
+    favoritesOnly,
+    language,
+    resolution,
+    timezone,
+    subdivision,
+    city,
+    region,
+    status,
+    sortBy,
+  ]);
 
   const selectedChannel =
     filteredChannels.find((channel) => channel.id === selectedChannelId) ||
@@ -165,12 +222,29 @@ export function useChannelBrowser(channels: Channel[]) {
     setCountry('');
     setCategory('');
     setLanguage('');
+    setResolution('');
+    setTimezone('');
+    setSubdivision('');
+    setCity('');
+    setRegion('');
+    setStatus('');
+    setBlocklist('');
     setFavoritesOnly(false);
+    setSortBy('viewers');
   }
 
   return {
     country,
     category,
+    language,
+    resolution,
+    timezone,
+    subdivision,
+    city,
+    region,
+    status,
+    blocklist,
+    sortBy,
     filteredChannels,
     filterOptions,
     favoritesOnly,
@@ -179,9 +253,20 @@ export function useChannelBrowser(channels: Channel[]) {
     categoryHighlights,
     countryHighlights,
     quickPicks,
-    hasActiveFilters: Boolean(search || country || category || language || favoritesOnly),
+    hasActiveFilters: Boolean(
+      search ||
+      country ||
+      category ||
+      language ||
+      resolution ||
+      timezone ||
+      subdivision ||
+      city ||
+      region ||
+      status ||
+      favoritesOnly,
+    ),
     isFavorite: (channelId: string) => favoriteIds.includes(channelId),
-    language,
     search,
     selectedChannel,
     selectNextChannel: () => stepChannel(1),
@@ -191,6 +276,14 @@ export function useChannelBrowser(channels: Channel[]) {
     setCategory,
     setFavoritesOnly,
     setLanguage,
+    setResolution,
+    setTimezone,
+    setSubdivision,
+    setCity,
+    setRegion,
+    setStatus,
+    setBlocklist,
+    setSortBy,
     applyCountry,
     applyCategory,
     clearFilters,

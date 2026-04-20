@@ -1,3 +1,15 @@
+export interface PrivacySettings {
+  showPostHistory: boolean;
+  showCommentHistory: boolean;
+  showRecentlyWatched: boolean;
+}
+
+export const DEFAULT_PRIVACY_SETTINGS: PrivacySettings = {
+  showPostHistory: true,
+  showCommentHistory: true,
+  showRecentlyWatched: true,
+};
+
 export interface UserSettings {
   id?: string;
   userId?: string;

@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { authorizeRequest, sanitizeUser } from '@/services/auth-service';
 
 export const dynamic = 'force-dynamic';
@@ -18,14 +18,15 @@ export async function POST(req: Request) {
       return NextResponse.json({ ok: false, error: 'Invalid username format.' }, { status: 400 });
     }
 
-    const user = await prisma.user.findUnique({ where: { id: auth.user!.id } });
+    const userResult = await db.query('SELECT * FROM "User" WHERE id = $1', [auth.user!.id]);
+    const user = userResult.rows[0];
     if (!user) return NextResponse.json({ ok: false, error: 'User not found.' }, { status: 404 });
 
     // Check 3 months logic
     if (user.lastUsernameChange) {
       const threeMonthsAgo = new Date();
       threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
-      if (user.lastUsernameChange > threeMonthsAgo) {
+      if (new Date(user.lastUsernameChange) > threeMonthsAgo) {
         const nextDate = new Date(user.lastUsernameChange);
         nextDate.setMonth(nextDate.getMonth() + 3);
         return NextResponse.json(
@@ -39,7 +40,10 @@ export async function POST(req: Request) {
     }
 
     // Check availability
-    const taken = await prisma.user.findUnique({ where: { username: cleanUsername } });
+    const takenResult = await db.query('SELECT id FROM "User" WHERE username = $1', [
+      cleanUsername,
+    ]);
+    const taken = takenResult.rows[0];
     if (taken && taken.id !== user.id) {
       return NextResponse.json(
         { ok: false, error: 'That username is already taken.' },
@@ -47,13 +51,11 @@ export async function POST(req: Request) {
       );
     }
 
-    const updated = await prisma.user.update({
-      where: { id: user.id },
-      data: {
-        username: cleanUsername,
-        lastUsernameChange: new Date(),
-      },
-    });
+    const updatedResult = await db.query(
+      'UPDATE "User" SET username = $1, "lastUsernameChange" = $2 WHERE id = $3 RETURNING *',
+      [cleanUsername, new Date(), user.id],
+    );
+    const updated = updatedResult.rows[0];
 
     return NextResponse.json({ ok: true, user: sanitizeUser(updated) });
   } catch (error) {

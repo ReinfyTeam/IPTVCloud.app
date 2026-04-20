@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { authorizeRequest } from '@/services/auth-service';
 
 export async function PATCH(
@@ -12,16 +12,19 @@ export async function PATCH(
 
     const { message, status } = await req.json();
 
-    const update = await prisma.incidentUpdate.update({
-      where: { id: params.updateId },
-      data: {
-        ...(message ? { message } : {}),
-        ...(status ? { status } : {}),
-      },
-    });
+    const updateQuery = `
+      UPDATE "IncidentUpdate"
+      SET message = COALESCE($1, message),
+          status = COALESCE($2, status),
+          "updatedAt" = NOW()
+      WHERE id = $3
+      RETURNING *
+    `;
+    const res = await db.query(updateQuery, [message || null, status || null, params.updateId]);
 
-    return NextResponse.json(update);
+    return NextResponse.json(res.rows[0]);
   } catch (error: any) {
+    console.error('Failed to update incident update:', error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 }
@@ -34,12 +37,11 @@ export async function DELETE(
     const auth = await authorizeRequest(req, { requireStaff: true });
     if (auth instanceof NextResponse) return auth;
 
-    await prisma.incidentUpdate.delete({
-      where: { id: params.updateId },
-    });
+    await db.query('DELETE FROM "IncidentUpdate" WHERE id = $1', [params.updateId]);
 
     return NextResponse.json({ success: true });
   } catch (error: any) {
+    console.error('Failed to delete incident update:', error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 }

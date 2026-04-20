@@ -4,6 +4,7 @@ import React, { useEffect, useMemo, useRef, useState, useCallback } from 'react'
 import Hls from 'hls.js';
 import { usePlayerShortcuts } from '@/hooks/use-player-shortcuts';
 import { buildStreamProxyUrl } from '@/services/stream-service';
+import { encodeBase64Url } from '@/lib/base64';
 import type { Channel } from '@/types';
 
 type Props = {
@@ -454,296 +455,214 @@ export default function Player({
       onMouseLeave={() => {
         if (!showSettings) setShowControls(false);
       }}
+      onClick={(e) => {
+        // Handle mobile tap to show/hide controls
+        if (window.innerWidth < 1024) {
+          const target = e.target as HTMLElement;
+          // Don't toggle if clicking on a control button
+          if (!target.closest('button') && !target.closest('input')) {
+            setShowControls(!showControls);
+            if (!showControls) resetControlsTimer();
+          }
+        }
+      }}
       onDoubleClick={() => void toggleFullscreen()}
       className={`group relative overflow-hidden bg-black transition-all duration-500 transform-gpu 
         ${!showControls && status === 'playing' ? 'cursor-none' : 'cursor-default'}
-        ${isFullscreen ? 'fixed inset-0 z-[9999] h-screen w-screen !border-none !rounded-none !p-0 !m-0' : theaterMode ? 'rounded-none h-[60vh]' : 'rounded-[40px] border border-white/[0.08] shadow-2xl shadow-black/50 h-[300px] sm:h-[500px] lg:h-[640px]'} 
+        ${isFullscreen ? 'fixed inset-0 z-[9999] h-screen w-screen !border-none !rounded-none !p-0 !m-0' : theaterMode ? 'rounded-none h-[60vh] sm:h-[70vh]' : 'rounded-[24px] sm:rounded-[40px] border border-white/[0.08] shadow-2xl shadow-black/50 h-[240px] sm:h-[500px] lg:h-[640px]'} 
         ${className || ''}`}
     >
-      <video ref={videoRef} className="h-full w-full object-contain" poster={poster} playsInline />
-
-      {/* Stats for Nerds Overlay */}
-      {showStats && (
-        <div className="absolute top-4 left-4 z-40 bg-black/80 backdrop-blur-xl border border-white/10 p-4 rounded-3xl text-[10px] font-mono text-cyan-400 space-y-1 shadow-2xl animate-fade-in pointer-events-none">
-          <div className="flex justify-between gap-8">
-            <span>Bitrate:</span> <span>{stats.bitrate} kbps</span>
-          </div>
-          <div className="flex justify-between gap-8">
-            <span>Resolution:</span> <span>{stats.res}</span>
-          </div>
-          <div className="flex justify-between gap-8">
-            <span>Buffer Health:</span> <span>{stats.buffer}s</span>
-          </div>
-          <div className="flex justify-between gap-8">
-            <span>Dropped Frames:</span> <span>{stats.dropped}</span>
-          </div>
-          <button
-            onClick={() => setShowStats(false)}
-            className="w-full mt-2 text-white/40 hover:text-white uppercase text-[8px] font-bold pointer-events-auto"
-          >
-            Close Stats
-          </button>
-        </div>
-      )}
-
-      {/* Embed Modal */}
-      {showEmbed && (
-        <div className="absolute inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-8 animate-fade-in">
-          <div className="max-w-md w-full text-center space-y-6">
-            <h3 className="text-xl font-bold text-white uppercase italic tracking-tighter">
-              Embed Player.
-            </h3>
-            <div className="bg-slate-900 border border-white/10 p-4 rounded-2xl text-[10px] font-mono text-slate-400 break-all select-all">
-              {`<iframe src="${window.location.origin}/embed/${channel?.id}" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>`}
-            </div>
-            <button
-              onClick={() => setShowEmbed(false)}
-              className="px-8 py-3 rounded-full bg-white/10 text-white font-black text-[10px] uppercase tracking-widest hover:bg-white/20 transition-all active:scale-95"
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      )}
-
-      {status === 'loading' && (
-        <div className="absolute inset-0 flex items-center justify-center bg-black/40 pointer-events-none z-30">
-          <div className="h-16 w-16 rounded-full border-[3px] border-cyan-400/20 border-t-cyan-400 animate-spin shadow-[0_0_30px_rgba(6,182,212,0.4)]" />
-        </div>
-      )}
-
-      {status === 'error' && (
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 bg-slate-950/90 z-40 px-6 text-center">
-          <span className="material-icons text-5xl text-red-500 mb-2">error_outline</span>
-          <p className="text-sm font-black text-red-300 uppercase tracking-widest">{errorMsg}</p>
-          <button
-            onClick={() => {
-              setSourceIndex(0);
-              setStatus('loading');
-            }}
-            className="rounded-full bg-white/10 px-8 py-3 text-xs font-black text-white hover:bg-white/20 transition-all uppercase tracking-widest border border-white/10"
-          >
-            Try Again
-          </button>
-        </div>
-      )}
-
-      {/* Unified Settings Menu */}
-      {showSettings && (
-        <div className="settings-menu-container absolute bottom-20 right-8 z-50 bg-slate-900/95 backdrop-blur-2xl border border-white/10 rounded-2xl p-2 shadow-2xl animate-fade-in w-64 transform-gpu">
-          {settingsMenuLevel === 'main' && (
-            <div className="flex flex-col">
-              <SettingsButton
-                onClick={() => setSettingsMenuLevel('captions')}
-                icon="closed_caption"
-                label="Closed Captions"
-                value={currentSubtitleName}
-              />
-              <SettingsButton
-                onClick={() => setSettingsMenuLevel('quality')}
-                icon="tune"
-                label="Quality"
-                value={currentQualityName}
-              />
-              <div className="h-px bg-white/5 my-1" />
-              <SettingsButton
-                onClick={() => {
-                  setShowStats(!showStats);
-                  setShowSettings(false);
-                }}
-                icon="query_stats"
-                label="Stats for nerds"
-              />
-              <SettingsButton
-                onClick={() => {
-                  setShowEmbed(true);
-                  setShowSettings(false);
-                }}
-                icon="code"
-                label="Embed the video"
-              />
-            </div>
-          )}
-
-          {settingsMenuLevel === 'quality' && (
-            <div className="flex flex-col">
-              <div
-                className="flex items-center gap-2 px-3 py-2 text-xs font-bold text-white border-b border-white/5 mb-1 cursor-pointer hover:bg-white/5 rounded-xl"
-                onClick={() => setSettingsMenuLevel('main')}
-              >
-                <span className="material-icons text-sm">arrow_back</span> Quality
-              </div>
-              <SettingsOption
-                active={currentQualityId === -1}
-                onClick={() => changeQuality(-1)}
-                label="Auto"
-              />
-              {qualities.map((q) => (
-                <SettingsOption
-                  key={q.id}
-                  active={currentQualityId === q.id}
-                  onClick={() => changeQuality(q.id)}
-                  label={q.name}
-                />
-              ))}
-            </div>
-          )}
-
-          {settingsMenuLevel === 'captions' && (
-            <div className="flex flex-col">
-              <div
-                className="flex items-center gap-2 px-3 py-2 text-xs font-bold text-white border-b border-white/5 mb-1 cursor-pointer hover:bg-white/5 rounded-xl"
-                onClick={() => setSettingsMenuLevel('main')}
-              >
-                <span className="material-icons text-sm">arrow_back</span> Closed Captions
-              </div>
-              <SettingsOption
-                active={currentSubtitleId === -1}
-                onClick={() => changeSubtitle(-1)}
-                label="Off"
-              />
-              {subtitles.map((s) => (
-                <SettingsOption
-                  key={s.id}
-                  active={currentSubtitleId === s.id}
-                  onClick={() => changeSubtitle(s.id)}
-                  label={s.name}
-                />
-              ))}
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* Bottom Gradient overlay */}
-      <div
-        className={`absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black/90 pointer-events-none transition-opacity duration-500 z-10 ${showControls || status !== 'playing' ? 'opacity-100' : 'opacity-0'}`}
+      <video
+        ref={videoRef}
+        className="h-full w-full object-contain bg-black"
+        poster={poster}
+        playsInline
       />
 
-      {/* Main Controls */}
+      {/* Main UI Overlay */}
       <div
-        className={`absolute inset-0 flex flex-col justify-between p-6 sm:p-8 transition-all duration-500 z-20 ${showControls || status !== 'playing' ? 'opacity-100' : 'opacity-0 pointer-events-none translate-y-4'}`}
+        className="absolute inset-0 z-20"
+        onClick={(e) => {
+          // Handle mobile tap to show/hide controls
+          if (window.innerWidth < 1024) {
+            const target = e.target as HTMLElement;
+            // Don't toggle if clicking on a control button or settings menu
+            if (
+              !target.closest('button') &&
+              !target.closest('input') &&
+              !target.closest('.settings-menu-container')
+            ) {
+              setShowControls(!showControls);
+              if (!showControls) resetControlsTimer();
+            }
+          }
+        }}
       >
-        <div className="flex items-start justify-between gap-6">
-          <div className="min-w-0 flex-1">
-            <div className="flex items-center gap-2 mb-2">
-              <button
-                onClick={syncToLive}
-                className={`flex items-center gap-2 rounded-full px-3 py-1 text-[9px] font-black shadow-xl transition-all ${
-                  isLiveSynced
-                    ? 'bg-red-600 text-white shadow-red-950/50 pointer-events-none'
-                    : 'bg-slate-800 text-slate-400 hover:bg-slate-700 cursor-pointer border border-white/10'
-                }`}
-              >
-                <span
-                  className={`h-1.5 w-1.5 rounded-full ${isLiveSynced ? 'bg-white animate-pulse' : 'bg-slate-500'}`}
-                />
-                LIVE
-              </button>
-            </div>
-            <div className="truncate text-xl sm:text-2xl font-black text-white tracking-tighter drop-shadow-2xl uppercase italic">
-              {displayTitle || 'No Source'}
-            </div>
-            {displaySubtitle && (
-              <div className="truncate text-[10px] font-black text-slate-400 drop-shadow-md tracking-widest uppercase mt-1 opacity-80 italic">
-                {displaySubtitle}
+        {/* Top Header */}
+        <div
+          className={`absolute top-0 left-0 right-0 p-4 sm:p-8 transition-all duration-500 transform-gpu ${showControls ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4 pointer-events-none'}`}
+        >
+          <div className="flex items-start justify-between gap-4">
+            <div className="min-w-0 flex-1">
+              <div className="flex items-center gap-3 mb-1">
+                <div className="truncate text-base sm:text-2xl font-black text-white tracking-tighter drop-shadow-2xl uppercase italic">
+                  {displayTitle || 'No Source'}
+                </div>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    syncToLive();
+                  }}
+                  className={`flex items-center gap-1.5 rounded-full px-2 py-0.5 text-[8px] sm:text-[9px] font-black shadow-xl transition-all shrink-0 ${
+                    isLiveSynced
+                      ? 'bg-red-600 text-white shadow-red-950/50 pointer-events-none'
+                      : 'bg-slate-800 text-slate-400 hover:bg-slate-700 cursor-pointer border border-white/10'
+                  }`}
+                >
+                  <span
+                    className={`h-1 w-1 rounded-full ${isLiveSynced ? 'bg-white animate-pulse' : 'bg-slate-500'}`}
+                  />
+                  LIVE
+                </button>
               </div>
-            )}
+              {displaySubtitle && (
+                <div className="truncate text-[8px] sm:text-[10px] font-black text-slate-400 drop-shadow-md tracking-widest uppercase opacity-80 italic">
+                  {displaySubtitle}
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
-        <div className="flex flex-col gap-4">
-          {/* DVR Timeline */}
-          {!isNaN(duration) && duration > 0 && (
-            <div className="w-full flex items-center gap-4 text-[10px] font-mono text-white font-bold px-1 group/timeline">
-              <span>{formatTime(currentTime)}</span>
-              <input
-                type="range"
-                min="0"
-                max={duration}
-                value={currentTime}
-                onChange={onSeek}
-                className="flex-1 h-1.5 rounded-full bg-white/20 appearance-none accent-red-500 cursor-pointer hover:h-2 transition-all"
-              />
-              <span>{formatTime(duration)}</span>
-            </div>
-          )}
+        {/* Bottom Controls */}
+        <div
+          className={`absolute bottom-0 left-0 right-0 p-4 sm:p-8 transition-all duration-500 transform-gpu ${showControls ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'}`}
+        >
+          <div className="flex flex-col gap-3 sm:gap-4">
+            {/* DVR Timeline */}
+            {!isNaN(duration) && duration > 0 && (
+              <div className="w-full flex items-center gap-3 text-[9px] sm:text-[10px] font-mono text-white font-bold px-1 group/timeline">
+                <span>{formatTime(currentTime)}</span>
+                <div className="flex-1 relative h-1 sm:h-1.5 group/track">
+                  <div className="absolute inset-0 bg-white/20 rounded-full" />
+                  <div
+                    className="absolute inset-y-0 left-0 bg-red-600 rounded-full"
+                    style={{ width: `${(currentTime / duration) * 100}%` }}
+                  />
+                  <input
+                    type="range"
+                    min="0"
+                    max={duration}
+                    value={currentTime}
+                    onChange={onSeek}
+                    className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10"
+                  />
+                  <div
+                    className="absolute h-3 w-3 sm:h-4 sm:w-4 bg-white rounded-full border-2 border-red-600 -mt-1 sm:-mt-1.5 shadow-xl transition-transform group-hover/track:scale-110 pointer-events-none"
+                    style={{ left: `calc(${(currentTime / duration) * 100}% - 6px)` }}
+                  />
+                </div>
+                <span>{formatTime(duration)}</span>
+              </div>
+            )}
 
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-1 sm:gap-2">
-              <IconButton onClick={togglePlay}>
-                <span className="material-icons text-2xl">
-                  {status === 'playing' ? 'pause' : 'play_arrow'}
-                </span>
-              </IconButton>
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-0.5 sm:gap-2">
+                <IconButton onClick={togglePlay} className="h-8 w-8 sm:h-11 sm:w-11">
+                  <span className="material-icons text-lg sm:text-2xl">
+                    {status === 'playing' ? 'pause' : 'play_arrow'}
+                  </span>
+                </IconButton>
 
-              <IconButton onClick={onPreviousChannel}>
-                <span className="material-icons text-2xl">skip_previous</span>
-              </IconButton>
-              <IconButton onClick={onNextChannel}>
-                <span className="material-icons text-2xl">skip_next</span>
-              </IconButton>
+                <IconButton onClick={onPreviousChannel} className="h-8 w-8 sm:h-11 sm:w-11">
+                  <span className="material-icons text-lg sm:text-2xl">skip_previous</span>
+                </IconButton>
+                <IconButton onClick={onNextChannel} className="h-8 w-8 sm:h-11 sm:w-11">
+                  <span className="material-icons text-lg sm:text-2xl">skip_next</span>
+                </IconButton>
 
-              {/* Volume Hover Control */}
-              <div className="flex items-center group/volume hover:bg-white/10 rounded-full transition-all overflow-hidden h-11 ml-2">
+                {/* Volume Hover Control */}
+                <div className="hidden sm:flex items-center group/volume hover:bg-white/10 rounded-full transition-all overflow-hidden h-11 ml-2">
+                  <button
+                    onClick={toggleMute}
+                    className="h-11 w-11 flex items-center justify-center text-white shrink-0 hover:scale-110 transition-transform"
+                  >
+                    <span className="material-icons text-xl">
+                      {muted || volume === 0
+                        ? 'volume_off'
+                        : volume < 0.5
+                          ? 'volume_down'
+                          : 'volume_up'}
+                    </span>
+                  </button>
+                  <input
+                    type="range"
+                    min="0"
+                    max="1"
+                    step="0.05"
+                    value={muted ? 0 : volume}
+                    onChange={(e) => {
+                      if (videoRef.current) {
+                        videoRef.current.volume = Number(e.target.value);
+                        videoRef.current.muted = Number(e.target.value) === 0;
+                      }
+                    }}
+                    className="w-0 opacity-0 group-hover/volume:w-20 group-hover/volume:opacity-100 group-hover/volume:mr-3 transition-all duration-300 accent-white cursor-pointer h-1"
+                  />
+                </div>
+
+                {/* Mobile Volume Toggle */}
                 <button
-                  onClick={toggleMute}
-                  className="h-11 w-11 flex items-center justify-center text-white shrink-0 hover:scale-110 transition-transform"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    toggleMute();
+                  }}
+                  className="sm:hidden h-8 w-8 flex items-center justify-center text-white active:scale-90 transition-transform"
                 >
-                  <span className="material-icons text-xl">
-                    {muted || volume === 0
-                      ? 'volume_off'
-                      : volume < 0.5
-                        ? 'volume_down'
-                        : 'volume_up'}
+                  <span className="material-icons text-lg">
+                    {muted || volume === 0 ? 'volume_off' : 'volume_up'}
                   </span>
                 </button>
-                <input
-                  type="range"
-                  min="0"
-                  max="1"
-                  step="0.05"
-                  value={muted ? 0 : volume}
-                  onChange={(e) => {
-                    if (videoRef.current) {
-                      videoRef.current.volume = Number(e.target.value);
-                      videoRef.current.muted = Number(e.target.value) === 0;
-                    }
-                  }}
-                  className="w-0 opacity-0 group-hover/volume:w-20 group-hover/volume:opacity-100 group-hover/volume:mr-3 transition-all duration-300 accent-white cursor-pointer h-1"
-                />
               </div>
-            </div>
 
-            <div className="flex items-center gap-1 sm:gap-2">
-              <div className="settings-menu-container">
-                <IconButton
-                  onClick={(e) => {
-                    e?.stopPropagation();
-                    setSettingsMenuLevel('main');
-                    setShowSettings(!showSettings);
-                  }}
-                  active={showSettings}
-                >
-                  <span
-                    className={`material-icons text-xl transition-transform duration-500 ${showSettings ? 'rotate-90' : ''}`}
+              <div className="flex items-center gap-0.5 sm:gap-2">
+                <div className="settings-menu-container">
+                  <IconButton
+                    onClick={(e) => {
+                      e?.stopPropagation();
+                      setSettingsMenuLevel('main');
+                      setShowSettings(!showSettings);
+                    }}
+                    active={showSettings}
+                    className="h-8 w-8 sm:h-11 sm:w-11"
                   >
-                    settings
+                    <span
+                      className={`material-icons text-base sm:text-xl transition-transform duration-500 ${showSettings ? 'rotate-90' : ''}`}
+                    >
+                      settings
+                    </span>
+                  </IconButton>
+                </div>
+
+                <IconButton onClick={() => void togglePiP()} className="hidden sm:flex h-11 w-11">
+                  <span className="material-icons text-xl">picture_in_picture_alt</span>
+                </IconButton>
+                <IconButton
+                  onClick={() => setTheaterMode(!theaterMode)}
+                  active={theaterMode}
+                  className="hidden sm:flex h-11 w-11"
+                >
+                  <span className="material-icons text-xl">width_normal</span>
+                </IconButton>
+                <IconButton
+                  onClick={() => void toggleFullscreen()}
+                  className="h-8 w-8 sm:h-11 sm:w-11"
+                >
+                  <span className="material-icons text-lg sm:text-xl">
+                    {isFullscreen ? 'fullscreen_exit' : 'fullscreen'}
                   </span>
                 </IconButton>
               </div>
-
-              <IconButton onClick={() => void togglePiP()}>
-                <span className="material-icons text-xl">picture_in_picture_alt</span>
-              </IconButton>
-              <IconButton onClick={() => setTheaterMode(!theaterMode)} active={theaterMode}>
-                <span className="material-icons text-xl">width_normal</span>
-              </IconButton>
-              <IconButton onClick={() => void toggleFullscreen()}>
-                <span className="material-icons text-xl">
-                  {isFullscreen ? 'fullscreen_exit' : 'fullscreen'}
-                </span>
-              </IconButton>
             </div>
           </div>
         </div>
@@ -756,10 +675,12 @@ function IconButton({
   children,
   onClick,
   active,
+  className = '',
 }: {
   children: React.ReactNode;
   onClick?: (e?: React.MouseEvent) => void;
   active?: boolean;
+  className?: string;
 }) {
   return (
     <button
@@ -767,7 +688,7 @@ function IconButton({
         e.stopPropagation();
         onClick?.(e);
       }}
-      className={`h-11 w-11 rounded-full flex items-center justify-center transition-all duration-300 active:scale-90 ${active ? 'bg-cyan-500 text-slate-950 shadow-[0_0_20px_rgba(6,182,212,0.4)]' : 'text-white hover:bg-white/10'}`}
+      className={`h-11 w-11 rounded-full flex items-center justify-center transition-all duration-300 active:scale-90 ${active ? 'bg-cyan-500 text-slate-950 shadow-[0_0_20px_rgba(6,182,212,0.4)]' : 'text-white hover:bg-white/10'} ${className}`}
     >
       {children}
     </button>
@@ -780,14 +701,18 @@ function SettingsButton({
   label,
   value,
 }: {
-  onClick: () => void;
+  onClick: (e: React.MouseEvent) => void;
   icon: string;
   label: string;
   value?: string;
 }) {
   return (
     <button
-      onClick={onClick}
+      type="button"
+      onClick={(e) => {
+        e.stopPropagation();
+        onClick(e);
+      }}
       className="w-full flex items-center justify-between px-3 py-2.5 rounded-xl hover:bg-white/5 transition-all text-slate-200 hover:text-white"
     >
       <div className="flex items-center gap-3">
@@ -810,12 +735,16 @@ function SettingsOption({
   label,
 }: {
   active: boolean;
-  onClick: () => void;
+  onClick: (e: React.MouseEvent) => void;
   label: string;
 }) {
   return (
     <button
-      onClick={onClick}
+      type="button"
+      onClick={(e) => {
+        e.stopPropagation();
+        onClick(e);
+      }}
       className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl transition-all text-xs font-medium ${active ? 'text-white bg-white/10' : 'text-slate-300 hover:bg-white/5'}`}
     >
       <span className={`material-icons text-sm ${active ? 'opacity-100' : 'opacity-0'}`}>

@@ -1,13 +1,10 @@
 import InfoPage from '@/components/InfoPage';
 
 export default function TOS() {
-  const content = `# Terms of Service
-
+  const content = `
 **Last Updated:** April 18, 2026
 
 PLEASE READ THESE TERMS OF SERVICE ("AGREEMENT") CAREFULLY. THIS AGREEMENT CONSTITUTES A LEGALLY BINDING CONTRACT BETWEEN YOU ("USER" OR "YOU") AND **IPTVCLOUD.APP** ("WE," "US," OR "OUR"). BY ACCESSING, DOWNLOADING, OR USING THE SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS.
-
------
 
 ## 1. NATURE OF THE SERVICE
 
@@ -81,14 +78,12 @@ This Agreement shall be governed by and construed in accordance with the laws of
 
 We reserve the right to modify these Terms at any time. Changes become effective immediately upon being posted on this page. Your continued use of the Service following the posting of changes constitutes your acceptance of such changes.
 
------
-
 ### CONTACT INFORMATION
 
 If you have any questions regarding these detailed Terms of Service, please contact us at:
 
-**Email:** support@iptvcloud.app
-**Official Website:** https://iptvcloud.app`;
+**Email:** [support@iptvcloud.app](mailto://support@iptvcloud.app]
+**Official Website:** [www.iptvcloud.app](https://iptvcloud.app)`;
 
   return <InfoPage title="Terms of Service" content={content} />;
 }

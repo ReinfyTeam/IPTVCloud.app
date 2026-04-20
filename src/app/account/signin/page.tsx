@@ -127,15 +127,15 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center px-4 pt-24 pb-20 bg-slate-950">
-      <div className="w-full max-w-sm animate-fade-up">
-        <div className="text-center mb-8">
-          <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-[32px] bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 shadow-2xl">
-            <span className="material-icons text-4xl">
+    <div className="flex min-h-screen items-center justify-center px-4 pt-32 pb-20 bg-slate-950">
+      <div className="w-full max-w-sm animate-fade-up space-y-8">
+        <div className="text-center">
+          <div className="mx-auto mb-4 flex h-16 w-16 sm:h-20 sm:w-20 items-center justify-center rounded-2xl sm:rounded-[32px] bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 shadow-2xl">
+            <span className="material-icons text-3xl sm:text-4xl">
               {forceResetRequired ? 'lock_reset' : twoFactorRequired ? 'verified_user' : 'login'}
             </span>
           </div>
-          <h1 className="text-3xl font-black text-white uppercase italic tracking-tighter leading-none">
+          <h1 className="text-2xl sm:text-3xl font-black text-white uppercase italic tracking-tighter leading-none">
             {forceResetRequired
               ? 'Security Update'
               : twoFactorRequired
@@ -143,7 +143,7 @@ export default function LoginPage() {
                 : 'Welcome back'}
             <span className="text-cyan-500">.</span>
           </h1>
-          <p className="mt-2 text-slate-500 font-bold uppercase tracking-widest text-[10px]">
+          <p className="mt-2 text-slate-500 font-bold uppercase tracking-widest text-[9px] sm:text-[10px]">
             {forceResetRequired
               ? 'An admin has requested a password change'
               : twoFactorRequired
@@ -152,18 +152,18 @@ export default function LoginPage() {
           </p>
         </div>
 
-        <div className="rounded-[32px] border border-white/[0.08] bg-white/[0.03] p-8 shadow-2xl backdrop-blur-xl">
+        <div className="rounded-[32px] border border-white/[0.08] bg-white/[0.03] p-6 sm:p-8 shadow-2xl backdrop-blur-xl">
           {error && (
-            <div className="mb-6 flex items-center gap-2 rounded-2xl border border-red-500/20 bg-red-500/10 px-4 py-3 text-xs font-bold text-red-400 animate-fade-in">
+            <div className="mb-6 flex items-center gap-2 rounded-xl sm:rounded-2xl border border-red-500/20 bg-red-500/10 px-4 py-3 text-xs font-bold text-red-400 animate-fade-in">
               <span className="material-icons text-base">error_outline</span>
-              {error}
+              <span className="truncate">{error}</span>
             </div>
           )}
 
           {!twoFactorRequired && !forceResetRequired && (
-            <form onSubmit={(e) => void handleSubmit(e)} className="space-y-5">
+            <form onSubmit={(e) => void handleSubmit(e)} className="space-y-4 sm:space-y-5">
               <div>
-                <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
+                <label className="block text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
                   Email or Username
                 </label>
                 <input
@@ -171,12 +171,12 @@ export default function LoginPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  placeholder="you@example.com or username"
-                  className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-sm text-white placeholder:text-slate-600 outline-none focus:border-cyan-500 transition-all shadow-inner"
+                  placeholder="you@example.com"
+                  className="w-full rounded-xl sm:rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-sm text-white placeholder:text-slate-600 outline-none focus:border-cyan-500 transition-all shadow-inner"
                 />
               </div>
               <div>
-                <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
+                <label className="block text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
                   Password
                 </label>
                 <input
@@ -185,13 +185,13 @@ export default function LoginPage() {
                   onChange={(e) => setPassword(e.target.value)}
                   required
                   placeholder="••••••••"
-                  className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-sm text-white placeholder:text-slate-600 outline-none focus:border-cyan-500 transition-all shadow-inner"
+                  className="w-full rounded-xl sm:rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-sm text-white placeholder:text-slate-600 outline-none focus:border-cyan-500 transition-all shadow-inner"
                 />
               </div>
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full rounded-2xl bg-cyan-500 py-4 text-xs font-black uppercase tracking-widest text-slate-950 hover:bg-cyan-400 disabled:opacity-50 transition-all active:scale-95 shadow-lg shadow-cyan-900/20"
+                className="w-full rounded-xl sm:rounded-2xl bg-cyan-500 py-4 text-[10px] sm:text-xs font-black uppercase tracking-widest text-slate-950 hover:bg-cyan-400 disabled:opacity-50 transition-all active:scale-95 shadow-lg shadow-cyan-900/20"
               >
                 {loading ? 'Authenticating…' : 'Sign In'}
               </button>
@@ -199,13 +199,12 @@ export default function LoginPage() {
           )}
 
           {forceResetRequired && (
-            <form onSubmit={(e) => void handleForceReset(e)} className="space-y-6">
-              <div className="bg-orange-500/10 border border-orange-500/20 rounded-2xl p-4 text-[10px] font-bold text-orange-400 uppercase tracking-widest leading-relaxed">
-                Your password was reset by an administrator. For security reasons, you must set a
-                new password before you can proceed.
+            <form onSubmit={(e) => void handleForceReset(e)} className="space-y-5 sm:space-y-6">
+              <div className="bg-orange-500/10 border border-orange-500/20 rounded-xl p-4 text-[9px] sm:text-[10px] font-bold text-orange-400 uppercase tracking-widest leading-relaxed">
+                Your password was reset by an administrator. Please set a new password.
               </div>
               <div>
-                <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
+                <label className="block text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
                   New Password
                 </label>
                 <input
@@ -215,14 +214,14 @@ export default function LoginPage() {
                   required
                   minLength={8}
                   placeholder="New secure password"
-                  className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-sm text-white placeholder:text-slate-600 outline-none focus:border-cyan-500 transition-all shadow-inner"
+                  className="w-full rounded-xl sm:rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-sm text-white placeholder:text-slate-600 outline-none focus:border-cyan-500 transition-all shadow-inner"
                   autoFocus
                 />
               </div>
               <button
                 type="submit"
                 disabled={loading || newPassword.length < 8}
-                className="w-full rounded-2xl bg-cyan-500 py-4 text-xs font-black uppercase tracking-widest text-slate-950 hover:bg-cyan-400 disabled:opacity-50 transition-all active:scale-95 shadow-lg shadow-cyan-900/20"
+                className="w-full rounded-xl sm:rounded-2xl bg-cyan-500 py-4 text-[10px] sm:text-xs font-black uppercase tracking-widest text-slate-950 hover:bg-cyan-400 disabled:opacity-50 transition-all active:scale-95 shadow-lg shadow-cyan-900/20"
               >
                 {loading ? 'Updating...' : 'Set New Password'}
               </button>
@@ -232,7 +231,7 @@ export default function LoginPage() {
                   setForceResetRequired(false);
                   setPassword('');
                 }}
-                className="w-full text-[10px] font-bold text-slate-600 uppercase tracking-widest hover:text-white transition-all mt-2"
+                className="w-full text-[9px] sm:text-[10px] font-bold text-slate-600 uppercase tracking-widest hover:text-white transition-all mt-2"
               >
                 Cancel
               </button>
@@ -240,9 +239,9 @@ export default function LoginPage() {
           )}
 
           {twoFactorRequired && (
-            <form onSubmit={(e) => void handle2FAVerify(e)} className="space-y-6">
+            <form onSubmit={(e) => void handle2FAVerify(e)} className="space-y-5 sm:space-y-6">
               <div>
-                <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-4 text-center">
+                <label className="block text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 mb-4 text-center">
                   Verification Code
                 </label>
                 <input
@@ -252,21 +251,21 @@ export default function LoginPage() {
                   required
                   maxLength={6}
                   placeholder="000000"
-                  className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-center text-2xl font-mono tracking-[0.5em] text-cyan-400 outline-none focus:border-cyan-500 shadow-inner"
+                  className="w-full rounded-xl sm:rounded-2xl border border-white/[0.08] bg-slate-950/50 p-4 text-center text-2xl font-mono tracking-[0.5em] text-cyan-400 outline-none focus:border-cyan-500 shadow-inner"
                   autoFocus
                 />
               </div>
               <button
                 type="submit"
                 disabled={loading || otpToken.length !== 6}
-                className="w-full rounded-2xl bg-cyan-500 py-4 text-xs font-black uppercase tracking-widest text-slate-950 hover:bg-cyan-400 disabled:opacity-50 transition-all active:scale-95 shadow-lg shadow-cyan-900/20"
+                className="w-full rounded-xl sm:rounded-2xl bg-cyan-500 py-4 text-[10px] sm:text-xs font-black uppercase tracking-widest text-slate-950 hover:bg-cyan-400 disabled:opacity-50 transition-all active:scale-95 shadow-lg shadow-cyan-900/20"
               >
                 {loading ? 'Verifying…' : 'Confirm'}
               </button>
               <button
                 type="button"
                 onClick={() => setTwoFactorRequired(false)}
-                className="w-full text-[10px] font-bold text-slate-600 uppercase tracking-widest hover:text-white transition-all"
+                className="w-full text-[9px] sm:text-[10px] font-bold text-slate-600 uppercase tracking-widest hover:text-white transition-all"
               >
                 Back to Login
               </button>
@@ -275,7 +274,7 @@ export default function LoginPage() {
         </div>
 
         {!twoFactorRequired && !forceResetRequired && (
-          <p className="mt-8 text-center text-[10px] font-bold text-slate-600 uppercase tracking-widest">
+          <p className="mt-8 text-center text-[9px] sm:text-[10px] font-bold text-slate-600 uppercase tracking-widest">
             Don&apos;t have an account?{' '}
             <Link
               href="/account/signup"

@@ -1,8 +1,8 @@
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import { NextResponse } from 'next/server';
-import type { User } from '@prisma/client';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
+import type { User } from '@/types/db';
 import { getTokenFromRequest } from '@/lib/cookies';
 import type { AuthPayload, AuthUser } from '@/types';
 
@@ -37,6 +37,14 @@ export function sanitizeUser(user: User): AuthUser {
     email: user.email,
     username: user.username || null,
     name: user.name,
+    firstName: user.firstName,
+    lastName: user.lastName,
+    middleInitial: user.middleInitial,
+    suffix: user.suffix,
+    bio: user.bio,
+    about: user.about,
+    profileIcon: user.profileIcon,
+    profileIconUrl: user.profileIconUrl,
     role: user.role,
     isVerified: user.isVerified,
     twoFactorEnabled: user.twoFactorEnabled,
@@ -89,7 +97,8 @@ export async function getUserFromRequest(request: Request): Promise<User | null>
 
   try {
     const payload = jwt.verify(token, JWT_SECRET) as AuthPayload;
-    return await prisma.user.findUnique({ where: { id: payload.sub } });
+    const { rows } = await db.query('SELECT * FROM "User" WHERE id = $1', [payload.sub]);
+    return rows[0] || null;
   } catch {
     return null;
   }

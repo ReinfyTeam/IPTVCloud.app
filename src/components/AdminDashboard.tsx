@@ -364,12 +364,12 @@ export default function AdminDashboard() {
         </div>
       )}
 
-      <div className="flex flex-wrap gap-2 mb-10 bg-white/[0.03] border border-white/[0.07] p-1.5 rounded-2xl w-fit">
+      <div className="flex flex-wrap gap-2 mb-8 sm:mb-10 bg-white/[0.03] border border-white/[0.07] p-1.5 rounded-2xl w-full sm:w-fit overflow-x-auto scrollbar-hide">
         {(['users', 'incidents', 'tickets', 'posts'] as Tab[]).map((t) => (
           <button
             key={t}
             onClick={() => setTab(t)}
-            className={`rounded-xl px-8 py-3 text-[10px] font-black uppercase tracking-widest transition-all active:scale-95 ${tab === t ? 'bg-cyan-500 text-slate-950 shadow-lg' : 'text-slate-500 hover:text-white hover:bg-white/5'}`}
+            className={`flex-1 sm:flex-none rounded-xl px-6 sm:px-8 py-2.5 sm:py-3 text-[9px] sm:text-[10px] font-black uppercase tracking-widest transition-all active:scale-95 whitespace-nowrap ${tab === t ? 'bg-cyan-500 text-slate-950 shadow-lg' : 'text-slate-500 hover:text-white hover:bg-white/5'}`}
           >
             {t}
           </button>
@@ -379,66 +379,64 @@ export default function AdminDashboard() {
       {/* USERS TAB */}
       {tab === 'users' && (
         <div className="space-y-6">
-          <div className="relative max-w-md">
-            <span className="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">
+          <div className="relative w-full max-w-md">
+            <span className="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 text-sm">
               search
             </span>
             <input
               type="text"
               value={userSearch}
               onChange={(e) => setUserSearch(e.target.value)}
-              placeholder="Search ID, email, username, or name..."
-              className="w-full bg-white/[0.02] border border-white/[0.08] rounded-2xl py-3 pl-12 pr-4 text-white text-sm outline-none focus:border-cyan-500 transition-colors"
+              placeholder="Search community members..."
+              className="w-full bg-white/[0.02] border border-white/[0.08] rounded-2xl py-3 pl-11 pr-4 text-white text-xs font-bold outline-none focus:border-cyan-500 transition-colors shadow-inner"
             />
           </div>
 
-          <div className="rounded-[40px] border border-white/[0.07] bg-white/[0.02] overflow-hidden backdrop-blur-xl shadow-2xl">
-            <div className="overflow-x-auto">
-              <table className="w-full text-left text-sm min-w-[900px]">
-                <thead className="bg-white/[0.03] border-b border-white/[0.07]">
-                  <tr className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
-                    <th className="px-8 py-6">Identity</th>
-                    <th className="px-8 py-6">Privileges</th>
-                    <th className="px-8 py-6">Verification & Security</th>
-                    <th className="px-8 py-6 text-right">Moderation Actions</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-white/[0.03]">
-                  {users.map((u) => (
-                    <tr key={u.id} className="hover:bg-white/[0.01] transition-colors group">
-                      <td className="px-8 py-6">
-                        <div className="flex items-center gap-3">
-                          <div className="h-10 w-10 shrink-0 rounded-xl bg-slate-900 border border-white/5 flex items-center justify-center text-slate-700">
-                            <span className="material-icons">account_circle</span>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+            {/* Desktop Table View (Hidden on Mobile) */}
+            <div className="hidden lg:block rounded-[40px] border border-white/[0.07] bg-white/[0.02] overflow-hidden backdrop-blur-xl shadow-2xl">
+              <div className="overflow-x-auto">
+                <table className="w-full text-left text-sm">
+                  <thead className="bg-white/[0.03] border-b border-white/[0.07]">
+                    <tr className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
+                      <th className="px-8 py-6">Identity</th>
+                      <th className="px-8 py-6">Privileges</th>
+                      <th className="px-8 py-6">Verification</th>
+                      <th className="px-8 py-6 text-right">Moderation</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-white/[0.03]">
+                    {users.map((u) => (
+                      <tr key={u.id} className="hover:bg-white/[0.01] transition-colors group">
+                        <td className="px-8 py-6">
+                          <div className="flex items-center gap-3">
+                            <div className="h-10 w-10 shrink-0 rounded-xl bg-slate-900 border border-white/5 flex items-center justify-center text-slate-700 shadow-xl">
+                              <span className="material-icons">account_circle</span>
+                            </div>
+                            <div className="min-w-0">
+                              <div className="font-black text-white text-base uppercase italic tracking-tighter truncate">
+                                @{u.username || 'anonymous'}
+                              </div>
+                              <div className="text-[10px] font-bold text-slate-500 uppercase truncate">
+                                {u.email}
+                              </div>
+                            </div>
                           </div>
-                          <div className="min-w-0">
-                            <div className="font-black text-white text-base uppercase italic tracking-tighter truncate">
-                              @{u.username || 'anonymous'}
-                            </div>
-                            <div className="text-[10px] font-bold text-slate-500 uppercase truncate">
-                              {u.email}
-                            </div>
-                            <div className="text-[8px] font-mono text-slate-600 mt-0.5 truncate">
-                              {u.id}
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td className="px-8 py-6">
-                        <select
-                          value={u.role}
-                          onChange={(e) => handleModeration(u.id, 'SET_ROLE', e.target.value)}
-                          disabled={!isAdmin()}
-                          className="bg-white/5 border border-white/10 rounded-lg px-3 py-1.5 text-[9px] font-black uppercase text-white outline-none focus:border-cyan-500 disabled:opacity-50"
-                        >
-                          <option value="USER">USER</option>
-                          <option value="MODERATOR">MODERATOR</option>
-                          <option value="STAFF">STAFF</option>
-                          <option value="ADMIN">ADMIN</option>
-                        </select>
-                      </td>
-                      <td className="px-8 py-6">
-                        <div className="flex flex-col gap-2 items-start">
+                        </td>
+                        <td className="px-8 py-6">
+                          <select
+                            value={u.role}
+                            onChange={(e) => handleModeration(u.id, 'SET_ROLE', e.target.value)}
+                            disabled={!isAdmin()}
+                            className="bg-white/5 border border-white/10 rounded-lg px-3 py-1.5 text-[9px] font-black uppercase text-white outline-none focus:border-cyan-500 disabled:opacity-50"
+                          >
+                            <option value="USER">USER</option>
+                            <option value="MODERATOR">MODERATOR</option>
+                            <option value="STAFF">STAFF</option>
+                            <option value="ADMIN">ADMIN</option>
+                          </select>
+                        </td>
+                        <td className="px-8 py-6">
                           <button
                             onClick={() => handleModeration(u.id, 'SET_VERIFIED', !u.isVerified)}
                             disabled={!isAdmin()}
@@ -447,111 +445,84 @@ export default function AdminDashboard() {
                             <span className="material-icons text-[10px]">verified</span>
                             {u.isVerified ? 'VERIFIED' : 'UNVERIFIED'}
                           </button>
-                          {u.twoFactorEnabled && (
-                            <div className="flex items-center gap-2 text-[9px] font-bold text-amber-400 uppercase">
-                              <span className="material-icons text-[10px]">lock</span> 2FA Active
-                            </div>
-                          )}
-                        </div>
-                      </td>
-                      <td className="px-8 py-6 text-right space-x-2">
-                        {u.role !== 'ADMIN' && (
-                          <div className="flex flex-wrap justify-end gap-1.5">
-                            <button
-                              onClick={() => handleModeration(u.id, u.isMuted ? 'UNMUTE' : 'MUTE')}
-                              className={`px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all ${u.isMuted ? 'bg-amber-400 text-slate-900 shadow-lg shadow-amber-900/20' : 'bg-white/5 text-slate-500 hover:text-amber-400 hover:bg-amber-400/10'}`}
-                            >
-                              {u.isMuted ? 'MUTED' : 'MUTE'}
-                            </button>
-                            <button
-                              onClick={() =>
-                                handleModeration(u.id, u.isRestricted ? 'UNRESTRICT' : 'RESTRICT')
-                              }
-                              className={`px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all ${u.isRestricted ? 'bg-orange-500 text-white shadow-lg shadow-orange-900/20' : 'bg-white/5 text-slate-500 hover:text-orange-400 hover:bg-orange-500/10'}`}
-                            >
-                              {u.isRestricted ? 'RESTRICTED' : 'RESTRICT'}
-                            </button>
-                            <button
-                              onClick={() =>
-                                handleModeration(
-                                  u.id,
-                                  u.suspendedAt ? 'UNSUSPEND' : 'SUSPEND',
-                                  'Administrative action',
-                                )
-                              }
-                              className={`px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all ${u.suspendedAt ? 'bg-red-500 text-white shadow-lg shadow-red-900/20' : 'bg-white/5 text-slate-500 hover:text-red-400 hover:bg-red-500/10'}`}
-                            >
-                              {u.suspendedAt ? 'SUSPENDED' : 'SUSPEND'}
-                            </button>
+                        </td>
+                        <td className="px-8 py-6 text-right space-x-2">
+                          <UserActions user={u} onAction={handleModeration} isAdmin={isAdmin()} />
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
 
-                            {/* Dropdown for rare actions */}
-                            {isAdmin() && (
-                              <div className="relative group/actions inline-block">
-                                <button className="px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest bg-white/5 text-slate-500 hover:bg-white/10">
-                                  MORE{' '}
-                                  <span className="material-icons text-[10px] ml-1">
-                                    expand_more
-                                  </span>
-                                </button>
-                                <div className="absolute right-0 top-full mt-1 w-48 bg-slate-900 border border-white/10 rounded-xl shadow-2xl opacity-0 group-hover/actions:opacity-100 pointer-events-none group-hover/actions:pointer-events-auto transition-all z-50 overflow-hidden text-left">
-                                  <button
-                                    onClick={() => {
-                                      const em = prompt('New Email:');
-                                      if (em) handleModeration(u.id, 'CHANGE_EMAIL', em);
-                                    }}
-                                    className="w-full px-4 py-2.5 text-[9px] font-bold text-white hover:bg-white/5 uppercase transition-all"
-                                  >
-                                    Change Email
-                                  </button>
-                                  <button
-                                    onClick={() => {
-                                      const un = prompt('New Username:');
-                                      if (un) handleModeration(u.id, 'CHANGE_USERNAME', un);
-                                    }}
-                                    className="w-full px-4 py-2.5 text-[9px] font-bold text-white hover:bg-white/5 uppercase transition-all"
-                                  >
-                                    Change Username
-                                  </button>
-                                  {u.twoFactorEnabled && (
-                                    <button
-                                      onClick={() => {
-                                        if (confirm('Remove 2FA?'))
-                                          handleModeration(u.id, 'RESET_2FA');
-                                      }}
-                                      className="w-full px-4 py-2.5 text-[9px] font-bold text-amber-400 hover:bg-white/5 uppercase transition-all"
-                                    >
-                                      Remove 2FA
-                                    </button>
-                                  )}
-                                  <button
-                                    onClick={() => {
-                                      if (confirm('Force Password Reset?'))
-                                        handleModeration(u.id, 'RESET_PASSWORD');
-                                    }}
-                                    className="w-full px-4 py-2.5 text-[9px] font-bold text-orange-400 hover:bg-white/5 uppercase transition-all"
-                                  >
-                                    Force Password Reset
-                                  </button>
-                                  <div className="h-px bg-white/10" />
-                                  <button
-                                    onClick={() => {
-                                      if (confirm('Delete account permanently?'))
-                                        handleModeration(u.id, 'DELETE');
-                                    }}
-                                    className="w-full px-4 py-2.5 text-[9px] font-bold text-red-500 hover:bg-red-500/10 uppercase transition-all"
-                                  >
-                                    Delete Account
-                                  </button>
-                                </div>
-                              </div>
-                            )}
-                          </div>
+            {/* Mobile Card View (Hidden on Desktop) */}
+            <div className="lg:hidden grid gap-4">
+              {users.map((u) => (
+                <div
+                  key={u.id}
+                  className="p-6 rounded-[32px] bg-white/[0.02] border border-white/[0.07] shadow-xl space-y-6"
+                >
+                  <div className="flex items-center gap-4">
+                    <div className="h-12 w-12 rounded-2xl bg-slate-900 border border-white/5 flex items-center justify-center text-slate-700 shadow-xl">
+                      <span className="material-icons text-2xl">account_circle</span>
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-center gap-2">
+                        <span className="font-black text-white text-lg uppercase italic tracking-tighter truncate">
+                          @{u.username || 'anonymous'}
+                        </span>
+                        {u.isVerified && (
+                          <span className="material-icons text-cyan-400 text-sm">verified</span>
                         )}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+                      </div>
+                      <div className="text-[10px] font-bold text-slate-500 uppercase truncate">
+                        {u.email}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-3">
+                    <div className="space-y-1">
+                      <span className="text-[8px] font-black text-slate-600 uppercase tracking-widest ml-1">
+                        Role
+                      </span>
+                      <select
+                        value={u.role}
+                        onChange={(e) => handleModeration(u.id, 'SET_ROLE', e.target.value)}
+                        disabled={!isAdmin()}
+                        className="w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-[9px] font-black uppercase text-white outline-none"
+                      >
+                        <option value="USER">USER</option>
+                        <option value="MODERATOR">MODERATOR</option>
+                        <option value="STAFF">STAFF</option>
+                        <option value="ADMIN">ADMIN</option>
+                      </select>
+                    </div>
+                    <div className="space-y-1">
+                      <span className="text-[8px] font-black text-slate-600 uppercase tracking-widest ml-1">
+                        Verified
+                      </span>
+                      <button
+                        onClick={() => handleModeration(u.id, 'SET_VERIFIED', !u.isVerified)}
+                        disabled={!isAdmin()}
+                        className={`w-full flex items-center justify-center gap-2 px-3 py-2 rounded-xl border text-[9px] font-black uppercase transition-all ${u.isVerified ? 'bg-cyan-500/10 border-cyan-500/30 text-cyan-400' : 'bg-white/5 border-white/10 text-slate-500'}`}
+                      >
+                        {u.isVerified ? 'YES' : 'NO'}
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className="pt-4 border-t border-white/5">
+                    <UserActions
+                      user={u}
+                      onAction={handleModeration}
+                      isAdmin={isAdmin()}
+                      isMobile
+                    />
+                  </div>
+                </div>
+              ))}
             </div>
 
             {/* INFINITE SCROLL OBSERVER */}
@@ -643,13 +614,13 @@ export default function AdminDashboard() {
       {/* TICKETS TAB */}
       {tab === 'tickets' && (
         <div className="space-y-6">
-          <div className="flex items-center justify-between mb-6 px-2">
-            <div className="flex gap-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 px-2">
+            <div className="flex bg-white/5 border border-white/10 rounded-xl p-1 overflow-x-auto scrollbar-hide">
               {['newest', 'oldest', 'type', 'name'].map((s) => (
                 <button
                   key={s}
                   onClick={() => setTicketSort(s)}
-                  className={`text-[10px] font-black uppercase tracking-widest ${ticketSort === s ? 'text-cyan-400' : 'text-slate-500'}`}
+                  className={`px-4 py-2 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${ticketSort === s ? 'bg-cyan-500 text-slate-950 shadow-lg' : 'text-slate-500 hover:text-white'}`}
                 >
                   {s}
                 </button>
@@ -657,86 +628,105 @@ export default function AdminDashboard() {
             </div>
             <button
               onClick={() => setShowArchived(!showArchived)}
-              className={`text-[10px] font-black uppercase tracking-widest ${showArchived ? 'text-amber-400' : 'text-slate-500'}`}
+              className={`px-4 py-2 rounded-xl border text-[9px] font-black uppercase tracking-widest transition-all ${showArchived ? 'bg-amber-400/10 border-amber-400/30 text-amber-400' : 'bg-white/5 border-white/10 text-slate-500'}`}
             >
-              {showArchived ? 'VIEWING ARCHIVE' : 'VIEW ARCHIVE'}
+              {showArchived ? 'SHOWING ARCHIVED' : 'VIEW ARCHIVE'}
             </button>
           </div>
 
-          {tickets.map((tk) => (
-            <div
-              key={tk.id}
-              className="p-8 rounded-[40px] border border-white/[0.08] bg-white/[0.02] flex flex-col lg:flex-row gap-8 items-start shadow-2xl backdrop-blur-md relative overflow-hidden"
-            >
-              <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-3 mb-4">
-                  <span className="px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-[9px] font-black uppercase text-cyan-400">
-                    {tk.type}
-                  </span>
-                  <select
-                    value={tk.status}
-                    onChange={(e) => handleUpdateTicket(tk.id, { status: e.target.value })}
-                    className="bg-transparent text-[10px] font-black uppercase text-slate-500 outline-none cursor-pointer hover:text-white transition-all"
-                  >
-                    <option value="OPEN">OPEN</option>
-                    <option value="IN_PROGRESS">IN PROGRESS</option>
-                    <option value="HANDLED">HANDLED</option>
-                    <option value="CLOSED">CLOSED</option>
-                    <option value="INVALID">INVALID</option>
-                  </select>
-                </div>
-                <h3 className="text-2xl font-black text-white mb-4 uppercase italic tracking-tighter flex items-center gap-4">
-                  {tk.subject}
-                  <Link
-                    href={`/support/tickets/${tk.id}`}
-                    className="text-[10px] font-bold tracking-widest text-cyan-500 hover:text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full not-italic"
-                  >
-                    VIEW THREAD
-                  </Link>
-                </h3>
-                <p className="text-sm text-slate-400 leading-relaxed font-medium mb-8 p-6 rounded-3xl bg-slate-950/50 border border-white/5">
-                  {tk.message}
-                </p>
-
-                <div className="flex items-center gap-6">
-                  <div className="flex items-center gap-3">
-                    <div className="h-8 w-8 rounded-lg bg-slate-900 border border-white/5 flex items-center justify-center text-[10px] font-black text-slate-600">
-                      @{tk.user.username?.[0] || 'A'}
+          <div className="grid gap-4">
+            {tickets.map((tk) => (
+              <div
+                key={tk.id}
+                className="p-6 sm:p-8 rounded-[32px] sm:rounded-[40px] border border-white/[0.08] bg-white/[0.02] flex flex-col gap-6 sm:gap-8 shadow-2xl backdrop-blur-md relative overflow-hidden"
+              >
+                <div className="flex-1 min-w-0 space-y-4">
+                  <div className="flex items-center justify-between gap-4">
+                    <div className="flex items-center gap-2">
+                      <span className="px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-[8px] sm:text-[9px] font-black uppercase text-cyan-400">
+                        {tk.type}
+                      </span>
+                      <div className="h-1 w-1 rounded-full bg-slate-700" />
+                      <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest whitespace-nowrap">
+                        {new Date(tk.createdAt).toLocaleDateString()}
+                      </span>
                     </div>
-                    <div className="text-[10px] font-black uppercase tracking-widest text-slate-500">
-                      BY @{tk.user.username || 'anonymous'}
-                    </div>
+                    <select
+                      value={tk.status}
+                      onChange={(e) => handleUpdateTicket(tk.id, { status: e.target.value })}
+                      className="bg-white/5 border border-white/10 rounded-lg px-3 py-1.5 text-[9px] font-black uppercase text-slate-400 outline-none cursor-pointer focus:border-cyan-500"
+                    >
+                      <option value="OPEN">OPEN</option>
+                      <option value="IN_PROGRESS">IN PROGRESS</option>
+                      <option value="HANDLED">HANDLED</option>
+                      <option value="CLOSED">CLOSED</option>
+                      <option value="INVALID">INVALID</option>
+                    </select>
                   </div>
-                  {tk.handledBy && (
-                    <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/5">
-                      <span className="text-[8px] font-black text-slate-600 uppercase">
-                        HANDLING:
-                      </span>
-                      <span className="text-[9px] font-black text-cyan-400 uppercase">
-                        @{tk.handledBy.username}
-                      </span>
+
+                  <h3 className="text-xl sm:text-2xl font-black text-white uppercase italic tracking-tighter leading-tight group">
+                    {tk.subject}
+                  </h3>
+
+                  <div className="p-5 sm:p-6 rounded-[24px] sm:rounded-3xl bg-slate-950/50 border border-white/5 text-sm text-slate-400 leading-relaxed font-medium line-clamp-3">
+                    {tk.message}
+                  </div>
+
+                  <div className="flex flex-wrap items-center justify-between gap-4 pt-2">
+                    <div className="flex items-center gap-6">
+                      <div className="flex items-center gap-3">
+                        <div className="h-8 w-8 rounded-lg bg-slate-900 border border-white/5 flex items-center justify-center text-[10px] font-black text-slate-600">
+                          {tk.user.username?.[0] || 'A'}
+                        </div>
+                        <div className="text-[9px] font-black uppercase tracking-widest text-slate-500">
+                          @{tk.user.username || 'anonymous'}
+                        </div>
+                      </div>
+                      {tk.handledBy && (
+                        <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/5">
+                          <span className="text-[7px] font-black text-slate-600 uppercase">
+                            STAFF:
+                          </span>
+                          <span className="text-[8px] font-black text-cyan-400 uppercase">
+                            @{tk.handledBy.username}
+                          </span>
+                        </div>
+                      )}
                     </div>
+
+                    <Link
+                      href={`/support/tickets/${tk.id}`}
+                      className="flex-1 sm:flex-none py-2 px-6 rounded-xl bg-white/5 border border-white/10 text-[9px] font-black uppercase tracking-widest text-white hover:bg-white/10 transition-all text-center"
+                    >
+                      View Signal Thread
+                    </Link>
+                  </div>
+                </div>
+
+                <div className="flex gap-2 border-t border-white/5 pt-4">
+                  {!tk.handledById && (
+                    <button
+                      onClick={() => handleUpdateTicket(tk.id, { handledById: user?.id })}
+                      className="flex-1 py-3.5 rounded-xl bg-cyan-500 text-slate-950 font-black text-[9px] uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95"
+                    >
+                      TAKE CASE
+                    </button>
                   )}
+                  <button
+                    onClick={() => handleUpdateTicket(tk.id, { isArchived: !tk.isArchived })}
+                    className="flex-1 py-3.5 rounded-xl bg-white/5 border border-white/10 text-slate-500 font-black text-[9px] uppercase tracking-widest hover:text-white transition-all active:scale-95"
+                  >
+                    {tk.isArchived ? 'UNARCHIVE' : 'ARCHIVE'}
+                  </button>
                 </div>
               </div>
-              <div className="flex flex-col gap-3 shrink-0 w-full lg:w-48 pt-10 lg:pt-0">
-                {!tk.handledById && (
-                  <button
-                    onClick={() => handleUpdateTicket(tk.id, { handledById: user?.id })}
-                    className="w-full py-4 rounded-2xl bg-cyan-500 text-slate-950 font-black text-[10px] uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95"
-                  >
-                    TAKE CASE
-                  </button>
-                )}
-                <button
-                  onClick={() => handleUpdateTicket(tk.id, { isArchived: !tk.isArchived })}
-                  className="w-full py-4 rounded-2xl bg-white/5 border border-white/10 text-slate-500 font-black text-[10px] uppercase tracking-widest hover:text-white transition-all active:scale-95"
-                >
-                  {tk.isArchived ? 'UNARCHIVE' : 'ARCHIVE'}
-                </button>
+            ))}
+            {tickets.length === 0 && (
+              <div className="p-16 text-center text-slate-600 font-bold uppercase tracking-widest text-xs border border-dashed border-white/10 rounded-[40px] bg-white/[0.01]">
+                No cases found.
               </div>
-            </div>
-          ))}
+            )}
+          </div>
         </div>
       )}
 
@@ -925,6 +915,81 @@ export default function AdminDashboard() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function UserActions({
+  user,
+  onAction,
+  isAdmin,
+  isMobile = false,
+}: {
+  user: AdminUser;
+  onAction: (id: string, action: string, value?: any) => void;
+  isAdmin: boolean;
+  isMobile?: boolean;
+}) {
+  return (
+    <div className={`flex flex-wrap gap-2 ${isMobile ? 'justify-start' : 'justify-end'}`}>
+      <button
+        onClick={() => onAction(user.id, user.isMuted ? 'UNMUTE' : 'MUTE')}
+        className={`px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all ${user.isMuted ? 'bg-amber-400 text-slate-900 shadow-lg' : 'bg-white/5 text-slate-500 hover:text-amber-400 hover:bg-amber-400/10'}`}
+      >
+        {user.isMuted ? 'MUTED' : 'MUTE'}
+      </button>
+      <button
+        onClick={() => onAction(user.id, user.isRestricted ? 'UNRESTRICT' : 'RESTRICT')}
+        className={`px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all ${user.isRestricted ? 'bg-orange-500 text-white shadow-lg' : 'bg-white/5 text-slate-500 hover:text-orange-400 hover:bg-orange-500/10'}`}
+      >
+        {user.isRestricted ? 'RESTRICTED' : 'RESTRICT'}
+      </button>
+      <button
+        onClick={() =>
+          onAction(user.id, user.suspendedAt ? 'UNSUSPEND' : 'SUSPEND', 'Admin Action')
+        }
+        className={`px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all ${user.suspendedAt ? 'bg-red-500 text-white shadow-lg' : 'bg-white/5 text-slate-500 hover:text-red-400 hover:bg-red-500/10'}`}
+      >
+        {user.suspendedAt ? 'SUSPENDED' : 'SUSPEND'}
+      </button>
+
+      {isAdmin && (
+        <div className="relative group/actions inline-block">
+          <button className="px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest bg-white/5 text-slate-500 hover:bg-white/10">
+            MORE <span className="material-icons text-[10px] ml-1">expand_more</span>
+          </button>
+          <div
+            className={`absolute ${isMobile ? 'left-0' : 'right-0'} bottom-full sm:top-full mb-2 sm:mb-0 sm:mt-1 w-48 bg-slate-900 border border-white/10 rounded-xl shadow-2xl opacity-0 group-hover/actions:opacity-100 pointer-events-none group-hover/actions:pointer-events-auto transition-all z-50 overflow-hidden text-left`}
+          >
+            <button
+              onClick={() => {
+                const em = prompt('New Email:');
+                if (em) onAction(user.id, 'CHANGE_EMAIL', em);
+              }}
+              className="w-full px-4 py-2.5 text-[9px] font-bold text-white hover:bg-white/5 uppercase transition-all"
+            >
+              Change Email
+            </button>
+            <button
+              onClick={() => {
+                const un = prompt('New Username:');
+                if (un) onAction(user.id, 'CHANGE_USERNAME', un);
+              }}
+              className="w-full px-4 py-2.5 text-[9px] font-bold text-white hover:bg-white/5 uppercase transition-all"
+            >
+              Change Username
+            </button>
+            <button
+              onClick={() => {
+                if (confirm('Delete account permanently?')) onAction(user.id, 'DELETE');
+              }}
+              className="w-full px-4 py-2.5 text-[9px] font-bold text-red-500 hover:bg-red-500/10 uppercase transition-all"
+            >
+              Delete Account
+            </button>
           </div>
         </div>
       )}

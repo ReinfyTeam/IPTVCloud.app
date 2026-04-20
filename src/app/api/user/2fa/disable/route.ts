@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { authorizeRequest, sanitizeUser } from '@/services/auth-service';
 
 export const dynamic = 'force-dynamic';
@@ -9,16 +9,17 @@ export async function POST(req: Request) {
     const auth = await authorizeRequest(req);
     if (auth instanceof NextResponse) return auth;
 
-    const updated = await prisma.user.update({
-      where: { id: auth.user!.id },
-      data: {
-        twoFactorSecret: null,
-        twoFactorEnabled: false,
-      },
-    });
+    const updatedResult = await db.query(
+      `UPDATE "User"
+       SET "twoFactorSecret" = null, "twoFactorEnabled" = false, "updatedAt" = NOW()
+       WHERE id = $1
+       RETURNING *`,
+      [auth.user!.id],
+    );
 
-    return NextResponse.json({ ok: true, user: sanitizeUser(updated) });
+    return NextResponse.json({ ok: true, user: sanitizeUser(updatedResult.rows[0]) });
   } catch (error) {
+    console.error('2FA disable error:', error);
     return NextResponse.json({ ok: false, error: 'Failed to disable 2FA.' }, { status: 500 });
   }
 }

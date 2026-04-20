@@ -1,8 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    esmExternals: 'loose',
+    serverComponentsExternalPackages: [
+      'pg',
+      '@vercel/blob',
+      'otplib',
+      '@otplib/plugin-base32-scure',
+      '@otplib/plugin-crypto-noble',
+    ],
   },
+  staticPageGenerationTimeout: 120,
   images: {
     remotePatterns: [
       {

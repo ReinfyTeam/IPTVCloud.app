@@ -3,6 +3,8 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import type { EpgLookupResult } from '@/types';
+import { encodeBase64Url } from '@/lib/base64';
+import { getProxiedImageUrl } from '@/lib/image-proxy';
 
 type Props = {
   channelId?: string;
@@ -22,7 +24,7 @@ export default function EpgStrip({ channelId, compact = false }: Props) {
     const controller = new AbortController();
     setLoading(true);
 
-    fetch(`/api/epg/${encodeURIComponent(channelId)}`, { signal: controller.signal })
+    fetch(`/api/epg/${encodeBase64Url(channelId)}`, { signal: controller.signal })
       .then((r) => r.json())
       .then((d: EpgLookupResult) => {
         setData(d);
@@ -59,7 +61,7 @@ export default function EpgStrip({ channelId, compact = false }: Props) {
           {data.now.image && (
             <div className="hidden sm:block relative shrink-0 aspect-video h-14 rounded-lg overflow-hidden border border-white/10 shadow-lg">
               <Image
-                src={data.now.image}
+                src={getProxiedImageUrl(data.now.image)}
                 alt={data.now.title}
                 width={100}
                 height={56}

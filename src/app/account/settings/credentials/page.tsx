@@ -157,61 +157,63 @@ export default function CredentialsSettingsPage() {
 
   return (
     <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 bg-slate-950">
-      <div className="mx-auto max-w-2xl space-y-12 animate-fade-in transform-gpu">
-        <div className="flex items-center gap-6">
+      <div className="mx-auto max-w-2xl space-y-8 sm:space-y-12 animate-fade-in transform-gpu">
+        <div className="flex items-center gap-4 sm:gap-6">
           <Link
             href="/account/settings"
-            className="h-12 w-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white transition-all active:scale-90"
+            className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl sm:rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white transition-all active:scale-90"
           >
-            <span className="material-icons">west</span>
+            <span className="material-icons text-xl sm:text-2xl">west</span>
           </Link>
           <div>
-            <h1 className="text-3xl font-black text-white uppercase italic tracking-tighter leading-none">
+            <h1 className="text-2xl sm:text-3xl font-black text-white uppercase italic tracking-tighter leading-none">
               Account Credentials<span className="text-cyan-500">.</span>
             </h1>
-            <p className="text-slate-500 text-sm mt-1 font-medium">
+            <p className="text-slate-500 text-xs sm:text-sm mt-1 font-medium">
               Manage your security and access methods.
             </p>
           </div>
         </div>
 
         {msg && (
-          <div className="p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm font-bold animate-fade-in">
+          <div className="p-4 rounded-xl sm:rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs sm:text-sm font-bold animate-fade-in">
             {msg}
           </div>
         )}
         {error && (
-          <div className="p-4 rounded-2xl bg-red-500/10 border border-red-500/20 text-red-400 text-sm font-bold animate-fade-in">
+          <div className="p-4 rounded-xl sm:rounded-2xl bg-red-500/10 border border-red-500/20 text-red-400 text-xs sm:text-sm font-bold animate-fade-in">
             {error}
           </div>
         )}
 
-        <div className="grid gap-8">
+        <div className="grid gap-6 sm:gap-8">
           {/* Email Section */}
-          <section className="rounded-[40px] border border-white/[0.08] bg-white/[0.03] p-8 shadow-2xl backdrop-blur-xl">
+          <section className="rounded-[32px] sm:rounded-[40px] border border-white/[0.08] bg-white/[0.03] p-6 sm:p-8 shadow-2xl backdrop-blur-xl">
             <div className="flex items-center gap-4 mb-8">
-              <div className="h-10 w-10 rounded-2xl bg-cyan-500/10 flex items-center justify-center text-xl text-cyan-400">
+              <div className="h-10 w-10 rounded-xl sm:rounded-2xl bg-cyan-500/10 flex items-center justify-center text-xl text-cyan-400">
                 <span className="material-icons">alternate_email</span>
               </div>
-              <h2 className="text-xl font-bold text-white tracking-tight">Email Address</h2>
+              <h2 className="text-lg sm:text-xl font-bold text-white tracking-tight">
+                Email Address
+              </h2>
             </div>
 
             <form onSubmit={handleUpdateEmail} className="space-y-6">
               <div>
-                <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
+                <label className="block text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
                   Current Email
                 </label>
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
+                  className="w-full rounded-xl sm:rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
                 />
               </div>
               <button
                 type="submit"
                 disabled={loading || email === user.email}
-                className="rounded-2xl bg-white text-slate-950 px-8 py-3.5 text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 disabled:opacity-50"
+                className="w-full sm:w-auto rounded-xl sm:rounded-2xl bg-white text-slate-950 px-8 py-3.5 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 disabled:opacity-50"
               >
                 Update Email
               </button>
@@ -219,18 +221,20 @@ export default function CredentialsSettingsPage() {
           </section>
 
           {/* Password Section */}
-          <section className="rounded-[40px] border border-white/[0.08] bg-white/[0.03] p-8 shadow-2xl backdrop-blur-xl">
+          <section className="rounded-[32px] sm:rounded-[40px] border border-white/[0.08] bg-white/[0.03] p-6 sm:p-8 shadow-2xl backdrop-blur-xl">
             <div className="flex items-center gap-4 mb-8">
-              <div className="h-10 w-10 rounded-2xl bg-violet-500/10 flex items-center justify-center text-xl text-violet-400">
+              <div className="h-10 w-10 rounded-xl sm:rounded-2xl bg-violet-500/10 flex items-center justify-center text-xl text-violet-400">
                 <span className="material-icons">lock</span>
               </div>
-              <h2 className="text-xl font-bold text-white tracking-tight">Security Password</h2>
+              <h2 className="text-lg sm:text-xl font-bold text-white tracking-tight">
+                Security Password
+              </h2>
             </div>
 
             <form onSubmit={handleUpdatePassword} className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-6">
                 <div className="sm:col-span-2">
-                  <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
+                  <label className="block text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
                     Current Password
                   </label>
                   <input
@@ -238,11 +242,11 @@ export default function CredentialsSettingsPage() {
                     value={currentPassword}
                     onChange={(e) => setCurrentPassword(e.target.value)}
                     placeholder="••••••••"
-                    className="w-full rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
+                    className="w-full rounded-xl sm:rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
                   />
                 </div>
                 <div>
-                  <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
+                  <label className="block text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
                     New Password
                   </label>
                   <input
@@ -250,11 +254,11 @@ export default function CredentialsSettingsPage() {
                     value={newPassword}
                     onChange={(e) => setNewPassword(e.target.value)}
                     placeholder="Min. 8 chars"
-                    className="w-full rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
+                    className="w-full rounded-xl sm:rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
                   />
                 </div>
                 <div>
-                  <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
+                  <label className="block text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 px-1">
                     Confirm New Password
                   </label>
                   <input
@@ -262,14 +266,14 @@ export default function CredentialsSettingsPage() {
                     value={confirmPassword}
                     onChange={(e) => setConfirmPassword(e.target.value)}
                     placeholder="••••••••"
-                    className="w-full rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
+                    className="w-full rounded-xl sm:rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
                   />
                 </div>
               </div>
               <button
                 type="submit"
                 disabled={loading || !newPassword}
-                className="rounded-2xl bg-white text-slate-950 px-8 py-3.5 text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 disabled:opacity-50"
+                className="w-full sm:w-auto rounded-xl sm:rounded-2xl bg-white text-slate-950 px-8 py-3.5 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 disabled:opacity-50"
               >
                 Change Password
               </button>
@@ -277,32 +281,32 @@ export default function CredentialsSettingsPage() {
           </section>
 
           {/* 2FA Section */}
-          <section className="rounded-[40px] border border-white/[0.08] bg-white/[0.03] p-8 shadow-2xl backdrop-blur-xl">
-            <div className="flex items-center justify-between mb-8">
+          <section className="rounded-[32px] sm:rounded-[40px] border border-white/[0.08] bg-white/[0.03] p-6 sm:p-8 shadow-2xl backdrop-blur-xl">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
               <div className="flex items-center gap-4">
-                <div className="h-10 w-10 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-xl text-emerald-400">
+                <div className="h-10 w-10 rounded-xl sm:rounded-2xl bg-emerald-500/10 flex items-center justify-center text-xl text-emerald-400">
                   <span className="material-icons">verified_user</span>
                 </div>
-                <h2 className="text-xl font-bold text-white tracking-tight">
+                <h2 className="text-lg sm:text-xl font-bold text-white tracking-tight">
                   Two-Factor Auth (2FA)
                 </h2>
               </div>
               <span
-                className={`px-3 py-1 rounded-full text-[9px] font-black uppercase tracking-widest ${user.twoFactorEnabled ? 'bg-emerald-500/10 text-emerald-400' : 'bg-slate-800 text-slate-500'}`}
+                className={`w-fit px-3 py-1 rounded-full text-[8px] sm:text-[9px] font-black uppercase tracking-widest ${user.twoFactorEnabled ? 'bg-emerald-500/10 text-emerald-400' : 'bg-slate-800 text-slate-500'}`}
               >
                 {user.twoFactorEnabled ? 'PROTECTED' : 'DISABLED'}
               </span>
             </div>
 
             {!user.twoFactorEnabled && !show2faSetup && (
-              <div className="space-y-6">
-                <p className="text-sm text-slate-400 leading-relaxed font-medium">
+              <div className="space-y-6 text-center sm:text-left">
+                <p className="text-xs sm:text-sm text-slate-400 leading-relaxed font-medium">
                   Add an extra layer of security to your account using an authenticator app like
                   Google Authenticator or Authy.
                 </p>
                 <button
                   onClick={setup2FA}
-                  className="rounded-2xl bg-cyan-500 text-slate-950 px-8 py-3.5 text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95"
+                  className="w-full sm:w-auto rounded-xl sm:rounded-2xl bg-cyan-500 text-slate-950 px-8 py-3.5 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95"
                 >
                   Enable 2FA Protection
                 </button>
@@ -311,45 +315,47 @@ export default function CredentialsSettingsPage() {
 
             {show2faSetup && (
               <div className="space-y-8 animate-fade-in">
-                <div className="flex flex-col sm:flex-row gap-8 items-center bg-slate-950/50 p-8 rounded-3xl border border-white/5 shadow-inner">
+                <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 items-center bg-slate-950/50 p-6 sm:p-8 rounded-3xl border border-white/5 shadow-inner">
                   {qrCode && (
-                    <div className="bg-white p-4 rounded-2xl shadow-2xl shrink-0">
+                    <div className="bg-white p-3 rounded-2xl shadow-2xl shrink-0">
                       <Image
                         src={qrCode}
                         alt="2FA QR Code"
-                        width={128}
+                        width={120}
                         height={128}
-                        className="w-32 h-32"
+                        className="w-24 h-24 sm:w-32 sm:h-32"
                       />
                     </div>
                   )}
-                  <div className="space-y-3">
-                    <h3 className="text-white font-bold">1. Scan QR Code</h3>
-                    <p className="text-xs text-slate-500 leading-relaxed font-medium">
+                  <div className="space-y-3 text-center sm:text-left">
+                    <h3 className="text-white text-sm sm:text-base font-bold">1. Scan QR Code</h3>
+                    <p className="text-[10px] sm:text-xs text-slate-500 leading-relaxed font-medium">
                       Open your authenticator app and scan this code. If you can&apos;t scan, enter
                       this manually:
                     </p>
-                    <code className="block bg-black/40 p-3 rounded-xl text-cyan-400 text-xs font-mono break-all border border-white/5">
+                    <code className="block bg-black/40 p-3 rounded-xl text-cyan-400 text-[10px] sm:text-xs font-mono break-all border border-white/5">
                       {secret}
                     </code>
                   </div>
                 </div>
 
                 <div className="space-y-4">
-                  <h3 className="text-white font-bold">2. Enter Verification Code</h3>
-                  <div className="flex gap-4">
+                  <h3 className="text-white text-sm sm:text-base font-bold text-center sm:text-left">
+                    2. Enter Verification Code
+                  </h3>
+                  <div className="flex flex-col sm:flex-row gap-4">
                     <input
                       type="text"
                       value={otpToken}
                       onChange={(e) => setOtpToken(e.target.value)}
                       placeholder="000000"
                       maxLength={6}
-                      className="flex-1 rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-center text-xl font-mono tracking-[0.5em] text-cyan-400 outline-none focus:border-cyan-500 shadow-inner"
+                      className="flex-1 rounded-xl sm:rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-center text-xl font-mono tracking-[0.5em] text-cyan-400 outline-none focus:border-cyan-500 shadow-inner"
                     />
                     <button
                       onClick={verifyAndEnable2FA}
                       disabled={loading || otpToken.length !== 6}
-                      className="px-10 rounded-2xl bg-cyan-500 text-slate-950 text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 disabled:opacity-50"
+                      className="py-4 sm:py-0 px-10 rounded-xl sm:rounded-2xl bg-cyan-500 text-slate-950 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 disabled:opacity-50"
                     >
                       Verify
                     </button>
@@ -360,15 +366,17 @@ export default function CredentialsSettingsPage() {
 
             {user.twoFactorEnabled && (
               <div className="space-y-6">
-                <div className="p-6 rounded-3xl bg-emerald-500/5 border border-emerald-500/10 flex items-center gap-4">
-                  <span className="material-icons text-emerald-400">security</span>
-                  <p className="text-sm text-slate-300 font-medium leading-relaxed">
+                <div className="p-6 rounded-2xl sm:rounded-3xl bg-emerald-500/5 border border-emerald-500/10 flex items-center gap-4">
+                  <span className="material-icons text-emerald-400 text-xl sm:text-2xl">
+                    security
+                  </span>
+                  <p className="text-xs sm:text-sm text-slate-300 font-medium leading-relaxed">
                     Your account is currently secured with two-factor authentication.
                   </p>
                 </div>
                 <button
                   onClick={disable2FA}
-                  className="rounded-2xl border border-red-500/20 bg-red-500/5 text-red-400 px-8 py-3.5 text-[10px] font-black uppercase tracking-widest hover:bg-red-500/10 transition-all active:scale-95"
+                  className="w-full sm:w-auto rounded-xl sm:rounded-2xl border border-red-500/20 bg-red-500/5 text-red-400 px-8 py-3.5 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:bg-red-500/10 transition-all active:scale-95"
                 >
                   Disable 2FA
                 </button>

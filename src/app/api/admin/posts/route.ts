@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { authorizeRequest } from '@/services/auth-service';
 
 export const dynamic = 'force-dynamic';
@@ -12,29 +12,33 @@ export async function GET(req: Request) {
     const url = new URL(req.url);
     const q = url.searchParams.get('q') || '';
 
-    let where = {};
+    let whereClause = '';
+    let params: any[] = [];
     if (q) {
-      where = {
-        OR: [
-          { id: { equals: q } },
-          { title: { contains: q, mode: 'insensitive' } },
-          { content: { contains: q, mode: 'insensitive' } },
-        ],
-      };
+      whereClause = 'WHERE p.id = $1 OR p.title ILIKE $2 OR p.content ILIKE $2';
+      params = [q, `%${q}%`];
     }
 
-    const posts = await prisma.post.findMany({
-      where,
-      include: {
-        user: { select: { id: true, username: true, email: true } },
-        _count: { select: { comments: true, likes: true } },
-      },
-      orderBy: { createdAt: 'desc' },
-      take: 100,
-    });
+    const postsQuery = `
+      SELECT 
+        p.*, 
+        json_build_object('id', u.id, 'username', u.username, 'email', u.email) as user,
+        json_build_object(
+          'comments', (SELECT COUNT(*)::int FROM "Comment" WHERE "postId" = p.id),
+          'likes', (SELECT COUNT(*)::int FROM "Like" WHERE "postId" = p.id)
+        ) as "_count"
+      FROM "Post" p
+      LEFT JOIN "User" u ON p."userId" = u.id
+      ${whereClause}
+      ORDER BY p."createdAt" DESC
+      LIMIT 100
+    `;
 
-    return NextResponse.json(posts);
+    const res = await db.query(postsQuery, params);
+
+    return NextResponse.json(res.rows);
   } catch (error) {
+    console.error('Failed to fetch posts:', error);
     return NextResponse.json({ error: 'Failed' }, { status: 500 });
   }
 }
@@ -49,10 +53,11 @@ export async function DELETE(req: Request) {
 
     if (!id) return NextResponse.json({ error: 'ID required' }, { status: 400 });
 
-    await prisma.post.delete({ where: { id } });
+    await db.query('DELETE FROM "Post" WHERE id = $1', [id]);
 
     return NextResponse.json({ success: true });
   } catch (error) {
+    console.error('Failed to delete post:', error);
     return NextResponse.json({ error: 'Failed' }, { status: 500 });
   }
 }

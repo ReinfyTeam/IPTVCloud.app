@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
+import db from '@/lib/db';
 import { authorizeRequest } from '@/services/auth-service';
+import crypto from 'crypto';
 
 export const dynamic = 'force-dynamic';
 
@@ -20,16 +21,32 @@ export async function POST(req: Request) {
       'darkMode',
       'showEpg',
     ];
-    const data: Record<string, unknown> = {};
+
+    const data: Record<string, any> = {};
     for (const key of allowed) {
       if (key in body) data[key] = body[key];
     }
 
-    const settings = await prisma.userSettings.upsert({
-      where: { userId: auth.user!.id },
-      create: { userId: auth.user!.id, ...data },
-      update: data,
-    });
+    const keys = Object.keys(data);
+    const columns = ['id', '"userId"', ...keys.map((k) => `"${k}"`), '"updatedAt"'].join(', ');
+    const placeholders = ['$1', '$2', ...keys.map((_, i) => `$${i + 3}`), 'NOW()'].join(', ');
+
+    const updateClause = keys.map((key, i) => `"${key}" = EXCLUDED."${key}"`).join(', ');
+    const upsertQuery = `
+      INSERT INTO "UserSettings" (${columns})
+      VALUES (${placeholders})
+      ON CONFLICT ("userId") DO UPDATE SET
+        ${updateClause},
+        "updatedAt" = NOW()
+      RETURNING *
+    `;
+
+    const { rows } = await db.query(upsertQuery, [
+      crypto.randomUUID(),
+      auth.user!.id,
+      ...Object.values(data),
+    ]);
+    const settings = rows[0];
 
     return NextResponse.json({ ok: true, settings });
   } catch (error) {
