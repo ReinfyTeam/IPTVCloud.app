@@ -179,3 +179,41 @@ export interface Notification {
   read: boolean;
   createdAt: Date;
 }
+
+export interface Follower {
+  id: string;
+  followerId: string;
+  followingId: string;
+  createdAt: Date;
+}
+
+export interface Message {
+  id: string;
+  senderId: string;
+  receiverId: string;
+  content: string;
+  read: boolean;
+  createdAt: Date;
+}
+
+export interface GroupChat {
+  id: string;
+  name: string | null;
+  createdAt: Date;
+}
+
+export interface GroupChatMember {
+  id: string;
+  groupChatId: string;
+  userId: string;
+  isAdmin: boolean;
+  joinedAt: Date;
+}
+
+export interface GroupChatMessage {
+  id: string;
+  groupChatId: string;
+  userId: string;
+  content: string;
+  createdAt: Date;
+}

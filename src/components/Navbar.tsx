@@ -308,22 +308,6 @@ export default function Navbar() {
                 <span className="material-icons text-xl">search</span>
               </button>
 
-              {/* Theme Toggle with BETA Badge */}
-              <div className="flex items-center gap-2 mr-2">
-                <button
-                  onClick={toggleTheme}
-                  className="h-10 w-10 flex items-center justify-center rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all border border-white/10 relative"
-                  title="Toggle Light/Dark Mode"
-                >
-                  <span className="material-icons text-xl">
-                    {mounted && settings.darkMode ? 'light_mode' : 'dark_mode'}
-                  </span>
-                </button>
-                <span className="hidden sm:inline-flex bg-cyan-500/10 text-cyan-500 text-[8px] font-black px-1.5 py-0.5 rounded border border-cyan-500/20 tracking-tighter">
-                  BETA
-                </span>
-              </div>
-
               {mounted && user && <NotificationDropdown />}
 
               {mounted &&

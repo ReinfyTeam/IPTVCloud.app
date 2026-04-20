@@ -39,6 +39,8 @@ CREATE TABLE IF NOT EXISTS "Follower" (
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   UNIQUE("followerId", "followingId")
 );
+CREATE INDEX IF NOT EXISTS "follower_followerid_idx" ON "Follower"("followerId");
+CREATE INDEX IF NOT EXISTS "follower_followingid_idx" ON "Follower"("followingId");
 
 CREATE TABLE IF NOT EXISTS "Message" (
   "id" TEXT PRIMARY KEY,
@@ -48,6 +50,8 @@ CREATE TABLE IF NOT EXISTS "Message" (
   "read" BOOLEAN NOT NULL DEFAULT FALSE,
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+CREATE INDEX IF NOT EXISTS "message_senderid_idx" ON "Message"("senderId");
+CREATE INDEX IF NOT EXISTS "message_receiverid_idx" ON "Message"("receiverId");
 
 CREATE TABLE IF NOT EXISTS "GroupChat" (
   "id" TEXT PRIMARY KEY,
@@ -62,6 +66,8 @@ CREATE TABLE IF NOT EXISTS "GroupChatMember" (
   "isAdmin" BOOLEAN NOT NULL DEFAULT FALSE,
   "joinedAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+CREATE INDEX IF NOT EXISTS "groupchatmember_groupchatid_idx" ON "GroupChatMember"("groupChatId");
+CREATE INDEX IF NOT EXISTS "groupchatmember_userid_idx" ON "GroupChatMember"("userId");
 
 CREATE TABLE IF NOT EXISTS "GroupChatMessage" (
   "id" TEXT PRIMARY KEY,
@@ -70,6 +76,7 @@ CREATE TABLE IF NOT EXISTS "GroupChatMessage" (
   "content" TEXT NOT NULL,
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+CREATE INDEX IF NOT EXISTS "groupchatmessage_groupchatid_idx" ON "GroupChatMessage"("groupChatId");
 
 CREATE TABLE IF NOT EXISTS "Favorite" (
   "id" TEXT PRIMARY KEY,
@@ -138,6 +145,7 @@ CREATE TABLE IF NOT EXISTS "Ticket" (
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   "updatedAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+CREATE INDEX IF NOT EXISTS "ticket_userid_idx" ON "Ticket"("userId");
 
 CREATE TABLE IF NOT EXISTS "TicketResponse" (
   "id" TEXT PRIMARY KEY,
@@ -147,6 +155,7 @@ CREATE TABLE IF NOT EXISTS "TicketResponse" (
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   "updatedAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+CREATE INDEX IF NOT EXISTS "ticket_response_ticketid_idx" ON "TicketResponse"("ticketId");
 
 CREATE TABLE IF NOT EXISTS "Incident" (
   "id" TEXT PRIMARY KEY,
@@ -167,6 +176,7 @@ CREATE TABLE IF NOT EXISTS "IncidentUpdate" (
   "status" TEXT NOT NULL,
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+CREATE INDEX IF NOT EXISTS "incidentupdate_incidentid_idx" ON "IncidentUpdate"("incidentId");
 
 CREATE TABLE IF NOT EXISTS "Post" (
   "id" TEXT PRIMARY KEY,
@@ -176,6 +186,7 @@ CREATE TABLE IF NOT EXISTS "Post" (
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   "updatedAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+CREATE INDEX IF NOT EXISTS "post_userid_idx" ON "Post"("userId");
 
 CREATE TABLE IF NOT EXISTS "PostComment" (
   "id" TEXT PRIMARY KEY,
@@ -186,6 +197,7 @@ CREATE TABLE IF NOT EXISTS "PostComment" (
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   "updatedAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+CREATE INDEX IF NOT EXISTS "postcomment_postid_idx" ON "PostComment"("postId");
 
 CREATE TABLE IF NOT EXISTS "PostLike" (
   "id" TEXT PRIMARY KEY,
@@ -194,6 +206,7 @@ CREATE TABLE IF NOT EXISTS "PostLike" (
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   UNIQUE("postId", "userId")
 );
+CREATE INDEX IF NOT EXISTS "postlike_postid_idx" ON "PostLike"("postId");
 
 CREATE TABLE IF NOT EXISTS "UptimeRecord" (
   "id" TEXT PRIMARY KEY,
@@ -215,6 +228,9 @@ CREATE TABLE IF NOT EXISTS "Attachment" (
   "postCommentId" TEXT REFERENCES "PostComment"("id") ON DELETE CASCADE,
   "ticketResponseId" TEXT REFERENCES "TicketResponse"("id") ON DELETE CASCADE
 );
+CREATE INDEX IF NOT EXISTS "attachment_ticketid_idx" ON "Attachment"("ticketId");
+CREATE INDEX IF NOT EXISTS "attachment_postid_idx" ON "Attachment"("postId");
+CREATE INDEX IF NOT EXISTS "attachment_commentid_idx" ON "Attachment"("commentId");
 
 CREATE TABLE IF NOT EXISTS "Notification" (
   "id" TEXT PRIMARY KEY,
@@ -226,3 +242,4 @@ CREATE TABLE IF NOT EXISTS "Notification" (
   "read" BOOLEAN NOT NULL DEFAULT FALSE,
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+CREATE INDEX IF NOT EXISTS "notification_userid_idx" ON "Notification"("userId");

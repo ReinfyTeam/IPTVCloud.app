@@ -7,6 +7,7 @@ const nextConfig = {
       'otplib',
       '@otplib/plugin-base32-scure',
       '@otplib/plugin-crypto-noble',
+      'recharts',
     ],
   },
   staticPageGenerationTimeout: 120,
