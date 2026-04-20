@@ -82,8 +82,9 @@ We reserve the right to modify these Terms at any time. Changes become effective
 
 If you have any questions regarding these detailed Terms of Service, please contact us at:
 
-**Email:** [support@iptvcloud.app](mailto://support@iptvcloud.app]
-**Official Website:** [www.iptvcloud.app](https://iptvcloud.app)`;
+**Email:** [support@iptvcloud.app](mailto:support@iptvcloud.app)
+**Official Website:** [iptvcloud.app](https://iptvcloud.app)
+**DMCA Inquiries:** [dmca@iptvcloud.app](mailto:dmca@iptvcloud.app)`;
 
   return <InfoPage title="Terms of Service" content={content} />;
 }
