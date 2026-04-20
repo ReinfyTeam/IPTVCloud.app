@@ -93,8 +93,9 @@ This Privacy Policy is governed by the laws of the **Philippines** and the **Dat
 
 If you have any questions about this Privacy Policy or wish to make a data request, please contact our Data Protection Officer at:
 
-**Email:** [support@iptvcloud.app](mailto://support@iptvcloud.app]
-**Official Website:** [www.iptvcloud.app](https://iptvcloud.app)`;
+**Email:** [support@iptvcloud.app](mailto:support@iptvcloud.app)
+**Official Website:** [iptvcloud.app](https://iptvcloud.app)
+**Privacy Officer:** [privacy@iptvcloud.app](mailto:privacy@iptvcloud.app)`;
 
   return <InfoPage title="Privacy Policy" content={content} />;
 }

@@ -32,6 +32,9 @@ export default function ChannelCard({
   const [isHovered, setIsHovered] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
   const [muted, setMuted] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const hlsRef = useRef<Hls | null>(null);
   const isOnline = useNetworkStatus();
@@ -65,11 +68,12 @@ export default function ChannelCard({
     if (isHovered) {
       hoverTimerRef.current = setTimeout(() => {
         setShowPreview(true);
-      }, 1000); // Reduced delay to 1 second
+      }, 5000); // 5 seconds delay
     } else {
       if (hoverTimerRef.current) clearTimeout(hoverTimerRef.current);
       setShowPreview(false);
       setMuted(true);
+      setIsLoading(false);
     }
     return () => {
       if (hoverTimerRef.current) clearTimeout(hoverTimerRef.current);
@@ -80,6 +84,8 @@ export default function ChannelCard({
     if (showPreview && !channel.isGeoBlocked) {
       const video = videoRef.current;
       if (!video) return;
+
+      setIsLoading(true);
 
       const initHls = async () => {
         try {
@@ -106,6 +112,7 @@ export default function ChannelCard({
           }
         } catch {
           setShowPreview(false);
+          setIsLoading(false);
         }
       };
       initHls();
@@ -118,8 +125,15 @@ export default function ChannelCard({
         videoRef.current.src = '';
         videoRef.current.load();
       }
+      setIsLoading(false);
     }
   }, [showPreview, channel.streamUrl, channel.isGeoBlocked, muted]);
+
+  const formatTime = (seconds: number) => {
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  };
 
   const toggleMute = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -242,14 +256,61 @@ export default function ChannelCard({
       <div className="relative aspect-video w-full overflow-hidden bg-slate-900 shadow-inner">
         {showPreview && !channel.isGeoBlocked ? (
           <div className="relative h-full w-full">
-            <video ref={videoRef} className="h-full w-full object-cover" playsInline />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-            <button
-              onClick={toggleMute}
-              className="absolute bottom-3 right-3 h-8 w-8 rounded-full bg-black/60 flex items-center justify-center text-foreground backdrop-blur-md hover:bg-black/80 transition-all border border-white/10"
-            >
-              <span className="material-icons text-sm">{muted ? 'volume_off' : 'volume_up'}</span>
-            </button>
+            <video
+              ref={videoRef}
+              className="h-full w-full object-cover"
+              playsInline
+              onWaiting={() => setIsLoading(true)}
+              onPlaying={() => {
+                setIsLoading(false);
+                if (videoRef.current) setDuration(videoRef.current.duration);
+              }}
+              onTimeUpdate={() => {
+                if (videoRef.current) setCurrentTime(videoRef.current.currentTime);
+              }}
+            />
+            {isLoading && (
+              <div className="absolute inset-0 flex items-center justify-center bg-black/20 backdrop-blur-[2px]">
+                <div className="h-8 w-8 border-2 border-cyan-500/30 border-t-cyan-500 rounded-full animate-spin" />
+              </div>
+            )}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent pointer-events-none" />
+            <div className="absolute bottom-0 left-0 right-0 p-3 flex flex-col gap-2">
+              <div className="h-1 w-full bg-white/10 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-cyan-500 transition-all duration-300"
+                  style={{
+                    width: `${duration > 0 && isFinite(duration) ? (currentTime / duration) * 100 : 100}%`,
+                  }}
+                />
+              </div>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <div className="text-[9px] font-black text-white/80 uppercase tracking-widest tabular-nums bg-black/40 px-2 py-0.5 rounded-md backdrop-blur-md border border-white/5">
+                    {formatTime(currentTime)} /{' '}
+                    {isFinite(duration) && duration > 0 ? formatTime(duration) : 'LIVE'}
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  {isLoading && (
+                    <div className="flex items-center gap-1.5 bg-cyan-500/20 px-2 py-0.5 rounded-md border border-cyan-500/30 backdrop-blur-md">
+                      <span className="h-1 w-1 rounded-full bg-cyan-400 animate-pulse" />
+                      <span className="text-[8px] font-black text-cyan-400 uppercase tracking-widest">
+                        Buffering
+                      </span>
+                    </div>
+                  )}
+                  <button
+                    onClick={toggleMute}
+                    className="h-7 w-7 rounded-lg bg-black/60 flex items-center justify-center text-foreground backdrop-blur-md hover:bg-black/80 transition-all border border-white/10"
+                  >
+                    <span className="material-icons text-xs">
+                      {muted ? 'volume_off' : 'volume_up'}
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         ) : channel.logo && !imgError ? (
           <Image

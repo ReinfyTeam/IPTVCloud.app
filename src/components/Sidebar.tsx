@@ -46,11 +46,6 @@ type SidebarProps = {
   setSortBy: (v: string) => void;
 };
 
-const REVERSE_COUNTRY_MAP: Record<string, string> = {};
-Object.entries(COUNTRY_NAMES).forEach(([code, name]) => {
-  REVERSE_COUNTRY_MAP[name.toUpperCase()] = code.toLowerCase();
-});
-
 const CATEGORY_ICONS: Record<string, string> = {
   music: 'music_note',
   movies: 'movie',
@@ -101,24 +96,26 @@ export default function Sidebar({
   const countryOptions = useMemo(
     () =>
       filterOptions.countries.map((c) => ({
-        label: c,
+        label: getCountryName(c),
         value: c,
-        image: REVERSE_COUNTRY_MAP[c.toUpperCase()]
-          ? getProxiedImageUrl(
-              `https://flagcdn.com/w80/${REVERSE_COUNTRY_MAP[c.toUpperCase()]}.png`,
-            )
-          : undefined,
+        image:
+          c !== 'International'
+            ? getProxiedImageUrl(`https://flagcdn.com/w80/${c.toLowerCase()}.png`)
+            : undefined,
       })),
     [filterOptions.countries],
   );
 
   const categoryOptions = useMemo(
     () =>
-      filterOptions.categories.map((c) => ({
-        label: c || 'Uncategorized',
-        value: c || 'Uncategorized',
-        icon: CATEGORY_ICONS[(c || '').toLowerCase()] || 'folder',
-      })),
+      filterOptions.categories.map((c) => {
+        const label = c || 'Uncategorized';
+        return {
+          label: label.charAt(0).toUpperCase() + label.slice(1).toLowerCase(),
+          value: c || 'Uncategorized',
+          icon: CATEGORY_ICONS[(c || '').toLowerCase()] || 'folder',
+        };
+      }),
     [filterOptions.categories],
   );
 

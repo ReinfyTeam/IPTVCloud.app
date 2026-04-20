@@ -5,7 +5,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import { useAuthStore } from '@/store/auth-store';
-import { useSettingsStore } from '@/store/settings-store';
 import { useNetworkStatus } from '@/hooks/use-network';
 import type { Channel } from '@/types';
 import BrandLogo from './BrandLogo';
@@ -19,7 +18,6 @@ export default function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
   const { user, clearAuth, isAdmin } = useAuthStore();
-  const { settings, updateSetting } = useSettingsStore();
   const isOnline = useNetworkStatus();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -81,13 +79,11 @@ export default function Navbar() {
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
-  const toggleTheme = () => {
-    updateSetting('darkMode', !settings.darkMode);
-  };
-
   const channelDropdownItems = [
     { label: 'Browse Channels', href: '/search/channels', icon: 'explore' },
-    { label: 'Create your own channel', href: '/channel/create', icon: 'add_circle' },
+    ...(user
+      ? [{ label: 'Create your own channel', href: '/channel/create', icon: 'add_circle' }]
+      : []),
     { label: 'Trending Channels', href: '/search/channels?sort=viewers', icon: 'trending_up' },
     ...(user
       ? [{ label: 'Favorited Channels', href: '/search/channels?favorites=true', icon: 'star' }]
@@ -131,7 +127,7 @@ export default function Navbar() {
       <header
         className={`fixed left-0 right-0 z-50 transition-all duration-500 transform-gpu ${!isOnline && mounted ? 'top-[28px]' : 'top-0'} ${
           scrolled
-            ? 'bg-slate-950/80 backdrop-blur-xl border-b border-white/[0.06] shadow-xl shadow-black/20'
+            ? 'bg-background/80 backdrop-blur-xl border-b border-border shadow-xl shadow-black/20'
             : 'bg-transparent'
         }`}
       >
@@ -169,10 +165,10 @@ export default function Navbar() {
 
             <div
               ref={searchRef}
-              className={`${showMobileSearch ? 'flex absolute inset-x-0 top-0 h-16 bg-slate-950 z-50 px-4 items-center gap-2' : 'hidden'} lg:flex flex-1 max-w-[560px] ml-auto relative group/search`}
+              className={`${showMobileSearch ? 'flex absolute inset-x-0 top-0 h-16 bg-background z-50 px-4 items-center gap-2' : 'hidden'} lg:flex flex-1 max-w-[560px] ml-auto relative group/search`}
             >
               <svg
-                className="absolute left-4 lg:left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-500 group-focus-within/search:text-cyan-400 transition-colors"
+                className="absolute left-4 lg:left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-foreground-muted group-focus-within/search:text-cyan-400 transition-colors"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -194,19 +190,19 @@ export default function Navbar() {
                     setShowMobileSearch(false);
                   }
                 }}
-                className="w-full rounded-2xl border border-white/[0.08] bg-slate-900/50 py-2.5 pl-11 pr-4 text-xs font-bold text-white placeholder:text-slate-500 outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm shadow-inner"
+                className="w-full rounded-2xl border border-border bg-background-elevated/50 py-2.5 pl-11 pr-4 text-xs font-bold text-foreground placeholder:text-foreground-muted outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm shadow-inner"
               />
               {showMobileSearch && (
                 <button
                   onClick={() => setShowMobileSearch(false)}
-                  className="lg:hidden p-2 text-slate-400"
+                  className="lg:hidden p-2 text-foreground-muted"
                 >
                   <span className="material-icons">close</span>
                 </button>
               )}
               {showSuggestions && suggestions.length > 0 && (
-                <div className="absolute top-full left-0 right-0 mt-3 rounded-[32px] border border-white/[0.08] bg-slate-900/95 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden animate-fade-in z-50 transform-gpu p-2">
-                  <div className="px-4 py-2 text-[9px] font-black text-slate-600 uppercase tracking-[0.3em] border-b border-white/5 mb-1">
+                <div className="absolute top-full left-0 right-0 mt-3 rounded-[32px] border border-border bg-background-elevated/95 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden animate-fade-in z-50 transform-gpu p-2">
+                  <div className="px-4 py-2 text-[9px] font-black text-foreground-muted uppercase tracking-[0.3em] border-b border-border mb-1">
                     Suggestions
                   </div>
                   {suggestions.map((ch) => (
@@ -217,9 +213,9 @@ export default function Navbar() {
                         setShowSuggestions(false);
                         setShowMobileSearch(false);
                       }}
-                      className="flex items-center gap-4 p-3 hover:bg-white/5 rounded-2xl transition-all active:scale-[0.98] group/item"
+                      className="flex items-center gap-4 p-3 hover:bg-foreground/5 rounded-2xl transition-all active:scale-[0.98] group/item"
                     >
-                      <div className="h-10 w-10 rounded-xl bg-slate-800 overflow-hidden shrink-0 border border-white/5 p-1">
+                      <div className="h-10 w-10 rounded-xl bg-background-elevated overflow-hidden shrink-0 border border-border p-1">
                         {ch.logo ? (
                           <Image
                             src={getProxiedImageUrl(ch.logo)}
@@ -229,29 +225,29 @@ export default function Navbar() {
                             className="h-full w-full object-contain"
                           />
                         ) : (
-                          <div className="h-full w-full flex items-center justify-center text-slate-600">
+                          <div className="h-full w-full flex items-center justify-center text-foreground-muted">
                             <span className="material-icons text-xl">tv</span>
                           </div>
                         )}
                       </div>
                       <div className="min-w-0 flex-1">
-                        <div className="text-xs font-black text-white group-hover/item:text-cyan-400 transition-colors uppercase italic tracking-tighter">
+                        <div className="text-xs font-black text-foreground group-hover/item:text-cyan-400 transition-colors uppercase italic tracking-tighter">
                           {ch.name}
                         </div>
-                        <div className="text-[9px] text-slate-500 uppercase tracking-widest font-bold mt-0.5">
+                        <div className="text-[9px] text-foreground-muted uppercase tracking-widest font-bold mt-0.5">
                           {ch.category}
                         </div>
                       </div>
                     </Link>
                   ))}
-                  <div className="mt-2 pt-2 border-t border-white/5 grid grid-cols-2 gap-1">
+                  <div className="mt-2 pt-2 border-t border-border grid grid-cols-2 gap-1">
                     <Link
                       href={`/search/profiles?q=${encodeURIComponent(searchQuery)}`}
                       onClick={() => {
                         setShowSuggestions(false);
                         setShowMobileSearch(false);
                       }}
-                      className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-slate-500 hover:text-cyan-400 transition-all"
+                      className="flex items-center gap-2 p-2 rounded-xl hover:bg-foreground/5 text-[9px] font-black uppercase text-foreground-muted hover:text-cyan-400 transition-all"
                     >
                       <span className="material-icons text-sm">person_search</span> Search Profiles
                     </Link>
@@ -261,7 +257,7 @@ export default function Navbar() {
                         setShowSuggestions(false);
                         setShowMobileSearch(false);
                       }}
-                      className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-slate-500 hover:text-cyan-400 transition-all"
+                      className="flex items-center gap-2 p-2 rounded-xl hover:bg-foreground/5 text-[9px] font-black uppercase text-foreground-muted hover:text-cyan-400 transition-all"
                     >
                       <span className="material-icons text-sm">article</span> Search Posts
                     </Link>
@@ -271,7 +267,7 @@ export default function Navbar() {
                         setShowSuggestions(false);
                         setShowMobileSearch(false);
                       }}
-                      className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-slate-500 hover:text-cyan-400 transition-all"
+                      className="flex items-center gap-2 p-2 rounded-xl hover:bg-foreground/5 text-[9px] font-black uppercase text-foreground-muted hover:text-cyan-400 transition-all"
                     >
                       <span className="material-icons text-sm">event_note</span> Search EPG
                     </Link>
@@ -281,7 +277,7 @@ export default function Navbar() {
                         setShowSuggestions(false);
                         setShowMobileSearch(false);
                       }}
-                      className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-slate-500 hover:text-cyan-400 transition-all"
+                      className="flex items-center gap-2 p-2 rounded-xl hover:bg-foreground/5 text-[9px] font-black uppercase text-foreground-muted hover:text-cyan-400 transition-all"
                     >
                       <span className="material-icons text-sm">tv</span> Search Channels
                     </Link>
@@ -303,7 +299,7 @@ export default function Navbar() {
             <div className="flex items-center gap-1.5 sm:gap-3 ml-auto lg:ml-0">
               <button
                 onClick={() => setShowMobileSearch(true)}
-                className="lg:hidden h-10 w-10 flex items-center justify-center rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all border border-white/10"
+                className="lg:hidden h-10 w-10 flex items-center justify-center rounded-xl text-foreground-muted hover:text-foreground hover:bg-foreground/5 transition-all border border-border"
               >
                 <span className="material-icons text-xl">search</span>
               </button>
@@ -319,11 +315,11 @@ export default function Navbar() {
                         profileOpen ||
                         pathname.startsWith('/profile') ||
                         pathname.startsWith('/account')
-                          ? 'bg-white/10 text-white border-white/20 shadow-lg'
-                          : 'text-slate-400 hover:text-white hover:bg-white/5 border-transparent'
+                          ? 'bg-foreground/10 text-foreground border-foreground/20 shadow-lg'
+                          : 'text-foreground-muted hover:text-foreground hover:bg-foreground/5 border-transparent'
                       }`}
                     >
-                      <div className="h-7 w-7 rounded-lg bg-slate-800 border border-white/10 flex items-center justify-center text-slate-400 shadow-inner">
+                      <div className="h-7 w-7 rounded-lg bg-background-elevated border border-border flex items-center justify-center text-foreground-muted shadow-inner">
                         <span className="material-icons text-lg">account_circle</span>
                       </div>
                       <span className="text-[10px] font-black uppercase tracking-widest hidden sm:inline mr-1">
@@ -332,14 +328,16 @@ export default function Navbar() {
                     </button>
 
                     {profileOpen && (
-                      <div className="absolute top-full right-0 mt-3 w-64 rounded-[32px] border border-white/[0.08] bg-slate-900/95 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden animate-fade-in z-50 p-2">
-                        <div className="p-4 border-b border-white/5 mb-2 flex items-center gap-3">
+                      <div className="absolute top-full right-0 mt-3 w-64 rounded-[32px] border border-border bg-background-elevated/95 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden animate-fade-in z-50 p-2">
+                        <div className="p-4 border-b border-border mb-2 flex items-center gap-3">
                           <div className="flex-1 min-w-0">
-                            <div className="text-sm font-black text-white truncate flex items-center gap-1">
+                            <div className="text-sm font-black text-foreground truncate flex items-center gap-1">
                               {user.username || user.email.split('@')[0]}
                               {user.isVerified && <VerifiedBadge className="text-[12px] ml-1" />}
                             </div>
-                            <div className="text-[10px] text-slate-500 truncate">{user.email}</div>
+                            <div className="text-[10px] text-foreground-muted truncate">
+                              {user.email}
+                            </div>
                           </div>
                         </div>
                         <div className="grid gap-1">
@@ -400,7 +398,7 @@ export default function Navbar() {
                   <div className="flex items-center gap-2 sm:gap-3">
                     <Link
                       href="/account/signin"
-                      className="rounded-xl px-4 py-2.5 text-[10px] font-black text-slate-400 hover:text-white transition-all duration-200 hover:scale-105 active:scale-95 uppercase tracking-widest"
+                      className="rounded-xl px-4 py-2.5 text-[10px] font-black text-foreground-muted hover:text-foreground transition-all duration-200 hover:scale-105 active:scale-95 uppercase tracking-widest"
                     >
                       Login
                     </Link>
@@ -416,7 +414,7 @@ export default function Navbar() {
               {mounted && user && (
                 <Link
                   href="/account/notifications"
-                  className="h-10 w-10 sm:hidden flex items-center justify-center rounded-xl text-slate-400 hover:text-white hover:bg-white/5 transition-all border border-transparent hover:border-white/10 active:scale-95 relative"
+                  className="h-10 w-10 sm:hidden flex items-center justify-center rounded-xl text-foreground-muted hover:text-foreground hover:bg-foreground/5 transition-all border border-transparent hover:border-border active:scale-95 relative"
                 >
                   <span className="material-icons text-xl">notifications</span>
                   <span className="absolute top-2 right-2 h-2 w-2 rounded-full bg-cyan-500 shadow-[0_0_10px_rgba(6,182,212,0.8)]" />
@@ -424,7 +422,7 @@ export default function Navbar() {
               )}
 
               <button
-                className="xl:hidden rounded-xl p-2 text-slate-400 hover:text-white hover:bg-white/5 transition-all active:scale-90 bg-white/5 border border-white/10 ml-1"
+                className="xl:hidden rounded-xl p-2 text-foreground-muted hover:text-foreground hover:bg-foreground/5 transition-all active:scale-90 bg-foreground/5 border border-border ml-1"
                 onClick={() => setMenuOpen(!menuOpen)}
               >
                 <span className="material-icons">{menuOpen ? 'close' : 'menu'}</span>
@@ -434,26 +432,130 @@ export default function Navbar() {
         </div>
 
         {/* Mobile menu logic */}
-        {menuOpen && (
-          <div className="xl:hidden fixed inset-0 z-40 bg-slate-950/95 backdrop-blur-xl border-t border-white/[0.05] top-[64px] animate-fade-in overflow-y-auto pb-20">
-            <div className="px-4 py-6 space-y-6">
-              <nav className="grid gap-2">
-                <MobileSection
-                  label="Channels"
-                  items={channelDropdownItems}
-                  setOpen={setMenuOpen}
-                />
-                <MobileSection
-                  label="Community"
-                  items={communityDropdownItems}
-                  setOpen={setMenuOpen}
-                />
-                <MobileSection label="Status" items={statusDropdownItems} setOpen={setMenuOpen} />
-                <MobileSection label="About Us" items={aboutDropdownItems} setOpen={setMenuOpen} />
-              </nav>
-            </div>
+        <div
+          className={`xl:hidden fixed inset-0 z-[70] bg-background/95 backdrop-blur-xl border-l border-border transition-transform duration-300 transform-gpu flex flex-col ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+        >
+          <div className="flex items-center justify-between p-4 border-b border-border shrink-0">
+            <Link
+              href="/home"
+              onClick={() => setMenuOpen(false)}
+              className="flex items-center gap-3"
+            >
+              <BrandLogo className="text-2xl" />
+            </Link>
+            <button
+              className="rounded-xl p-2 text-foreground-muted hover:text-foreground hover:bg-foreground/5 transition-all active:scale-90 bg-foreground/5 border border-border"
+              onClick={() => setMenuOpen(false)}
+            >
+              <span className="material-icons">close</span>
+            </button>
           </div>
-        )}
+          <div className="px-4 py-6 flex-1 overflow-y-auto space-y-6">
+            {/* Search Bar for Mobile */}
+            <div className="relative group/search-mobile">
+              <svg
+                className="absolute left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-foreground-muted group-focus-within/search-mobile:text-cyan-400 transition-colors"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <circle cx="11" cy="11" r="8" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-4.35-4.35" />
+              </svg>
+              <input
+                type="text"
+                placeholder="Global Discovery..."
+                value={searchQuery}
+                onFocus={() => setShowSuggestions(true)}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') {
+                    router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
+                    setShowSuggestions(false);
+                    setMenuOpen(false);
+                  }
+                }}
+                className="w-full rounded-2xl border border-border bg-background-elevated/50 py-3 pl-11 pr-4 text-xs font-bold text-foreground placeholder:text-foreground-muted outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm"
+              />
+              {showSuggestions && suggestions.length > 0 && (
+                <div className="absolute top-full left-0 right-0 mt-3 rounded-[24px] border border-border bg-background-elevated/95 backdrop-blur-2xl shadow-xl overflow-hidden z-50 p-2">
+                  {suggestions.slice(0, 3).map((ch) => (
+                    <Link
+                      key={ch.id}
+                      href={`/channel/${encodeBase64Url(ch.id)}`}
+                      onClick={() => {
+                        setShowSuggestions(false);
+                        setMenuOpen(false);
+                      }}
+                      className="flex items-center gap-3 p-2 hover:bg-foreground/5 rounded-xl transition-all"
+                    >
+                      <div className="h-8 w-8 rounded-lg bg-background-elevated overflow-hidden shrink-0 border border-border">
+                        {ch.logo ? (
+                          <Image
+                            src={getProxiedImageUrl(ch.logo)}
+                            alt=""
+                            width={32}
+                            height={32}
+                            className="h-full w-full object-contain"
+                          />
+                        ) : (
+                          <div className="h-full w-full flex items-center justify-center text-foreground-muted">
+                            <span className="material-icons text-sm">tv</span>
+                          </div>
+                        )}
+                      </div>
+                      <div className="min-w-0 flex-1">
+                        <div className="text-[10px] font-black text-foreground uppercase truncate">
+                          {ch.name}
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                  <button
+                    onClick={() => {
+                      router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
+                      setShowSuggestions(false);
+                      setMenuOpen(false);
+                    }}
+                    className="w-full mt-1 p-2 text-center text-[9px] font-black text-cyan-500 hover:bg-cyan-500/10 rounded-xl transition-all uppercase tracking-widest"
+                  >
+                    View All Results
+                  </button>
+                </div>
+              )}
+            </div>
+
+            {!user && (
+              <div className="grid grid-cols-2 gap-3">
+                <Link
+                  href="/account/signin"
+                  onClick={() => setMenuOpen(false)}
+                  className="flex items-center justify-center rounded-xl bg-foreground/5 border border-border px-4 py-3 text-[11px] font-black text-foreground hover:bg-foreground/10 transition-all uppercase tracking-widest"
+                >
+                  Login
+                </Link>
+                <Link
+                  href="/account/signup"
+                  onClick={() => setMenuOpen(false)}
+                  className="flex items-center justify-center rounded-xl bg-cyan-500 px-4 py-3 text-[11px] font-black text-slate-950 hover:bg-cyan-400 transition-all shadow-lg shadow-cyan-900/30 uppercase tracking-widest"
+                >
+                  Register
+                </Link>
+              </div>
+            )}
+            <nav className="grid gap-2">
+              <MobileSection label="Channels" items={channelDropdownItems} setOpen={setMenuOpen} />
+              <MobileSection
+                label="Community"
+                items={communityDropdownItems}
+                setOpen={setMenuOpen}
+              />
+              <MobileSection label="Status" items={statusDropdownItems} setOpen={setMenuOpen} />
+              <MobileSection label="About Us" items={aboutDropdownItems} setOpen={setMenuOpen} />
+            </nav>
+          </div>
+        </div>
       </header>
     </>
   );
@@ -474,39 +576,14 @@ function DropdownLink({
     <Link
       href={href}
       onClick={() => setOpen(false)}
-      className="flex items-center gap-4 p-3 hover:bg-white/5 rounded-2xl transition-all active:scale-[0.98] group/item"
+      className="flex items-center gap-4 p-3 hover:bg-foreground/5 rounded-2xl transition-all active:scale-[0.98] group/item"
     >
-      <div className="h-9 w-9 rounded-xl bg-slate-800 border border-white/5 flex items-center justify-center text-slate-500 group-hover/item:text-cyan-400 group-hover/item:border-cyan-500/20 transition-all">
+      <div className="h-9 w-9 rounded-xl bg-background-elevated border border-border flex items-center justify-center text-foreground-muted group-hover/item:text-cyan-400 group-hover/item:border-cyan-500/20 transition-all">
         <span className="material-icons text-lg">{icon}</span>
       </div>
-      <span className="text-[11px] font-black text-slate-400 group-hover/item:text-white transition-colors uppercase tracking-widest">
+      <span className="text-[11px] font-black text-foreground-muted group-hover/item:text-foreground transition-colors uppercase tracking-widest">
         {label}
       </span>
-    </Link>
-  );
-}
-
-function MobileLink({
-  href,
-  label,
-  icon,
-  onClick,
-  active,
-}: {
-  href: string;
-  label: string;
-  icon: string;
-  onClick: () => void;
-  active?: boolean;
-}) {
-  return (
-    <Link
-      href={href}
-      onClick={onClick}
-      className={`flex items-center gap-4 p-4 rounded-2xl transition-all active:scale-[0.98] ${active ? 'bg-white/10 text-white' : 'hover:bg-white/5 text-slate-400'}`}
-    >
-      <span className={`material-icons ${active ? 'text-cyan-400' : ''}`}>{icon}</span>
-      <span className="text-[11px] font-black uppercase tracking-widest">{label}</span>
     </Link>
   );
 }
@@ -522,10 +599,10 @@ function MobileSection({
 }) {
   const [open, setOpenSection] = useState(false);
   return (
-    <div className="border border-white/5 rounded-2xl bg-white/[0.02] overflow-hidden">
+    <div className="border border-border rounded-2xl bg-foreground/5 overflow-hidden">
       <button
         onClick={() => setOpenSection(!open)}
-        className="w-full flex items-center justify-between p-4 text-slate-400 hover:bg-white/5 transition-all"
+        className="w-full flex items-center justify-between p-4 text-foreground-muted hover:bg-foreground/5 transition-all"
       >
         <span className="text-[11px] font-black uppercase tracking-widest">{label}</span>
         <span
@@ -535,13 +612,13 @@ function MobileSection({
         </span>
       </button>
       {open && (
-        <div className="px-2 pb-2 grid gap-1 border-t border-white/5 pt-2">
+        <div className="px-2 pb-2 grid gap-1 border-t border-border pt-2">
           {items.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={() => setOpen(false)}
-              className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 text-slate-500 hover:text-white transition-all"
+              className="flex items-center gap-3 p-3 rounded-xl hover:bg-foreground/5 text-foreground-muted hover:text-foreground transition-all"
             >
               {item.icon && <span className="material-icons text-sm">{item.icon}</span>}
               <span className="text-[10px] font-black uppercase tracking-widest">{item.label}</span>

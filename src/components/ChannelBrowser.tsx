@@ -346,7 +346,7 @@ export default function ChannelBrowser({
                   <span className="material-icons text-lg">
                     {CATEGORY_ICONS[cat.toLowerCase()] || 'folder'}
                   </span>
-                  {cat}
+                  {cat.charAt(0).toUpperCase() + cat.slice(1).toLowerCase()}
                 </button>
               ))}
             </div>
@@ -420,7 +420,7 @@ export default function ChannelBrowser({
                 <div
                   className={
                     viewMode === 'grid'
-                      ? 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-6 gap-4 sm:gap-6'
+                      ? 'grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-6 gap-4 sm:gap-6'
                       : 'space-y-4'
                   }
                 >

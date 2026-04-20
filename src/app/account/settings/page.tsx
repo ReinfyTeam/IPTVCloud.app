@@ -170,14 +170,14 @@ export default function SettingsPage() {
   if (!mounted || !isLoggedIn()) return null;
 
   return (
-    <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 bg-slate-950">
+    <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 bg-background">
       <div className="mx-auto max-w-2xl space-y-8 sm:space-y-12 animate-fade-in transform-gpu">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
-            <h1 className="text-2xl sm:text-3xl font-black text-white uppercase italic tracking-tighter leading-none">
+            <h1 className="text-2xl sm:text-3xl font-black text-foreground uppercase italic tracking-tighter leading-none">
               Settings<span className="text-cyan-500">.</span>
             </h1>
-            <p className="text-slate-500 text-xs sm:text-sm mt-1 font-medium">
+            <p className="text-foreground-muted text-xs sm:text-sm mt-1 font-medium">
               Personalize your player and dashboard experience.
             </p>
           </div>
@@ -186,7 +186,7 @@ export default function SettingsPage() {
               resetSettings();
               void saveToServer();
             }}
-            className="rounded-xl sm:rounded-2xl border border-white/10 px-6 py-2.5 text-[9px] sm:text-[10px] font-black text-slate-500 hover:text-white uppercase tracking-widest transition-all active:scale-95 w-full sm:w-auto text-center"
+            className="rounded-xl sm:rounded-2xl border border-border px-6 py-2.5 text-[9px] sm:text-[10px] font-black text-foreground-muted hover:text-foreground uppercase tracking-widest transition-all active:scale-95 w-full sm:w-auto text-center"
           >
             Reset All
           </button>
@@ -199,23 +199,23 @@ export default function SettingsPage() {
         )}
 
         {/* Global Account Redirect */}
-        <section className="p-6 sm:p-8 rounded-[32px] sm:rounded-[40px] bg-gradient-to-br from-cyan-600/20 to-indigo-600/20 border border-white/[0.08] backdrop-blur-xl shadow-2xl flex flex-col sm:flex-row items-center justify-between gap-6">
+        <section className="p-6 sm:p-8 rounded-[32px] sm:rounded-[40px] bg-gradient-to-br from-cyan-600/20 to-indigo-600/20 border border-border backdrop-blur-xl shadow-2xl flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4 w-full">
-            <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl sm:rounded-2xl bg-white/10 flex items-center justify-center text-white shrink-0">
+            <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl sm:rounded-2xl bg-white/10 dark:bg-black/10 flex items-center justify-center text-foreground shrink-0">
               <span className="material-icons text-xl sm:text-2xl">security</span>
             </div>
             <div>
-              <h2 className="text-base sm:text-lg font-bold text-white tracking-tight">
+              <h2 className="text-base sm:text-lg font-bold text-foreground tracking-tight">
                 Security & Credentials
               </h2>
-              <p className="text-[10px] sm:text-xs text-slate-400 font-medium">
+              <p className="text-[10px] sm:text-xs text-foreground-muted/80 font-medium">
                 Change email, password, and setup 2FA.
               </p>
             </div>
           </div>
           <Link
             href="/account/settings/credentials"
-            className="w-full sm:w-auto px-6 py-3 rounded-xl sm:rounded-2xl bg-white text-slate-950 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 text-center"
+            className="w-full sm:w-auto px-6 py-3 rounded-xl sm:rounded-2xl bg-foreground text-background text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 text-center"
           >
             Manage
           </Link>
@@ -225,7 +225,7 @@ export default function SettingsPage() {
         <SettingsSection title="Identity" icon="person">
           <form onSubmit={handleUpdateUsername} className="space-y-6">
             <div>
-              <label className="block text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">
+              <label className="block text-[10px] sm:text-[11px] font-bold text-foreground-muted uppercase tracking-widest mb-2 px-1">
                 Global Username
               </label>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
@@ -233,17 +233,17 @@ export default function SettingsPage() {
                   type="text"
                   value={username}
                   onChange={(e) => setUsername(e.target.value.toLowerCase())}
-                  className="flex-1 rounded-xl sm:rounded-2xl border border-white/10 bg-slate-900/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
+                  className="flex-1 rounded-xl sm:rounded-2xl border border-border bg-background-elevated/50 p-4 text-sm text-foreground outline-none focus:border-cyan-500 transition-all shadow-inner"
                 />
                 <button
                   type="submit"
                   disabled={username === user?.username || !username}
-                  className="px-8 py-4 sm:py-0 rounded-xl sm:rounded-2xl bg-white/5 border border-white/10 text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-white hover:bg-white/10 transition-all active:scale-95 disabled:opacity-50"
+                  className="px-8 py-4 sm:py-0 rounded-xl sm:rounded-2xl bg-foreground/5 border border-border text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-foreground hover:bg-foreground/10 transition-all active:scale-95 disabled:opacity-50"
                 >
                   Save
                 </button>
               </div>
-              <p className="text-[9px] sm:text-[10px] text-slate-600 mt-3 italic px-1 leading-relaxed">
+              <p className="text-[9px] sm:text-[10px] text-foreground-muted mt-3 italic px-1 leading-relaxed">
                 Note: Usernames can only be changed once every 3 months.
               </p>
             </div>
@@ -581,12 +581,12 @@ function SettingsSection({
   children: React.ReactNode;
 }) {
   return (
-    <section className="rounded-[32px] sm:rounded-[40px] border border-white/[0.08] bg-white/[0.03] p-6 sm:p-8 shadow-2xl backdrop-blur-xl overflow-hidden">
+    <section className="rounded-[32px] sm:rounded-[40px] border border-border bg-foreground/5 p-6 sm:p-8 shadow-2xl backdrop-blur-xl overflow-hidden">
       <div className="flex items-center gap-4 mb-8">
-        <div className="h-10 w-10 rounded-xl sm:rounded-2xl bg-white/5 flex items-center justify-center text-lg sm:text-xl text-slate-400">
+        <div className="h-10 w-10 rounded-xl sm:rounded-2xl bg-foreground/5 flex items-center justify-center text-lg sm:text-xl text-foreground-muted">
           <span className="material-icons">{icon}</span>
         </div>
-        <h2 className="text-lg sm:text-xl font-bold text-white tracking-tight uppercase italic leading-none">
+        <h2 className="text-lg sm:text-xl font-bold text-foreground tracking-tight uppercase italic leading-none">
           {title}
         </h2>
       </div>
@@ -611,7 +611,7 @@ function Toggle({
   return (
     <div className="flex items-center justify-between gap-4 group">
       <div className="min-w-0 flex-1">
-        <div className="text-xs sm:text-sm font-bold text-white group-hover:text-cyan-400 transition-colors uppercase tracking-tight flex items-center gap-2">
+        <div className="text-xs sm:text-sm font-bold text-foreground group-hover:text-cyan-400 transition-colors uppercase tracking-tight flex items-center gap-2">
           {label}
           {isBeta && (
             <span className="bg-cyan-500/10 text-cyan-500 text-[7px] sm:text-[8px] font-black px-1.5 py-0.5 rounded border border-cyan-500/20 tracking-tighter shrink-0">
@@ -620,14 +620,14 @@ function Toggle({
           )}
         </div>
         {description && (
-          <div className="text-[10px] sm:text-xs text-slate-500 mt-1 leading-relaxed font-medium">
+          <div className="text-[10px] sm:text-xs text-foreground-muted mt-1 leading-relaxed font-medium">
             {description}
           </div>
         )}
       </div>
       <button
         onClick={onChange}
-        className={`relative h-6 w-10 sm:h-7 sm:w-12 shrink-0 rounded-full transition-all transform-gpu active:scale-95 ${checked ? 'bg-cyan-500 shadow-[0_0_20px_rgba(6,182,212,0.4)]' : 'bg-slate-800'}`}
+        className={`relative h-6 w-10 sm:h-7 sm:w-12 shrink-0 rounded-full transition-all transform-gpu active:scale-95 ${checked ? 'bg-cyan-500 shadow-[0_0_20px_rgba(6,182,212,0.4)]' : 'bg-background-elevated'}`}
       >
         <span
           className={`absolute top-0.5 left-0.5 sm:top-1 sm:left-1 h-5 w-5 rounded-full bg-white shadow-xl transition-all duration-300 ${checked ? 'translate-x-4 sm:translate-x-5' : 'translate-x-0'}`}
