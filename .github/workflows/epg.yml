@@ -1,35 +1,58 @@
 name: EPG Cron Update
 
 on:
+  push:
+    branches:
+      - epg
   workflow_dispatch:
   schedule:
-    # This runs at exactly 12:00 UTC every day
-    - cron: '0 12 * * *'
+    # Runs every day at 12:00 UTC
+    - cron: '0 0 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    # Allow:
+    # - workflow_dispatch always
+    # - schedule always
+    # - push only when commit message contains [update epg]
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule' ||
+      (
+        github.event_name == 'push' &&
+        contains(github.event.head_commit.message, '[update epg]')
+      )
+
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Use Node.js 25.x
-        uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 25.x
-          cache: 'npm'
-      - name: Install python 3.x
+          node-version: 25
+          cache: npm
+
+      - name: Setup Python
         uses: actions/setup-python@v6
         with:
           python-version: '3.x'
           check-latest: true
 
-      - name: Start EPG
-        run: chmod +x ./start.sh && ./start.sh
+      - name: Install dependencies
+        run: npm install
 
-      - name: Update EPG contents
+      - name: Start EPG
+        run: |
+          chmod +x ./start.sh
+          ./start.sh
+
+      - name: Commit updated EPG contents
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Chore: Update EPG Content"
