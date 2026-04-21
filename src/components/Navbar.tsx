@@ -165,7 +165,7 @@ export default function Navbar() {
 
             <div
               ref={searchRef}
-              className={`${showMobileSearch ? 'flex absolute inset-x-0 top-0 h-14 bg-background z-50 px-4 items-center gap-2' : 'hidden'} lg:flex flex-1 max-w-[480px] ml-auto relative group/search`}
+              className={`${showMobileSearch ? 'flex absolute inset-x-0 top-0 h-14 bg-background z-50 px-4 items-center gap-2' : 'hidden'} lg:flex flex-1 max-w-[480px] ml-auto relative group/search ${pathname === '/home' && !scrolled && !showMobileSearch ? 'hidden' : ''}`}
             >
               <span className="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-lg text-foreground-muted group-focus-within/search:text-cyan-400 transition-colors pointer-events-none">
                 search
@@ -289,7 +289,24 @@ export default function Navbar() {
               )}
             </div>
 
-            <div className="flex items-center gap-1.5 sm:gap-3 ml-auto lg:ml-0">
+            <div className="flex items-center gap-1.5 sm:gap-2 ml-auto lg:ml-0">
+              {!user && mounted && (
+                <div className="hidden xl:flex items-center gap-2 mr-2">
+                  <Link
+                    href="/account/signin"
+                    className="rounded-xl px-4 py-2 text-[10px] font-black text-foreground-muted hover:text-white transition-all uppercase tracking-widest"
+                  >
+                    Login
+                  </Link>
+                  <Link
+                    href="/account/signup"
+                    className="rounded-xl bg-cyan-500 px-5 py-2 text-[10px] font-black text-slate-950 hover:bg-cyan-400 transition-all shadow-lg shadow-cyan-900/30 uppercase tracking-widest"
+                  >
+                    Register
+                  </Link>
+                </div>
+              )}
+
               <button
                 onClick={() => setShowMobileSearch(true)}
                 className="lg:hidden h-10 w-10 flex items-center justify-center rounded-xl text-foreground-muted hover:text-foreground hover:bg-white/5 transition-all border border-white/[0.1]"
@@ -297,7 +314,11 @@ export default function Navbar() {
                 <span className="material-icons text-xl">search</span>
               </button>
 
-              {mounted && user && <NotificationDropdown />}
+              {mounted && user && (
+                <div className="hidden sm:block">
+                  <NotificationDropdown />
+                </div>
+              )}
 
               {mounted && user && (
                 <div className="relative" ref={profileRef}>
@@ -435,7 +456,8 @@ export default function Navbar() {
 
         {/* Mobile menu logic */}
         <div
-          className={`xl:hidden fixed top-[56px] right-0 bottom-0 z-[70] w-full sm:max-w-sm bg-slate-950/98 backdrop-blur-2xl border-l border-white/[0.08] transition-transform duration-500 ease-out transform-gpu flex flex-col shadow-2xl ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+          className={`xl:hidden fixed top-[56px] inset-0 z-[70] bg-slate-950/98 backdrop-blur-2xl border-t border-white/[0.08] transition-transform duration-500 ease-out transform-gpu flex flex-col shadow-2xl ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+          style={{ top: '56px' }}
         >
           <div className="px-6 py-8 flex-1 overflow-y-auto space-y-8">
             {mounted && user && (

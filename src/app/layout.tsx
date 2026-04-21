@@ -7,6 +7,7 @@ import ThemeProvider from '@/components/ThemeProvider';
 import CookieConsent from '@/components/CookieConsent';
 import NotificationPopup from '@/components/NotificationPopup';
 import UserStatusGuard from '@/components/UserStatusGuard';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   title: 'IPTVCloud.app — Live TV Browser',
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <main className="flex-1">{children}</main>
             <Footer />
             <CookieConsent />
+            <SpeedInsights />
           </UserStatusGuard>
         </ThemeProvider>
       </body>

@@ -7,6 +7,8 @@ import BrandLogo from '@/components/BrandLogo';
 import { encodeBase64Url } from '@/lib/base64';
 import { getProxiedImageUrl } from '@/lib/image-proxy';
 
+export const dynamic = 'force-dynamic';
+
 export default async function EpgPage() {
   const dataset = await getChannels();
   const sortedChannels = [...dataset.channels].sort((a, b) => a.name.localeCompare(b.name));

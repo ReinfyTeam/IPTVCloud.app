@@ -6,8 +6,8 @@ export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const site = searchParams.get('site');
 
-  if (!site) {
-    return NextResponse.json({ error: 'Site parameter is required' }, { status: 400 });
+  if (!site || !/^[a-z0-9-]+$/.test(site)) {
+    return NextResponse.json({ error: 'Invalid site parameter' }, { status: 400 });
   }
 
   try {

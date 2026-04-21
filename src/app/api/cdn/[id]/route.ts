@@ -1,12 +1,15 @@
 import { NextResponse } from 'next/server';
 import { decodeProxiedBlobUrl } from '@/lib/blob-proxy';
+import { validateUrlForProxy } from '@/lib/ssrf';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET(_: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const targetUrl = decodeProxiedBlobUrl((await params).id);
-    if (!targetUrl) return new Response('Invalid ID', { status: 400 });
+    if (!targetUrl || !validateUrlForProxy(targetUrl)) {
+      return new Response('Invalid or blocked ID', { status: 400 });
+    }
 
     const res = await fetch(targetUrl);
     if (!res.ok) return new Response('Failed to fetch resource', { status: res.status });

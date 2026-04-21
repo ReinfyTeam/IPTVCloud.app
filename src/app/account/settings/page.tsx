@@ -215,7 +215,7 @@ export default function SettingsPage() {
           </div>
           <Link
             href="/account/settings/credentials"
-            className="w-full sm:w-auto px-6 py-3 rounded-xl sm:rounded-2xl bg-foreground text-background text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 text-center"
+            className="w-full sm:w-auto px-6 py-3 rounded-xl sm:rounded-2xl bg-accent text-slate-950 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:opacity-90 transition-all active:scale-95 text-center shadow-lg shadow-accent/20"
           >
             Manage
           </Link>
@@ -238,7 +238,7 @@ export default function SettingsPage() {
                 <button
                   type="submit"
                   disabled={username === user?.username || !username}
-                  className="px-8 py-4 sm:py-0 rounded-xl sm:rounded-2xl bg-foreground/5 border border-border text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-foreground hover:bg-foreground/10 transition-all active:scale-95 disabled:opacity-50"
+                  className="px-8 py-4 sm:py-0 rounded-xl sm:rounded-2xl bg-accent text-slate-950 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:opacity-90 transition-all active:scale-95 disabled:opacity-50 shadow-lg shadow-accent/20"
                 >
                   Save
                 </button>
@@ -627,7 +627,7 @@ function Toggle({
       </div>
       <button
         onClick={onChange}
-        className={`relative h-6 w-10 sm:h-7 sm:w-12 shrink-0 rounded-full transition-all transform-gpu active:scale-95 ${checked ? 'bg-cyan-500 shadow-[0_0_20px_rgba(6,182,212,0.4)]' : 'bg-background-elevated'}`}
+        className={`relative h-6 w-10 sm:h-7 sm:w-12 shrink-0 rounded-full transition-all transform-gpu active:scale-95 ${checked ? 'bg-accent shadow-accent' : 'bg-background-elevated'}`}
       >
         <span
           className={`absolute top-0.5 left-0.5 sm:top-1 sm:left-1 h-5 w-5 rounded-full bg-white shadow-xl transition-all duration-300 ${checked ? 'translate-x-4 sm:translate-x-5' : 'translate-x-0'}`}
