@@ -130,7 +130,9 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
               </Link>
             </div>
           </div>
-        </div><br><br>
+        </div>
+        <br />
+        <br />
 
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce flex flex-col items-center gap-2 opacity-40">
           <span className="text-[10px] font-black uppercase tracking-[0.4em] text-white">

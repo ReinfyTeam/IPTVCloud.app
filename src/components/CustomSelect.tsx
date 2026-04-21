@@ -36,7 +36,7 @@ export default function CustomSelect({ label, options, value, onChange, placehol
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center justify-between gap-3 rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-sm text-white hover:border-white/20 transition-all outline-none focus:border-cyan-500/50 active:scale-[0.98] transform-gpu shadow-inner"
+        className="w-full flex items-center justify-between gap-3 rounded-2xl border border-white/[0.08] bg-slate-900/50 p-4 text-sm text-white hover:border-white/20 transition-all outline-none focus:border-accent active:scale-[0.98] transform-gpu shadow-inner"
       >
         <div className="flex items-center gap-3 truncate">
           {selectedOption?.image ? (
@@ -66,7 +66,7 @@ export default function CustomSelect({ label, options, value, onChange, placehol
                 onChange(opt.value);
                 setIsOpen(false);
               }}
-              className={`flex items-center gap-3 p-3 rounded-2xl hover:bg-white/5 text-sm transition-all cursor-pointer active:scale-[0.98] ${value === opt.value ? 'bg-cyan-500/10 text-cyan-400 font-bold' : 'text-slate-300 hover:text-white'}`}
+              className={`flex items-center gap-3 p-3 rounded-2xl hover:bg-white/5 text-sm transition-all cursor-pointer active:scale-[0.98] ${value === opt.value ? 'bg-accent/10 text-accent font-bold' : 'text-slate-300 hover:text-white'}`}
             >
               {opt.image ? (
                 <Image

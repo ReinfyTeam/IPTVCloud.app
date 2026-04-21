@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import db from '@/lib/db';
 import { authorizeRequest, hashPassword } from '@/services/auth-service';
+import crypto from 'crypto';
 
 export async function GET(request: Request) {
   const auth = await authorizeRequest(request, { requireStaff: true });
@@ -97,7 +98,7 @@ export async function POST(request: Request) {
     } else if (action === 'RESET_PASSWORD') {
       if (!auth.isAdmin)
         return NextResponse.json({ ok: false, error: 'Forbidden' }, { status: 403 });
-      const newPassword = value || Math.random().toString(36).slice(-8);
+      const newPassword = value || crypto.randomBytes(6).toString('hex');
       const hashedPassword = await hashPassword(newPassword);
       await db.query('UPDATE "User" SET password = $1, "forcePasswordReset" = $2 WHERE id = $3', [
         hashedPassword,

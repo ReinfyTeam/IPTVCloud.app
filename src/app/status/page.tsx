@@ -159,7 +159,7 @@ export default function StatusPage() {
                 </span>
               </div>
               <div className="h-48 sm:h-64 w-full">
-                <ResponsiveContainer width="100%" height="100%">
+                <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
                   <AreaChart data={stats}>
                     <defs>
                       <linearGradient id="colorLatency" x1="0" y1="0" x2="0" y2="1">
@@ -215,7 +215,7 @@ export default function StatusPage() {
                 </div>
               </div>
               <div className="h-48 sm:h-64 w-full">
-                <ResponsiveContainer width="100%" height="100%">
+                <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
                   <AreaChart data={stats}>
                     <defs>
                       <linearGradient id="colorViewers" x1="0" y1="0" x2="0" y2="1">
@@ -282,7 +282,7 @@ export default function StatusPage() {
                 </div>
               </div>
               <div className="h-48 sm:h-64 w-full">
-                <ResponsiveContainer width="100%" height="100%">
+                <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
                   <BarChart data={stats}>
                     <CartesianGrid strokeDasharray="3 3" stroke="#ffffff05" vertical={false} />
                     <XAxis

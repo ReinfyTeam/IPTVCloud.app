@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useAuthStore } from '@/store/auth-store';
+import { sanitizeUrl } from '@/lib/sanitize';
 
 type Notification = {
   id: string;
@@ -70,7 +71,7 @@ export default function NotificationsPage() {
           <div className="absolute top-0 right-0 h-64 w-64 bg-cyan-500/5 blur-[80px] rounded-full" />
           <div className="space-y-2 relative z-10">
             <h1 className="text-3xl sm:text-4xl font-black text-white uppercase italic tracking-tighter leading-none">
-              Notifications.
+              Notifications<span className="text-cyan-500 accent-dot">.</span>
             </h1>
             <p className="text-slate-400 font-bold uppercase tracking-widest text-[8px] sm:text-[10px]">
               Stay updated with your community and account
@@ -128,7 +129,7 @@ export default function NotificationsPage() {
                     <div className="flex items-center gap-4 sm:gap-6 mt-4 sm:mt-6">
                       {n.link && (
                         <Link
-                          href={n.link}
+                          href={sanitizeUrl(n.link)}
                           onClick={() => !n.read && markRead(n.id)}
                           className="text-[9px] sm:text-[10px] font-black text-cyan-500 uppercase tracking-widest hover:text-cyan-400 transition-colors"
                         >

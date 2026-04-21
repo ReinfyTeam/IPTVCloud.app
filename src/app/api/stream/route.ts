@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { isLikelyHlsManifest, rewriteHlsManifest } from '@/services/stream-service';
 import { decodeBase64Url } from '@/lib/base64';
 import { getChannelById } from '@/services/channel-service';
+import { validateUrlForProxy } from '@/lib/ssrf';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
@@ -73,6 +74,10 @@ export async function GET(request: Request) {
 }
 
 async function proxyRequest(targetUrl: string, request?: Request) {
+  if (!validateUrlForProxy(targetUrl)) {
+    return NextResponse.json({ error: 'Invalid or blocked URL' }, { status: 400 });
+  }
+
   try {
     const upstream = await fetch(targetUrl, {
       headers: { 'User-Agent': request?.headers.get('User-Agent') || 'Mozilla/5.0' },

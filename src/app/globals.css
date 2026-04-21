@@ -15,14 +15,14 @@
 }
 
 .light {
-  --bg: #ffffff;
-  --bg-elevated: #f8fafc;
-  --panel: rgba(248, 250, 252, 0.85);
+  --bg: #f8fafc;
+  --bg-elevated: #ffffff;
+  --panel: rgba(255, 255, 255, 0.85);
   --text: #020617;
-  --text-muted: #475569;
+  --text-muted: #64748b;
   --accent: #06b6d4;
   --accent-glow: rgba(6, 182, 212, 0.08);
-  --border: rgba(0, 0, 0, 0.08);
+  --border: rgba(0, 0, 0, 0.1);
   --dot-color: rgba(0, 0, 0, 0.04);
   color-scheme: light;
 }
@@ -32,9 +32,33 @@
   --accent-glow: color-mix(in srgb, var(--accent) 15%, transparent);
 }
 
-html {
-  scroll-behavior: smooth;
-  height: 100%;
+/* Force accent colors on specific elements for consistency */
+.bg-accent {
+  background-color: var(--accent) !important;
+}
+.text-accent {
+  color: var(--accent) !important;
+}
+.border-accent {
+  border-color: var(--accent) !important;
+}
+.shadow-accent {
+  shadow: 0 0 20px color-mix(in srgb, var(--accent) 30%, transparent) !important;
+}
+
+/* Notification blue dot */
+.accent-dot {
+  color: var(--accent, #06b6d4);
+}
+
+header {
+  background-color: var(--panel) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+footer {
+  background-color: var(--bg-elevated) !important;
+  border-top: 1px solid var(--border) !important;
 }
 
 body {
@@ -44,8 +68,16 @@ body {
   color: var(--text);
   background-image:
     radial-gradient(ellipse 80% 50% at 50% -20%, var(--accent-glow), transparent),
-    radial-gradient(ellipse 60% 40% at 80% 80%, rgba(14, 165, 233, 0.07), transparent),
-    radial-gradient(ellipse 50% 30% at 10% 90%, rgba(139, 92, 246, 0.05), transparent),
+    radial-gradient(
+      ellipse 60% 40% at 80% 80%,
+      color-mix(in srgb, var(--accent) 5%, transparent),
+      transparent
+    ),
+    radial-gradient(
+      ellipse 50% 30% at 10% 90%,
+      color-mix(in srgb, var(--accent) 3%, transparent),
+      transparent
+    ),
     radial-gradient(var(--dot-color) 1px, transparent 1px);
   background-size:
     100% 100%,

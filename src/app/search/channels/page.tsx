@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   description: 'Browse thousands of live IPTV channels. Filter by country, category, or language.',
 };
 
+export const dynamic = 'force-dynamic';
+
 export default async function SearchChannelsPage({
   searchParams,
 }: {

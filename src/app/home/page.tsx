@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   description: 'Welcome to IPTVCloud.app. The smartest way to watch live TV.',
 };
 
+export const dynamic = 'force-dynamic';
+
 export default async function HomePage() {
   const { channels } = await getChannels();
   return <HomeDashboard allChannels={channels} />;
