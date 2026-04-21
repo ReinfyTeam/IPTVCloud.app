@@ -57,7 +57,8 @@ async function fetchIptvOrgData() {
   };
 
   const results = await Promise.all(
-    Object.entries(endpoints).map(async ([key, url]) => {
+    Object.entries(endpoints).map(async ([key, urlStr]) => {
+      const url = new URL(urlStr);
       const res = await fetch(url, { cache: 'no-store' });
       const data = res.ok ? await res.json() : [];
       return [key, data];

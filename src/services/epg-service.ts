@@ -28,13 +28,13 @@ async function enrichWithWikiImage(title: string): Promise<string | null> {
       .replace(/\b(HD|SD|FHD|4K|S\d+E\d+|Season \d+|Episode \d+)\b/gi, '')
       .split(':')[0]
       .trim();
-    const res = await fetch(
+    const url = new URL(
       `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(cleanTitle)}`,
-      {
-        headers: { 'User-Agent': 'IPTVCloud.app/1.0' },
-        next: { revalidate: 86400 }, // cache aggressively for 24h
-      },
     );
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'IPTVCloud.app/1.0' },
+      next: { revalidate: 86400 }, // cache aggressively for 24h
+    });
     if (res.ok) {
       const data = await res.json();
       return data.thumbnail?.source || null;
@@ -104,13 +104,14 @@ export async function fetchEpgForId(
   if (!xmlText) {
     for (const base of bases) {
       for (const name of names) {
-        const url = `${base}/${name}`;
+        const urlStr = `${base}/${name}`;
         try {
+          const url = new URL(urlStr);
           const response = await fetch(url, { next: { revalidate: 3600 } });
           if (!response.ok) continue;
 
           xmlText = await response.text();
-          sourceUrl = url;
+          sourceUrl = urlStr;
           break;
         } catch {
           // Try the next candidate.

@@ -11,7 +11,8 @@ export async function GET(_: Request, { params }: { params: Promise<{ id: string
       return new Response('Invalid or blocked ID', { status: 400 });
     }
 
-    const res = await fetch(targetUrl);
+    const urlObj = new URL(targetUrl);
+    const res = await fetch(urlObj);
     if (!res.ok) return new Response('Failed to fetch image', { status: res.status });
 
     const headers = new Headers();

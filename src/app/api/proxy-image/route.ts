@@ -1,19 +1,21 @@
 import { NextResponse } from 'next/server';
+import { validateUrlForProxy } from '@/lib/ssrf';
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const url = searchParams.get('url');
 
-  if (!url) {
-    return new NextResponse('URL is required', { status: 400 });
+  if (!url || !validateUrlForProxy(url)) {
+    return new NextResponse('Invalid or blocked URL', { status: 400 });
   }
 
   try {
-    const response = await fetch(url, {
+    const urlObj = new URL(url);
+    const response = await fetch(urlObj, {
       headers: {
         'User-Agent':
           'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        Referer: new URL(url).origin,
+        Referer: urlObj.origin,
       },
     });
 

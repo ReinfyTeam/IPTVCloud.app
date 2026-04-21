@@ -1,6 +1,9 @@
 import { NextResponse } from 'next/server';
-import { isLikelyHlsManifest, rewriteHlsManifest } from '@/services/stream-service';
-import { decodeBase64Url } from '@/lib/base64';
+import {
+  isLikelyHlsManifest,
+  rewriteHlsManifest,
+  resolveStreamUrl,
+} from '@/services/stream-service';
 import { getChannelById } from '@/services/channel-service';
 import { validateUrlForProxy } from '@/lib/ssrf';
 
@@ -24,7 +27,8 @@ export async function GET(request: Request) {
   if (!key) return NextResponse.json({ error: 'Missing key' }, { status: 400 });
 
   try {
-    const decoded = decodeBase64Url(key);
+    const decoded = await resolveStreamUrl(key);
+    if (!decoded) return NextResponse.json({ error: 'Invalid key' }, { status: 400 });
 
     // If decoded looks like a URL, proxy directly
     if (/^https?:\/\//i.test(decoded)) {
@@ -79,7 +83,8 @@ async function proxyRequest(targetUrl: string, request?: Request) {
   }
 
   try {
-    const upstream = await fetch(targetUrl, {
+    const urlObj = new URL(targetUrl);
+    const upstream = await fetch(urlObj, {
       headers: { 'User-Agent': request?.headers.get('User-Agent') || 'Mozilla/5.0' },
       redirect: 'follow',
     });
