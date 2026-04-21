@@ -17,7 +17,7 @@ NC='\033[0m'
 
 log()  { echo -e "${GREEN}[INFO]${NC}  $*"; }
 warn() { echo -e "${YELLOW}[WARN]${NC}  $*"; }
-err()  { echo -e "${RED}[ERR]${NC}   $*" >&2; }
+err()  { echo -e "${RED}[ERR]${NC}    $*" >&2; }
 site() { echo -e "${CYAN}[SITE]${NC}  $*"; }
 
 # ── Cleanup ───────────────────────────────────────────────────────────────────
@@ -71,15 +71,12 @@ for SITE_NAME in "${SITES[@]}"; do
   site "$SITE_NAME"
 
   OUTPUT_FILE="$OUTPUT_DIR/${SITE_NAME}.xml"
-  LOG_FILE="/tmp/epg_${SITE_NAME}.log"
-
-  rm -f "$OUTPUT_FILE"
-
+  
   if npm run grab -- \
       --sites="$SITE_NAME" \
       --output="$OUTPUT_FILE" \
-	  --maxConnections 100 \
-      >"$LOG_FILE" 2>&1
+      --maxConnections 20 \
+      --curl
   then
       if [[ -s "$OUTPUT_FILE" ]]; then
           BYTES=$(wc -c < "$OUTPUT_FILE")
