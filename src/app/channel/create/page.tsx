@@ -21,6 +21,7 @@ export default function CreateChannelPage() {
     description: '',
     resolution: '1080p',
   });
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
@@ -30,17 +31,17 @@ export default function CreateChannelPage() {
     if (!token) return;
     setLoading(true);
     try {
-      const res = await fetch('/api/channels/submit', {
+      const res = await fetch('/api/custom-channels', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${token}`,
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, isSubmitted }),
       });
       if (res.ok) {
         setSuccess(true);
-        setTimeout(() => router.push('/support'), 3000);
+        setTimeout(() => router.push('/channel/custom_channels'), 3000);
       }
     } catch {
     } finally {
@@ -58,11 +59,12 @@ export default function CreateChannelPage() {
             <span className="material-icons text-4xl">check_circle</span>
           </div>
           <h1 className="text-2xl font-black text-white uppercase italic tracking-tighter">
-            Submission Received.
+            {isSubmitted ? 'Submission Received' : 'Channel Saved'}
           </h1>
           <p className="text-slate-400 text-sm font-medium">
-            Your channel has been submitted for approval. You can track the status in your support
-            tickets.
+            {isSubmitted
+              ? 'Your channel has been submitted for approval. You can track the status in your support tickets.'
+              : 'Your channel has been saved to your private collection. You can view it on your custom channels page.'}
           </p>
         </div>
       </div>
@@ -80,8 +82,8 @@ export default function CreateChannelPage() {
             Create Channel<span className="text-cyan-500">.</span>
           </h1>
           <p className="text-slate-400 text-sm font-medium max-w-lg mx-auto leading-relaxed">
-            Submit your custom stream to the global directory. All submissions are reviewed by staff
-            for quality and compliance.
+            Create a private channel for your own use, or submit it to the global directory for
+            everyone to enjoy.
           </p>
         </div>
 
@@ -186,13 +188,20 @@ export default function CreateChannelPage() {
               <label className="text-[10px] font-black text-slate-500 uppercase tracking-[0.2em] ml-1">
                 Region
               </label>
-              <input
-                type="text"
+              <select
                 value={formData.region}
                 onChange={(e) => setForm({ ...formData, region: e.target.value })}
-                placeholder="e.g. North America, Southeast Asia"
-                className="w-full rounded-2xl border border-white/10 bg-slate-900/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all"
-              />
+                className="w-full rounded-2xl border border-white/10 bg-slate-900/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all appearance-none"
+              >
+                <option value="">Select Region (Optional)</option>
+                <option value="Americas">Americas</option>
+                <option value="Europe">Europe</option>
+                <option value="Asia">Asia</option>
+                <option value="Oceania">Oceania</option>
+                <option value="Africa">Africa</option>
+                <option value="Middle East">Middle East</option>
+                <option value="Antarctica">Antarctica</option>
+              </select>
             </div>
           </div>
 
@@ -208,12 +217,34 @@ export default function CreateChannelPage() {
             />
           </div>
 
+          <div className="flex items-center gap-4 p-4 rounded-2xl bg-slate-900/50 border border-white/10">
+            <input
+              type="checkbox"
+              id="is-submitted"
+              checked={isSubmitted}
+              onChange={(e) => setIsSubmitted(e.target.checked)}
+              className="h-5 w-5 rounded-md bg-slate-800 border-slate-700 text-cyan-500 focus:ring-cyan-500"
+            />
+            <label htmlFor="is-submitted" className="flex-1 text-sm text-slate-300 font-medium">
+              Submit for Community Review
+              <p className="text-xs text-slate-500">
+                If checked, your channel will be submitted for public listing after staff review.
+              </p>
+            </label>
+          </div>
+
           <button
             type="submit"
             disabled={loading}
             className="w-full py-5 rounded-2xl bg-cyan-500 text-slate-950 font-black text-xs uppercase tracking-widest hover:bg-cyan-400 active:scale-95 transition-all shadow-xl shadow-cyan-900/20 disabled:opacity-50"
           >
-            {loading ? 'Submitting...' : 'Submit Channel for Review'}
+            {loading
+              ? isSubmitted
+                ? 'Submitting...'
+                : 'Saving...'
+              : isSubmitted
+                ? 'Submit for Review'
+                : 'Save Channel'}
           </button>
         </form>
       </div>

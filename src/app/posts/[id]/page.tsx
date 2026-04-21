@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { use, useEffect, useState, useCallback } from 'react';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import { useAuthStore } from '@/store/auth-store';
@@ -9,6 +9,27 @@ import UserHoverCard from '@/components/UserHoverCard';
 import EmojiPicker from '@/components/EmojiPicker';
 import Image from 'next/image';
 import { getProxiedImageUrl } from '@/lib/image-proxy';
+
+function formatRelativeTime(dateString: string) {
+  const date = new Date(dateString);
+  const now = new Date();
+  const diffInSeconds = Math.floor((now.getTime() - date.getTime()) / 1000);
+
+  if (diffInSeconds < 10) return 'Just now';
+  if (diffInSeconds < 60) return `${diffInSeconds}s ago`;
+  if (diffInSeconds < 3600) return `${Math.floor(diffInSeconds / 60)}m ago`;
+  if (diffInSeconds < 86400) return `${Math.floor(diffInSeconds / 3600)}h ago`;
+  if (diffInSeconds < 2592000) return `${Math.floor(diffInSeconds / 86400)}d ago`;
+  if (diffInSeconds < 31536000) return `${Math.floor(diffInSeconds / 2592000)}mo ago`;
+
+  return date.toLocaleString(undefined, {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
+}
 
 type Attachment = { id: string; url: string; filename: string };
 
@@ -31,6 +52,7 @@ type Post = {
   content: string;
   userId: string;
   createdAt: string;
+  updatedAt: string;
   user: {
     id: string;
     username: string;
@@ -42,7 +64,8 @@ type Post = {
   attachments: Attachment[];
 };
 
-export default function PostDetailPage({ params }: { params: { id: string } }) {
+export default function PostDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
   const [post, setPost] = useState<Post | null>(null);
   const [comments, setComments] = useState<Comment[]>([]);
   const [newComment, setNewComment] = useState('');
@@ -56,7 +79,7 @@ export default function PostDetailPage({ params }: { params: { id: string } }) {
 
   const fetchPost = useCallback(async () => {
     try {
-      const res = await fetch(`/api/posts/${params.id}`);
+      const res = await fetch(`/api/posts/${id}`);
       const data = await res.json();
       if (res.ok) {
         setPost(data);
@@ -64,15 +87,15 @@ export default function PostDetailPage({ params }: { params: { id: string } }) {
         setEditContent(data.content);
       }
     } catch {}
-  }, [params.id]);
+  }, [id]);
 
   const fetchComments = useCallback(async () => {
     try {
-      const res = await fetch(`/api/posts/${params.id}/comments`);
+      const res = await fetch(`/api/posts/${id}/comments`);
       const data = await res.json();
       if (res.ok) setComments(data);
     } catch {}
-  }, [params.id]);
+  }, [id]);
 
   useEffect(() => {
     Promise.all([fetchPost(), fetchComments()]).finally(() => setLoading(false));
@@ -82,7 +105,7 @@ export default function PostDetailPage({ params }: { params: { id: string } }) {
     if (!editTitle || !editContent || !token) return;
     setSending(true);
     try {
-      const res = await fetch(`/api/posts/${params.id}`, {
+      const res = await fetch(`/api/posts/${id}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
         body: JSON.stringify({ title: editTitle, content: editContent }),
@@ -113,7 +136,7 @@ export default function PostDetailPage({ params }: { params: { id: string } }) {
   const handleLike = async () => {
     if (!user) return alert('Sign in to like posts.');
     try {
-      const res = await fetch(`/api/posts/${params.id}/like`, {
+      const res = await fetch(`/api/posts/${id}/like`, {
         method: 'POST',
         headers: { Authorization: `Bearer ${token}` },
       });
@@ -130,7 +153,7 @@ export default function PostDetailPage({ params }: { params: { id: string } }) {
     if (!newComment || sending) return;
     setSending(true);
     try {
-      const res = await fetch(`/api/posts/${params.id}/comments`, {
+      const res = await fetch(`/api/posts/${id}/comments`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
         body: JSON.stringify({ content: newComment }),
@@ -186,7 +209,12 @@ export default function PostDetailPage({ params }: { params: { id: string } }) {
                   {post.user.isVerified && <VerifiedBadge className="text-xs sm:text-sm ml-1" />}
                 </div>
                 <div className="text-[9px] sm:text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-0.5">
-                  {new Date(post.createdAt).toLocaleDateString()}
+                  {formatRelativeTime(post.createdAt)}
+                  {post.updatedAt !== post.createdAt && (
+                    <span className="ml-2 text-cyan-500/60 lowercase italic">
+                      (edited {formatRelativeTime(post.updatedAt)})
+                    </span>
+                  )}
                 </div>
               </div>
             </div>
@@ -305,7 +333,7 @@ export default function PostDetailPage({ params }: { params: { id: string } }) {
                   disabled={sending}
                   className="w-full py-4 rounded-2xl bg-cyan-500 text-slate-950 font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95"
                 >
-                  {sending ? 'Saving...' : 'Update Signal'}
+                  {sending ? 'Saving...' : 'Edit Post'}
                 </button>
               </div>
             ) : (
@@ -463,13 +491,14 @@ export default function PostDetailPage({ params }: { params: { id: string } }) {
                     <UserHoverCard username={comment.user.username}>
                       <span className="font-bold text-white text-sm">@{comment.user.username}</span>
                     </UserHoverCard>
+                    {comment.user.isVerified && <VerifiedBadge className="text-[12px] ml-1" />}
                     {comment.user.id === post.userId && (
                       <span className="px-2 py-0.5 rounded-md bg-cyan-500/10 text-cyan-400 text-[8px] font-black uppercase tracking-widest border border-cyan-500/20">
                         OP
                       </span>
                     )}
                     <span className="text-[10px] text-slate-600 uppercase font-bold tracking-widest">
-                      {new Date(comment.createdAt).toLocaleDateString()}
+                      {formatRelativeTime(comment.createdAt)}
                     </span>
                   </div>
                   <div className="text-sm text-slate-400 leading-relaxed font-medium prose prose-invert prose-sm max-w-none">

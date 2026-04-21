@@ -1,15 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    serverComponentsExternalPackages: [
-      'pg',
-      '@vercel/blob',
-      'otplib',
-      '@otplib/plugin-base32-scure',
-      '@otplib/plugin-crypto-noble',
-      'recharts',
-    ],
-  },
+  serverExternalPackages: [
+    'pg',
+    '@vercel/blob',
+    'otplib',
+    '@otplib/plugin-base32-scure',
+    '@otplib/plugin-crypto-noble',
+  ],
   staticPageGenerationTimeout: 120,
   images: {
     remotePatterns: [
@@ -24,7 +21,6 @@ const nextConfig = {
       {
         source: '/api/(.*)',
         headers: [
-          { key: 'Access-Control-Allow-Credentials', value: 'true' },
           { key: 'Access-Control-Allow-Origin', value: '*' },
           { key: 'Access-Control-Allow-Methods', value: 'GET,OPTIONS,PATCH,DELETE,POST,PUT' },
           {

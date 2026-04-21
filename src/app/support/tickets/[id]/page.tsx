@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { use, useEffect, useState, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useAuthStore } from '@/store/auth-store';
@@ -30,7 +30,8 @@ type Ticket = {
   attachments: Attachment[];
 };
 
-export default function TicketDetailPage({ params }: { params: { id: string } }) {
+export default function TicketDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
   const { user, token } = useAuthStore();
   const [ticket, setTicket] = useState<Ticket | null>(null);
   const [loading, setLoading] = useState(true);
@@ -41,7 +42,7 @@ export default function TicketDetailPage({ params }: { params: { id: string } })
 
   const fetchTicket = useCallback(async () => {
     try {
-      const res = await fetch(`/api/tickets/${params.id}`, {
+      const res = await fetch(`/api/tickets/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       const data = await res.json();
@@ -50,11 +51,11 @@ export default function TicketDetailPage({ params }: { params: { id: string } })
     } finally {
       setLoading(false);
     }
-  }, [params.id, token]);
+  }, [id, token]);
 
   const fetchResponses = useCallback(async () => {
     try {
-      const res = await fetch(`/api/tickets/${params.id}/responses`, {
+      const res = await fetch(`/api/tickets/${id}/responses`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       const data = await res.json();
@@ -62,7 +63,7 @@ export default function TicketDetailPage({ params }: { params: { id: string } })
         setTicket((prev) => (prev ? { ...prev, responses: data } : null));
       }
     } catch {}
-  }, [params.id, token]);
+  }, [id, token]);
 
   useEffect(() => {
     if (token) {
@@ -94,7 +95,7 @@ export default function TicketDetailPage({ params }: { params: { id: string } })
     if ((!newMessage && attachments.length === 0) || sending) return;
     setSending(true);
     try {
-      const res = await fetch(`/api/tickets/${params.id}/responses`, {
+      const res = await fetch(`/api/tickets/${id}/responses`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
         body: JSON.stringify({ message: newMessage, attachments }),

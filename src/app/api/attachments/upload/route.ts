@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { authorizeRequest } from '@/services/auth-service';
 import { put } from '@vercel/blob';
 import { getProxiedBlobUrl } from '@/lib/blob-proxy';
+import sharp from 'sharp';
 
 export const dynamic = 'force-dynamic';
 
@@ -21,32 +22,30 @@ export async function POST(req: Request) {
     const isImage = contentType.startsWith('image/');
     const isVideo = contentType.startsWith('video/');
 
-    // Size limits in bytes
-    const IMAGE_LIMIT = 20 * 1024 * 1024; // 20MB
-    const VIDEO_LIMIT = 200 * 1024 * 1024; // 200MB
-    const ATTACHMENT_LIMIT = 100 * 1024 * 1024; // 100MB
+    let buffer: any = Buffer.from(await file.arrayBuffer());
+    let fileName = file.name;
 
-    if (isImage && file.size > IMAGE_LIMIT) {
-      return NextResponse.json({ error: 'Image too large (max 20MB)' }, { status: 400 });
+    if (isImage && !contentType.includes('gif')) {
+      // Compress image
+      buffer = await sharp(buffer as Buffer)
+        .resize(1920, 1920, { fit: 'inside', withoutEnlargement: true })
+        .jpeg({ quality: 80, progressive: true })
+        .toBuffer();
+      fileName = fileName.replace(/\.[^/.]+$/, '') + '.jpg';
     }
-    if (isVideo && file.size > VIDEO_LIMIT) {
-      return NextResponse.json({ error: 'Video too large (max 200MB)' }, { status: 400 });
-    }
-    if (!isImage && !isVideo && file.size > ATTACHMENT_LIMIT) {
-      return NextResponse.json({ error: 'File too large (max 100MB)' }, { status: 400 });
+
+    // Size limits in bytes
+    const LIMIT = 50 * 1024 * 1024; // 50MB global limit after compression
+
+    if (buffer.length > LIMIT) {
+      return NextResponse.json({ error: 'File too large (max 50MB)' }, { status: 400 });
     }
 
     // Upload to Vercel Blob
-    const blob = await put(file.name, file, {
+    const blob = await put(fileName, buffer, {
       access: 'public',
+      contentType: isImage && !contentType.includes('gif') ? 'image/jpeg' : contentType,
     });
-
-    // Calculate expiry for videos (5 years)
-    let expiresAt: Date | null = null;
-    if (isVideo) {
-      expiresAt = new Date();
-      expiresAt.setFullYear(expiresAt.getFullYear() + 5);
-    }
 
     const type = isImage ? 'IMAGE' : isVideo ? 'VIDEO' : 'FILE';
     const proxiedUrl = getProxiedBlobUrl(
@@ -57,9 +56,8 @@ export async function POST(req: Request) {
     return NextResponse.json({
       url: proxiedUrl,
       originalUrl: blob.url,
-      filename: file.name,
+      filename: fileName,
       type,
-      expiresAt,
     });
   } catch (error) {
     console.error('Upload error:', error);

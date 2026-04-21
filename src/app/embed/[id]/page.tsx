@@ -4,8 +4,8 @@ import { decodeBase64Url } from '@/lib/base64';
 import Player from '@/components/Player';
 import { notFound } from 'next/navigation';
 
-export default async function EmbedPage({ params }: { params: { id: string } }) {
-  const channelId = decodeBase64Url(params.id);
+export default async function EmbedPage({ params }: { params: Promise<{ id: string }> }) {
+  const channelId = decodeBase64Url((await params).id);
   const channel = await getChannelById(channelId);
 
   if (!channel) {

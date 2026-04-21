@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { use, useEffect, useState } from 'react';
 import Link from 'next/link';
 
 type Update = {
@@ -22,18 +22,19 @@ type Incident = {
   updates: Update[];
 };
 
-export default function IncidentDetailPage({ params }: { params: { id: string } }) {
+export default function IncidentDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
   const [incident, setIncident] = useState<Incident | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`/api/status/${params.id}`)
+    fetch(`/api/status/${id}`)
       .then((res) => res.json())
       .then((data) => {
         if (!data.error) setIncident(data);
       })
       .finally(() => setLoading(false));
-  }, [params.id]);
+  }, [id]);
 
   if (loading) return null;
   if (!incident)

@@ -126,11 +126,37 @@ export default function Sidebar({
 
   const languageOptions = useMemo(
     () =>
-      filterOptions.languages.map((l) => ({
-        label: getLanguageName(l),
-        value: l,
-        icon: 'language',
-      })),
+      filterOptions.languages.map((l) => {
+        const name = getLanguageName(l);
+        // Map some languages to common flags
+        const flagMap: Record<string, string> = {
+          en: 'us',
+          es: 'es',
+          fr: 'fr',
+          de: 'de',
+          it: 'it',
+          pt: 'pt',
+          ru: 'ru',
+          zh: 'cn',
+          ja: 'jp',
+          ko: 'kr',
+          ar: 'sa',
+          hi: 'in',
+          tr: 'tr',
+          nl: 'nl',
+          pl: 'pl',
+          vi: 'vn',
+          th: 'th',
+          id: 'id',
+        };
+        const flag = flagMap[l.toLowerCase()];
+        return {
+          label: name,
+          value: l,
+          image: flag ? getProxiedImageUrl(`https://flagcdn.com/w80/${flag}.png`) : undefined,
+          icon: !flag ? 'language' : undefined,
+        };
+      }),
     [filterOptions.languages],
   );
 
@@ -158,8 +184,9 @@ export default function Sidebar({
     { label: 'Sort by Name', value: 'name', icon: 'sort_by_alpha' },
     { label: 'Most Viewed', value: 'viewers', icon: 'visibility' },
     { label: 'Recommended', value: 'recommended', icon: 'auto_awesome' },
+    { label: 'Newest Added', value: 'newest', icon: 'fiber_new' },
     { label: 'Featured', value: 'featured', icon: 'grade' },
-    { label: 'Most Favorited', value: 'favorites', icon: 'favorite' },
+    { label: 'Top Rated', value: 'favorites', icon: 'star' },
     { label: 'By Subdivision', value: 'subdivision', icon: 'map' },
     { label: 'By City', value: 'city', icon: 'location_city' },
     { label: 'By Region', value: 'region', icon: 'public' },

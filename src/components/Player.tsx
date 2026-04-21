@@ -82,7 +82,9 @@ export default function Player({
   // DVR & Time
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
+  const [isLive, setIsLive] = useState(false);
   const [isLiveSynced, setIsLiveSynced] = useState(true);
+  const [isSeeking, setIsSeeking] = useState(false);
 
   const controlsTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -103,17 +105,27 @@ export default function Player({
   }, [volume, muted]);
 
   const sourceCandidates = useMemo(() => {
-    return Array.from(
-      new Set(
-        [channel?.streamUrl, ...(channel?.fallbackUrls || []), url, streamUrl]
-          .filter((value): value is string => Boolean(value && value.trim()))
-          .map((value) => value.trim()),
-      ),
-    );
-  }, [channel?.fallbackUrls, channel?.streamUrl, streamUrl, url]);
+    const list: Array<{ key: string; original: string }> = [];
+    if (channel?.id && channel.streamUrl)
+      list.push({ key: channel.id, original: channel.streamUrl });
+    if (channel?.fallbackUrls) {
+      channel.fallbackUrls.forEach((u) => {
+        if (u) list.push({ key: u, original: u });
+      });
+    }
+    if (channel?.streamUrl && !(channel?.fallbackUrls || []).includes(channel.streamUrl)) {
+      list.push({ key: channel.streamUrl, original: channel.streamUrl });
+    }
+    if (url) list.push({ key: url, original: url });
+    if (streamUrl) list.push({ key: streamUrl, original: streamUrl });
+    const deduped = Array.from(new Map(list.map((c) => [c.original, c])).values());
+    return deduped;
+  }, [channel?.id, channel?.fallbackUrls, channel?.streamUrl, streamUrl, url]);
 
   const [sourceIndex, setSourceIndex] = useState(0);
-  const activeUrl = sourceCandidates[sourceIndex] || null;
+  const activeCandidate = sourceCandidates[sourceIndex] || null;
+  const activeKey = activeCandidate?.key || null;
+  const activeOriginalUrl = activeCandidate?.original || null;
 
   useEffect(() => {
     setSourceIndex(0);
@@ -268,19 +280,27 @@ export default function Player({
       setErrorMsg('This content is GEO BLOCKED in your region.');
       return;
     }
-    if (!activeUrl) {
+    if (!activeCandidate) {
       destroyHls();
       clearLoadTimeout();
       video.src = '';
       setStatus('idle');
       return;
     }
-    loadStream(activeUrl, activeUrl);
+    loadStream(activeKey!, activeOriginalUrl!);
     return () => {
       clearLoadTimeout();
       destroyHls();
     };
-  }, [activeUrl, clearLoadTimeout, loadStream, destroyHls, channel?.isGeoBlocked]);
+  }, [
+    activeCandidate,
+    clearLoadTimeout,
+    loadStream,
+    destroyHls,
+    channel?.isGeoBlocked,
+    activeKey,
+    activeOriginalUrl,
+  ]);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -313,17 +333,25 @@ export default function Player({
     const onFullscreenChange = () => setIsFullscreen(Boolean(document.fullscreenElement));
 
     const onTimeUpdate = () => {
+      if (isSeeking) return;
       setCurrentTime(video.currentTime);
-      // DVR live sync detection
-      if (hlsRef.current && hlsRef.current.liveSyncPosition) {
-        const diff = Math.abs(hlsRef.current.liveSyncPosition - video.currentTime);
-        setIsLiveSynced(diff < 5); // Within 5 seconds is considered "live"
+      if (isLive) {
+        const livePosition = hlsRef.current?.liveSyncPosition;
+        if (livePosition) {
+          const diff = Math.abs(livePosition - video.currentTime);
+          setIsLiveSynced(diff < 5); // Within 5 seconds is considered "live"
+        } else {
+          setIsLiveSynced(true); // Fallback for non-HLS live
+        }
       } else {
-        const diff = Math.abs(video.duration - video.currentTime);
-        setIsLiveSynced(diff < 5 || isNaN(diff));
+        setIsLiveSynced(false);
       }
     };
-    const onDurationChange = () => setDuration(video.duration);
+    const onDurationChange = () => {
+      const newDuration = video.duration;
+      setDuration(newDuration);
+      setIsLive(newDuration === Infinity);
+    };
 
     video.addEventListener('playing', onPlaying);
     video.addEventListener('pause', onPause);
@@ -345,7 +373,7 @@ export default function Player({
       document.removeEventListener('fullscreenchange', onFullscreenChange);
       clearInterval(statsInterval);
     };
-  }, [clearLoadTimeout]);
+  }, [clearLoadTimeout, isLive, isSeeking]);
 
   const togglePlay = useCallback(() => {
     const video = videoRef.current;
@@ -390,26 +418,43 @@ export default function Player({
   };
 
   const syncToLive = () => {
+    const video = videoRef.current;
+    if (!video) return;
     if (hlsRef.current && hlsRef.current.liveSyncPosition) {
-      if (videoRef.current) videoRef.current.currentTime = hlsRef.current.liveSyncPosition;
-    } else if (videoRef.current && !isNaN(videoRef.current.duration)) {
-      videoRef.current.currentTime = videoRef.current.duration;
+      video.currentTime = hlsRef.current.liveSyncPosition;
+    } else if (duration !== Infinity) {
+      video.currentTime = duration;
     }
     setIsLiveSynced(true);
   };
 
-  const onSeek = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleSeek = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const time = Number(e.target.value);
     if (videoRef.current) {
-      videoRef.current.currentTime = Number(e.target.value);
+      videoRef.current.currentTime = time;
+      setCurrentTime(time);
     }
   };
 
   const formatTime = (seconds: number) => {
-    if (isNaN(seconds)) return '0:00';
+    if (isNaN(seconds) || seconds === Infinity) return '0:00';
+
+    const isNegative = seconds < 0;
+    if (isNegative) seconds = -seconds;
+
     const m = Math.floor(seconds / 60);
     const s = Math.floor(seconds % 60);
-    return `${m}:${s < 10 ? '0' : ''}${s}`;
+    const formatted = `${m}:${s < 10 ? '0' : ''}${s}`;
+
+    return isNegative ? `-${formatted}` : formatted;
   };
+
+  const displayedTime =
+    isLive && !isLiveSynced
+      ? formatTime(currentTime - (hlsRef.current?.liveSyncPosition ?? duration))
+      : formatTime(currentTime);
+
+  const displayedDuration = isLive ? 'LIVE' : formatTime(duration);
 
   useEffect(() => {
     const hideSettings = (e: MouseEvent) => {
@@ -542,7 +587,7 @@ export default function Player({
             {/* DVR Timeline */}
             {!isNaN(duration) && duration > 0 && (
               <div className="w-full flex items-center gap-3 text-[9px] sm:text-[10px] font-mono text-white font-bold px-1 group/timeline">
-                <span>{formatTime(currentTime)}</span>
+                <span>{displayedTime}</span>
                 <div className="flex-1 relative h-1 sm:h-1.5 group/track">
                   <div className="absolute inset-0 bg-white/20 rounded-full" />
                   <div
@@ -552,9 +597,11 @@ export default function Player({
                   <input
                     type="range"
                     min="0"
-                    max={duration}
+                    max={duration === Infinity ? 0 : duration}
                     value={currentTime}
-                    onChange={onSeek}
+                    onMouseDown={() => setIsSeeking(true)}
+                    onMouseUp={() => setIsSeeking(false)}
+                    onChange={handleSeek}
                     className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10"
                   />
                   <div
@@ -562,7 +609,7 @@ export default function Player({
                     style={{ left: `calc(${(currentTime / duration) * 100}% - 6px)` }}
                   />
                 </div>
-                <span>{formatTime(duration)}</span>
+                <span>{displayedDuration}</span>
               </div>
             )}
 

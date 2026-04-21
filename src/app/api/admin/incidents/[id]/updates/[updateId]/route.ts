@@ -4,7 +4,7 @@ import { authorizeRequest } from '@/services/auth-service';
 
 export async function PATCH(
   req: Request,
-  { params }: { params: { id: string; updateId: string } },
+  { params }: { params: Promise<{ id: string; updateId: string }> },
 ) {
   try {
     const auth = await authorizeRequest(req, { requireStaff: true });
@@ -20,7 +20,11 @@ export async function PATCH(
       WHERE id = $3
       RETURNING *
     `;
-    const res = await db.query(updateQuery, [message || null, status || null, params.updateId]);
+    const res = await db.query(updateQuery, [
+      message || null,
+      status || null,
+      (await params).updateId,
+    ]);
 
     return NextResponse.json(res.rows[0]);
   } catch (error: any) {
@@ -31,13 +35,13 @@ export async function PATCH(
 
 export async function DELETE(
   req: Request,
-  { params }: { params: { id: string; updateId: string } },
+  { params }: { params: Promise<{ id: string; updateId: string }> },
 ) {
   try {
     const auth = await authorizeRequest(req, { requireStaff: true });
     if (auth instanceof NextResponse) return auth;
 
-    await db.query('DELETE FROM "IncidentUpdate" WHERE id = $1', [params.updateId]);
+    await db.query('DELETE FROM "IncidentUpdate" WHERE id = $1', [(await params).updateId]);
 
     return NextResponse.json({ success: true });
   } catch (error: any) {

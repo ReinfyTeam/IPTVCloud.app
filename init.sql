@@ -56,6 +56,9 @@ CREATE INDEX IF NOT EXISTS "message_receiverid_idx" ON "Message"("receiverId");
 CREATE TABLE IF NOT EXISTS "GroupChat" (
   "id" TEXT PRIMARY KEY,
   "name" TEXT,
+  "icon" TEXT,
+  "themeColor" TEXT DEFAULT '#06b6d4',
+  "creatorId" TEXT REFERENCES "User"("id"),
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -64,6 +67,7 @@ CREATE TABLE IF NOT EXISTS "GroupChatMember" (
   "groupChatId" TEXT NOT NULL REFERENCES "GroupChat"("id") ON DELETE CASCADE,
   "userId" TEXT NOT NULL REFERENCES "User"("id") ON DELETE CASCADE,
   "isAdmin" BOOLEAN NOT NULL DEFAULT FALSE,
+  "isMuted" BOOLEAN NOT NULL DEFAULT FALSE,
   "joinedAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 CREATE INDEX IF NOT EXISTS "groupchatmember_groupchatid_idx" ON "GroupChatMember"("groupChatId");
@@ -74,9 +78,19 @@ CREATE TABLE IF NOT EXISTS "GroupChatMessage" (
   "groupChatId" TEXT NOT NULL REFERENCES "GroupChat"("id") ON DELETE CASCADE,
   "userId" TEXT NOT NULL,
   "content" TEXT NOT NULL,
+  "isPinned" BOOLEAN NOT NULL DEFAULT FALSE,
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 CREATE INDEX IF NOT EXISTS "groupchatmessage_groupchatid_idx" ON "GroupChatMessage"("groupChatId");
+
+CREATE TABLE IF NOT EXISTS "GroupInviteLink" (
+  "id" TEXT PRIMARY KEY,
+  "groupChatId" TEXT NOT NULL REFERENCES "GroupChat"("id") ON DELETE CASCADE,
+  "code" TEXT UNIQUE NOT NULL,
+  "expiresAt" TIMESTAMP,
+  "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+CREATE INDEX IF NOT EXISTS "groupinvitelink_code_idx" ON "GroupInviteLink"("code");
 
 CREATE TABLE IF NOT EXISTS "Favorite" (
   "id" TEXT PRIMARY KEY,
@@ -243,3 +257,21 @@ CREATE TABLE IF NOT EXISTS "Notification" (
   "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 CREATE INDEX IF NOT EXISTS "notification_userid_idx" ON "Notification"("userId");
+
+CREATE TABLE IF NOT EXISTS "CustomChannel" (
+  "id" TEXT PRIMARY KEY,
+  "userId" TEXT NOT NULL REFERENCES "User"("id") ON DELETE CASCADE,
+  "name" TEXT NOT NULL,
+  "streamUrl" TEXT NOT NULL,
+  "logo" TEXT,
+  "category" TEXT,
+  "country" TEXT,
+  "language" TEXT,
+  "region" TEXT,
+  "description" TEXT,
+  "isSubmitted" BOOLEAN NOT NULL DEFAULT FALSE,
+  "isApproved" BOOLEAN NOT NULL DEFAULT FALSE,
+  "createdAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  "updatedAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+CREATE INDEX IF NOT EXISTS "customchannel_userid_idx" ON "CustomChannel"("userId");

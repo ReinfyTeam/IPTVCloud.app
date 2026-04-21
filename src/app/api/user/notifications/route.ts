@@ -20,8 +20,8 @@ export async function GET(req: Request) {
       query += ' AND read = false';
     }
 
-    query += ' ORDER BY "createdAt" DESC LIMIT $' + (params.length + 1);
-    params.push(limit);
+    query += ' ORDER BY "createdAt" DESC LIMIT $' + ((await params).length + 1);
+    (await params).push(limit);
 
     const result = await db.query(query, params);
     return NextResponse.json(result.rows);

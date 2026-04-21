@@ -956,43 +956,88 @@ function UserActions({
         {user.suspendedAt ? 'SUSPENDED' : 'SUSPEND'}
       </button>
 
-      {isAdmin && (
-        <div className="relative group/actions inline-block">
-          <button className="px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest bg-white/5 text-slate-500 hover:bg-white/10">
-            MORE <span className="material-icons text-[10px] ml-1">expand_more</span>
-          </button>
-          <div
-            className={`absolute ${isMobile ? 'left-0' : 'right-0'} bottom-full sm:top-full mb-2 sm:mb-0 sm:mt-1 w-48 bg-slate-900 border border-white/10 rounded-xl shadow-2xl opacity-0 group-hover/actions:opacity-100 pointer-events-none group-hover/actions:pointer-events-auto transition-all z-50 overflow-hidden text-left`}
+      <div className="relative group/actions inline-block">
+        <button className="px-3 py-1.5 rounded-lg text-[9px] font-black uppercase tracking-widest bg-white/5 text-slate-500 hover:bg-white/10 flex items-center gap-1">
+          MORE <span className="material-icons text-[10px]">expand_more</span>
+        </button>
+        <div
+          className={`absolute ${isMobile ? 'left-0' : 'right-0'} bottom-full sm:top-full mb-2 sm:mb-0 sm:mt-1 w-56 bg-slate-900 border border-white/10 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] opacity-0 group-hover/actions:opacity-100 pointer-events-none group-hover/actions:pointer-events-auto transition-all z-[100] overflow-hidden text-left p-1 backdrop-blur-xl`}
+        >
+          <div className="px-3 py-2 text-[8px] font-black text-slate-600 uppercase tracking-widest border-b border-white/5 mb-1">
+            User Operations
+          </div>
+          <button
+            onClick={() => {
+              const un = prompt('New Username:', user.username || '');
+              if (un) onAction(user.id, 'CHANGE_USERNAME', un);
+            }}
+            className="w-full px-4 py-2.5 text-[10px] font-bold text-white hover:bg-white/5 uppercase transition-all rounded-xl flex items-center gap-3"
           >
+            <span className="material-icons text-xs text-slate-500">alternate_email</span>
+            Change Username
+          </button>
+          <button
+            onClick={() => {
+              const em = prompt('New Email:', user.email);
+              if (em) onAction(user.id, 'CHANGE_EMAIL', em);
+            }}
+            className="w-full px-4 py-2.5 text-[10px] font-bold text-white hover:bg-white/5 uppercase transition-all rounded-xl flex items-center gap-3"
+          >
+            <span className="material-icons text-xs text-slate-500">mail</span>
+            Change Email
+          </button>
+          <button
+            onClick={() => {
+              const name = prompt('New Name:', user.name || '');
+              if (name) onAction(user.id, 'CHANGE_NAME', name);
+            }}
+            className="w-full px-4 py-2.5 text-[10px] font-bold text-white hover:bg-white/5 uppercase transition-all rounded-xl flex items-center gap-3"
+          >
+            <span className="material-icons text-xs text-slate-500">person</span>
+            Change Name
+          </button>
+          <div className="h-px bg-white/5 my-1" />
+          <button
+            onClick={() => {
+              if (confirm('Force reset password? User will need to set a new one.'))
+                onAction(user.id, 'RESET_PASSWORD');
+            }}
+            className="w-full px-4 py-2.5 text-[10px] font-bold text-amber-400 hover:bg-amber-400/5 uppercase transition-all rounded-xl flex items-center gap-3"
+          >
+            <span className="material-icons text-xs">lock_reset</span>
+            Reset Password
+          </button>
+          <button
+            onClick={() => {
+              if (confirm('Disable 2FA for this user?')) onAction(user.id, 'RESET_2FA');
+            }}
+            className="w-full px-4 py-2.5 text-[10px] font-bold text-amber-400 hover:bg-amber-400/5 uppercase transition-all rounded-xl flex items-center gap-3"
+          >
+            <span className="material-icons text-xs">security_update_warning</span>
+            Remove 2FA
+          </button>
+          <Link
+            href={`/profile/${user.username || user.id}`}
+            className="w-full px-4 py-2.5 text-[10px] font-bold text-cyan-400 hover:bg-cyan-400/5 uppercase transition-all rounded-xl flex items-center gap-3"
+          >
+            <span className="material-icons text-xs">visibility</span>
+            View Profile
+          </Link>
+          <div className="h-px bg-white/5 my-1" />
+          {isAdmin && (
             <button
               onClick={() => {
-                const em = prompt('New Email:');
-                if (em) onAction(user.id, 'CHANGE_EMAIL', em);
+                if (confirm('DELETE ACCOUNT PERMANENTLY? This cannot be undone.'))
+                  onAction(user.id, 'DELETE');
               }}
-              className="w-full px-4 py-2.5 text-[9px] font-bold text-white hover:bg-white/5 uppercase transition-all"
+              className="w-full px-4 py-2.5 text-[10px] font-bold text-red-500 hover:bg-red-500/10 uppercase transition-all rounded-xl flex items-center gap-3"
             >
-              Change Email
-            </button>
-            <button
-              onClick={() => {
-                const un = prompt('New Username:');
-                if (un) onAction(user.id, 'CHANGE_USERNAME', un);
-              }}
-              className="w-full px-4 py-2.5 text-[9px] font-bold text-white hover:bg-white/5 uppercase transition-all"
-            >
-              Change Username
-            </button>
-            <button
-              onClick={() => {
-                if (confirm('Delete account permanently?')) onAction(user.id, 'DELETE');
-              }}
-              className="w-full px-4 py-2.5 text-[9px] font-bold text-red-500 hover:bg-red-500/10 uppercase transition-all"
-            >
+              <span className="material-icons text-xs">delete_forever</span>
               Delete Account
             </button>
-          </div>
+          )}
         </div>
-      )}
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState, useRef, useCallback } from 'react';
+import React, { use, useEffect, useState, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useAuthStore } from '@/store/auth-store';
@@ -12,19 +12,22 @@ type Message = {
   id: string;
   content: string;
   userId: string;
+  isPinned: boolean;
   createdAt: string;
 };
 
 type GroupInfo = {
   id: string;
   name: string | null;
+  themeColor: string;
   members: {
     isAdmin: boolean;
     user: { id: string; username: string | null; profileIconUrl: string | null };
   }[];
 };
 
-export default function GroupChatDetailPage({ params }: { params: { id: string } }) {
+export default function GroupChatDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
   const { token, user: currentUser } = useAuthStore();
   const [messages, setMessages] = useState<Message[]>([]);
   const [group, setGroup] = useState<GroupInfo | null>(null);
@@ -35,7 +38,7 @@ export default function GroupChatDetailPage({ params }: { params: { id: string }
 
   const fetchMessages = useCallback(async () => {
     try {
-      const res = await fetch(`/api/user/groupchats/${params.id}/messages`, {
+      const res = await fetch(`/api/user/groupchats/${id}/messages`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       if (res.ok) {
@@ -46,20 +49,19 @@ export default function GroupChatDetailPage({ params }: { params: { id: string }
     } finally {
       setLoading(false);
     }
-  }, [params.id, token]);
+  }, [id, token]);
 
   const fetchGroup = useCallback(async () => {
     try {
-      const res = await fetch(`/api/user/groupchats`, {
+      const res = await fetch(`/api/user/groupchats/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       if (res.ok) {
         const data = await res.json();
-        const g = data.find((x: any) => x.id === params.id);
-        if (g) setGroup(g);
+        setGroup(data.group);
       }
     } catch {}
-  }, [params.id, token]);
+  }, [id, token]);
 
   useEffect(() => {
     if (token) {
@@ -81,7 +83,7 @@ export default function GroupChatDetailPage({ params }: { params: { id: string }
     if (!newMessage || sending) return;
     setSending(true);
     try {
-      const res = await fetch(`/api/user/groupchats/${params.id}/messages`, {
+      const res = await fetch(`/api/user/groupchats/${id}/messages`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -103,7 +105,7 @@ export default function GroupChatDetailPage({ params }: { params: { id: string }
   const kickUser = async (targetUserId: string) => {
     if (!confirm('Kick user from group?')) return;
     try {
-      await fetch(`/api/user/groupchats/${params.id}`, {
+      await fetch(`/api/user/groupchats/${id}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
         body: JSON.stringify({ action: 'kick', targetUserId }),
@@ -130,9 +132,15 @@ export default function GroupChatDetailPage({ params }: { params: { id: string }
   const amAdmin = group?.members.find((m) => m.user.id === currentUser?.id)?.isAdmin;
 
   return (
-    <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 bg-slate-950 flex flex-col">
+    <div
+      className="min-h-screen pt-24 pb-20 px-4 sm:px-6 bg-slate-950 flex flex-col"
+      style={{ ['--group-theme' as any]: group?.themeColor || '#06b6d4' }}
+    >
       <div className="mx-auto w-full max-w-4xl flex-1 flex flex-col space-y-4 sm:space-y-6 animate-fade-in transform-gpu">
-        <div className="flex items-center gap-4 sm:gap-6 p-4 sm:p-6 rounded-[24px] sm:rounded-[32px] bg-white/[0.02] border border-white/5 relative overflow-hidden backdrop-blur-xl shrink-0">
+        <div
+          className="flex items-center gap-4 sm:gap-6 p-4 sm:p-6 rounded-[24px] sm:rounded-[32px] bg-white/[0.02] border border-white/5 relative overflow-hidden backdrop-blur-xl shrink-0"
+          style={{ borderLeftColor: 'var(--group-theme)', borderLeftWidth: '4px' }}
+        >
           <Link
             href="/account/messages"
             className="h-8 w-8 sm:h-10 sm:w-10 rounded-lg sm:rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white transition-all shrink-0"
@@ -149,26 +157,48 @@ export default function GroupChatDetailPage({ params }: { params: { id: string }
             </p>
           </div>
 
-          <div className="flex -space-x-2 shrink-0">
-            {group?.members.slice(0, 3).map((m, i) => (
-              <div
-                key={i}
-                className="h-6 w-6 sm:h-8 sm:w-8 rounded-full border-2 border-slate-950 bg-slate-800 flex items-center justify-center text-[8px] sm:text-[10px] text-white font-black overflow-hidden relative shadow-lg"
-              >
-                {m.user.profileIconUrl ? (
-                  <Image
-                    src={getProxiedImageUrl(m.user.profileIconUrl)}
-                    alt=""
-                    fill
-                    className="object-cover"
-                  />
-                ) : (
-                  m.user.username?.[0]
-                )}
-              </div>
-            ))}
+          <div className="flex items-center gap-4">
+            <div className="flex -space-x-2 shrink-0 hidden sm:flex">
+              {group?.members.slice(0, 3).map((m, i) => (
+                <div
+                  key={i}
+                  className="h-6 w-6 sm:h-8 sm:w-8 rounded-full border-2 border-slate-950 bg-slate-800 flex items-center justify-center text-[8px] sm:text-[10px] text-white font-black overflow-hidden relative shadow-lg"
+                >
+                  {m.user.profileIconUrl ? (
+                    <Image
+                      src={getProxiedImageUrl(m.user.profileIconUrl)}
+                      alt=""
+                      fill
+                      className="object-cover"
+                    />
+                  ) : (
+                    m.user.username?.[0]
+                  )}
+                </div>
+              ))}
+            </div>
+
+            <Link
+              href={`/account/messages/group/${id}/info`}
+              className="h-8 w-8 sm:h-10 sm:w-10 rounded-lg sm:rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white transition-all shrink-0"
+              title="Group Info & Settings"
+            >
+              <span className="material-icons text-lg sm:text-xl">info</span>
+            </Link>
           </div>
         </div>
+
+        {/* Pinned Messages Area */}
+        {messages.some((m) => m.isPinned) && (
+          <div className="px-4 py-3 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center gap-3">
+            <span className="material-icons text-cyan-400 text-sm">push_pin</span>
+            <div className="flex-1 min-w-0">
+              <p className="text-[10px] font-bold text-cyan-300 truncate">
+                {messages.find((m) => m.isPinned)?.content}
+              </p>
+            </div>
+          </div>
+        )}
 
         <div
           ref={scrollRef}
@@ -185,12 +215,18 @@ export default function GroupChatDetailPage({ params }: { params: { id: string }
                   </span>
                 )}
                 <div
-                  className={`max-w-[85%] sm:max-w-[80%] px-4 sm:px-6 py-3 sm:py-4 rounded-[20px] sm:rounded-[24px] text-xs sm:text-sm font-medium leading-relaxed ${
+                  className={`max-w-[85%] sm:max-w-[80%] px-4 sm:px-6 py-3 sm:py-4 rounded-[20px] sm:rounded-[24px] text-xs sm:text-sm font-medium leading-relaxed relative ${
                     isMe
                       ? 'bg-cyan-500 text-slate-950 rounded-br-none shadow-lg shadow-cyan-900/10'
                       : 'bg-white/[0.05] text-white border border-white/[0.08] rounded-bl-none'
                   }`}
+                  style={isMe ? { backgroundColor: 'var(--group-theme)' } : {}}
                 >
+                  {m.isPinned && (
+                    <span className="absolute -top-2 -right-2 h-5 w-5 bg-cyan-500 text-slate-950 rounded-full flex items-center justify-center border-2 border-slate-950 scale-75 shadow-lg">
+                      <span className="material-icons text-[10px]">push_pin</span>
+                    </span>
+                  )}
                   <ReactMarkdown
                     allowedElements={['strong', 'em', 'p', 'span', 'br', 'ul', 'ol', 'li']}
                     unwrapDisallowed
@@ -255,33 +291,12 @@ export default function GroupChatDetailPage({ params }: { params: { id: string }
               type="submit"
               disabled={sending || !newMessage}
               className="px-6 sm:px-8 py-4 sm:py-5 rounded-2xl sm:rounded-[24px] bg-cyan-500 text-slate-950 font-black text-[9px] sm:text-[10px] uppercase tracking-widest hover:bg-cyan-400 active:scale-95 transition-all shadow-lg shadow-cyan-900/20 shrink-0"
+              style={{ backgroundColor: 'var(--group-theme)' }}
             >
               Send
             </button>
           </form>
         </div>
-
-        {amAdmin && (
-          <div className="p-4 sm:p-6 rounded-[24px] sm:rounded-[32px] bg-white/[0.02] border border-white/5">
-            <h3 className="text-[9px] sm:text-[10px] font-black text-slate-500 uppercase tracking-widest mb-3 sm:mb-4">
-              Group Admin Controls
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              {group?.members.map(
-                (m) =>
-                  !m.isAdmin && (
-                    <button
-                      key={m.user.id}
-                      onClick={() => kickUser(m.user.id)}
-                      className="px-3 py-1.5 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-[8px] sm:text-[9px] font-black uppercase tracking-widest hover:bg-red-500 hover:text-white transition-all"
-                    >
-                      Kick @{m.user.username}
-                    </button>
-                  ),
-              )}
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );

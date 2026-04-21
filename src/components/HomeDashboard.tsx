@@ -110,12 +110,12 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
               </span>
             </h1>
 
-            <p className="text-base sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-medium animate-fade-up-delayed opacity-80 pb-6 sm:pb-10">
+            <p className="text-base sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-medium animate-fade-up-delayed opacity-80">
               Access {allChannels.length.toLocaleString()} premium channels with zero
               advertisements. Experience the most advanced IPTV platform ever built.
             </p>
 
-            <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 pt-4 animate-fade-up-delayed pb-10 sm:pb-20">
+            <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 animate-fade-up-delayed !mt-8 sm:!mt-12">
               <Link
                 href="/account/signup"
                 className="rounded-2xl sm:rounded-[24px] bg-cyan-500 px-10 py-4 sm:py-3 text-sm font-black text-slate-950 hover:bg-cyan-400 hover:scale-105 transition-all shadow-[0_0_40px_rgba(6,182,212,0.3)] active:scale-95 uppercase tracking-widest"
@@ -124,13 +124,13 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
               </Link>
               <Link
                 href="/search"
-                className="rounded-2xl sm:rounded-[24px] border border-white/20 bg-white/5 backdrop-blur-xl px-10 py-4 sm:py-3 text-sm font-black text-white hover:bg-white/10 hover:scale-105 transition-all active:scale-95 uppercase tracking-widest"
+                className="rounded-2xl sm:rounded-[24px] border border-white/10 bg-white/5 backdrop-blur-xl px-10 py-4 sm:py-3 text-sm font-black text-white hover:bg-white/10 hover:scale-105 transition-all active:scale-95 uppercase tracking-widest"
               >
                 Browse Library
               </Link>
             </div>
           </div>
-        </div>
+        </div><br><br>
 
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce flex flex-col items-center gap-2 opacity-40">
           <span className="text-[10px] font-black uppercase tracking-[0.4em] text-white">
@@ -287,7 +287,7 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
                 </Link>
                 <Link
                   href="/support"
-                  className="rounded-[24px] bg-black/20 border border-white/20 backdrop-blur-xl px-14 py-6 text-sm font-black text-white hover:bg-white/10 transition-all active:scale-95 uppercase tracking-widest"
+                  className="rounded-[24px] bg-black/20 border border-white/10 backdrop-blur-xl px-14 py-6 text-sm font-black text-white hover:bg-white/10 transition-all active:scale-95 uppercase tracking-widest"
                 >
                   Contact Support
                 </Link>
@@ -306,11 +306,27 @@ function UserHome({ allChannels, user }: { allChannels: Channel[]; user: any }) 
   const { history } = useHistoryStore();
 
   const categories = useMemo(
-    () => [...new Set(allChannels.map((c) => c.category))].sort(),
+    () => [...new Set(allChannels.map((c) => c.category).filter(Boolean))].sort(),
     [allChannels],
   );
   const countries = useMemo(
-    () => [...new Set(allChannels.map((c) => c.country))].sort(),
+    () => [...new Set(allChannels.map((c) => c.country).filter(Boolean))].sort(),
+    [allChannels],
+  );
+  const timezones = useMemo(
+    () => [...new Set(allChannels.map((c) => c.timezone).filter(Boolean))].sort(),
+    [allChannels],
+  );
+  const regions = useMemo(
+    () => [...new Set(allChannels.map((c) => c.region).filter(Boolean))].sort(),
+    [allChannels],
+  );
+  const subdivisions = useMemo(
+    () => [...new Set(allChannels.map((c) => c.subdivision).filter(Boolean))].sort(),
+    [allChannels],
+  );
+  const cities = useMemo(
+    () => [...new Set(allChannels.map((c) => c.city).filter(Boolean))].sort(),
     [allChannels],
   );
 

@@ -75,7 +75,7 @@ export default function UserHoverCard({
       </Link>
 
       {visible && (
-        <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-72 p-6 rounded-[32px] bg-slate-900/95 backdrop-blur-2xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] z-[100] animate-fade-in-up pointer-events-auto">
+        <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-4 w-72 p-6 rounded-[32px] bg-slate-900/95 backdrop-blur-2xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] z-[9999] animate-fade-in-up pointer-events-auto">
           {loading && !user ? (
             <div className="flex justify-center py-4">
               <div className="h-6 w-6 rounded-full border-2 border-white/10 border-t-cyan-500 animate-spin" />

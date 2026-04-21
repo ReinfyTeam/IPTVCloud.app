@@ -5,9 +5,9 @@ import { decodeBase64Url } from '@/lib/base64';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET(req: Request, { params }: { params: { id: string } }) {
+export async function GET(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const channelId = decodeBase64Url(params.id);
+    const channelId = decodeBase64Url((await params).id);
     const channel = await getChannelById(channelId);
 
     if (!channel || !channel.epgId) {

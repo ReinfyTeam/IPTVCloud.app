@@ -41,7 +41,7 @@ export async function GET(req: Request) {
 
 export async function POST(req: Request) {
   try {
-    const auth = await authorizeRequest(req);
+    const auth = await authorizeRequest(req, { requireNotMuted: true });
     if (auth instanceof NextResponse) return auth;
 
     const { title, content, attachments } = await req.json();

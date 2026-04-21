@@ -10,10 +10,12 @@
     "dev": "next dev -p 8080 -H 0.0.0.0",
     "build": "npm run format && npm run type-check && npm run lint && next build",
     "start": "next start -p 8080 -H 0.0.0.0",
-    "lint": "next lint --fix",
+    "lint": "eslint . --ignore-pattern next-env.d.ts",
     "format": "prettier --write .",
     "test": "vitest",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "db:verify": "npx ts-node tools/scripts/verify-db.ts",
+    "db:update": "npx ts-node tools/scripts/update-schema.ts"
   },
   "dependencies": {
     "@upstash/redis": "^1.37.0",
@@ -22,7 +24,7 @@
     "bcryptjs": "^2.4.3",
     "hls.js": "^1.4.0",
     "jsonwebtoken": "^9.0.0",
-    "next": "13.4.8",
+    "next": "^16.2.4",
     "otplib": "^13.4.0",
     "pg": "^8.20.0",
     "qrcode": "^1.5.4",
@@ -32,7 +34,7 @@
     "recharts": "^3.8.1",
     "sharp": "^0.34.5",
     "undici": "^8.1.0",
-    "xml2js": "^0.4.23",
+    "xml2js": "^0.6.2",
     "zustand": "^4.1.5"
   },
   "devDependencies": {
@@ -52,6 +54,6 @@
     "prettier": "^3.8.3",
     "tailwindcss": "^4.2.2",
     "typescript": "^5.2.2",
-    "vitest": "^1.4.0"
+    "vitest": "^4.1.4"
   }
 }

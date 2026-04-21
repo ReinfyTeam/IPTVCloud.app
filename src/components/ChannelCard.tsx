@@ -46,7 +46,8 @@ export default function ChannelCard({
     if (channel.isOffline === undefined && !offline) {
       const check = async () => {
         try {
-          const res = await fetch(channel.streamUrl, {
+          const proxy = await buildStreamProxyUrl(channel.id);
+          const res = await fetch(proxy, {
             method: 'HEAD',
             signal: AbortSignal.timeout(3000),
           });
@@ -57,7 +58,7 @@ export default function ChannelCard({
       };
       void check();
     }
-  }, [channel.streamUrl, channel.isOffline, offline]);
+  }, [channel.id, channel.isOffline, offline]);
 
   const isInternational =
     !channel.country || channel.country === 'INTERNATIONAL' || channel.country === 'UNKNOWN';
@@ -89,7 +90,7 @@ export default function ChannelCard({
 
       const initHls = async () => {
         try {
-          const proxiedSrc = await buildStreamProxyUrl(channel.streamUrl);
+          const proxiedSrc = await buildStreamProxyUrl(channel.id);
           if (video.canPlayType('application/vnd.apple.mpegurl')) {
             video.src = proxiedSrc;
             video.muted = muted;
@@ -127,7 +128,7 @@ export default function ChannelCard({
       }
       setIsLoading(false);
     }
-  }, [showPreview, channel.streamUrl, channel.isGeoBlocked, muted]);
+  }, [showPreview, channel.id, channel.isGeoBlocked, muted]);
 
   const formatTime = (seconds: number) => {
     const mins = Math.floor(seconds / 60);
@@ -320,7 +321,7 @@ export default function ChannelCard({
             height={180}
             loading="lazy"
             onError={() => setImgError(true)}
-            className="h-full w-full object-contain p-6 transition-transform duration-[800ms] group-hover:scale-110"
+            className="h-full w-full object-contain p-6 transition-transform duration-500 group-hover:scale-110"
           />
         ) : (
           <div className="flex h-full w-full items-center justify-center text-slate-800">
@@ -383,6 +384,13 @@ export default function ChannelCard({
             <span className="text-[9px] font-bold text-slate-500 uppercase tracking-widest">
               {getCountryName(channel.country || 'International')}
             </span>
+            <span className="h-1 w-1 rounded-full bg-slate-700" />
+            <div className="flex items-center gap-1.5 bg-white/5 px-2 py-0.5 rounded-md border border-white/5">
+              <span className="material-icons text-[10px] text-slate-400">language</span>
+              <span className="text-[9px] font-black text-slate-300 uppercase tracking-tight">
+                {getLanguageName(channel.language || 'English')}
+              </span>
+            </div>
             <span className="h-1 w-1 rounded-full bg-slate-700" />
             <span className="text-[9px] font-black text-cyan-500/60 uppercase tracking-tighter">
               {channel.viewersCount?.toLocaleString()} VIEWERS

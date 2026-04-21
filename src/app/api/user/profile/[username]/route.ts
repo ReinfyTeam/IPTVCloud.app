@@ -3,11 +3,11 @@ import db from '@/lib/db';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET(req: Request, { params }: { params: { username: string } }) {
+export async function GET(req: Request, { params }: { params: Promise<{ username: string }> }) {
   try {
     const userResult = await db.query(
       'SELECT id, username, name, role, "isVerified", "createdAt" FROM "User" WHERE LOWER(username) = $1',
-      [params.username.toLowerCase()],
+      [(await params).username.toLowerCase()],
     );
     const user = userResult.rows[0];
 

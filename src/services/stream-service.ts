@@ -1,30 +1,14 @@
-const STREAM_PROXY_BASE = '/api/stream';
+import { encodeBase64Url } from '@/lib/base64';
+
+const STREAM_PROXY_BASE = '/api/streams';
 
 export function isHttpUrl(value: string) {
   return /^https?:\/\//i.test(value);
 }
 
-function encodeBase64Url(str: string) {
-  if (typeof window !== 'undefined') {
-    return btoa(
-      encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function (match, p1) {
-        return String.fromCharCode(parseInt(p1, 16));
-      }),
-    )
-      .replace(/\+/g, '-')
-      .replace(/\//g, '_')
-      .replace(/=+$/, '');
-  }
-  return Buffer.from(str)
-    .toString('base64')
-    .replace(/\+/g, '-')
-    .replace(/\//g, '_')
-    .replace(/=+$/, '');
-}
-
 export async function buildStreamProxyUrl(value: string) {
   const key = encodeBase64Url(value);
-  return `${STREAM_PROXY_BASE}?k=${key}`;
+  return `${STREAM_PROXY_BASE}/${key}`;
 }
 
 export function absolutizeUrl(value: string, baseUrl: string) {
