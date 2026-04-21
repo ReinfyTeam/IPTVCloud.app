@@ -6,17 +6,12 @@ on:
       - epg
   workflow_dispatch:
   schedule:
-    # Runs every day at 12:00 UTC
     - cron: '0 0 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    # Allow:
-    # - workflow_dispatch always
-    # - schedule always
-    # - push only when commit message contains [update epg]
     if: |
       github.event_name == 'workflow_dispatch' ||
       github.event_name == 'schedule' ||
@@ -42,7 +37,7 @@ jobs:
         with:
           python-version: '3.x'
           check-latest: true
-      
+
       - name: Setup Dev Proxy
         id: setup-devproxy
         uses: dev-proxy-tools/actions/setup@v1
@@ -50,6 +45,8 @@ jobs:
           version: v1.0.0
 
       - name: Start EPG
+        env:
+          PROXY_URL: ${{ steps.setup-devproxy.outputs.proxy-url }}
         run: |
           chmod +x ./start.sh
           ./start.sh
