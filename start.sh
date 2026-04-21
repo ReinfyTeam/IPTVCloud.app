@@ -102,8 +102,8 @@ for SITE_NAME in "${SITES[@]}"; do
       --sites="$SITE_NAME" \
       --output="$OUTPUT_FILE" \
       --delay=2000 \
-      --maxConnections=10 \
-      > "$LOG_FILE" 2>&1
+      --timeout 1000 \
+      --maxConnections 10 > "$OUTPUT_DIR\${SITE_NAME}.log" 2>&1
   then
       if [[ -s "$OUTPUT_FILE" ]]; then
           BYTES=$(wc -c < "$OUTPUT_FILE")
