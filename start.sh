@@ -3,11 +3,15 @@ set -euo pipefail
 
 # ── Config ────────────────────────────────────────────────────────────────────
 REPO_URL="https://github.com/iptv-org/epg"
+
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 WORK_DIR="$BASE_DIR/epg"
 OUTPUT_DIR="$BASE_DIR/sites"
+LOG_DIR="$OUTPUT_DIR/logs"
+
 GENERATE_SCRIPT="$BASE_DIR/content.py"
 CONTENT_JSON="$OUTPUT_DIR/content.json"
+SITES_MD="$WORK_DIR/SITES.md"
 
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -30,7 +34,7 @@ cleanup() {
 trap cleanup EXIT
 
 # ── Dependencies ──────────────────────────────────────────────────────────────
-for cmd in git npm find python3; do
+for cmd in git npm find python3 grep awk sort wc; do
   command -v "$cmd" >/dev/null 2>&1 || {
     err "Missing command: $cmd"
     exit 1
@@ -40,6 +44,7 @@ done
 # ── Prepare ───────────────────────────────────────────────────────────────────
 rm -rf "$WORK_DIR"
 mkdir -p "$OUTPUT_DIR"
+mkdir -p "$LOG_DIR"
 
 log "Cloning iptv-org/epg..."
 git clone --depth 1 "$REPO_URL" "$WORK_DIR"
@@ -49,33 +54,56 @@ cd "$WORK_DIR"
 log "Installing npm dependencies..."
 npm install --silent --prefer-offline
 
-# ── Detect all sites ──────────────────────────────────────────────────────────
-log "Scanning sites/ directory..."
+# ── Read online sites from cloned SITES.md (HTML table format) ───────────────
+log "Reading online site providers from SITES.md..."
 
-mapfile -t SITES < <(
-  find "$WORK_DIR/sites" -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort
+mapfile -t ONLINE_SITES < <(
+  grep '🟢' "$SITES_MD" |
+  sed -n 's#.*href="sites/\([^"]*\)".*🟢.*#\1#p' |
+  sort -u
 )
 
-if [[ ${#SITES[@]} -eq 0 ]]; then
-  err "No site folders detected."
+if [[ ${#ONLINE_SITES[@]} -eq 0 ]]; then
+  err "No online sites found in SITES.md"
   exit 1
 fi
 
-log "Found ${#SITES[@]} site(s)"
+log "Found ${#ONLINE_SITES[@]} online site(s)"
+
+# ── Keep only valid folders ───────────────────────────────────────────────────
+SITES=()
+
+for SITE_NAME in "${ONLINE_SITES[@]}"; do
+  if [[ -d "$WORK_DIR/sites/$SITE_NAME" ]]; then
+    SITES+=("$SITE_NAME")
+  else
+    warn "Missing local folder for site: $SITE_NAME"
+  fi
+done
+
+if [[ ${#SITES[@]} -eq 0 ]]; then
+  err "No matching site folders found."
+  exit 1
+fi
+
+log "Matched ${#SITES[@]} valid site folder(s)"
 
 PASS=0
 FAIL=0
 
-# ── Grab each detected site ───────────────────────────────────────────────────
+# ── Grab each online site ─────────────────────────────────────────────────────
 for SITE_NAME in "${SITES[@]}"; do
   site "$SITE_NAME"
 
   OUTPUT_FILE="$OUTPUT_DIR/${SITE_NAME}.xml"
-  
+  LOG_FILE="$LOG_DIR/${SITE_NAME}.log"
+
   if npm run grab -- \
       --sites="$SITE_NAME" \
       --output="$OUTPUT_FILE" \
-      --maxConnections 20 > "$OUTPUT_DIR\${SITE_NAME}.log" 2>&1
+      --delay=2000 \
+      --maxConnections=10 \
+      > "$LOG_FILE" 2>&1
   then
       if [[ -s "$OUTPUT_FILE" ]]; then
           BYTES=$(wc -c < "$OUTPUT_FILE")
@@ -104,6 +132,7 @@ echo ""
 echo "══════════════════════════════════════"
 printf "Passed : %d\n" "$PASS"
 printf "Failed : %d\n" "$FAIL"
+printf "Online : %d\n" "${#SITES[@]}"
 echo "Output : $OUTPUT_DIR"
 echo "JSON   : $CONTENT_JSON"
 echo "══════════════════════════════════════"
