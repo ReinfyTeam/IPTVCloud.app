@@ -101,8 +101,8 @@ for SITE_NAME in "${SITES[@]}"; do
   if npm run grab -- \
       --sites="$SITE_NAME" \
       --output="$OUTPUT_FILE" \
-      --delay=0 \
-      --timeout=0 \
+      --delay=1000 \
+      --timeout=1000 \
       --proxy="${{ steps.setup-devproxy.outputs.proxy-url }}" \
       --maxConnections 10 > "$OUTPUT_DIR\${SITE_NAME}.log" 2>&1
   then
