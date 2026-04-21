@@ -3,7 +3,7 @@ import db from '@/lib/db';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET(req: Request, { params }: { params: { id: string } }) {
+export async function GET(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const incidentResult = await db.query(
       `SELECT i.*, 
@@ -13,7 +13,7 @@ export async function GET(req: Request, { params }: { params: { id: string } }) 
               ) as updates
        FROM "Incident" i
        WHERE i."id" = $1`,
-      [params.id],
+      [(await params).id],
     );
 
     const incident = incidentResult.rows[0];

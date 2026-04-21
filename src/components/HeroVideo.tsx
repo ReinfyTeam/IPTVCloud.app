@@ -27,7 +27,7 @@ export default function HeroVideo({ streamUrl, channelId, poster }: Props) {
 
     const initStream = async () => {
       try {
-        const proxiedSrc = await buildStreamProxyUrl(streamUrl);
+        const proxiedSrc = await buildStreamProxyUrl(channelId || streamUrl);
         if (!active) return;
 
         if (video.canPlayType('application/vnd.apple.mpegurl')) {
@@ -63,7 +63,7 @@ export default function HeroVideo({ streamUrl, channelId, poster }: Props) {
         hlsRef.current = null;
       }
     };
-  }, [streamUrl]);
+  }, [streamUrl, channelId]);
 
   return (
     <div
@@ -73,7 +73,7 @@ export default function HeroVideo({ streamUrl, channelId, poster }: Props) {
       {!hasError && (
         <video
           ref={videoRef}
-          className="absolute inset-0 h-full w-full object-cover opacity-60 mix-blend-screen scale-105 group-hover:scale-100 transition-transform duration-[10s] ease-out"
+          className="absolute inset-0 h-full w-full object-cover opacity-60 mix-blend-screen scale-105 group-hover:scale-100 transition-transform duration-500 ease-out"
           muted
           autoPlay
           loop

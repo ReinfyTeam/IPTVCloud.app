@@ -4,7 +4,7 @@ import { authorizeRequest } from '@/services/auth-service';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET(req: Request, { params }: { params: { id: string } }) {
+export async function GET(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const auth = await authorizeRequest(req);
     if (auth instanceof NextResponse) return auth;
@@ -19,7 +19,7 @@ export async function GET(req: Request, { params }: { params: { id: string } }) 
        FROM "Ticket" t
        JOIN "User" u ON t."userId" = u."id"
        WHERE t."id" = $1`,
-      [params.id],
+      [(await params).id],
     );
 
     const ticket = ticketResult.rows[0];

@@ -3,9 +3,9 @@ import { decodeProxiedBlobUrl } from '@/lib/blob-proxy';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET(_: Request, { params }: { params: { id: string } }) {
+export async function GET(_: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const targetUrl = decodeProxiedBlobUrl(params.id);
+    const targetUrl = decodeProxiedBlobUrl((await params).id);
     if (!targetUrl) return new Response('Invalid ID', { status: 400 });
 
     const res = await fetch(targetUrl);

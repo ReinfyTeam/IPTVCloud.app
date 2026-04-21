@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { use, useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useAuthStore } from '@/store/auth-store';
 import { useRouter } from 'next/navigation';
@@ -15,7 +15,8 @@ type Notification = {
   createdAt: string;
 };
 
-export default function NotificationDetailPage({ params }: { params: { id: string } }) {
+export default function NotificationDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
   const { token } = useAuthStore();
   const router = useRouter();
   const [notification, setNotification] = useState<Notification | null>(null);
@@ -29,14 +30,14 @@ export default function NotificationDetailPage({ params }: { params: { id: strin
         .then((res) => res.json())
         .then((data) => {
           if (Array.isArray(data)) {
-            const n = data.find((x) => x.id === params.id);
+            const n = data.find((x) => x.id === id);
             if (n) {
               setNotification(n);
               // Mark as read
               fetch('/api/user/notifications', {
                 method: 'PATCH',
                 headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-                body: JSON.stringify({ notificationId: params.id }),
+                body: JSON.stringify({ notificationId: id }),
               });
             }
           }
@@ -44,7 +45,7 @@ export default function NotificationDetailPage({ params }: { params: { id: strin
         })
         .catch(() => setLoading(false));
     }
-  }, [token, params.id]);
+  }, [token, id]);
 
   if (loading) return null;
   if (!notification)

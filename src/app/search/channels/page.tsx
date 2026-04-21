@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { use } from 'react';
 import type { Metadata } from 'next';
 import ChannelBrowser from '@/components/ChannelBrowser';
 import { getChannels } from '@/services/channel-service';

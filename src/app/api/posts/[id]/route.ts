@@ -4,7 +4,7 @@ import { authorizeRequest } from '@/services/auth-service';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET(req: Request, { params }: { params: { id: string } }) {
+export async function GET(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const postResult = await db.query(
       `SELECT p.*, 
@@ -18,7 +18,7 @@ export async function GET(req: Request, { params }: { params: { id: string } }) 
        FROM "Post" p
        JOIN "User" u ON p."userId" = u."id"
        WHERE p."id" = $1`,
-      [params.id],
+      [(await params).id],
     );
 
     const post = postResult.rows[0];
@@ -38,12 +38,14 @@ export async function GET(req: Request, { params }: { params: { id: string } }) 
   }
 }
 
-export async function DELETE(req: Request, { params }: { params: { id: string } }) {
+export async function DELETE(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const auth = await authorizeRequest(req);
     if (auth instanceof NextResponse) return auth;
 
-    const postResult = await db.query('SELECT "userId" FROM "Post" WHERE "id" = $1', [params.id]);
+    const postResult = await db.query('SELECT "userId" FROM "Post" WHERE "id" = $1', [
+      (await params).id,
+    ]);
     const post = postResult.rows[0];
     if (!post) return NextResponse.json({ error: 'Not found' }, { status: 404 });
 
@@ -51,19 +53,21 @@ export async function DELETE(req: Request, { params }: { params: { id: string } 
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
     }
 
-    await db.query('DELETE FROM "Post" WHERE "id" = $1', [params.id]);
+    await db.query('DELETE FROM "Post" WHERE "id" = $1', [(await params).id]);
     return NextResponse.json({ success: true });
   } catch (error) {
     return NextResponse.json({ error: 'Failed' }, { status: 500 });
   }
 }
 
-export async function PATCH(req: Request, { params }: { params: { id: string } }) {
+export async function PATCH(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const auth = await authorizeRequest(req);
     if (auth instanceof NextResponse) return auth;
 
-    const postResult = await db.query('SELECT "userId" FROM "Post" WHERE "id" = $1', [params.id]);
+    const postResult = await db.query('SELECT "userId" FROM "Post" WHERE "id" = $1', [
+      (await params).id,
+    ]);
     const post = postResult.rows[0];
     if (!post) return NextResponse.json({ error: 'Not found' }, { status: 404 });
 
@@ -79,7 +83,7 @@ export async function PATCH(req: Request, { params }: { params: { id: string } }
            "content" = COALESCE($2, "content"),
            "updatedAt" = NOW()
        WHERE "id" = $3 RETURNING *`,
-      [title || null, content || null, params.id],
+      [title || null, content || null, (await params).id],
     );
 
     return NextResponse.json(updatedResult.rows[0]);

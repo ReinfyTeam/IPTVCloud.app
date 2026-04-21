@@ -254,11 +254,11 @@ export default function SettingsPage() {
           <div className="space-y-8">
             <div>
               <div className="flex items-center justify-between mb-4 px-1">
-                <label className="block text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-widest">
-                  Theme Accent Color
+                <label className="block text-[10px] sm:text-[11px] font-bold text-foreground-muted uppercase tracking-widest">
+                  Theme Color
                 </label>
                 <div className="flex items-center gap-2">
-                  <span className="text-[9px] sm:text-[10px] font-black text-slate-500 uppercase tracking-widest">
+                  <span className="text-[9px] sm:text-[10px] font-black text-foreground-muted uppercase tracking-widest">
                     Custom
                   </span>
                   <input
@@ -276,8 +276,8 @@ export default function SettingsPage() {
                     onClick={() => updateAndSync('accentColor', c.id)}
                     className={`group flex flex-col items-center gap-2 sm:gap-3 p-3 sm:p-4 rounded-2xl sm:rounded-3xl border transition-all active:scale-95 ${
                       settings.accentColor === c.id
-                        ? 'border-white bg-white/[0.08] shadow-lg shadow-black/20'
-                        : 'border-white/[0.05] bg-white/[0.02] hover:border-white/20'
+                        ? 'border-accent bg-accent/10 shadow-lg shadow-black/5'
+                        : 'border-border bg-background-elevated/20 hover:border-accent/30'
                     }`}
                   >
                     <span
@@ -287,8 +287,8 @@ export default function SettingsPage() {
                     <span
                       className={`text-[9px] sm:text-[10px] font-black uppercase tracking-widest ${
                         settings.accentColor === c.id
-                          ? 'text-white'
-                          : 'text-slate-500 group-hover:text-slate-300'
+                          ? 'text-accent'
+                          : 'text-foreground-muted group-hover:text-foreground'
                       }`}
                     >
                       {c.label}
@@ -329,10 +329,10 @@ export default function SettingsPage() {
             />
             <div>
               <div className="flex justify-between items-center mb-4 px-1">
-                <label className="block text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-widest">
+                <label className="block text-[10px] sm:text-[11px] font-bold text-foreground-muted uppercase tracking-widest">
                   Default Volume
                 </label>
-                <span className="text-xs font-black text-cyan-400">
+                <span className="text-xs font-black text-accent">
                   {Math.round(settings.defaultVolume * 100)}%
                 </span>
               </div>
@@ -343,7 +343,7 @@ export default function SettingsPage() {
                 step="0.1"
                 value={settings.defaultVolume}
                 onChange={(e) => updateAndSync('defaultVolume', parseFloat(e.target.value))}
-                className="w-full h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-white"
+                className="w-full h-1.5 bg-background-elevated rounded-lg appearance-none cursor-pointer accent-accent"
               />
             </div>
           </div>
@@ -351,16 +351,16 @@ export default function SettingsPage() {
 
         <SettingsSection title="Keyboard Shortcuts" icon="keyboard">
           <div className="space-y-6">
-            <p className="text-xs sm:text-sm text-slate-500 px-1 font-medium leading-relaxed">
+            <p className="text-xs sm:text-sm text-foreground-muted px-1 font-medium leading-relaxed">
               Customize how you control the player. Click a field and press any key to rebind.
             </p>
             <div className="grid gap-3 sm:grid-cols-2">
               {shortcuts.map((s) => (
                 <div
                   key={s.action}
-                  className="flex items-center justify-between p-4 sm:p-5 rounded-[24px] sm:rounded-3xl bg-white/[0.03] border border-white/[0.07] hover:bg-white/[0.05] transition-all"
+                  className="flex items-center justify-between p-4 sm:p-5 rounded-[24px] sm:rounded-3xl bg-background-elevated/30 border border-border hover:bg-background-elevated/50 transition-all"
                 >
-                  <span className="text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-slate-400">
+                  <span className="text-[9px] sm:text-[10px] font-black uppercase tracking-widest text-foreground-muted">
                     {s.action.replace(/_/g, ' ')}
                   </span>
                   <input
@@ -371,7 +371,7 @@ export default function SettingsPage() {
                       e.preventDefault();
                       void handleShortcutChange(s.action, e.key);
                     }}
-                    className="w-20 sm:w-24 text-center rounded-lg sm:rounded-xl bg-slate-950 border border-white/10 py-2 sm:py-2.5 text-[10px] sm:text-[11px] font-black text-cyan-400 cursor-pointer focus:border-cyan-500 outline-none transition-all shadow-inner"
+                    className="w-20 sm:w-24 text-center rounded-lg sm:rounded-xl bg-background border border-border py-2 sm:py-2.5 text-[10px] sm:text-[11px] font-black text-accent cursor-pointer focus:border-accent outline-none transition-all shadow-inner"
                   />
                 </div>
               ))}
@@ -382,12 +382,12 @@ export default function SettingsPage() {
         <SettingsSection title="Profile & Privacy" icon="account_box">
           <form onSubmit={handleUpdateProfile} className="space-y-8">
             <div>
-              <label className="block text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-3 px-1">
+              <label className="block text-[10px] sm:text-[11px] font-bold text-foreground-muted uppercase tracking-widest mb-3 px-1">
                 Profile Icon
               </label>
 
-              <div className="flex flex-col sm:flex-row gap-6 items-center p-5 sm:p-6 rounded-[24px] sm:rounded-[32px] bg-white/[0.02] border border-white/5 mb-6">
-                <div className="relative h-20 w-20 sm:h-24 sm:w-24 rounded-[24px] sm:rounded-[32px] bg-slate-800 border border-white/10 overflow-hidden shrink-0 shadow-inner flex items-center justify-center">
+              <div className="flex flex-col sm:flex-row gap-6 items-center p-5 sm:p-6 rounded-[24px] sm:rounded-[32px] bg-background-elevated/30 border border-border mb-6">
+                <div className="relative h-20 w-20 sm:h-24 sm:w-24 rounded-[24px] sm:rounded-[32px] bg-background border border-border overflow-hidden shrink-0 shadow-inner flex items-center justify-center">
                   {profileIconUrl ? (
                     <Image
                       src={getProxiedImageUrl(profileIconUrl)}
@@ -396,17 +396,17 @@ export default function SettingsPage() {
                       className="object-cover"
                     />
                   ) : profileIcon ? (
-                    <span className="material-icons text-4xl sm:text-5xl text-slate-500">
+                    <span className="material-icons text-4xl sm:text-5xl text-foreground-muted">
                       {profileIcon}
                     </span>
                   ) : (
-                    <span className="material-icons text-4xl sm:text-5xl text-slate-700">
+                    <span className="material-icons text-4xl sm:text-5xl text-foreground-muted">
                       account_circle
                     </span>
                   )}
                   {uploading && (
                     <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
-                      <div className="h-6 w-6 rounded-full border-2 border-white/10 border-t-cyan-500 animate-spin" />
+                      <div className="h-6 w-6 rounded-full border-2 border-white/10 border-t-accent animate-spin" />
                     </div>
                   )}
                 </div>
@@ -432,8 +432,8 @@ export default function SettingsPage() {
                         }}
                         className={`h-9 w-9 sm:h-10 sm:w-10 rounded-lg sm:rounded-xl flex items-center justify-center transition-all ${
                           profileIcon === icon && !profileIconUrl
-                            ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/20 scale-110'
-                            : 'bg-white/5 text-slate-400 hover:bg-white/10'
+                            ? 'bg-accent text-slate-900 shadow-lg shadow-accent/20 scale-110'
+                            : 'bg-background/50 text-foreground-muted hover:text-foreground hover:bg-background'
                         }`}
                       >
                         <span className="material-icons text-lg">{icon}</span>
@@ -443,7 +443,7 @@ export default function SettingsPage() {
 
                   <div className="flex items-center gap-3 sm:gap-4">
                     <label
-                      className={`flex-1 cursor-pointer flex items-center justify-center gap-2 py-3 rounded-xl sm:rounded-2xl border border-dashed border-white/20 text-slate-400 hover:text-white hover:border-cyan-500/50 transition-all ${uploading ? 'opacity-50 pointer-events-none' : ''}`}
+                      className={`flex-1 cursor-pointer flex items-center justify-center gap-2 py-3 rounded-xl sm:rounded-2xl border border-dashed border-border text-foreground-muted hover:text-foreground hover:border-accent/50 transition-all ${uploading ? 'opacity-50 pointer-events-none' : ''}`}
                     >
                       <input
                         type="file"
@@ -476,7 +476,7 @@ export default function SettingsPage() {
 
             <div className="space-y-4">
               <div>
-                <label className="block text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">
+                <label className="block text-[10px] sm:text-[11px] font-bold text-foreground-muted uppercase tracking-widest mb-2 px-1">
                   Bio (Short)
                 </label>
                 <input
@@ -485,11 +485,11 @@ export default function SettingsPage() {
                   onChange={(e) => setBio(e.target.value)}
                   placeholder="Tell us about yourself..."
                   maxLength={160}
-                  className="w-full rounded-xl sm:rounded-2xl border border-white/10 bg-slate-900/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner"
+                  className="w-full rounded-xl sm:rounded-2xl border border-border bg-background-elevated/50 p-4 text-sm text-foreground outline-none focus:border-accent transition-all shadow-inner"
                 />
               </div>
               <div>
-                <label className="block text-[10px] sm:text-[11px] font-bold text-slate-500 uppercase tracking-widest mb-2 px-1">
+                <label className="block text-[10px] sm:text-[11px] font-bold text-foreground-muted uppercase tracking-widest mb-2 px-1">
                   About Me (Detailed)
                 </label>
                 <textarea
@@ -497,13 +497,13 @@ export default function SettingsPage() {
                   onChange={(e) => setAbout(e.target.value)}
                   placeholder="More about you..."
                   rows={4}
-                  className="w-full rounded-xl sm:rounded-2xl border border-white/10 bg-slate-900/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner resize-none"
+                  className="w-full rounded-xl sm:rounded-2xl border border-border bg-background-elevated/50 p-4 text-sm text-foreground outline-none focus:border-accent transition-all shadow-inner resize-none"
                 />
               </div>
             </div>
 
-            <div className="space-y-6 pt-6 border-t border-white/5">
-              <h3 className="text-[9px] sm:text-[10px] font-black text-slate-600 uppercase tracking-[0.2em] px-1">
+            <div className="space-y-6 pt-6 border-t border-border">
+              <h3 className="text-[9px] sm:text-[10px] font-black text-foreground-muted uppercase tracking-[0.2em] px-1">
                 Privacy Signals
               </h3>
               <Toggle
@@ -554,7 +554,7 @@ export default function SettingsPage() {
 
             <button
               type="submit"
-              className="w-full rounded-xl sm:rounded-2xl bg-white text-slate-950 py-4 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 shadow-lg shadow-black/20"
+              className="w-full rounded-xl sm:rounded-2xl bg-foreground text-background py-4 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:bg-accent transition-all active:scale-95 shadow-lg shadow-black/20"
             >
               Update Profile
             </button>

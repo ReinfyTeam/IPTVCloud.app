@@ -47,6 +47,7 @@ type Props = {
   initialCity?: string;
   initialRegion?: string;
   initialStatus?: string;
+  initialSource?: string;
   initialSortBy?: string;
 };
 
@@ -63,6 +64,7 @@ export default function ChannelBrowser({
   initialRegion = '',
   initialStatus = '',
   initialSortBy = 'viewers',
+  initialSource = '',
 }: Props) {
   const router = useRouter();
   const { viewMode, setViewMode } = usePlayerStore();
@@ -79,6 +81,7 @@ export default function ChannelBrowser({
   const [city, setCity] = useState(initialCity);
   const [region, setRegion] = useState(initialRegion);
   const [status, setStatus] = useState(initialStatus);
+  const [source, setSource] = useState(initialSource);
   const [blocklist, setBlocklist] = useState('');
 
   const [favoritesOnly, setFavoritesOnly] = useState(false);
@@ -106,6 +109,7 @@ export default function ChannelBrowser({
     favoritesOnly,
     sortBy,
     status,
+    source,
   ]);
 
   const filterOptions = useMemo(
@@ -166,6 +170,7 @@ export default function ChannelBrowser({
         )
       )
         return false;
+      if (source && c.source !== source) return false;
       if (country && (c.country?.toLowerCase() || 'international') !== cry) return false;
       if (category && (c.category?.toLowerCase() || 'uncategorized') !== cat) return false;
       if (resolution && c.resolution?.toLowerCase() !== res) return false;
@@ -189,10 +194,14 @@ export default function ChannelBrowser({
           return a.name.localeCompare(b.name);
         case 'viewers':
           return (b.viewersCount || 0) - (a.viewersCount || 0);
+        case 'newest':
+          return (b.launched || '').localeCompare(a.launched || '');
         case 'favorites':
-          const aFav = favoriteIds.includes(a.id) ? 1 : 0;
-          const bFav = favoriteIds.includes(b.id) ? 1 : 0;
-          return bFav - aFav;
+          // Using viewersCount as a proxy for "top rated" since we don't have global rating yet,
+          // but weighted by favorite status if available.
+          const aFav = favoriteIds.includes(a.id) ? 1.5 : 1;
+          const bFav = favoriteIds.includes(b.id) ? 1.5 : 1;
+          return (b.viewersCount || 0) * bFav - (a.viewersCount || 0) * aFav;
         case 'featured':
           return (b.logo ? 1 : 0) - (a.logo ? 1 : 0);
         case 'subdivision':
@@ -207,7 +216,10 @@ export default function ChannelBrowser({
           return (a.isGeoBlocked ? 1 : 0) - (b.isGeoBlocked ? 1 : 0);
         case 'recommended':
         default:
-          return 0;
+          // Hybrid: logo exists + random salt based on name for stability
+          const aScore = (a.logo ? 1000 : 0) + (a.name.length % 100);
+          const bScore = (b.logo ? 1000 : 0) + (b.name.length % 100);
+          return bScore - aScore;
       }
     });
 
@@ -227,6 +239,7 @@ export default function ChannelBrowser({
     favoriteIds,
     sortBy,
     status,
+    source,
   ]);
 
   const pagedChannels = useMemo(
@@ -268,6 +281,7 @@ export default function ChannelBrowser({
     setBlocklist('');
     setFavoritesOnly(false);
     setSortBy('recommended');
+    setSource('');
   };
 
   const hasFilters = Boolean(
@@ -281,7 +295,8 @@ export default function ChannelBrowser({
     city ||
     region ||
     blocklist ||
-    favoritesOnly,
+    favoritesOnly ||
+    source,
   );
 
   return (
@@ -325,7 +340,7 @@ export default function ChannelBrowser({
               <button
                 onClick={() => setCategory('')}
                 className={`shrink-0 flex items-center gap-3 px-8 py-4 rounded-3xl text-[10px] font-black uppercase tracking-widest border transition-all active:scale-95 transform-gpu ${
-                  !category
+                  !category && !source
                     ? 'bg-cyan-500 border-cyan-500 text-slate-950 shadow-[0_0_30px_rgba(6,182,212,0.4)]'
                     : 'bg-white/5 border-white/10 text-slate-400 hover:text-foreground hover:bg-white/10'
                 }`}
@@ -333,10 +348,27 @@ export default function ChannelBrowser({
                 <span className="material-icons text-lg">apps</span>
                 All
               </button>
+              <button
+                onClick={() => {
+                  setSource('community');
+                  setCategory('');
+                }}
+                className={`shrink-0 flex items-center gap-3 px-8 py-4 rounded-3xl text-[10px] font-black uppercase tracking-widest border transition-all active:scale-95 transform-gpu ${
+                  source === 'community'
+                    ? 'bg-purple-500 border-purple-500 text-slate-950 shadow-[0_0_30px_rgba(168,85,247,0.4)]'
+                    : 'bg-white/5 border-white/10 text-slate-400 hover:text-foreground hover:bg-white/10'
+                }`}
+              >
+                <span className="material-icons text-lg">group</span>
+                Community
+              </button>
               {filterOptions.categories.slice(0, 15).map((cat) => (
                 <button
                   key={cat}
-                  onClick={() => setCategory(cat)}
+                  onClick={() => {
+                    setCategory(cat);
+                    setSource('');
+                  }}
                   className={`shrink-0 flex items-center gap-3 px-8 py-4 rounded-3xl text-[10px] font-black uppercase tracking-widest border transition-all active:scale-95 transform-gpu ${
                     category === cat
                       ? 'bg-cyan-500 border-cyan-500 text-slate-950 shadow-[0_0_30px_rgba(6,182,212,0.4)]'
@@ -420,7 +452,7 @@ export default function ChannelBrowser({
                 <div
                   className={
                     viewMode === 'grid'
-                      ? 'grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-6 gap-4 sm:gap-6'
+                      ? 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 4xl:grid-cols-6 gap-4 sm:gap-6'
                       : 'space-y-4'
                   }
                 >

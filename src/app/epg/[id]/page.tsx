@@ -9,8 +9,12 @@ import EpgStrip from '@/components/EpgStrip';
 import { getProxiedImageUrl } from '@/lib/image-proxy';
 import { decodeBase64Url, encodeBase64Url } from '@/lib/base64';
 
-export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
-  const channel = await getChannelById(decodeBase64Url(params.id));
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const channel = await getChannelById(decodeBase64Url((await params).id));
   if (!channel) return { title: 'Channel Not Found — IPTVCloud.app' };
 
   return {
@@ -19,8 +23,8 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
   };
 }
 
-export default async function EpgDetailsPage({ params }: { params: { id: string } }) {
-  const decodedId = decodeBase64Url(params.id);
+export default async function EpgDetailsPage({ params }: { params: Promise<{ id: string }> }) {
+  const decodedId = decodeBase64Url((await params).id);
   const channel = await getChannelById(decodedId);
 
   if (!channel) notFound();

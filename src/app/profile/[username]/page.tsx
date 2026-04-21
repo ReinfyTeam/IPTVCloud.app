@@ -14,7 +14,7 @@ import Link from 'next/link';
 const JWT_SECRET = process.env.JWT_SECRET || 'changeme-set-JWT_SECRET-env';
 
 async function getCurrentUserId() {
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   const token = cookieStore.get('iptv_token')?.value;
   if (!token) return null;
 
@@ -26,8 +26,8 @@ async function getCurrentUserId() {
   }
 }
 
-export default async function ProfilePage({ params }: { params: { username: string } }) {
-  const { username } = params;
+export default async function ProfilePage({ params }: { params: Promise<{ username: string }> }) {
+  const { username } = await params;
   const currentUserId = await getCurrentUserId();
 
   // 1. Fetch user
@@ -152,16 +152,14 @@ export default async function ProfilePage({ params }: { params: { username: stri
 
             <div className="flex-1 text-center sm:text-left space-y-6">
               <div className="space-y-3 sm:space-y-4">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-center sm:justify-start gap-2 sm:gap-3">
+                <div className="flex flex-wrap items-center justify-center sm:justify-start gap-x-3 gap-y-1">
                   <h1 className="text-3xl sm:text-5xl font-black text-white uppercase italic tracking-tighter leading-tight">
                     {displayName}
                   </h1>
-                  <div className="flex items-center justify-center sm:justify-start gap-2">
-                    <span className="text-lg sm:text-xl font-bold text-slate-500 lowercase italic tracking-tight">
-                      @{user.username}
-                    </span>
-                    {user.isVerified && <VerifiedBadge className="text-[20px] sm:text-[24px]" />}
-                  </div>
+                  {user.isVerified && <VerifiedBadge className="text-[20px] sm:text-[24px]" />}
+                  <span className="text-lg sm:text-xl font-bold text-slate-500 lowercase italic tracking-tight">
+                    @{user.username}
+                  </span>
                 </div>
 
                 {(privacy.showFollowList || isOwnProfile) && (

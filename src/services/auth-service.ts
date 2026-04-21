@@ -14,6 +14,8 @@ const MODERATOR_ROLE = 'MODERATOR';
 type AuthorizeOptions = {
   requireAdmin?: boolean;
   requireStaff?: boolean;
+  requireNotMuted?: boolean;
+  allowRestricted?: boolean;
   allowApiKey?: boolean;
 };
 
@@ -134,12 +136,30 @@ export async function authorizeRequest(
     );
   }
 
+  if (user.isRestricted && !options.allowRestricted) {
+    return NextResponse.json(
+      { ok: false, error: 'Account restricted', restricted: true },
+      { status: 403 },
+    );
+  }
+
   if (options.requireAdmin && !hasAdminRole(user.role)) {
     return NextResponse.json({ ok: false, error: 'Forbidden' }, { status: 403 });
   }
 
   if (options.requireStaff && !hasStaffRole(user.role)) {
     return NextResponse.json({ ok: false, error: 'Forbidden' }, { status: 403 });
+  }
+
+  if (options.requireNotMuted && user.isMuted) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error: 'You are currently muted and cannot perform this action.',
+        muted: true,
+      },
+      { status: 403 },
+    );
   }
 
   return {

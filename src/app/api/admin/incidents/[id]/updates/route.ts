@@ -5,7 +5,7 @@ import crypto from 'crypto';
 
 export const dynamic = 'force-dynamic';
 
-export async function POST(req: Request, { params }: { params: { id: string } }) {
+export async function POST(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const auth = await authorizeRequest(req, { requireStaff: true });
     if (auth instanceof NextResponse) return auth;
@@ -20,7 +20,12 @@ export async function POST(req: Request, { params }: { params: { id: string } })
       VALUES ($1, $2, $3, $4, NOW(), NOW())
       RETURNING *
     `;
-    const updateRes = await db.query(insertUpdateQuery, [updateId, params.id, message, status]);
+    const updateRes = await db.query(insertUpdateQuery, [
+      updateId,
+      (await params).id,
+      message,
+      status,
+    ]);
 
     // Also update parent incident status
     const updateIncidentQuery = `
@@ -30,7 +35,7 @@ export async function POST(req: Request, { params }: { params: { id: string } })
           "updatedAt" = NOW()
       WHERE id = $2
     `;
-    await db.query(updateIncidentQuery, [status, params.id]);
+    await db.query(updateIncidentQuery, [status, (await params).id]);
 
     return NextResponse.json(updateRes.rows[0]);
   } catch (error) {

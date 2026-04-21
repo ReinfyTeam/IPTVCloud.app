@@ -5,7 +5,7 @@ import { createNotification } from '@/services/notification-service';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET(req: Request, { params }: { params: { id: string } }) {
+export async function GET(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const responsesResult = await db.query(
       `SELECT tr.*, 
@@ -18,7 +18,7 @@ export async function GET(req: Request, { params }: { params: { id: string } }) 
        JOIN "Ticket" t ON tr."ticketId" = t."id"
        WHERE tr."ticketId" = $1
        ORDER BY tr."createdAt" ASC`,
-      [params.id],
+      [(await params).id],
     );
 
     const mapped = responsesResult.rows.map((res) => ({
@@ -36,7 +36,7 @@ export async function GET(req: Request, { params }: { params: { id: string } }) 
   }
 }
 
-export async function POST(req: Request, { params }: { params: { id: string } }) {
+export async function POST(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const auth = await authorizeRequest(req);
     if (auth instanceof NextResponse) return auth;
@@ -48,7 +48,7 @@ export async function POST(req: Request, { params }: { params: { id: string } })
 
     const ticketResult = await db.query(
       'SELECT "userId", "subject" FROM "Ticket" WHERE "id" = $1',
-      [params.id],
+      [(await params).id],
     );
     const ticket = ticketResult.rows[0];
 
@@ -58,7 +58,7 @@ export async function POST(req: Request, { params }: { params: { id: string } })
     const responseResult = await db.query(
       `INSERT INTO "TicketResponse" ("id", "ticketId", "userId", "message", "updatedAt") 
        VALUES ($1, $2, $3, $4, NOW()) RETURNING *`,
-      [responseId, params.id, auth.user!.id, message || ''],
+      [responseId, (await params).id, auth.user!.id, message || ''],
     );
     const response = responseResult.rows[0];
 
@@ -87,7 +87,7 @@ export async function POST(req: Request, { params }: { params: { id: string } })
         title: `Staff response on your ticket`,
         message: `Agent replied to: "${ticket.subject}"`,
         type: 'TICKET',
-        link: `/support/tickets/${params.id}`,
+        link: `/support/tickets/${(await params).id}`,
       });
     }
 
@@ -97,7 +97,7 @@ export async function POST(req: Request, { params }: { params: { id: string } })
   }
 }
 
-export async function PATCH(req: Request, { params }: { params: { id: string } }) {
+export async function PATCH(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const auth = await authorizeRequest(req);
     if (auth instanceof NextResponse) return auth;
@@ -127,7 +127,7 @@ export async function PATCH(req: Request, { params }: { params: { id: string } }
   }
 }
 
-export async function DELETE(req: Request, { params }: { params: { id: string } }) {
+export async function DELETE(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const auth = await authorizeRequest(req);
     if (auth instanceof NextResponse) return auth;

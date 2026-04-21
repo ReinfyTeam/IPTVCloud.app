@@ -371,16 +371,26 @@ export default function CommentSection({ channelId, ownerId }: Props) {
                 type="text"
                 value={text}
                 onChange={(e) => setText(e.target.value)}
-                placeholder={user.isMuted ? 'You are muted' : 'Write a message...'}
+                placeholder={
+                  user.isMuted ? 'You are currently muted from chat' : 'Write a message...'
+                }
                 disabled={loading || user.isMuted}
-                className="w-full rounded-2xl border border-white/10 bg-slate-950 px-4 py-3 text-sm text-white placeholder:text-slate-500 outline-none focus:border-cyan-500/50 transition-all pr-12"
+                className={`w-full rounded-2xl border bg-slate-950 px-4 py-3 text-sm text-white placeholder:text-slate-500 outline-none transition-all pr-12 ${
+                  user.isMuted
+                    ? 'border-red-500/20 opacity-50'
+                    : 'border-white/10 focus:border-cyan-500/50'
+                }`}
               />
               <button
                 type="submit"
                 disabled={loading || (!text.trim() && attachments.length === 0) || user.isMuted}
-                className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-xl bg-cyan-500 text-slate-950 flex items-center justify-center hover:bg-cyan-400 disabled:opacity-50 transition-all active:scale-90"
+                className={`absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-xl flex items-center justify-center transition-all active:scale-90 ${
+                  user.isMuted
+                    ? 'bg-slate-800 text-slate-600'
+                    : 'bg-cyan-500 text-slate-950 hover:bg-cyan-400'
+                }`}
               >
-                <span className="material-icons text-sm">send</span>
+                <span className="material-icons text-sm">{user.isMuted ? 'block' : 'send'}</span>
               </button>
             </form>
             {error && <div className="text-[10px] text-red-400 font-medium px-2">{error}</div>}

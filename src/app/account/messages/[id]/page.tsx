@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState, useRef, useCallback } from 'react';
+import React, { use, useEffect, useState, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useAuthStore } from '@/store/auth-store';
@@ -24,7 +24,8 @@ type UserInfo = {
   isVerified: boolean;
 };
 
-export default function ChatDetailPage({ params }: { params: { id: string } }) {
+export default function ChatDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
   const { token, user: currentUser } = useAuthStore();
   const [messages, setMessages] = useState<Message[]>([]);
   const [otherUser, setOtherUser] = useState<UserInfo | null>(null);
@@ -35,7 +36,7 @@ export default function ChatDetailPage({ params }: { params: { id: string } }) {
 
   const fetchMessages = useCallback(async () => {
     try {
-      const res = await fetch(`/api/user/messages/${params.id}`, {
+      const res = await fetch(`/api/user/messages/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       if (res.ok) {
@@ -46,11 +47,11 @@ export default function ChatDetailPage({ params }: { params: { id: string } }) {
     } finally {
       setLoading(false);
     }
-  }, [params.id, token]);
+  }, [id, token]);
 
   const fetchOtherUser = useCallback(async () => {
     try {
-      const res = await fetch(`/api/user/profile/${params.id}`, {
+      const res = await fetch(`/api/user/profile/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       if (res.ok) {
@@ -58,7 +59,7 @@ export default function ChatDetailPage({ params }: { params: { id: string } }) {
         setOtherUser(data);
       }
     } catch {}
-  }, [params.id, token]);
+  }, [id, token]);
 
   useEffect(() => {
     if (token) {
@@ -86,7 +87,7 @@ export default function ChatDetailPage({ params }: { params: { id: string } }) {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${token}`,
         },
-        body: JSON.stringify({ receiverId: params.id, content: newMessage }),
+        body: JSON.stringify({ receiverId: id, content: newMessage }),
       });
       if (res.ok) {
         const msg = await res.json();

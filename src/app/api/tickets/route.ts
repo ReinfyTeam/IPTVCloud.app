@@ -32,7 +32,7 @@ export async function GET(req: Request) {
 
     if (filterType) {
       query += ` AND t."type" = $2`;
-      params.push(filterType);
+      (await params).push(filterType);
     }
 
     query += ` ORDER BY ${orderBy}`;

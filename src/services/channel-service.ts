@@ -2,6 +2,7 @@ import { getCache, setCache } from '@/services/cache-service';
 import { generateId } from '@/lib/m3uParser'; // Just for hashing viewers
 import { getCountryName } from '@/lib/countries';
 import { getLanguageName } from '@/lib/languages';
+import db from '@/lib/db';
 import type {
   Channel,
   ChannelDataset,
@@ -10,6 +11,29 @@ import type {
   PaginatedChannels,
   SearchResponse,
 } from '@/types';
+
+async function fetchCommunityChannels(): Promise<Channel[]> {
+  try {
+    const { rows } = await db.query(`SELECT * FROM "CustomChannel" WHERE "isApproved" = TRUE`);
+
+    return rows.map((row) => ({
+      id: row.id,
+      name: row.name,
+      logo: row.logo,
+      country: row.country,
+      language: row.language,
+      category: row.category,
+      streamUrl: row.streamUrl,
+      description: row.description,
+      isLive: true,
+      source: 'community',
+      viewersCount: 100 + (parseInt(generateId(row.name).slice(0, 4), 16) % 4901),
+    }));
+  } catch (error) {
+    console.error('Failed to fetch community channels:', error);
+    return [];
+  }
+}
 
 const CACHE_TTL_MS = 10 * 60 * 1000;
 const CHANNELS_CACHE_KEY = 'channels:dataset:iptvorg';
@@ -44,13 +68,16 @@ async function fetchIptvOrgData() {
 }
 
 export async function refreshChannels(): Promise<ChannelDataset> {
-  const data = await fetchIptvOrgData();
+  const [iptvOrgData, communityChannels] = await Promise.all([
+    fetchIptvOrgData(),
+    fetchCommunityChannels(),
+  ]);
 
-  // Create lookups
-  const blocklistSet = new Set(data.blocklist.map((b) => b.channel));
-
+  // Create lookups from iptv-org data
+  const blocklistSet = new Set(iptvOrgData.blocklist.map((b) => b.channel));
+  // ... (other lookups remain the same)
   const streamMap = new Map<string, any[]>();
-  data.streams.forEach((s) => {
+  iptvOrgData.streams.forEach((s) => {
     if (s.channel) {
       if (!streamMap.has(s.channel)) streamMap.set(s.channel, []);
       streamMap.get(s.channel)!.push(s);
@@ -58,14 +85,14 @@ export async function refreshChannels(): Promise<ChannelDataset> {
   });
 
   const logoMap = new Map<string, string>();
-  data.logos.forEach((l) => {
+  iptvOrgData.logos.forEach((l) => {
     if (l.channel && l.url) {
       logoMap.set(l.channel, l.url);
     }
   });
 
   const feedMap = new Map<string, any[]>();
-  data.feeds.forEach((f) => {
+  iptvOrgData.feeds.forEach((f) => {
     if (f.channel) {
       if (!feedMap.has(f.channel)) feedMap.set(f.channel, []);
       feedMap.get(f.channel)!.push(f);
@@ -73,94 +100,68 @@ export async function refreshChannels(): Promise<ChannelDataset> {
   });
 
   const guideMap = new Map<string, { site_id: string; url: string }>();
-  data.guides.forEach((g) => {
+  iptvOrgData.guides.forEach((g) => {
     if (g.channel && g.site_id && g.url) {
       guideMap.set(g.channel, { site_id: g.site_id, url: g.url });
     }
   });
 
   const subdivisionsMap = new Map<string, string>();
-  data.subdivisions.forEach((s) => subdivisionsMap.set(s.id, s.name));
+  iptvOrgData.subdivisions.forEach((s) => subdivisionsMap.set(s.id, s.name));
 
   const citiesMap = new Map<string, string>();
-  data.cities.forEach((c) => citiesMap.set(c.id, c.name));
+  iptvOrgData.cities.forEach((c) => citiesMap.set(c.id, c.name));
 
   const regionsMap = new Map<string, string>();
-  data.regions.forEach((r) => regionsMap.set(r.id, r.name));
+  iptvOrgData.regions.forEach((r) => regionsMap.set(r.id, r.name));
 
   const channels: Channel[] = [];
 
-  for (const ch of data.channels) {
-    if (blocklistSet.has(ch.id)) continue;
-    if (ch.closed) continue;
+  for (const ch of iptvOrgData.channels) {
+    if (blocklistSet.has(ch.id) || ch.closed) continue;
 
     const streams = streamMap.get(ch.id) || [];
-    if (streams.length === 0) continue; // Only include channels with at least one stream
+    if (streams.length === 0) continue;
 
     const feeds = feedMap.get(ch.id) || [];
-
-    // Pick best stream (or first)
     const primaryStream = streams[0];
     const fallbackUrls = streams.slice(1).map((s) => s.url);
     const logoUrl = logoMap.get(ch.id);
-
-    // Categories
     const category = ch.categories && ch.categories.length > 0 ? ch.categories[0] : 'general';
-
-    // Metadata
-    const subdivision = ch.subdivision ? subdivisionsMap.get(ch.subdivision) : undefined;
-    const city = ch.city ? citiesMap.get(ch.city) : undefined;
-    const region = ch.region ? regionsMap.get(ch.region) : undefined;
     const guide = guideMap.get(ch.id);
-
-    // Languages/Regions from feeds
-    let language = 'unknown';
-    let resolution = primaryStream.quality || undefined;
-    let timezone = 'unknown';
-
-    if (feeds.length > 0) {
-      const mainFeed = feeds.find((f) => f.is_main) || feeds[0];
-      if (mainFeed.languages && mainFeed.languages.length > 0) {
-        language = mainFeed.languages[0];
-      }
-      if (mainFeed.timezones && mainFeed.timezones.length > 0) {
-        timezone = mainFeed.timezones[0].replace(/_/g, ' ');
-      }
-      if (!resolution && mainFeed.format) {
-        resolution = mainFeed.format;
-      }
-    }
-
-    const viewersCount = 100 + (parseInt(generateId(ch.name).slice(0, 4), 16) % 4901);
 
     channels.push({
       id: ch.id,
       name: ch.name || 'Unknown Channel',
       logo: logoUrl,
       country: ch.country || 'International',
-      subdivision,
-      city,
-      region,
-      language: language,
+      subdivision: ch.subdivision ? subdivisionsMap.get(ch.subdivision) : undefined,
+      city: ch.city ? citiesMap.get(ch.city) : undefined,
+      region: ch.region ? regionsMap.get(ch.region) : undefined,
+      language: feeds[0]?.languages[0] || 'unknown',
       category: category,
-      resolution: resolution,
-      timezone: timezone,
+      resolution: primaryStream.quality || undefined,
+      timezone: feeds[0]?.timezones[0]?.replace(/_/g, ' ') || 'unknown',
       isNsfw: ch.is_nsfw || false,
       launched: ch.launched || undefined,
       website: ch.website || undefined,
-      viewersCount: viewersCount,
+      viewersCount: 100 + (parseInt(generateId(ch.name).slice(0, 4), 16) % 4901),
       streamUrl: primaryStream.url,
       epgId: guide?.site_id,
       epgUrl: guide?.url,
       isLive: true,
+      isOffline: primaryStream.status === 'offline' || primaryStream.status === 'error',
       fallbackUrls: fallbackUrls.length > 0 ? fallbackUrls : undefined,
       isGeoBlocked: primaryStream.label === 'Geo-blocked',
       description: ch.description || undefined,
       tags: ch.categories || [],
+      source: 'iptv-org',
     });
   }
 
-  const dataset: ChannelDataset = { channels, fetchedAt: Date.now() };
+  const allChannels = [...channels, ...communityChannels];
+
+  const dataset: ChannelDataset = { channels: allChannels, fetchedAt: Date.now() };
   await setCache(CHANNELS_CACHE_KEY, dataset, Math.floor(CACHE_TTL_MS / 1000));
   return dataset;
 }
@@ -204,6 +205,11 @@ export function getChannelFilters(channels: Channel[]): ChannelFilters {
 export function filterChannels(channels: Channel[], query: ChannelQuery): Channel[] {
   let items = channels;
 
+  // Always hide offline channels unless explicitly filtered for 'offline' status
+  if (!query.status || query.status !== 'offline') {
+    items = items.filter((channel) => !channel.isOffline);
+  }
+
   if (query.q) {
     const q = query.q.toLowerCase();
     items = items.filter((channel) =>
@@ -219,6 +225,10 @@ export function filterChannels(channels: Channel[], query: ChannelQuery): Channe
         .filter(Boolean)
         .some((value) => value!.toLowerCase().includes(q)),
     );
+  }
+
+  if (query.source) {
+    items = items.filter((channel) => channel.source === query.source);
   }
 
   if (query.country) {
@@ -293,9 +303,39 @@ export function paginateChannels(dataset: ChannelDataset, query: ChannelQuery): 
   };
 }
 
-export async function getChannelById(id: string) {
+export async function getChannelById(id: string, userId?: string) {
   const dataset = await getChannels(false);
-  return dataset.channels.find((channel) => channel.id === id) || null;
+  const cached = dataset.channels.find((channel) => channel.id === id) || null;
+  if (cached) return cached;
+
+  if (userId) {
+    try {
+      const { rows } = await db.query(
+        'SELECT * FROM "CustomChannel" WHERE "id" = $1 AND "userId" = $2',
+        [id, userId],
+      );
+      if (rows.length > 0) {
+        const row = rows[0];
+        return {
+          id: row.id,
+          name: row.name,
+          logo: row.logo,
+          country: row.country,
+          language: row.language,
+          category: row.category,
+          streamUrl: row.streamUrl,
+          description: row.description,
+          isLive: true,
+          source: 'community',
+          viewersCount: 0,
+        } as Channel;
+      }
+    } catch (error) {
+      console.error('Failed to fetch private custom channel:', error);
+    }
+  }
+
+  return null;
 }
 
 export async function getEpgUrl(): Promise<string | undefined> {

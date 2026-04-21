@@ -6,7 +6,7 @@ import { randomUUID } from 'crypto';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET(req: Request, { params }: { params: { id: string } }) {
+export async function GET(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
     const { rows: comments } = await db.query(
       `SELECT pc.*, 
@@ -22,7 +22,7 @@ export async function GET(req: Request, { params }: { params: { id: string } }) 
        JOIN "User" u ON pc."userId" = u.id
        WHERE pc."postId" = $1
        ORDER BY pc."createdAt" DESC`,
-      [params.id],
+      [(await params).id],
     );
     return NextResponse.json(comments);
   } catch {
@@ -30,16 +30,16 @@ export async function GET(req: Request, { params }: { params: { id: string } }) 
   }
 }
 
-export async function POST(req: Request, { params }: { params: { id: string } }) {
+export async function POST(req: Request, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const auth = await authorizeRequest(req);
+    const auth = await authorizeRequest(req, { requireNotMuted: true });
     if (auth instanceof NextResponse) return auth;
 
     const { content, parentId } = await req.json();
     if (!content) return NextResponse.json({ error: 'Content is required.' }, { status: 400 });
 
     const { rows: postRows } = await db.query('SELECT "userId", title FROM "Post" WHERE id = $1', [
-      params.id,
+      (await params).id,
     ]);
     const post = postRows[0];
 
@@ -50,7 +50,7 @@ export async function POST(req: Request, { params }: { params: { id: string } })
       `INSERT INTO "PostComment" (id, "postId", "userId", content, "parentId")
        VALUES ($1, $2, $3, $4, $5)
        RETURNING *`,
-      [id, params.id, auth.user!.id, content, parentId],
+      [id, (await params).id, auth.user!.id, content, parentId],
     );
 
     // Fetch with user info to match previous include
@@ -78,7 +78,7 @@ export async function POST(req: Request, { params }: { params: { id: string } })
         title: `New comment on your post`,
         message: `${auth.user!.username || 'Someone'} commented on "${post.title}"`,
         type: 'POST',
-        link: `/posts/${params.id}`,
+        link: `/posts/${(await params).id}`,
       });
     }
 
@@ -95,7 +95,7 @@ export async function POST(req: Request, { params }: { params: { id: string } })
           title: `Reply to your comment`,
           message: `${auth.user!.username || 'Someone'} replied to your comment on "${post.title}"`,
           type: 'POST',
-          link: `/posts/${params.id}`,
+          link: `/posts/${(await params).id}`,
         });
       }
     }

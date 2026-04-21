@@ -5,6 +5,29 @@ import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import { useAuthStore } from '@/store/auth-store';
 import VerifiedBadge from '@/components/VerifiedBadge';
+import Image from 'next/image';
+import { getProxiedImageUrl } from '@/lib/image-proxy';
+
+function formatRelativeTime(dateString: string) {
+  const date = new Date(dateString);
+  const now = new Date();
+  const diffInSeconds = Math.floor((now.getTime() - date.getTime()) / 1000);
+
+  if (diffInSeconds < 10) return 'Just now';
+  if (diffInSeconds < 60) return `${diffInSeconds}s ago`;
+  if (diffInSeconds < 3600) return `${Math.floor(diffInSeconds / 60)}m ago`;
+  if (diffInSeconds < 86400) return `${Math.floor(diffInSeconds / 3600)}h ago`;
+  if (diffInSeconds < 2592000) return `${Math.floor(diffInSeconds / 86400)}d ago`;
+  if (diffInSeconds < 31536000) return `${Math.floor(diffInSeconds / 2592000)}mo ago`;
+
+  return date.toLocaleString(undefined, {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
+}
 
 type Post = {
   id: string;
@@ -18,7 +41,7 @@ type Post = {
 export default function NewsfeedPage() {
   const [posts, setPosts] = useState<Post[]>([]);
   const [loading, setLoading] = useState(true);
-  const [sort, setSort] = useState('newest');
+  const [sort, setSort] = useState('recommended');
   const { user } = useAuthStore();
 
   const fetchPosts = useCallback(async () => {
@@ -70,11 +93,11 @@ export default function NewsfeedPage() {
         </div>
 
         <div className="flex items-center gap-2 sm:gap-3 bg-white/[0.03] border border-white/[0.08] p-1 rounded-2xl w-full sm:w-fit overflow-x-auto scrollbar-hide">
-          {['newest', 'trending', 'likes', 'comments'].map((s) => (
+          {['recommended', 'newest', 'trending', 'likes', 'comments'].map((s) => (
             <button
               key={s}
               onClick={() => setSort(s)}
-              className={`rounded-xl px-4 sm:px-6 py-2.5 text-[9px] sm:text-[10px] font-black uppercase tracking-widest transition-all active:scale-95 whitespace-nowrap ${sort === s ? 'bg-white/10 text-white shadow-lg' : 'text-slate-500 hover:text-slate-300'}`}
+              className={`rounded-xl px-4 sm:px-6 py-2.5 text-[9px] sm:text-[10px] font-black uppercase tracking-widest transition-all active:scale-95 whitespace-nowrap ${sort === s ? 'bg-white/10 text-white shadow-lg border border-white/10' : 'text-slate-500 hover:text-slate-300'}`}
             >
               {s}
             </button>
@@ -108,14 +131,32 @@ export default function NewsfeedPage() {
 }
 
 function PostCard({ post }: { post: Post }) {
+  const [liked, setLiked] = useState(false);
+
+  const handleLike = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setLiked(!liked);
+  };
+
   return (
     <Link
       href={`/posts/${post.id}`}
       className="group p-6 sm:p-8 rounded-[32px] sm:rounded-[40px] border border-white/[0.08] bg-white/[0.02] hover:bg-white/[0.04] transition-all transform-gpu hover:-translate-y-1 shadow-xl block relative overflow-hidden"
     >
       <div className="flex items-center gap-4 mb-6">
-        <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl sm:rounded-2xl bg-slate-900 border border-white/10 flex items-center justify-center text-slate-600 shadow-xl">
-          <span className="material-icons text-xl sm:text-2xl">account_circle</span>
+        <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl sm:rounded-2xl bg-slate-900 border border-white/10 flex items-center justify-center text-slate-600 shadow-xl overflow-hidden">
+          {(post.user as any).profileIconUrl ? (
+            <Image
+              src={getProxiedImageUrl((post.user as any).profileIconUrl)}
+              alt=""
+              width={48}
+              height={48}
+              className="h-full w-full object-cover"
+            />
+          ) : (
+            <span className="material-icons text-xl sm:text-2xl">account_circle</span>
+          )}
         </div>
         <div className="min-w-0">
           <div className="flex items-center gap-2">
@@ -125,7 +166,7 @@ function PostCard({ post }: { post: Post }) {
             {post.user.isVerified && <VerifiedBadge className="text-xs ml-1" />}
           </div>
           <div className="text-[9px] sm:text-[10px] font-bold text-slate-500 uppercase tracking-widest mt-0.5">
-            {new Date(post.createdAt).toLocaleDateString()}
+            {formatRelativeTime(post.createdAt)}
           </div>
         </div>
       </div>
@@ -138,16 +179,24 @@ function PostCard({ post }: { post: Post }) {
       </div>
 
       <div className="flex items-center gap-6 pt-6 border-t border-white/[0.04]">
-        <div className="flex items-center gap-2 text-slate-500">
-          <span className="material-icons text-lg">favorite_border</span>
-          <span className="text-xs font-bold">{post._count.likes}</span>
-        </div>
-        <div className="flex items-center gap-2 text-slate-500">
+        <button
+          onClick={handleLike}
+          className={`flex items-center gap-2 transition-colors ${liked ? 'text-rose-500' : 'text-slate-500 hover:text-rose-400'}`}
+        >
+          <span className="material-icons text-lg">{liked ? 'favorite' : 'favorite_border'}</span>
+          <span className="text-xs font-bold">{post._count.likes + (liked ? 1 : 0)}</span>
+        </button>
+        <div className="flex items-center gap-2 text-slate-500 hover:text-cyan-400 transition-colors">
           <span className="material-icons text-lg">chat_bubble_outline</span>
           <span className="text-xs font-bold">{post._count.comments}</span>
         </div>
-        <div className="ml-auto text-[9px] font-black text-cyan-500 uppercase tracking-widest opacity-60">
-          Open Signal
+        <div className="ml-auto flex items-center gap-2 group/view">
+          <span className="text-[9px] font-black text-cyan-500 uppercase tracking-widest opacity-60 group-hover/view:opacity-100 transition-opacity">
+            View Post
+          </span>
+          <span className="material-icons text-xs text-cyan-500 group-hover/view:translate-x-1 transition-transform">
+            east
+          </span>
         </div>
       </div>
     </Link>

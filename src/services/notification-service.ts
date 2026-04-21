@@ -1,5 +1,6 @@
 import db from '@/lib/db';
 import { Notification } from '@/types/db';
+import crypto from 'crypto';
 
 export type NotificationType = 'MESSAGE' | 'POST' | 'TICKET' | 'STATUS' | 'FOLLOW';
 
@@ -17,9 +18,10 @@ export async function createNotification({
   link?: string;
 }): Promise<Notification | null> {
   try {
+    const id = crypto.randomUUID();
     const result = await db.query(
-      'INSERT INTO "Notification" ("userId", "title", "message", "type", "link") VALUES ($1, $2, $3, $4, $5) RETURNING *',
-      [userId, title, message, type, link],
+      'INSERT INTO "Notification" ("id", "userId", "title", "message", "type", "link") VALUES ($1, $2, $3, $4, $5, $6) RETURNING *',
+      [id, userId, title, message, type, link],
     );
     return result.rows[0];
   } catch (error) {

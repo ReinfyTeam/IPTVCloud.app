@@ -25,6 +25,7 @@ export interface Channel {
   description?: string;
   isOffline?: boolean;
   tags?: string[];
+  source?: 'iptv-org' | 'community';
 }
 
 export interface ChannelDataset {
@@ -48,6 +49,7 @@ export interface ChannelQuery {
   resolution?: string;
   status?: 'online' | 'offline' | 'geo-blocked';
   ids?: string[];
+  source?: 'iptv-org' | 'community';
 }
 
 export interface PaginatedChannels {
