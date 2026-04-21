@@ -76,7 +76,8 @@ for SITE_NAME in "${SITES[@]}"; do
       --sites="$SITE_NAME" \
       --output="$OUTPUT_FILE" \
       --maxConnections 20 \
-      --curl
+      --curl \
+	  --quiet
   then
       if [[ -s "$OUTPUT_FILE" ]]; then
           BYTES=$(wc -c < "$OUTPUT_FILE")
