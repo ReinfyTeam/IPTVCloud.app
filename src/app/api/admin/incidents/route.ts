@@ -32,13 +32,13 @@ export async function POST(req: Request) {
     const auth = await authorizeRequest(req, { requireStaff: true });
     if (auth instanceof NextResponse) return auth;
 
-    const { action, id, title, description, status, severity, type } = await req.json();
+    const { action, id, title, description, status, severity, type, tags } = await req.json();
 
     if (action === 'CREATE') {
       const incidentId = crypto.randomUUID();
       const insertQuery = `
-        INSERT INTO "Incident" (id, title, description, type, status, severity, "createdAt", "updatedAt")
-        VALUES ($1, $2, $3, $4, $5, $6, NOW(), NOW())
+        INSERT INTO "Incident" (id, title, description, type, status, severity, tags, "createdAt", "updatedAt")
+        VALUES ($1, $2, $3, $4, $5, $6, $7, NOW(), NOW())
         RETURNING *
       `;
       const res = await db.query(insertQuery, [
@@ -48,6 +48,7 @@ export async function POST(req: Request) {
         type || 'SYSTEM',
         status || 'INVESTIGATING',
         severity || 'LOW',
+        tags || [],
       ]);
       const incident = res.rows[0];
 
@@ -94,6 +95,10 @@ export async function POST(req: Request) {
       if (severity) {
         updateFields.push(`severity = $${i++}`);
         params.push(severity);
+      }
+      if (tags) {
+        updateFields.push(`tags = $${i++}`);
+        params.push(tags);
       }
 
       updateFields.push(`"resolvedAt" = $${i++}`);
