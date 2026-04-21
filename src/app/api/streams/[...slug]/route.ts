@@ -1,7 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { decodeBase64Url } from '@/lib/base64';
 import { getChannelById } from '@/services/channel-service';
-import { isLikelyHlsManifest, rewriteHlsManifest } from '@/services/stream-service';
+import {
+  isLikelyHlsManifest,
+  rewriteHlsManifest,
+  resolveStreamUrl,
+} from '@/services/stream-service';
+import { validateUrlForProxy } from '@/lib/ssrf';
 
 export const dynamic = 'force-dynamic';
 
@@ -12,7 +16,8 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ slug
 
   try {
     const encoded = (await params).slug.join('/');
-    const decoded = decodeBase64Url(encoded);
+    const decoded = await resolveStreamUrl(encoded);
+    if (!decoded) return new NextResponse('Invalid key', { status: 400 });
 
     let response: Response | null = null;
     let usedUrl = decoded;
@@ -24,8 +29,10 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ slug
 
       const candidates = [channel.streamUrl, ...(channel.fallbackUrls || [])].filter(Boolean);
       for (const candidate of candidates) {
+        if (!validateUrlForProxy(candidate)) continue;
         try {
-          const r = await fetch(candidate, {
+          const urlObj = new URL(candidate);
+          const r = await fetch(urlObj, {
             headers: {
               'User-Agent': req.headers.get('User-Agent') || 'IPTVCloud-Proxy/1.0',
               Range: req.headers.get('Range') || '',
@@ -48,12 +55,16 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ slug
     } else {
       // Decoded is an URL
       usedUrl = decoded;
-      const url = new URL(usedUrl);
-      if (!['http:', 'https:', 'rtmp:'].includes(url.protocol)) {
+      if (!validateUrlForProxy(usedUrl)) {
+        return new NextResponse('Invalid or blocked URL', { status: 400 });
+      }
+
+      const urlObj = new URL(usedUrl);
+      if (!['http:', 'https:', 'rtmp:'].includes(urlObj.protocol)) {
         return new NextResponse('Invalid protocol', { status: 400 });
       }
 
-      response = await fetch(usedUrl, {
+      response = await fetch(urlObj, {
         headers: {
           'User-Agent': req.headers.get('User-Agent') || 'IPTVCloud-Proxy/1.0',
           Range: req.headers.get('Range') || '',

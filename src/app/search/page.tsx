@@ -6,6 +6,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { getProxiedImageUrl } from '@/lib/image-proxy';
 import VerifiedBadge from '@/components/VerifiedBadge';
+import { sanitizeUrl } from '@/lib/sanitize';
 
 type SearchResult = {
   channels: any[];
@@ -310,7 +311,7 @@ function Section({
         </h2>
         {count >= 4 && (
           <Link
-            href={link}
+            href={sanitizeUrl(link)}
             className="text-[9px] font-black text-cyan-400 hover:text-cyan-300 uppercase tracking-widest transition-colors"
           >
             View All →

@@ -7,7 +7,7 @@ import { isIP } from 'net';
 export function validateUrlForProxy(url: string): boolean {
   try {
     const parsed = new URL(url);
-    
+
     // Only allow http and https
     if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') {
       return false;
@@ -16,7 +16,12 @@ export function validateUrlForProxy(url: string): boolean {
     const hostname = parsed.hostname;
 
     // Block localhost
-    if (hostname === 'localhost' || hostname === '0.0.0.0' || hostname === '127.0.0.1' || hostname === '[::1]') {
+    if (
+      hostname === 'localhost' ||
+      hostname === '0.0.0.0' ||
+      hostname === '127.0.0.1' ||
+      hostname === '[::1]'
+    ) {
       return false;
     }
 
@@ -28,7 +33,7 @@ export function validateUrlForProxy(url: string): boolean {
     }
 
     // Additional checks can be added here (e.g. DNS rebinding protection)
-    
+
     return true;
   } catch (e) {
     return false;
@@ -41,7 +46,7 @@ function isPrivateIP(ip: string): boolean {
   // 172.16.0.0 – 172.31.255.255
   // 192.168.0.0 – 192.168.255.255
   // 169.254.0.0 - 169.254.255.255 (Link-local)
-  
+
   const parts = ip.split('.').map(Number);
   if (parts.length !== 4) return false;
 

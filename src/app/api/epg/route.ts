@@ -12,7 +12,8 @@ export async function GET(req: Request) {
 
   try {
     // Fetches from iptv-org EPG data
-    const res = await fetch(`https://iptv-org.github.io/api/guides/${site}.json`, {
+    const url = new URL(`https://iptv-org.github.io/api/guides/${site}.json`);
+    const res = await fetch(url, {
       next: { revalidate: 3600 }, // Cache for 1 hour
     });
 

@@ -4,7 +4,7 @@
 export function sanitizeUrl(url: string | null | undefined): string {
   if (!url) return '';
   const trimmed = url.trim();
-  
+
   // Allow relative URLs starting with /
   if (trimmed.startsWith('/') && !trimmed.startsWith('//')) {
     return trimmed;
