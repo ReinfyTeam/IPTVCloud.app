@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail 
+set -euo pipefail
 
 REPO_URL="https://github.com/iptv-org/epg"
 
@@ -35,7 +35,7 @@ cleanup() {
 }
 trap cleanup EXIT
 
-for cmd in git npm python3 grep sed sort wc xargs stdbuf; do
+for cmd in git npm python3 grep sed sort wc xargs; do
   command -v "$cmd" >/dev/null 2>&1 || {
     err "Missing command: $cmd"
     exit 1
@@ -92,7 +92,7 @@ run_site() {
   OUTPUT_FILE="$OUTPUT_DIR/${SITE_NAME}.xml"
   LOG_FILE="$LOG_DIR/${SITE_NAME}.log"
 
-  echo -e "${CYAN}[START]${NC} $SITE_NAME"
+  echo -e "${CYAN}[SITE]${NC} Downloading $SITE_NAME"
 
   CMD=(
     npm run grab --
@@ -105,20 +105,16 @@ run_site() {
 
   [[ -n "$PROXY_URL" ]] && CMD+=(--proxy="$PROXY_URL")
 
-  # LIVE OUTPUT TO CONSOLE + LOG FILE
-  if stdbuf -oL -eL "${CMD[@]}" 2>&1 \
-    | sed "s/^/[${SITE_NAME}] /" \
-    | tee "$LOG_FILE"
-  then
+  if "${CMD[@]}" > "$LOG_FILE" 2>&1; then
     if [[ -s "$OUTPUT_FILE" ]]; then
       BYTES=$(wc -c < "$OUTPUT_FILE")
       PROGS=$(grep -c '<programme' "$OUTPUT_FILE" 2>/dev/null || true)
-      echo -e "${GREEN}[DONE]${NC}  $SITE_NAME ($BYTES bytes / $PROGS programmes)"
+      echo -e "${GREEN}[OK]${NC}   $SITE_NAME ($BYTES bytes / $PROGS programmes)"
     else
       echo -e "${YELLOW}[EMPTY]${NC} $SITE_NAME"
     fi
   else
-    echo -e "${RED}[FAIL]${NC}  $SITE_NAME"
+    echo -e "${RED}[FAIL]${NC} $SITE_NAME (see logs/${SITE_NAME}.log)"
   fi
 }
 
