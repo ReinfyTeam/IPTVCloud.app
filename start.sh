@@ -75,8 +75,7 @@ for SITE_NAME in "${SITES[@]}"; do
   if npm run grab -- \
       --sites="$SITE_NAME" \
       --output="$OUTPUT_FILE" \
-      --maxConnections 20 \
-	  --log-level info
+      --maxConnections 20 
   then
       if [[ -s "$OUTPUT_FILE" ]]; then
           BYTES=$(wc -c < "$OUTPUT_FILE")
