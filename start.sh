@@ -78,6 +78,7 @@ for SITE_NAME in "${SITES[@]}"; do
   if npm run grab -- \
       --sites="$SITE_NAME" \
       --output="$OUTPUT_FILE" \
+	  --maxConnections 100 \
       >"$LOG_FILE" 2>&1
   then
       if [[ -s "$OUTPUT_FILE" ]]; then
