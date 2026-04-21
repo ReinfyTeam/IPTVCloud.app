@@ -18,6 +18,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+      </head>
       <body className="min-h-screen bg-slate-950 text-slate-100 antialiased flex flex-col">
         <ThemeProvider>
           <UserStatusGuard>
