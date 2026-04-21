@@ -18,6 +18,7 @@ type Props = {
   mode?: 'grid' | 'list';
   favorite?: boolean;
   onToggleFavorite?: (_channelId: string) => void;
+  priority?: boolean;
 };
 
 export default function ChannelCard({
@@ -27,6 +28,7 @@ export default function ChannelCard({
   mode = 'grid',
   favorite = false,
   onToggleFavorite,
+  priority = false,
 }: Props) {
   const [imgError, setImgError] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
@@ -319,7 +321,8 @@ export default function ChannelCard({
             alt={channel.name}
             width={320}
             height={180}
-            loading="lazy"
+            priority={priority}
+            loading={priority ? undefined : 'lazy'}
             onError={() => setImgError(true)}
             className="h-full w-full object-contain p-6 transition-transform duration-500 group-hover:scale-110"
           />

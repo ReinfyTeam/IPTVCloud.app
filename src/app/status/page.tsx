@@ -46,8 +46,10 @@ export default function StatusPage() {
   const [stats, setStats] = useState<StatData[]>([]);
   const [loading, setLoading] = useState(true);
   const [range, setRange] = useState<'hour' | 'month' | 'year'>('hour');
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
     Promise.all([
       fetch('/api/admin/incidents').then((r) => r.json()),
       fetch('/api/status/uptime').then((r) => r.json()),
@@ -159,42 +161,48 @@ export default function StatusPage() {
                 </span>
               </div>
               <div className="h-48 sm:h-64 w-full">
-                <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
-                  <AreaChart data={stats}>
-                    <defs>
-                      <linearGradient id="colorLatency" x1="0" y1="0" x2="0" y2="1">
-                        <stop offset="5%" stopColor="#06b6d4" stopOpacity={0.3} />
-                        <stop offset="95%" stopColor="#06b6d4" stopOpacity={0} />
-                      </linearGradient>
-                    </defs>
-                    <CartesianGrid strokeDasharray="3 3" stroke="#ffffff05" vertical={false} />
-                    <XAxis
-                      dataKey="time"
-                      tickFormatter={formatXAxis}
-                      stroke="#ffffff20"
-                      tick={{ fontSize: 9, fill: '#64748b' }}
-                    />
-                    <YAxis stroke="#ffffff20" tick={{ fontSize: 9, fill: '#64748b' }} width={30} />
-                    <Tooltip
-                      contentStyle={{
-                        backgroundColor: '#0f172a',
-                        border: '1px solid #ffffff10',
-                        borderRadius: '16px',
-                        fontSize: '10px',
-                      }}
-                      itemStyle={{ color: '#22d3ee', fontWeight: 'bold' }}
-                      labelFormatter={(label) => formatXAxis(label as string)}
-                    />
-                    <Area
-                      type="monotone"
-                      dataKey="latency"
-                      stroke="#06b6d4"
-                      fillOpacity={1}
-                      fill="url(#colorLatency)"
-                      isAnimationActive={false}
-                    />
-                  </AreaChart>
-                </ResponsiveContainer>
+                {mounted && (
+                  <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
+                    <AreaChart data={stats}>
+                      <defs>
+                        <linearGradient id="colorLatency" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="5%" stopColor="#06b6d4" stopOpacity={0.3} />
+                          <stop offset="95%" stopColor="#06b6d4" stopOpacity={0} />
+                        </linearGradient>
+                      </defs>
+                      <CartesianGrid strokeDasharray="3 3" stroke="#ffffff05" vertical={false} />
+                      <XAxis
+                        dataKey="time"
+                        tickFormatter={formatXAxis}
+                        stroke="#ffffff20"
+                        tick={{ fontSize: 9, fill: '#64748b' }}
+                      />
+                      <YAxis
+                        stroke="#ffffff20"
+                        tick={{ fontSize: 9, fill: '#64748b' }}
+                        width={30}
+                      />
+                      <Tooltip
+                        contentStyle={{
+                          backgroundColor: '#0f172a',
+                          border: '1px solid #ffffff10',
+                          borderRadius: '16px',
+                          fontSize: '10px',
+                        }}
+                        itemStyle={{ color: '#22d3ee', fontWeight: 'bold' }}
+                        labelFormatter={(label) => formatXAxis(label as string)}
+                      />
+                      <Area
+                        type="monotone"
+                        dataKey="latency"
+                        stroke="#06b6d4"
+                        fillOpacity={1}
+                        fill="url(#colorLatency)"
+                        isAnimationActive={false}
+                      />
+                    </AreaChart>
+                  </ResponsiveContainer>
+                )}
               </div>
             </div>
 
@@ -215,53 +223,59 @@ export default function StatusPage() {
                 </div>
               </div>
               <div className="h-48 sm:h-64 w-full">
-                <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
-                  <AreaChart data={stats}>
-                    <defs>
-                      <linearGradient id="colorViewers" x1="0" y1="0" x2="0" y2="1">
-                        <stop offset="5%" stopColor="#6366f1" stopOpacity={0.3} />
-                        <stop offset="95%" stopColor="#6366f1" stopOpacity={0} />
-                      </linearGradient>
-                      <linearGradient id="colorWatching" x1="0" y1="0" x2="0" y2="1">
-                        <stop offset="5%" stopColor="#ec4899" stopOpacity={0.3} />
-                        <stop offset="95%" stopColor="#ec4899" stopOpacity={0} />
-                      </linearGradient>
-                    </defs>
-                    <CartesianGrid strokeDasharray="3 3" stroke="#ffffff05" vertical={false} />
-                    <XAxis
-                      dataKey="time"
-                      tickFormatter={formatXAxis}
-                      stroke="#ffffff20"
-                      tick={{ fontSize: 9, fill: '#64748b' }}
-                    />
-                    <YAxis stroke="#ffffff20" tick={{ fontSize: 9, fill: '#64748b' }} width={30} />
-                    <Tooltip
-                      contentStyle={{
-                        backgroundColor: '#0f172a',
-                        border: '1px solid #ffffff10',
-                        borderRadius: '16px',
-                        fontSize: '10px',
-                      }}
-                      labelFormatter={(label) => formatXAxis(label as string)}
-                    />
-                    <Area
-                      type="monotone"
-                      dataKey="viewers"
-                      stroke="#6366f1"
-                      fillOpacity={1}
-                      fill="url(#colorViewers)"
-                      isAnimationActive={false}
-                    />
-                    <Area
-                      type="monotone"
-                      dataKey="watchingUsers"
-                      stroke="#ec4899"
-                      fillOpacity={1}
-                      fill="url(#colorWatching)"
-                      isAnimationActive={false}
-                    />
-                  </AreaChart>
-                </ResponsiveContainer>
+                {mounted && (
+                  <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
+                    <AreaChart data={stats}>
+                      <defs>
+                        <linearGradient id="colorViewers" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="5%" stopColor="#6366f1" stopOpacity={0.3} />
+                          <stop offset="95%" stopColor="#6366f1" stopOpacity={0} />
+                        </linearGradient>
+                        <linearGradient id="colorWatching" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="5%" stopColor="#ec4899" stopOpacity={0.3} />
+                          <stop offset="95%" stopColor="#ec4899" stopOpacity={0} />
+                        </linearGradient>
+                      </defs>
+                      <CartesianGrid strokeDasharray="3 3" stroke="#ffffff05" vertical={false} />
+                      <XAxis
+                        dataKey="time"
+                        tickFormatter={formatXAxis}
+                        stroke="#ffffff20"
+                        tick={{ fontSize: 9, fill: '#64748b' }}
+                      />
+                      <YAxis
+                        stroke="#ffffff20"
+                        tick={{ fontSize: 9, fill: '#64748b' }}
+                        width={30}
+                      />
+                      <Tooltip
+                        contentStyle={{
+                          backgroundColor: '#0f172a',
+                          border: '1px solid #ffffff10',
+                          borderRadius: '16px',
+                          fontSize: '10px',
+                        }}
+                        labelFormatter={(label) => formatXAxis(label as string)}
+                      />
+                      <Area
+                        type="monotone"
+                        dataKey="viewers"
+                        stroke="#6366f1"
+                        fillOpacity={1}
+                        fill="url(#colorViewers)"
+                        isAnimationActive={false}
+                      />
+                      <Area
+                        type="monotone"
+                        dataKey="watchingUsers"
+                        stroke="#ec4899"
+                        fillOpacity={1}
+                        fill="url(#colorWatching)"
+                        isAnimationActive={false}
+                      />
+                    </AreaChart>
+                  </ResponsiveContainer>
+                )}
               </div>
             </div>
 
@@ -282,40 +296,46 @@ export default function StatusPage() {
                 </div>
               </div>
               <div className="h-48 sm:h-64 w-full">
-                <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
-                  <BarChart data={stats}>
-                    <CartesianGrid strokeDasharray="3 3" stroke="#ffffff05" vertical={false} />
-                    <XAxis
-                      dataKey="time"
-                      tickFormatter={formatXAxis}
-                      stroke="#ffffff20"
-                      tick={{ fontSize: 9, fill: '#64748b' }}
-                    />
-                    <YAxis stroke="#ffffff20" tick={{ fontSize: 9, fill: '#64748b' }} width={30} />
-                    <Tooltip
-                      contentStyle={{
-                        backgroundColor: '#0f172a',
-                        border: '1px solid #ffffff10',
-                        borderRadius: '16px',
-                        fontSize: '10px',
-                      }}
-                      labelFormatter={(label) => formatXAxis(label as string)}
-                      cursor={{ fill: '#ffffff05' }}
-                    />
-                    <Bar
-                      dataKey="activeStreams"
-                      fill="#10b981"
-                      radius={[4, 4, 0, 0]}
-                      isAnimationActive={false}
-                    />
-                    <Bar
-                      dataKey="downStreams"
-                      fill="#ef4444"
-                      radius={[4, 4, 0, 0]}
-                      isAnimationActive={false}
-                    />
-                  </BarChart>
-                </ResponsiveContainer>
+                {mounted && (
+                  <ResponsiveContainer width="100%" height="100%" minWidth={0} minHeight={0}>
+                    <BarChart data={stats}>
+                      <CartesianGrid strokeDasharray="3 3" stroke="#ffffff05" vertical={false} />
+                      <XAxis
+                        dataKey="time"
+                        tickFormatter={formatXAxis}
+                        stroke="#ffffff20"
+                        tick={{ fontSize: 9, fill: '#64748b' }}
+                      />
+                      <YAxis
+                        stroke="#ffffff20"
+                        tick={{ fontSize: 9, fill: '#64748b' }}
+                        width={30}
+                      />
+                      <Tooltip
+                        contentStyle={{
+                          backgroundColor: '#0f172a',
+                          border: '1px solid #ffffff10',
+                          borderRadius: '16px',
+                          fontSize: '10px',
+                        }}
+                        labelFormatter={(label) => formatXAxis(label as string)}
+                        cursor={{ fill: '#ffffff05' }}
+                      />
+                      <Bar
+                        dataKey="activeStreams"
+                        fill="#10b981"
+                        radius={[4, 4, 0, 0]}
+                        isAnimationActive={false}
+                      />
+                      <Bar
+                        dataKey="downStreams"
+                        fill="#ef4444"
+                        radius={[4, 4, 0, 0]}
+                        isAnimationActive={false}
+                      />
+                    </BarChart>
+                  </ResponsiveContainer>
+                )}
               </div>
             </div>
           </div>
@@ -392,7 +412,7 @@ function IncidentCard({ incident }: { incident: Incident }) {
       </p>
 
       <div className="mt-6 flex flex-wrap gap-2">
-        {incident.tags.map((tag) => (
+        {(incident.tags || []).map((tag) => (
           <span
             key={tag}
             className="px-2 py-0.5 rounded bg-white/5 border border-white/5 text-[8px] font-black text-slate-500 uppercase tracking-widest"

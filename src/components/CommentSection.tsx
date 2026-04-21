@@ -4,10 +4,12 @@ import React, { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useAuthStore } from '@/store/auth-store';
-import EmojiPicker from './EmojiPicker';
+import dynamic from 'next/dynamic';
 import UserHoverCard from './UserHoverCard';
 import ReactMarkdown from 'react-markdown';
 import { getProxiedImageUrl } from '@/lib/image-proxy';
+
+const EmojiPicker = dynamic(() => import('./EmojiPicker'), { ssr: false });
 
 type CommentUser = {
   id: string;

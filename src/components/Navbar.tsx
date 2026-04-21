@@ -7,10 +7,11 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useAuthStore } from '@/store/auth-store';
 import { useNetworkStatus } from '@/hooks/use-network';
 import type { Channel } from '@/types';
+import dynamic from 'next/dynamic';
 import BrandLogo from './BrandLogo';
 import NavbarDropdown from './NavbarDropdown';
 import VerifiedBadge from './VerifiedBadge';
-import NotificationDropdown from './NotificationDropdown';
+const NotificationDropdown = dynamic(() => import('./NotificationDropdown'), { ssr: false });
 import { encodeBase64Url } from '@/lib/base64';
 import { getProxiedImageUrl } from '@/lib/image-proxy';
 

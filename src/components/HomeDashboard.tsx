@@ -54,6 +54,7 @@ export default function HomeDashboard({ allChannels }: { allChannels: Channel[] 
 }
 
 function GuestHome({ allChannels }: { allChannels: Channel[] }) {
+  const router = useRouter();
   const [randomChannel, setRandomChannel] = useState<Channel | null>(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
@@ -254,11 +255,12 @@ function GuestHome({ allChannels }: { allChannels: Channel[] }) {
             </Link>
           </div>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            {trending.map((ch) => (
+            {trending.map((ch, idx) => (
               <ChannelCard
                 key={ch.id}
                 channel={ch}
-                onSelect={(c) => (window.location.href = `/channel/${encodeBase64Url(c.id)}`)}
+                onSelect={(c) => router.push(`/channel/${encodeBase64Url(c.id)}`)}
+                priority={idx < 4}
               />
             ))}
           </div>
