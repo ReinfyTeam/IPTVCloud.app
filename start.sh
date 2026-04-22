@@ -191,7 +191,7 @@ extract_site_info() {
     | grep -v 'node_modules' \
     | sort -u || true)
 
-  url_count=$(echo "$all_urls" | grep -c 'https\?://' 2>/dev/null || echo 0)
+  url_count=$(echo "$all_urls" | grep -c 'https\?://' 2>/dev/null || true)
 
   # Prefer the explicit `url:` field for the base domain
   for f in "$site_dir/config.js" "$site_dir/index.js" "$site_dir/site.js"; do
@@ -309,20 +309,26 @@ classify_log() {
   local n_geo n_rate n_5xx n_404 n_ok n_total_lines
   n_geo=$(grep -ciE \
     "(403 Forbidden|451|geo.?block|not available in your (country|region)|access denied|region restricted)" \
-    "$log" 2>/dev/null || echo 0)
+    "$log" 2>/dev/null || true)
   n_rate=$(grep -ciE \
     "(429|rate.?limit|too many requests|quota exceeded|slow.?down)" \
-    "$log" 2>/dev/null || echo 0)
+    "$log" 2>/dev/null || true)
   n_5xx=$(grep -ciE \
     "(HTTP 5[0-9][0-9]|status.*5[0-9][0-9]|500 Internal|502 Bad|503 Service|504 Gateway)" \
-    "$log" 2>/dev/null || echo 0)
+    "$log" 2>/dev/null || true)
   n_404=$(grep -ciE \
     "(404 Not Found|HTTP 404|status.*404|no such channel|endpoint not found)" \
-    "$log" 2>/dev/null || echo 0)
+    "$log" 2>/dev/null || true)
   # Rough success-line count (lines that look like downloaded programme data)
   n_ok=$(grep -ciE \
     "(programme|<channel|fetched|downloaded|status.*200|HTTP 200)" \
-    "$log" 2>/dev/null || echo 0)
+    "$log" 2>/dev/null || true)
+
+  n_geo=${n_geo:-0}
+  n_rate=${n_rate:-0}
+  n_5xx=${n_5xx:-0}
+  n_404=${n_404:-0}
+  n_ok=${n_ok:-0}
 
   # Write URL-level stats into the log for post-mortem inspection
   printf "[CLASSIFY] geo=%d rate=%d 5xx=%d 404=%d ok=%d\n" \
