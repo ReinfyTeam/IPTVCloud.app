@@ -5,22 +5,23 @@ set -euo pipefail
 # IPTV-ORG EPG FAST MULTI-SITE XML GRABBER
 # ════════════════════════════════════════════════════════════════
 #
-# Speed optimisations vs original:
-#   • DELAY       0ms      (was 300ms) — no polite delay per URL
-#   • TIMEOUT     15 000ms (was 5 000ms) — slow servers get a real chance
-#   • MAX_CONN    50       (was 20) — more concurrent requests per grab
-#   • MAX_RETRIES 3        (was 10) — fewer wasted retry sleeps
-#   • BATCH_SIZE  10 sites per npm run (was 1) — 10x less Node startup overhead
+# Speed optimisations:
+#   DELAY       0ms       no per-URL polite delay
+#   TIMEOUT     15 000ms  slow servers get a real chance (avoids false retries)
+#   MAX_CONN    50        concurrent HTTP requests per grab run
+#   MAX_RETRIES 3         per site before giving up
+#   BATCH_SIZE  10        sites per npm run (cuts Node.js startup overhead 10x)
 #
 # Error handling:
-#   403  → geo-blocked; skip immediately, no retry
-#   404  → ignored per-URL; output with any data accepted as partial pass
-#   429 / rate-limit / bad-req → conn -= 1 per retry (floor MIN_CONN), backoff
-#   5xx  → linear backoff, retry
+#   403          → geo-blocked; skip immediately, never retry
+#   404 per-URL  → ignored; if output has data it is accepted as partial pass
+#   429 / rate-limit / bad-req → conn -= 1 per retry (floor MIN_CONN)
+#   5xx          → linear back-off, retry
 #
-# Live output:
-#   Results stream through a named FIFO so every worker prints as it finishes.
-#   Each site logs to  $LOG_DIR/<site>.log  with retry sub-logs preserved.
+# Parallelism:
+#   Each batch runs in a subshell via xargs -P.
+#   Workers append token lines to a shared results file protected by flock.
+#   The aggregator reads the results file once all workers are done.
 # ════════════════════════════════════════════════════════════════
 
 SCRIPT_START_TIME=$(date +%s)
@@ -39,33 +40,26 @@ SITES_MD="$WORK_DIR/SITES.md"
 
 PROXY_URL="${PROXY_URL:-}"
 
-# ── Grab tuning (all overridable via env) ───────────────────────
-DELAY="${DELAY:-0}"             # ms between requests  (0 = fastest)
-TIMEOUT="${TIMEOUT:-15000}"     # ms per HTTP request  (15 s)
-MAX_CONN="${MAX_CONN:-50}"      # concurrent conns per grab run
-MIN_CONN="${MIN_CONN:-1}"       # floor when backing off on rate-limits
-
-# ── Retry tuning ────────────────────────────────────────────────
+# ── Grab tuning (override via env) ──────────────────────────────
+DELAY="${DELAY:-0}"
+TIMEOUT="${TIMEOUT:-15000}"
+MAX_CONN="${MAX_CONN:-50}"
+MIN_CONN="${MIN_CONN:-1}"
 MAX_RETRIES="${MAX_RETRIES:-3}"
-RETRY_BACKOFF_BASE="${RETRY_BACKOFF_BASE:-2}"  # seconds; multiplied by attempt number
-
-# ── Batching ────────────────────────────────────────────────────
-# Sites per single `npm run grab` call — reduces Node.js startup overhead.
+RETRY_BACKOFF_BASE="${RETRY_BACKOFF_BASE:-2}"
 BATCH_SIZE="${BATCH_SIZE:-10}"
 
-# ── Dynamic Worker Detection ────────────────────────────────────
+# ── Dynamic worker count ─────────────────────────────────────────
 detect_workers() {
   local cpus mem_gb
   if   command -v nproc &>/dev/null;  then cpus=$(nproc)
   elif [[ -f /proc/cpuinfo ]];        then cpus=$(grep -c ^processor /proc/cpuinfo)
   else                                     cpus=2; fi
-
   if   [[ -f /proc/meminfo ]]; then
     mem_gb=$(awk '/MemTotal/{printf "%d",$2/1024/1024}' /proc/meminfo)
-  elif command -v free &>/dev/null; then
+  elif command -v free &>/dev/null;   then
     mem_gb=$(free -g | awk '/^Mem:/{print $2}')
   else mem_gb=4; fi
-
   local w=$(( cpus * 3 < mem_gb * 3 / 2 ? cpus * 3 : mem_gb * 3 / 2 ))
   (( w < 1  )) && w=1
   (( w > 32 )) && w=32
@@ -83,7 +77,6 @@ log()  { echo -e "${GREEN}[INFO]${NC}   $*"; }
 warn() { echo -e "${YELLOW}[WARN]${NC}   $*"; }
 err()  { echo -e "${RED}[ERR]${NC}    $*" >&2; }
 
-# ── Byte formatter ──────────────────────────────────────────────
 format_bytes() {
   local b="${1:-0}" r c
   if   (( b >= 1073741824 )); then r=$(awk "BEGIN{printf \"%.2f GB\",$b/1073741824}"); c='\033[0;32m'
@@ -98,17 +91,22 @@ elapsed_since() {
   local s=$(( $(date +%s) - $1 ))
   printf "%dm%02ds" $(( s/60 )) $(( s%60 ))
 }
+export -f elapsed_since
 
 # ── Cleanup ─────────────────────────────────────────────────────
 cleanup() {
-  [[ "${KEEP_REPO:-0}" != "1" && -d "$WORK_DIR" ]] && { log "Cleaning repo..."; rm -rf "$WORK_DIR"; }
-  [[ -n "${RESULT_FIFO:-}" && -p "$RESULT_FIFO" ]] && rm -f "$RESULT_FIFO"
+  [[ "${KEEP_REPO:-0}" != "1" && -d "$WORK_DIR" ]] && {
+    log "Cleaning repo..."
+    rm -rf "$WORK_DIR"
+  }
+  [[ -n "${RESULTS_FILE:-}" && -f "$RESULTS_FILE" ]] && rm -f "$RESULTS_FILE"
+  [[ -n "${LOCK_FILE:-}"    && -f "$LOCK_FILE"    ]] && rm -f "$LOCK_FILE"
 }
 trap cleanup EXIT
 
 # ── Dependency check ────────────────────────────────────────────
-for cmd in git npm python3 grep sed sort wc xargs awk mkfifo; do
-  command -v "$cmd" &>/dev/null || { err "Missing: $cmd"; exit 1; }
+for cmd in git npm python3 grep sed sort wc xargs awk flock; do
+  command -v "$cmd" &>/dev/null || { err "Missing dependency: $cmd"; exit 1; }
 done
 
 mkdir -p "$OUTPUT_DIR" "$LOG_DIR"
@@ -129,7 +127,6 @@ npm ci --silent
 
 # ── Read online sites ───────────────────────────────────────────
 log "Reading online providers from SITES.md..."
-
 mapfile -t ONLINE_SITES < <(
   grep '🟢' "$SITES_MD" \
   | sed -n 's#.*href="sites/\([^"]*\)".*🟢.*#\1#p' \
@@ -150,7 +147,12 @@ log "Found ${BOLD}$TOTAL${NC} sites → ${BOLD}$BATCH_COUNT${NC} batches of up t
 log "Workers: ${BOLD}$PARALLEL${NC}  |  Connections: ${BOLD}$MAX_CONN${NC}  |  Timeout: ${BOLD}${TIMEOUT}ms${NC}  |  Delay: ${BOLD}${DELAY}ms${NC}"
 echo ""
 
-# ── Export env for worker subshells ────────────────────────────
+# ── Shared results file (flock-protected writes from workers) ────
+RESULTS_FILE=$(mktemp)
+LOCK_FILE=$(mktemp)
+export RESULTS_FILE LOCK_FILE
+
+# ── Export everything workers need ──────────────────────────────
 export WORK_DIR OUTPUT_DIR LOG_DIR PROXY_URL \
        DELAY TIMEOUT MAX_CONN MIN_CONN \
        MAX_RETRIES RETRY_BACKOFF_BASE \
@@ -158,23 +160,32 @@ export WORK_DIR OUTPUT_DIR LOG_DIR PROXY_URL \
        GREEN YELLOW RED CYAN MAGENTA BOLD DIM NC
 
 # ════════════════════════════════════════════════════════════════
+# emit  — thread-safe write to shared results file
+# ════════════════════════════════════════════════════════════════
+emit() {
+  flock "$LOCK_FILE" bash -c "echo $(printf '%q' "$1") >> \"\$RESULTS_FILE\""
+}
+# We'll use a simpler approach: each worker writes to its own tmp file,
+# we cat them all at the end. Avoids flock complexity entirely.
+# Each batch gets: BATCH_TMP_DIR/<batch_id>.tok
+
+# ── Batch tmp dir ────────────────────────────────────────────────
+BATCH_TMP_DIR=$(mktemp -d)
+export BATCH_TMP_DIR
+
+# ════════════════════════════════════════════════════════════════
 # CLASSIFY LOG
-# Scans grab output and returns dominant error class.
-# Priority: GEO > RATELIMIT > 5XX > OK > 404_ONLY > ERROR
 # ════════════════════════════════════════════════════════════════
 classify_log() {
   local log="$1"
   local n_geo n_rate n_5xx n_404 n_ok
-
-  n_geo=$(grep -ciE  "(HTTP 403|403 Forbidden|geo.?block|not available in your (country|region)|access denied|region restricted)" "$log" 2>/dev/null || echo 0)
+  n_geo=$(grep  -ciE "(HTTP 403|403 Forbidden|geo.?block|not available in your (country|region)|access denied|region restricted)" "$log" 2>/dev/null || echo 0)
   n_rate=$(grep -ciE "(HTTP 429|429 Too Many|rate.?limit|too many requests|quota exceeded|slow.?down|bad request|400 Bad)" "$log" 2>/dev/null || echo 0)
-  n_5xx=$(grep -ciE  "(HTTP 5[0-9][0-9]|500 Internal|502 Bad|503 Service|504 Gateway)" "$log" 2>/dev/null || echo 0)
-  n_404=$(grep -ciE  "(HTTP 404|404 Not Found|no such channel|endpoint not found)" "$log" 2>/dev/null || echo 0)
-  n_ok=$(grep -ciE   "(<programme|<channel|fetched|downloaded|HTTP 200|status.*200)" "$log" 2>/dev/null || echo 0)
-
+  n_5xx=$(grep  -ciE "(HTTP 5[0-9][0-9]|500 Internal|502 Bad|503 Service|504 Gateway)" "$log" 2>/dev/null || echo 0)
+  n_404=$(grep  -ciE "(HTTP 404|404 Not Found|no such channel|endpoint not found)" "$log" 2>/dev/null || echo 0)
+  n_ok=$(grep   -ciE "(<programme|<channel|fetched|downloaded|HTTP 200|status.*200)" "$log" 2>/dev/null || echo 0)
   printf "[CLASSIFY] geo=%d rate=%d 5xx=%d 404=%d ok=%d\n" \
     "$n_geo" "$n_rate" "$n_5xx" "$n_404" "$n_ok" >> "$log"
-
   if   (( n_geo  > 0 )); then echo "GEO"
   elif (( n_rate > 0 )); then echo "RATELIMIT"
   elif (( n_5xx  > 0 )); then echo "5XX"
@@ -186,49 +197,45 @@ classify_log() {
 export -f classify_log
 
 # ════════════════════════════════════════════════════════════════
-# PARSE URL LOG  →  emit URLLOG tokens per URL line in grab output
+# PARSE URL LOG  →  URLLOG tokens
 # ════════════════════════════════════════════════════════════════
 parse_url_log() {
-  local site_name="$1" log_file="$2"
+  local site_name="$1" log_file="$2" tok_file="$3"
   [[ ! -f "$log_file" ]] && return
-
   while IFS= read -r line; do
     if echo "$line" | grep -qiE '[0-9]+ channel(s)? loaded'; then
       local n; n=$(echo "$line" | grep -oP '[0-9]+(?= channel)' || echo 0)
-      echo "URLLOG|${site_name}|loaded|${n}"
+      echo "URLLOG|${site_name}|loaded|${n}" >> "$tok_file"
       continue
     fi
-
     local url; url=$(echo "$line" | grep -oP 'https?://[^\s'"'"'",)]+' | head -1 || true)
     [[ -z "$url" ]] && continue
-
     local progs; progs=$(echo "$line" \
       | grep -oP '(\d+)\s*(prog(ram(me)?s?)?|item|event)' \
       | grep -oP '^\d+' | head -1 || echo 0)
     local lbytes; lbytes=$(echo "$line" \
       | grep -oP '(\d+)\s*byte' | grep -oP '^\d+' | head -1 || echo 0)
     local code; code=$(echo "$line" | grep -oP '\b(4\d\d|5\d\d)\b' | head -1 || true)
-
     if   echo "$line" | grep -qP '(?i)(✓|✔|\[ok\]|\bsuccess\b|\bfetched\b|\bdownloaded\b)'; then
-      echo "URLLOG|${site_name}|ok|${url}|${progs}|${lbytes}"
+      echo "URLLOG|${site_name}|ok|${url}|${progs}|${lbytes}" >> "$tok_file"
     elif echo "$line" | grep -qP '(?i)(✗|✘|\[err(or)?\]|\bfailed\b|\bno data\b)'; then
-      echo "URLLOG|${site_name}|fail|${url}|${code:-ERR}"
+      echo "URLLOG|${site_name}|fail|${url}|${code:-ERR}" >> "$tok_file"
     elif [[ -n "$code" ]]; then
-      echo "URLLOG|${site_name}|fail|${url}|HTTP_${code}"
+      echo "URLLOG|${site_name}|fail|${url}|HTTP_${code}" >> "$tok_file"
     elif echo "$line" | grep -qiE '(rate.?limit|too many|quota|geo.?block|forbidden|access denied)'; then
       local reason; reason=$(echo "$line" \
         | grep -oiP '(rate.?limit|too many requests|quota exceeded|geo.?block|forbidden|access denied)' \
         | head -1 | tr '[:lower:]' '[:upper:]' | tr ' ' '_')
-      echo "URLLOG|${site_name}|fail|${url}|${reason}"
+      echo "URLLOG|${site_name}|fail|${url}|${reason}" >> "$tok_file"
     else
-      echo "URLLOG|${site_name}|fetch|${url}|0|0"
+      echo "URLLOG|${site_name}|fetch|${url}|0|0" >> "$tok_file"
     fi
   done < "$log_file"
 }
 export -f parse_url_log
 
 # ════════════════════════════════════════════════════════════════
-# SITE HOST HELPER  — extract display hostname from site JS config
+# GET_SITE_HOST
 # ════════════════════════════════════════════════════════════════
 get_site_host() {
   local s="$1"
@@ -240,36 +247,31 @@ get_site_host() {
 export -f get_site_host
 
 # ════════════════════════════════════════════════════════════════
-# RUN_BATCH  — called by xargs with a space-separated list of sites
+# RUN_BATCH  — one call per batch, invoked by xargs
 #
-# Runs all sites in one `npm run grab` call, then evaluates each
-# site's output individually. Failed sites are retried together
-# (up to MAX_RETRIES) with their own per-site connection counters.
-#
-# Tokens emitted to stdout (piped into FIFO → aggregator):
-#   BATCH_START  |batch_id|count|sites_csv
-#   WORKER_START |site|host
-#   URLLOG       |site|status|url_or_N|progs|bytes
-#   RETRY        |site|attempt|max|reason|cur_conn|msg
-#   PASS         |site|bytes|progs|elapsed|attempts|cur_conn|host[|partial]
-#   SKIP         |site|GEO|elapsed|attempts|host
-#   FAIL         |site|reason|elapsed|attempts|cur_conn|host
+# Receives sites as individual arguments: run_batch site1 site2 ...
+# Writes all result tokens to  $BATCH_TMP_DIR/<batch_id>.tok
 # ════════════════════════════════════════════════════════════════
 run_batch() {
   local batch_sites=("$@")
+  [[ ${#batch_sites[@]} -eq 0 ]] && return
+
   local batch_id="${$}_${RANDOM}"
+  local tok_file="$BATCH_TMP_DIR/${batch_id}.tok"
+  touch "$tok_file"
+
   local sites_csv; sites_csv=$(IFS=','; echo "${batch_sites[*]}")
+  echo "BATCH_START|${batch_id}|${#batch_sites[@]}|${sites_csv}" >> "$tok_file"
 
-  echo "BATCH_START|${batch_id}|${#batch_sites[@]}|${sites_csv}"
-
-  # Per-site state
-  declare -A t_start t_conn t_attempts t_done
+  # Per-site state (plain vars, no assoc arrays — more portable in subshells)
+  # Stored as  t_start_SITENAME  t_conn_SITENAME  etc.
   local now; now=$(date +%s)
   for s in "${batch_sites[@]}"; do
-    t_start[$s]=$now
-    t_conn[$s]=$MAX_CONN
-    t_attempts[$s]=0
-    t_done[$s]=0
+    local safe; safe="${s//[^a-zA-Z0-9_]/_}"
+    eval "t_start_${safe}=${now}"
+    eval "t_conn_${safe}=${MAX_CONN}"
+    eval "t_attempts_${safe}=0"
+    eval "t_done_${safe}=0"
   done
 
   local global_round=0
@@ -277,35 +279,41 @@ run_batch() {
   while true; do
     global_round=$(( global_round + 1 ))
 
-    # Collect sites still pending
+    # Collect pending sites
     local pending=()
     for s in "${batch_sites[@]}"; do
-      [[ "${t_done[$s]}" == "0" ]] && pending+=("$s")
+      local safe; safe="${s//[^a-zA-Z0-9_]/_}"
+      local done_val; done_val=$(eval "echo \${t_done_${safe}}")
+      [[ "$done_val" == "0" ]] && pending+=("$s")
     done
     [[ ${#pending[@]} -eq 0 ]] && break
 
-    # Check if all remaining sites have exhausted retries
-    local all_done=1
+    # All exhausted?
+    local all_exhausted=1
     for s in "${pending[@]}"; do
-      (( t_attempts[$s] < MAX_RETRIES )) && { all_done=0; break; }
+      local safe; safe="${s//[^a-zA-Z0-9_]/_}"
+      local att; att=$(eval "echo \${t_attempts_${safe}}")
+      (( att < MAX_RETRIES )) && { all_exhausted=0; break; }
     done
-    [[ $all_done -eq 1 ]] && break
+    [[ $all_exhausted -eq 1 ]] && break
 
-    # Announce starts
+    # Announce each site starting
     for s in "${pending[@]}"; do
-      echo "WORKER_START|${s}|$(get_site_host "$s")"
+      echo "WORKER_START|${s}|$(get_site_host "$s")" >> "$tok_file"
     done
 
-    # Use the lowest connection count across pending sites
+    # Minimum conn across pending
     local min_conn=$MAX_CONN
     for s in "${pending[@]}"; do
-      (( t_conn[$s] < min_conn )) && min_conn=${t_conn[$s]}
+      local safe; safe="${s//[^a-zA-Z0-9_]/_}"
+      local c; c=$(eval "echo \${t_conn_${safe}}")
+      (( c < min_conn )) && min_conn=$c
     done
 
     local pending_csv; pending_csv=$(IFS=','; echo "${pending[*]}")
     local batch_log="$LOG_DIR/_batch_${batch_id}_r${global_round}.log"
 
-    # ── Run grab for all pending sites in one Node process ────────
+    # ── Run npm grab for all pending sites ────────────────────────
     npm run grab -- \
       --sites="$pending_csv" \
       --output="$OUTPUT_DIR/{site}.xml" \
@@ -315,59 +323,64 @@ run_batch() {
       ${PROXY_URL:+--proxy="$PROXY_URL"} \
       > "$batch_log" 2>&1 || true
 
-    # ── Evaluate each site's result ───────────────────────────────
+    # ── Evaluate each site ────────────────────────────────────────
     local any_needs_retry=0
-    local max_sleep_needed=0
+    local max_sleep=0
 
     for s in "${pending[@]}"; do
-      [[ "${t_done[$s]}" == "1" ]] && continue
+      local safe; safe="${s//[^a-zA-Z0-9_]/_}"
+      local done_val; done_val=$(eval "echo \${t_done_${safe}}")
+      [[ "$done_val" == "1" ]] && continue
 
-      t_attempts[$s]=$(( t_attempts[$s] + 1 ))
-      local attempt="${t_attempts[$s]}"
-      local cur_conn="${t_conn[$s]}"
-      local elapsed_fmt; elapsed_fmt=$(elapsed_since "${t_start[$s]}")
+      eval "t_attempts_${safe}=\$(( \${t_attempts_${safe}} + 1 ))"
+      local attempt; attempt=$(eval "echo \${t_attempts_${safe}}")
+      local cur_conn; cur_conn=$(eval "echo \${t_conn_${safe}}")
+      local t_s; t_s=$(eval "echo \${t_start_${safe}}")
+      local elapsed_fmt; elapsed_fmt=$(elapsed_since "$t_s")
+
       local output_file="$OUTPUT_DIR/${s}.xml"
       local site_log="$LOG_DIR/${s}.log"
       local retry_log="$LOG_DIR/${s}_retries/attempt_${attempt}.log"
       mkdir -p "$LOG_DIR/${s}_retries"
 
-      # Slice batch log to lines relevant to this site for classification
-      grep -iE "(${s})" "$batch_log" > "$retry_log" 2>/dev/null || true
+      # Slice batch log to lines mentioning this site name
+      grep -iE "(${s}|${s//./\\.})" "$batch_log" > "$retry_log" 2>/dev/null || true
       [[ ! -s "$retry_log" ]] && cp "$batch_log" "$retry_log"
       cp "$retry_log" "$site_log"
 
       local reason; reason=$(classify_log "$retry_log")
+      parse_url_log "$s" "$retry_log" "$tok_file"
 
-      # Emit URL-level detail
-      parse_url_log "$s" "$retry_log"
-
-      # ── 403 geo-block → skip, done ──────────────────────────────
+      # 403 geo → skip
       if [[ "$reason" == "GEO" ]]; then
-        t_done[$s]=1
-        echo "SKIP|${s}|GEO|${elapsed_fmt}|${attempt}|$(get_site_host "$s")"
+        eval "t_done_${safe}=1"
+        echo "SKIP|${s}|GEO|${elapsed_fmt}|${attempt}|$(get_site_host "$s")" >> "$tok_file"
         continue
       fi
 
-      # ── Output file has data → PASS ─────────────────────────────
+      # Output has data → PASS
       if [[ -s "$output_file" ]]; then
-        t_done[$s]=1
+        eval "t_done_${safe}=1"
         local bytes; bytes=$(wc -c < "$output_file")
         local progs; progs=$(grep -c '<programme' "$output_file" 2>/dev/null || echo 0)
+        local host; host=$(get_site_host "$s")
         local partial_flag=""
         grep -qiE "(HTTP 404|404 Not Found)" "$retry_log" 2>/dev/null \
           && partial_flag="|partial"
-        echo "PASS|${s}|${bytes}|${progs}|${elapsed_fmt}|${attempt}|${cur_conn}|$(get_site_host "$s")${partial_flag}"
+        echo "PASS|${s}|${bytes}|${progs}|${elapsed_fmt}|${attempt}|${cur_conn}|${host}${partial_flag}" \
+          >> "$tok_file"
         continue
       fi
 
-      # ── Retries exhausted → FAIL ─────────────────────────────────
+      # Retries exhausted → FAIL
       if (( attempt >= MAX_RETRIES )); then
-        t_done[$s]=1
-        echo "FAIL|${s}|${reason}|${elapsed_fmt}|${attempt}|${cur_conn}|$(get_site_host "$s")"
+        eval "t_done_${safe}=1"
+        echo "FAIL|${s}|${reason}|${elapsed_fmt}|${attempt}|${cur_conn}|$(get_site_host "$s")" \
+          >> "$tok_file"
         continue
       fi
 
-      # ── Schedule retry with backoff ──────────────────────────────
+      # Schedule retry with backoff
       any_needs_retry=1
       local sleep_secs msg
 
@@ -375,7 +388,7 @@ run_batch() {
         RATELIMIT)
           local new_conn=$(( cur_conn - 1 ))
           (( new_conn < MIN_CONN )) && new_conn=$MIN_CONN
-          t_conn[$s]=$new_conn
+          eval "t_conn_${safe}=${new_conn}"
           sleep_secs=$(( RETRY_BACKOFF_BASE * attempt ))
           (( sleep_secs > 30 )) && sleep_secs=30
           msg="rate-limited → conn=${new_conn}, wait ${sleep_secs}s"
@@ -383,7 +396,7 @@ run_batch() {
         5XX)
           sleep_secs=$(( RETRY_BACKOFF_BASE * attempt ))
           (( sleep_secs > 30 )) && sleep_secs=30
-          msg="5xx error → wait ${sleep_secs}s"
+          msg="5xx → wait ${sleep_secs}s"
           ;;
         404_ONLY)
           sleep_secs=$RETRY_BACKOFF_BASE
@@ -396,59 +409,59 @@ run_batch() {
           ;;
       esac
 
-      (( sleep_secs > max_sleep_needed )) && max_sleep_needed=$sleep_secs
-      echo "RETRY|${s}|${attempt}|${MAX_RETRIES}|${reason}|${t_conn[$s]}|${msg}"
+      (( sleep_secs > max_sleep )) && max_sleep=$sleep_secs
+      echo "RETRY|${s}|${attempt}|${MAX_RETRIES}|${reason}|${cur_conn}|${msg}" >> "$tok_file"
     done
 
-    # Sleep once for the longest backoff needed across all retrying sites
-    [[ $any_needs_retry -eq 1 && $max_sleep_needed -gt 0 ]] \
-      && sleep "$max_sleep_needed"
+    [[ $any_needs_retry -eq 1 && $max_sleep -gt 0 ]] && sleep "$max_sleep"
   done
 
-  # Safety net: emit FAIL for any site that fell through without a result
+  # Safety: emit FAIL for anything still marked undone
   for s in "${batch_sites[@]}"; do
-    if [[ "${t_done[$s]}" == "0" ]]; then
-      local elapsed_fmt; elapsed_fmt=$(elapsed_since "${t_start[$s]}")
-      echo "FAIL|${s}|EXHAUSTED|${elapsed_fmt}|${t_attempts[$s]}|${t_conn[$s]}|$(get_site_host "$s")"
+    local safe; safe="${s//[^a-zA-Z0-9_]/_}"
+    local done_val; done_val=$(eval "echo \${t_done_${safe}}")
+    if [[ "$done_val" == "0" ]]; then
+      local t_s; t_s=$(eval "echo \${t_start_${safe}}")
+      local elapsed_fmt; elapsed_fmt=$(elapsed_since "$t_s")
+      local att; att=$(eval "echo \${t_attempts_${safe}}")
+      local c; c=$(eval "echo \${t_conn_${safe}}")
+      echo "FAIL|${s}|EXHAUSTED|${elapsed_fmt}|${att}|${c}|$(get_site_host "$s")" >> "$tok_file"
     fi
   done
 }
 export -f run_batch
 
 # ════════════════════════════════════════════════════════════════
-# BUILD BATCH FILE & LAUNCH WORKERS VIA FIFO
+# BUILD BATCH ARG FILE
+# Each line = space-separated site names for one batch.
+# xargs -L1 passes each line as multiple args to run_batch.
 # ════════════════════════════════════════════════════════════════
+BATCH_ARG_FILE=$(mktemp)
 
-# One line per batch, sites space-separated
-BATCH_FILE=$(mktemp)
 batch_line=""
 count=0
 for site in "${SITES[@]}"; do
   batch_line+="${site} "
   count=$(( count + 1 ))
   if (( count % BATCH_SIZE == 0 )); then
-    echo "${batch_line% }" >> "$BATCH_FILE"
+    echo "${batch_line% }" >> "$BATCH_ARG_FILE"
     batch_line=""
   fi
 done
-[[ -n "$batch_line" ]] && echo "${batch_line% }" >> "$BATCH_FILE"
-
-# Named FIFO: workers write here, aggregator reads it
-RESULT_FIFO=$(mktemp -u)
-mkfifo "$RESULT_FIFO"
+[[ -n "${batch_line// }" ]] && echo "${batch_line% }" >> "$BATCH_ARG_FILE"
 
 log "Launching ${BOLD}$BATCH_COUNT${NC} batches across ${BOLD}$PARALLEL${NC} workers..."
 echo ""
 
-# Run all batches in background, redirect to FIFO
-(
-  xargs -L1 -P "$PARALLEL" bash -c 'run_batch $@' _ < "$BATCH_FILE"
-) >> "$RESULT_FIFO" &
-WORKERS_PID=$!
-rm -f "$BATCH_FILE"
+# ── Run all batches in parallel ──────────────────────────────────
+# xargs -L1   : feed one line at a time (one batch)
+# xargs splits the line on spaces → multiple args → run_batch site1 site2 ...
+# -P $PARALLEL: run up to $PARALLEL batches concurrently
+xargs -L1 -P "$PARALLEL" bash -c 'run_batch "$@"' _ < "$BATCH_ARG_FILE"
+rm -f "$BATCH_ARG_FILE"
 
 # ════════════════════════════════════════════════════════════════
-# LIVE AGGREGATOR  — reads FIFO, prints status, tallies results
+# AGGREGATOR  — read all token files, print results, tally
 # ════════════════════════════════════════════════════════════════
 PASS=0; FAIL=0; PARTIAL_PASS=0
 FAIL_GEO=0; FAIL_404=0; FAIL_RATE=0; FAIL_5XX=0; FAIL_OTHER=0
@@ -460,15 +473,17 @@ _cur_site=""; _cur_ok=0; _cur_fail=0; _cur_fetch=0; _cur_loaded=0
 _flush_url_stats() {
   if (( _cur_ok + _cur_fail + _cur_fetch + _cur_loaded > 0 )); then
     printf "           ${DIM}└─ loaded: %s ch  " "$_cur_loaded"
-    (( _cur_ok   > 0 )) && printf "${GREEN}✓ %d ok${NC}  "    "$_cur_ok"
-    (( _cur_fail > 0 )) && printf "${RED}✗ %d fail${NC}  "   "$_cur_fail"
-    (( _cur_fetch > 0 )) && printf "${DIM}~ %d pending${NC}"  "$_cur_fetch"
+    (( _cur_ok   > 0 )) && printf "${GREEN}✓ %d ok${NC}  "   "$_cur_ok"
+    (( _cur_fail > 0 )) && printf "${RED}✗ %d fail${NC}  "  "$_cur_fail"
+    (( _cur_fetch > 0 )) && printf "${DIM}~ %d pending${NC}" "$_cur_fetch"
     printf "${NC}\n"
   fi
   _cur_site=""; _cur_ok=0; _cur_fail=0; _cur_fetch=0; _cur_loaded=0
 }
 
-while IFS='|' read -r TOKEN F1 F2 F3 F4 F5 F6 F7 F8; do
+# Cat all token files in order and parse
+cat "$BATCH_TMP_DIR"/*.tok 2>/dev/null \
+| while IFS='|' read -r TOKEN F1 F2 F3 F4 F5 F6 F7 F8; do
   case "$TOKEN" in
 
     BATCH_START)
@@ -482,12 +497,9 @@ while IFS='|' read -r TOKEN F1 F2 F3 F4 F5 F6 F7 F8; do
     URLLOG)
       local_site="$F1"; local_status="$F2"
       local_url="$F3";  local_extra="${F4:-0}"; local_lbytes="${F5:-0}"
-
       if [[ "$_cur_site" != "$local_site" ]]; then
-        _flush_url_stats
-        _cur_site="$local_site"
+        _flush_url_stats; _cur_site="$local_site"
       fi
-
       case "$local_status" in
         ok)
           _cur_ok=$(( _cur_ok + 1 ))
@@ -498,7 +510,6 @@ while IFS='|' read -r TOKEN F1 F2 F3 F4 F5 F6 F7 F8; do
           ;;
         fail)
           _cur_fail=$(( _cur_fail + 1 ))
-          # 404s: counted but not printed (noise reduction)
           if [[ "${local_extra:-}" != "HTTP_404" && "${local_extra:-}" != "404" ]]; then
             printf "           ${DIM}│${NC} ${RED}✗${NC} %-65s  ${RED}%s${NC}\n" \
               "$local_url" "${local_extra:-ERR}"
@@ -524,8 +535,8 @@ while IFS='|' read -r TOKEN F1 F2 F3 F4 F5 F6 F7 F8; do
     PASS)
       _flush_url_stats
       PASS=$(( PASS + 1 ))
-      local_bytes="${F2:-0}";    local_progs="${F3:-0}"
-      local_elapsed="${F4:-}";   local_attempts="${F5:-1}"
+      local_bytes="${F2:-0}";  local_progs="${F3:-0}"
+      local_elapsed="${F4:-}"; local_attempts="${F5:-1}"
       local_conn="${F6:-$MAX_CONN}"; local_host="${F7:-}"
       local_partial="${F8:-}"
       TOTAL_BYTES=$(( TOTAL_BYTES + local_bytes ))
@@ -572,10 +583,10 @@ while IFS='|' read -r TOKEN F1 F2 F3 F4 F5 F6 F7 F8; do
       ;;
 
   esac
-done < "$RESULT_FIFO"
+done
 
-wait "$WORKERS_PID" || true
 _flush_url_stats
+rm -rf "$BATCH_TMP_DIR"
 
 # ── Generate content.json ───────────────────────────────────────
 echo ""
@@ -604,16 +615,16 @@ echo -e "${BOLD}─────────────────────�
 printf "  ${CYAN}Downloaded${NC}    : %s\n" "$(format_bytes "$TOTAL_BYTES")"
 printf "  ${CYAN}Programmes${NC}    : %d\n" "$TOTAL_PROGS"
 echo -e "${BOLD}──────────────────────────────────────────────${NC}"
-printf "  Workers       : %d (dynamic)\n"       "$PARALLEL"
-printf "  Batch size    : %d sites/run\n"        "$BATCH_SIZE"
-printf "  Batches       : %d\n"                  "$BATCH_COUNT"
-printf "  Max retries   : %d / site\n"           "$MAX_RETRIES"
-printf "  Total retries : %d\n"                  "$TOTAL_RETRIES"
-printf "  Connections   : %d → %d min\n"         "$MAX_CONN" "$MIN_CONN"
-printf "  Delay / Timeout: %dms / %dms\n"        "$DELAY" "$TIMEOUT"
-printf "  Elapsed       : %s\n"                  "$TOTAL_ELAPSED"
-printf "  Output        : %s\n"                  "$OUTPUT_DIR"
-printf "  Logs          : %s\n"                  "$LOG_DIR"
+printf "  Workers       : %d (dynamic)\n"      "$PARALLEL"
+printf "  Batch size    : %d sites/run\n"       "$BATCH_SIZE"
+printf "  Batches       : %d\n"                 "$BATCH_COUNT"
+printf "  Max retries   : %d / site\n"          "$MAX_RETRIES"
+printf "  Total retries : %d\n"                 "$TOTAL_RETRIES"
+printf "  Connections   : %d → %d min\n"        "$MAX_CONN" "$MIN_CONN"
+printf "  Delay/Timeout : %dms / %dms\n"        "$DELAY" "$TIMEOUT"
+printf "  Elapsed       : %s\n"                 "$TOTAL_ELAPSED"
+printf "  Output        : %s\n"                 "$OUTPUT_DIR"
+printf "  Logs          : %s\n"                 "$LOG_DIR"
 echo -e "${BOLD}══════════════════════════════════════════════${NC}"
 
 if (( ${#FAIL_LIST[@]} > 0 )); then
