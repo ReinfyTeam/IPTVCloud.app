@@ -41,8 +41,7 @@ detect_workers() {
   elif command -v free &>/dev/null;   then
     mem_gb=$(free -g | awk '/^Mem:/{print $2}')
   else mem_gb=4; fi
-  # Sanitize: ensure non-empty integers
-  cpus=$(printf '%d' "${cpus:-2}" 2>/dev/null) || cpus=2
+  cpus=$(printf '%d'   "${cpus:-2}"   2>/dev/null) || cpus=2
   mem_gb=$(printf '%d' "${mem_gb:-4}" 2>/dev/null) || mem_gb=4
   (( cpus   < 1 )) && cpus=1
   (( mem_gb < 1 )) && mem_gb=1
@@ -84,13 +83,12 @@ cleanup() {
     log "Cleaning repo..."
     rm -rf "$WORK_DIR"
   }
-  [[ -n "${BATCH_TMP_DIR:-}" && -d "$BATCH_TMP_DIR" ]] && rm -rf "$BATCH_TMP_DIR"
   [[ -n "${WORKER_SCRIPT:-}" && -f "$WORKER_SCRIPT" ]] && rm -f "$WORKER_SCRIPT"
 }
 trap cleanup EXIT
 
 # ── Dependency check ────────────────────────────────────────────
-for cmd in git npm python3 grep sed sort wc xargs awk flock; do
+for cmd in git npm python3 grep sed sort wc xargs awk; do
   command -v "$cmd" &>/dev/null || { err "Missing dependency: $cmd"; exit 1; }
 done
 
@@ -132,45 +130,34 @@ log "Found ${BOLD}$TOTAL${NC} sites → ${BOLD}$BATCH_COUNT${NC} batches of up t
 log "Workers: ${BOLD}$PARALLEL${NC}  |  Connections: ${BOLD}$MAX_CONN${NC}  |  Timeout: ${BOLD}${TIMEOUT}ms${NC}  |  Delay: ${BOLD}${DELAY}ms${NC}"
 echo ""
 
-# ── Batch tmp dir ────────────────────────────────────────────────
-BATCH_TMP_DIR=$(mktemp -d)
-
 # ════════════════════════════════════════════════════════════════
 # WORKER SCRIPT
-# Written to a temp file so xargs subshells source it directly.
-# This avoids `export -f`, which encodes functions as env vars
-# (BASH_FUNC_name%%) and causes GitHub Actions' environment file
-# parser to crash with "printf: invalid number" errors.
+# Written to a temp file; xargs subshells execute it directly.
+# All output goes to stdout — no tok files, no flock.
+# Individual echo calls are atomic under PIPE_BUF (4 KB) so lines
+# from concurrent workers never interleave.
 # ════════════════════════════════════════════════════════════════
 WORKER_SCRIPT=$(mktemp /tmp/epg_worker_XXXXXX.sh)
 chmod +x "$WORKER_SCRIPT"
 
 cat > "$WORKER_SCRIPT" << 'WORKER_EOF'
 #!/usr/bin/env bash
-# ── All helper functions defined inline; no export -f needed ────
-
-format_bytes() {
-  local b="${1:-0}" r c
-  if   (( b >= 1073741824 )); then r=$(awk "BEGIN{printf \"%.2f GB\",$b/1073741824}"); c='\033[0;32m'
-  elif (( b >= 1048576    )); then r=$(awk "BEGIN{printf \"%.2f MB\",$b/1048576}");    c='\033[0;36m'
-  elif (( b >= 1024       )); then r=$(awk "BEGIN{printf \"%.1f KB\",$b/1024}");       c='\033[0;37m'
-  else r="${b} B"; c='\033[2m'; fi
-  printf "${c}%s\033[0m" "$r"
-}
 
 elapsed_since() {
   local s=$(( $(date +%s) - $1 ))
   printf "%dm%02ds" $(( s/60 )) $(( s%60 ))
 }
 
+# grep -c outputs "0" AND exits 1 on zero matches, so `|| echo 0`
+# produces "0\n0". Use `|| true` + ${:-0} to get a clean integer.
 classify_log() {
   local log="$1"
   local n_geo n_rate n_5xx n_404 n_ok
-  n_geo=$(grep  -ciE "(HTTP 403|403 Forbidden|geo.?block|not available in your (country|region)|access denied|region restricted)" "$log" 2>/dev/null || echo 0)
-  n_rate=$(grep -ciE "(HTTP 429|429 Too Many|rate.?limit|too many requests|quota exceeded|slow.?down|bad request|400 Bad)" "$log" 2>/dev/null || echo 0)
-  n_5xx=$(grep  -ciE "(HTTP 5[0-9][0-9]|500 Internal|502 Bad|503 Service|504 Gateway)" "$log" 2>/dev/null || echo 0)
-  n_404=$(grep  -ciE "(HTTP 404|404 Not Found|no such channel|endpoint not found)" "$log" 2>/dev/null || echo 0)
-  n_ok=$(grep   -ciE "(<programme|<channel|fetched|downloaded|HTTP 200|status.*200)" "$log" 2>/dev/null || echo 0)
+  n_geo=$(grep  -ciE "(HTTP 403|403 Forbidden|geo.?block|not available in your (country|region)|access denied|region restricted)" "$log" 2>/dev/null || true); n_geo=${n_geo:-0}
+  n_rate=$(grep -ciE "(HTTP 429|429 Too Many|rate.?limit|too many requests|quota exceeded|slow.?down|bad request|400 Bad)"          "$log" 2>/dev/null || true); n_rate=${n_rate:-0}
+  n_5xx=$(grep  -ciE "(HTTP 5[0-9][0-9]|500 Internal|502 Bad|503 Service|504 Gateway)"                                             "$log" 2>/dev/null || true); n_5xx=${n_5xx:-0}
+  n_404=$(grep  -ciE "(HTTP 404|404 Not Found|no such channel|endpoint not found)"                                                  "$log" 2>/dev/null || true); n_404=${n_404:-0}
+  n_ok=$(grep   -ciE "(<programme|<channel|fetched|downloaded|HTTP 200|status.*200)"                                                "$log" 2>/dev/null || true); n_ok=${n_ok:-0}
   printf "[CLASSIFY] geo=%d rate=%d 5xx=%d 404=%d ok=%d\n" \
     "$n_geo" "$n_rate" "$n_5xx" "$n_404" "$n_ok" >> "$log"
   if   (( n_geo  > 0 )); then echo "GEO"
@@ -182,36 +169,34 @@ classify_log() {
   fi
 }
 
+# Emits URLLOG| tokens to stdout (no tok file arg needed).
 parse_url_log() {
-  local site_name="$1" log_file="$2" tok_file="$3"
+  local site_name="$1" log_file="$2"
   [[ ! -f "$log_file" ]] && return
   while IFS= read -r line; do
     if echo "$line" | grep -qiE '[0-9]+ channel(s)? loaded'; then
-      local n; n=$(echo "$line" | grep -oP '[0-9]+(?= channel)' || echo 0)
-      echo "URLLOG|${site_name}|loaded|${n}" >> "$tok_file"
+      local n; n=$(echo "$line" | grep -oP '[0-9]+(?= channel)' || true); n=${n:-0}
+      echo "URLLOG|${site_name}|loaded|${n}"
       continue
     fi
     local url; url=$(echo "$line" | grep -oP 'https?://[^\s'"'"'",)]+' | head -1 || true)
     [[ -z "$url" ]] && continue
-    local progs; progs=$(echo "$line" \
-      | grep -oP '(\d+)\s*(prog(ram(me)?s?)?|item|event)' \
-      | grep -oP '^\d+' | head -1 || echo 0)
-    local lbytes; lbytes=$(echo "$line" \
-      | grep -oP '(\d+)\s*byte' | grep -oP '^\d+' | head -1 || echo 0)
+    local progs; progs=$(echo "$line" | grep -oP '(\d+)\s*(prog(ram(me)?s?)?|item|event)' | grep -oP '^\d+' | head -1 || true); progs=${progs:-0}
+    local lbytes; lbytes=$(echo "$line" | grep -oP '(\d+)\s*byte' | grep -oP '^\d+' | head -1 || true); lbytes=${lbytes:-0}
     local code; code=$(echo "$line" | grep -oP '\b(4\d\d|5\d\d)\b' | head -1 || true)
     if   echo "$line" | grep -qP '(?i)(✓|✔|\[ok\]|\bsuccess\b|\bfetched\b|\bdownloaded\b)'; then
-      echo "URLLOG|${site_name}|ok|${url}|${progs}|${lbytes}" >> "$tok_file"
+      echo "URLLOG|${site_name}|ok|${url}|${progs}|${lbytes}"
     elif echo "$line" | grep -qP '(?i)(✗|✘|\[err(or)?\]|\bfailed\b|\bno data\b)'; then
-      echo "URLLOG|${site_name}|fail|${url}|${code:-ERR}" >> "$tok_file"
+      echo "URLLOG|${site_name}|fail|${url}|${code:-ERR}"
     elif [[ -n "$code" ]]; then
-      echo "URLLOG|${site_name}|fail|${url}|HTTP_${code}" >> "$tok_file"
+      echo "URLLOG|${site_name}|fail|${url}|HTTP_${code}"
     elif echo "$line" | grep -qiE '(rate.?limit|too many|quota|geo.?block|forbidden|access denied)'; then
       local reason; reason=$(echo "$line" \
         | grep -oiP '(rate.?limit|too many requests|quota exceeded|geo.?block|forbidden|access denied)' \
         | head -1 | tr '[:lower:]' '[:upper:]' | tr ' ' '_')
-      echo "URLLOG|${site_name}|fail|${url}|${reason}" >> "$tok_file"
+      echo "URLLOG|${site_name}|fail|${url}|${reason}"
     else
-      echo "URLLOG|${site_name}|fetch|${url}|0|0" >> "$tok_file"
+      echo "URLLOG|${site_name}|fetch|${url}|0|0"
     fi
   done < "$log_file"
 }
@@ -224,19 +209,15 @@ get_site_host() {
     || echo "$s"
 }
 
-# ════════════════════════════════════════════════════════════════
-# RUN_BATCH
-# ════════════════════════════════════════════════════════════════
+# ── RUN_BATCH ────────────────────────────────────────────────────
+# All token lines go to stdout.
 run_batch() {
   local batch_sites=("$@")
   [[ ${#batch_sites[@]} -eq 0 ]] && return
 
   local batch_id="${$}_${RANDOM}"
-  local tok_file="$BATCH_TMP_DIR/${batch_id}.tok"
-  touch "$tok_file"
-
   local sites_csv; sites_csv=$(IFS=','; echo "${batch_sites[*]}")
-  echo "BATCH_START|${batch_id}|${#batch_sites[@]}|${sites_csv}" >> "$tok_file"
+  echo "BATCH_START|${batch_id}|${#batch_sites[@]}|${sites_csv}"
 
   local now; now=$(date +%s)
   for s in "${batch_sites[@]}"; do
@@ -269,7 +250,7 @@ run_batch() {
     [[ $all_exhausted -eq 1 ]] && break
 
     for s in "${pending[@]}"; do
-      echo "WORKER_START|${s}|$(get_site_host "$s")" >> "$tok_file"
+      echo "WORKER_START|${s}|$(get_site_host "$s")"
     done
 
     local min_conn=$MAX_CONN
@@ -291,8 +272,7 @@ run_batch() {
       ${PROXY_URL:+--proxy="$PROXY_URL"} \
       > "$batch_log" 2>&1 || true
 
-    local any_needs_retry=0
-    local max_sleep=0
+    local any_needs_retry=0 max_sleep=0
 
     for s in "${pending[@]}"; do
       local safe; safe="${s//[^a-zA-Z0-9_]/_}"
@@ -315,31 +295,28 @@ run_batch() {
       cp "$retry_log" "$site_log"
 
       local reason; reason=$(classify_log "$retry_log")
-      parse_url_log "$s" "$retry_log" "$tok_file"
+      parse_url_log "$s" "$retry_log"
 
       if [[ "$reason" == "GEO" ]]; then
         eval "t_done_${safe}=1"
-        echo "SKIP|${s}|GEO|${elapsed_fmt}|${attempt}|$(get_site_host "$s")" >> "$tok_file"
+        echo "SKIP|${s}|GEO|${elapsed_fmt}|${attempt}|$(get_site_host "$s")"
         continue
       fi
 
       if [[ -s "$output_file" ]]; then
         eval "t_done_${safe}=1"
-        local bytes; bytes=$(wc -c < "$output_file")
-        local progs; progs=$(grep -c '<programme' "$output_file" 2>/dev/null || echo 0)
+        local bytes; bytes=$(wc -c < "$output_file"); bytes=${bytes//[[:space:]]/}; bytes=${bytes:-0}
+        local progs; progs=$(grep -c '<programme' "$output_file" 2>/dev/null || true); progs=${progs:-0}
         local host; host=$(get_site_host "$s")
         local partial_flag=""
-        grep -qiE "(HTTP 404|404 Not Found)" "$retry_log" 2>/dev/null \
-          && partial_flag="|partial"
-        echo "PASS|${s}|${bytes}|${progs}|${elapsed_fmt}|${attempt}|${cur_conn}|${host}${partial_flag}" \
-          >> "$tok_file"
+        grep -qiE "(HTTP 404|404 Not Found)" "$retry_log" 2>/dev/null && partial_flag="|partial"
+        echo "PASS|${s}|${bytes}|${progs}|${elapsed_fmt}|${attempt}|${cur_conn}|${host}${partial_flag}"
         continue
       fi
 
       if (( attempt >= MAX_RETRIES )); then
         eval "t_done_${safe}=1"
-        echo "FAIL|${s}|${reason}|${elapsed_fmt}|${attempt}|${cur_conn}|$(get_site_host "$s")" \
-          >> "$tok_file"
+        echo "FAIL|${s}|${reason}|${elapsed_fmt}|${attempt}|${cur_conn}|$(get_site_host "$s")"
         continue
       fi
 
@@ -372,12 +349,13 @@ run_batch() {
       esac
 
       (( sleep_secs > max_sleep )) && max_sleep=$sleep_secs
-      echo "RETRY|${s}|${attempt}|${MAX_RETRIES}|${reason}|${cur_conn}|${msg}" >> "$tok_file"
+      echo "RETRY|${s}|${attempt}|${MAX_RETRIES}|${reason}|${cur_conn}|${msg}"
     done
 
     [[ $any_needs_retry -eq 1 && $max_sleep -gt 0 ]] && sleep "$max_sleep"
   done
 
+  # Safety net: anything still undone → FAIL
   for s in "${batch_sites[@]}"; do
     local safe; safe="${s//[^a-zA-Z0-9_]/_}"
     local done_val; done_val=$(eval "echo \${t_done_${safe}}")
@@ -386,12 +364,11 @@ run_batch() {
       local elapsed_fmt; elapsed_fmt=$(elapsed_since "$t_s")
       local att; att=$(eval "echo \${t_attempts_${safe}}")
       local c; c=$(eval "echo \${t_conn_${safe}}")
-      echo "FAIL|${s}|EXHAUSTED|${elapsed_fmt}|${att}|${c}|$(get_site_host "$s")" >> "$tok_file"
+      echo "FAIL|${s}|EXHAUSTED|${elapsed_fmt}|${att}|${c}|$(get_site_host "$s")"
     fi
   done
 }
 
-# ── Entry point ──────────────────────────────────────────────────
 run_batch "$@"
 WORKER_EOF
 
@@ -399,6 +376,7 @@ WORKER_EOF
 # BUILD BATCH ARG FILE
 # ════════════════════════════════════════════════════════════════
 BATCH_ARG_FILE=$(mktemp)
+trap 'rm -f "$BATCH_ARG_FILE"' EXIT
 
 batch_line=""
 count=0
@@ -415,30 +393,10 @@ done
 log "Launching ${BOLD}$BATCH_COUNT${NC} batches across ${BOLD}$PARALLEL${NC} workers..."
 echo ""
 
-# ── Run all batches in parallel ──────────────────────────────────
-# Pass env vars explicitly to each subshell via `env`.
-# No export -f: functions live in the worker script file instead,
-# so GitHub Actions' environment parser never sees them.
-xargs -L1 -P "$PARALLEL" \
-  env \
-    WORK_DIR="$WORK_DIR" \
-    OUTPUT_DIR="$OUTPUT_DIR" \
-    LOG_DIR="$LOG_DIR" \
-    PROXY_URL="${PROXY_URL:-}" \
-    DELAY="$DELAY" \
-    TIMEOUT="$TIMEOUT" \
-    MAX_CONN="$MAX_CONN" \
-    MIN_CONN="$MIN_CONN" \
-    MAX_RETRIES="$MAX_RETRIES" \
-    RETRY_BACKOFF_BASE="$RETRY_BACKOFF_BASE" \
-    BATCH_TMP_DIR="$BATCH_TMP_DIR" \
-    SCRIPT_START_TIME="$SCRIPT_START_TIME" \
-  bash "$WORKER_SCRIPT" < "$BATCH_ARG_FILE"
-
-rm -f "$BATCH_ARG_FILE"
-
 # ════════════════════════════════════════════════════════════════
 # AGGREGATOR
+# Process substitution `< <(xargs ...)` keeps the while loop in
+# the current shell so PASS/FAIL/totals are visible to the summary.
 # ════════════════════════════════════════════════════════════════
 PASS=0; FAIL=0; PARTIAL_PASS=0
 FAIL_GEO=0; FAIL_404=0; FAIL_RATE=0; FAIL_5XX=0; FAIL_OTHER=0
@@ -452,14 +410,13 @@ _flush_url_stats() {
     printf "           ${DIM}└─ loaded: %s ch  " "$_cur_loaded"
     (( _cur_ok   > 0 )) && printf "${GREEN}✓ %d ok${NC}  "   "$_cur_ok"
     (( _cur_fail > 0 )) && printf "${RED}✗ %d fail${NC}  "  "$_cur_fail"
-    (( _cur_fetch > 0 )) && printf "${DIM}~ %d pending${NC}" "$_cur_fetch"
+    (( _cur_fetch > 0)) && printf "${DIM}~ %d pending${NC}" "$_cur_fetch"
     printf "${NC}\n"
   fi
   _cur_site=""; _cur_ok=0; _cur_fail=0; _cur_fetch=0; _cur_loaded=0
 }
 
-cat "$BATCH_TMP_DIR"/*.tok 2>/dev/null \
-| while IFS='|' read -r TOKEN F1 F2 F3 F4 F5 F6 F7 F8; do
+while IFS='|' read -r TOKEN F1 F2 F3 F4 F5 F6 F7 F8; do
   case "$TOKEN" in
 
     BATCH_START)
@@ -559,10 +516,24 @@ cat "$BATCH_TMP_DIR"/*.tok 2>/dev/null \
       ;;
 
   esac
-done
+done < <(
+  xargs -L1 -P "$PARALLEL" \
+    env \
+      WORK_DIR="$WORK_DIR" \
+      OUTPUT_DIR="$OUTPUT_DIR" \
+      LOG_DIR="$LOG_DIR" \
+      PROXY_URL="${PROXY_URL:-}" \
+      DELAY="$DELAY" \
+      TIMEOUT="$TIMEOUT" \
+      MAX_CONN="$MAX_CONN" \
+      MIN_CONN="$MIN_CONN" \
+      MAX_RETRIES="$MAX_RETRIES" \
+      RETRY_BACKOFF_BASE="$RETRY_BACKOFF_BASE" \
+      SCRIPT_START_TIME="$SCRIPT_START_TIME" \
+    bash "$WORKER_SCRIPT" < "$BATCH_ARG_FILE"
+)
 
 _flush_url_stats
-rm -rf "$BATCH_TMP_DIR"
 
 # ── Generate content.json ───────────────────────────────────────
 echo ""
