@@ -45,7 +45,7 @@ fbytes() {
 
 cleanup() {
     rm -f "$WORKER"
-}
+} 
 trap cleanup EXIT
 
 mkdir -p "$OUT_DIR"
