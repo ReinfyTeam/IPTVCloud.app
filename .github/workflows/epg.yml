@@ -26,6 +26,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Required for auto-commit to work correctly on some triggers
+          persist-credentials: false 
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -50,6 +53,12 @@ jobs:
         run: |
           chmod +x ./start.sh
           ./start.sh
+
+      - name: Setup Git LFS
+        run: |
+          git lfs install
+          git lfs track "sites/*.xml"
+          git add .gitattributes
 
       - name: Commit updated EPG contents
         uses: stefanzweifel/git-auto-commit-action@v5
