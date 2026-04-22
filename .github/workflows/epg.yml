@@ -53,6 +53,7 @@ jobs:
         run: |
           chmod +x ./start.sh
           ./start.sh
+          python3 content.py ./sites/ ./content.json
 
       - name: Setup Git LFS
         run: |
