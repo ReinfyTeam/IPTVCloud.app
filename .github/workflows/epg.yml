@@ -53,7 +53,7 @@ jobs:
         run: |
           chmod +x ./start.sh
           ./start.sh
-          python3 content.py ./sites/ ./content.json
+          python3 split_xml.py ./sites/
 
       - name: Setup Git LFS
         run: |
