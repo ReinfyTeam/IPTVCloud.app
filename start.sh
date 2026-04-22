@@ -24,12 +24,12 @@ SITES_MD="$WORK_DIR/SITES.md"
 PROXY_URL="${PROXY_URL:-}"
 
 DELAY="${DELAY:-0}"
-TIMEOUT="${TIMEOUT:-15000}"
+TIMEOUT="${TIMEOUT:-0}"
 MAX_CONN="${MAX_CONN:-50}"
-MIN_CONN="${MIN_CONN:-1}"
+MIN_CONN="${MIN_CONN:-10}"
 MAX_RETRIES="${MAX_RETRIES:-3}"
 RETRY_BACKOFF_BASE="${RETRY_BACKOFF_BASE:-2}"
-BATCH_SIZE="${BATCH_SIZE:-10}"
+BATCH_SIZE="${BATCH_SIZE:-20}"
 
 # ── Dynamic workers ─────────────────────────────────────────────
 detect_workers() {
