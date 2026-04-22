@@ -8,7 +8,7 @@ set -euo pipefail
 
 SCRIPT_START_TIME=$(date +%s)
 
-# ── Config ─────────────────────────────────────────────────────
+# ── Config ───────────────────────────────────────────────────── 
 REPO_URL="https://github.com/iptv-org/epg"
 
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
