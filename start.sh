@@ -28,6 +28,7 @@ log(){ echo -e "[$(date +%H:%M:%S)] ${GREEN}✅${NC} $*"; }
 
 elapsed() {
     local sec=$(( $(date +%s) - $1 ))
+    [[ -z "$sec" ]] && sec=0
     printf "%ss" "$sec"
 }
 
