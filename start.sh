@@ -4,25 +4,6 @@ set -euo pipefail
 # ════════════════════════════════════════════════════════════════
 # IPTV-ORG EPG FAST MULTI-SITE XML GRABBER
 # ════════════════════════════════════════════════════════════════
-#
-# Speed optimisations:
-#   DELAY       0ms       no per-URL polite delay
-#   TIMEOUT     15 000ms  slow servers get a real chance (avoids false retries)
-#   MAX_CONN    50        concurrent HTTP requests per grab run
-#   MAX_RETRIES 3         per site before giving up
-#   BATCH_SIZE  10        sites per npm run (cuts Node.js startup overhead 10x)
-#
-# Error handling:
-#   403          → geo-blocked; skip immediately, never retry
-#   404 per-URL  → ignored; if output has data it is accepted as partial pass
-#   429 / rate-limit / bad-req → conn -= 1 per retry (floor MIN_CONN)
-#   5xx          → linear back-off, retry
-#
-# Parallelism:
-#   Each batch runs in a subshell via xargs -P.
-#   Workers append token lines to a shared results file protected by flock.
-#   The aggregator reads the results file once all workers are done.
-# ════════════════════════════════════════════════════════════════
 
 SCRIPT_START_TIME=$(date +%s)
 
@@ -60,6 +41,11 @@ detect_workers() {
   elif command -v free &>/dev/null;   then
     mem_gb=$(free -g | awk '/^Mem:/{print $2}')
   else mem_gb=4; fi
+  # Sanitize: ensure non-empty integers
+  cpus=$(printf '%d' "${cpus:-2}" 2>/dev/null) || cpus=2
+  mem_gb=$(printf '%d' "${mem_gb:-4}" 2>/dev/null) || mem_gb=4
+  (( cpus   < 1 )) && cpus=1
+  (( mem_gb < 1 )) && mem_gb=1
   local w=$(( cpus * 3 < mem_gb * 3 / 2 ? cpus * 3 : mem_gb * 3 / 2 ))
   (( w < 1  )) && w=1
   (( w > 32 )) && w=32
@@ -85,22 +71,21 @@ format_bytes() {
   else r="${b} B"; c='\033[2m'; fi
   printf "${c}%s\033[0m" "$r"
 }
-export -f format_bytes
 
 elapsed_since() {
   local s=$(( $(date +%s) - $1 ))
   printf "%dm%02ds" $(( s/60 )) $(( s%60 ))
 }
-export -f elapsed_since
 
 # ── Cleanup ─────────────────────────────────────────────────────
+WORKER_SCRIPT=""
 cleanup() {
   [[ "${KEEP_REPO:-0}" != "1" && -d "$WORK_DIR" ]] && {
     log "Cleaning repo..."
     rm -rf "$WORK_DIR"
   }
-  [[ -n "${RESULTS_FILE:-}" && -f "$RESULTS_FILE" ]] && rm -f "$RESULTS_FILE"
-  [[ -n "${LOCK_FILE:-}"    && -f "$LOCK_FILE"    ]] && rm -f "$LOCK_FILE"
+  [[ -n "${BATCH_TMP_DIR:-}" && -d "$BATCH_TMP_DIR" ]] && rm -rf "$BATCH_TMP_DIR"
+  [[ -n "${WORKER_SCRIPT:-}" && -f "$WORKER_SCRIPT" ]] && rm -f "$WORKER_SCRIPT"
 }
 trap cleanup EXIT
 
@@ -147,35 +132,37 @@ log "Found ${BOLD}$TOTAL${NC} sites → ${BOLD}$BATCH_COUNT${NC} batches of up t
 log "Workers: ${BOLD}$PARALLEL${NC}  |  Connections: ${BOLD}$MAX_CONN${NC}  |  Timeout: ${BOLD}${TIMEOUT}ms${NC}  |  Delay: ${BOLD}${DELAY}ms${NC}"
 echo ""
 
-# ── Shared results file (flock-protected writes from workers) ────
-RESULTS_FILE=$(mktemp)
-LOCK_FILE=$(mktemp)
-export RESULTS_FILE LOCK_FILE
-
-# ── Export everything workers need ──────────────────────────────
-export WORK_DIR OUTPUT_DIR LOG_DIR PROXY_URL \
-       DELAY TIMEOUT MAX_CONN MIN_CONN \
-       MAX_RETRIES RETRY_BACKOFF_BASE \
-       SCRIPT_START_TIME \
-       GREEN YELLOW RED CYAN MAGENTA BOLD DIM NC
-
-# ════════════════════════════════════════════════════════════════
-# emit  — thread-safe write to shared results file
-# ════════════════════════════════════════════════════════════════
-emit() {
-  flock "$LOCK_FILE" bash -c "echo $(printf '%q' "$1") >> \"\$RESULTS_FILE\""
-}
-# We'll use a simpler approach: each worker writes to its own tmp file,
-# we cat them all at the end. Avoids flock complexity entirely.
-# Each batch gets: BATCH_TMP_DIR/<batch_id>.tok
-
 # ── Batch tmp dir ────────────────────────────────────────────────
 BATCH_TMP_DIR=$(mktemp -d)
-export BATCH_TMP_DIR
 
 # ════════════════════════════════════════════════════════════════
-# CLASSIFY LOG
+# WORKER SCRIPT
+# Written to a temp file so xargs subshells source it directly.
+# This avoids `export -f`, which encodes functions as env vars
+# (BASH_FUNC_name%%) and causes GitHub Actions' environment file
+# parser to crash with "printf: invalid number" errors.
 # ════════════════════════════════════════════════════════════════
+WORKER_SCRIPT=$(mktemp /tmp/epg_worker_XXXXXX.sh)
+chmod +x "$WORKER_SCRIPT"
+
+cat > "$WORKER_SCRIPT" << 'WORKER_EOF'
+#!/usr/bin/env bash
+# ── All helper functions defined inline; no export -f needed ────
+
+format_bytes() {
+  local b="${1:-0}" r c
+  if   (( b >= 1073741824 )); then r=$(awk "BEGIN{printf \"%.2f GB\",$b/1073741824}"); c='\033[0;32m'
+  elif (( b >= 1048576    )); then r=$(awk "BEGIN{printf \"%.2f MB\",$b/1048576}");    c='\033[0;36m'
+  elif (( b >= 1024       )); then r=$(awk "BEGIN{printf \"%.1f KB\",$b/1024}");       c='\033[0;37m'
+  else r="${b} B"; c='\033[2m'; fi
+  printf "${c}%s\033[0m" "$r"
+}
+
+elapsed_since() {
+  local s=$(( $(date +%s) - $1 ))
+  printf "%dm%02ds" $(( s/60 )) $(( s%60 ))
+}
+
 classify_log() {
   local log="$1"
   local n_geo n_rate n_5xx n_404 n_ok
@@ -194,11 +181,7 @@ classify_log() {
   else                        echo "ERROR"
   fi
 }
-export -f classify_log
 
-# ════════════════════════════════════════════════════════════════
-# PARSE URL LOG  →  URLLOG tokens
-# ════════════════════════════════════════════════════════════════
 parse_url_log() {
   local site_name="$1" log_file="$2" tok_file="$3"
   [[ ! -f "$log_file" ]] && return
@@ -232,11 +215,7 @@ parse_url_log() {
     fi
   done < "$log_file"
 }
-export -f parse_url_log
 
-# ════════════════════════════════════════════════════════════════
-# GET_SITE_HOST
-# ════════════════════════════════════════════════════════════════
 get_site_host() {
   local s="$1"
   grep -rhoP '(?<=url:\s['"'"'"`])[^'"'"'"`]+' \
@@ -244,13 +223,9 @@ get_site_host() {
     | head -1 | grep -oP '(?<=://)([^/]+)' \
     || echo "$s"
 }
-export -f get_site_host
 
 # ════════════════════════════════════════════════════════════════
-# RUN_BATCH  — one call per batch, invoked by xargs
-#
-# Receives sites as individual arguments: run_batch site1 site2 ...
-# Writes all result tokens to  $BATCH_TMP_DIR/<batch_id>.tok
+# RUN_BATCH
 # ════════════════════════════════════════════════════════════════
 run_batch() {
   local batch_sites=("$@")
@@ -263,8 +238,6 @@ run_batch() {
   local sites_csv; sites_csv=$(IFS=','; echo "${batch_sites[*]}")
   echo "BATCH_START|${batch_id}|${#batch_sites[@]}|${sites_csv}" >> "$tok_file"
 
-  # Per-site state (plain vars, no assoc arrays — more portable in subshells)
-  # Stored as  t_start_SITENAME  t_conn_SITENAME  etc.
   local now; now=$(date +%s)
   for s in "${batch_sites[@]}"; do
     local safe; safe="${s//[^a-zA-Z0-9_]/_}"
@@ -279,7 +252,6 @@ run_batch() {
   while true; do
     global_round=$(( global_round + 1 ))
 
-    # Collect pending sites
     local pending=()
     for s in "${batch_sites[@]}"; do
       local safe; safe="${s//[^a-zA-Z0-9_]/_}"
@@ -288,7 +260,6 @@ run_batch() {
     done
     [[ ${#pending[@]} -eq 0 ]] && break
 
-    # All exhausted?
     local all_exhausted=1
     for s in "${pending[@]}"; do
       local safe; safe="${s//[^a-zA-Z0-9_]/_}"
@@ -297,12 +268,10 @@ run_batch() {
     done
     [[ $all_exhausted -eq 1 ]] && break
 
-    # Announce each site starting
     for s in "${pending[@]}"; do
       echo "WORKER_START|${s}|$(get_site_host "$s")" >> "$tok_file"
     done
 
-    # Minimum conn across pending
     local min_conn=$MAX_CONN
     for s in "${pending[@]}"; do
       local safe; safe="${s//[^a-zA-Z0-9_]/_}"
@@ -313,7 +282,6 @@ run_batch() {
     local pending_csv; pending_csv=$(IFS=','; echo "${pending[*]}")
     local batch_log="$LOG_DIR/_batch_${batch_id}_r${global_round}.log"
 
-    # ── Run npm grab for all pending sites ────────────────────────
     npm run grab -- \
       --sites="$pending_csv" \
       --output="$OUTPUT_DIR/{site}.xml" \
@@ -323,7 +291,6 @@ run_batch() {
       ${PROXY_URL:+--proxy="$PROXY_URL"} \
       > "$batch_log" 2>&1 || true
 
-    # ── Evaluate each site ────────────────────────────────────────
     local any_needs_retry=0
     local max_sleep=0
 
@@ -343,7 +310,6 @@ run_batch() {
       local retry_log="$LOG_DIR/${s}_retries/attempt_${attempt}.log"
       mkdir -p "$LOG_DIR/${s}_retries"
 
-      # Slice batch log to lines mentioning this site name
       grep -iE "(${s}|${s//./\\.})" "$batch_log" > "$retry_log" 2>/dev/null || true
       [[ ! -s "$retry_log" ]] && cp "$batch_log" "$retry_log"
       cp "$retry_log" "$site_log"
@@ -351,14 +317,12 @@ run_batch() {
       local reason; reason=$(classify_log "$retry_log")
       parse_url_log "$s" "$retry_log" "$tok_file"
 
-      # 403 geo → skip
       if [[ "$reason" == "GEO" ]]; then
         eval "t_done_${safe}=1"
         echo "SKIP|${s}|GEO|${elapsed_fmt}|${attempt}|$(get_site_host "$s")" >> "$tok_file"
         continue
       fi
 
-      # Output has data → PASS
       if [[ -s "$output_file" ]]; then
         eval "t_done_${safe}=1"
         local bytes; bytes=$(wc -c < "$output_file")
@@ -372,7 +336,6 @@ run_batch() {
         continue
       fi
 
-      # Retries exhausted → FAIL
       if (( attempt >= MAX_RETRIES )); then
         eval "t_done_${safe}=1"
         echo "FAIL|${s}|${reason}|${elapsed_fmt}|${attempt}|${cur_conn}|$(get_site_host "$s")" \
@@ -380,7 +343,6 @@ run_batch() {
         continue
       fi
 
-      # Schedule retry with backoff
       any_needs_retry=1
       local sleep_secs msg
 
@@ -416,7 +378,6 @@ run_batch() {
     [[ $any_needs_retry -eq 1 && $max_sleep -gt 0 ]] && sleep "$max_sleep"
   done
 
-  # Safety: emit FAIL for anything still marked undone
   for s in "${batch_sites[@]}"; do
     local safe; safe="${s//[^a-zA-Z0-9_]/_}"
     local done_val; done_val=$(eval "echo \${t_done_${safe}}")
@@ -429,12 +390,13 @@ run_batch() {
     fi
   done
 }
-export -f run_batch
+
+# ── Entry point ──────────────────────────────────────────────────
+run_batch "$@"
+WORKER_EOF
 
 # ════════════════════════════════════════════════════════════════
 # BUILD BATCH ARG FILE
-# Each line = space-separated site names for one batch.
-# xargs -L1 passes each line as multiple args to run_batch.
 # ════════════════════════════════════════════════════════════════
 BATCH_ARG_FILE=$(mktemp)
 
@@ -454,14 +416,29 @@ log "Launching ${BOLD}$BATCH_COUNT${NC} batches across ${BOLD}$PARALLEL${NC} wor
 echo ""
 
 # ── Run all batches in parallel ──────────────────────────────────
-# xargs -L1   : feed one line at a time (one batch)
-# xargs splits the line on spaces → multiple args → run_batch site1 site2 ...
-# -P $PARALLEL: run up to $PARALLEL batches concurrently
-xargs -L1 -P "$PARALLEL" bash -c 'run_batch "$@"' _ < "$BATCH_ARG_FILE"
+# Pass env vars explicitly to each subshell via `env`.
+# No export -f: functions live in the worker script file instead,
+# so GitHub Actions' environment parser never sees them.
+xargs -L1 -P "$PARALLEL" \
+  env \
+    WORK_DIR="$WORK_DIR" \
+    OUTPUT_DIR="$OUTPUT_DIR" \
+    LOG_DIR="$LOG_DIR" \
+    PROXY_URL="${PROXY_URL:-}" \
+    DELAY="$DELAY" \
+    TIMEOUT="$TIMEOUT" \
+    MAX_CONN="$MAX_CONN" \
+    MIN_CONN="$MIN_CONN" \
+    MAX_RETRIES="$MAX_RETRIES" \
+    RETRY_BACKOFF_BASE="$RETRY_BACKOFF_BASE" \
+    BATCH_TMP_DIR="$BATCH_TMP_DIR" \
+    SCRIPT_START_TIME="$SCRIPT_START_TIME" \
+  bash "$WORKER_SCRIPT" < "$BATCH_ARG_FILE"
+
 rm -f "$BATCH_ARG_FILE"
 
 # ════════════════════════════════════════════════════════════════
-# AGGREGATOR  — read all token files, print results, tally
+# AGGREGATOR
 # ════════════════════════════════════════════════════════════════
 PASS=0; FAIL=0; PARTIAL_PASS=0
 FAIL_GEO=0; FAIL_404=0; FAIL_RATE=0; FAIL_5XX=0; FAIL_OTHER=0
@@ -481,7 +458,6 @@ _flush_url_stats() {
   _cur_site=""; _cur_ok=0; _cur_fail=0; _cur_fetch=0; _cur_loaded=0
 }
 
-# Cat all token files in order and parse
 cat "$BATCH_TMP_DIR"/*.tok 2>/dev/null \
 | while IFS='|' read -r TOKEN F1 F2 F3 F4 F5 F6 F7 F8; do
   case "$TOKEN" in
