@@ -12,7 +12,7 @@ SCRIPT_START_TIME=$(date +%s)
 # ── Config ──────────────────────────────────────────────────────
 REPO_URL="https://github.com/iptv-org/epg"
 
-BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)" 
 WORK_DIR="$BASE_DIR/epg"
 OUTPUT_DIR="$BASE_DIR/sites"
 LOG_DIR="$OUTPUT_DIR/logs"
