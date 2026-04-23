@@ -1,4 +1,4 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
 set -Eeuo pipefail
 
 # ════════════════════════════════════════════════════════════════
@@ -14,9 +14,8 @@ WORK_DIR="$BASE_DIR/epg"
 OUT_DIR="$BASE_DIR/sites"
 
 PARALLEL="${PARALLEL:-8}"
-SITE_TIMEOUT="${SITE_TIMEOUT:-3600}"   # 1 hour
+SITE_TIMEOUT="${SITE_TIMEOUT:-3600}"     # 1 hour max/site
 GRAB_TIMEOUT="${GRAB_TIMEOUT:-1000}"
-BATCH_SIZE="${BATCH_SIZE:-10}"
 
 GREEN='\033[0;32m'
 RED='\033[0;31m'
@@ -24,12 +23,8 @@ CYAN='\033[0;36m'
 YELLOW='\033[1;33m'
 NC='\033[0m'
 
-log(){ echo -e "[$(date +%H:%M:%S)] ${GREEN}✅${NC} $*"; }
-
-elapsed() {
-    local sec=$(( $(date +%s) - $1 ))
-    [[ -z "$sec" ]] && sec=0
-    printf "%ss" "$sec"
+log() {
+    echo -e "[$(date +%H:%M:%S)] ${GREEN}✅${NC} $*"
 }
 
 fbytes() {
@@ -44,13 +39,13 @@ fbytes() {
 }
 
 cleanup() {
-    rm -f "$WORKER"
-} 
+    rm -f "$TMP" "$WORKER"
+}
 trap cleanup EXIT
 
 mkdir -p "$OUT_DIR"
 
-# ── CLONE ───────────────────────────────────────────────────────
+# ── CLONE / UPDATE ──────────────────────────────────────────────
 if [[ -d "$WORK_DIR/.git" ]]; then
     log "Updating repo..."
     git -C "$WORK_DIR" pull --quiet || true
@@ -61,10 +56,10 @@ fi
 
 cd "$WORK_DIR"
 
-log "Installing npm deps..."
+log "Installing npm dependencies..."
 npm ci --silent
 
-# ── SITES ───────────────────────────────────────────────────────
+# ── LOAD GREEN SITES ────────────────────────────────────────────
 mapfile -t SITES < <(
 grep '🟢' SITES.md |
 sed -n 's#.*href="sites/\([^"]*\)".*🟢.*#\1#p' |
@@ -72,13 +67,14 @@ sort -u
 )
 
 TOTAL="${#SITES[@]}"
-log "Sites: $TOTAL"
-log "Workers: $PARALLEL"
+
+log "Sites detected: $TOTAL"
+log "Parallel workers: $PARALLEL"
 
 TMP=$(mktemp)
 printf "%s\n" "${SITES[@]}" > "$TMP"
 
-# ── WORKER ──────────────────────────────────────────────────────
+# ── WORKER SCRIPT ───────────────────────────────────────────────
 WORKER=$(mktemp)
 
 cat > "$WORKER" <<'EOF'
@@ -91,38 +87,43 @@ TIMEOUT="$3"
 GRAB_TIMEOUT="$4"
 
 START=$(date +%s)
-OUT="$ROOT/sites/${SITE}.xml"
+
+SITE_DIR="$ROOT/sites/$SITE"
+OUT_FILE="$SITE_DIR/$SITE.xml"
+
+mkdir -p "$SITE_DIR"
 
 cd "$ROOT/epg"
 
-# HARD 1-HOUR LIMIT
+# Run scraper with hard timeout
 timeout "$TIMEOUT" npm run grab -- \
     --sites="$SITE" \
-    --output="$ROOT/sites/${SITE}/{site}.xml" \
+    --output="$ROOT/sites/{site}/{site}.xml" \
     --timeout="$GRAB_TIMEOUT" \
     >/dev/null 2>&1
 
 RC=$?
-
 ELAPSED=$(( $(date +%s) - START ))
 
 if [[ $RC -eq 124 ]]; then
+    rm -f "$OUT_FILE"
     echo "TIMEOUT|$SITE|$ELAPSED"
     exit 0
 fi
 
-if [[ -s "$OUT" ]]; then
-    BYTES=$(wc -c < "$OUT" | tr -d ' ')
-    PROGS=$(grep -c '<programme' "$OUT" 2>/dev/null || echo 0)
+if [[ -s "$OUT_FILE" ]]; then
+    BYTES=$(wc -c < "$OUT_FILE" | tr -d ' ')
+    PROGS=$(grep -c '<programme' "$OUT_FILE" 2>/dev/null || echo 0)
     echo "PASS|$SITE|$BYTES|$PROGS|$ELAPSED"
 else
+    rm -f "$OUT_FILE"
     echo "FAIL|$SITE|$ELAPSED"
 fi
 EOF
 
 chmod +x "$WORKER"
 
-# ── AGGREGATOR ──────────────────────────────────────────────────
+# ── PROCESS RESULTS ─────────────────────────────────────────────
 DONE=0
 PASS=0
 FAIL=0
@@ -133,20 +134,16 @@ while IFS='|' read -r TYPE A B C D; do
 
     SITE="$A"
 
-    # Prevent duplicates forever
-    if [[ -n "${FINISHED[$SITE]:-}" ]]; then
-        continue
-    fi
+    [[ -n "${FINISHED[$SITE]:-}" ]] && continue
     FINISHED[$SITE]=1
 
     DONE=$((DONE+1))
 
     case "$TYPE" in
-
         PASS)
             PASS=$((PASS+1))
             SIZE=$(fbytes "$B")
-            printf "${GREEN}[OK %d/%d]${NC} %-35s %10s %8s progs %8ss\n" \
+            printf "${GREEN}[OK %d/%d]${NC} %-35s %10s %8s progs %6ss\n" \
                 "$DONE" "$TOTAL" "$SITE" "$SIZE" "$C" "$D"
             ;;
 
@@ -158,10 +155,9 @@ while IFS='|' read -r TYPE A B C D; do
 
         TIMEOUT)
             FAIL=$((FAIL+1))
-            printf "${YELLOW}[TIMEOUT %d/%d]${NC} %-35s after %ss (1h killed)\n" \
+            printf "${YELLOW}[TIMEOUT %d/%d]${NC} %-35s after %ss\n" \
                 "$DONE" "$TOTAL" "$SITE" "$B"
             ;;
-
     esac
 
 done < <(
@@ -174,9 +170,9 @@ TOTAL_TIME=$(( $(date +%s) - START_TS ))
 
 echo
 echo "═══════════════════════════════════════"
-echo "Passed : $PASS"
-echo "Failed : $FAIL"
-echo "Total  : $TOTAL"
-echo "Time   : ${TOTAL_TIME}s"
+echo -e "${GREEN}Passed :${NC} $PASS"
+echo -e "${RED}Failed :${NC} $FAIL"
+echo -e "${CYAN}Total  :${NC} $TOTAL"
+echo -e "${YELLOW}Time   :${NC} ${TOTAL_TIME}s"
 echo "Output : $OUT_DIR"
 echo "═══════════════════════════════════════"
