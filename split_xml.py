@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """
-Split IPTV-Org XMLTV files in a directory. For only larger xml files.
+split_epg.py
+
+Structure:
+./sites/site_url/site.xml
+
+If >1MB:
+./sites/site_url/site_part_001.xml
+./sites/site_url/site_part_002.xml
+...
+
+Deletes original site.xml after successful split.
 
 Usage:
-python split_epg.py ./sites/
-
-Features:
-- Scans ./sites/*.xml
-- If file > 1mb => split automatically
-- Detects estimated number of output files
-- Auto-calculates chunk size
-- Keeps XMLTV format
-- Low memory streaming parser
+    python split_epg.py ./sites
 """
 
 import sys
@@ -23,9 +25,24 @@ from collections import OrderedDict
 LIMIT_MB = 1
 LIMIT_BYTES = LIMIT_MB * 1024 * 1024
 
+# ANSI Colors
+RESET   = "\033[0m"
+RED     = "\033[91m"
+GREEN   = "\033[92m"
+YELLOW  = "\033[93m"
+BLUE    = "\033[94m"
+MAGENTA = "\033[95m"
+CYAN    = "\033[96m"
+WHITE   = "\033[97m"
+BOLD    = "\033[1m"
 
-def mb(size):
-    return round(size / 1024 / 1024, 2)
+
+def c(color, text):
+    return f"{color}{text}{RESET}"
+
+
+def mb(x):
+    return round(x / 1024 / 1024, 2)
 
 
 def count_programmes(xml_file):
@@ -40,11 +57,8 @@ def count_programmes(xml_file):
     return count
 
 
-def write_part(index, channels, programmes, out_dir, base):
-    filename = os.path.join(
-        out_dir,
-        f"{base}_part_{index:03d}.xml"
-    )
+def write_part(index, channels, programmes, folder, site):
+    file = os.path.join(folder, f"{site}_part_{index:03d}.xml")
 
     root = ET.Element("tv")
 
@@ -55,45 +69,38 @@ def write_part(index, channels, programmes, out_dir, base):
         root.append(prog)
 
     ET.ElementTree(root).write(
-        filename,
+        file,
         encoding="utf-8",
         xml_declaration=True
     )
 
-    print(f"   ✅ Created {os.path.basename(filename)}")
+    print("   " + c(GREEN, f"✅ Created {os.path.basename(file)}"))
 
 
 def split_file(xml_file):
+    folder = os.path.dirname(xml_file)
+    site = os.path.splitext(os.path.basename(xml_file))[0]
+
     size = os.path.getsize(xml_file)
-    base = os.path.splitext(os.path.basename(xml_file))[0]
 
     if size <= LIMIT_BYTES:
-        print(f"⏭️  Skip {base}.xml ({mb(size)} MB <= 20 MB)")
+        print(c(YELLOW, f"⏭ Skip {site}.xml ({mb(size)} MB <= 20 MB)"))
         return
 
-    print(f"🔍 Analyzing {base}.xml ({mb(size)} MB)...")
+    print(c(CYAN, f"🔍 Analyzing {xml_file} ({mb(size)} MB)"))
 
     total_programmes = count_programmes(xml_file)
 
     if total_programmes == 0:
-        print("❌ No programmes found.\n")
+        print(c(RED, "❌ No programme entries"))
         return
 
-    # Estimate split count based on size
     parts = math.ceil(size / LIMIT_BYTES)
+    chunk = math.ceil(total_programmes / parts)
 
-    # Programmes per file
-    chunk_size = math.ceil(total_programmes / parts)
-
-    print(f"📦 Estimated output files : {parts}")
-    print(f"📺 Total programmes      : {total_programmes}")
-    print(f"✂️  Chunk size/file      : {chunk_size}")
-
-    out_dir = os.path.join(
-        os.path.dirname(xml_file),
-        f"{base}_parts"
-    )
-    os.makedirs(out_dir, exist_ok=True)
+    print(c(MAGENTA, f"📦 Estimated parts : {parts}"))
+    print(c(BLUE,    f"📺 Programmes      : {total_programmes}"))
+    print(c(WHITE,   f"✂️  Chunk/file     : {chunk}"))
 
     channels = OrderedDict()
     programmes = []
@@ -114,7 +121,7 @@ def split_file(xml_file):
                 ET.fromstring(ET.tostring(elem))
             )
 
-            if len(programmes) >= chunk_size:
+            if len(programmes) >= chunk:
                 used = OrderedDict()
 
                 for prog in programmes:
@@ -122,7 +129,7 @@ def split_file(xml_file):
                     if cid in channels:
                         used[cid] = channels[cid]
 
-                write_part(part, used, programmes, out_dir, base)
+                write_part(part, used, programmes, folder, site)
                 programmes.clear()
                 part += 1
 
@@ -136,40 +143,49 @@ def split_file(xml_file):
             if cid in channels:
                 used[cid] = channels[cid]
 
-        write_part(part, used, programmes, out_dir, base)
+        write_part(part, used, programmes, folder, site)
 
-    print(f"✅ Finished {base}.xml\n")
+    os.remove(xml_file)
+
+    print(c(YELLOW, f"🗑 Deleted original {site}.xml"))
+    print(c(GREEN, f"✅ Finished {site}\n"))
 
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage:")
-        print("python split_epg.py ./sites/")
+        print(c(RED, "Usage: python split_epg.py ./sites"))
         sys.exit(1)
 
-    folder = sys.argv[1]
+    root = sys.argv[1]
 
-    if not os.path.isdir(folder):
-        print("Invalid directory.")
+    if not os.path.isdir(root):
+        print(c(RED, "Invalid directory"))
         sys.exit(1)
 
-    files = sorted([
-        os.path.join(folder, f)
-        for f in os.listdir(folder)
-        if f.lower().endswith(".xml")
-    ])
+    xml_files = []
 
-    if not files:
-        print("No XML files found.")
+    for site_dir in sorted(os.listdir(root)):
+        full_dir = os.path.join(root, site_dir)
+
+        if not os.path.isdir(full_dir):
+            continue
+
+        xml_file = os.path.join(full_dir, f"{site_dir}.xml")
+
+        if os.path.isfile(xml_file):
+            xml_files.append(xml_file)
+
+    if not xml_files:
+        print(c(RED, "No XML files found"))
         return
 
-    print(f"📂 Found {len(files)} XML files\n")
+    print(c(BOLD + CYAN, f"📂 Found {len(xml_files)} XML files\n"))
 
-    for file in files:
+    for file in xml_files:
         try:
             split_file(file)
         except Exception as e:
-            print(f"❌ Failed {os.path.basename(file)}: {e}\n")
+            print(c(RED, f"❌ Failed {file}: {e}\n"))
 
 
 if __name__ == "__main__":
