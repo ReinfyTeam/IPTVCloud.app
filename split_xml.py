@@ -7,7 +7,7 @@ python split_epg.py ./sites/
 
 Features:
 - Scans ./sites/*.xml
-- If file > 20 MB => split automatically
+- If file > 1mb => split automatically
 - Detects estimated number of output files
 - Auto-calculates chunk size
 - Keeps XMLTV format
@@ -20,7 +20,7 @@ import math
 import xml.etree.ElementTree as ET
 from collections import OrderedDict
 
-LIMIT_MB = 20
+LIMIT_MB = 1
 LIMIT_BYTES = LIMIT_MB * 1024 * 1024
 
 
