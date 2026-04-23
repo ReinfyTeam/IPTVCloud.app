@@ -70,3 +70,4 @@ dev.db-journal
 
 # EPG repository
 epg/
+temp/

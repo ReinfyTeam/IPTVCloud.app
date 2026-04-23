@@ -509,14 +509,14 @@ export default function Player({
       {/* Ambient Mode Backdrop */}
       {ambientMode && status === 'playing' && (
         <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden opacity-40">
-           <video
-             src={videoRef.current?.src}
-             className="h-full w-full object-cover blur-[120px] scale-150"
-             muted
-             autoPlay
-             loop
-             playsInline
-           />
+          <video
+            src={videoRef.current?.src}
+            className="h-full w-full object-cover blur-[120px] scale-150"
+            muted
+            autoPlay
+            loop
+            playsInline
+          />
         </div>
       )}
 
@@ -526,7 +526,7 @@ export default function Player({
         poster={poster}
         playsInline
       />
-      
+
       {/* Settings Menu Overlay */}
       {showSettings && (
         <div className="absolute bottom-20 right-4 sm:right-8 w-64 glass rounded-[24px] z-50 p-2 animate-fade-in shadow-2xl shadow-black/80 settings-menu-container">
@@ -549,14 +549,16 @@ export default function Player({
               />
               <div className="flex items-center justify-between px-3 py-2.5 rounded-xl hover:bg-white/5 transition-all text-slate-200">
                 <div className="flex items-center gap-3">
-                   <span className="material-icons text-[18px] opacity-70">blur_on</span>
-                   <span className="text-xs font-semibold">Ambient Mode</span>
+                  <span className="material-icons text-[18px] opacity-70">blur_on</span>
+                  <span className="text-xs font-semibold">Ambient Mode</span>
                 </div>
-                <button 
+                <button
                   onClick={() => setAmbientMode(!ambientMode)}
                   className={`h-5 w-10 rounded-full transition-all relative ${ambientMode ? 'bg-accent' : 'bg-slate-700'}`}
                 >
-                   <div className={`absolute top-1 h-3 w-3 rounded-full bg-white transition-all ${ambientMode ? 'right-1' : 'left-1'}`} />
+                  <div
+                    className={`absolute top-1 h-3 w-3 rounded-full bg-white transition-all ${ambientMode ? 'right-1' : 'left-1'}`}
+                  />
                 </button>
               </div>
               <SettingsButton
@@ -575,7 +577,9 @@ export default function Player({
                 className="w-full flex items-center gap-3 px-3 py-2 text-slate-400 hover:text-white transition-all border-b border-white/5 mb-1"
               >
                 <span className="material-icons text-sm">west</span>
-                <span className="text-[10px] font-black uppercase tracking-widest">Back to settings</span>
+                <span className="text-[10px] font-black uppercase tracking-widest">
+                  Back to settings
+                </span>
               </button>
               <SettingsOption
                 active={currentQualityId === -1}
@@ -600,7 +604,9 @@ export default function Player({
                 className="w-full flex items-center gap-3 px-3 py-2 text-slate-400 hover:text-white transition-all border-b border-white/5 mb-1"
               >
                 <span className="material-icons text-sm">west</span>
-                <span className="text-[10px] font-black uppercase tracking-widest">Back to settings</span>
+                <span className="text-[10px] font-black uppercase tracking-widest">
+                  Back to settings
+                </span>
               </button>
               <SettingsOption
                 active={currentSubtitleId === -1}
@@ -675,12 +681,12 @@ export default function Player({
 
         {/* Stats for Nerds */}
         {showStats && (
-           <div className="absolute top-20 left-4 sm:left-8 p-4 glass rounded-2xl z-40 text-[9px] font-mono text-cyan-400 space-y-1">
-              <div>Resolution: {stats.res}</div>
-              <div>Bitrate: {stats.bitrate} kbps</div>
-              <div>Buffer: {stats.buffer}s</div>
-              <div>Dropped: {stats.dropped}</div>
-           </div>
+          <div className="absolute top-20 left-4 sm:left-8 p-4 glass rounded-2xl z-40 text-[9px] font-mono text-cyan-400 space-y-1">
+            <div>Resolution: {stats.res}</div>
+            <div>Bitrate: {stats.bitrate} kbps</div>
+            <div>Buffer: {stats.buffer}s</div>
+            <div>Dropped: {stats.dropped}</div>
+          </div>
         )}
 
         {/* Bottom Controls */}

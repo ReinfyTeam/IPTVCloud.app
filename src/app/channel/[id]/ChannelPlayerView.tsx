@@ -63,7 +63,9 @@ export default function ChannelPlayerView({ channel, relatedChannels, allChannel
     <div className="min-h-screen pt-24 pb-20 px-4 sm:px-6 bg-slate-950">
       <div className="mx-auto max-w-[1700px] space-y-6 sm:space-y-8 animate-fade-in transform-gpu">
         <div className={`grid gap-8 ${theaterMode ? 'grid-cols-1' : 'grid-cols-1 lg:grid-cols-3'}`}>
-          <div className={`${theaterMode ? 'col-span-full' : 'lg:col-span-2'} space-y-4 sm:space-y-6`}>
+          <div
+            className={`${theaterMode ? 'col-span-full' : 'lg:col-span-2'} space-y-4 sm:space-y-6`}
+          >
             <Player
               channel={channel}
               autoPlay
@@ -71,7 +73,9 @@ export default function ChannelPlayerView({ channel, relatedChannels, allChannel
               onPreviousChannel={prevChannel}
             />
 
-            <div className={`space-y-4 sm:space-y-6 ${theaterMode ? 'max-w-4xl mx-auto lg:mx-0' : ''}`}>
+            <div
+              className={`space-y-4 sm:space-y-6 ${theaterMode ? 'max-w-4xl mx-auto lg:mx-0' : ''}`}
+            >
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6 p-5 sm:p-6 rounded-[28px] sm:rounded-[32px] glass shadow-xl">
                 <div className="flex items-center gap-4">
                   {channel.logo ? (
@@ -195,37 +199,39 @@ export default function ChannelPlayerView({ channel, relatedChannels, allChannel
           </div>
 
           {/* Sidebar / Recommendations */}
-          <div className={`${theaterMode ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6' : 'flex flex-col gap-6'}`}>
+          <div
+            className={`${theaterMode ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6' : 'flex flex-col gap-6'}`}
+          >
             <SidebarSection title={`Related to ${channel.category}`} icon="category">
-                <div className="flex flex-col gap-3">
-                  {relatedChannels.slice(0, 8).map((ch) => (
-                    <ChannelCard
-                      key={ch.id}
-                      channel={ch}
-                      mode="list"
-                      active={false}
-                      favorite={isFavorite(ch.id)}
-                      onSelect={selectChannel}
-                      onToggleFavorite={toggleFavorite}
-                    />
-                  ))}
-                </div>
+              <div className="flex flex-col gap-3">
+                {relatedChannels.slice(0, 8).map((ch) => (
+                  <ChannelCard
+                    key={ch.id}
+                    channel={ch}
+                    mode="list"
+                    active={false}
+                    favorite={isFavorite(ch.id)}
+                    onSelect={selectChannel}
+                    onToggleFavorite={toggleFavorite}
+                  />
+                ))}
+              </div>
             </SidebarSection>
 
             <SidebarSection title="Trending Now" icon="local_fire_department">
-                <div className="flex flex-col gap-3">
-                  {popularChannels.slice(0, 8).map((ch) => (
-                    <ChannelCard
-                      key={`pop-${ch.id}`}
-                      channel={ch}
-                      mode="list"
-                      active={false}
-                      favorite={isFavorite(ch.id)}
-                      onSelect={selectChannel}
-                      onToggleFavorite={toggleFavorite}
-                    />
-                  ))}
-                </div>
+              <div className="flex flex-col gap-3">
+                {popularChannels.slice(0, 8).map((ch) => (
+                  <ChannelCard
+                    key={`pop-${ch.id}`}
+                    channel={ch}
+                    mode="list"
+                    active={false}
+                    favorite={isFavorite(ch.id)}
+                    onSelect={selectChannel}
+                    onToggleFavorite={toggleFavorite}
+                  />
+                ))}
+              </div>
             </SidebarSection>
           </div>
         </div>
@@ -234,16 +240,22 @@ export default function ChannelPlayerView({ channel, relatedChannels, allChannel
   );
 }
 
-function SidebarSection({ title, icon, children }: { title: string; icon: string; children: React.ReactNode }) {
-   return (
-      <div className="flex flex-col gap-4">
-        <div className="flex items-center gap-2 px-2">
-          <span className="material-icons text-accent text-sm">{icon}</span>
-          <h3 className="text-xs font-black text-white uppercase tracking-widest">
-            {title}
-          </h3>
-        </div>
-        {children}
+function SidebarSection({
+  title,
+  icon,
+  children,
+}: {
+  title: string;
+  icon: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="flex flex-col gap-4">
+      <div className="flex items-center gap-2 px-2">
+        <span className="material-icons text-accent text-sm">{icon}</span>
+        <h3 className="text-xs font-black text-white uppercase tracking-widest">{title}</h3>
       </div>
-   );
+      {children}
+    </div>
+  );
 }

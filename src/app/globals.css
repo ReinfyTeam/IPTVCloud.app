@@ -78,11 +78,15 @@ footer {
 }
 
 .glass-card {
-  @apply glass hover:bg-white/[0.04] transition-all transform-gpu hover:-translate-y-1;
+  background-color: var(--panel);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  @apply hover:bg-white/[0.04] transition-all transform-gpu hover:-translate-y-1;
 }
 
 body {
-...
   margin: 0;
   min-height: 100vh;
   background: var(--bg);
