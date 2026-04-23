@@ -54,9 +54,11 @@ jobs:
           chmod +x ./start.sh
           ./start.sh
           python3 split_xml.py ./sites/
+          python3 content.py ./sites/ ./content.json
 
-      - name: Commit updated EPG contents
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit & Push changes
+        uses: actions-js/push@master
         with:
-          commit_message: "Chore: Update EPG Content"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          message: "chore: update epg"
           branch: epg
