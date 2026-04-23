@@ -4,6 +4,10 @@ A dedicated branch for managing and generating Electronic Program Guide (EPG) da
 
 This repository branch is focused on automated EPG processing, source synchronization, scheduled updates, and output generation for IPTV players, streaming panels, and XMLTV-compatible systems.
 
+For sites content path, I recommend to use this as your guide for the API Guide. This repository is synced everyday at 00:00 UTC by cron workers. The estimated synchronous time will be 3h every run.
+
+`https://reinfyteam.github.io/IPTVCloud.app/content.json`
+
 ## ✨ Features
 
 - 📺 Automated EPG generation
