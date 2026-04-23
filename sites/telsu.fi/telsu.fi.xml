@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
+<channel id="Eveo.fi@SD"><display-name>Eveo</display-name><icon src="https://i.imgur.com/fFIq7tY.png"/><url>https://telsu.fi</url></channel>
+<channel id="Frii.fi@SD"><display-name>Frii</display-name><icon src="https://i.imgur.com/h3BAOAC.png"/><url>https://telsu.fi</url></channel>
+<channel id="Hero.fi@SD"><display-name>Hero</display-name><icon src="https://i.imgur.com/4t5JQLY.png"/><url>https://telsu.fi</url></channel>
+<channel id="Jim.fi@SD"><display-name>Jim</display-name><icon src="https://i.imgur.com/PkMgY0K.png"/><url>https://telsu.fi</url></channel>
+<channel id="Kutonen.fi@SD"><display-name>Kutonen</display-name><icon src="https://i.imgur.com/OiB7Opu.png"/><url>https://telsu.fi</url></channel>
+<channel id="Liv.fi@SD"><display-name>Liv</display-name><icon src="https://i.imgur.com/k6NsXBj.png"/><url>https://telsu.fi</url></channel>
+<channel id="MTV3.fi@SD"><display-name>MTV3</display-name><icon src="https://i.imgur.com/C5rQbBM.png"/><url>https://telsu.fi</url></channel>
+<channel id="mtv_ava"><display-name>AVA</display-name><url>https://telsu.fi</url></channel>
+<channel id="NationalGeographic.fi@SD"><display-name>National Geographic Channel</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/><url>https://telsu.fi</url></channel>
+<channel id="Nelonen.fi@SD"><display-name>Nelonen</display-name><icon src="https://i.imgur.com/BFbCyfY.png"/><url>https://telsu.fi</url></channel>
+<channel id="STARChannel.fi@SD"><display-name>STAR Channel</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png"/><url>https://telsu.fi</url></channel>
+<channel id="subtv"><display-name>Sub</display-name><url>https://telsu.fi</url></channel>
+<channel id="TLC.fi@SD"><display-name>TLC</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/><url>https://telsu.fi</url></channel>
+<channel id="TV5.fi@SD"><display-name>TV5</display-name><icon src="https://i.imgur.com/7tzaznY.png"/><url>https://telsu.fi</url></channel>
+<channel id="YleTV1.fi@SD"><display-name>Yle TV1</display-name><icon src="https://i.imgur.com/6yXZwUL.png"/><url>https://telsu.fi</url></channel>
+<channel id="YleTV2.fi@SD"><display-name>Yle TV2</display-name><icon src="https://i.imgur.com/4xkc6PL.png"/><url>https://telsu.fi</url></channel>
+<channel id="YleTeemaFem.fi@SD"><display-name>Yle Teema &amp; Fem</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Yle_Teema_%26_Fem.svg/960px-Yle_Teema_%26_Fem.svg.png"/><url>https://telsu.fi</url></channel>
+</tv>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
+<channel id="VantageMusic.ee@SD"><display-name>Vantage Music</display-name><icon src="https://vantagetv.ee/vantage_music.png"/><url>https://vantagetv.ee</url></channel>
+<channel id="vdance"><display-name>Vantage Dance</display-name><url>https://vantagetv.ee</url></channel>
+<channel id="vrock"><display-name>Vantage Rock</display-name><url>https://vantagetv.ee</url></channel>
+</tv>

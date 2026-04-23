@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
+<channel id="CanalHollywood.pt@SD"><display-name>Canal Hollywood</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/HWD_logo.svg/960px-HWD_logo.svg.png"/><url>https://zap.co.ao</url></channel>
+<channel id="TVCineEdition.pt@SD"><display-name>TVCine EDITION HD</display-name><icon src="https://i.imgur.com/G2pYTem.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2019"><display-name>Canal de História</display-name><url>https://zap.co.ao</url></channel>
+<channel id="Odisseia.pt@SD"><display-name>Odisseia</display-name><icon src="https://i.imgur.com/zz0Vtty.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2025"><display-name>Euronews</display-name><url>https://zap.co.ao</url></channel>
+<channel id="RTPAfrica.pt@SD"><display-name>RTP África</display-name><icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpafrica_2026.png"/><url>https://zap.co.ao</url></channel>
+<channel id="CanalPanda.pt@SD"><display-name>Canal Panda</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/0/08/Canal_Panda_2015.png"/><url>https://zap.co.ao</url></channel>
+<channel id="MCMTop.fr@SD"><display-name>MCM TOP</display-name><icon src="https://i.imgur.com/EVtWQLd.png"/><url>https://zap.co.ao</url></channel>
+<channel id="StingrayiConcerts.ca@SD"><display-name>Stingray iConcerts HD</display-name><icon src="https://i.imgur.com/GKc7RFz.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2044"><display-name>ZAP- Bloomberg</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2045"><display-name>BBC World News</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2048"><display-name>TVEi</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2059"><display-name>National Geographic</display-name><url>https://zap.co.ao</url></channel>
+<channel id="SICRadical.pt@SD"><display-name>SIC Radical</display-name><icon src="https://i.imgur.com/6g0obyk.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2062"><display-name>Food Network</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2064"><display-name>RTP 3</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2066"><display-name>Disney Channel</display-name><url>https://zap.co.ao</url></channel>
+<channel id="SICMulher.pt@SD"><display-name>SIC Mulher</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/c/c4/Sicmulher.png"/><url>https://zap.co.ao</url></channel>
+<channel id="TVCineEmotion.pt@SD"><display-name>TVCine EMOTION HD</display-name><icon src="https://i.imgur.com/5yfDDx3.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2081"><display-name>AMC Break</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2082"><display-name>NG Wild HD</display-name><url>https://zap.co.ao</url></channel>
+<channel id="TVCineAction.pt@SD"><display-name>TVCine ACTION HD</display-name><icon src="https://i.imgur.com/fsQ6dMR.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2100"><display-name>Travel Channel</display-name><url>https://zap.co.ao</url></channel>
+<channel id="PortoCanal.pt@SD"><display-name>Porto Canal</display-name><icon src="https://i.imgur.com/DwziwMY.png"/><url>https://zap.co.ao</url></channel>
+<channel id="AlJazeera.qa@English"><display-name>Al Jazeera English</display-name><icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/><url>https://zap.co.ao</url></channel>
+<channel id="FoxCrime.pt@SD"><display-name>FOX Crime</display-name><icon src="https://i.imgur.com/htrPojY.png"/><url>https://zap.co.ao</url></channel>
+<channel id="FoxComedy.pt@SD"><display-name>FOX Comedy</display-name><icon src="https://i.imgur.com/yLZZPPy.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2117"><display-name>RTR Planeta</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2121"><display-name>CUBA</display-name><url>https://zap.co.ao</url></channel>
+<channel id="France24.fr@French"><display-name>France 24 Fr</display-name><icon src="https://i.imgur.com/u8N6uoj.png"/><url>https://zap.co.ao</url></channel>
+<channel id="TVCineTop.pt@SD"><display-name>TVCine TOP HD</display-name><icon src="https://i.imgur.com/uMmmK0s.png"/><url>https://zap.co.ao</url></channel>
+<channel id="CNNPortugal.pt@SD"><display-name>CNN Portugal</display-name><icon src="https://i.imgur.com/bc6tYVZ.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2161"><display-name>AXN HD</display-name><url>https://zap.co.ao</url></channel>
+<channel id="AXNMovies.pt@SD"><display-name>AXN Movies</display-name><icon src="https://i.imgur.com/tJQckal.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2167"><display-name>MyZen.tv nature</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2174"><display-name>FOX HD</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2175"><display-name>FOX Life HD</display-name><url>https://zap.co.ao</url></channel>
+<channel id="Biggs.pt@SD"><display-name>Biggs</display-name><icon src="https://i.imgur.com/ANPP7FW.png"/><url>https://zap.co.ao</url></channel>
+<channel id="FoxMovies.pt@SD"><display-name>FOX Movies</display-name><icon src="https://i.imgur.com/dcpMz2f.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2226"><display-name>Disney Junior</display-name><url>https://zap.co.ao</url></channel>
+<channel id="24Kitchen.us@Portugal"><display-name>24 Kitchen</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/24Kitchen.png/960px-24Kitchen.png"/><url>https://zap.co.ao</url></channel>
+<channel id="BenficaTV.pt@SD"><display-name>BENFICATV</display-name><icon src="https://i.imgur.com/l6LACto.png"/><url>https://zap.co.ao</url></channel>
+<channel id="ABolaTV.pt@SD"><display-name>A Bola TV</display-name><icon src="https://i.imgur.com/IP1NWeA.png"/><url>https://zap.co.ao</url></channel>
+<channel id="RTPMundo.pt@SD"><display-name>RTP Mundo</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png"/><url>https://zap.co.ao</url></channel>
+<channel id="SICK.pt@SD"><display-name>SIC K</display-name><icon src="https://i.imgur.com/ypTCVsB.png"/><url>https://zap.co.ao</url></channel>
+<channel id="SportTVAfrica1.pt@SD"><display-name>SportTV África HD</display-name><icon src="https://i.imgur.com/ZmmgxrB.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2271"><display-name>Luxe TV HD</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2272"><display-name>AfroMusic</display-name><url>https://zap.co.ao</url></channel>
+<channel id="PlusHitsAfrica.ao@SD"><display-name>+HITS AFRICA</display-name><icon src="https://i.imgur.com/mHGfgCo.png"/><url>https://zap.co.ao</url></channel>
+<channel id="TPA1.ao@SD"><display-name>TPA 1</display-name><icon src="https://i.imgur.com/M7aB0LN.png"/><url>https://zap.co.ao</url></channel>
+<channel id="TPA2.ao@SD"><display-name>TPA 2</display-name><icon src="https://i.imgur.com/s4UEWiY.png"/><url>https://zap.co.ao</url></channel>
+<channel id="TVZimbo.ao@SD"><display-name>TV Zimbo HD</display-name><icon src="https://i.imgur.com/SFD8CBh.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2282"><display-name>Canal de Programação</display-name><url>https://zap.co.ao</url></channel>
+<channel id="BabyTV.uk@UK"><display-name>BABY TV</display-name><icon src="https://i.imgur.com/4BDJ5FT.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2290"><display-name>C-MUSIC</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2296"><display-name>ESPN</display-name><url>https://zap.co.ao</url></channel>
+<channel id="TiJi.fr@SD"><display-name>Tiji</display-name><icon src="https://i.imgur.com/ZjsfAGb.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2303"><display-name>Tele Novelas</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2316"><display-name>CCTV 4</display-name><url>https://zap.co.ao</url></channel>
+<channel id="France2.fr@SD"><display-name>France 2</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png"/><url>https://zap.co.ao</url></channel>
+<channel id="France3.fr@SD"><display-name>France 3</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg"/><url>https://zap.co.ao</url></channel>
+<channel id="France5.fr@SD"><display-name>France 5</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png"/><url>https://zap.co.ao</url></channel>
+<channel id="LCI.fr@SD"><display-name>LCI</display-name><icon src="https://i.imgur.com/DED8EXs.png"/><url>https://zap.co.ao</url></channel>
+<channel id="HistoireTV.fr@SD"><display-name>Histoire</display-name><icon src="https://i.imgur.com/hxuJXll.png"/><url>https://zap.co.ao</url></channel>
+<channel id="UshuaiaTV.fr@SD"><display-name>Ushuaia TV</display-name><icon src="https://i.imgur.com/WjjlqbP.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2325"><display-name>ZAP - AfroBeats</display-name><url>https://zap.co.ao</url></channel>
+<channel id="AlJazeera.qa@Arabic"><display-name>Aljazeera Arabic</display-name><icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/><url>https://zap.co.ao</url></channel>
+<channel id="SportingTV.pt@SD"><display-name>Sporting TV</display-name><icon src="https://i.imgur.com/GOlNfTo.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2355"><display-name>CMTV África</display-name><url>https://zap.co.ao</url></channel>
+<channel id="Motorvision.de@SD"><display-name>Motorvision</display-name><icon src="https://i.imgur.com/v4kj8pI.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2366"><display-name>BLAST</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2379"><display-name>Globo HD</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2381"><display-name>AXN d</display-name><url>https://zap.co.ao</url></channel>
+<channel id="GloboOn.ao@SD"><display-name>GLOBOON</display-name><icon src="https://i.imgur.com/XmNpIcr.png"/><url>https://zap.co.ao</url></channel>
+<channel id="LaLiganaZap.ao@SD"><display-name>La Liga HD</display-name><icon src="https://i.imgur.com/NWFShcJ.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2390"><display-name>RTNC 1</display-name><url>https://zap.co.ao</url></channel>
+<channel id="Tele50.cd@SD"><display-name>TELE 50</display-name><icon src="https://i.imgur.com/JPNF6HE.jpeg"/><url>https://zap.co.ao</url></channel>
+<channel id="2412"><display-name>RTP 3 – Duplicado</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2415"><display-name>CNN Portugal - Duplicado</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2424"><display-name>ZAP - TVI Internacional</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2425"><display-name>ESPN2</display-name><url>https://zap.co.ao</url></channel>
+<channel id="DigitalCongoTV.cd@SD"><display-name>Digital Congo</display-name><icon src="https://i.imgur.com/uz2Rsu7.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2428"><display-name>RTP Internacional - Duplicado</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2430"><display-name>NBA TV HD</display-name><url>https://zap.co.ao</url></channel>
+<channel id="BeKuduro.ao@SD"><display-name>BeKuduro</display-name><icon src="https://i.imgur.com/ezCaM10.jpg"/><url>https://zap.co.ao</url></channel>
+<channel id="2434"><display-name>ZAP Viva HD</display-name><url>https://zap.co.ao</url></channel>
+<channel id="GloomChannel.mz@SD"><display-name>GLOOM</display-name><icon src="https://i.imgur.com/OZUMm0c.png"/><url>https://zap.co.ao</url></channel>
+<channel id="FightSports.us@SD"><display-name>Fight Sports</display-name><icon src="https://i.imgur.com/nV55veq.png"/><url>https://zap.co.ao</url></channel>
+<channel id="ZapNovelas.ao@SD"><display-name>ZAP Novelas HD</display-name><icon src="https://i.imgur.com/fXOqRR8.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2440"><display-name>Africa News</display-name><url>https://zap.co.ao</url></channel>
+<channel id="TraceBrazuca.fr@SD"><display-name>Trace Brasil</display-name><icon src="https://i.imgur.com/DFBocPu.png"/><url>https://zap.co.ao</url></channel>
+<channel id="MyMusicChannel.ao@SD"><display-name>My Music Channel HD</display-name><icon src="https://i.imgur.com/1gr9Gjk.png"/><url>https://zap.co.ao</url></channel>
+<channel id="Gametoon.nl@SD"><display-name>Gametoon</display-name><icon src="https://upload.wikimedia.org/wikipedia/tr/b/b6/Gametoon_HD_logo.png"/><url>https://zap.co.ao</url></channel>
+<channel id="STVNoticias.mz@SD"><display-name>STV Noticias HD</display-name><icon src="https://i.imgur.com/Enr4sz7.png"/><url>https://zap.co.ao</url></channel>
+<channel id="FightBox.nl@SD"><display-name>FIGHTBOX</display-name><icon src="https://i.imgur.com/mRsnztA.png"/><url>https://zap.co.ao</url></channel>
+<channel id="FashionBox.nl@SD"><display-name>Fashion BOX</display-name><icon src="https://i.imgur.com/Taqj4yi.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2448"><display-name>SBT HD</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2451"><display-name>Fast and Fun</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2452"><display-name>Sporting TV</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2454"><display-name>ZAP Viva HD</display-name><url>https://zap.co.ao</url></channel>
+<channel id="ZapViva.ao@SD"><display-name>ZAP Viva</display-name><icon src="https://i.imgur.com/T8aotqw.png"/><url>https://zap.co.ao</url></channel>
+<channel id="PandaKids.pt@SD"><display-name>PandaKids</display-name><icon src="https://i.imgur.com/6OP31oP.png"/><url>https://zap.co.ao</url></channel>
+<channel id="BomSomTV.pt@SD"><display-name>BomSom TV</display-name><icon src="https://i.imgur.com/pUKZ9ec.png"/><url>https://zap.co.ao</url></channel>
+<channel id="BlackDiamondz.uk@SD"><display-name>Black Diamond</display-name><icon src="https://i.imgur.com/1ggPPo1.png"/><url>https://zap.co.ao</url></channel>
+<channel id="Cubayo.uk@SD"><display-name>Cubayo</display-name><icon src="https://i.imgur.com/6fKBxqU.png"/><url>https://zap.co.ao</url></channel>
+<channel id="KIX.hk@SD"><display-name>KIX</display-name><icon src="https://i.imgur.com/zWcUAdb.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2465"><display-name>ZAP Ligue 1 HD</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2466"><display-name>Nickelodeon</display-name><url>https://zap.co.ao</url></channel>
+<channel id="WSport.za@SD"><display-name>W-Sport</display-name><icon src="https://i.imgur.com/K4GDwMp.png"/><url>https://zap.co.ao</url></channel>
+<channel id="2469"><display-name>TPA Noticias HD</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2470"><display-name>Cartoon TV</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2472"><display-name>Canal 11 Internacional</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2475"><display-name>Euronews Duplicado</display-name><url>https://zap.co.ao</url></channel>
+<channel id="2476"><display-name>DIZI</display-name><url>https://zap.co.ao</url></channel>
+</tv>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
+<channel id="TV3Plus.lv@SD"><display-name>3+</display-name><icon src="https://i.imgur.com/oWLnYLn.png"/><url>https://tv.lv</url></channel>
+<channel id="3sat.de@SD"><display-name>3SAT</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="8TV.lv@SD"><display-name>8TV</display-name><icon src="https://i.imgur.com/F8P8GY3.png"/><url>https://tv.lv</url></channel>
+<channel id="360TV.lv@SD"><display-name>360</display-name><icon src="https://i.imgur.com/bnSydaN.png"/><url>https://tv.lv</url></channel>
+<channel id="AlJazeera.qa@English"><display-name>Al Jazeera</display-name><icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="AnimalPlanetEurope.uk@SD"><display-name>Animal Planet EU</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="AnimalPlanetEurope.uk@HD"><display-name>Animal Planet HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="ARDalpha.de@SD"><display-name>ARD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/960px-ARD_alpha.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="ArenaHDBaltic.lt@SD"><display-name>Arena HD Baltic</display-name><icon src="https://i.imgur.com/oUT6rCF.png"/><url>https://tv.lv</url></channel>
+<channel id="ArirangTV.kr@SD"><display-name>Arirang TV</display-name><icon src="https://i.imgur.com/Asu5pE9.png"/><url>https://tv.lv</url></channel>
+<channel id="arte"><display-name>Arte</display-name><url>https://tv.lv</url></channel>
+<channel id="BBCEntertainment.uk@SD"><display-name>BBC Entertainment</display-name><icon src="https://i.imgur.com/fx2z8M1.png"/><url>https://tv.lv</url></channel>
+<channel id="bbc-world"><display-name>BBC World</display-name><url>https://tv.lv</url></channel>
+<channel id="BloombergTV.us@Europe"><display-name>Bloomberg</display-name><icon src="https://i.imgur.com/OuogLHx.png"/><url>https://tv.lv</url></channel>
+<channel id="boomerang-baltic-cee"><display-name>Boomerang Baltic (CEE)</display-name><url>https://tv.lv</url></channel>
+<channel id="StingrayCMusic.ca@SD"><display-name>C Music TV</display-name><icon src="https://i.imgur.com/3UppN5P.png"/><url>https://tv.lv</url></channel>
+<channel id="cartoon-network-rse"><display-name>Cartoon Network RSE</display-name><url>https://tv.lv</url></channel>
+<channel id="RealityXtra.uk@SD"><display-name>CBS Drama</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/RealityXtra_logo.svg/960px-RealityXtra_logo.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="CBSReality.uk@SD"><display-name>CBS Reality</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/CBS_Reality.png/960px-CBS_Reality.png"/><url>https://tv.lv</url></channel>
+<channel id="CNBCEurope.uk@SD"><display-name>CNBC Europe</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg"/><url>https://tv.lv</url></channel>
+<channel id="CNNInternational.us@MENA"><display-name>CNN</display-name><icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/><url>https://tv.lv</url></channel>
+<channel id="detskii-klub-100"><display-name>Детский - Клуб 100</display-name><url>https://tv.lv</url></channel>
+<channel id="deutche-welle"><display-name>Deutche Welle</display-name><url>https://tv.lv</url></channel>
+<channel id="discovery-channel-ce"><display-name>Discovery Channel CE</display-name><url>https://tv.lv</url></channel>
+<channel id="discovery-hd-showcase"><display-name>Discovery HD Showcase</display-name><url>https://tv.lv</url></channel>
+<channel id="discovery-id-xtra"><display-name>Discovery ID XTRA</display-name><url>https://tv.lv</url></channel>
+<channel id="discovery-life"><display-name>Discovery Life</display-name><url>https://tv.lv</url></channel>
+<channel id="discovery-science-eu"><display-name>Discovery Science EU</display-name><url>https://tv.lv</url></channel>
+<channel id="discovery-world-eu"><display-name>Discovery World EU</display-name><url>https://tv.lv</url></channel>
+<channel id="disney-channel"><display-name>Disney Channel</display-name><url>https://tv.lv</url></channel>
+<channel id="disney-junior"><display-name>Disney Junior</display-name><url>https://tv.lv</url></channel>
+<channel id="disney-xd"><display-name>Disney XD</display-name><url>https://tv.lv</url></channel>
+<channel id="djazztv"><display-name>DJAZZ.tv</display-name><url>https://tv.lv</url></channel>
+<channel id="duo-3-baltic"><display-name>Duo 3 Baltic</display-name><url>https://tv.lv</url></channel>
+<channel id="duo-3-blt"><display-name>Duo 3 BLT</display-name><url>https://tv.lv</url></channel>
+<channel id="Duo6.lv@SD"><display-name>Duo 6 LV</display-name><icon src="https://i.imgur.com/bHtkbHT.png"/><url>https://tv.lv</url></channel>
+<channel id="e-entertainment"><display-name>E! Entertainment</display-name><url>https://tv.lv</url></channel>
+<channel id="EpicDrama.uk@Sweden"><display-name>Epic Drama CEE</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Epic-Drama-TV.jpg/960px-Epic-Drama-TV.jpg"/><url>https://tv.lv</url></channel>
+<channel id="esportstv"><display-name>eSportsTV</display-name><url>https://tv.lv</url></channel>
+<channel id="euronews"><display-name>Euronews</display-name><url>https://tv.lv</url></channel>
+<channel id="Eurosport1.fr@France"><display-name>Eurosport 1</display-name><icon src="https://i.imgur.com/olQJgm7.png"/><url>https://tv.lv</url></channel>
+<channel id="Eurosport2.fr@France"><display-name>Eurosport 2</display-name><icon src="https://i.imgur.com/f56dHgR.png"/><url>https://tv.lv</url></channel>
+<channel id="eurosport-2-bundesliga"><display-name>Eurosport 2 (Bundesliga)</display-name><url>https://tv.lv</url></channel>
+<channel id="eurosport-deutchland"><display-name>Eurosport Deutchland</display-name><url>https://tv.lv</url></channel>
+<channel id="extreme-sports"><display-name>Extreme Sports</display-name><url>https://tv.lv</url></channel>
+<channel id="fashion-one"><display-name>Fashion One</display-name><url>https://tv.lv</url></channel>
+<channel id="FashionTVEurope.fr@SD"><display-name>Fashion TV Europe</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="fight-sports-tv"><display-name>Fight Sports TV</display-name><url>https://tv.lv</url></channel>
+<channel id="FilmzonePlus.ee@SD"><display-name>Filmzone +</display-name><icon src="https://i.imgur.com/uWBRdS9.png"/><url>https://tv.lv</url></channel>
+<channel id="filmzone-lv"><display-name>Filmzone LV</display-name><url>https://tv.lv</url></channel>
+<channel id="food-network-hd-emea"><display-name>Food Network HD (EMEA)</display-name><url>https://tv.lv</url></channel>
+<channel id="fox"><display-name>Fox</display-name><url>https://tv.lv</url></channel>
+<channel id="fox-life"><display-name>Fox Life</display-name><url>https://tv.lv</url></channel>
+<channel id="france-24-uk"><display-name>France 24 UK</display-name><url>https://tv.lv</url></channel>
+<channel id="futbol"><display-name>Футбол</display-name><url>https://tv.lv</url></channel>
+<channel id="Go3Films.ee@SD"><display-name>GO3 Films</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Go3_Films_Logo_2023.svg/500px-Go3_Films_Logo_2023.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="Go3Sport.ee@SD"><display-name>GO3 Sport</display-name><icon src="https://i.imgur.com/AHiWUGn.png"/><url>https://tv.lv</url></channel>
+<channel id="Go3Sport2.ee@SD"><display-name>GO3 Sport 2</display-name><icon src="https://i.imgur.com/ikRWy9M.png"/><url>https://tv.lv</url></channel>
+<channel id="Go3Sport3.ee@SD"><display-name>GO3 Sport 3</display-name><icon src="https://i.imgur.com/UjpLnPv.png"/><url>https://tv.lv</url></channel>
+<channel id="Go3Sport4.ee@SD"><display-name>GO3 Sport 4</display-name><icon src="https://i.imgur.com/WBLF0CX.png"/><url>https://tv.lv</url></channel>
+<channel id="gulli"><display-name>Gulli</display-name><url>https://tv.lv</url></channel>
+<channel id="history-europe"><display-name>History Europe</display-name><url>https://tv.lv</url></channel>
+<channel id="kanal-7-lv"><display-name>Kanal 7 LV</display-name><url>https://tv.lv</url></channel>
+<channel id="kidzone-mini-baltic"><display-name>Kidzone Mini Baltic</display-name><url>https://tv.lv</url></channel>
+<channel id="kidzonetv-latvija"><display-name>KidzoneTV Latvija</display-name><url>https://tv.lv</url></channel>
+<channel id="KiKA.de@SD"><display-name>KIKA</display-name><icon src="https://i.imgur.com/vZdNp5S.png"/><url>https://tv.lv</url></channel>
+<channel id="lolo-tv-lv"><display-name>Lolo TV (LV)</display-name><url>https://tv.lv</url></channel>
+<channel id="LTV1.lv@SD"><display-name>LTV1</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/LTV1_%282022%29.svg/960px-LTV1_%282022%29.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="LTV7.lv@SD"><display-name>LTV7</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/LTV7_Logo_2021.svg/960px-LTV7_Logo_2021.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="luxetv-hd"><display-name>Luxe.TV HD</display-name><url>https://tv.lv</url></channel>
+<channel id="mcm-top"><display-name>MCM TOP</display-name><url>https://tv.lv</url></channel>
+<channel id="mezzo"><display-name>Mezzo</display-name><url>https://tv.lv</url></channel>
+<channel id="motorsport-tv"><display-name>Motorsport TV</display-name><url>https://tv.lv</url></channel>
+<channel id="mtv-dance"><display-name>MTV Dance</display-name><url>https://tv.lv</url></channel>
+<channel id="mtv-europe"><display-name>MTV Europe</display-name><url>https://tv.lv</url></channel>
+<channel id="mtv-hits"><display-name>MTV Hits</display-name><url>https://tv.lv</url></channel>
+<channel id="mtv-live-hd"><display-name>MTV Live HD</display-name><url>https://tv.lv</url></channel>
+<channel id="mtv-music"><display-name>MTV Music</display-name><url>https://tv.lv</url></channel>
+<channel id="mtv-rocks"><display-name>MTV Rocks</display-name><url>https://tv.lv</url></channel>
+<channel id="mtv-sport-1"><display-name>MTV Sport 1</display-name><url>https://tv.lv</url></channel>
+<channel id="mtv-sport-2"><display-name>MTV sport 2</display-name><url>https://tv.lv</url></channel>
+<channel id="mvk"><display-name>MVK</display-name><url>https://tv.lv</url></channel>
+<channel id="N24Doku.de@SD"><display-name>N24 Doku</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/N24Doku.svg/960px-N24Doku.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="n-tv"><display-name>N-TV</display-name><url>https://tv.lv</url></channel>
+<channel id="nat-geo-wild-europe"><display-name>Nat Geo Wild Europe</display-name><url>https://tv.lv</url></channel>
+<channel id="national-geographic-baltic"><display-name>National Geographic Baltic</display-name><url>https://tv.lv</url></channel>
+<channel id="national-geographic-channel-hd"><display-name>National Geographic Channel HD</display-name><url>https://tv.lv</url></channel>
+<channel id="nautical-channel"><display-name>Nautical Channel</display-name><url>https://tv.lv</url></channel>
+<channel id="nick-jr"><display-name>Nick Jr.</display-name><url>https://tv.lv</url></channel>
+<channel id="nickelodeon-euro"><display-name>Nickelodeon EURO</display-name><url>https://tv.lv</url></channel>
+<channel id="nickelodeon-latvia"><display-name>Nickelodeon Latvia</display-name><url>https://tv.lv</url></channel>
+<channel id="ORF1.at@SD"><display-name>ORF1</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ORF_1_2019.svg"/><url>https://tv.lv</url></channel>
+<channel id="ORF2.at@SD"><display-name>ORF2</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/e/e7/ORF2_logo_n.svg"/><url>https://tv.lv</url></channel>
+<channel id="pro-7"><display-name>PRO 7</display-name><url>https://tv.lv</url></channel>
+<channel id="ReTV.lv@SD"><display-name>ReTV</display-name><icon src="https://i.imgur.com/Z3cre5Xm.png"/><url>https://tv.lv</url></channel>
+<channel id="riga-tv24"><display-name>Riga TV24</display-name><url>https://tv.lv</url></channel>
+<channel id="rtl"><display-name>RTL</display-name><url>https://tv.lv</url></channel>
+<channel id="rtl-2"><display-name>RTL 2</display-name><url>https://tv.lv</url></channel>
+<channel id="Nitro.de@SD"><display-name>RTL Nitro</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/960px-Nitro_Logo.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="SAT1Gold.de@SD"><display-name>SAT.1 Gold</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sat.1_Gold_Logo_2019.svg/960px-Sat.1_Gold_Logo_2019.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="sat-1"><display-name>SAT 1</display-name><url>https://tv.lv</url></channel>
+<channel id="sixx.de@SD"><display-name>SIXX</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sixx_Logo.svg/960px-Sixx_Logo.svg.png"/><url>https://tv.lv</url></channel>
+<channel id="smartzone-baltic-lithuania"><display-name>Smartzone Baltic Lithuania</display-name><url>https://tv.lv</url></channel>
+<channel id="sport1"><display-name>Sport1</display-name><url>https://tv.lv</url></channel>
+<channel id="sport-1"><display-name>Sport 1</display-name><url>https://tv.lv</url></channel>
+<channel id="sportacentrs"><display-name>Sportacentrs</display-name><url>https://tv.lv</url></channel>
+<channel id="stv-latvija"><display-name>STV Latvija</display-name><url>https://tv.lv</url></channel>
+<channel id="RTLSuper.de@SD"><display-name>Super RTL</display-name><icon src="https://i.imgur.com/KbdK8t9.png"/><url>https://tv.lv</url></channel>
+<channel id="tiji"><display-name>TiJi</display-name><url>https://tv.lv</url></channel>
+<channel id="tlc-germany"><display-name>TLC Germany</display-name><url>https://tv.lv</url></channel>
+<channel id="trace-sports"><display-name>Trace Sports</display-name><url>https://tv.lv</url></channel>
+<channel id="TraceUrban.fr@SD"><display-name>Trace Urban</display-name><icon src="https://i.imgur.com/DLIbUMx.png"/><url>https://tv.lv</url></channel>
+<channel id="travel-channel"><display-name>Travel Channel</display-name><url>https://tv.lv</url></channel>
+<channel id="travel-channel-hd"><display-name>Travel Channel HD</display-name><url>https://tv.lv</url></channel>
+<channel id="TV3.lv@SD"><display-name>TV3</display-name><icon src="https://i.imgur.com/7nipq0y.png"/><url>https://tv.lv</url></channel>
+<channel id="TV3Life.lv@SD"><display-name>TV3 Life</display-name><icon src="https://i.imgur.com/Tm8hj45.png"/><url>https://tv.lv</url></channel>
+<channel id="TV3Mini.lv@SD"><display-name>TV3 Mini</display-name><icon src="https://i.imgur.com/q8JOJ0o.png"/><url>https://tv.lv</url></channel>
+<channel id="TV6.lv@SD"><display-name>TV6</display-name><icon src="https://i.imgur.com/oC0jiFW.png"/><url>https://tv.lv</url></channel>
+<channel id="tv-21"><display-name>TV-21</display-name><url>https://tv.lv</url></channel>
+<channel id="tv-kurzeme"><display-name>TV Kurzeme</display-name><url>https://tv.lv</url></channel>
+<channel id="tve"><display-name>TVE</display-name><url>https://tv.lv</url></channel>
+<channel id="unian"><display-name>Униан</display-name><url>https://tv.lv</url></channel>
+<channel id="VH1ClassicEurope.uk@SD"><display-name>VH1 Classic Europe</display-name><url>https://tv.lv</url></channel>
+<channel id="vh1-euro-imm"><display-name>VH1 Euro IMM</display-name><url>https://tv.lv</url></channel>
+<channel id="ViasatExplore.se@SD"><display-name>Viasat Explore Nordic</display-name><icon src="https://i.imgur.com/DyT5pKB.png"/><url>https://tv.lv</url></channel>
+<channel id="viasat-golf"><display-name>Viasat Golf</display-name><url>https://tv.lv</url></channel>
+<channel id="ViasatHistory.se@SD"><display-name>Viasat History CEE</display-name><icon src="https://i.imgur.com/wRP9XA7.png"/><url>https://tv.lv</url></channel>
+<channel id="viasat-kino"><display-name>Viasat Kino</display-name><url>https://tv.lv</url></channel>
+<channel id="viasat-kino-action"><display-name>Viasat Kino Action</display-name><url>https://tv.lv</url></channel>
+<channel id="viasat-kino-comedy"><display-name>Viasat Kino Comedy</display-name><url>https://tv.lv</url></channel>
+<channel id="viasat-kino-world"><display-name>Viasat Kino World</display-name><url>https://tv.lv</url></channel>
+<channel id="ViasatNature.se@SD"><display-name>VIASAT Nature CEE</display-name><icon src="https://i.imgur.com/ousRqqD.png"/><url>https://tv.lv</url></channel>
+<channel id="viasat-naturehistory-hd"><display-name>Viasat Nature/History HD</display-name><url>https://tv.lv</url></channel>
+<channel id="viasat-sport"><display-name>Viasat Sport</display-name><url>https://tv.lv</url></channel>
+<channel id="viasat-sport-east"><display-name>VIASAT Sport East</display-name><url>https://tv.lv</url></channel>
+<channel id="vox"><display-name>VOX</display-name><url>https://tv.lv</url></channel>
+<channel id="ZDF.de@SD"><display-name>ZDF</display-name><icon src="https://i.imgur.com/rtLb6m9.png"/><url>https://tv.lv</url></channel>
+</tv>

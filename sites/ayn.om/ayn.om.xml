@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
+<channel id="OmanTV.om"><display-name>قناة عمان العامة</display-name><icon src="https://i.imgur.com/rBftT9x.png"/><url>https://ayn.om</url></channel>
+<channel id="OmanSportsTV.om"><display-name>قناة عمان الرياضية</display-name><icon src="https://i.imgur.com/1omi7p8.png"/><url>https://ayn.om</url></channel>
+<channel id="OmanTVCultural.om"><display-name>قناة عمان الثقافية</display-name><icon src="https://i.imgur.com/b38wNPK.png"/><url>https://ayn.om</url></channel>
+<channel id="OmanTVMubashir.om"><display-name>قناة عمان مباشر</display-name><icon src="https://i.imgur.com/UkQTR5b.png"/><url>https://ayn.om</url></channel>
+<programme start="20260423200000 +0000" stop="20260423200500 +0000" channel="OmanTVMubashir.om"><title lang="ar">حصاد</title></programme>
+<programme start="20260423200500 +0000" stop="20260423210000 +0000" channel="OmanTVMubashir.om"><title lang="ar">المسلسل التركي - عودة الروح - الحلقة 32</title></programme>
+<programme start="20260423210000 +0000" stop="20260423212500 +0000" channel="OmanTVMubashir.om"><title lang="ar">نشرة أخبار الواحدة</title></programme>
+<programme start="20260423212500 +0000" stop="20260423225000 +0000" channel="OmanTVMubashir.om"><title lang="ar">سؤال اهل الذكر</title></programme>
+<programme start="20260423225000 +0000" stop="20260424001000 +0000" channel="OmanTVMubashir.om"><title lang="ar">المسلسل المصري - عملة نادرة - الحلقة 4</title></programme>
+<programme start="20260424001000 +0000" stop="20260424004000 +0000" channel="OmanTVMubashir.om"><title lang="ar">المسلسل الخليجي - قلم رصاص - الحلقة 2</title></programme>
+<programme start="20260424004000 +0000" stop="20260424005000 +0000" channel="OmanTVMubashir.om"><title lang="ar">أحسن القصص</title></programme>
+<programme start="20260424005000 +0000" stop="20260424005500 +0000" channel="OmanTVMubashir.om"><title lang="ar">قرآن كريم</title></programme>
+<programme start="20260424005500 +0000" stop="20260424010000 +0000" channel="OmanTVMubashir.om"><title lang="ar">اذان الفجر</title></programme>
+<programme start="20260424010000 +0000" stop="20260424014500 +0000" channel="OmanTVMubashir.om"><title lang="ar">من عمان R</title></programme>
+<programme start="20260424014500 +0000" stop="20260424023000 +0000" channel="OmanTVMubashir.om"><title lang="ar">المسلسل التركي - عودة الروح - الحلقة 32</title></programme>
+<programme start="20260424023000 +0000" stop="20260424030000 +0000" channel="OmanTVMubashir.om"><title lang="ar">البرنامج الثقافي - نحو عالم أكثر اخضرارا - الحلقة 33</title></programme>
+<programme start="20260424030000 +0000" stop="20260424031500 +0000" channel="OmanTVMubashir.om"><title lang="ar">قصص الايات في القرآن</title></programme>
+<programme start="20260424031500 +0000" stop="20260424033000 +0000" channel="OmanTVMubashir.om"><title lang="ar">ج1قنديل الحكايات</title></programme>
+<programme start="20260424033000 +0000" stop="20260424035000 +0000" channel="OmanTVMubashir.om"><title lang="ar">حكاية جدتي</title></programme>
+<programme start="20260424035000 +0000" stop="20260424041000 +0000" channel="OmanTVMubashir.om"><title lang="ar">الرحلة الى مكارم الاخلاق</title></programme>
+<programme start="20260424041000 +0000" stop="20260424045000 +0000" channel="OmanTVMubashir.om"><title lang="ar">المسلسل الخليجي - قلم رصاص - الحلقة 2</title></programme>
+<programme start="20260424045000 +0000" stop="20260424052000 +0000" channel="OmanTVMubashir.om"><title lang="ar">حصاد</title></programme>
+<programme start="20260424052000 +0000" stop="20260424060100 +0000" channel="OmanTVMubashir.om"><title lang="ar">المسلسل المصري - عملة نادرة - الحلقة 4</title></programme>
+<programme start="20260424060100 +0000" stop="20260424070000 +0000" channel="OmanTVMubashir.om"><title lang="ar">قمرة</title></programme>
+<programme start="20260424070000 +0000" stop="20260424072000 +0000" channel="OmanTVMubashir.om"><title lang="ar">الحادية عشر</title></programme>
+<programme start="20260424072000 +0000" stop="20260424080000 +0000" channel="OmanTVMubashir.om"><title lang="ar">سؤال اهل الذكر</title></programme>
+<programme start="20260424080000 +0000" stop="20260424082000 +0000" channel="OmanTVMubashir.om"><title lang="ar">اذان الظهر</title></programme>
+<programme start="20260424082000 +0000" stop="20260424091000 +0000" channel="OmanTVMubashir.om"><title lang="ar">صلاة الجمعة المباركة 2026 - الحلقة 17</title></programme>
+<programme start="20260424091000 +0000" stop="20260424100000 +0000" channel="OmanTVMubashir.om"><title lang="ar">عمان في أسبوع</title></programme>
+<programme start="20260424100000 +0000" stop="20260424102000 +0000" channel="OmanTVMubashir.om"><title lang="ar">اخبار الثانية</title></programme>
+<programme start="20260424102000 +0000" stop="20260424110000 +0000" channel="OmanTVMubashir.om"><title lang="ar">المسلسل التركي - عودة الروح - الحلقة 33</title></programme>
+<programme start="20260424110000 +0000" stop="20260424114000 +0000" channel="OmanTVMubashir.om"><title lang="ar">عالم اكثر اخضرارا</title></programme>
+<programme start="20260424114000 +0000" stop="20260424115000 +0000" channel="OmanTVMubashir.om"><title lang="ar">اذان العصر</title></programme>
+<programme start="20260424115000 +0000" stop="20260424121500 +0000" channel="OmanTVMubashir.om"><title lang="ar">قصص الايات في القرآن</title></programme>
+<programme start="20260424121500 +0000" stop="20260424123000 +0000" channel="OmanTVMubashir.om"><title lang="ar">قنديل الحكايات ج1</title></programme>
+<programme start="20260424123000 +0000" stop="20260424124500 +0000" channel="OmanTVMubashir.om"><title lang="ar">حكاية جدتي</title></programme>
+<programme start="20260424124500 +0000" stop="20260424130000 +0000" channel="OmanTVMubashir.om"><title lang="ar">الرحلة الى مكارم الاخلاق</title></programme>
+<programme start="20260424130000 +0000" stop="20260424133000 +0000" channel="OmanTVMubashir.om"><title lang="ar">أخبار عمان</title></programme>
+<programme start="20260424133000 +0000" stop="20260424141000 +0000" channel="OmanTVMubashir.om"><title lang="ar">المسلسل الخليجي - قلم رصاص - الحلقة 3</title></programme>
+<programme start="20260424141000 +0000" stop="20260424142000 +0000" channel="OmanTVMubashir.om"><title lang="ar">اذان المغرب</title></programme>
+<programme start="20260424142000 +0000" stop="20260424143000 +0000" channel="OmanTVMubashir.om"><title lang="ar">خير يبقى</title></programme>
+<programme start="20260424143000 +0000" stop="20260424150000 +0000" channel="OmanTVMubashir.om"><title lang="ar">حصاد</title></programme>
+<programme start="20260424150000 +0000" stop="20260424152000 +0000" channel="OmanTVMubashir.om"><title lang="ar">اللغة الانجليزية</title></programme>
+<programme start="20260424152000 +0000" stop="20260424155500 +0000" channel="OmanTVMubashir.om"><title lang="ar">المسلسل المصري - عملة نادرة - الحلقة 4</title></programme>
+<programme start="20260424155500 +0000" stop="20260424160000 +0000" channel="OmanTVMubashir.om"><title lang="ar">اذان العشاء</title></programme>
+<programme start="20260424160000 +0000" stop="20260424163000 +0000" channel="OmanTVMubashir.om"><title lang="ar">طاقة الحياة</title></programme>
+<programme start="20260424163000 +0000" stop="20260424170000 +0000" channel="OmanTVMubashir.om"><title lang="ar">المجهر</title></programme>
+<programme start="20260424170000 +0000" stop="20260424173000 +0000" channel="OmanTVMubashir.om"><title lang="ar">عباب</title></programme>
+<programme start="20260424173000 +0000" stop="20260424180000 +0000" channel="OmanTVMubashir.om"><title lang="ar">متون</title></programme>
+<programme start="20260424180000 +0000" stop="20260424184500 +0000" channel="OmanTVMubashir.om"><title lang="ar">نشرة أخبار العاشرة</title></programme>
+<programme start="20260424184500 +0000" stop="20260424191500 +0000" channel="OmanTVMubashir.om"><title lang="ar">الأفلام العربية</title></programme>
+<programme start="20260424191500 +0000" stop="20260424195500 +0000" channel="OmanTVMubashir.om"><title lang="ar">الوقيد</title></programme>
+<programme start="20260424195500 +0000" stop="20260424205500 +0000" channel="OmanTVMubashir.om"><title lang="ar">حصاد</title></programme>
+</tv>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
+<channel id="NBATVInternational.us@SD"><display-name>NBA TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png"/><url>https://sporttv.pt</url></channel>
+<channel id="SportTV1.pt@SD"><display-name>Sport TV 1</display-name><icon src="https://i.imgur.com/YWic36u.png"/><url>https://sporttv.pt</url></channel>
+<channel id="SportTV2.pt@SD"><display-name>Sport TV 2</display-name><icon src="https://i.imgur.com/0jSR6yG.png"/><url>https://sporttv.pt</url></channel>
+<channel id="SportTV3.pt@SD"><display-name>Sport TV 3</display-name><icon src="https://i.imgur.com/6Dw3GUx.png"/><url>https://sporttv.pt</url></channel>
+<channel id="SportTV4.pt@SD"><display-name>Sport TV 4</display-name><icon src="https://i.imgur.com/mJlbVfW.png"/><url>https://sporttv.pt</url></channel>
+<channel id="SportTV5.pt@SD"><display-name>Sport TV 5</display-name><icon src="https://i.imgur.com/4w4vuad.png"/><url>https://sporttv.pt</url></channel>
+<channel id="SportTV6.pt@SD"><display-name>Sport TV 6</display-name><icon src="https://i.imgur.com/qmlQkyI.png"/><url>https://sporttv.pt</url></channel>
+<channel id="SportTV7.pt@SD"><display-name>Sport TV 7</display-name><icon src="https://i.imgur.com/2HmCAm5.png"/><url>https://sporttv.pt</url></channel>
+<channel id="SportTVPlus.pt@SD"><display-name>Sport TV+</display-name><icon src="https://i.imgur.com/R5FZEW6.png"/><url>https://sporttv.pt</url></channel>
+</tv>

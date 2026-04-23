@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
+<channel id="CNNPortugal.pt@SD"><display-name>CNN Portugal</display-name><icon src="https://i.imgur.com/bc6tYVZ.png"/><url>https://tvi.iol.pt</url></channel>
+<channel id="TVI.pt@SD"><display-name>TVI</display-name><icon src="https://i.imgur.com/H8Tgl7m.png"/><url>https://tvi.iol.pt</url></channel>
+<channel id="TVIAfrica.pt@SD"><display-name>TVI África</display-name><icon src="https://i.ibb.co/vBbSHB4/Tvi-africa.png"/><url>https://tvi.iol.pt</url></channel>
+<channel id="TVIFiccao.pt@SD"><display-name>TVI Ficção</display-name><icon src="https://cdn.iol.pt/img/logostvi/branco/tvificcao.png"/><url>https://tvi.iol.pt</url></channel>
+<channel id="TVIInternacional.pt@SD"><display-name>TVI Internacional</display-name><icon src="https://i.imgur.com/l1cun8s.png"/><url>https://tvi.iol.pt</url></channel>
+<channel id="TVIReality.pt@SD"><display-name>TVI Reality</display-name><icon src="https://i.imgur.com/C9rxqA5.png"/><url>https://tvi.iol.pt</url></channel>
+<channel id="VPlusTVI.pt@SD"><display-name>V+ TVI</display-name><icon src="https://upload.wikimedia.org/wikipedia/pt/e/ef/V%2BTVI_Logo.png"/><url>https://tvi.iol.pt</url></channel>
+</tv>

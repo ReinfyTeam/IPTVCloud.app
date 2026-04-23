@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
+<channel id="ChunghwaTV.kr@SD"><display-name>중화TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/zh/8/84/%EC%A4%91%ED%99%94TV_logo.png"/><url>https://m.tving.com</url></channel>
+<channel id="tvN.kr@SD"><display-name>tvN</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/960px-Logo_tvN.svg.png"/><url>https://m.tving.com</url></channel>
+<channel id="tvNSports.kr@SD"><display-name>Olive</display-name><icon src="https://i.imgur.com/NUKYwPr.png"/><url>https://m.tving.com</url></channel>
+<channel id="Mnet.kr@SD"><display-name>Mnet</display-name><icon src="https://i.imgur.com/DGH10Z2.png"/><url>https://m.tving.com</url></channel>
+<channel id="TVChosun2.kr@SD"><display-name>c time</display-name><icon src="https://i.imgur.com/Ev5JoBJ.png"/><url>https://m.tving.com</url></channel>
+<channel id="OGN.kr@SD"><display-name>OGN</display-name><icon src="https://i.imgur.com/3hICVRe.png"/><url>https://m.tving.com</url></channel>
+<channel id="YTN.kr@SD"><display-name>YTN</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/YTN_logo_2014.svg/960px-YTN_logo_2014.svg.png"/><url>https://m.tving.com</url></channel>
+<channel id="C00611"><display-name>life time</display-name><url>https://m.tving.com</url></channel>
+<channel id="MBN.kr@SD"><display-name>MBN</display-name><icon src="https://i.imgur.com/wm3JupT.png"/><url>https://m.tving.com</url></channel>
+<channel id="C00805"><display-name>jtbc3</display-name><url>https://m.tving.com</url></channel>
+<channel id="YTN2.kr@SD"><display-name>YTN life</display-name><icon src="https://i.imgur.com/g6Nhwmb.png"/><url>https://m.tving.com</url></channel>
+<channel id="tvNShow.kr@SD"><display-name>Xtvn</display-name><icon src="https://i.imgur.com/8OobmvS.png"/><url>https://m.tving.com</url></channel>
+<channel id="OnStyle.kr@SD"><display-name>Onstyle</display-name><icon src="https://i.imgur.com/qm60XJQ.png"/><url>https://m.tving.com</url></channel>
+<channel id="tvNDrama.kr@SD"><display-name>OtvN</display-name><icon src="https://i.imgur.com/f91ieU8.png"/><url>https://m.tving.com</url></channel>
+<channel id="TVChosun.kr@SD"><display-name>tv조선</display-name><icon src="https://i.imgur.com/62EwaCG.png"/><url>https://m.tving.com</url></channel>
+<channel id="JTBC.kr@SD"><display-name>jtbc</display-name><icon src="https://i.imgur.com/fCruRmS.png"/><url>https://m.tving.com</url></channel>
+<channel id="ChannelA.kr@SD"><display-name>채널a</display-name><icon src="https://i.imgur.com/W9laHPD.png"/><url>https://m.tving.com</url></channel>
+<channel id="YonhapNewsTV.kr@SD"><display-name>연합뉴스</display-name><icon src="https://i.imgur.com/3aLkU2I.png"/><url>https://m.tving.com</url></channel>
+<channel id="OCNMovies.kr@SD"><display-name>Ch. CGV</display-name><icon src="https://i.imgur.com/VwPHXfi.png"/><url>https://m.tving.com</url></channel>
+<channel id="C05661"><display-name>디즈니</display-name><url>https://m.tving.com</url></channel>
+<channel id="Tooniverse.kr@SD"><display-name>Tooniverse</display-name><icon src="https://i.imgur.com/Fesm8M3.png"/><url>https://m.tving.com</url></channel>
+<channel id="OCN.kr@SD"><display-name>OCN</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/OCN_Logo.svg/960px-OCN_Logo.svg.png"/><url>https://m.tving.com</url></channel>
+<channel id="OCNThrills.kr@SD"><display-name>super Action</display-name><icon src="https://i.imgur.com/YhXjkbR.png"/><url>https://m.tving.com</url></channel>
+<channel id="C15152"><display-name>DAI TV</display-name><url>https://m.tving.com</url></channel>
+<channel id="YTNScience.kr@SD"><display-name>YTN science</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/YTN_%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4_%EB%A1%9C%EA%B3%A0_%EB%89%B4.png/960px-YTN_%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4_%EB%A1%9C%EA%B3%A0_%EB%89%B4.png"/><url>https://m.tving.com</url></channel>
+<channel id="JTBC2.kr@SD"><display-name>jtbc2</display-name><icon src="https://i.imgur.com/kljWkXS.png"/><url>https://m.tving.com</url></channel>
+<channel id="ChannelAPlus.kr@SD"><display-name>채널a plus</display-name><icon src="https://i.imgur.com/2t4Y5FP.png"/><url>https://m.tving.com</url></channel>
+<channel id="MBNPlus.kr@SD"><display-name>MBN Plus</display-name><icon src="https://i.imgur.com/8isw1U0.png"/><url>https://m.tving.com</url></channel>
+<channel id="History.kr@SD"><display-name>히스토리</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"/><url>https://m.tving.com</url></channel>
+<channel id="JTBC4.kr@SD"><display-name>jtbc4</display-name><icon src="https://i.imgur.com/dgIXpHS.png"/><url>https://m.tving.com</url></channel>
+</tv>

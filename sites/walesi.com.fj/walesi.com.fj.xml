@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
+<channel id="9-education-channel"><display-name>Education Channel</display-name><url>https://walesi.com.fj</url></channel>
+<channel id="Channel2.fj@SD"><display-name>Channel 2</display-name><icon src="https://i.imgur.com/damLvxH.png"/><url>https://walesi.com.fj</url></channel>
+<channel id="FBCSports.fj@SD"><display-name>FBC Sports</display-name><icon src="https://i.imgur.com/l953wkT.png"/><url>https://walesi.com.fj</url></channel>
+<channel id="FBC2.fj@SD"><display-name>FBC 2</display-name><icon src="https://i.imgur.com/fIm6sCt.png"/><url>https://walesi.com.fj</url></channel>
+<channel id="FBCTV.fj@SD"><display-name>FBC</display-name><icon src="https://i.imgur.com/jEE23Cd.png"/><url>https://walesi.com.fj</url></channel>
+<channel id="FijiOne.fj@SD"><display-name>Fiji One</display-name><icon src="https://i.imgur.com/yTcrgxU.png"/><url>https://walesi.com.fj</url></channel>
+<channel id="HopeChannelFiji.fj@SD"><display-name>Hope Channel</display-name><icon src="https://i.imgur.com/aUq8Un5.png"/><url>https://walesi.com.fj</url></channel>
+<channel id="MaiTV.fj@SD"><display-name>Mai Tv</display-name><icon src="https://i.imgur.com/iz60Nhx.png"/><url>https://walesi.com.fj</url></channel>
+<channel id="ParliamentofFiji.fj@SD"><display-name>Parliament Channel</display-name><icon src="https://i.imgur.com/peKAzDv.png"/><url>https://walesi.com.fj</url></channel>
+</tv>
