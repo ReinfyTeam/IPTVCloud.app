@@ -1,3 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="TeleBilbao.es@SD"><display-name>TeleBilbao</display-name><icon src="https://i.imgur.com/x2HmBq1.png"/><url>https://telebilbao.es</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="TeleBilbao.es@SD">
+    <display-name>TeleBilbao</display-name>
+    <icon src="https://i.imgur.com/x2HmBq1.png"/>
+    <url>https://telebilbao.es</url>
+  </channel>
 </tv>

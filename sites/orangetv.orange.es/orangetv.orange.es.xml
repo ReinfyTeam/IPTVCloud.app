@@ -1,274 +1,1217 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="1001"><display-name>La 1 HD TDT</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1002"><display-name>La 2 HD TDT</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1007"><display-name>C.Aut</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1015"><display-name>24h TDT</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1025"><display-name>Paramount</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1033"><display-name>Cazavisión</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1059"><display-name>M LALIGA 5</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1068"><display-name>EWTN</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1070"><display-name>M6</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1071"><display-name>Autonómico</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1081"><display-name>Moto ADV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1086"><display-name>Gametoon</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1092"><display-name>Autonómico 2</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1093"><display-name>Autonómico 3</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1094"><display-name>Autonómico 4</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1103"><display-name>Local 1</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1104"><display-name>Local 2</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1105"><display-name>Local 3</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="1106"><display-name>Local 4</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2005"><display-name>CEX</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2007"><display-name>Telemadrid HD</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2010"><display-name>ATV HD</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2012"><display-name>CMTV HD</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2016"><display-name>A7</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2023"><display-name>ETB2 Navarra</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2026"><display-name>A8</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2027"><display-name>Super 3/33</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2028"><display-name>La 8</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2030"><display-name>Canal 4</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2033"><display-name>Vtelevisión</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2035"><display-name>TV3 CAT</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2036"><display-name>ETB1 Navarra</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2041"><display-name>8TV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2042"><display-name>8 Madrid</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2044"><display-name>ETB3 Navarra</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2045"><display-name>ETB2 HD</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2047"><display-name>Barcelona TV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2049"><display-name>IB3 Global</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2050"><display-name>3/24</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2051"><display-name>CanalSur TV HD</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2054"><display-name>CYLTV HD</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2064"><display-name>C33</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2065"><display-name>7TV Andalucia</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2069"><display-name>Valencia Televisio</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2071"><display-name>TVV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="2209"><display-name>MMA TV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11031"><display-name>GOL</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11097"><display-name>RunTime Clásico</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11102"><display-name>Vivir con gatos</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11103"><display-name>Vivir con perros</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11104"><display-name>Surf Channel</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11108"><display-name>Bloomberg Originals</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11109"><display-name>Inglés total - Multinivel</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11121"><display-name>MyPadel TV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11151"><display-name>Sangre Fría</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11154"><display-name>Historia y Vida</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11156"><display-name>Love Wine</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11157"><display-name>Love the Planet</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11158"><display-name>M Liga de Campeones 18</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11159"><display-name>M Liga de Campeones 19</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11166"><display-name>Pruebas LL1</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11167"><display-name>Pruebas LL2</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11168"><display-name>SkyShowtime 1</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11169"><display-name>BabyTV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11173"><display-name>Squirrel TV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11174"><display-name>BOM Cine</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11175"><display-name>Horse TV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11176"><display-name>Pocoyó</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11177"><display-name>Flamenco Auditorio</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11178"><display-name>Top Barça</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11182"><display-name>RunTime Familia</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11183"><display-name>Anime Visión</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11184"><display-name>Anime Visión Classics</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11185"><display-name>Negocios TV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11187"><display-name>TV3</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11188"><display-name>3CatInfo</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11193"><display-name>ETB1</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11194"><display-name>ETB2</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11195"><display-name>Telemadrid</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11196"><display-name>LaOtra</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11197"><display-name>TVG1</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11198"><display-name>TVG2</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11199"><display-name>Canal Sur</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11200"><display-name>Andalucía TV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11201"><display-name>A Punt</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11202"><display-name>La 7</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11203"><display-name>CMM</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11204"><display-name>IB3</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11205"><display-name>RTV Canaria</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11206"><display-name>Aragón Televisión</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11207"><display-name>TVR</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11208"><display-name>NAV1</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11209"><display-name>NAV2</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11210"><display-name>A7</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11211"><display-name>Canal Extremadura</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11213"><display-name>Ceuta TV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11214"><display-name>TV Melilla</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11216"><display-name>Dark (Publi)</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11217"><display-name>Somos (Publi)</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11218"><display-name>Sundance TV (Publi)</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11219"><display-name>SELEKT (Publi)</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11222"><display-name>Gol Classics</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11223"><display-name>Veo7</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11224"><display-name>Eurosport 1</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11225"><display-name>DAZN F1 Res</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11227"><display-name>M LALIGA HDR</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11228"><display-name>M LALIGA 2 HDR</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11229"><display-name>DAZN Moto GP</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11230"><display-name>Primera Federación</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11231"><display-name>DAZN Baloncesto</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11232"><display-name>DAZN Baloncesto 2</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11270"><display-name>DAZN Baloncesto 3</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11271"><display-name>Rugby Challenge Spain</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11273"><display-name>Qello concerts</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11274"><display-name>1+1 News</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11275"><display-name>BBC Series</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11276"><display-name>BBC Earth</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11277"><display-name>Top Gear</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="11278"><display-name>BBC LifeStyle</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="12006"><display-name>Fast&amp;FunBox</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="50000"><display-name>Prueba IPTV</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="50001"><display-name>Prueba OTT</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="24Horas.es@SD"><display-name>24 horas</display-name><icon src="https://i.ibb.co/21sXZ3GT/24h.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="AlJazeera.qa@English"><display-name>Al Jazeera</display-name><icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="AMCBreak.es@SD"><display-name>AMC BREAK</display-name><icon src="https://static.wikia.nocookie.net/logopedia/images/d/d3/AMC_Break_Print.svg/revision/latest/scale-to-width-down/512"/><url>https://orangetv.orange.es</url></channel>
-<channel id="AMCCrime.es@SD"><display-name>AMC CRIME</display-name><icon src="https://i.imgur.com/g8zMKwk.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="AMCEurope.uk@Spain"><display-name>AMC</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Antena3.es@National"><display-name>Antena 3 HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/8/89/Logo_Antena_3_2025_%28Naranja%29.svg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="APunt.es@SD"><display-name>A punt HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Logotip_d%27%C3%80_Punt_%282017-%29.svg/960px-Logotip_d%27%C3%80_Punt_%282017-%29.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Atreseries.es@SD"><display-name>Atreseries</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Atreseries_2020_logo.svg/960px-Atreseries_2020_logo.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="AXN.es@SD"><display-name>AXN</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="AXNMovies.es@SD"><display-name>AXNMovies</display-name><icon src="https://static.wikia.nocookie.net/logopedia/images/d/d2/AXN_Movies_logo.svg/revision/latest/scale-to-width-down/512"/><url>https://orangetv.orange.es</url></channel>
-<channel id="BBCNews.uk@Europe"><display-name>BBC WorldHD</display-name><icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540"/><url>https://orangetv.orange.es</url></channel>
-<channel id="BeMad.es@SD"><display-name>Be Mad TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/7/7d/BeMad_2022_Logo.svg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="BetisTV.es@SD"><display-name>Betis TV</display-name><icon src="https://i.imgur.com/OI7kQzs.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Boing.es@SD"><display-name>Boing</display-name><icon src="https://i.imgur.com/nUYuCAP.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="BomCine.es@SD"><display-name>Bom Cine</display-name><icon src="https://bomcine.com/img/ico/logo-bom-negro.svg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="BUENVIAJE.es@SD"><display-name>¡BUENVIAJE!</display-name><icon src="https://upload.wikimedia.org/wikipedia/pt/a/af/Buen_Viaje_logo.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Calle13Universal.es@SD"><display-name>Calle 13</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Calle13_logo.svg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="CanalCocina.es@SD"><display-name>CanalCocina</display-name><icon src="https://i.imgur.com/OYB7lJ0.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="CanalHollywood.es@SD"><display-name>C Hollywood</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/HWD_logo.svg/960px-HWD_logo.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="CanalSur2.es@SD"><display-name>CanalSur 2</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Canal_Sur_2_-_2017_logo.png/500px-Canal_Sur_2_-_2017_logo.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="CanalSur.es@SD"><display-name>CanalSur</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="CanalSurAndalucia.es@SD"><display-name>Andalucía TV</display-name><icon src="https://i.imgur.com/lznnA4v.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="CaracolTV.co@SD"><display-name>Caracol TV</display-name><icon src="https://i.imgur.com/WbfdJbk.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="CeutaTV.es@SD"><display-name>TV Ceuta</display-name><icon src="https://i.imgur.com/LEAkZjN.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="CineFeelGood.es@SD"><display-name>Cine Feel Good</display-name><icon src="https://img2.static-ottera.com/prod/run/video/thumbnails/widescreen/360x180/logo_feel_good_fila_canales_1920x1080.jpg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="CinesVerdi.es@SD"><display-name>Cines Verdi TV</display-name><icon src="https://img1.static-ottera.com/prod/run/video/thumbnails/widescreen/360x180/logo_verdi_tv_canales_1920x1080.jpg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Clan.es@SD"><display-name>Clan HD</display-name><icon src="https://i.ibb.co/vv3FC2Nv/clan.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="CNNInternational.us@MENA"><display-name>CNN</display-name><icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/><url>https://orangetv.orange.es</url></channel>
-<channel id="ComedyCentral.es@SD"><display-name>ComedyCentr</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="COSMO.es@SD"><display-name>Cosmo</display-name><icon src="https://i.imgur.com/L2KKKuB.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Cuatro.es@SD"><display-name>Cuatro HD</display-name><icon src="https://i.imgur.com/NYLnABb.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Dark.es@SD"><display-name>Dark</display-name><icon src="https://i.imgur.com/IMHaDHN.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="DAZNLaLiga2.uk@Spain"><display-name>DAZN LALIGA 2</display-name><icon src="https://i.imgur.com/mfZExZx.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="DAZNLaLiga.uk@Spain"><display-name>DAZN LALIGA</display-name><icon src="https://i.postimg.cc/qRkxSrkG/768px-DAZN-La-Liga-logo-svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Decasa.es@SD"><display-name>Decasa</display-name><icon src="https://i.imgur.com/9BZFhkx.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="DiscoveryChannel.es@SD"><display-name>Discovery</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="DisneyJunior.es@SD"><display-name>DisneyJr</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Disney_Junior_logo.svg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Divinity.es@SD"><display-name>Divinity</display-name><icon src="https://i.imgur.com/o7fvEr6.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="DKISS.es@SD"><display-name>DKISS</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/DKISS_2019_logo.svg/960px-DKISS_2019_logo.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="DMAX.es@SD"><display-name>DMAX</display-name><icon src="https://i.imgur.com/En2sLlW.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="DreamWorksChannel.es@SD"><display-name>Dreamworks</display-name><icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/55/960px-DreamWorks_Animation_SKG_logo_with_fishing_boy.png/330px-1024px-DreamWorks_Animation_SKG_logo_with_fishing_boy.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="DW.de@Espanol"><display-name>Deutsche W</display-name><icon src="https://i.imgur.com/8MRNFb9.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="ElToroTV.es@SD"><display-name>El Toro TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/9/93/Eltorotv.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Energy.es@SD"><display-name>Energy</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Energy.svg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Enfamilia.es@SD"><display-name>VinTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Enfamilia_%28logotipo%29.svg/960px-Enfamilia_%28logotipo%29.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Esport3.es@SD"><display-name>Esport3</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/960px-Esport3.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="ETB1.es@SD"><display-name>ETB1 HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/ETB1_2022_logo.svg/960px-ETB1_2022_logo.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="ETB3.es@SD"><display-name>ETB3</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ETB3_2022_logo.svg/960px-ETB3_2022_logo.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="ETB4.es@SD"><display-name>ETB4</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ETB4_2022_logo.svg/960px-ETB4_2022_logo.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="ETBBasque.es@SD"><display-name>ETB Basque</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETB_Basque_2022_logo.svg/960px-ETB_Basque_2022_logo.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="EuronewsSpanish.fr@SD"><display-name>Euronews</display-name><icon src="https://a.jsrdn.com/hls/22886/euronews-spa/extras/1080_logo.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Eurosport1.fr@France"><display-name>Eurosport 1</display-name><icon src="https://i.imgur.com/olQJgm7.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Eurosport2.fr@France"><display-name>Eurosport 2</display-name><icon src="https://i.imgur.com/f56dHgR.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="FactoriadeFiccion.es@SD"><display-name>FDF</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/FDF_2012.png/500px-FDF_2012.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="FightBox.nl@HD"><display-name>Fight Box HD</display-name><icon src="https://i.imgur.com/mRsnztA.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="FightSports.us@SD"><display-name>FightSports</display-name><icon src="https://i.imgur.com/nV55veq.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="France2.fr@SD"><display-name>France 2</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="France5.fr@SD"><display-name>France 5</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="GaliciaTVEuropa.es@SD"><display-name>Galicia TV</display-name><icon src="https://i.imgur.com/dvkzH8n.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Gulli.fr@SD"><display-name>Gulli</display-name><icon src="https://i.imgur.com/kqYssbW.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Historia.es@SD"><display-name>C Historia</display-name><icon src="https://i.imgur.com/VUy8xIG.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="HITTV.es@SD"><display-name>HIT TV</display-name><icon src="https://i0.wp.com/audiovisual451.com/wp-content/uploads/HIT-TV.jpg?resize=300%2C236&amp;ssl=1"/><url>https://orangetv.orange.es</url></channel>
-<channel id="IB3.es@SD"><display-name>IB3 HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/5/5a/IB3.svg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="La1.es@SD"><display-name>La 1 HD</display-name><icon src="https://i.ibb.co/MxJNPHsn/La-1.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="La2.es@SD"><display-name>La 2 HD</display-name><icon src="https://i.ibb.co/rfsr9PSh/La-2.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="La7.es@SD"><display-name>7RM HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/La_7_logo.svg/960px-La_7_logo.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="La8Mediterraneo.es@SD"><display-name>8 Mediterraneo</display-name><icon src="https://tbsfibra.es/wp-content/uploads/2022/07/17-8-MEDITERRANEO.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="LaLiga1porMovistarPlusPlus.es@SD"><display-name>M LALIGA 2</display-name><icon src="https://i.imgur.com/h6P9U8O.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="LaLigaHypermotion2.es@SD"><display-name>LALIGATV HYPERMOTION 2</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LaLigaHypermotion3.es@SD"><display-name>LALIGATV HYPERMOTION 3</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LaLigaHypermotion.es@SD"><display-name>LALIGATV HYPERMOTION</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LaLigaTV2porMovistarPlusPlus.es@SD"><display-name>M LALIGA 3</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LaLigaTV3porMovistarPlusPlus.es@SD"><display-name>M LALIGA 4</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LaLigaTV.es@SD"><display-name>LALIGA Inside</display-name><icon src="https://i.imgur.com/ilay5Jr.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="LaLigaTVporMovistarPlusPlus.es@SD"><display-name>M LALIGA</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LaOtra.es@SD"><display-name>La otra HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/La_Otra_logo_%282017%29.svg/960px-La_Otra_logo_%282017%29.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="LaSexta.es@SD"><display-name>laSexta HD</display-name><icon src="https://i.imgur.com/aKV5voq.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="LevanteTV.es@SD"><display-name>Levante TV</display-name><icon src="https://i.imgur.com/8Gtzgan.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones1porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 2</display-name><icon src="https://i.imgur.com/FReScI8.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones2porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 3</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones3porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 4</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones4porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 5</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones5porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 6</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones6porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 7</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones7porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 8</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones8porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 9</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones9porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 10</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones10porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 11</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones11porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 12</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones12porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 13</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones13porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 14</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones14porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 15</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones15porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 16</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeones16porMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones 17</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="LigadeCampeonesporMovistarPlusPlus.es@SD"><display-name>M Liga de Campeones</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="Mega.es@SD"><display-name>Mega</display-name><icon src="https://i.imgur.com/Udrt2eK.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Mezzo.fr@SD"><display-name>Mezzo HD</display-name><icon src="https://i.imgur.com/auNdGeW.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Motorvision.de@SD"><display-name>Motorvision</display-name><icon src="https://i.imgur.com/v4kj8pI.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="MTV.es@SD"><display-name>MTV España</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="NationalGeographic.es@SD"><display-name>NatGeo</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="NationalGeographicWild.es@SD"><display-name>NatGeo Wild</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="NatureTime.es@SD"><display-name>NatureTime</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="NauticalChannel.it@SD"><display-name>Nautical Channel</display-name><icon src="https://i.imgur.com/2ByDyzL.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="NavarraTV2.es@SD"><display-name>Navarra TV2</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Logonavarratv2.jpg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="NavarraTV.es@SD"><display-name>Navarra TV HD</display-name><icon src="https://i.imgur.com/98MvIRA.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Neox.es@SD"><display-name>Neox</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Neox_2023_logo.svg/500px-Neox_2023_logo.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Nickelodeon.es@SD"><display-name>Nick</display-name><icon src="https://i.imgur.com/E84jnP8.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="NickJr.es@SD"><display-name>Nick JR</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Nova.es@SD"><display-name>Nova</display-name><icon src="https://i.imgur.com/Vx1F4o5.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Odisea.es@SD"><display-name>Odisea</display-name><icon src="https://i.imgur.com/hrximGi.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="ParamountNetwork.es@SD"><display-name>Paramount N</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="PROTV.ba@SD"><display-name>Pro TV</display-name><icon src="https://i.imgur.com/5op8imN.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="QwestTV.fr@SD"><display-name>Qwest TV</display-name><icon src="https://i.imgur.com/DjgNNHK.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="RealMadridTV.es@SD"><display-name>Real Madrid</display-name><icon src="https://i.imgur.com/5pMo7dL.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="RuntimeAccion.es@SD"><display-name>Runtime Acción</display-name><icon src="https://img2.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_accion.jpg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="RuntimeCineSeries.es@SD"><display-name>Runtime Cine y Series</display-name><icon src="https://img3.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_es_1920x1080_0.jpg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="RuntimeComedia.es@SD"><display-name>Runtime Comedia</display-name><icon src="https://img2.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_comedia_16x9.jpg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="RuntimeCrimen.es@SD"><display-name>Runtime Crimen</display-name><icon src="https://img3.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_crimen_16x9.jpg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="RuntimeRomance.es@SD"><display-name>Runtime Romance</display-name><icon src="https://img1.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_romance_16x9.jpg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="RuntimeSeries.es@SD"><display-name>Runtime Series</display-name><icon src="https://img2.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_series_16x9_0.jpg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="RuntimeThriller.es@SD"><display-name>Runtime Thriller/Terror</display-name><icon src="https://img3.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_thriller.jpg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Selekt.es@SD"><display-name>SELEKT</display-name><icon src="https://i.imgur.com/g0BNmNB.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="SolMusica.es@SD"><display-name>Sol Música</display-name><icon src="https://i.imgur.com/rbJrmPw.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Somos.es@SD"><display-name>Somos</display-name><icon src="https://i.imgur.com/xAyOKCB.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="StarChannelSpain.es@SD"><display-name>STAR Channel</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="SundanceTV.es@SD"><display-name>Sundance TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/960px-SundanceTV_2014.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Syfy.es@SD"><display-name>SYFY</display-name><icon src="https://i.imgur.com/4fMWhUE.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TCM.es@SD"><display-name>TCM</display-name><icon src="https://i.imgur.com/juCNJxd.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Telecinco.es@SD"><display-name>Telecinco HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/1/13/Telecinco_2024_Logo.svg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Teledeporte.es@SD"><display-name>TDP HD</display-name><icon src="https://i.ibb.co/0jxLdjnY/TDP.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Telemadrid.es@SD"><display-name>TelemadridI</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/TeleMadrid.svg/960px-TeleMadrid.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TeleVigo.es@SD"><display-name>Televigo</display-name><icon src="https://i.imgur.com/4iVmlFa.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TelevisioCastello.es@SD"><display-name>TV Castellon</display-name><icon src="https://i.imgur.com/SbgQbC8.jpeg"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TelevisionCanaria.es@SD"><display-name>RTV Canaria HD</display-name><icon src="https://rtvc.es/archivos/2020/03/logo-mobilretina.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TEN.es@SD"><display-name>Ten</display-name><icon src="https://i.imgur.com/ZpaeqyN.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TennisChannel.us@SD"><display-name>Tennis Channel</display-name><icon src="https://i.imgur.com/tsljAnY.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="ToonGogglesenEspanol.us@SD"><display-name>Toon Goggles</display-name><icon src="https://www.lyngsat.com/logo/tv/tt/toon-goggles-en-espanol-us.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TPA7.es@SD"><display-name>TPA HD</display-name><icon src="https://i.imgur.com/q3yYJ8R.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TraceLatina.fr@SD"><display-name>TRACE Latina</display-name><icon src="https://i.imgur.com/CUVAi4u.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TraceSportStars.fr@HD"><display-name>Trace Sport Stars</display-name><icon src="https://i.imgur.com/FabFP5A.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TraceUrban.fr@SD"><display-name>TRACE Urban</display-name><icon src="https://i.imgur.com/DLIbUMx.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Trece.es@SD"><display-name>TR3CE</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Trece.svg/960px-Trece.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TV3.es@SD"><display-name>TV3 HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/TV3.svg/960px-TV3.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TV3CAT.es@SD"><display-name>TV3CAT</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/960px-TV3CAT.svg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TV5MondeEurope.fr@SD"><display-name>TV5MONDE</display-name><icon src="https://i.imgur.com/rPAbMSu.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TVG2.es@SD"><display-name>TVG2 HD</display-name><icon src="https://i.imgur.com/yFy6gxg.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="TVR.es@SD"><display-name>TVR HD</display-name><icon src="https://i.ibb.co/nRq3YfT/Logo-Rioja-Televisi-n-S-A.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="Ubeat.es@SD"><display-name>Ubeat</display-name><url>https://orangetv.orange.es</url></channel>
-<channel id="WarnerTV.es@SD"><display-name>Warner TV</display-name><icon src="https://i.imgur.com/QtGQR0c.png"/><url>https://orangetv.orange.es</url></channel>
-<channel id="XTRM.es@SD"><display-name>XTRM</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/XTRM_Espa%C3%B1a.png/960px-XTRM_Espa%C3%B1a.png"/><url>https://orangetv.orange.es</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="1001">
+    <display-name>La 1 HD TDT</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1002">
+    <display-name>La 2 HD TDT</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1007">
+    <display-name>C.Aut</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1015">
+    <display-name>24h TDT</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1025">
+    <display-name>Paramount</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1033">
+    <display-name>Cazavisión</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1059">
+    <display-name>M LALIGA 5</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1068">
+    <display-name>EWTN</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1070">
+    <display-name>M6</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1071">
+    <display-name>Autonómico</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1081">
+    <display-name>Moto ADV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1086">
+    <display-name>Gametoon</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1092">
+    <display-name>Autonómico 2</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1093">
+    <display-name>Autonómico 3</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1094">
+    <display-name>Autonómico 4</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1103">
+    <display-name>Local 1</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1104">
+    <display-name>Local 2</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1105">
+    <display-name>Local 3</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="1106">
+    <display-name>Local 4</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2005">
+    <display-name>CEX</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2007">
+    <display-name>Telemadrid HD</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2010">
+    <display-name>ATV HD</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2012">
+    <display-name>CMTV HD</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2016">
+    <display-name>A7</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2023">
+    <display-name>ETB2 Navarra</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2026">
+    <display-name>A8</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2027">
+    <display-name>Super 3/33</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2028">
+    <display-name>La 8</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2030">
+    <display-name>Canal 4</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2033">
+    <display-name>Vtelevisión</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2035">
+    <display-name>TV3 CAT</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2036">
+    <display-name>ETB1 Navarra</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2041">
+    <display-name>8TV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2042">
+    <display-name>8 Madrid</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2044">
+    <display-name>ETB3 Navarra</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2045">
+    <display-name>ETB2 HD</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2047">
+    <display-name>Barcelona TV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2049">
+    <display-name>IB3 Global</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2050">
+    <display-name>3/24</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2051">
+    <display-name>CanalSur TV HD</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2054">
+    <display-name>CYLTV HD</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2064">
+    <display-name>C33</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2065">
+    <display-name>7TV Andalucia</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2069">
+    <display-name>Valencia Televisio</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2071">
+    <display-name>TVV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="2209">
+    <display-name>MMA TV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11031">
+    <display-name>GOL</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11097">
+    <display-name>RunTime Clásico</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11102">
+    <display-name>Vivir con gatos</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11103">
+    <display-name>Vivir con perros</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11104">
+    <display-name>Surf Channel</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11108">
+    <display-name>Bloomberg Originals</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11109">
+    <display-name>Inglés total - Multinivel</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11121">
+    <display-name>MyPadel TV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11151">
+    <display-name>Sangre Fría</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11154">
+    <display-name>Historia y Vida</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11156">
+    <display-name>Love Wine</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11157">
+    <display-name>Love the Planet</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11158">
+    <display-name>M Liga de Campeones 18</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11159">
+    <display-name>M Liga de Campeones 19</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11166">
+    <display-name>Pruebas LL1</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11167">
+    <display-name>Pruebas LL2</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11168">
+    <display-name>SkyShowtime 1</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11169">
+    <display-name>BabyTV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11173">
+    <display-name>Squirrel TV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11174">
+    <display-name>BOM Cine</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11175">
+    <display-name>Horse TV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11176">
+    <display-name>Pocoyó</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11177">
+    <display-name>Flamenco Auditorio</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11178">
+    <display-name>Top Barça</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11182">
+    <display-name>RunTime Familia</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11183">
+    <display-name>Anime Visión</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11184">
+    <display-name>Anime Visión Classics</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11185">
+    <display-name>Negocios TV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11187">
+    <display-name>TV3</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11188">
+    <display-name>3CatInfo</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11193">
+    <display-name>ETB1</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11194">
+    <display-name>ETB2</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11195">
+    <display-name>Telemadrid</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11196">
+    <display-name>LaOtra</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11197">
+    <display-name>TVG1</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11198">
+    <display-name>TVG2</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11199">
+    <display-name>Canal Sur</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11200">
+    <display-name>Andalucía TV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11201">
+    <display-name>A Punt</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11202">
+    <display-name>La 7</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11203">
+    <display-name>CMM</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11204">
+    <display-name>IB3</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11205">
+    <display-name>RTV Canaria</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11206">
+    <display-name>Aragón Televisión</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11207">
+    <display-name>TVR</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11208">
+    <display-name>NAV1</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11209">
+    <display-name>NAV2</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11210">
+    <display-name>A7</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11211">
+    <display-name>Canal Extremadura</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11213">
+    <display-name>Ceuta TV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11214">
+    <display-name>TV Melilla</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11216">
+    <display-name>Dark (Publi)</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11217">
+    <display-name>Somos (Publi)</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11218">
+    <display-name>Sundance TV (Publi)</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11219">
+    <display-name>SELEKT (Publi)</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11222">
+    <display-name>Gol Classics</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11223">
+    <display-name>Veo7</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11224">
+    <display-name>Eurosport 1</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11225">
+    <display-name>DAZN F1 Res</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11227">
+    <display-name>M LALIGA HDR</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11228">
+    <display-name>M LALIGA 2 HDR</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11229">
+    <display-name>DAZN Moto GP</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11230">
+    <display-name>Primera Federación</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11231">
+    <display-name>DAZN Baloncesto</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11232">
+    <display-name>DAZN Baloncesto 2</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11270">
+    <display-name>DAZN Baloncesto 3</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11271">
+    <display-name>Rugby Challenge Spain</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11273">
+    <display-name>Qello concerts</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11274">
+    <display-name>1+1 News</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11275">
+    <display-name>BBC Series</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11276">
+    <display-name>BBC Earth</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11277">
+    <display-name>Top Gear</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="11278">
+    <display-name>BBC LifeStyle</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="12006">
+    <display-name>Fast&amp;FunBox</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="50000">
+    <display-name>Prueba IPTV</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="50001">
+    <display-name>Prueba OTT</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="24Horas.es@SD">
+    <display-name>24 horas</display-name>
+    <icon src="https://i.ibb.co/21sXZ3GT/24h.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="AlJazeera.qa@English">
+    <display-name>Al Jazeera</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="AMCBreak.es@SD">
+    <display-name>AMC BREAK</display-name>
+    <icon src="https://static.wikia.nocookie.net/logopedia/images/d/d3/AMC_Break_Print.svg/revision/latest/scale-to-width-down/512"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="AMCCrime.es@SD">
+    <display-name>AMC CRIME</display-name>
+    <icon src="https://i.imgur.com/g8zMKwk.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="AMCEurope.uk@Spain">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Antena3.es@National">
+    <display-name>Antena 3 HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/8/89/Logo_Antena_3_2025_%28Naranja%29.svg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="APunt.es@SD">
+    <display-name>A punt HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Logotip_d%27%C3%80_Punt_%282017-%29.svg/960px-Logotip_d%27%C3%80_Punt_%282017-%29.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Atreseries.es@SD">
+    <display-name>Atreseries</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Atreseries_2020_logo.svg/960px-Atreseries_2020_logo.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="AXN.es@SD">
+    <display-name>AXN</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="AXNMovies.es@SD">
+    <display-name>AXNMovies</display-name>
+    <icon src="https://static.wikia.nocookie.net/logopedia/images/d/d2/AXN_Movies_logo.svg/revision/latest/scale-to-width-down/512"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="BBCNews.uk@Europe">
+    <display-name>BBC WorldHD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="BeMad.es@SD">
+    <display-name>Be Mad TV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/7d/BeMad_2022_Logo.svg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="BetisTV.es@SD">
+    <display-name>Betis TV</display-name>
+    <icon src="https://i.imgur.com/OI7kQzs.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Boing.es@SD">
+    <display-name>Boing</display-name>
+    <icon src="https://i.imgur.com/nUYuCAP.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="BomCine.es@SD">
+    <display-name>Bom Cine</display-name>
+    <icon src="https://bomcine.com/img/ico/logo-bom-negro.svg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="BUENVIAJE.es@SD">
+    <display-name>¡BUENVIAJE!</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/pt/a/af/Buen_Viaje_logo.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Calle13Universal.es@SD">
+    <display-name>Calle 13</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Calle13_logo.svg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="CanalCocina.es@SD">
+    <display-name>CanalCocina</display-name>
+    <icon src="https://i.imgur.com/OYB7lJ0.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="CanalHollywood.es@SD">
+    <display-name>C Hollywood</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/HWD_logo.svg/960px-HWD_logo.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="CanalSur2.es@SD">
+    <display-name>CanalSur 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Canal_Sur_2_-_2017_logo.png/500px-Canal_Sur_2_-_2017_logo.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="CanalSur.es@SD">
+    <display-name>CanalSur</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Canal_Sur_Televisi%C3%B3n_2011-2017_logo.svg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="CanalSurAndalucia.es@SD">
+    <display-name>Andalucía TV</display-name>
+    <icon src="https://i.imgur.com/lznnA4v.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="CaracolTV.co@SD">
+    <display-name>Caracol TV</display-name>
+    <icon src="https://i.imgur.com/WbfdJbk.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="CeutaTV.es@SD">
+    <display-name>TV Ceuta</display-name>
+    <icon src="https://i.imgur.com/LEAkZjN.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="CineFeelGood.es@SD">
+    <display-name>Cine Feel Good</display-name>
+    <icon src="https://img2.static-ottera.com/prod/run/video/thumbnails/widescreen/360x180/logo_feel_good_fila_canales_1920x1080.jpg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="CinesVerdi.es@SD">
+    <display-name>Cines Verdi TV</display-name>
+    <icon src="https://img1.static-ottera.com/prod/run/video/thumbnails/widescreen/360x180/logo_verdi_tv_canales_1920x1080.jpg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Clan.es@SD">
+    <display-name>Clan HD</display-name>
+    <icon src="https://i.ibb.co/vv3FC2Nv/clan.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="CNNInternational.us@MENA">
+    <display-name>CNN</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="ComedyCentral.es@SD">
+    <display-name>ComedyCentr</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="COSMO.es@SD">
+    <display-name>Cosmo</display-name>
+    <icon src="https://i.imgur.com/L2KKKuB.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Cuatro.es@SD">
+    <display-name>Cuatro HD</display-name>
+    <icon src="https://i.imgur.com/NYLnABb.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Dark.es@SD">
+    <display-name>Dark</display-name>
+    <icon src="https://i.imgur.com/IMHaDHN.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="DAZNLaLiga2.uk@Spain">
+    <display-name>DAZN LALIGA 2</display-name>
+    <icon src="https://i.imgur.com/mfZExZx.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="DAZNLaLiga.uk@Spain">
+    <display-name>DAZN LALIGA</display-name>
+    <icon src="https://i.postimg.cc/qRkxSrkG/768px-DAZN-La-Liga-logo-svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Decasa.es@SD">
+    <display-name>Decasa</display-name>
+    <icon src="https://i.imgur.com/9BZFhkx.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="DiscoveryChannel.es@SD">
+    <display-name>Discovery</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="DisneyJunior.es@SD">
+    <display-name>DisneyJr</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Disney_Junior_logo.svg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Divinity.es@SD">
+    <display-name>Divinity</display-name>
+    <icon src="https://i.imgur.com/o7fvEr6.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="DKISS.es@SD">
+    <display-name>DKISS</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/DKISS_2019_logo.svg/960px-DKISS_2019_logo.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="DMAX.es@SD">
+    <display-name>DMAX</display-name>
+    <icon src="https://i.imgur.com/En2sLlW.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="DreamWorksChannel.es@SD">
+    <display-name>Dreamworks</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/55/960px-DreamWorks_Animation_SKG_logo_with_fishing_boy.png/330px-1024px-DreamWorks_Animation_SKG_logo_with_fishing_boy.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="DW.de@Espanol">
+    <display-name>Deutsche W</display-name>
+    <icon src="https://i.imgur.com/8MRNFb9.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="ElToroTV.es@SD">
+    <display-name>El Toro TV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/9/93/Eltorotv.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Energy.es@SD">
+    <display-name>Energy</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Energy.svg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Enfamilia.es@SD">
+    <display-name>VinTV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Enfamilia_%28logotipo%29.svg/960px-Enfamilia_%28logotipo%29.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Esport3.es@SD">
+    <display-name>Esport3</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Esport3.svg/960px-Esport3.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="ETB1.es@SD">
+    <display-name>ETB1 HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/ETB1_2022_logo.svg/960px-ETB1_2022_logo.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="ETB3.es@SD">
+    <display-name>ETB3</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ETB3_2022_logo.svg/960px-ETB3_2022_logo.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="ETB4.es@SD">
+    <display-name>ETB4</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ETB4_2022_logo.svg/960px-ETB4_2022_logo.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="ETBBasque.es@SD">
+    <display-name>ETB Basque</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETB_Basque_2022_logo.svg/960px-ETB_Basque_2022_logo.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="EuronewsSpanish.fr@SD">
+    <display-name>Euronews</display-name>
+    <icon src="https://a.jsrdn.com/hls/22886/euronews-spa/extras/1080_logo.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Eurosport1.fr@France">
+    <display-name>Eurosport 1</display-name>
+    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Eurosport2.fr@France">
+    <display-name>Eurosport 2</display-name>
+    <icon src="https://i.imgur.com/f56dHgR.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="FactoriadeFiccion.es@SD">
+    <display-name>FDF</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/FDF_2012.png/500px-FDF_2012.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="FightBox.nl@HD">
+    <display-name>Fight Box HD</display-name>
+    <icon src="https://i.imgur.com/mRsnztA.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="FightSports.us@SD">
+    <display-name>FightSports</display-name>
+    <icon src="https://i.imgur.com/nV55veq.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="France2.fr@SD">
+    <display-name>France 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="France5.fr@SD">
+    <display-name>France 5</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="GaliciaTVEuropa.es@SD">
+    <display-name>Galicia TV</display-name>
+    <icon src="https://i.imgur.com/dvkzH8n.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Gulli.fr@SD">
+    <display-name>Gulli</display-name>
+    <icon src="https://i.imgur.com/kqYssbW.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Historia.es@SD">
+    <display-name>C Historia</display-name>
+    <icon src="https://i.imgur.com/VUy8xIG.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="HITTV.es@SD">
+    <display-name>HIT TV</display-name>
+    <icon src="https://i0.wp.com/audiovisual451.com/wp-content/uploads/HIT-TV.jpg?resize=300%2C236&amp;ssl=1"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="IB3.es@SD">
+    <display-name>IB3 HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/5/5a/IB3.svg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="La1.es@SD">
+    <display-name>La 1 HD</display-name>
+    <icon src="https://i.ibb.co/MxJNPHsn/La-1.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="La2.es@SD">
+    <display-name>La 2 HD</display-name>
+    <icon src="https://i.ibb.co/rfsr9PSh/La-2.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="La7.es@SD">
+    <display-name>7RM HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/La_7_logo.svg/960px-La_7_logo.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="La8Mediterraneo.es@SD">
+    <display-name>8 Mediterraneo</display-name>
+    <icon src="https://tbsfibra.es/wp-content/uploads/2022/07/17-8-MEDITERRANEO.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LaLiga1porMovistarPlusPlus.es@SD">
+    <display-name>M LALIGA 2</display-name>
+    <icon src="https://i.imgur.com/h6P9U8O.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LaLigaHypermotion2.es@SD">
+    <display-name>LALIGATV HYPERMOTION 2</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LaLigaHypermotion3.es@SD">
+    <display-name>LALIGATV HYPERMOTION 3</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LaLigaHypermotion.es@SD">
+    <display-name>LALIGATV HYPERMOTION</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LaLigaTV2porMovistarPlusPlus.es@SD">
+    <display-name>M LALIGA 3</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LaLigaTV3porMovistarPlusPlus.es@SD">
+    <display-name>M LALIGA 4</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LaLigaTV.es@SD">
+    <display-name>LALIGA Inside</display-name>
+    <icon src="https://i.imgur.com/ilay5Jr.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LaLigaTVporMovistarPlusPlus.es@SD">
+    <display-name>M LALIGA</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LaOtra.es@SD">
+    <display-name>La otra HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/La_Otra_logo_%282017%29.svg/960px-La_Otra_logo_%282017%29.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LaSexta.es@SD">
+    <display-name>laSexta HD</display-name>
+    <icon src="https://i.imgur.com/aKV5voq.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LevanteTV.es@SD">
+    <display-name>Levante TV</display-name>
+    <icon src="https://i.imgur.com/8Gtzgan.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones1porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 2</display-name>
+    <icon src="https://i.imgur.com/FReScI8.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones2porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 3</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones3porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 4</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones4porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 5</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones5porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 6</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones6porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 7</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones7porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 8</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones8porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 9</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones9porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 10</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones10porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 11</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones11porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 12</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones12porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 13</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones13porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 14</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones14porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 15</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones15porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 16</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeones16porMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones 17</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="LigadeCampeonesporMovistarPlusPlus.es@SD">
+    <display-name>M Liga de Campeones</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Mega.es@SD">
+    <display-name>Mega</display-name>
+    <icon src="https://i.imgur.com/Udrt2eK.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Mezzo.fr@SD">
+    <display-name>Mezzo HD</display-name>
+    <icon src="https://i.imgur.com/auNdGeW.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Motorvision.de@SD">
+    <display-name>Motorvision</display-name>
+    <icon src="https://i.imgur.com/v4kj8pI.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="MTV.es@SD">
+    <display-name>MTV España</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="NationalGeographic.es@SD">
+    <display-name>NatGeo</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="NationalGeographicWild.es@SD">
+    <display-name>NatGeo Wild</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="NatureTime.es@SD">
+    <display-name>NatureTime</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="NauticalChannel.it@SD">
+    <display-name>Nautical Channel</display-name>
+    <icon src="https://i.imgur.com/2ByDyzL.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="NavarraTV2.es@SD">
+    <display-name>Navarra TV2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Logonavarratv2.jpg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="NavarraTV.es@SD">
+    <display-name>Navarra TV HD</display-name>
+    <icon src="https://i.imgur.com/98MvIRA.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Neox.es@SD">
+    <display-name>Neox</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Neox_2023_logo.svg/500px-Neox_2023_logo.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Nickelodeon.es@SD">
+    <display-name>Nick</display-name>
+    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="NickJr.es@SD">
+    <display-name>Nick JR</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Nova.es@SD">
+    <display-name>Nova</display-name>
+    <icon src="https://i.imgur.com/Vx1F4o5.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Odisea.es@SD">
+    <display-name>Odisea</display-name>
+    <icon src="https://i.imgur.com/hrximGi.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="ParamountNetwork.es@SD">
+    <display-name>Paramount N</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="PROTV.ba@SD">
+    <display-name>Pro TV</display-name>
+    <icon src="https://i.imgur.com/5op8imN.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="QwestTV.fr@SD">
+    <display-name>Qwest TV</display-name>
+    <icon src="https://i.imgur.com/DjgNNHK.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="RealMadridTV.es@SD">
+    <display-name>Real Madrid</display-name>
+    <icon src="https://i.imgur.com/5pMo7dL.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="RuntimeAccion.es@SD">
+    <display-name>Runtime Acción</display-name>
+    <icon src="https://img2.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_accion.jpg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="RuntimeCineSeries.es@SD">
+    <display-name>Runtime Cine y Series</display-name>
+    <icon src="https://img3.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_es_1920x1080_0.jpg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="RuntimeComedia.es@SD">
+    <display-name>Runtime Comedia</display-name>
+    <icon src="https://img2.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_comedia_16x9.jpg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="RuntimeCrimen.es@SD">
+    <display-name>Runtime Crimen</display-name>
+    <icon src="https://img3.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_crimen_16x9.jpg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="RuntimeRomance.es@SD">
+    <display-name>Runtime Romance</display-name>
+    <icon src="https://img1.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_romance_16x9.jpg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="RuntimeSeries.es@SD">
+    <display-name>Runtime Series</display-name>
+    <icon src="https://img2.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_series_16x9_0.jpg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="RuntimeThriller.es@SD">
+    <display-name>Runtime Thriller/Terror</display-name>
+    <icon src="https://img3.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_thriller.jpg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Selekt.es@SD">
+    <display-name>SELEKT</display-name>
+    <icon src="https://i.imgur.com/g0BNmNB.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="SolMusica.es@SD">
+    <display-name>Sol Música</display-name>
+    <icon src="https://i.imgur.com/rbJrmPw.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Somos.es@SD">
+    <display-name>Somos</display-name>
+    <icon src="https://i.imgur.com/xAyOKCB.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="StarChannelSpain.es@SD">
+    <display-name>STAR Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="SundanceTV.es@SD">
+    <display-name>Sundance TV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/960px-SundanceTV_2014.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Syfy.es@SD">
+    <display-name>SYFY</display-name>
+    <icon src="https://i.imgur.com/4fMWhUE.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TCM.es@SD">
+    <display-name>TCM</display-name>
+    <icon src="https://i.imgur.com/juCNJxd.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Telecinco.es@SD">
+    <display-name>Telecinco HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/13/Telecinco_2024_Logo.svg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Teledeporte.es@SD">
+    <display-name>TDP HD</display-name>
+    <icon src="https://i.ibb.co/0jxLdjnY/TDP.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Telemadrid.es@SD">
+    <display-name>TelemadridI</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/TeleMadrid.svg/960px-TeleMadrid.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TeleVigo.es@SD">
+    <display-name>Televigo</display-name>
+    <icon src="https://i.imgur.com/4iVmlFa.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TelevisioCastello.es@SD">
+    <display-name>TV Castellon</display-name>
+    <icon src="https://i.imgur.com/SbgQbC8.jpeg"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TelevisionCanaria.es@SD">
+    <display-name>RTV Canaria HD</display-name>
+    <icon src="https://rtvc.es/archivos/2020/03/logo-mobilretina.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TEN.es@SD">
+    <display-name>Ten</display-name>
+    <icon src="https://i.imgur.com/ZpaeqyN.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TennisChannel.us@SD">
+    <display-name>Tennis Channel</display-name>
+    <icon src="https://i.imgur.com/tsljAnY.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="ToonGogglesenEspanol.us@SD">
+    <display-name>Toon Goggles</display-name>
+    <icon src="https://www.lyngsat.com/logo/tv/tt/toon-goggles-en-espanol-us.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TPA7.es@SD">
+    <display-name>TPA HD</display-name>
+    <icon src="https://i.imgur.com/q3yYJ8R.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TraceLatina.fr@SD">
+    <display-name>TRACE Latina</display-name>
+    <icon src="https://i.imgur.com/CUVAi4u.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TraceSportStars.fr@HD">
+    <display-name>Trace Sport Stars</display-name>
+    <icon src="https://i.imgur.com/FabFP5A.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TraceUrban.fr@SD">
+    <display-name>TRACE Urban</display-name>
+    <icon src="https://i.imgur.com/DLIbUMx.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Trece.es@SD">
+    <display-name>TR3CE</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Trece.svg/960px-Trece.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TV3.es@SD">
+    <display-name>TV3 HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/TV3.svg/960px-TV3.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TV3CAT.es@SD">
+    <display-name>TV3CAT</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/960px-TV3CAT.svg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TV5MondeEurope.fr@SD">
+    <display-name>TV5MONDE</display-name>
+    <icon src="https://i.imgur.com/rPAbMSu.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TVG2.es@SD">
+    <display-name>TVG2 HD</display-name>
+    <icon src="https://i.imgur.com/yFy6gxg.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="TVR.es@SD">
+    <display-name>TVR HD</display-name>
+    <icon src="https://i.ibb.co/nRq3YfT/Logo-Rioja-Televisi-n-S-A.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="Ubeat.es@SD">
+    <display-name>Ubeat</display-name>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="WarnerTV.es@SD">
+    <display-name>Warner TV</display-name>
+    <icon src="https://i.imgur.com/QtGQR0c.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
+  <channel id="XTRM.es@SD">
+    <display-name>XTRM</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/XTRM_Espa%C3%B1a.png/960px-XTRM_Espa%C3%B1a.png"/>
+    <url>https://orangetv.orange.es</url>
+  </channel>
 </tv>

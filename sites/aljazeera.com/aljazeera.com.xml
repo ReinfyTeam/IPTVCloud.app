@@ -1,135 +1,536 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="AlJazeera2.qa@HD"><display-name>Al Jazeera 2</display-name><icon src="https://i.imgur.com/miq8O1Q.png"/><url>https://aljazeera.com</url></channel>
-<channel id="AlJazeera.qa@Arabic"><display-name>Al Jazeera Arabic</display-name><icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/><url>https://aljazeera.com</url></channel>
-<channel id="AlJazeera.qa@English"><display-name>Al Jazeera English</display-name><icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/><url>https://aljazeera.com</url></channel>
-<programme start="20260423170000 +0000" stop="20260423173000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423173000 +0000" stop="20260423180000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">شبكات</title><desc lang="ar">شبكات برنامج يعكس أبرز القصص المتداولة على منصات التواصل الاجتماعي ويعيد صياغة الحكاية ليعكس آراءكم فيها ويشرح سياقها وأبعادها.</desc></programme>
-<programme start="20260423180000 +0000" stop="20260423184500 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423184500 +0000" stop="20260423190000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">النشرة الرياضية</title><desc lang="ar">فقرة تقدم أحدث الاخبار الرياضية العربية والعالمية</desc></programme>
-<programme start="20260423190000 +0000" stop="20260423190500 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423190500 +0000" stop="20260423200000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">من واشنطن</title><desc lang="ar">برنامج حواري أسبوعي مباشر، وتقوم فلسفته على استضافة اثنين أو ثلاثة من السياسيين أو المحللين لمناقشة ما يجري داخل أروقة الإدارة الأميركية من قضايا المنطقة لمناقشته أمام المشاهد تاركا له حرية تحديد رأيه.</desc></programme>
-<programme start="20260423200000 +0000" stop="20260423203000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423203000 +0000" stop="20260423210000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">ما وراء الخبر</title><desc lang="ar">برنامج حواري يومي مباشر، تقوم فكرته على معالجة مفصلة لحدث يشغل الساحة في وقته، ويعمد إلى طرح أسئلة متعددة تتعلق بالخبر المتناول يجيب عليها عدد من الخبراء أو المسؤولين ليضع الحقيقة أمام المشاهد تاركا له حرية اتخاذ موقفه.</desc></programme>
-<programme start="20260423210000 +0000" stop="20260423220500 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423220500 +0000" stop="20260423230000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">سيناريوهات</title><desc lang="ar">برنامج سياسي استشرافي يبحث السيناريوهات المحتملة للأحداث الإقليمية والدولية، بناء على قراءة المعطيات الراهنة، واستشراف المؤشرات المستقبلية الممكنة.</desc></programme>
-<programme start="20260423230000 +0000" stop="20260424170000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424170000 +0000" stop="20260424173000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424173000 +0000" stop="20260424180000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">شبكات</title><desc lang="ar">شبكات برنامج يعكس أبرز القصص المتداولة على منصات التواصل الاجتماعي ويعيد صياغة الحكاية ليعكس آراءكم فيها ويشرح سياقها وأبعادها.</desc></programme>
-<programme start="20260424180000 +0000" stop="20260424184500 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424184500 +0000" stop="20260424190000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">النشرة الرياضية</title><desc lang="ar">فقرة تقدم أحدث الاخبار الرياضية العربية والعالمية</desc></programme>
-<programme start="20260424190000 +0000" stop="20260424193000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">موجز الأخبار</title><desc lang="ar">موجز لأهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424193000 +0000" stop="20260424200000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">فوق السلطة</title><desc lang="ar">يعالج أحداث الأسبوع السياسية والأمنية والاقتصادية والاجتماعية العامة بأسلوب انتقادي وهجائي ساخر على طريقة الكوميديا السوداء، مع الاحتفاظ بجانب من الجدية، وذلك عبر عدة قوالب فنية قصيرة وفقرات متتابعة، من السكتشات التمثيلية التي تمزج بين الواقع والعالم الافتراضي.</desc></programme>
-<programme start="20260424200000 +0000" stop="20260424203000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424203000 +0000" stop="20260424210000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">ما وراء الخبر</title><desc lang="ar">برنامج حواري يومي مباشر، تقوم فكرته على معالجة مفصلة لحدث يشغل الساحة في وقته، ويعمد إلى طرح أسئلة متعددة تتعلق بالخبر المتناول يجيب عليها عدد من الخبراء أو المسؤولين ليضع الحقيقة أمام المشاهد تاركا له حرية اتخاذ موقفه.</desc></programme>
-<programme start="20260424210000 +0000" stop="20260424220500 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424220500 +0000" stop="20260424230000 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">وثائقيات انتقاء</title></programme>
-<programme start="20260424230000 +0000" stop="20260425225959 +0000" channel="AlJazeera2.qa@HD"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423000000 +0000" stop="20260423020000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423020000 +0000" stop="20260423030000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423030000 +0000" stop="20260423040000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423040000 +0000" stop="20260423050000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423050000 +0000" stop="20260423060000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423060000 +0000" stop="20260423070000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423070000 +0000" stop="20260423080000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423080000 +0000" stop="20260423100000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423100000 +0000" stop="20260423110000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423110000 +0000" stop="20260423140000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423140000 +0000" stop="20260423150000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423150000 +0000" stop="20260423180000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423180000 +0000" stop="20260423200000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423200000 +0000" stop="20260423210000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423210000 +0000" stop="20260423220500 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423220500 +0000" stop="20260423230000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">ساعة نقاش</title></programme>
-<programme start="20260423230000 +0000" stop="20260424000000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424000000 +0000" stop="20260424010000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424010000 +0000" stop="20260424020000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424020000 +0000" stop="20260424030000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424030000 +0000" stop="20260424040000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424040000 +0000" stop="20260424050000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424050000 +0000" stop="20260424060000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424060000 +0000" stop="20260424070000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424080000 +0000" stop="20260424090000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424090000 +0000" stop="20260424100000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424100000 +0000" stop="20260424110000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424110000 +0000" stop="20260424120000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424120000 +0000" stop="20260424130000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424130000 +0000" stop="20260424140000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424140000 +0000" stop="20260424150000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424150000 +0000" stop="20260424170000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424170000 +0000" stop="20260424180000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424180000 +0000" stop="20260424190000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424190000 +0000" stop="20260424200000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424200000 +0000" stop="20260424210000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424210000 +0000" stop="20260424220500 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424220500 +0000" stop="20260424230000 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">ساعة نقاش</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260424230000 +0000" stop="20260425225959 +0000" channel="AlJazeera.qa@Arabic"><title lang="ar">نشرة الأخبار</title><desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc></programme>
-<programme start="20260423000000 +0000" stop="20260423010000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260423010000 +0000" stop="20260423020000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260423020000 +0000" stop="20260423023000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260423023000 +0000" stop="20260423030000 +0000" channel="AlJazeera.qa@English"><title lang="en">Al Jazeera Untangles - The Coloniser’s Academy : British Empire - Rule the Waves</title><desc lang="en">How Britain fused naval dominance with corporate reach to build a global empire of trade and control.</desc></programme>
-<programme start="20260423030000 +0000" stop="20260423033000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260423033000 +0000" stop="20260423040000 +0000" channel="AlJazeera.qa@English"><title lang="en">Al Jazeera World : Infiltration From Within</title><desc lang="en">Israel’s intelligence investigated in a story of spies, moles and blind spots, from early-state betrayals to 7th October 2023 and today’s conflict with Iran.</desc></programme>
-<programme start="20260423040000 +0000" stop="20260423043000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260423043000 +0000" stop="20260423050000 +0000" channel="AlJazeera.qa@English"><title lang="en">Al Jazeera World : Infiltration From Within</title><desc lang="en">Israel’s intelligence investigated in a story of spies, moles and blind spots, from early-state betrayals to 7th October 2023 and today’s conflict with Iran.</desc></programme>
-<programme start="20260423050000 +0000" stop="20260423053000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260423053000 +0000" stop="20260423060000 +0000" channel="AlJazeera.qa@English"><title lang="en">Inside Story</title><desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc></programme>
-<programme start="20260423060000 +0000" stop="20260423063000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260423063000 +0000" stop="20260423070000 +0000" channel="AlJazeera.qa@English"><title lang="en">The Bottom Line</title><desc lang="en">How will Iran-U.S. talks unfold? Host Steve Clemons speaks with political scientist Mohsen Milani.</desc></programme>
-<programme start="20260423070000 +0000" stop="20260423080000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260423080000 +0000" stop="20260423083000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260423083000 +0000" stop="20260423090000 +0000" channel="AlJazeera.qa@English"><title lang="en">Counting the Cost</title><desc lang="en">Is China a winner of the Iran war or facing hidden risks?</desc></programme>
-<programme start="20260423090000 +0000" stop="20260423100000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260423100000 +0000" stop="20260423110000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260423110000 +0000" stop="20260423113000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260423113000 +0000" stop="20260423120000 +0000" channel="AlJazeera.qa@English"><title lang="en">Inside Story</title><desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc></programme>
-<programme start="20260423120000 +0000" stop="20260423130000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260423130000 +0000" stop="20260423140000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260423140000 +0000" stop="20260423143000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260423143000 +0000" stop="20260423150000 +0000" channel="AlJazeera.qa@English"><title lang="en">Talk to Al Jazeera : Bryan Clark</title><desc lang="en">As fighting pauses in the US–Israel war on Iran, a military strategist examines shifting goals, strategic missteps, and what Washington has really achieved.</desc></programme>
-<programme start="20260423150000 +0000" stop="20260423160000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260423160000 +0000" stop="20260423170000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260423170000 +0000" stop="20260423173000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260423173000 +0000" stop="20260423180000 +0000" channel="AlJazeera.qa@English"><title lang="en">Inside Story</title><desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc></programme>
-<programme start="20260423180000 +0000" stop="20260423190000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260423190000 +0000" stop="20260423193000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260423193000 +0000" stop="20260423200000 +0000" channel="AlJazeera.qa@English"><title lang="en">Al Jazeera World : Infiltration From Within</title><desc lang="en">Israel’s intelligence investigated in a story of spies, moles and blind spots, from early-state betrayals to 7th October 2023 and today’s conflict with Iran.</desc></programme>
-<programme start="20260423200000 +0000" stop="20260423203000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260423203000 +0000" stop="20260423210000 +0000" channel="AlJazeera.qa@English"><title lang="en">Al Jazeera World : Infiltration From Within</title><desc lang="en">Israel’s intelligence investigated in a story of spies, moles and blind spots, from early-state betrayals to 7th October 2023 and today’s conflict with Iran.</desc></programme>
-<programme start="20260423210000 +0000" stop="20260423220000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260423220000 +0000" stop="20260423230000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260423230000 +0000" stop="20260423233000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260423233000 +0000" stop="20260424000000 +0000" channel="AlJazeera.qa@English"><title lang="en">Inside Story</title><desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc></programme>
-<programme start="20260424000000 +0000" stop="20260424010000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424010000 +0000" stop="20260424020000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424020000 +0000" stop="20260424023000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260424023000 +0000" stop="20260424030000 +0000" channel="AlJazeera.qa@English"><title lang="en">Counting the Cost</title><desc lang="en">Is China a winner of the Iran war or facing hidden risks?</desc></programme>
-<programme start="20260424030000 +0000" stop="20260424040000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424040000 +0000" stop="20260424050000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424050000 +0000" stop="20260424053000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260424053000 +0000" stop="20260424060000 +0000" channel="AlJazeera.qa@English"><title lang="en">Inside Story</title><desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc></programme>
-<programme start="20260424060000 +0000" stop="20260424070000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424080000 +0000" stop="20260424083000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260424083000 +0000" stop="20260424090000 +0000" channel="AlJazeera.qa@English"><title lang="en">Talk to Al Jazeera : Bryan Clark</title><desc lang="en">As fighting pauses in the US–Israel war on Iran, a military strategist examines shifting goals, strategic missteps, and what Washington has really achieved.</desc></programme>
-<programme start="20260424090000 +0000" stop="20260424100000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424100000 +0000" stop="20260424110000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424110000 +0000" stop="20260424113000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260424113000 +0000" stop="20260424120000 +0000" channel="AlJazeera.qa@English"><title lang="en">Inside Story</title><desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc></programme>
-<programme start="20260424120000 +0000" stop="20260424130000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424130000 +0000" stop="20260424140000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424140000 +0000" stop="20260424150000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424150000 +0000" stop="20260424160000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424160000 +0000" stop="20260424170000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424170000 +0000" stop="20260424173000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260424173000 +0000" stop="20260424180000 +0000" channel="AlJazeera.qa@English"><title lang="en">Inside Story</title><desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc></programme>
-<programme start="20260424180000 +0000" stop="20260424190000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424190000 +0000" stop="20260424193000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260424193000 +0000" stop="20260424200000 +0000" channel="AlJazeera.qa@English"><title lang="en">UpFront</title><desc lang="en">Redi Tlhabi hosts a debate on the latest in the Iran war, who has the upper hand, whether the status quo can hold, and how we got here in the first place.</desc></programme>
-<programme start="20260424200000 +0000" stop="20260424210000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424210000 +0000" stop="20260424220000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWSHOUR</title><desc lang="en">Latest news and in-depth analysis from around the world.</desc></programme>
-<programme start="20260424220000 +0000" stop="20260424223000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260424223000 +0000" stop="20260424230000 +0000" channel="AlJazeera.qa@English"><title lang="en">Counting the Cost</title><desc lang="en">How much oil has the Iran war knocked out of the market and how high could prices go?</desc></programme>
-<programme start="20260424230000 +0000" stop="20260424233000 +0000" channel="AlJazeera.qa@English"><title lang="en">NEWS 30min</title><desc lang="en">Latest news and analysis from around the world.</desc></programme>
-<programme start="20260424233000 +0000" stop="20260425000000 +0000" channel="AlJazeera.qa@English"><title lang="en">Inside Story</title><desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc></programme>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="AlJazeera2.qa@HD">
+    <display-name>Al Jazeera 2</display-name>
+    <icon src="https://i.imgur.com/miq8O1Q.png"/>
+    <url>https://aljazeera.com</url>
+  </channel>
+  <channel id="AlJazeera.qa@Arabic">
+    <display-name>Al Jazeera Arabic</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <url>https://aljazeera.com</url>
+  </channel>
+  <channel id="AlJazeera.qa@English">
+    <display-name>Al Jazeera English</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <url>https://aljazeera.com</url>
+  </channel>
+  <programme start="20260423170000 +0000" stop="20260423173000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423173000 +0000" stop="20260423180000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">شبكات</title>
+    <desc lang="ar">شبكات برنامج يعكس أبرز القصص المتداولة على منصات التواصل الاجتماعي ويعيد صياغة الحكاية ليعكس آراءكم فيها ويشرح سياقها وأبعادها.</desc>
+  </programme>
+  <programme start="20260423180000 +0000" stop="20260423184500 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423184500 +0000" stop="20260423190000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">النشرة الرياضية</title>
+    <desc lang="ar">فقرة تقدم أحدث الاخبار الرياضية العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423190000 +0000" stop="20260423190500 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423190500 +0000" stop="20260423200000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">من واشنطن</title>
+    <desc lang="ar">برنامج حواري أسبوعي مباشر، وتقوم فلسفته على استضافة اثنين أو ثلاثة من السياسيين أو المحللين لمناقشة ما يجري داخل أروقة الإدارة الأميركية من قضايا المنطقة لمناقشته أمام المشاهد تاركا له حرية تحديد رأيه.</desc>
+  </programme>
+  <programme start="20260423200000 +0000" stop="20260423203000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423203000 +0000" stop="20260423210000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">ما وراء الخبر</title>
+    <desc lang="ar">برنامج حواري يومي مباشر، تقوم فكرته على معالجة مفصلة لحدث يشغل الساحة في وقته، ويعمد إلى طرح أسئلة متعددة تتعلق بالخبر المتناول يجيب عليها عدد من الخبراء أو المسؤولين ليضع الحقيقة أمام المشاهد تاركا له حرية اتخاذ موقفه.</desc>
+  </programme>
+  <programme start="20260423210000 +0000" stop="20260423220500 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423220500 +0000" stop="20260423230000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">سيناريوهات</title>
+    <desc lang="ar">برنامج سياسي استشرافي يبحث السيناريوهات المحتملة للأحداث الإقليمية والدولية، بناء على قراءة المعطيات الراهنة، واستشراف المؤشرات المستقبلية الممكنة.</desc>
+  </programme>
+  <programme start="20260423230000 +0000" stop="20260424170000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424173000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424173000 +0000" stop="20260424180000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">شبكات</title>
+    <desc lang="ar">شبكات برنامج يعكس أبرز القصص المتداولة على منصات التواصل الاجتماعي ويعيد صياغة الحكاية ليعكس آراءكم فيها ويشرح سياقها وأبعادها.</desc>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424184500 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424184500 +0000" stop="20260424190000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">النشرة الرياضية</title>
+    <desc lang="ar">فقرة تقدم أحدث الاخبار الرياضية العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424193000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">موجز الأخبار</title>
+    <desc lang="ar">موجز لأهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424193000 +0000" stop="20260424200000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">فوق السلطة</title>
+    <desc lang="ar">يعالج أحداث الأسبوع السياسية والأمنية والاقتصادية والاجتماعية العامة بأسلوب انتقادي وهجائي ساخر على طريقة الكوميديا السوداء، مع الاحتفاظ بجانب من الجدية، وذلك عبر عدة قوالب فنية قصيرة وفقرات متتابعة، من السكتشات التمثيلية التي تمزج بين الواقع والعالم الافتراضي.</desc>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424203000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424203000 +0000" stop="20260424210000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">ما وراء الخبر</title>
+    <desc lang="ar">برنامج حواري يومي مباشر، تقوم فكرته على معالجة مفصلة لحدث يشغل الساحة في وقته، ويعمد إلى طرح أسئلة متعددة تتعلق بالخبر المتناول يجيب عليها عدد من الخبراء أو المسؤولين ليضع الحقيقة أمام المشاهد تاركا له حرية اتخاذ موقفه.</desc>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424220500 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424220500 +0000" stop="20260424230000 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">وثائقيات انتقاء</title>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260425225959 +0000" channel="AlJazeera2.qa@HD">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423000000 +0000" stop="20260423020000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423020000 +0000" stop="20260423030000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423030000 +0000" stop="20260423040000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423040000 +0000" stop="20260423050000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423050000 +0000" stop="20260423060000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423060000 +0000" stop="20260423070000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423070000 +0000" stop="20260423080000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423080000 +0000" stop="20260423100000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423100000 +0000" stop="20260423110000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423110000 +0000" stop="20260423140000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423140000 +0000" stop="20260423150000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423150000 +0000" stop="20260423180000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423180000 +0000" stop="20260423200000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423200000 +0000" stop="20260423210000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423210000 +0000" stop="20260423220500 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423220500 +0000" stop="20260423230000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">ساعة نقاش</title>
+  </programme>
+  <programme start="20260423230000 +0000" stop="20260424000000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424000000 +0000" stop="20260424010000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424010000 +0000" stop="20260424020000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424020000 +0000" stop="20260424030000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424030000 +0000" stop="20260424040000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424050000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424060000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424070000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424090000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424100000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424110000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424120000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424120000 +0000" stop="20260424130000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424140000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424150000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424170000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424180000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424190000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424200000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424210000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424220500 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424220500 +0000" stop="20260424230000 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">ساعة نقاش</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260425225959 +0000" channel="AlJazeera.qa@Arabic">
+    <title lang="ar">نشرة الأخبار</title>
+    <desc lang="ar">جولة في أهم الأحداث العربية والعالمية</desc>
+  </programme>
+  <programme start="20260423000000 +0000" stop="20260423010000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423010000 +0000" stop="20260423020000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423020000 +0000" stop="20260423023000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423023000 +0000" stop="20260423030000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Al Jazeera Untangles - The Coloniser’s Academy : British Empire - Rule the Waves</title>
+    <desc lang="en">How Britain fused naval dominance with corporate reach to build a global empire of trade and control.</desc>
+  </programme>
+  <programme start="20260423030000 +0000" stop="20260423033000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423033000 +0000" stop="20260423040000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Al Jazeera World : Infiltration From Within</title>
+    <desc lang="en">Israel’s intelligence investigated in a story of spies, moles and blind spots, from early-state betrayals to 7th October 2023 and today’s conflict with Iran.</desc>
+  </programme>
+  <programme start="20260423040000 +0000" stop="20260423043000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423043000 +0000" stop="20260423050000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Al Jazeera World : Infiltration From Within</title>
+    <desc lang="en">Israel’s intelligence investigated in a story of spies, moles and blind spots, from early-state betrayals to 7th October 2023 and today’s conflict with Iran.</desc>
+  </programme>
+  <programme start="20260423050000 +0000" stop="20260423053000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423053000 +0000" stop="20260423060000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20260423060000 +0000" stop="20260423063000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423063000 +0000" stop="20260423070000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">The Bottom Line</title>
+    <desc lang="en">How will Iran-U.S. talks unfold? Host Steve Clemons speaks with political scientist Mohsen Milani.</desc>
+  </programme>
+  <programme start="20260423070000 +0000" stop="20260423080000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423080000 +0000" stop="20260423083000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423083000 +0000" stop="20260423090000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Counting the Cost</title>
+    <desc lang="en">Is China a winner of the Iran war or facing hidden risks?</desc>
+  </programme>
+  <programme start="20260423090000 +0000" stop="20260423100000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423100000 +0000" stop="20260423110000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423110000 +0000" stop="20260423113000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423113000 +0000" stop="20260423120000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20260423120000 +0000" stop="20260423130000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423130000 +0000" stop="20260423140000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423140000 +0000" stop="20260423143000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423143000 +0000" stop="20260423150000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Talk to Al Jazeera : Bryan Clark</title>
+    <desc lang="en">As fighting pauses in the US–Israel war on Iran, a military strategist examines shifting goals, strategic missteps, and what Washington has really achieved.</desc>
+  </programme>
+  <programme start="20260423150000 +0000" stop="20260423160000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423160000 +0000" stop="20260423170000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423170000 +0000" stop="20260423173000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423173000 +0000" stop="20260423180000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20260423180000 +0000" stop="20260423190000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423190000 +0000" stop="20260423193000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423193000 +0000" stop="20260423200000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Al Jazeera World : Infiltration From Within</title>
+    <desc lang="en">Israel’s intelligence investigated in a story of spies, moles and blind spots, from early-state betrayals to 7th October 2023 and today’s conflict with Iran.</desc>
+  </programme>
+  <programme start="20260423200000 +0000" stop="20260423203000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423203000 +0000" stop="20260423210000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Al Jazeera World : Infiltration From Within</title>
+    <desc lang="en">Israel’s intelligence investigated in a story of spies, moles and blind spots, from early-state betrayals to 7th October 2023 and today’s conflict with Iran.</desc>
+  </programme>
+  <programme start="20260423210000 +0000" stop="20260423220000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423220000 +0000" stop="20260423230000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423230000 +0000" stop="20260423233000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260423233000 +0000" stop="20260424000000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20260424000000 +0000" stop="20260424010000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424010000 +0000" stop="20260424020000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424020000 +0000" stop="20260424023000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424023000 +0000" stop="20260424030000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Counting the Cost</title>
+    <desc lang="en">Is China a winner of the Iran war or facing hidden risks?</desc>
+  </programme>
+  <programme start="20260424030000 +0000" stop="20260424040000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424050000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424053000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424053000 +0000" stop="20260424060000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424070000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424083000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424083000 +0000" stop="20260424090000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Talk to Al Jazeera : Bryan Clark</title>
+    <desc lang="en">As fighting pauses in the US–Israel war on Iran, a military strategist examines shifting goals, strategic missteps, and what Washington has really achieved.</desc>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424100000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424110000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424113000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424113000 +0000" stop="20260424120000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20260424120000 +0000" stop="20260424130000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424140000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424150000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424160000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424170000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424173000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424173000 +0000" stop="20260424180000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424190000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424193000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424193000 +0000" stop="20260424200000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">UpFront</title>
+    <desc lang="en">Redi Tlhabi hosts a debate on the latest in the Iran war, who has the upper hand, whether the status quo can hold, and how we got here in the first place.</desc>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424210000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424220000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWSHOUR</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424223000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424223000 +0000" stop="20260424230000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Counting the Cost</title>
+    <desc lang="en">How much oil has the Iran war knocked out of the market and how high could prices go?</desc>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260424233000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">NEWS 30min</title>
+    <desc lang="en">Latest news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20260424233000 +0000" stop="20260425000000 +0000" channel="AlJazeera.qa@English">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
 </tv>

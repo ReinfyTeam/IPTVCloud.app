@@ -1,112 +1,443 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="amc"><display-name>AMCnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="animal_planet_hd"><display-name>Animal Planet HDnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="arena4"><display-name>Arena4napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="atv"><display-name>ATVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="atv_extra"><display-name>ATV Extranapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="axn"><display-name>AXNnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="budapest_europa_tv"><display-name>Budapest Európa TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="cartoon_network"><display-name>Cartoon Networknapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="cartoonito"><display-name>Cartoonitonapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="cinemax"><display-name>CineMaxnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="cinemax_2"><display-name>CineMax 2napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="comedy_central"><display-name>Comedy Centralnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="cool"><display-name>Coolnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="d1_tv"><display-name>D1 TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="dikh_tv"><display-name>Dikh TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="discovery_channel"><display-name>Discovery Channelnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="disney_csatorna"><display-name>Disney Csatornanapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="duck_tv_hd"><display-name>Duck TV HDnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="duck_tv_plus"><display-name>Duck TV Plusnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="duck_tv_sd"><display-name>Duck TV SDnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="duna_televizio"><display-name>Duna Televíziónapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="duna_world"><display-name>Duna Worldnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="epic_drama"><display-name>Epic Dramanapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="eurosport_1"><display-name>Eurosport 1napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="eurosport_2"><display-name>Eurosport 2napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="ewtn"><display-name>EWTNnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="film"><display-name>film+napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="film4"><display-name>Film4napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="film_cafe"><display-name>Film Cafénapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="film_mania"><display-name>Film Mánianapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="filmbox"><display-name>Filmboxnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="filmbox_extra_hd"><display-name>Filmbox Extra HDnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="filmbox_family"><display-name>Filmbox Familynapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="filmbox_premium"><display-name>Filmbox Prémiumnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="filmbox_stars"><display-name>FilmBox Starsnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="fishing_and_hunting"><display-name>Fishing and Huntingnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="food_network"><display-name>Food Networknapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="galaxy4"><display-name>Galaxy4napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="hbo"><display-name>HBOnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="hbo_2"><display-name>HBO 2napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="hbo_3"><display-name>HBO 3napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="hgtv_home_and_garden"><display-name>HGTV Home &amp; Gardennapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="hir_tv"><display-name>hír TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="history"><display-name>Historynapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="id_investigation_discovery"><display-name>ID Investigation Discoverynapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="id_xtra"><display-name>ID Xtranapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="izaura_tv"><display-name>Izaura TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="jazz_tv"><display-name>Jazz TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="jim_jam"><display-name>Jim Jamnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="jocky_tv"><display-name>Jocky TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="kolyok_klub"><display-name>Kölyök klubnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="lifetv"><display-name>LifeTVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="m1"><display-name>m1napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="m2"><display-name>m2napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="m4_sport"><display-name>m4 sportnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="m4_sport_plusz"><display-name>m4 sport+napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="m5"><display-name>m5napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="magyar_mozi_tv"><display-name>Magyar Mozi TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="match4"><display-name>Match4napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="max4"><display-name>Max4napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="minimax"><display-name>Minimaxnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="mozi"><display-name>Mozi+napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="mozi_klub"><display-name>Mozi klubnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="moziverzum"><display-name>Moziverzumnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="mtv_european"><display-name>MTV Europeannapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="muzsika_tv"><display-name>Muzsika TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="national_geographic_hd"><display-name>National Geographic HDnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="national_geographic_wild"><display-name>National Geographic Wildnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="neshama_tv"><display-name>Neshama TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="nick_jr"><display-name>Nick Jr.napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="nickelodeon"><display-name>Nickelodeonnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="nicktoons"><display-name>Nicktoonsnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="ozonetv"><display-name>OzoneTVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="paramount_network"><display-name>Paramount Networknapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="pax_tv"><display-name>PAX TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="prime"><display-name>Primenapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="rtl"><display-name>RTLnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="rtl_gold"><display-name>RTL GOLDnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="rtl_harom"><display-name>RTL HÁROMnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="rtl_ketto"><display-name>RTL KETTŐnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="rtl_otthon"><display-name>RTL OTTHONnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="slager_tv"><display-name>Sláger TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="sorozat"><display-name>Sorozat+napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="sorozat_klub"><display-name>Sorozat klubnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="spektrum_hd"><display-name>Spektrum HDnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="spektrum_home"><display-name>Spektrum Homenapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="spiler1_tv"><display-name>Spíler1 TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="spiler2_tv"><display-name>Spíler2 TVnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="sport_1"><display-name>Sport 1napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="sport_2"><display-name>Sport 2napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="story4"><display-name>Story4napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="supertv2"><display-name>SuperTV2napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="teennick"><display-name>TeenNicknapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="tlc"><display-name>TLCnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="travel_channel"><display-name>Travel Channelnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="tv2"><display-name>TV2napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="tv2_comedy"><display-name>TV2 Comedynapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="tv2_kids"><display-name>TV2 Kidsnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="tv2_klub"><display-name>TV2 Klubnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="tv2_sef"><display-name>TV2 Séfnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="tv4"><display-name>TV4napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="tv_paprika"><display-name>tv paprikanapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="viasat_2"><display-name>Viasat 2napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="viasat_3"><display-name>Viasat 3napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="viasat_6"><display-name>Viasat 6napiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="viasat_explore"><display-name>Viasat Explorenapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="viasat_film"><display-name>Viasat Filmnapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="viasat_history"><display-name>Viasat Historynapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="viasat_nature"><display-name>Viasat Naturenapiheti</display-name><url>https://awilime.com</url></channel>
-<channel id="zenebutik"><display-name>Zenebutiknapiheti</display-name><url>https://awilime.com</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="amc">
+    <display-name>AMCnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="animal_planet_hd">
+    <display-name>Animal Planet HDnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="arena4">
+    <display-name>Arena4napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="atv">
+    <display-name>ATVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="atv_extra">
+    <display-name>ATV Extranapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="axn">
+    <display-name>AXNnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="budapest_europa_tv">
+    <display-name>Budapest Európa TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="cartoon_network">
+    <display-name>Cartoon Networknapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="cartoonito">
+    <display-name>Cartoonitonapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="cinemax">
+    <display-name>CineMaxnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="cinemax_2">
+    <display-name>CineMax 2napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="comedy_central">
+    <display-name>Comedy Centralnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="cool">
+    <display-name>Coolnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="d1_tv">
+    <display-name>D1 TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="dikh_tv">
+    <display-name>Dikh TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="discovery_channel">
+    <display-name>Discovery Channelnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="disney_csatorna">
+    <display-name>Disney Csatornanapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="duck_tv_hd">
+    <display-name>Duck TV HDnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="duck_tv_plus">
+    <display-name>Duck TV Plusnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="duck_tv_sd">
+    <display-name>Duck TV SDnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="duna_televizio">
+    <display-name>Duna Televíziónapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="duna_world">
+    <display-name>Duna Worldnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="epic_drama">
+    <display-name>Epic Dramanapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="eurosport_1">
+    <display-name>Eurosport 1napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="eurosport_2">
+    <display-name>Eurosport 2napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="ewtn">
+    <display-name>EWTNnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="film">
+    <display-name>film+napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="film4">
+    <display-name>Film4napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="film_cafe">
+    <display-name>Film Cafénapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="film_mania">
+    <display-name>Film Mánianapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="filmbox">
+    <display-name>Filmboxnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="filmbox_extra_hd">
+    <display-name>Filmbox Extra HDnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="filmbox_family">
+    <display-name>Filmbox Familynapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="filmbox_premium">
+    <display-name>Filmbox Prémiumnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="filmbox_stars">
+    <display-name>FilmBox Starsnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="fishing_and_hunting">
+    <display-name>Fishing and Huntingnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="food_network">
+    <display-name>Food Networknapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="galaxy4">
+    <display-name>Galaxy4napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="hbo">
+    <display-name>HBOnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="hbo_2">
+    <display-name>HBO 2napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="hbo_3">
+    <display-name>HBO 3napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="hgtv_home_and_garden">
+    <display-name>HGTV Home &amp; Gardennapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="hir_tv">
+    <display-name>hír TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="history">
+    <display-name>Historynapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="id_investigation_discovery">
+    <display-name>ID Investigation Discoverynapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="id_xtra">
+    <display-name>ID Xtranapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="izaura_tv">
+    <display-name>Izaura TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="jazz_tv">
+    <display-name>Jazz TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="jim_jam">
+    <display-name>Jim Jamnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="jocky_tv">
+    <display-name>Jocky TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="kolyok_klub">
+    <display-name>Kölyök klubnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="lifetv">
+    <display-name>LifeTVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="m1">
+    <display-name>m1napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="m2">
+    <display-name>m2napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="m4_sport">
+    <display-name>m4 sportnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="m4_sport_plusz">
+    <display-name>m4 sport+napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="m5">
+    <display-name>m5napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="magyar_mozi_tv">
+    <display-name>Magyar Mozi TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="match4">
+    <display-name>Match4napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="max4">
+    <display-name>Max4napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="minimax">
+    <display-name>Minimaxnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="mozi">
+    <display-name>Mozi+napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="mozi_klub">
+    <display-name>Mozi klubnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="moziverzum">
+    <display-name>Moziverzumnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="mtv_european">
+    <display-name>MTV Europeannapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="muzsika_tv">
+    <display-name>Muzsika TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="national_geographic_hd">
+    <display-name>National Geographic HDnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="national_geographic_wild">
+    <display-name>National Geographic Wildnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="neshama_tv">
+    <display-name>Neshama TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="nick_jr">
+    <display-name>Nick Jr.napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="nickelodeon">
+    <display-name>Nickelodeonnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="nicktoons">
+    <display-name>Nicktoonsnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="ozonetv">
+    <display-name>OzoneTVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="paramount_network">
+    <display-name>Paramount Networknapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="pax_tv">
+    <display-name>PAX TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="prime">
+    <display-name>Primenapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="rtl">
+    <display-name>RTLnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="rtl_gold">
+    <display-name>RTL GOLDnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="rtl_harom">
+    <display-name>RTL HÁROMnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="rtl_ketto">
+    <display-name>RTL KETTŐnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="rtl_otthon">
+    <display-name>RTL OTTHONnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="slager_tv">
+    <display-name>Sláger TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="sorozat">
+    <display-name>Sorozat+napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="sorozat_klub">
+    <display-name>Sorozat klubnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="spektrum_hd">
+    <display-name>Spektrum HDnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="spektrum_home">
+    <display-name>Spektrum Homenapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="spiler1_tv">
+    <display-name>Spíler1 TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="spiler2_tv">
+    <display-name>Spíler2 TVnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="sport_1">
+    <display-name>Sport 1napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="sport_2">
+    <display-name>Sport 2napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="story4">
+    <display-name>Story4napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="supertv2">
+    <display-name>SuperTV2napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="teennick">
+    <display-name>TeenNicknapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="tlc">
+    <display-name>TLCnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="travel_channel">
+    <display-name>Travel Channelnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="tv2">
+    <display-name>TV2napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="tv2_comedy">
+    <display-name>TV2 Comedynapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="tv2_kids">
+    <display-name>TV2 Kidsnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="tv2_klub">
+    <display-name>TV2 Klubnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="tv2_sef">
+    <display-name>TV2 Séfnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="tv4">
+    <display-name>TV4napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="tv_paprika">
+    <display-name>tv paprikanapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="viasat_2">
+    <display-name>Viasat 2napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="viasat_3">
+    <display-name>Viasat 3napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="viasat_6">
+    <display-name>Viasat 6napiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="viasat_explore">
+    <display-name>Viasat Explorenapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="viasat_film">
+    <display-name>Viasat Filmnapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="viasat_history">
+    <display-name>Viasat Historynapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="viasat_nature">
+    <display-name>Viasat Naturenapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
+  <channel id="zenebutik">
+    <display-name>Zenebutiknapiheti</display-name>
+    <url>https://awilime.com</url>
+  </channel>
 </tv>

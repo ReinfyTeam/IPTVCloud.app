@@ -1,79 +1,387 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="Animax.kr@SD"><display-name>ANIMAX</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Animax.png/960px-Animax.png"/><url>https://wavve.com</url></channel>
-<channel id="YTN.kr@SD"><display-name>YTN</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/YTN_logo_2014.svg/960px-YTN_logo_2014.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="MBN.kr@SD"><display-name>MBN</display-name><icon src="https://i.imgur.com/wm3JupT.png"/><url>https://wavve.com</url></channel>
-<channel id="MBNPlus.kr@SD"><display-name>MBN 플러스</display-name><icon src="https://i.imgur.com/8isw1U0.png"/><url>https://wavve.com</url></channel>
-<channel id="ChannelA.kr@SD"><display-name>채널A</display-name><icon src="https://i.imgur.com/W9laHPD.png"/><url>https://wavve.com</url></channel>
-<channel id="ChannelAPlus.kr@SD"><display-name>채널A 플러스</display-name><icon src="https://i.imgur.com/2t4Y5FP.png"/><url>https://wavve.com</url></channel>
-<channel id="TVChosun.kr@SD"><display-name>TV CHOSUN</display-name><icon src="https://i.imgur.com/62EwaCG.png"/><url>https://wavve.com</url></channel>
-<channel id="TVChosun2.kr@SD"><display-name>TV CHOSUN2</display-name><icon src="https://i.imgur.com/Ev5JoBJ.png"/><url>https://wavve.com</url></channel>
-<channel id="ChW.kr@SD"><display-name>채널W</display-name><icon src="https://i.imgur.com/D59xG3Y.png"/><url>https://wavve.com</url></channel>
-<channel id="DiscoveryChannelSoutheastAsia.sg@SouthKorea"><display-name>Discovery</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="HyundaiHomeShopping.kr@SD"><display-name>현대홈쇼핑</display-name><icon src="https://i.imgur.com/NJpECmq.png"/><url>https://wavve.com</url></channel>
-<channel id="HyundaiHomeShoppingPlusShop.kr@SD"><display-name>현대홈쇼핑+샵</display-name><icon src="https://i.imgur.com/DoNOuZE.png"/><url>https://wavve.com</url></channel>
-<channel id="GSShop.kr@SD"><display-name>GS SHOP</display-name><icon src="https://i.imgur.com/F7QDbEy.png"/><url>https://wavve.com</url></channel>
-<channel id="GSMyShop.kr@SD"><display-name>GS MY SHOP</display-name><icon src="https://i.imgur.com/ETPQwui.png"/><url>https://wavve.com</url></channel>
-<channel id="Anibox.kr@SD"><display-name>ANIBOX</display-name><icon src="https://i.imgur.com/5SZfGmy.png"/><url>https://wavve.com</url></channel>
-<channel id="Anione.kr@SD"><display-name>ANIONE</display-name><icon src="https://i.imgur.com/2zq8PDL.png"/><url>https://wavve.com</url></channel>
-<channel id="ShinsegaeTVShopping.kr@SD"><display-name>신세계TV쇼핑</display-name><icon src="https://i.imgur.com/Hq3yjqA.png"/><url>https://wavve.com</url></channel>
-<channel id="ShoppingNT.kr@SD"><display-name>쇼핑엔티</display-name><icon src="https://i.imgur.com/BgbJp5X.png"/><url>https://wavve.com</url></channel>
-<channel id="AsiaN.kr@SD"><display-name>AsiaN</display-name><icon src="https://i.imgur.com/DHJjmW5.png"/><url>https://wavve.com</url></channel>
-<channel id="AsiaM.kr@SD"><display-name>AsiaM</display-name><icon src="https://i.imgur.com/UgZXkzN.png"/><url>https://wavve.com</url></channel>
-<channel id="ChannelJ.kr@SD"><display-name>채널J</display-name><icon src="https://i.imgur.com/PeCtsdP.png"/><url>https://wavve.com</url></channel>
-<channel id="LotteHomeShopping.kr@SD"><display-name>롯데홈쇼핑</display-name><icon src="https://i.imgur.com/dJeNehc.png"/><url>https://wavve.com</url></channel>
-<channel id="LotteOneTV.kr@SD"><display-name>롯데홈쇼핑 ONETV</display-name><icon src="https://i.imgur.com/bXe7tYE.png"/><url>https://wavve.com</url></channel>
-<channel id="EChannel.kr@SD"><display-name>노는채널 E채널</display-name><icon src="https://i.imgur.com/dXaJ37Z.png"/><url>https://wavve.com</url></channel>
-<channel id="History.kr@SD"><display-name>HISTORY</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="LifetimeAsia.us@SD"><display-name>LIFETIME</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="Aniplus.kr@SD"><display-name>애니플러스</display-name><icon src="https://i.imgur.com/ZDDMrQG.png"/><url>https://wavve.com</url></channel>
-<channel id="BravoKids.kr@SD"><display-name>브라보키즈</display-name><icon src="https://i.imgur.com/UhqgvVW.png"/><url>https://wavve.com</url></channel>
-<channel id="PolarisTV.kr@SD"><display-name>폴라리스TV</display-name><icon src="https://i.imgur.com/qk7ey3J.png"/><url>https://wavve.com</url></channel>
-<channel id="DongaTV.kr@SD"><display-name>동아TV</display-name><icon src="https://i.imgur.com/Zz8tLp0.png"/><url>https://wavve.com</url></channel>
-<channel id="Vlending.kr@SD"><display-name>블렌딩 뮤직비디오</display-name><icon src="https://i.imgur.com/bycwH6W.png"/><url>https://wavve.com</url></channel>
-<channel id="JNGKorea.kr@SD"><display-name>JNG</display-name><icon src="https://i.imgur.com/4aRhVb9.png"/><url>https://wavve.com</url></channel>
-<channel id="NSHomeShopping.kr@SD"><display-name>NS홈쇼핑</display-name><icon src="https://i.imgur.com/Q9xsDQo.png"/><url>https://wavve.com</url></channel>
-<channel id="NSShopPlus.kr@SD"><display-name>NS SHOP+</display-name><icon src="https://i.imgur.com/7KmXNci.png"/><url>https://wavve.com</url></channel>
-<channel id="ChannelChina.kr@SD"><display-name>채널차이나</display-name><icon src="https://i.imgur.com/Au21r7u.png"/><url>https://wavve.com</url></channel>
-<channel id="Telenovela.kr@SD"><display-name>텔레노벨라</display-name><icon src="https://i.imgur.com/yuAXFmk.png"/><url>https://wavve.com</url></channel>
-<channel id="EBS1TV.kr@SD"><display-name>EBS 1</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/960px-EBS_1TV_Logo.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="EBSKids.kr@SD"><display-name>EBS 키즈</display-name><icon src="https://i.imgur.com/62oo8Bx.png"/><url>https://wavve.com</url></channel>
-<channel id="EBS2TV.kr@SD"><display-name>EBS 2</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/960px-EBS_2TV_Logo.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="BTNTV.kr@SD"><display-name>BTN</display-name><icon src="https://i.imgur.com/sOoS7RQ.png"/><url>https://wavve.com</url></channel>
-<channel id="CTSTV.kr@SD"><display-name>CTS기독교TV</display-name><icon src="https://i.imgur.com/z3L8uNB.png"/><url>https://wavve.com</url></channel>
-<channel id="CPBCTV.kr@SD"><display-name>가톨릭평화방송</display-name><icon src="https://i.imgur.com/Psy4IBg.png"/><url>https://wavve.com</url></channel>
-<channel id="DaekyoKidsTV.kr@SD"><display-name>대교어린이TV</display-name><icon src="https://i.imgur.com/mtREJdH.png"/><url>https://wavve.com</url></channel>
-<channel id="KShopping.kr@SD"><display-name>K SHOPPING</display-name><icon src="https://i.imgur.com/Tmb3xK8.png"/><url>https://wavve.com</url></channel>
-<channel id="MaeilBusinessTV.kr@SD"><display-name>매일경제TV</display-name><icon src="https://i.imgur.com/G2fnMXG.png"/><url>https://wavve.com</url></channel>
-<channel id="KoreaEconomyTV.kr@SD"><display-name>한국경제TV</display-name><icon src="https://i.imgur.com/fGQatSH.png"/><url>https://wavve.com</url></channel>
-<channel id="TheMovie.kr@SD"><display-name>THE MOVIE</display-name><icon src="https://i.imgur.com/Rsunizo.png"/><url>https://wavve.com</url></channel>
-<channel id="IndieFilm.kr@SD"><display-name>인디필름</display-name><icon src="https://i.imgur.com/hcJ7yAX.png"/><url>https://wavve.com</url></channel>
-<channel id="SKStoa.kr@SD"><display-name>SK스토아</display-name><icon src="https://i.imgur.com/PbJBB5j.png"/><url>https://wavve.com</url></channel>
-<channel id="NationalAssemblyTV.kr@SD"><display-name>국회방송</display-name><icon src="https://i.imgur.com/UKdB8vD.png"/><url>https://wavve.com</url></channel>
-<channel id="MTN.kr@SD"><display-name>머니투데이방송</display-name><icon src="https://i.imgur.com/MS0lqoG.png"/><url>https://wavve.com</url></channel>
-<channel id="TVasiaPlus.kr@SD"><display-name>TVasia Plus</display-name><icon src="https://i.imgur.com/PnGmAa7.png"/><url>https://wavve.com</url></channel>
-<channel id="SmileTVPlus.kr@SD"><display-name>SmileTV Plus</display-name><icon src="https://i.imgur.com/ootIv9k.png"/><url>https://wavve.com</url></channel>
-<channel id="KBS1TV.kr@SD"><display-name>KBS 1TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/960px-KBS_1_logo.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="KBS2TV.kr@SD"><display-name>KBS 2TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/960px-KBS_2_logo.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="KBSJoy.kr@SD"><display-name>KBS JOY</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KBS_JOY.svg/960px-KBS_JOY.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="KBSLife.kr@SD"><display-name>KBS Life</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/KBS_Life.svg/960px-KBS_Life.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="KBSDrama.kr@SD"><display-name>KBS DRAMA</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/KBS_DRAMA.svg/960px-KBS_DRAMA.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="KBSStory.kr@SD"><display-name>KBS Story</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/KBS_Story.svg/960px-KBS_Story.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="CCTV4Asia.cn@SD"><display-name>CCTV4</display-name><icon src="https://i.imgur.com/tWt4Wou.png"/><url>https://wavve.com</url></channel>
-<channel id="CGTN.cn@SD"><display-name>CGTN</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="MBCTV.kr@SD"><display-name>MBC</display-name><icon src="https://static.wikia.nocookie.net/logopedia/images/b/bd/Munhwa_Broadcasting_Corporation_2023.svg/revision/latest/scale-to-width-down/512"/><url>https://wavve.com</url></channel>
-<channel id="MBCDrama.kr@SD"><display-name>MBC Drama</display-name><icon src="https://i.imgur.com/Q20rqnX.png"/><url>https://wavve.com</url></channel>
-<channel id="MBCEvery1.kr@SD"><display-name>MBC Every1</display-name><icon src="https://i.imgur.com/cnawqOu.png"/><url>https://wavve.com</url></channel>
-<channel id="MBCM.kr@SD"><display-name>MBC M</display-name><icon src="https://static.wikia.nocookie.net/logopedia/images/4/41/MBC_M_logo.svg/revision/latest/scale-to-width-down/512"/><url>https://wavve.com</url></channel>
-<channel id="MBCOn.kr@SD"><display-name>MBC ON</display-name><icon src="https://i.imgur.com/AQzgnKD.png"/><url>https://wavve.com</url></channel>
-<channel id="S01"><display-name>SBS</display-name><url>https://wavve.com</url></channel>
-<channel id="SBSPlus.kr@SD"><display-name>SBS Plus</display-name><icon src="https://i.imgur.com/8pINOIM.png"/><url>https://wavve.com</url></channel>
-<channel id="SBSfunE.kr@SD"><display-name>SBS funE</display-name><icon src="https://i.imgur.com/sxM1XcA.png"/><url>https://wavve.com</url></channel>
-<channel id="SBSGolf.kr@SD"><display-name>SBS Golf</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SBS_Golf_logo_2018.svg/960px-SBS_Golf_logo_2018.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="SBSBiz.kr@SD"><display-name>SBS Biz</display-name><icon src="https://i.imgur.com/gwA98UT.png"/><url>https://wavve.com</url></channel>
-<channel id="SBSM.kr@SD"><display-name>SBS MTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/SBS_M_2022_logo.svg/960px-SBS_M_2022_logo.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="Nickelodeon.kr@SD"><display-name>SBS Nick</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png"/><url>https://wavve.com</url></channel>
-<channel id="SBSFL.kr@SD"><display-name>SBS Fil</display-name><icon src="https://i.imgur.com/JKNSd8s.png"/><url>https://wavve.com</url></channel>
-<channel id="EdgeTV.kr@SD"><display-name>EDGETV</display-name><icon src="https://i.imgur.com/y65DED8.png"/><url>https://wavve.com</url></channel>
-<channel id="FunTV.kr@SD"><display-name>FUNTV</display-name><icon src="https://i.imgur.com/9rfo7O3.png"/><url>https://wavve.com</url></channel>
-<channel id="YonhapNewsTV.kr@SD"><display-name>연합뉴스TV</display-name><icon src="https://i.imgur.com/3aLkU2I.png"/><url>https://wavve.com</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="Animax.kr@SD">
+    <display-name>ANIMAX</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Animax.png/960px-Animax.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="YTN.kr@SD">
+    <display-name>YTN</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/YTN_logo_2014.svg/960px-YTN_logo_2014.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="MBN.kr@SD">
+    <display-name>MBN</display-name>
+    <icon src="https://i.imgur.com/wm3JupT.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="MBNPlus.kr@SD">
+    <display-name>MBN 플러스</display-name>
+    <icon src="https://i.imgur.com/8isw1U0.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="ChannelA.kr@SD">
+    <display-name>채널A</display-name>
+    <icon src="https://i.imgur.com/W9laHPD.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="ChannelAPlus.kr@SD">
+    <display-name>채널A 플러스</display-name>
+    <icon src="https://i.imgur.com/2t4Y5FP.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="TVChosun.kr@SD">
+    <display-name>TV CHOSUN</display-name>
+    <icon src="https://i.imgur.com/62EwaCG.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="TVChosun2.kr@SD">
+    <display-name>TV CHOSUN2</display-name>
+    <icon src="https://i.imgur.com/Ev5JoBJ.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="ChW.kr@SD">
+    <display-name>채널W</display-name>
+    <icon src="https://i.imgur.com/D59xG3Y.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="DiscoveryChannelSoutheastAsia.sg@SouthKorea">
+    <display-name>Discovery</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="HyundaiHomeShopping.kr@SD">
+    <display-name>현대홈쇼핑</display-name>
+    <icon src="https://i.imgur.com/NJpECmq.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="HyundaiHomeShoppingPlusShop.kr@SD">
+    <display-name>현대홈쇼핑+샵</display-name>
+    <icon src="https://i.imgur.com/DoNOuZE.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="GSShop.kr@SD">
+    <display-name>GS SHOP</display-name>
+    <icon src="https://i.imgur.com/F7QDbEy.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="GSMyShop.kr@SD">
+    <display-name>GS MY SHOP</display-name>
+    <icon src="https://i.imgur.com/ETPQwui.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="Anibox.kr@SD">
+    <display-name>ANIBOX</display-name>
+    <icon src="https://i.imgur.com/5SZfGmy.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="Anione.kr@SD">
+    <display-name>ANIONE</display-name>
+    <icon src="https://i.imgur.com/2zq8PDL.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="ShinsegaeTVShopping.kr@SD">
+    <display-name>신세계TV쇼핑</display-name>
+    <icon src="https://i.imgur.com/Hq3yjqA.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="ShoppingNT.kr@SD">
+    <display-name>쇼핑엔티</display-name>
+    <icon src="https://i.imgur.com/BgbJp5X.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="AsiaN.kr@SD">
+    <display-name>AsiaN</display-name>
+    <icon src="https://i.imgur.com/DHJjmW5.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="AsiaM.kr@SD">
+    <display-name>AsiaM</display-name>
+    <icon src="https://i.imgur.com/UgZXkzN.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="ChannelJ.kr@SD">
+    <display-name>채널J</display-name>
+    <icon src="https://i.imgur.com/PeCtsdP.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="LotteHomeShopping.kr@SD">
+    <display-name>롯데홈쇼핑</display-name>
+    <icon src="https://i.imgur.com/dJeNehc.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="LotteOneTV.kr@SD">
+    <display-name>롯데홈쇼핑 ONETV</display-name>
+    <icon src="https://i.imgur.com/bXe7tYE.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="EChannel.kr@SD">
+    <display-name>노는채널 E채널</display-name>
+    <icon src="https://i.imgur.com/dXaJ37Z.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="History.kr@SD">
+    <display-name>HISTORY</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="LifetimeAsia.us@SD">
+    <display-name>LIFETIME</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="Aniplus.kr@SD">
+    <display-name>애니플러스</display-name>
+    <icon src="https://i.imgur.com/ZDDMrQG.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="BravoKids.kr@SD">
+    <display-name>브라보키즈</display-name>
+    <icon src="https://i.imgur.com/UhqgvVW.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="PolarisTV.kr@SD">
+    <display-name>폴라리스TV</display-name>
+    <icon src="https://i.imgur.com/qk7ey3J.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="DongaTV.kr@SD">
+    <display-name>동아TV</display-name>
+    <icon src="https://i.imgur.com/Zz8tLp0.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="Vlending.kr@SD">
+    <display-name>블렌딩 뮤직비디오</display-name>
+    <icon src="https://i.imgur.com/bycwH6W.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="JNGKorea.kr@SD">
+    <display-name>JNG</display-name>
+    <icon src="https://i.imgur.com/4aRhVb9.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="NSHomeShopping.kr@SD">
+    <display-name>NS홈쇼핑</display-name>
+    <icon src="https://i.imgur.com/Q9xsDQo.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="NSShopPlus.kr@SD">
+    <display-name>NS SHOP+</display-name>
+    <icon src="https://i.imgur.com/7KmXNci.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="ChannelChina.kr@SD">
+    <display-name>채널차이나</display-name>
+    <icon src="https://i.imgur.com/Au21r7u.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="Telenovela.kr@SD">
+    <display-name>텔레노벨라</display-name>
+    <icon src="https://i.imgur.com/yuAXFmk.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="EBS1TV.kr@SD">
+    <display-name>EBS 1</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/960px-EBS_1TV_Logo.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="EBSKids.kr@SD">
+    <display-name>EBS 키즈</display-name>
+    <icon src="https://i.imgur.com/62oo8Bx.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="EBS2TV.kr@SD">
+    <display-name>EBS 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/960px-EBS_2TV_Logo.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="BTNTV.kr@SD">
+    <display-name>BTN</display-name>
+    <icon src="https://i.imgur.com/sOoS7RQ.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="CTSTV.kr@SD">
+    <display-name>CTS기독교TV</display-name>
+    <icon src="https://i.imgur.com/z3L8uNB.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="CPBCTV.kr@SD">
+    <display-name>가톨릭평화방송</display-name>
+    <icon src="https://i.imgur.com/Psy4IBg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="DaekyoKidsTV.kr@SD">
+    <display-name>대교어린이TV</display-name>
+    <icon src="https://i.imgur.com/mtREJdH.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="KShopping.kr@SD">
+    <display-name>K SHOPPING</display-name>
+    <icon src="https://i.imgur.com/Tmb3xK8.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="MaeilBusinessTV.kr@SD">
+    <display-name>매일경제TV</display-name>
+    <icon src="https://i.imgur.com/G2fnMXG.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="KoreaEconomyTV.kr@SD">
+    <display-name>한국경제TV</display-name>
+    <icon src="https://i.imgur.com/fGQatSH.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="TheMovie.kr@SD">
+    <display-name>THE MOVIE</display-name>
+    <icon src="https://i.imgur.com/Rsunizo.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="IndieFilm.kr@SD">
+    <display-name>인디필름</display-name>
+    <icon src="https://i.imgur.com/hcJ7yAX.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="SKStoa.kr@SD">
+    <display-name>SK스토아</display-name>
+    <icon src="https://i.imgur.com/PbJBB5j.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="NationalAssemblyTV.kr@SD">
+    <display-name>국회방송</display-name>
+    <icon src="https://i.imgur.com/UKdB8vD.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="MTN.kr@SD">
+    <display-name>머니투데이방송</display-name>
+    <icon src="https://i.imgur.com/MS0lqoG.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="TVasiaPlus.kr@SD">
+    <display-name>TVasia Plus</display-name>
+    <icon src="https://i.imgur.com/PnGmAa7.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="SmileTVPlus.kr@SD">
+    <display-name>SmileTV Plus</display-name>
+    <icon src="https://i.imgur.com/ootIv9k.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="KBS1TV.kr@SD">
+    <display-name>KBS 1TV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/960px-KBS_1_logo.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="KBS2TV.kr@SD">
+    <display-name>KBS 2TV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/960px-KBS_2_logo.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="KBSJoy.kr@SD">
+    <display-name>KBS JOY</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KBS_JOY.svg/960px-KBS_JOY.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="KBSLife.kr@SD">
+    <display-name>KBS Life</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/KBS_Life.svg/960px-KBS_Life.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="KBSDrama.kr@SD">
+    <display-name>KBS DRAMA</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/KBS_DRAMA.svg/960px-KBS_DRAMA.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="KBSStory.kr@SD">
+    <display-name>KBS Story</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/KBS_Story.svg/960px-KBS_Story.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="CCTV4Asia.cn@SD">
+    <display-name>CCTV4</display-name>
+    <icon src="https://i.imgur.com/tWt4Wou.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="CGTN.cn@SD">
+    <display-name>CGTN</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="MBCTV.kr@SD">
+    <display-name>MBC</display-name>
+    <icon src="https://static.wikia.nocookie.net/logopedia/images/b/bd/Munhwa_Broadcasting_Corporation_2023.svg/revision/latest/scale-to-width-down/512"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="MBCDrama.kr@SD">
+    <display-name>MBC Drama</display-name>
+    <icon src="https://i.imgur.com/Q20rqnX.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="MBCEvery1.kr@SD">
+    <display-name>MBC Every1</display-name>
+    <icon src="https://i.imgur.com/cnawqOu.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="MBCM.kr@SD">
+    <display-name>MBC M</display-name>
+    <icon src="https://static.wikia.nocookie.net/logopedia/images/4/41/MBC_M_logo.svg/revision/latest/scale-to-width-down/512"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="MBCOn.kr@SD">
+    <display-name>MBC ON</display-name>
+    <icon src="https://i.imgur.com/AQzgnKD.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="S01">
+    <display-name>SBS</display-name>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="SBSPlus.kr@SD">
+    <display-name>SBS Plus</display-name>
+    <icon src="https://i.imgur.com/8pINOIM.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="SBSfunE.kr@SD">
+    <display-name>SBS funE</display-name>
+    <icon src="https://i.imgur.com/sxM1XcA.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="SBSGolf.kr@SD">
+    <display-name>SBS Golf</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SBS_Golf_logo_2018.svg/960px-SBS_Golf_logo_2018.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="SBSBiz.kr@SD">
+    <display-name>SBS Biz</display-name>
+    <icon src="https://i.imgur.com/gwA98UT.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="SBSM.kr@SD">
+    <display-name>SBS MTV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/SBS_M_2022_logo.svg/960px-SBS_M_2022_logo.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="Nickelodeon.kr@SD">
+    <display-name>SBS Nick</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="SBSFL.kr@SD">
+    <display-name>SBS Fil</display-name>
+    <icon src="https://i.imgur.com/JKNSd8s.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="EdgeTV.kr@SD">
+    <display-name>EDGETV</display-name>
+    <icon src="https://i.imgur.com/y65DED8.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="FunTV.kr@SD">
+    <display-name>FUNTV</display-name>
+    <icon src="https://i.imgur.com/9rfo7O3.png"/>
+    <url>https://wavve.com</url>
+  </channel>
+  <channel id="YonhapNewsTV.kr@SD">
+    <display-name>연합뉴스TV</display-name>
+    <icon src="https://i.imgur.com/3aLkU2I.png"/>
+    <url>https://wavve.com</url>
+  </channel>
 </tv>

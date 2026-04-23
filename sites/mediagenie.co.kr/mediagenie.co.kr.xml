@@ -1,7 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="CHING.kr@SD"><display-name>CHING</display-name><icon src="https://i.imgur.com/LeqtIOO.png"/><url>https://mediagenie.co.kr</url></channel>
-<channel id="ENADRAMA.kr@SD"><display-name>ENA DRAMA</display-name><icon src="https://i.imgur.com/IowmetH.png"/><url>https://mediagenie.co.kr</url></channel>
-<channel id="ENASTORY.kr@SD"><display-name>ENA STORY</display-name><icon src="https://i.imgur.com/gbpKZl4.png"/><url>https://mediagenie.co.kr</url></channel>
-<channel id="Healthmedi"><display-name>Healthmedi</display-name><url>https://mediagenie.co.kr</url></channel>
-<channel id="ONT.kr@SD"><display-name>ONT</display-name><icon src="https://i.imgur.com/aLVr20m.png"/><url>https://mediagenie.co.kr</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="CHING.kr@SD">
+    <display-name>CHING</display-name>
+    <icon src="https://i.imgur.com/LeqtIOO.png"/>
+    <url>https://mediagenie.co.kr</url>
+  </channel>
+  <channel id="ENADRAMA.kr@SD">
+    <display-name>ENA DRAMA</display-name>
+    <icon src="https://i.imgur.com/IowmetH.png"/>
+    <url>https://mediagenie.co.kr</url>
+  </channel>
+  <channel id="ENASTORY.kr@SD">
+    <display-name>ENA STORY</display-name>
+    <icon src="https://i.imgur.com/gbpKZl4.png"/>
+    <url>https://mediagenie.co.kr</url>
+  </channel>
+  <channel id="Healthmedi">
+    <display-name>Healthmedi</display-name>
+    <url>https://mediagenie.co.kr</url>
+  </channel>
+  <channel id="ONT.kr@SD">
+    <display-name>ONT</display-name>
+    <icon src="https://i.imgur.com/aLVr20m.png"/>
+    <url>https://mediagenie.co.kr</url>
+  </channel>
 </tv>

@@ -1,3 +1,48 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="ChadaTV.ma@SD"><display-name>Chada TV</display-name><icon src="https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png"/><url>https://chada.ma</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="ChadaTV.ma@SD">
+    <display-name>Chada TV</display-name>
+    <icon src="https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png"/>
+    <url>https://chada.ma</url>
+  </channel>
+  <programme start="20260422230000 +0000" stop="20260423080000 +0000" channel="ChadaTV.ma@SD">
+    <title lang="fr">Bloc Prime + Clips</title>
+    <desc lang="fr">No description available</desc>
+  </programme>
+  <programme start="20260423080000 +0000" stop="20260423100000 +0000" channel="ChadaTV.ma@SD">
+    <title lang="fr">Chada Al Ousra</title>
+    <desc lang="fr">Jamila ouyoub</desc>
+  </programme>
+  <programme start="20260423120000 +0000" stop="20260423170000 +0000" channel="ChadaTV.ma@SD">
+    <title lang="fr">Clips</title>
+    <desc lang="fr">Imane bououlid idrissi Fakherddine Houssine chahb</desc>
+  </programme>
+  <programme start="20260423170000 +0000" stop="20260423173000 +0000" channel="ChadaTV.ma@SD">
+    <title lang="fr">Chada cover</title>
+    <desc lang="fr">sarah azmi</desc>
+  </programme>
+  <programme start="20260423173000 +0000" stop="20260423190000 +0000" channel="ChadaTV.ma@SD">
+    <title lang="fr">Dandana</title>
+    <desc lang="fr">Imad ntifi</desc>
+  </programme>
+  <programme start="20260423190000 +0000" stop="20260423203000 +0000" channel="ChadaTV.ma@SD">
+    <title lang="fr">Masae lkhir ya maghrib</title>
+    <desc lang="fr">Houssine chahb</desc>
+  </programme>
+  <programme start="20260423190000 +0000" stop="20260423200000 +0000" channel="ChadaTV.ma@SD">
+    <title lang="fr">Masae lkhir ya maghrib live</title>
+    <desc lang="fr">Houssine chahb</desc>
+  </programme>
+  <programme start="20260423200000 +0000" stop="20260423213000 +0000" channel="ChadaTV.ma@SD">
+    <title lang="fr">Assahm</title>
+    <desc lang="fr">Majda Kilani</desc>
+  </programme>
+  <programme start="20260423213000 +0000" stop="20260422230000 +0000" channel="ChadaTV.ma@SD">
+    <title lang="fr">100% VAR</title>
+    <desc lang="fr">Imane bououlid idrissi Fakherddine Houssine chahb</desc>
+  </programme>
+  <programme start="20260423220000 +0000" stop="20260423000000 +0000" channel="ChadaTV.ma@SD">
+    <title lang="fr">Allo Houssine</title>
+    <desc lang="fr">Houssine chahb</desc>
+  </programme>
 </tv>

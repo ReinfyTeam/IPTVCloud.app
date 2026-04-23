@@ -1,175 +1,741 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="Canal26.ar@SD"><display-name>26 TV HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="A3CINE"><display-name>A3CINE</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="A24.ar@SD"><display-name>A24</display-name><icon src="https://i.ibb.co/TxJWSBds/A24-2025-svg.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="A&amp;E MUNDO"><display-name>A&amp;E MUNDO</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="A&amp;E MUNDO HD"><display-name>A&amp;E MUNDO HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ALLEGRO HD"><display-name>ALLEGRO HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="AMC"><display-name>AMC</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="AMC HD"><display-name>AMC HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="AMERICA 2"><display-name>AMERICA 2</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ANIMAL PLANET"><display-name>ANIMAL PLANET</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ANIMAL PLANET HD"><display-name>ANIMAL PLANET HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ANTENA3 HD"><display-name>ANTENA3 HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ATRESERIES"><display-name>ATRESERIES</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="AXN"><display-name>AXN</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="AXN HD"><display-name>AXN HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="BABY TV"><display-name>BABY TV</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="BBCNews.uk@LatinAmerica"><display-name>BBC WORLD</display-name><icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="BloombergTV.us@US"><display-name>BLOOMBERG</display-name><icon src="https://i.imgur.com/OuogLHx.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="C5N.ar@SD"><display-name>C5N</display-name><icon src="https://i.imgur.com/5ZNZYjO.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="Canal4.uy@SD"><display-name>CANAL 4 MONTECARLO</display-name><icon src="https://i.imgur.com/E4gotbu.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="Canal5.uy@SD"><display-name>CANAL 5</display-name><icon src="https://i.imgur.com/IpYxSr1.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="CANAL 24 HS"><display-name>CANAL 24 HS</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ETBBasque.es@SD"><display-name>CANAL VASCO</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETB_Basque_2022_logo.svg/960px-ETB_Basque_2022_logo.svg.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="CARTOON NETWORK"><display-name>CARTOON NETWORK</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="CARTOON NETWORK HD"><display-name>CARTOON NETWORK HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="CartoonitoLatinAmerica.us@SD"><display-name>CARTOONITO</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/960px-Cartoonito_-_Logo_2021.svg.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="CINECANAL"><display-name>CINECANAL</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="CINECANAL HD"><display-name>CINECANAL HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="CINEMAX"><display-name>CINEMAX</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="CINEMAX HD"><display-name>CINEMAX HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="CiudadMagazine.ar@SD"><display-name>CIUDAD MAGAZINE</display-name><icon src="https://i.imgur.com/V1xZV72.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="CNNenEspanol.us@SD"><display-name>CNN EN ESPAÑOL</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="CronicaTV.ar@SD"><display-name>CRONICA TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Cr%C3%B3nica_TV_logotipo_%282008-2015%29.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DEUTSCHE WELLE"><display-name>DEUTSCHE WELLE</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISCOVERY"><display-name>DISCOVERY</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISCOVERY HD"><display-name>DISCOVERY HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISCOVERY HD THEATER"><display-name>DISCOVERY HD THEATER</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISCOVERY ID"><display-name>DISCOVERY ID</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISCOVERY ID HD"><display-name>DISCOVERY ID HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISCOVERY KIDS"><display-name>DISCOVERY KIDS</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISCOVERY KIDS HD"><display-name>DISCOVERY KIDS HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISCOVERY SCIENCE HD"><display-name>DISCOVERY SCIENCE HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISCOVERY TLC HD"><display-name>DISCOVERY TLC HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISCOVERY TURBO HD"><display-name>DISCOVERY TURBO HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISCOVERY WORLD HD"><display-name>DISCOVERY WORLD HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISNEY"><display-name>DISNEY</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISNEY HD"><display-name>DISNEY HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="DISNEY JR"><display-name>DISNEY JR</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="EL GOURMET"><display-name>EL GOURMET</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="EL GOURMET HD"><display-name>EL GOURMET HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ENTERTAINMENT TELEVISION"><display-name>ENTERTAINMENT TELEVISION</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ESPN"><display-name>ESPN</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ESPN 2"><display-name>ESPN 2</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ESPN 2 HD"><display-name>ESPN 2 HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ESPN 3"><display-name>ESPN 3</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ESPN 3 HD"><display-name>ESPN 3 HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ESPN 4"><display-name>ESPN 4</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ESPN 4 HD"><display-name>ESPN 4 HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ESPN EXTRA HD"><display-name>ESPN EXTRA HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="ESPN HD"><display-name>ESPN HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="Eurochannel.uk@SD"><display-name>EUROCHANNEL</display-name><icon src="https://i.imgur.com/yXAtmI6.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="EuropaEuropa.ar@SD"><display-name>EUROPA EUROPA</display-name><icon src="https://i.imgur.com/w5SOfyJ.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="EWTN"><display-name>EWTN</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="FILM&amp;ARTS"><display-name>FILM&amp;ARTS</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="FILM&amp;ARTS HD"><display-name>FILM&amp;ARTS HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="FOOD NETWORK"><display-name>FOOD NETWORK</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="FoxNewsChannel.us@SD"><display-name>FOX NEWS</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="FOX SPORTS 2"><display-name>FOX SPORTS 2</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="FOX SPORTS 2 HD"><display-name>FOX SPORTS 2 HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="FOX SPORTS 3"><display-name>FOX SPORTS 3</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="FOX SPORTS 3 HD"><display-name>FOX SPORTS 3 HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="FX"><display-name>FX</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="FX HD"><display-name>FX HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="GaliciaTVAmerica.es@SD"><display-name>GALICIA TV</display-name><icon src="https://i.imgur.com/s59AaqG.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="GLITZ"><display-name>GLITZ</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="GolTVLatinAmerica.us@SD"><display-name>GOL TV</display-name><icon src="https://i.imgur.com/pypul3s.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="GoldenPlus.mx@SD"><display-name>GOLDEN PLUS</display-name><icon src="https://i.imgur.com/OOEkyM2.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="GoldenPremier.mx@SD"><display-name>GOLDEN PREMIER HD</display-name><icon src="https://i.imgur.com/JMa7jws.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="H2"><display-name>H2</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="H2 HD"><display-name>H2 HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HBOLatinAmerica.us@SD"><display-name>HBO</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HBO 2 HD"><display-name>HBO 2 HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HBOFamilyLatinAmerica.us@SD"><display-name>HBO FAMILY HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/960px-HBO_Family.svg.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HBO HD"><display-name>HBO HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HBOMundiLatinAmerica.us@SD"><display-name>HBO MUNDI HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/960px-HBO_Mundi.svg.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HBO PLUS HD"><display-name>HBO PLUS HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HBO POP HD"><display-name>HBO POP HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HBOSignatureLatinAmerica.us@SD"><display-name>HBO SIGNATURE HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/960px-HBO_Signature.svg.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HBOXtremeLatinAmerica.us@SD"><display-name>HBO XTREME HD</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/960px-HBO_Xtreme.svg.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HGTV"><display-name>HGTV</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HISTORY"><display-name>HISTORY</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HISTORY HD"><display-name>HISTORY HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HolaTVLatinAmerica.us@SD"><display-name>HOLA TV</display-name><icon src="https://i.imgur.com/i0Qexxd.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HOME AND HEALTH"><display-name>HOME AND HEALTH</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="HOME AND HEALTH HD"><display-name>HOME AND HEALTH HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="I-SAT"><display-name>I-SAT</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="IVC"><display-name>IVC</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="KanalDDrama.tr@SD"><display-name>KANAL D DRAMA</display-name><icon src="https://i.imgur.com/WIeZMKT.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="LasEstrellasLatinAmerica.mx@SD"><display-name>LAS ESTRELLAS HD</display-name><icon src="https://i.imgur.com/g5ShxZ7.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="LIFETIME"><display-name>LIFETIME</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="LaNacionPlus.ar@SD"><display-name>LN+</display-name><icon src="https://i.imgur.com/Gj1kqH5.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="MAS CHIC"><display-name>MAS CHIC</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="MAS CHIC HD"><display-name>MAS CHIC HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="MTV"><display-name>MTV</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="MTV 80S"><display-name>MTV 80S</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="MTV CLUB"><display-name>MTV CLUB</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="MTV HD"><display-name>MTV HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="MTV HITS"><display-name>MTV HITS</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="NAT GEO HD"><display-name>NAT GEO HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="NATIONAL GEOGRAPHIC"><display-name>NATIONAL GEOGRAPHIC</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="NICK JR"><display-name>NICK JR</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="NICKELODEON"><display-name>NICKELODEON</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="NSEventos1.uy@SD"><display-name>NS EVENTOS 1</display-name><icon src="https://i.imgur.com/2r3Jpzx.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="NSEventos2.uy@SD"><display-name>NS EVENTOS 2</display-name><icon src="https://i.imgur.com/2r3Jpzx.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="NSEventos3.uy@SD"><display-name>NS EVENTOS 3</display-name><icon src="https://i.imgur.com/2r3Jpzx.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="NuevoSigloTV.uy@SD"><display-name>NUEVO SIGLO TV</display-name><icon src="https://i.imgur.com/Iq14xnx.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="PARAMOUNT NETWORK"><display-name>PARAMOUNT NETWORK</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="PARAMOUNT NETWORK HD"><display-name>PARAMOUNT NETWORK HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="PasionesLatinAmerica.us@SD"><display-name>PASIONES</display-name><icon src="https://i.imgur.com/VGnbWjO.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="PENTHOUSE"><display-name>PENTHOUSE</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="PlayboyTVLatinAmerica.us@SD"><display-name>PLAYBOY</display-name><icon src="https://i.imgur.com/B3DMUM9.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="QUIERO"><display-name>QUIERO</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="RAI"><display-name>RAI</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="REDE RECORD"><display-name>REDE RECORD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="REDE TV"><display-name>REDE TV</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="Canal10.uy@SD"><display-name>SAETA</display-name><icon src="https://i.imgur.com/LowlfG2.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="Sextreme.br@SD"><display-name>SEXTREME</display-name><icon src="https://i.imgur.com/jWsW2Rd.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="SONY"><display-name>SONY</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="SONY HD"><display-name>SONY HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="SONY MOVIES HD"><display-name>SONY MOVIES HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="SPACE"><display-name>SPACE</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="SPACE HD"><display-name>SPACE HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="SPORTV"><display-name>SPORTV</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="STAR CHANNEL"><display-name>STAR CHANNEL</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="STAR CHANNEL HD"><display-name>STAR CHANNEL HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="STUDIO UNIVERSAL"><display-name>STUDIO UNIVERSAL</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="STUDIO UNIVERSAL HD"><display-name>STUDIO UNIVERSAL HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="SY FY"><display-name>SY FY</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TBS"><display-name>TBS</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TCM"><display-name>TCM</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="Teledoce.uy@SD"><display-name>TELEDOCE</display-name><icon src="https://i.imgur.com/JiA09sa.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TelefeInternacional.ar@SD"><display-name>TELEFE INTER</display-name><icon src="https://i.imgur.com/HNcCX3h.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TELEMUNDO"><display-name>TELEMUNDO</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TELEMUNDO HD"><display-name>TELEMUNDO HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TVCiudad.uy@SD"><display-name>TEVECIUDAD</display-name><icon src="https://i.imgur.com/zoEYZil.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TLC"><display-name>TLC</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TN.ar@SD"><display-name>TN</display-name><icon src="https://i.imgur.com/vFwPhPS.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TNT"><display-name>TNT</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TNT HD"><display-name>TNT HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TNT SERIES"><display-name>TNT SERIES</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TNT SERIES HD"><display-name>TNT SERIES HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="Tooncast.us@SD"><display-name>TOONCAST</display-name><icon src="https://i.imgur.com/3yXRbQy.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="truTVLatinAmerica.us@SD"><display-name>TRU TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/960px-TruTV_2014.svg.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TRU TV HD"><display-name>TRU TV HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TV 5"><display-name>TV 5</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TV GLOBO HD"><display-name>TV GLOBO HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TVE"><display-name>TVE</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TVE HD"><display-name>TVE HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TVChile.cl@SD"><display-name>TVN CHILE</display-name><icon src="https://i.imgur.com/oYFto0V.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TYC SPORTS"><display-name>TYC SPORTS</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="TYC SPORTS HD"><display-name>TYC SPORTS HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="UNIVERSAL CHANNEL"><display-name>UNIVERSAL CHANNEL</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="UNIVERSAL CHANNEL HD"><display-name>UNIVERSAL CHANNEL HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="UNIVERSAL CINEMA HD"><display-name>UNIVERSAL CINEMA HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="UNIVERSAL COMEDY HD"><display-name>UNIVERSAL COMEDY HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="UNIVERSAL CRIME HD"><display-name>UNIVERSAL CRIME HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="UNIVERSAL PREMIERE HD"><display-name>UNIVERSAL PREMIERE HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="UNIVERSAL REALITY HD"><display-name>UNIVERSAL REALITY HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="Venus.ar@SD"><display-name>VENUS</display-name><icon src="https://i.imgur.com/4LFXPMk.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="VTV.uy@SD"><display-name>VTV</display-name><icon src="https://i.imgur.com/SiImXjJ.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="VTVPlus.uy@SD"><display-name>VTV PLUS</display-name><icon src="https://i.imgur.com/HndFaFP.png"/><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="WARNER"><display-name>WARNER</display-name><url>https://nuevosiglo.com.uy</url></channel>
-<channel id="WARNER HD"><display-name>WARNER HD</display-name><url>https://nuevosiglo.com.uy</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="Canal26.ar@SD">
+    <display-name>26 TV HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="A3CINE">
+    <display-name>A3CINE</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="A24.ar@SD">
+    <display-name>A24</display-name>
+    <icon src="https://i.ibb.co/TxJWSBds/A24-2025-svg.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="A&amp;E MUNDO">
+    <display-name>A&amp;E MUNDO</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="A&amp;E MUNDO HD">
+    <display-name>A&amp;E MUNDO HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ALLEGRO HD">
+    <display-name>ALLEGRO HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="AMC">
+    <display-name>AMC</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="AMC HD">
+    <display-name>AMC HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="AMERICA 2">
+    <display-name>AMERICA 2</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ANIMAL PLANET">
+    <display-name>ANIMAL PLANET</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ANIMAL PLANET HD">
+    <display-name>ANIMAL PLANET HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ANTENA3 HD">
+    <display-name>ANTENA3 HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ATRESERIES">
+    <display-name>ATRESERIES</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="AXN">
+    <display-name>AXN</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="AXN HD">
+    <display-name>AXN HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="BABY TV">
+    <display-name>BABY TV</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="BBCNews.uk@LatinAmerica">
+    <display-name>BBC WORLD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="BloombergTV.us@US">
+    <display-name>BLOOMBERG</display-name>
+    <icon src="https://i.imgur.com/OuogLHx.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="C5N.ar@SD">
+    <display-name>C5N</display-name>
+    <icon src="https://i.imgur.com/5ZNZYjO.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="Canal4.uy@SD">
+    <display-name>CANAL 4 MONTECARLO</display-name>
+    <icon src="https://i.imgur.com/E4gotbu.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="Canal5.uy@SD">
+    <display-name>CANAL 5</display-name>
+    <icon src="https://i.imgur.com/IpYxSr1.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="CANAL 24 HS">
+    <display-name>CANAL 24 HS</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ETBBasque.es@SD">
+    <display-name>CANAL VASCO</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETB_Basque_2022_logo.svg/960px-ETB_Basque_2022_logo.svg.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="CARTOON NETWORK">
+    <display-name>CARTOON NETWORK</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="CARTOON NETWORK HD">
+    <display-name>CARTOON NETWORK HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="CartoonitoLatinAmerica.us@SD">
+    <display-name>CARTOONITO</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/960px-Cartoonito_-_Logo_2021.svg.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="CINECANAL">
+    <display-name>CINECANAL</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="CINECANAL HD">
+    <display-name>CINECANAL HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="CINEMAX">
+    <display-name>CINEMAX</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="CINEMAX HD">
+    <display-name>CINEMAX HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="CiudadMagazine.ar@SD">
+    <display-name>CIUDAD MAGAZINE</display-name>
+    <icon src="https://i.imgur.com/V1xZV72.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="CNNenEspanol.us@SD">
+    <display-name>CNN EN ESPAÑOL</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="CronicaTV.ar@SD">
+    <display-name>CRONICA TV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Cr%C3%B3nica_TV_logotipo_%282008-2015%29.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DEUTSCHE WELLE">
+    <display-name>DEUTSCHE WELLE</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISCOVERY">
+    <display-name>DISCOVERY</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISCOVERY HD">
+    <display-name>DISCOVERY HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISCOVERY HD THEATER">
+    <display-name>DISCOVERY HD THEATER</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISCOVERY ID">
+    <display-name>DISCOVERY ID</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISCOVERY ID HD">
+    <display-name>DISCOVERY ID HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISCOVERY KIDS">
+    <display-name>DISCOVERY KIDS</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISCOVERY KIDS HD">
+    <display-name>DISCOVERY KIDS HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISCOVERY SCIENCE HD">
+    <display-name>DISCOVERY SCIENCE HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISCOVERY TLC HD">
+    <display-name>DISCOVERY TLC HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISCOVERY TURBO HD">
+    <display-name>DISCOVERY TURBO HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISCOVERY WORLD HD">
+    <display-name>DISCOVERY WORLD HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISNEY">
+    <display-name>DISNEY</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISNEY HD">
+    <display-name>DISNEY HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="DISNEY JR">
+    <display-name>DISNEY JR</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="EL GOURMET">
+    <display-name>EL GOURMET</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="EL GOURMET HD">
+    <display-name>EL GOURMET HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ENTERTAINMENT TELEVISION">
+    <display-name>ENTERTAINMENT TELEVISION</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ESPN">
+    <display-name>ESPN</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ESPN 2">
+    <display-name>ESPN 2</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ESPN 2 HD">
+    <display-name>ESPN 2 HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ESPN 3">
+    <display-name>ESPN 3</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ESPN 3 HD">
+    <display-name>ESPN 3 HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ESPN 4">
+    <display-name>ESPN 4</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ESPN 4 HD">
+    <display-name>ESPN 4 HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ESPN EXTRA HD">
+    <display-name>ESPN EXTRA HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="ESPN HD">
+    <display-name>ESPN HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="Eurochannel.uk@SD">
+    <display-name>EUROCHANNEL</display-name>
+    <icon src="https://i.imgur.com/yXAtmI6.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="EuropaEuropa.ar@SD">
+    <display-name>EUROPA EUROPA</display-name>
+    <icon src="https://i.imgur.com/w5SOfyJ.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="EWTN">
+    <display-name>EWTN</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="FILM&amp;ARTS">
+    <display-name>FILM&amp;ARTS</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="FILM&amp;ARTS HD">
+    <display-name>FILM&amp;ARTS HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="FOOD NETWORK">
+    <display-name>FOOD NETWORK</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="FoxNewsChannel.us@SD">
+    <display-name>FOX NEWS</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="FOX SPORTS 2">
+    <display-name>FOX SPORTS 2</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="FOX SPORTS 2 HD">
+    <display-name>FOX SPORTS 2 HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="FOX SPORTS 3">
+    <display-name>FOX SPORTS 3</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="FOX SPORTS 3 HD">
+    <display-name>FOX SPORTS 3 HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="FX">
+    <display-name>FX</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="FX HD">
+    <display-name>FX HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="GaliciaTVAmerica.es@SD">
+    <display-name>GALICIA TV</display-name>
+    <icon src="https://i.imgur.com/s59AaqG.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="GLITZ">
+    <display-name>GLITZ</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="GolTVLatinAmerica.us@SD">
+    <display-name>GOL TV</display-name>
+    <icon src="https://i.imgur.com/pypul3s.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="GoldenPlus.mx@SD">
+    <display-name>GOLDEN PLUS</display-name>
+    <icon src="https://i.imgur.com/OOEkyM2.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="GoldenPremier.mx@SD">
+    <display-name>GOLDEN PREMIER HD</display-name>
+    <icon src="https://i.imgur.com/JMa7jws.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="H2">
+    <display-name>H2</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="H2 HD">
+    <display-name>H2 HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HBOLatinAmerica.us@SD">
+    <display-name>HBO</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HBO 2 HD">
+    <display-name>HBO 2 HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HBOFamilyLatinAmerica.us@SD">
+    <display-name>HBO FAMILY HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/960px-HBO_Family.svg.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HBO HD">
+    <display-name>HBO HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HBOMundiLatinAmerica.us@SD">
+    <display-name>HBO MUNDI HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/960px-HBO_Mundi.svg.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HBO PLUS HD">
+    <display-name>HBO PLUS HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HBO POP HD">
+    <display-name>HBO POP HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HBOSignatureLatinAmerica.us@SD">
+    <display-name>HBO SIGNATURE HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/960px-HBO_Signature.svg.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HBOXtremeLatinAmerica.us@SD">
+    <display-name>HBO XTREME HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/960px-HBO_Xtreme.svg.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HGTV">
+    <display-name>HGTV</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HISTORY">
+    <display-name>HISTORY</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HISTORY HD">
+    <display-name>HISTORY HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HolaTVLatinAmerica.us@SD">
+    <display-name>HOLA TV</display-name>
+    <icon src="https://i.imgur.com/i0Qexxd.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HOME AND HEALTH">
+    <display-name>HOME AND HEALTH</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="HOME AND HEALTH HD">
+    <display-name>HOME AND HEALTH HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="I-SAT">
+    <display-name>I-SAT</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="IVC">
+    <display-name>IVC</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="KanalDDrama.tr@SD">
+    <display-name>KANAL D DRAMA</display-name>
+    <icon src="https://i.imgur.com/WIeZMKT.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="LasEstrellasLatinAmerica.mx@SD">
+    <display-name>LAS ESTRELLAS HD</display-name>
+    <icon src="https://i.imgur.com/g5ShxZ7.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="LIFETIME">
+    <display-name>LIFETIME</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="LaNacionPlus.ar@SD">
+    <display-name>LN+</display-name>
+    <icon src="https://i.imgur.com/Gj1kqH5.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="MAS CHIC">
+    <display-name>MAS CHIC</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="MAS CHIC HD">
+    <display-name>MAS CHIC HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="MTV">
+    <display-name>MTV</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="MTV 80S">
+    <display-name>MTV 80S</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="MTV CLUB">
+    <display-name>MTV CLUB</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="MTV HD">
+    <display-name>MTV HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="MTV HITS">
+    <display-name>MTV HITS</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="NAT GEO HD">
+    <display-name>NAT GEO HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="NATIONAL GEOGRAPHIC">
+    <display-name>NATIONAL GEOGRAPHIC</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="NICK JR">
+    <display-name>NICK JR</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="NICKELODEON">
+    <display-name>NICKELODEON</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="NSEventos1.uy@SD">
+    <display-name>NS EVENTOS 1</display-name>
+    <icon src="https://i.imgur.com/2r3Jpzx.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="NSEventos2.uy@SD">
+    <display-name>NS EVENTOS 2</display-name>
+    <icon src="https://i.imgur.com/2r3Jpzx.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="NSEventos3.uy@SD">
+    <display-name>NS EVENTOS 3</display-name>
+    <icon src="https://i.imgur.com/2r3Jpzx.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="NuevoSigloTV.uy@SD">
+    <display-name>NUEVO SIGLO TV</display-name>
+    <icon src="https://i.imgur.com/Iq14xnx.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="PARAMOUNT NETWORK">
+    <display-name>PARAMOUNT NETWORK</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="PARAMOUNT NETWORK HD">
+    <display-name>PARAMOUNT NETWORK HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="PasionesLatinAmerica.us@SD">
+    <display-name>PASIONES</display-name>
+    <icon src="https://i.imgur.com/VGnbWjO.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="PENTHOUSE">
+    <display-name>PENTHOUSE</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="PlayboyTVLatinAmerica.us@SD">
+    <display-name>PLAYBOY</display-name>
+    <icon src="https://i.imgur.com/B3DMUM9.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="QUIERO">
+    <display-name>QUIERO</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="RAI">
+    <display-name>RAI</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="REDE RECORD">
+    <display-name>REDE RECORD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="REDE TV">
+    <display-name>REDE TV</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="Canal10.uy@SD">
+    <display-name>SAETA</display-name>
+    <icon src="https://i.imgur.com/LowlfG2.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="Sextreme.br@SD">
+    <display-name>SEXTREME</display-name>
+    <icon src="https://i.imgur.com/jWsW2Rd.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="SONY">
+    <display-name>SONY</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="SONY HD">
+    <display-name>SONY HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="SONY MOVIES HD">
+    <display-name>SONY MOVIES HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="SPACE">
+    <display-name>SPACE</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="SPACE HD">
+    <display-name>SPACE HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="SPORTV">
+    <display-name>SPORTV</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="STAR CHANNEL">
+    <display-name>STAR CHANNEL</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="STAR CHANNEL HD">
+    <display-name>STAR CHANNEL HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="STUDIO UNIVERSAL">
+    <display-name>STUDIO UNIVERSAL</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="STUDIO UNIVERSAL HD">
+    <display-name>STUDIO UNIVERSAL HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="SY FY">
+    <display-name>SY FY</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TBS">
+    <display-name>TBS</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TCM">
+    <display-name>TCM</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="Teledoce.uy@SD">
+    <display-name>TELEDOCE</display-name>
+    <icon src="https://i.imgur.com/JiA09sa.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TelefeInternacional.ar@SD">
+    <display-name>TELEFE INTER</display-name>
+    <icon src="https://i.imgur.com/HNcCX3h.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TELEMUNDO">
+    <display-name>TELEMUNDO</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TELEMUNDO HD">
+    <display-name>TELEMUNDO HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TVCiudad.uy@SD">
+    <display-name>TEVECIUDAD</display-name>
+    <icon src="https://i.imgur.com/zoEYZil.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TLC">
+    <display-name>TLC</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TN.ar@SD">
+    <display-name>TN</display-name>
+    <icon src="https://i.imgur.com/vFwPhPS.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TNT">
+    <display-name>TNT</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TNT HD">
+    <display-name>TNT HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TNT SERIES">
+    <display-name>TNT SERIES</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TNT SERIES HD">
+    <display-name>TNT SERIES HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="Tooncast.us@SD">
+    <display-name>TOONCAST</display-name>
+    <icon src="https://i.imgur.com/3yXRbQy.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="truTVLatinAmerica.us@SD">
+    <display-name>TRU TV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/960px-TruTV_2014.svg.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TRU TV HD">
+    <display-name>TRU TV HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TV 5">
+    <display-name>TV 5</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TV GLOBO HD">
+    <display-name>TV GLOBO HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TVE">
+    <display-name>TVE</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TVE HD">
+    <display-name>TVE HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TVChile.cl@SD">
+    <display-name>TVN CHILE</display-name>
+    <icon src="https://i.imgur.com/oYFto0V.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TYC SPORTS">
+    <display-name>TYC SPORTS</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="TYC SPORTS HD">
+    <display-name>TYC SPORTS HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="UNIVERSAL CHANNEL">
+    <display-name>UNIVERSAL CHANNEL</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="UNIVERSAL CHANNEL HD">
+    <display-name>UNIVERSAL CHANNEL HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="UNIVERSAL CINEMA HD">
+    <display-name>UNIVERSAL CINEMA HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="UNIVERSAL COMEDY HD">
+    <display-name>UNIVERSAL COMEDY HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="UNIVERSAL CRIME HD">
+    <display-name>UNIVERSAL CRIME HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="UNIVERSAL PREMIERE HD">
+    <display-name>UNIVERSAL PREMIERE HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="UNIVERSAL REALITY HD">
+    <display-name>UNIVERSAL REALITY HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="Venus.ar@SD">
+    <display-name>VENUS</display-name>
+    <icon src="https://i.imgur.com/4LFXPMk.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="VTV.uy@SD">
+    <display-name>VTV</display-name>
+    <icon src="https://i.imgur.com/SiImXjJ.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="VTVPlus.uy@SD">
+    <display-name>VTV PLUS</display-name>
+    <icon src="https://i.imgur.com/HndFaFP.png"/>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="WARNER">
+    <display-name>WARNER</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
+  <channel id="WARNER HD">
+    <display-name>WARNER HD</display-name>
+    <url>https://nuevosiglo.com.uy</url>
+  </channel>
 </tv>

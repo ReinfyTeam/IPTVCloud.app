@@ -1,107 +1,503 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="AnimalPlanet.uk@SD"><display-name>Animal Planet</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="BBCFour.uk@UK"><display-name>BBC Four</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/960px-BBC_Four_logo_2021.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="BBCOne.uk@NorthernIreland"><display-name>BBC One NI</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="BBCThree.uk@SD"><display-name>BBC Three</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/960px-BBC_Three_2022.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="bbc-two-ni"><display-name>BBC Two NI</display-name><url>https://entertainment.ie</url></channel>
-<channel id="Boomerang.uk@SD"><display-name>Boomerang</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="CartoonNetwork.uk@SD"><display-name>Cartoon Network</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="CBBC.uk@SD"><display-name>CBBC</display-name><icon src="https://i.imgur.com/tk8G4CU.png"/><url>https://entertainment.ie</url></channel>
-<channel id="CBeebies.uk@SD"><display-name>CBeebies</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="CBSReality.uk@SD"><display-name>CBS Reality</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/CBS_Reality.png/960px-CBS_Reality.png"/><url>https://entertainment.ie</url></channel>
-<channel id="Challenge.uk@SD"><display-name>Challenge</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2202.png"/><url>https://entertainment.ie</url></channel>
-<channel id="Channel4.uk@UK"><display-name>Channel 4</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1621.png"/><url>https://entertainment.ie</url></channel>
-<channel id="Channel5.uk@SD"><display-name>Channel 5</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png"/><url>https://entertainment.ie</url></channel>
-<channel id="ComedyCentral.uk@SD"><display-name>Comedy Central</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="ComedyCentralExtra.uk@SD"><display-name>Comedy Central Extra</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1813.png"/><url>https://entertainment.ie</url></channel>
-<channel id="Cula4.ie@SD"><display-name>Cúla4</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Cula4_Purple_2022_%281%29.svg/960px-Cula4_Purple_2022_%281%29.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="DiscoveryChannel.uk@UK"><display-name>Discovery Channel</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2401.png"/><url>https://entertainment.ie</url></channel>
-<channel id="DiscoveryHistory.uk@SD"><display-name>Discovery History</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2407.png"/><url>https://entertainment.ie</url></channel>
-<channel id="DiscoveryScienceEurope.uk@UKHD"><display-name>Discovery Science</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="DiscoveryTurbo.uk@SD"><display-name>Discovery Turbo</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2409.png"/><url>https://entertainment.ie</url></channel>
-<channel id="DMAX.uk@UK"><display-name>DMAX</display-name><icon src="https://i.imgur.com/CDsoyjN.png"/><url>https://entertainment.ie</url></channel>
-<channel id="E4.uk@SD"><display-name>E4</display-name><icon src="https://i.imgur.com/22MfjF4.png"/><url>https://entertainment.ie</url></channel>
-<channel id="E4Extra.uk@SD"><display-name>E4 Extra</display-name><icon src="https://i.imgur.com/vA2j0YP.png"/><url>https://entertainment.ie</url></channel>
-<channel id="eden"><display-name>Eden</display-name><url>https://entertainment.ie</url></channel>
-<channel id="filmfour"><display-name>FilmFour</display-name><url>https://entertainment.ie</url></channel>
-<channel id="GREATaction.uk@SD"><display-name>Great! Action</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3708.png"/><url>https://entertainment.ie</url></channel>
-<channel id="GREATmovies.uk@UK"><display-name>Great! Movies</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3709.png"/><url>https://entertainment.ie</url></channel>
-<channel id="GREATromance.uk@UK"><display-name>Great! Movies Romance</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3643.png"/><url>https://entertainment.ie</url></channel>
-<channel id="GREATtv.uk@SD"><display-name>Great! TV</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4266.png"/><url>https://entertainment.ie</url></channel>
-<channel id="home"><display-name>Home</display-name><url>https://entertainment.ie</url></channel>
-<channel id="InvestigationDiscovery.uk@SD"><display-name>Investigation Discovery</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="itv1"><display-name>ITV1</display-name><url>https://entertainment.ie</url></channel>
-<channel id="ITV2.uk@SD"><display-name>ITV2</display-name><icon src="https://i.imgur.com/2BpUK0W.png"/><url>https://entertainment.ie</url></channel>
-<channel id="ITV3.uk@SD"><display-name>ITV3</display-name><icon src="https://i.imgur.com/JuyM2z5.png"/><url>https://entertainment.ie</url></channel>
-<channel id="ITV4.uk@SD"><display-name>ITV4</display-name><icon src="https://i.imgur.com/DYI4IA2.png"/><url>https://entertainment.ie</url></channel>
-<channel id="Legend.uk@SD"><display-name>Legend</display-name><icon src="https://i.imgur.com/dN2OsIT.png"/><url>https://entertainment.ie</url></channel>
-<channel id="legend-xtra"><display-name>Legend Xtra</display-name><url>https://entertainment.ie</url></channel>
-<channel id="More4.uk@SD"><display-name>More4</display-name><icon src="https://i.imgur.com/cx5YcAU.png"/><url>https://entertainment.ie</url></channel>
-<channel id="MTV.uk@SD"><display-name>MTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="NationalGeographic.uk@SD"><display-name>National Geographic</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="NationalGeographicWild.uk@SD"><display-name>National Geographic Wild</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="Nickelodeon.uk@SD"><display-name>Nickelodeon</display-name><icon src="https://i.imgur.com/E84jnP8.png"/><url>https://entertainment.ie</url></channel>
-<channel id="Nicktoons.uk@SD"><display-name>Nicktoons</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyMix.uk@SD"><display-name>Pick</display-name><icon src="https://i.imgur.com/hHEz5rq.png"/><url>https://entertainment.ie</url></channel>
-<channel id="PremierSports1.ie@SD"><display-name>Premier Sports 1</display-name><icon src="https://i.imgur.com/eOybZMU.png"/><url>https://entertainment.ie</url></channel>
-<channel id="PremierSports2.ie@SD"><display-name>Premier Sports 2</display-name><icon src="https://i.imgur.com/Fx1n84p.png"/><url>https://entertainment.ie</url></channel>
-<channel id="Quest.uk@SD"><display-name>Quest</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png"/><url>https://entertainment.ie</url></channel>
-<channel id="RealityXtra.uk@SD"><display-name>Reality Xtra</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/RealityXtra_logo.svg/960px-RealityXtra_logo.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="Really.uk@SD"><display-name>Really</display-name><icon src="https://i.imgur.com/lY5sFgo.png"/><url>https://entertainment.ie</url></channel>
-<channel id="RTE2.ie@SD"><display-name>RTÉ2</display-name><icon src="https://i.imgur.com/1RV97tP.png"/><url>https://entertainment.ie</url></channel>
-<channel id="RTEjr.ie@SD"><display-name>RTÉ Jr</display-name><icon src="https://i.imgur.com/E3jxqu9.png"/><url>https://entertainment.ie</url></channel>
-<channel id="RTEOne.ie@SD"><display-name>RTÉ One</display-name><icon src="https://i.imgur.com/8uZSZdS.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyArts.uk@SD"><display-name>Sky Arts</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1752.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyAtlantic.uk@SD"><display-name>Sky Atlantic</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1412.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyCinemaAction.uk@SD"><display-name>Sky Cinema Action</display-name><icon src="https://i.imgur.com/2JjZG7g.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyCinemaAnimation.uk@SD"><display-name>Sky Cinema Animation</display-name><icon src="https://i.imgur.com/oWQ5qan.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyCinemaComedy.uk@SD"><display-name>Sky Cinema Comedy</display-name><icon src="https://i.imgur.com/Gd9DuRH.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyCinemaDrama.uk@SD"><display-name>Sky Cinema Drama</display-name><icon src="https://i.imgur.com/bCVpVKE.png"/><url>https://entertainment.ie</url></channel>
-<channel id="sky-cinema-family"><display-name>Sky Cinema Family</display-name><url>https://entertainment.ie</url></channel>
-<channel id="sky-cinema-favourites"><display-name>Sky Cinema Favourites</display-name><url>https://entertainment.ie</url></channel>
-<channel id="SkyCinemaGreats.uk@SD"><display-name>Sky Cinema Greats</display-name><icon src="https://i.imgur.com/ssalgh1.png"/><url>https://entertainment.ie</url></channel>
-<channel id="sky-cinema-hits"><display-name>Sky Cinema Hits</display-name><url>https://entertainment.ie</url></channel>
-<channel id="SkyCinemaPremiere.uk@SD"><display-name>Sky Cinema Premiere</display-name><icon src="https://i.imgur.com/Di39qLn.png"/><url>https://entertainment.ie</url></channel>
-<channel id="sky-cinema-sci-fi-horror"><display-name>Sky Cinema Sci-Fi - Horror</display-name><url>https://entertainment.ie</url></channel>
-<channel id="SkyCinemaThriller.uk@SD"><display-name>Sky Cinema Thriller</display-name><icon src="https://i.imgur.com/4Z1oKde.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyComedy.uk@SD"><display-name>Sky Comedy</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Sky_Comedy_logo_2020.svg/960px-Sky_Comedy_logo_2020.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyCrime.uk@SD"><display-name>Sky Crime</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2207.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyDocumentaries.uk@SD"><display-name>Sky Documentaries</display-name><icon src="https://i.imgur.com/bCJZZo6.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyHistory.uk@SD"><display-name>Sky History</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyHistory2.uk@SD"><display-name>Sky History 2</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1879.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyMax.uk@SD"><display-name>Sky Max</display-name><icon src="https://i.imgur.com/yGZnTh7.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyNature.uk@SD"><display-name>Sky Nature</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1194.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyReplay.uk@SD"><display-name>Sky Replay</display-name><icon src="https://i.imgur.com/CfiSsmS.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkySciFi.uk@SD"><display-name>Sky Sci-Fi</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/100/40/skychb2505.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkyShowcase.uk@SD"><display-name>Sky Showcase</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1276.png"/><url>https://entertainment.ie</url></channel>
-<channel id="sky-sports-action"><display-name>Sky Sports Action</display-name><url>https://entertainment.ie</url></channel>
-<channel id="sky-sports-arena"><display-name>Sky Sports Arena</display-name><url>https://entertainment.ie</url></channel>
-<channel id="SkySportsCricket.uk@SD"><display-name>Sky Sports Cricket</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1302.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkySportsFootball.uk@SD"><display-name>Sky Sports Football</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3838.png"/><url>https://entertainment.ie</url></channel>
-<channel id="sky-sports-formula-1"><display-name>Sky Sports Formula 1</display-name><url>https://entertainment.ie</url></channel>
-<channel id="SkySportsGolf.uk@SD"><display-name>Sky Sports Golf</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1322.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkySportsMainEvent.uk@SD"><display-name>Sky Sports Main Event</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1301.png"/><url>https://entertainment.ie</url></channel>
-<channel id="SkySportsMix.uk@SD"><display-name>Sky Sports Mix</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4091.png"/><url>https://entertainment.ie</url></channel>
-<channel id="sky-sports-news"><display-name>Sky Sports News</display-name><url>https://entertainment.ie</url></channel>
-<channel id="SkySportsPremierLeague.uk@SD"><display-name>Sky Sports Premier League ROI</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1303.png"/><url>https://entertainment.ie</url></channel>
-<channel id="sky-sports-racing"><display-name>Sky Sports Racing</display-name><url>https://entertainment.ie</url></channel>
-<channel id="SkyWitness.uk@SD"><display-name>Sky Witness</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2201.png"/><url>https://entertainment.ie</url></channel>
-<channel id="TG4.ie@SD"><display-name>TG4</display-name><icon src="https://i.imgur.com/XiAKb4E.png"/><url>https://entertainment.ie</url></channel>
-<channel id="TLC.uk@SD"><display-name>TLC</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/><url>https://entertainment.ie</url></channel>
-<channel id="tnt-sports-1"><display-name>TNT Sports 1</display-name><url>https://entertainment.ie</url></channel>
-<channel id="tnt-sports-2"><display-name>TNT Sports 2</display-name><url>https://entertainment.ie</url></channel>
-<channel id="tnt-sports-3"><display-name>TNT Sports 3</display-name><url>https://entertainment.ie</url></channel>
-<channel id="tnt-sports-4"><display-name>TNT Sports 4</display-name><url>https://entertainment.ie</url></channel>
-<channel id="ualibi"><display-name>U&amp;Alibi</display-name><url>https://entertainment.ie</url></channel>
-<channel id="udave"><display-name>U&amp;Dave</display-name><url>https://entertainment.ie</url></channel>
-<channel id="udrama"><display-name>U&amp;Drama</display-name><url>https://entertainment.ie</url></channel>
-<channel id="ugold"><display-name>U&amp;Gold</display-name><url>https://entertainment.ie</url></channel>
-<channel id="UTV.uk@SD"><display-name>UTV</display-name><icon src="https://i.imgur.com/BpP1qME.png"/><url>https://entertainment.ie</url></channel>
-<channel id="uw"><display-name>U&amp;W</display-name><url>https://entertainment.ie</url></channel>
-<channel id="uyesterday"><display-name>U&amp;Yesterday</display-name><url>https://entertainment.ie</url></channel>
-<channel id="VirginMediaFour.ie@SD"><display-name>Virgin Media Four</display-name><icon src="https://i.imgur.com/x4VsyIm.png"/><url>https://entertainment.ie</url></channel>
-<channel id="VirginMediaMore.ie@SD"><display-name>Virgin Media More</display-name><icon src="https://i.imgur.com/Fj5wxEv.png"/><url>https://entertainment.ie</url></channel>
-<channel id="VirginMediaOne.ie@SD"><display-name>Virgin Media One</display-name><icon src="https://i.imgur.com/QN0SMt4.png"/><url>https://entertainment.ie</url></channel>
-<channel id="VirginMediaThree.ie@SD"><display-name>Virgin Media Three</display-name><icon src="https://i.imgur.com/lWkazAS.png"/><url>https://entertainment.ie</url></channel>
-<channel id="VirginMediaTwo.ie@SD"><display-name>Virgin Media Two</display-name><icon src="https://i.imgur.com/adtqhBy.png"/><url>https://entertainment.ie</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="AnimalPlanet.uk@SD">
+    <display-name>Animal Planet</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="BBCFour.uk@UK">
+    <display-name>BBC Four</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/960px-BBC_Four_logo_2021.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="BBCOne.uk@NorthernIreland">
+    <display-name>BBC One NI</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="BBCThree.uk@SD">
+    <display-name>BBC Three</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/960px-BBC_Three_2022.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="bbc-two-ni">
+    <display-name>BBC Two NI</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="Boomerang.uk@SD">
+    <display-name>Boomerang</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="CartoonNetwork.uk@SD">
+    <display-name>Cartoon Network</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="CBBC.uk@SD">
+    <display-name>CBBC</display-name>
+    <icon src="https://i.imgur.com/tk8G4CU.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="CBeebies.uk@SD">
+    <display-name>CBeebies</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="CBSReality.uk@SD">
+    <display-name>CBS Reality</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/CBS_Reality.png/960px-CBS_Reality.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="Challenge.uk@SD">
+    <display-name>Challenge</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2202.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="Channel4.uk@UK">
+    <display-name>Channel 4</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1621.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="Channel5.uk@SD">
+    <display-name>Channel 5</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="ComedyCentral.uk@SD">
+    <display-name>Comedy Central</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="ComedyCentralExtra.uk@SD">
+    <display-name>Comedy Central Extra</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1813.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="Cula4.ie@SD">
+    <display-name>Cúla4</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Cula4_Purple_2022_%281%29.svg/960px-Cula4_Purple_2022_%281%29.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="DiscoveryChannel.uk@UK">
+    <display-name>Discovery Channel</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2401.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="DiscoveryHistory.uk@SD">
+    <display-name>Discovery History</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2407.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="DiscoveryScienceEurope.uk@UKHD">
+    <display-name>Discovery Science</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="DiscoveryTurbo.uk@SD">
+    <display-name>Discovery Turbo</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2409.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="DMAX.uk@UK">
+    <display-name>DMAX</display-name>
+    <icon src="https://i.imgur.com/CDsoyjN.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="E4.uk@SD">
+    <display-name>E4</display-name>
+    <icon src="https://i.imgur.com/22MfjF4.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="E4Extra.uk@SD">
+    <display-name>E4 Extra</display-name>
+    <icon src="https://i.imgur.com/vA2j0YP.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="eden">
+    <display-name>Eden</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="filmfour">
+    <display-name>FilmFour</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="GREATaction.uk@SD">
+    <display-name>Great! Action</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3708.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="GREATmovies.uk@UK">
+    <display-name>Great! Movies</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3709.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="GREATromance.uk@UK">
+    <display-name>Great! Movies Romance</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3643.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="GREATtv.uk@SD">
+    <display-name>Great! TV</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4266.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="home">
+    <display-name>Home</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="InvestigationDiscovery.uk@SD">
+    <display-name>Investigation Discovery</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="itv1">
+    <display-name>ITV1</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="ITV2.uk@SD">
+    <display-name>ITV2</display-name>
+    <icon src="https://i.imgur.com/2BpUK0W.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="ITV3.uk@SD">
+    <display-name>ITV3</display-name>
+    <icon src="https://i.imgur.com/JuyM2z5.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="ITV4.uk@SD">
+    <display-name>ITV4</display-name>
+    <icon src="https://i.imgur.com/DYI4IA2.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="Legend.uk@SD">
+    <display-name>Legend</display-name>
+    <icon src="https://i.imgur.com/dN2OsIT.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="legend-xtra">
+    <display-name>Legend Xtra</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="More4.uk@SD">
+    <display-name>More4</display-name>
+    <icon src="https://i.imgur.com/cx5YcAU.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="MTV.uk@SD">
+    <display-name>MTV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="NationalGeographic.uk@SD">
+    <display-name>National Geographic</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="NationalGeographicWild.uk@SD">
+    <display-name>National Geographic Wild</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="Nickelodeon.uk@SD">
+    <display-name>Nickelodeon</display-name>
+    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="Nicktoons.uk@SD">
+    <display-name>Nicktoons</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyMix.uk@SD">
+    <display-name>Pick</display-name>
+    <icon src="https://i.imgur.com/hHEz5rq.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="PremierSports1.ie@SD">
+    <display-name>Premier Sports 1</display-name>
+    <icon src="https://i.imgur.com/eOybZMU.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="PremierSports2.ie@SD">
+    <display-name>Premier Sports 2</display-name>
+    <icon src="https://i.imgur.com/Fx1n84p.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="Quest.uk@SD">
+    <display-name>Quest</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="RealityXtra.uk@SD">
+    <display-name>Reality Xtra</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/RealityXtra_logo.svg/960px-RealityXtra_logo.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="Really.uk@SD">
+    <display-name>Really</display-name>
+    <icon src="https://i.imgur.com/lY5sFgo.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="RTE2.ie@SD">
+    <display-name>RTÉ2</display-name>
+    <icon src="https://i.imgur.com/1RV97tP.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="RTEjr.ie@SD">
+    <display-name>RTÉ Jr</display-name>
+    <icon src="https://i.imgur.com/E3jxqu9.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="RTEOne.ie@SD">
+    <display-name>RTÉ One</display-name>
+    <icon src="https://i.imgur.com/8uZSZdS.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyArts.uk@SD">
+    <display-name>Sky Arts</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1752.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyAtlantic.uk@SD">
+    <display-name>Sky Atlantic</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1412.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyCinemaAction.uk@SD">
+    <display-name>Sky Cinema Action</display-name>
+    <icon src="https://i.imgur.com/2JjZG7g.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyCinemaAnimation.uk@SD">
+    <display-name>Sky Cinema Animation</display-name>
+    <icon src="https://i.imgur.com/oWQ5qan.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyCinemaComedy.uk@SD">
+    <display-name>Sky Cinema Comedy</display-name>
+    <icon src="https://i.imgur.com/Gd9DuRH.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyCinemaDrama.uk@SD">
+    <display-name>Sky Cinema Drama</display-name>
+    <icon src="https://i.imgur.com/bCVpVKE.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="sky-cinema-family">
+    <display-name>Sky Cinema Family</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="sky-cinema-favourites">
+    <display-name>Sky Cinema Favourites</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyCinemaGreats.uk@SD">
+    <display-name>Sky Cinema Greats</display-name>
+    <icon src="https://i.imgur.com/ssalgh1.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="sky-cinema-hits">
+    <display-name>Sky Cinema Hits</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyCinemaPremiere.uk@SD">
+    <display-name>Sky Cinema Premiere</display-name>
+    <icon src="https://i.imgur.com/Di39qLn.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="sky-cinema-sci-fi-horror">
+    <display-name>Sky Cinema Sci-Fi - Horror</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyCinemaThriller.uk@SD">
+    <display-name>Sky Cinema Thriller</display-name>
+    <icon src="https://i.imgur.com/4Z1oKde.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyComedy.uk@SD">
+    <display-name>Sky Comedy</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Sky_Comedy_logo_2020.svg/960px-Sky_Comedy_logo_2020.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyCrime.uk@SD">
+    <display-name>Sky Crime</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2207.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyDocumentaries.uk@SD">
+    <display-name>Sky Documentaries</display-name>
+    <icon src="https://i.imgur.com/bCJZZo6.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyHistory.uk@SD">
+    <display-name>Sky History</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyHistory2.uk@SD">
+    <display-name>Sky History 2</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1879.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyMax.uk@SD">
+    <display-name>Sky Max</display-name>
+    <icon src="https://i.imgur.com/yGZnTh7.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyNature.uk@SD">
+    <display-name>Sky Nature</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1194.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyReplay.uk@SD">
+    <display-name>Sky Replay</display-name>
+    <icon src="https://i.imgur.com/CfiSsmS.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkySciFi.uk@SD">
+    <display-name>Sky Sci-Fi</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/100/40/skychb2505.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyShowcase.uk@SD">
+    <display-name>Sky Showcase</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1276.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="sky-sports-action">
+    <display-name>Sky Sports Action</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="sky-sports-arena">
+    <display-name>Sky Sports Arena</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkySportsCricket.uk@SD">
+    <display-name>Sky Sports Cricket</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1302.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkySportsFootball.uk@SD">
+    <display-name>Sky Sports Football</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3838.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="sky-sports-formula-1">
+    <display-name>Sky Sports Formula 1</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkySportsGolf.uk@SD">
+    <display-name>Sky Sports Golf</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1322.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkySportsMainEvent.uk@SD">
+    <display-name>Sky Sports Main Event</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1301.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkySportsMix.uk@SD">
+    <display-name>Sky Sports Mix</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4091.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="sky-sports-news">
+    <display-name>Sky Sports News</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkySportsPremierLeague.uk@SD">
+    <display-name>Sky Sports Premier League ROI</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1303.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="sky-sports-racing">
+    <display-name>Sky Sports Racing</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="SkyWitness.uk@SD">
+    <display-name>Sky Witness</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2201.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="TG4.ie@SD">
+    <display-name>TG4</display-name>
+    <icon src="https://i.imgur.com/XiAKb4E.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="TLC.uk@SD">
+    <display-name>TLC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="tnt-sports-1">
+    <display-name>TNT Sports 1</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="tnt-sports-2">
+    <display-name>TNT Sports 2</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="tnt-sports-3">
+    <display-name>TNT Sports 3</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="tnt-sports-4">
+    <display-name>TNT Sports 4</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="ualibi">
+    <display-name>U&amp;Alibi</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="udave">
+    <display-name>U&amp;Dave</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="udrama">
+    <display-name>U&amp;Drama</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="ugold">
+    <display-name>U&amp;Gold</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="UTV.uk@SD">
+    <display-name>UTV</display-name>
+    <icon src="https://i.imgur.com/BpP1qME.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="uw">
+    <display-name>U&amp;W</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="uyesterday">
+    <display-name>U&amp;Yesterday</display-name>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="VirginMediaFour.ie@SD">
+    <display-name>Virgin Media Four</display-name>
+    <icon src="https://i.imgur.com/x4VsyIm.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="VirginMediaMore.ie@SD">
+    <display-name>Virgin Media More</display-name>
+    <icon src="https://i.imgur.com/Fj5wxEv.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="VirginMediaOne.ie@SD">
+    <display-name>Virgin Media One</display-name>
+    <icon src="https://i.imgur.com/QN0SMt4.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="VirginMediaThree.ie@SD">
+    <display-name>Virgin Media Three</display-name>
+    <icon src="https://i.imgur.com/lWkazAS.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
+  <channel id="VirginMediaTwo.ie@SD">
+    <display-name>Virgin Media Two</display-name>
+    <icon src="https://i.imgur.com/adtqhBy.png"/>
+    <url>https://entertainment.ie</url>
+  </channel>
 </tv>

@@ -1,71 +1,346 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="6ter.fr@SD"><display-name>6ter</display-name><icon src="https://i.imgur.com/2nd5Cox.png"/><url>https://guidetnt.com</url></channel>
-<channel id="13emeRue.fr@SD"><display-name>13ème RUE</display-name><icon src="https://i.imgur.com/k0DCMTL.png"/><url>https://guidetnt.com</url></channel>
-<channel id="AB1.fr@SD"><display-name>AB1</display-name><icon src="https://i.imgur.com/9C7UsOe.png"/><url>https://guidetnt.com</url></channel>
-<channel id="Action.fr@SD"><display-name>Action</display-name><icon src="https://i.imgur.com/Zv9VsVq.png"/><url>https://guidetnt.com</url></channel>
-<channel id="Animaux.fr@SD"><display-name>Animaux</display-name><icon src="https://i.imgur.com/FM9FVAG.png"/><url>https://guidetnt.com</url></channel>
-<channel id="arte.fr@SD"><display-name>Arte</display-name><icon src="https://i.imgur.com/ecXMjNl.png"/><url>https://guidetnt.com</url></channel>
-<channel id="Automotolachaine.fr@SD"><display-name>Automoto</display-name><icon src="https://i.imgur.com/ebf2uc7.png"/><url>https://guidetnt.com</url></channel>
-<channel id="BET.fr@SD"><display-name>BET</display-name><icon src="https://i.imgur.com/HOtpa6H.png"/><url>https://guidetnt.com</url></channel>
-<channel id="CanalPlus.fr@SD"><display-name>Canal+</display-name><icon src="https://i.imgur.com/5HcyMnW.png"/><url>https://guidetnt.com</url></channel>
-<channel id="CanalPlusBoxOffice.fr@French"><display-name>Canal+ Box office</display-name><icon src="https://i.imgur.com/RPZFpcH.png"/><url>https://guidetnt.com</url></channel>
-<channel id="CanalPlusCinemas.fr@SD"><display-name>Canal+ Cinéma(s)</display-name><icon src="https://i.imgur.com/fvPoNEa.jpeg"/><url>https://guidetnt.com</url></channel>
-<channel id="CanalPlusDocs.fr@SD"><display-name>Canal+ Docs</display-name><icon src="https://i.imgur.com/WFXhE8f.png"/><url>https://guidetnt.com</url></channel>
-<channel id="CanalPlusFoot.fr@SD"><display-name>Canal+ Foot</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Canal%2BFoot.png"/><url>https://guidetnt.com</url></channel>
-<channel id="CanalPlusGrandEcran.fr@SD"><display-name>Canal+ Grand écran</display-name><icon src="https://i0.wp.com/www.planetecsat.com/wp-content/uploads/2022/01/CANALP_GRAND_ECRAN_1lignes_RVB_2021_06_07-07-01-22.png?w=509&amp;ssl=1"/><url>https://guidetnt.com</url></channel>
-<channel id="CanalPlusKids.fr@SD"><display-name>Canal+ Kids</display-name><icon src="https://i.imgur.com/xknv5py.png"/><url>https://guidetnt.com</url></channel>
-<channel id="CanalPlusSeries.fr@SD"><display-name>Canal+ Séries</display-name><icon src="https://i.imgur.com/JxXXTGk.png"/><url>https://guidetnt.com</url></channel>
-<channel id="CanalPlusSport.fr@SD"><display-name>Canal+ Sport</display-name><icon src="https://i.imgur.com/EOXnU15.png"/><url>https://guidetnt.com</url></channel>
-<channel id="CanalPlusSport360.fr@SD"><display-name>Canal+ Sport 360</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/6/64/Canal%2BSport_360.png"/><url>https://guidetnt.com</url></channel>
-<channel id="cherie-25"><display-name>Chérie 25</display-name><url>https://guidetnt.com</url></channel>
-<channel id="CinePlusClassic.fr@SD"><display-name>Cine+ Classic</display-name><icon src="https://i.imgur.com/y2zeLS3.jpeg"/><url>https://guidetnt.com</url></channel>
-<channel id="CinePlusEmotion.fr@SD"><display-name>Cine+ Emotion</display-name><icon src="https://i.imgur.com/upYjPvc.jpeg"/><url>https://guidetnt.com</url></channel>
-<channel id="CinePlusFamily.fr@SD"><display-name>Cine+ Family</display-name><icon src="https://i.imgur.com/BR6m2yX.jpeg"/><url>https://guidetnt.com</url></channel>
-<channel id="CinePlusFestival.fr@SD"><display-name>Cine+ Festival</display-name><icon src="https://i.imgur.com/ROvEXf9.jpeg"/><url>https://guidetnt.com</url></channel>
-<channel id="CinePlusFrisson.fr@SD"><display-name>Cine+ Frisson</display-name><icon src="https://i.imgur.com/MwFtbnR.jpeg"/><url>https://guidetnt.com</url></channel>
-<channel id="ComediePlus.fr@SD"><display-name>Comedie+</display-name><icon src="https://i.imgur.com/ArgX0Af.png"/><url>https://guidetnt.com</url></channel>
-<channel id="ComedyCentral.fr@SD"><display-name>Comedy Central</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/><url>https://guidetnt.com</url></channel>
-<channel id="CrimeDistrict.fr@SD"><display-name>Crime District</display-name><icon src="https://i.imgur.com/WQJ6Lbk.png"/><url>https://guidetnt.com</url></channel>
-<channel id="CStar.fr@SD"><display-name>CSTAR</display-name><icon src="https://i.imgur.com/w4kAX1V.png"/><url>https://guidetnt.com</url></channel>
-<channel id="DiscoveryChannel.fr@SD"><display-name>Discovery Channel</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/><url>https://guidetnt.com</url></channel>
-<channel id="DisneyChannel.fr@SD"><display-name>Disney Channel</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"/><url>https://guidetnt.com</url></channel>
-<channel id="E.fr@SD"><display-name>E! Entertainment</display-name><icon src="https://i.imgur.com/TWFDkap.png"/><url>https://guidetnt.com</url></channel>
-<channel id="Eurosport1.fr@France"><display-name>Eurosport 1</display-name><icon src="https://i.imgur.com/olQJgm7.png"/><url>https://guidetnt.com</url></channel>
-<channel id="Eurosport2.fr@France"><display-name>Eurosport 2</display-name><icon src="https://i.imgur.com/f56dHgR.png"/><url>https://guidetnt.com</url></channel>
-<channel id="France2.fr@SD"><display-name>France 2</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png"/><url>https://guidetnt.com</url></channel>
-<channel id="France3.fr@SD"><display-name>France 3</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg"/><url>https://guidetnt.com</url></channel>
-<channel id="France4.fr@SD"><display-name>France 4</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png"/><url>https://guidetnt.com</url></channel>
-<channel id="France5.fr@SD"><display-name>France 5</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png"/><url>https://guidetnt.com</url></channel>
-<channel id="Gulli.fr@SD"><display-name>Gulli</display-name><icon src="https://i.imgur.com/kqYssbW.png"/><url>https://guidetnt.com</url></channel>
-<channel id="HistoireTV.fr@SD"><display-name>Histoire</display-name><icon src="https://i.imgur.com/hxuJXll.png"/><url>https://guidetnt.com</url></channel>
-<channel id="LCP.fr@SD"><display-name>LCP / Public Senat</display-name><icon src="https://i.imgur.com/k7UImOJ.png"/><url>https://guidetnt.com</url></channel>
-<channel id="LEquipe.fr@SD"><display-name>L&apos;Equipe</display-name><icon src="https://i.imgur.com/t35zhM9.png"/><url>https://guidetnt.com</url></channel>
-<channel id="M6.fr@HD"><display-name>M6</display-name><icon src="https://i.imgur.com/7GVp3fW.png"/><url>https://guidetnt.com</url></channel>
-<channel id="MCM.fr@SD"><display-name>MCM</display-name><icon src="https://i.imgur.com/F5WNCp0.png"/><url>https://guidetnt.com</url></channel>
-<channel id="MTV.fr@SD"><display-name>MTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/><url>https://guidetnt.com</url></channel>
-<channel id="NationalGeographicWild.fr@SD"><display-name>Nat Geo Wild</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/><url>https://guidetnt.com</url></channel>
-<channel id="NationalGeographic.fr@SD"><display-name>National Geographic</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/><url>https://guidetnt.com</url></channel>
-<channel id="CinePlusOCS.fr@SD"><display-name>OCS</display-name><icon src="https://i.imgur.com/ujin9Uf.png"/><url>https://guidetnt.com</url></channel>
-<channel id="ParamountChannel.fr@SD"><display-name>Paramount Channel</display-name><url>https://guidetnt.com</url></channel>
-<channel id="PlanetePlus.fr@SD"><display-name>Planète+</display-name><icon src="https://i.imgur.com/RMbMGMg.png"/><url>https://guidetnt.com</url></channel>
-<channel id="PlanetePlusAventure.fr@SD"><display-name>Planète+ Aventure</display-name><icon src="https://i.imgur.com/h09sbN0.png"/><url>https://guidetnt.com</url></channel>
-<channel id="PlanetePlusCrime.fr@SD"><display-name>Planète+ Crime</display-name><icon src="https://i.imgur.com/xGGBbun.png"/><url>https://guidetnt.com</url></channel>
-<channel id="PolarPlus.fr@SD"><display-name>Polar+</display-name><icon src="https://i.imgur.com/RjnuWFU.png"/><url>https://guidetnt.com</url></channel>
-<channel id="RMCDecouverte.fr@SD"><display-name>RMC Découverte</display-name><icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/960px-RMC_D%C3%A9couverte_logo_2017.svg.png"/><url>https://guidetnt.com</url></channel>
-<channel id="RMCStory.fr@SD"><display-name>RMC STORY</display-name><icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_RMC_Story_2025.png/960px-Logo_RMC_Story_2025.png"/><url>https://guidetnt.com</url></channel>
-<channel id="RTL9.lu@SD"><display-name>RTL9</display-name><icon src="https://i.imgur.com/nFqjVNW.png"/><url>https://guidetnt.com</url></channel>
-<channel id="ScienceVieTV.fr@SD"><display-name>Science&amp;Vie TV</display-name><icon src="https://i.imgur.com/9ELsSMI.png"/><url>https://guidetnt.com</url></channel>
-<channel id="Syfy.fr@SD"><display-name>Syfy</display-name><icon src="https://i.imgur.com/gUOXdjv.png"/><url>https://guidetnt.com</url></channel>
-<channel id="T18.fr@HD"><display-name>T18</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/500px-Logo_de_la_chaine_T18.svg.png"/><url>https://guidetnt.com</url></channel>
-<channel id="TCMCinema.fr@SD"><display-name>TCM</display-name><icon src="https://i.imgur.com/fT4XxM6.png"/><url>https://guidetnt.com</url></channel>
-<channel id="TF1.fr@SD"><display-name>TF1</display-name><icon src="https://i.imgur.com/QxHt9NC.png"/><url>https://guidetnt.com</url></channel>
-<channel id="TF1SeriesFilms.fr@SD"><display-name>TF1 Séries Films</display-name><icon src="https://i.imgur.com/4CJIDKQ.png"/><url>https://guidetnt.com</url></channel>
-<channel id="TFX.fr@SD"><display-name>TFX</display-name><icon src="https://i.imgur.com/d91GcVf.png"/><url>https://guidetnt.com</url></channel>
-<channel id="TMC.fr@SD"><display-name>TMC</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png"/><url>https://guidetnt.com</url></channel>
-<channel id="ToutelHistoire.fr@SD"><display-name>Toute l&apos;histoire</display-name><icon src="https://i.imgur.com/xRfyQYn.png"/><url>https://guidetnt.com</url></channel>
-<channel id="Trek.fr@SD"><display-name>Trek</display-name><icon src="https://i.imgur.com/TcF53W4.png"/><url>https://guidetnt.com</url></channel>
-<channel id="TV5MondeFranceBelgiumSwitzerlandMonaco.fr@SD"><display-name>TV5MONDE</display-name><icon src="https://i.imgur.com/WmRbudc.png"/><url>https://guidetnt.com</url></channel>
-<channel id="UshuaiaTV.fr@SD"><display-name>Ushuaia TV</display-name><icon src="https://i.imgur.com/WjjlqbP.png"/><url>https://guidetnt.com</url></channel>
-<channel id="W9.fr@SD"><display-name>W9</display-name><icon src="https://i.imgur.com/reYeMuE.png"/><url>https://guidetnt.com</url></channel>
-<channel id="WarnerTV.fr@SD"><display-name>Warner TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/960px-Warner2018LA.png"/><url>https://guidetnt.com</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="6ter.fr@SD">
+    <display-name>6ter</display-name>
+    <icon src="https://i.imgur.com/2nd5Cox.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="13emeRue.fr@SD">
+    <display-name>13ème RUE</display-name>
+    <icon src="https://i.imgur.com/k0DCMTL.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="AB1.fr@SD">
+    <display-name>AB1</display-name>
+    <icon src="https://i.imgur.com/9C7UsOe.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="Action.fr@SD">
+    <display-name>Action</display-name>
+    <icon src="https://i.imgur.com/Zv9VsVq.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="Animaux.fr@SD">
+    <display-name>Animaux</display-name>
+    <icon src="https://i.imgur.com/FM9FVAG.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="arte.fr@SD">
+    <display-name>Arte</display-name>
+    <icon src="https://i.imgur.com/ecXMjNl.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="Automotolachaine.fr@SD">
+    <display-name>Automoto</display-name>
+    <icon src="https://i.imgur.com/ebf2uc7.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="BET.fr@SD">
+    <display-name>BET</display-name>
+    <icon src="https://i.imgur.com/HOtpa6H.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CanalPlus.fr@SD">
+    <display-name>Canal+</display-name>
+    <icon src="https://i.imgur.com/5HcyMnW.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CanalPlusBoxOffice.fr@French">
+    <display-name>Canal+ Box office</display-name>
+    <icon src="https://i.imgur.com/RPZFpcH.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CanalPlusCinemas.fr@SD">
+    <display-name>Canal+ Cinéma(s)</display-name>
+    <icon src="https://i.imgur.com/fvPoNEa.jpeg"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CanalPlusDocs.fr@SD">
+    <display-name>Canal+ Docs</display-name>
+    <icon src="https://i.imgur.com/WFXhE8f.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CanalPlusFoot.fr@SD">
+    <display-name>Canal+ Foot</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Canal%2BFoot.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CanalPlusGrandEcran.fr@SD">
+    <display-name>Canal+ Grand écran</display-name>
+    <icon src="https://i0.wp.com/www.planetecsat.com/wp-content/uploads/2022/01/CANALP_GRAND_ECRAN_1lignes_RVB_2021_06_07-07-01-22.png?w=509&amp;ssl=1"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CanalPlusKids.fr@SD">
+    <display-name>Canal+ Kids</display-name>
+    <icon src="https://i.imgur.com/xknv5py.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CanalPlusSeries.fr@SD">
+    <display-name>Canal+ Séries</display-name>
+    <icon src="https://i.imgur.com/JxXXTGk.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CanalPlusSport.fr@SD">
+    <display-name>Canal+ Sport</display-name>
+    <icon src="https://i.imgur.com/EOXnU15.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CanalPlusSport360.fr@SD">
+    <display-name>Canal+ Sport 360</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/6/64/Canal%2BSport_360.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="cherie-25">
+    <display-name>Chérie 25</display-name>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CinePlusClassic.fr@SD">
+    <display-name>Cine+ Classic</display-name>
+    <icon src="https://i.imgur.com/y2zeLS3.jpeg"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CinePlusEmotion.fr@SD">
+    <display-name>Cine+ Emotion</display-name>
+    <icon src="https://i.imgur.com/upYjPvc.jpeg"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CinePlusFamily.fr@SD">
+    <display-name>Cine+ Family</display-name>
+    <icon src="https://i.imgur.com/BR6m2yX.jpeg"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CinePlusFestival.fr@SD">
+    <display-name>Cine+ Festival</display-name>
+    <icon src="https://i.imgur.com/ROvEXf9.jpeg"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CinePlusFrisson.fr@SD">
+    <display-name>Cine+ Frisson</display-name>
+    <icon src="https://i.imgur.com/MwFtbnR.jpeg"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="ComediePlus.fr@SD">
+    <display-name>Comedie+</display-name>
+    <icon src="https://i.imgur.com/ArgX0Af.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="ComedyCentral.fr@SD">
+    <display-name>Comedy Central</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CrimeDistrict.fr@SD">
+    <display-name>Crime District</display-name>
+    <icon src="https://i.imgur.com/WQJ6Lbk.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CStar.fr@SD">
+    <display-name>CSTAR</display-name>
+    <icon src="https://i.imgur.com/w4kAX1V.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="DiscoveryChannel.fr@SD">
+    <display-name>Discovery Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="DisneyChannel.fr@SD">
+    <display-name>Disney Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="E.fr@SD">
+    <display-name>E! Entertainment</display-name>
+    <icon src="https://i.imgur.com/TWFDkap.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="Eurosport1.fr@France">
+    <display-name>Eurosport 1</display-name>
+    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="Eurosport2.fr@France">
+    <display-name>Eurosport 2</display-name>
+    <icon src="https://i.imgur.com/f56dHgR.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="France2.fr@SD">
+    <display-name>France 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="France3.fr@SD">
+    <display-name>France 3</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="France4.fr@SD">
+    <display-name>France 4</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="France5.fr@SD">
+    <display-name>France 5</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="Gulli.fr@SD">
+    <display-name>Gulli</display-name>
+    <icon src="https://i.imgur.com/kqYssbW.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="HistoireTV.fr@SD">
+    <display-name>Histoire</display-name>
+    <icon src="https://i.imgur.com/hxuJXll.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="LCP.fr@SD">
+    <display-name>LCP / Public Senat</display-name>
+    <icon src="https://i.imgur.com/k7UImOJ.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="LEquipe.fr@SD">
+    <display-name>L'Equipe</display-name>
+    <icon src="https://i.imgur.com/t35zhM9.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="M6.fr@HD">
+    <display-name>M6</display-name>
+    <icon src="https://i.imgur.com/7GVp3fW.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="MCM.fr@SD">
+    <display-name>MCM</display-name>
+    <icon src="https://i.imgur.com/F5WNCp0.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="MTV.fr@SD">
+    <display-name>MTV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="NationalGeographicWild.fr@SD">
+    <display-name>Nat Geo Wild</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="NationalGeographic.fr@SD">
+    <display-name>National Geographic</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="CinePlusOCS.fr@SD">
+    <display-name>OCS</display-name>
+    <icon src="https://i.imgur.com/ujin9Uf.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="ParamountChannel.fr@SD">
+    <display-name>Paramount Channel</display-name>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="PlanetePlus.fr@SD">
+    <display-name>Planète+</display-name>
+    <icon src="https://i.imgur.com/RMbMGMg.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="PlanetePlusAventure.fr@SD">
+    <display-name>Planète+ Aventure</display-name>
+    <icon src="https://i.imgur.com/h09sbN0.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="PlanetePlusCrime.fr@SD">
+    <display-name>Planète+ Crime</display-name>
+    <icon src="https://i.imgur.com/xGGBbun.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="PolarPlus.fr@SD">
+    <display-name>Polar+</display-name>
+    <icon src="https://i.imgur.com/RjnuWFU.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="RMCDecouverte.fr@SD">
+    <display-name>RMC Découverte</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/960px-RMC_D%C3%A9couverte_logo_2017.svg.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="RMCStory.fr@SD">
+    <display-name>RMC STORY</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_RMC_Story_2025.png/960px-Logo_RMC_Story_2025.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="RTL9.lu@SD">
+    <display-name>RTL9</display-name>
+    <icon src="https://i.imgur.com/nFqjVNW.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="ScienceVieTV.fr@SD">
+    <display-name>Science&amp;Vie TV</display-name>
+    <icon src="https://i.imgur.com/9ELsSMI.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="Syfy.fr@SD">
+    <display-name>Syfy</display-name>
+    <icon src="https://i.imgur.com/gUOXdjv.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="T18.fr@HD">
+    <display-name>T18</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Logo_de_la_chaine_T18.svg/500px-Logo_de_la_chaine_T18.svg.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="TCMCinema.fr@SD">
+    <display-name>TCM</display-name>
+    <icon src="https://i.imgur.com/fT4XxM6.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="TF1.fr@SD">
+    <display-name>TF1</display-name>
+    <icon src="https://i.imgur.com/QxHt9NC.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="TF1SeriesFilms.fr@SD">
+    <display-name>TF1 Séries Films</display-name>
+    <icon src="https://i.imgur.com/4CJIDKQ.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="TFX.fr@SD">
+    <display-name>TFX</display-name>
+    <icon src="https://i.imgur.com/d91GcVf.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="TMC.fr@SD">
+    <display-name>TMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="ToutelHistoire.fr@SD">
+    <display-name>Toute l'histoire</display-name>
+    <icon src="https://i.imgur.com/xRfyQYn.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="Trek.fr@SD">
+    <display-name>Trek</display-name>
+    <icon src="https://i.imgur.com/TcF53W4.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="TV5MondeFranceBelgiumSwitzerlandMonaco.fr@SD">
+    <display-name>TV5MONDE</display-name>
+    <icon src="https://i.imgur.com/WmRbudc.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="UshuaiaTV.fr@SD">
+    <display-name>Ushuaia TV</display-name>
+    <icon src="https://i.imgur.com/WjjlqbP.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="W9.fr@SD">
+    <display-name>W9</display-name>
+    <icon src="https://i.imgur.com/reYeMuE.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
+  <channel id="WarnerTV.fr@SD">
+    <display-name>Warner TV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/960px-Warner2018LA.png"/>
+    <url>https://guidetnt.com</url>
+  </channel>
 </tv>

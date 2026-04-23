@@ -1,60 +1,237 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="6ter"><display-name>6ter</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="arte"><display-name>arte</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="bein-sports-1"><display-name>bein sports 1</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="bein-sports-2"><display-name>bein sports 2</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="bein-sports-3"><display-name>bein sports 3</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="bfm-business"><display-name>bfm business</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="bfm-tv"><display-name>bfm tv</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="c8"><display-name>c8</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="canal-cinema"><display-name>canal cinema</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="canal-foot"><display-name>canal foot</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="canal-j"><display-name>canal j</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="canal-plus"><display-name>canal plus</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="canal-series"><display-name>canal series</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="canal-sport"><display-name>canal sport</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="canal-sport-360"><display-name>canal sport 360</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="cartoon-network"><display-name>cartoon network</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="cgtn-francais"><display-name>cgtn francais</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="cine-premier"><display-name>cine premier</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="cnn"><display-name>cnn</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="comedie"><display-name>comedie</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="cstar"><display-name>cstar</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="discovery-channel"><display-name>discovery channel</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="discovery-investigation"><display-name>discovery investigation</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="discovery-science"><display-name>discovery science</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="disney-channel"><display-name>disney channel</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="eurosport-1"><display-name>eurosport 1</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="eurosport-2"><display-name>eurosport 2</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="france-2"><display-name>france 2</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="france-3"><display-name>france 3</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="france-4"><display-name>france 4</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="france-5"><display-name>france 5</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="france-24"><display-name>france 24</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="gulli"><display-name>gulli</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="infosport"><display-name>infosport</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="la-chaine-parlementaire-public-senat"><display-name>la chaine parlementaire public senat</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="lci-la-chaine-info"><display-name>lci la chaine info</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="m6"><display-name>m6</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="m6-music"><display-name>m6 music</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="myzen"><display-name>myzen</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="nat-geo-wild"><display-name>nat geo wild</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="national-geographic-channel-hd"><display-name>national geographic channel hd</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="ocs-geants"><display-name>ocs geants</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="ocs-max"><display-name>ocs max</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="ocs-pulp"><display-name>ocs pulp</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="paris-premiere"><display-name>paris premiere</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="piwi"><display-name>piwi</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="planete"><display-name>planete</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="planete-action-experience"><display-name>planete action experience</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="Polynesie1ere.pf@SD"><display-name>polynesie 1ere</display-name><icon src="https://i.imgur.com/9bKS5Yh.png"/><url>https://programme-tv.vini.pf</url></channel>
-<channel id="rmc-decouverte"><display-name>rmc decouverte</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="rmc-sport-1"><display-name>rmc sport 1</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="rmc-sport-2"><display-name>rmc sport 2</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="teletoon"><display-name>teletoon</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="teva"><display-name>teva</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="tf1"><display-name>tf1</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="TNTV.pf@SD"><display-name>tntv local</display-name><icon src="https://i.imgur.com/e5eVHam.png"/><url>https://programme-tv.vini.pf</url></channel>
-<channel id="ushuaia-tv"><display-name>ushuaia tv</display-name><url>https://programme-tv.vini.pf</url></channel>
-<channel id="w9"><display-name>w9</display-name><url>https://programme-tv.vini.pf</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="6ter">
+    <display-name>6ter</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="arte">
+    <display-name>arte</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="bein-sports-1">
+    <display-name>bein sports 1</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="bein-sports-2">
+    <display-name>bein sports 2</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="bein-sports-3">
+    <display-name>bein sports 3</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="bfm-business">
+    <display-name>bfm business</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="bfm-tv">
+    <display-name>bfm tv</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="c8">
+    <display-name>c8</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="canal-cinema">
+    <display-name>canal cinema</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="canal-foot">
+    <display-name>canal foot</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="canal-j">
+    <display-name>canal j</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="canal-plus">
+    <display-name>canal plus</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="canal-series">
+    <display-name>canal series</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="canal-sport">
+    <display-name>canal sport</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="canal-sport-360">
+    <display-name>canal sport 360</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="cartoon-network">
+    <display-name>cartoon network</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="cgtn-francais">
+    <display-name>cgtn francais</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="cine-premier">
+    <display-name>cine premier</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="cnn">
+    <display-name>cnn</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="comedie">
+    <display-name>comedie</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="cstar">
+    <display-name>cstar</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="discovery-channel">
+    <display-name>discovery channel</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="discovery-investigation">
+    <display-name>discovery investigation</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="discovery-science">
+    <display-name>discovery science</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="disney-channel">
+    <display-name>disney channel</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="eurosport-1">
+    <display-name>eurosport 1</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="eurosport-2">
+    <display-name>eurosport 2</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="france-2">
+    <display-name>france 2</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="france-3">
+    <display-name>france 3</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="france-4">
+    <display-name>france 4</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="france-5">
+    <display-name>france 5</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="france-24">
+    <display-name>france 24</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="gulli">
+    <display-name>gulli</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="infosport">
+    <display-name>infosport</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="la-chaine-parlementaire-public-senat">
+    <display-name>la chaine parlementaire public senat</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="lci-la-chaine-info">
+    <display-name>lci la chaine info</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="m6">
+    <display-name>m6</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="m6-music">
+    <display-name>m6 music</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="myzen">
+    <display-name>myzen</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="nat-geo-wild">
+    <display-name>nat geo wild</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="national-geographic-channel-hd">
+    <display-name>national geographic channel hd</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="ocs-geants">
+    <display-name>ocs geants</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="ocs-max">
+    <display-name>ocs max</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="ocs-pulp">
+    <display-name>ocs pulp</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="paris-premiere">
+    <display-name>paris premiere</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="piwi">
+    <display-name>piwi</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="planete">
+    <display-name>planete</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="planete-action-experience">
+    <display-name>planete action experience</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="Polynesie1ere.pf@SD">
+    <display-name>polynesie 1ere</display-name>
+    <icon src="https://i.imgur.com/9bKS5Yh.png"/>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="rmc-decouverte">
+    <display-name>rmc decouverte</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="rmc-sport-1">
+    <display-name>rmc sport 1</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="rmc-sport-2">
+    <display-name>rmc sport 2</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="teletoon">
+    <display-name>teletoon</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="teva">
+    <display-name>teva</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="tf1">
+    <display-name>tf1</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="TNTV.pf@SD">
+    <display-name>tntv local</display-name>
+    <icon src="https://i.imgur.com/e5eVHam.png"/>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="ushuaia-tv">
+    <display-name>ushuaia tv</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
+  <channel id="w9">
+    <display-name>w9</display-name>
+    <url>https://programme-tv.vini.pf</url>
+  </channel>
 </tv>

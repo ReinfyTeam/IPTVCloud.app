@@ -1,3 +1,84 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="KNR1.gl@SD"><display-name>KNR</display-name><icon src="https://i.imgur.com/FfV4aKa.png"/><url>https://knr.gl</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="KNR1.gl@SD">
+    <display-name>KNR</display-name>
+    <icon src="https://i.imgur.com/FfV4aKa.png"/>
+    <url>https://knr.gl</url>
+  </channel>
+  <programme start="20260424090000 +0000" stop="20260424100000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Meeqqanut</title>
+    <desc lang="kl">Meeqqanut toqqorsivimmiit</desc>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424103000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Maniitsumi Taek-Won-Do tartut</title>
+    <desc lang="kl">Karl Davidsenip Maniitsumi Taekwon-do tartut sungiusartut alakkarterpai angajoqqaat, sungiusaasoq TaekWon-do tartorlu paasiniaavigalugit. Aallakaatitassiortoq: Karl Davidsen KNR 16.02.2026</desc>
+  </programme>
+  <programme start="20260424103000 +0000" stop="20260424110000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Qassiarsuk Tasiusarlu</title>
+    <desc lang="kl">Qassiarsuk Tasiusarlu				 1991-imi aasaanerani Niels-Henrik Lyngep kujataani angalatilluni Qassiarsuk Tasiusarlu aqqusarlugit aallakaatitassiaa. Siullermik aallakaatinneqarpoq 1991-mi.</desc>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424120000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Oqalliffik</title>
+    <desc lang="kl">Ulluni makkunani pisut killiffii, partiit siuttui peqatigalugit oqalligisineqassapput.</desc>
+  </programme>
+  <programme start="20260424120000 +0000" stop="20260424123000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Qanorooq</title>
+    <desc lang="kl">Ntaarsiassat</desc>
+  </programme>
+  <programme start="20260424123000 +0000" stop="20260424130000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Kalaxy</title>
+    <desc lang="kl">Inuusuttunut aallakaatitassiaq aliikkutassiaanerusoq. Aaqqissuisut Bjarne H. Martinsen Salik G. Lennert</desc>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424140000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Unnu'manna (a)</title>
+    <desc lang="kl">”Unnu'manna tassaavoq, piorsarsimassuseq, nunatsinnilu pisut sammillugit aallakaatitassiaq immikkoortunut marlunnut avitaq katillugu 55 minutsinik sivisussusilik. Aallakaatitsivitsinni pulaartoqaatigaluta ilanngutassianik takusaqartassaagut sinerissamiillu oqaloqateqartassalluta. Unnu`mannarmiut: Pipaluk Egede Poulsen, Katrina Lindberg Boassen aamma Hans Jukku Noahsen. Sammisat: Folketingimi ilaasortaasimasut aamma Saarulliit perlukuinik qajuusaliat + Tusagassiivik nutaaq Tusarfik + Innovation South Greenlandip sammisai</desc>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424150000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Unilaarfik</title>
+    <desc lang="kl">Uninngalaarneq</desc>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424170000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">NP Futsal (arnat): T-41 vs. UB-83</title>
+    <desc lang="kl">NP Futsal (arnat): T-41 vs. UB-83</desc>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424190000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">NP Futsal 2026 (arnat): N-85 vs. K-33</title>
+    <desc lang="kl">NP Futsal 2026 (arnat): N-85 vs. K-33</desc>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424193000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Nerisassiullammaat (9:10)</title>
+    <desc lang="kl">Nunatsinni inuit nerisassiornermik aammalu nerisassioriaatsikkut nutaaliornermik nuannarisallit assigiinngitsut malinnaavigisarlugit aallakaatitassiat nangeqattaartut. - pissanganaq qanormita takutitassaqassappat? Aallakaatitassiotoq Georg Olsen KNR</desc>
+  </programme>
+  <programme start="20260424193000 +0000" stop="20260424200000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Atisaarniat (5:6)</title>
+    <desc lang="kl">Atisaarniartut ilaat Nuummiittut sammilaarlugit. Sunik nioqquteqarpat, qanoq suliarineqarpat, sulisullu sulerippat. Aallakaatitassiortoq: Tungutaq Larsen. KNR</desc>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424203000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Qanorooq</title>
+    <desc lang="kl">Nutaarsiassat</desc>
+  </programme>
+  <programme start="20260424203000 +0000" stop="20260424210000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Qimmaassalaarfik Niroht Jens Thorin</title>
+    <desc lang="kl">Qiimmassalaarfik med Jens Thorin KNR 20.04.2020</desc>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424220000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Aliannaarta</title>
+    <desc lang="kl">Nipilersukkat aliannaarnartut, tallimanngornerup unnukkuani qiimanartut uani aallakaatitami tusarnaarneqarsinnaapput. Aallakaatitat, KNR-ip toqqorsivianeersut. Aaqqissuisoq Nûno Pedersen</desc>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424223000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Ilulissani nipilersorneq pillugu nipilersortartoq Jonas Fleischer apersorparput...</title>
+    <desc lang="kl">Ilulissani nipilersorneq pillugu nipilersortartoq Jonas Fleischer apersorparput. Ilulissani Inuit pinnguaataanik timersortartut, sungiusarneranni malinnaavugut. Ilanngutassiaq Tina Amassen Rafaelsen. Aasianni ABK-mi peqataasartoq nunatsinnilu badmintonertartuni pitsaanerpaat ilaat,Arctic Winter Games-eriarnissaminut sungiusarneranni malinnaaffigilaarnera. Aammalu Badminton-ertaleqqaarneraniit massakkutmut killiffia. Nukappiaqqat isikkamik arsaattartut U7, Ole Langemit sungiusarneqartut sammineqarput. KNR 04.02.2020</desc>
+  </programme>
+  <programme start="20260424223000 +0000" stop="20260424230000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Qanorooq</title>
+    <desc lang="kl">Nutaarsiassat (Aallakaateqqitaq)</desc>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260425003000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Film: Heist</title>
+    <desc lang="kl">Vaughn (Jeffery Dean Morgan) arbejder som dealer i et kasino, men da hans datter bliver ramt af kræft, må han finde en måde at tjene penge nok til at betale for sin datters kræftbehandling. Han går derfor sammen med kasinoets tidligere sikkerhedsvagt Cox (Dave Bautista) om at røve kasinoet. Kuppet går galt, og de må i desperation kapre en bybus fuld af passagerer. Men politikvinden Kris (Gina Carano) er efter dem, og kasinoets ejer, The Pope (Robert De Niro), har heller ikke tænkt sig at lade dem slippe væk.</desc>
+  </programme>
+  <programme start="20260425003000 +0000" stop="20260425013000 +0000" channel="KNR1.gl@SD">
+    <title lang="kl">Arfininngornermi TV</title>
+    <desc lang="kl">Arfininngornermi TV</desc>
+  </programme>
 </tv>

@@ -1,5 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="aus"><display-name>Sport Plus Australia</display-name><url>https://thesportplus.com</url></channel>
-<channel id="euro"><display-name>Sport Plus Europe</display-name><url>https://thesportplus.com</url></channel>
-<channel id="usa"><display-name>Sport Plus U.S.A.</display-name><url>https://thesportplus.com</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="aus">
+    <display-name>Sport Plus Australia</display-name>
+    <url>https://thesportplus.com</url>
+  </channel>
+  <channel id="euro">
+    <display-name>Sport Plus Europe</display-name>
+    <url>https://thesportplus.com</url>
+  </channel>
+  <channel id="usa">
+    <display-name>Sport Plus U.S.A.</display-name>
+    <url>https://thesportplus.com</url>
+  </channel>
 </tv>

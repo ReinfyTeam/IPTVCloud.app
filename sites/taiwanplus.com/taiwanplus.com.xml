@@ -1,3 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?><tv date="20260423">
-<channel id="TaiwanPlusTV.tw@SD"><display-name>TaiwanPlus TV</display-name><url>https://taiwanplus.com</url></channel>
+<?xml version="1.0" ?>
+<tv date="20260423">
+  <channel id="TaiwanPlusTV.tw@SD">
+    <display-name>TaiwanPlus TV</display-name>
+    <url>https://taiwanplus.com</url>
+  </channel>
 </tv>
