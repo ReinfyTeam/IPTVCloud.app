@@ -24,7 +24,7 @@ export default function InfoPage({ title, content }: { title: string; content: s
 
         <div className="relative group">
           <div className="absolute -inset-1 bg-gradient-to-br from-accent/20 to-transparent blur-3xl opacity-20" />
-          <div className="relative p-8 sm:p-16 rounded-[48px] bg-background-elevated/40 border border-border shadow-2xl backdrop-blur-2xl overflow-hidden">
+          <div className="relative p-8 sm:p-16 rounded-[48px] bg-background-elevated/40 border border-border shadow-2xl backdrop-blur-2xl overflow-hidden glass">
             <div
               className="prose prose-slate dark:prose-invert prose-cyan max-w-none 
               prose-headings:font-black prose-headings:uppercase prose-headings:italic prose-headings:tracking-tighter prose-headings:text-foreground

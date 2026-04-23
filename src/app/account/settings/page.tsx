@@ -214,7 +214,7 @@ export default function SettingsPage() {
             </div>
           </div>
           <Link
-            href="/account/settings/credentials"
+            href="/account/credentials"
             className="w-full sm:w-auto px-6 py-3 rounded-xl sm:rounded-2xl bg-accent text-slate-950 text-[9px] sm:text-[10px] font-black uppercase tracking-widest hover:opacity-90 transition-all active:scale-95 text-center shadow-lg shadow-accent/20"
           >
             Manage
@@ -581,7 +581,7 @@ function SettingsSection({
   children: React.ReactNode;
 }) {
   return (
-    <section className="rounded-[32px] sm:rounded-[40px] border border-border bg-foreground/5 p-6 sm:p-8 shadow-2xl backdrop-blur-xl overflow-hidden">
+    <section className="rounded-[32px] sm:rounded-[40px] border border-border bg-foreground/5 p-6 sm:p-8 shadow-2xl backdrop-blur-xl overflow-hidden glass-card">
       <div className="flex items-center gap-4 mb-8">
         <div className="h-10 w-10 rounded-xl sm:rounded-2xl bg-foreground/5 flex items-center justify-center text-lg sm:text-xl text-foreground-muted">
           <span className="material-icons">{icon}</span>

@@ -60,11 +60,46 @@ async function verifyTables() {
 
     if (allExist) {
       console.log('All tables verified successfully.');
-      process.exit(0);
     } else {
       console.error('Some tables are missing.');
       process.exit(1);
     }
+
+    console.log('Verifying columns for all tables...');
+    for (const table of expectedTables) {
+      const tableContentMatch = sqlContent.match(
+        new RegExp(`CREATE TABLE IF NOT EXISTS "${table}" \\(([^)]+)\\);`, 's'),
+      );
+      if (tableContentMatch) {
+        const tableContent = tableContentMatch[1];
+        const columnMatches = [...tableContent.matchAll(/"([^"]+)"/g)];
+        const expectedColumns = columnMatches.map((m) => m[1]).filter((c) => c !== table);
+
+        const dbColumnsResult = await client.query(
+          `
+          SELECT column_name
+          FROM information_schema.columns
+          WHERE table_schema = 'public'
+          AND table_name = $1;
+          `,
+          [table],
+        );
+        const existingColumns = dbColumnsResult.rows.map((row) => row.column_name);
+
+        for (const column of expectedColumns) {
+          if (!existingColumns.includes(column)) {
+            console.log(`Adding column "${column}" to table "${table}"...`);
+            const columnDefMatch = tableContent.match(new RegExp(`"${column}" ([^,]+)`));
+            if (columnDefMatch) {
+              const columnDef = columnDefMatch[0];
+              await client.query(`ALTER TABLE "${table}" ADD COLUMN ${columnDef};`);
+            }
+          }
+        }
+      }
+    }
+    console.log('All columns verified successfully.');
+    process.exit(0);
   } catch (error) {
     console.error('Error verifying database:', error);
     process.exit(1);

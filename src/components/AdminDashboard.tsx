@@ -45,7 +45,7 @@ type Post = {
   };
 };
 
-type Tab = 'users' | 'incidents' | 'tickets' | 'posts';
+type Tab = 'users' | 'incidents' | 'tickets' | 'posts' | 'security';
 
 type Ticket = {
   id: string;
@@ -64,6 +64,67 @@ type Ticket = {
 export default function AdminDashboard() {
   const { user, token, isAdmin, isStaff } = useAuthStore();
   const [tab, setTab] = useState<Tab>('users');
+
+  const authHeaders = useCallback(
+    (): HeadersInit => ({
+      'Content-Type': 'application/json',
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    }),
+    [token],
+  );
+
+  const [actionMsg, setActionMsg] = useState('');
+
+  const showActionMessage = (msg: string) => {
+    setActionMsg(msg);
+    setTimeout(() => setActionMsg(''), 3000);
+  };
+
+  // Security State
+  const [securityLevel, setSecurityLevel] = useState('MEDIUM');
+  const [enabledChallenges, setEnabledChallenges] = useState<string[]>([
+    'IMAGE',
+    'TEXT',
+    'MATH',
+    'CLICK',
+  ]);
+  const [securityLoading, setSecurityLoading] = useState(false);
+
+  // FETCH SECURITY
+  const fetchSecurity = useCallback(async () => {
+    setSecurityLoading(true);
+    try {
+      const res = await fetch('/api/admin/security', { headers: authHeaders() });
+      const data = await res.json();
+      if (res.ok) {
+        setSecurityLevel(data.level);
+        setEnabledChallenges(data.challenges);
+      }
+    } catch {
+    } finally {
+      setSecurityLoading(false);
+    }
+  }, [authHeaders]);
+
+  const handleUpdateSecurity = async (level?: string, challenges?: string[]) => {
+    try {
+      const res = await fetch('/api/admin/security', {
+        method: 'POST',
+        headers: authHeaders(),
+        body: JSON.stringify({ level, challenges }),
+      });
+      if (res.ok) {
+        showActionMessage('Security settings updated.');
+        fetchSecurity();
+      }
+    } catch {
+      showActionMessage('Update failed.');
+    }
+  };
+
+  useEffect(() => {
+    if (tab === 'security' && token) fetchSecurity();
+  }, [tab, token, fetchSecurity]);
 
   // Users State
   const [users, setUsers] = useState<AdminUser[]>([]);
@@ -92,21 +153,6 @@ export default function AdminDashboard() {
   // Posts State
   const [posts, setPosts] = useState<Post[]>([]);
   const [postSearch, setPostSearch] = useState('');
-
-  const [actionMsg, setActionMsg] = useState('');
-
-  const authHeaders = useCallback(
-    (): HeadersInit => ({
-      'Content-Type': 'application/json',
-      ...(token ? { Authorization: `Bearer ${token}` } : {}),
-    }),
-    [token],
-  );
-
-  const showActionMessage = (msg: string) => {
-    setActionMsg(msg);
-    setTimeout(() => setActionMsg(''), 3000);
-  };
 
   // FETCH USERS
   const fetchUsers = useCallback(
@@ -365,7 +411,7 @@ export default function AdminDashboard() {
       )}
 
       <div className="flex flex-wrap gap-2 mb-8 sm:mb-10 bg-white/[0.03] border border-white/[0.07] p-1.5 rounded-2xl w-full sm:w-fit overflow-x-auto scrollbar-hide">
-        {(['users', 'incidents', 'tickets', 'posts'] as Tab[]).map((t) => (
+        {(['users', 'incidents', 'tickets', 'posts', 'security'] as Tab[]).map((t) => (
           <button
             key={t}
             onClick={() => setTab(t)}
@@ -375,6 +421,124 @@ export default function AdminDashboard() {
           </button>
         ))}
       </div>
+
+      {/* SECURITY TAB */}
+      {tab === 'security' && (
+        <div className="space-y-8 animate-fade-in max-w-4xl">
+          <div className="grid sm:grid-cols-2 gap-8">
+            {/* Protection Levels */}
+            <div className="p-8 rounded-[40px] border border-white/[0.07] bg-white/[0.02] backdrop-blur-xl shadow-2xl">
+              <div className="flex items-center gap-4 mb-8">
+                <div className="h-10 w-10 rounded-2xl bg-cyan-500/10 flex items-center justify-center text-xl text-cyan-400">
+                  <span className="material-icons">shield</span>
+                </div>
+                <h2 className="text-xl font-bold text-white tracking-tight uppercase italic">
+                  Protection Level
+                </h2>
+              </div>
+
+              <div className="space-y-3">
+                {[
+                  { id: 'OFF', label: 'OFF', desc: 'No risk assessment. Standard traffic flow.' },
+                  {
+                    id: 'LOW',
+                    label: 'LOW',
+                    desc: 'Challenges for highly suspicious traffic only.',
+                  },
+                  { id: 'MEDIUM', label: 'MEDIUM', desc: 'Balanced bot protection (Standard).' },
+                  { id: 'HIGH', label: 'HIGH', desc: 'Aggressive challenges for any anomaly.' },
+                  {
+                    id: 'UNDER_ATTACK',
+                    label: 'UNDER ATTACK',
+                    desc: 'Force verification for all new sessions.',
+                  },
+                ].map((l) => (
+                  <button
+                    key={l.id}
+                    onClick={() => handleUpdateSecurity(l.id)}
+                    className={`w-full text-left p-4 rounded-2xl border transition-all ${securityLevel === l.id ? 'bg-cyan-500/10 border-cyan-500/30 ring-1 ring-cyan-500/30' : 'bg-white/5 border-white/5 hover:border-white/10'}`}
+                  >
+                    <div className="flex items-center justify-between">
+                      <span
+                        className={`text-[10px] font-black uppercase tracking-widest ${securityLevel === l.id ? 'text-cyan-400' : 'text-slate-400'}`}
+                      >
+                        {l.label}
+                      </span>
+                      {securityLevel === l.id && (
+                        <span className="material-icons text-cyan-400 text-sm">check_circle</span>
+                      )}
+                    </div>
+                    <p className="text-[10px] font-bold text-slate-500 uppercase mt-1 leading-relaxed">
+                      {l.desc}
+                    </p>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Verification Methods */}
+            <div className="p-8 rounded-[40px] border border-white/[0.07] bg-white/[0.02] backdrop-blur-xl shadow-2xl">
+              <div className="flex items-center gap-4 mb-8">
+                <div className="h-10 w-10 rounded-2xl bg-violet-500/10 flex items-center justify-center text-xl text-violet-400">
+                  <span className="material-icons">fact_check</span>
+                </div>
+                <h2 className="text-xl font-bold text-white tracking-tight uppercase italic">
+                  Active Challenges
+                </h2>
+              </div>
+
+              <div className="space-y-3">
+                {[
+                  { id: 'IMAGE', label: 'Image Recognition', icon: 'image' },
+                  { id: 'TEXT', label: 'Text CAPTCHA', icon: 'text_fields' },
+                  { id: 'MATH', label: 'Logic & Math', icon: 'calculate' },
+                  { id: 'CLICK', label: 'Human Interaction', icon: 'touch_app' },
+                ].map((c) => {
+                  const isEnabled = enabledChallenges.includes(c.id);
+                  return (
+                    <button
+                      key={c.id}
+                      onClick={() => {
+                        const next = isEnabled
+                          ? enabledChallenges.filter((x) => x !== c.id)
+                          : [...enabledChallenges, c.id];
+                        handleUpdateSecurity(undefined, next);
+                      }}
+                      className={`w-full flex items-center justify-between p-4 rounded-2xl border transition-all ${isEnabled ? 'bg-violet-500/10 border-violet-500/30' : 'bg-white/5 border-white/5 opacity-50 grayscale'}`}
+                    >
+                      <div className="flex items-center gap-4">
+                        <span
+                          className={`material-icons text-lg ${isEnabled ? 'text-violet-400' : 'text-slate-600'}`}
+                        >
+                          {c.icon}
+                        </span>
+                        <span
+                          className={`text-[10px] font-black uppercase tracking-widest ${isEnabled ? 'text-white' : 'text-slate-500'}`}
+                        >
+                          {c.label}
+                        </span>
+                      </div>
+                      <div
+                        className={`h-5 w-10 rounded-full relative transition-colors ${isEnabled ? 'bg-violet-500' : 'bg-slate-700'}`}
+                      >
+                        <div
+                          className={`absolute top-1 h-3 w-3 rounded-full bg-white transition-all ${isEnabled ? 'right-1' : 'left-1'}`}
+                        />
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+
+              <div className="mt-8 p-4 rounded-2xl bg-amber-400/5 border border-amber-400/10">
+                <p className="text-[9px] font-bold text-amber-400/60 uppercase leading-relaxed text-center">
+                  Disabling all challenges will default to human interaction verification.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* USERS TAB */}
       {tab === 'users' && (

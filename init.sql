@@ -276,3 +276,19 @@ CREATE TABLE IF NOT EXISTS "CustomChannel" (
   "updatedAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 CREATE INDEX IF NOT EXISTS "customchannel_userid_idx" ON "CustomChannel"("userId");
+
+CREATE TABLE IF NOT EXISTS "GlobalSetting" (
+  "key" TEXT PRIMARY KEY,
+  "value" TEXT NOT NULL,
+  "updatedAt" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Initialize default security level
+INSERT INTO "GlobalSetting" ("key", "value") 
+VALUES ('SECURITY_LEVEL', 'MEDIUM')
+ON CONFLICT ("key") DO NOTHING;
+
+-- Initialize default challenge types (all enabled)
+INSERT INTO "GlobalSetting" ("key", "value") 
+VALUES ('CHALLENGE_TYPES', 'IMAGE,TEXT,MATH,CLICK')
+ON CONFLICT ("key") DO NOTHING;

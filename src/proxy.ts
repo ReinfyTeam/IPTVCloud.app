@@ -1,37 +1,60 @@
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
-import * as jwt from 'jsonwebtoken';
+import { NextRequest, NextResponse } from 'next/server';
+import { assessRisk, verifySecurityToken } from '@/lib/security';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'changeme-set-JWT_SECRET-env';
+/**
+ * Middleware security gate to protect against bots and DDoS
+ */
+export async function proxy(req: NextRequest) {
+  const { pathname, search } = req.nextUrl;
 
-export async function proxy(request: NextRequest) {
-  const token = request.cookies.get('iptv_token')?.value;
-
-  if (token) {
-    try {
-      // Note: We can't easily query DB in middleware without potentially slowing down every request
-      // or hitting connection limits if using a standard Pool.
-      // But we can check the JWT payload if we store the restriction status there.
-      // For now, let's assume we might need a server-side check on specific pages or a fast cache.
-      // However, the simplest way is to check the user status in the RootLayout or a dedicated Client Component.
-      // Let's stick to the Plan: Root Layout check.
-    } catch (e) {
-      // invalid token
-    }
+  // 1. Skip security check for internal, static, and security-related routes
+  if (
+    pathname.startsWith('/_next') ||
+    pathname.startsWith('/static') ||
+    pathname.startsWith('/api/security') ||
+    pathname === '/security-check' ||
+    pathname.match(/\.(ico|png|jpg|jpeg|svg|css|js|webp)$/)
+  ) {
+    return NextResponse.next();
   }
 
+  // 2. Check if browser is already verified via signed cookie
+  const isVerified = await verifySecurityToken(req);
+  if (isVerified) {
+    return NextResponse.next();
+  }
+
+  // 3. Assess risk for unverified requests
+  const risk = await assessRisk(req);
+
+  // 4. Perform action based on risk score
+  if (risk.action === 'BLOCK') {
+    return new NextResponse(
+      JSON.stringify({
+        error: 'Forbidden',
+        message: 'Security policy violation detected.',
+        ray_id: Math.random().toString(36).substring(2, 10).toUpperCase(),
+        reasons: process.env.NODE_ENV === 'development' ? risk.reasons : undefined,
+      }),
+      { status: 403, headers: { 'Content-Type': 'application/json' } },
+    );
+  }
+
+  if (risk.action === 'CHALLENGE') {
+    // Redirect to challenge page, preserving the original URL
+    const originalUrl = encodeURIComponent(`${pathname}${search}`);
+    const challengeUrl = new URL(`/security-check?from=${originalUrl}`, req.url);
+
+    return NextResponse.redirect(challengeUrl);
+  }
+
+  // ALLOW case
   return NextResponse.next();
 }
 
+/**
+ * Match all paths except static assets
+ */
 export const config = {
-  matcher: [
-    /*
-     * Match all request paths except for the ones starting with:
-     * - api (API routes)
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     */
-    '/((?!api|_next/static|_next/image|favicon.ico).*)',
-  ],
+  matcher: ['/((?!api/auth|api/ping|_next/static|_next/image|favicon.ico).*)'],
 };

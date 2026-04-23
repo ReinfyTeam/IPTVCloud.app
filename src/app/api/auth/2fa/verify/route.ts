@@ -1,35 +1,30 @@
 import { NextResponse } from 'next/server';
+import speakeasy from 'speakeasy';
+import { getUserFromReq } from '@/lib/auth';
 import db from '@/lib/db';
-import { sanitizeUser, signToken } from '@/services/auth-service';
-import { setTokenCookie } from '@/lib/cookies';
-
-// Using require for otplib to ensure compatibility in Next.js environment
-const { authenticator } = require('otplib');
-
-export const dynamic = 'force-dynamic';
 
 export async function POST(req: Request) {
-  try {
-    const { userId, token } = await req.json();
+  const user = await getUserFromReq(req);
+  if (!user) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
 
-    const { rows } = await db.query('SELECT * FROM "User" WHERE id = $1', [userId]);
-    const user = rows[0];
-    if (!user || !user.twoFactorSecret) {
-      return NextResponse.json(
-        { ok: false, error: 'User not found or 2FA not enabled.' },
-        { status: 404 },
-      );
-    }
+  const { token } = await req.json();
 
-    const isValid = authenticator.verify({ token, secret: user.twoFactorSecret });
-    if (!isValid) {
-      return NextResponse.json({ ok: false, error: 'Invalid verification code.' }, { status: 400 });
-    }
+  if (!user.twoFactorSecret) {
+    return NextResponse.json({ error: '2FA not set up' }, { status: 400 });
+  }
 
-    const authToken = signToken(user);
-    const response = NextResponse.json({ ok: true, user: sanitizeUser(user), token: authToken });
-    return setTokenCookie(response, authToken);
-  } catch (error) {
-    return NextResponse.json({ ok: false, error: 'Verification failed.' }, { status: 500 });
+  const isValid = speakeasy.totp.verify({
+    secret: user.twoFactorSecret,
+    encoding: 'base32',
+    token,
+  });
+
+  if (isValid) {
+    await db.query('UPDATE "User" SET "twoFactorEnabled" = true WHERE id = $1', [user.id]);
+    return NextResponse.json({ success: true });
+  } else {
+    return NextResponse.json({ error: 'Invalid token' }, { status: 400 });
   }
 }

@@ -29,7 +29,6 @@ export default function Navbar() {
   const searchRef = useRef<HTMLDivElement>(null);
   const [profileOpen, setProfileOpen] = useState(false);
   const profileRef = useRef<HTMLDivElement>(null);
-  const [showMobileSearch, setShowMobileSearch] = useState(false);
 
   useEffect(() => {
     setMounted(true);
@@ -164,7 +163,7 @@ export default function Navbar() {
 
             <div
               ref={searchRef}
-              className={`${showMobileSearch ? 'flex absolute inset-x-0 top-0 h-14 bg-background z-50 px-4 items-center gap-2' : 'hidden'} lg:flex flex-1 max-w-[480px] ml-auto relative group/search ${pathname === '/home' && !scrolled && !showMobileSearch ? 'hidden' : ''}`}
+              className={`hidden lg:flex flex-1 max-w-[480px] ml-auto relative group/search ${pathname === '/home' && !scrolled ? 'hidden' : ''}`}
             >
               <span className="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-lg text-foreground-muted group-focus-within/search:text-cyan-400 transition-colors pointer-events-none">
                 search
@@ -179,16 +178,12 @@ export default function Navbar() {
                   if (e.key === 'Enter') {
                     router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
                     setShowSuggestions(false);
-                    setShowMobileSearch(false);
                   }
                 }}
                 className="w-full rounded-xl border border-white/[0.05] bg-slate-900/50 py-2 pl-11 pr-4 text-[11px] font-bold text-foreground placeholder:text-foreground-muted outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm shadow-inner"
               />
-              {showMobileSearch && (
-                <button
-                  onClick={() => setShowMobileSearch(false)}
-                  className="lg:hidden p-2 text-foreground-muted"
-                >
+              {false && (
+                <button className="lg:hidden p-2 text-foreground-muted">
                   <span className="material-icons">close</span>
                 </button>
               )}
@@ -203,7 +198,6 @@ export default function Navbar() {
                       href={`/channel/${encodeBase64Url(ch.id)}`}
                       onClick={() => {
                         setShowSuggestions(false);
-                        setShowMobileSearch(false);
                       }}
                       className="flex items-center gap-4 p-3 hover:bg-white/5 rounded-2xl transition-all active:scale-[0.98] group/item"
                     >
@@ -237,7 +231,6 @@ export default function Navbar() {
                       href={`/search/profiles?q=${encodeURIComponent(searchQuery)}`}
                       onClick={() => {
                         setShowSuggestions(false);
-                        setShowMobileSearch(false);
                       }}
                       className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-foreground-muted hover:text-cyan-400 transition-all"
                     >
@@ -247,7 +240,6 @@ export default function Navbar() {
                       href={`/search/posts?q=${encodeURIComponent(searchQuery)}`}
                       onClick={() => {
                         setShowSuggestions(false);
-                        setShowMobileSearch(false);
                       }}
                       className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-foreground-muted hover:text-cyan-400 transition-all"
                     >
@@ -257,7 +249,6 @@ export default function Navbar() {
                       href={`/search/epg?q=${encodeURIComponent(searchQuery)}`}
                       onClick={() => {
                         setShowSuggestions(false);
-                        setShowMobileSearch(false);
                       }}
                       className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-foreground-muted hover:text-cyan-400 transition-all"
                     >
@@ -267,7 +258,6 @@ export default function Navbar() {
                       href={`/search?q=${encodeURIComponent(searchQuery)}`}
                       onClick={() => {
                         setShowSuggestions(false);
-                        setShowMobileSearch(false);
                       }}
                       className="flex items-center gap-2 p-2 rounded-xl hover:bg-white/5 text-[9px] font-black uppercase text-foreground-muted hover:text-cyan-400 transition-all"
                     >
@@ -278,7 +268,6 @@ export default function Navbar() {
                     onClick={() => {
                       router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
                       setShowSuggestions(false);
-                      setShowMobileSearch(false);
                     }}
                     className="w-full mt-2 p-3 text-center text-[10px] font-black text-cyan-500 hover:bg-cyan-500/10 rounded-2xl transition-all uppercase tracking-widest"
                   >
@@ -305,13 +294,6 @@ export default function Navbar() {
                   </Link>
                 </div>
               )}
-
-              <button
-                onClick={() => setShowMobileSearch(true)}
-                className="lg:hidden h-10 w-10 flex items-center justify-center rounded-xl text-foreground-muted hover:text-foreground hover:bg-white/5 transition-all border border-white/[0.1]"
-              >
-                <span className="material-icons text-xl">search</span>
-              </button>
 
               {mounted && user && (
                 <div className="hidden sm:block">
