@@ -6,7 +6,9 @@ This repository branch is focused on automated EPG processing, source synchroniz
 
 For sites content path, I recommend to use this as your guide for the API Guide. This repository is synced everyday at 00:00 UTC by cron workers. The estimated synchronous time will be 3h every run.
 
-`https://reinfyteam.github.io/IPTVCloud.app/content.json`
+```sh
+https://reinfyteam.github.io/IPTVCloud.app/content.json
+```
 
 ## ✨ Features
 
