@@ -1,6 +1,5 @@
 # Logs
-logs
-*.log
+logs/*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -348,3 +347,4 @@ __marimo__/
 epg/
 
 devproxy/
+dev-proxy-ca.crt
