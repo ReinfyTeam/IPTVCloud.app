@@ -3,6 +3,7 @@ import { generateId } from '@/lib/m3uParser'; // Just for hashing viewers
 import { getCountryName } from '@/lib/countries';
 import { getLanguageName } from '@/lib/languages';
 import db from '@/lib/db';
+import sdk from '@iptv-org/sdk';
 import type {
   Channel,
   ChannelDataset,
@@ -40,32 +41,25 @@ const CHANNELS_CACHE_KEY = 'channels:dataset:iptvorg';
 
 // Fetch from iptv-org API
 async function fetchIptvOrgData() {
-  const endpoints = {
-    channels: 'https://iptv-org.github.io/api/channels.json',
-    streams: 'https://iptv-org.github.io/api/streams.json',
-    categories: 'https://iptv-org.github.io/api/categories.json',
-    languages: 'https://iptv-org.github.io/api/languages.json',
-    countries: 'https://iptv-org.github.io/api/countries.json',
-    subdivisions: 'https://iptv-org.github.io/api/subdivisions.json',
-    cities: 'https://iptv-org.github.io/api/cities.json',
-    regions: 'https://iptv-org.github.io/api/regions.json',
-    timezones: 'https://iptv-org.github.io/api/timezones.json',
-    blocklist: 'https://iptv-org.github.io/api/blocklist.json',
-    guides: 'https://iptv-org.github.io/api/guides.json',
-    logos: 'https://iptv-org.github.io/api/logos.json',
-    feeds: 'https://iptv-org.github.io/api/feeds.json',
+  const client = new sdk.Client();
+  await client.load();
+  const data = client.getData();
+
+  return {
+    channels: data.channels.all(),
+    streams: data.streams.all(),
+    categories: data.categories.all(),
+    languages: data.languages.all(),
+    countries: data.countries.all(),
+    subdivisions: data.subdivisions.all(),
+    cities: data.cities.all(),
+    regions: data.regions.all(),
+    timezones: data.timezones.all(),
+    blocklist: data.blocklist.all(),
+    guides: data.guides.all(),
+    logos: data.logos.all(),
+    feeds: data.feeds.all(),
   };
-
-  const results = await Promise.all(
-    Object.entries(endpoints).map(async ([key, urlStr]) => {
-      const url = new URL(urlStr);
-      const res = await fetch(url, { cache: 'no-store' });
-      const data = res.ok ? await res.json() : [];
-      return [key, data];
-    }),
-  );
-
-  return Object.fromEntries(results) as Record<keyof typeof endpoints, any[]>;
 }
 
 export async function refreshChannels(): Promise<ChannelDataset> {
@@ -75,10 +69,10 @@ export async function refreshChannels(): Promise<ChannelDataset> {
   ]);
 
   // Create lookups from iptv-org data
-  const blocklistSet = new Set(iptvOrgData.blocklist.map((b) => b.channel));
+  const blocklistSet = new Set(iptvOrgData.blocklist.map((b: any) => b.channel));
   // ... (other lookups remain the same)
   const streamMap = new Map<string, any[]>();
-  iptvOrgData.streams.forEach((s) => {
+  iptvOrgData.streams.forEach((s: any) => {
     if (s.channel) {
       if (!streamMap.has(s.channel)) streamMap.set(s.channel, []);
       streamMap.get(s.channel)!.push(s);
@@ -86,14 +80,14 @@ export async function refreshChannels(): Promise<ChannelDataset> {
   });
 
   const logoMap = new Map<string, string>();
-  iptvOrgData.logos.forEach((l) => {
+  iptvOrgData.logos.forEach((l: any) => {
     if (l.channel && l.url) {
       logoMap.set(l.channel, l.url);
     }
   });
 
   const feedMap = new Map<string, any[]>();
-  iptvOrgData.feeds.forEach((f) => {
+  iptvOrgData.feeds.forEach((f: any) => {
     if (f.channel) {
       if (!feedMap.has(f.channel)) feedMap.set(f.channel, []);
       feedMap.get(f.channel)!.push(f);
@@ -101,20 +95,20 @@ export async function refreshChannels(): Promise<ChannelDataset> {
   });
 
   const guideMap = new Map<string, { site_id: string; url: string }>();
-  iptvOrgData.guides.forEach((g) => {
+  iptvOrgData.guides.forEach((g: any) => {
     if (g.channel && g.site_id && g.url) {
       guideMap.set(g.channel, { site_id: g.site_id, url: g.url });
     }
   });
 
   const subdivisionsMap = new Map<string, string>();
-  iptvOrgData.subdivisions.forEach((s) => subdivisionsMap.set(s.id, s.name));
+  iptvOrgData.subdivisions.forEach((s: any) => subdivisionsMap.set(s.id, s.name));
 
   const citiesMap = new Map<string, string>();
-  iptvOrgData.cities.forEach((c) => citiesMap.set(c.id, c.name));
+  iptvOrgData.cities.forEach((c: any) => citiesMap.set(c.id, c.name));
 
   const regionsMap = new Map<string, string>();
-  iptvOrgData.regions.forEach((r) => regionsMap.set(r.id, r.name));
+  iptvOrgData.regions.forEach((r: any) => regionsMap.set(r.id, r.name));
 
   const channels: Channel[] = [];
 

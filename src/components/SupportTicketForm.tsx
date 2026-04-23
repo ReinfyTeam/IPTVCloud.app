@@ -270,5 +270,6 @@ export default function SupportTicketForm({ initialType = 'SUPPORT' }: Props) {
         {loading ? 'Transmitting…' : 'Submit Ticket'}
       </button>
     </form>
+    </div>
   );
 }
