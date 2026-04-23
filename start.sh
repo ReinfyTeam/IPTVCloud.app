@@ -98,7 +98,7 @@ cd "$ROOT/epg"
 # HARD 1-HOUR LIMIT
 timeout "$TIMEOUT" npm run grab -- \
     --sites="$SITE" \
-    --output="$ROOT/sites/{site}/{site}.xml" \
+    --output="$ROOT/sites/${SITE}/{site}.xml" \
     --timeout="$GRAB_TIMEOUT" \
     >/dev/null 2>&1
 
