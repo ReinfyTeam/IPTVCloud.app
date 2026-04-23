@@ -2,96 +2,164 @@
 
 """
 content.py
-Scans a sites/ directory for <site_name>.xml files and writes content.json.
+Scans ./sites and builds content.json
 
-Usage:
-    python3 content.py [sites_dir] [output_file]
+Supports:
 
-Defaults:
-    sites_dir   = ./sites
-    output_file = ./sites/content.json
+1. Normal file
+   ./sites/site.xml
+
+2. Split files in same folder
+   ./sites/site_part_001.xml
+   ./sites/site_part_002.xml
+
+Output:
+- Normal guides => url is array with 1 item
+- Split guides  => url is array of parts
 """
 
 import sys
 import json
 import os
+import re
 from datetime import datetime, timezone
 
 
-def count_programmes(path: str) -> int:
-    """Counts occurrences of <programme in the file, even if multiple are on one line."""
+PART_RE = re.compile(r"^(.*?)_part_(\d+)\.xml$", re.IGNORECASE)
+
+
+def count_programmes(path):
     count = 0
     try:
         with open(path, "r", encoding="utf-8", errors="ignore") as f:
             for line in f:
                 count += line.count("<programme")
     except Exception as e:
-        print(f"[ERR] Could not read {path}: {e}", file=sys.stderr)
+        print(f"[ERR] {path}: {e}", file=sys.stderr)
     return count
 
 
-def build_content(base_dir: str, out_file: str) -> None:
+def iso(ts):
+    return datetime.fromtimestamp(ts, tz=timezone.utc).isoformat()
+
+
+def build_content(base_dir, out_file):
     base_dir = os.path.abspath(base_dir)
     out_file = os.path.abspath(out_file)
 
     if not os.path.isdir(base_dir):
-        print(f"[ERR] Directory not found: {base_dir}", file=sys.stderr)
+        print("Invalid directory")
         sys.exit(1)
 
+    files = sorted([
+        f for f in os.listdir(base_dir)
+        if f.lower().endswith(".xml")
+    ])
+
     entries = []
-    # Sort to keep the output consistent
-    for site_name in sorted(os.listdir(base_dir)):
-        # Skip hidden directories (like .git or .DS_Store)
-        if site_name.startswith('.'):
-            continue
-            
-        site_dir   = os.path.join(base_dir, site_name)
-        guide_file = os.path.join(site_dir, site_name + ".xml")
+    split_groups = {}
+    used_normal = set()
 
-        # Only process if it's a directory and contains the expected XML file
-        if not os.path.isdir(site_dir) or not os.path.isfile(guide_file):
-            continue
+    # ------------------------------------------
+    # Detect split files
+    # ------------------------------------------
+    for file in files:
+        m = PART_RE.match(file)
+        if m:
+            site = m.group(1)
+            part = int(m.group(2))
 
-        rel_path  = os.path.relpath(guide_file, base_dir)
-        size      = os.path.getsize(guide_file)
-        progs     = count_programmes(guide_file)
-        
-        # Get the actual last modified time of the XML file
-        mtime = os.path.getmtime(guide_file)
-        last_mod = datetime.fromtimestamp(mtime, tz=timezone.utc).isoformat()
+            split_groups.setdefault(site, [])
+            split_groups[site].append((part, file))
+
+    # ------------------------------------------
+    # Build split entries
+    # ------------------------------------------
+    for site in sorted(split_groups.keys()):
+        parts = sorted(split_groups[site], key=lambda x: x[0])
+
+        urls = []
+        paths = []
+        full_paths = []
+
+        total_size = 0
+        total_prog = 0
+        newest = 0
+
+        for _, file in parts:
+            fp = os.path.join(base_dir, file)
+
+            urls.append(f"/{file}")
+            paths.append(file)
+            full_paths.append(fp)
+
+            total_size += os.path.getsize(fp)
+            total_prog += count_programmes(fp)
+            newest = max(newest, os.path.getmtime(fp))
 
         entries.append({
-            "site":        site_name,
-            "path":        rel_path,
-            "full_path":   guide_file,
-            "url":         f"/{rel_path}",
-            "size_bytes":  size,
-            "programmes":  progs,
-            "updated_at":  last_mod,
+            "site": site,
+            "path": paths,
+            "full_path": full_paths,
+            "url": urls,
+            "split": True,
+            "parts": len(parts),
+            "size_bytes": total_size,
+            "programmes": total_prog,
+            "updated_at": iso(newest)
         })
 
-        print(f"  ✔  {site_name:<40}  {size:>9} bytes  {progs:>5} programmes")
+        used_normal.add(site + ".xml")
 
-    if not entries:
-        print("[WARN] No matching <site_name>.xml files found — content.json will be empty.")
+        print(f"✔ {site:<35} split ({len(parts)} parts)")
+
+    # ------------------------------------------
+    # Build normal entries
+    # ------------------------------------------
+    for file in files:
+        if file in used_normal:
+            continue
+
+        if PART_RE.match(file):
+            continue
+
+        site = file[:-4]
+        fp = os.path.join(base_dir, file)
+
+        size = os.path.getsize(fp)
+        progs = count_programmes(fp)
+        mtime = os.path.getmtime(fp)
+
+        entries.append({
+            "site": site,
+            "path": file,
+            "full_path": fp,
+            "url": [f"/{file}"],
+            "split": False,
+            "parts": 1,
+            "size_bytes": size,
+            "programmes": progs,
+            "updated_at": iso(mtime)
+        })
+
+        print(f"✔ {site:<35} normal")
+
+    entries.sort(key=lambda x: x["site"].lower())
 
     payload = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-        "total_sites":  len(entries),
-        "guides":       entries,
+        "generated_at": iso(datetime.now(timezone.utc).timestamp()),
+        "total_sites": len(entries),
+        "guides": entries
     }
 
-    # Ensure output directory exists and write JSON
-    os.makedirs(os.path.dirname(out_file), exist_ok=True)
     with open(out_file, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, indent=2)
+        json.dump(payload, f, indent=2, ensure_ascii=False)
 
-    print(f"\n  Wrote {len(entries)} entr{'y' if len(entries) == 1 else 'ies'} → {out_file}")
+    print(f"\nWrote {len(entries)} entries -> {out_file}")
 
 
 if __name__ == "__main__":
-    # Handle CLI arguments or use defaults
-    sites_dir   = sys.argv[1] if len(sys.argv) > 1 else "./sites"
-    output_file = sys.argv[2] if len(sys.argv) > 2 else os.path.join(sites_dir, "content.json")
-    
+    sites_dir = sys.argv[1] if len(sys.argv) > 1 else "./sites"
+    output_file = sys.argv[2] if len(sys.argv) > 2 else "./sites/content.json"
+
     build_content(sites_dir, output_file)
