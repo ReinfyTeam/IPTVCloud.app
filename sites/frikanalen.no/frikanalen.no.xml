@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<tv date="20260423">
-  <channel id="Frikanalen.no@SD">
-    <display-name>Frikanalen</display-name>
-    <icon src="https://i.imgur.com/rY3Owxl.png" />
-    <url>https://frikanalen.no</url>
-  </channel>
-</tv>
