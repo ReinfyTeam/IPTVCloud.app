@@ -1,0 +1,35 @@
+═══════════════════════════════════════════════════════════════
+  Site            : hoy.tv
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 11s
+  Channels        : 6
+  With programmes : 6
+  Empty channels  : 0
+  Total programs  : 229
+  Output size     : 42524 bytes
+  Generated       : 2026-04-24 11:04:45
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 11:04:34 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=hoy.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] hoy.tv (zh) - 76 - Apr 24, 2026 (31 programs)
+ℹ   [2/6] hoy.tv (zh) - HOYTV.hk@SD - Apr 25, 2026 (34 programs)
+ℹ   [3/6] hoy.tv (zh) - 76 - Apr 25, 2026 (32 programs)
+ℹ   [4/6] hoy.tv (zh) - 78 - Apr 24, 2026 (48 programs)
+ℹ   [5/6] hoy.tv (zh) - HOYTV.hk@SD - Apr 24, 2026 (35 programs)
+ℹ   [6/6] hoy.tv (zh) - 78 - Apr 25, 2026 (49 programs)
+ℹ   saving to "/home/runner/workspace/sites/hoy.tv/hoy.tv.xml"...
+✔   done in 00h 00m 04s

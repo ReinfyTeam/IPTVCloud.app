@@ -1,0 +1,37 @@
+═══════════════════════════════════════════════════════════════
+  Site            : i24news.tv
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 7s
+  Channels        : 8
+  With programmes : 8
+  Empty channels  : 0
+  Total programs  : 165
+  Output size     : 46411 bytes
+  Generated       : 2026-04-24 11:04:52
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 11:04:45 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=i24news.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 4 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/8] i24news.tv (ar) - i24NEWSArabic.il@SD - Apr 25, 2026 (17 programs)
+ℹ   [2/8] i24news.tv (ar) - i24NEWSArabic.il@SD - Apr 24, 2026 (17 programs)
+ℹ   [3/8] i24news.tv (fr) - i24NEWSFrench.il@SD - Apr 24, 2026 (23 programs)
+ℹ   [4/8] i24news.tv (en) - i24NEWSEnglishUSA.il@SD - Apr 25, 2026 (19 programs)
+ℹ   [5/8] i24news.tv (en) - i24NEWSEnglishUSA.il@SD - Apr 24, 2026 (20 programs)
+ℹ   [6/8] i24news.tv (fr) - i24NEWSFrench.il@SD - Apr 25, 2026 (16 programs)
+ℹ   [7/8] i24news.tv (he) - he - Apr 24, 2026 (28 programs)
+ℹ   [8/8] i24news.tv (he) - he - Apr 25, 2026 (25 programs)
+ℹ   saving to "/home/runner/workspace/sites/i24news.tv/i24news.tv.xml"...
+✔   done in 00h 00m 01s

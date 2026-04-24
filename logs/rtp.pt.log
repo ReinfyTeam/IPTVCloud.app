@@ -1,0 +1,49 @@
+═══════════════════════════════════════════════════════════════
+  Site            : rtp.pt
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 8s
+  Channels        : 20
+  With programmes : 20
+  Empty channels  : 0
+  Total programs  : 628
+  Output size     : 209828 bytes
+  Generated       : 2026-04-24 11:49:52
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 11:49:43 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=rtp.pt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/20] rtp.pt (pt) - RTP1.pt@HD - Apr 24, 2026 (18 programs)
+ℹ   [2/20] rtp.pt (pt) - RTP1.pt@HD - Apr 25, 2026 (25 programs)
+ℹ   [3/20] rtp.pt (pt) - RTPAcores.pt@HD - Apr 24, 2026 (30 programs)
+ℹ   [4/20] rtp.pt (pt) - RTP2.pt@HD - Apr 25, 2026 (75 programs)
+ℹ   [5/20] rtp.pt (pt) - RTP2.pt@HD - Apr 24, 2026 (79 programs)
+ℹ   [6/20] rtp.pt (pt) - RTPAcores.pt@HD - Apr 25, 2026 (25 programs)
+ℹ   [7/20] rtp.pt (pt) - RTPAfrica.pt@SD - Apr 24, 2026 (28 programs)
+ℹ   [8/20] rtp.pt (pt) - RTPAfrica.pt@SD - Apr 25, 2026 (26 programs)
+ℹ   [9/20] rtp.pt (pt) - RTPmAmerica.pt@SD - Apr 25, 2026 (24 programs)
+ℹ   [10/20] rtp.pt (pt) - RTPmAmerica.pt@SD - Apr 24, 2026 (29 programs)
+ℹ   [11/20] rtp.pt (pt) - RTPMundo.pt@SD - Apr 24, 2026 (28 programs)
+ℹ   [12/20] rtp.pt (pt) - RTPmAsia.pt@SD - Apr 24, 2026 (23 programs)
+ℹ   [13/20] rtp.pt (pt) - RTPmAsia.pt@SD - Apr 25, 2026 (32 programs)
+ℹ   [14/20] rtp.pt (pt) - RTPMadeira.pt@HD - Apr 25, 2026 (11 programs)
+ℹ   [15/20] rtp.pt (pt) - RTPMadeira.pt@HD - Apr 24, 2026 (10 programs)
+ℹ   [16/20] rtp.pt (pt) - RTPMundo.pt@SD - Apr 25, 2026 (32 programs)
+ℹ   [17/20] rtp.pt (pt) - RTPMemoria.pt@SD - Apr 24, 2026 (36 programs)
+ℹ   [18/20] rtp.pt (pt) - RTPMemoria.pt@SD - Apr 25, 2026 (31 programs)
+ℹ   [19/20] rtp.pt (pt) - RTPNoticias.pt@HD - Apr 25, 2026 (30 programs)
+ℹ   [20/20] rtp.pt (pt) - RTPNoticias.pt@HD - Apr 24, 2026 (36 programs)
+ℹ   saving to "/home/runner/workspace/sites/rtp.pt/rtp.pt.xml"...
+✔   done in 00h 00m 04s

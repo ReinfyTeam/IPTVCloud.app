@@ -1,0 +1,175 @@
+═══════════════════════════════════════════════════════════════
+  Site            : taiwanplus.com
+  Status          : EMPTY
+  Attempts used   : 10 / 10
+  Total elapsed   : 96s
+  Channels        : 20
+  With programmes : 0
+  Empty channels  : 20
+  Total programs  : 0
+  Output size     : 0 bytes
+  Generated       : 2026-04-24 12:14:00
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 12:12:24 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=taiwanplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 24, 2026 (0 programs)
+ℹ   [2/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/taiwanplus.com/taiwanplus.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 2/10 @ 12:12:35 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=taiwanplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 24, 2026 (0 programs)
+ℹ   [2/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/taiwanplus.com/taiwanplus.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 3/10 @ 12:12:45 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=taiwanplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 24, 2026 (0 programs)
+ℹ   [2/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/taiwanplus.com/taiwanplus.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 4/10 @ 12:12:55 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=taiwanplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 24, 2026 (0 programs)
+ℹ   [2/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/taiwanplus.com/taiwanplus.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 5/10 @ 12:13:04 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=taiwanplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 24, 2026 (0 programs)
+ℹ   [2/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/taiwanplus.com/taiwanplus.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 6/10 @ 12:13:14 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=taiwanplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 24, 2026 (0 programs)
+ℹ   [2/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/taiwanplus.com/taiwanplus.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 7/10 @ 12:13:24 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=taiwanplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 24, 2026 (0 programs)
+ℹ   [2/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/taiwanplus.com/taiwanplus.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 8/10 @ 12:13:34 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=taiwanplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 24, 2026 (0 programs)
+ℹ   [2/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/taiwanplus.com/taiwanplus.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 9/10 @ 12:13:45 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=taiwanplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 24, 2026 (0 programs)
+ℹ   [2/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/taiwanplus.com/taiwanplus.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 10/10 @ 12:13:55 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=taiwanplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 24, 2026 (0 programs)
+ℹ   [2/2] taiwanplus.com (en) - TaiwanPlusTV.tw@SD - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/taiwanplus.com/taiwanplus.com.xml"...
+✔   done in 00h 00m 00s

@@ -1,0 +1,97 @@
+═══════════════════════════════════════════════════════════════
+  Site            : zuragt.mn
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 13s
+  Channels        : 68
+  With programmes : 50
+  Empty channels  : 18
+  Total programs  : 1175
+  Output size     : 225244 bytes
+  Generated       : 2026-04-24 13:11:35
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 13:11:22 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=zuragt.mn --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 34 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/68] zuragt.mn (mn) - BloombergTVMongolia.mn@SD - Apr 25, 2026 (29 programs)
+ℹ   [2/68] zuragt.mn (mn) - AsianBox.mn@SD - Apr 25, 2026 (14 programs)
+ℹ   [3/68] zuragt.mn (mn) - BloombergTVMongolia.mn@SD - Apr 24, 2026 (28 programs)
+ℹ   [4/68] zuragt.mn (mn) - AsianBox.mn@SD - Apr 24, 2026 (18 programs)
+ℹ   [5/68] zuragt.mn (mn) - EdutainmentTV.mn@SD - Apr 24, 2026 (34 programs)
+ℹ   [6/68] zuragt.mn (mn) - EdutainmentTV.mn@SD - Apr 25, 2026 (23 programs)
+ℹ   [7/68] zuragt.mn (mn) - C1.mn@SD - Apr 24, 2026 (24 programs)
+ℹ   [8/68] zuragt.mn (mn) - C1.mn@SD - Apr 25, 2026 (24 programs)
+ℹ   [9/68] zuragt.mn (mn) - CentralTV.mn@SD - Apr 24, 2026 (23 programs)
+ℹ   [10/68] zuragt.mn (mn) - CentralTV.mn@SD - Apr 25, 2026 (22 programs)
+ℹ   [11/68] zuragt.mn (mn) - DreamTV.mn@SD - Apr 24, 2026 (0 programs)
+ℹ   [12/68] zuragt.mn (mn) - DreamTV.mn@SD - Apr 25, 2026 (0 programs)
+ℹ   [13/68] zuragt.mn (mn) - EcoTV.mn@SD - Apr 24, 2026 (21 programs)
+ℹ   [14/68] zuragt.mn (mn) - EcoTV.mn@SD - Apr 25, 2026 (28 programs)
+ℹ   [15/68] zuragt.mn (mn) - ETV.mn@SD - Apr 24, 2026 (35 programs)
+ℹ   [16/68] zuragt.mn (mn) - TV25.mn@SD - Apr 24, 2026 (23 programs)
+ℹ   [17/68] zuragt.mn (mn) - ETV.mn@SD - Apr 25, 2026 (30 programs)
+ℹ   [18/68] zuragt.mn (mn) - TV25.mn@SD - Apr 25, 2026 (17 programs)
+ℹ   [19/68] zuragt.mn (mn) - MNB.mn@SD - Apr 24, 2026 (26 programs)
+ℹ   [20/68] zuragt.mn (mn) - MNB.mn@SD - Apr 25, 2026 (26 programs)
+ℹ   [21/68] zuragt.mn (mn) - mnb-ger-bl - Apr 24, 2026 (20 programs)
+ℹ   [22/68] zuragt.mn (mn) - mnb-ger-bl - Apr 25, 2026 (18 programs)
+ℹ   [23/68] zuragt.mn (mn) - MNBSport.mn@SD - Apr 24, 2026 (14 programs)
+ℹ   [24/68] zuragt.mn (mn) - MNBSport.mn@SD - Apr 25, 2026 (13 programs)
+ℹ   [25/68] zuragt.mn (mn) - MongolianNewsChannel.mn@SD - Apr 24, 2026 (25 programs)
+ℹ   [26/68] zuragt.mn (mn) - MongolianNewsChannel.mn@SD - Apr 25, 2026 (19 programs)
+ℹ   [27/68] zuragt.mn (mn) - MongolTV.mn@SD - Apr 24, 2026 (22 programs)
+ℹ   [28/68] zuragt.mn (mn) - MongolTV.mn@SD - Apr 25, 2026 (15 programs)
+ℹ   [29/68] zuragt.mn (mn) - MNBMongoliinMedee.mn@SD - Apr 24, 2026 (27 programs)
+ℹ   [30/68] zuragt.mn (mn) - MNBMongoliinMedee.mn@SD - Apr 25, 2026 (27 programs)
+ℹ   [31/68] zuragt.mn (mn) - MovieBox.mn@SD - Apr 24, 2026 (14 programs)
+ℹ   [32/68] zuragt.mn (mn) - MovieBox.mn@SD - Apr 25, 2026 (13 programs)
+ℹ   [33/68] zuragt.mn (mn) - NTV.mn@SD - Apr 24, 2026 (41 programs)
+ℹ   [34/68] zuragt.mn (mn) - NTN.mn@SD - Apr 24, 2026 (0 programs)
+ℹ   [35/68] zuragt.mn (mn) - NTN.mn@SD - Apr 25, 2026 (0 programs)
+ℹ   [36/68] zuragt.mn (mn) - NTV.mn@SD - Apr 25, 2026 (23 programs)
+ℹ   [37/68] zuragt.mn (mn) - ParliamentTV.mn@SD - Apr 24, 2026 (22 programs)
+ℹ   [38/68] zuragt.mn (mn) - ParliamentTV.mn@SD - Apr 25, 2026 (24 programs)
+ℹ   [39/68] zuragt.mn (mn) - premier sports 1 - Apr 24, 2026 (0 programs)
+ℹ   [40/68] zuragt.mn (mn) - premier sports 1 - Apr 25, 2026 (0 programs)
+ℹ   [41/68] zuragt.mn (mn) - premier sports 2 - Apr 24, 2026 (0 programs)
+ℹ   [42/68] zuragt.mn (mn) - premier sports 2 - Apr 25, 2026 (0 programs)
+ℹ   [43/68] zuragt.mn (mn) - premier sports 3 - Apr 25, 2026 (0 programs)
+ℹ   [44/68] zuragt.mn (mn) - premier sports 3 - Apr 24, 2026 (0 programs)
+ℹ   [45/68] zuragt.mn (mn) - premier sports 4 - Apr 24, 2026 (0 programs)
+ℹ   [46/68] zuragt.mn (mn) - premier sports 4 - Apr 25, 2026 (0 programs)
+ℹ   [47/68] zuragt.mn (mn) - premier sports 5 - Apr 24, 2026 (0 programs)
+ℹ   [48/68] zuragt.mn (mn) - premier sports 5 - Apr 25, 2026 (0 programs)
+ℹ   [49/68] zuragt.mn (mn) - SBN.mn@SD - Apr 24, 2026 (25 programs)
+ℹ   [50/68] zuragt.mn (mn) - SBN.mn@SD - Apr 25, 2026 (19 programs)
+ℹ   [51/68] zuragt.mn (mn) - StarTV.mn@SD - Apr 24, 2026 (25 programs)
+ℹ   [52/68] zuragt.mn (mn) - StarTV.mn@SD - Apr 25, 2026 (22 programs)
+ℹ   [53/68] zuragt.mn (mn) - SuldTV.mn@SD - Apr 24, 2026 (31 programs)
+ℹ   [54/68] zuragt.mn (mn) - SuldTV.mn@SD - Apr 25, 2026 (24 programs)
+ℹ   [55/68] zuragt.mn (mn) - TenGerTV.mn@SD - Apr 24, 2026 (0 programs)
+ℹ   [56/68] zuragt.mn (mn) - TenGerTV.mn@SD - Apr 25, 2026 (0 programs)
+ℹ   [57/68] zuragt.mn (mn) - TV5.mn@SD - Apr 24, 2026 (36 programs)
+ℹ   [58/68] zuragt.mn (mn) - TV5.mn@SD - Apr 25, 2026 (29 programs)
+ℹ   [59/68] zuragt.mn (mn) - tv7 - Apr 24, 2026 (11 programs)
+ℹ   [60/68] zuragt.mn (mn) - TMTV.mn@SD - Apr 24, 2026 (0 programs)
+ℹ   [61/68] zuragt.mn (mn) - TMTV.mn@SD - Apr 25, 2026 (0 programs)
+ℹ   [62/68] zuragt.mn (mn) - tv7 - Apr 25, 2026 (13 programs)
+ℹ   [63/68] zuragt.mn (mn) - TV8.mn@SD - Apr 24, 2026 (30 programs)
+ℹ   [64/68] zuragt.mn (mn) - TV8.mn@SD - Apr 25, 2026 (24 programs)
+ℹ   [65/68] zuragt.mn (mn) - TV9.mn@SD - Apr 24, 2026 (28 programs)
+ℹ   [66/68] zuragt.mn (mn) - TV9.mn@SD - Apr 25, 2026 (22 programs)
+ℹ   [67/68] zuragt.mn (mn) - UBS.mn@SD - Apr 24, 2026 (27 programs)
+ℹ   [68/68] zuragt.mn (mn) - UBS.mn@SD - Apr 25, 2026 (27 programs)
+ℹ   saving to "/home/runner/workspace/sites/zuragt.mn/zuragt.mn.xml"...
+✔   done in 00h 00m 08s

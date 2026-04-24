@@ -1,0 +1,348 @@
+═══════════════════════════════════════════════════════════════
+  Site            : artonline.tv
+  Status          : EMPTY
+  Attempts used   : 10 / 10
+  Total elapsed   : 145s
+  Channels        : 100
+  With programmes : 0
+  Empty channels  : 100
+  Total programs  : 0
+  Output size     : 0 bytes
+  HTTP errors     :
+    70 status code 500
+  Last error      : Request failed with status code 500
+  Generated       : 2026-04-24 10:47:21
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 10:44:56 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=artonline.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 5 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:15741) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 24, 2026 (0 programs)
+ℹ   [7/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [8/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [9/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/artonline.tv/artonline.tv.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 2/10 @ 10:45:14 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=artonline.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 5 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:16281) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 24, 2026 (0 programs)
+ℹ   [7/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [8/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [9/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/artonline.tv/artonline.tv.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 3/10 @ 10:45:27 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=artonline.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 5 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:16629) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 24, 2026 (0 programs)
+ℹ   [7/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [8/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [9/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/artonline.tv/artonline.tv.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 4/10 @ 10:45:43 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=artonline.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 5 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:16911) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 24, 2026 (0 programs)
+ℹ   [7/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [8/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [9/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/artonline.tv/artonline.tv.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 5/10 @ 10:46:00 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=artonline.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 5 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:17123) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [7/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [8/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 24, 2026 (0 programs)
+ℹ   [9/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [10/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/artonline.tv/artonline.tv.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 6/10 @ 10:46:14 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=artonline.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 5 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:17385) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [7/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 24, 2026 (0 programs)
+ℹ   [8/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [9/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [10/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/artonline.tv/artonline.tv.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 7/10 @ 10:46:34 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=artonline.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 5 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:17676) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 24, 2026 (0 programs)
+ℹ   [7/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [8/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [9/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/artonline.tv/artonline.tv.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 8/10 @ 10:46:48 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=artonline.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 5 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:18043) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 24, 2026 (0 programs)
+ℹ   [7/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [8/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [9/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/artonline.tv/artonline.tv.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 9/10 @ 10:47:03 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=artonline.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 5 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:18150) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 24, 2026 (0 programs)
+ℹ   [7/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [8/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [9/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/artonline.tv/artonline.tv.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 10/10 @ 10:47:14 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=artonline.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 5 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:18277) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/10] artonline.tv (ar) - ARTAflam2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/10] artonline.tv (ar) - ARTAflam1.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 24, 2026 (0 programs)
+ℹ   [7/10] artonline.tv (ar) - ARTHekayat.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [8/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [9/10] artonline.tv (ar) - ARTCinema.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/10] artonline.tv (ar) - ARTHekayat2.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/artonline.tv/artonline.tv.xml"...
+✔   done in 00h 00m 01s

@@ -1,0 +1,280 @@
+═══════════════════════════════════════════════════════════════
+  Site            : thesportplus.com
+  Status          : EMPTY
+  Attempts used   : 10 / 10
+  Total elapsed   : 113s
+  Channels        : 60
+  With programmes : 0
+  Empty channels  : 60
+  Total programs  : 0
+  Output size     : 0 bytes
+  HTTP errors     :
+    48 status code 403
+  Other errors    :
+    12 socket hang up
+  Last error      : Request failed with status code 403
+  Generated       : 2026-04-24 12:24:42
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 12:22:49 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=thesportplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] thesportplus.com (en) - aus - Apr 24, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   [2/6] thesportplus.com (en) - aus - Apr 25, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   [3/6] thesportplus.com (en) - euro - Apr 24, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   [4/6] thesportplus.com (en) - usa - Apr 24, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   [5/6] thesportplus.com (en) - euro - Apr 25, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   [6/6] thesportplus.com (en) - usa - Apr 25, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   saving to "/home/runner/workspace/sites/thesportplus.com/thesportplus.com.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 2/10 @ 12:23:00 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=thesportplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] thesportplus.com (en) - aus - Apr 24, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   [2/6] thesportplus.com (en) - euro - Apr 25, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   [3/6] thesportplus.com (en) - usa - Apr 24, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   [4/6] thesportplus.com (en) - aus - Apr 25, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   [5/6] thesportplus.com (en) - euro - Apr 24, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   [6/6] thesportplus.com (en) - usa - Apr 25, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   saving to "/home/runner/workspace/sites/thesportplus.com/thesportplus.com.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 3/10 @ 12:23:10 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=thesportplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] thesportplus.com (en) - aus - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/6] thesportplus.com (en) - euro - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/6] thesportplus.com (en) - euro - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/6] thesportplus.com (en) - aus - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/6] thesportplus.com (en) - usa - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/6] thesportplus.com (en) - usa - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/thesportplus.com/thesportplus.com.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 4/10 @ 12:23:21 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=thesportplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] thesportplus.com (en) - euro - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/6] thesportplus.com (en) - aus - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/6] thesportplus.com (en) - aus - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/6] thesportplus.com (en) - euro - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/6] thesportplus.com (en) - usa - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/6] thesportplus.com (en) - usa - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/thesportplus.com/thesportplus.com.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 5/10 @ 12:23:34 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=thesportplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] thesportplus.com (en) - aus - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/6] thesportplus.com (en) - euro - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/6] thesportplus.com (en) - euro - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/6] thesportplus.com (en) - aus - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/6] thesportplus.com (en) - usa - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/6] thesportplus.com (en) - usa - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/thesportplus.com/thesportplus.com.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 6/10 @ 12:23:45 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=thesportplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] thesportplus.com (en) - aus - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/6] thesportplus.com (en) - usa - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/6] thesportplus.com (en) - euro - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/6] thesportplus.com (en) - aus - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/6] thesportplus.com (en) - euro - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/6] thesportplus.com (en) - usa - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/thesportplus.com/thesportplus.com.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 7/10 @ 12:23:56 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=thesportplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] thesportplus.com (en) - aus - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/6] thesportplus.com (en) - usa - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/6] thesportplus.com (en) - euro - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/6] thesportplus.com (en) - aus - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/6] thesportplus.com (en) - euro - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/6] thesportplus.com (en) - usa - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/thesportplus.com/thesportplus.com.xml"...
+✔   done in 00h 00m 02s
+
+===== attempt 8/10 @ 12:24:07 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=thesportplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] thesportplus.com (en) - usa - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/6] thesportplus.com (en) - aus - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/6] thesportplus.com (en) - aus - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/6] thesportplus.com (en) - euro - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/6] thesportplus.com (en) - euro - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/6] thesportplus.com (en) - usa - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/thesportplus.com/thesportplus.com.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 9/10 @ 12:24:18 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=thesportplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] thesportplus.com (en) - aus - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/6] thesportplus.com (en) - euro - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/6] thesportplus.com (en) - aus - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/6] thesportplus.com (en) - usa - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/6] thesportplus.com (en) - euro - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/6] thesportplus.com (en) - usa - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/thesportplus.com/thesportplus.com.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 10/10 @ 12:24:32 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=thesportplus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] thesportplus.com (en) - euro - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/6] thesportplus.com (en) - usa - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/6] thesportplus.com (en) - aus - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/6] thesportplus.com (en) - euro - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/6] thesportplus.com (en) - aus - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/6] thesportplus.com (en) - usa - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/thesportplus.com/thesportplus.com.xml"...
+✔   done in 00h 00m 01s

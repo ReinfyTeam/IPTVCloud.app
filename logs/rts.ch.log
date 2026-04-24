@@ -1,0 +1,35 @@
+═══════════════════════════════════════════════════════════════
+  Site            : rts.ch
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 7s
+  Channels        : 6
+  With programmes : 6
+  Empty channels  : 0
+  Total programs  : 148
+  Output size     : 69634 bytes
+  Generated       : 2026-04-24 11:49:59
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 11:49:52 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=rts.ch --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] rts.ch (fr) - RTSInfo.ch@SD - Apr 24, 2026 (3 programs)
+ℹ   [2/6] rts.ch (fr) - RTS2.ch@SD - Apr 24, 2026 (40 programs)
+ℹ   [3/6] rts.ch (fr) - RTS2.ch@SD - Apr 25, 2026 (33 programs)
+ℹ   [4/6] rts.ch (fr) - RTS1.ch@SD - Apr 25, 2026 (31 programs)
+ℹ   [5/6] rts.ch (fr) - RTSInfo.ch@SD - Apr 25, 2026 (2 programs)
+ℹ   [6/6] rts.ch (fr) - RTS1.ch@SD - Apr 24, 2026 (39 programs)
+ℹ   saving to "/home/runner/workspace/sites/rts.ch/rts.ch.xml"...
+✔   done in 00h 00m 01s

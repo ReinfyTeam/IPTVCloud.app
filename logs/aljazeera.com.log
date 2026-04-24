@@ -1,0 +1,35 @@
+═══════════════════════════════════════════════════════════════
+  Site            : aljazeera.com
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 22s
+  Channels        : 6
+  With programmes : 4
+  Empty channels  : 2
+  Total programs  : 101
+  Output size     : 26656 bytes
+  Generated       : 2026-04-24 10:44:56
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 10:44:34 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=aljazeera.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] aljazeera.com (en) - AlJazeera.qa@English - Apr 24, 2026 (32 programs)
+ℹ   [2/6] aljazeera.com (ar) - AlJazeera2.qa@HD - Apr 24, 2026 (11 programs)
+ℹ   [3/6] aljazeera.com (ar) - AlJazeera2.qa@HD - Apr 25, 2026 (0 programs)
+ℹ   [4/6] aljazeera.com (en) - AlJazeera.qa@English - Apr 25, 2026 (35 programs)
+ℹ   [5/6] aljazeera.com (ar) - AlJazeera.qa@Arabic - Apr 25, 2026 (0 programs)
+ℹ   [6/6] aljazeera.com (ar) - AlJazeera.qa@Arabic - Apr 24, 2026 (23 programs)
+ℹ   saving to "/home/runner/workspace/sites/aljazeera.com/aljazeera.com.xml"...
+✔   done in 00h 00m 01s

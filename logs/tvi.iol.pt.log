@@ -1,0 +1,43 @@
+═══════════════════════════════════════════════════════════════
+  Site            : tvi.iol.pt
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 6s
+  Channels        : 14
+  With programmes : 12
+  Empty channels  : 2
+  Total programs  : 194
+  Output size     : 48599 bytes
+  Generated       : 2026-04-24 12:40:40
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 12:40:34 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvi.iol.pt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 7 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/14] tvi.iol.pt (pt) - TVI.pt@SD - Apr 25, 2026 (15 programs)
+ℹ   [2/14] tvi.iol.pt (pt) - TVI.pt@SD - Apr 24, 2026 (17 programs)
+ℹ   [3/14] tvi.iol.pt (pt) - TVIAfrica.pt@SD - Apr 24, 2026 (0 programs)
+ℹ   [4/14] tvi.iol.pt (pt) - CNNPortugal.pt@SD - Apr 24, 2026 (23 programs)
+ℹ   [5/14] tvi.iol.pt (pt) - CNNPortugal.pt@SD - Apr 25, 2026 (20 programs)
+ℹ   [6/14] tvi.iol.pt (pt) - TVIAfrica.pt@SD - Apr 25, 2026 (0 programs)
+ℹ   [7/14] tvi.iol.pt (pt) - TVIFiccao.pt@SD - Apr 24, 2026 (17 programs)
+ℹ   [8/14] tvi.iol.pt (pt) - TVIFiccao.pt@SD - Apr 25, 2026 (15 programs)
+ℹ   [9/14] tvi.iol.pt (pt) - TVIInternacional.pt@SD - Apr 24, 2026 (17 programs)
+ℹ   [10/14] tvi.iol.pt (pt) - TVIInternacional.pt@SD - Apr 25, 2026 (14 programs)
+ℹ   [11/14] tvi.iol.pt (pt) - TVIReality.pt@SD - Apr 25, 2026 (10 programs)
+ℹ   [12/14] tvi.iol.pt (pt) - TVIReality.pt@SD - Apr 24, 2026 (13 programs)
+ℹ   [13/14] tvi.iol.pt (pt) - VPlusTVI.pt@SD - Apr 25, 2026 (13 programs)
+ℹ   [14/14] tvi.iol.pt (pt) - VPlusTVI.pt@SD - Apr 24, 2026 (20 programs)
+ℹ   saving to "/home/runner/workspace/sites/tvi.iol.pt/tvi.iol.pt.xml"...
+✔   done in 00h 00m 02s

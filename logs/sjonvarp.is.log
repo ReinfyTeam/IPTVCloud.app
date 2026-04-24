@@ -1,0 +1,55 @@
+═══════════════════════════════════════════════════════════════
+  Site            : sjonvarp.is
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 7s
+  Channels        : 26
+  With programmes : 4
+  Empty channels  : 22
+  Total programs  : 69
+  Output size     : 31100 bytes
+  Generated       : 2026-04-24 11:59:26
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 11:59:19 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=sjonvarp.is --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 13 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/26] sjonvarp.is (is) - RUV2.is@SD - Apr 25, 2026 (1 programs)
+ℹ   [2/26] sjonvarp.is (is) - SiminnSport2.is@SD - Apr 24, 2026 (0 programs)
+ℹ   [3/26] sjonvarp.is (is) - RUV.is@SD - Apr 24, 2026 (23 programs)
+ℹ   [4/26] sjonvarp.is (is) - RUV2.is@SD - Apr 24, 2026 (4 programs)
+ℹ   [5/26] sjonvarp.is (is) - RUV.is@SD - Apr 25, 2026 (41 programs)
+ℹ   [6/26] sjonvarp.is (is) - SiminnSport2.is@SD - Apr 25, 2026 (0 programs)
+ℹ   [7/26] sjonvarp.is (is) - SiminnSport.is@SD - Apr 24, 2026 (0 programs)
+ℹ   [8/26] sjonvarp.is (is) - SjonvarpSimans.is@SD - Apr 24, 2026 (0 programs)
+ℹ   [9/26] sjonvarp.is (is) - SiminnSport.is@SD - Apr 25, 2026 (0 programs)
+ℹ   [10/26] sjonvarp.is (is) - SjonvarpSimans.is@SD - Apr 25, 2026 (0 programs)
+ℹ   [11/26] sjonvarp.is (is) - Stod2.is@SD - Apr 24, 2026 (0 programs)
+ℹ   [12/26] sjonvarp.is (is) - Stod2.is@SD - Apr 25, 2026 (0 programs)
+ℹ   [13/26] sjonvarp.is (is) - Stod2Esport.is@SD - Apr 24, 2026 (0 programs)
+ℹ   [14/26] sjonvarp.is (is) - Stod2Esport.is@SD - Apr 25, 2026 (0 programs)
+ℹ   [15/26] sjonvarp.is (is) - Stod2Fjolskylda.is@SD - Apr 24, 2026 (0 programs)
+ℹ   [16/26] sjonvarp.is (is) - Stod2Fjolskylda.is@SD - Apr 25, 2026 (0 programs)
+ℹ   [17/26] sjonvarp.is (is) - Stod2Golf.is@SD - Apr 24, 2026 (0 programs)
+ℹ   [18/26] sjonvarp.is (is) - Stod2Golf.is@SD - Apr 25, 2026 (0 programs)
+ℹ   [19/26] sjonvarp.is (is) - Stod2Sport2.is@SD - Apr 24, 2026 (0 programs)
+ℹ   [20/26] sjonvarp.is (is) - Stod2Sport2.is@SD - Apr 25, 2026 (0 programs)
+ℹ   [21/26] sjonvarp.is (is) - Stod2Sport3.is@SD - Apr 24, 2026 (0 programs)
+ℹ   [22/26] sjonvarp.is (is) - Stod2Sport3.is@SD - Apr 25, 2026 (0 programs)
+ℹ   [23/26] sjonvarp.is (is) - Stod2Sport4.is@SD - Apr 24, 2026 (0 programs)
+ℹ   [24/26] sjonvarp.is (is) - Stod2Sport4.is@SD - Apr 25, 2026 (0 programs)
+ℹ   [25/26] sjonvarp.is (is) - Stod2Sport.is@SD - Apr 24, 2026 (0 programs)
+ℹ   [26/26] sjonvarp.is (is) - Stod2Sport.is@SD - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/sjonvarp.is/sjonvarp.is.xml"...
+✔   done in 00h 00m 02s

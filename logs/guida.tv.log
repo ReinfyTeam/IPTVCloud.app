@@ -1,0 +1,224 @@
+═══════════════════════════════════════════════════════════════
+  Site            : guida.tv
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 34s
+  Channels        : 176
+  With programmes : 158
+  Empty channels  : 18
+  Total programs  : 5804
+  Output size     : 1249849 bytes
+  HTTP errors     :
+    16 status code 404
+  Last error      : Request failed with status code 404
+  Generated       : 2026-04-24 11:03:51
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 11:03:16 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=guida.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 88 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/176] guida.tv (it) - Eurosport1.fr@Italy - Apr 24, 2026 (15 programs)
+ℹ   [2/176] guida.tv (it) - Cielo.it@SD - Apr 25, 2026 (23 programs)
+ℹ   [3/176] guida.tv (it) - Cielo.it@SD - Apr 24, 2026 (27 programs)
+ℹ   [4/176] guida.tv (it) - Canale5.it@SD - Apr 25, 2026 (34 programs)
+ℹ   [5/176] guida.tv (it) - Canale5.it@SD - Apr 24, 2026 (33 programs)
+ℹ   [6/176] guida.tv (it) - Eurosport1.fr@Italy - Apr 25, 2026 (11 programs)
+ℹ   [7/176] guida.tv (it) - Italia1.it@SD - Apr 24, 2026 (32 programs)
+ℹ   [8/176] guida.tv (it) - Italia1.it@SD - Apr 25, 2026 (37 programs)
+ℹ   [9/176] guida.tv (it) - Italia2.it@SD - Apr 24, 2026 (48 programs)
+ℹ   [10/176] guida.tv (it) - Italia2.it@SD - Apr 25, 2026 (47 programs)
+ℹ   [11/176] guida.tv (it) - Rete4.it@SD - Apr 25, 2026 (22 programs)
+ℹ   [12/176] guida.tv (it) - Rete4.it@SD - Apr 24, 2026 (25 programs)
+ℹ   [13/176] guida.tv (it) - LA7.it@SD - Apr 24, 2026 (32 programs)
+ℹ   [14/176] guida.tv (it) - LA7.it@SD - Apr 25, 2026 (32 programs)
+ℹ   [15/176] guida.tv (it) - TV8.it@SD - Apr 24, 2026 (22 programs)
+ℹ   [16/176] guida.tv (it) - TV8.it@SD - Apr 25, 2026 (30 programs)
+ℹ   [17/176] guida.tv (it) - RaiNews24.it@SD - Apr 24, 2026 (57 programs)
+ℹ   [18/176] guida.tv (it) - Rai2.it@SD - Apr 24, 2026 (41 programs)
+ℹ   [19/176] guida.tv (it) - RaiNews24.it@SD - Apr 25, 2026 (67 programs)
+ℹ   [20/176] guida.tv (it) - Rai2.it@SD - Apr 25, 2026 (36 programs)
+ℹ   [21/176] guida.tv (it) - Rai3.it@HD - Apr 24, 2026 (40 programs)
+ℹ   [22/176] guida.tv (it) - Rai4.it@SD - Apr 25, 2026 (28 programs)
+ℹ   [23/176] guida.tv (it) - Rai4.it@SD - Apr 24, 2026 (31 programs)
+ℹ   [24/176] guida.tv (it) - Rai3.it@HD - Apr 25, 2026 (35 programs)
+ℹ   [25/176] guida.tv (it) - Rai5.it@SD - Apr 24, 2026 (33 programs)
+ℹ   [26/176] guida.tv (it) - Rai5.it@SD - Apr 25, 2026 (30 programs)
+ℹ   [27/176] guida.tv (it) - 7Gold.it@SD - Apr 24, 2026 (15 programs)
+ℹ   [28/176] guida.tv (it) - Rai1.it@SD - Apr 24, 2026 (32 programs)
+ℹ   [29/176] guida.tv (it) - Rai1.it@SD - Apr 25, 2026 (35 programs)
+ℹ   [30/176] guida.tv (it) - 7Gold.it@SD - Apr 25, 2026 (15 programs)
+ℹ   [31/176] guida.tv (it) - AlmaTV.it@SD - Apr 24, 2026 (34 programs)
+ℹ   [32/176] guida.tv (it) - SkySportTennis.it@SD - Apr 24, 2026 (7 programs)
+ℹ   [33/176] guida.tv (it) - SkySportTennis.it@SD - Apr 25, 2026 (5 programs)
+ℹ   [34/176] guida.tv (it) - AlmaTV.it@SD - Apr 25, 2026 (34 programs)
+ℹ   [35/176] guida.tv (it) - Boing.it@SD - Apr 24, 2026 (20 programs)
+ℹ   [36/176] guida.tv (it) - Boing.it@SD - Apr 25, 2026 (15 programs)
+ℹ   [37/176] guida.tv (it) - CacciaePesca.it@SD - Apr 24, 2026 (45 programs)
+ℹ   [38/176] guida.tv (it) - CacciaePesca.it@SD - Apr 25, 2026 (46 programs)
+ℹ   [39/176] guida.tv (it) - Cartoonito.it@SD - Apr 24, 2026 (50 programs)
+ℹ   [40/176] guida.tv (it) - Cine34.it@SD - Apr 24, 2026 (11 programs)
+ℹ   [41/176] guida.tv (it) - Cartoonito.it@SD - Apr 25, 2026 (46 programs)
+ℹ   [42/176] guida.tv (it) - Cine34.it@SD - Apr 25, 2026 (12 programs)
+ℹ   [43/176] guida.tv (it) - ClassCNBC.it@SD - Apr 24, 2026 (19 programs)
+ℹ   [44/176] guida.tv (it) - ClassCNBC.it@SD - Apr 25, 2026 (5 programs)
+ℹ   [45/176] guida.tv (it) - CrimePlusInvestigation.it@SD - Apr 24, 2026 (24 programs)
+ℹ   [46/176] guida.tv (it) - CrimePlusInvestigation.it@SD - Apr 25, 2026 (21 programs)
+ℹ   [47/176] guida.tv (it) - DiscoveryChannel.it@SD - Apr 24, 2026 (31 programs)
+ℹ   [48/176] guida.tv (it) - DeAJunior.it@SD - Apr 24, 2026 (137 programs)
+ℹ   [49/176] guida.tv (it) - DeAKids.it@SD - Apr 24, 2026 (102 programs)
+ℹ   [50/176] guida.tv (it) - DeAKids.it@SD - Apr 25, 2026 (110 programs)
+ℹ   [51/176] guida.tv (it) - DeAJunior.it@SD - Apr 25, 2026 (156 programs)
+ℹ   [52/176] guida.tv (it) - DiscoveryChannel.it@SD - Apr 25, 2026 (29 programs)
+ℹ   [53/176] guida.tv (it) - Nove.it@SD - Apr 25, 2026 (19 programs)
+ℹ   [54/176] guida.tv (it) - DMAX.it@SD - Apr 24, 2026 (24 programs)
+ℹ   [55/176] guida.tv (it) - Nove.it@SD - Apr 24, 2026 (26 programs)
+ℹ   [56/176] guida.tv (it) - DMAX.it@SD - Apr 25, 2026 (26 programs)
+ℹ   [57/176] guida.tv (it) - DonnaTV.it@SD - Apr 24, 2026 (24 programs)
+ℹ   [58/176] guida.tv (it) - Eurosport2.fr@Italy - Apr 25, 2026 (14 programs)
+ℹ   [59/176] guida.tv (it) - Eurosport2.fr@Italy - Apr 24, 2026 (17 programs)
+ℹ   [60/176] guida.tv (it) - DonnaTV.it@SD - Apr 25, 2026 (23 programs)
+ℹ   [61/176] guida.tv (it) - FoodNetwork.it@SD - Apr 24, 2026 (34 programs)
+ℹ   [62/176] guida.tv (it) - FoodNetwork.it@SD - Apr 25, 2026 (39 programs)
+ℹ   [63/176] guida.tv (it) - Focus.it@SD - Apr 25, 2026 (27 programs)
+ℹ   [64/176] guida.tv (it) - Focus.it@SD - Apr 24, 2026 (29 programs)
+ℹ   [65/176] guida.tv (it) - GamberoRossoChannel.it@HD - Apr 24, 2026 (49 programs)
+ℹ   [66/176] guida.tv (it) - Giallo.it@SD - Apr 24, 2026 (19 programs)
+ℹ   [67/176] guida.tv (it) - GamberoRossoChannel.it@HD - Apr 25, 2026 (47 programs)
+ℹ   [68/176] guida.tv (it) - Giallo.it@SD - Apr 25, 2026 (19 programs)
+ℹ   [69/176] guida.tv (it) - HGTV.it@SD - Apr 24, 2026 (36 programs)
+ℹ   [70/176] guida.tv (it) - History.it@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [71/176] guida.tv (it) - History.it@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [72/176] guida.tv (it) - HGTV.it@SD - Apr 25, 2026 (27 programs)
+ℹ   [73/176] guida.tv (it) - MTVMusic.it@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [74/176] guida.tv (it) - MTVMusic.it@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [75/176] guida.tv (it) - InterTV.it@SD - Apr 24, 2026 (32 programs)
+ℹ   [76/176] guida.tv (it) - Frisbee.it@SD - Apr 25, 2026 (63 programs)
+ℹ   [77/176] guida.tv (it) - Frisbee.it@SD - Apr 24, 2026 (83 programs)
+ℹ   [78/176] guida.tv (it) - Iris.it@SD - Apr 24, 2026 (13 programs)
+ℹ   [79/176] guida.tv (it) - Iris.it@SD - Apr 25, 2026 (10 programs)
+ℹ   [80/176] guida.tv (it) - InterTV.it@SD - Apr 25, 2026 (56 programs)
+ℹ   [81/176] guida.tv (it) - Super.it@SD - Apr 24, 2026 (67 programs)
+ℹ   [82/176] guida.tv (it) - TV2000.it@SD - Apr 24, 2026 (31 programs)
+ℹ   [83/176] guida.tv (it) - Super.it@SD - Apr 25, 2026 (70 programs)
+ℹ   [84/176] guida.tv (it) - TV2000.it@SD - Apr 25, 2026 (27 programs)
+ℹ   [85/176] guida.tv (it) - ComedyCentral.it@SD - Apr 24, 2026 (0 programs)
+ℹ   [86/176] guida.tv (it) - ComedyCentral.it@SD - Apr 25, 2026 (0 programs)
+ℹ   [87/176] guida.tv (it) - CartoonNetwork.it@SD - Apr 24, 2026 (110 programs)
+ℹ   [88/176] guida.tv (it) - Nickelodeon.it@SD - Apr 24, 2026 (73 programs)
+ℹ   [89/176] guida.tv (it) - CartoonNetwork.it@SD - Apr 25, 2026 (104 programs)
+ℹ   [90/176] guida.tv (it) - NickJr.it@SD - Apr 24, 2026 (75 programs)
+ℹ   [91/176] guida.tv (it) - Nickelodeon.it@SD - Apr 25, 2026 (75 programs)
+ℹ   [92/176] guida.tv (it) - NickJr.it@SD - Apr 25, 2026 (76 programs)
+ℹ   [93/176] guida.tv (it) - K2.it@SD - Apr 24, 2026 (77 programs)
+ℹ   [94/176] guida.tv (it) - La5.it@SD - Apr 24, 2026 (26 programs)
+ℹ   [95/176] guida.tv (it) - K2.it@SD - Apr 25, 2026 (75 programs)
+ℹ   [96/176] guida.tv (it) - La5.it@SD - Apr 25, 2026 (22 programs)
+ℹ   [97/176] guida.tv (it) - LA7d.it@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [98/176] guida.tv (it) - LA7d.it@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [99/176] guida.tv (it) - MediasetExtra.it@SD - Apr 24, 2026 (9 programs)
+ℹ   [100/176] guida.tv (it) - MediasetExtra.it@SD - Apr 25, 2026 (9 programs)
+ℹ   [101/176] guida.tv (it) - 20.it@SD - Apr 24, 2026 (29 programs)
+ℹ   [102/176] guida.tv (it) - 20.it@SD - Apr 25, 2026 (23 programs)
+ℹ   [103/176] guida.tv (it) - MilanTV.it@SD - Apr 24, 2026 (23 programs)
+ℹ   [104/176] guida.tv (it) - MilanTV.it@SD - Apr 25, 2026 (32 programs)
+ℹ   [105/176] guida.tv (it) - PescaeCaccia.it@SD - Apr 24, 2026 (41 programs)
+ℹ   [106/176] guida.tv (it) - PescaeCaccia.it@SD - Apr 25, 2026 (43 programs)
+ℹ   [107/176] guida.tv (it) - Boomerang.it@SD - Apr 24, 2026 (122 programs)
+ℹ   [108/176] guida.tv (it) - Boomerang.it@SD - Apr 25, 2026 (119 programs)
+ℹ   [109/176] guida.tv (it) - RaiGulp.it@SD - Apr 24, 2026 (92 programs)
+ℹ   [110/176] guida.tv (it) - RaiMovie.it@SD - Apr 24, 2026 (15 programs)
+ℹ   [111/176] guida.tv (it) - RaiMovie.it@SD - Apr 25, 2026 (15 programs)
+ℹ   [112/176] guida.tv (it) - RaiPremium.it@SD - Apr 24, 2026 (24 programs)
+ℹ   [113/176] guida.tv (it) - RaiGulp.it@SD - Apr 25, 2026 (85 programs)
+ℹ   [114/176] guida.tv (it) - RaiPremium.it@SD - Apr 25, 2026 (23 programs)
+ℹ   [115/176] guida.tv (it) - RaiSport.it@HD - Apr 24, 2026 (20 programs)
+ℹ   [116/176] guida.tv (it) - RaiSport.it@HD - Apr 25, 2026 (16 programs)
+ℹ   [117/176] guida.tv (it) - RadioNorbaTV.it@SD - Apr 24, 2026 (29 programs)
+ℹ   [118/176] guida.tv (it) - RadioNorbaTV.it@SD - Apr 25, 2026 (24 programs)
+ℹ   [119/176] guida.tv (it) - RaiScuola.it@SD - Apr 24, 2026 (34 programs)
+ℹ   [120/176] guida.tv (it) - RaiScuola.it@SD - Apr 25, 2026 (34 programs)
+ℹ   [121/176] guida.tv (it) - RaiStoria.it@SD - Apr 24, 2026 (40 programs)
+ℹ   [122/176] guida.tv (it) - RaiStoria.it@SD - Apr 25, 2026 (29 programs)
+ℹ   [123/176] guida.tv (it) - RealTime.it@SD - Apr 24, 2026 (26 programs)
+ℹ   [124/176] guida.tv (it) - RealTime.it@SD - Apr 25, 2026 (20 programs)
+ℹ   [125/176] guida.tv (it) - RTL1025TV.it@SD - Apr 24, 2026 (13 programs)
+ℹ   [126/176] guida.tv (it) - RTL1025TV.it@SD - Apr 25, 2026 (12 programs)
+ℹ   [127/176] guida.tv (it) - EuronewsItalian.fr@SD - Apr 24, 2026 (81 programs)
+ℹ   [128/176] guida.tv (it) - SkyTG24.it@SD - Apr 24, 2026 (54 programs)
+ℹ   [129/176] guida.tv (it) - RaiYoyo.it@SD - Apr 25, 2026 (161 programs)
+ℹ   [130/176] guida.tv (it) - EuronewsItalian.fr@SD - Apr 25, 2026 (109 programs)
+ℹ   [131/176] guida.tv (it) - RaiYoyo.it@SD - Apr 24, 2026 (169 programs)
+ℹ   [132/176] guida.tv (it) - SkyCinemaComedy.it@SD - Apr 24, 2026 (13 programs)
+ℹ   [133/176] guida.tv (it) - SkyTG24.it@SD - Apr 25, 2026 (58 programs)
+ℹ   [134/176] guida.tv (it) - SkyCinemaComedy.it@SD - Apr 25, 2026 (15 programs)
+ℹ   [135/176] guida.tv (it) - SkyCinemaDue.it@SD - Apr 24, 2026 (12 programs)
+ℹ   [136/176] guida.tv (it) - SkyCinemaDue.it@SD - Apr 25, 2026 (12 programs)
+ℹ   [137/176] guida.tv (it) - SkyCinemaCollection.it@SD - Apr 24, 2026 (11 programs)
+ℹ   [138/176] guida.tv (it) - SkyCinemaCollection.it@SD - Apr 25, 2026 (13 programs)
+ℹ   [139/176] guida.tv (it) - 83756572/sky-arte-hdtv - Apr 24, 2026 (25 programs)
+ℹ   [140/176] guida.tv (it) - 83756572/sky-arte-hdtv - Apr 25, 2026 (20 programs)
+ℹ   [141/176] guida.tv (it) - SkyAtlantic.it@HD - Apr 24, 2026 (24 programs)
+ℹ   [142/176] guida.tv (it) - SkyAtlantic.it@HD - Apr 25, 2026 (25 programs)
+ℹ   [143/176] guida.tv (it) - SkyCinemaAction.it@SD - Apr 24, 2026 (11 programs)
+ℹ   [144/176] guida.tv (it) - SkyCinemaAction.it@SD - Apr 25, 2026 (12 programs)
+ℹ   [145/176] guida.tv (it) - SkyCinemaUno.it@SD - Apr 24, 2026 (12 programs)
+ℹ   [146/176] guida.tv (it) - SkyCinemaUno.it@SD - Apr 25, 2026 (13 programs)
+ℹ   [147/176] guida.tv (it) - SkyCinemaDrama.it@SD - Apr 24, 2026 (12 programs)
+ℹ   [148/176] guida.tv (it) - SkyCinemaDrama.it@SD - Apr 25, 2026 (12 programs)
+ℹ   [149/176] guida.tv (it) - SkyCinemaFamily.it@SD - Apr 24, 2026 (16 programs)
+ℹ   [150/176] guida.tv (it) - SkyCinemaFamily.it@SD - Apr 25, 2026 (15 programs)
+ℹ   [151/176] guida.tv (it) - SkySportFootball.it@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [152/176] guida.tv (it) - SkySportFootball.it@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [153/176] guida.tv (it) - 83757866/sky-sport-nba - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [154/176] guida.tv (it) - 83757866/sky-sport-nba - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [155/176] guida.tv (it) - SkyCinemaRomance.it@SD - Apr 24, 2026 (13 programs)
+ℹ   [156/176] guida.tv (it) - SkyCinemaRomance.it@SD - Apr 25, 2026 (13 programs)
+ℹ   [157/176] guida.tv (it) - SkySport24.it@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [158/176] guida.tv (it) - SkySport24.it@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [159/176] guida.tv (it) - SkyCinemaSuspense.it@SD - Apr 24, 2026 (13 programs)
+ℹ   [160/176] guida.tv (it) - SkyCinemaSuspense.it@SD - Apr 25, 2026 (13 programs)
+ℹ   [161/176] guida.tv (it) - SkyUno.it@SD - Apr 24, 2026 (18 programs)
+ℹ   [162/176] guida.tv (it) - SkyUno.it@SD - Apr 25, 2026 (17 programs)
+ℹ   [163/176] guida.tv (it) - SanMarinoRTV.sm@SD - Apr 24, 2026 (27 programs)
+ℹ   [164/176] guida.tv (it) - SkySportMotoGP.it@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [165/176] guida.tv (it) - SanMarinoRTV.sm@SD - Apr 25, 2026 (28 programs)
+ℹ   [166/176] guida.tv (it) - SkySportMotoGP.it@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [167/176] guida.tv (it) - Sportitalia.it@SD - Apr 25, 2026 (15 programs)
+ℹ   [168/176] guida.tv (it) - Sportitalia.it@SD - Apr 24, 2026 (34 programs)
+ℹ   [169/176] guida.tv (it) - SkySportUno.it@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [170/176] guida.tv (it) - SkySportF1.it@SD - Apr 24, 2026 (22 programs)
+ℹ   [171/176] guida.tv (it) - SkySportF1.it@SD - Apr 25, 2026 (26 programs)
+ℹ   [172/176] guida.tv (it) - SkySportUno.it@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [173/176] guida.tv (it) - SuperTennis.it@HD - Apr 24, 2026 (19 programs)
+ℹ   [174/176] guida.tv (it) - TopCalcio24.it@SD - Apr 25, 2026 (13 programs)
+ℹ   [175/176] guida.tv (it) - SuperTennis.it@HD - Apr 25, 2026 (18 programs)
+ℹ   [176/176] guida.tv (it) - TopCalcio24.it@SD - Apr 24, 2026 (21 programs)
+ℹ   saving to "/home/runner/workspace/sites/guida.tv/guida.tv.xml"...
+✔   done in 00h 00m 23s

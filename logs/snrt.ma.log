@@ -1,0 +1,51 @@
+═══════════════════════════════════════════════════════════════
+  Site            : snrt.ma
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 12s
+  Channels        : 22
+  With programmes : 22
+  Empty channels  : 0
+  Total programs  : 860
+  Output size     : 146996 bytes
+  Generated       : 2026-04-24 12:02:41
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 12:02:28 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=snrt.ma --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 11 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/22] snrt.ma (ar) - LaayouneTV.ma@SD - Apr 24, 2026 (7 programs)
+ℹ   [2/22] snrt.ma (ar) - Arryadia.ma@HD - Apr 24, 2026 (29 programs)
+ℹ   [3/22] snrt.ma (ar) - LaayouneTV.ma@SD - Apr 25, 2026 (6 programs)
+ℹ   [4/22] snrt.ma (ar) - AlAoula.ma@SD - Apr 24, 2026 (41 programs)
+ℹ   [5/22] snrt.ma (ar) - Arryadia.ma@HD - Apr 25, 2026 (26 programs)
+ℹ   [6/22] snrt.ma (ar) - AlAoula.ma@SD - Apr 25, 2026 (38 programs)
+ℹ   [7/22] snrt.ma (ar) - Athaqafia.ma@SD - Apr 24, 2026 (20 programs)
+ℹ   [8/22] snrt.ma (ar) - Athaqafia.ma@SD - Apr 25, 2026 (19 programs)
+ℹ   [9/22] snrt.ma (ar) - AlMaghribia.ma@SD - Apr 24, 2026 (46 programs)
+ℹ   [10/22] snrt.ma (ar) - Assadissa.ma@SD - Apr 24, 2026 (49 programs)
+ℹ   [11/22] snrt.ma (ar) - TamazightTV.ma@SD - Apr 24, 2026 (33 programs)
+ℹ   [12/22] snrt.ma (ar) - AlMaghribia.ma@SD - Apr 25, 2026 (45 programs)
+ℹ   [13/22] snrt.ma (ar) - TamazightTV.ma@SD - Apr 25, 2026 (30 programs)
+ℹ   [14/22] snrt.ma (ar) - Assadissa.ma@SD - Apr 25, 2026 (52 programs)
+ℹ   [15/22] snrt.ma (ar) - 4076 - Apr 24, 2026 (62 programs)
+ℹ   [16/22] snrt.ma (ar) - 4076 - Apr 25, 2026 (62 programs)
+ℹ   [17/22] snrt.ma (ar) - 4077 - Apr 24, 2026 (70 programs)
+ℹ   [18/22] snrt.ma (ar) - 4077 - Apr 25, 2026 (35 programs)
+ℹ   [19/22] snrt.ma (ar) - 4078 - Apr 24, 2026 (43 programs)
+ℹ   [20/22] snrt.ma (ar) - 4078 - Apr 25, 2026 (53 programs)
+ℹ   [21/22] snrt.ma (ar) - 4079 - Apr 24, 2026 (49 programs)
+ℹ   [22/22] snrt.ma (ar) - 4079 - Apr 25, 2026 (45 programs)
+ℹ   saving to "/home/runner/workspace/sites/snrt.ma/snrt.ma.xml"...
+✔   done in 00h 00m 07s

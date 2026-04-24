@@ -1,0 +1,623 @@
+═══════════════════════════════════════════════════════════════
+  Site            : elcinema.com
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 49s
+  Channels        : 396
+  With programmes : 186
+  Empty channels  : 210
+  Total programs  : 3198
+  Output size     : 1456854 bytes
+  HTTP errors     :
+    192 status code 429
+  Other errors    :
+    1 socket hang up
+  Last error      : Request failed with status code 429
+  Generated       : 2026-04-24 10:51:24
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 10:50:35 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=elcinema.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 198 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/396] elcinema.com (ar) - MBC1.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [2/396] elcinema.com (ar) - AlMasriyah.eg@SD - Apr 25, 2026 (24 programs)
+ℹ   [3/396] elcinema.com (ar) - AlMasriyah.eg@SD - Apr 24, 2026 (11 programs)
+ℹ   [4/396] elcinema.com (ar) - ERTU1.eg@SD - Apr 24, 2026 (11 programs)
+ℹ   [5/396] elcinema.com (ar) - ERTU1.eg@SD - Apr 25, 2026 (24 programs)
+ℹ   [6/396] elcinema.com (ar) - MBC1.ae@SD - Apr 25, 2026 (18 programs)
+ℹ   [7/396] elcinema.com (ar) - MBC2.ae@SD - Apr 24, 2026 (6 programs)
+ℹ   [8/396] elcinema.com (ar) - MBC4.ae@SD - Apr 24, 2026 (7 programs)
+ℹ   [9/396] elcinema.com (ar) - MBC2.ae@SD - Apr 25, 2026 (11 programs)
+ℹ   [10/396] elcinema.com (ar) - MBC4.ae@SD - Apr 25, 2026 (15 programs)
+ℹ   [11/396] elcinema.com (ar) - MBCAction.ae@SD - Apr 24, 2026 (13 programs)
+ℹ   [12/396] elcinema.com (ar) - MBCPlusDrama.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [13/396] elcinema.com (ar) - MBCPlusDrama.sa@SD - Apr 24, 2026 (8 programs)
+ℹ   [14/396] elcinema.com (ar) - MBCAction.ae@SD - Apr 25, 2026 (22 programs)
+ℹ   [15/396] elcinema.com (ar) - MBCMax.ae@SD - Apr 24, 2026 (6 programs)
+ℹ   [16/396] elcinema.com (ar) - OnDrama.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [17/396] elcinema.com (ar) - OnDrama.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [18/396] elcinema.com (ar) - 1135 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [19/396] elcinema.com (ar) - MBCMax.ae@SD - Apr 25, 2026 (11 programs)
+ℹ   [20/396] elcinema.com (ar) - AbuDhabiTV.ae@SD - Apr 24, 2026 (14 programs)
+ℹ   [21/396] elcinema.com (ar) - 1135 - Apr 25, 2026 (38 programs)
+ℹ   [22/396] elcinema.com (ar) - AbuDhabiTV.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [23/396] elcinema.com (ar) - AlhayatTV.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [24/396] elcinema.com (ar) - AlhayatTV.eg@SD - Apr 25, 2026 (20 programs)
+ℹ   [25/396] elcinema.com (ar) - ElMehwarChannel.eg@SD - Apr 24, 2026 (12 programs)
+ℹ   [26/396] elcinema.com (ar) - RotanaDrama.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [27/396] elcinema.com (ar) - RotanaDrama.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [28/396] elcinema.com (ar) - ElMehwarChannel.eg@SD - Apr 25, 2026 (20 programs)
+ℹ   [29/396] elcinema.com (ar) - RotanaCinemaEgypt.eg@SD - Apr 24, 2026 (7 programs)
+ℹ   [30/396] elcinema.com (ar) - RotanaKhalijia.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [31/396] elcinema.com (ar) - RotanaCinemaEgypt.eg@SD - Apr 25, 2026 (12 programs)
+ℹ   [32/396] elcinema.com (ar) - NileDrama.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [33/396] elcinema.com (ar) - NileLife.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [34/396] elcinema.com (ar) - RotanaKhalijia.sa@SD - Apr 25, 2026 (16 programs)
+ℹ   [35/396] elcinema.com (ar) - NileDrama.eg@SD - Apr 24, 2026 (12 programs)
+ℹ   [36/396] elcinema.com (ar) - NileLife.eg@SD - Apr 25, 2026 (21 programs)
+ℹ   [37/396] elcinema.com (ar) - LBCInternational.lb@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [38/396] elcinema.com (ar) - LBCInternational.lb@SD - Apr 24, 2026 (10 programs)
+ℹ   [39/396] elcinema.com (ar) - DubaiTV.ae@SD - Apr 24, 2026 (15 programs)
+ℹ   [40/396] elcinema.com (ar) - DubaiTV.ae@SD - Apr 25, 2026 (25 programs)
+ℹ   [41/396] elcinema.com (ar) - DubaiOne.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [42/396] elcinema.com (ar) - DubaiOne.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [43/396] elcinema.com (ar) - AlKaheraWalNas.eg@SD - Apr 24, 2026 (11 programs)
+ℹ   [44/396] elcinema.com (ar) - Cima.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [45/396] elcinema.com (ar) - AlKaheraWalNas.eg@SD - Apr 25, 2026 (21 programs)
+ℹ   [46/396] elcinema.com (ar) - SamaDubai.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [47/396] elcinema.com (ar) - Cima.eg@SD - Apr 25, 2026 (13 programs)
+ℹ   [48/396] elcinema.com (ar) - SamaDubai.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [49/396] elcinema.com (ar) - SharjahTV.ae@SD - Apr 24, 2026 (15 programs)
+ℹ   [50/396] elcinema.com (ar) - AlNahar.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [51/396] elcinema.com (ar) - MBCDrama.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [52/396] elcinema.com (ar) - AlNahar.eg@SD - Apr 25, 2026 (26 programs)
+ℹ   [53/396] elcinema.com (ar) - SharjahTV.ae@SD - Apr 25, 2026 (29 programs)
+ℹ   [54/396] elcinema.com (ar) - CBC.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [55/396] elcinema.com (ar) - CBCDrama.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [56/396] elcinema.com (ar) - MBCDrama.ae@SD - Apr 25, 2026 (27 programs)
+ℹ   [57/396] elcinema.com (ar) - CBCDrama.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [58/396] elcinema.com (ar) - CBC.eg@SD - Apr 25, 2026 (16 programs)
+ℹ   [59/396] elcinema.com (ar) - OnE.eg@SD - Apr 24, 2026 (9 programs)
+ℹ   [60/396] elcinema.com (ar) - OnE.eg@SD - Apr 25, 2026 (16 programs)
+ℹ   [61/396] elcinema.com (ar) - iFilmArabic.ir@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [62/396] elcinema.com (ar) - StarMoviesMiddleEast.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [63/396] elcinema.com (ar) - iFilmArabic.ir@SD - Apr 24, 2026 (11 programs)
+ℹ   [64/396] elcinema.com (ar) - StarMoviesMiddleEast.ae@SD - Apr 25, 2026 (14 programs)
+ℹ   [65/396] elcinema.com (ar) - AlJadeed.lb@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [66/396] elcinema.com (ar) - RotanaClassic.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [67/396] elcinema.com (ar) - RotanaClassic.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [68/396] elcinema.com (ar) - AlJadeed.lb@SD - Apr 25, 2026 (26 programs)
+ℹ   [69/396] elcinema.com (ar) - AlNaharDrama.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [70/396] elcinema.com (ar) - AlNaharDrama.eg@SD - Apr 24, 2026 (12 programs)
+ℹ   [71/396] elcinema.com (ar) - SadaElbalad.eg@SD - Apr 24, 2026 (12 programs)
+ℹ   [72/396] elcinema.com (ar) - SadaElbalad.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [73/396] elcinema.com (ar) - SadaElbaladDrama.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [74/396] elcinema.com (ar) - SadaElbaladDrama.eg@SD - Apr 24, 2026 (12 programs)
+ℹ   [75/396] elcinema.com (ar) - MBCMasr.eg@SD - Apr 24, 2026 (8 programs)
+ℹ   [76/396] elcinema.com (ar) - MBC3.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [77/396] elcinema.com (ar) - MBCMasr.eg@SD - Apr 25, 2026 (15 programs)
+ℹ   [78/396] elcinema.com (ar) - MBC3.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [79/396] elcinema.com (ar) - CartoonNetworkArabic.ae@SD - Apr 24, 2026 (7 programs)
+ℹ   [80/396] elcinema.com (ar) - CartoonNetworkArabic.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [81/396] elcinema.com (ar) - AlKaheraWalNas2.eg@SD - Apr 24, 2026 (10 programs)
+ℹ   [82/396] elcinema.com (ar) - AlKaheraWalNas2.eg@SD - Apr 25, 2026 (19 programs)
+ℹ   [83/396] elcinema.com (ar) - CBCSofra.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [84/396] elcinema.com (ar) - MBCBollywood.ae@SD - Apr 25, 2026 (9 programs)
+ℹ   [85/396] elcinema.com (ar) - MBCBollywood.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [86/396] elcinema.com (ar) - CBCSofra.eg@SD - Apr 25, 2026 (26 programs)
+ℹ   [87/396] elcinema.com (ar) - ZeeAlwan.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [88/396] elcinema.com (ar) - AlDafrahTV.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [89/396] elcinema.com (ar) - AlDafrahTV.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [90/396] elcinema.com (ar) - ZeeAlwan.ae@SD - Apr 25, 2026 (25 programs)
+ℹ   [91/396] elcinema.com (ar) - NationalGeographicAbuDhabi.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [92/396] elcinema.com (ar) - NationalGeographicAbuDhabi.ae@SD - Apr 24, 2026 (0 programs)
+ℹ   [93/396] elcinema.com (ar) - AlSharqiyaMinKabla.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [94/396] elcinema.com (ar) - AlSharqiyaMinKabla.ae@SD - Apr 24, 2026 (13 programs)
+ℹ   [95/396] elcinema.com (ar) - DiscoveryChannelMiddleEastAfrica.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [96/396] elcinema.com (ar) - NationalGeographicMiddleEast.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [97/396] elcinema.com (ar) - DiscoveryChannelMiddleEastAfrica.us@SD - Apr 24, 2026 (14 programs)
+ℹ   [98/396] elcinema.com (ar) - NationalGeographicMiddleEast.uk@SD - Apr 25, 2026 (26 programs)
+ℹ   [99/396] elcinema.com (ar) - MBCMasr2.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [100/396] elcinema.com (ar) - SadaElbalad2.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [101/396] elcinema.com (ar) - MBCMasr2.eg@SD - Apr 24, 2026 (8 programs)
+ℹ   [102/396] elcinema.com (ar) - SadaElbalad2.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [103/396] elcinema.com (ar) - DubaiZaman.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [104/396] elcinema.com (ar) - TeN.eg@SD - Apr 25, 2026 (24 programs)
+ℹ   [105/396] elcinema.com (ar) - DubaiZaman.ae@SD - Apr 25, 2026 (25 programs)
+ℹ   [106/396] elcinema.com (ar) - TeN.eg@SD - Apr 24, 2026 (12 programs)
+ℹ   [107/396] elcinema.com (ar) - DMC.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [108/396] elcinema.com (ar) - RotanaCinemaKSA.sa@SD - Apr 25, 2026 (12 programs)
+ℹ   [109/396] elcinema.com (ar) - RotanaCinemaKSA.sa@SD - Apr 24, 2026 (7 programs)
+ℹ   [110/396] elcinema.com (ar) - DMCDrama.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [111/396] elcinema.com (ar) - DMC.eg@SD - Apr 25, 2026 (20 programs)
+ℹ   [112/396] elcinema.com (ar) - MTV.lb@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [113/396] elcinema.com (ar) - SBC.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [114/396] elcinema.com (ar) - MTV.lb@SD - Apr 24, 2026 (13 programs)
+ℹ   [115/396] elcinema.com (ar) - DMCDrama.eg@SD - Apr 25, 2026 (24 programs)
+ℹ   [116/396] elcinema.com (ar) - SBC.sa@SD - Apr 25, 2026 (24 programs)
+ℹ   [117/396] elcinema.com (ar) - AmmanTV.jo@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [118/396] elcinema.com (ar) - AmmanTV.jo@SD - Apr 24, 2026 (12 programs)
+ℹ   [119/396] elcinema.com (ar) - RoyaTV.jo@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [120/396] elcinema.com (ar) - RoyaTV.jo@SD - Apr 25, 2026 (18 programs)
+ℹ   [121/396] elcinema.com (ar) - Alsumaria.iq@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [122/396] elcinema.com (ar) - FujairahTV.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [123/396] elcinema.com (ar) - FujairahTV.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [124/396] elcinema.com (ar) - Alsumaria.iq@SD - Apr 25, 2026 (25 programs)
+ℹ   [125/396] elcinema.com (ar) - NessmaElJadida.tn@SD - Apr 24, 2026 (15 programs)
+ℹ   [126/396] elcinema.com (ar) - AlRasheedTV.iq@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [127/396] elcinema.com (ar) - NessmaElJadida.tn@SD - Apr 25, 2026 (28 programs)
+ℹ   [128/396] elcinema.com (ar) - AlRasheedTV.iq@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [129/396] elcinema.com (ar) - ElWatania1.tn@SD - Apr 24, 2026 (0 programs)
+ℹ   [130/396] elcinema.com (ar) - ElWatania1.tn@SD - Apr 25, 2026 (0 programs)
+ℹ   [131/396] elcinema.com (ar) - beINDrama1.qa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [132/396] elcinema.com (ar) - KTV1.kw@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [133/396] elcinema.com (ar) - beINDrama1.qa@SD - Apr 25, 2026 (25 programs)
+ℹ   [134/396] elcinema.com (ar) - KTV1.kw@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [135/396] elcinema.com (ar) - AlAoula.ma@MiddleEast - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [136/396] elcinema.com (ar) - AlAoula.ma@MiddleEast - Apr 24, 2026 (22 programs)
+ℹ   [137/396] elcinema.com (ar) - LanaTV.lb@SD - Apr 24, 2026 (12 programs)
+ℹ   [138/396] elcinema.com (ar) - JordanTV.jo@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [139/396] elcinema.com (ar) - JordanTV.jo@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [140/396] elcinema.com (ar) - LanaTV.lb@SD - Apr 25, 2026 (24 programs)
+ℹ   [141/396] elcinema.com (ar) - EchoroukTV.dz@SD - Apr 24, 2026 (12 programs)
+ℹ   [142/396] elcinema.com (ar) - OmanTV.om@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [143/396] elcinema.com (ar) - EchoroukTV.dz@SD - Apr 25, 2026 (23 programs)
+ℹ   [144/396] elcinema.com (ar) - OmanTV.om@SD - Apr 24, 2026 (23 programs)
+ℹ   [145/396] elcinema.com (ar) - QatarTelevision.qa@SD - Apr 24, 2026 (0 programs)
+ℹ   [146/396] elcinema.com (ar) - AlManar.lb@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [147/396] elcinema.com (ar) - QatarTelevision.qa@SD - Apr 25, 2026 (0 programs)
+ℹ   [148/396] elcinema.com (ar) - AlManar.lb@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [149/396] elcinema.com (ar) - beINMovies1Premiere.qa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [150/396] elcinema.com (ar) - beINMovies1Premiere.qa@SD - Apr 24, 2026 (7 programs)
+ℹ   [151/396] elcinema.com (ar) - beINMovies2Action.qa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [152/396] elcinema.com (ar) - beINMovies3Drama.qa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [153/396] elcinema.com (ar) - beINMovies2Action.qa@SD - Apr 24, 2026 (6 programs)
+ℹ   [154/396] elcinema.com (ar) - beINMovies3Drama.qa@SD - Apr 25, 2026 (12 programs)
+ℹ   [155/396] elcinema.com (ar) - beINSeries1.qa@SD - Apr 24, 2026 (13 programs)
+ℹ   [156/396] elcinema.com (ar) - beINSeries2.qa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [157/396] elcinema.com (ar) - beINSeries1.qa@SD - Apr 25, 2026 (27 programs)
+ℹ   [158/396] elcinema.com (ar) - StarWorldMiddleEast.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [159/396] elcinema.com (ar) - FoxActionMoviesMENA.hk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [160/396] elcinema.com (ar) - StarWorldMiddleEast.ae@SD - Apr 24, 2026 (16 programs)
+ℹ   [161/396] elcinema.com (ar) - beINSeries2.qa@SD - Apr 25, 2026 (26 programs)
+ℹ   [162/396] elcinema.com (ar) - FoxActionMoviesMENA.hk@SD - Apr 25, 2026 (14 programs)
+ℹ   [163/396] elcinema.com (ar) - ElWatania2.tn@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [164/396] elcinema.com (ar) - ElWatania2.tn@SD - Apr 24, 2026 (0 programs)
+ℹ   [165/396] elcinema.com (ar) - MasperoZaman.eg@SD - Apr 24, 2026 (18 programs)
+ℹ   [166/396] elcinema.com (ar) - MasperoZaman.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [167/396] elcinema.com (ar) - AlSaeedah.eg@SD - Apr 24, 2026 (11 programs)
+ℹ   [168/396] elcinema.com (ar) - AlSaeedah.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [169/396] elcinema.com (ar) - MBCIraq.iq@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [170/396] elcinema.com (ar) - LBC.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [171/396] elcinema.com (ar) - MBCIraq.iq@SD - Apr 25, 2026 (12 programs)
+ℹ   [172/396] elcinema.com (ar) - AlIraqia.iq@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [173/396] elcinema.com (ar) - LBC.sa@SD - Apr 25, 2026 (20 programs)
+ℹ   [174/396] elcinema.com (ar) - AlSaudiya.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [175/396] elcinema.com (ar) - AlIraqia.iq@SD - Apr 24, 2026 (12 programs)
+ℹ   [176/396] elcinema.com (ar) - AlSaudiya.sa@SD - Apr 25, 2026 (26 programs)
+ℹ   [177/396] elcinema.com (ar) - 2MMonde.ma@SD - Apr 24, 2026 (19 programs)
+ℹ   [178/396] elcinema.com (ar) - 2MMonde.ma@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [179/396] elcinema.com (ar) - MBC5.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [180/396] elcinema.com (ar) - RotanaComedy.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [181/396] elcinema.com (ar) - MBC5.ae@SD - Apr 25, 2026 (26 programs)
+ℹ   [182/396] elcinema.com (ar) - SalamTV.ly@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [183/396] elcinema.com (ar) - SalamTV.ly@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [184/396] elcinema.com (ar) - RotanaComedy.sa@SD - Apr 25, 2026 (10 programs)
+ℹ   [185/396] elcinema.com (ar) - UTV.iq@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [186/396] elcinema.com (ar) - UTV.iq@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [187/396] elcinema.com (ar) - ThikrayatTV.sa@SD - Apr 24, 2026 (13 programs)
+ℹ   [188/396] elcinema.com (ar) - ThikrayatTV.sa@SD - Apr 25, 2026 (27 programs)
+ℹ   [189/396] elcinema.com (ar) - BahrainTV.bh@SD - Apr 24, 2026 (0 programs)
+ℹ   [190/396] elcinema.com (ar) - MixBelAraby.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [191/396] elcinema.com (ar) - BahrainTV.bh@SD - Apr 25, 2026 (0 programs)
+ℹ   [192/396] elcinema.com (ar) - MixBelAraby.eg@SD - Apr 25, 2026 (23 programs)
+ℹ   [193/396] elcinema.com (ar) - HadhramautTV.ye@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [194/396] elcinema.com (ar) - HadhramautTV.ye@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [195/396] elcinema.com (ar) - ATV.kw@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [196/396] elcinema.com (ar) - ATV.kw@SD - Apr 24, 2026 (14 programs)
+ℹ   [197/396] elcinema.com (ar) - AlArabyTV2.qa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [198/396] elcinema.com (ar) - DijlahTV.iq@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [199/396] elcinema.com (ar) - AlArabyTV2.qa@SD - Apr 24, 2026 (0 programs)
+ℹ   [200/396] elcinema.com (ar) - DijlahTV.iq@SD - Apr 25, 2026 (24 programs)
+ℹ   [201/396] elcinema.com (ar) - Althania.sy@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [202/396] elcinema.com (ar) - MBCMasrDrama.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [203/396] elcinema.com (ar) - MBCMasrDrama.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [204/396] elcinema.com (ar) - Althania.sy@SD - Apr 24, 2026 (12 programs)
+ℹ   [205/396] elcinema.com (ar) - Masah.sa@SD - Apr 24, 2026 (15 programs)
+ℹ   [206/396] elcinema.com (en) - ERTU1.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [207/396] elcinema.com (en) - ERTU1.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [208/396] elcinema.com (ar) - Masah.sa@SD - Apr 25, 2026 (28 programs)
+ℹ   [209/396] elcinema.com (en) - EgyptianTV.eg@SD - Apr 24, 2026 (11 programs)
+ℹ   [210/396] elcinema.com (en) - EgyptianTV.eg@SD - Apr 25, 2026 (24 programs)
+ℹ   [211/396] elcinema.com (en) - MBCAction.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [212/396] elcinema.com (en) - MBC2.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [213/396] elcinema.com (en) - MBC2.ae@SD - Apr 24, 2026 (6 programs)
+ℹ   [214/396] elcinema.com (en) - MBCAction.ae@SD - Apr 25, 2026 (22 programs)
+ℹ   [215/396] elcinema.com (en) - MBCMax.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [216/396] elcinema.com (en) - OnDrama.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [217/396] elcinema.com (en) - OnDrama.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [218/396] elcinema.com (en) - MBCMax.ae@SD - Apr 25, 2026 (11 programs)
+ℹ   [219/396] elcinema.com (en) - AbuDhabiTV.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [220/396] elcinema.com (en) - 1135 - Apr 25, 2026 (38 programs)
+ℹ   [221/396] elcinema.com (en) - 1135 - Apr 24, 2026 (16 programs)
+ℹ   [222/396] elcinema.com (en) - AbuDhabiTV.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [223/396] elcinema.com (en) - AlhayatTV.eg@SD - Apr 24, 2026 (12 programs)
+ℹ   [224/396] elcinema.com (en) - ElMehwarChannel.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [225/396] elcinema.com (en) - ElMehwarChannel.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [226/396] elcinema.com (en) - RotanaDrama.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [227/396] elcinema.com (en) - AlhayatTV.eg@SD - Apr 25, 2026 (20 programs)
+ℹ   [228/396] elcinema.com (en) - RotanaDrama.sa@SD - Apr 25, 2026 (24 programs)
+ℹ   [229/396] elcinema.com (en) - RotanaCinemaEgypt.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [230/396] elcinema.com (en) - RotanaKhalijia.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [231/396] elcinema.com (en) - RotanaCinemaEgypt.eg@SD - Apr 24, 2026 (7 programs)
+ℹ   [232/396] elcinema.com (en) - NileLife.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [233/396] elcinema.com (en) - RotanaKhalijia.sa@SD - Apr 25, 2026 (16 programs)
+ℹ   [234/396] elcinema.com (en) - NileLife.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [235/396] elcinema.com (en) - NileDrama.eg@SD - Apr 24, 2026 (12 programs)
+ℹ   [236/396] elcinema.com (en) - NileDrama.eg@SD - Apr 25, 2026 (24 programs)
+ℹ   [237/396] elcinema.com (en) - LBCInternational.lb@SD - Apr 24, 2026 (10 programs)
+ℹ   [238/396] elcinema.com (en) - LBCInternational.lb@SD - Apr 25, 2026 (20 programs)
+ℹ   [239/396] elcinema.com (en) - DubaiTV.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [240/396] elcinema.com (en) - DubaiTV.ae@SD - Apr 24, 2026 (15 programs)
+ℹ   [241/396] elcinema.com (en) - DubaiOne.ae@SD - Apr 24, 2026 (10 programs)
+ℹ   [242/396] elcinema.com (en) - DubaiOne.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [243/396] elcinema.com (en) - AlKaheraWalNas.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [244/396] elcinema.com (en) - AlKaheraWalNas.eg@SD - Apr 24, 2026 (11 programs)
+ℹ   [245/396] elcinema.com (en) - Cima.eg@SD - Apr 24, 2026 (6 programs)
+ℹ   [246/396] elcinema.com (en) - Cima.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [247/396] elcinema.com (en) - SamaDubai.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [248/396] elcinema.com (en) - SamaDubai.ae@SD - Apr 25, 2026 (33 programs)
+ℹ   [249/396] elcinema.com (en) - SharjahTV.ae@SD - Apr 24, 2026 (15 programs)
+ℹ   [250/396] elcinema.com (en) - SharjahTV.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [251/396] elcinema.com (en) - AlNahar.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [252/396] elcinema.com (en) - AlNahar.eg@SD - Apr 24, 2026 (13 programs)
+ℹ   [253/396] elcinema.com (en) - MBCDrama.ae@SD - Apr 24, 2026 (14 programs)
+ℹ   [254/396] elcinema.com (en) - CBC.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [255/396] elcinema.com (en) - CBC.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [256/396] elcinema.com (en) - MBCDrama.ae@SD - Apr 25, 2026 (27 programs)
+ℹ   [257/396] elcinema.com (en) - CBCDrama.eg@SD - Apr 24, 2026 (12 programs)
+ℹ   [258/396] elcinema.com (en) - OnE.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [259/396] elcinema.com (en) - CBCDrama.eg@SD - Apr 25, 2026 (24 programs)
+ℹ   [260/396] elcinema.com (en) - OnE.eg@SD - Apr 24, 2026 (9 programs)
+ℹ   [261/396] elcinema.com (en) - iFilmArabic.ir@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [262/396] elcinema.com (en) - iFilmArabic.ir@SD - Apr 24, 2026 (11 programs)
+ℹ   [263/396] elcinema.com (en) - StarMoviesMiddleEast.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [264/396] elcinema.com (en) - AlJadeed.lb@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [265/396] elcinema.com (en) - StarMoviesMiddleEast.ae@SD - Apr 24, 2026 (7 programs)
+ℹ   [266/396] elcinema.com (en) - AlJadeed.lb@SD - Apr 25, 2026 (26 programs)
+ℹ   [267/396] elcinema.com (en) - RotanaClassic.sa@SD - Apr 24, 2026 (8 programs)
+ℹ   [268/396] elcinema.com (en) - RotanaClassic.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [269/396] elcinema.com (en) - AlNaharDrama.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [270/396] elcinema.com (en) - AlNaharDrama.eg@SD - Apr 25, 2026 (24 programs)
+ℹ   [271/396] elcinema.com (en) - SadaElbalad.eg@SD - Apr 24, 2026 (12 programs)
+ℹ   [272/396] elcinema.com (en) - SadaElbalad.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [273/396] elcinema.com (en) - SadaElbaladDrama.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [274/396] elcinema.com (en) - SadaElbaladDrama.eg@SD - Apr 24, 2026 (12 programs)
+ℹ   [275/396] elcinema.com (en) - CartoonNetworkArabic.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [276/396] elcinema.com (en) - AlKaheraWalNas2.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [277/396] elcinema.com (en) - CartoonNetworkArabic.ae@SD - Apr 24, 2026 (7 programs)
+ℹ   [278/396] elcinema.com (en) - CBCSofra.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [279/396] elcinema.com (en) - AlKaheraWalNas2.eg@SD - Apr 25, 2026 (19 programs)
+ℹ   [280/396] elcinema.com (en) - ZeeAlwan.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [281/396] elcinema.com (en) - CBCSofra.eg@SD - Apr 25, 2026 (26 programs)
+ℹ   [282/396] elcinema.com (en) - ZeeAlwan.ae@SD - Apr 25, 2026 (25 programs)
+ℹ   [283/396] elcinema.com (en) - AlDafrahTV.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [284/396] elcinema.com (en) - NationalGeographicAbuDhabi.ae@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [285/396] elcinema.com (en) - AlDafrahTV.ae@SD - Apr 25, 2026 (27 programs)
+ℹ   [286/396] elcinema.com (en) - NationalGeographicAbuDhabi.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [287/396] elcinema.com (en) - AlSharqiyaMinKabla.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [288/396] elcinema.com (en) - AlSharqiyaMinKabla.ae@SD - Apr 24, 2026 (13 programs)
+ℹ   [289/396] elcinema.com (en) - DiscoveryChannelMiddleEastAfrica.us@SD - Apr 24, 2026 (14 programs)
+ℹ   [290/396] elcinema.com (en) - DiscoveryChannelMiddleEastAfrica.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [291/396] elcinema.com (en) - NationalGeographicMiddleEast.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [292/396] elcinema.com (en) - NationalGeographicMiddleEast.uk@SD - Apr 25, 2026 (26 programs)
+ℹ   [293/396] elcinema.com (en) - SadaElbalad2.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [294/396] elcinema.com (en) - SadaElbalad2.eg@SD - Apr 25, 2026 (20 programs)
+ℹ   [295/396] elcinema.com (en) - TeN.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [296/396] elcinema.com (en) - TeN.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [297/396] elcinema.com (en) - DubaiZaman.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [298/396] elcinema.com (en) - DubaiZaman.ae@SD - Apr 24, 2026 (13 programs)
+ℹ   [299/396] elcinema.com (en) - RotanaCinemaKSA.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [300/396] elcinema.com (en) - DMC.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [301/396] elcinema.com (en) - RotanaCinemaKSA.sa@SD - Apr 25, 2026 (12 programs)
+ℹ   [302/396] elcinema.com (en) - DMC.eg@SD - Apr 25, 2026 (20 programs)
+ℹ   [303/396] elcinema.com (en) - DMCDrama.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [304/396] elcinema.com (en) - DMCDrama.eg@SD - Apr 24, 2026 (12 programs)
+ℹ   [305/396] elcinema.com (en) - MTV.lb@SD - Apr 25, 2026 (27 programs)
+ℹ   [306/396] elcinema.com (en) - MTV.lb@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [307/396] elcinema.com (en) - SBC.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [308/396] elcinema.com (en) - SBC.sa@SD - Apr 24, 2026 (13 programs)
+ℹ   [309/396] elcinema.com (en) - AmmanTV.jo@SD - Apr 24, 2026 (12 programs)
+ℹ   [310/396] elcinema.com (en) - AmmanTV.jo@SD - Apr 25, 2026 (24 programs)
+ℹ   [311/396] elcinema.com (en) - RoyaTV.jo@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [312/396] elcinema.com (en) - RoyaTV.jo@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [313/396] elcinema.com (en) - Alsumaria.iq@SD - Apr 24, 2026 (9 programs)
+ℹ   [314/396] elcinema.com (en) - Alsumaria.iq@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [315/396] elcinema.com (en) - FujairahTV.ae@SD - Apr 24, 2026 (12 programs)
+ℹ   [316/396] elcinema.com (en) - FujairahTV.ae@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [317/396] elcinema.com (en) - NessmaElJadida.tn@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [318/396] elcinema.com (en) - NessmaElJadida.tn@SD - Apr 25, 2026 (28 programs)
+ℹ   [319/396] elcinema.com (en) - AlRasheedTV.iq@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [320/396] elcinema.com (en) - ElWatania1.tn@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [321/396] elcinema.com (en) - ElWatania1.tn@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [322/396] elcinema.com (en) - AlRasheedTV.iq@SD - Apr 25, 2026 (24 programs)
+ℹ   [323/396] elcinema.com (en) - beINDrama1.qa@SD - Apr 24, 2026 (13 programs)
+ℹ   [324/396] elcinema.com (en) - KTV1.kw@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [325/396] elcinema.com (en) - KTV1.kw@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [326/396] elcinema.com (en) - beINDrama1.qa@SD - Apr 25, 2026 (25 programs)
+ℹ   [327/396] elcinema.com (en) - LanaTV.lb@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [328/396] elcinema.com (en) - AlAoula.ma@MiddleEast - Apr 24, 2026 (22 programs)
+ℹ   [329/396] elcinema.com (en) - AlAoula.ma@MiddleEast - Apr 25, 2026 (38 programs)
+ℹ   [330/396] elcinema.com (en) - LanaTV.lb@SD - Apr 24, 2026 (12 programs)
+ℹ   [331/396] elcinema.com (en) - JordanTV.jo@SD - Apr 24, 2026 (13 programs)
+ℹ   [332/396] elcinema.com (en) - JordanTV.jo@SD - Apr 25, 2026 (31 programs)
+ℹ   [333/396] elcinema.com (en) - EchoroukTV.dz@SD - Apr 24, 2026 (12 programs)
+ℹ   [334/396] elcinema.com (en) - EchoroukTV.dz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [335/396] elcinema.com (en) - OmanTV.om@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [336/396] elcinema.com (en) - QatarTelevision.qa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [337/396] elcinema.com (en) - OmanTV.om@SD - Apr 25, 2026 (43 programs)
+ℹ   [338/396] elcinema.com (en) - AlManar.lb@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [339/396] elcinema.com (en) - AlManar.lb@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [340/396] elcinema.com (en) - QatarTelevision.qa@SD - Apr 25, 2026 (0 programs)
+ℹ   [341/396] elcinema.com (en) - beINMovies1Premiere.qa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [342/396] elcinema.com (en) - beINMovies1Premiere.qa@SD - Apr 24, 2026 (7 programs)
+ℹ   [343/396] elcinema.com (en) - beINMovies2Action.qa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [344/396] elcinema.com (en) - beINMovies3Drama.qa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [345/396] elcinema.com (en) - beINMovies2Action.qa@SD - Apr 24, 2026 (6 programs)
+ℹ   [346/396] elcinema.com (en) - beINMovies3Drama.qa@SD - Apr 25, 2026 (12 programs)
+ℹ   [347/396] elcinema.com (en) - beINSeries1.qa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [348/396] elcinema.com (en) - beINSeries2.qa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [349/396] elcinema.com (en) - beINSeries1.qa@SD - Apr 24, 2026 (13 programs)
+ℹ   [350/396] elcinema.com (en) - beINSeries2.qa@SD - Apr 25, 2026 (26 programs)
+ℹ   [351/396] elcinema.com (en) - FoxActionMoviesMENA.hk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [352/396] elcinema.com (en) - StarWorldMiddleEast.ae@SD - Apr 24, 2026 (16 programs)
+ℹ   [353/396] elcinema.com (en) - FoxActionMoviesMENA.hk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [354/396] elcinema.com (en) - ElWatania2.tn@SD - Apr 24, 2026 (0 programs)
+ℹ   [355/396] elcinema.com (en) - StarWorldMiddleEast.ae@SD - Apr 25, 2026 (34 programs)
+ℹ   [356/396] elcinema.com (en) - ElWatania2.tn@SD - Apr 25, 2026 (0 programs)
+ℹ   [357/396] elcinema.com (en) - MasperoZaman.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [358/396] elcinema.com (en) - MasperoZaman.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [359/396] elcinema.com (en) - AlSaeedah.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [360/396] elcinema.com (en) - AlSaeedah.eg@SD - Apr 24, 2026 (11 programs)
+ℹ   [361/396] elcinema.com (en) - LBC.sa@SD - Apr 24, 2026 (11 programs)
+ℹ   [362/396] elcinema.com (en) - AlIraqia.iq@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [363/396] elcinema.com (en) - LBC.sa@SD - Apr 25, 2026 (20 programs)
+ℹ   [364/396] elcinema.com (en) - AlIraqia.iq@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [365/396] elcinema.com (en) - AlSaudiya.sa@SD - Apr 24, 2026 (11 programs)
+ℹ   [366/396] elcinema.com (en) - AlSaudiya.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [367/396] elcinema.com (en) - 2MMonde.ma@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [368/396] elcinema.com (en) - 2MMonde.ma@SD - Apr 25, 2026 (32 programs)
+ℹ   [369/396] elcinema.com (en) - RotanaComedy.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [370/396] elcinema.com (en) - SalamTV.ly@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [371/396] elcinema.com (en) - RotanaComedy.sa@SD - Apr 25, 2026 (10 programs)
+ℹ   [372/396] elcinema.com (en) - SalamTV.ly@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [373/396] elcinema.com (en) - ThikrayatTV.sa@SD - Apr 25, 2026 (27 programs)
+ℹ   [374/396] elcinema.com (en) - BahrainTV.bh@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: socket hang up
+ℹ   [375/396] elcinema.com (en) - UTV.iq@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [376/396] elcinema.com (en) - ThikrayatTV.sa@SD - Apr 24, 2026 (13 programs)
+ℹ   [377/396] elcinema.com (en) - UTV.iq@SD - Apr 25, 2026 (25 programs)
+ℹ   [378/396] elcinema.com (en) - BahrainTV.bh@SD - Apr 25, 2026 (0 programs)
+ℹ   [379/396] elcinema.com (en) - MixBelAraby.eg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [380/396] elcinema.com (en) - MixBelAraby.eg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [381/396] elcinema.com (en) - HadhramautTV.ye@SD - Apr 25, 2026 (24 programs)
+ℹ   [382/396] elcinema.com (en) - ATV.kw@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [383/396] elcinema.com (en) - ATV.kw@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [384/396] elcinema.com (en) - HadhramautTV.ye@SD - Apr 24, 2026 (12 programs)
+ℹ   [385/396] elcinema.com (en) - AlArabyTV2.qa@SD - Apr 24, 2026 (0 programs)
+ℹ   [386/396] elcinema.com (en) - DijlahTV.iq@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [387/396] elcinema.com (en) - DijlahTV.iq@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [388/396] elcinema.com (en) - AlArabyTV2.qa@SD - Apr 25, 2026 (0 programs)
+ℹ   [389/396] elcinema.com (en) - AlShamsTV.eg@SD - Apr 24, 2026 (0 programs)
+ℹ   [390/396] elcinema.com (en) - AlShamsTV.eg@SD - Apr 25, 2026 (0 programs)
+ℹ   [391/396] elcinema.com (en) - Althania.sy@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [392/396] elcinema.com (en) - Althania.sy@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [393/396] elcinema.com (en) - MBCMasrDrama.sa@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [394/396] elcinema.com (en) - Masah.sa@SD - Apr 24, 2026 (15 programs)
+ℹ   [395/396] elcinema.com (en) - Masah.sa@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [396/396] elcinema.com (en) - MBCMasrDrama.sa@SD - Apr 25, 2026 (29 programs)
+ℹ   saving to "/home/runner/workspace/sites/elcinema.com/elcinema.com.xml"...
+✔   done in 00h 00m 41s

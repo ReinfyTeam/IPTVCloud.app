@@ -346,3 +346,7 @@ epg/
 
 devproxy/
 dev-proxy-ca.crt
+.replit
+# Allow logs folder
+!logs/
+!logs/**

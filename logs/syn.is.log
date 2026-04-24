@@ -1,0 +1,47 @@
+═══════════════════════════════════════════════════════════════
+  Site            : syn.is
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 6s
+  Channels        : 18
+  With programmes : 16
+  Empty channels  : 2
+  Total programs  : 148
+  Output size     : 85666 bytes
+  Generated       : 2026-04-24 12:12:24
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 12:12:18 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=syn.is --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 9 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/18] syn.is (is) - synsport2 - Apr 24, 2026 (0 programs)
+ℹ   [2/18] syn.is (is) - synsport - Apr 25, 2026 (14 programs)
+ℹ   [3/18] syn.is (is) - syn - Apr 25, 2026 (28 programs)
+ℹ   [4/18] syn.is (is) - synsport - Apr 24, 2026 (19 programs)
+ℹ   [5/18] syn.is (is) - syn - Apr 24, 2026 (19 programs)
+ℹ   [6/18] syn.is (is) - synsport2 - Apr 25, 2026 (3 programs)
+ℹ   [7/18] syn.is (is) - synsport3 - Apr 24, 2026 (0 programs)
+ℹ   [8/18] syn.is (is) - synsport3 - Apr 25, 2026 (2 programs)
+ℹ   [9/18] syn.is (is) - synsport4 - Apr 24, 2026 (10 programs)
+ℹ   [10/18] syn.is (is) - synsport4 - Apr 25, 2026 (5 programs)
+ℹ   [11/18] syn.is (is) - synsportisland - Apr 24, 2026 (17 programs)
+ℹ   [12/18] syn.is (is) - synsportisland - Apr 25, 2026 (20 programs)
+ℹ   [13/18] syn.is (is) - synsportisland2 - Apr 24, 2026 (1 programs)
+ℹ   [14/18] syn.is (is) - synsportisland2 - Apr 25, 2026 (2 programs)
+ℹ   [15/18] syn.is (is) - synsportisland3 - Apr 24, 2026 (1 programs)
+ℹ   [16/18] syn.is (is) - synsportisland3 - Apr 25, 2026 (1 programs)
+ℹ   [17/18] syn.is (is) - synsportviaplay - Apr 24, 2026 (2 programs)
+ℹ   [18/18] syn.is (is) - synsportviaplay - Apr 25, 2026 (4 programs)
+ℹ   saving to "/home/runner/workspace/sites/syn.is/syn.is.xml"...
+✔   done in 00h 00m 02s

@@ -1,0 +1,175 @@
+═══════════════════════════════════════════════════════════════
+  Site            : ionplustv.com
+  Status          : EMPTY
+  Attempts used   : 10 / 10
+  Total elapsed   : 130s
+  Channels        : 20
+  With programmes : 0
+  Empty channels  : 20
+  Total programs  : 0
+  Output size     : 0 bytes
+  Generated       : 2026-04-24 11:07:34
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 11:05:24 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=ionplustv.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] ionplustv.com (en) - IONPlus.us@East - Apr 24, 2026 (0 programs)
+ℹ   [2/2] ionplustv.com (en) - IONPlus.us@East - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/ionplustv.com/ionplustv.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 2/10 @ 11:05:36 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=ionplustv.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] ionplustv.com (en) - IONPlus.us@East - Apr 24, 2026 (0 programs)
+ℹ   [2/2] ionplustv.com (en) - IONPlus.us@East - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/ionplustv.com/ionplustv.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 3/10 @ 11:05:50 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=ionplustv.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] ionplustv.com (en) - IONPlus.us@East - Apr 25, 2026 (0 programs)
+ℹ   [2/2] ionplustv.com (en) - IONPlus.us@East - Apr 24, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/ionplustv.com/ionplustv.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 4/10 @ 11:06:02 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=ionplustv.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] ionplustv.com (en) - IONPlus.us@East - Apr 25, 2026 (0 programs)
+ℹ   [2/2] ionplustv.com (en) - IONPlus.us@East - Apr 24, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/ionplustv.com/ionplustv.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 5/10 @ 11:06:15 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=ionplustv.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] ionplustv.com (en) - IONPlus.us@East - Apr 24, 2026 (0 programs)
+ℹ   [2/2] ionplustv.com (en) - IONPlus.us@East - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/ionplustv.com/ionplustv.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 6/10 @ 11:06:26 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=ionplustv.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] ionplustv.com (en) - IONPlus.us@East - Apr 24, 2026 (0 programs)
+ℹ   [2/2] ionplustv.com (en) - IONPlus.us@East - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/ionplustv.com/ionplustv.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 7/10 @ 11:06:41 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=ionplustv.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] ionplustv.com (en) - IONPlus.us@East - Apr 24, 2026 (0 programs)
+ℹ   [2/2] ionplustv.com (en) - IONPlus.us@East - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/ionplustv.com/ionplustv.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 8/10 @ 11:06:53 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=ionplustv.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] ionplustv.com (en) - IONPlus.us@East - Apr 24, 2026 (0 programs)
+ℹ   [2/2] ionplustv.com (en) - IONPlus.us@East - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/ionplustv.com/ionplustv.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 9/10 @ 11:07:08 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=ionplustv.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] ionplustv.com (en) - IONPlus.us@East - Apr 24, 2026 (0 programs)
+ℹ   [2/2] ionplustv.com (en) - IONPlus.us@East - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/ionplustv.com/ionplustv.com.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 10/10 @ 11:07:23 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=ionplustv.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] ionplustv.com (en) - IONPlus.us@East - Apr 24, 2026 (0 programs)
+ℹ   [2/2] ionplustv.com (en) - IONPlus.us@East - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/ionplustv.com/ionplustv.com.xml"...
+✔   done in 00h 00m 00s

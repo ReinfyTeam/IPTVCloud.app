@@ -1,0 +1,39 @@
+═══════════════════════════════════════════════════════════════
+  Site            : virginmediatelevision.ie
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 7s
+  Channels        : 10
+  With programmes : 8
+  Empty channels  : 2
+  Total programs  : 171
+  Output size     : 71595 bytes
+  Generated       : 2026-04-24 13:00:49
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 13:00:42 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=virginmediatelevision.ie --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 5 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/10] virginmediatelevision.ie (en) - VirginMediaOne.ie@SD - Apr 25, 2026 (18 programs)
+ℹ   [2/10] virginmediatelevision.ie (en) - VirginMediaOne.ie@SD - Apr 24, 2026 (20 programs)
+ℹ   [3/10] virginmediatelevision.ie (en) - VirginMediaThree.ie@SD - Apr 25, 2026 (22 programs)
+ℹ   [4/10] virginmediatelevision.ie (en) - VirginMediaThree.ie@SD - Apr 24, 2026 (21 programs)
+ℹ   [5/10] virginmediatelevision.ie (en) - VirginMediaTwo.ie@SD - Apr 25, 2026 (24 programs)
+ℹ   [6/10] virginmediatelevision.ie (en) - VirginMediaFour.ie@SD - Apr 24, 2026 (22 programs)
+ℹ   [7/10] virginmediatelevision.ie (en) - VirginMediaTwo.ie@SD - Apr 24, 2026 (22 programs)
+ℹ   [8/10] virginmediatelevision.ie (en) - VirginMediaMore.ie@SD - Apr 24, 2026 (0 programs)
+ℹ   [9/10] virginmediatelevision.ie (en) - VirginMediaFour.ie@SD - Apr 25, 2026 (22 programs)
+ℹ   [10/10] virginmediatelevision.ie (en) - VirginMediaMore.ie@SD - Apr 25, 2026 (0 programs)
+ℹ   saving to "/home/runner/workspace/sites/virginmediatelevision.ie/virginmediatelevision.ie.xml"...
+✔   done in 00h 00m 02s

@@ -1,0 +1,31 @@
+═══════════════════════════════════════════════════════════════
+  Site            : www3.nhk.or.jp
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 6s
+  Channels        : 2
+  With programmes : 2
+  Empty channels  : 0
+  Total programs  : 195
+  Output size     : 74126 bytes
+  Generated       : 2026-04-24 13:06:23
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 13:06:17 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=www3.nhk.or.jp --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] www3.nhk.or.jp (en) - NHKWorldJapan.jp@SD - Apr 24, 2026 (95 programs)
+ℹ   [2/2] www3.nhk.or.jp (en) - NHKWorldJapan.jp@SD - Apr 25, 2026 (100 programs)
+ℹ   saving to "/home/runner/workspace/sites/www3.nhk.or.jp/www3.nhk.or.jp.xml"...
+✔   done in 00h 00m 00s

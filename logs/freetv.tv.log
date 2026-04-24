@@ -1,0 +1,43 @@
+═══════════════════════════════════════════════════════════════
+  Site            : freetv.tv
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 7s
+  Channels        : 14
+  With programmes : 14
+  Empty channels  : 0
+  Total programs  : 464
+  Output size     : 434864 bytes
+  Generated       : 2026-04-24 10:57:32
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 10:57:25 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=freetv.tv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 7 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/14] freetv.tv (he) - KnessetChannel.il@SD - Apr 24, 2026 (23 programs)
+ℹ   [2/14] freetv.tv (he) - Keshet12.il@SD - Apr 24, 2026 (28 programs)
+ℹ   [3/14] freetv.tv (he) - Channel13.il@SD - Apr 25, 2026 (29 programs)
+ℹ   [4/14] freetv.tv (he) - Channel13.il@SD - Apr 24, 2026 (33 programs)
+ℹ   [5/14] freetv.tv (he) - Keshet12.il@SD - Apr 25, 2026 (24 programs)
+ℹ   [6/14] freetv.tv (he) - KnessetChannel.il@SD - Apr 25, 2026 (12 programs)
+ℹ   [7/14] freetv.tv (he) - Kan11.il@SD - Apr 24, 2026 (33 programs)
+ℹ   [8/14] freetv.tv (he) - KanEducational.il@SD - Apr 24, 2026 (71 programs)
+ℹ   [9/14] freetv.tv (he) - Kan11.il@SD - Apr 25, 2026 (33 programs)
+ℹ   [10/14] freetv.tv (he) - KanEducational.il@SD - Apr 25, 2026 (71 programs)
+ℹ   [11/14] freetv.tv (ar) - Makan33.il@SD - Apr 24, 2026 (34 programs)
+ℹ   [12/14] freetv.tv (ar) - Makan33.il@SD - Apr 25, 2026 (36 programs)
+ℹ   [13/14] freetv.tv (he) - Now14.il@SD - Apr 24, 2026 (24 programs)
+ℹ   [14/14] freetv.tv (he) - Now14.il@SD - Apr 25, 2026 (13 programs)
+ℹ   saving to "/home/runner/workspace/sites/freetv.tv/freetv.tv.xml"...
+✔   done in 00h 00m 02s

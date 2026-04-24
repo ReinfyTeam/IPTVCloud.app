@@ -1,0 +1,35 @@
+═══════════════════════════════════════════════════════════════
+  Site            : vantagetv.ee
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 7s
+  Channels        : 6
+  With programmes : 6
+  Empty channels  : 0
+  Total programs  : 40
+  Output size     : 9684 bytes
+  Generated       : 2026-04-24 13:00:35
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 13:00:28 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=vantagetv.ee --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] vantagetv.ee (en) - VantageMusic.ee@SD - Apr 25, 2026 (16 programs)
+ℹ   [2/6] vantagetv.ee (en) - VantageMusic.ee@SD - Apr 24, 2026 (14 programs)
+ℹ   [3/6] vantagetv.ee (en) - vdance - Apr 24, 2026 (3 programs)
+ℹ   [4/6] vantagetv.ee (en) - vrock - Apr 24, 2026 (2 programs)
+ℹ   [5/6] vantagetv.ee (en) - vdance - Apr 25, 2026 (3 programs)
+ℹ   [6/6] vantagetv.ee (en) - vrock - Apr 25, 2026 (2 programs)
+ℹ   saving to "/home/runner/workspace/sites/vantagetv.ee/vantagetv.ee.xml"...
+✔   done in 00h 00m 02s

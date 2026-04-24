@@ -1,0 +1,223 @@
+═══════════════════════════════════════════════════════════════
+  Site            : tv.dir.bg
+  Status          : TIMEOUT
+  Attempts used   : 10 / 10
+  Total elapsed   : 273s
+  Channels        : 88
+  With programmes : 88
+  Empty channels  : 0
+  Total programs  : 0
+  Output size     : 0 bytes
+  Generated       : 2026-04-24 12:38:21
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 12:33:48 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tv.dir.bg --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 100 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 24, 2026 (76 programs)
+ℹ   [2/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 25, 2026 (76 programs)
+ℹ   [3/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 24, 2026 (86 programs)
+ℹ   [4/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 25, 2026 (83 programs)
+ℹ   [5/200] tv.dir.bg (bg) - SKAT.bg@SD - Apr 24, 2026 (94 programs)
+ℹ   [6/200] tv.dir.bg (bg) - France24.fr@French - Apr 24, 2026 (289 programs)
+ℹ   [7/200] tv.dir.bg (bg) - SKAT.bg@SD - Apr 25, 2026 (88 programs)
+ℹ   [8/200] tv.dir.bg (bg) - RTL.de@SD - Apr 24, 2026 (86 programs)
+ℹ   [9/200] tv.dir.bg (bg) - MovieStar.bg@SD - Apr 25, 2026 (43 programs)
+ℹ   [10/200] tv.dir.bg (bg) - RTL.de@SD - Apr 25, 2026 (76 programs)
+ℹ   [11/200] tv.dir.bg (bg) - DW.de@Deutsch - Apr 24, 2026 (216 programs)
+ℹ   [12/200] tv.dir.bg (bg) - MovieStar.bg@SD - Apr 24, 2026 (43 programs)
+
+===== attempt 2/10 @ 12:34:18 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tv.dir.bg --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 100 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/200] tv.dir.bg (bg) - MovieStar.bg@SD - Apr 24, 2026 (43 programs)
+ℹ   [2/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 25, 2026 (76 programs)
+ℹ   [3/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 24, 2026 (86 programs)
+ℹ   [4/200] tv.dir.bg (bg) - MovieStar.bg@SD - Apr 25, 2026 (43 programs)
+ℹ   [5/200] tv.dir.bg (bg) - SKAT.bg@SD - Apr 24, 2026 (94 programs)
+ℹ   [6/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 25, 2026 (83 programs)
+ℹ   [7/200] tv.dir.bg (bg) - SKAT.bg@SD - Apr 25, 2026 (88 programs)
+ℹ   [8/200] tv.dir.bg (bg) - RTL.de@SD - Apr 24, 2026 (86 programs)
+ℹ   [9/200] tv.dir.bg (bg) - RTL.de@SD - Apr 25, 2026 (76 programs)
+ℹ   [10/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 24, 2026 (76 programs)
+ℹ   [11/200] tv.dir.bg (bg) - DW.de@Deutsch - Apr 24, 2026 (216 programs)
+ℹ   [12/200] tv.dir.bg (bg) - DW.de@Deutsch - Apr 25, 2026 (222 programs)
+ℹ   [13/200] tv.dir.bg (bg) - AlJazeeraBalkans.ba@SD - Apr 24, 2026 (116 programs)
+ℹ   [14/200] tv.dir.bg (bg) - NationalGeographicWild.bg@SD - Apr 24, 2026 (98 programs)
+ℹ   [15/200] tv.dir.bg (bg) - France24.fr@French - Apr 25, 2026 (285 programs)
+ℹ   [16/200] tv.dir.bg (bg) - NationalGeographicWild.bg@SD - Apr 25, 2026 (98 programs)
+ℹ   [17/200] tv.dir.bg (bg) - CodeFashionTV.bg@SD - Apr 24, 2026 (48 programs)
+ℹ   [18/200] tv.dir.bg (bg) - AlJazeeraBalkans.ba@SD - Apr 25, 2026 (117 programs)
+ℹ   [19/200] tv.dir.bg (bg) - CodeHealthTV.bg@SD - Apr 24, 2026 (66 programs)
+ℹ   [20/200] tv.dir.bg (bg) - CodeFashionTV.bg@SD - Apr 25, 2026 (48 programs)
+ℹ   [21/200] tv.dir.bg (bg) - France24.fr@French - Apr 24, 2026 (289 programs)
+ℹ   [22/200] tv.dir.bg (bg) - MaxSport4.bg@SD - Apr 24, 2026 (43 programs)
+ℹ   [23/200] tv.dir.bg (bg) - MaxSport4.bg@SD - Apr 25, 2026 (47 programs)
+ℹ   [24/200] tv.dir.bg (bg) - CodeHealthTV.bg@SD - Apr 25, 2026 (60 programs)
+ℹ   [25/200] tv.dir.bg (bg) - Kanal3.bg@SD - Apr 24, 2026 (63 programs)
+ℹ   [26/200] tv.dir.bg (bg) - Cinemax2CentralEurope.hu@HD - Apr 25, 2026 (40 programs)
+ℹ   [27/200] tv.dir.bg (bg) - Kanal3.bg@SD - Apr 25, 2026 (64 programs)
+ℹ   [28/200] tv.dir.bg (bg) - HBO3CentralEurope.hu@SD - Apr 24, 2026 (58 programs)
+ℹ   [29/200] tv.dir.bg (bg) - Cinemax2CentralEurope.hu@HD - Apr 24, 2026 (40 programs)
+
+===== attempt 3/10 @ 12:34:59 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tv.dir.bg --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 100 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/200] tv.dir.bg (bg) - France24.fr@French - Apr 24, 2026 (289 programs)
+ℹ   [2/200] tv.dir.bg (bg) - MovieStar.bg@SD - Apr 24, 2026 (43 programs)
+ℹ   [3/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 25, 2026 (76 programs)
+ℹ   [4/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 24, 2026 (86 programs)
+ℹ   [5/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 25, 2026 (83 programs)
+
+===== attempt 4/10 @ 12:35:21 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tv.dir.bg --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 100 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/200] tv.dir.bg (bg) - MovieStar.bg@SD - Apr 24, 2026 (43 programs)
+ℹ   [2/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 25, 2026 (76 programs)
+ℹ   [3/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 24, 2026 (86 programs)
+ℹ   [4/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 24, 2026 (76 programs)
+ℹ   [5/200] tv.dir.bg (bg) - SKAT.bg@SD - Apr 24, 2026 (94 programs)
+ℹ   [6/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 25, 2026 (83 programs)
+ℹ   [7/200] tv.dir.bg (bg) - SKAT.bg@SD - Apr 25, 2026 (88 programs)
+ℹ   [8/200] tv.dir.bg (bg) - RTL.de@SD - Apr 24, 2026 (86 programs)
+
+===== attempt 5/10 @ 12:35:48 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tv.dir.bg --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 100 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/200] tv.dir.bg (bg) - MovieStar.bg@SD - Apr 25, 2026 (43 programs)
+ℹ   [2/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 25, 2026 (76 programs)
+ℹ   [3/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 24, 2026 (86 programs)
+ℹ   [4/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 24, 2026 (76 programs)
+ℹ   [5/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 25, 2026 (83 programs)
+ℹ   [6/200] tv.dir.bg (bg) - SKAT.bg@SD - Apr 24, 2026 (94 programs)
+ℹ   [7/200] tv.dir.bg (bg) - SKAT.bg@SD - Apr 25, 2026 (88 programs)
+
+===== attempt 6/10 @ 12:36:13 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tv.dir.bg --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 100 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/200] tv.dir.bg (bg) - France24.fr@French - Apr 25, 2026 (285 programs)
+ℹ   [2/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 25, 2026 (76 programs)
+
+===== attempt 7/10 @ 12:36:35 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tv.dir.bg --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 100 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 24, 2026 (76 programs)
+ℹ   [2/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 25, 2026 (76 programs)
+ℹ   [3/200] tv.dir.bg (bg) - MovieStar.bg@SD - Apr 24, 2026 (43 programs)
+ℹ   [4/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 25, 2026 (83 programs)
+ℹ   [5/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 24, 2026 (86 programs)
+ℹ   [6/200] tv.dir.bg (bg) - France24.fr@French - Apr 25, 2026 (285 programs)
+ℹ   [7/200] tv.dir.bg (bg) - SKAT.bg@SD - Apr 25, 2026 (88 programs)
+
+===== attempt 8/10 @ 12:37:07 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tv.dir.bg --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 100 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/200] tv.dir.bg (bg) - France24.fr@French - Apr 24, 2026 (289 programs)
+ℹ   [2/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 25, 2026 (76 programs)
+ℹ   [3/200] tv.dir.bg (bg) - France24.fr@French - Apr 25, 2026 (285 programs)
+ℹ   [4/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 24, 2026 (86 programs)
+ℹ   [5/200] tv.dir.bg (bg) - MovieStar.bg@SD - Apr 24, 2026 (43 programs)
+
+===== attempt 9/10 @ 12:37:31 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tv.dir.bg --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 100 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/200] tv.dir.bg (bg) - France24.fr@French - Apr 24, 2026 (289 programs)
+ℹ   [2/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 24, 2026 (76 programs)
+ℹ   [3/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 25, 2026 (76 programs)
+ℹ   [4/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 24, 2026 (86 programs)
+ℹ   [5/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 25, 2026 (83 programs)
+ℹ   [6/200] tv.dir.bg (bg) - SKAT.bg@SD - Apr 24, 2026 (94 programs)
+ℹ   [7/200] tv.dir.bg (bg) - MovieStar.bg@SD - Apr 25, 2026 (43 programs)
+ℹ   [8/200] tv.dir.bg (bg) - SKAT.bg@SD - Apr 25, 2026 (88 programs)
+
+===== attempt 10/10 @ 12:37:57 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tv.dir.bg --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 100 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/200] tv.dir.bg (bg) - France24.fr@French - Apr 24, 2026 (289 programs)
+ℹ   [2/200] tv.dir.bg (bg) - StarCrime.bg@SD - Apr 25, 2026 (76 programs)
+ℹ   [3/200] tv.dir.bg (bg) - DiscoveryChannel.bg@SD - Apr 24, 2026 (86 programs)
+ℹ   [4/200] tv.dir.bg (bg) - France24.fr@French - Apr 25, 2026 (285 programs)
+ℹ   [5/200] tv.dir.bg (bg) - SKAT.bg@SD - Apr 24, 2026 (94 programs)

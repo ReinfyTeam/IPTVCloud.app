@@ -1,0 +1,1725 @@
+═══════════════════════════════════════════════════════════════
+  Site            : zap2it.com
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 91s
+  Channels        : 1190
+  With programmes : 681
+  Empty channels  : 509
+  Total programs  : 7810
+  Output size     : 3917204 bytes
+  HTTP errors     :
+    503 status code 429
+  Last error      : Request failed with status code 429
+  Generated       : 2026-04-24 13:08:52
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 13:07:20 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=zap2it.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 595 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10021 - Apr 25, 2026 (5 programs)
+ℹ   [2/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10021 - Apr 24, 2026 (6 programs)
+ℹ   [3/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10035 - Apr 25, 2026 (15 programs)
+ℹ   [4/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10035 - Apr 24, 2026 (22 programs)
+ℹ   [5/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10051 - Apr 24, 2026 (20 programs)
+ℹ   [6/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10057 - Apr 24, 2026 (10 programs)
+ℹ   [7/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10051 - Apr 25, 2026 (16 programs)
+ℹ   [8/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10057 - Apr 25, 2026 (7 programs)
+ℹ   [9/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10093 - Apr 25, 2026 (5 programs)
+ℹ   [10/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10120 - Apr 24, 2026 (8 programs)
+ℹ   [11/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10120 - Apr 25, 2026 (7 programs)
+ℹ   [12/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10121 - Apr 24, 2026 (6 programs)
+ℹ   [13/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10093 - Apr 24, 2026 (6 programs)
+ℹ   [14/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10138 - Apr 24, 2026 (22 programs)
+ℹ   [15/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10121 - Apr 25, 2026 (8 programs)
+ℹ   [16/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10139 - Apr 24, 2026 (10 programs)
+ℹ   [17/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10139 - Apr 25, 2026 (14 programs)
+ℹ   [18/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10138 - Apr 25, 2026 (7 programs)
+ℹ   [19/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10142 - Apr 24, 2026 (11 programs)
+ℹ   [20/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10142 - Apr 25, 2026 (11 programs)
+ℹ   [21/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10145 - Apr 25, 2026 (22 programs)
+ℹ   [22/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10145 - Apr 24, 2026 (21 programs)
+ℹ   [23/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10146 - Apr 25, 2026 (16 programs)
+ℹ   [24/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10146 - Apr 24, 2026 (13 programs)
+ℹ   [25/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10149 - Apr 24, 2026 (21 programs)
+ℹ   [26/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10149 - Apr 25, 2026 (9 programs)
+ℹ   [27/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10153 - Apr 25, 2026 (11 programs)
+ℹ   [28/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10161 - Apr 25, 2026 (7 programs)
+ℹ   [29/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10153 - Apr 24, 2026 (8 programs)
+ℹ   [30/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10162 - Apr 24, 2026 (7 programs)
+ℹ   [31/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10162 - Apr 25, 2026 (3 programs)
+ℹ   [32/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10161 - Apr 24, 2026 (7 programs)
+ℹ   [33/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10171 - Apr 24, 2026 (23 programs)
+ℹ   [34/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10178 - Apr 24, 2026 (6 programs)
+ℹ   [35/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10178 - Apr 25, 2026 (7 programs)
+ℹ   [36/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10171 - Apr 25, 2026 (19 programs)
+ℹ   [37/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10179 - Apr 24, 2026 (8 programs)
+ℹ   [38/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10179 - Apr 25, 2026 (5 programs)
+ℹ   [39/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10183 - Apr 24, 2026 (20 programs)
+ℹ   [40/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10188 - Apr 24, 2026 (7 programs)
+ℹ   [41/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10183 - Apr 25, 2026 (20 programs)
+ℹ   [42/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10188 - Apr 25, 2026 (5 programs)
+ℹ   [43/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10201 - Apr 24, 2026 (6 programs)
+ℹ   [44/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10201 - Apr 25, 2026 (6 programs)
+ℹ   [45/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10222 - Apr 24, 2026 (12 programs)
+ℹ   [46/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10240 - Apr 24, 2026 (10 programs)
+ℹ   [47/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10222 - Apr 25, 2026 (10 programs)
+ℹ   [48/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10240 - Apr 25, 2026 (10 programs)
+ℹ   [49/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10241 - Apr 24, 2026 (8 programs)
+ℹ   [50/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10241 - Apr 25, 2026 (8 programs)
+ℹ   [51/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10242 - Apr 24, 2026 (9 programs)
+ℹ   [52/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10242 - Apr 25, 2026 (9 programs)
+ℹ   [53/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10243 - Apr 24, 2026 (11 programs)
+ℹ   [54/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10243 - Apr 25, 2026 (9 programs)
+ℹ   [55/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10244 - Apr 24, 2026 (9 programs)
+ℹ   [56/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10244 - Apr 25, 2026 (11 programs)
+ℹ   [57/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10262 - Apr 24, 2026 (13 programs)
+ℹ   [58/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10262 - Apr 25, 2026 (17 programs)
+ℹ   [59/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10269 - Apr 24, 2026 (11 programs)
+ℹ   [60/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10269 - Apr 25, 2026 (11 programs)
+ℹ   [61/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10270 - Apr 24, 2026 (11 programs)
+ℹ   [62/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10270 - Apr 25, 2026 (11 programs)
+ℹ   [63/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10724 - Apr 25, 2026 (10 programs)
+ℹ   [64/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10724 - Apr 24, 2026 (10 programs)
+ℹ   [65/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10918 - Apr 24, 2026 (11 programs)
+ℹ   [66/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10918 - Apr 25, 2026 (9 programs)
+ℹ   [67/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10977 - Apr 24, 2026 (12 programs)
+ℹ   [68/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10977 - Apr 25, 2026 (14 programs)
+ℹ   [69/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10979 - Apr 24, 2026 (13 programs)
+ℹ   [70/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10979 - Apr 25, 2026 (14 programs)
+ℹ   [71/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10986 - Apr 24, 2026 (21 programs)
+ℹ   [72/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10986 - Apr 25, 2026 (21 programs)
+ℹ   [73/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10989 - Apr 24, 2026 (12 programs)
+ℹ   [74/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10989 - Apr 25, 2026 (9 programs)
+ℹ   [75/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10996 - Apr 24, 2026 (14 programs)
+ℹ   [76/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/10996 - Apr 25, 2026 (13 programs)
+ℹ   [77/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11006 - Apr 24, 2026 (14 programs)
+ℹ   [78/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11007 - Apr 24, 2026 (16 programs)
+ℹ   [79/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11006 - Apr 25, 2026 (7 programs)
+ℹ   [80/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11007 - Apr 25, 2026 (11 programs)
+ℹ   [81/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11054 - Apr 24, 2026 (13 programs)
+ℹ   [82/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11054 - Apr 25, 2026 (17 programs)
+ℹ   [83/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11062 - Apr 24, 2026 (0 programs)
+ℹ   [84/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11062 - Apr 25, 2026 (0 programs)
+ℹ   [85/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11066 - Apr 24, 2026 (12 programs)
+ℹ   [86/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11066 - Apr 25, 2026 (10 programs)
+ℹ   [87/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11069 - Apr 24, 2026 (9 programs)
+ℹ   [88/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11069 - Apr 25, 2026 (7 programs)
+ℹ   [89/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11095 - Apr 24, 2026 (13 programs)
+ℹ   [90/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11095 - Apr 25, 2026 (17 programs)
+ℹ   [91/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11097 - Apr 24, 2026 (5 programs)
+ℹ   [92/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11097 - Apr 25, 2026 (4 programs)
+ℹ   [93/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11104 - Apr 24, 2026 (6 programs)
+ℹ   [94/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11104 - Apr 25, 2026 (21 programs)
+ℹ   [95/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11105 - Apr 24, 2026 (4 programs)
+ℹ   [96/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11105 - Apr 25, 2026 (10 programs)
+ℹ   [97/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11109 - Apr 25, 2026 (16 programs)
+ℹ   [98/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11115 - Apr 24, 2026 (6 programs)
+ℹ   [99/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11109 - Apr 24, 2026 (15 programs)
+ℹ   [100/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11116 - Apr 25, 2026 (6 programs)
+ℹ   [101/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11115 - Apr 25, 2026 (4 programs)
+ℹ   [102/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11116 - Apr 24, 2026 (6 programs)
+ℹ   [103/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11117 - Apr 24, 2026 (6 programs)
+ℹ   [104/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11117 - Apr 25, 2026 (5 programs)
+ℹ   [105/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11118 - Apr 24, 2026 (12 programs)
+ℹ   [106/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11118 - Apr 25, 2026 (17 programs)
+ℹ   [107/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11150 - Apr 25, 2026 (11 programs)
+ℹ   [108/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11150 - Apr 24, 2026 (10 programs)
+ℹ   [109/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11158 - Apr 24, 2026 (11 programs)
+ℹ   [110/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11158 - Apr 25, 2026 (11 programs)
+ℹ   [111/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11160 - Apr 24, 2026 (6 programs)
+ℹ   [112/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11160 - Apr 25, 2026 (6 programs)
+ℹ   [113/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11163 - Apr 24, 2026 (10 programs)
+ℹ   [114/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11163 - Apr 25, 2026 (3 programs)
+ℹ   [115/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11164 - Apr 24, 2026 (9 programs)
+ℹ   [116/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11164 - Apr 25, 2026 (6 programs)
+ℹ   [117/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11180 - Apr 24, 2026 (11 programs)
+ℹ   [118/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11180 - Apr 25, 2026 (11 programs)
+ℹ   [119/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11187 - Apr 24, 2026 (11 programs)
+ℹ   [120/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11187 - Apr 25, 2026 (11 programs)
+ℹ   [121/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11207 - Apr 24, 2026 (11 programs)
+ℹ   [122/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11207 - Apr 25, 2026 (11 programs)
+ℹ   [123/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11218 - Apr 24, 2026 (21 programs)
+ℹ   [124/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11218 - Apr 25, 2026 (14 programs)
+ℹ   [125/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11221 - Apr 24, 2026 (10 programs)
+ℹ   [126/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11221 - Apr 25, 2026 (6 programs)
+ℹ   [127/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11514 - Apr 24, 2026 (21 programs)
+ℹ   [128/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11514 - Apr 25, 2026 (17 programs)
+ℹ   [129/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11867 - Apr 25, 2026 (9 programs)
+ℹ   [130/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12131 - Apr 24, 2026 (32 programs)
+ℹ   [131/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12131 - Apr 25, 2026 (27 programs)
+ℹ   [132/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12410 - Apr 24, 2026 (13 programs)
+ℹ   [133/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/11867 - Apr 24, 2026 (22 programs)
+ℹ   [134/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12410 - Apr 25, 2026 (17 programs)
+ℹ   [135/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12444 - Apr 24, 2026 (10 programs)
+ℹ   [136/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12444 - Apr 25, 2026 (13 programs)
+ℹ   [137/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12508 - Apr 24, 2026 (8 programs)
+ℹ   [138/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12508 - Apr 25, 2026 (7 programs)
+ℹ   [139/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12509 - Apr 24, 2026 (7 programs)
+ℹ   [140/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12509 - Apr 25, 2026 (7 programs)
+ℹ   [141/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12510 - Apr 24, 2026 (23 programs)
+ℹ   [142/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12510 - Apr 25, 2026 (20 programs)
+ℹ   [143/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12574 - Apr 24, 2026 (16 programs)
+ℹ   [144/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12719 - Apr 24, 2026 (7 programs)
+ℹ   [145/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12574 - Apr 25, 2026 (18 programs)
+ℹ   [146/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12719 - Apr 25, 2026 (8 programs)
+ℹ   [147/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12741 - Apr 24, 2026 (7 programs)
+ℹ   [148/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12741 - Apr 25, 2026 (8 programs)
+ℹ   [149/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12782 - Apr 24, 2026 (4 programs)
+ℹ   [150/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12782 - Apr 25, 2026 (4 programs)
+ℹ   [151/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12785 - Apr 24, 2026 (4 programs)
+ℹ   [152/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12785 - Apr 25, 2026 (4 programs)
+ℹ   [153/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12792 - Apr 24, 2026 (2 programs)
+ℹ   [154/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12792 - Apr 25, 2026 (2 programs)
+ℹ   [155/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12801 - Apr 24, 2026 (6 programs)
+ℹ   [156/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12801 - Apr 25, 2026 (6 programs)
+ℹ   [157/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12852 - Apr 24, 2026 (6 programs)
+ℹ   [158/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/12852 - Apr 25, 2026 (8 programs)
+ℹ   [159/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14321 - Apr 24, 2026 (5 programs)
+ℹ   [160/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14321 - Apr 25, 2026 (5 programs)
+ℹ   [161/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14755 - Apr 24, 2026 (10 programs)
+ℹ   [162/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14755 - Apr 25, 2026 (20 programs)
+ℹ   [163/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14762 - Apr 24, 2026 (9 programs)
+ℹ   [164/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14762 - Apr 25, 2026 (18 programs)
+ℹ   [165/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14764 - Apr 24, 2026 (7 programs)
+ℹ   [166/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14764 - Apr 25, 2026 (8 programs)
+ℹ   [167/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14766 - Apr 25, 2026 (8 programs)
+ℹ   [168/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14766 - Apr 24, 2026 (7 programs)
+ℹ   [169/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14771 - Apr 24, 2026 (11 programs)
+ℹ   [170/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14776 - Apr 24, 2026 (19 programs)
+ℹ   [171/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14791 - Apr 24, 2026 (11 programs)
+ℹ   [172/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14776 - Apr 25, 2026 (15 programs)
+ℹ   [173/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14771 - Apr 25, 2026 (10 programs)
+ℹ   [174/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14791 - Apr 25, 2026 (12 programs)
+ℹ   [175/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14870 - Apr 25, 2026 (7 programs)
+ℹ   [176/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14870 - Apr 24, 2026 (7 programs)
+ℹ   [177/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14871 - Apr 24, 2026 (7 programs)
+ℹ   [178/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14871 - Apr 25, 2026 (7 programs)
+ℹ   [179/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14873 - Apr 24, 2026 (5 programs)
+ℹ   [180/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14899 - Apr 24, 2026 (4 programs)
+ℹ   [181/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14897 - Apr 24, 2026 (13 programs)
+ℹ   [182/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14897 - Apr 25, 2026 (9 programs)
+ℹ   [183/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14873 - Apr 25, 2026 (5 programs)
+ℹ   [184/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14899 - Apr 25, 2026 (6 programs)
+ℹ   [185/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14902 - Apr 24, 2026 (18 programs)
+ℹ   [186/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14902 - Apr 25, 2026 (18 programs)
+ℹ   [187/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14909 - Apr 24, 2026 (18 programs)
+ℹ   [188/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14909 - Apr 25, 2026 (20 programs)
+ℹ   [189/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14948 - Apr 24, 2026 (4 programs)
+ℹ   [190/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14988 - Apr 24, 2026 (7 programs)
+ℹ   [191/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14988 - Apr 25, 2026 (4 programs)
+ℹ   [192/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/14948 - Apr 25, 2026 (4 programs)
+ℹ   [193/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/15377 - Apr 24, 2026 (9 programs)
+ℹ   [194/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/15377 - Apr 25, 2026 (7 programs)
+ℹ   [195/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/15796 - Apr 24, 2026 (12 programs)
+ℹ   [196/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/15796 - Apr 25, 2026 (17 programs)
+ℹ   [197/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/15807 - Apr 24, 2026 (8 programs)
+ℹ   [198/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/15807 - Apr 25, 2026 (11 programs)
+ℹ   [199/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16046 - Apr 24, 2026 (8 programs)
+ℹ   [200/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16046 - Apr 25, 2026 (7 programs)
+ℹ   [201/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16056 - Apr 24, 2026 (12 programs)
+ℹ   [202/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16056 - Apr 25, 2026 (17 programs)
+ℹ   [203/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16062 - Apr 24, 2026 (7 programs)
+ℹ   [204/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16062 - Apr 25, 2026 (6 programs)
+ℹ   [205/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16108 - Apr 24, 2026 (10 programs)
+ℹ   [206/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16125 - Apr 24, 2026 (11 programs)
+ℹ   [207/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16108 - Apr 25, 2026 (12 programs)
+ℹ   [208/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16123 - Apr 24, 2026 (17 programs)
+ℹ   [209/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16123 - Apr 25, 2026 (20 programs)
+ℹ   [210/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16176 - Apr 24, 2026 (12 programs)
+ℹ   [211/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16176 - Apr 25, 2026 (17 programs)
+ℹ   [212/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16189 - Apr 24, 2026 (9 programs)
+ℹ   [213/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16189 - Apr 25, 2026 (10 programs)
+ℹ   [214/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16125 - Apr 25, 2026 (11 programs)
+ℹ   [215/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16220 - Apr 24, 2026 (8 programs)
+ℹ   [216/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16300 - Apr 24, 2026 (7 programs)
+ℹ   [217/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16292 - Apr 24, 2026 (28 programs)
+ℹ   [218/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16220 - Apr 25, 2026 (8 programs)
+ℹ   [219/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16292 - Apr 25, 2026 (28 programs)
+ℹ   [220/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16300 - Apr 25, 2026 (6 programs)
+ℹ   [221/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16311 - Apr 24, 2026 (8 programs)
+ℹ   [222/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16311 - Apr 25, 2026 (8 programs)
+ℹ   [223/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16331 - Apr 24, 2026 (11 programs)
+ℹ   [224/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16331 - Apr 25, 2026 (11 programs)
+ℹ   [225/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16348 - Apr 24, 2026 (12 programs)
+ℹ   [226/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16348 - Apr 25, 2026 (14 programs)
+ℹ   [227/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16361 - Apr 24, 2026 (14 programs)
+ℹ   [228/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16365 - Apr 25, 2026 (10 programs)
+ℹ   [229/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16374 - Apr 25, 2026 (11 programs)
+ℹ   [230/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16409 - Apr 24, 2026 (10 programs)
+ℹ   [231/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16374 - Apr 24, 2026 (11 programs)
+ℹ   [232/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16365 - Apr 24, 2026 (9 programs)
+ℹ   [233/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16361 - Apr 25, 2026 (22 programs)
+ℹ   [234/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16409 - Apr 25, 2026 (11 programs)
+ℹ   [235/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16485 - Apr 24, 2026 (9 programs)
+ℹ   [236/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16585 - Apr 24, 2026 (4 programs)
+ℹ   [237/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16585 - Apr 25, 2026 (4 programs)
+ℹ   [238/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16485 - Apr 25, 2026 (14 programs)
+ℹ   [239/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16604 - Apr 24, 2026 (6 programs)
+ℹ   [240/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16604 - Apr 25, 2026 (7 programs)
+ℹ   [241/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16615 - Apr 24, 2026 (15 programs)
+ℹ   [242/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16615 - Apr 25, 2026 (11 programs)
+ℹ   [243/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16616 - Apr 24, 2026 (10 programs)
+ℹ   [244/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16616 - Apr 25, 2026 (11 programs)
+ℹ   [245/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16617 - Apr 24, 2026 (19 programs)
+ℹ   [246/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16617 - Apr 25, 2026 (18 programs)
+ℹ   [247/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16619 - Apr 24, 2026 (3 programs)
+ℹ   [248/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16618 - Apr 24, 2026 (29 programs)
+ℹ   [249/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16618 - Apr 25, 2026 (21 programs)
+ℹ   [250/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16619 - Apr 25, 2026 (3 programs)
+ℹ   [251/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16715 - Apr 24, 2026 (11 programs)
+ℹ   [252/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16715 - Apr 25, 2026 (5 programs)
+ℹ   [253/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16743 - Apr 24, 2026 (12 programs)
+ℹ   [254/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16743 - Apr 25, 2026 (17 programs)
+ℹ   [255/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16800 - Apr 24, 2026 (11 programs)
+ℹ   [256/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16800 - Apr 25, 2026 (11 programs)
+ℹ   [257/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16833 - Apr 24, 2026 (6 programs)
+ℹ   [258/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16833 - Apr 25, 2026 (6 programs)
+ℹ   [259/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16834 - Apr 24, 2026 (15 programs)
+ℹ   [260/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/16834 - Apr 25, 2026 (22 programs)
+ℹ   [261/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17054 - Apr 24, 2026 (11 programs)
+ℹ   [262/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17054 - Apr 25, 2026 (14 programs)
+ℹ   [263/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17125 - Apr 24, 2026 (6 programs)
+ℹ   [264/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17125 - Apr 25, 2026 (7 programs)
+ℹ   [265/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17142 - Apr 24, 2026 (15 programs)
+ℹ   [266/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17142 - Apr 25, 2026 (11 programs)
+ℹ   [267/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17250 - Apr 24, 2026 (13 programs)
+ℹ   [268/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17250 - Apr 25, 2026 (15 programs)
+ℹ   [269/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17619 - Apr 24, 2026 (12 programs)
+ℹ   [270/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17798 - Apr 24, 2026 (6 programs)
+ℹ   [271/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17798 - Apr 25, 2026 (6 programs)
+ℹ   [272/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17619 - Apr 25, 2026 (17 programs)
+ℹ   [273/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17927 - Apr 24, 2026 (16 programs)
+ℹ   [274/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/17927 - Apr 25, 2026 (22 programs)
+ℹ   [275/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18003 - Apr 24, 2026 (13 programs)
+ℹ   [276/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18086 - Apr 24, 2026 (6 programs)
+ℹ   [277/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18003 - Apr 25, 2026 (17 programs)
+ℹ   [278/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18086 - Apr 25, 2026 (6 programs)
+ℹ   [279/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18151 - Apr 24, 2026 (40 programs)
+ℹ   [280/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18279 - Apr 24, 2026 (22 programs)
+ℹ   [281/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18284 - Apr 24, 2026 (11 programs)
+ℹ   [282/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18279 - Apr 25, 2026 (22 programs)
+ℹ   [283/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18151 - Apr 25, 2026 (33 programs)
+ℹ   [284/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18284 - Apr 25, 2026 (11 programs)
+ℹ   [285/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18332 - Apr 25, 2026 (9 programs)
+ℹ   [286/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18480 - Apr 24, 2026 (6 programs)
+ℹ   [287/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18480 - Apr 25, 2026 (6 programs)
+ℹ   [288/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18544 - Apr 24, 2026 (12 programs)
+ℹ   [289/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18332 - Apr 24, 2026 (8 programs)
+ℹ   [290/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18544 - Apr 25, 2026 (13 programs)
+ℹ   [291/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18715 - Apr 25, 2026 (14 programs)
+ℹ   [292/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18822 - Apr 24, 2026 (10 programs)
+ℹ   [293/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18715 - Apr 24, 2026 (14 programs)
+ℹ   [294/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18822 - Apr 25, 2026 (9 programs)
+ℹ   [295/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18999 - Apr 24, 2026 (22 programs)
+ℹ   [296/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/18999 - Apr 25, 2026 (21 programs)
+ℹ   [297/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19211 - Apr 24, 2026 (19 programs)
+ℹ   [298/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19247 - Apr 24, 2026 (11 programs)
+ℹ   [299/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19247 - Apr 25, 2026 (11 programs)
+ℹ   [300/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19515 - Apr 24, 2026 (10 programs)
+ℹ   [301/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19515 - Apr 25, 2026 (10 programs)
+ℹ   [302/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19548 - Apr 24, 2026 (10 programs)
+ℹ   [303/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19548 - Apr 25, 2026 (10 programs)
+ℹ   [304/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19566 - Apr 24, 2026 (9 programs)
+ℹ   [305/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19211 - Apr 25, 2026 (16 programs)
+ℹ   [306/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19566 - Apr 25, 2026 (11 programs)
+ℹ   [307/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19620 - Apr 25, 2026 (2 programs)
+ℹ   [308/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19620 - Apr 24, 2026 (2 programs)
+ℹ   [309/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19621 - Apr 24, 2026 (2 programs)
+ℹ   [310/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/19621 - Apr 25, 2026 (2 programs)
+ℹ   [311/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/20622 - Apr 24, 2026 (7 programs)
+ℹ   [312/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/20622 - Apr 25, 2026 (7 programs)
+ℹ   [313/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/20638 - Apr 24, 2026 (12 programs)
+ℹ   [314/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/20638 - Apr 25, 2026 (17 programs)
+ℹ   [315/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/20789 - Apr 24, 2026 (12 programs)
+ℹ   [316/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/21345 - Apr 24, 2026 (6 programs)
+ℹ   [317/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/20789 - Apr 25, 2026 (17 programs)
+ℹ   [318/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/21345 - Apr 25, 2026 (5 programs)
+ℹ   [319/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/21484 - Apr 24, 2026 (11 programs)
+ℹ   [320/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/21781 - Apr 24, 2026 (21 programs)
+ℹ   [321/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/21855 - Apr 24, 2026 (14 programs)
+ℹ   [322/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/21781 - Apr 25, 2026 (20 programs)
+ℹ   [323/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/21484 - Apr 25, 2026 (10 programs)
+ℹ   [324/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/21855 - Apr 25, 2026 (17 programs)
+ℹ   [325/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/21868 - Apr 24, 2026 (6 programs)
+ℹ   [326/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/21868 - Apr 25, 2026 (4 programs)
+ℹ   [327/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/22447 - Apr 24, 2026 (4 programs)
+ℹ   [328/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/22447 - Apr 25, 2026 (4 programs)
+ℹ   [329/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/21883 - Apr 24, 2026 (29 programs)
+ℹ   [330/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/22448 - Apr 24, 2026 (2 programs)
+ℹ   [331/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/21883 - Apr 25, 2026 (39 programs)
+ℹ   [332/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/22448 - Apr 25, 2026 (2 programs)
+ℹ   [333/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/22532 - Apr 25, 2026 (5 programs)
+ℹ   [334/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/22561 - Apr 24, 2026 (11 programs)
+ℹ   [335/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/22561 - Apr 25, 2026 (11 programs)
+ℹ   [336/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/24553 - Apr 24, 2026 (10 programs)
+ℹ   [337/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/24553 - Apr 25, 2026 (10 programs)
+ℹ   [338/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/22532 - Apr 24, 2026 (6 programs)
+ℹ   [339/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/24959 - Apr 24, 2026 (11 programs)
+ℹ   [340/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/24959 - Apr 25, 2026 (11 programs)
+ℹ   [341/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/25595 - Apr 24, 2026 (10 programs)
+ℹ   [342/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/26028 - Apr 25, 2026 (16 programs)
+ℹ   [343/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/25615 - Apr 24, 2026 (18 programs)
+ℹ   [344/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/26028 - Apr 24, 2026 (13 programs)
+ℹ   [345/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/25595 - Apr 25, 2026 (6 programs)
+ℹ   [346/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/25615 - Apr 25, 2026 (18 programs)
+ℹ   [347/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/26643 - Apr 24, 2026 (3 programs)
+ℹ   [348/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/26643 - Apr 25, 2026 (3 programs)
+ℹ   [349/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/26853 - Apr 24, 2026 (4 programs)
+ℹ   [350/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/26849 - Apr 24, 2026 (21 programs)
+ℹ   [351/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/26849 - Apr 25, 2026 (11 programs)
+ℹ   [352/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/26853 - Apr 25, 2026 (4 programs)
+ℹ   [353/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/28506 - Apr 24, 2026 (20 programs)
+ℹ   [354/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/30017 - Apr 25, 2026 (6 programs)
+ℹ   [355/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/28506 - Apr 25, 2026 (16 programs)
+ℹ   [356/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/30156 - Apr 24, 2026 (18 programs)
+ℹ   [357/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/30324 - Apr 24, 2026 (18 programs)
+ℹ   [358/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/30324 - Apr 25, 2026 (17 programs)
+ℹ   [359/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/30017 - Apr 24, 2026 (8 programs)
+ℹ   [360/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/30156 - Apr 25, 2026 (18 programs)
+ℹ   [361/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/30420 - Apr 24, 2026 (26 programs)
+ℹ   [362/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/31046 - Apr 24, 2026 (8 programs)
+ℹ   [363/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/30420 - Apr 25, 2026 (26 programs)
+ℹ   [364/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/31046 - Apr 25, 2026 (13 programs)
+ℹ   [365/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/31541 - Apr 24, 2026 (11 programs)
+ℹ   [366/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/31541 - Apr 25, 2026 (16 programs)
+ℹ   [367/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/32161 - Apr 24, 2026 (9 programs)
+ℹ   [368/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/32161 - Apr 25, 2026 (12 programs)
+ℹ   [369/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/32281 - Apr 24, 2026 (11 programs)
+ℹ   [370/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/32281 - Apr 25, 2026 (11 programs)
+ℹ   [371/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/32645 - Apr 24, 2026 (8 programs)
+ℹ   [372/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/32645 - Apr 25, 2026 (5 programs)
+ℹ   [373/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33178 - Apr 24, 2026 (5 programs)
+ℹ   [374/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33395 - Apr 24, 2026 (4 programs)
+ℹ   [375/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33178 - Apr 25, 2026 (7 programs)
+ℹ   [376/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33395 - Apr 25, 2026 (4 programs)
+ℹ   [377/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33431 - Apr 24, 2026 (10 programs)
+ℹ   [378/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33431 - Apr 25, 2026 (11 programs)
+ℹ   [379/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33628 - Apr 24, 2026 (9 programs)
+ℹ   [380/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33527 - Apr 25, 2026 (16 programs)
+ℹ   [381/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33628 - Apr 25, 2026 (9 programs)
+ℹ   [382/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33668 - Apr 24, 2026 (5 programs)
+ℹ   [383/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33527 - Apr 24, 2026 (22 programs)
+ℹ   [384/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33668 - Apr 25, 2026 (7 programs)
+ℹ   [385/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33930 - Apr 24, 2026 (22 programs)
+ℹ   [386/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/34085 - Apr 24, 2026 (12 programs)
+ℹ   [387/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/33930 - Apr 25, 2026 (18 programs)
+ℹ   [388/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/34710 - Apr 24, 2026 (5 programs)
+ℹ   [389/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/34085 - Apr 25, 2026 (10 programs)
+ℹ   [390/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/34710 - Apr 25, 2026 (4 programs)
+ℹ   [391/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/34933 - Apr 24, 2026 (8 programs)
+ℹ   [392/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/34933 - Apr 25, 2026 (7 programs)
+ℹ   [393/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/34941 - Apr 25, 2026 (8 programs)
+ℹ   [394/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/34941 - Apr 24, 2026 (7 programs)
+ℹ   [395/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/34949 - Apr 24, 2026 (7 programs)
+ℹ   [396/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/34949 - Apr 25, 2026 (8 programs)
+ℹ   [397/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/35329 - Apr 24, 2026 (6 programs)
+ℹ   [398/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/35038 - Apr 24, 2026 (14 programs)
+ℹ   [399/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/35038 - Apr 25, 2026 (13 programs)
+ℹ   [400/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/35383 - Apr 24, 2026 (4 programs)
+ℹ   [401/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/35329 - Apr 25, 2026 (6 programs)
+ℹ   [402/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/35383 - Apr 25, 2026 (10 programs)
+ℹ   [403/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/35401 - Apr 24, 2026 (9 programs)
+ℹ   [404/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/35401 - Apr 25, 2026 (9 programs)
+ℹ   [405/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/35402 - Apr 24, 2026 (13 programs)
+ℹ   [406/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/35402 - Apr 25, 2026 (14 programs)
+ℹ   [407/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/35975 - Apr 24, 2026 (8 programs)
+ℹ   [408/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/35975 - Apr 25, 2026 (7 programs)
+ℹ   [409/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/36139 - Apr 24, 2026 (14 programs)
+ℹ   [410/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/36225 - Apr 24, 2026 (6 programs)
+ℹ   [411/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/36225 - Apr 25, 2026 (7 programs)
+ℹ   [412/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/36139 - Apr 25, 2026 (21 programs)
+ℹ   [413/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/39719 - Apr 24, 2026 (11 programs)
+ℹ   [414/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/39719 - Apr 25, 2026 (11 programs)
+ℹ   [415/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/42642 - Apr 24, 2026 (9 programs)
+ℹ   [416/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/42642 - Apr 25, 2026 (6 programs)
+ℹ   [417/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/43362 - Apr 24, 2026 (11 programs)
+ℹ   [418/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/43362 - Apr 25, 2026 (11 programs)
+ℹ   [419/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/44263 - Apr 24, 2026 (11 programs)
+ℹ   [420/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/44322 - Apr 24, 2026 (11 programs)
+ℹ   [421/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/44263 - Apr 25, 2026 (19 programs)
+ℹ   [422/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/44322 - Apr 25, 2026 (15 programs)
+ℹ   [423/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/44448 - Apr 24, 2026 (13 programs)
+ℹ   [424/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/44448 - Apr 25, 2026 (13 programs)
+ℹ   [425/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/44644 - Apr 24, 2026 (10 programs)
+ℹ   [426/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/44644 - Apr 25, 2026 (12 programs)
+ℹ   [427/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/44714 - Apr 24, 2026 (8 programs)
+ℹ   [428/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/44714 - Apr 25, 2026 (9 programs)
+ℹ   [429/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/45399 - Apr 24, 2026 (5 programs)
+ℹ   [430/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/45399 - Apr 25, 2026 (4 programs)
+ℹ   [431/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/44940 - Apr 24, 2026 (11 programs)
+ℹ   [432/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/44940 - Apr 25, 2026 (11 programs)
+ℹ   [433/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/45507 - Apr 24, 2026 (10 programs)
+ℹ   [434/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/45526 - Apr 24, 2026 (11 programs)
+ℹ   [435/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/45654 - Apr 24, 2026 (11 programs)
+ℹ   [436/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/45526 - Apr 25, 2026 (11 programs)
+ℹ   [437/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/45654 - Apr 25, 2026 (13 programs)
+ℹ   [438/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/45507 - Apr 25, 2026 (13 programs)
+ℹ   [439/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46275 - Apr 24, 2026 (8 programs)
+ℹ   [440/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46275 - Apr 25, 2026 (6 programs)
+ℹ   [441/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46350 - Apr 24, 2026 (15 programs)
+ℹ   [442/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46350 - Apr 25, 2026 (15 programs)
+ℹ   [443/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46421 - Apr 24, 2026 (10 programs)
+ℹ   [444/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46421 - Apr 25, 2026 (14 programs)
+ℹ   [445/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46710 - Apr 24, 2026 (8 programs)
+ℹ   [446/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46710 - Apr 25, 2026 (6 programs)
+ℹ   [447/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46737 - Apr 24, 2026 (19 programs)
+ℹ   [448/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46737 - Apr 25, 2026 (15 programs)
+ℹ   [449/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46753 - Apr 24, 2026 (11 programs)
+ℹ   [450/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46753 - Apr 25, 2026 (14 programs)
+ℹ   [451/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46762 - Apr 24, 2026 (12 programs)
+ℹ   [452/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46762 - Apr 25, 2026 (20 programs)
+ℹ   [453/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46817 - Apr 24, 2026 (8 programs)
+ℹ   [454/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/46817 - Apr 25, 2026 (7 programs)
+ℹ   [455/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/47174 - Apr 24, 2026 (20 programs)
+ℹ   [456/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/47174 - Apr 25, 2026 (18 programs)
+ℹ   [457/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/47216 - Apr 24, 2026 (4 programs)
+ℹ   [458/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/47216 - Apr 25, 2026 (4 programs)
+ℹ   [459/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/47540 - Apr 24, 2026 (4 programs)
+ℹ   [460/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49097 - Apr 24, 2026 (19 programs)
+ℹ   [461/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/47540 - Apr 25, 2026 (4 programs)
+ℹ   [462/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49097 - Apr 25, 2026 (19 programs)
+ℹ   [463/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49128 - Apr 24, 2026 (21 programs)
+ℹ   [464/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49128 - Apr 25, 2026 (20 programs)
+ℹ   [465/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49141 - Apr 24, 2026 (13 programs)
+ℹ   [466/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49141 - Apr 25, 2026 (11 programs)
+ℹ   [467/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49198 - Apr 24, 2026 (6 programs)
+ℹ   [468/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49198 - Apr 25, 2026 (21 programs)
+ℹ   [469/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49266 - Apr 24, 2026 (19 programs)
+ℹ   [470/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49438 - Apr 24, 2026 (11 programs)
+ℹ   [471/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49266 - Apr 25, 2026 (17 programs)
+ℹ   [472/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49603 - Apr 24, 2026 (11 programs)
+ℹ   [473/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49438 - Apr 25, 2026 (11 programs)
+ℹ   [474/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49603 - Apr 25, 2026 (11 programs)
+ℹ   [475/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49788 - Apr 25, 2026 (18 programs)
+ℹ   [476/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49788 - Apr 24, 2026 (18 programs)
+ℹ   [477/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49848 - Apr 24, 2026 (4 programs)
+ℹ   [478/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49848 - Apr 25, 2026 (4 programs)
+ℹ   [479/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49882 - Apr 24, 2026 (13 programs)
+ℹ   [480/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/49882 - Apr 25, 2026 (16 programs)
+ℹ   [481/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/50038 - Apr 24, 2026 (11 programs)
+ℹ   [482/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/50038 - Apr 25, 2026 (11 programs)
+ℹ   [483/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/50167 - Apr 24, 2026 (4 programs)
+ℹ   [484/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/50335 - Apr 24, 2026 (14 programs)
+ℹ   [485/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/50167 - Apr 25, 2026 (4 programs)
+ℹ   [486/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/50335 - Apr 25, 2026 (8 programs)
+ℹ   [487/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/50338 - Apr 24, 2026 (22 programs)
+ℹ   [488/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/50338 - Apr 25, 2026 (22 programs)
+ℹ   [489/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/50404 - Apr 24, 2026 (22 programs)
+ℹ   [490/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/50747 - Apr 24, 2026 (16 programs)
+ℹ   [491/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/50404 - Apr 25, 2026 (19 programs)
+ℹ   [492/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/50747 - Apr 25, 2026 (18 programs)
+ℹ   [493/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/51529 - Apr 24, 2026 (22 programs)
+ℹ   [494/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/52199 - Apr 25, 2026 (7 programs)
+ℹ   [495/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/51529 - Apr 25, 2026 (15 programs)
+ℹ   [496/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/52199 - Apr 24, 2026 (7 programs)
+ℹ   [497/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/52649 - Apr 24, 2026 (20 programs)
+ℹ   [498/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/52649 - Apr 25, 2026 (18 programs)
+ℹ   [499/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/52697 - Apr 24, 2026 (22 programs)
+ℹ   [500/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/52697 - Apr 25, 2026 (22 programs)
+ℹ   [501/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/54867 - Apr 25, 2026 (10 programs)
+ℹ   [502/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/55250 - Apr 24, 2026 (19 programs)
+ℹ   [503/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/54867 - Apr 24, 2026 (13 programs)
+ℹ   [504/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/55250 - Apr 25, 2026 (18 programs)
+ℹ   [505/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/55433 - Apr 24, 2026 (4 programs)
+ℹ   [506/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/55887 - Apr 24, 2026 (6 programs)
+ℹ   [507/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/55433 - Apr 25, 2026 (4 programs)
+ℹ   [508/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/55887 - Apr 25, 2026 (6 programs)
+ℹ   [509/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/56032 - Apr 24, 2026 (11 programs)
+ℹ   [510/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/56032 - Apr 25, 2026 (11 programs)
+ℹ   [511/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/56783 - Apr 24, 2026 (10 programs)
+ℹ   [512/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/56783 - Apr 25, 2026 (9 programs)
+ℹ   [513/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/56905 - Apr 24, 2026 (10 programs)
+ℹ   [514/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/56905 - Apr 25, 2026 (11 programs)
+ℹ   [515/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57390 - Apr 24, 2026 (10 programs)
+ℹ   [516/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57390 - Apr 25, 2026 (11 programs)
+ℹ   [517/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57391 - Apr 24, 2026 (11 programs)
+ℹ   [518/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57391 - Apr 25, 2026 (11 programs)
+ℹ   [519/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57394 - Apr 24, 2026 (11 programs)
+ℹ   [520/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57394 - Apr 25, 2026 (11 programs)
+ℹ   [521/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57569 - Apr 24, 2026 (6 programs)
+ℹ   [522/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57569 - Apr 25, 2026 (8 programs)
+ℹ   [523/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57573 - Apr 25, 2026 (8 programs)
+ℹ   [524/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57573 - Apr 24, 2026 (8 programs)
+ℹ   [525/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57581 - Apr 24, 2026 (7 programs)
+ℹ   [526/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57581 - Apr 25, 2026 (8 programs)
+ℹ   [527/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57708 - Apr 24, 2026 (11 programs)
+ℹ   [528/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57806 - Apr 24, 2026 (4 programs)
+ℹ   [529/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57708 - Apr 25, 2026 (10 programs)
+ℹ   [530/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/57806 - Apr 25, 2026 (4 programs)
+ℹ   [531/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58321 - Apr 24, 2026 (10 programs)
+ℹ   [532/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58321 - Apr 25, 2026 (9 programs)
+ℹ   [533/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58428 - Apr 24, 2026 (15 programs)
+ℹ   [534/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58428 - Apr 25, 2026 (21 programs)
+ℹ   [535/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58452 - Apr 24, 2026 (11 programs)
+ℹ   [536/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58452 - Apr 25, 2026 (11 programs)
+ℹ   [537/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58515 - Apr 24, 2026 (22 programs)
+ℹ   [538/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58515 - Apr 25, 2026 (9 programs)
+ℹ   [539/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58532 - Apr 24, 2026 (11 programs)
+ℹ   [540/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58532 - Apr 25, 2026 (11 programs)
+ℹ   [541/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58533 - Apr 24, 2026 (6 programs)
+ℹ   [542/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58570 - Apr 25, 2026 (11 programs)
+ℹ   [543/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58533 - Apr 25, 2026 (6 programs)
+ℹ   [544/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58574 - Apr 24, 2026 (5 programs)
+ℹ   [545/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58574 - Apr 25, 2026 (5 programs)
+ℹ   [546/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58570 - Apr 24, 2026 (9 programs)
+ℹ   [547/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58623 - Apr 24, 2026 (5 programs)
+ℹ   [548/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58623 - Apr 25, 2026 (4 programs)
+ℹ   [549/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58625 - Apr 24, 2026 (10 programs)
+ℹ   [550/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58625 - Apr 25, 2026 (7 programs)
+ℹ   [551/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58646 - Apr 24, 2026 (11 programs)
+ℹ   [552/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58646 - Apr 25, 2026 (11 programs)
+ℹ   [553/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58649 - Apr 24, 2026 (12 programs)
+ℹ   [554/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58649 - Apr 25, 2026 (18 programs)
+ℹ   [555/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58690 - Apr 24, 2026 (9 programs)
+ℹ   [556/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58690 - Apr 25, 2026 (11 programs)
+ℹ   [557/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58698 - Apr 24, 2026 (11 programs)
+ℹ   [558/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58698 - Apr 25, 2026 (18 programs)
+ℹ   [559/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58718 - Apr 24, 2026 (12 programs)
+ℹ   [560/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58780 - Apr 24, 2026 (10 programs)
+ℹ   [561/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58718 - Apr 25, 2026 (18 programs)
+ℹ   [562/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58780 - Apr 25, 2026 (14 programs)
+ℹ   [563/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58812 - Apr 24, 2026 (11 programs)
+ℹ   [564/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58812 - Apr 25, 2026 (11 programs)
+ℹ   [565/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58933 - Apr 24, 2026 (4 programs)
+ℹ   [566/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58933 - Apr 25, 2026 (4 programs)
+ℹ   [567/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58988 - Apr 24, 2026 (15 programs)
+ℹ   [568/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/58988 - Apr 25, 2026 (22 programs)
+ℹ   [569/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59116 - Apr 24, 2026 (12 programs)
+ℹ   [570/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59036 - Apr 24, 2026 (25 programs)
+ℹ   [571/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59116 - Apr 25, 2026 (6 programs)
+ℹ   [572/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59186 - Apr 24, 2026 (10 programs)
+ℹ   [573/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59036 - Apr 25, 2026 (25 programs)
+ℹ   [574/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59155 - Apr 24, 2026 (26 programs)
+ℹ   [575/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59186 - Apr 25, 2026 (3 programs)
+ℹ   [576/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59250 - Apr 24, 2026 (9 programs)
+ℹ   [577/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59250 - Apr 25, 2026 (10 programs)
+ℹ   [578/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59296 - Apr 24, 2026 (10 programs)
+ℹ   [579/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59296 - Apr 25, 2026 (11 programs)
+ℹ   [580/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59155 - Apr 25, 2026 (36 programs)
+ℹ   [581/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59303 - Apr 24, 2026 (11 programs)
+ℹ   [582/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59303 - Apr 25, 2026 (11 programs)
+ℹ   [583/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59305 - Apr 24, 2026 (5 programs)
+ℹ   [584/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59305 - Apr 25, 2026 (7 programs)
+ℹ   [585/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59337 - Apr 24, 2026 (6 programs)
+ℹ   [586/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59337 - Apr 25, 2026 (5 programs)
+ℹ   [587/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59355 - Apr 24, 2026 (9 programs)
+ℹ   [588/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59355 - Apr 25, 2026 (9 programs)
+ℹ   [589/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59357 - Apr 24, 2026 (4 programs)
+ℹ   [590/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59357 - Apr 25, 2026 (4 programs)
+ℹ   [591/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59363 - Apr 25, 2026 (9 programs)
+ℹ   [592/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59368 - Apr 24, 2026 (8 programs)
+ℹ   [593/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59363 - Apr 24, 2026 (11 programs)
+ℹ   [594/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59368 - Apr 25, 2026 (8 programs)
+ℹ   [595/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59373 - Apr 24, 2026 (6 programs)
+ℹ   [596/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59432 - Apr 24, 2026 (14 programs)
+ℹ   [597/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59440 - Apr 24, 2026 (22 programs)
+ℹ   [598/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59440 - Apr 25, 2026 (7 programs)
+ℹ   [599/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59373 - Apr 25, 2026 (8 programs)
+ℹ   [600/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59432 - Apr 25, 2026 (7 programs)
+ℹ   [601/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59444 - Apr 24, 2026 (5 programs)
+ℹ   [602/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59444 - Apr 25, 2026 (5 programs)
+ℹ   [603/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59534 - Apr 24, 2026 (12 programs)
+ℹ   [604/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59534 - Apr 25, 2026 (15 programs)
+ℹ   [605/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59539 - Apr 24, 2026 (20 programs)
+ℹ   [606/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59607 - Apr 24, 2026 (8 programs)
+ℹ   [607/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59539 - Apr 25, 2026 (19 programs)
+ℹ   [608/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59607 - Apr 25, 2026 (7 programs)
+ℹ   [609/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59615 - Apr 24, 2026 (6 programs)
+ℹ   [610/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59615 - Apr 25, 2026 (5 programs)
+ℹ   [611/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59625 - Apr 24, 2026 (12 programs)
+ℹ   [612/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59625 - Apr 25, 2026 (17 programs)
+ℹ   [613/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59627 - Apr 25, 2026 (17 programs)
+ℹ   [614/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59627 - Apr 24, 2026 (13 programs)
+ℹ   [615/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59629 - Apr 24, 2026 (13 programs)
+ℹ   [616/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59646 - Apr 24, 2026 (15 programs)
+ℹ   [617/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59629 - Apr 25, 2026 (17 programs)
+ℹ   [618/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59644 - Apr 25, 2026 (17 programs)
+ℹ   [619/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59644 - Apr 24, 2026 (12 programs)
+ℹ   [620/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59646 - Apr 25, 2026 (11 programs)
+ℹ   [621/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59684 - Apr 24, 2026 (23 programs)
+ℹ   [622/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59837 - Apr 24, 2026 (10 programs)
+ℹ   [623/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59837 - Apr 25, 2026 (10 programs)
+ℹ   [624/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59684 - Apr 25, 2026 (19 programs)
+ℹ   [625/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59839 - Apr 24, 2026 (10 programs)
+ℹ   [626/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59839 - Apr 25, 2026 (9 programs)
+ℹ   [627/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59845 - Apr 24, 2026 (8 programs)
+ℹ   [628/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59845 - Apr 25, 2026 (7 programs)
+ℹ   [629/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59948 - Apr 24, 2026 (7 programs)
+ℹ   [630/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59948 - Apr 25, 2026 (6 programs)
+ℹ   [631/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59961 - Apr 24, 2026 (7 programs)
+ℹ   [632/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59961 - Apr 25, 2026 (7 programs)
+ℹ   [633/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59954 - Apr 24, 2026 (4 programs)
+ℹ   [634/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59963 - Apr 24, 2026 (0 programs)
+ℹ   [635/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59954 - Apr 25, 2026 (4 programs)
+ℹ   [636/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59963 - Apr 25, 2026 (0 programs)
+ℹ   [637/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59965 - Apr 24, 2026 (8 programs)
+ℹ   [638/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59965 - Apr 25, 2026 (6 programs)
+ℹ   [639/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59976 - Apr 24, 2026 (9 programs)
+ℹ   [640/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/59976 - Apr 25, 2026 (14 programs)
+ℹ   [641/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60006 - Apr 25, 2026 (22 programs)
+ℹ   [642/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60006 - Apr 24, 2026 (22 programs)
+ℹ   [643/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60046 - Apr 24, 2026 (21 programs)
+ℹ   [644/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60046 - Apr 25, 2026 (14 programs)
+ℹ   [645/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60048 - Apr 24, 2026 (32 programs)
+ℹ   [646/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60150 - Apr 24, 2026 (11 programs)
+ℹ   [647/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60048 - Apr 25, 2026 (27 programs)
+ℹ   [648/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60111 - Apr 25, 2026 (22 programs)
+ℹ   [649/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60111 - Apr 24, 2026 (22 programs)
+ℹ   [650/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60150 - Apr 25, 2026 (9 programs)
+ℹ   [651/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60165 - Apr 24, 2026 (14 programs)
+ℹ   [652/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60179 - Apr 25, 2026 (11 programs)
+ℹ   [653/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60179 - Apr 24, 2026 (11 programs)
+ℹ   [654/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60165 - Apr 25, 2026 (20 programs)
+ℹ   [655/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60222 - Apr 24, 2026 (9 programs)
+ℹ   [656/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60222 - Apr 25, 2026 (7 programs)
+ℹ   [657/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60316 - Apr 24, 2026 (4 programs)
+ℹ   [658/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60296 - Apr 24, 2026 (20 programs)
+ℹ   [659/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60296 - Apr 25, 2026 (18 programs)
+ℹ   [660/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60316 - Apr 25, 2026 (4 programs)
+ℹ   [661/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60631 - Apr 24, 2026 (7 programs)
+ℹ   [662/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60468 - Apr 25, 2026 (18 programs)
+ℹ   [663/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60468 - Apr 24, 2026 (19 programs)
+ℹ   [664/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60597 - Apr 24, 2026 (22 programs)
+ℹ   [665/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60597 - Apr 25, 2026 (19 programs)
+ℹ   [666/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60631 - Apr 25, 2026 (7 programs)
+ℹ   [667/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60690 - Apr 24, 2026 (8 programs)
+ℹ   [668/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60690 - Apr 25, 2026 (7 programs)
+ℹ   [669/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60696 - Apr 24, 2026 (11 programs)
+ℹ   [670/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60696 - Apr 25, 2026 (13 programs)
+ℹ   [671/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60947 - Apr 24, 2026 (6 programs)
+ℹ   [672/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60947 - Apr 25, 2026 (6 programs)
+ℹ   [673/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60951 - Apr 24, 2026 (6 programs)
+ℹ   [674/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60951 - Apr 25, 2026 (7 programs)
+ℹ   [675/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60964 - Apr 24, 2026 (21 programs)
+ℹ   [676/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61001 - Apr 24, 2026 (5 programs)
+ℹ   [677/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/60964 - Apr 25, 2026 (21 programs)
+ℹ   [678/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61001 - Apr 25, 2026 (6 programs)
+ℹ   [679/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61036 - Apr 24, 2026 (14 programs)
+ℹ   [680/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61036 - Apr 25, 2026 (14 programs)
+ℹ   [681/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61090 - Apr 24, 2026 (0 programs)
+ℹ   [682/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61084 - Apr 24, 2026 (13 programs)
+ℹ   [683/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61084 - Apr 25, 2026 (17 programs)
+ℹ   [684/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61090 - Apr 25, 2026 (0 programs)
+ℹ   [685/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61135 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [686/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61135 - Apr 24, 2026 (10 programs)
+ℹ   [687/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61143 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [688/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61092 - Apr 24, 2026 (13 programs)
+ℹ   [689/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61092 - Apr 25, 2026 (17 programs)
+ℹ   [690/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61143 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [691/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61313 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [692/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61313 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [693/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61340 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [694/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61340 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [695/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61469 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [696/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61469 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [697/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61776 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [698/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61776 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [699/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61812 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [700/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61812 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [701/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61854 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [702/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61854 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [703/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61960 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [704/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61960 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [705/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61988 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [706/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62055 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [707/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/61988 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [708/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62055 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [709/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62058 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [710/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62058 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [711/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62077 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [712/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62077 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [713/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62079 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [714/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62079 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [715/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62081 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [716/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62081 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [717/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62083 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [718/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62083 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [719/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62085 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [720/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62085 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [721/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62094 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [722/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62094 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [723/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62125 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [724/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62125 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [725/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62161 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [726/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62161 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [727/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62401 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [728/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62401 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [729/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62420 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [730/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62420 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [731/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62881 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [732/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62881 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [733/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62894 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [734/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62894 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [735/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62955 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [736/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62955 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [737/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62957 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [738/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/62957 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [739/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63039 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [740/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63039 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [741/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63137 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [742/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63137 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [743/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63138 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [744/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63138 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [745/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63198 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [746/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63198 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [747/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63236 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [748/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63236 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [749/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63516 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [750/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63516 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [751/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63717 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [752/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/63717 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [753/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64241 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [754/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64241 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [755/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64312 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [756/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64312 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [757/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64490 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [758/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64490 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [759/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64492 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [760/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64492 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [761/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64549 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [762/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64549 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [763/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64599 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [764/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64599 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [765/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64630 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [766/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64630 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [767/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64673 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [768/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/64673 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [769/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65025 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [770/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65025 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [771/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65064 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [772/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65064 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [773/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65223 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [774/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65223 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [775/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65342 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [776/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65342 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [777/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65412 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [778/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65412 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [779/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65460 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [780/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65460 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [781/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65596 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [782/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65596 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [783/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65687 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [784/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65687 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [785/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65732 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [786/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/65732 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [787/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66110 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [788/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66110 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [789/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66268 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [790/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66268 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [791/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66379 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [792/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66379 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [793/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66485 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [794/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66485 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [795/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66804 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [796/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66804 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [797/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66879 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [798/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66879 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [799/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66880 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [800/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/66880 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [801/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67235 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [802/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67235 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [803/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67236 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [804/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67236 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [805/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67331 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [806/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67331 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [807/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67375 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [808/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67375 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [809/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67454 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [810/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67454 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [811/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67676 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [812/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67676 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [813/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67749 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [814/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67749 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [815/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67890 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [816/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67890 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [817/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67929 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [818/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/67929 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [819/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68040 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [820/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68040 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [821/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68049 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [822/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68049 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [823/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68065 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [824/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68065 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [825/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68340 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [826/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68340 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [827/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68342 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [828/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68342 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [829/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68367 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [830/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68385 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [831/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68367 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [832/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68385 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [833/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68502 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [834/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68502 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [835/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68796 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [836/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68796 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [837/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68827 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [838/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/68827 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [839/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/69061 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [840/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/69061 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [841/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/69130 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [842/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/69130 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [843/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/69301 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [844/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/69301 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [845/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/69529 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [846/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/69529 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [847/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70225 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [848/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70225 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [849/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70253 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [850/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70253 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [851/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70337 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [852/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70337 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [853/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70387 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [854/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70387 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [855/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70388 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [856/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70388 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [857/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70436 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [858/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70436 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [859/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70460 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [860/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70460 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [861/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70522 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [862/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/70522 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [863/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71271 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [864/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71280 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [865/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71271 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [866/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71280 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [867/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71461 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [868/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71461 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [869/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71661 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [870/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71790 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [871/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71661 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [872/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71790 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [873/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71798 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [874/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71799 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [875/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71798 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [876/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71799 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [877/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71914 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [878/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/71914 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [879/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/72015 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [880/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/72094 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [881/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/72015 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [882/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/72094 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [883/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/72189 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [884/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/72449 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [885/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/72189 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [886/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/72449 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [887/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/72611 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [888/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/72611 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [889/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/73067 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [890/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/73413 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [891/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/73067 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [892/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/73413 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [893/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/73541 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [894/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/73564 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [895/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/73564 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [896/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/73541 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [897/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/73565 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [898/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/73565 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [899/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74333 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [900/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74073 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [901/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74073 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [902/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74333 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [903/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74436 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [904/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74550 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [905/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74436 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [906/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74550 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [907/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74711 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [908/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74711 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [909/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74796 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [910/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74859 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [911/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74796 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [912/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74859 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [913/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74885 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [914/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74900 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [915/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74885 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [916/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74900 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [917/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74978 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [918/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/74978 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [919/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/75077 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [920/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/75077 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [921/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/75176 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [922/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/75176 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [923/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/75220 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [924/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/75621 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [925/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/75220 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [926/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/75621 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [927/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/75761 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [928/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/75761 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [929/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/76408 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [930/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/76408 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [931/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/76894 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [932/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/76894 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [933/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/76898 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [934/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/76898 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [935/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/76964 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [936/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/76964 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [937/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/77033 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [938/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/77033 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [939/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/77375 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [940/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/77375 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [941/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/77376 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [942/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/77376 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [943/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/77606 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [944/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/77606 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [945/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/77744 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [946/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/77744 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [947/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/77746 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [948/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/77746 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [949/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78601 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [950/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78601 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [951/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78609 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [952/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78609 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [953/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78754 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [954/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78754 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [955/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78803 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [956/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78803 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [957/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78808 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [958/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78808 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [959/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78850 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [960/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78850 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [961/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78851 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [962/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/78851 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [963/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/79566 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [964/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/79566 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [965/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/80621 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [966/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/80621 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [967/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/81287 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [968/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/81287 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [969/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82446 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [970/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82470 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [971/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82446 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [972/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82470 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [973/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82541 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [974/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82541 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [975/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82547 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [976/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82547 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [977/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82563 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [978/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82563 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [979/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82649 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [980/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82649 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [981/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82682 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [982/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82682 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [983/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82773 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [984/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82773 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [985/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82808 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [986/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82808 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [987/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82892 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [988/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/82892 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [989/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/83098 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [990/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/83098 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [991/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/86448 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [992/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/86448 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [993/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87000 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [994/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87000 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [995/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87001 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [996/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87001 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [997/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87023 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [998/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87023 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [999/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87024 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1000/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87024 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1001/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87063 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1002/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87063 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1003/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87376 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1004/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87376 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1005/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87624 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1006/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87624 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1007/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87690 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1008/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87690 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1009/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87925 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1010/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/88484 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1011/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/87925 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1012/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/88484 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1013/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/89535 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1014/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/89535 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1015/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/89714 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1016/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/89714 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1017/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/89922 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1018/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/89922 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1019/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91035 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1020/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91035 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1021/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91060 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1022/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91060 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1023/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91096 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1024/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91096 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1025/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91097 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1026/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91097 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1027/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91314 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1028/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91314 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1029/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91588 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1030/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91588 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1031/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91994 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1032/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91994 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1033/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91998 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1034/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/91998 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1035/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/92534 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1036/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/92534 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1037/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/93372 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1038/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/93372 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1039/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/94102 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1040/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/94102 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1041/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/94842 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1042/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/94842 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1043/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/94884 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1044/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/94884 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1045/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/95743 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1046/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/95743 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1047/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/95746 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1048/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/95746 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1049/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/96013 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1050/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/96013 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1051/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/96368 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1052/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/96368 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1053/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/97041 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1054/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/97041 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1055/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/97163 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1056/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/97163 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1057/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/97409 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1058/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/97409 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1059/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/97682 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1060/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/97682 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1061/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/98286 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1062/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/98286 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1063/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/100082 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1064/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/100082 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1065/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/100304 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1066/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/100304 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1067/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/100316 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1068/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/100316 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1069/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/100858 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1070/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/100858 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1071/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/101260 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1072/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/101260 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1073/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/101449 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1074/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/101449 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1075/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/101697 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1076/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/101697 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1077/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/102305 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1078/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/102305 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1079/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/102490 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1080/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/102490 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1081/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/102903 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1082/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/102903 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1083/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/102905 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1084/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/102905 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1085/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/102906 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1086/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/102906 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1087/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/103892 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1088/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/103892 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1089/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/105619 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1090/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/105619 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1091/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/105628 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1092/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/105628 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1093/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/105723 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1094/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/105723 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1095/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/105824 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1096/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/105824 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1097/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/105858 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1098/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/105858 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1099/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/106173 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1100/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/106173 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1101/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/106387 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1102/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/106387 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1103/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/106819 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1104/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/106819 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1105/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/107076 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1106/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/107076 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1107/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/108573 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1108/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/108573 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1109/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/109333 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1110/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/109718 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1111/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/109333 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1112/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/109718 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1113/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/109719 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1114/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/109719 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1115/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/109979 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1116/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/109979 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1117/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/110289 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1118/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/110289 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1119/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/110477 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1120/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/110477 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1121/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/110950 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1122/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/110950 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1123/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/111046 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1124/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/111046 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1125/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/111177 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1126/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/111177 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1127/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/111293 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1128/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/111293 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1129/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/111871 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1130/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/111871 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1131/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/111905 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1132/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/111905 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1133/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/113717 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1134/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/113717 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1135/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/113720 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1136/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/113720 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1137/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/114483 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1138/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/114483 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1139/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/114759 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1140/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/114759 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1141/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/114881 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1142/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/114881 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1143/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/114934 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1144/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/114934 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1145/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/115674 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1146/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/115674 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1147/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/116634 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1148/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/116634 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1149/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/116898 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1150/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/116898 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1151/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/116899 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1152/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/116899 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1153/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/117009 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1154/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/117009 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1155/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/117988 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1156/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/117988 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1157/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/122068 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1158/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/122068 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1159/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/122139 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1160/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/122139 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1161/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/122276 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1162/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/122276 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1163/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/122482 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1164/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/122482 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1165/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/124383 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1166/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/124383 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1167/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/126128 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1168/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/126128 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1169/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/132272 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1170/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/132272 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1171/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/132423 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1172/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/132423 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1173/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/136322 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1174/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/136322 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1175/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/136323 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1176/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/136323 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1177/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/136332 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1178/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/136332 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1179/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/138912 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1180/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/138912 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1181/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/151128 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1182/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/151128 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1183/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/155158 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1184/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/155158 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1185/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/157315 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1186/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/157315 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1187/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/157317 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1188/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/157317 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1189/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/172126 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [1190/1190] zap2it.com (es) - X/USA-DITV-DEFAULT/DITV/USA/12084/172126 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   saving to "/home/runner/workspace/sites/zap2it.com/zap2it.com.xml"...
+✔   done in 00h 01m 27s

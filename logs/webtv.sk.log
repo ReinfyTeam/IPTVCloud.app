@@ -1,0 +1,519 @@
+═══════════════════════════════════════════════════════════════
+  Site            : webtv.sk
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 38s
+  Channels        : 372
+  With programmes : 258
+  Empty channels  : 114
+  Total programs  : 11761
+  Output size     : 4463757 bytes
+  HTTP errors     :
+    72 status code 429
+    42 status code 404
+  Last error      : Request failed with status code 429
+  Generated       : 2026-04-24 13:06:17
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 13:05:39 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=webtv.sk --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 186 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/372] webtv.sk (sk) - al_jazeera_english - Apr 24, 2026 (38 programs)
+ℹ   [2/372] webtv.sk (sk) - 360_tunebox - Apr 24, 2026 (24 programs)
+ℹ   [3/372] webtv.sk (sk) - 360_tunebox - Apr 25, 2026 (24 programs)
+ℹ   [4/372] webtv.sk (sk) - al_jazeera - Apr 25, 2026 (29 programs)
+ℹ   [5/372] webtv.sk (sk) - al_jazeera - Apr 24, 2026 (29 programs)
+ℹ   [6/372] webtv.sk (sk) - al_jazeera_english - Apr 25, 2026 (39 programs)
+ℹ   [7/372] webtv.sk (sk) - amc - Apr 24, 2026 (18 programs)
+ℹ   [8/372] webtv.sk (sk) - amc - Apr 25, 2026 (21 programs)
+ℹ   [9/372] webtv.sk (sk) - animal_planet - Apr 25, 2026 (28 programs)
+ℹ   [10/372] webtv.sk (sk) - animal_planet - Apr 24, 2026 (27 programs)
+ℹ   [11/372] webtv.sk (sk) - arena_sport_1 - Apr 24, 2026 (36 programs)
+ℹ   [12/372] webtv.sk (sk) - arena_sport_1 - Apr 25, 2026 (31 programs)
+ℹ   [13/372] webtv.sk (sk) - arena_sport_2 - Apr 24, 2026 (24 programs)
+ℹ   [14/372] webtv.sk (sk) - arena_sport_2 - Apr 25, 2026 (20 programs)
+ℹ   [15/372] webtv.sk (sk) - arirang_tv - Apr 24, 2026 (51 programs)
+ℹ   [16/372] webtv.sk (sk) - armenia_1_tv - Apr 24, 2026 (28 programs)
+ℹ   [17/372] webtv.sk (sk) - arirang_tv - Apr 25, 2026 (53 programs)
+ℹ   [18/372] webtv.sk (sk) - armenia_1_tv - Apr 25, 2026 (34 programs)
+ℹ   [19/372] webtv.sk (sk) - atv_ziar - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [20/372] webtv.sk (sk) - atv_ziar - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [21/372] webtv.sk (sk) - auto_motor_und_sport - Apr 25, 2026 (55 programs)
+ℹ   [22/372] webtv.sk (sk) - auto_motor_und_sport - Apr 24, 2026 (59 programs)
+ℹ   [23/372] webtv.sk (sk) - axn - Apr 24, 2026 (28 programs)
+ℹ   [24/372] webtv.sk (sk) - axn - Apr 25, 2026 (23 programs)
+ℹ   [25/372] webtv.sk (sk) - axn_black - Apr 24, 2026 (27 programs)
+ℹ   [26/372] webtv.sk (sk) - axn_white - Apr 24, 2026 (26 programs)
+ℹ   [27/372] webtv.sk (sk) - axn_white - Apr 25, 2026 (26 programs)
+ℹ   [28/372] webtv.sk (sk) - axn_black - Apr 25, 2026 (25 programs)
+ℹ   [29/372] webtv.sk (sk) - barrandov - Apr 24, 2026 (26 programs)
+ℹ   [30/372] webtv.sk (sk) - barrandov - Apr 25, 2026 (28 programs)
+ℹ   [31/372] webtv.sk (sk) - barrandov_plus - Apr 24, 2026 (20 programs)
+ℹ   [32/372] webtv.sk (sk) - barrandov_plus - Apr 25, 2026 (20 programs)
+ℹ   [33/372] webtv.sk (sk) - btv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [34/372] webtv.sk (sk) - cetv - Apr 24, 2026 (48 programs)
+ℹ   [35/372] webtv.sk (sk) - btv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [36/372] webtv.sk (sk) - cetv - Apr 25, 2026 (48 programs)
+ℹ   [37/372] webtv.sk (sk) - cgtn - Apr 24, 2026 (45 programs)
+ℹ   [38/372] webtv.sk (sk) - cgtn - Apr 25, 2026 (45 programs)
+ℹ   [39/372] webtv.sk (sk) - cgtn_documentary - Apr 24, 2026 (36 programs)
+ℹ   [40/372] webtv.sk (sk) - cgtn_documentary - Apr 25, 2026 (35 programs)
+ℹ   [41/372] webtv.sk (sk) - cinemax - Apr 24, 2026 (16 programs)
+ℹ   [42/372] webtv.sk (sk) - cinemax - Apr 25, 2026 (14 programs)
+ℹ   [43/372] webtv.sk (sk) - cinemax_2 - Apr 24, 2026 (15 programs)
+ℹ   [44/372] webtv.sk (sk) - cinemax_2 - Apr 25, 2026 (13 programs)
+ℹ   [45/372] webtv.sk (sk) - coronavirus_info_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [46/372] webtv.sk (sk) - crime_investigation - Apr 24, 2026 (35 programs)
+ℹ   [47/372] webtv.sk (sk) - coronavirus_info_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [48/372] webtv.sk (sk) - crime_investigation - Apr 25, 2026 (33 programs)
+ℹ   [49/372] webtv.sk (sk) - csr_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [50/372] webtv.sk (sk) - csr_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [51/372] webtv.sk (sk) - ct_1 - Apr 24, 2026 (37 programs)
+ℹ   [52/372] webtv.sk (sk) - ct_1 - Apr 25, 2026 (37 programs)
+ℹ   [53/372] webtv.sk (sk) - ct_2 - Apr 24, 2026 (39 programs)
+ℹ   [54/372] webtv.sk (sk) - ct_2 - Apr 25, 2026 (35 programs)
+ℹ   [55/372] webtv.sk (sk) - ct_24 - Apr 24, 2026 (55 programs)
+ℹ   [56/372] webtv.sk (sk) - ct_24 - Apr 25, 2026 (48 programs)
+ℹ   [57/372] webtv.sk (sk) - ct_detem_ct_art - Apr 24, 2026 (80 programs)
+ℹ   [58/372] webtv.sk (sk) - ct_detem_ct_art - Apr 25, 2026 (51 programs)
+ℹ   [59/372] webtv.sk (sk) - current_time - Apr 24, 2026 (30 programs)
+ℹ   [60/372] webtv.sk (sk) - current_time - Apr 25, 2026 (35 programs)
+ℹ   [61/372] webtv.sk (sk) - dajto - Apr 24, 2026 (33 programs)
+ℹ   [62/372] webtv.sk (sk) - dajto - Apr 25, 2026 (34 programs)
+ℹ   [63/372] webtv.sk (sk) - discovery - Apr 24, 2026 (30 programs)
+ℹ   [64/372] webtv.sk (sk) - discovery - Apr 25, 2026 (27 programs)
+ℹ   [65/372] webtv.sk (sk) - disney_channel - Apr 24, 2026 (74 programs)
+ℹ   [66/372] webtv.sk (sk) - disney_channel - Apr 25, 2026 (71 programs)
+ℹ   [67/372] webtv.sk (sk) - disney_junior - Apr 24, 2026 (96 programs)
+ℹ   [68/372] webtv.sk (sk) - disney_junior - Apr 25, 2026 (89 programs)
+ℹ   [69/372] webtv.sk (sk) - docubox_hd - Apr 24, 2026 (42 programs)
+ℹ   [70/372] webtv.sk (sk) - docubox_hd - Apr 25, 2026 (44 programs)
+ℹ   [71/372] webtv.sk (sk) - doktor_tv - Apr 24, 2026 (55 programs)
+ℹ   [72/372] webtv.sk (sk) - doktor_tv - Apr 25, 2026 (52 programs)
+ℹ   [73/372] webtv.sk (sk) - doma - Apr 24, 2026 (28 programs)
+ℹ   [74/372] webtv.sk (sk) - doma - Apr 25, 2026 (24 programs)
+ℹ   [75/372] webtv.sk (sk) - duck_tv - Apr 24, 2026 (546 programs)
+ℹ   [76/372] webtv.sk (sk) - duck_tv_plus - Apr 25, 2026 (544 programs)
+ℹ   [77/372] webtv.sk (sk) - eclutch_1 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [78/372] webtv.sk (sk) - duck_tv - Apr 25, 2026 (547 programs)
+ℹ   [79/372] webtv.sk (sk) - duck_tv_plus - Apr 24, 2026 (544 programs)
+ℹ   [80/372] webtv.sk (sk) - eclutch_1 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [81/372] webtv.sk (sk) - eclutch_2 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [82/372] webtv.sk (sk) - eclutch_2 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [83/372] webtv.sk (sk) - english_club_tv - Apr 24, 2026 (119 programs)
+ℹ   [84/372] webtv.sk (sk) - english_club_tv - Apr 25, 2026 (117 programs)
+ℹ   [85/372] webtv.sk (sk) - epsreso_tv - Apr 24, 2026 (32 programs)
+ℹ   [86/372] webtv.sk (sk) - epsreso_tv - Apr 25, 2026 (30 programs)
+ℹ   [87/372] webtv.sk (sk) - euronews - Apr 24, 2026 (82 programs)
+ℹ   [88/372] webtv.sk (sk) - euronews - Apr 25, 2026 (99 programs)
+ℹ   [89/372] webtv.sk (sk) - eurosport_1 - Apr 24, 2026 (14 programs)
+ℹ   [90/372] webtv.sk (sk) - eurosport_1 - Apr 25, 2026 (13 programs)
+ℹ   [91/372] webtv.sk (sk) - eurosport_2 - Apr 24, 2026 (17 programs)
+ℹ   [92/372] webtv.sk (sk) - eurosport_2 - Apr 25, 2026 (14 programs)
+ℹ   [93/372] webtv.sk (sk) - fashion_tv - Apr 24, 2026 (68 programs)
+ℹ   [94/372] webtv.sk (sk) - fashion_tv - Apr 25, 2026 (68 programs)
+ℹ   [95/372] webtv.sk (sk) - fashionbox_hd - Apr 24, 2026 (29 programs)
+ℹ   [96/372] webtv.sk (sk) - fashionbox_hd - Apr 25, 2026 (30 programs)
+ℹ   [97/372] webtv.sk (sk) - fast_and_funbox_hd - Apr 24, 2026 (45 programs)
+ℹ   [98/372] webtv.sk (sk) - fast_and_funbox_hd - Apr 25, 2026 (46 programs)
+ℹ   [99/372] webtv.sk (sk) - fightbox_hd - Apr 24, 2026 (15 programs)
+ℹ   [100/372] webtv.sk (sk) - fightbox_hd - Apr 25, 2026 (16 programs)
+ℹ   [101/372] webtv.sk (sk) - film_plus - Apr 24, 2026 (17 programs)
+ℹ   [102/372] webtv.sk (sk) - film_plus - Apr 25, 2026 (18 programs)
+ℹ   [103/372] webtv.sk (sk) - filmbox - Apr 24, 2026 (17 programs)
+ℹ   [104/372] webtv.sk (sk) - filmbox - Apr 25, 2026 (13 programs)
+ℹ   [105/372] webtv.sk (sk) - filmbox_arthouse - Apr 24, 2026 (21 programs)
+ℹ   [106/372] webtv.sk (sk) - filmbox_arthouse - Apr 25, 2026 (21 programs)
+ℹ   [107/372] webtv.sk (sk) - filmbox_extra_hd - Apr 24, 2026 (16 programs)
+ℹ   [108/372] webtv.sk (sk) - filmbox_extra_hd - Apr 25, 2026 (17 programs)
+ℹ   [109/372] webtv.sk (sk) - filmbox_family - Apr 24, 2026 (15 programs)
+ℹ   [110/372] webtv.sk (sk) - filmbox_family - Apr 25, 2026 (14 programs)
+ℹ   [111/372] webtv.sk (sk) - filmbox_plus - Apr 25, 2026 (14 programs)
+ℹ   [112/372] webtv.sk (sk) - filmbox_plus - Apr 24, 2026 (16 programs)
+ℹ   [113/372] webtv.sk (sk) - filmbox_premium - Apr 24, 2026 (15 programs)
+ℹ   [114/372] webtv.sk (sk) - filmbox_premium - Apr 25, 2026 (16 programs)
+ℹ   [115/372] webtv.sk (sk) - fishing_and_hunting - Apr 24, 2026 (48 programs)
+ℹ   [116/372] webtv.sk (sk) - folklorika - Apr 24, 2026 (26 programs)
+ℹ   [117/372] webtv.sk (sk) - fishing_and_hunting - Apr 25, 2026 (48 programs)
+ℹ   [118/372] webtv.sk (sk) - folklorika - Apr 25, 2026 (30 programs)
+ℹ   [119/372] webtv.sk (sk) - food_network - Apr 24, 2026 (35 programs)
+ℹ   [120/372] webtv.sk (sk) - food_network - Apr 25, 2026 (33 programs)
+ℹ   [121/372] webtv.sk (sk) - france24 - Apr 24, 2026 (99 programs)
+ℹ   [122/372] webtv.sk (sk) - france24 - Apr 25, 2026 (89 programs)
+ℹ   [123/372] webtv.sk (sk) - france_24_english - Apr 24, 2026 (117 programs)
+ℹ   [124/372] webtv.sk (sk) - france_24_english - Apr 25, 2026 (112 programs)
+ℹ   [125/372] webtv.sk (sk) - golf_channel - Apr 24, 2026 (10 programs)
+ℹ   [126/372] webtv.sk (sk) - golf_channel - Apr 25, 2026 (9 programs)
+ℹ   [127/372] webtv.sk (sk) - gttv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [128/372] webtv.sk (sk) - hbo - Apr 24, 2026 (15 programs)
+ℹ   [129/372] webtv.sk (sk) - gttv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [130/372] webtv.sk (sk) - hbo - Apr 25, 2026 (14 programs)
+ℹ   [131/372] webtv.sk (sk) - hbo_2 - Apr 24, 2026 (18 programs)
+ℹ   [132/372] webtv.sk (sk) - hbo_2 - Apr 25, 2026 (16 programs)
+ℹ   [133/372] webtv.sk (sk) - hbo_3 - Apr 24, 2026 (21 programs)
+ℹ   [134/372] webtv.sk (sk) - hbo_3 - Apr 25, 2026 (20 programs)
+ℹ   [135/372] webtv.sk (sk) - hgtv - Apr 24, 2026 (34 programs)
+ℹ   [136/372] webtv.sk (sk) - history_2 - Apr 24, 2026 (32 programs)
+ℹ   [137/372] webtv.sk (sk) - hgtv - Apr 25, 2026 (34 programs)
+ℹ   [138/372] webtv.sk (sk) - history_2 - Apr 25, 2026 (32 programs)
+ℹ   [139/372] webtv.sk (sk) - history_channel - Apr 24, 2026 (33 programs)
+ℹ   [140/372] webtv.sk (sk) - history_channel - Apr 25, 2026 (32 programs)
+ℹ   [141/372] webtv.sk (sk) - hn_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [142/372] webtv.sk (sk) - hn_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [143/372] webtv.sk (sk) - infokanal_tango - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [144/372] webtv.sk (sk) - infokanal_tango - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [145/372] webtv.sk (sk) - investigation_discovery - Apr 25, 2026 (26 programs)
+ℹ   [146/372] webtv.sk (sk) - jim_jam - Apr 24, 2026 (148 programs)
+ℹ   [147/372] webtv.sk (sk) - investigation_discovery - Apr 24, 2026 (24 programs)
+ℹ   [148/372] webtv.sk (sk) - joj - Apr 24, 2026 (26 programs)
+ℹ   [149/372] webtv.sk (sk) - jim_jam - Apr 25, 2026 (148 programs)
+ℹ   [150/372] webtv.sk (sk) - joj - Apr 25, 2026 (27 programs)
+ℹ   [151/372] webtv.sk (sk) - joj_24 - Apr 24, 2026 (28 programs)
+ℹ   [152/372] webtv.sk (sk) - joj_24 - Apr 25, 2026 (36 programs)
+ℹ   [153/372] webtv.sk (sk) - joj_cinema - Apr 24, 2026 (15 programs)
+ℹ   [154/372] webtv.sk (sk) - joj_cinema - Apr 25, 2026 (14 programs)
+ℹ   [155/372] webtv.sk (sk) - joj_cinema_plus_jedna - Apr 24, 2026 (14 programs)
+ℹ   [156/372] webtv.sk (sk) - joj_cinema_plus_jedna - Apr 25, 2026 (14 programs)
+ℹ   [157/372] webtv.sk (sk) - joj_plus - Apr 24, 2026 (23 programs)
+ℹ   [158/372] webtv.sk (sk) - joj_plus - Apr 25, 2026 (14 programs)
+ℹ   [159/372] webtv.sk (sk) - joj_plus_jedna - Apr 24, 2026 (26 programs)
+ℹ   [160/372] webtv.sk (sk) - joj_plus_jedna - Apr 25, 2026 (27 programs)
+ℹ   [161/372] webtv.sk (sk) - joj_sport - Apr 24, 2026 (13 programs)
+ℹ   [162/372] webtv.sk (sk) - joj_sport - Apr 25, 2026 (11 programs)
+ℹ   [163/372] webtv.sk (sk) - joj_sport_2 - Apr 24, 2026 (13 programs)
+ℹ   [164/372] webtv.sk (sk) - joj_sport_2 - Apr 25, 2026 (12 programs)
+ℹ   [165/372] webtv.sk (sk) - joj_svet - Apr 24, 2026 (28 programs)
+ℹ   [166/372] webtv.sk (sk) - joj_svet - Apr 25, 2026 (29 programs)
+ℹ   [167/372] webtv.sk (sk) - kino_barrandov - Apr 24, 2026 (19 programs)
+ℹ   [168/372] webtv.sk (sk) - kino_barrandov - Apr 25, 2026 (20 programs)
+ℹ   [169/372] webtv.sk (sk) - kitchen - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [170/372] webtv.sk (sk) - lala_tv - Apr 24, 2026 (13 programs)
+ℹ   [171/372] webtv.sk (sk) - kitchen - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [172/372] webtv.sk (sk) - lala_tv - Apr 25, 2026 (13 programs)
+ℹ   [173/372] webtv.sk (sk) - lang_lab - Apr 24, 2026 (142 programs)
+ℹ   [174/372] webtv.sk (sk) - lang_lab - Apr 25, 2026 (118 programs)
+ℹ   [175/372] webtv.sk (sk) - life_tv - Apr 24, 2026 (24 programs)
+ℹ   [176/372] webtv.sk (sk) - life_tv - Apr 25, 2026 (24 programs)
+ℹ   [177/372] webtv.sk (sk) - lingo_toons - Apr 24, 2026 (135 programs)
+ℹ   [178/372] webtv.sk (sk) - lingo_toons - Apr 25, 2026 (147 programs)
+ℹ   [179/372] webtv.sk (sk) - locall - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [180/372] webtv.sk (sk) - locall - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [181/372] webtv.sk (sk) - love_nature - Apr 24, 2026 (28 programs)
+ℹ   [182/372] webtv.sk (sk) - love_nature - Apr 25, 2026 (28 programs)
+ℹ   [183/372] webtv.sk (sk) - lux - Apr 24, 2026 (50 programs)
+ℹ   [184/372] webtv.sk (sk) - lux - Apr 25, 2026 (45 programs)
+ℹ   [185/372] webtv.sk (sk) - markiza - Apr 24, 2026 (27 programs)
+ℹ   [186/372] webtv.sk (sk) - markiza - Apr 25, 2026 (19 programs)
+ℹ   [187/372] webtv.sk (sk) - markiza_klasik - Apr 24, 2026 (26 programs)
+ℹ   [188/372] webtv.sk (sk) - markiza_klasik - Apr 25, 2026 (30 programs)
+ℹ   [189/372] webtv.sk (sk) - markiza_krimi - Apr 24, 2026 (27 programs)
+ℹ   [190/372] webtv.sk (sk) - markiza_krimi - Apr 25, 2026 (28 programs)
+ℹ   [191/372] webtv.sk (sk) - markiza_plus_jedna - Apr 24, 2026 (27 programs)
+ℹ   [192/372] webtv.sk (sk) - markiza_plus_jedna - Apr 25, 2026 (20 programs)
+ℹ   [193/372] webtv.sk (sk) - mestska_televizia_trnava - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [194/372] webtv.sk (sk) - mestska_televizia_trnava - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [195/372] webtv.sk (sk) - mestska_tv_kosice - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [196/372] webtv.sk (sk) - mestska_tv_partizanske - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [197/372] webtv.sk (sk) - mestska_tv_kosice - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [198/372] webtv.sk (sk) - mestska_tv_partizanske - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [199/372] webtv.sk (sk) - miestna_tv_trebisov - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [200/372] webtv.sk (sk) - minimax - Apr 25, 2026 (91 programs)
+ℹ   [201/372] webtv.sk (sk) - minimax - Apr 24, 2026 (94 programs)
+ℹ   [202/372] webtv.sk (sk) - miestna_tv_trebisov - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [203/372] webtv.sk (sk) - mistral - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [204/372] webtv.sk (sk) - mistral - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [205/372] webtv.sk (sk) - national_geographic_channel_hd - Apr 24, 2026 (27 programs)
+ℹ   [206/372] webtv.sk (sk) - moldava_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [207/372] webtv.sk (sk) - moldava_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [208/372] webtv.sk (sk) - national_geographic_channel_hd - Apr 25, 2026 (27 programs)
+ℹ   [209/372] webtv.sk (sk) - national_geographic_wild - Apr 24, 2026 (34 programs)
+ℹ   [210/372] webtv.sk (sk) - national_geographic_wild - Apr 25, 2026 (34 programs)
+ℹ   [211/372] webtv.sk (sk) - nhk_world_hd - Apr 24, 2026 (95 programs)
+ℹ   [212/372] webtv.sk (sk) - nhk_world_hd - Apr 25, 2026 (100 programs)
+ℹ   [213/372] webtv.sk (sk) - nick_jr - Apr 24, 2026 (92 programs)
+ℹ   [214/372] webtv.sk (sk) - nick_jr - Apr 25, 2026 (90 programs)
+ℹ   [215/372] webtv.sk (sk) - nickelodeon - Apr 24, 2026 (67 programs)
+ℹ   [216/372] webtv.sk (sk) - nickelodeon - Apr 25, 2026 (64 programs)
+ℹ   [217/372] webtv.sk (sk) - nicktoons - Apr 24, 2026 (73 programs)
+ℹ   [218/372] webtv.sk (sk) - nicktoons - Apr 25, 2026 (71 programs)
+ℹ   [219/372] webtv.sk (sk) - noe - Apr 24, 2026 (37 programs)
+ℹ   [220/372] webtv.sk (sk) - noe - Apr 25, 2026 (28 programs)
+ℹ   [221/372] webtv.sk (sk) - nova_international - Apr 24, 2026 (38 programs)
+ℹ   [222/372] webtv.sk (sk) - nova_international - Apr 25, 2026 (35 programs)
+ℹ   [223/372] webtv.sk (sk) - nova_sport_1_hd - Apr 24, 2026 (25 programs)
+ℹ   [224/372] webtv.sk (sk) - nova_sport_1_hd - Apr 25, 2026 (21 programs)
+ℹ   [225/372] webtv.sk (sk) - nova_sport_2_hd - Apr 24, 2026 (21 programs)
+ℹ   [226/372] webtv.sk (sk) - nova_sport_2_hd - Apr 25, 2026 (18 programs)
+ℹ   [227/372] webtv.sk (sk) - nrsr_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [228/372] webtv.sk (sk) - nrsr_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [229/372] webtv.sk (sk) - ocko - Apr 24, 2026 (22 programs)
+ℹ   [230/372] webtv.sk (sk) - ocko - Apr 25, 2026 (19 programs)
+ℹ   [231/372] webtv.sk (sk) - ocko_black_hd - Apr 24, 2026 (7 programs)
+ℹ   [232/372] webtv.sk (sk) - ocko_black_hd - Apr 25, 2026 (9 programs)
+ℹ   [233/372] webtv.sk (sk) - ocko_expres - Apr 24, 2026 (6 programs)
+ℹ   [234/372] webtv.sk (sk) - ocko_expres - Apr 25, 2026 (7 programs)
+ℹ   [235/372] webtv.sk (sk) - ocko_star - Apr 24, 2026 (10 programs)
+ℹ   [236/372] webtv.sk (sk) - ocko_star - Apr 25, 2026 (14 programs)
+ℹ   [237/372] webtv.sk (sk) - padel_time - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [238/372] webtv.sk (sk) - park_tv - Apr 24, 2026 (24 programs)
+ℹ   [239/372] webtv.sk (sk) - padel_time - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [240/372] webtv.sk (sk) - park_tv - Apr 25, 2026 (24 programs)
+ℹ   [241/372] webtv.sk (sk) - pohoda_rebel - Apr 24, 2026 (12 programs)
+ℹ   [242/372] webtv.sk (sk) - pohoda_rebel - Apr 25, 2026 (10 programs)
+ℹ   [243/372] webtv.sk (sk) - pohoda_relax - Apr 24, 2026 (24 programs)
+ℹ   [244/372] webtv.sk (sk) - pohoda_relax - Apr 25, 2026 (24 programs)
+ℹ   [245/372] webtv.sk (sk) - polar - Apr 24, 2026 (175 programs)
+ℹ   [246/372] webtv.sk (sk) - polar - Apr 25, 2026 (164 programs)
+ℹ   [247/372] webtv.sk (sk) - prima_cool_sk - Apr 24, 2026 (29 programs)
+ℹ   [248/372] webtv.sk (sk) - prima_cool_sk - Apr 25, 2026 (29 programs)
+ℹ   [249/372] webtv.sk (sk) - prima_krimi_sk - Apr 24, 2026 (24 programs)
+ℹ   [250/372] webtv.sk (sk) - prima_krimi_sk - Apr 25, 2026 (20 programs)
+ℹ   [251/372] webtv.sk (sk) - prima_love_sk - Apr 24, 2026 (28 programs)
+ℹ   [252/372] webtv.sk (sk) - prima_love_sk - Apr 25, 2026 (28 programs)
+ℹ   [253/372] webtv.sk (sk) - prima_news - Apr 24, 2026 (47 programs)
+ℹ   [254/372] webtv.sk (sk) - prima_news - Apr 25, 2026 (45 programs)
+ℹ   [255/372] webtv.sk (sk) - prima_plus_hd - Apr 24, 2026 (25 programs)
+ℹ   [256/372] webtv.sk (sk) - prima_plus_hd - Apr 25, 2026 (28 programs)
+ℹ   [257/372] webtv.sk (sk) - rai_tre - Apr 24, 2026 (38 programs)
+ℹ   [258/372] webtv.sk (sk) - rai_tre - Apr 25, 2026 (33 programs)
+ℹ   [259/372] webtv.sk (sk) - rai_uno - Apr 24, 2026 (31 programs)
+ℹ   [260/372] webtv.sk (sk) - rai_uno - Apr 25, 2026 (36 programs)
+ℹ   [261/372] webtv.sk (sk) - regio_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [262/372] webtv.sk (sk) - regio_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [263/372] webtv.sk (sk) - regionalni_televize - Apr 24, 2026 (33 programs)
+ℹ   [264/372] webtv.sk (sk) - regionalni_televize - Apr 25, 2026 (41 programs)
+ℹ   [265/372] webtv.sk (sk) - retro_music_television - Apr 24, 2026 (15 programs)
+ℹ   [266/372] webtv.sk (sk) - retro_music_television - Apr 25, 2026 (15 programs)
+ℹ   [267/372] webtv.sk (sk) - rik - Apr 24, 2026 (94 programs)
+ℹ   [268/372] webtv.sk (sk) - rik - Apr 25, 2026 (97 programs)
+ℹ   [269/372] webtv.sk (sk) - ric_tv - Apr 24, 2026 (92 programs)
+ℹ   [270/372] webtv.sk (sk) - ric_tv - Apr 25, 2026 (82 programs)
+ℹ   [271/372] webtv.sk (sk) - rvtv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [272/372] webtv.sk (sk) - rvtv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [273/372] webtv.sk (sk) - senzi - Apr 24, 2026 (12 programs)
+ℹ   [274/372] webtv.sk (sk) - senzi - Apr 25, 2026 (10 programs)
+ℹ   [275/372] webtv.sk (sk) - seznam_tv - Apr 24, 2026 (24 programs)
+ℹ   [276/372] webtv.sk (sk) - skvele - Apr 24, 2026 (26 programs)
+ℹ   [277/372] webtv.sk (sk) - skvele - Apr 25, 2026 (25 programs)
+ℹ   [278/372] webtv.sk (sk) - seznam_tv - Apr 25, 2026 (26 programs)
+ℹ   [279/372] webtv.sk (sk) - sky_news - Apr 24, 2026 (42 programs)
+ℹ   [280/372] webtv.sk (sk) - sky_news - Apr 25, 2026 (42 programs)
+ℹ   [281/372] webtv.sk (sk) - slager_premium - Apr 24, 2026 (36 programs)
+ℹ   [282/372] webtv.sk (sk) - slager_premium - Apr 25, 2026 (33 programs)
+ℹ   [283/372] webtv.sk (sk) - slagr_2 - Apr 24, 2026 (7 programs)
+ℹ   [284/372] webtv.sk (sk) - slagr_2 - Apr 25, 2026 (5 programs)
+ℹ   [285/372] webtv.sk (sk) - slagr_tv - Apr 24, 2026 (12 programs)
+ℹ   [286/372] webtv.sk (sk) - slagr_tv - Apr 25, 2026 (11 programs)
+ℹ   [287/372] webtv.sk (sk) - spektrum - Apr 24, 2026 (30 programs)
+ℹ   [288/372] webtv.sk (sk) - spektrum - Apr 25, 2026 (37 programs)
+ℹ   [289/372] webtv.sk (sk) - spektrum_home - Apr 24, 2026 (33 programs)
+ℹ   [290/372] webtv.sk (sk) - spektrum_home - Apr 25, 2026 (30 programs)
+ℹ   [291/372] webtv.sk (sk) - sport_1 - Apr 24, 2026 (14 programs)
+ℹ   [292/372] webtv.sk (sk) - sport_1 - Apr 25, 2026 (14 programs)
+ℹ   [293/372] webtv.sk (sk) - sport_2 - Apr 24, 2026 (15 programs)
+ℹ   [294/372] webtv.sk (sk) - sport_2 - Apr 25, 2026 (17 programs)
+ℹ   [295/372] webtv.sk (sk) - stingray_iconcerts - Apr 24, 2026 (23 programs)
+ℹ   [296/372] webtv.sk (sk) - stingray_iconcerts - Apr 25, 2026 (22 programs)
+ℹ   [297/372] webtv.sk (sk) - stv_1 - Apr 24, 2026 (31 programs)
+ℹ   [298/372] webtv.sk (sk) - stv_1 - Apr 25, 2026 (49 programs)
+ℹ   [299/372] webtv.sk (sk) - stv_2 - Apr 24, 2026 (52 programs)
+ℹ   [300/372] webtv.sk (sk) - stv_2 - Apr 25, 2026 (46 programs)
+ℹ   [301/372] webtv.sk (sk) - stv_3 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [302/372] webtv.sk (sk) - stv_3 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [303/372] webtv.sk (sk) - stv_sport - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [304/372] webtv.sk (sk) - stv_sport - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [305/372] webtv.sk (sk) - super_yacht_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [306/372] webtv.sk (sk) - super_yacht_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [307/372] webtv.sk (sk) - ta_3 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [308/372] webtv.sk (sk) - ta_3 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [309/372] webtv.sk (sk) - tanecnesutaze - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [310/372] webtv.sk (sk) - tanecnesutaze - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [311/372] webtv.sk (sk) - tlc - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [312/372] webtv.sk (sk) - tlc - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [313/372] webtv.sk (sk) - travel_channel_hd - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [314/372] webtv.sk (sk) - travel_channel_hd - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [315/372] webtv.sk (sk) - trt_world - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [316/372] webtv.sk (sk) - trt_world - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [317/372] webtv.sk (sk) - turbo_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [318/372] webtv.sk (sk) - turbo_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [319/372] webtv.sk (sk) - tv7 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [320/372] webtv.sk (sk) - tv7 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [321/372] webtv.sk (sk) - tv9 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [322/372] webtv.sk (sk) - tv9 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [323/372] webtv.sk (sk) - tv_8 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [324/372] webtv.sk (sk) - tv_bratislava - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [325/372] webtv.sk (sk) - tv_8 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [326/372] webtv.sk (sk) - tv_bratislava - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [327/372] webtv.sk (sk) - tv_nitricka - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [328/372] webtv.sk (sk) - tv_nitricka - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [329/372] webtv.sk (sk) - tv_nove_zamky - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [330/372] webtv.sk (sk) - tv_nove_zamky - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [331/372] webtv.sk (sk) - tv_panorama - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [332/372] webtv.sk (sk) - tv_panorama - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [333/372] webtv.sk (sk) - tv_paprika - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [334/372] webtv.sk (sk) - tv_paprika - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [335/372] webtv.sk (sk) - tv_pianko - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [336/372] webtv.sk (sk) - tv_pianko - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [337/372] webtv.sk (sk) - tv_poprad - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [338/372] webtv.sk (sk) - tv_poprad - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [339/372] webtv.sk (sk) - tv_povazie - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [340/372] webtv.sk (sk) - tv_povazie - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [341/372] webtv.sk (sk) - tv_raj - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [342/372] webtv.sk (sk) - tv_raj - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [343/372] webtv.sk (sk) - tv_reduta - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [344/372] webtv.sk (sk) - tv_reduta - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [345/372] webtv.sk (sk) - tv_romana - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [346/372] webtv.sk (sk) - tv_romana - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [347/372] webtv.sk (sk) - tv_ruzinov - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [348/372] webtv.sk (sk) - tv_ruzinov - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [349/372] webtv.sk (sk) - tv_sen - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [350/372] webtv.sk (sk) - tv_sen - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [351/372] webtv.sk (sk) - tv_severka - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [352/372] webtv.sk (sk) - tv_vega - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [353/372] webtv.sk (sk) - tv_severka - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [354/372] webtv.sk (sk) - tv_vega - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [355/372] webtv.sk (sk) - tv_vita - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [356/372] webtv.sk (sk) - tv_vita - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [357/372] webtv.sk (sk) - tv_zemplin - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [358/372] webtv.sk (sk) - tv_zemplin - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [359/372] webtv.sk (sk) - tvp_info - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [360/372] webtv.sk (sk) - tvp_info - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [361/372] webtv.sk (sk) - tvp_polonia - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [362/372] webtv.sk (sk) - tvp_polonia - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [363/372] webtv.sk (sk) - tvp_world - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [364/372] webtv.sk (sk) - tvp_world - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [365/372] webtv.sk (sk) - ua_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [366/372] webtv.sk (sk) - ua_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [367/372] webtv.sk (sk) - up_network - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [368/372] webtv.sk (sk) - up_network - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [369/372] webtv.sk (sk) - wau - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [370/372] webtv.sk (sk) - wau - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [371/372] webtv.sk (sk) - zstv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [372/372] webtv.sk (sk) - zstv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   saving to "/home/runner/workspace/sites/webtv.sk/webtv.sk.xml"...
+✔   done in 00h 00m 33s

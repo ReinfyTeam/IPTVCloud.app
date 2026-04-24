@@ -1,0 +1,318 @@
+═══════════════════════════════════════════════════════════════
+  Site            : znbc.co.zm
+  Status          : EMPTY
+  Attempts used   : 10 / 10
+  Total elapsed   : 107s
+  Channels        : 80
+  With programmes : 0
+  Empty channels  : 80
+  Total programs  : 0
+  Output size     : 0 bytes
+  Other errors    :
+    80 unable to verify the first certificate
+  Last error      : unable to verify the first certificate
+  Generated       : 2026-04-24 13:13:05
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 13:11:18 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=znbc.co.zm --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 4 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [2/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [3/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [4/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [5/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [6/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [7/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [8/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   saving to "/home/runner/workspace/sites/znbc.co.zm/znbc.co.zm.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 2/10 @ 13:11:30 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=znbc.co.zm --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 4 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [2/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [3/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [4/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [5/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [6/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [7/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [8/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   saving to "/home/runner/workspace/sites/znbc.co.zm/znbc.co.zm.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 3/10 @ 13:11:41 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=znbc.co.zm --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 4 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [2/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [3/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [4/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [5/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [6/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [7/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [8/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   saving to "/home/runner/workspace/sites/znbc.co.zm/znbc.co.zm.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 4/10 @ 13:11:52 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=znbc.co.zm --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 4 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [2/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [3/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [4/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [5/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [6/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [7/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [8/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   saving to "/home/runner/workspace/sites/znbc.co.zm/znbc.co.zm.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 5/10 @ 13:12:03 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=znbc.co.zm --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 4 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [2/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [3/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [4/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [5/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [6/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [7/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [8/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   saving to "/home/runner/workspace/sites/znbc.co.zm/znbc.co.zm.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 6/10 @ 13:12:15 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=znbc.co.zm --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 4 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [2/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [3/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [4/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [5/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [6/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [7/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [8/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   saving to "/home/runner/workspace/sites/znbc.co.zm/znbc.co.zm.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 7/10 @ 13:12:26 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=znbc.co.zm --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 4 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [2/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [3/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [4/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [5/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [6/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [7/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [8/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   saving to "/home/runner/workspace/sites/znbc.co.zm/znbc.co.zm.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 8/10 @ 13:12:37 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=znbc.co.zm --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 4 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [2/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [3/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [4/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [5/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [6/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [7/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [8/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   saving to "/home/runner/workspace/sites/znbc.co.zm/znbc.co.zm.xml"...
+✔   done in 00h 00m 02s
+
+===== attempt 9/10 @ 13:12:48 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=znbc.co.zm --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 4 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [2/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [3/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [4/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [5/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [6/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [7/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [8/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   saving to "/home/runner/workspace/sites/znbc.co.zm/znbc.co.zm.xml"...
+✔   done in 00h 00m 02s
+
+===== attempt 10/10 @ 13:13:00 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=znbc.co.zm --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 4 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [2/8] znbc.co.zm (en) - ZNBCTV2.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [3/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [4/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [5/8] znbc.co.zm (en) - ZNBCTV1.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [6/8] znbc.co.zm (en) - ZNBCTV3.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [7/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   [8/8] znbc.co.zm (en) - ZNBCTV4.zm@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: unable to verify the first certificate
+ℹ   saving to "/home/runner/workspace/sites/znbc.co.zm/znbc.co.zm.xml"...
+✔   done in 00h 00m 01s

@@ -1,0 +1,478 @@
+═══════════════════════════════════════════════════════════════
+  Site            : v3.myafn.dodmedia.osd.mil
+  Status          : EMPTY
+  Attempts used   : 10 / 10
+  Total elapsed   : 111s
+  Channels        : 160
+  With programmes : 0
+  Empty channels  : 160
+  Total programs  : 0
+  Output size     : 0 bytes
+  HTTP errors     :
+    160 status code 403
+  Last error      : Request failed with status code 403
+  Generated       : 2026-04-24 13:01:13
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 12:59:22 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=v3.myafn.dodmedia.osd.mil --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 8 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [7/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [8/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [9/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [10/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [11/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [12/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [13/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [14/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [15/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [16/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/v3.myafn.dodmedia.osd.mil/v3.myafn.dodmedia.osd.mil.xml"...
+✔   done in 00h 00m 02s
+
+===== attempt 2/10 @ 12:59:35 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=v3.myafn.dodmedia.osd.mil --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 8 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [7/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [8/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [9/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [10/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [11/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [12/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [13/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [14/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [15/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [16/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/v3.myafn.dodmedia.osd.mil/v3.myafn.dodmedia.osd.mil.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 3/10 @ 12:59:48 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=v3.myafn.dodmedia.osd.mil --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 8 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [7/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [8/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [9/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [10/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [11/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [12/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [13/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [14/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [15/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [16/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/v3.myafn.dodmedia.osd.mil/v3.myafn.dodmedia.osd.mil.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 4/10 @ 12:59:59 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=v3.myafn.dodmedia.osd.mil --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 8 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [7/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [8/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [9/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [10/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [11/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [12/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [13/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [14/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [15/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [16/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/v3.myafn.dodmedia.osd.mil/v3.myafn.dodmedia.osd.mil.xml"...
+✔   done in 00h 00m 02s
+
+===== attempt 5/10 @ 13:00:11 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=v3.myafn.dodmedia.osd.mil --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 8 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [7/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [8/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [9/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [10/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [11/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [12/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [13/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [14/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [15/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [16/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/v3.myafn.dodmedia.osd.mil/v3.myafn.dodmedia.osd.mil.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 6/10 @ 13:00:22 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=v3.myafn.dodmedia.osd.mil --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 8 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [7/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [8/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [9/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [10/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [11/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [12/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [13/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [14/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [15/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [16/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/v3.myafn.dodmedia.osd.mil/v3.myafn.dodmedia.osd.mil.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 7/10 @ 13:00:34 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=v3.myafn.dodmedia.osd.mil --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 8 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [7/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [8/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [9/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [10/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [11/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [12/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [13/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [14/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [15/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [16/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/v3.myafn.dodmedia.osd.mil/v3.myafn.dodmedia.osd.mil.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 8/10 @ 13:00:45 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=v3.myafn.dodmedia.osd.mil --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 8 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [7/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [8/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [9/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [10/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [11/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [12/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [13/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [14/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [15/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [16/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/v3.myafn.dodmedia.osd.mil/v3.myafn.dodmedia.osd.mil.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 9/10 @ 13:00:55 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=v3.myafn.dodmedia.osd.mil --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 8 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [7/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [8/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [9/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [10/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [11/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [12/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [13/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [14/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [15/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [16/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/v3.myafn.dodmedia.osd.mil/v3.myafn.dodmedia.osd.mil.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 10/10 @ 13:01:07 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=v3.myafn.dodmedia.osd.mil --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 8 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimeAtlantic.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [7/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [8/16] v3.myafn.dodmedia.osd.mil (en) - AFNSpectrum.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [9/16] v3.myafn.dodmedia.osd.mil (en) - AFNPrimePacific.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [10/16] v3.myafn.dodmedia.osd.mil (en) - AFNNews.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [11/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [12/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [13/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [14/16] v3.myafn.dodmedia.osd.mil (en) - AFNSports2.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [15/16] v3.myafn.dodmedia.osd.mil (en) - AFNFamily.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [16/16] v3.myafn.dodmedia.osd.mil (en) - AFNMovie.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/v3.myafn.dodmedia.osd.mil/v3.myafn.dodmedia.osd.mil.xml"...
+✔   done in 00h 00m 01s

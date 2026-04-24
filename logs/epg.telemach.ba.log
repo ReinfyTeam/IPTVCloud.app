@@ -1,0 +1,1268 @@
+═══════════════════════════════════════════════════════════════
+  Site            : epg.telemach.ba
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 106s
+  Channels        : 952
+  With programmes : 668
+  Empty channels  : 284
+  Total programs  : 24179
+  Output size     : 10845555 bytes
+  HTTP errors     :
+    284 status code 400
+  Last error      : Request failed with status code 400
+  Generated       : 2026-04-24 10:56:10
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 10:54:24 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=epg.telemach.ba --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 476 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/952] epg.telemach.ba (hr) - 18 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [2/952] epg.telemach.ba (hr) - 18 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [3/952] epg.telemach.ba (hr) - 30 - Apr 24, 2026 (33 programs)
+ℹ   [4/952] epg.telemach.ba (hr) - 31 - Apr 24, 2026 (38 programs)
+ℹ   [5/952] epg.telemach.ba (hr) - 30 - Apr 25, 2026 (34 programs)
+ℹ   [6/952] epg.telemach.ba (hr) - 33 - Apr 24, 2026 (35 programs)
+ℹ   [7/952] epg.telemach.ba (hr) - 32 - Apr 24, 2026 (40 programs)
+ℹ   [8/952] epg.telemach.ba (hr) - 31 - Apr 25, 2026 (37 programs)
+ℹ   [9/952] epg.telemach.ba (hr) - 32 - Apr 25, 2026 (42 programs)
+ℹ   [10/952] epg.telemach.ba (hr) - 33 - Apr 25, 2026 (38 programs)
+ℹ   [11/952] epg.telemach.ba (hr) - 67 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [12/952] epg.telemach.ba (hr) - 67 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [13/952] epg.telemach.ba (hr) - 68 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [14/952] epg.telemach.ba (hr) - 68 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [15/952] epg.telemach.ba (hr) - 69 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [16/952] epg.telemach.ba (hr) - 69 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [17/952] epg.telemach.ba (hr) - 73 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [18/952] epg.telemach.ba (hr) - 73 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [19/952] epg.telemach.ba (hr) - 119 - Apr 25, 2026 (22 programs)
+ℹ   [20/952] epg.telemach.ba (hr) - 119 - Apr 24, 2026 (27 programs)
+ℹ   [21/952] epg.telemach.ba (hr) - 197 - Apr 24, 2026 (31 programs)
+ℹ   [22/952] epg.telemach.ba (hr) - 197 - Apr 25, 2026 (25 programs)
+ℹ   [23/952] epg.telemach.ba (hr) - 198 - Apr 24, 2026 (31 programs)
+ℹ   [24/952] epg.telemach.ba (hr) - 199 - Apr 24, 2026 (46 programs)
+ℹ   [25/952] epg.telemach.ba (hr) - 198 - Apr 25, 2026 (31 programs)
+ℹ   [26/952] epg.telemach.ba (hr) - 200 - Apr 24, 2026 (34 programs)
+ℹ   [27/952] epg.telemach.ba (hr) - 199 - Apr 25, 2026 (48 programs)
+ℹ   [28/952] epg.telemach.ba (hr) - 200 - Apr 25, 2026 (32 programs)
+ℹ   [29/952] epg.telemach.ba (hr) - 201 - Apr 24, 2026 (17 programs)
+ℹ   [30/952] epg.telemach.ba (hr) - 201 - Apr 25, 2026 (16 programs)
+ℹ   [31/952] epg.telemach.ba (hr) - 283 - Apr 24, 2026 (14 programs)
+ℹ   [32/952] epg.telemach.ba (hr) - 283 - Apr 25, 2026 (14 programs)
+ℹ   [33/952] epg.telemach.ba (hr) - 409 - Apr 24, 2026 (10 programs)
+ℹ   [34/952] epg.telemach.ba (hr) - 299 - Apr 24, 2026 (45 programs)
+ℹ   [35/952] epg.telemach.ba (hr) - 299 - Apr 25, 2026 (30 programs)
+ℹ   [36/952] epg.telemach.ba (hr) - 409 - Apr 25, 2026 (14 programs)
+ℹ   [37/952] epg.telemach.ba (hr) - 449 - Apr 24, 2026 (29 programs)
+ℹ   [38/952] epg.telemach.ba (hr) - 449 - Apr 25, 2026 (26 programs)
+ℹ   [39/952] epg.telemach.ba (hr) - 461 - Apr 24, 2026 (54 programs)
+ℹ   [40/952] epg.telemach.ba (hr) - 461 - Apr 25, 2026 (48 programs)
+ℹ   [41/952] epg.telemach.ba (hr) - 462 - Apr 24, 2026 (12 programs)
+ℹ   [42/952] epg.telemach.ba (hr) - 462 - Apr 25, 2026 (12 programs)
+ℹ   [43/952] epg.telemach.ba (hr) - 465 - Apr 24, 2026 (31 programs)
+ℹ   [44/952] epg.telemach.ba (hr) - 465 - Apr 25, 2026 (31 programs)
+ℹ   [45/952] epg.telemach.ba (hr) - 466 - Apr 24, 2026 (31 programs)
+ℹ   [46/952] epg.telemach.ba (hr) - 466 - Apr 25, 2026 (28 programs)
+ℹ   [47/952] epg.telemach.ba (hr) - 468 - Apr 24, 2026 (22 programs)
+ℹ   [48/952] epg.telemach.ba (hr) - 468 - Apr 25, 2026 (21 programs)
+ℹ   [49/952] epg.telemach.ba (hr) - 469 - Apr 24, 2026 (29 programs)
+ℹ   [50/952] epg.telemach.ba (hr) - 469 - Apr 25, 2026 (23 programs)
+ℹ   [51/952] epg.telemach.ba (hr) - 470 - Apr 24, 2026 (81 programs)
+ℹ   [52/952] epg.telemach.ba (hr) - 470 - Apr 25, 2026 (76 programs)
+ℹ   [53/952] epg.telemach.ba (hr) - 471 - Apr 24, 2026 (31 programs)
+ℹ   [54/952] epg.telemach.ba (hr) - 475 - Apr 24, 2026 (15 programs)
+ℹ   [55/952] epg.telemach.ba (hr) - 471 - Apr 25, 2026 (25 programs)
+ℹ   [56/952] epg.telemach.ba (hr) - 475 - Apr 25, 2026 (15 programs)
+ℹ   [57/952] epg.telemach.ba (hr) - 476 - Apr 24, 2026 (28 programs)
+ℹ   [58/952] epg.telemach.ba (hr) - 476 - Apr 25, 2026 (25 programs)
+ℹ   [59/952] epg.telemach.ba (hr) - 479 - Apr 24, 2026 (18 programs)
+ℹ   [60/952] epg.telemach.ba (hr) - 479 - Apr 25, 2026 (13 programs)
+ℹ   [61/952] epg.telemach.ba (hr) - 480 - Apr 24, 2026 (28 programs)
+ℹ   [62/952] epg.telemach.ba (hr) - 480 - Apr 25, 2026 (27 programs)
+ℹ   [63/952] epg.telemach.ba (hr) - 481 - Apr 24, 2026 (50 programs)
+ℹ   [64/952] epg.telemach.ba (hr) - 482 - Apr 24, 2026 (49 programs)
+ℹ   [65/952] epg.telemach.ba (hr) - 482 - Apr 25, 2026 (34 programs)
+ℹ   [66/952] epg.telemach.ba (hr) - 481 - Apr 25, 2026 (58 programs)
+ℹ   [67/952] epg.telemach.ba (hr) - 483 - Apr 24, 2026 (22 programs)
+ℹ   [68/952] epg.telemach.ba (hr) - 483 - Apr 25, 2026 (22 programs)
+ℹ   [69/952] epg.telemach.ba (hr) - 484 - Apr 24, 2026 (25 programs)
+ℹ   [70/952] epg.telemach.ba (hr) - 484 - Apr 25, 2026 (25 programs)
+ℹ   [71/952] epg.telemach.ba (hr) - 485 - Apr 24, 2026 (21 programs)
+ℹ   [72/952] epg.telemach.ba (hr) - 485 - Apr 25, 2026 (19 programs)
+ℹ   [73/952] epg.telemach.ba (hr) - 486 - Apr 25, 2026 (44 programs)
+ℹ   [74/952] epg.telemach.ba (hr) - 486 - Apr 24, 2026 (44 programs)
+ℹ   [75/952] epg.telemach.ba (hr) - 492 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [76/952] epg.telemach.ba (hr) - 489 - Apr 25, 2026 (41 programs)
+ℹ   [77/952] epg.telemach.ba (hr) - 489 - Apr 24, 2026 (52 programs)
+ℹ   [78/952] epg.telemach.ba (hr) - 492 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [79/952] epg.telemach.ba (hr) - 493 - Apr 24, 2026 (15 programs)
+ℹ   [80/952] epg.telemach.ba (hr) - 493 - Apr 25, 2026 (13 programs)
+ℹ   [81/952] epg.telemach.ba (hr) - 495 - Apr 24, 2026 (16 programs)
+ℹ   [82/952] epg.telemach.ba (hr) - 495 - Apr 25, 2026 (13 programs)
+ℹ   [83/952] epg.telemach.ba (hr) - 494 - Apr 25, 2026 (67 programs)
+ℹ   [84/952] epg.telemach.ba (hr) - 494 - Apr 24, 2026 (66 programs)
+ℹ   [85/952] epg.telemach.ba (hr) - 504 - Apr 24, 2026 (25 programs)
+ℹ   [86/952] epg.telemach.ba (hr) - 496 - Apr 25, 2026 (11 programs)
+ℹ   [87/952] epg.telemach.ba (hr) - 496 - Apr 24, 2026 (11 programs)
+ℹ   [88/952] epg.telemach.ba (hr) - 504 - Apr 25, 2026 (25 programs)
+ℹ   [89/952] epg.telemach.ba (hr) - 541 - Apr 24, 2026 (17 programs)
+ℹ   [90/952] epg.telemach.ba (hr) - 541 - Apr 25, 2026 (12 programs)
+ℹ   [91/952] epg.telemach.ba (hr) - 557 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [92/952] epg.telemach.ba (hr) - 552 - Apr 25, 2026 (45 programs)
+ℹ   [93/952] epg.telemach.ba (hr) - 552 - Apr 24, 2026 (51 programs)
+ℹ   [94/952] epg.telemach.ba (hr) - 557 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [95/952] epg.telemach.ba (hr) - 587 - Apr 24, 2026 (31 programs)
+ℹ   [96/952] epg.telemach.ba (hr) - 587 - Apr 25, 2026 (14 programs)
+ℹ   [97/952] epg.telemach.ba (hr) - 640 - Apr 24, 2026 (34 programs)
+ℹ   [98/952] epg.telemach.ba (hr) - 574 - Apr 25, 2026 (64 programs)
+ℹ   [99/952] epg.telemach.ba (hr) - 574 - Apr 24, 2026 (65 programs)
+ℹ   [100/952] epg.telemach.ba (hr) - 640 - Apr 25, 2026 (34 programs)
+ℹ   [101/952] epg.telemach.ba (hr) - 651 - Apr 24, 2026 (14 programs)
+ℹ   [102/952] epg.telemach.ba (hr) - 651 - Apr 25, 2026 (13 programs)
+ℹ   [103/952] epg.telemach.ba (hr) - 653 - Apr 24, 2026 (30 programs)
+ℹ   [104/952] epg.telemach.ba (hr) - 653 - Apr 25, 2026 (27 programs)
+ℹ   [105/952] epg.telemach.ba (hr) - 654 - Apr 24, 2026 (8 programs)
+ℹ   [106/952] epg.telemach.ba (hr) - 654 - Apr 25, 2026 (8 programs)
+ℹ   [107/952] epg.telemach.ba (hr) - 655 - Apr 24, 2026 (52 programs)
+ℹ   [108/952] epg.telemach.ba (hr) - 656 - Apr 24, 2026 (25 programs)
+ℹ   [109/952] epg.telemach.ba (hr) - 656 - Apr 25, 2026 (21 programs)
+ℹ   [110/952] epg.telemach.ba (hr) - 655 - Apr 25, 2026 (54 programs)
+ℹ   [111/952] epg.telemach.ba (hr) - 675 - Apr 24, 2026 (13 programs)
+ℹ   [112/952] epg.telemach.ba (hr) - 675 - Apr 25, 2026 (18 programs)
+ℹ   [113/952] epg.telemach.ba (hr) - 687 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [114/952] epg.telemach.ba (hr) - 687 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [115/952] epg.telemach.ba (hr) - 745 - Apr 25, 2026 (36 programs)
+ℹ   [116/952] epg.telemach.ba (hr) - 745 - Apr 24, 2026 (35 programs)
+ℹ   [117/952] epg.telemach.ba (hr) - 746 - Apr 24, 2026 (24 programs)
+ℹ   [118/952] epg.telemach.ba (hr) - 746 - Apr 25, 2026 (25 programs)
+ℹ   [119/952] epg.telemach.ba (hr) - 747 - Apr 24, 2026 (28 programs)
+ℹ   [120/952] epg.telemach.ba (hr) - 747 - Apr 25, 2026 (25 programs)
+ℹ   [121/952] epg.telemach.ba (hr) - 748 - Apr 24, 2026 (34 programs)
+ℹ   [122/952] epg.telemach.ba (hr) - 777 - Apr 24, 2026 (12 programs)
+ℹ   [123/952] epg.telemach.ba (hr) - 748 - Apr 25, 2026 (27 programs)
+ℹ   [124/952] epg.telemach.ba (hr) - 777 - Apr 25, 2026 (12 programs)
+ℹ   [125/952] epg.telemach.ba (hr) - 850 - Apr 24, 2026 (38 programs)
+ℹ   [126/952] epg.telemach.ba (hr) - 850 - Apr 25, 2026 (38 programs)
+ℹ   [127/952] epg.telemach.ba (hr) - 853 - Apr 25, 2026 (48 programs)
+ℹ   [128/952] epg.telemach.ba (hr) - 853 - Apr 24, 2026 (57 programs)
+ℹ   [129/952] epg.telemach.ba (hr) - 870 - Apr 24, 2026 (73 programs)
+ℹ   [130/952] epg.telemach.ba (hr) - 870 - Apr 25, 2026 (70 programs)
+ℹ   [131/952] epg.telemach.ba (hr) - 922 - Apr 24, 2026 (92 programs)
+ℹ   [132/952] epg.telemach.ba (hr) - 921 - Apr 25, 2026 (105 programs)
+ℹ   [133/952] epg.telemach.ba (hr) - 921 - Apr 24, 2026 (114 programs)
+ℹ   [134/952] epg.telemach.ba (hr) - 922 - Apr 25, 2026 (86 programs)
+ℹ   [135/952] epg.telemach.ba (hr) - 990 - Apr 24, 2026 (23 programs)
+ℹ   [136/952] epg.telemach.ba (hr) - 990 - Apr 25, 2026 (26 programs)
+ℹ   [137/952] epg.telemach.ba (hr) - 1096 - Apr 24, 2026 (19 programs)
+ℹ   [138/952] epg.telemach.ba (hr) - 1096 - Apr 25, 2026 (19 programs)
+ℹ   [139/952] epg.telemach.ba (hr) - 1097 - Apr 24, 2026 (26 programs)
+ℹ   [140/952] epg.telemach.ba (hr) - 1097 - Apr 25, 2026 (16 programs)
+ℹ   [141/952] epg.telemach.ba (hr) - 1102 - Apr 24, 2026 (26 programs)
+ℹ   [142/952] epg.telemach.ba (hr) - 1104 - Apr 25, 2026 (9 programs)
+ℹ   [143/952] epg.telemach.ba (hr) - 1104 - Apr 24, 2026 (10 programs)
+ℹ   [144/952] epg.telemach.ba (hr) - 1102 - Apr 25, 2026 (26 programs)
+ℹ   [145/952] epg.telemach.ba (hr) - 1142 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [146/952] epg.telemach.ba (hr) - 1105 - Apr 24, 2026 (111 programs)
+ℹ   [147/952] epg.telemach.ba (hr) - 1142 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [148/952] epg.telemach.ba (hr) - 1120 - Apr 24, 2026 (92 programs)
+ℹ   [149/952] epg.telemach.ba (hr) - 1120 - Apr 25, 2026 (89 programs)
+ℹ   [150/952] epg.telemach.ba (hr) - 1143 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [151/952] epg.telemach.ba (hr) - 1143 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [152/952] epg.telemach.ba (hr) - 1337 - Apr 25, 2026 (22 programs)
+ℹ   [153/952] epg.telemach.ba (hr) - 1337 - Apr 24, 2026 (19 programs)
+ℹ   [154/952] epg.telemach.ba (hr) - 1105 - Apr 25, 2026 (113 programs)
+ℹ   [155/952] epg.telemach.ba (hr) - 1338 - Apr 24, 2026 (21 programs)
+ℹ   [156/952] epg.telemach.ba (hr) - 1338 - Apr 25, 2026 (14 programs)
+ℹ   [157/952] epg.telemach.ba (hr) - 1477 - Apr 24, 2026 (13 programs)
+ℹ   [158/952] epg.telemach.ba (hr) - 1341 - Apr 24, 2026 (29 programs)
+ℹ   [159/952] epg.telemach.ba (hr) - 1341 - Apr 25, 2026 (31 programs)
+ℹ   [160/952] epg.telemach.ba (hr) - 1477 - Apr 25, 2026 (13 programs)
+ℹ   [161/952] epg.telemach.ba (hr) - 1478 - Apr 24, 2026 (27 programs)
+ℹ   [162/952] epg.telemach.ba (hr) - 1478 - Apr 25, 2026 (25 programs)
+ℹ   [163/952] epg.telemach.ba (hr) - 1493 - Apr 24, 2026 (24 programs)
+ℹ   [164/952] epg.telemach.ba (hr) - 1492 - Apr 24, 2026 (91 programs)
+ℹ   [165/952] epg.telemach.ba (hr) - 1492 - Apr 25, 2026 (89 programs)
+ℹ   [166/952] epg.telemach.ba (hr) - 1491 - Apr 24, 2026 (124 programs)
+ℹ   [167/952] epg.telemach.ba (hr) - 1491 - Apr 25, 2026 (122 programs)
+ℹ   [168/952] epg.telemach.ba (hr) - 1493 - Apr 25, 2026 (25 programs)
+ℹ   [169/952] epg.telemach.ba (hr) - 1494 - Apr 24, 2026 (22 programs)
+ℹ   [170/952] epg.telemach.ba (hr) - 1494 - Apr 25, 2026 (18 programs)
+ℹ   [171/952] epg.telemach.ba (hr) - 1496 - Apr 24, 2026 (36 programs)
+ℹ   [172/952] epg.telemach.ba (hr) - 1496 - Apr 25, 2026 (30 programs)
+ℹ   [173/952] epg.telemach.ba (hr) - 1497 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [174/952] epg.telemach.ba (hr) - 1497 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [175/952] epg.telemach.ba (hr) - 1495 - Apr 24, 2026 (93 programs)
+ℹ   [176/952] epg.telemach.ba (hr) - 1498 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [177/952] epg.telemach.ba (hr) - 1498 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [178/952] epg.telemach.ba (hr) - 1495 - Apr 25, 2026 (92 programs)
+ℹ   [179/952] epg.telemach.ba (hr) - 1500 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [180/952] epg.telemach.ba (hr) - 1500 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [181/952] epg.telemach.ba (hr) - 1501 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [182/952] epg.telemach.ba (hr) - 1501 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [183/952] epg.telemach.ba (hr) - 1502 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [184/952] epg.telemach.ba (hr) - 1502 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [185/952] epg.telemach.ba (hr) - 1503 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [186/952] epg.telemach.ba (hr) - 1503 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [187/952] epg.telemach.ba (hr) - 1505 - Apr 25, 2026 (18 programs)
+ℹ   [188/952] epg.telemach.ba (hr) - 1505 - Apr 24, 2026 (15 programs)
+ℹ   [189/952] epg.telemach.ba (hr) - 1507 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [190/952] epg.telemach.ba (hr) - 1507 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [191/952] epg.telemach.ba (hr) - 1506 - Apr 25, 2026 (64 programs)
+ℹ   [192/952] epg.telemach.ba (hr) - 1508 - Apr 24, 2026 (15 programs)
+ℹ   [193/952] epg.telemach.ba (hr) - 1508 - Apr 25, 2026 (15 programs)
+ℹ   [194/952] epg.telemach.ba (hr) - 1506 - Apr 24, 2026 (65 programs)
+ℹ   [195/952] epg.telemach.ba (hr) - 1509 - Apr 25, 2026 (14 programs)
+ℹ   [196/952] epg.telemach.ba (hr) - 1509 - Apr 24, 2026 (23 programs)
+ℹ   [197/952] epg.telemach.ba (hr) - 1510 - Apr 24, 2026 (355 programs)
+ℹ   [198/952] epg.telemach.ba (hr) - 1512 - Apr 24, 2026 (67 programs)
+ℹ   [199/952] epg.telemach.ba (hr) - 1511 - Apr 25, 2026 (75 programs)
+ℹ   [200/952] epg.telemach.ba (hr) - 1511 - Apr 24, 2026 (82 programs)
+ℹ   [201/952] epg.telemach.ba (hr) - 1513 - Apr 24, 2026 (138 programs)
+ℹ   [202/952] epg.telemach.ba (hr) - 1514 - Apr 24, 2026 (13 programs)
+ℹ   [203/952] epg.telemach.ba (hr) - 1513 - Apr 25, 2026 (127 programs)
+ℹ   [204/952] epg.telemach.ba (hr) - 1512 - Apr 25, 2026 (71 programs)
+ℹ   [205/952] epg.telemach.ba (hr) - 1514 - Apr 25, 2026 (13 programs)
+ℹ   [206/952] epg.telemach.ba (hr) - 1510 - Apr 25, 2026 (353 programs)
+ℹ   [207/952] epg.telemach.ba (hr) - 1519 - Apr 24, 2026 (32 programs)
+ℹ   [208/952] epg.telemach.ba (hr) - 1518 - Apr 24, 2026 (33 programs)
+ℹ   [209/952] epg.telemach.ba (hr) - 1518 - Apr 25, 2026 (34 programs)
+ℹ   [210/952] epg.telemach.ba (hr) - 1519 - Apr 25, 2026 (41 programs)
+ℹ   [211/952] epg.telemach.ba (hr) - 1520 - Apr 25, 2026 (13 programs)
+ℹ   [212/952] epg.telemach.ba (hr) - 1520 - Apr 24, 2026 (13 programs)
+ℹ   [213/952] epg.telemach.ba (hr) - 1522 - Apr 25, 2026 (15 programs)
+ℹ   [214/952] epg.telemach.ba (hr) - 1522 - Apr 24, 2026 (15 programs)
+ℹ   [215/952] epg.telemach.ba (hr) - 1523 - Apr 24, 2026 (13 programs)
+ℹ   [216/952] epg.telemach.ba (hr) - 1523 - Apr 25, 2026 (13 programs)
+ℹ   [217/952] epg.telemach.ba (hr) - 1524 - Apr 25, 2026 (30 programs)
+ℹ   [218/952] epg.telemach.ba (hr) - 1524 - Apr 24, 2026 (31 programs)
+ℹ   [219/952] epg.telemach.ba (hr) - 1526 - Apr 24, 2026 (90 programs)
+ℹ   [220/952] epg.telemach.ba (hr) - 1527 - Apr 24, 2026 (49 programs)
+ℹ   [221/952] epg.telemach.ba (hr) - 1526 - Apr 25, 2026 (91 programs)
+ℹ   [222/952] epg.telemach.ba (hr) - 1582 - Apr 24, 2026 (28 programs)
+ℹ   [223/952] epg.telemach.ba (hr) - 1527 - Apr 25, 2026 (45 programs)
+ℹ   [224/952] epg.telemach.ba (hr) - 1582 - Apr 25, 2026 (13 programs)
+ℹ   [225/952] epg.telemach.ba (hr) - 1583 - Apr 24, 2026 (28 programs)
+ℹ   [226/952] epg.telemach.ba (hr) - 1584 - Apr 24, 2026 (26 programs)
+ℹ   [227/952] epg.telemach.ba (hr) - 1584 - Apr 25, 2026 (15 programs)
+ℹ   [228/952] epg.telemach.ba (hr) - 1583 - Apr 25, 2026 (16 programs)
+ℹ   [229/952] epg.telemach.ba (hr) - 1585 - Apr 24, 2026 (30 programs)
+ℹ   [230/952] epg.telemach.ba (hr) - 1585 - Apr 25, 2026 (21 programs)
+ℹ   [231/952] epg.telemach.ba (hr) - 1591 - Apr 24, 2026 (31 programs)
+ℹ   [232/952] epg.telemach.ba (hr) - 1591 - Apr 25, 2026 (24 programs)
+ℹ   [233/952] epg.telemach.ba (hr) - 1587 - Apr 25, 2026 (103 programs)
+ℹ   [234/952] epg.telemach.ba (hr) - 1592 - Apr 24, 2026 (23 programs)
+ℹ   [235/952] epg.telemach.ba (hr) - 1587 - Apr 24, 2026 (95 programs)
+ℹ   [236/952] epg.telemach.ba (hr) - 1592 - Apr 25, 2026 (18 programs)
+ℹ   [237/952] epg.telemach.ba (hr) - 1593 - Apr 25, 2026 (30 programs)
+ℹ   [238/952] epg.telemach.ba (hr) - 1593 - Apr 24, 2026 (32 programs)
+ℹ   [239/952] epg.telemach.ba (hr) - 1594 - Apr 24, 2026 (14 programs)
+ℹ   [240/952] epg.telemach.ba (hr) - 1594 - Apr 25, 2026 (14 programs)
+ℹ   [241/952] epg.telemach.ba (hr) - 1595 - Apr 24, 2026 (23 programs)
+ℹ   [242/952] epg.telemach.ba (hr) - 1596 - Apr 24, 2026 (28 programs)
+ℹ   [243/952] epg.telemach.ba (hr) - 1595 - Apr 25, 2026 (21 programs)
+ℹ   [244/952] epg.telemach.ba (hr) - 1596 - Apr 25, 2026 (23 programs)
+ℹ   [245/952] epg.telemach.ba (hr) - 1597 - Apr 24, 2026 (25 programs)
+ℹ   [246/952] epg.telemach.ba (hr) - 1597 - Apr 25, 2026 (24 programs)
+ℹ   [247/952] epg.telemach.ba (hr) - 1598 - Apr 25, 2026 (12 programs)
+ℹ   [248/952] epg.telemach.ba (hr) - 1598 - Apr 24, 2026 (12 programs)
+ℹ   [249/952] epg.telemach.ba (hr) - 1599 - Apr 24, 2026 (26 programs)
+ℹ   [250/952] epg.telemach.ba (hr) - 1599 - Apr 25, 2026 (25 programs)
+ℹ   [251/952] epg.telemach.ba (hr) - 1601 - Apr 24, 2026 (13 programs)
+ℹ   [252/952] epg.telemach.ba (hr) - 1600 - Apr 24, 2026 (36 programs)
+ℹ   [253/952] epg.telemach.ba (hr) - 1601 - Apr 25, 2026 (13 programs)
+ℹ   [254/952] epg.telemach.ba (hr) - 1600 - Apr 25, 2026 (33 programs)
+ℹ   [255/952] epg.telemach.ba (hr) - 1604 - Apr 24, 2026 (28 programs)
+ℹ   [256/952] epg.telemach.ba (hr) - 1605 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [257/952] epg.telemach.ba (hr) - 1604 - Apr 25, 2026 (28 programs)
+ℹ   [258/952] epg.telemach.ba (hr) - 1605 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [259/952] epg.telemach.ba (hr) - 1606 - Apr 24, 2026 (32 programs)
+ℹ   [260/952] epg.telemach.ba (hr) - 1606 - Apr 25, 2026 (33 programs)
+ℹ   [261/952] epg.telemach.ba (hr) - 1607 - Apr 24, 2026 (43 programs)
+ℹ   [262/952] epg.telemach.ba (hr) - 1608 - Apr 24, 2026 (49 programs)
+ℹ   [263/952] epg.telemach.ba (hr) - 1607 - Apr 25, 2026 (51 programs)
+ℹ   [264/952] epg.telemach.ba (hr) - 1608 - Apr 25, 2026 (47 programs)
+ℹ   [265/952] epg.telemach.ba (hr) - 1609 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [266/952] epg.telemach.ba (hr) - 1609 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [267/952] epg.telemach.ba (hr) - 1610 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [268/952] epg.telemach.ba (hr) - 1610 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [269/952] epg.telemach.ba (hr) - 1611 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [270/952] epg.telemach.ba (hr) - 1611 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [271/952] epg.telemach.ba (hr) - 1612 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [272/952] epg.telemach.ba (hr) - 1612 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [273/952] epg.telemach.ba (hr) - 1614 - Apr 24, 2026 (49 programs)
+ℹ   [274/952] epg.telemach.ba (hr) - 1614 - Apr 25, 2026 (49 programs)
+ℹ   [275/952] epg.telemach.ba (hr) - 1615 - Apr 24, 2026 (30 programs)
+ℹ   [276/952] epg.telemach.ba (hr) - 1616 - Apr 24, 2026 (27 programs)
+ℹ   [277/952] epg.telemach.ba (hr) - 1615 - Apr 25, 2026 (28 programs)
+ℹ   [278/952] epg.telemach.ba (hr) - 1616 - Apr 25, 2026 (26 programs)
+ℹ   [279/952] epg.telemach.ba (hr) - 1617 - Apr 24, 2026 (32 programs)
+ℹ   [280/952] epg.telemach.ba (hr) - 1617 - Apr 25, 2026 (38 programs)
+ℹ   [281/952] epg.telemach.ba (hr) - 1618 - Apr 25, 2026 (46 programs)
+ℹ   [282/952] epg.telemach.ba (hr) - 1619 - Apr 24, 2026 (21 programs)
+ℹ   [283/952] epg.telemach.ba (hr) - 1618 - Apr 24, 2026 (54 programs)
+ℹ   [284/952] epg.telemach.ba (hr) - 1619 - Apr 25, 2026 (22 programs)
+ℹ   [285/952] epg.telemach.ba (hr) - 1620 - Apr 24, 2026 (13 programs)
+ℹ   [286/952] epg.telemach.ba (hr) - 1620 - Apr 25, 2026 (15 programs)
+ℹ   [287/952] epg.telemach.ba (hr) - 1621 - Apr 24, 2026 (24 programs)
+ℹ   [288/952] epg.telemach.ba (hr) - 1621 - Apr 25, 2026 (23 programs)
+ℹ   [289/952] epg.telemach.ba (hr) - 1622 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [290/952] epg.telemach.ba (hr) - 1622 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [291/952] epg.telemach.ba (hr) - 1623 - Apr 24, 2026 (25 programs)
+ℹ   [292/952] epg.telemach.ba (hr) - 1623 - Apr 25, 2026 (24 programs)
+ℹ   [293/952] epg.telemach.ba (hr) - 1624 - Apr 24, 2026 (25 programs)
+ℹ   [294/952] epg.telemach.ba (hr) - 1624 - Apr 25, 2026 (24 programs)
+ℹ   [295/952] epg.telemach.ba (hr) - 1625 - Apr 24, 2026 (25 programs)
+ℹ   [296/952] epg.telemach.ba (hr) - 1625 - Apr 25, 2026 (24 programs)
+ℹ   [297/952] epg.telemach.ba (hr) - 1626 - Apr 24, 2026 (25 programs)
+ℹ   [298/952] epg.telemach.ba (hr) - 1628 - Apr 24, 2026 (25 programs)
+ℹ   [299/952] epg.telemach.ba (hr) - 1626 - Apr 25, 2026 (24 programs)
+ℹ   [300/952] epg.telemach.ba (hr) - 1628 - Apr 25, 2026 (25 programs)
+ℹ   [301/952] epg.telemach.ba (hr) - 1629 - Apr 24, 2026 (25 programs)
+ℹ   [302/952] epg.telemach.ba (hr) - 1629 - Apr 25, 2026 (25 programs)
+ℹ   [303/952] epg.telemach.ba (hr) - 1630 - Apr 24, 2026 (25 programs)
+ℹ   [304/952] epg.telemach.ba (hr) - 1630 - Apr 25, 2026 (25 programs)
+ℹ   [305/952] epg.telemach.ba (hr) - 1631 - Apr 24, 2026 (25 programs)
+ℹ   [306/952] epg.telemach.ba (hr) - 1631 - Apr 25, 2026 (25 programs)
+ℹ   [307/952] epg.telemach.ba (hr) - 1632 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [308/952] epg.telemach.ba (hr) - 1632 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [309/952] epg.telemach.ba (hr) - 1633 - Apr 25, 2026 (9 programs)
+ℹ   [310/952] epg.telemach.ba (hr) - 1634 - Apr 24, 2026 (13 programs)
+ℹ   [311/952] epg.telemach.ba (hr) - 1633 - Apr 24, 2026 (11 programs)
+ℹ   [312/952] epg.telemach.ba (hr) - 1634 - Apr 25, 2026 (13 programs)
+ℹ   [313/952] epg.telemach.ba (hr) - 1635 - Apr 24, 2026 (47 programs)
+ℹ   [314/952] epg.telemach.ba (hr) - 1636 - Apr 24, 2026 (13 programs)
+ℹ   [315/952] epg.telemach.ba (hr) - 1636 - Apr 25, 2026 (13 programs)
+ℹ   [316/952] epg.telemach.ba (hr) - 1638 - Apr 24, 2026 (12 programs)
+ℹ   [317/952] epg.telemach.ba (hr) - 1635 - Apr 25, 2026 (43 programs)
+ℹ   [318/952] epg.telemach.ba (hr) - 1638 - Apr 25, 2026 (13 programs)
+ℹ   [319/952] epg.telemach.ba (hr) - 1640 - Apr 25, 2026 (24 programs)
+ℹ   [320/952] epg.telemach.ba (hr) - 1640 - Apr 24, 2026 (27 programs)
+ℹ   [321/952] epg.telemach.ba (hr) - 1641 - Apr 25, 2026 (70 programs)
+ℹ   [322/952] epg.telemach.ba (hr) - 1641 - Apr 24, 2026 (78 programs)
+ℹ   [323/952] epg.telemach.ba (hr) - 1642 - Apr 24, 2026 (54 programs)
+ℹ   [324/952] epg.telemach.ba (hr) - 1642 - Apr 25, 2026 (51 programs)
+ℹ   [325/952] epg.telemach.ba (hr) - 1644 - Apr 24, 2026 (11 programs)
+ℹ   [326/952] epg.telemach.ba (hr) - 1644 - Apr 25, 2026 (10 programs)
+ℹ   [327/952] epg.telemach.ba (hr) - 1645 - Apr 24, 2026 (25 programs)
+ℹ   [328/952] epg.telemach.ba (hr) - 1645 - Apr 25, 2026 (25 programs)
+ℹ   [329/952] epg.telemach.ba (hr) - 1647 - Apr 24, 2026 (64 programs)
+ℹ   [330/952] epg.telemach.ba (hr) - 1648 - Apr 24, 2026 (29 programs)
+ℹ   [331/952] epg.telemach.ba (hr) - 1646 - Apr 24, 2026 (86 programs)
+ℹ   [332/952] epg.telemach.ba (hr) - 1646 - Apr 25, 2026 (97 programs)
+ℹ   [333/952] epg.telemach.ba (hr) - 1647 - Apr 25, 2026 (57 programs)
+ℹ   [334/952] epg.telemach.ba (hr) - 1648 - Apr 25, 2026 (35 programs)
+ℹ   [335/952] epg.telemach.ba (hr) - 1650 - Apr 25, 2026 (21 programs)
+ℹ   [336/952] epg.telemach.ba (hr) - 1650 - Apr 24, 2026 (24 programs)
+ℹ   [337/952] epg.telemach.ba (hr) - 1649 - Apr 24, 2026 (38 programs)
+ℹ   [338/952] epg.telemach.ba (hr) - 1649 - Apr 25, 2026 (33 programs)
+ℹ   [339/952] epg.telemach.ba (hr) - 1657 - Apr 24, 2026 (25 programs)
+ℹ   [340/952] epg.telemach.ba (hr) - 1657 - Apr 25, 2026 (25 programs)
+ℹ   [341/952] epg.telemach.ba (hr) - 1658 - Apr 24, 2026 (25 programs)
+ℹ   [342/952] epg.telemach.ba (hr) - 1658 - Apr 25, 2026 (25 programs)
+ℹ   [343/952] epg.telemach.ba (hr) - 1659 - Apr 24, 2026 (25 programs)
+ℹ   [344/952] epg.telemach.ba (hr) - 1659 - Apr 25, 2026 (25 programs)
+ℹ   [345/952] epg.telemach.ba (hr) - 1660 - Apr 24, 2026 (25 programs)
+ℹ   [346/952] epg.telemach.ba (hr) - 1660 - Apr 25, 2026 (25 programs)
+ℹ   [347/952] epg.telemach.ba (hr) - 1664 - Apr 24, 2026 (13 programs)
+ℹ   [348/952] epg.telemach.ba (hr) - 1664 - Apr 25, 2026 (13 programs)
+ℹ   [349/952] epg.telemach.ba (hr) - 1666 - Apr 24, 2026 (49 programs)
+ℹ   [350/952] epg.telemach.ba (hr) - 1666 - Apr 25, 2026 (49 programs)
+ℹ   [351/952] epg.telemach.ba (hr) - 1665 - Apr 24, 2026 (90 programs)
+ℹ   [352/952] epg.telemach.ba (hr) - 1665 - Apr 25, 2026 (110 programs)
+ℹ   [353/952] epg.telemach.ba (hr) - 1667 - Apr 24, 2026 (148 programs)
+ℹ   [354/952] epg.telemach.ba (hr) - 1668 - Apr 24, 2026 (12 programs)
+ℹ   [355/952] epg.telemach.ba (hr) - 1668 - Apr 25, 2026 (12 programs)
+ℹ   [356/952] epg.telemach.ba (hr) - 1667 - Apr 25, 2026 (148 programs)
+ℹ   [357/952] epg.telemach.ba (hr) - 1673 - Apr 24, 2026 (43 programs)
+ℹ   [358/952] epg.telemach.ba (hr) - 1673 - Apr 25, 2026 (41 programs)
+ℹ   [359/952] epg.telemach.ba (hr) - 1683 - Apr 24, 2026 (25 programs)
+ℹ   [360/952] epg.telemach.ba (hr) - 1683 - Apr 25, 2026 (25 programs)
+ℹ   [361/952] epg.telemach.ba (hr) - 1684 - Apr 24, 2026 (13 programs)
+ℹ   [362/952] epg.telemach.ba (hr) - 1684 - Apr 25, 2026 (13 programs)
+ℹ   [363/952] epg.telemach.ba (hr) - 1685 - Apr 24, 2026 (13 programs)
+ℹ   [364/952] epg.telemach.ba (hr) - 1685 - Apr 25, 2026 (13 programs)
+ℹ   [365/952] epg.telemach.ba (hr) - 1686 - Apr 24, 2026 (40 programs)
+ℹ   [366/952] epg.telemach.ba (hr) - 1686 - Apr 25, 2026 (13 programs)
+ℹ   [367/952] epg.telemach.ba (hr) - 1687 - Apr 24, 2026 (20 programs)
+ℹ   [368/952] epg.telemach.ba (hr) - 1687 - Apr 25, 2026 (21 programs)
+ℹ   [369/952] epg.telemach.ba (hr) - 1688 - Apr 24, 2026 (13 programs)
+ℹ   [370/952] epg.telemach.ba (hr) - 1688 - Apr 25, 2026 (13 programs)
+ℹ   [371/952] epg.telemach.ba (hr) - 1689 - Apr 24, 2026 (13 programs)
+ℹ   [372/952] epg.telemach.ba (hr) - 1689 - Apr 25, 2026 (13 programs)
+ℹ   [373/952] epg.telemach.ba (hr) - 1690 - Apr 24, 2026 (13 programs)
+ℹ   [374/952] epg.telemach.ba (hr) - 1690 - Apr 25, 2026 (13 programs)
+ℹ   [375/952] epg.telemach.ba (hr) - 1692 - Apr 24, 2026 (15 programs)
+ℹ   [376/952] epg.telemach.ba (hr) - 1692 - Apr 25, 2026 (13 programs)
+ℹ   [377/952] epg.telemach.ba (hr) - 1693 - Apr 24, 2026 (13 programs)
+ℹ   [378/952] epg.telemach.ba (hr) - 1693 - Apr 25, 2026 (13 programs)
+ℹ   [379/952] epg.telemach.ba (hr) - 1694 - Apr 24, 2026 (12 programs)
+ℹ   [380/952] epg.telemach.ba (hr) - 1694 - Apr 25, 2026 (13 programs)
+ℹ   [381/952] epg.telemach.ba (hr) - 1691 - Apr 24, 2026 (205 programs)
+ℹ   [382/952] epg.telemach.ba (hr) - 1691 - Apr 25, 2026 (226 programs)
+ℹ   [383/952] epg.telemach.ba (hr) - 1695 - Apr 24, 2026 (26 programs)
+ℹ   [384/952] epg.telemach.ba (hr) - 1696 - Apr 24, 2026 (40 programs)
+ℹ   [385/952] epg.telemach.ba (hr) - 1695 - Apr 25, 2026 (28 programs)
+ℹ   [386/952] epg.telemach.ba (hr) - 1696 - Apr 25, 2026 (43 programs)
+ℹ   [387/952] epg.telemach.ba (hr) - 1697 - Apr 24, 2026 (84 programs)
+ℹ   [388/952] epg.telemach.ba (hr) - 1698 - Apr 24, 2026 (21 programs)
+ℹ   [389/952] epg.telemach.ba (hr) - 1697 - Apr 25, 2026 (59 programs)
+ℹ   [390/952] epg.telemach.ba (hr) - 1698 - Apr 25, 2026 (19 programs)
+ℹ   [391/952] epg.telemach.ba (hr) - 1700 - Apr 24, 2026 (57 programs)
+ℹ   [392/952] epg.telemach.ba (hr) - 1700 - Apr 25, 2026 (49 programs)
+ℹ   [393/952] epg.telemach.ba (hr) - 1742 - Apr 24, 2026 (18 programs)
+ℹ   [394/952] epg.telemach.ba (hr) - 1742 - Apr 25, 2026 (23 programs)
+ℹ   [395/952] epg.telemach.ba (hr) - 1740 - Apr 24, 2026 (55 programs)
+ℹ   [396/952] epg.telemach.ba (hr) - 1740 - Apr 25, 2026 (55 programs)
+ℹ   [397/952] epg.telemach.ba (hr) - 1830 - Apr 24, 2026 (28 programs)
+ℹ   [398/952] epg.telemach.ba (hr) - 1830 - Apr 25, 2026 (32 programs)
+ℹ   [399/952] epg.telemach.ba (hr) - 1831 - Apr 24, 2026 (21 programs)
+ℹ   [400/952] epg.telemach.ba (hr) - 1831 - Apr 25, 2026 (15 programs)
+ℹ   [401/952] epg.telemach.ba (hr) - 1832 - Apr 24, 2026 (13 programs)
+ℹ   [402/952] epg.telemach.ba (hr) - 1832 - Apr 25, 2026 (13 programs)
+ℹ   [403/952] epg.telemach.ba (hr) - 1833 - Apr 24, 2026 (12 programs)
+ℹ   [404/952] epg.telemach.ba (hr) - 1833 - Apr 25, 2026 (16 programs)
+ℹ   [405/952] epg.telemach.ba (hr) - 1834 - Apr 25, 2026 (33 programs)
+ℹ   [406/952] epg.telemach.ba (hr) - 1834 - Apr 24, 2026 (32 programs)
+ℹ   [407/952] epg.telemach.ba (hr) - 1835 - Apr 24, 2026 (33 programs)
+ℹ   [408/952] epg.telemach.ba (hr) - 1835 - Apr 25, 2026 (34 programs)
+ℹ   [409/952] epg.telemach.ba (hr) - 1836 - Apr 24, 2026 (24 programs)
+ℹ   [410/952] epg.telemach.ba (hr) - 1836 - Apr 25, 2026 (26 programs)
+ℹ   [411/952] epg.telemach.ba (hr) - 1837 - Apr 24, 2026 (12 programs)
+ℹ   [412/952] epg.telemach.ba (hr) - 1837 - Apr 25, 2026 (12 programs)
+ℹ   [413/952] epg.telemach.ba (hr) - 1838 - Apr 24, 2026 (12 programs)
+ℹ   [414/952] epg.telemach.ba (hr) - 1838 - Apr 25, 2026 (13 programs)
+ℹ   [415/952] epg.telemach.ba (hr) - 1839 - Apr 24, 2026 (78 programs)
+ℹ   [416/952] epg.telemach.ba (hr) - 1840 - Apr 24, 2026 (14 programs)
+ℹ   [417/952] epg.telemach.ba (hr) - 1840 - Apr 25, 2026 (16 programs)
+ℹ   [418/952] epg.telemach.ba (hr) - 1841 - Apr 24, 2026 (17 programs)
+ℹ   [419/952] epg.telemach.ba (hr) - 1839 - Apr 25, 2026 (78 programs)
+ℹ   [420/952] epg.telemach.ba (hr) - 1841 - Apr 25, 2026 (18 programs)
+ℹ   [421/952] epg.telemach.ba (hr) - 1842 - Apr 24, 2026 (22 programs)
+ℹ   [422/952] epg.telemach.ba (hr) - 1842 - Apr 25, 2026 (20 programs)
+ℹ   [423/952] epg.telemach.ba (hr) - 1844 - Apr 25, 2026 (20 programs)
+ℹ   [424/952] epg.telemach.ba (hr) - 1844 - Apr 24, 2026 (19 programs)
+ℹ   [425/952] epg.telemach.ba (hr) - 1845 - Apr 24, 2026 (12 programs)
+ℹ   [426/952] epg.telemach.ba (hr) - 1845 - Apr 25, 2026 (12 programs)
+ℹ   [427/952] epg.telemach.ba (hr) - 1846 - Apr 24, 2026 (13 programs)
+ℹ   [428/952] epg.telemach.ba (hr) - 1846 - Apr 25, 2026 (13 programs)
+ℹ   [429/952] epg.telemach.ba (hr) - 1847 - Apr 25, 2026 (14 programs)
+ℹ   [430/952] epg.telemach.ba (hr) - 1847 - Apr 24, 2026 (15 programs)
+ℹ   [431/952] epg.telemach.ba (hr) - 1848 - Apr 24, 2026 (13 programs)
+ℹ   [432/952] epg.telemach.ba (hr) - 1848 - Apr 25, 2026 (15 programs)
+ℹ   [433/952] epg.telemach.ba (hr) - 1849 - Apr 24, 2026 (22 programs)
+ℹ   [434/952] epg.telemach.ba (hr) - 1849 - Apr 25, 2026 (17 programs)
+ℹ   [435/952] epg.telemach.ba (hr) - 1850 - Apr 24, 2026 (12 programs)
+ℹ   [436/952] epg.telemach.ba (hr) - 1850 - Apr 25, 2026 (13 programs)
+ℹ   [437/952] epg.telemach.ba (hr) - 1851 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [438/952] epg.telemach.ba (hr) - 1851 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [439/952] epg.telemach.ba (hr) - 1852 - Apr 24, 2026 (14 programs)
+ℹ   [440/952] epg.telemach.ba (hr) - 1852 - Apr 25, 2026 (16 programs)
+ℹ   [441/952] epg.telemach.ba (hr) - 1853 - Apr 24, 2026 (63 programs)
+ℹ   [442/952] epg.telemach.ba (hr) - 1853 - Apr 25, 2026 (63 programs)
+ℹ   [443/952] epg.telemach.ba (hr) - 1854 - Apr 24, 2026 (53 programs)
+ℹ   [444/952] epg.telemach.ba (hr) - 1855 - Apr 24, 2026 (31 programs)
+ℹ   [445/952] epg.telemach.ba (hr) - 1854 - Apr 25, 2026 (36 programs)
+ℹ   [446/952] epg.telemach.ba (hr) - 1855 - Apr 25, 2026 (32 programs)
+ℹ   [447/952] epg.telemach.ba (hr) - 1857 - Apr 24, 2026 (34 programs)
+ℹ   [448/952] epg.telemach.ba (hr) - 1857 - Apr 25, 2026 (31 programs)
+ℹ   [449/952] epg.telemach.ba (hr) - 1856 - Apr 24, 2026 (30 programs)
+ℹ   [450/952] epg.telemach.ba (hr) - 1856 - Apr 25, 2026 (27 programs)
+ℹ   [451/952] epg.telemach.ba (hr) - 1858 - Apr 24, 2026 (25 programs)
+ℹ   [452/952] epg.telemach.ba (hr) - 1858 - Apr 25, 2026 (25 programs)
+ℹ   [453/952] epg.telemach.ba (hr) - 1859 - Apr 25, 2026 (33 programs)
+ℹ   [454/952] epg.telemach.ba (hr) - 1860 - Apr 24, 2026 (49 programs)
+ℹ   [455/952] epg.telemach.ba (hr) - 1859 - Apr 24, 2026 (33 programs)
+ℹ   [456/952] epg.telemach.ba (hr) - 1860 - Apr 25, 2026 (49 programs)
+ℹ   [457/952] epg.telemach.ba (hr) - 1861 - Apr 25, 2026 (26 programs)
+ℹ   [458/952] epg.telemach.ba (hr) - 1861 - Apr 24, 2026 (26 programs)
+ℹ   [459/952] epg.telemach.ba (hr) - 1862 - Apr 24, 2026 (33 programs)
+ℹ   [460/952] epg.telemach.ba (hr) - 1862 - Apr 25, 2026 (30 programs)
+ℹ   [461/952] epg.telemach.ba (hr) - 1863 - Apr 24, 2026 (34 programs)
+ℹ   [462/952] epg.telemach.ba (hr) - 1864 - Apr 25, 2026 (35 programs)
+ℹ   [463/952] epg.telemach.ba (hr) - 1863 - Apr 25, 2026 (35 programs)
+ℹ   [464/952] epg.telemach.ba (hr) - 1864 - Apr 24, 2026 (34 programs)
+ℹ   [465/952] epg.telemach.ba (hr) - 1865 - Apr 24, 2026 (34 programs)
+ℹ   [466/952] epg.telemach.ba (hr) - 1866 - Apr 24, 2026 (25 programs)
+ℹ   [467/952] epg.telemach.ba (hr) - 1865 - Apr 25, 2026 (36 programs)
+ℹ   [468/952] epg.telemach.ba (hr) - 1867 - Apr 24, 2026 (27 programs)
+ℹ   [469/952] epg.telemach.ba (hr) - 1866 - Apr 25, 2026 (25 programs)
+ℹ   [470/952] epg.telemach.ba (hr) - 1867 - Apr 25, 2026 (27 programs)
+ℹ   [471/952] epg.telemach.ba (hr) - 1868 - Apr 24, 2026 (12 programs)
+ℹ   [472/952] epg.telemach.ba (hr) - 1869 - Apr 24, 2026 (13 programs)
+ℹ   [473/952] epg.telemach.ba (hr) - 1868 - Apr 25, 2026 (13 programs)
+ℹ   [474/952] epg.telemach.ba (hr) - 1869 - Apr 25, 2026 (13 programs)
+ℹ   [475/952] epg.telemach.ba (hr) - 1870 - Apr 24, 2026 (12 programs)
+ℹ   [476/952] epg.telemach.ba (hr) - 1870 - Apr 25, 2026 (13 programs)
+ℹ   [477/952] epg.telemach.ba (hr) - 1871 - Apr 24, 2026 (13 programs)
+ℹ   [478/952] epg.telemach.ba (hr) - 1872 - Apr 24, 2026 (25 programs)
+ℹ   [479/952] epg.telemach.ba (hr) - 1871 - Apr 25, 2026 (13 programs)
+ℹ   [480/952] epg.telemach.ba (hr) - 1872 - Apr 25, 2026 (25 programs)
+ℹ   [481/952] epg.telemach.ba (hr) - 1873 - Apr 24, 2026 (12 programs)
+ℹ   [482/952] epg.telemach.ba (hr) - 1873 - Apr 25, 2026 (13 programs)
+ℹ   [483/952] epg.telemach.ba (hr) - 1874 - Apr 24, 2026 (13 programs)
+ℹ   [484/952] epg.telemach.ba (hr) - 1874 - Apr 25, 2026 (13 programs)
+ℹ   [485/952] epg.telemach.ba (hr) - 1876 - Apr 24, 2026 (41 programs)
+ℹ   [486/952] epg.telemach.ba (hr) - 1875 - Apr 24, 2026 (70 programs)
+ℹ   [487/952] epg.telemach.ba (hr) - 1875 - Apr 25, 2026 (74 programs)
+ℹ   [488/952] epg.telemach.ba (hr) - 1876 - Apr 25, 2026 (51 programs)
+ℹ   [489/952] epg.telemach.ba (hr) - 1877 - Apr 24, 2026 (91 programs)
+ℹ   [490/952] epg.telemach.ba (hr) - 1877 - Apr 25, 2026 (94 programs)
+ℹ   [491/952] epg.telemach.ba (hr) - 1878 - Apr 24, 2026 (53 programs)
+ℹ   [492/952] epg.telemach.ba (hr) - 1878 - Apr 25, 2026 (55 programs)
+ℹ   [493/952] epg.telemach.ba (hr) - 1879 - Apr 25, 2026 (49 programs)
+ℹ   [494/952] epg.telemach.ba (hr) - 1880 - Apr 24, 2026 (21 programs)
+ℹ   [495/952] epg.telemach.ba (hr) - 1879 - Apr 24, 2026 (61 programs)
+ℹ   [496/952] epg.telemach.ba (hr) - 1880 - Apr 25, 2026 (20 programs)
+ℹ   [497/952] epg.telemach.ba (hr) - 1881 - Apr 24, 2026 (41 programs)
+ℹ   [498/952] epg.telemach.ba (hr) - 1881 - Apr 25, 2026 (34 programs)
+ℹ   [499/952] epg.telemach.ba (hr) - 1882 - Apr 25, 2026 (24 programs)
+ℹ   [500/952] epg.telemach.ba (hr) - 1882 - Apr 24, 2026 (25 programs)
+ℹ   [501/952] epg.telemach.ba (hr) - 1932 - Apr 24, 2026 (28 programs)
+ℹ   [502/952] epg.telemach.ba (hr) - 1932 - Apr 25, 2026 (27 programs)
+ℹ   [503/952] epg.telemach.ba (hr) - 1949 - Apr 24, 2026 (12 programs)
+ℹ   [504/952] epg.telemach.ba (hr) - 1942 - Apr 25, 2026 (38 programs)
+ℹ   [505/952] epg.telemach.ba (hr) - 1942 - Apr 24, 2026 (43 programs)
+ℹ   [506/952] epg.telemach.ba (hr) - 1949 - Apr 25, 2026 (10 programs)
+ℹ   [507/952] epg.telemach.ba (hr) - 2052 - Apr 24, 2026 (14 programs)
+ℹ   [508/952] epg.telemach.ba (hr) - 2052 - Apr 25, 2026 (16 programs)
+ℹ   [509/952] epg.telemach.ba (bs) - 36 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [510/952] epg.telemach.ba (bs) - 36 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [511/952] epg.telemach.ba (bs) - 199 - Apr 24, 2026 (46 programs)
+ℹ   [512/952] epg.telemach.ba (bs) - 199 - Apr 25, 2026 (48 programs)
+ℹ   [513/952] epg.telemach.ba (bs) - 452 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [514/952] epg.telemach.ba (bs) - 452 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [515/952] epg.telemach.ba (bs) - 454 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [516/952] epg.telemach.ba (bs) - 454 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [517/952] epg.telemach.ba (bs) - 505 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [518/952] epg.telemach.ba (bs) - 505 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [519/952] epg.telemach.ba (bs) - 542 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [520/952] epg.telemach.ba (bs) - 542 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [521/952] epg.telemach.ba (bs) - 543 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [522/952] epg.telemach.ba (bs) - 543 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [523/952] epg.telemach.ba (bs) - 545 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [524/952] epg.telemach.ba (bs) - 545 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [525/952] epg.telemach.ba (bs) - 546 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [526/952] epg.telemach.ba (bs) - 546 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [527/952] epg.telemach.ba (bs) - 575 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [528/952] epg.telemach.ba (bs) - 575 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [529/952] epg.telemach.ba (bs) - 586 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [530/952] epg.telemach.ba (bs) - 586 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [531/952] epg.telemach.ba (bs) - 640 - Apr 24, 2026 (34 programs)
+ℹ   [532/952] epg.telemach.ba (bs) - 717 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [533/952] epg.telemach.ba (bs) - 717 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [534/952] epg.telemach.ba (bs) - 640 - Apr 25, 2026 (34 programs)
+ℹ   [535/952] epg.telemach.ba (bs) - 746 - Apr 24, 2026 (24 programs)
+ℹ   [536/952] epg.telemach.ba (bs) - 746 - Apr 25, 2026 (25 programs)
+ℹ   [537/952] epg.telemach.ba (bs) - 747 - Apr 25, 2026 (25 programs)
+ℹ   [538/952] epg.telemach.ba (bs) - 747 - Apr 24, 2026 (28 programs)
+ℹ   [539/952] epg.telemach.ba (bs) - 748 - Apr 25, 2026 (27 programs)
+ℹ   [540/952] epg.telemach.ba (bs) - 748 - Apr 24, 2026 (34 programs)
+ℹ   [541/952] epg.telemach.ba (bs) - 772 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [542/952] epg.telemach.ba (bs) - 772 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [543/952] epg.telemach.ba (bs) - 874 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [544/952] epg.telemach.ba (bs) - 874 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [545/952] epg.telemach.ba (bs) - 979 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [546/952] epg.telemach.ba (bs) - 979 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [547/952] epg.telemach.ba (bs) - 1088 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [548/952] epg.telemach.ba (bs) - 1088 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [549/952] epg.telemach.ba (bs) - 1104 - Apr 24, 2026 (10 programs)
+ℹ   [550/952] epg.telemach.ba (bs) - 1104 - Apr 25, 2026 (9 programs)
+ℹ   [551/952] epg.telemach.ba (bs) - 1135 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [552/952] epg.telemach.ba (bs) - 1135 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [553/952] epg.telemach.ba (bs) - 1136 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [554/952] epg.telemach.ba (bs) - 1136 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [555/952] epg.telemach.ba (bs) - 1137 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [556/952] epg.telemach.ba (bs) - 1137 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [557/952] epg.telemach.ba (bs) - 1477 - Apr 24, 2026 (13 programs)
+ℹ   [558/952] epg.telemach.ba (bs) - 1477 - Apr 25, 2026 (13 programs)
+ℹ   [559/952] epg.telemach.ba (bs) - 1478 - Apr 25, 2026 (25 programs)
+ℹ   [560/952] epg.telemach.ba (bs) - 1478 - Apr 24, 2026 (27 programs)
+ℹ   [561/952] epg.telemach.ba (bs) - 1490 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [562/952] epg.telemach.ba (bs) - 1490 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [563/952] epg.telemach.ba (bs) - 1494 - Apr 24, 2026 (22 programs)
+ℹ   [564/952] epg.telemach.ba (bs) - 1492 - Apr 24, 2026 (91 programs)
+ℹ   [565/952] epg.telemach.ba (bs) - 1492 - Apr 25, 2026 (89 programs)
+ℹ   [566/952] epg.telemach.ba (bs) - 1491 - Apr 24, 2026 (124 programs)
+ℹ   [567/952] epg.telemach.ba (bs) - 1491 - Apr 25, 2026 (122 programs)
+ℹ   [568/952] epg.telemach.ba (bs) - 1494 - Apr 25, 2026 (18 programs)
+ℹ   [569/952] epg.telemach.ba (bs) - 1496 - Apr 24, 2026 (36 programs)
+ℹ   [570/952] epg.telemach.ba (bs) - 1505 - Apr 24, 2026 (15 programs)
+ℹ   [571/952] epg.telemach.ba (bs) - 1496 - Apr 25, 2026 (30 programs)
+ℹ   [572/952] epg.telemach.ba (bs) - 1505 - Apr 25, 2026 (18 programs)
+ℹ   [573/952] epg.telemach.ba (bs) - 1511 - Apr 24, 2026 (82 programs)
+ℹ   [574/952] epg.telemach.ba (bs) - 1511 - Apr 25, 2026 (75 programs)
+ℹ   [575/952] epg.telemach.ba (bs) - 1510 - Apr 25, 2026 (353 programs)
+ℹ   [576/952] epg.telemach.ba (bs) - 1512 - Apr 24, 2026 (67 programs)
+ℹ   [577/952] epg.telemach.ba (bs) - 1512 - Apr 25, 2026 (71 programs)
+ℹ   [578/952] epg.telemach.ba (bs) - 1518 - Apr 24, 2026 (33 programs)
+ℹ   [579/952] epg.telemach.ba (bs) - 1518 - Apr 25, 2026 (34 programs)
+ℹ   [580/952] epg.telemach.ba (bs) - 1519 - Apr 24, 2026 (32 programs)
+ℹ   [581/952] epg.telemach.ba (bs) - 1520 - Apr 24, 2026 (13 programs)
+ℹ   [582/952] epg.telemach.ba (bs) - 1520 - Apr 25, 2026 (13 programs)
+ℹ   [583/952] epg.telemach.ba (bs) - 1522 - Apr 24, 2026 (15 programs)
+ℹ   [584/952] epg.telemach.ba (bs) - 1519 - Apr 25, 2026 (41 programs)
+ℹ   [585/952] epg.telemach.ba (bs) - 1510 - Apr 24, 2026 (355 programs)
+ℹ   [586/952] epg.telemach.ba (bs) - 1524 - Apr 25, 2026 (30 programs)
+ℹ   [587/952] epg.telemach.ba (bs) - 1582 - Apr 24, 2026 (28 programs)
+ℹ   [588/952] epg.telemach.ba (bs) - 1524 - Apr 24, 2026 (31 programs)
+ℹ   [589/952] epg.telemach.ba (bs) - 1522 - Apr 25, 2026 (15 programs)
+ℹ   [590/952] epg.telemach.ba (bs) - 1582 - Apr 25, 2026 (13 programs)
+ℹ   [591/952] epg.telemach.ba (bs) - 1584 - Apr 24, 2026 (26 programs)
+ℹ   [592/952] epg.telemach.ba (bs) - 1583 - Apr 24, 2026 (28 programs)
+ℹ   [593/952] epg.telemach.ba (bs) - 1584 - Apr 25, 2026 (15 programs)
+ℹ   [594/952] epg.telemach.ba (bs) - 1587 - Apr 24, 2026 (95 programs)
+ℹ   [595/952] epg.telemach.ba (bs) - 1583 - Apr 25, 2026 (16 programs)
+ℹ   [596/952] epg.telemach.ba (bs) - 1593 - Apr 25, 2026 (30 programs)
+ℹ   [597/952] epg.telemach.ba (bs) - 1593 - Apr 24, 2026 (32 programs)
+ℹ   [598/952] epg.telemach.ba (bs) - 1594 - Apr 24, 2026 (14 programs)
+ℹ   [599/952] epg.telemach.ba (bs) - 1594 - Apr 25, 2026 (14 programs)
+ℹ   [600/952] epg.telemach.ba (bs) - 1587 - Apr 25, 2026 (103 programs)
+ℹ   [601/952] epg.telemach.ba (bs) - 1595 - Apr 25, 2026 (21 programs)
+ℹ   [602/952] epg.telemach.ba (bs) - 1596 - Apr 25, 2026 (23 programs)
+ℹ   [603/952] epg.telemach.ba (bs) - 1596 - Apr 24, 2026 (28 programs)
+ℹ   [604/952] epg.telemach.ba (bs) - 1595 - Apr 24, 2026 (23 programs)
+ℹ   [605/952] epg.telemach.ba (bs) - 1597 - Apr 24, 2026 (25 programs)
+ℹ   [606/952] epg.telemach.ba (bs) - 1597 - Apr 25, 2026 (24 programs)
+ℹ   [607/952] epg.telemach.ba (bs) - 1598 - Apr 25, 2026 (12 programs)
+ℹ   [608/952] epg.telemach.ba (bs) - 1601 - Apr 24, 2026 (13 programs)
+ℹ   [609/952] epg.telemach.ba (bs) - 1598 - Apr 24, 2026 (12 programs)
+ℹ   [610/952] epg.telemach.ba (bs) - 1601 - Apr 25, 2026 (13 programs)
+ℹ   [611/952] epg.telemach.ba (bs) - 1604 - Apr 24, 2026 (28 programs)
+ℹ   [612/952] epg.telemach.ba (bs) - 1605 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [613/952] epg.telemach.ba (bs) - 1604 - Apr 25, 2026 (28 programs)
+ℹ   [614/952] epg.telemach.ba (bs) - 1605 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [615/952] epg.telemach.ba (bs) - 1606 - Apr 25, 2026 (33 programs)
+ℹ   [616/952] epg.telemach.ba (bs) - 1606 - Apr 24, 2026 (32 programs)
+ℹ   [617/952] epg.telemach.ba (bs) - 1607 - Apr 25, 2026 (51 programs)
+ℹ   [618/952] epg.telemach.ba (bs) - 1607 - Apr 24, 2026 (43 programs)
+ℹ   [619/952] epg.telemach.ba (bs) - 1608 - Apr 24, 2026 (49 programs)
+ℹ   [620/952] epg.telemach.ba (bs) - 1609 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [621/952] epg.telemach.ba (bs) - 1608 - Apr 25, 2026 (47 programs)
+ℹ   [622/952] epg.telemach.ba (bs) - 1609 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [623/952] epg.telemach.ba (bs) - 1610 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [624/952] epg.telemach.ba (bs) - 1610 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [625/952] epg.telemach.ba (bs) - 1611 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [626/952] epg.telemach.ba (bs) - 1611 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [627/952] epg.telemach.ba (bs) - 1612 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [628/952] epg.telemach.ba (bs) - 1612 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [629/952] epg.telemach.ba (bs) - 1614 - Apr 24, 2026 (49 programs)
+ℹ   [630/952] epg.telemach.ba (bs) - 1614 - Apr 25, 2026 (49 programs)
+ℹ   [631/952] epg.telemach.ba (bs) - 1615 - Apr 25, 2026 (28 programs)
+ℹ   [632/952] epg.telemach.ba (bs) - 1616 - Apr 24, 2026 (27 programs)
+ℹ   [633/952] epg.telemach.ba (bs) - 1615 - Apr 24, 2026 (30 programs)
+ℹ   [634/952] epg.telemach.ba (bs) - 1616 - Apr 25, 2026 (26 programs)
+ℹ   [635/952] epg.telemach.ba (bs) - 1619 - Apr 24, 2026 (21 programs)
+ℹ   [636/952] epg.telemach.ba (bs) - 1619 - Apr 25, 2026 (22 programs)
+ℹ   [637/952] epg.telemach.ba (bs) - 1620 - Apr 24, 2026 (13 programs)
+ℹ   [638/952] epg.telemach.ba (bs) - 1618 - Apr 25, 2026 (46 programs)
+ℹ   [639/952] epg.telemach.ba (bs) - 1618 - Apr 24, 2026 (54 programs)
+ℹ   [640/952] epg.telemach.ba (bs) - 1621 - Apr 24, 2026 (24 programs)
+ℹ   [641/952] epg.telemach.ba (bs) - 1620 - Apr 25, 2026 (15 programs)
+ℹ   [642/952] epg.telemach.ba (bs) - 1622 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [643/952] epg.telemach.ba (bs) - 1622 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [644/952] epg.telemach.ba (bs) - 1621 - Apr 25, 2026 (23 programs)
+ℹ   [645/952] epg.telemach.ba (bs) - 1623 - Apr 24, 2026 (25 programs)
+ℹ   [646/952] epg.telemach.ba (bs) - 1623 - Apr 25, 2026 (24 programs)
+ℹ   [647/952] epg.telemach.ba (bs) - 1624 - Apr 25, 2026 (24 programs)
+ℹ   [648/952] epg.telemach.ba (bs) - 1624 - Apr 24, 2026 (25 programs)
+ℹ   [649/952] epg.telemach.ba (bs) - 1625 - Apr 24, 2026 (25 programs)
+ℹ   [650/952] epg.telemach.ba (bs) - 1625 - Apr 25, 2026 (24 programs)
+ℹ   [651/952] epg.telemach.ba (bs) - 1626 - Apr 24, 2026 (25 programs)
+ℹ   [652/952] epg.telemach.ba (bs) - 1628 - Apr 24, 2026 (25 programs)
+ℹ   [653/952] epg.telemach.ba (bs) - 1626 - Apr 25, 2026 (24 programs)
+ℹ   [654/952] epg.telemach.ba (bs) - 1628 - Apr 25, 2026 (25 programs)
+ℹ   [655/952] epg.telemach.ba (bs) - 1629 - Apr 24, 2026 (25 programs)
+ℹ   [656/952] epg.telemach.ba (bs) - 1629 - Apr 25, 2026 (25 programs)
+ℹ   [657/952] epg.telemach.ba (bs) - 1630 - Apr 25, 2026 (25 programs)
+ℹ   [658/952] epg.telemach.ba (bs) - 1630 - Apr 24, 2026 (25 programs)
+ℹ   [659/952] epg.telemach.ba (bs) - 1631 - Apr 24, 2026 (25 programs)
+ℹ   [660/952] epg.telemach.ba (bs) - 1631 - Apr 25, 2026 (25 programs)
+ℹ   [661/952] epg.telemach.ba (bs) - 1632 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [662/952] epg.telemach.ba (bs) - 1632 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [663/952] epg.telemach.ba (bs) - 1635 - Apr 25, 2026 (43 programs)
+ℹ   [664/952] epg.telemach.ba (bs) - 1635 - Apr 24, 2026 (47 programs)
+ℹ   [665/952] epg.telemach.ba (bs) - 1636 - Apr 24, 2026 (13 programs)
+ℹ   [666/952] epg.telemach.ba (bs) - 1636 - Apr 25, 2026 (13 programs)
+ℹ   [667/952] epg.telemach.ba (bs) - 1638 - Apr 24, 2026 (12 programs)
+ℹ   [668/952] epg.telemach.ba (bs) - 1638 - Apr 25, 2026 (13 programs)
+ℹ   [669/952] epg.telemach.ba (bs) - 1641 - Apr 24, 2026 (78 programs)
+ℹ   [670/952] epg.telemach.ba (bs) - 1645 - Apr 24, 2026 (25 programs)
+ℹ   [671/952] epg.telemach.ba (bs) - 1645 - Apr 25, 2026 (25 programs)
+ℹ   [672/952] epg.telemach.ba (bs) - 1641 - Apr 25, 2026 (70 programs)
+ℹ   [673/952] epg.telemach.ba (bs) - 1647 - Apr 25, 2026 (57 programs)
+ℹ   [674/952] epg.telemach.ba (bs) - 1647 - Apr 24, 2026 (64 programs)
+ℹ   [675/952] epg.telemach.ba (bs) - 1657 - Apr 25, 2026 (25 programs)
+ℹ   [676/952] epg.telemach.ba (bs) - 1657 - Apr 24, 2026 (25 programs)
+ℹ   [677/952] epg.telemach.ba (bs) - 1658 - Apr 24, 2026 (25 programs)
+ℹ   [678/952] epg.telemach.ba (bs) - 1658 - Apr 25, 2026 (25 programs)
+ℹ   [679/952] epg.telemach.ba (bs) - 1659 - Apr 24, 2026 (25 programs)
+ℹ   [680/952] epg.telemach.ba (bs) - 1660 - Apr 24, 2026 (25 programs)
+ℹ   [681/952] epg.telemach.ba (bs) - 1659 - Apr 25, 2026 (25 programs)
+ℹ   [682/952] epg.telemach.ba (bs) - 1660 - Apr 25, 2026 (25 programs)
+ℹ   [683/952] epg.telemach.ba (bs) - 1664 - Apr 24, 2026 (13 programs)
+ℹ   [684/952] epg.telemach.ba (bs) - 1664 - Apr 25, 2026 (13 programs)
+ℹ   [685/952] epg.telemach.ba (bs) - 1665 - Apr 25, 2026 (110 programs)
+ℹ   [686/952] epg.telemach.ba (bs) - 1665 - Apr 24, 2026 (90 programs)
+ℹ   [687/952] epg.telemach.ba (bs) - 1668 - Apr 24, 2026 (12 programs)
+ℹ   [688/952] epg.telemach.ba (bs) - 1668 - Apr 25, 2026 (12 programs)
+ℹ   [689/952] epg.telemach.ba (bs) - 1673 - Apr 24, 2026 (43 programs)
+ℹ   [690/952] epg.telemach.ba (bs) - 1673 - Apr 25, 2026 (41 programs)
+ℹ   [691/952] epg.telemach.ba (bs) - 1683 - Apr 24, 2026 (25 programs)
+ℹ   [692/952] epg.telemach.ba (bs) - 1667 - Apr 24, 2026 (148 programs)
+ℹ   [693/952] epg.telemach.ba (bs) - 1667 - Apr 25, 2026 (148 programs)
+ℹ   [694/952] epg.telemach.ba (bs) - 1683 - Apr 25, 2026 (25 programs)
+ℹ   [695/952] epg.telemach.ba (bs) - 1684 - Apr 24, 2026 (13 programs)
+ℹ   [696/952] epg.telemach.ba (bs) - 1684 - Apr 25, 2026 (13 programs)
+ℹ   [697/952] epg.telemach.ba (bs) - 1685 - Apr 25, 2026 (13 programs)
+ℹ   [698/952] epg.telemach.ba (bs) - 1685 - Apr 24, 2026 (13 programs)
+ℹ   [699/952] epg.telemach.ba (bs) - 1686 - Apr 24, 2026 (40 programs)
+ℹ   [700/952] epg.telemach.ba (bs) - 1686 - Apr 25, 2026 (13 programs)
+ℹ   [701/952] epg.telemach.ba (bs) - 1687 - Apr 24, 2026 (20 programs)
+ℹ   [702/952] epg.telemach.ba (bs) - 1687 - Apr 25, 2026 (21 programs)
+ℹ   [703/952] epg.telemach.ba (bs) - 1688 - Apr 24, 2026 (13 programs)
+ℹ   [704/952] epg.telemach.ba (bs) - 1688 - Apr 25, 2026 (13 programs)
+ℹ   [705/952] epg.telemach.ba (bs) - 1689 - Apr 24, 2026 (13 programs)
+ℹ   [706/952] epg.telemach.ba (bs) - 1689 - Apr 25, 2026 (13 programs)
+ℹ   [707/952] epg.telemach.ba (bs) - 1690 - Apr 24, 2026 (13 programs)
+ℹ   [708/952] epg.telemach.ba (bs) - 1690 - Apr 25, 2026 (13 programs)
+ℹ   [709/952] epg.telemach.ba (bs) - 1692 - Apr 24, 2026 (15 programs)
+ℹ   [710/952] epg.telemach.ba (bs) - 1691 - Apr 24, 2026 (205 programs)
+ℹ   [711/952] epg.telemach.ba (bs) - 1692 - Apr 25, 2026 (13 programs)
+ℹ   [712/952] epg.telemach.ba (bs) - 1691 - Apr 25, 2026 (226 programs)
+ℹ   [713/952] epg.telemach.ba (bs) - 1693 - Apr 24, 2026 (13 programs)
+ℹ   [714/952] epg.telemach.ba (bs) - 1693 - Apr 25, 2026 (13 programs)
+ℹ   [715/952] epg.telemach.ba (bs) - 1694 - Apr 24, 2026 (12 programs)
+ℹ   [716/952] epg.telemach.ba (bs) - 1694 - Apr 25, 2026 (13 programs)
+ℹ   [717/952] epg.telemach.ba (bs) - 1695 - Apr 24, 2026 (26 programs)
+ℹ   [718/952] epg.telemach.ba (bs) - 1695 - Apr 25, 2026 (28 programs)
+ℹ   [719/952] epg.telemach.ba (bs) - 1696 - Apr 24, 2026 (40 programs)
+ℹ   [720/952] epg.telemach.ba (bs) - 1696 - Apr 25, 2026 (43 programs)
+ℹ   [721/952] epg.telemach.ba (bs) - 1697 - Apr 24, 2026 (84 programs)
+ℹ   [722/952] epg.telemach.ba (bs) - 1697 - Apr 25, 2026 (59 programs)
+ℹ   [723/952] epg.telemach.ba (bs) - 1700 - Apr 24, 2026 (57 programs)
+ℹ   [724/952] epg.telemach.ba (bs) - 1700 - Apr 25, 2026 (49 programs)
+ℹ   [725/952] epg.telemach.ba (bs) - 1740 - Apr 25, 2026 (55 programs)
+ℹ   [726/952] epg.telemach.ba (bs) - 1742 - Apr 24, 2026 (18 programs)
+ℹ   [727/952] epg.telemach.ba (bs) - 1742 - Apr 25, 2026 (23 programs)
+ℹ   [728/952] epg.telemach.ba (bs) - 1740 - Apr 24, 2026 (55 programs)
+ℹ   [729/952] epg.telemach.ba (bs) - 1838 - Apr 24, 2026 (12 programs)
+ℹ   [730/952] epg.telemach.ba (bs) - 1838 - Apr 25, 2026 (13 programs)
+ℹ   [731/952] epg.telemach.ba (bs) - 1850 - Apr 24, 2026 (12 programs)
+ℹ   [732/952] epg.telemach.ba (bs) - 1850 - Apr 25, 2026 (13 programs)
+ℹ   [733/952] epg.telemach.ba (bs) - 1852 - Apr 24, 2026 (14 programs)
+ℹ   [734/952] epg.telemach.ba (bs) - 1839 - Apr 24, 2026 (78 programs)
+ℹ   [735/952] epg.telemach.ba (bs) - 1852 - Apr 25, 2026 (16 programs)
+ℹ   [736/952] epg.telemach.ba (bs) - 1839 - Apr 25, 2026 (78 programs)
+ℹ   [737/952] epg.telemach.ba (bs) - 1854 - Apr 24, 2026 (53 programs)
+ℹ   [738/952] epg.telemach.ba (bs) - 1860 - Apr 25, 2026 (49 programs)
+ℹ   [739/952] epg.telemach.ba (bs) - 1868 - Apr 24, 2026 (12 programs)
+ℹ   [740/952] epg.telemach.ba (bs) - 1868 - Apr 25, 2026 (13 programs)
+ℹ   [741/952] epg.telemach.ba (bs) - 1860 - Apr 24, 2026 (49 programs)
+ℹ   [742/952] epg.telemach.ba (bs) - 1854 - Apr 25, 2026 (36 programs)
+ℹ   [743/952] epg.telemach.ba (bs) - 1869 - Apr 24, 2026 (13 programs)
+ℹ   [744/952] epg.telemach.ba (bs) - 1869 - Apr 25, 2026 (13 programs)
+ℹ   [745/952] epg.telemach.ba (bs) - 1870 - Apr 25, 2026 (13 programs)
+ℹ   [746/952] epg.telemach.ba (bs) - 1871 - Apr 24, 2026 (13 programs)
+ℹ   [747/952] epg.telemach.ba (bs) - 1870 - Apr 24, 2026 (12 programs)
+ℹ   [748/952] epg.telemach.ba (bs) - 1871 - Apr 25, 2026 (13 programs)
+ℹ   [749/952] epg.telemach.ba (bs) - 1872 - Apr 24, 2026 (25 programs)
+ℹ   [750/952] epg.telemach.ba (bs) - 1872 - Apr 25, 2026 (25 programs)
+ℹ   [751/952] epg.telemach.ba (bs) - 1873 - Apr 24, 2026 (12 programs)
+ℹ   [752/952] epg.telemach.ba (bs) - 1873 - Apr 25, 2026 (13 programs)
+ℹ   [753/952] epg.telemach.ba (bs) - 1874 - Apr 24, 2026 (13 programs)
+ℹ   [754/952] epg.telemach.ba (bs) - 1874 - Apr 25, 2026 (13 programs)
+ℹ   [755/952] epg.telemach.ba (bs) - 1876 - Apr 24, 2026 (41 programs)
+ℹ   [756/952] epg.telemach.ba (bs) - 1875 - Apr 24, 2026 (70 programs)
+ℹ   [757/952] epg.telemach.ba (bs) - 1875 - Apr 25, 2026 (74 programs)
+ℹ   [758/952] epg.telemach.ba (bs) - 1876 - Apr 25, 2026 (51 programs)
+ℹ   [759/952] epg.telemach.ba (bs) - 1878 - Apr 25, 2026 (55 programs)
+ℹ   [760/952] epg.telemach.ba (bs) - 1878 - Apr 24, 2026 (53 programs)
+ℹ   [761/952] epg.telemach.ba (bs) - 1877 - Apr 24, 2026 (91 programs)
+ℹ   [762/952] epg.telemach.ba (bs) - 1877 - Apr 25, 2026 (94 programs)
+ℹ   [763/952] epg.telemach.ba (bs) - 1879 - Apr 25, 2026 (49 programs)
+ℹ   [764/952] epg.telemach.ba (bs) - 1881 - Apr 24, 2026 (41 programs)
+ℹ   [765/952] epg.telemach.ba (bs) - 1881 - Apr 25, 2026 (34 programs)
+ℹ   [766/952] epg.telemach.ba (bs) - 1882 - Apr 24, 2026 (25 programs)
+ℹ   [767/952] epg.telemach.ba (bs) - 1879 - Apr 24, 2026 (61 programs)
+ℹ   [768/952] epg.telemach.ba (bs) - 1882 - Apr 25, 2026 (24 programs)
+ℹ   [769/952] epg.telemach.ba (bs) - 1956 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [770/952] epg.telemach.ba (bs) - 1956 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [771/952] epg.telemach.ba (bs) - 1957 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [772/952] epg.telemach.ba (bs) - 1957 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [773/952] epg.telemach.ba (bs) - 1958 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [774/952] epg.telemach.ba (bs) - 1958 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [775/952] epg.telemach.ba (bs) - 1959 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [776/952] epg.telemach.ba (bs) - 1959 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [777/952] epg.telemach.ba (bs) - 1960 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [778/952] epg.telemach.ba (bs) - 1961 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [779/952] epg.telemach.ba (bs) - 1960 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [780/952] epg.telemach.ba (bs) - 1961 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [781/952] epg.telemach.ba (bs) - 1962 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [782/952] epg.telemach.ba (bs) - 1962 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [783/952] epg.telemach.ba (bs) - 1963 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [784/952] epg.telemach.ba (bs) - 1963 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [785/952] epg.telemach.ba (bs) - 1964 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [786/952] epg.telemach.ba (bs) - 1964 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [787/952] epg.telemach.ba (bs) - 1965 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [788/952] epg.telemach.ba (bs) - 1965 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [789/952] epg.telemach.ba (bs) - 1966 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [790/952] epg.telemach.ba (bs) - 1966 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [791/952] epg.telemach.ba (bs) - 1967 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [792/952] epg.telemach.ba (bs) - 1967 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [793/952] epg.telemach.ba (bs) - 1968 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [794/952] epg.telemach.ba (bs) - 1968 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [795/952] epg.telemach.ba (bs) - 1969 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [796/952] epg.telemach.ba (bs) - 1969 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [797/952] epg.telemach.ba (bs) - 1970 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [798/952] epg.telemach.ba (bs) - 1971 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [799/952] epg.telemach.ba (bs) - 1970 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [800/952] epg.telemach.ba (bs) - 1971 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [801/952] epg.telemach.ba (bs) - 1972 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [802/952] epg.telemach.ba (bs) - 1972 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [803/952] epg.telemach.ba (bs) - 1973 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [804/952] epg.telemach.ba (bs) - 1973 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [805/952] epg.telemach.ba (bs) - 1974 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [806/952] epg.telemach.ba (bs) - 1974 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [807/952] epg.telemach.ba (bs) - 1975 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [808/952] epg.telemach.ba (bs) - 1975 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [809/952] epg.telemach.ba (bs) - 1976 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [810/952] epg.telemach.ba (bs) - 1976 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [811/952] epg.telemach.ba (bs) - 1977 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [812/952] epg.telemach.ba (bs) - 1977 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [813/952] epg.telemach.ba (bs) - 1978 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [814/952] epg.telemach.ba (bs) - 1978 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [815/952] epg.telemach.ba (bs) - 1979 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [816/952] epg.telemach.ba (bs) - 1979 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [817/952] epg.telemach.ba (bs) - 1980 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [818/952] epg.telemach.ba (bs) - 1980 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [819/952] epg.telemach.ba (bs) - 1981 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [820/952] epg.telemach.ba (bs) - 1981 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [821/952] epg.telemach.ba (bs) - 1982 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [822/952] epg.telemach.ba (bs) - 1982 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [823/952] epg.telemach.ba (bs) - 1983 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [824/952] epg.telemach.ba (bs) - 1983 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [825/952] epg.telemach.ba (bs) - 1984 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [826/952] epg.telemach.ba (bs) - 1984 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [827/952] epg.telemach.ba (bs) - 1985 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [828/952] epg.telemach.ba (bs) - 1985 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [829/952] epg.telemach.ba (bs) - 1986 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [830/952] epg.telemach.ba (bs) - 1986 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [831/952] epg.telemach.ba (bs) - 1987 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [832/952] epg.telemach.ba (bs) - 1987 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [833/952] epg.telemach.ba (bs) - 1988 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [834/952] epg.telemach.ba (bs) - 1988 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [835/952] epg.telemach.ba (bs) - 1989 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [836/952] epg.telemach.ba (bs) - 1989 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [837/952] epg.telemach.ba (bs) - 1990 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [838/952] epg.telemach.ba (bs) - 1990 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [839/952] epg.telemach.ba (bs) - 1991 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [840/952] epg.telemach.ba (bs) - 1991 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [841/952] epg.telemach.ba (bs) - 1992 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [842/952] epg.telemach.ba (bs) - 1992 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [843/952] epg.telemach.ba (bs) - 1993 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [844/952] epg.telemach.ba (bs) - 1994 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [845/952] epg.telemach.ba (bs) - 1994 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [846/952] epg.telemach.ba (bs) - 1993 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [847/952] epg.telemach.ba (bs) - 1995 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [848/952] epg.telemach.ba (bs) - 1995 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [849/952] epg.telemach.ba (bs) - 1996 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [850/952] epg.telemach.ba (bs) - 1996 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [851/952] epg.telemach.ba (bs) - 1997 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [852/952] epg.telemach.ba (bs) - 1997 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [853/952] epg.telemach.ba (bs) - 1998 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [854/952] epg.telemach.ba (bs) - 1998 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [855/952] epg.telemach.ba (bs) - 1999 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [856/952] epg.telemach.ba (bs) - 1999 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [857/952] epg.telemach.ba (bs) - 2000 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [858/952] epg.telemach.ba (bs) - 2000 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [859/952] epg.telemach.ba (bs) - 2001 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [860/952] epg.telemach.ba (bs) - 2001 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [861/952] epg.telemach.ba (bs) - 2002 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [862/952] epg.telemach.ba (bs) - 2002 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [863/952] epg.telemach.ba (bs) - 2003 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [864/952] epg.telemach.ba (bs) - 2004 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [865/952] epg.telemach.ba (bs) - 2003 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [866/952] epg.telemach.ba (bs) - 2004 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [867/952] epg.telemach.ba (bs) - 2005 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [868/952] epg.telemach.ba (bs) - 2005 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [869/952] epg.telemach.ba (bs) - 2006 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [870/952] epg.telemach.ba (bs) - 2007 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [871/952] epg.telemach.ba (bs) - 2006 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [872/952] epg.telemach.ba (bs) - 2007 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [873/952] epg.telemach.ba (bs) - 2008 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [874/952] epg.telemach.ba (bs) - 2008 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [875/952] epg.telemach.ba (bs) - 2009 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [876/952] epg.telemach.ba (bs) - 2009 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [877/952] epg.telemach.ba (bs) - 2010 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [878/952] epg.telemach.ba (bs) - 2010 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [879/952] epg.telemach.ba (bs) - 2011 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [880/952] epg.telemach.ba (bs) - 2011 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [881/952] epg.telemach.ba (bs) - 2012 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [882/952] epg.telemach.ba (bs) - 2012 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [883/952] epg.telemach.ba (bs) - 2013 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [884/952] epg.telemach.ba (bs) - 2013 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [885/952] epg.telemach.ba (bs) - 2014 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [886/952] epg.telemach.ba (bs) - 2014 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [887/952] epg.telemach.ba (bs) - 2015 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [888/952] epg.telemach.ba (bs) - 2015 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [889/952] epg.telemach.ba (bs) - 2016 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [890/952] epg.telemach.ba (bs) - 2016 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [891/952] epg.telemach.ba (bs) - 2017 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [892/952] epg.telemach.ba (bs) - 2017 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [893/952] epg.telemach.ba (bs) - 2018 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [894/952] epg.telemach.ba (bs) - 2018 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [895/952] epg.telemach.ba (bs) - 2019 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [896/952] epg.telemach.ba (bs) - 2019 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [897/952] epg.telemach.ba (bs) - 2020 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [898/952] epg.telemach.ba (bs) - 2020 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [899/952] epg.telemach.ba (bs) - 2021 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [900/952] epg.telemach.ba (bs) - 2021 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [901/952] epg.telemach.ba (bs) - 2022 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [902/952] epg.telemach.ba (bs) - 2022 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [903/952] epg.telemach.ba (bs) - 2023 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [904/952] epg.telemach.ba (bs) - 2023 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [905/952] epg.telemach.ba (bs) - 2024 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [906/952] epg.telemach.ba (bs) - 2024 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [907/952] epg.telemach.ba (bs) - 2025 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [908/952] epg.telemach.ba (bs) - 2025 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [909/952] epg.telemach.ba (bs) - 2026 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [910/952] epg.telemach.ba (bs) - 2026 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [911/952] epg.telemach.ba (bs) - 2027 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [912/952] epg.telemach.ba (bs) - 2027 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [913/952] epg.telemach.ba (bs) - 2028 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [914/952] epg.telemach.ba (bs) - 2028 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [915/952] epg.telemach.ba (bs) - 2029 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [916/952] epg.telemach.ba (bs) - 2029 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [917/952] epg.telemach.ba (bs) - 2030 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [918/952] epg.telemach.ba (bs) - 2030 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [919/952] epg.telemach.ba (bs) - 2031 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [920/952] epg.telemach.ba (bs) - 2031 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [921/952] epg.telemach.ba (bs) - 2032 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [922/952] epg.telemach.ba (bs) - 2032 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [923/952] epg.telemach.ba (bs) - 2033 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [924/952] epg.telemach.ba (bs) - 2033 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [925/952] epg.telemach.ba (bs) - 2034 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [926/952] epg.telemach.ba (bs) - 2034 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [927/952] epg.telemach.ba (bs) - 2035 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [928/952] epg.telemach.ba (bs) - 2035 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [929/952] epg.telemach.ba (bs) - 2036 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [930/952] epg.telemach.ba (bs) - 2036 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [931/952] epg.telemach.ba (bs) - 2037 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [932/952] epg.telemach.ba (bs) - 2037 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [933/952] epg.telemach.ba (bs) - 2038 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [934/952] epg.telemach.ba (bs) - 2038 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [935/952] epg.telemach.ba (bs) - 2039 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [936/952] epg.telemach.ba (bs) - 2039 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [937/952] epg.telemach.ba (bs) - 2040 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [938/952] epg.telemach.ba (bs) - 2040 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [939/952] epg.telemach.ba (bs) - 2045 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [940/952] epg.telemach.ba (bs) - 2045 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [941/952] epg.telemach.ba (bs) - 2050 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [942/952] epg.telemach.ba (bs) - 2050 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [943/952] epg.telemach.ba (bs) - 2070 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [944/952] epg.telemach.ba (bs) - 2052 - Apr 25, 2026 (16 programs)
+ℹ   [945/952] epg.telemach.ba (bs) - 2052 - Apr 24, 2026 (14 programs)
+ℹ   [946/952] epg.telemach.ba (bs) - 2071 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [947/952] epg.telemach.ba (bs) - 2070 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [948/952] epg.telemach.ba (bs) - 2071 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [949/952] epg.telemach.ba (bs) - 2072 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [950/952] epg.telemach.ba (bs) - 2072 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [951/952] epg.telemach.ba (bs) - 2073 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   [952/952] epg.telemach.ba (bs) - 2073 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 400
+ℹ   saving to "/home/runner/workspace/sites/epg.telemach.ba/epg.telemach.ba.xml"...
+✔   done in 00h 01m 39s

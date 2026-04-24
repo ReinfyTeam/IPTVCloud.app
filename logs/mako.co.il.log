@@ -1,0 +1,31 @@
+═══════════════════════════════════════════════════════════════
+  Site            : mako.co.il
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 9s
+  Channels        : 2
+  With programmes : 2
+  Empty channels  : 0
+  Total programs  : 41
+  Output size     : 20728 bytes
+  Generated       : 2026-04-24 11:09:26
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 11:09:17 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=mako.co.il --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] mako.co.il (he) - Keshet12.il@SD - Apr 24, 2026 (18 programs)
+ℹ   [2/2] mako.co.il (he) - Keshet12.il@SD - Apr 25, 2026 (23 programs)
+ℹ   saving to "/home/runner/workspace/sites/mako.co.il/mako.co.il.xml"...
+✔   done in 00h 00m 01s

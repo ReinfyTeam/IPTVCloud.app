@@ -1,0 +1,49 @@
+═══════════════════════════════════════════════════════════════
+  Site            : vrt.be
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 9s
+  Channels        : 20
+  With programmes : 20
+  Empty channels  : 0
+  Total programs  : 370
+  Output size     : 128230 bytes
+  Generated       : 2026-04-24 13:02:13
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 13:02:04 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=vrt.be --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/20] vrt.be (nl) - DeTijdloze.be - Apr 24, 2026 (5 programs)
+ℹ   [2/20] vrt.be (nl) - DeTijdloze.be - Apr 25, 2026 (6 programs)
+ℹ   [3/20] vrt.be (nl) - VRTCanvas.be - Apr 25, 2026 (13 programs)
+ℹ   [4/20] vrt.be (nl) - VRTCanvas.be - Apr 24, 2026 (17 programs)
+ℹ   [5/20] vrt.be (nl) - Klara.be - Apr 24, 2026 (7 programs)
+ℹ   [6/20] vrt.be (nl) - Klara.be - Apr 25, 2026 (8 programs)
+ℹ   [7/20] vrt.be (nl) - MNM.be - Apr 24, 2026 (9 programs)
+ℹ   [8/20] vrt.be (nl) - Ketnet.be - Apr 24, 2026 (77 programs)
+ℹ   [9/20] vrt.be (nl) - Radio1.be - Apr 24, 2026 (12 programs)
+ℹ   [10/20] vrt.be (nl) - MNM.be - Apr 25, 2026 (9 programs)
+ℹ   [11/20] vrt.be (nl) - Ketnet.be - Apr 25, 2026 (50 programs)
+ℹ   [12/20] vrt.be (nl) - Radio1.be - Apr 25, 2026 (11 programs)
+ℹ   [13/20] vrt.be (nl) - RadioBene.be - Apr 24, 2026 (9 programs)
+ℹ   [14/20] vrt.be (nl) - Radio2.be - Apr 24, 2026 (9 programs)
+ℹ   [15/20] vrt.be (nl) - Radio2.be - Apr 25, 2026 (11 programs)
+ℹ   [16/20] vrt.be (nl) - RadioBene.be - Apr 25, 2026 (9 programs)
+ℹ   [17/20] vrt.be (nl) - StuBru.be - Apr 25, 2026 (9 programs)
+ℹ   [18/20] vrt.be (nl) - StuBru.be - Apr 24, 2026 (10 programs)
+ℹ   [19/20] vrt.be (nl) - VRT1.be - Apr 24, 2026 (45 programs)
+ℹ   [20/20] vrt.be (nl) - VRT1.be - Apr 25, 2026 (44 programs)
+ℹ   saving to "/home/runner/workspace/sites/vrt.be/vrt.be.xml"...
+✔   done in 00h 00m 03s

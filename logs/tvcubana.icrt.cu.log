@@ -1,0 +1,558 @@
+═══════════════════════════════════════════════════════════════
+  Site            : tvcubana.icrt.cu
+  Status          : EMPTY
+  Attempts used   : 10 / 10
+  Total elapsed   : 1297s
+  Channels        : 200
+  With programmes : 0
+  Empty channels  : 200
+  Total programs  : 0
+  Output size     : 0 bytes
+  Other errors    :
+    200 timeout of 30000ms exceeded
+  Last error      : timeout of 30000ms exceeded
+  Generated       : 2026-04-24 12:55:20
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 12:33:42 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvcubana.icrt.cu --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [7/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [8/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [9/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [10/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [11/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [12/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [13/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [14/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [15/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [16/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [17/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [18/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [19/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [20/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvcubana.icrt.cu/tvcubana.icrt.cu.xml"...
+✔   done in 00h 02m 01s
+
+===== attempt 2/10 @ 12:35:52 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvcubana.icrt.cu --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [7/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [8/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [9/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [10/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [11/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [12/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [13/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [14/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [15/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [16/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [17/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [18/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [19/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [20/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvcubana.icrt.cu/tvcubana.icrt.cu.xml"...
+✔   done in 00h 02m 01s
+
+===== attempt 3/10 @ 12:38:02 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvcubana.icrt.cu --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [7/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [8/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [9/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [10/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [11/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [12/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [13/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [14/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [15/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [16/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [17/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [18/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [19/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [20/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvcubana.icrt.cu/tvcubana.icrt.cu.xml"...
+✔   done in 00h 02m 01s
+
+===== attempt 4/10 @ 12:40:13 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvcubana.icrt.cu --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [7/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [8/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [9/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [10/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [11/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [12/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [13/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [14/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [15/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [16/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [17/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [18/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [19/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [20/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvcubana.icrt.cu/tvcubana.icrt.cu.xml"...
+✔   done in 00h 02m 01s
+
+===== attempt 5/10 @ 12:42:23 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvcubana.icrt.cu --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [7/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [8/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [9/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [10/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [11/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [12/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [13/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [14/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [15/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [16/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [17/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [18/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [19/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [20/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvcubana.icrt.cu/tvcubana.icrt.cu.xml"...
+✔   done in 00h 02m 01s
+
+===== attempt 6/10 @ 12:44:33 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvcubana.icrt.cu --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [7/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [8/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [9/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [10/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [11/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [12/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [13/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [14/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [15/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [16/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [17/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [18/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [19/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [20/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvcubana.icrt.cu/tvcubana.icrt.cu.xml"...
+✔   done in 00h 02m 01s
+
+===== attempt 7/10 @ 12:46:44 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvcubana.icrt.cu --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [7/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [8/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [9/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [10/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [11/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [12/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [13/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [14/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [15/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [16/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [17/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [18/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [19/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [20/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvcubana.icrt.cu/tvcubana.icrt.cu.xml"...
+✔   done in 00h 02m 01s
+
+===== attempt 8/10 @ 12:48:55 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvcubana.icrt.cu --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [7/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [8/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [9/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [10/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [11/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [12/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [13/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [14/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [15/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [16/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [17/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [18/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [19/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [20/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvcubana.icrt.cu/tvcubana.icrt.cu.xml"...
+✔   done in 00h 02m 01s
+
+===== attempt 9/10 @ 12:51:05 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvcubana.icrt.cu --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [7/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [8/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [9/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [10/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [11/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [12/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [13/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [14/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [15/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [16/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [17/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [18/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [19/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [20/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvcubana.icrt.cu/tvcubana.icrt.cu.xml"...
+✔   done in 00h 02m 01s
+
+===== attempt 10/10 @ 12:53:14 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvcubana.icrt.cu --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/20] tvcubana.icrt.cu (es) - CanalCaribe.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/20] tvcubana.icrt.cu (es) - CanalHabana.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/20] tvcubana.icrt.cu (es) - CanalClave.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [7/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [8/20] tvcubana.icrt.cu (es) - Cubavision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [9/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [10/20] tvcubana.icrt.cu (es) - CubavisionInternacional.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [11/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [12/20] tvcubana.icrt.cu (es) - CubavisionPlus.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [13/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [14/20] tvcubana.icrt.cu (es) - CanalEducativo.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [15/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [16/20] tvcubana.icrt.cu (es) - CanalEducativo2.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [17/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [18/20] tvcubana.icrt.cu (es) - Multivision.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [19/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [20/20] tvcubana.icrt.cu (es) - TeleRebelde.cu@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvcubana.icrt.cu/tvcubana.icrt.cu.xml"...
+✔   done in 00h 02m 01s

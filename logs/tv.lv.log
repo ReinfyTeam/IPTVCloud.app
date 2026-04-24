@@ -1,0 +1,480 @@
+═══════════════════════════════════════════════════════════════
+  Site            : tv.lv
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 30s
+  Channels        : 274
+  With programmes : 6
+  Empty channels  : 268
+  Total programs  : 109
+  Output size     : 95872 bytes
+  HTTP errors     :
+    174 status code 429
+  Last error      : Request failed with status code 429
+  Generated       : 2026-04-24 12:47:14
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 12:46:44 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tv.lv --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 137 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/274] tv.lv (lv) - 3sat.de@SD - Apr 24, 2026 (0 programs)
+ℹ   [2/274] tv.lv (lv) - 3sat.de@SD - Apr 25, 2026 (0 programs)
+ℹ   [3/274] tv.lv (ru) - TV3Plus.lv@SD - Apr 24, 2026 (24 programs)
+ℹ   [4/274] tv.lv (ru) - TV3Plus.lv@SD - Apr 25, 2026 (21 programs)
+ℹ   [5/274] tv.lv (lv) - 8TV.lv@SD - Apr 24, 2026 (17 programs)
+ℹ   [6/274] tv.lv (lv) - 360TV.lv@SD - Apr 24, 2026 (18 programs)
+ℹ   [7/274] tv.lv (lv) - 360TV.lv@SD - Apr 25, 2026 (15 programs)
+ℹ   [8/274] tv.lv (lv) - AlJazeera.qa@English - Apr 24, 2026 (0 programs)
+ℹ   [9/274] tv.lv (lv) - 8TV.lv@SD - Apr 25, 2026 (14 programs)
+ℹ   [10/274] tv.lv (lv) - AlJazeera.qa@English - Apr 25, 2026 (0 programs)
+ℹ   [11/274] tv.lv (lv) - AnimalPlanetEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ   [12/274] tv.lv (lv) - AnimalPlanetEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ   [13/274] tv.lv (lv) - AnimalPlanetEurope.uk@HD - Apr 24, 2026 (0 programs)
+ℹ   [14/274] tv.lv (lv) - AnimalPlanetEurope.uk@HD - Apr 25, 2026 (0 programs)
+ℹ   [15/274] tv.lv (lv) - ARDalpha.de@SD - Apr 24, 2026 (0 programs)
+ℹ   [16/274] tv.lv (lv) - ARDalpha.de@SD - Apr 25, 2026 (0 programs)
+ℹ   [17/274] tv.lv (lv) - ArenaHDBaltic.lt@SD - Apr 24, 2026 (0 programs)
+ℹ   [18/274] tv.lv (lv) - ArenaHDBaltic.lt@SD - Apr 25, 2026 (0 programs)
+ℹ   [19/274] tv.lv (lv) - ArirangTV.kr@SD - Apr 24, 2026 (0 programs)
+ℹ   [20/274] tv.lv (lv) - ArirangTV.kr@SD - Apr 25, 2026 (0 programs)
+ℹ   [21/274] tv.lv (lv) - arte - Apr 24, 2026 (0 programs)
+ℹ   [22/274] tv.lv (lv) - arte - Apr 25, 2026 (0 programs)
+ℹ   [23/274] tv.lv (lv) - BBCEntertainment.uk@SD - Apr 25, 2026 (0 programs)
+ℹ   [24/274] tv.lv (lv) - BBCEntertainment.uk@SD - Apr 24, 2026 (0 programs)
+ℹ   [25/274] tv.lv (lv) - bbc-world - Apr 24, 2026 (0 programs)
+ℹ   [26/274] tv.lv (lv) - bbc-world - Apr 25, 2026 (0 programs)
+ℹ   [27/274] tv.lv (lv) - BloombergTV.us@Europe - Apr 24, 2026 (0 programs)
+ℹ   [28/274] tv.lv (lv) - BloombergTV.us@Europe - Apr 25, 2026 (0 programs)
+ℹ   [29/274] tv.lv (lv) - boomerang-baltic-cee - Apr 24, 2026 (0 programs)
+ℹ   [30/274] tv.lv (lv) - boomerang-baltic-cee - Apr 25, 2026 (0 programs)
+ℹ   [31/274] tv.lv (lv) - StingrayCMusic.ca@SD - Apr 24, 2026 (0 programs)
+ℹ   [32/274] tv.lv (lv) - StingrayCMusic.ca@SD - Apr 25, 2026 (0 programs)
+ℹ   [33/274] tv.lv (lv) - cartoon-network-rse - Apr 24, 2026 (0 programs)
+ℹ   [34/274] tv.lv (lv) - cartoon-network-rse - Apr 25, 2026 (0 programs)
+ℹ   [35/274] tv.lv (lv) - RealityXtra.uk@SD - Apr 24, 2026 (0 programs)
+ℹ   [36/274] tv.lv (lv) - RealityXtra.uk@SD - Apr 25, 2026 (0 programs)
+ℹ   [37/274] tv.lv (lv) - CBSReality.uk@SD - Apr 24, 2026 (0 programs)
+ℹ   [38/274] tv.lv (lv) - CBSReality.uk@SD - Apr 25, 2026 (0 programs)
+ℹ   [39/274] tv.lv (lv) - CNBCEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ   [40/274] tv.lv (lv) - CNBCEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ   [41/274] tv.lv (lv) - CNNInternational.us@MENA - Apr 24, 2026 (0 programs)
+ℹ   [42/274] tv.lv (lv) - CNNInternational.us@MENA - Apr 25, 2026 (0 programs)
+ℹ   [43/274] tv.lv (lv) - detskii-klub-100 - Apr 24, 2026 (0 programs)
+ℹ   [44/274] tv.lv (lv) - detskii-klub-100 - Apr 25, 2026 (0 programs)
+ℹ   [45/274] tv.lv (lv) - deutche-welle - Apr 24, 2026 (0 programs)
+ℹ   [46/274] tv.lv (lv) - deutche-welle - Apr 25, 2026 (0 programs)
+ℹ   [47/274] tv.lv (lv) - discovery-channel-ce - Apr 24, 2026 (0 programs)
+ℹ   [48/274] tv.lv (lv) - discovery-channel-ce - Apr 25, 2026 (0 programs)
+ℹ   [49/274] tv.lv (lv) - discovery-hd-showcase - Apr 24, 2026 (0 programs)
+ℹ   [50/274] tv.lv (lv) - discovery-hd-showcase - Apr 25, 2026 (0 programs)
+ℹ   [51/274] tv.lv (lv) - discovery-id-xtra - Apr 24, 2026 (0 programs)
+ℹ   [52/274] tv.lv (lv) - discovery-id-xtra - Apr 25, 2026 (0 programs)
+ℹ   [53/274] tv.lv (lv) - discovery-life - Apr 24, 2026 (0 programs)
+ℹ   [54/274] tv.lv (lv) - discovery-life - Apr 25, 2026 (0 programs)
+ℹ   [55/274] tv.lv (lv) - discovery-science-eu - Apr 24, 2026 (0 programs)
+ℹ   [56/274] tv.lv (lv) - discovery-science-eu - Apr 25, 2026 (0 programs)
+ℹ   [57/274] tv.lv (lv) - discovery-world-eu - Apr 25, 2026 (0 programs)
+ℹ   [58/274] tv.lv (lv) - discovery-world-eu - Apr 24, 2026 (0 programs)
+ℹ   [59/274] tv.lv (lv) - disney-channel - Apr 24, 2026 (0 programs)
+ℹ   [60/274] tv.lv (lv) - disney-channel - Apr 25, 2026 (0 programs)
+ℹ   [61/274] tv.lv (lv) - disney-junior - Apr 24, 2026 (0 programs)
+ℹ   [62/274] tv.lv (lv) - disney-junior - Apr 25, 2026 (0 programs)
+ℹ   [63/274] tv.lv (lv) - disney-xd - Apr 24, 2026 (0 programs)
+ℹ   [64/274] tv.lv (lv) - disney-xd - Apr 25, 2026 (0 programs)
+ℹ   [65/274] tv.lv (lv) - djazztv - Apr 24, 2026 (0 programs)
+ℹ   [66/274] tv.lv (lv) - djazztv - Apr 25, 2026 (0 programs)
+ℹ   [67/274] tv.lv (lv) - duo-3-baltic - Apr 24, 2026 (0 programs)
+ℹ   [68/274] tv.lv (lv) - duo-3-baltic - Apr 25, 2026 (0 programs)
+ℹ   [69/274] tv.lv (lv) - duo-3-blt - Apr 24, 2026 (0 programs)
+ℹ   [70/274] tv.lv (lv) - duo-3-blt - Apr 25, 2026 (0 programs)
+ℹ   [71/274] tv.lv (lv) - Duo6.lv@SD - Apr 24, 2026 (0 programs)
+ℹ   [72/274] tv.lv (lv) - Duo6.lv@SD - Apr 25, 2026 (0 programs)
+ℹ   [73/274] tv.lv (lv) - e-entertainment - Apr 24, 2026 (0 programs)
+ℹ   [74/274] tv.lv (lv) - e-entertainment - Apr 25, 2026 (0 programs)
+ℹ   [75/274] tv.lv (en) - EpicDrama.uk@Sweden - Apr 24, 2026 (0 programs)
+ℹ   [76/274] tv.lv (en) - EpicDrama.uk@Sweden - Apr 25, 2026 (0 programs)
+ℹ   [77/274] tv.lv (lv) - esportstv - Apr 25, 2026 (0 programs)
+ℹ   [78/274] tv.lv (lv) - esportstv - Apr 24, 2026 (0 programs)
+ℹ   [79/274] tv.lv (lv) - euronews - Apr 24, 2026 (0 programs)
+ℹ   [80/274] tv.lv (lv) - euronews - Apr 25, 2026 (0 programs)
+ℹ   [81/274] tv.lv (lv) - Eurosport1.fr@France - Apr 24, 2026 (0 programs)
+ℹ   [82/274] tv.lv (lv) - Eurosport1.fr@France - Apr 25, 2026 (0 programs)
+ℹ   [83/274] tv.lv (lv) - Eurosport2.fr@France - Apr 24, 2026 (0 programs)
+ℹ   [84/274] tv.lv (lv) - Eurosport2.fr@France - Apr 25, 2026 (0 programs)
+ℹ   [85/274] tv.lv (lv) - eurosport-2-bundesliga - Apr 24, 2026 (0 programs)
+ℹ   [86/274] tv.lv (lv) - eurosport-2-bundesliga - Apr 25, 2026 (0 programs)
+ℹ   [87/274] tv.lv (lv) - eurosport-deutchland - Apr 24, 2026 (0 programs)
+ℹ   [88/274] tv.lv (lv) - eurosport-deutchland - Apr 25, 2026 (0 programs)
+ℹ   [89/274] tv.lv (lv) - extreme-sports - Apr 24, 2026 (0 programs)
+ℹ   [90/274] tv.lv (lv) - extreme-sports - Apr 25, 2026 (0 programs)
+ℹ   [91/274] tv.lv (lv) - fashion-one - Apr 24, 2026 (0 programs)
+ℹ   [92/274] tv.lv (lv) - fashion-one - Apr 25, 2026 (0 programs)
+ℹ   [93/274] tv.lv (lv) - FashionTVEurope.fr@SD - Apr 24, 2026 (0 programs)
+ℹ   [94/274] tv.lv (lv) - fight-sports-tv - Apr 24, 2026 (0 programs)
+ℹ   [95/274] tv.lv (lv) - FashionTVEurope.fr@SD - Apr 25, 2026 (0 programs)
+ℹ   [96/274] tv.lv (lv) - fight-sports-tv - Apr 25, 2026 (0 programs)
+ℹ   [97/274] tv.lv (lv) - FilmzonePlus.ee@SD - Apr 24, 2026 (0 programs)
+ℹ   [98/274] tv.lv (lv) - FilmzonePlus.ee@SD - Apr 25, 2026 (0 programs)
+ℹ   [99/274] tv.lv (lv) - filmzone-lv - Apr 25, 2026 (0 programs)
+ℹ   [100/274] tv.lv (lv) - filmzone-lv - Apr 24, 2026 (0 programs)
+ℹ   [101/274] tv.lv (lv) - food-network-hd-emea - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [102/274] tv.lv (lv) - food-network-hd-emea - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [103/274] tv.lv (lv) - fox - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [104/274] tv.lv (lv) - fox-life - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [105/274] tv.lv (lv) - fox - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [106/274] tv.lv (lv) - fox-life - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [107/274] tv.lv (lv) - france-24-uk - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [108/274] tv.lv (lv) - france-24-uk - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [109/274] tv.lv (lv) - futbol - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [110/274] tv.lv (lv) - futbol - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [111/274] tv.lv (lv) - Go3Films.ee@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [112/274] tv.lv (lv) - Go3Films.ee@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [113/274] tv.lv (lv) - Go3Sport.ee@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [114/274] tv.lv (lv) - Go3Sport.ee@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [115/274] tv.lv (lv) - Go3Sport2.ee@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [116/274] tv.lv (lv) - Go3Sport3.ee@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [117/274] tv.lv (lv) - Go3Sport2.ee@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [118/274] tv.lv (lv) - Go3Sport3.ee@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [119/274] tv.lv (lv) - Go3Sport4.ee@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [120/274] tv.lv (lv) - Go3Sport4.ee@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [121/274] tv.lv (lv) - gulli - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [122/274] tv.lv (lv) - gulli - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [123/274] tv.lv (lv) - history-europe - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [124/274] tv.lv (lv) - history-europe - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [125/274] tv.lv (lv) - kanal-7-lv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [126/274] tv.lv (lv) - kanal-7-lv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [127/274] tv.lv (lv) - kidzone-mini-baltic - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [128/274] tv.lv (lv) - kidzone-mini-baltic - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [129/274] tv.lv (lv) - kidzonetv-latvija - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [130/274] tv.lv (lv) - kidzonetv-latvija - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [131/274] tv.lv (lv) - KiKA.de@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [132/274] tv.lv (lv) - KiKA.de@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [133/274] tv.lv (lv) - lolo-tv-lv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [134/274] tv.lv (lv) - lolo-tv-lv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [135/274] tv.lv (lv) - LTV1.lv@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [136/274] tv.lv (lv) - LTV1.lv@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [137/274] tv.lv (lv) - LTV7.lv@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [138/274] tv.lv (lv) - luxetv-hd - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [139/274] tv.lv (lv) - LTV7.lv@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [140/274] tv.lv (lv) - luxetv-hd - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [141/274] tv.lv (lv) - mcm-top - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [142/274] tv.lv (lv) - mcm-top - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [143/274] tv.lv (lv) - mezzo - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [144/274] tv.lv (lv) - mezzo - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [145/274] tv.lv (lv) - motorsport-tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [146/274] tv.lv (lv) - motorsport-tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [147/274] tv.lv (lv) - mtv-dance - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [148/274] tv.lv (lv) - mtv-dance - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [149/274] tv.lv (lv) - mtv-europe - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [150/274] tv.lv (lv) - mtv-europe - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [151/274] tv.lv (lv) - mtv-hits - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [152/274] tv.lv (lv) - mtv-hits - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [153/274] tv.lv (lv) - mtv-live-hd - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [154/274] tv.lv (lv) - mtv-live-hd - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [155/274] tv.lv (lv) - mtv-music - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [156/274] tv.lv (lv) - mtv-music - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [157/274] tv.lv (lv) - mtv-rocks - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [158/274] tv.lv (lv) - mtv-rocks - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [159/274] tv.lv (lv) - mtv-sport-1 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [160/274] tv.lv (lv) - mtv-sport-1 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [161/274] tv.lv (lv) - mtv-sport-2 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [162/274] tv.lv (lv) - mtv-sport-2 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [163/274] tv.lv (lv) - mvk - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [164/274] tv.lv (lv) - mvk - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [165/274] tv.lv (lv) - N24Doku.de@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [166/274] tv.lv (lv) - N24Doku.de@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [167/274] tv.lv (lv) - n-tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [168/274] tv.lv (lv) - n-tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [169/274] tv.lv (lv) - nat-geo-wild-europe - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [170/274] tv.lv (lv) - nat-geo-wild-europe - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [171/274] tv.lv (lv) - national-geographic-baltic - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [172/274] tv.lv (lv) - national-geographic-baltic - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [173/274] tv.lv (lv) - national-geographic-channel-hd - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [174/274] tv.lv (lv) - national-geographic-channel-hd - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [175/274] tv.lv (lv) - nautical-channel - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [176/274] tv.lv (lv) - nautical-channel - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [177/274] tv.lv (lv) - nick-jr - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [178/274] tv.lv (lv) - nick-jr - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [179/274] tv.lv (lv) - nickelodeon-euro - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [180/274] tv.lv (lv) - nickelodeon-euro - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [181/274] tv.lv (lv) - nickelodeon-latvia - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [182/274] tv.lv (lv) - nickelodeon-latvia - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [183/274] tv.lv (lv) - ORF1.at@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [184/274] tv.lv (lv) - ORF1.at@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [185/274] tv.lv (lv) - ORF2.at@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [186/274] tv.lv (lv) - ORF2.at@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [187/274] tv.lv (lv) - pro-7 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [188/274] tv.lv (lv) - pro-7 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [189/274] tv.lv (lv) - ReTV.lv@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [190/274] tv.lv (lv) - ReTV.lv@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [191/274] tv.lv (lv) - riga-tv24 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [192/274] tv.lv (lv) - rtl - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [193/274] tv.lv (lv) - riga-tv24 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [194/274] tv.lv (lv) - rtl - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [195/274] tv.lv (lv) - rtl-2 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [196/274] tv.lv (lv) - rtl-2 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [197/274] tv.lv (lv) - Nitro.de@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [198/274] tv.lv (lv) - Nitro.de@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [199/274] tv.lv (lv) - SAT1Gold.de@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [200/274] tv.lv (lv) - SAT1Gold.de@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [201/274] tv.lv (lv) - sat-1 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [202/274] tv.lv (lv) - sat-1 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [203/274] tv.lv (lv) - sixx.de@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [204/274] tv.lv (lv) - sixx.de@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [205/274] tv.lv (lv) - smartzone-baltic-lithuania - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [206/274] tv.lv (lv) - smartzone-baltic-lithuania - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [207/274] tv.lv (lv) - sport1 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [208/274] tv.lv (lv) - sport1 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [209/274] tv.lv (lv) - sport-1 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [210/274] tv.lv (lv) - sport-1 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [211/274] tv.lv (lv) - sportacentrs - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [212/274] tv.lv (lv) - sportacentrs - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [213/274] tv.lv (lv) - stv-latvija - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [214/274] tv.lv (lv) - stv-latvija - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [215/274] tv.lv (lv) - RTLSuper.de@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [216/274] tv.lv (lv) - tiji - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [217/274] tv.lv (lv) - RTLSuper.de@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [218/274] tv.lv (lv) - tiji - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [219/274] tv.lv (lv) - tlc-germany - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [220/274] tv.lv (lv) - tlc-germany - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [221/274] tv.lv (lv) - trace-sports - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [222/274] tv.lv (lv) - trace-sports - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [223/274] tv.lv (lv) - TraceUrban.fr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [224/274] tv.lv (lv) - TraceUrban.fr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [225/274] tv.lv (lv) - travel-channel - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [226/274] tv.lv (lv) - travel-channel - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [227/274] tv.lv (lv) - travel-channel-hd - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [228/274] tv.lv (lv) - TV3.lv@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [229/274] tv.lv (lv) - travel-channel-hd - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [230/274] tv.lv (lv) - TV3.lv@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [231/274] tv.lv (lv) - TV3Life.lv@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [232/274] tv.lv (lv) - TV3Life.lv@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [233/274] tv.lv (lv) - TV3Mini.lv@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [234/274] tv.lv (lv) - TV3Mini.lv@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [235/274] tv.lv (lv) - TV6.lv@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [236/274] tv.lv (lv) - tv-21 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [237/274] tv.lv (lv) - TV6.lv@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [238/274] tv.lv (lv) - tv-kurzeme - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [239/274] tv.lv (lv) - tv-21 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [240/274] tv.lv (lv) - tv-kurzeme - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [241/274] tv.lv (lv) - tve - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [242/274] tv.lv (lv) - tve - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [243/274] tv.lv (lv) - unian - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [244/274] tv.lv (lv) - unian - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [245/274] tv.lv (lv) - VH1ClassicEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [246/274] tv.lv (lv) - VH1ClassicEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [247/274] tv.lv (lv) - vh1-euro-imm - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [248/274] tv.lv (en) - ViasatExplore.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [249/274] tv.lv (lv) - vh1-euro-imm - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [250/274] tv.lv (en) - ViasatExplore.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [251/274] tv.lv (lv) - viasat-golf - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [252/274] tv.lv (lv) - viasat-golf - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [253/274] tv.lv (en) - ViasatHistory.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [254/274] tv.lv (en) - ViasatHistory.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [255/274] tv.lv (lv) - viasat-kino - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [256/274] tv.lv (lv) - viasat-kino - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [257/274] tv.lv (lv) - viasat-kino-action - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [258/274] tv.lv (lv) - viasat-kino-action - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [259/274] tv.lv (lv) - viasat-kino-comedy - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [260/274] tv.lv (lv) - viasat-kino-world - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [261/274] tv.lv (lv) - viasat-kino-world - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [262/274] tv.lv (lv) - viasat-kino-comedy - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [263/274] tv.lv (en) - ViasatNature.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [264/274] tv.lv (en) - ViasatNature.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [265/274] tv.lv (lv) - viasat-naturehistory-hd - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [266/274] tv.lv (lv) - viasat-sport - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [267/274] tv.lv (lv) - viasat-naturehistory-hd - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [268/274] tv.lv (lv) - viasat-sport - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [269/274] tv.lv (lv) - viasat-sport-east - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [270/274] tv.lv (lv) - vox - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [271/274] tv.lv (lv) - vox - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [272/274] tv.lv (lv) - viasat-sport-east - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [273/274] tv.lv (lv) - ZDF.de@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [274/274] tv.lv (lv) - ZDF.de@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   saving to "/home/runner/workspace/sites/tv.lv/tv.lv.xml"...
+✔   done in 00h 00m 24s

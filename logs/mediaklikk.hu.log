@@ -1,0 +1,45 @@
+═══════════════════════════════════════════════════════════════
+  Site            : mediaklikk.hu
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 16s
+  Channels        : 16
+  With programmes : 15
+  Empty channels  : 1
+  Total programs  : 983
+  Output size     : 354808 bytes
+  Generated       : 2026-04-24 11:11:51
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 11:11:35 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=mediaklikk.hu --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 8 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/16] mediaklikk.hu (hu) - Duna.hu@SD - Apr 24, 2026 (72 programs)
+ℹ   [2/16] mediaklikk.hu (hu) - M2.hu@SD - Apr 24, 2026 (101 programs)
+ℹ   [3/16] mediaklikk.hu (hu) - M2.hu@SD - Apr 25, 2026 (92 programs)
+ℹ   [4/16] mediaklikk.hu (hu) - M1.hu@SD - Apr 25, 2026 (113 programs)
+ℹ   [5/16] mediaklikk.hu (hu) - M1.hu@SD - Apr 24, 2026 (145 programs)
+ℹ   [6/16] mediaklikk.hu (hu) - Duna.hu@SD - Apr 25, 2026 (61 programs)
+ℹ   [7/16] mediaklikk.hu (hu) - DunaWorld.hu@SD - Apr 24, 2026 (75 programs)
+ℹ   [8/16] mediaklikk.hu (hu) - DunaWorld.hu@SD - Apr 25, 2026 (45 programs)
+ℹ   [9/16] mediaklikk.hu (hu) - M3.hu@SD - Apr 24, 2026 (46 programs)
+ℹ   [10/16] mediaklikk.hu (hu) - M3.hu@SD - Apr 25, 2026 (29 programs)
+ℹ   [11/16] mediaklikk.hu (hu) - M4Sport.hu@SD - Apr 24, 2026 (60 programs)
+ℹ   [12/16] mediaklikk.hu (hu) - M4SportPlus.hu@SD - Apr 24, 2026 (0 programs)
+ℹ   [13/16] mediaklikk.hu (hu) - M5.hu@SD - Apr 24, 2026 (43 programs)
+ℹ   [14/16] mediaklikk.hu (hu) - M4Sport.hu@SD - Apr 25, 2026 (47 programs)
+ℹ   [15/16] mediaklikk.hu (hu) - M5.hu@SD - Apr 25, 2026 (41 programs)
+ℹ   [16/16] mediaklikk.hu (hu) - M4SportPlus.hu@SD - Apr 25, 2026 (13 programs)
+ℹ   saving to "/home/runner/workspace/sites/mediaklikk.hu/mediaklikk.hu.xml"...
+✔   done in 00h 00m 05s

@@ -1,0 +1,1238 @@
+═══════════════════════════════════════════════════════════════
+  Site            : galamtv.kz
+  Status          : EMPTY
+  Attempts used   : 10 / 10
+  Total elapsed   : 169s
+  Channels        : 540
+  With programmes : 0
+  Empty channels  : 540
+  Total programs  : 0
+  Output size     : 0 bytes
+  HTTP errors     :
+    540 status code 404
+  Last error      : Request failed with status code 404
+  Generated       : 2026-04-24 11:01:12
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 10:58:22 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=galamtv.kz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 27 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [2/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [3/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [4/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [5/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [6/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [7/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [8/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [9/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [10/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [11/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [12/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [13/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [14/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [15/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [16/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [17/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [18/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [19/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [20/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [21/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [22/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [23/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [24/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [25/54] galamtv.kz (ru) - Mir.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [26/54] galamtv.kz (ru) - Mir.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [27/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [28/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [29/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [30/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [31/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [32/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [33/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [34/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [35/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [36/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [37/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [38/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [39/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [40/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [41/54] galamtv.kz (kk) - NTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [42/54] galamtv.kz (kk) - NTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [43/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [44/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [45/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [46/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [47/54] galamtv.kz (kk) - KTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [48/54] galamtv.kz (kk) - KTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [49/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [50/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [51/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [52/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [53/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [54/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   saving to "/home/runner/workspace/sites/galamtv.kz/galamtv.kz.xml"...
+✔   done in 00h 00m 05s
+
+===== attempt 2/10 @ 10:58:39 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=galamtv.kz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 27 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [2/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [3/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [4/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [5/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [6/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [7/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [8/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [9/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [10/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [11/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [12/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [13/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [14/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [15/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [16/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [17/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [18/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [19/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [20/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [21/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [22/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [23/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [24/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [25/54] galamtv.kz (ru) - Mir.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [26/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [27/54] galamtv.kz (ru) - Mir.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [28/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [29/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [30/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [31/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [32/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [33/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [34/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [35/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [36/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [37/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [38/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [39/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [40/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [41/54] galamtv.kz (kk) - NTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [42/54] galamtv.kz (kk) - NTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [43/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [44/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [45/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [46/54] galamtv.kz (kk) - KTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [47/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [48/54] galamtv.kz (kk) - KTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [49/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [50/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [51/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [52/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [53/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [54/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   saving to "/home/runner/workspace/sites/galamtv.kz/galamtv.kz.xml"...
+✔   done in 00h 00m 06s
+
+===== attempt 3/10 @ 10:58:56 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=galamtv.kz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 27 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [2/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [3/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [4/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [5/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [6/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [7/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [8/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [9/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [10/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [11/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [12/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [13/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [14/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [15/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [16/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [17/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [18/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [19/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [20/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [21/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [22/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [23/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [24/54] galamtv.kz (ru) - Mir.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [25/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [26/54] galamtv.kz (ru) - Mir.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [27/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [28/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [29/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [30/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [31/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [32/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [33/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [34/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [35/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [36/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [37/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [38/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [39/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [40/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [41/54] galamtv.kz (kk) - NTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [42/54] galamtv.kz (kk) - NTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [43/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [44/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [45/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [46/54] galamtv.kz (kk) - KTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [47/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [48/54] galamtv.kz (kk) - KTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [49/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [50/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [51/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [52/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [53/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [54/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   saving to "/home/runner/workspace/sites/galamtv.kz/galamtv.kz.xml"...
+✔   done in 00h 00m 06s
+
+===== attempt 4/10 @ 10:59:16 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=galamtv.kz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 27 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [2/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [3/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [4/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [5/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [6/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [7/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [8/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [9/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [10/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [11/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [12/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [13/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [14/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [15/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [16/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [17/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [18/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [19/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [20/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [21/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [22/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [23/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [24/54] galamtv.kz (ru) - Mir.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [25/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [26/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [27/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [28/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [29/54] galamtv.kz (ru) - Mir.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [30/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [31/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [32/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [33/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [34/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [35/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [36/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [37/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [38/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [39/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [40/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [41/54] galamtv.kz (kk) - NTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [42/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [43/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [44/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [45/54] galamtv.kz (kk) - NTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [46/54] galamtv.kz (kk) - KTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [47/54] galamtv.kz (kk) - KTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [48/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [49/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [50/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [51/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [52/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [53/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [54/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   saving to "/home/runner/workspace/sites/galamtv.kz/galamtv.kz.xml"...
+✔   done in 00h 00m 05s
+
+===== attempt 5/10 @ 10:59:32 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=galamtv.kz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 27 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [2/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [3/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [4/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [5/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [6/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [7/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [8/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [9/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [10/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [11/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [12/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [13/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [14/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [15/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [16/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [17/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [18/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [19/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [20/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [21/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [22/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [23/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [24/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [25/54] galamtv.kz (ru) - Mir.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [26/54] galamtv.kz (ru) - Mir.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [27/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [28/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [29/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [30/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [31/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [32/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [33/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [34/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [35/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [36/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [37/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [38/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [39/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [40/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [41/54] galamtv.kz (kk) - NTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [42/54] galamtv.kz (kk) - NTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [43/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [44/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [45/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [46/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [47/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [48/54] galamtv.kz (kk) - KTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [49/54] galamtv.kz (kk) - KTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [50/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [51/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [52/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [53/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [54/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   saving to "/home/runner/workspace/sites/galamtv.kz/galamtv.kz.xml"...
+✔   done in 00h 00m 06s
+
+===== attempt 6/10 @ 10:59:51 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=galamtv.kz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 27 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [2/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [3/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [4/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [5/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [6/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [7/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [8/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [9/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [10/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [11/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [12/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [13/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [14/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [15/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [16/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [17/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [18/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [19/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [20/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [21/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [22/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [23/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [24/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [25/54] galamtv.kz (ru) - Mir.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [26/54] galamtv.kz (ru) - Mir.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [27/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [28/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [29/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [30/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [31/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [32/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [33/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [34/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [35/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [36/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [37/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [38/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [39/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [40/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [41/54] galamtv.kz (kk) - NTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [42/54] galamtv.kz (kk) - NTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [43/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [44/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [45/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [46/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [47/54] galamtv.kz (kk) - KTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [48/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [49/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [50/54] galamtv.kz (kk) - KTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [51/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [52/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [53/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [54/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   saving to "/home/runner/workspace/sites/galamtv.kz/galamtv.kz.xml"...
+✔   done in 00h 00m 05s
+
+===== attempt 7/10 @ 11:00:07 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=galamtv.kz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 27 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [2/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [3/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [4/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [5/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [6/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [7/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [8/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [9/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [10/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [11/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [12/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [13/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [14/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [15/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [16/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [17/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [18/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [19/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [20/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [21/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [22/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [23/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [24/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [25/54] galamtv.kz (ru) - Mir.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [26/54] galamtv.kz (ru) - Mir.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [27/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [28/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [29/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [30/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [31/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [32/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [33/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [34/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [35/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [36/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [37/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [38/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [39/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [40/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [41/54] galamtv.kz (kk) - NTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [42/54] galamtv.kz (kk) - NTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [43/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [44/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [45/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [46/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [47/54] galamtv.kz (kk) - KTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [48/54] galamtv.kz (kk) - KTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [49/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [50/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [51/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [52/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [53/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [54/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   saving to "/home/runner/workspace/sites/galamtv.kz/galamtv.kz.xml"...
+✔   done in 00h 00m 05s
+
+===== attempt 8/10 @ 11:00:25 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=galamtv.kz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 27 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [2/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [3/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [4/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [5/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [6/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [7/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [8/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [9/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [10/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [11/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [12/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [13/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [14/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [15/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [16/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [17/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [18/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [19/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [20/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [21/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [22/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [23/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [24/54] galamtv.kz (ru) - Mir.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [25/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [26/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [27/54] galamtv.kz (ru) - Mir.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [28/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [29/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [30/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [31/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [32/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [33/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [34/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [35/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [36/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [37/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [38/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [39/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [40/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [41/54] galamtv.kz (kk) - NTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [42/54] galamtv.kz (kk) - NTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [43/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [44/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [45/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [46/54] galamtv.kz (kk) - KTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [47/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [48/54] galamtv.kz (kk) - KTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [49/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [50/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [51/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [52/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [53/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [54/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   saving to "/home/runner/workspace/sites/galamtv.kz/galamtv.kz.xml"...
+✔   done in 00h 00m 06s
+
+===== attempt 9/10 @ 11:00:42 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=galamtv.kz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 27 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [2/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [3/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [4/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [5/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [6/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [7/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [8/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [9/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [10/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [11/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [12/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [13/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [14/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [15/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [16/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [17/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [18/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [19/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [20/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [21/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [22/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [23/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [24/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [25/54] galamtv.kz (ru) - Mir.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [26/54] galamtv.kz (ru) - Mir.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [27/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [28/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [29/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [30/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [31/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [32/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [33/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [34/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [35/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [36/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [37/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [38/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [39/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [40/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [41/54] galamtv.kz (kk) - NTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [42/54] galamtv.kz (kk) - NTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [43/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [44/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [45/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [46/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [47/54] galamtv.kz (kk) - KTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [48/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [49/54] galamtv.kz (kk) - KTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [50/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [51/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [52/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [53/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [54/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   saving to "/home/runner/workspace/sites/galamtv.kz/galamtv.kz.xml"...
+✔   done in 00h 00m 05s
+
+===== attempt 10/10 @ 11:01:00 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=galamtv.kz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 27 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [2/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [3/54] galamtv.kz (kk) - 57bb6e6c4e2e6775aedaa771 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [4/54] galamtv.kz (kk) - TuranTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [5/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [6/54] galamtv.kz (kk) - TDK42.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [7/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [8/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [9/54] galamtv.kz (kk) - AtamekenBusiness.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [10/54] galamtv.kz (kk) - ElArna.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [11/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [12/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [13/54] galamtv.kz (kk) - Turkistan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [14/54] galamtv.kz (kk) - MunaraTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [15/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [16/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [17/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [18/54] galamtv.kz (ru) - Mir24.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [19/54] galamtv.kz (kk) - AlmatyTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [20/54] galamtv.kz (kk) - 559d1ebb78d72701950089d5 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [21/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [22/54] galamtv.kz (ru) - Mir.ru@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [23/54] galamtv.kz (kk) - 24KZ.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [24/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [25/54] galamtv.kz (kk) - Khabar.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [26/54] galamtv.kz (ru) - Mir.ru@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [27/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [28/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [29/54] galamtv.kz (kk) - JibekJoly.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [30/54] galamtv.kz (kk) - 559d208e78d72701950089f4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [31/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [32/54] galamtv.kz (kk) - Novoetelevidenie.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [33/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [34/54] galamtv.kz (ru) - ChannelOneEurasia.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [35/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [36/54] galamtv.kz (kk) - 571a017c4e2e6750a693cc3b - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [37/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [38/54] galamtv.kz (tr) - TRTAvaz.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [39/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [40/54] galamtv.kz (kk) - AstanaTV.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [41/54] galamtv.kz (kk) - NTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [42/54] galamtv.kz (kk) - NTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [43/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [44/54] galamtv.kz (kk) - 31Kanal.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [45/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [46/54] galamtv.kz (kk) - CaspianNews.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [47/54] galamtv.kz (kk) - KTK.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [48/54] galamtv.kz (kk) - KTK.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [49/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [50/54] galamtv.kz (kk) - 6675767c0e9f3f6e3ae2c2df - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [51/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [52/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [53/54] galamtv.kz (kk) - Qazaqstan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [54/54] galamtv.kz (kk) - Balapan.kz@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   saving to "/home/runner/workspace/sites/galamtv.kz/galamtv.kz.xml"...
+✔   done in 00h 00m 05s

@@ -1,0 +1,198 @@
+═══════════════════════════════════════════════════════════════
+  Site            : andorradifusio.ad
+  Status          : EMPTY
+  Attempts used   : 10 / 10
+  Total elapsed   : 162s
+  Channels        : 20
+  With programmes : 0
+  Empty channels  : 20
+  Total programs  : 0
+  Output size     : 0 bytes
+  Other errors    :
+    20 certificate has expired
+  Last error      : certificate has expired
+  Generated       : 2026-04-24 10:47:16
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 10:44:34 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=andorradifusio.ad --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   [2/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   saving to "/home/runner/workspace/sites/andorradifusio.ad/andorradifusio.ad.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 2/10 @ 10:45:02 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=andorradifusio.ad --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   [2/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   saving to "/home/runner/workspace/sites/andorradifusio.ad/andorradifusio.ad.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 3/10 @ 10:45:19 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=andorradifusio.ad --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   [2/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   saving to "/home/runner/workspace/sites/andorradifusio.ad/andorradifusio.ad.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 4/10 @ 10:45:34 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=andorradifusio.ad --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   [2/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   saving to "/home/runner/workspace/sites/andorradifusio.ad/andorradifusio.ad.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 5/10 @ 10:45:52 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=andorradifusio.ad --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   [2/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   saving to "/home/runner/workspace/sites/andorradifusio.ad/andorradifusio.ad.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 6/10 @ 10:46:08 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=andorradifusio.ad --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   [2/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   saving to "/home/runner/workspace/sites/andorradifusio.ad/andorradifusio.ad.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 7/10 @ 10:46:28 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=andorradifusio.ad --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   [2/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   saving to "/home/runner/workspace/sites/andorradifusio.ad/andorradifusio.ad.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 8/10 @ 10:46:42 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=andorradifusio.ad --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   [2/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   saving to "/home/runner/workspace/sites/andorradifusio.ad/andorradifusio.ad.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 9/10 @ 10:46:59 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=andorradifusio.ad --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   [2/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   saving to "/home/runner/workspace/sites/andorradifusio.ad/andorradifusio.ad.xml"...
+✔   done in 00h 00m 00s
+
+===== attempt 10/10 @ 10:47:10 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=andorradifusio.ad --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   [2/2] andorradifusio.ad (ca) - AndorraTV.ad@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: certificate has expired
+ℹ   saving to "/home/runner/workspace/sites/andorradifusio.ad/andorradifusio.ad.xml"...
+✔   done in 00h 00m 00s

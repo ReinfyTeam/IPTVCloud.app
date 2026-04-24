@@ -1,0 +1,31 @@
+═══════════════════════════════════════════════════════════════
+  Site            : worldfishingnetwork.com
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 7s
+  Channels        : 2
+  With programmes : 2
+  Empty channels  : 0
+  Total programs  : 90
+  Output size     : 41645 bytes
+  Generated       : 2026-04-24 13:06:24
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 13:06:16 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=worldfishingnetwork.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] worldfishingnetwork.com (en) - WorldFishingNetwork.us@SD - Apr 25, 2026 (42 programs)
+ℹ   [2/2] worldfishingnetwork.com (en) - WorldFishingNetwork.us@SD - Apr 24, 2026 (48 programs)
+ℹ   saving to "/home/runner/workspace/sites/worldfishingnetwork.com/worldfishingnetwork.com.xml"...
+✔   done in 00h 00m 01s

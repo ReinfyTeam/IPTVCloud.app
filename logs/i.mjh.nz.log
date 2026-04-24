@@ -1,0 +1,212 @@
+═══════════════════════════════════════════════════════════════
+  Site            : i.mjh.nz
+  Status          : TIMEOUT
+  Attempts used   : 10 / 10
+  Total elapsed   : 391s
+  Channels        : 77
+  With programmes : 42
+  Empty channels  : 35
+  Total programs  : 0
+  Output size     : 0 bytes
+  Generated       : 2026-04-24 11:11:35
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 11:05:03 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=i.mjh.nz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10870 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 24, 2026 (1 programs)
+ℹ   [2/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 25, 2026 (0 programs)
+ℹ   [3/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 24, 2026 (26 programs)
+ℹ   [4/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 25, 2026 (25 programs)
+ℹ   [5/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 24, 2026 (1 programs)
+
+===== attempt 2/10 @ 11:05:33 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=i.mjh.nz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10870 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 24, 2026 (1 programs)
+ℹ   [2/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 25, 2026 (0 programs)
+ℹ   [3/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 24, 2026 (26 programs)
+ℹ   [4/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 25, 2026 (25 programs)
+ℹ   [5/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 24, 2026 (1 programs)
+ℹ   [6/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 25, 2026 (0 programs)
+ℹ   [7/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9crime-fast - Apr 24, 2026 (0 programs)
+ℹ   [8/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9crime-fast - Apr 25, 2026 (0 programs)
+
+===== attempt 3/10 @ 11:06:13 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=i.mjh.nz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10870 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 24, 2026 (1 programs)
+ℹ   [2/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 25, 2026 (0 programs)
+ℹ   [3/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 24, 2026 (26 programs)
+ℹ   [4/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 25, 2026 (25 programs)
+ℹ   [5/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 24, 2026 (1 programs)
+ℹ   [6/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 25, 2026 (0 programs)
+ℹ   [7/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9crime-fast - Apr 24, 2026 (0 programs)
+
+===== attempt 4/10 @ 11:06:48 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=i.mjh.nz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10870 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 24, 2026 (1 programs)
+ℹ   [2/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 25, 2026 (0 programs)
+ℹ   [3/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 24, 2026 (26 programs)
+ℹ   [4/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 25, 2026 (25 programs)
+ℹ   [5/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 24, 2026 (1 programs)
+ℹ   [6/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 25, 2026 (0 programs)
+ℹ   [7/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9crime-fast - Apr 24, 2026 (0 programs)
+ℹ   [8/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9crime-fast - Apr 25, 2026 (0 programs)
+
+===== attempt 5/10 @ 11:07:36 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=i.mjh.nz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10870 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 24, 2026 (1 programs)
+ℹ   [2/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 25, 2026 (0 programs)
+ℹ   [3/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 24, 2026 (26 programs)
+ℹ   [4/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 25, 2026 (25 programs)
+ℹ   [5/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 24, 2026 (1 programs)
+ℹ   [6/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 25, 2026 (0 programs)
+ℹ   [7/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9crime-fast - Apr 24, 2026 (0 programs)
+
+===== attempt 6/10 @ 11:08:17 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=i.mjh.nz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10870 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 24, 2026 (1 programs)
+ℹ   [2/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 25, 2026 (0 programs)
+ℹ   [3/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 24, 2026 (26 programs)
+ℹ   [4/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 25, 2026 (25 programs)
+ℹ   [5/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 24, 2026 (1 programs)
+ℹ   [6/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 25, 2026 (0 programs)
+
+===== attempt 7/10 @ 11:08:54 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=i.mjh.nz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10870 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 24, 2026 (1 programs)
+ℹ   [2/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 25, 2026 (0 programs)
+ℹ   [3/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 24, 2026 (26 programs)
+ℹ   [4/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 25, 2026 (25 programs)
+ℹ   [5/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 24, 2026 (1 programs)
+ℹ   [6/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 25, 2026 (0 programs)
+ℹ   [7/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9crime-fast - Apr 24, 2026 (0 programs)
+ℹ   [8/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9crime-fast - Apr 25, 2026 (0 programs)
+ℹ   [9/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9mysteryparanormal-fast - Apr 24, 2026 (0 programs)
+
+===== attempt 8/10 @ 11:09:37 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=i.mjh.nz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10870 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 24, 2026 (1 programs)
+ℹ   [2/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 25, 2026 (0 programs)
+ℹ   [3/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 24, 2026 (26 programs)
+ℹ   [4/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 25, 2026 (25 programs)
+ℹ   [5/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 24, 2026 (1 programs)
+ℹ   [6/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 25, 2026 (0 programs)
+ℹ   [7/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9crime-fast - Apr 24, 2026 (0 programs)
+ℹ   [8/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9crime-fast - Apr 25, 2026 (0 programs)
+ℹ   [9/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9mysteryparanormal-fast - Apr 24, 2026 (0 programs)
+
+===== attempt 9/10 @ 11:10:17 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=i.mjh.nz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10870 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 24, 2026 (1 programs)
+ℹ   [2/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 25, 2026 (0 programs)
+ℹ   [3/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 25, 2026 (0 programs)
+ℹ   [4/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 24, 2026 (26 programs)
+ℹ   [5/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 25, 2026 (25 programs)
+ℹ   [6/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 24, 2026 (1 programs)
+
+===== attempt 10/10 @ 11:10:54 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=i.mjh.nz --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 10870 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 24, 2026 (1 programs)
+ℹ   [2/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7afl-fast - Apr 25, 2026 (0 programs)
+ℹ   [3/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 24, 2026 (26 programs)
+ℹ   [4/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7bravo-fast - Apr 25, 2026 (25 programs)
+ℹ   [5/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 24, 2026 (1 programs)
+ℹ   [6/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-7now-fast - Apr 25, 2026 (0 programs)
+ℹ   [7/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9crime-fast - Apr 24, 2026 (0 programs)
+ℹ   [8/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9crime-fast - Apr 25, 2026 (0 programs)
+ℹ   [9/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9mysteryparanormal-fast - Apr 24, 2026 (0 programs)
+ℹ   [10/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-9mysteryparanormal-fast - Apr 25, 2026 (0 programs)
+ℹ   [11/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-10-adultanimation - Apr 24, 2026 (55 programs)
+ℹ   [12/21740] i.mjh.nz (en) - au/Adelaide/epg#mjh-10-adultanimation - Apr 25, 2026 (55 programs)

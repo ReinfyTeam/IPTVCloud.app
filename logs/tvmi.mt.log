@@ -1,0 +1,280 @@
+═══════════════════════════════════════════════════════════════
+  Site            : tvmi.mt
+  Status          : EMPTY
+  Attempts used   : 10 / 10
+  Total elapsed   : 642s
+  Channels        : 60
+  With programmes : 0
+  Empty channels  : 60
+  Total programs  : 0
+  Output size     : 0 bytes
+  HTTP errors     :
+    6 status code 403
+  Other errors    :
+    54 timeout of 30000ms exceeded
+  Last error      : timeout of 30000ms exceeded
+  Generated       : 2026-04-24 13:00:42
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 12:50:00 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvmi.mt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] tvmi.mt (mt) - TVM.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [2/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [3/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [4/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [5/6] tvmi.mt (mt) - TVM.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   [6/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 403
+ℹ   saving to "/home/runner/workspace/sites/tvmi.mt/tvmi.mt.xml"...
+✔   done in 00h 00m 01s
+
+===== attempt 2/10 @ 12:50:11 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvmi.mt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] tvmi.mt (mt) - TVM.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/6] tvmi.mt (mt) - TVM.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvmi.mt/tvmi.mt.xml"...
+✔   done in 00h 01m 00s
+
+===== attempt 3/10 @ 12:51:21 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvmi.mt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] tvmi.mt (mt) - TVM.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/6] tvmi.mt (mt) - TVM.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvmi.mt/tvmi.mt.xml"...
+✔   done in 00h 01m 00s
+
+===== attempt 4/10 @ 12:52:31 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvmi.mt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] tvmi.mt (mt) - TVM.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/6] tvmi.mt (mt) - TVM.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvmi.mt/tvmi.mt.xml"...
+✔   done in 00h 01m 00s
+
+===== attempt 5/10 @ 12:53:40 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvmi.mt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] tvmi.mt (mt) - TVM.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/6] tvmi.mt (mt) - TVM.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvmi.mt/tvmi.mt.xml"...
+✔   done in 00h 01m 00s
+
+===== attempt 6/10 @ 12:54:50 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvmi.mt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] tvmi.mt (mt) - TVM.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/6] tvmi.mt (mt) - TVM.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvmi.mt/tvmi.mt.xml"...
+✔   done in 00h 01m 00s
+
+===== attempt 7/10 @ 12:56:00 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvmi.mt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] tvmi.mt (mt) - TVM.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/6] tvmi.mt (mt) - TVM.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvmi.mt/tvmi.mt.xml"...
+✔   done in 00h 01m 00s
+
+===== attempt 8/10 @ 12:57:11 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvmi.mt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] tvmi.mt (mt) - TVM.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/6] tvmi.mt (mt) - TVM.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvmi.mt/tvmi.mt.xml"...
+✔   done in 00h 01m 00s
+
+===== attempt 9/10 @ 12:58:23 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvmi.mt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] tvmi.mt (mt) - TVM.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/6] tvmi.mt (mt) - TVM.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvmi.mt/tvmi.mt.xml"...
+✔   done in 00h 01m 00s
+
+===== attempt 10/10 @ 12:59:34 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=tvmi.mt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 3 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/6] tvmi.mt (mt) - TVM.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [2/6] tvmi.mt (mt) - TVM.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [3/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [4/6] tvmi.mt (mt) - TVMnewsPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [5/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   [6/6] tvmi.mt (mt) - TVMsportPlus.mt@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: timeout of 30000ms exceeded
+ℹ   saving to "/home/runner/workspace/sites/tvmi.mt/tvmi.mt.xml"...
+✔   done in 00h 01m 00s

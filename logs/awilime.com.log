@@ -1,0 +1,373 @@
+═══════════════════════════════════════════════════════════════
+  Site            : awilime.com
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 36s
+  Channels        : 220
+  With programmes : 93
+  Empty channels  : 127
+  Total programs  : 5571
+  Output size     : 1680569 bytes
+  HTTP errors     :
+    121 status code 429
+  Last error      : Request failed with status code 429
+  Generated       : 2026-04-24 10:45:35
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 10:44:58 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=awilime.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 110 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/220] awilime.com (hu) - arena4 - Apr 24, 2026 (15 programs)
+ℹ   [2/220] awilime.com (hu) - amc - Apr 25, 2026 (20 programs)
+ℹ   [3/220] awilime.com (hu) - animal_planet_hd - Apr 24, 2026 (27 programs)
+ℹ   [4/220] awilime.com (hu) - amc - Apr 24, 2026 (17 programs)
+ℹ   [5/220] awilime.com (hu) - animal_planet_hd - Apr 25, 2026 (28 programs)
+ℹ   [6/220] awilime.com (hu) - arena4 - Apr 25, 2026 (16 programs)
+ℹ   [7/220] awilime.com (hu) - atv - Apr 24, 2026 (27 programs)
+ℹ   [8/220] awilime.com (hu) - atv - Apr 25, 2026 (29 programs)
+ℹ   [9/220] awilime.com (hu) - atv_extra - Apr 24, 2026 (25 programs)
+ℹ   [10/220] awilime.com (hu) - atv_extra - Apr 25, 2026 (25 programs)
+ℹ   [11/220] awilime.com (hu) - axn - Apr 24, 2026 (23 programs)
+ℹ   [12/220] awilime.com (hu) - axn - Apr 25, 2026 (20 programs)
+ℹ   [13/220] awilime.com (hu) - budapest_europa_tv - Apr 24, 2026 (15 programs)
+ℹ   [14/220] awilime.com (hu) - budapest_europa_tv - Apr 25, 2026 (15 programs)
+ℹ   [15/220] awilime.com (hu) - cartoon_network - Apr 24, 2026 (0 programs)
+ℹ   [16/220] awilime.com (hu) - cartoon_network - Apr 25, 2026 (0 programs)
+ℹ   [17/220] awilime.com (hu) - cartoonito - Apr 24, 2026 (0 programs)
+ℹ   [18/220] awilime.com (hu) - cartoonito - Apr 25, 2026 (0 programs)
+ℹ   [19/220] awilime.com (hu) - cinemax - Apr 24, 2026 (15 programs)
+ℹ   [20/220] awilime.com (hu) - cinemax - Apr 25, 2026 (13 programs)
+ℹ   [21/220] awilime.com (hu) - cinemax_2 - Apr 24, 2026 (14 programs)
+ℹ   [22/220] awilime.com (hu) - cinemax_2 - Apr 25, 2026 (12 programs)
+ℹ   [23/220] awilime.com (hu) - comedy_central - Apr 24, 2026 (0 programs)
+ℹ   [24/220] awilime.com (hu) - comedy_central - Apr 25, 2026 (0 programs)
+ℹ   [25/220] awilime.com (hu) - cool - Apr 24, 2026 (24 programs)
+ℹ   [26/220] awilime.com (hu) - cool - Apr 25, 2026 (23 programs)
+ℹ   [27/220] awilime.com (hu) - d1_tv - Apr 24, 2026 (26 programs)
+ℹ   [28/220] awilime.com (hu) - d1_tv - Apr 25, 2026 (24 programs)
+ℹ   [29/220] awilime.com (hu) - dikh_tv - Apr 24, 2026 (13 programs)
+ℹ   [30/220] awilime.com (hu) - dikh_tv - Apr 25, 2026 (14 programs)
+ℹ   [31/220] awilime.com (hu) - discovery_channel - Apr 24, 2026 (31 programs)
+ℹ   [32/220] awilime.com (hu) - discovery_channel - Apr 25, 2026 (29 programs)
+ℹ   [33/220] awilime.com (hu) - disney_csatorna - Apr 24, 2026 (73 programs)
+ℹ   [34/220] awilime.com (hu) - disney_csatorna - Apr 25, 2026 (70 programs)
+ℹ   [35/220] awilime.com (hu) - duck_tv_hd - Apr 24, 2026 (546 programs)
+ℹ   [36/220] awilime.com (hu) - duck_tv_plus - Apr 24, 2026 (543 programs)
+ℹ   [37/220] awilime.com (hu) - duck_tv_hd - Apr 25, 2026 (546 programs)
+ℹ   [38/220] awilime.com (hu) - duck_tv_plus - Apr 25, 2026 (543 programs)
+ℹ   [39/220] awilime.com (hu) - duck_tv_sd - Apr 24, 2026 (541 programs)
+ℹ   [40/220] awilime.com (hu) - duna_televizio - Apr 24, 2026 (59 programs)
+ℹ   [41/220] awilime.com (hu) - duck_tv_sd - Apr 25, 2026 (541 programs)
+ℹ   [42/220] awilime.com (hu) - duna_televizio - Apr 25, 2026 (51 programs)
+ℹ   [43/220] awilime.com (hu) - duna_world - Apr 24, 2026 (61 programs)
+ℹ   [44/220] awilime.com (hu) - epic_drama - Apr 24, 2026 (18 programs)
+ℹ   [45/220] awilime.com (hu) - duna_world - Apr 25, 2026 (46 programs)
+ℹ   [46/220] awilime.com (hu) - eurosport_1 - Apr 24, 2026 (14 programs)
+ℹ   [47/220] awilime.com (hu) - epic_drama - Apr 25, 2026 (18 programs)
+ℹ   [48/220] awilime.com (hu) - eurosport_1 - Apr 25, 2026 (13 programs)
+ℹ   [49/220] awilime.com (hu) - eurosport_2 - Apr 24, 2026 (17 programs)
+ℹ   [50/220] awilime.com (hu) - eurosport_2 - Apr 25, 2026 (14 programs)
+ℹ   [51/220] awilime.com (hu) - ewtn - Apr 25, 2026 (53 programs)
+ℹ   [52/220] awilime.com (hu) - ewtn - Apr 24, 2026 (52 programs)
+ℹ   [53/220] awilime.com (hu) - film - Apr 24, 2026 (9 programs)
+ℹ   [54/220] awilime.com (hu) - film - Apr 25, 2026 (11 programs)
+ℹ   [55/220] awilime.com (hu) - film4 - Apr 24, 2026 (12 programs)
+ℹ   [56/220] awilime.com (hu) - film4 - Apr 25, 2026 (11 programs)
+ℹ   [57/220] awilime.com (hu) - film_cafe - Apr 24, 2026 (15 programs)
+ℹ   [58/220] awilime.com (hu) - film_cafe - Apr 25, 2026 (15 programs)
+ℹ   [59/220] awilime.com (hu) - film_mania - Apr 24, 2026 (14 programs)
+ℹ   [60/220] awilime.com (hu) - film_mania - Apr 25, 2026 (17 programs)
+ℹ   [61/220] awilime.com (hu) - filmbox - Apr 24, 2026 (19 programs)
+ℹ   [62/220] awilime.com (hu) - filmbox - Apr 25, 2026 (16 programs)
+ℹ   [63/220] awilime.com (hu) - filmbox_extra_hd - Apr 24, 2026 (15 programs)
+ℹ   [64/220] awilime.com (hu) - filmbox_extra_hd - Apr 25, 2026 (15 programs)
+ℹ   [65/220] awilime.com (hu) - filmbox_family - Apr 24, 2026 (13 programs)
+ℹ   [66/220] awilime.com (hu) - filmbox_family - Apr 25, 2026 (12 programs)
+ℹ   [67/220] awilime.com (hu) - filmbox_premium - Apr 24, 2026 (15 programs)
+ℹ   [68/220] awilime.com (hu) - filmbox_premium - Apr 25, 2026 (14 programs)
+ℹ   [69/220] awilime.com (hu) - filmbox_stars - Apr 24, 2026 (15 programs)
+ℹ   [70/220] awilime.com (hu) - filmbox_stars - Apr 25, 2026 (15 programs)
+ℹ   [71/220] awilime.com (hu) - fishing_and_hunting - Apr 24, 2026 (48 programs)
+ℹ   [72/220] awilime.com (hu) - fishing_and_hunting - Apr 25, 2026 (48 programs)
+ℹ   [73/220] awilime.com (hu) - food_network - Apr 24, 2026 (35 programs)
+ℹ   [74/220] awilime.com (hu) - food_network - Apr 25, 2026 (33 programs)
+ℹ   [75/220] awilime.com (hu) - galaxy4 - Apr 24, 2026 (14 programs)
+ℹ   [76/220] awilime.com (hu) - galaxy4 - Apr 25, 2026 (14 programs)
+ℹ   [77/220] awilime.com (hu) - hbo - Apr 24, 2026 (14 programs)
+ℹ   [78/220] awilime.com (hu) - hbo - Apr 25, 2026 (13 programs)
+ℹ   [79/220] awilime.com (hu) - hbo_2 - Apr 24, 2026 (17 programs)
+ℹ   [80/220] awilime.com (hu) - hbo_2 - Apr 25, 2026 (15 programs)
+ℹ   [81/220] awilime.com (hu) - hbo_3 - Apr 24, 2026 (20 programs)
+ℹ   [82/220] awilime.com (hu) - hbo_3 - Apr 25, 2026 (18 programs)
+ℹ   [83/220] awilime.com (hu) - hgtv_home_and_garden - Apr 24, 2026 (34 programs)
+ℹ   [84/220] awilime.com (hu) - hgtv_home_and_garden - Apr 25, 2026 (34 programs)
+ℹ   [85/220] awilime.com (hu) - hir_tv - Apr 24, 2026 (29 programs)
+ℹ   [86/220] awilime.com (hu) - hir_tv - Apr 25, 2026 (25 programs)
+ℹ   [87/220] awilime.com (hu) - history - Apr 24, 2026 (33 programs)
+ℹ   [88/220] awilime.com (hu) - history - Apr 25, 2026 (32 programs)
+ℹ   [89/220] awilime.com (hu) - id_investigation_discovery - Apr 24, 2026 (23 programs)
+ℹ   [90/220] awilime.com (hu) - id_investigation_discovery - Apr 25, 2026 (25 programs)
+ℹ   [91/220] awilime.com (hu) - id_xtra - Apr 24, 2026 (24 programs)
+ℹ   [92/220] awilime.com (hu) - id_xtra - Apr 25, 2026 (26 programs)
+ℹ   [93/220] awilime.com (hu) - jazz_tv - Apr 24, 2026 (17 programs)
+ℹ   [94/220] awilime.com (hu) - izaura_tv - Apr 25, 2026 (19 programs)
+ℹ   [95/220] awilime.com (hu) - izaura_tv - Apr 24, 2026 (28 programs)
+ℹ   [96/220] awilime.com (hu) - jazz_tv - Apr 25, 2026 (16 programs)
+ℹ   [97/220] awilime.com (hu) - jim_jam - Apr 24, 2026 (138 programs)
+ℹ   [98/220] awilime.com (hu) - jocky_tv - Apr 24, 2026 (29 programs)
+ℹ   [99/220] awilime.com (hu) - jim_jam - Apr 25, 2026 (138 programs)
+ℹ   [100/220] awilime.com (hu) - jocky_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [101/220] awilime.com (hu) - kolyok_klub - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [102/220] awilime.com (hu) - kolyok_klub - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [103/220] awilime.com (hu) - lifetv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [104/220] awilime.com (hu) - lifetv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [105/220] awilime.com (hu) - m1 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [106/220] awilime.com (hu) - m1 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [107/220] awilime.com (hu) - m2 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [108/220] awilime.com (hu) - m2 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [109/220] awilime.com (hu) - m4_sport - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [110/220] awilime.com (hu) - m4_sport - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [111/220] awilime.com (hu) - m4_sport_plusz - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [112/220] awilime.com (hu) - m4_sport_plusz - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [113/220] awilime.com (hu) - m5 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [114/220] awilime.com (hu) - m5 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [115/220] awilime.com (hu) - magyar_mozi_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [116/220] awilime.com (hu) - match4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [117/220] awilime.com (hu) - magyar_mozi_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [118/220] awilime.com (hu) - match4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [119/220] awilime.com (hu) - max4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [120/220] awilime.com (hu) - max4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [121/220] awilime.com (hu) - minimax - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [122/220] awilime.com (hu) - minimax - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [123/220] awilime.com (hu) - mozi - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [124/220] awilime.com (hu) - mozi - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [125/220] awilime.com (hu) - mozi_klub - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [126/220] awilime.com (hu) - mozi_klub - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [127/220] awilime.com (hu) - moziverzum - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [128/220] awilime.com (hu) - moziverzum - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [129/220] awilime.com (hu) - mtv_european - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [130/220] awilime.com (hu) - mtv_european - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [131/220] awilime.com (hu) - muzsika_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [132/220] awilime.com (hu) - muzsika_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [133/220] awilime.com (hu) - national_geographic_hd - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [134/220] awilime.com (hu) - national_geographic_wild - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [135/220] awilime.com (hu) - national_geographic_hd - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [136/220] awilime.com (hu) - national_geographic_wild - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [137/220] awilime.com (hu) - neshama_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [138/220] awilime.com (hu) - neshama_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [139/220] awilime.com (hu) - nick_jr - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [140/220] awilime.com (hu) - nick_jr - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [141/220] awilime.com (hu) - nickelodeon - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [142/220] awilime.com (hu) - nickelodeon - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [143/220] awilime.com (hu) - nicktoons - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [144/220] awilime.com (hu) - ozonetv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [145/220] awilime.com (hu) - nicktoons - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [146/220] awilime.com (hu) - ozonetv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [147/220] awilime.com (hu) - paramount_network - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [148/220] awilime.com (hu) - paramount_network - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [149/220] awilime.com (hu) - pax_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [150/220] awilime.com (hu) - pax_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [151/220] awilime.com (hu) - prime - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [152/220] awilime.com (hu) - rtl - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [153/220] awilime.com (hu) - prime - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [154/220] awilime.com (hu) - rtl - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [155/220] awilime.com (hu) - rtl_gold - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [156/220] awilime.com (hu) - rtl_gold - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [157/220] awilime.com (hu) - rtl_harom - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [158/220] awilime.com (hu) - rtl_harom - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [159/220] awilime.com (hu) - rtl_ketto - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [160/220] awilime.com (hu) - rtl_ketto - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [161/220] awilime.com (hu) - rtl_otthon - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [162/220] awilime.com (hu) - slager_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [163/220] awilime.com (hu) - rtl_otthon - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [164/220] awilime.com (hu) - slager_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [165/220] awilime.com (hu) - sorozat - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [166/220] awilime.com (hu) - sorozat - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [167/220] awilime.com (hu) - sorozat_klub - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [168/220] awilime.com (hu) - sorozat_klub - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [169/220] awilime.com (hu) - spektrum_hd - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [170/220] awilime.com (hu) - spektrum_hd - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [171/220] awilime.com (hu) - spektrum_home - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [172/220] awilime.com (hu) - spektrum_home - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [173/220] awilime.com (hu) - spiler1_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [174/220] awilime.com (hu) - spiler1_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [175/220] awilime.com (hu) - spiler2_tv - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [176/220] awilime.com (hu) - spiler2_tv - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [177/220] awilime.com (hu) - sport_1 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [178/220] awilime.com (hu) - sport_1 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [179/220] awilime.com (hu) - sport_2 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [180/220] awilime.com (hu) - sport_2 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [181/220] awilime.com (hu) - story4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [182/220] awilime.com (hu) - story4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [183/220] awilime.com (hu) - supertv2 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [184/220] awilime.com (hu) - supertv2 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [185/220] awilime.com (hu) - teennick - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [186/220] awilime.com (hu) - tlc - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [187/220] awilime.com (hu) - teennick - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [188/220] awilime.com (hu) - tlc - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [189/220] awilime.com (hu) - travel_channel - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [190/220] awilime.com (hu) - travel_channel - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [191/220] awilime.com (hu) - tv2 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [192/220] awilime.com (hu) - tv2 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [193/220] awilime.com (hu) - tv2_comedy - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [194/220] awilime.com (hu) - tv2_comedy - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [195/220] awilime.com (hu) - tv2_kids - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [196/220] awilime.com (hu) - tv2_kids - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [197/220] awilime.com (hu) - tv2_klub - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [198/220] awilime.com (hu) - tv2_klub - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [199/220] awilime.com (hu) - tv2_sef - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [200/220] awilime.com (hu) - tv2_sef - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [201/220] awilime.com (hu) - tv4 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [202/220] awilime.com (hu) - tv4 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [203/220] awilime.com (hu) - tv_paprika - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [204/220] awilime.com (hu) - tv_paprika - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [205/220] awilime.com (hu) - viasat_2 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [206/220] awilime.com (hu) - viasat_2 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [207/220] awilime.com (hu) - viasat_3 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [208/220] awilime.com (hu) - viasat_3 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [209/220] awilime.com (hu) - viasat_6 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [210/220] awilime.com (hu) - viasat_6 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [211/220] awilime.com (hu) - viasat_explore - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [212/220] awilime.com (hu) - viasat_explore - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [213/220] awilime.com (hu) - viasat_film - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [214/220] awilime.com (hu) - viasat_history - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [215/220] awilime.com (hu) - viasat_film - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [216/220] awilime.com (hu) - viasat_history - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [217/220] awilime.com (hu) - viasat_nature - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [218/220] awilime.com (hu) - viasat_nature - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [219/220] awilime.com (hu) - zenebutik - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   [220/220] awilime.com (hu) - zenebutik - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 429
+ℹ   saving to "/home/runner/workspace/sites/awilime.com/awilime.com.xml"...
+✔   done in 00h 00m 22s

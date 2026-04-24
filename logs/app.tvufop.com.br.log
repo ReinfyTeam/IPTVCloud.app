@@ -1,0 +1,31 @@
+═══════════════════════════════════════════════════════════════
+  Site            : app.tvufop.com.br
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 24s
+  Channels        : 2
+  With programmes : 2
+  Empty channels  : 0
+  Total programs  : 151
+  Output size     : 63759 bytes
+  Generated       : 2026-04-24 10:44:58
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 10:44:34 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=app.tvufop.com.br --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 1 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/2] app.tvufop.com.br (pt) - TVUFOP.br@HD - Apr 25, 2026 (22 programs)
+ℹ   [2/2] app.tvufop.com.br (pt) - TVUFOP.br@HD - Apr 24, 2026 (129 programs)
+ℹ   saving to "/home/runner/workspace/sites/app.tvufop.com.br/app.tvufop.com.br.xml"...
+✔   done in 00h 00m 02s

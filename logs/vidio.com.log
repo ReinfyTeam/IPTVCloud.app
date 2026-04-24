@@ -1,0 +1,152 @@
+═══════════════════════════════════════════════════════════════
+  Site            : vidio.com
+  Status          : PASS
+  Attempts used   : 1 / 10
+  Total elapsed   : 26s
+  Channels        : 114
+  With programmes : 92
+  Empty channels  : 22
+  Total programs  : 3106
+  Output size     : 1436508 bytes
+  HTTP errors     :
+    6 status code 404
+  Last error      : Request failed with status code 404
+  Generated       : 2026-04-24 13:01:01
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 13:00:35 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=vidio.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 57 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/114] vidio.com (id) - Indosiar.id@SD - Apr 25, 2026 (18 programs)
+ℹ   [2/114] vidio.com (id) - Moji.id@SD - Apr 24, 2026 (16 programs)
+ℹ   [3/114] vidio.com (id) - Indosiar.id@SD - Apr 24, 2026 (16 programs)
+ℹ   [4/114] vidio.com (id) - SCTV.id@SD - Apr 25, 2026 (19 programs)
+ℹ   [5/114] vidio.com (id) - SCTV.id@SD - Apr 24, 2026 (19 programs)
+ℹ   [6/114] vidio.com (id) - Moji.id@SD - Apr 25, 2026 (16 programs)
+ℹ   [7/114] vidio.com (id) - TransTV.id@SD - Apr 24, 2026 (21 programs)
+ℹ   [8/114] vidio.com (id) - Trans7.id@SD - Apr 24, 2026 (28 programs)
+ℹ   [9/114] vidio.com (id) - TransTV.id@SD - Apr 25, 2026 (22 programs)
+ℹ   [10/114] vidio.com (id) - Trans7.id@SD - Apr 25, 2026 (30 programs)
+ℹ   [11/114] vidio.com (id) - MetroTV.id@SD - Apr 24, 2026 (49 programs)
+ℹ   [12/114] vidio.com (id) - ANTV.id@SD - Apr 24, 2026 (13 programs)
+ℹ   [13/114] vidio.com (id) - MetroTV.id@SD - Apr 25, 2026 (49 programs)
+ℹ   [14/114] vidio.com (id) - ANTV.id@SD - Apr 25, 2026 (13 programs)
+ℹ   [15/114] vidio.com (id) - tvOne.id@SD - Apr 24, 2026 (25 programs)
+ℹ   [16/114] vidio.com (id) - tvOne.id@SD - Apr 25, 2026 (23 programs)
+ℹ   [17/114] vidio.com (id) - KompasTV.id@SD - Apr 25, 2026 (26 programs)
+ℹ   [18/114] vidio.com (id) - NET.id@SD - Apr 24, 2026 (22 programs)
+ℹ   [19/114] vidio.com (id) - KompasTV.id@SD - Apr 24, 2026 (22 programs)
+ℹ   [20/114] vidio.com (id) - RajawaliTV.id@SD - Apr 24, 2026 (25 programs)
+ℹ   [21/114] vidio.com (id) - NET.id@SD - Apr 25, 2026 (23 programs)
+ℹ   [22/114] vidio.com (id) - RajawaliTV.id@SD - Apr 25, 2026 (26 programs)
+ℹ   [23/114] vidio.com (id) - DW.de@English - Apr 24, 2026 (71 programs)
+ℹ   [24/114] vidio.com (id) - DW.de@English - Apr 25, 2026 (77 programs)
+ℹ   [25/114] vidio.com (id) - JakTV.id@SD - Apr 24, 2026 (30 programs)
+ℹ   [26/114] vidio.com (id) - JakTV.id@SD - Apr 25, 2026 (30 programs)
+ℹ   [27/114] vidio.com (id) - BTV.id@SD - Apr 24, 2026 (35 programs)
+ℹ   [28/114] vidio.com (id) - BTV.id@SD - Apr 25, 2026 (33 programs)
+ℹ   [29/114] vidio.com (id) - beINSports1.qa@Indonesia - Apr 24, 2026 (22 programs)
+ℹ   [30/114] vidio.com (id) - beINSports1.qa@Indonesia - Apr 25, 2026 (21 programs)
+ℹ   [31/114] vidio.com (id) - beINSports3.qa@Indonesia - Apr 24, 2026 (20 programs)
+ℹ   [32/114] vidio.com (id) - tvNAsia.hk@SD - Apr 24, 2026 (19 programs)
+ℹ   [33/114] vidio.com (id) - beINSports3.qa@Indonesia - Apr 25, 2026 (26 programs)
+ℹ   [34/114] vidio.com (id) - Horee.id@SD - Apr 24, 2026 (52 programs)
+ℹ   [35/114] vidio.com (id) - tvNAsia.hk@SD - Apr 25, 2026 (21 programs)
+ℹ   [36/114] vidio.com (id) - Horee.id@SD - Apr 25, 2026 (52 programs)
+ℹ   [37/114] vidio.com (id) - CNA.sg@SD - Apr 25, 2026 (44 programs)
+ℹ   [38/114] vidio.com (id) - AlJazeera.qa@English - Apr 24, 2026 (40 programs)
+ℹ   [39/114] vidio.com (id) - AlJazeera.qa@English - Apr 25, 2026 (40 programs)
+ℹ   [40/114] vidio.com (id) - CNA.sg@SD - Apr 24, 2026 (25 programs)
+ℹ   [41/114] vidio.com (id) - EuronewsEnglish.fr@SD - Apr 24, 2026 (83 programs)
+ℹ   [42/114] vidio.com (id) - DAAITV.id@SD - Apr 24, 2026 (35 programs)
+ℹ   [43/114] vidio.com (id) - TVRI.id@HD - Apr 25, 2026 (0 programs)
+ℹ   [44/114] vidio.com (id) - TVRI.id@HD - Apr 24, 2026 (0 programs)
+ℹ   [45/114] vidio.com (id) - EuronewsEnglish.fr@SD - Apr 25, 2026 (95 programs)
+ℹ   [46/114] vidio.com (id) - DAAITV.id@SD - Apr 25, 2026 (35 programs)
+ℹ   [47/114] vidio.com (id) - ChampionsTV1.id@SD - Apr 25, 2026 (23 programs)
+ℹ   [48/114] vidio.com (id) - ChampionsTV1.id@SD - Apr 24, 2026 (19 programs)
+ℹ   [49/114] vidio.com (id) - ZooMoo.sg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [50/114] vidio.com (id) - ZooMoo.sg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [51/114] vidio.com (id) - ChampionsTV2.id@SD - Apr 24, 2026 (19 programs)
+ℹ   [52/114] vidio.com (id) - ChampionsTV2.id@SD - Apr 25, 2026 (19 programs)
+ℹ   [53/114] vidio.com (id) - NBATV.us@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [54/114] vidio.com (id) - NBATV.us@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [55/114] vidio.com (id) - ArirangWorld.kr@SD - Apr 24, 2026 (53 programs)
+ℹ   [56/114] vidio.com (id) - ArirangWorld.kr@SD - Apr 25, 2026 (53 programs)
+ℹ   [57/114] vidio.com (id) - ChampionsTV3.id@SD - Apr 24, 2026 (14 programs)
+ℹ   [58/114] vidio.com (id) - ChampionsTV3.id@SD - Apr 25, 2026 (25 programs)
+ℹ   [59/114] vidio.com (id) - MakkahTV.sa@SD - Apr 24, 2026 (0 programs)
+ℹ   [60/114] vidio.com (id) - MakkahTV.sa@SD - Apr 25, 2026 (0 programs)
+ℹ   [61/114] vidio.com (id) - UChannel.id@SD - Apr 24, 2026 (0 programs)
+ℹ   [62/114] vidio.com (id) - UChannel.id@SD - Apr 25, 2026 (0 programs)
+ℹ   [63/114] vidio.com (id) - HipHipHoree.id@SD - Apr 24, 2026 (72 programs)
+ℹ   [64/114] vidio.com (id) - HipHipHoree.id@SD - Apr 25, 2026 (55 programs)
+ℹ   [65/114] vidio.com (id) - ABCAustralia.au@SD - Apr 24, 2026 (26 programs)
+ℹ   [66/114] vidio.com (id) - ABCAustralia.au@SD - Apr 25, 2026 (27 programs)
+ℹ   [67/114] vidio.com (id) - MagnaChannel.id@SD - Apr 25, 2026 (0 programs)
+ℹ   [68/114] vidio.com (id) - MagnaChannel.id@SD - Apr 24, 2026 (0 programs)
+ℹ   [69/114] vidio.com (id) - NusantaraTV.id@SD - Apr 24, 2026 (27 programs)
+ℹ   [70/114] vidio.com (id) - NusantaraTV.id@SD - Apr 25, 2026 (26 programs)
+ℹ   [71/114] vidio.com (id) - 7619 - Apr 24, 2026 (0 programs)
+ℹ   [72/114] vidio.com (id) - AjwaTV.id@SD - Apr 24, 2026 (24 programs)
+ℹ   [73/114] vidio.com (id) - AjwaTV.id@SD - Apr 25, 2026 (24 programs)
+ℹ   [74/114] vidio.com (id) - NHKWorldJapan.jp@SD - Apr 24, 2026 (53 programs)
+ℹ   [75/114] vidio.com (id) - 7619 - Apr 25, 2026 (0 programs)
+ℹ   [76/114] vidio.com (id) - ROCKEntertainment.sg@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [77/114] vidio.com (id) - NHKWorldJapan.jp@SD - Apr 25, 2026 (73 programs)
+ℹ   [78/114] vidio.com (id) - ROCKEntertainment.sg@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 404
+ℹ   [79/114] vidio.com (id) - ROCKExtreme.sg@SD - Apr 25, 2026 (16 programs)
+ℹ   [80/114] vidio.com (id) - ROCKExtreme.sg@SD - Apr 24, 2026 (16 programs)
+ℹ   [81/114] vidio.com (id) - ChampionsTV5.id@SD - Apr 24, 2026 (21 programs)
+ℹ   [82/114] vidio.com (id) - ChampionsTV6.id@SD - Apr 24, 2026 (18 programs)
+ℹ   [83/114] vidio.com (id) - ChampionsTV5.id@SD - Apr 25, 2026 (20 programs)
+ℹ   [84/114] vidio.com (id) - ChampionsTV6.id@SD - Apr 25, 2026 (17 programs)
+ℹ   [85/114] vidio.com (id) - ChampionsTVEPL.id@SD - Apr 24, 2026 (39 programs)
+ℹ   [86/114] vidio.com (id) - JTV.id@SD - Apr 24, 2026 (38 programs)
+ℹ   [87/114] vidio.com (id) - JTV.id@SD - Apr 25, 2026 (40 programs)
+ℹ   [88/114] vidio.com (id) - JPMTV.id@SD - Apr 24, 2026 (37 programs)
+ℹ   [89/114] vidio.com (id) - JPMTV.id@SD - Apr 25, 2026 (37 programs)
+ℹ   [90/114] vidio.com (id) - ChampionsTVEPL.id@SD - Apr 25, 2026 (27 programs)
+ℹ   [91/114] vidio.com (id) - ElshintaTV.id@SD - Apr 25, 2026 (0 programs)
+ℹ   [92/114] vidio.com (id) - TawafTV.id@SD - Apr 24, 2026 (0 programs)
+ℹ   [93/114] vidio.com (id) - ElshintaTV.id@SD - Apr 24, 2026 (0 programs)
+ℹ   [94/114] vidio.com (id) - TawafTV.id@SD - Apr 25, 2026 (0 programs)
+ℹ   [95/114] vidio.com (id) - AfricanewsEnglish.fr@SD - Apr 24, 2026 (148 programs)
+ℹ   [96/114] vidio.com (id) - SPOTV.id@SD - Apr 24, 2026 (14 programs)
+ℹ   [97/114] vidio.com (id) - AfricanewsEnglish.fr@SD - Apr 25, 2026 (164 programs)
+ℹ   [98/114] vidio.com (id) - SPOTV.id@SD - Apr 25, 2026 (15 programs)
+ℹ   [99/114] vidio.com (id) - SPOTV2.id@SD - Apr 25, 2026 (20 programs)
+ℹ   [100/114] vidio.com (id) - SPOTV2.id@SD - Apr 24, 2026 (18 programs)
+ℹ   [101/114] vidio.com (id) - TV5MondeAsia.fr@SD - Apr 24, 2026 (48 programs)
+ℹ   [102/114] vidio.com (id) - TV5MondeAsia.fr@SD - Apr 25, 2026 (52 programs)
+ℹ   [103/114] vidio.com (id) - 17875 - Apr 24, 2026 (15 programs)
+ℹ   [104/114] vidio.com (id) - 17875 - Apr 25, 2026 (23 programs)
+ℹ   [105/114] vidio.com (id) - 18105 - Apr 24, 2026 (0 programs)
+ℹ   [106/114] vidio.com (id) - 18105 - Apr 25, 2026 (0 programs)
+ℹ   [107/114] vidio.com (id) - 18189 - Apr 25, 2026 (14 programs)
+ℹ   [108/114] vidio.com (id) - 18189 - Apr 24, 2026 (14 programs)
+ℹ   [109/114] vidio.com (id) - 18190 - Apr 24, 2026 (10 programs)
+ℹ   [110/114] vidio.com (id) - 18190 - Apr 25, 2026 (10 programs)
+ℹ   [111/114] vidio.com (id) - BeritaSatuEnglish.id@SD - Apr 24, 2026 (35 programs)
+ℹ   [112/114] vidio.com (id) - BeritaSatuEnglish.id@SD - Apr 25, 2026 (33 programs)
+ℹ   [113/114] vidio.com (id) - DaystarTV.us@SD - Apr 24, 2026 (45 programs)
+ℹ   [114/114] vidio.com (id) - DaystarTV.us@SD - Apr 25, 2026 (43 programs)
+ℹ   saving to "/home/runner/workspace/sites/vidio.com/vidio.com.xml"...
+✔   done in 00h 00m 21s

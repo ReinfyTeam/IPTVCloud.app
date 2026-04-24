@@ -1,0 +1,649 @@
+═══════════════════════════════════════════════════════════════
+  Site            : programtv.onet.pl
+  Status          : TIMEOUT
+  Attempts used   : 10 / 10
+  Total elapsed   : 364s
+  Channels        : 151
+  With programmes : 151
+  Empty channels  : 0
+  Total programs  : 0
+  Output size     : 0 bytes
+  HTTP errors     :
+    1 status code 503
+  Generated       : 2026-04-24 11:51:45
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 11:45:41 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=programtv.onet.pl --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 590 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 25, 2026 (14 programs)
+ℹ   [2/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 25, 2026 (14 programs)
+ℹ   [3/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 24, 2026 (24 programs)
+ℹ   [4/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 24, 2026 (24 programs)
+ℹ   [5/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 24, 2026 (12 programs)
+ℹ   [6/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 25, 2026 (13 programs)
+ℹ   [7/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 24, 2026 (39 programs)
+ℹ   [8/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 25, 2026 (21 programs)
+ℹ   [9/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 24, 2026 (21 programs)
+ℹ   [10/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 25, 2026 (35 programs)
+ℹ   [11/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 24, 2026 (17 programs)
+ℹ   [12/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 25, 2026 (19 programs)
+
+===== attempt 2/10 @ 11:46:28 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=programtv.onet.pl --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 590 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 25, 2026 (14 programs)
+ℹ   [2/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 25, 2026 (14 programs)
+ℹ   [3/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 24, 2026 (24 programs)
+ℹ   [4/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 24, 2026 (12 programs)
+ℹ   [5/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 24, 2026 (24 programs)
+ℹ   [6/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 25, 2026 (13 programs)
+ℹ   [7/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 24, 2026 (39 programs)
+ℹ   [8/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 25, 2026 (35 programs)
+ℹ   [9/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 24, 2026 (21 programs)
+ℹ   [10/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 25, 2026 (21 programs)
+ℹ   [11/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 24, 2026 (17 programs)
+ℹ   [12/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 25, 2026 (19 programs)
+
+===== attempt 3/10 @ 11:47:01 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=programtv.onet.pl --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 590 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 25, 2026 (14 programs)
+ℹ   [2/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 25, 2026 (14 programs)
+ℹ   [3/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 24, 2026 (24 programs)
+ℹ   [4/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 24, 2026 (24 programs)
+ℹ   [5/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 24, 2026 (12 programs)
+ℹ   [6/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 24, 2026 (39 programs)
+ℹ   [7/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 25, 2026 (13 programs)
+ℹ   [8/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 24, 2026 (21 programs)
+ℹ   [9/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 25, 2026 (35 programs)
+ℹ   [10/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 25, 2026 (21 programs)
+ℹ   [11/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 24, 2026 (17 programs)
+ℹ   [12/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 25, 2026 (19 programs)
+ℹ   [13/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 24, 2026 (19 programs)
+
+===== attempt 4/10 @ 11:47:33 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=programtv.onet.pl --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 590 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 25, 2026 (14 programs)
+ℹ   [2/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 25, 2026 (14 programs)
+ℹ   [3/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 24, 2026 (24 programs)
+ℹ   [4/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 24, 2026 (24 programs)
+ℹ   [5/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 24, 2026 (12 programs)
+ℹ   [6/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 25, 2026 (13 programs)
+ℹ   [7/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 24, 2026 (39 programs)
+ℹ   [8/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 24, 2026 (21 programs)
+ℹ   [9/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 25, 2026 (35 programs)
+ℹ   [10/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 25, 2026 (21 programs)
+ℹ   [11/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 25, 2026 (19 programs)
+ℹ   [12/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 24, 2026 (17 programs)
+ℹ   [13/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 24, 2026 (19 programs)
+ℹ   [14/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 25, 2026 (20 programs)
+ℹ   [15/1180] programtv.onet.pl (pl) - 13-ulica-hd-509 - Apr 24, 2026 (19 programs)
+ℹ   [16/1180] programtv.onet.pl (pl) - 13tv.pl@SD - Apr 25, 2026 (44 programs)
+ℹ   [17/1180] programtv.onet.pl (pl) - 13tv.pl@SD - Apr 24, 2026 (44 programs)
+AxiosError: Request failed with status code 503
+    at settle (/home/runner/workspace/epg/node_modules/axios/lib/core/settle.js:20:7)
+    at IncomingMessage.handleStreamEnd (/home/runner/workspace/epg/node_modules/axios/lib/adapters/http.js:849:13)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (/home/runner/workspace/epg/node_modules/axios/lib/core/Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadProgramDetails (/home/runner/workspace/epg/sites/programtv.onet.pl/programtv.onet.pl.config.js:80:16)
+    at async Object.parser (/home/runner/workspace/epg/sites/programtv.onet.pl/programtv.onet.pl.config.js:36:23)
+    at async EPGGrabber.grab (/home/runner/workspace/epg/node_modules/epg-grabber/dist/index-Bnw63KMN.js:776:26)
+    at async <anonymous> (/home/runner/workspace/epg/scripts/commands/epg/grab.ts:251:31) {
+  isAxiosError: true,
+  code: 'ERR_BAD_RESPONSE',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false,
+      legacyInterceptorReqResOrdering: true
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'axios/1.15.0',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'get',
+    url: 'https://programtv.onet.pl/tv/superhero/rowpp?entry=188734366',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'programtv.onet.pl',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'programtv.onet.pl',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      autoSelectFamilyAttemptedAddresses: [Array],
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 33051,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 16280,
+        [Symbol(triggerId)]: 16278
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET /tv/superhero/rowpp?entry=188734366 HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.15.0\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: programtv.onet.pl\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 5,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/tv/superhero/rowpp?entry=188734366',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 503,
+      statusMessage: 'Service Unavailable',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'https://programtv.onet.pl/tv/superhero/rowpp?entry=188734366',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 32,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'programtv.onet.pl',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://programtv.onet.pl/tv/superhero/rowpp?entry=188734366',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 503,
+    statusText: 'Service Unavailable',
+    headers: Object [AxiosHeaders] {
+      'content-length': '0',
+      connection: 'keep-alive',
+      server: 'Ring Publishing - Accelerator',
+      date: 'Fri, 24 Apr 2026 11:48:06 GMT',
+      vary: 'user-agent',
+      'cache-control': 's-maxage=0,stale-if-error=0,no-cache',
+      'set-cookie': [Array],
+      etag: '"0-0"',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 0d77e3c2bc9ecd8af261bb574e3f0214.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'SEA900-P4',
+      'alt-svc': 'h3=":443"; ma=86400',
+      'x-amz-cf-id': 'R9k2M8jyVzssaAEShF0OP3HFVrhuqYWKxvGt2YCXYaZLWpQeSNigdg=='
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'get',
+      url: 'https://programtv.onet.pl/tv/superhero/rowpp?entry=188734366',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [TLSSocket],
+      _header: 'GET /tv/superhero/rowpp?entry=188734366 HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/1.15.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: programtv.onet.pl\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/tv/superhero/rowpp?entry=188734366',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'programtv.onet.pl',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: ''
+  },
+  status: 503
+}
+ℹ   [18/1180] programtv.onet.pl (pl) - 13-ulica-hd-509 - Apr 25, 2026 (20 programs)
+ℹ   [19/1180] programtv.onet.pl (de) - 13thStreetUniversal.de@SD - Apr 25, 2026 (33 programs)
+
+===== attempt 5/10 @ 11:48:21 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=programtv.onet.pl --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 590 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 25, 2026 (14 programs)
+ℹ   [2/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 25, 2026 (14 programs)
+ℹ   [3/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 24, 2026 (24 programs)
+ℹ   [4/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 24, 2026 (12 programs)
+ℹ   [5/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 24, 2026 (24 programs)
+ℹ   [6/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 24, 2026 (39 programs)
+ℹ   [7/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 25, 2026 (13 programs)
+ℹ   [8/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 25, 2026 (35 programs)
+ℹ   [9/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 24, 2026 (21 programs)
+ℹ   [10/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 25, 2026 (21 programs)
+ℹ   [11/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 24, 2026 (17 programs)
+ℹ   [12/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 25, 2026 (19 programs)
+ℹ   [13/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 24, 2026 (19 programs)
+ℹ   [14/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 25, 2026 (20 programs)
+ℹ   [15/1180] programtv.onet.pl (pl) - 13-ulica-hd-509 - Apr 24, 2026 (19 programs)
+
+===== attempt 6/10 @ 11:48:54 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=programtv.onet.pl --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 590 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 25, 2026 (14 programs)
+ℹ   [2/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 25, 2026 (14 programs)
+ℹ   [3/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 24, 2026 (24 programs)
+ℹ   [4/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 24, 2026 (24 programs)
+ℹ   [5/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 24, 2026 (12 programs)
+ℹ   [6/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 25, 2026 (13 programs)
+ℹ   [7/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 24, 2026 (39 programs)
+ℹ   [8/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 24, 2026 (21 programs)
+ℹ   [9/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 25, 2026 (21 programs)
+ℹ   [10/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 24, 2026 (17 programs)
+ℹ   [11/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 25, 2026 (35 programs)
+ℹ   [12/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 25, 2026 (19 programs)
+ℹ   [13/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 24, 2026 (19 programs)
+ℹ   [14/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 25, 2026 (20 programs)
+
+===== attempt 7/10 @ 11:49:24 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=programtv.onet.pl --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 590 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 25, 2026 (14 programs)
+ℹ   [2/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 25, 2026 (14 programs)
+ℹ   [3/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 24, 2026 (24 programs)
+ℹ   [4/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 24, 2026 (24 programs)
+ℹ   [5/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 24, 2026 (39 programs)
+ℹ   [6/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 25, 2026 (13 programs)
+ℹ   [7/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 24, 2026 (12 programs)
+ℹ   [8/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 24, 2026 (21 programs)
+ℹ   [9/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 25, 2026 (35 programs)
+ℹ   [10/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 25, 2026 (19 programs)
+ℹ   [11/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 24, 2026 (17 programs)
+ℹ   [12/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 25, 2026 (21 programs)
+ℹ   [13/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 24, 2026 (19 programs)
+ℹ   [14/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 25, 2026 (20 programs)
+
+===== attempt 8/10 @ 11:50:00 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=programtv.onet.pl --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 590 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 25, 2026 (14 programs)
+ℹ   [2/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 25, 2026 (14 programs)
+ℹ   [3/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 24, 2026 (24 programs)
+ℹ   [4/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 24, 2026 (24 programs)
+ℹ   [5/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 24, 2026 (12 programs)
+ℹ   [6/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 25, 2026 (13 programs)
+ℹ   [7/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 24, 2026 (39 programs)
+ℹ   [8/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 25, 2026 (35 programs)
+ℹ   [9/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 24, 2026 (21 programs)
+ℹ   [10/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 25, 2026 (21 programs)
+ℹ   [11/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 24, 2026 (17 programs)
+ℹ   [12/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 25, 2026 (19 programs)
+ℹ   [13/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 24, 2026 (19 programs)
+ℹ   [14/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 25, 2026 (20 programs)
+ℹ   [15/1180] programtv.onet.pl (pl) - 13-ulica-hd-509 - Apr 24, 2026 (19 programs)
+ℹ   [16/1180] programtv.onet.pl (pl) - 13tv.pl@SD - Apr 25, 2026 (44 programs)
+ℹ   [17/1180] programtv.onet.pl (pl) - 13tv.pl@SD - Apr 24, 2026 (44 programs)
+ℹ   [18/1180] programtv.onet.pl (pl) - 13-ulica-hd-509 - Apr 25, 2026 (20 programs)
+
+===== attempt 9/10 @ 11:50:39 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=programtv.onet.pl --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 590 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 25, 2026 (14 programs)
+ℹ   [2/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 25, 2026 (14 programs)
+ℹ   [3/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 24, 2026 (24 programs)
+ℹ   [4/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 24, 2026 (24 programs)
+ℹ   [5/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 24, 2026 (12 programs)
+ℹ   [6/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 24, 2026 (39 programs)
+ℹ   [7/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 25, 2026 (13 programs)
+ℹ   [8/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 24, 2026 (21 programs)
+ℹ   [9/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 25, 2026 (21 programs)
+ℹ   [10/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 25, 2026 (35 programs)
+ℹ   [11/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 24, 2026 (17 programs)
+ℹ   [12/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 25, 2026 (19 programs)
+ℹ   [13/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 24, 2026 (19 programs)
+ℹ   [14/1180] programtv.onet.pl (pl) - 13-ulica-hd-509 - Apr 24, 2026 (19 programs)
+ℹ   [15/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 25, 2026 (20 programs)
+ℹ   [16/1180] programtv.onet.pl (pl) - 13-ulica-hd-509 - Apr 25, 2026 (20 programs)
+ℹ   [17/1180] programtv.onet.pl (pl) - 13tv.pl@SD - Apr 24, 2026 (44 programs)
+ℹ   [18/1180] programtv.onet.pl (pl) - 13tv.pl@SD - Apr 25, 2026 (44 programs)
+
+===== attempt 10/10 @ 11:51:15 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=programtv.onet.pl --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 590 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+ℹ   [1/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 25, 2026 (14 programs)
+ℹ   [2/1180] programtv.onet.pl (pl) - 2x2-hd-613 - Apr 24, 2026 (24 programs)
+ℹ   [3/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 25, 2026 (14 programs)
+ℹ   [4/1180] programtv.onet.pl (pl) - 2x2-604 - Apr 24, 2026 (24 programs)
+ℹ   [5/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 24, 2026 (12 programs)
+ℹ   [6/1180] programtv.onet.pl (pl) - 4FunDance.pl@SD - Apr 25, 2026 (13 programs)
+ℹ   [7/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 24, 2026 (39 programs)
+ℹ   [8/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 24, 2026 (21 programs)
+ℹ   [9/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 24, 2026 (17 programs)
+ℹ   [10/1180] programtv.onet.pl (de) - 3sat.de@SD - Apr 25, 2026 (35 programs)
+ℹ   [11/1180] programtv.onet.pl (pl) - 4fun-hits-283 - Apr 25, 2026 (21 programs)
+ℹ   [12/1180] programtv.onet.pl (pl) - 4FunTV.pl@SD - Apr 25, 2026 (19 programs)
+ℹ   [13/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 25, 2026 (20 programs)
+ℹ   [14/1180] programtv.onet.pl (pl) - 13Ulica.pl@SD - Apr 24, 2026 (19 programs)
+ℹ   [15/1180] programtv.onet.pl (pl) - 13-ulica-hd-509 - Apr 24, 2026 (19 programs)
+ℹ   [16/1180] programtv.onet.pl (pl) - 13tv.pl@SD - Apr 24, 2026 (44 programs)

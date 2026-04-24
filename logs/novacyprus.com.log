@@ -1,0 +1,1338 @@
+═══════════════════════════════════════════════════════════════
+  Site            : novacyprus.com
+  Status          : EMPTY
+  Attempts used   : 10 / 10
+  Total elapsed   : 151s
+  Channels        : 580
+  With programmes : 0
+  Empty channels  : 580
+  Total programs  : 0
+  Output size     : 0 bytes
+  HTTP errors     :
+    580 status code 500
+  Last error      : Request failed with status code 500
+  Generated       : 2026-04-24 11:29:04
+═══════════════════════════════════════════════════════════════
+
+----- raw npm grab output (last attempt) -----
+
+
+===== attempt 1/10 @ 11:26:33 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=novacyprus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 29 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:41334) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/58] novacyprus.com (el) - Novalife.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/58] novacyprus.com (el) - Novalife.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [7/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [8/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [9/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [11/58] novacyprus.com (el) - MadTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [12/58] novacyprus.com (el) - 381 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [13/58] novacyprus.com (el) - MadTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [14/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [15/58] novacyprus.com (el) - 381 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [16/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [17/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [18/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [19/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [20/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [21/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [22/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [23/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [24/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [25/58] novacyprus.com (el) - 582 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [26/58] novacyprus.com (el) - 582 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [27/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [28/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [29/58] novacyprus.com (el) - 586 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [30/58] novacyprus.com (el) - 586 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [31/58] novacyprus.com (el) - 588 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [32/58] novacyprus.com (el) - 588 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [33/58] novacyprus.com (el) - Fox.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [34/58] novacyprus.com (el) - Fox.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [35/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [36/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [37/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [38/58] novacyprus.com (el) - 616 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [39/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [40/58] novacyprus.com (el) - 616 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [41/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [42/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [43/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [44/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [45/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [46/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [47/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [48/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [49/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [50/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [51/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [52/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [53/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [54/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [55/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [56/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [57/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [58/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/novacyprus.com/novacyprus.com.xml"...
+✔   done in 00h 00m 06s
+
+===== attempt 2/10 @ 11:26:48 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=novacyprus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 29 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:41376) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/58] novacyprus.com (el) - Novalife.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/58] novacyprus.com (el) - Novalife.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [7/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [8/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [9/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [11/58] novacyprus.com (el) - MadTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [12/58] novacyprus.com (el) - 381 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [13/58] novacyprus.com (el) - MadTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [14/58] novacyprus.com (el) - 381 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [15/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [16/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [17/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [18/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [19/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [20/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [21/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [22/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [23/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [24/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [25/58] novacyprus.com (el) - 582 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [26/58] novacyprus.com (el) - 582 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [27/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [28/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [29/58] novacyprus.com (el) - 586 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [30/58] novacyprus.com (el) - 586 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [31/58] novacyprus.com (el) - 588 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [32/58] novacyprus.com (el) - 588 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [33/58] novacyprus.com (el) - Fox.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [34/58] novacyprus.com (el) - Fox.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [35/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [36/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [37/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [38/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [39/58] novacyprus.com (el) - 616 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [40/58] novacyprus.com (el) - 616 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [41/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [42/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [43/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [44/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [45/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [46/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [47/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [48/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [49/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [50/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [51/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [52/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [53/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [54/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [55/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [56/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [57/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [58/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/novacyprus.com/novacyprus.com.xml"...
+✔   done in 00h 00m 05s
+
+===== attempt 3/10 @ 11:27:02 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=novacyprus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 29 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:41476) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/58] novacyprus.com (el) - Novalife.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/58] novacyprus.com (el) - Novalife.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [7/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [8/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [9/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [11/58] novacyprus.com (el) - MadTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [12/58] novacyprus.com (el) - MadTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [13/58] novacyprus.com (el) - 381 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [14/58] novacyprus.com (el) - 381 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [15/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [16/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [17/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [18/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [19/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [20/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [21/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [22/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [23/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [24/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [25/58] novacyprus.com (el) - 582 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [26/58] novacyprus.com (el) - 582 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [27/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [28/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [29/58] novacyprus.com (el) - 586 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [30/58] novacyprus.com (el) - 586 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [31/58] novacyprus.com (el) - 588 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [32/58] novacyprus.com (el) - 588 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [33/58] novacyprus.com (el) - Fox.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [34/58] novacyprus.com (el) - Fox.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [35/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [36/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [37/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [38/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [39/58] novacyprus.com (el) - 616 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [40/58] novacyprus.com (el) - 616 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [41/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [42/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [43/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [44/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [45/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [46/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [47/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [48/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [49/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [50/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [51/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [52/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [53/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [54/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [55/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [56/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [57/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [58/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/novacyprus.com/novacyprus.com.xml"...
+✔   done in 00h 00m 05s
+
+===== attempt 4/10 @ 11:27:18 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=novacyprus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 29 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:41561) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/58] novacyprus.com (el) - Novalife.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/58] novacyprus.com (el) - Novalife.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [7/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [8/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [9/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [11/58] novacyprus.com (el) - MadTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [12/58] novacyprus.com (el) - MadTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [13/58] novacyprus.com (el) - 381 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [14/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [15/58] novacyprus.com (el) - 381 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [16/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [17/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [18/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [19/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [20/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [21/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [22/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [23/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [24/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [25/58] novacyprus.com (el) - 582 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [26/58] novacyprus.com (el) - 582 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [27/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [28/58] novacyprus.com (el) - 586 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [29/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [30/58] novacyprus.com (el) - 586 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [31/58] novacyprus.com (el) - 588 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [32/58] novacyprus.com (el) - Fox.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [33/58] novacyprus.com (el) - 588 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [34/58] novacyprus.com (el) - Fox.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [35/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [36/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [37/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [38/58] novacyprus.com (el) - 616 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [39/58] novacyprus.com (el) - 616 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [40/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [41/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [42/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [43/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [44/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [45/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [46/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [47/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [48/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [49/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [50/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [51/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [52/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [53/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [54/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [55/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [56/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [57/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [58/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/novacyprus.com/novacyprus.com.xml"...
+✔   done in 00h 00m 05s
+
+===== attempt 5/10 @ 11:27:34 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=novacyprus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 29 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:41684) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/58] novacyprus.com (el) - Novalife.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/58] novacyprus.com (el) - Novalife.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [7/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [8/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [9/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [11/58] novacyprus.com (el) - MadTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [12/58] novacyprus.com (el) - MadTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [13/58] novacyprus.com (el) - 381 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [14/58] novacyprus.com (el) - 381 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [15/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [16/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [17/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [18/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [19/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [20/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [21/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [22/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [23/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [24/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [25/58] novacyprus.com (el) - 582 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [26/58] novacyprus.com (el) - 582 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [27/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [28/58] novacyprus.com (el) - 586 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [29/58] novacyprus.com (el) - 586 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [30/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [31/58] novacyprus.com (el) - 588 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [32/58] novacyprus.com (el) - 588 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [33/58] novacyprus.com (el) - Fox.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [34/58] novacyprus.com (el) - Fox.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [35/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [36/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [37/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [38/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [39/58] novacyprus.com (el) - 616 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [40/58] novacyprus.com (el) - 616 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [41/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [42/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [43/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [44/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [45/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [46/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [47/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [48/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [49/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [50/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [51/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [52/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [53/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [54/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [55/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [56/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [57/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [58/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/novacyprus.com/novacyprus.com.xml"...
+✔   done in 00h 00m 05s
+
+===== attempt 6/10 @ 11:27:49 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=novacyprus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 29 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:41805) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/58] novacyprus.com (el) - Novalife.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/58] novacyprus.com (el) - Novalife.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [7/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [8/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [9/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [11/58] novacyprus.com (el) - MadTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [12/58] novacyprus.com (el) - MadTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [13/58] novacyprus.com (el) - 381 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [14/58] novacyprus.com (el) - 381 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [15/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [16/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [17/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [18/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [19/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [20/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [21/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [22/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [23/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [24/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [25/58] novacyprus.com (el) - 582 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [26/58] novacyprus.com (el) - 582 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [27/58] novacyprus.com (el) - 586 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [28/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [29/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [30/58] novacyprus.com (el) - 586 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [31/58] novacyprus.com (el) - 588 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [32/58] novacyprus.com (el) - 588 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [33/58] novacyprus.com (el) - Fox.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [34/58] novacyprus.com (el) - Fox.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [35/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [36/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [37/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [38/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [39/58] novacyprus.com (el) - 616 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [40/58] novacyprus.com (el) - 616 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [41/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [42/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [43/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [44/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [45/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [46/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [47/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [48/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [49/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [50/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [51/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [52/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [53/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [54/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [55/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [56/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [57/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [58/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/novacyprus.com/novacyprus.com.xml"...
+✔   done in 00h 00m 05s
+
+===== attempt 7/10 @ 11:28:04 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=novacyprus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 29 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:41929) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/58] novacyprus.com (el) - Novalife.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/58] novacyprus.com (el) - Novalife.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [7/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [8/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [9/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [11/58] novacyprus.com (el) - MadTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [12/58] novacyprus.com (el) - 381 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [13/58] novacyprus.com (el) - MadTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [14/58] novacyprus.com (el) - 381 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [15/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [16/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [17/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [18/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [19/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [20/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [21/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [22/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [23/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [24/58] novacyprus.com (el) - 582 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [25/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [26/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [27/58] novacyprus.com (el) - 582 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [28/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [29/58] novacyprus.com (el) - 586 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [30/58] novacyprus.com (el) - 586 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [31/58] novacyprus.com (el) - 588 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [32/58] novacyprus.com (el) - 588 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [33/58] novacyprus.com (el) - Fox.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [34/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [35/58] novacyprus.com (el) - Fox.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [36/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [37/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [38/58] novacyprus.com (el) - 616 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [39/58] novacyprus.com (el) - 616 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [40/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [41/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [42/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [43/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [44/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [45/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [46/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [47/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [48/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [49/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [50/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [51/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [52/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [53/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [54/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [55/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [56/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [57/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [58/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/novacyprus.com/novacyprus.com.xml"...
+✔   done in 00h 00m 05s
+
+===== attempt 8/10 @ 11:28:20 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=novacyprus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 29 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:41987) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/58] novacyprus.com (el) - Novalife.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/58] novacyprus.com (el) - Novalife.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [7/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [8/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [9/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [11/58] novacyprus.com (el) - MadTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [12/58] novacyprus.com (el) - MadTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [13/58] novacyprus.com (el) - 381 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [14/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [15/58] novacyprus.com (el) - 381 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [16/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [17/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [18/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [19/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [20/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [21/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [22/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [23/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [24/58] novacyprus.com (el) - 582 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [25/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [26/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [27/58] novacyprus.com (el) - 582 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [28/58] novacyprus.com (el) - 586 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [29/58] novacyprus.com (el) - 586 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [30/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [31/58] novacyprus.com (el) - Fox.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [32/58] novacyprus.com (el) - 588 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [33/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [34/58] novacyprus.com (el) - 588 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [35/58] novacyprus.com (el) - Fox.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [36/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [37/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [38/58] novacyprus.com (el) - 616 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [39/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [40/58] novacyprus.com (el) - 616 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [41/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [42/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [43/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [44/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [45/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [46/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [47/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [48/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [49/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [50/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [51/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [52/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [53/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [54/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [55/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [56/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [57/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [58/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/novacyprus.com/novacyprus.com.xml"...
+✔   done in 00h 00m 05s
+
+===== attempt 9/10 @ 11:28:35 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=novacyprus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 29 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:42071) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/58] novacyprus.com (el) - Novalife.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/58] novacyprus.com (el) - Novalife.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [7/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [8/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [9/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [11/58] novacyprus.com (el) - MadTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [12/58] novacyprus.com (el) - 381 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [13/58] novacyprus.com (el) - MadTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [14/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [15/58] novacyprus.com (el) - 381 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [16/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [17/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [18/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [19/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [20/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [21/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [22/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [23/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [24/58] novacyprus.com (el) - 582 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [25/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [26/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [27/58] novacyprus.com (el) - 582 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [28/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [29/58] novacyprus.com (el) - 586 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [30/58] novacyprus.com (el) - 586 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [31/58] novacyprus.com (el) - Fox.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [32/58] novacyprus.com (el) - 588 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [33/58] novacyprus.com (el) - 588 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [34/58] novacyprus.com (el) - Fox.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [35/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [36/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [37/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [38/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [39/58] novacyprus.com (el) - 616 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [40/58] novacyprus.com (el) - 616 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [41/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [42/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [43/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [44/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [45/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [46/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [47/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [48/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [49/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [50/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [51/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [52/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [53/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [54/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [55/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [56/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [57/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [58/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/novacyprus.com/novacyprus.com.xml"...
+✔   done in 00h 00m 06s
+
+===== attempt 10/10 @ 11:28:52 =====
+
+> grab
+> tsx scripts/commands/epg/grab.ts --sites=novacyprus.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
+
+ℹ starting...
+ℹ loading channels...
+ℹ found 29 channel(s)
+ℹ loading api data...
+ℹ creating queue...
+ℹ run:
+(node:42197) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ℹ   [1/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [2/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [3/58] novacyprus.com (el) - Novalife.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [4/58] novacyprus.com (el) - Novalife.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [5/58] novacyprus.com (el) - Novasports5.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [6/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [7/58] novacyprus.com (el) - MyZenTV.fr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [8/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [9/58] novacyprus.com (el) - Novasports4.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [10/58] novacyprus.com (el) - InsightTV.nl@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [11/58] novacyprus.com (el) - 381 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [12/58] novacyprus.com (el) - 381 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [13/58] novacyprus.com (el) - MadTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [14/58] novacyprus.com (el) - MadTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [15/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [16/58] novacyprus.com (el) - HellenicParliamentTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [17/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [18/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [19/58] novacyprus.com (el) - Nickelodeon.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [20/58] novacyprus.com (el) - FoxLife.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [21/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [22/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [23/58] novacyprus.com (el) - SmileTV.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [24/58] novacyprus.com (el) - ViasatHistory.se@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [25/58] novacyprus.com (el) - 582 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [26/58] novacyprus.com (el) - 582 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [27/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [28/58] novacyprus.com (el) - 586 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [29/58] novacyprus.com (el) - OneChannel.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [30/58] novacyprus.com (el) - 586 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [31/58] novacyprus.com (el) - 588 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [32/58] novacyprus.com (el) - Fox.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [33/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [34/58] novacyprus.com (el) - Fox.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [35/58] novacyprus.com (el) - 588 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [36/58] novacyprus.com (el) - CartoonitoCEE.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [37/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [38/58] novacyprus.com (el) - Novacinema1.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [39/58] novacyprus.com (el) - 616 - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [40/58] novacyprus.com (el) - 616 - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [41/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [42/58] novacyprus.com (el) - NationalGeographic.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [43/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [44/58] novacyprus.com (el) - Novasports2.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [45/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [46/58] novacyprus.com (el) - AnimalPlanetEurope.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [47/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [48/58] novacyprus.com (el) - Number1TV.tr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [49/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [50/58] novacyprus.com (el) - Novacinema3.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [51/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [52/58] novacyprus.com (el) - Novacinema2.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [53/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [54/58] novacyprus.com (el) - Novacinema4.gr@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [55/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [56/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 24, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [57/58] novacyprus.com (el) - Novasports3.gr@HD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   [58/58] novacyprus.com (el) - MTVLive.uk@SD - Apr 25, 2026 (0 programs)
+ℹ     ERR: Request failed with status code 500
+ℹ   saving to "/home/runner/workspace/sites/novacyprus.com/novacyprus.com.xml"...
+✔   done in 00h 00m 05s
