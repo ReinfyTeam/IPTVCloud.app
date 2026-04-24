@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="2TV.lt@SD">
     <display-name>2TV</display-name>
-    <icon src="https://i.imgur.com/sZUIhGc.png"/>
+    <icon src="https://i.imgur.com/sZUIhGc.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="animal-planet-hd">
@@ -11,7 +11,7 @@
   </channel>
   <channel id="BalticumAuksinis.lt@SD">
     <display-name>Balticum Auksinis</display-name>
-    <icon src="https://i.imgur.com/Lyjf3Wi.png"/>
+    <icon src="https://i.imgur.com/Lyjf3Wi.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="balticum-platinum-hd">
@@ -20,22 +20,22 @@
   </channel>
   <channel id="BalticumTV.lt@SD">
     <display-name>Balticum TV</display-name>
-    <icon src="https://i.imgur.com/35tm57M.png"/>
+    <icon src="https://i.imgur.com/35tm57M.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="BlueHustler.nl@SD">
     <display-name>Blue Hustler</display-name>
-    <icon src="https://i.imgur.com/G1YaX0Q.png"/>
+    <icon src="https://i.imgur.com/G1YaX0Q.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="BTV.lt@HD">
     <display-name>BTV</display-name>
-    <icon src="https://i.imgur.com/AeplGsP.png"/>
+    <icon src="https://i.imgur.com/AeplGsP.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="DelfiTV.lt@SD">
     <display-name>Delfi TV</display-name>
-    <icon src="https://i.imgur.com/IFoHP5M.png"/>
+    <icon src="https://i.imgur.com/IFoHP5M.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="deutsche-welle">
@@ -44,17 +44,17 @@
   </channel>
   <channel id="DiscoveryChannel.lv@SD">
     <display-name>Discovery Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="DocuBox.nl@SD">
     <display-name>DocuBox</display-name>
-    <icon src="https://i.imgur.com/pX4U9OG.png"/>
+    <icon src="https://i.imgur.com/pX4U9OG.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="Kanal7.ee@SD">
     <display-name>Kanal 7 Baltic</display-name>
-    <icon src="https://i.imgur.com/XRA4tVE.png"/>
+    <icon src="https://i.imgur.com/XRA4tVE.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="eurosport-1-hd">
@@ -67,7 +67,7 @@
   </channel>
   <channel id="FilmUADrama.ua@SD">
     <display-name>Film UA Drama</display-name>
-    <icon src="https://i.imgur.com/Hnwsh5d.png"/>
+    <icon src="https://i.imgur.com/Hnwsh5d.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="food-network">
@@ -92,42 +92,42 @@
   </channel>
   <channel id="InfoTV.lt@SD">
     <display-name>Info TV</display-name>
-    <icon src="https://i.imgur.com/EjQtIpM.png"/>
+    <icon src="https://i.imgur.com/EjQtIpM.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="KidZoneMax.ee@SD">
     <display-name>Kidzone Max</display-name>
-    <icon src="https://i.imgur.com/qJSvxE2.png"/>
+    <icon src="https://i.imgur.com/qJSvxE2.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="LietuvosRytasTV.lt@SD">
     <display-name>Lietuvos ryto TV</display-name>
-    <icon src="https://i.imgur.com/5wpxVI0.png"/>
+    <icon src="https://i.imgur.com/5wpxVI0.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="LNK.lt@HD">
     <display-name>LNK</display-name>
-    <icon src="https://i.imgur.com/arCZ56g.png"/>
+    <icon src="https://i.imgur.com/arCZ56g.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="LRTPlius.lt@SD">
     <display-name>LRT Plius</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/LRT_Plius_Logo_2022.svg/960px-LRT_Plius_Logo_2022.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/LRT_Plius_Logo_2022.svg/960px-LRT_Plius_Logo_2022.svg.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="LRTTV.lt@SD">
     <display-name>LRT Televizija</display-name>
-    <icon src="https://i.imgur.com/FL2ZuGC.png"/>
+    <icon src="https://i.imgur.com/FL2ZuGC.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="MarijampolesTV.lt@SD">
     <display-name>Marijampolės TV</display-name>
-    <icon src="https://i.imgur.com/lDwGB4T.png"/>
+    <icon src="https://i.imgur.com/lDwGB4T.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="CurrentTimeTV.cz@SD">
     <display-name>Nastojashcheje Vremya</display-name>
-    <icon src="https://i.imgur.com/hKo8ApU.png"/>
+    <icon src="https://i.imgur.com/hKo8ApU.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="national-geographic-hd">
@@ -140,27 +140,27 @@
   </channel>
   <channel id="SiauliuTV.lt@SD">
     <display-name>Etaplius TV</display-name>
-    <icon src="https://i.imgur.com/kz1LMHu.png"/>
+    <icon src="https://i.imgur.com/kz1LMHu.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="Duo3.ee@SD">
     <display-name>Duo 3</display-name>
-    <icon src="https://i.imgur.com/bSzjidl.png"/>
+    <icon src="https://i.imgur.com/bSzjidl.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="Sport1.lt@SD">
     <display-name>Sport 1</display-name>
-    <icon src="https://i.imgur.com/20UHvOT.png"/>
+    <icon src="https://i.imgur.com/20UHvOT.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="StarCinema.ua@SD">
     <display-name>Star Cinema</display-name>
-    <icon src="https://i.imgur.com/5sis895.png"/>
+    <icon src="https://i.imgur.com/5sis895.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="StarFamily.ru@SD">
     <display-name>Star Family</display-name>
-    <icon src="https://i.imgur.com/eGuGHnZ.png"/>
+    <icon src="https://i.imgur.com/eGuGHnZ.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="super-plius-hd">
@@ -177,27 +177,27 @@
   </channel>
   <channel id="TV1.lt@SD">
     <display-name>TV1</display-name>
-    <icon src="https://i.imgur.com/KLWDcFy.png"/>
+    <icon src="https://i.imgur.com/KLWDcFy.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="TV3.lt@SD">
     <display-name>TV3</display-name>
-    <icon src="https://i.imgur.com/7nipq0y.png"/>
+    <icon src="https://i.imgur.com/7nipq0y.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="TV3Plus.lv@SD">
     <display-name>TV3 Plus</display-name>
-    <icon src="https://i.imgur.com/oWLnYLn.png"/>
+    <icon src="https://i.imgur.com/oWLnYLn.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="Go3SportOpen.ee@SD">
     <display-name>Go3 Sport Open</display-name>
-    <icon src="https://i.imgur.com/NZgYKoQ.png"/>
+    <icon src="https://i.imgur.com/NZgYKoQ.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="TV6.lt@SD">
     <display-name>TV6</display-name>
-    <icon src="https://i.imgur.com/oC0jiFW.png"/>
+    <icon src="https://i.imgur.com/oC0jiFW.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="tv7">
@@ -206,7 +206,7 @@
   </channel>
   <channel id="TV8.lt@SD">
     <display-name>TV8</display-name>
-    <icon src="https://i.imgur.com/9g3wknl.png"/>
+    <icon src="https://i.imgur.com/9g3wknl.png" />
     <url>https://cgates.lt</url>
   </channel>
   <channel id="viasat-history-hd">

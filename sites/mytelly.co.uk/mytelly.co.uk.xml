@@ -1,183 +1,183 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="BBCOne.uk@NorthernIreland">
     <display-name>BBC One Northern Ireland</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@Scotland">
     <display-name>BBC One Scotland</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@Wales">
     <display-name>BBC One Wales</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@London">
     <display-name>BBC One</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@East">
     <display-name>BBC One East</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@EastMidlands">
     <display-name>BBC One East Midlands</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@WestMidlands">
     <display-name>BBC One West Midlands</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@Yorkshire">
     <display-name>BBC One Yorkshire</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@NorthEastCumbria">
     <display-name>BBC One North East &amp; Cumbria</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@NorthWest">
     <display-name>BBC One North West</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@South">
     <display-name>BBC One South</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@SouthEast">
     <display-name>BBC One South East</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@SouthWest">
     <display-name>BBC One South West</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@West">
     <display-name>BBC One West</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCTwo.uk@NorthernIreland">
     <display-name>BBC Two Northern Ireland</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCTwo.uk@Wales">
     <display-name>BBC Two Wales</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@Granada">
     <display-name>ITV1 Granada</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@Yorkshire">
     <display-name>ITV1 Yorkshire</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@TyneTees">
     <display-name>ITV1 Tyne Tees</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@BorderEngland">
     <display-name>ITV1 Border England</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="UTV.uk@SD">
     <display-name>UTV</display-name>
-    <icon src="https://i.imgur.com/BpP1qME.png"/>
+    <icon src="https://i.imgur.com/BpP1qME.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="STVCentral.uk@SD">
     <display-name>STV Central</display-name>
-    <icon src="https://i.imgur.com/KiOnQnD.png"/>
+    <icon src="https://i.imgur.com/KiOnQnD.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="STVNorth.uk@SD">
     <display-name>STV North</display-name>
-    <icon src="https://i.imgur.com/KiOnQnD.png"/>
+    <icon src="https://i.imgur.com/KiOnQnD.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@Meridian">
     <display-name>ITV1 Meridian</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@Anglia">
     <display-name>ITV1 Anglia</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@ChannelTelevision">
     <display-name>ITV1 Channel Television</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@Wales">
     <display-name>ITV1 Wales</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@West">
     <display-name>ITV1 West</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@Central">
     <display-name>ITV1 Central</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@WestCountry">
     <display-name>ITV1 West Country</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@London">
     <display-name>ITV1 London</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCTwo.uk@England">
     <display-name>BBC Two England</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Channel4.uk@UK">
     <display-name>Channel 4</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1621.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1621.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Channel5.uk@SD">
     <display-name>Channel 5</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCParliament.uk@SD">
     <display-name>BBC Parliament</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/960px-BBC_Parliament_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/960px-BBC_Parliament_Logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="MTVHits.uk@SD">
     <display-name>MTV Hits</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/MTV_Hits_2021.svg/960px-MTV_Hits_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/MTV_Hits_2021.svg/960px-MTV_Hits_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="63/mtv-xmas">
@@ -186,12 +186,12 @@
   </channel>
   <channel id="MTV.uk@SD">
     <display-name>MTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ZeeTVUK.uk@SD">
     <display-name>Zee TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Zee_TV_Logo_2025.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Zee_TV_Logo_2025.svg" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="73/phoenix-cne-channel">
@@ -204,27 +204,27 @@
   </channel>
   <channel id="RTEOne.ie@SD">
     <display-name>RTE One</display-name>
-    <icon src="https://i.imgur.com/8uZSZdS.png"/>
+    <icon src="https://i.imgur.com/8uZSZdS.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="RTE2.ie@SD">
     <display-name>RTE2</display-name>
-    <icon src="https://i.imgur.com/1RV97tP.png"/>
+    <icon src="https://i.imgur.com/1RV97tP.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TG4.ie@SD">
     <display-name>TG4</display-name>
-    <icon src="https://i.imgur.com/XiAKb4E.png"/>
+    <icon src="https://i.imgur.com/XiAKb4E.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCNews.uk@Africa">
     <display-name>BBC News</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="HGTV.uk@SD">
     <display-name>HGTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="92/bloomberg">
@@ -233,27 +233,27 @@
   </channel>
   <channel id="CNNInternational.us@MENA">
     <display-name>CNN</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="CartoonNetwork.uk@SD">
     <display-name>Cartoon Network</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyNews.uk@SD">
     <display-name>Sky News</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyWitness.uk@SD">
     <display-name>Sky Witness</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2201.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2201.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="DiscoveryScienceEurope.uk@UKHD">
     <display-name>Discovery Science</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="134/ugold">
@@ -262,12 +262,12 @@
   </channel>
   <channel id="MTV80s.uk@SD">
     <display-name>MTV 80s</display-name>
-    <icon src="https://i.imgur.com/N9e5hv5.png"/>
+    <icon src="https://i.imgur.com/N9e5hv5.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="DiscoveryTurbo.uk@SD">
     <display-name>Discovery Turbo</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2409.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2409.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="154/ualibi">
@@ -276,162 +276,162 @@
   </channel>
   <channel id="SkySciFi.uk@SD">
     <display-name>Sky Sci-Fi</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/100/40/skychb2505.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/100/40/skychb2505.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="AnimalPlanet.uk@SD">
     <display-name>Animal Planet</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="DiscoveryChannel.uk@UK">
     <display-name>Discovery Channel</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2401.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2401.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Challenge.uk@SD">
     <display-name>Challenge</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2202.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2202.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyHistory.uk@SD">
     <display-name>Sky History</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="NationalGeographic.uk@SD">
     <display-name>National Geographic Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ComedyCentral.uk@SD">
     <display-name>Comedy Central</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SonyEntertainmentTelevisionAsia.in@SD">
     <display-name>Sony Entertainment TV Asia</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Sony_TV_new.png/960px-Sony_TV_new.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Sony_TV_new.png/960px-Sony_TV_new.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Nickelodeon.uk@SD">
     <display-name>Nickelodeon</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="NickJr.uk@SD">
     <display-name>Nick Jr.</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Boomerang.uk@SD">
     <display-name>Boomerang</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="QVC.uk@SD">
     <display-name>QVC</display-name>
-    <icon src="https://i.imgur.com/6TWUVrh.png"/>
+    <icon src="https://i.imgur.com/6TWUVrh.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Film4.uk@SD">
     <display-name>Film4</display-name>
-    <icon src="https://i.imgur.com/MTSgoGI.png"/>
+    <icon src="https://i.imgur.com/MTSgoGI.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyShowcase.uk@SD">
     <display-name>Sky Showcase</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1276.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1276.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="MUTV.uk@SD">
     <display-name>MUTV</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsNews.uk@SD">
     <display-name>Sky Sports News</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1314.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1314.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Eurosport1.fr@UK">
     <display-name>Eurosport 1</display-name>
-    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsMainEvent.uk@SD">
     <display-name>Sky Sports Main Event</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1301.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1301.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsCricket.uk@SD">
     <display-name>Sky Sports Cricket</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1302.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1302.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsNFL.uk@SD">
     <display-name>Sky Sports NFL</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1333.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1333.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsGolf.uk@SD">
     <display-name>Sky Sports Golf</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1322.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1322.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV2.uk@SD">
     <display-name>ITV2</display-name>
-    <icon src="https://i.imgur.com/2BpUK0W.png"/>
+    <icon src="https://i.imgur.com/2BpUK0W.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyArts.uk@SD">
     <display-name>Sky Arts</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1752.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1752.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="E4.uk@SD">
     <display-name>E4</display-name>
-    <icon src="https://i.imgur.com/22MfjF4.png"/>
+    <icon src="https://i.imgur.com/22MfjF4.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="B4UMovies.in@UK">
     <display-name>B4U Movies</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s140063_ld_h9_aa.png?lock=720x540" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="S4C.uk@SD">
     <display-name>S4C</display-name>
-    <icon src="https://i.imgur.com/vrcbnBv.png"/>
+    <icon src="https://i.imgur.com/vrcbnBv.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="UtsavPlus.uk@SD">
     <display-name>Utsav Plus</display-name>
-    <icon src="https://i.imgur.com/TERVtWT.png"/>
+    <icon src="https://i.imgur.com/TERVtWT.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@BorderScotland">
     <display-name>ITV1 Border Scotland</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="AnimalPlanet.uk@Plus1">
     <display-name>Animal Planet +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyHistory.uk@Plus1">
     <display-name>Sky History +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Nickelodeon.uk@Plus1">
     <display-name>Nickelodeon +1</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="CartoonNetwork.uk@Plus1">
     <display-name>Cartoon Network +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="706/discovery-channel-1">
@@ -440,37 +440,37 @@
   </channel>
   <channel id="Film4.uk@Plus1">
     <display-name>Film4 +1</display-name>
-    <icon src="https://i.imgur.com/MTSgoGI.png"/>
+    <icon src="https://i.imgur.com/MTSgoGI.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="NationalGeographic.uk@Plus1">
     <display-name>National Geographic Channel +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="CBBC.uk@SD">
     <display-name>CBBC</display-name>
-    <icon src="https://i.imgur.com/tk8G4CU.png"/>
+    <icon src="https://i.imgur.com/tk8G4CU.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="CBeebies.uk@SD">
     <display-name>CBeebies</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCFour.uk@UK">
     <display-name>BBC Four</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/960px-BBC_Four_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/960px-BBC_Four_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsRacing.uk@UK">
     <display-name>Sky Sports Racing</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1354.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1354.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="HGTV.uk@Plus1">
     <display-name>HGTV +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="874/nicktoons">
@@ -487,27 +487,27 @@
   </channel>
   <channel id="E4Extra.uk@SD">
     <display-name>E4 Extra</display-name>
-    <icon src="https://i.imgur.com/vA2j0YP.png"/>
+    <icon src="https://i.imgur.com/vA2j0YP.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyReplay.uk@SD">
     <display-name>Sky Replay</display-name>
-    <icon src="https://i.imgur.com/CfiSsmS.png"/>
+    <icon src="https://i.imgur.com/CfiSsmS.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCThree.uk@SD">
     <display-name>BBC Three</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/960px-BBC_Three_2022.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/960px-BBC_Three_2022.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ComedyCentralExtra.uk@SD">
     <display-name>Comedy Central Extra</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1813.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1813.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyWitness.uk@Plus1">
     <display-name>Sky Witness +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2201.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2201.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="993/ueden">
@@ -520,7 +520,7 @@
   </channel>
   <channel id="IdealWorldTV.uk@SD">
     <display-name>Ideal World</display-name>
-    <icon src="https://i.imgur.com/su6GH7i.png"/>
+    <icon src="https://i.imgur.com/su6GH7i.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1031/legend-xtra">
@@ -529,17 +529,17 @@
   </channel>
   <channel id="RacingTV.uk@SD">
     <display-name>Racing TV</display-name>
-    <icon src="https://i.imgur.com/eaVrQU4.png"/>
+    <icon src="https://i.imgur.com/eaVrQU4.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="E4.uk@Plus1">
     <display-name>E4 +1</display-name>
-    <icon src="https://i.imgur.com/22MfjF4.png"/>
+    <icon src="https://i.imgur.com/22MfjF4.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV3.uk@SD">
     <display-name>ITV3</display-name>
-    <icon src="https://i.imgur.com/JuyM2z5.png"/>
+    <icon src="https://i.imgur.com/JuyM2z5.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1068/uyesterday-1">
@@ -548,12 +548,12 @@
   </channel>
   <channel id="SkyCrime.uk@SD">
     <display-name>Sky Crime</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2207.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2207.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Eurosport2.fr@UK">
     <display-name>Eurosport 2</display-name>
-    <icon src="https://i.imgur.com/f56dHgR.png"/>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1079/udave-ja-vu">
@@ -562,7 +562,7 @@
   </channel>
   <channel id="Really.uk@SD">
     <display-name>Really</display-name>
-    <icon src="https://i.imgur.com/lY5sFgo.png"/>
+    <icon src="https://i.imgur.com/lY5sFgo.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1163/great-christmas">
@@ -571,32 +571,32 @@
   </channel>
   <channel id="ComedyCentral.uk@Plus1">
     <display-name>Comedy Central +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="More4.uk@SD">
     <display-name>More4</display-name>
-    <icon src="https://i.imgur.com/cx5YcAU.png"/>
+    <icon src="https://i.imgur.com/cx5YcAU.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="More4.uk@Plus1">
     <display-name>More4 +1</display-name>
-    <icon src="https://i.imgur.com/cx5YcAU.png"/>
+    <icon src="https://i.imgur.com/cx5YcAU.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyMix.uk@SD">
     <display-name>Sky Mix</display-name>
-    <icon src="https://i.imgur.com/hHEz5rq.png"/>
+    <icon src="https://i.imgur.com/hHEz5rq.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV4.uk@SD">
     <display-name>ITV4</display-name>
-    <icon src="https://i.imgur.com/DYI4IA2.png"/>
+    <icon src="https://i.imgur.com/DYI4IA2.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Boomerang.uk@Plus1">
     <display-name>Boomerang +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1218/ualibi-1">
@@ -605,17 +605,17 @@
   </channel>
   <channel id="Movies24.uk@SD">
     <display-name>Christmas 24</display-name>
-    <icon src="https://i.imgur.com/ndf8v1j.png"/>
+    <icon src="https://i.imgur.com/ndf8v1j.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsMainEvent.uk@HD">
     <display-name>Sky Sports Main Event HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1301.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1301.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="NationalGeographic.uk@HD">
     <display-name>National Geographic Channel HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1233/discovery-channel-hd">
@@ -624,42 +624,42 @@
   </channel>
   <channel id="SkySportsCricket.uk@HD">
     <display-name>Sky Sports Cricket HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1302.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1302.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TogetherTV.uk@SD">
     <display-name>Together TV</display-name>
-    <icon src="https://i.imgur.com/wf62HhM.png"/>
+    <icon src="https://i.imgur.com/wf62HhM.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="5STAR.uk@SD">
     <display-name>5STAR</display-name>
-    <icon src="https://i.imgur.com/PI11s9s.png"/>
+    <icon src="https://i.imgur.com/PI11s9s.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="5USA.uk@SD">
     <display-name>5USA</display-name>
-    <icon src="https://i.imgur.com/Pi7so2l.png"/>
+    <icon src="https://i.imgur.com/Pi7so2l.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV2.uk@Plus1">
     <display-name>ITV2 +1</display-name>
-    <icon src="https://i.imgur.com/2BpUK0W.png"/>
+    <icon src="https://i.imgur.com/2BpUK0W.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV3.uk@Plus1">
     <display-name>ITV3 +1</display-name>
-    <icon src="https://i.imgur.com/JuyM2z5.png"/>
+    <icon src="https://i.imgur.com/JuyM2z5.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="NationalGeographicWild.uk@SD">
     <display-name>National Geographic WILD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="CrimePlusInvestigation.uk@SD">
     <display-name>Crime + Investigation</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1448.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1448.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1318/sky-cinema-80s">
@@ -668,27 +668,27 @@
   </channel>
   <channel id="SkyCinemaThriller.uk@SD">
     <display-name>Sky Cinema Thriller</display-name>
-    <icon src="https://i.imgur.com/4Z1oKde.png"/>
+    <icon src="https://i.imgur.com/4Z1oKde.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyCinemaPremiere.uk@SD">
     <display-name>Sky Cinema Premiere</display-name>
-    <icon src="https://i.imgur.com/Di39qLn.png"/>
+    <icon src="https://i.imgur.com/Di39qLn.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyCinemaComedy.uk@SD">
     <display-name>Sky Cinema Comedy</display-name>
-    <icon src="https://i.imgur.com/Gd9DuRH.png"/>
+    <icon src="https://i.imgur.com/Gd9DuRH.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyCinemaFamily.uk@SD">
     <display-name>Sky Cinema Family</display-name>
-    <icon src="https://i.imgur.com/vKZSotN.png"/>
+    <icon src="https://i.imgur.com/vKZSotN.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyCinemaDrama.uk@SD">
     <display-name>Sky Cinema Christmas</display-name>
-    <icon src="https://i.imgur.com/bCVpVKE.png"/>
+    <icon src="https://i.imgur.com/bCVpVKE.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1326/sky-cinema-favourites">
@@ -701,37 +701,37 @@
   </channel>
   <channel id="SkyCinemaAction.uk@SD">
     <display-name>Sky Cinema Action</display-name>
-    <icon src="https://i.imgur.com/2JjZG7g.png"/>
+    <icon src="https://i.imgur.com/2JjZG7g.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyCinemaSciFiHorror.uk@SD">
     <display-name>Sky Cinema Sci-fi/Horror</display-name>
-    <icon src="https://i.imgur.com/Plz70jD.png"/>
+    <icon src="https://i.imgur.com/Plz70jD.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="AlJazeera.qa@English">
     <display-name>Al Jazeera English</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyHistory.uk@HD">
     <display-name>Sky History HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyShowcase.uk@HD">
     <display-name>Sky Showcase HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1276.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1276.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyArts.uk@HD">
     <display-name>Sky Arts HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1752.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1752.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Cartoonito.uk@SD">
     <display-name>Cartoonito</display-name>
-    <icon src="https://i.imgur.com/B29D2s1.png"/>
+    <icon src="https://i.imgur.com/B29D2s1.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1379/channel-4-1">
@@ -740,12 +740,12 @@
   </channel>
   <channel id="TinyPop.uk@SD">
     <display-name>Tiny Pop</display-name>
-    <icon src="https://i.imgur.com/zCTf71x.png"/>
+    <icon src="https://i.imgur.com/zCTf71x.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Pop.uk@SD">
     <display-name>Pop</display-name>
-    <icon src="https://i.imgur.com/fGUlCY3.png"/>
+    <icon src="https://i.imgur.com/fGUlCY3.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1404/channel-4-hd">
@@ -754,22 +754,22 @@
   </channel>
   <channel id="DMAX.uk@UK">
     <display-name>DMAX</display-name>
-    <icon src="https://i.imgur.com/CDsoyjN.png"/>
+    <icon src="https://i.imgur.com/CDsoyjN.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsNFL.uk@HD">
     <display-name>Sky Sports NFL HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1333.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1333.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyCinemaPremiere.uk@HD">
     <display-name>Sky Cinema Premiere HD</display-name>
-    <icon src="https://i.imgur.com/Di39qLn.png"/>
+    <icon src="https://i.imgur.com/Di39qLn.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="GREATaction.uk@SD">
     <display-name>GREAT! action</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3708.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3708.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1432/great-christmas-1">
@@ -778,12 +778,12 @@
   </channel>
   <channel id="Eurosport1.fr@UKHD">
     <display-name>Eurosport 1 HD</display-name>
-    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyHistory2.uk@SD">
     <display-name>Sky History 2</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1879.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1879.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1437/legend-xtra-1">
@@ -800,12 +800,12 @@
   </channel>
   <channel id="SkyCinemaAction.uk@HD">
     <display-name>Sky Cinema Action HD</display-name>
-    <icon src="https://i.imgur.com/2JjZG7g.png"/>
+    <icon src="https://i.imgur.com/2JjZG7g.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyCinemaDrama.uk@HD">
     <display-name>Sky Cinema Christmas HD</display-name>
-    <icon src="https://i.imgur.com/bCVpVKE.png"/>
+    <icon src="https://i.imgur.com/bCVpVKE.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1446/sky-cinema-favourites-hd">
@@ -814,17 +814,17 @@
   </channel>
   <channel id="SkyCinemaSciFiHorror.uk@HD">
     <display-name>Sky Cinema Sci-fi/Horror HD</display-name>
-    <icon src="https://i.imgur.com/Plz70jD.png"/>
+    <icon src="https://i.imgur.com/Plz70jD.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyCinemaFamily.uk@HD">
     <display-name>Sky Cinema Family HD</display-name>
-    <icon src="https://i.imgur.com/vKZSotN.png"/>
+    <icon src="https://i.imgur.com/vKZSotN.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyCinemaComedy.uk@HD">
     <display-name>Sky Cinema Comedy HD</display-name>
-    <icon src="https://i.imgur.com/Gd9DuRH.png"/>
+    <icon src="https://i.imgur.com/Gd9DuRH.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1451/uw-1">
@@ -833,72 +833,72 @@
   </channel>
   <channel id="ITV4.uk@Plus1">
     <display-name>ITV4 +1</display-name>
-    <icon src="https://i.imgur.com/DYI4IA2.png"/>
+    <icon src="https://i.imgur.com/DYI4IA2.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="InvestigationDiscovery.uk@SD">
     <display-name>Investigation Discovery</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySciFi.uk@HD">
     <display-name>Sky Sci-Fi HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/100/40/skychb2505.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/100/40/skychb2505.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyCrime.uk@Plus1">
     <display-name>Sky Crime +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2207.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2207.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="CrimePlusInvestigation.uk@HD">
     <display-name>Crime + Investigation HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1448.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1448.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="NationalGeographicWild.uk@HD">
     <display-name>National Geographic WILD HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Quest.uk@SD">
     <display-name>Quest</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="5USA.uk@Plus1">
     <display-name>5USA +1</display-name>
-    <icon src="https://i.imgur.com/Pi7so2l.png"/>
+    <icon src="https://i.imgur.com/Pi7so2l.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="5STAR.uk@Plus1">
     <display-name>5STAR +1</display-name>
-    <icon src="https://i.imgur.com/PI11s9s.png"/>
+    <icon src="https://i.imgur.com/PI11s9s.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="CrimePlusInvestigation.uk@Plus1">
     <display-name>Crime + Investigation +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1448.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1448.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports4.uk@SD">
     <display-name>TNT Sports 4</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-4-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-4-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports4.uk@HD">
     <display-name>TNT Sports 4 HD</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-4-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-4-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyWitness.uk@HD">
     <display-name>Sky Witness HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2201.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2201.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="CNBCUK.uk@SD">
     <display-name>CNBC UK</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1512/true-crime">
@@ -919,27 +919,27 @@
   </channel>
   <channel id="Legend.uk@SD">
     <display-name>Legend</display-name>
-    <icon src="https://i.imgur.com/dN2OsIT.png"/>
+    <icon src="https://i.imgur.com/dN2OsIT.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Quest.uk@Plus1">
     <display-name>Quest +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="FoodNetwork.uk@SD">
     <display-name>Food Network</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="FoodNetwork.uk@Plus1">
     <display-name>Food Network +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Movies24Plus.uk@SD">
     <display-name>Christmas 24+</display-name>
-    <icon src="https://i.imgur.com/BtBRJzU.png"/>
+    <icon src="https://i.imgur.com/BtBRJzU.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1531/nick-jr-too">
@@ -948,12 +948,12 @@
   </channel>
   <channel id="E4.uk@HD">
     <display-name>E4 HD</display-name>
-    <icon src="https://i.imgur.com/22MfjF4.png"/>
+    <icon src="https://i.imgur.com/22MfjF4.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="NHKWorldJapan.jp@SD">
     <display-name>NHK World</display-name>
-    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png"/>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1536/sky-cinema-80s-hd">
@@ -962,7 +962,7 @@
   </channel>
   <channel id="SkyCinemaThriller.uk@HD">
     <display-name>Sky Cinema Thriller HD</display-name>
-    <icon src="https://i.imgur.com/4Z1oKde.png"/>
+    <icon src="https://i.imgur.com/4Z1oKde.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1538/dmax-1">
@@ -971,7 +971,7 @@
   </channel>
   <channel id="GREATaction.uk@Plus1">
     <display-name>GREAT! action +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3708.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3708.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1543/discovery-science-1">
@@ -980,37 +980,37 @@
   </channel>
   <channel id="TinyPop.uk@Plus1">
     <display-name>Tiny Pop +1</display-name>
-    <icon src="https://i.imgur.com/zCTf71x.png"/>
+    <icon src="https://i.imgur.com/zCTf71x.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="GREATtv.uk@SD">
     <display-name>GREAT! tv</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4266.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4266.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCRedButton1.uk@SD">
     <display-name>BBC Red Button 1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2051.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2051.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@LondonHD">
     <display-name>ITV1 London HD</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyNews.uk@HD">
     <display-name>Sky News HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsGolf.uk@HD">
     <display-name>Sky Sports Golf HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1322.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1322.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyShowcase.uk@Plus1">
     <display-name>Sky Showcase +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1276.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1276.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1571/zee-cinema">
@@ -1019,32 +1019,32 @@
   </channel>
   <channel id="STV.uk@HD">
     <display-name>STV HD</display-name>
-    <icon src="https://i.imgur.com/KiOnQnD.png"/>
+    <icon src="https://i.imgur.com/KiOnQnD.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Channel5.uk@HD">
     <display-name>Channel 5 HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Film4.uk@HD">
     <display-name>Film4 HD</display-name>
-    <icon src="https://i.imgur.com/MTSgoGI.png"/>
+    <icon src="https://i.imgur.com/MTSgoGI.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsNews.uk@HD">
     <display-name>Sky Sports News HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1314.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1314.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ComedyCentral.uk@HD">
     <display-name>Comedy Central HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV2.uk@HD">
     <display-name>ITV2 HD</display-name>
-    <icon src="https://i.imgur.com/2BpUK0W.png"/>
+    <icon src="https://i.imgur.com/2BpUK0W.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1603/ueden-hd">
@@ -1053,32 +1053,32 @@
   </channel>
   <channel id="UTV.uk@HD">
     <display-name>UTV HD</display-name>
-    <icon src="https://i.imgur.com/BpP1qME.png"/>
+    <icon src="https://i.imgur.com/BpP1qME.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="DiscoveryHistory.uk@SD">
     <display-name>Discovery History</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2407.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2407.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Nickelodeon.uk@HD">
     <display-name>Nickelodeon HD</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV3.uk@HD">
     <display-name>ITV3 HD</display-name>
-    <icon src="https://i.imgur.com/JuyM2z5.png"/>
+    <icon src="https://i.imgur.com/JuyM2z5.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV4.uk@HD">
     <display-name>ITV4 HD</display-name>
-    <icon src="https://i.imgur.com/DYI4IA2.png"/>
+    <icon src="https://i.imgur.com/DYI4IA2.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="DiscoveryHistory.uk@Plus1">
     <display-name>Discovery History +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2407.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2407.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1618/lfc-tv">
@@ -1087,57 +1087,57 @@
   </channel>
   <channel id="STVCentral.uk@Plus1">
     <display-name>STV Central +1</display-name>
-    <icon src="https://i.imgur.com/KiOnQnD.png"/>
+    <icon src="https://i.imgur.com/KiOnQnD.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="UTV.uk@Plus1">
     <display-name>UTV +1</display-name>
-    <icon src="https://i.imgur.com/BpP1qME.png"/>
+    <icon src="https://i.imgur.com/BpP1qME.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@LondonPlus1">
     <display-name>ITV1 London +1</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@CentralPlus1">
     <display-name>ITV1 Central +1</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@MeridianPlus1">
     <display-name>ITV1 Meridian +1</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@WestPlus1">
     <display-name>ITV1 West +1</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@YorkshirePlus1">
     <display-name>ITV1 Yorkshire +1</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@GranadaPlus1">
     <display-name>ITV1 Granada +1</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyAtlantic.uk@SD">
     <display-name>Sky Atlantic</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1412.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1412.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyAtlantic.uk@HD">
     <display-name>Sky Atlantic HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1412.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1412.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="MTVMusic.uk@SD">
     <display-name>MTV Music</display-name>
-    <icon src="https://i.imgur.com/hdyJ4PT.png"/>
+    <icon src="https://i.imgur.com/hdyJ4PT.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1638/premier-sports-1-hd">
@@ -1146,42 +1146,42 @@
   </channel>
   <channel id="NHKWorldJapan.jp@HD">
     <display-name>NHK World HD</display-name>
-    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png"/>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="RTE2.ie@HD">
     <display-name>RTE2 HD</display-name>
-    <icon src="https://i.imgur.com/1RV97tP.png"/>
+    <icon src="https://i.imgur.com/1RV97tP.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="RTEjr.ie@SD">
     <display-name>RTE Jr</display-name>
-    <icon src="https://i.imgur.com/E3jxqu9.png"/>
+    <icon src="https://i.imgur.com/E3jxqu9.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="RTENews.ie@SD">
     <display-name>RTE News</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Updated_RT%C3%89_News_and_Current_Affairs_Logo.png/960px-Updated_RT%C3%89_News_and_Current_Affairs_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Updated_RT%C3%89_News_and_Current_Affairs_Logo.png/960px-Updated_RT%C3%89_News_and_Current_Affairs_Logo.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="CartoonNetwork.uk@HD">
     <display-name>Cartoon Network HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@MeridianHD">
     <display-name>ITV1 Meridian HD</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@GranadaHD">
     <display-name>ITV1 Granada HD</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@CentralHD">
     <display-name>ITV1 Central HD</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1658/uw-hd">
@@ -1194,27 +1194,27 @@
   </channel>
   <channel id="PBSAmerica.uk@SD">
     <display-name>PBS America</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/PBS_America_2022.svg/960px-PBS_America_2022.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/PBS_America_2022.svg/960px-PBS_America_2022.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Channel5.uk@Plus1">
     <display-name>Channel 5 +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@Oxfordshire">
     <display-name>BBC One Oxfordshire</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@ChannelIslands">
     <display-name>BBC One Channel Islands</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@Cambridgeshire">
     <display-name>BBC One Cambridgeshire</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1665/bbc-one-yorkshire-lincolnshire">
@@ -1223,32 +1223,32 @@
   </channel>
   <channel id="UtsavGold.in@SD">
     <display-name>Utsav Gold</display-name>
-    <icon src="https://i.imgur.com/7pTZm9O.png"/>
+    <icon src="https://i.imgur.com/7pTZm9O.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="AnimalPlanet.uk@HD">
     <display-name>Animal Planet HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsF1.uk@SD">
     <display-name>Sky Sports F1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1306.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1306.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsF1.uk@HD">
     <display-name>Sky Sports F1 HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1306.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1306.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="MTV.uk@HD">
     <display-name>MTV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="GREATmovies.uk@UK">
     <display-name>GREAT! movies</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3709.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3709.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1681/great-movies-1">
@@ -1257,12 +1257,12 @@
   </channel>
   <channel id="4seven.uk@SD">
     <display-name>4seven</display-name>
-    <icon src="https://i.imgur.com/Fpaxyop.png"/>
+    <icon src="https://i.imgur.com/Fpaxyop.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCRedButton1.uk@HD">
     <display-name>BBC Red Button 1 HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2051.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2051.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1739/ualibi-hd">
@@ -1271,117 +1271,117 @@
   </channel>
   <channel id="Eurosport2.fr@UKHD">
     <display-name>Eurosport 2 HD</display-name>
-    <icon src="https://i.imgur.com/f56dHgR.png"/>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="UtsavPlus.uk@HD">
     <display-name>Utsav Plus HD</display-name>
-    <icon src="https://i.imgur.com/TERVtWT.png"/>
+    <icon src="https://i.imgur.com/TERVtWT.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyAtlantic.uk@Plus1">
     <display-name>Sky Atlantic +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1412.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1412.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="France24.fr@English">
     <display-name>France 24 English</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BabyTV.uk@UK">
     <display-name>Baby TV</display-name>
-    <icon src="https://i.imgur.com/4BDJ5FT.png"/>
+    <icon src="https://i.imgur.com/4BDJ5FT.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="MTVLive.uk@SD">
     <display-name>MTV Live HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/30/MTV_Live_2021_logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/30/MTV_Live_2021_logo.svg" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="NickJr.uk@Plus1">
     <display-name>Nick Jr. +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@AngliaPlus1">
     <display-name>ITV1 Anglia +1</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@TyneTeesPlus1">
     <display-name>ITV1 Tyne Tees +1</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@WestCountryPlus1">
     <display-name>ITV1 West Country +1</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@WalesPlus1">
     <display-name>ITV1 Wales +1</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@NorthernIrelandHD">
     <display-name>BBC One Northern Ireland HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TG4.ie@HD">
     <display-name>TG4 HD</display-name>
-    <icon src="https://i.imgur.com/XiAKb4E.png"/>
+    <icon src="https://i.imgur.com/XiAKb4E.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@ScotlandHD">
     <display-name>BBC One Scotland HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@WalesHD">
     <display-name>BBC One Wales HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="More4.uk@HD">
     <display-name>More4 HD</display-name>
-    <icon src="https://i.imgur.com/cx5YcAU.png"/>
+    <icon src="https://i.imgur.com/cx5YcAU.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCTwo.uk@HD">
     <display-name>BBC Two HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="GREATtv.uk@Plus1">
     <display-name>GREAT! tv +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4266.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4266.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TLC.uk@SD">
     <display-name>TLC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TLC.uk@Plus1">
     <display-name>TLC +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ColorsRishteyEurope.in@SD">
     <display-name>Colors Rishtey</display-name>
-    <icon src="https://i.imgur.com/gyyRpFv.png"/>
+    <icon src="https://i.imgur.com/gyyRpFv.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TLC.uk@HD">
     <display-name>TLC HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="InvestigationDiscovery.uk@Plus1">
     <display-name>Investigation Discovery +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1798/udrama">
@@ -1390,37 +1390,37 @@
   </channel>
   <channel id="BBCRedButtonHD.uk@SD">
     <display-name>BBC Red Button HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2053.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2053.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="UtsavBharat.uk@SD">
     <display-name>Utsav Bharat</display-name>
-    <icon src="https://i.imgur.com/IQ2n0WY.png"/>
+    <icon src="https://i.imgur.com/IQ2n0WY.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports1.uk@SD">
     <display-name>TNT Sports 1</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-1-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-1-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports1.uk@HD">
     <display-name>TNT Sports 1 HD</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-1-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-1-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports2.uk@SD">
     <display-name>TNT Sports 2</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-2-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-2-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports2.uk@HD">
     <display-name>TNT Sports 2 HD</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-2-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-2-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="STVNorth.uk@Plus1">
     <display-name>STV North +1</display-name>
-    <icon src="https://i.imgur.com/KiOnQnD.png"/>
+    <icon src="https://i.imgur.com/KiOnQnD.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SonySABAsia.in@SD">
@@ -1429,22 +1429,22 @@
   </channel>
   <channel id="ColorsMENA.in@SD">
     <display-name>Colors</display-name>
-    <icon src="https://i.imgur.com/LjNFTdC.png"/>
+    <icon src="https://i.imgur.com/LjNFTdC.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SonyMax.uk@SD">
     <display-name>Sony MAX</display-name>
-    <icon src="https://i.imgur.com/LBICKI5.png"/>
+    <icon src="https://i.imgur.com/LBICKI5.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SonyMax2.in@SD">
     <display-name>Sony MAX 2</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s143801_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s143801_ld_h15_aa.png?lock=720x540" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="B4UMusic.in@UK">
     <display-name>B4U Music</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1818/brit-asia">
@@ -1453,12 +1453,12 @@
   </channel>
   <channel id="CBBC.uk@HD">
     <display-name>CBBC HD</display-name>
-    <icon src="https://i.imgur.com/tk8G4CU.png"/>
+    <icon src="https://i.imgur.com/tk8G4CU.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="CBeebies.uk@HD">
     <display-name>CBeebies HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/960px-CBeebies.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1851/bbc-four-hd">
@@ -1467,7 +1467,7 @@
   </channel>
   <channel id="BBCThree.uk@HD">
     <display-name>BBC Three HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/960px-BBC_Three_2022.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/960px-BBC_Three_2022.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1853/bbc-news-hd">
@@ -1476,7 +1476,7 @@
   </channel>
   <channel id="AlJazeera.qa@EnglishHD">
     <display-name>Al Jazeera English HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1856/rte-one-hd">
@@ -1485,107 +1485,107 @@
   </channel>
   <channel id="5SELECT.uk@SD">
     <display-name>5SELECT</display-name>
-    <icon src="https://i.imgur.com/WJ9xR6l.png"/>
+    <icon src="https://i.imgur.com/WJ9xR6l.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV3.uk@Plus1Freeview">
     <display-name>ITV3 +1 (Freeview)</display-name>
-    <icon src="https://i.imgur.com/JuyM2z5.png"/>
+    <icon src="https://i.imgur.com/JuyM2z5.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="PopMax.uk@SD">
     <display-name>Pop Max</display-name>
-    <icon src="https://i.imgur.com/Z7XTTod.png"/>
+    <icon src="https://i.imgur.com/Z7XTTod.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="LondonLive.uk@SD">
     <display-name>London Live</display-name>
-    <icon src="https://i.imgur.com/qwgxxHa.png"/>
+    <icon src="https://i.imgur.com/qwgxxHa.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="PopMax.uk@Plus1">
     <display-name>Pop Max +1</display-name>
-    <icon src="https://i.imgur.com/Z7XTTod.png"/>
+    <icon src="https://i.imgur.com/Z7XTTod.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="EuronewsEnglish.fr@SD">
     <display-name>Euronews</display-name>
-    <icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png"/>
+    <icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="4seven.uk@HD">
     <display-name>4seven HD</display-name>
-    <icon src="https://i.imgur.com/Fpaxyop.png"/>
+    <icon src="https://i.imgur.com/Fpaxyop.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsPremierLeague.uk@SD">
     <display-name>Sky Sports Premier League</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1303.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1303.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsPremierLeague.uk@HD">
     <display-name>Sky Sports Premier League HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1303.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1303.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="NottsTV.uk@SD">
     <display-name>Notts TV</display-name>
-    <icon src="https://i.imgur.com/lTr2W0i.png"/>
+    <icon src="https://i.imgur.com/lTr2W0i.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="MUTV.uk@HD">
     <display-name>MUTV HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Pop.uk@Plus1">
     <display-name>Pop +1</display-name>
-    <icon src="https://i.imgur.com/fGUlCY3.png"/>
+    <icon src="https://i.imgur.com/fGUlCY3.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITVBe.uk@SD">
     <display-name>ITVBe</display-name>
-    <icon src="https://i.imgur.com/98U4KjU.png"/>
+    <icon src="https://i.imgur.com/98U4KjU.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Now80s.uk@SD">
     <display-name>NOW 80s</display-name>
-    <icon src="https://i.imgur.com/YyPnMeB.png"/>
+    <icon src="https://i.imgur.com/YyPnMeB.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ClublandTV.uk@SD">
     <display-name>Clubland TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Clubland_TV_Logo_2022.svg/960px-Clubland_TV_Logo_2022.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Clubland_TV_Logo_2022.svg/960px-Clubland_TV_Logo_2022.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Now70s.uk@SD">
     <display-name>NOW 70s</display-name>
-    <icon src="https://i.imgur.com/qiCCX5X.png"/>
+    <icon src="https://i.imgur.com/qiCCX5X.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TVCNews.ng@SD">
     <display-name>TVC News</display-name>
-    <icon src="https://i.imgur.com/jaSq18B.png"/>
+    <icon src="https://i.imgur.com/jaSq18B.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="LFCTV.uk@HD">
     <display-name>LFC TV HD</display-name>
-    <icon src="https://i.imgur.com/dVDZBlV.png"/>
+    <icon src="https://i.imgur.com/dVDZBlV.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITVBe.uk@HD">
     <display-name>ITVBe HD</display-name>
-    <icon src="https://i.imgur.com/98U4KjU.png"/>
+    <icon src="https://i.imgur.com/98U4KjU.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITVBe.uk@Plus1">
     <display-name>ITVBe +1</display-name>
-    <icon src="https://i.imgur.com/98U4KjU.png"/>
+    <icon src="https://i.imgur.com/98U4KjU.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSportsBoxOffice.uk@HD">
     <display-name>Sky Sports Box Office HD</display-name>
-    <icon src="https://i.imgur.com/I3XB6LS.png"/>
+    <icon src="https://i.imgur.com/I3XB6LS.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="1942/leeds-tv">
@@ -1606,127 +1606,127 @@
   </channel>
   <channel id="TalkingPicturesTV.uk@SD">
     <display-name>Talking Pictures TV</display-name>
-    <icon src="https://i.imgur.com/S1zoIp7.png"/>
+    <icon src="https://i.imgur.com/S1zoIp7.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Boomerang.uk@HD">
     <display-name>Boomerang HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports3.uk@SD">
     <display-name>TNT Sports 3</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-3-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-3-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports3.uk@HD">
     <display-name>TNT Sports 3 HD</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-3-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-3-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSportsUltimate.uk@SD">
     <display-name>TNT Sports Ultimate</display-name>
-    <icon src="https://i.imgur.com/fAyvqdH.png"/>
+    <icon src="https://i.imgur.com/fAyvqdH.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports5.uk@SD">
     <display-name>TNT Sports 5</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-5-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-5-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports6.uk@SD">
     <display-name>TNT Sports 6</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-6-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-6-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports7.uk@SD">
     <display-name>TNT Sports 7</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-7-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-7-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports8.uk@SD">
     <display-name>TNT Sports 8</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-8-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-8-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports9.uk@SD">
     <display-name>TNT Sports 9</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-9-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-9-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports10.uk@SD">
     <display-name>TNT Sports 10</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-10-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-10-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports5.uk@HD">
     <display-name>TNT Sports 5 HD</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-5-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-5-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports6.uk@HD">
     <display-name>TNT Sports 6 HD</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-6-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-6-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports7.uk@HD">
     <display-name>TNT Sports 7 HD</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-7-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-7-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports8.uk@HD">
     <display-name>TNT Sports 8 HD</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-8-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-8-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports9.uk@HD">
     <display-name>TNT Sports 9 HD</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-9-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-9-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TNTSports10.uk@HD">
     <display-name>TNT Sports 10 HD</display-name>
-    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-10-uk.png?raw=true"/>
+    <icon src="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-10-uk.png?raw=true" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@WalesHD">
     <display-name>ITV1 Wales HD</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="NOWRock.uk@SD">
     <display-name>NOW Rock</display-name>
-    <icon src="https://i.imgur.com/GuM4GnX.png"/>
+    <icon src="https://i.imgur.com/GuM4GnX.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="RacingTV.uk@HD">
     <display-name>Racing TV HD</display-name>
-    <icon src="https://i.imgur.com/eaVrQU4.png"/>
+    <icon src="https://i.imgur.com/eaVrQU4.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@YorkshireHD">
     <display-name>ITV1 Yorkshire HD</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@AngliaHD">
     <display-name>ITV1 Anglia HD</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@TyneTeesHD">
     <display-name>ITV1 Tyne Tees HD</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="S4C.uk@HD">
     <display-name>S4C HD</display-name>
-    <icon src="https://i.imgur.com/vrcbnBv.png"/>
+    <icon src="https://i.imgur.com/vrcbnBv.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Channels24.ng@SD">
     <display-name>Channels 24</display-name>
-    <icon src="https://i.imgur.com/ww5zNmY.png"/>
+    <icon src="https://i.imgur.com/ww5zNmY.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2007/ndtv-world">
@@ -1739,17 +1739,17 @@
   </channel>
   <channel id="NickJr.uk@HD">
     <display-name>Nick Jr. HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsMix.uk@SD">
     <display-name>Sky Sports Mix</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4091.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4091.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsMix.uk@HD">
     <display-name>Sky Sports Mix HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4091.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb4091.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2039/arirang">
@@ -1758,27 +1758,27 @@
   </channel>
   <channel id="Blaze.uk@SD">
     <display-name>Blaze</display-name>
-    <icon src="https://i.imgur.com/6UcPWP9.png"/>
+    <icon src="https://i.imgur.com/6UcPWP9.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyHistory2.uk@HD">
     <display-name>Sky History 2 HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1879.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1879.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@WestCountryHD">
     <display-name>ITV1 West Country HD</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@BorderHD">
     <display-name>ITV1 Border HD</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ITV1.uk@WestHD">
     <display-name>ITV1 West HD</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2051/birmingham-tv">
@@ -1795,22 +1795,22 @@
   </channel>
   <channel id="ColorsMENA.in@HD">
     <display-name>Colors HD</display-name>
-    <icon src="https://i.imgur.com/LjNFTdC.png"/>
+    <icon src="https://i.imgur.com/LjNFTdC.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BloombergTV.us@EuropeHD">
     <display-name>Bloomberg HD</display-name>
-    <icon src="https://i.imgur.com/OuogLHx.png"/>
+    <icon src="https://i.imgur.com/OuogLHx.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="QuestRed.uk@SD">
     <display-name>Quest Red</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb2411.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb2411.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="QuestRed.uk@Plus1">
     <display-name>Quest Red +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb2411.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb2411.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2077/new-vision-tv">
@@ -1819,22 +1819,22 @@
   </channel>
   <channel id="TRTWorld.tr@SD">
     <display-name>TRT World</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="TRTWorld.tr@HD">
     <display-name>TRT World HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsFootball.uk@SD">
     <display-name>Sky Sports Football</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3838.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3838.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkySportsFootball.uk@HD">
     <display-name>Sky Sports Football HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3838.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3838.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2088/sky-sports">
@@ -1847,17 +1847,17 @@
   </channel>
   <channel id="SonyEntertainmentTelevisionAsia.in@HD">
     <display-name>Sony Entertainment TV Asia HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Sony_TV_new.png/960px-Sony_TV_new.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Sony_TV_new.png/960px-Sony_TV_new.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SonyMax.uk@HD">
     <display-name>Sony MAX HD</display-name>
-    <icon src="https://i.imgur.com/LBICKI5.png"/>
+    <icon src="https://i.imgur.com/LBICKI5.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ColorsCineplex.in@SD">
     <display-name>Colors Cineplex</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s158147_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s158147_ld_h15_aa.png?lock=720x540" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2108/ugold-hd">
@@ -1866,22 +1866,22 @@
   </channel>
   <channel id="DiscoveryTurbo.uk@Plus1">
     <display-name>Discovery Turbo +1</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2409.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2409.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="UtsavGold.in@HD">
     <display-name>Utsav Gold HD</display-name>
-    <icon src="https://i.imgur.com/7pTZm9O.png"/>
+    <icon src="https://i.imgur.com/7pTZm9O.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SanskarUK.in@SD">
     <display-name>Sanskar</display-name>
-    <icon src="https://i.imgur.com/AU5vSPF.png"/>
+    <icon src="https://i.imgur.com/AU5vSPF.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Blaze.uk@Freeview">
     <display-name>Blaze (Freeview)</display-name>
-    <icon src="https://i.imgur.com/6UcPWP9.png"/>
+    <icon src="https://i.imgur.com/6UcPWP9.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2128/geo-tv">
@@ -1890,7 +1890,7 @@
   </channel>
   <channel id="GeoNewsInternational.pk@SD">
     <display-name>GEO News</display-name>
-    <icon src="https://i.imgur.com/8kTij1G.png"/>
+    <icon src="https://i.imgur.com/8kTij1G.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2134/tnt-sports-box-office">
@@ -1903,37 +1903,37 @@
   </channel>
   <channel id="France24.fr@EnglishHD">
     <display-name>France 24 English HD</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Travelxp.in@SD">
     <display-name>Travelxp</display-name>
-    <icon src="https://i.imgur.com/HUWEnc5.png"/>
+    <icon src="https://i.imgur.com/HUWEnc5.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="5Action.uk@SD">
     <display-name>5Action</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/5Action_logo.svg/960px-5Action_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/5Action_logo.svg/960px-5Action_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="Quest.uk@HD">
     <display-name>Quest HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb6761.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="5Action.uk@HD">
     <display-name>5Action HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/5Action_logo.svg/960px-5Action_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/5Action_logo.svg/960px-5Action_logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCTwo.uk@WalesHD">
     <display-name>BBC Two Wales HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCTwo.uk@NorthernIrelandHD">
     <display-name>BBC Two Northern Ireland HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2157/sky-sports-racing-hd">
@@ -1942,12 +1942,12 @@
   </channel>
   <channel id="BBCScotland.uk@SD">
     <display-name>BBC Scotland</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/BBC_Scotland_2021_%28channel%29.svg/960px-BBC_Scotland_2021_%28channel%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/BBC_Scotland_2021_%28channel%29.svg/960px-BBC_Scotland_2021_%28channel%29.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCScotland.uk@HD">
     <display-name>BBC Scotland HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/BBC_Scotland_2021_%28channel%29.svg/960px-BBC_Scotland_2021_%28channel%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/BBC_Scotland_2021_%28channel%29.svg/960px-BBC_Scotland_2021_%28channel%29.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2236/zee-cinema-hd">
@@ -1956,7 +1956,7 @@
   </channel>
   <channel id="CNBCUK.uk@HD">
     <display-name>CNBC UK HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2249/ary-digital">
@@ -1965,7 +1965,7 @@
   </channel>
   <channel id="CreateandCraft.uk@SD">
     <display-name>Create &amp; Craft</display-name>
-    <icon src="https://i.imgur.com/n65sk4L.png"/>
+    <icon src="https://i.imgur.com/n65sk4L.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2253/hum-europe">
@@ -1974,22 +1974,22 @@
   </channel>
   <channel id="QVCBeauty.uk@SD">
     <display-name>QVC Beauty</display-name>
-    <icon src="https://i.imgur.com/ZBHtqk1.png"/>
+    <icon src="https://i.imgur.com/ZBHtqk1.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="QVCExtra.uk@SD">
     <display-name>QVC Extra</display-name>
-    <icon src="https://i.imgur.com/TIe5T9Z.png"/>
+    <icon src="https://i.imgur.com/TIe5T9Z.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="QVCStyle.uk@SD">
     <display-name>QVC Style</display-name>
-    <icon src="https://i.imgur.com/6HZlLL3.png"/>
+    <icon src="https://i.imgur.com/6HZlLL3.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCScotland.uk@HDFreeview">
     <display-name>BBC Scotland HD (Freeview)</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/BBC_Scotland_2021_%28channel%29.svg/960px-BBC_Scotland_2021_%28channel%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/BBC_Scotland_2021_%28channel%29.svg/960px-BBC_Scotland_2021_%28channel%29.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2270/premier-sports-2-hd">
@@ -1998,7 +1998,7 @@
   </channel>
   <channel id="TogetherTV.uk@Plus1">
     <display-name>Together TV +1</display-name>
-    <icon src="https://i.imgur.com/wf62HhM.png"/>
+    <icon src="https://i.imgur.com/wf62HhM.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2275/udrama-1">
@@ -2007,7 +2007,7 @@
   </channel>
   <channel id="SkyCrime.uk@HD">
     <display-name>Sky Crime HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2207.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2207.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2296/tnt-sports-box-office-2">
@@ -2016,162 +2016,162 @@
   </channel>
   <channel id="PBSAmerica.uk@Freeview">
     <display-name>PBS America (Freeview)</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/PBS_America_2022.svg/960px-PBS_America_2022.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/PBS_America_2022.svg/960px-PBS_America_2022.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyComedy.uk@SD">
     <display-name>Sky Comedy</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Sky_Comedy_logo_2020.svg/960px-Sky_Comedy_logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Sky_Comedy_logo_2020.svg/960px-Sky_Comedy_logo_2020.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyComedy.uk@HD">
     <display-name>Sky Comedy HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Sky_Comedy_logo_2020.svg/960px-Sky_Comedy_logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Sky_Comedy_logo_2020.svg/960px-Sky_Comedy_logo_2020.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyNature.uk@SD">
     <display-name>Sky Nature</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1194.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1194.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyNature.uk@HD">
     <display-name>Sky Nature HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1194.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1194.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyDocumentaries.uk@SD">
     <display-name>Sky Documentaries</display-name>
-    <icon src="https://i.imgur.com/bCJZZo6.png"/>
+    <icon src="https://i.imgur.com/bCJZZo6.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyDocumentaries.uk@HD">
     <display-name>Sky Documentaries HD</display-name>
-    <icon src="https://i.imgur.com/bCJZZo6.png"/>
+    <icon src="https://i.imgur.com/bCJZZo6.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyCinemaAnimation.uk@SD">
     <display-name>Sky Cinema Animation</display-name>
-    <icon src="https://i.imgur.com/oWQ5qan.png"/>
+    <icon src="https://i.imgur.com/oWQ5qan.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyCinemaAnimation.uk@HD">
     <display-name>Sky Cinema Animation HD</display-name>
-    <icon src="https://i.imgur.com/oWQ5qan.png"/>
+    <icon src="https://i.imgur.com/oWQ5qan.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyMix.uk@HD">
     <display-name>Sky Mix HD</display-name>
-    <icon src="https://i.imgur.com/hHEz5rq.png"/>
+    <icon src="https://i.imgur.com/hHEz5rq.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="GBNews.uk@SD">
     <display-name>GB News</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="GBNews.uk@HD">
     <display-name>GB News HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ColorsGujrati.in@SD">
     <display-name>Colors Gujrati</display-name>
-    <icon src="https://i.imgur.com/xl5o8tD.png"/>
+    <icon src="https://i.imgur.com/xl5o8tD.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="ThatsTV.uk@SD">
     <display-name>That's TV</display-name>
-    <icon src="https://i.imgur.com/rmdfcyG.png"/>
+    <icon src="https://i.imgur.com/rmdfcyG.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyMax.uk@SD">
     <display-name>Sky Max</display-name>
-    <icon src="https://i.imgur.com/yGZnTh7.png"/>
+    <icon src="https://i.imgur.com/yGZnTh7.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyMax.uk@HD">
     <display-name>Sky Max HD</display-name>
-    <icon src="https://i.imgur.com/yGZnTh7.png"/>
+    <icon src="https://i.imgur.com/yGZnTh7.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="PhoenixCNEChannel.hk@HD">
     <display-name>Phoenix CNE Channel HD</display-name>
-    <icon src="https://i.imgur.com/tYr9IVZ.png"/>
+    <icon src="https://i.imgur.com/tYr9IVZ.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@CambridgeshireHD">
     <display-name>BBC One Cambridgeshire HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@ChannelIslandsHD">
     <display-name>BBC One Channel Islands HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@EastHD">
     <display-name>BBC One East HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@EastMidlandsHD">
     <display-name>BBC One East Midlands HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@LondonHD">
     <display-name>BBC One London HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@NorthEastCumbriaHD">
     <display-name>BBC One North East &amp; Cumbria HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@NorthWestHD">
     <display-name>BBC One North West HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@OxfordshireHD">
     <display-name>BBC One Oxfordshire HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@SouthEastHD">
     <display-name>BBC One South East HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@SouthHD">
     <display-name>BBC One South HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@SouthWestHD">
     <display-name>BBC One South West HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@WestHD">
     <display-name>BBC One West HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@WestMidlandsHD">
     <display-name>BBC One West Midlands HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@YorkshireLincolnshireHD">
     <display-name>BBC One Yorkshire &amp; Lincolnshire HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="BBCOne.uk@YorkshireHD">
     <display-name>BBC One Yorkshire HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2377/talk">
@@ -2188,7 +2188,7 @@
   </channel>
   <channel id="SkySportsMainEvent.uk@UltraHDR">
     <display-name>Sky Sports Main Event Ultra HDR</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1301.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1301.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2393/udrama-hd">
@@ -2197,12 +2197,12 @@
   </channel>
   <channel id="SkyKids.uk@SD">
     <display-name>Sky Kids</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1147.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1147.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="SkyKids.uk@HD">
     <display-name>Sky Kids HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1147.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1147.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="WildEarth.uk@SD">
@@ -2223,27 +2223,27 @@
   </channel>
   <channel id="BBCParliament.uk@HD">
     <display-name>BBC Parliament HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/960px-BBC_Parliament_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/960px-BBC_Parliament_Logo.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="QVC.uk@HD">
     <display-name>QVC HD</display-name>
-    <icon src="https://i.imgur.com/6TWUVrh.png"/>
+    <icon src="https://i.imgur.com/6TWUVrh.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="QVCStyle.uk@HD">
     <display-name>QVC Style HD</display-name>
-    <icon src="https://i.imgur.com/6HZlLL3.png"/>
+    <icon src="https://i.imgur.com/6HZlLL3.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="CreateandCraft.uk@HD">
     <display-name>Create &amp; Craft HD</display-name>
-    <icon src="https://i.imgur.com/n65sk4L.png"/>
+    <icon src="https://i.imgur.com/n65sk4L.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="QVC2.uk@SD">
     <display-name>QVC2</display-name>
-    <icon src="https://i.imgur.com/ZBHtqk1.png"/>
+    <icon src="https://i.imgur.com/ZBHtqk1.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2425/cula4">
@@ -2264,7 +2264,7 @@
   </channel>
   <channel id="Cula4.ie@HD">
     <display-name>Cula4 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Cula4_Purple_2022_%281%29.svg/960px-Cula4_Purple_2022_%281%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Cula4_Purple_2022_%281%29.svg/960px-Cula4_Purple_2022_%281%29.svg.png" />
     <url>https://mytelly.co.uk</url>
   </channel>
   <channel id="2442/thats-tv-2">

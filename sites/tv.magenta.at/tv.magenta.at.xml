@@ -1,28 +1,28 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="ORF2Wien.at@HD">
     <display-name>ORF 2 Wien HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/960px-ORF2_logo_n.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/960px-ORF2_logo_n.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SAT1.de@HD">
     <display-name>SAT.1 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Neues_Sat._1_Logo_transparent.png/960px-Neues_Sat._1_Logo_transparent.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Neues_Sat._1_Logo_transparent.png/960px-Neues_Sat._1_Logo_transparent.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="RTLZwei.de@HD">
     <display-name>RTLZWEI HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/960px-RTLZWEI_Logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/960px-RTLZWEI_Logo_2019.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SAT1Gold.de@HD">
     <display-name>SAT.1 Gold HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sat.1_Gold_Logo_2019.svg/960px-Sat.1_Gold_Logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sat.1_Gold_Logo_2019.svg/960px-Sat.1_Gold_Logo_2019.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ZDF.de@HD">
     <display-name>ZDF HD</display-name>
-    <icon src="https://i.imgur.com/rtLb6m9.png"/>
+    <icon src="https://i.imgur.com/rtLb6m9.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206964776235">
@@ -31,37 +31,37 @@
   </channel>
   <channel id="VOX.at@HD">
     <display-name>VOX HD</display-name>
-    <icon src="https://i.imgur.com/QPcmfZb.png"/>
+    <icon src="https://i.imgur.com/QPcmfZb.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ORFIII.at@HD">
     <display-name>ORF III HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/960px-ORF_III_Logo_Monochrom.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/960px-ORF_III_Logo_Monochrom.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="DasErste.de@HD">
     <display-name>Das Erste HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/960px-ARD_Dachmarke_2014.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/960px-ARD_Dachmarke_2014.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="oe24TV.at@HD">
     <display-name>oe24.TV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Oe24TV_Logo_2016.svg/960px-Oe24TV_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Oe24TV_Logo_2016.svg/960px-Oe24TV_Logo_2016.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ntv.at@HD">
     <display-name>n-tv HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N-tv_logo-september2017.svg/960px-N-tv_logo-september2017.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N-tv_logo-september2017.svg/960px-N-tv_logo-september2017.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="R9.at@HD">
     <display-name>R9 HD</display-name>
-    <icon src="https://i.imgur.com/SVJiXxh.png"/>
+    <icon src="https://i.imgur.com/SVJiXxh.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="KurierTV.at@SD">
     <display-name>Kurier TV</display-name>
-    <icon src="https://i.imgur.com/c53h8cz.png"/>
+    <icon src="https://i.imgur.com/c53h8cz.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206965288083">
@@ -70,62 +70,62 @@
   </channel>
   <channel id="ORF1.at@HD">
     <display-name>ORF 1 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ORF_1_2019.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ORF_1_2019.svg" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ATV.at@HD">
     <display-name>ATV HD</display-name>
-    <icon src="https://i.imgur.com/1pA0Tid.png"/>
+    <icon src="https://i.imgur.com/1pA0Tid.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Puls4.at@HD">
     <display-name>PULS 4 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Puls4.svg/960px-Puls4.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Puls4.svg/960px-Puls4.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="RTL.de@HD">
     <display-name>RTL HD</display-name>
-    <icon src="https://i.imgur.com/94K94k2.png"/>
+    <icon src="https://i.imgur.com/94K94k2.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="W24.at@HD">
     <display-name>W24 HD</display-name>
-    <icon src="https://i.imgur.com/FpVNrxk.png"/>
+    <icon src="https://i.imgur.com/FpVNrxk.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Puls24.at@HD">
     <display-name>PULS24 HD</display-name>
-    <icon src="https://i.imgur.com/zem7JQW.png"/>
+    <icon src="https://i.imgur.com/zem7JQW.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Nitro.de@HD">
     <display-name>Nitro HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/960px-Nitro_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/960px-Nitro_Logo.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="kabeleinsDoku.de@HD">
     <display-name>Kabel Eins Doku HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Kabel_eins_Doku_Logo_2016.svg/960px-Kabel_eins_Doku_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Kabel_eins_Doku_Logo_2016.svg/960px-Kabel_eins_Doku_Logo_2016.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="BibelTV.de@HD">
     <display-name>Bibel TV HD</display-name>
-    <icon src="https://i.imgur.com/RLwmrk3.png"/>
+    <icon src="https://i.imgur.com/RLwmrk3.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="DeluxeMusic.de@HD">
     <display-name>Deluxe Music HD</display-name>
-    <icon src="https://i.imgur.com/HimuPPb.png"/>
+    <icon src="https://i.imgur.com/HimuPPb.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="MTV.de@HD">
     <display-name>MTV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ServusTV.at@HD">
     <display-name>Servus TV HD</display-name>
-    <icon src="https://i.imgur.com/6W637Gn.png"/>
+    <icon src="https://i.imgur.com/6W637Gn.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206965800213">
@@ -134,37 +134,37 @@
   </channel>
   <channel id="ATV2.at@HD">
     <display-name>ATV2 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logo_ATV2.svg/960px-Logo_ATV2.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Logo_ATV2.svg/960px-Logo_ATV2.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="sixxAustria.at@HD">
     <display-name>sixx austria HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sixx_Austria_Logo.svg/960px-Sixx_Austria_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sixx_Austria_Logo.svg/960px-Sixx_Austria_Logo.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="N24Doku.de@SD">
     <display-name>N24 doku</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/N24Doku.svg/960px-N24Doku.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/N24Doku.svg/960px-N24Doku.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ZDFneo.de@HD">
     <display-name>ZDFneo HD</display-name>
-    <icon src="https://i.imgur.com/1JIIGgL.png"/>
+    <icon src="https://i.imgur.com/1JIIGgL.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="One.de@HD">
     <display-name>One HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/One_2022.svg/960px-One_2022.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/One_2022.svg/960px-One_2022.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="TLC.de@HD">
     <display-name>TLC HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="arte.de@HD">
     <display-name>arte HD</display-name>
-    <icon src="https://i.imgur.com/ecXMjNl.png"/>
+    <icon src="https://i.imgur.com/ecXMjNl.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206965800334">
@@ -173,12 +173,12 @@
   </channel>
   <channel id="ArcadiaWorldHD.at@SD">
     <display-name>ARCADIA World HD</display-name>
-    <icon src="https://i.imgur.com/pGooWxW.png"/>
+    <icon src="https://i.imgur.com/pGooWxW.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="tagesschau24.de@HD">
     <display-name>tagesschau24 HD</display-name>
-    <icon src="https://i.imgur.com/LH0Gctv.png"/>
+    <icon src="https://i.imgur.com/LH0Gctv.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206965800435">
@@ -187,57 +187,57 @@
   </channel>
   <channel id="RiC.de@SD">
     <display-name>RiC</display-name>
-    <icon src="https://i.imgur.com/4wMZ8Em.png"/>
+    <icon src="https://i.imgur.com/4wMZ8Em.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="RTLup.de@HD">
     <display-name>RTLup HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RTLup_Logo_2021.svg/960px-RTLup_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RTLup_Logo_2021.svg/960px-RTLup_Logo_2021.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ProSiebenMaxx.de@HD">
     <display-name>ProSieben Maxx HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ProSieben_MAXX_Logo.svg/960px-ProSieben_MAXX_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ProSieben_MAXX_Logo.svg/960px-ProSieben_MAXX_Logo.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="DMAX.de@HD">
     <display-name>DMAX HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ComedyCentral.de@HD">
     <display-name>Comedy Central HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="TELE5.de@SD">
     <display-name>TELE 5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tele_5_Logo_2021.svg/500px-Tele_5_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tele_5_Logo_2021.svg/500px-Tele_5_Logo_2021.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="3sat.de@HD">
     <display-name>3sat HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="kronetv.at@HD">
     <display-name>krone.tv HD</display-name>
-    <icon src="https://i.imgur.com/3zN58uH.png"/>
+    <icon src="https://i.imgur.com/3zN58uH.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Okto.at@HD">
     <display-name>Okto HD</display-name>
-    <icon src="https://i.imgur.com/9XfhgbS.png"/>
+    <icon src="https://i.imgur.com/9XfhgbS.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="phoenix.de@HD">
     <display-name>phoenix HD</display-name>
-    <icon src="https://i.imgur.com/T1532t9.png"/>
+    <icon src="https://i.imgur.com/T1532t9.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ZDFinfo.de@HD">
     <display-name>ZDFinfo HD</display-name>
-    <icon src="https://i.imgur.com/vtq1IWp.png"/>
+    <icon src="https://i.imgur.com/vtq1IWp.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206966312109">
@@ -250,42 +250,42 @@
   </channel>
   <channel id="hrfernsehen.de@HD">
     <display-name>hr-fernsehen HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/960px-HR-Fernsehen_Logo_2023.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/960px-HR-Fernsehen_Logo_2023.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="KiKA.de@HD">
     <display-name>KiKA HD</display-name>
-    <icon src="https://i.imgur.com/vZdNp5S.png"/>
+    <icon src="https://i.imgur.com/vZdNp5S.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="DisneyChannel.de@SD">
     <display-name>Disney Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="MelodieTV.at@SD">
     <display-name>Melodie TV</display-name>
-    <icon src="https://i.imgur.com/UzsmVhI.png"/>
+    <icon src="https://i.imgur.com/UzsmVhI.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="QVC.de@HD">
     <display-name>QVC HD</display-name>
-    <icon src="https://i.imgur.com/EybRtsI.png"/>
+    <icon src="https://i.imgur.com/EybRtsI.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="123tv.de@SD">
     <display-name>123.tv</display-name>
-    <icon src="https://i.imgur.com/slSUDNX.png"/>
+    <icon src="https://i.imgur.com/slSUDNX.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="QVCStyle.de@SD">
     <display-name>QVC Style</display-name>
-    <icon src="https://i.imgur.com/DwdkHGj.png"/>
+    <icon src="https://i.imgur.com/DwdkHGj.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Eurosport1.fr@GermanyHD">
     <display-name>Eurosport 1 HD</display-name>
-    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206966312315">
@@ -294,17 +294,17 @@
   </channel>
   <channel id="K19.at@SD">
     <display-name>K19</display-name>
-    <icon src="https://i.imgur.com/l4atkvs.png"/>
+    <icon src="https://i.imgur.com/l4atkvs.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ORF2Karnten.at@HD">
     <display-name>ORF 2 Kärnten HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/960px-ORF2_logo_n.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/960px-ORF2_logo_n.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ARDalpha.de@HD">
     <display-name>ARD alpha HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/960px-ARD_alpha.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/960px-ARD_alpha.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206966823986">
@@ -321,7 +321,7 @@
   </channel>
   <channel id="SRFinfo.ch@HD">
     <display-name>SRF info HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Logo_SRF_info.svg/960px-Logo_SRF_info.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Logo_SRF_info.svg/960px-Logo_SRF_info.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206966824037">
@@ -334,62 +334,62 @@
   </channel>
   <channel id="HSEExtra.de@HD">
     <display-name>HSE Extra HD</display-name>
-    <icon src="https://i.imgur.com/nvMpbip.png"/>
+    <icon src="https://i.imgur.com/nvMpbip.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="HGTV.de@SD">
     <display-name>Home &amp; Garden TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/HGTV_logo.svg/960px-HGTV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/HGTV_logo.svg/960px-HGTV_logo.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ORFSportPlus.at@HD">
     <display-name>ORF Sport+ HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/960px-ORF_Sport%2B.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/960px-ORF_Sport%2B.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="automotorundsportchannel.de@HD">
     <display-name>auto motor und sport channel HD</display-name>
-    <icon src="https://i.imgur.com/o8wOvJ7.png"/>
+    <icon src="https://i.imgur.com/o8wOvJ7.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ORF2Burgenland.at@HD">
     <display-name>ORF 2 Burgenland HD</display-name>
-    <icon src="https://i.imgur.com/qDdVR6E.png"/>
+    <icon src="https://i.imgur.com/qDdVR6E.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ORF2NO.at@HD">
     <display-name>ORF 2 Nö HD</display-name>
-    <icon src="https://i.imgur.com/92yKTOD.png"/>
+    <icon src="https://i.imgur.com/92yKTOD.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ORF2Oberosterreich.at@HD">
     <display-name>ORF 2 Oberösterreich HD</display-name>
-    <icon src="https://i.imgur.com/Zr8Fp8p.png"/>
+    <icon src="https://i.imgur.com/Zr8Fp8p.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ORF2Steiermark.at@HD">
     <display-name>ORF 2 Steiermark HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/960px-ORF2_logo_n.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/960px-ORF2_logo_n.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ORF2Europe.at@SD">
     <display-name>ORF 2 EUROPE</display-name>
-    <icon src="https://i.imgur.com/Hmcl4qR.png"/>
+    <icon src="https://i.imgur.com/Hmcl4qR.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="KT1.at@SD">
     <display-name>KT 1</display-name>
-    <icon src="https://i.imgur.com/SyEqyOI.png"/>
+    <icon src="https://i.imgur.com/SyEqyOI.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="WarnerTVComedy.de@HD">
     <display-name>Warner TV Comedy HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/WarnerTV_Comedy_Logo_2021.svg/960px-WarnerTV_Comedy_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/WarnerTV_Comedy_Logo_2021.svg/960px-WarnerTV_Comedy_Logo_2021.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ProSiebenFun.de@HD">
     <display-name>ProSieben FUN HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ProSieben_FUN_Logo_2021.svg/960px-ProSieben_FUN_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ProSieben_FUN_Logo_2021.svg/960px-ProSieben_FUN_Logo_2021.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206966824417">
@@ -398,42 +398,42 @@
   </channel>
   <channel id="CNNInternational.us@MENA">
     <display-name>CNN International</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="HSE.de@HD">
     <display-name>HSE HD</display-name>
-    <icon src="https://i.imgur.com/IecRNCk.png"/>
+    <icon src="https://i.imgur.com/IecRNCk.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="HSETrend.de@SD">
     <display-name>HSE Trend</display-name>
-    <icon src="https://i.imgur.com/qwh2urX.png"/>
+    <icon src="https://i.imgur.com/qwh2urX.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Sport1Plus.de@HD">
     <display-name>Sport1+ HD</display-name>
-    <icon src="https://i.imgur.com/wt9oQe4.png"/>
+    <icon src="https://i.imgur.com/wt9oQe4.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SportdigitalFUSSBALL.de@HD">
     <display-name>SPORTDIGITAL FUSSBALL HD</display-name>
-    <icon src="https://i.imgur.com/NDbWxqF.png"/>
+    <icon src="https://i.imgur.com/NDbWxqF.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="MotorvisionPlus.de@HD">
     <display-name>Motorvision+ HD</display-name>
-    <icon src="https://i.imgur.com/5cs5GkJ.png"/>
+    <icon src="https://i.imgur.com/5cs5GkJ.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ORF2Tirol.at@HD">
     <display-name>ORF 2 Tirol HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/960px-ORF2_logo_n.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/960px-ORF2_logo_n.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ORF2Vorarlberg.at@HD">
     <display-name>ORF 2 Vorarlberg HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/960px-ORF2_logo_n.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/960px-ORF2_logo_n.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206967847966">
@@ -442,22 +442,22 @@
   </channel>
   <channel id="SkySportNews.de@HD">
     <display-name>Sky Sport News HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/c/cc/Sky_Sport_News_2020.svg/960px-Sky_Sport_News_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/c/cc/Sky_Sport_News_2020.svg/960px-Sky_Sport_News_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Sport1.de@HD">
     <display-name>Sport 1 HD</display-name>
-    <icon src="https://i.imgur.com/Tsjt7v9.png"/>
+    <icon src="https://i.imgur.com/Tsjt7v9.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="eSports1.de@HD">
     <display-name>eSports1 HD</display-name>
-    <icon src="https://i.imgur.com/282zLCo.png"/>
+    <icon src="https://i.imgur.com/282zLCo.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ORF2Salzburg.at@HD">
     <display-name>ORF 2 Salzburg HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/960px-ORF2_logo_n.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/960px-ORF2_logo_n.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206967848295">
@@ -466,117 +466,117 @@
   </channel>
   <channel id="ServusTV.at@SD">
     <display-name>Servus TV</display-name>
-    <icon src="https://i.imgur.com/6W637Gn.png"/>
+    <icon src="https://i.imgur.com/6W637Gn.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="RTL.de@SD">
     <display-name>RTL</display-name>
-    <icon src="https://i.imgur.com/94K94k2.png"/>
+    <icon src="https://i.imgur.com/94K94k2.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="kabeleins.de@SD">
     <display-name>Kabel Eins</display-name>
-    <icon src="https://i.imgur.com/6pulSHZ.png"/>
+    <icon src="https://i.imgur.com/6pulSHZ.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="oe24TV.at@SD">
     <display-name>oe24.TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Oe24TV_Logo_2016.svg/960px-Oe24TV_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Oe24TV_Logo_2016.svg/960px-Oe24TV_Logo_2016.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="kabeleinsDoku.de@SD">
     <display-name>Kabel Eins Doku</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Kabel_eins_Doku_Logo_2016.svg/960px-Kabel_eins_Doku_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Kabel_eins_Doku_Logo_2016.svg/960px-Kabel_eins_Doku_Logo_2016.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Eurosport1.fr@Germany">
     <display-name>Eurosport 1</display-name>
-    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Sport1.de@SD">
     <display-name>Sport 1</display-name>
-    <icon src="https://i.imgur.com/Tsjt7v9.png"/>
+    <icon src="https://i.imgur.com/Tsjt7v9.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="13thStreetUniversal.de@HD">
     <display-name>13TH STREET HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/13th_Street_Universal.svg/500px-13th_Street_Universal.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/13th_Street_Universal.svg/500px-13th_Street_Universal.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="UniversalTV.de@HD">
     <display-name>Universal TV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SYFY.de@HD">
     <display-name>Syfy HD</display-name>
-    <icon src="https://i.imgur.com/4fMWhUE.png"/>
+    <icon src="https://i.imgur.com/4fMWhUE.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="KinoweltTV.de@HD">
     <display-name>Kinowelt TV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Kinowelt_TV_Logo_2020.svg/960px-Kinowelt_TV_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Kinowelt_TV_Logo_2020.svg/960px-Kinowelt_TV_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="RomanceTV.de@HD">
     <display-name>Romance TV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Romance_TV_Logo_10.2019.svg/960px-Romance_TV_Logo_10.2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Romance_TV_Logo_10.2019.svg/960px-Romance_TV_Logo_10.2019.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="TV5MondeEurope.fr@SD">
     <display-name>TV5Monde Europe</display-name>
-    <icon src="https://i.imgur.com/rPAbMSu.png"/>
+    <icon src="https://i.imgur.com/rPAbMSu.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="France24.fr@EnglishHD">
     <display-name>France 24 HD</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ProSieben.de@SD">
     <display-name>ProSieben</display-name>
-    <icon src="https://i.imgur.com/zZOk3nh.png"/>
+    <icon src="https://i.imgur.com/zZOk3nh.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="RTLZwei.de@SD">
     <display-name>RTLZWEI</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/960px-RTLZWEI_Logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/960px-RTLZWEI_Logo_2019.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="kronetv.at@SD">
     <display-name>krone.tv</display-name>
-    <icon src="https://i.imgur.com/3zN58uH.png"/>
+    <icon src="https://i.imgur.com/3zN58uH.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SAT1Gold.de@SD">
     <display-name>Sat.1 Gold</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sat.1_Gold_Logo_2019.svg/960px-Sat.1_Gold_Logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sat.1_Gold_Logo_2019.svg/960px-Sat.1_Gold_Logo_2019.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="sixxAustria.at@SD">
     <display-name>sixx austria</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sixx_Austria_Logo.svg/960px-Sixx_Austria_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sixx_Austria_Logo.svg/960px-Sixx_Austria_Logo.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ComedyCentral.at@SD">
     <display-name>Comedy Central</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/a/a4/Comedy_Central_Austria_2018.png/960px-Comedy_Central_Austria_2018.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/a/a4/Comedy_Central_Austria_2018.png/960px-Comedy_Central_Austria_2018.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Nickelodeon.de@SD">
     <display-name>Nickelodeon</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="W24.at@SD">
     <display-name>W24</display-name>
-    <icon src="https://i.imgur.com/FpVNrxk.png"/>
+    <icon src="https://i.imgur.com/FpVNrxk.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="TirolTV.at@HD">
     <display-name>Tirol TV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/TIROL_TV_Logo_2019.png/960px-TIROL_TV_Logo_2019.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/TIROL_TV_Logo_2019.png/960px-TIROL_TV_Logo_2019.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206969895991">
@@ -585,7 +585,7 @@
   </channel>
   <channel id="EuronewsGerman.fr@HD">
     <display-name>euronews HD</display-name>
-    <icon src="https://i.imgur.com/8t9mdg9.png"/>
+    <icon src="https://i.imgur.com/8t9mdg9.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206969896108">
@@ -594,32 +594,32 @@
   </channel>
   <channel id="Puls4.at@SD">
     <display-name>PULS 4</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Puls4.svg/960px-Puls4.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Puls4.svg/960px-Puls4.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ntv.at@SD">
     <display-name>n-tv</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N-tv_logo-september2017.svg/960px-N-tv_logo-september2017.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N-tv_logo-september2017.svg/960px-N-tv_logo-september2017.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="DMAX.de@SD">
     <display-name>DMAX</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="RTSSvet.rs@HD">
     <display-name>RTS Svet HD</display-name>
-    <icon src="https://i.imgur.com/LjunOdy.png"/>
+    <icon src="https://i.imgur.com/LjunOdy.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="TRTWorld.tr@SD">
     <display-name>TRT World</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="LandleTV.at@HD">
     <display-name>Ländle TV HD</display-name>
-    <icon src="https://i.imgur.com/omLVQ4r.png"/>
+    <icon src="https://i.imgur.com/omLVQ4r.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="206970408253">
@@ -628,92 +628,92 @@
   </channel>
   <channel id="WarnerTVSerie.de@HD">
     <display-name>Warner TV Serie HD</display-name>
-    <icon src="https://i.imgur.com/QZYRu0I.png"/>
+    <icon src="https://i.imgur.com/QZYRu0I.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Heimatkanal.de@SD">
     <display-name>Heimatkanal</display-name>
-    <icon src="https://i.imgur.com/fngeJ3D.png"/>
+    <icon src="https://i.imgur.com/fngeJ3D.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="CNBCEurope.uk@SD">
     <display-name>CNBC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="VOX.at@SD">
     <display-name>VOX</display-name>
-    <icon src="https://i.imgur.com/QPcmfZb.png"/>
+    <icon src="https://i.imgur.com/QPcmfZb.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SAT1.de@SD">
     <display-name>SAT.1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Neues_Sat._1_Logo_transparent.png/960px-Neues_Sat._1_Logo_transparent.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Neues_Sat._1_Logo_transparent.png/960px-Neues_Sat._1_Logo_transparent.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Nitro.de@SD">
     <display-name>Nitro</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/960px-Nitro_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/960px-Nitro_Logo.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="RTLup.de@SD">
     <display-name>RTLup</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RTLup_Logo_2021.svg/960px-RTLup_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RTLup_Logo_2021.svg/960px-RTLup_Logo_2021.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ProSiebenMaxx.de@SD">
     <display-name>ProSieben Maxx</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ProSieben_MAXX_Logo.svg/960px-ProSieben_MAXX_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ProSieben_MAXX_Logo.svg/960px-ProSieben_MAXX_Logo.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="RTLSuper.de@SD">
     <display-name>Super RTL</display-name>
-    <icon src="https://i.imgur.com/KbdK8t9.png"/>
+    <icon src="https://i.imgur.com/KbdK8t9.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="TLC.at@SD">
     <display-name>TLC</display-name>
-    <icon src="https://i.imgur.com/w7W9vqT.png"/>
+    <icon src="https://i.imgur.com/w7W9vqT.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportBundesliga2.de@HD">
     <display-name>Sky Bundesliga HD 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/8/86/Sky_Sport_Bundesliga_2_Logo_2020.png/960px-Sky_Sport_Bundesliga_2_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/8/86/Sky_Sport_Bundesliga_2_Logo_2020.png/960px-Sky_Sport_Bundesliga_2_Logo_2020.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportBundesliga9.de@HD">
     <display-name>Sky Bundesliga HD 9</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/7/70/Sky_Sport_Bundesliga_9_Logo_2020.png/960px-Sky_Sport_Bundesliga_9_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/7/70/Sky_Sport_Bundesliga_9_Logo_2020.png/960px-Sky_Sport_Bundesliga_9_Logo_2020.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportBundesliga4.de@HD">
     <display-name>Sky Bundesliga HD 4</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/f/f6/Sky_Sport_Bundesliga_4_Logo_2020.png/960px-Sky_Sport_Bundesliga_4_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/f/f6/Sky_Sport_Bundesliga_4_Logo_2020.png/960px-Sky_Sport_Bundesliga_4_Logo_2020.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportBundesliga5.de@HD">
     <display-name>Sky Bundesliga HD 5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/c/cd/Sky_Sport_Bundesliga_5_Logo_2020.png/960px-Sky_Sport_Bundesliga_5_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/c/cd/Sky_Sport_Bundesliga_5_Logo_2020.png/960px-Sky_Sport_Bundesliga_5_Logo_2020.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportBundesliga6.de@HD">
     <display-name>Sky Bundesliga HD 6</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/a/ad/Sky_Sport_Bundesliga_6_Logo_2020.png/960px-Sky_Sport_Bundesliga_6_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/a/ad/Sky_Sport_Bundesliga_6_Logo_2020.png/960px-Sky_Sport_Bundesliga_6_Logo_2020.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportBundesliga7.de@HD">
     <display-name>Sky Bundesliga HD 7</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/e/eb/Sky_Sport_Bundesliga_7_Logo_2020.png/960px-Sky_Sport_Bundesliga_7_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/e/eb/Sky_Sport_Bundesliga_7_Logo_2020.png/960px-Sky_Sport_Bundesliga_7_Logo_2020.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportBundesliga8.de@HD">
     <display-name>Sky Bundesliga HD 8</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/4/4f/Sky_Sport_Bundesliga_8_Logo_2020.png/960px-Sky_Sport_Bundesliga_8_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/4/4f/Sky_Sport_Bundesliga_8_Logo_2020.png/960px-Sky_Sport_Bundesliga_8_Logo_2020.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="CartoonNetworkCEE.uk@GermanyHD">
     <display-name>Cartoon Network HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="FixFoxi.de@SD">
@@ -722,32 +722,32 @@
   </channel>
   <channel id="GEOTelevision.de@HD">
     <display-name>GEO Television HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Geo_Television_Logo_2014.svg/960px-Geo_Television_Logo_2014.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Geo_Television_Logo_2014.svg/960px-Geo_Television_Logo_2014.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="FashionTVHD.fr@SD">
     <display-name>Fashion-TV HD</display-name>
-    <icon src="https://i.imgur.com/GFXsreR.png"/>
+    <icon src="https://i.imgur.com/GFXsreR.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportAustria1.at@HD">
     <display-name>Sky Sport Austria 1 HD</display-name>
-    <icon src="https://i.imgur.com/bB0HZDu.png"/>
+    <icon src="https://i.imgur.com/bB0HZDu.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="BloombergTV.us@Europe">
     <display-name>Bloomberg TV</display-name>
-    <icon src="https://i.imgur.com/OuogLHx.png"/>
+    <icon src="https://i.imgur.com/OuogLHx.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="GuteLauneTV.de@SD">
     <display-name>Gute Laune TV</display-name>
-    <icon src="https://i.imgur.com/U7rjU7H.png"/>
+    <icon src="https://i.imgur.com/U7rjU7H.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="PinkMusic.rs@SD">
     <display-name>Pink Music</display-name>
-    <icon src="https://i.imgur.com/nf4bzDG.png"/>
+    <icon src="https://i.imgur.com/nf4bzDG.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="207381032321">
@@ -756,62 +756,62 @@
   </channel>
   <channel id="BonGusto.de@HD">
     <display-name>Bongusto HD</display-name>
-    <icon src="https://i.imgur.com/ASzcxJi.png"/>
+    <icon src="https://i.imgur.com/ASzcxJi.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="StingrayClassica.ca@HD">
     <display-name>Stingray Classica HD</display-name>
-    <icon src="https://i.imgur.com/nh1k5RC.png"/>
+    <icon src="https://i.imgur.com/nh1k5RC.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="History.de@HD">
     <display-name>History HD</display-name>
-    <icon src="https://i.imgur.com/P5aKEES.png"/>
+    <icon src="https://i.imgur.com/P5aKEES.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="RTLLiving.de@HD">
     <display-name>RTL Living HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTL_Living_Logo_2021.svg/960px-RTL_Living_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTL_Living_Logo_2021.svg/960px-RTL_Living_Logo_2021.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="RTLCrime.de@HD">
     <display-name>RTL Crime HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/5/5c/RTL_Crime_%28Netherlands%29_%282023%2C_stacked%29.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/5/5c/RTL_Crime_%28Netherlands%29_%282023%2C_stacked%29.svg" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyCinemaAction.de@HD">
     <display-name>Sky Cinema Action HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Sky_Cinema_Action_-_Logo_2021.svg/960px-Sky_Cinema_Action_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Sky_Cinema_Action_-_Logo_2021.svg/960px-Sky_Cinema_Action_-_Logo_2021.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyAtlantic.de@HD">
     <display-name>Sky Atlantic HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Sky_Atlantic_-_Logo_2020_%28TV_channel%29.svg/960px-Sky_Atlantic_-_Logo_2020_%28TV_channel%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Sky_Atlantic_-_Logo_2020_%28TV_channel%29.svg/960px-Sky_Atlantic_-_Logo_2020_%28TV_channel%29.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyCinemaBestOf.de@HD">
     <display-name>Sky Cinema Best of HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Sky_Cinema_Best_Of_DE_Logo_2020.svg/960px-Sky_Cinema_Best_Of_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Sky_Cinema_Best_Of_DE_Logo_2020.svg/960px-Sky_Cinema_Best_Of_DE_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyCinemaPremieren.de@Plus24HD">
     <display-name>Sky Cinema Premieren +24 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Cinema_Premieren_DE_Logo_2020.svg/960px-Sky_Cinema_Premieren_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Cinema_Premieren_DE_Logo_2020.svg/960px-Sky_Cinema_Premieren_DE_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyCinemaPremieren.de@HD">
     <display-name>Sky Cinema Premieren HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Cinema_Premieren_DE_Logo_2020.svg/960px-Sky_Cinema_Premieren_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Cinema_Premieren_DE_Logo_2020.svg/960px-Sky_Cinema_Premieren_DE_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyKrimi.de@HD">
     <display-name>Sky Krimi HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sky_Krimi_2020.svg/960px-Sky_Krimi_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sky_Krimi_2020.svg/960px-Sky_Krimi_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportMix.de@HD">
     <display-name>Sky Sport Mix HD</display-name>
-    <icon src="https://i.imgur.com/erx02nr.png"/>
+    <icon src="https://i.imgur.com/erx02nr.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="207381032356">
@@ -820,7 +820,7 @@
   </channel>
   <channel id="SkySportTennis.de@HD">
     <display-name>Sky Sport Tennis HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sky_Sport_Tennis.svg/960px-Sky_Sport_Tennis.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sky_Sport_Tennis.svg/960px-Sky_Sport_Tennis.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="207381032385">
@@ -829,12 +829,12 @@
   </channel>
   <channel id="SkyOne.de@HD">
     <display-name>Sky One HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sky_One_-_Logo_2020.png/960px-Sky_One_-_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sky_One_-_Logo_2020.png/960px-Sky_One_-_Logo_2020.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportAustria4.at@HD">
     <display-name>Sky Sport Austria 4 HD</display-name>
-    <icon src="https://i.imgur.com/8S1cmCs.png"/>
+    <icon src="https://i.imgur.com/8S1cmCs.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="207381032388">
@@ -843,12 +843,12 @@
   </channel>
   <channel id="HaberturkTV.tr@SD">
     <display-name>Habertürk TV</display-name>
-    <icon src="https://i.imgur.com/6Tw3rUp.png"/>
+    <icon src="https://i.imgur.com/6Tw3rUp.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyCinemaThriller.de@HD">
     <display-name>Sky Cinema Thriller HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Sky_Cinema_Thriller_DE_Logo_2020.svg/960px-Sky_Cinema_Thriller_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Sky_Cinema_Thriller_DE_Logo_2020.svg/960px-Sky_Cinema_Thriller_DE_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="207381032393">
@@ -857,267 +857,267 @@
   </channel>
   <channel id="DubaiTV.ae@SD">
     <display-name>Dubai TV</display-name>
-    <icon src="https://i.imgur.com/UMmbyHv.png"/>
+    <icon src="https://i.imgur.com/UMmbyHv.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="TVCGMNE.me@SD">
     <display-name>MNE</display-name>
-    <icon src="https://i.imgur.com/pf8VEwf.png"/>
+    <icon src="https://i.imgur.com/pf8VEwf.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Eurosport1.fr@Serbia">
     <display-name>Eurosport 1 Srbija</display-name>
-    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Hayat.ba@SD">
     <display-name>Hayat</display-name>
-    <icon src="https://i.imgur.com/JugiLHM.png"/>
+    <icon src="https://i.imgur.com/JugiLHM.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Duna.hu@SD">
     <display-name>Duna TV</display-name>
-    <icon src="https://i.imgur.com/oPbsSlp.png"/>
+    <icon src="https://i.imgur.com/oPbsSlp.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Klasik.hr@SD">
     <display-name>Klasik TV</display-name>
-    <icon src="https://i.imgur.com/C90BYlb.png"/>
+    <icon src="https://i.imgur.com/C90BYlb.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="TVPPolonia.pl@SD">
     <display-name>TV Polonia</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/960px-TVP_Polonia_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/960px-TVP_Polonia_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="CCTV4Europe.cn@SD">
     <display-name>CCTV4</display-name>
-    <icon src="https://i.imgur.com/HGLFdfk.png"/>
+    <icon src="https://i.imgur.com/HGLFdfk.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="AlJazeera.qa@English">
     <display-name>Al Jazeera</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="MTVHitsEurope.uk@SD">
     <display-name>MTVhits!</display-name>
-    <icon src="https://i.imgur.com/zNscEST.png"/>
+    <icon src="https://i.imgur.com/zNscEST.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="MTV90s.uk@SD">
     <display-name>MTV 90s</display-name>
-    <icon src="https://i.imgur.com/au5zhwP.png"/>
+    <icon src="https://i.imgur.com/au5zhwP.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ClubMTVEurope.uk@SD">
     <display-name>Club MTV</display-name>
-    <icon src="https://i.imgur.com/FD6eQI3.png"/>
+    <icon src="https://i.imgur.com/FD6eQI3.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="CrimePlusInvestigation.de@HD">
     <display-name>Crime + Investigation HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SpiegelGeschichte.de@HD">
     <display-name>Spiegel Geschichte HD</display-name>
-    <icon src="https://i.imgur.com/z2m55no.png"/>
+    <icon src="https://i.imgur.com/z2m55no.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportBundesliga3.de@HD">
     <display-name>Sky Bundesliga HD 3</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/d/de/Sky_Sport_Bundesliga_3_Logo_2020.png/960px-Sky_Sport_Bundesliga_3_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/d/de/Sky_Sport_Bundesliga_3_Logo_2020.png/960px-Sky_Sport_Bundesliga_3_Logo_2020.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportBundesliga1.de@HD">
     <display-name>Sky Bundesliga HD 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/c/ca/Sky_Sport_Bundesliga_2020.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/c/ca/Sky_Sport_Bundesliga_2020.svg" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="MTV80s.uk@SD">
     <display-name>MTV 80s</display-name>
-    <icon src="https://i.imgur.com/N9e5hv5.png"/>
+    <icon src="https://i.imgur.com/N9e5hv5.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="MTV00s.uk@SD">
     <display-name>MTV 00s</display-name>
-    <icon src="https://i.imgur.com/l5wBRfF.png"/>
+    <icon src="https://i.imgur.com/l5wBRfF.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="MTVLive.uk@SD">
     <display-name>MTV live HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/30/MTV_Live_2021_logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/30/MTV_Live_2021_logo.svg" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="PinkPlus.rs@SD">
     <display-name>Pink Plus</display-name>
-    <icon src="https://i.imgur.com/A3D1RZP.png"/>
+    <icon src="https://i.imgur.com/A3D1RZP.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="HRT1.hr@HD">
     <display-name>HRT TV1 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="BBCEntertainment.uk@SD">
     <display-name>BBC Entertainment</display-name>
-    <icon src="https://i.imgur.com/fx2z8M1.png"/>
+    <icon src="https://i.imgur.com/fx2z8M1.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Bergblick.de@SD">
     <display-name>Bergblick</display-name>
-    <icon src="https://i.imgur.com/j5YiyXc.png"/>
+    <icon src="https://i.imgur.com/j5YiyXc.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="RTLPassion.de@HD">
     <display-name>RTL Passion HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/RTL_Passion_Logo_2021.svg/960px-RTL_Passion_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/RTL_Passion_Logo_2021.svg/960px-RTL_Passion_Logo_2021.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyCinemaClassics.de@HD">
     <display-name>Sky Cinema Classics HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sky_Cinema_Classics_DE_Logo_2020.svg/960px-Sky_Cinema_Classics_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sky_Cinema_Classics_DE_Logo_2020.svg/960px-Sky_Cinema_Classics_DE_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyCinemaFun.de@HD">
     <display-name>Sky Cinema Fun HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Sky_Cinema_Fun_DE_Logo_2020.svg/960px-Sky_Cinema_Fun_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Sky_Cinema_Fun_DE_Logo_2020.svg/960px-Sky_Cinema_Fun_DE_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="CuriosityChannel.de@SD">
     <display-name>Curiosity Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Curiosity_Channel_Logo_2023.svg/960px-Curiosity_Channel_Logo_2023.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Curiosity_Channel_Logo_2023.svg/960px-Curiosity_Channel_Logo_2023.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="PinkFilm.rs@SD">
     <display-name>Pink Film</display-name>
-    <icon src="https://i.imgur.com/i6Il48Y.png"/>
+    <icon src="https://i.imgur.com/i6Il48Y.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySport6.de@HD">
     <display-name>Sky Sport HD 6</display-name>
-    <icon src="https://i.imgur.com/WfeyX8D.png"/>
+    <icon src="https://i.imgur.com/WfeyX8D.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="CartoonitoCEE.uk@Germany">
     <display-name>Cartoonito</display-name>
-    <icon src="https://i.imgur.com/9MrzLb1.png"/>
+    <icon src="https://i.imgur.com/9MrzLb1.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySport7.de@HD">
     <display-name>Sky Sport HD 7</display-name>
-    <icon src="https://i.imgur.com/XeflUV9.png"/>
+    <icon src="https://i.imgur.com/XeflUV9.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="kabeleinsClassics.de@HD">
     <display-name>kabel eins CLASSICS HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Kabel_Eins_Classics_2021.svg/960px-Kabel_Eins_Classics_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Kabel_Eins_Classics_2021.svg/960px-Kabel_Eins_Classics_2021.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SAT1emotions.de@HD">
     <display-name>SAT.1 emotions HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/SAT.1_emotions_Logo_2019.png/960px-SAT.1_emotions_Logo_2019.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/SAT.1_emotions_Logo_2019.png/960px-SAT.1_emotions_Logo_2019.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySport8.de@HD">
     <display-name>Sky Sport HD 8</display-name>
-    <icon src="https://i.imgur.com/2YCQyZm.png"/>
+    <icon src="https://i.imgur.com/2YCQyZm.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySport9.de@HD">
     <display-name>Sky Sport HD 9</display-name>
-    <icon src="https://i.imgur.com/NQMl2hn.png"/>
+    <icon src="https://i.imgur.com/NQMl2hn.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySport1.de@HD">
     <display-name>Sky Sport HD 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sky_Sport_1_DE_Logo_2020.svg/960px-Sky_Sport_1_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sky_Sport_1_DE_Logo_2020.svg/960px-Sky_Sport_1_DE_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySport2.de@HD">
     <display-name>Sky Sport HD 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sky_Sport_2_DE_Logo_2020.svg/960px-Sky_Sport_2_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sky_Sport_2_DE_Logo_2020.svg/960px-Sky_Sport_2_DE_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySport3.de@HD">
     <display-name>Sky Sport HD 3</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sky_Sport_3_DE_Logo_2020.svg/960px-Sky_Sport_3_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sky_Sport_3_DE_Logo_2020.svg/960px-Sky_Sport_3_DE_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySport4.de@HD">
     <display-name>Sky Sport HD 4</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Sky_Sport_4_DE_Logo_2020.svg/960px-Sky_Sport_4_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Sky_Sport_4_DE_Logo_2020.svg/960px-Sky_Sport_4_DE_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySport5.de@HD">
     <display-name>Sky Sport HD 5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sky_Sport_5_DE_Logo_2020.svg/960px-Sky_Sport_5_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sky_Sport_5_DE_Logo_2020.svg/960px-Sky_Sport_5_DE_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="NationalGeographic.de@HD">
     <display-name>Nat Geo HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="NationalGeographicWild.de@HD">
     <display-name>Nat Geo Wild HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportBundesliga.de@HD">
     <display-name>Sky Bundesliga HD</display-name>
-    <icon src="https://i.imgur.com/UXtjFtd.png"/>
+    <icon src="https://i.imgur.com/UXtjFtd.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="PinkExtra.rs@SD">
     <display-name>Pink Extra</display-name>
-    <icon src="https://i.imgur.com/CUQEFtP.png"/>
+    <icon src="https://i.imgur.com/CUQEFtP.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyReplay.de@HD">
     <display-name>Sky Replay HD</display-name>
-    <icon src="https://i.imgur.com/YBHWMJ5.png"/>
+    <icon src="https://i.imgur.com/YBHWMJ5.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportAustria2.at@HD">
     <display-name>Sky Sport Austria 2 HD</display-name>
-    <icon src="https://i.imgur.com/hK1hNlT.png"/>
+    <icon src="https://i.imgur.com/hK1hNlT.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportAustria3.at@HD">
     <display-name>Sky Sport Austria 3 HD</display-name>
-    <icon src="https://i.imgur.com/Kq7lhcY.png"/>
+    <icon src="https://i.imgur.com/Kq7lhcY.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyCrime.de@HD">
     <display-name>Sky Crime HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Sky_Crime_logo_2020.svg/960px-Sky_Crime_logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Sky_Crime_logo_2020.svg/960px-Sky_Crime_logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportF1.de@SD">
     <display-name>Sky Sport F1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/960px-Sky_Sport_F1_-_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/960px-Sky_Sport_F1_-_Logo_2020.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="automotorundsportchannel.de@UHD">
     <display-name>auto motor und sport channel UHD</display-name>
-    <icon src="https://i.imgur.com/o8wOvJ7.png"/>
+    <icon src="https://i.imgur.com/o8wOvJ7.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportAustria5.at@HD">
     <display-name>Sky Sport Austria 5 HD</display-name>
-    <icon src="https://i.imgur.com/PnI3ZAB.png"/>
+    <icon src="https://i.imgur.com/PnI3ZAB.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportAustria6.at@HD">
     <display-name>Sky Sport Austria 6 HD</display-name>
-    <icon src="https://i.imgur.com/zNilG3u.png"/>
+    <icon src="https://i.imgur.com/zNilG3u.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportAustria7.at@HD">
     <display-name>Sky Sport Austria 7 HD</display-name>
-    <icon src="https://i.imgur.com/4QH8heA.png"/>
+    <icon src="https://i.imgur.com/4QH8heA.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="224872488137">
@@ -1130,7 +1130,7 @@
   </channel>
   <channel id="HitradioO3.at@SD">
     <display-name>Hitradio Ö3</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hitradio_%C3%963.svg/960px-Hitradio_%C3%963.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hitradio_%C3%963.svg/960px-Hitradio_%C3%963.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="224890919993">
@@ -1383,67 +1383,67 @@
   </channel>
   <channel id="Vesti.rs@SD">
     <display-name>VESTI</display-name>
-    <icon src="https://i.imgur.com/lKYqwJQ.png"/>
+    <icon src="https://i.imgur.com/lKYqwJQ.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="FilmKlub.rs@SD">
     <display-name>Film Klub</display-name>
-    <icon src="https://i.imgur.com/a6Jq6Qg.png"/>
+    <icon src="https://i.imgur.com/a6Jq6Qg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="ToxicTV.rs@HD">
     <display-name>Toxic TV HD</display-name>
-    <icon src="https://i.imgur.com/w6WuWnS.png"/>
+    <icon src="https://i.imgur.com/w6WuWnS.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyNature.de@HD">
     <display-name>Sky Nature HD</display-name>
-    <icon src="https://i.imgur.com/NWKIfXy.png"/>
+    <icon src="https://i.imgur.com/NWKIfXy.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyDocumentaries.de@HD">
     <display-name>Sky Documentaries HD</display-name>
-    <icon src="https://i.imgur.com/WZVLRoz.png"/>
+    <icon src="https://i.imgur.com/WZVLRoz.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="eXXpressTV.at@SD">
     <display-name>eXXpressTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/EXXpress_logo_%282023%29.svg/960px-EXXpress_logo_%282023%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/EXXpress_logo_%282023%29.svg/960px-EXXpress_logo_%282023%29.svg.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="Streamstertv.de@SD">
     <display-name>Streamster.tv</display-name>
-    <icon src="https://i.imgur.com/FFPjs87.png"/>
+    <icon src="https://i.imgur.com/FFPjs87.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportGolf.de@HD">
     <display-name>Sky Sport Golf HD</display-name>
-    <icon src="https://i.imgur.com/nhhbHvs.png"/>
+    <icon src="https://i.imgur.com/nhhbHvs.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportPremierLeague.de@HD">
     <display-name>Sky Sport Premier League HD</display-name>
-    <icon src="https://i.imgur.com/ChWdcRC.png"/>
+    <icon src="https://i.imgur.com/ChWdcRC.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySport10.de@HD">
     <display-name>Sky Sport HD 10</display-name>
-    <icon src="https://i.imgur.com/ZnUAdGj.png"/>
+    <icon src="https://i.imgur.com/ZnUAdGj.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkySportBundesliga10.de@HD">
     <display-name>Sky Bundesliga HD 10</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/2/22/Sky_Sport_Bundesliga_10_Logo_2020.png/960px-Sky_Sport_Bundesliga_10_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/2/22/Sky_Sport_Bundesliga_10_Logo_2020.png/960px-Sky_Sport_Bundesliga_10_Logo_2020.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="SkyShowcase.de@HD">
     <display-name>Sky Showcase HD</display-name>
-    <icon src="https://i.imgur.com/7viaZKs.png"/>
+    <icon src="https://i.imgur.com/7viaZKs.png" />
     <url>https://tv.magenta.at</url>
   </channel>
   <channel id="CrimePlusInvestigation.de@SD">
     <display-name>Crime + Investigation</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg" />
     <url>https://tv.magenta.at</url>
   </channel>
 </tv>

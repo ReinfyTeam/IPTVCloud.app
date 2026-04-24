@@ -1,43 +1,43 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="RoyaTV.jo@SD">
     <display-name>Roya TV</display-name>
-    <icon src="https://i.imgur.com/WX80rty.png"/>
+    <icon src="https://i.imgur.com/WX80rty.png" />
     <url>https://roya-tv.com</url>
   </channel>
   <channel id="RoyaDrama.jo@SD">
     <display-name>Roya Drama</display-name>
-    <icon src="https://i.imgur.com/V7I0MVf.png"/>
+    <icon src="https://i.imgur.com/V7I0MVf.png" />
     <url>https://roya-tv.com</url>
   </channel>
   <channel id="RoyaComedy.jo@SD">
     <display-name>Roya Comedy</display-name>
-    <icon src="https://i.imgur.com/oIThcM8.png"/>
+    <icon src="https://i.imgur.com/oIThcM8.png" />
     <url>https://roya-tv.com</url>
   </channel>
   <channel id="RoyaKitchen.jo@SD">
     <display-name>Roya Kitchen</display-name>
-    <icon src="https://i.imgur.com/lWfh8pP.png"/>
+    <icon src="https://i.imgur.com/lWfh8pP.png" />
     <url>https://roya-tv.com</url>
   </channel>
   <channel id="RoyaKids.jo@SD">
     <display-name>Roya Kids</display-name>
-    <icon src="https://i.imgur.com/acuCGF8.png"/>
+    <icon src="https://i.imgur.com/acuCGF8.png" />
     <url>https://roya-tv.com</url>
   </channel>
   <channel id="RoyaNews.jo@SD">
     <display-name>Roya News</display-name>
-    <icon src="https://i.imgur.com/afowXIe.png"/>
+    <icon src="https://i.imgur.com/afowXIe.png" />
     <url>https://roya-tv.com</url>
   </channel>
   <channel id="RoyaMusic.jo@SD">
     <display-name>Roya Music</display-name>
-    <icon src="https://i.imgur.com/7ixeqBF.png"/>
+    <icon src="https://i.imgur.com/7ixeqBF.png" />
     <url>https://roya-tv.com</url>
   </channel>
   <channel id="RoyaKidsSongs.jo@SD">
     <display-name>Roya Kids Songs</display-name>
-    <icon src="https://i.imgur.com/3wIzEcs.png"/>
+    <icon src="https://i.imgur.com/3wIzEcs.png" />
     <url>https://roya-tv.com</url>
   </channel>
   <channel id="38">

@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="TVDerana.lk@SD">
     <display-name>TV Derana</display-name>
-    <icon src="https://i.imgur.com/vToOI2s.png"/>
+    <icon src="https://i.imgur.com/vToOI2s.png" />
     <url>https://derana.lk</url>
   </channel>
   <programme start="20260422230500 +0000" stop="20260423005500 +0000" channel="TVDerana.lk@SD">

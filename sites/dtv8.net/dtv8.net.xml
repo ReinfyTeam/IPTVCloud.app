@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="DTV8.gy@SD">
     <display-name>DTV-8</display-name>
-    <icon src="https://i.imgur.com/A5r0aZA.png"/>
+    <icon src="https://i.imgur.com/A5r0aZA.png" />
     <url>https://dtv8.net</url>
   </channel>
   <programme start="20260424125500 +0000" stop="20260424130000 +0000" channel="DTV8.gy@SD">

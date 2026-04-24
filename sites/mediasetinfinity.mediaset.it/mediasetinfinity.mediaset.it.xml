@@ -1,68 +1,68 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="Canale5.it@SD">
     <display-name>Canale 5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/960px-Canale_5_-_2018_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/960px-Canale_5_-_2018_logo.svg.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <channel id="Focus.it@SD">
     <display-name>Focus</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/1/11/Focus_Logo.svg/960px-Focus_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/1/11/Focus_Logo.svg/960px-Focus_Logo.svg.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <channel id="Italia1.it@SD">
     <display-name>Italia 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Italia_1_logo.svg/500px-Italia_1_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Italia_1_logo.svg/500px-Italia_1_logo.svg.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <channel id="Italia2.it@SD">
     <display-name>Italia 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_Italia2.svg/960px-Logo_Italia2.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_Italia2.svg/960px-Logo_Italia2.svg.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <channel id="La5.it@SD">
     <display-name>La5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/La5_Mediaset.svg/960px-La5_Mediaset.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/La5_Mediaset.svg/960px-La5_Mediaset.svg.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <channel id="Boing.it@SD">
     <display-name>Boing</display-name>
-    <icon src="https://i.imgur.com/rabKj9i.png"/>
+    <icon src="https://i.imgur.com/rabKj9i.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <channel id="TGCom24.it@SD">
     <display-name>TGCom 24</display-name>
-    <icon src="https://i.imgur.com/fPmvbGH.png"/>
+    <icon src="https://i.imgur.com/fPmvbGH.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <channel id="Iris.it@SD">
     <display-name>Iris</display-name>
-    <icon src="https://i.imgur.com/ZLnSLh4.png"/>
+    <icon src="https://i.imgur.com/ZLnSLh4.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <channel id="MediasetExtra.it@SD">
     <display-name>Mediaset Extra</display-name>
-    <icon src="https://i.imgur.com/G51Lvah.png"/>
+    <icon src="https://i.imgur.com/G51Lvah.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <channel id="Cartoonito.it@SD">
     <display-name>Cartoonito</display-name>
-    <icon src="https://i.imgur.com/6vYWCD0.png"/>
+    <icon src="https://i.imgur.com/6vYWCD0.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <channel id="20.it@SD">
     <display-name>20 Mediaset</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20_Mediaset_2018.svg/960px-20_Mediaset_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20_Mediaset_2018.svg/960px-20_Mediaset_2018.svg.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <channel id="TopCrime.it@SD">
     <display-name>Top Crime</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Top_Crime_-_Logo_2013.svg/960px-Top_Crime_-_Logo_2013.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Top_Crime_-_Logo_2013.svg/960px-Top_Crime_-_Logo_2013.svg.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <channel id="Rete4.it@SD">
     <display-name>Rete 4</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/500px-Rete_4_-_Logo_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/500px-Rete_4_-_Logo_2018.svg.png" />
     <url>https://mediasetinfinity.mediaset.it</url>
   </channel>
   <programme start="20260422232600 +0000" stop="20260423000600 +0000" channel="20.it@SD">

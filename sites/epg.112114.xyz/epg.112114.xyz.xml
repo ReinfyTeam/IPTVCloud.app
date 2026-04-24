@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="4K健身">
     <display-name>4K健身</display-name>
@@ -46,7 +46,7 @@
   </channel>
   <channel id="BRTVArtsChannel.cn@SD">
     <display-name>BTV文艺</display-name>
-    <icon src="https://i.imgur.com/5nimp0q.png"/>
+    <icon src="https://i.imgur.com/5nimp0q.png" />
     <url>https://epg.112114.xyz</url>
   </channel>
   <channel id="BTV新闻">

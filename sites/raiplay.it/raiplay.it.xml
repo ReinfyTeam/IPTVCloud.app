@@ -1,48 +1,48 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="Rai1.it@SD">
     <display-name>RAI 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="Rai2.it@SD">
     <display-name>RAI 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="Rai3.it@HD">
     <display-name>RAI 3</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/960px-Rai_3_-_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/960px-Rai_3_-_Logo_2016.svg.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="Rai4.it@SD">
     <display-name>RAI 4</display-name>
-    <icon src="https://i.imgur.com/sEY21rg.png"/>
+    <icon src="https://i.imgur.com/sEY21rg.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="Rai5.it@SD">
     <display-name>RAI 5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_5_-_Logo_2017.svg/960px-Rai_5_-_Logo_2017.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_5_-_Logo_2017.svg/960px-Rai_5_-_Logo_2017.svg.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="RaiGulp.it@SD">
     <display-name>RAI GULP</display-name>
-    <icon src="https://i.imgur.com/irAhPJM.png"/>
+    <icon src="https://i.imgur.com/irAhPJM.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="RaiMovie.it@SD">
     <display-name>RAI MOVIE</display-name>
-    <icon src="https://i.imgur.com/0FjxXU9.png"/>
+    <icon src="https://i.imgur.com/0FjxXU9.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="RaiNews24.it@SD">
     <display-name>RAI NEWS 24</display-name>
-    <icon src="https://i.imgur.com/n2u57y3.png"/>
+    <icon src="https://i.imgur.com/n2u57y3.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="RaiPremium.it@SD">
     <display-name>RAI PREMIUM</display-name>
-    <icon src="https://i.imgur.com/40g5Urz.png"/>
+    <icon src="https://i.imgur.com/40g5Urz.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="rai-radio-2">
@@ -51,22 +51,22 @@
   </channel>
   <channel id="RaiScuola.it@SD">
     <display-name>RAI SCUOLA</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/960px-Rai_Scuola_-_Logo_2017.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/960px-Rai_Scuola_-_Logo_2017.svg.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="RaiSport.it@SD">
     <display-name>RAI SPORT</display-name>
-    <icon src="https://i.imgur.com/6PEevOM.png"/>
+    <icon src="https://i.imgur.com/6PEevOM.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="RaiStoria.it@SD">
     <display-name>RAI STORIA</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/960px-Rai_Storia_-_Logo_2017.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/960px-Rai_Storia_-_Logo_2017.svg.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="RaiYoyo.it@SD">
     <display-name>RAI YOYO</display-name>
-    <icon src="https://i.imgur.com/9gCxiDy.png"/>
+    <icon src="https://i.imgur.com/9gCxiDy.png" />
     <url>https://raiplay.it</url>
   </channel>
   <channel id="raiplay">

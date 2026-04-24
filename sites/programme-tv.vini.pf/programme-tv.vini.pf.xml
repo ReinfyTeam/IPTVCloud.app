@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="6ter">
     <display-name>6ter</display-name>
@@ -194,7 +194,7 @@
   </channel>
   <channel id="Polynesie1ere.pf@SD">
     <display-name>polynesie 1ere</display-name>
-    <icon src="https://i.imgur.com/9bKS5Yh.png"/>
+    <icon src="https://i.imgur.com/9bKS5Yh.png" />
     <url>https://programme-tv.vini.pf</url>
   </channel>
   <channel id="rmc-decouverte">
@@ -223,7 +223,7 @@
   </channel>
   <channel id="TNTV.pf@SD">
     <display-name>tntv local</display-name>
-    <icon src="https://i.imgur.com/e5eVHam.png"/>
+    <icon src="https://i.imgur.com/e5eVHam.png" />
     <url>https://programme-tv.vini.pf</url>
   </channel>
   <channel id="ushuaia-tv">

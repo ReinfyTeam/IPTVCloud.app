@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="0ecd2d73-178c-43fd-aaa1-a24921cd8920">
     <display-name>laff</display-name>
@@ -6,7 +6,7 @@
   </channel>
   <channel id="PremierFootball.ph@SD">
     <display-name>premierfootball</display-name>
-    <icon src="https://i.imgur.com/lKjXwtG.png"/>
+    <icon src="https://i.imgur.com/lKjXwtG.png" />
     <url>https://tapdmv.com</url>
   </channel>
   <channel id="4c1b2629-0c93-4eb7-96c0-03cc698ae082">
@@ -63,7 +63,7 @@
   </channel>
   <channel id="TAPSports.ph@SD">
     <display-name>tapsports</display-name>
-    <icon src="https://i.imgur.com/4GmuJMD.png"/>
+    <icon src="https://i.imgur.com/4GmuJMD.png" />
     <url>https://tapdmv.com</url>
   </channel>
   <channel id="46549cb5-3908-459f-8350-e9d3d00c7494">
@@ -80,7 +80,7 @@
   </channel>
   <channel id="TAPEdge.ph@SD">
     <display-name>edgesport</display-name>
-    <icon src="https://i.imgur.com/ljey69u.png"/>
+    <icon src="https://i.imgur.com/ljey69u.png" />
     <url>https://tapdmv.com</url>
   </channel>
   <channel id="538051ca-9faf-4a61-b28c-387cc9529971">
@@ -97,7 +97,7 @@
   </channel>
   <channel id="PremierSports.ph@SD">
     <display-name>premiersports1</display-name>
-    <icon src="https://i.imgur.com/BURPHzI.png"/>
+    <icon src="https://i.imgur.com/BURPHzI.png" />
     <url>https://tapdmv.com</url>
   </channel>
   <channel id="a6ce5d86-f87d-4fbd-bba1-9dadfe9f30d7">
@@ -122,7 +122,7 @@
   </channel>
   <channel id="PremierSports2.ph@SD">
     <display-name>premiersports2</display-name>
-    <icon src="https://i.imgur.com/UQeXWd2.png"/>
+    <icon src="https://i.imgur.com/UQeXWd2.png" />
     <url>https://tapdmv.com</url>
   </channel>
   <channel id="dd8792d2-fe27-46e5-87de-36967197cc2d">
@@ -143,7 +143,7 @@
   </channel>
   <channel id="KBSWorld.kr@SD">
     <display-name>kbsworld</display-name>
-    <icon src="https://i.imgur.com/7DqgELX.png"/>
+    <icon src="https://i.imgur.com/7DqgELX.png" />
     <url>https://tapdmv.com</url>
   </channel>
   <channel id="ee09a248-6c17-4424-8aa6-0cf70ebcc308">
@@ -156,7 +156,7 @@
   </channel>
   <channel id="AsianFoodNetwork.sg@SD">
     <display-name>asianfoodchannel</display-name>
-    <icon src="https://i.imgur.com/pux6WN8.png"/>
+    <icon src="https://i.imgur.com/pux6WN8.png" />
     <url>https://tapdmv.com</url>
   </channel>
   <channel id="f19d5e7a-3d27-42a8-aff6-2431138dac38">

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="2">
     <display-name>NBT</display-name>
@@ -6,12 +6,12 @@
   </channel>
   <channel id="ThaiPBS.th@SD">
     <display-name>ThaiPBS</display-name>
-    <icon src="https://i.imgur.com/CwalZjr.png"/>
+    <icon src="https://i.imgur.com/CwalZjr.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="ALTV.th@SD">
     <display-name>ALTV</display-name>
-    <icon src="https://i.imgur.com/MCbCSWv.png"/>
+    <icon src="https://i.imgur.com/MCbCSWv.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="5">
@@ -20,42 +20,42 @@
   </channel>
   <channel id="TSports7.th@SD">
     <display-name>T Sports 7</display-name>
-    <icon src="https://i.imgur.com/KyI0s5n.png"/>
+    <icon src="https://i.imgur.com/KyI0s5n.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="ThaiParliamentTelevision.th@SD">
     <display-name>TPTV</display-name>
-    <icon src="https://i.imgur.com/Okcnmt6.png"/>
+    <icon src="https://i.imgur.com/Okcnmt6.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="TNN16.th@SD">
     <display-name>TNN16</display-name>
-    <icon src="https://i.imgur.com/skpvuKq.png"/>
+    <icon src="https://i.imgur.com/skpvuKq.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="JKN18.th@SD">
     <display-name>JKN 18</display-name>
-    <icon src="https://i.imgur.com/m4nPR2L.png"/>
+    <icon src="https://i.imgur.com/m4nPR2L.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="NationTV.th@SD">
     <display-name>Nation TV</display-name>
-    <icon src="https://i.imgur.com/h3TY38F.png"/>
+    <icon src="https://i.imgur.com/h3TY38F.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="WorkpointTV.th@SD">
     <display-name>Workpoint</display-name>
-    <icon src="https://i.imgur.com/zq6Xshf.png"/>
+    <icon src="https://i.imgur.com/zq6Xshf.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="True4U.th@SD">
     <display-name>True4U</display-name>
-    <icon src="https://i.imgur.com/O6Xre1O.png"/>
+    <icon src="https://i.imgur.com/O6Xre1O.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="GMM25.th@SD">
     <display-name>GMM 25</display-name>
-    <icon src="https://i.imgur.com/uARba6N.png"/>
+    <icon src="https://i.imgur.com/uARba6N.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="27">
@@ -64,12 +64,12 @@
   </channel>
   <channel id="MONO29.th@SD">
     <display-name>Mono 29</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Mono_29_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Mono_29_Logo.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="MCOTHD.th@SD">
     <display-name>MCOT HD</display-name>
-    <icon src="https://i.imgur.com/ejPxGmU.png"/>
+    <icon src="https://i.imgur.com/ejPxGmU.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="31">
@@ -78,7 +78,7 @@
   </channel>
   <channel id="ThairathTV.th@SD">
     <display-name>Thairath TV</display-name>
-    <icon src="https://i.imgur.com/qIorZoy.png"/>
+    <icon src="https://i.imgur.com/qIorZoy.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="33">
@@ -87,7 +87,7 @@
   </channel>
   <channel id="AmarinTV.th@SD">
     <display-name>AmarinTV HD</display-name>
-    <icon src="https://static.wikia.nocookie.net/logopedia/images/f/ff/Amarin_TV_2015.svg/revision/latest/scale-to-width-down/512"/>
+    <icon src="https://static.wikia.nocookie.net/logopedia/images/f/ff/Amarin_TV_2015.svg/revision/latest/scale-to-width-down/512" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="35">
@@ -96,7 +96,7 @@
   </channel>
   <channel id="PPTV.th@SD">
     <display-name>PPTV HD</display-name>
-    <icon src="https://i.imgur.com/GZhuLxL.png"/>
+    <icon src="https://i.imgur.com/GZhuLxL.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="101">
@@ -153,7 +153,7 @@
   </channel>
   <channel id="AlureChannel.th@SD">
     <display-name>A'lure Channel</display-name>
-    <icon src="https://i.imgur.com/HtFecPv.png"/>
+    <icon src="https://i.imgur.com/HtFecPv.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="205">
@@ -178,12 +178,12 @@
   </channel>
   <channel id="Khongdee.th@SD">
     <display-name>Khongdee</display-name>
-    <icon src="https://i.imgur.com/CfLEUYs.png"/>
+    <icon src="https://i.imgur.com/CfLEUYs.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="ThainessTV.th@SD">
     <display-name>Thainess</display-name>
-    <icon src="https://i.imgur.com/q0emHRY.png"/>
+    <icon src="https://i.imgur.com/q0emHRY.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="301">
@@ -228,12 +228,12 @@
   </channel>
   <channel id="Samrujlok.th@SD">
     <display-name>Samrujlok</display-name>
-    <icon src="https://i.imgur.com/rd9j8Kq.png"/>
+    <icon src="https://i.imgur.com/rd9j8Kq.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="MySci.th@SD">
     <display-name>MySci</display-name>
-    <icon src="https://i.imgur.com/YtOxw7n.png"/>
+    <icon src="https://i.imgur.com/YtOxw7n.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="523">
@@ -274,82 +274,82 @@
   </channel>
   <channel id="DLTV1.th@SD">
     <display-name>DLTV 1</display-name>
-    <icon src="https://i.imgur.com/nLzdGeX.png"/>
+    <icon src="https://i.imgur.com/nLzdGeX.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV2.th@SD">
     <display-name>DLTV 2</display-name>
-    <icon src="https://i.imgur.com/lDBSTfE.png"/>
+    <icon src="https://i.imgur.com/lDBSTfE.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV3.th@SD">
     <display-name>DLTV 3</display-name>
-    <icon src="https://i.imgur.com/wmrxerm.png"/>
+    <icon src="https://i.imgur.com/wmrxerm.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV4.th@SD">
     <display-name>DLTV 4</display-name>
-    <icon src="https://i.imgur.com/WkpoQhU.png"/>
+    <icon src="https://i.imgur.com/WkpoQhU.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV5.th@SD">
     <display-name>DLTV 5</display-name>
-    <icon src="https://i.imgur.com/J1E89jX.png"/>
+    <icon src="https://i.imgur.com/J1E89jX.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV6.th@SD">
     <display-name>DLTV 6</display-name>
-    <icon src="https://i.imgur.com/qeIHWC0.png"/>
+    <icon src="https://i.imgur.com/qeIHWC0.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV7.th@SD">
     <display-name>DLTV 7</display-name>
-    <icon src="https://i.imgur.com/OjYwMe3.png"/>
+    <icon src="https://i.imgur.com/OjYwMe3.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV8.th@SD">
     <display-name>DLTV 8</display-name>
-    <icon src="https://i.imgur.com/xIwn5Ha.png"/>
+    <icon src="https://i.imgur.com/xIwn5Ha.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV9.th@SD">
     <display-name>DLTV 9</display-name>
-    <icon src="https://i.imgur.com/yPeSAry.png"/>
+    <icon src="https://i.imgur.com/yPeSAry.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV10.th@SD">
     <display-name>DLTV 10</display-name>
-    <icon src="https://i.imgur.com/TgN81Zr.png"/>
+    <icon src="https://i.imgur.com/TgN81Zr.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV11.th@SD">
     <display-name>DLTV 11</display-name>
-    <icon src="https://i.imgur.com/hFk2b5s.png"/>
+    <icon src="https://i.imgur.com/hFk2b5s.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV12.th@SD">
     <display-name>DLTV 12</display-name>
-    <icon src="https://i.imgur.com/ITt6lY7.png"/>
+    <icon src="https://i.imgur.com/ITt6lY7.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV13.th@SD">
     <display-name>DLTV 13</display-name>
-    <icon src="https://i.imgur.com/asB5w3v.png"/>
+    <icon src="https://i.imgur.com/asB5w3v.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV14.th@SD">
     <display-name>DLTV 14</display-name>
-    <icon src="https://i.imgur.com/HOjZRNS.png"/>
+    <icon src="https://i.imgur.com/HOjZRNS.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="DLTV15.th@SD">
     <display-name>DLTV 15</display-name>
-    <icon src="https://i.imgur.com/onJi2b6.png"/>
+    <icon src="https://i.imgur.com/onJi2b6.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <channel id="ETV.th@SD">
     <display-name>ETV</display-name>
-    <icon src="https://i.imgur.com/HTnQGcs.png"/>
+    <icon src="https://i.imgur.com/HTnQGcs.png" />
     <url>https://gigatv.3bbtv.co.th</url>
   </channel>
   <programme start="20260423000000 +0000" stop="20260423003000 +0000" channel="5">

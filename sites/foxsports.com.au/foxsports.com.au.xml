@@ -1,38 +1,38 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="FoxLeague.au@SD">
     <display-name>FOX League</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Fox_league.svg/960px-Fox_league.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Fox_league.svg/960px-Fox_league.svg.png" />
     <url>https://foxsports.com.au</url>
   </channel>
   <channel id="FoxSports503.au@SD">
     <display-name>FOX Sports 503</display-name>
-    <icon src="https://i.imgur.com/pBY6i2q.png"/>
+    <icon src="https://i.imgur.com/pBY6i2q.png" />
     <url>https://foxsports.com.au</url>
   </channel>
   <channel id="FoxFooty.au@SD">
     <display-name>FOX Footy</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Footy_logo_%282015%29.svg/960px-Fox_Footy_logo_%282015%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Fox_Footy_logo_%282015%29.svg/960px-Fox_Footy_logo_%282015%29.svg.png" />
     <url>https://foxsports.com.au</url>
   </channel>
   <channel id="FoxSports505.au@SD">
     <display-name>FOX Sports 505</display-name>
-    <icon src="https://i.imgur.com/sbooXpg.png"/>
+    <icon src="https://i.imgur.com/sbooXpg.png" />
     <url>https://foxsports.com.au</url>
   </channel>
   <channel id="FoxSports506.au@SD">
     <display-name>FOX Sports 506</display-name>
-    <icon src="https://i.imgur.com/sbooXpg.png"/>
+    <icon src="https://i.imgur.com/sbooXpg.png" />
     <url>https://foxsports.com.au</url>
   </channel>
   <channel id="FoxSportsMorePlus.au@SD">
     <display-name>FOX Sports More</display-name>
-    <icon src="https://i.imgur.com/BPMovOc.png"/>
+    <icon src="https://i.imgur.com/BPMovOc.png" />
     <url>https://foxsports.com.au</url>
   </channel>
   <channel id="FoxCricket.au@SD">
     <display-name>FOX Cricket</display-name>
-    <icon src="https://i.imgur.com/V8hb6tJ.png"/>
+    <icon src="https://i.imgur.com/V8hb6tJ.png" />
     <url>https://foxsports.com.au</url>
   </channel>
 </tv>

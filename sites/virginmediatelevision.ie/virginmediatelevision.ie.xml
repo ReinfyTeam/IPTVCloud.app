@@ -1,28 +1,28 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="VirginMediaOne.ie@SD">
     <display-name>One</display-name>
-    <icon src="https://i.imgur.com/QN0SMt4.png"/>
+    <icon src="https://i.imgur.com/QN0SMt4.png" />
     <url>https://virginmediatelevision.ie</url>
   </channel>
   <channel id="VirginMediaThree.ie@SD">
     <display-name>Three</display-name>
-    <icon src="https://i.imgur.com/lWkazAS.png"/>
+    <icon src="https://i.imgur.com/lWkazAS.png" />
     <url>https://virginmediatelevision.ie</url>
   </channel>
   <channel id="VirginMediaTwo.ie@SD">
     <display-name>Two</display-name>
-    <icon src="https://i.imgur.com/adtqhBy.png"/>
+    <icon src="https://i.imgur.com/adtqhBy.png" />
     <url>https://virginmediatelevision.ie</url>
   </channel>
   <channel id="VirginMediaFour.ie@SD">
     <display-name>Four</display-name>
-    <icon src="https://i.imgur.com/x4VsyIm.png"/>
+    <icon src="https://i.imgur.com/x4VsyIm.png" />
     <url>https://virginmediatelevision.ie</url>
   </channel>
   <channel id="VirginMediaMore.ie@SD">
     <display-name>More</display-name>
-    <icon src="https://i.imgur.com/Fj5wxEv.png"/>
+    <icon src="https://i.imgur.com/Fj5wxEv.png" />
     <url>https://virginmediatelevision.ie</url>
   </channel>
   <programme start="20260423010000 +0000" stop="20260423061500 +0000" channel="VirginMediaFour.ie@SD">

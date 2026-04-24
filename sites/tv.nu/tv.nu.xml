@@ -1,18 +1,18 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="TV3Plus.dk@SD">
     <display-name>3 Plus Danmark</display-name>
-    <icon src="https://i.imgur.com/pj9jZHP.png"/>
+    <icon src="https://i.imgur.com/pj9jZHP.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="3sat.de@SD">
     <display-name>3sat</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="AdultChannel.uk@SD">
     <display-name>Adult Channel</display-name>
-    <icon src="https://i.imgur.com/CLBDM6g.png"/>
+    <icon src="https://i.imgur.com/CLBDM6g.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="adult-channel-nightly">
@@ -21,32 +21,32 @@
   </channel>
   <channel id="AlJazeera.qa@English">
     <display-name>Al Jazeera English</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="AnimalPlanetNordic.uk@SD">
     <display-name>Animal Planet</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="arte.fr@SD">
     <display-name>ARTE</display-name>
-    <icon src="https://i.imgur.com/ecXMjNl.png"/>
+    <icon src="https://i.imgur.com/ecXMjNl.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="ATGLive.se@SD">
     <display-name>ATG Live</display-name>
-    <icon src="https://i.imgur.com/bPWFXkL.png"/>
+    <icon src="https://i.imgur.com/bPWFXkL.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="AxessTV.se@SD">
     <display-name>Axess TV</display-name>
-    <icon src="https://i.imgur.com/cKM7uSR.png"/>
+    <icon src="https://i.imgur.com/cKM7uSR.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="BBCEarth.uk@Nordic">
     <display-name>BBC Earth</display-name>
-    <icon src="https://i.imgur.com/nGSsUd4.png"/>
+    <icon src="https://i.imgur.com/nGSsUd4.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="bbc-news">
@@ -55,7 +55,7 @@
   </channel>
   <channel id="BBCNordic.uk@SD">
     <display-name>BBC Nordic</display-name>
-    <icon src="https://i.imgur.com/pC4pZuz.jpg"/>
+    <icon src="https://i.imgur.com/pC4pZuz.jpg" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="bloomberg-tv-hd-uk">
@@ -64,12 +64,12 @@
   </channel>
   <channel id="BrazzersTVEurope.us@SD">
     <display-name>BraZZers TV Plus</display-name>
-    <icon src="https://i.imgur.com/95nP0Pb.png"/>
+    <icon src="https://i.imgur.com/95nP0Pb.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="SFkanalen.se@SD">
     <display-name>SF-Kanalen</display-name>
-    <icon src="https://i.imgur.com/YpnN63k.png"/>
+    <icon src="https://i.imgur.com/YpnN63k.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="cartoon-network">
@@ -78,7 +78,7 @@
   </channel>
   <channel id="CartoonitoWesternEurope.uk@Sweden">
     <display-name>Cartoonito</display-name>
-    <icon src="https://i.imgur.com/9MrzLb1.png"/>
+    <icon src="https://i.imgur.com/9MrzLb1.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="cbs-reality-mena">
@@ -91,92 +91,92 @@
   </channel>
   <channel id="CGTNDocumentary.cn@SD">
     <display-name>China Global Television Network 9 Documentary</display-name>
-    <icon src="https://i.imgur.com/JHv0WxM.png"/>
+    <icon src="https://i.imgur.com/JHv0WxM.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="ClubMTVEurope.uk@SD">
     <display-name>Club MTV</display-name>
-    <icon src="https://i.imgur.com/FD6eQI3.png"/>
+    <icon src="https://i.imgur.com/FD6eQI3.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="CNBCEurope.uk@SD">
     <display-name>CNBC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="CNNInternational.us@MENA">
     <display-name>CNN International</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="CuriosityChannel.us@SD">
     <display-name>CuriosityStream</display-name>
-    <icon src="https://i.imgur.com/K0kZMYo.png"/>
+    <icon src="https://i.imgur.com/K0kZMYo.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DasErste.de@SD">
     <display-name>Das Erste</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/960px-ARD_Dachmarke_2014.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/960px-ARD_Dachmarke_2014.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DiscoveryChannel.se@SD">
     <display-name>Discovery Channel</display-name>
-    <icon src="https://i.imgur.com/7pmvDqg.png"/>
+    <icon src="https://i.imgur.com/7pmvDqg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DiscoveryPlusExtra1.se@SD">
     <display-name>Discovery+ Extra 1</display-name>
-    <icon src="https://i.imgur.com/O9JdSXT.png"/>
+    <icon src="https://i.imgur.com/O9JdSXT.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DiscoveryPlusExtra2.se@SD">
     <display-name>Discovery+ Extra 2</display-name>
-    <icon src="https://i.imgur.com/SiPFp5T.png"/>
+    <icon src="https://i.imgur.com/SiPFp5T.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DiscoveryPlusExtra3.se@SD">
     <display-name>Discovery+ Extra 3</display-name>
-    <icon src="https://i.imgur.com/u4UlDGk.png"/>
+    <icon src="https://i.imgur.com/u4UlDGk.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DiscoveryPlusExtra4.se@SD">
     <display-name>Discovery+ Extra 4</display-name>
-    <icon src="https://i.imgur.com/u4UlDGk.png"/>
+    <icon src="https://i.imgur.com/u4UlDGk.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DiscoveryPlusExtra5.se@SD">
     <display-name>Discovery+ Extra 5</display-name>
-    <icon src="https://i.imgur.com/u4UlDGk.png"/>
+    <icon src="https://i.imgur.com/u4UlDGk.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DiscoveryPlusExtra6.se@SD">
     <display-name>Discovery+ Extra 6</display-name>
-    <icon src="https://i.imgur.com/u4UlDGk.png"/>
+    <icon src="https://i.imgur.com/u4UlDGk.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DiscoveryPlusExtra7.se@SD">
     <display-name>Discovery+ Extra 7</display-name>
-    <icon src="https://i.imgur.com/u4UlDGk.png"/>
+    <icon src="https://i.imgur.com/u4UlDGk.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DiscoveryPlusExtra8.se@SD">
     <display-name>Discovery+ Extra 8</display-name>
-    <icon src="https://i.imgur.com/u4UlDGk.png"/>
+    <icon src="https://i.imgur.com/u4UlDGk.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DiscoveryScienceEurope.uk@UKHD">
     <display-name>Discovery Science</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DisneyChannelScandinavia.uk@SD">
     <display-name>Disney Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DisneyJuniorScandinavia.uk@SD">
     <display-name>Disney Junior</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="disney-junior-lang-tabla">
@@ -185,52 +185,52 @@
   </channel>
   <channel id="StingrayDJAZZ.ca@SD">
     <display-name>Djazz HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="dk4.dk@SD">
     <display-name>DK4</display-name>
-    <icon src="https://i.imgur.com/eTZ1qdk.png"/>
+    <icon src="https://i.imgur.com/eTZ1qdk.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="dk4.dk@HD">
     <display-name>DK4 HD</display-name>
-    <icon src="https://i.imgur.com/eTZ1qdk.png"/>
+    <icon src="https://i.imgur.com/eTZ1qdk.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DMAX.de@SD">
     <display-name>DMAX</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DR1.dk@SD">
     <display-name>DR1</display-name>
-    <icon src="https://i.imgur.com/OETzsOI.png"/>
+    <icon src="https://i.imgur.com/OETzsOI.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DR2.dk@SD">
     <display-name>DR2</display-name>
-    <icon src="https://i.imgur.com/7bYtukP.png"/>
+    <icon src="https://i.imgur.com/7bYtukP.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DR3.dk@SD">
     <display-name>DR3</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/DR3_Logo_2020.svg/960px-DR3_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/DR3_Logo_2020.svg/960px-DR3_Logo_2020.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DRK.dk@SD">
     <display-name>DR K</display-name>
-    <icon src="https://i.imgur.com/hzVLK9Y.png"/>
+    <icon src="https://i.imgur.com/hzVLK9Y.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DRRamasjang.dk@SD">
     <display-name>DR Ramasjang</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/8/82/DR_Ramasjang_2020.svg/960px-DR_Ramasjang_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/8/82/DR_Ramasjang_2020.svg/960px-DR_Ramasjang_2020.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="DRUltra.dk@SD">
     <display-name>DR Ultra</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/DR_Ultra_Logo_2020.svg/960px-DR_Ultra_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/DR_Ultra_Logo_2020.svg/960px-DR_Ultra_Logo_2020.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="dw">
@@ -239,52 +239,52 @@
   </channel>
   <channel id="EEurope.nl@SD">
     <display-name>E!</display-name>
-    <icon src="https://i.imgur.com/TWFDkap.png"/>
+    <icon src="https://i.imgur.com/TWFDkap.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="eSports1.de@SD">
     <display-name>eSportsone</display-name>
-    <icon src="https://i.imgur.com/282zLCo.png"/>
+    <icon src="https://i.imgur.com/282zLCo.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="EuronewsEnglish.fr@SD">
     <display-name>Euro News</display-name>
-    <icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png"/>
+    <icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Eurosport1.fr@France">
     <display-name>Eurosport 1</display-name>
-    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Eurosport2.fr@France">
     <display-name>Eurosport 2</display-name>
-    <icon src="https://i.imgur.com/f56dHgR.png"/>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="ExtremeSportsChannel.nl@SD">
     <display-name>Extreme Sports Channel</display-name>
-    <icon src="https://i.imgur.com/m7IC01U.png"/>
+    <icon src="https://i.imgur.com/m7IC01U.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="FightSports.us@SD">
     <display-name>Fight Sports</display-name>
-    <icon src="https://i.imgur.com/nV55veq.png"/>
+    <icon src="https://i.imgur.com/nV55veq.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="France2.fr@SD">
     <display-name>France 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="France24.fr@EnglishHD">
     <display-name>France 24 English HD</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="FashionTVEurope.fr@SD">
     <display-name>FTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="FUELTV.at@SD">
@@ -293,32 +293,32 @@
   </channel>
   <channel id="GINXTV.uk@SD">
     <display-name>GINX eSports TV</display-name>
-    <icon src="https://i.imgur.com/diw20TN.png"/>
+    <icon src="https://i.imgur.com/diw20TN.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="GODTV.uk@SD">
     <display-name>GOD TV</display-name>
-    <icon src="https://i.imgur.com/hW4g2oe.png"/>
+    <icon src="https://i.imgur.com/hW4g2oe.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Godare.se@SD">
     <display-name>Godare</display-name>
-    <icon src="https://i.imgur.com/F0k9nIc.png"/>
+    <icon src="https://i.imgur.com/F0k9nIc.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="History2Nordic.us@SD">
     <display-name>H2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="HighTV3D.us@SD">
     <display-name>High TV 3D</display-name>
-    <icon src="https://i.imgur.com/isohJ5Q.png"/>
+    <icon src="https://i.imgur.com/isohJ5Q.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="History.se@HD">
     <display-name>History HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="history-hd-internationell">
@@ -327,77 +327,77 @@
   </channel>
   <channel id="SkyHistory.uk@SD">
     <display-name>History (UK)</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="HorseCountryTV.uk@SD">
     <display-name>Horse &amp; Country TV</display-name>
-    <icon src="https://i.imgur.com/1x6zYZr.png"/>
+    <icon src="https://i.imgur.com/1x6zYZr.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="HRT1.hr@SD">
     <display-name>HRT1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="HustlerHD.nl@SD">
     <display-name>Hustler TV</display-name>
-    <icon src="https://i.imgur.com/41Ej2io.png"/>
+    <icon src="https://i.imgur.com/41Ej2io.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="InvestigationDiscovery.se@SD">
     <display-name>Investigation Discovery</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Kanal4.dk@SD">
     <display-name>Kanal 4</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Kanal_4_Logo_2024.svg/960px-Kanal_4_Logo_2024.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Kanal_4_Logo_2024.svg/960px-Kanal_4_Logo_2024.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Kanal5.se@SD">
     <display-name>Kanal 5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Kanal_5_%26_TV5_Logo_2024.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Kanal_5_%26_TV5_Logo_2024.svg" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Kanal5.dk@SD">
     <display-name>Kanal 5 Danmark</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Kanal_5_%26_TV5_Logo_2024.svg/960px-Kanal_5_%26_TV5_Logo_2024.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Kanal_5_%26_TV5_Logo_2024.svg/960px-Kanal_5_%26_TV5_Logo_2024.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Kanal9.se@SD">
     <display-name>Kanal 9</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/df/Kanal_9_Logo_2024.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/df/Kanal_9_Logo_2024.svg" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Kanal10.se@SD">
     <display-name>Kanal 10</display-name>
-    <icon src="https://i.imgur.com/FGGPANK.png"/>
+    <icon src="https://i.imgur.com/FGGPANK.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Kanal11.se@SD">
     <display-name>Kanal 11</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kanal_11_Logo_2024.svg/960px-Kanal_11_Logo_2024.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kanal_11_Logo_2024.svg/960px-Kanal_11_Logo_2024.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Kunskapskanalen.se@SD">
     <display-name>Kunskapskanalen</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kunskapskanalen_2017.svg/960px-Kunskapskanalen_2017.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kunskapskanalen_2017.svg/960px-Kunskapskanalen_2017.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="LoveNature.ca@4K">
     <display-name>Love Nature 4K UHD</display-name>
-    <icon src="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png"/>
+    <icon src="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Mezzo.fr@SD">
     <display-name>Mezzo</display-name>
-    <icon src="https://i.imgur.com/auNdGeW.png"/>
+    <icon src="https://i.imgur.com/auNdGeW.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="MezzoLive.fr@SD">
     <display-name>Mezzo Live</display-name>
-    <icon src="https://i.imgur.com/H9ytKPN.png"/>
+    <icon src="https://i.imgur.com/H9ytKPN.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="mitteldeutscher-rundfunk">
@@ -406,17 +406,17 @@
   </channel>
   <channel id="Motorvision.de@SD">
     <display-name>Motorvision TV</display-name>
-    <icon src="https://i.imgur.com/v4kj8pI.png"/>
+    <icon src="https://i.imgur.com/v4kj8pI.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="MTVGlobal.uk@SD">
     <display-name>MTV</display-name>
-    <icon src="https://i.imgur.com/n2BoU7Q.png"/>
+    <icon src="https://i.imgur.com/n2BoU7Q.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="MTV3.fi@SD">
     <display-name>MTV3</display-name>
-    <icon src="https://i.imgur.com/C5rQbBM.png"/>
+    <icon src="https://i.imgur.com/C5rQbBM.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="mtv-00s-europe">
@@ -425,37 +425,37 @@
   </channel>
   <channel id="MTV80s.uk@SD">
     <display-name>MTV 80s</display-name>
-    <icon src="https://i.imgur.com/N9e5hv5.png"/>
+    <icon src="https://i.imgur.com/N9e5hv5.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="MTV90s.uk@SD">
     <display-name>MTV 90s</display-name>
-    <icon src="https://i.imgur.com/au5zhwP.png"/>
+    <icon src="https://i.imgur.com/au5zhwP.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="MTVAitio.se@SD">
     <display-name>MTV Aitio</display-name>
-    <icon src="https://i.imgur.com/jRXC7oh.png"/>
+    <icon src="https://i.imgur.com/jRXC7oh.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="MTVHitsEurope.uk@SD">
     <display-name>MTV Hits</display-name>
-    <icon src="https://i.imgur.com/zNscEST.png"/>
+    <icon src="https://i.imgur.com/zNscEST.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="MTVLive.uk@SD">
     <display-name>MTV Live HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/30/MTV_Live_2021_logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/30/MTV_Live_2021_logo.svg" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="MTVViihde.se@SD">
     <display-name>MTV Viihde</display-name>
-    <icon src="https://i.imgur.com/gW2qMCs.png"/>
+    <icon src="https://i.imgur.com/gW2qMCs.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="NationalGeographic.se@SD">
     <display-name>National Geographic</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="national-geographic-3">
@@ -472,32 +472,32 @@
   </channel>
   <channel id="NationalGeographicWild.se@SD">
     <display-name>National Geographic Wild</display-name>
-    <icon src="https://i.imgur.com/MFeyj6q.png"/>
+    <icon src="https://i.imgur.com/MFeyj6q.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="NauticalChannel.it@SD">
     <display-name>Nautical Channel</display-name>
-    <icon src="https://i.imgur.com/2ByDyzL.png"/>
+    <icon src="https://i.imgur.com/2ByDyzL.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Nelonen.fi@SD">
     <display-name>Nelonen</display-name>
-    <icon src="https://i.imgur.com/BFbCyfY.png"/>
+    <icon src="https://i.imgur.com/BFbCyfY.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="NFLNetwork.us@SD">
     <display-name>NFL Network</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="NHKWorldJapan.jp@SD">
     <display-name>NHK World Europe</display-name>
-    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png"/>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="NickJrScandinavia.nl@SD">
     <display-name>Nick JR</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="nick-jr-lang-tabla">
@@ -506,142 +506,142 @@
   </channel>
   <channel id="NickelodeonScandinavia.nl@SD">
     <display-name>Nickelodeon</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="NicktoonsScandinavia.nl@SD">
     <display-name>Nicktoons</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="NRK1.no@SD">
     <display-name>NRK1</display-name>
-    <icon src="https://i.imgur.com/9tj8ds7.png"/>
+    <icon src="https://i.imgur.com/9tj8ds7.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="NRK2.no@SD">
     <display-name>NRK2</display-name>
-    <icon src="https://i.imgur.com/SiAdoK9.png"/>
+    <icon src="https://i.imgur.com/SiAdoK9.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="NRK3.no@SD">
     <display-name>NRK3</display-name>
-    <icon src="https://i.imgur.com/TNhV2I7.png"/>
+    <icon src="https://i.imgur.com/TNhV2I7.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="NRKSuperNRK3.no@HD">
     <display-name>NRK Super / NRK3 HD</display-name>
-    <icon src="https://i.imgur.com/q5mpbzD.png"/>
+    <icon src="https://i.imgur.com/q5mpbzD.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="OUTtv.nl@SD">
     <display-name>OUTtv</display-name>
-    <icon src="https://i.imgur.com/QlUWNSU.png"/>
+    <icon src="https://i.imgur.com/QlUWNSU.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="PenthouseHD1.us@SD">
     <display-name>Penthouse HD 1</display-name>
-    <icon src="https://i.imgur.com/nOwGOL8.png"/>
+    <icon src="https://i.imgur.com/nOwGOL8.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="PenthouseHD2.us@SD">
     <display-name>Penthouse HD 2</display-name>
-    <icon src="https://i.imgur.com/laGTKSg.png"/>
+    <icon src="https://i.imgur.com/laGTKSg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="PinkPlus.rs@SD">
     <display-name>Pink Plus</display-name>
-    <icon src="https://i.imgur.com/A3D1RZP.png"/>
+    <icon src="https://i.imgur.com/A3D1RZP.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="PlayboyTVEurope.us@SD">
     <display-name>Playboy TV Europe</display-name>
-    <icon src="https://i.imgur.com/5di4Nis.png"/>
+    <icon src="https://i.imgur.com/5di4Nis.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="ProSieben.de@SD">
     <display-name>ProSieben</display-name>
-    <icon src="https://i.imgur.com/zZOk3nh.png"/>
+    <icon src="https://i.imgur.com/zZOk3nh.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Rai1.it@SD">
     <display-name>Rai 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Rai2.it@SD">
     <display-name>Rai 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="RTL.de@SD">
     <display-name>RTL</display-name>
-    <icon src="https://i.imgur.com/94K94k2.png"/>
+    <icon src="https://i.imgur.com/94K94k2.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="RTLZwei.de@SD">
     <display-name>RTLZWEI</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/960px-RTLZWEI_Logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/960px-RTLZWEI_Logo_2019.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="Sjuan.se@SD">
     <display-name>Sjuan</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sjuan_2018.svg/960px-Sjuan_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sjuan_2018.svg/960px-Sjuan_2018.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="SkyNewsInternational.uk@SD">
     <display-name>Sky News</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/5/57/Sky_News_logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/5/57/Sky_News_logo.svg" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="SkyShowtime1.se@SD">
     <display-name>SkyShowtime 1</display-name>
-    <icon src="https://i.imgur.com/Dw9Yv9P.png"/>
+    <icon src="https://i.imgur.com/Dw9Yv9P.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="SkyShowtime2.se@SD">
     <display-name>SkyShowtime 2</display-name>
-    <icon src="https://i.imgur.com/mgiHnYW.png"/>
+    <icon src="https://i.imgur.com/mgiHnYW.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="StingrayClassica.ca@SD">
     <display-name>Stingray Classica</display-name>
-    <icon src="https://i.imgur.com/nh1k5RC.png"/>
+    <icon src="https://i.imgur.com/nh1k5RC.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="RTLSuper.de@SD">
     <display-name>Super RTL</display-name>
-    <icon src="https://i.imgur.com/KbdK8t9.png"/>
+    <icon src="https://i.imgur.com/KbdK8t9.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="SVT1.se@SD">
     <display-name>SVT1</display-name>
-    <icon src="https://i.imgur.com/j6KusQX.png"/>
+    <icon src="https://i.imgur.com/j6KusQX.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="SVT2.se@SD">
     <display-name>SVT2</display-name>
-    <icon src="https://i.imgur.com/pGWvCxp.png"/>
+    <icon src="https://i.imgur.com/pGWvCxp.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="SVT24.se@SD">
     <display-name>SVT24</display-name>
-    <icon src="https://i.imgur.com/Ms6qYIV.png"/>
+    <icon src="https://i.imgur.com/Ms6qYIV.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="SVTBarn.se@SD">
     <display-name>SVT Barn</display-name>
-    <icon src="https://i.imgur.com/ibA8mzG.png"/>
+    <icon src="https://i.imgur.com/ibA8mzG.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TLC.se@SD">
     <display-name>TLC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TraceUrban.fr@SD">
     <display-name>Trace Urban HD</display-name>
-    <icon src="https://i.imgur.com/DLIbUMx.png"/>
+    <icon src="https://i.imgur.com/DLIbUMx.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TravelChannelEMEA.uk@SD">
@@ -650,107 +650,107 @@
   </channel>
   <channel id="TV2.dk@SD">
     <display-name>TV2</display-name>
-    <icon src="https://i.imgur.com/IZTe8ms.png"/>
+    <icon src="https://i.imgur.com/IZTe8ms.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV2Direkte.no@SD">
     <display-name>TV2 (Norge)</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/TV_2_Direkte_%282022-%29.svg/960px-TV_2_Direkte_%282022-%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/TV_2_Direkte_%282022-%29.svg/960px-TV_2_Direkte_%282022-%29.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV3.se@SD">
     <display-name>TV3</display-name>
-    <icon src="https://i.imgur.com/oysCIiw.png"/>
+    <icon src="https://i.imgur.com/oysCIiw.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV3Plus.no@SD">
     <display-name>TV3+</display-name>
-    <icon src="https://i.imgur.com/QJdfJKx.png"/>
+    <icon src="https://i.imgur.com/QJdfJKx.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV3.dk@SD">
     <display-name>TV3 Danmark</display-name>
-    <icon src="https://i.imgur.com/sCr0h4N.png"/>
+    <icon src="https://i.imgur.com/sCr0h4N.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV3.no@SD">
     <display-name>TV3 Norge</display-name>
-    <icon src="https://i.imgur.com/SAQHN12.png"/>
+    <icon src="https://i.imgur.com/SAQHN12.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4.se@SD">
     <display-name>TV4</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/TV4sweden_logo.svg/960px-TV4sweden_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/TV4sweden_logo.svg/960px-TV4sweden_logo.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4Fakta.se@SD">
     <display-name>TV4 Fakta</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/ef/TV4_Fakta_Logo_2023.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/ef/TV4_Fakta_Logo_2023.svg" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4Film.se@SD">
     <display-name>TV4 Film</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/ac/TV4_Film_Logo_2023.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/ac/TV4_Film_Logo_2023.svg" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4Fotboll.se@SD">
     <display-name>TV4 Fotboll</display-name>
-    <icon src="https://i.imgur.com/k83j0Nl.png"/>
+    <icon src="https://i.imgur.com/k83j0Nl.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4Guld.se@SD">
     <display-name>TV4 Guld</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/c/c1/TV4_Guld_Logo_2023.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/c/c1/TV4_Guld_Logo_2023.svg" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4Hits.se@SD">
     <display-name>TV4 Hits</display-name>
-    <icon src="https://i.imgur.com/EPYOSwZ.png"/>
+    <icon src="https://i.imgur.com/EPYOSwZ.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4Hockey.se@SD">
     <display-name>TV4 Hockey</display-name>
-    <icon src="https://i.imgur.com/GZ0rLfa.png"/>
+    <icon src="https://i.imgur.com/GZ0rLfa.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4Motor.se@SD">
     <display-name>TV4 Motor</display-name>
-    <icon src="https://i.imgur.com/IWEOuwZ.png"/>
+    <icon src="https://i.imgur.com/IWEOuwZ.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4SportLive1.se@SD">
     <display-name>TV4 Sport Live 1</display-name>
-    <icon src="https://i.imgur.com/rveZPpn.png"/>
+    <icon src="https://i.imgur.com/rveZPpn.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4SportLive2.se@SD">
     <display-name>TV4 Sport Live 2</display-name>
-    <icon src="https://i.imgur.com/a59DoEM.png"/>
+    <icon src="https://i.imgur.com/a59DoEM.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4SportLive3.se@SD">
     <display-name>TV4 Sport Live 3</display-name>
-    <icon src="https://i.imgur.com/zkPpXQB.png"/>
+    <icon src="https://i.imgur.com/zkPpXQB.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4SportLive4.se@SD">
     <display-name>TV4 Sport Live 4</display-name>
-    <icon src="https://i.imgur.com/KBHOg6D.png"/>
+    <icon src="https://i.imgur.com/KBHOg6D.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4Sportkanalen.se@SD">
     <display-name>TV4 Sportkanalen</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/TV4_Sportkanalen_Logo_2023.svg/960px-TV4_Sportkanalen_Logo_2023.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/TV4_Sportkanalen_Logo_2023.svg/960px-TV4_Sportkanalen_Logo_2023.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4Stars.se@SD">
     <display-name>TV4 Stars</display-name>
-    <icon src="https://i.imgur.com/Sn7QnZa.png"/>
+    <icon src="https://i.imgur.com/Sn7QnZa.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV4Tennis.se@SD">
     <display-name>TV4 Tennis</display-name>
-    <icon src="https://i.imgur.com/ZW4rCG1.png"/>
+    <icon src="https://i.imgur.com/ZW4rCG1.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="tv5-hd">
@@ -759,42 +759,42 @@
   </channel>
   <channel id="TV5MondeEurope.fr@SD">
     <display-name>TV5 Monde Europe</display-name>
-    <icon src="https://i.imgur.com/rPAbMSu.png"/>
+    <icon src="https://i.imgur.com/rPAbMSu.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV6.se@SD">
     <display-name>TV6</display-name>
-    <icon src="https://i.imgur.com/a9mMd2Q.png"/>
+    <icon src="https://i.imgur.com/a9mMd2Q.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV8.se@SD">
     <display-name>TV8</display-name>
-    <icon src="https://i.imgur.com/OiUyVUx.png"/>
+    <icon src="https://i.imgur.com/OiUyVUx.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV10.se@SD">
     <display-name>TV10</display-name>
-    <icon src="https://i.imgur.com/unjaCJ6.png"/>
+    <icon src="https://i.imgur.com/unjaCJ6.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TV12.se@SD">
     <display-name>TV12</display-name>
-    <icon src="https://i.imgur.com/ocrwbth.png"/>
+    <icon src="https://i.imgur.com/ocrwbth.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TVChile.cl@SD">
     <display-name>TV Chile</display-name>
-    <icon src="https://i.imgur.com/oYFto0V.png"/>
+    <icon src="https://i.imgur.com/oYFto0V.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TVFinland.fi@SD">
     <display-name>TV Finland</display-name>
-    <icon src="https://i.imgur.com/KXWjONv.png"/>
+    <icon src="https://i.imgur.com/KXWjONv.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TVNorge.no@HD">
     <display-name>TV Norge HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/TVNorge_Logo_2024.svg/960px-TVNorge_Logo_2024.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/TVNorge_Logo_2024.svg/960px-TVNorge_Logo_2024.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TVEInternacionalEuropeAsia.es@SD">
@@ -803,47 +803,47 @@
   </channel>
   <channel id="TVPPolonia.pl@SD">
     <display-name>TVP Polonia</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/960px-TVP_Polonia_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/960px-TVP_Polonia_Logo_2020.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VFilmAction.se@SD">
     <display-name>V Film Action</display-name>
-    <icon src="https://i.imgur.com/So0mOF8.png"/>
+    <icon src="https://i.imgur.com/So0mOF8.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VFilmFamily.se@SD">
     <display-name>V Film Family</display-name>
-    <icon src="https://i.imgur.com/K6fQ8pe.png"/>
+    <icon src="https://i.imgur.com/K6fQ8pe.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VFilmHits.se@SD">
     <display-name>V Film Hits</display-name>
-    <icon src="https://i.imgur.com/ga6EOsb.png"/>
+    <icon src="https://i.imgur.com/ga6EOsb.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VFilmPremiere.se@SD">
     <display-name>V Film Premiere</display-name>
-    <icon src="https://i.imgur.com/QdFKe21.png"/>
+    <icon src="https://i.imgur.com/QdFKe21.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSeries.se@SD">
     <display-name>V Series</display-name>
-    <icon src="https://i.imgur.com/IXWuXB0.png"/>
+    <icon src="https://i.imgur.com/IXWuXB0.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSport1.se@Sweden">
     <display-name>V Sport 1</display-name>
-    <icon src="https://i.imgur.com/ERWOdjs.png"/>
+    <icon src="https://i.imgur.com/ERWOdjs.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSportExtra.se@SD">
     <display-name>V Sport Extra</display-name>
-    <icon src="https://i.imgur.com/xwdHxtk.png"/>
+    <icon src="https://i.imgur.com/xwdHxtk.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSportFootball.se@SD">
     <display-name>V Sport Football</display-name>
-    <icon src="https://i.imgur.com/8zupSOw.png"/>
+    <icon src="https://i.imgur.com/8zupSOw.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="v-sport-football-live-1">
@@ -860,107 +860,107 @@
   </channel>
   <channel id="VSportGolf.se@SD">
     <display-name>V Sport Golf</display-name>
-    <icon src="https://i.imgur.com/wCw8Pmz.png"/>
+    <icon src="https://i.imgur.com/wCw8Pmz.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSportLive1.se@SD">
     <display-name>V Sport Live 1</display-name>
-    <icon src="https://i.imgur.com/KGm37xW.png"/>
+    <icon src="https://i.imgur.com/KGm37xW.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSportLive2.se@SD">
     <display-name>V Sport Live 2</display-name>
-    <icon src="https://i.imgur.com/mrYUeKy.png"/>
+    <icon src="https://i.imgur.com/mrYUeKy.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSportLive3.se@SD">
     <display-name>V Sport Live 3</display-name>
-    <icon src="https://i.imgur.com/enr8IAy.png"/>
+    <icon src="https://i.imgur.com/enr8IAy.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSportLive4.se@SD">
     <display-name>V Sport Live 4</display-name>
-    <icon src="https://i.imgur.com/yjIXL9k.png"/>
+    <icon src="https://i.imgur.com/yjIXL9k.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSportLive5.se@SD">
     <display-name>V Sport Live 5</display-name>
-    <icon src="https://i.imgur.com/DToZTJK.png"/>
+    <icon src="https://i.imgur.com/DToZTJK.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSportMotor.se@SD">
     <display-name>V Sport Motor</display-name>
-    <icon src="https://i.imgur.com/zspl8AY.png"/>
+    <icon src="https://i.imgur.com/zspl8AY.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSportPremium.se@SD">
     <display-name>V Sport Premium</display-name>
-    <icon src="https://i.imgur.com/BGXq2a4.png"/>
+    <icon src="https://i.imgur.com/BGXq2a4.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSportUltraHD.se@SD">
     <display-name>V Sport Ultra HD</display-name>
-    <icon src="https://i.imgur.com/17OHnMi.png"/>
+    <icon src="https://i.imgur.com/17OHnMi.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VSportVinter.se@SD">
     <display-name>V Sport Vinter</display-name>
-    <icon src="https://i.imgur.com/1vtjktv.png"/>
+    <icon src="https://i.imgur.com/1vtjktv.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="ViasatExplore.se@SD">
     <display-name>Viasat Explore</display-name>
-    <icon src="https://i.imgur.com/DyT5pKB.png"/>
+    <icon src="https://i.imgur.com/DyT5pKB.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="ViasatHistory.se@SD">
     <display-name>Viasat History</display-name>
-    <icon src="https://i.imgur.com/wRP9XA7.png"/>
+    <icon src="https://i.imgur.com/wRP9XA7.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="ViasatNature.se@SD">
     <display-name>Viasat Nature</display-name>
-    <icon src="https://i.imgur.com/ousRqqD.png"/>
+    <icon src="https://i.imgur.com/ousRqqD.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="vijuPlusSport.ru@SD">
     <display-name>Viasat Sport HD</display-name>
-    <icon src="https://i.imgur.com/fXESG0l.png"/>
+    <icon src="https://i.imgur.com/fXESG0l.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="TVVisionSverige.se@SD">
     <display-name>Vision Sverige</display-name>
-    <icon src="https://i.imgur.com/nYtwG8h.png"/>
+    <icon src="https://i.imgur.com/nYtwG8h.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="VOX.de@SD">
     <display-name>VOX</display-name>
-    <icon src="https://i.imgur.com/QPcmfZb.png"/>
+    <icon src="https://i.imgur.com/QPcmfZb.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="WildTV.ca@SD">
     <display-name>WILD TV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Wild_TV_logo_2020.png/960px-Wild_TV_logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Wild_TV_logo_2020.png/960px-Wild_TV_logo_2020.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="YleTeemaFem.fi@SD">
     <display-name>Yle Teema &amp; Fem</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Yle_Teema_%26_Fem.svg/960px-Yle_Teema_%26_Fem.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Yle_Teema_%26_Fem.svg/960px-Yle_Teema_%26_Fem.svg.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="YleTV1.fi@SD">
     <display-name>Yle TV1</display-name>
-    <icon src="https://i.imgur.com/6yXZwUL.png"/>
+    <icon src="https://i.imgur.com/6yXZwUL.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="YleTV2.fi@SD">
     <display-name>Yle TV2</display-name>
-    <icon src="https://i.imgur.com/4xkc6PL.png"/>
+    <icon src="https://i.imgur.com/4xkc6PL.png" />
     <url>https://tv.nu</url>
   </channel>
   <channel id="ZDF.de@SD">
     <display-name>ZDF</display-name>
-    <icon src="https://i.imgur.com/rtLb6m9.png"/>
+    <icon src="https://i.imgur.com/rtLb6m9.png" />
     <url>https://tv.nu</url>
   </channel>
   <programme start="20260423133000 +0000" stop="20260423141500 +0000" channel="3sat.de@SD">

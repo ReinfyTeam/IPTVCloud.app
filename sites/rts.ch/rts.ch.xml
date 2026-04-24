@@ -1,749 +1,749 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="RTS1.ch@SD">
     <display-name>RTS 1</display-name>
-    <icon src="https://i.imgur.com/OP5lHv9.png"/>
+    <icon src="https://i.imgur.com/OP5lHv9.png" />
     <url>https://rts.ch</url>
   </channel>
   <channel id="RTS2.ch@SD">
     <display-name>RTS 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/RTS_2_logo_2019.svg/960px-RTS_2_logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/RTS_2_logo_2019.svg/960px-RTS_2_logo_2019.svg.png" />
     <url>https://rts.ch</url>
   </channel>
   <channel id="RTSInfo.ch@SD">
     <display-name>RTS Info</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/switzerland/rts-info-ch.png"/>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/switzerland/rts-info-ch.png" />
     <url>https://rts.ch</url>
   </channel>
   <programme start="20260422232000 +0000" stop="20260422233700 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260422234000 +0000" stop="20260423001100 +0000" channel="RTS1.ch@SD">
     <title lang="fr">19h30</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1035156"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1035156" />
   </programme>
   <programme start="20260423001200 +0000" stop="20260423001330 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664" />
   </programme>
   <programme start="20260423001300 +0000" stop="20260423012831 +0000" channel="RTS1.ch@SD">
     <title lang="fr">36.9°</title>
     <desc lang="fr">36.9° correspond à la température moyenne du corps quand il se trouve au calme et – en bonne santé – elle définit la santé comme une recherche permanente d'équilibre. Tout comme ce magazine santé de la RTS.</desc>
     <category lang="fr">Magazine</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1917543"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1917543" />
   </programme>
   <programme start="20260423012500 +0000" stop="20260423014200 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260423014500 +0000" stop="20260423021600 +0000" channel="RTS1.ch@SD">
     <title lang="fr">19h30</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1035156"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1035156" />
   </programme>
   <programme start="20260423021700 +0000" stop="20260423021830 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664" />
   </programme>
   <programme start="20260423021800 +0000" stop="20260423033331 +0000" channel="RTS1.ch@SD">
     <title lang="fr">36.9°</title>
     <sub-title lang="fr">Santé : 20 ans de métamorphoses</sub-title>
     <desc lang="fr">Des jeunes dans leur 20ène au cœur du magazine santé. Des jeunes qui se destinent à des métiers du soin et qui sont nés à peu près en même temps que 36.9°. Quel est leur regard sur les progrès de la médecine de ces 20 dernières années, mais aussi sur les crises sanitaires et leur avenir dans ces professions du souci de l’autre ? Nous les entendrons entre des extraits d’une rétrospective de 20 ans d’enquêtes et de reportages. Une soirée spéciale pleine d’images et de témoignages pour marquer les 20 ans du mag santé, ce sera mercredi 22 avril à 20h10 sur RTS1.</desc>
     <category lang="fr">Magazine</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1917543"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1917543" />
   </programme>
   <programme start="20260423033000 +0000" stop="20260423034700 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260423035000 +0000" stop="20260423041514 +0000" channel="RTS1.ch@SD">
     <title lang="fr">La suisse vue du ciel</title>
     <category lang="fr">Documentaire</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:363566"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:363566" />
   </programme>
   <programme start="20260423040000 +0000" stop="20260423071151 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Jeunesse</title>
     <category lang="fr">Jeunesse</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1897343"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1897343" />
   </programme>
   <programme start="20260423071000 +0000" stop="20260423071847 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Quel temps fait-il ?</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:326158"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:326158" />
   </programme>
   <programme start="20260423072000 +0000" stop="20260423091647 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Classiques du cinéma</title>
     <sub-title lang="fr">Nana</sub-title>
     <desc lang="fr">Paris sous le Second Empire. Le Comte Muffat puritain couvert d’honneurs par Napoleon III et à l’existence irréprochable, tombe follement amoureux de la jolie et piquante Nana actrice-chanteuse dont l’essentiel des revenus provient de ses nombreux protecteurs. Nana, totalement inconsciente des drames qu’elle provoque, va pousser Muffat à commettre l'irréparable. Dans l’engrenage de la passion, il perdra fortune, honneur et, totalement déchu, étranglera la belle inconstante.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:2144720"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:2144720" />
   </programme>
   <programme start="20260423092000 +0000" stop="20260423094059 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Top Models</title>
     <sub-title lang="fr">9720</sub-title>
     <desc lang="fr">Drames, paillettes et glamour au coeur de Los Angeles. Du lundi au vendredi à 11h45 sur RTS Un. L'épisode du jour est disponible sur Play RTS 24h avant la diffusion antenne, puis à revoir durant 30 jours.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA095784@10:01:26:23"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA095784@10:01:26:23" />
   </programme>
   <programme start="20260423094500 +0000" stop="20260423100506 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Plus belle la vie, encore plus belle</title>
     <sub-title lang="fr">569</sub-title>
     <desc lang="fr">Le quotidien des habitants du Mistral. Du lundi au vendredi à 12h00 sur Play RTS &amp; RTS1. Disponible durant 14 jours sur Play RTS.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA098498@10:04:08:02"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA098498@10:04:08:02" />
   </programme>
   <programme start="20260423101000 +0000" stop="20260423103741 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Demain nous appartient</title>
     <sub-title lang="fr">2189</sub-title>
     <desc lang="fr">Le quotidien à Sète, dans le Sud de la France, des familles Delcourt, Vallorta, Lazzari, Beddiar et Moreno. Diffusion du lundi au vendredi à 12h10 sur RTS Un, à revoir sur Play RTS durant 7 jours après diffusion.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA096847@10:07:50:15"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA096847@10:07:50:15" />
   </programme>
   <programme start="20260423104500 +0000" stop="20260423110600 +0000" channel="RTS1.ch@SD">
     <title lang="fr">12h45</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1033473"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1033473" />
   </programme>
   <programme start="20260423111000 +0000" stop="20260423111300 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo</title>
     <desc lang="fr">Les flashes météo de la RTS vous donnent un aperçu de la météo en Suisse et en Romandie dans les jours à venir.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400670"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400670" />
   </programme>
   <programme start="20260423111500 +0000" stop="20260423112000 +0000" channel="RTS1.ch@SD">
     <title lang="fr">120 secondes</title>
     <desc lang="fr">La chronique satirique de Vincent Kucholl et Vincent Veillon.</desc>
     <category lang="fr">Divertissement</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:395156"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:395156" />
   </programme>
   <programme start="20260423112500 +0000" stop="20260423124643 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Téléfilm</title>
     <desc lang="fr">Toutes vos fictions télévisuelles.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1970986"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1970986" />
   </programme>
   <programme start="20260423130500 +0000" stop="20260423132529 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Modern Family</title>
     <sub-title lang="fr">Au fil de l'eauLake life</sub-title>
     <desc lang="fr">La famille passe les vacances d'été sur un bateau. Phil et Claire réalisent qu'ils devraient pratiquer plus d'activités sportives alors que Jay compte laisser un souvenir mémorable dans l'esprit de chacun. Les enfants partent se reposer mais un accident les fait échouer sur une île.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1832285"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1832285" />
   </programme>
   <programme start="20260423133000 +0000" stop="20260423141409 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Les enquêtes de Murdoch</title>
     <sub-title lang="fr">L'ivresse de la vitesseMurdoch Rides Easy</sub-title>
     <desc lang="fr">Alors qu'ils pique-niquent tranquillement avec leur fille, Julia et William entendent une motocyclette s'écraser au pied d'une falaise. Il s'agissait de la première sortie du prototype de la Falcon et de son concepteur. L'enquête amène Murdoch à rencontrer un duo de constructeurs, messieurs Harley et Davidson.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1060765"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1060765" />
   </programme>
   <programme start="20260423141500 +0000" stop="20260423145544 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Hawaii Five-0</title>
     <sub-title lang="fr">No Ke Ali'i Wahine A Me Ka Aina</sub-title>
     <desc lang="fr">L'équipe de Five-0 doit travailler avec l'agent escroc du MI-6 Harry Langford pour trouver un terroriste qui prévoit de faire fondre des réacteurs nucléaires à travers l'Europe. Aussi, McGarrett et Danny demandent à la profileuse à la retraite du FBI Alicia Brown de les aider à trouver leur « justicier » serial killer.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:280758"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:280758" />
   </programme>
   <programme start="20260423150500 +0000" stop="20260423154606 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Hawaii Five-0</title>
     <sub-title lang="fr">He Moho Hou</sub-title>
     <desc lang="fr">Quand la profileuse du FBI Alicia Brown trouve un corps dans son lit, elle est forcée de rejoindre McGarrett dans sa chasse au tueur à la pièce d'échiquier. Aussi, Kono reprend contact avec un ancien surfeur de compétition, qui est maintenant handicapé et vétéran de guerre.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:280759"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:280759" />
   </programme>
   <programme start="20260423155000 +0000" stop="20260423161639 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Ici tout commence</title>
     <sub-title lang="fr">1422</sub-title>
     <desc lang="fr">L’institut Auguste Armand est l’une des meilleures écoles de cuisine de France. Excellence, rigueur et discipline sont de mise dans cet établissement géré par une équipe de professionnels talentueux, reconnus et respectés. Un lieu clos qui va être le théâtre d’histoires d’amour contrariées...</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA097088@10:05:39:09"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA097088@10:05:39:09" />
   </programme>
   <programme start="20260423162000 +0000" stop="20260423164510 +0000" channel="RTS1.ch@SD">
     <title lang="fr">C'est ma question</title>
     <desc lang="fr">Un jeu de culture générale reflète la diversité et les passions des Romands. C'est en effet le public, représenté sur le plateau par un mur d'images, qui interrogera les candidats duo en lice. Chacun peut poser une question en relation avec son métier, sa région ou ses centres d'intérêts. Face à une multitude de portraits, qui choisir ? Un jeu présenté par Sébastien pasche</desc>
     <category lang="fr">Divertissement</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZT131458@10:02:44:24"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZT131458@10:02:44:24" />
   </programme>
   <programme start="20260423165000 +0000" stop="20260423165130 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo régionale</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400672"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400672" />
   </programme>
   <programme start="20260423170000 +0000" stop="20260423171700 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260423172000 +0000" stop="20260423172130 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664" />
   </programme>
   <programme start="20260423173000 +0000" stop="20260423180100 +0000" channel="RTS1.ch@SD">
     <title lang="fr">19h30</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1035156"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1035156" />
   </programme>
   <programme start="20260423180500 +0000" stop="20260423180800 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo</title>
     <sub-title lang="fr">soir</sub-title>
     <desc lang="fr">Les flashes météo de la RTS vous donnent un aperçu de la météo en Suisse et en Romandie dans les jours à venir.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400670"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400670" />
   </programme>
   <programme start="20260423181000 +0000" stop="20260423190500 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Temps présent</title>
     <sub-title lang="fr">Gynécos hommes, dernières consultations</sub-title>
     <desc lang="fr">De plus en plus de femmes refusent d'être examinées par un gynécologue homme. Cette révolution silencieuse, annonce-t-elle la disparition d'une profession au masculin ? Entre archives troublantes d'une époque révolue, témoignages de praticiens en quête de légitimité et paroles de patientes libérées, ce reportage explore les mutations profondes du métier dans le sillage des affaires #metoo. Temps Présent a poussé la porte des cabinets de gynécologie pour documenter ce déclin programmé, celui des praticiens masculins. Un reportage de Marc Wolfensberger, avec la collaboration de Marcel Schüpbach</desc>
     <category lang="fr">Magazine</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1945574"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1945574" />
   </programme>
   <programme start="20260423191000 +0000" stop="20260423200758 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Meurtres au paradis</title>
     <sub-title lang="fr">Acte finalEpisode 5</sub-title>
     <desc lang="fr">Lors d’une représentation de La Tempête sur une plage de Sainte-Marie, un acteur meurt sur scène, empoisonné au cyanure, bien que d’autres aient bu dans la même bouteille sans subir le moindre effet.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922622"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922622" />
   </programme>
   <programme start="20260423201500 +0000" stop="20260423211324 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Meurtres au paradis</title>
     <sub-title lang="fr">Pris à son propre piègeEpisode 6</sub-title>
     <desc lang="fr">Mervin, venu à Antigua pour voir son frère Solomon, se retrouve séquestré après avoir découvert un cadavre dans une cabane isolée. Entre accusations et mensonges, il doit percer la vérité pour s’en sortir.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922615"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922615" />
   </programme>
   <programme start="20260423211500 +0000" stop="20260423212905 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Ramdam</title>
     <sub-title lang="fr">Dessine-moi la vraie vie</sub-title>
     <desc lang="fr">Les bandes dessinées qui racontent le réel connaissent un succès incroyable. Des albums qui ressuscitent des héros oubliés. Ou encore celles qui dénoncent des injustices, qui révèlent des scoops ou racontent des reportages avec des bulles et des cases. Trois femmes qui prouvent, crayon en main, que la réalité est aussi passionnante que la fiction.</desc>
     <category lang="fr">Magazine</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922597"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922597" />
   </programme>
   <programme start="20260423213500 +0000" stop="20260423222741 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Documentaire</title>
     <sub-title lang="fr">Le cauchemar de Heidi</sub-title>
     <desc lang="fr">Tout le monde connaît Heidi. Mais qui connaît Johanna Spyri, sa créatrice? Ce film jette un regard derrière les clichés qui entourent Heidi et entreprend une recherche&amp;nbsp;dans la vie et l'œuvre de l'écrivaine révélant des facettes inattendues de cette icône de l'identité helvétique.</desc>
     <category lang="fr">Documentaire</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1019695"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1019695" />
   </programme>
   <programme start="20260423223000 +0000" stop="20260423235918 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Documentaire</title>
     <sub-title lang="fr">Chris the Swiss</sub-title>
     <desc lang="fr">Alors âgée de 10 ans, Anja Kofmel apprend la mort de son cousin Christian Würtemberg, dont le corps a été retrouvé le 7 janvier 1991 près de Vukovar. Le jeune journaliste suisse était vêtu de l'uniforme d'une milice croate. Que s'est-il passé ? En proie à des cauchemars et des terreurs nocturnes, Anja, devenue adulte, décide d'enquêter sur cette mort suspecte en remontant le fil de l'engagement de son cousin dans le conflit yougoslave.</desc>
     <category lang="fr">Documentaire</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:390681"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:390681" />
   </programme>
   <programme start="20260424000000 +0000" stop="20260424001700 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424001900 +0000" stop="20260424002030 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664" />
   </programme>
   <programme start="20260424002000 +0000" stop="20260424005100 +0000" channel="RTS1.ch@SD">
     <title lang="fr">19h30</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1035156"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1035156" />
   </programme>
   <programme start="20260424005000 +0000" stop="20260424014500 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Temps présent</title>
     <desc lang="fr">Depuis avril 1969, Temps Présent est LE magazine d’information de référence de la RTS. Temps Présent réalise des reportages et des investigations, en Suisse et dans le monde, donne la parole aux Romands et met en lumière les zones d’ombres et les dysfonctionnements.</desc>
     <category lang="fr">Magazine</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1945574"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1945574" />
   </programme>
   <programme start="20260424014500 +0000" stop="20260424020200 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424020400 +0000" stop="20260424020530 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664" />
   </programme>
   <programme start="20260424020500 +0000" stop="20260424023600 +0000" channel="RTS1.ch@SD">
     <title lang="fr">19h30</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1035156"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1035156" />
   </programme>
   <programme start="20260424023500 +0000" stop="20260424033000 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Temps présent</title>
     <desc lang="fr">Depuis avril 1969, Temps Présent est LE magazine d’information de référence de la RTS. Temps Présent réalise des reportages et des investigations, en Suisse et dans le monde, donne la parole aux Romands et met en lumière les zones d’ombres et les dysfonctionnements.</desc>
     <category lang="fr">Magazine</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1945574"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1945574" />
   </programme>
   <programme start="20260424033000 +0000" stop="20260424034700 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424034900 +0000" stop="20260424035030 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664" />
   </programme>
   <programme start="20260424035000 +0000" stop="20260424040700 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424040000 +0000" stop="20260424074624 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Jeunesse</title>
     <category lang="fr">Jeunesse</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1897343"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1897343" />
   </programme>
   <programme start="20260424040500 +0000" stop="20260424041759 +0000" channel="RTS1.ch@SD">
     <title lang="fr">La suisse vue du ciel</title>
     <category lang="fr">Documentaire</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:363566"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:363566" />
   </programme>
   <programme start="20260424074500 +0000" stop="20260424075446 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Quel temps fait-il ?</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:326158"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:326158" />
   </programme>
   <programme start="20260424075500 +0000" stop="20260424083549 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Grey's anatomy</title>
     <sub-title lang="fr">Pour un souffle de vieBetween Two Lungs</sub-title>
     <desc lang="fr">Une transplantation pulmonaire à haut risque pousse l'équipe chirurgicale dans ses retranchements. Pendant ce temps, Bailey s'occupe d'un patient polytraumatisé dont le traitement est en jeu.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1924525"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1924525" />
   </programme>
   <programme start="20260424083500 +0000" stop="20260424091549 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Grey's anatomy</title>
     <sub-title lang="fr">Tous en selleGoodbye Horses</sub-title>
     <desc lang="fr">Les internes doivent gérer un étrange traumatisme, tandis qu'une reconstruction mammaire complexe contraint Meredith à une collaboration tendue.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1924546"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1924546" />
   </programme>
   <programme start="20260424092000 +0000" stop="20260424094116 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Top Models</title>
     <sub-title lang="fr">9721</sub-title>
     <desc lang="fr">Drames, paillettes et glamour au coeur de Los Angeles. Du lundi au vendredi à 11h45 sur RTS Un. L'épisode du jour est disponible sur Play RTS 24h avant la diffusion antenne, puis à revoir durant 30 jours.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA095753@10:03:34:03"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA095753@10:03:34:03" />
   </programme>
   <programme start="20260424094500 +0000" stop="20260424100549 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Plus belle la vie, encore plus belle</title>
     <sub-title lang="fr">570</sub-title>
     <desc lang="fr">Le quotidien des habitants du Mistral. Du lundi au vendredi à 12h00 sur Play RTS &amp; RTS1. Disponible durant 14 jours sur Play RTS.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA098499@10:03:18:00"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA098499@10:03:18:00" />
   </programme>
   <programme start="20260424101000 +0000" stop="20260424103704 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Demain nous appartient</title>
     <sub-title lang="fr">2190</sub-title>
     <desc lang="fr">Le quotidien à Sète, dans le Sud de la France, des familles Delcourt, Vallorta, Lazzari, Beddiar et Moreno. Diffusion du lundi au vendredi à 12h10 sur RTS Un, à revoir sur Play RTS durant 7 jours après diffusion.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA096858@10:10:07:17"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA096858@10:10:07:17" />
   </programme>
   <programme start="20260424104500 +0000" stop="20260424110600 +0000" channel="RTS1.ch@SD">
     <title lang="fr">12h45</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1033473"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1033473" />
   </programme>
   <programme start="20260424111000 +0000" stop="20260424111300 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo</title>
     <desc lang="fr">Les flashes météo de la RTS vous donnent un aperçu de la météo en Suisse et en Romandie dans les jours à venir.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400670"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400670" />
   </programme>
   <programme start="20260424111500 +0000" stop="20260424123849 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Coachée par une psychopathe</title>
     <desc lang="fr">Frustrée tant affectivement que professionnellement, Kristin Adams se voit prendre la place dans l'agence de relations publiques où elle est consultante junior. Voyant cela, sa sœur, Sara, lui conseille de prendre une coach de vie. Kristin trouve bientôt la perle rare : Ashley Thomas.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1979101"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1979101" />
   </programme>
   <programme start="20260424130500 +0000" stop="20260424132537 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Modern Family</title>
     <sub-title lang="fr">De si beaux adieuxThe long goodbye</sub-title>
     <desc lang="fr">Phil et Claire rendent visite à Alex à l'université et se rendent compte qu'ils l'embarrassent plus qu'ils ne le pensaient. Haley assiste Luke au club où une riche milliardaire lui propose d'être son assistante. Pendant ce temps, Manny essaie d'éviter des adieux déchirants lors de son entrée à l'université et Mitchell et Cameron se retrouvent embarrassés lorsqu'ils brûlent accidentellement leur cuisine.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1832285"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1832285" />
   </programme>
   <programme start="20260424133000 +0000" stop="20260424141409 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Les enquêtes de Murdoch</title>
     <sub-title lang="fr">Crime contre natureClean Hands</sub-title>
     <desc lang="fr">Alors qu’ils sont en vacances quelques jours, Julia et William sont amenés à enquêter sur la mort d’un jeune mennonite, une communauté religieuse aux pratiques très strictes et particulièrement méfiante.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1060765"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1060765" />
   </programme>
   <programme start="20260424141500 +0000" stop="20260424145633 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Hawaii Five-0</title>
     <sub-title lang="fr">Hu A'e Ke Ahi Lanakila A Kamaile</sub-title>
     <desc lang="fr">L'équipe de Five-0 doit retrouver McGarrett et Alicia après qu'ils aient été kidnappés par le serial killer qu'ils traquaient.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA045793@10:04:33:20"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA045793@10:04:33:20" />
   </programme>
   <programme start="20260424150500 +0000" stop="20260424154356 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Hawaii Five-0</title>
     <sub-title lang="fr">Ke Ku 'Ana</sub-title>
     <desc lang="fr">Quand une réserve d'armes à feu est volée, l'équipe de Five-0 découvre que les intentions du coupable étaient de faire une déclaration dramatique et potentiellement mortelle sur la violence des armes. Kono et Adam sont finalement réunis lorsqu'il est libéré de prison.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA045794@10:05:58:21"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA045794@10:05:58:21" />
   </programme>
   <programme start="20260424155000 +0000" stop="20260424161626 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Ici tout commence</title>
     <sub-title lang="fr">1423</sub-title>
     <desc lang="fr">L’institut Auguste Armand est l’une des meilleures écoles de cuisine de France. Excellence, rigueur et discipline sont de mise dans cet établissement géré par une équipe de professionnels talentueux, reconnus et respectés. Un lieu clos qui va être le théâtre d’histoires d’amour contrariées...</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA097054@10:03:08:15"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZA097054@10:03:08:15" />
   </programme>
   <programme start="20260424162000 +0000" stop="20260424164435 +0000" channel="RTS1.ch@SD">
     <title lang="fr">C'est ma question</title>
     <desc lang="fr">Un jeu de culture générale reflète la diversité et les passions des Romands. C'est en effet le public, représenté sur le plateau par un mur d'images, qui interrogera les candidats duo en lice. Chacun peut poser une question en relation avec son métier, sa région ou ses centres d'intérêts. Face à une multitude de portraits, qui choisir ? Un jeu présenté par Sébastien pasche</desc>
     <category lang="fr">Divertissement</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZT131552@10:03:33:18"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:timecode-image:ZT131552@10:03:33:18" />
   </programme>
   <programme start="20260424165000 +0000" stop="20260424165130 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo régionale</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400672"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400672" />
   </programme>
   <programme start="20260424170000 +0000" stop="20260424171700 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424172000 +0000" stop="20260424172130 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400664" />
   </programme>
   <programme start="20260424173000 +0000" stop="20260424180100 +0000" channel="RTS1.ch@SD">
     <title lang="fr">19h30</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1035156"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1035156" />
   </programme>
   <programme start="20260424180500 +0000" stop="20260424180800 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Météo</title>
     <sub-title lang="fr">soir</sub-title>
     <desc lang="fr">Les flashes météo de la RTS vous donnent un aperçu de la météo en Suisse et en Romandie dans les jours à venir.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400670"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400670" />
   </programme>
   <programme start="20260424181000 +0000" stop="20260424185631 +0000" channel="RTS1.ch@SD">
     <title lang="fr">Passe-moi les jumelles</title>
     <sub-title lang="fr">Le chemin de Croy (Episode II)</sub-title>
     <desc lang="fr">Matthieu Fournier et les élèves de l’école en forêt fabriquent des poufs pour leur cinéma des bois. Une simplicité qui plairait à Olivier Guignard, un vaudois passionné de véhicules agricoles anciens qui a décidé d’amener par la route une moissonneuse batteuse de 1966, de la Hollande jusqu’à Croy.</desc>
     <category lang="fr">Magazine</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/kf/urn:kf-image:637480f6f7d30a28c21ea81f0c8149af71bf9d172bc0d07a779b134004f9329e"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/kf/urn:kf-image:637480f6f7d30a28c21ea81f0c8149af71bf9d172bc0d07a779b134004f9329e" />
   </programme>
   <programme start="20260424190500 +0000" stop="20260424195057 +0000" channel="RTS1.ch@SD">
     <title lang="fr">La stagiaire</title>
     <sub-title lang="fr">Zone interdite 1/2</sub-title>
     <desc lang="fr">Une jeune femme, Manon Torres, est retrouvée morte au large de Castan, paisible village de la Côte Bleue. Très vite, l’enquête dévoile les secrets d’une petite communauté divisée, entre pêche traditionnelle et braconnage d’oursins. Mais alors que l’ADN retrouvé sous les ongles de la victime pourrait mettre notre duo de juges sur la piste du tueur… le résultat sème le trouble. Car le suspect présente une correspondance génétique… avec notre héroïne, Constance Meyer…</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922650"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922650" />
   </programme>
   <programme start="20260424195500 +0000" stop="20260424204523 +0000" channel="RTS1.ch@SD">
     <title lang="fr">La stagiaire</title>
     <sub-title lang="fr">Zone interdite 2/2</sub-title>
     <desc lang="fr">L’enquête se poursuit à Castan pour retrouver le meurtrier de Manon Torrès. Clément Dajet, le petit ami de la victime, est arrêté. Mais alors que tout semble l’accuser, Constance est convaincue de son innocence. En marge de l’instruction dont elle a été écartée, elle décide de poursuivre l’enquête, épaulée par sa famille. Constance remonte la piste d’un nouvel amant de Manon… Entre rivalités amoureuses, mensonges et braconnage, Boris et Constance vont devoir naviguer.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922868"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922868" />
   </programme>
   <programme start="20260424205500 +0000" stop="20260424213720 +0000" channel="RTS1.ch@SD">
     <title lang="fr">The Handmaid’s Tale : La servante écarlate</title>
     <sub-title lang="fr">Conte de féesFairytale</sub-title>
     <desc lang="fr">Le périple de June et Luke pour retourner à Gilead s'annonce périlleux. Serena fait connaissance avec ses hôtes.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1914301"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1914301" />
   </programme>
   <programme start="20260424214000 +0000" stop="20260424223047 +0000" channel="RTS1.ch@SD">
     <title lang="fr">The Handmaid’s Tale : La servante écarlate</title>
     <sub-title lang="fr">EnsembleTogether</sub-title>
     <desc lang="fr">Tandis que June et Luke se retrouvent en très mauvaise posture, Nick et Lawrence prennent une initiative étonnante.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1914311"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1914311" />
   </programme>
   <programme start="20260423230000 +0000" stop="20260423231700 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260423232000 +0000" stop="20260423235100 +0000" channel="RTS2.ch@SD">
     <title lang="fr">19h30 - Signé</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863" />
   </programme>
   <programme start="20260423235000 +0000" stop="20260424000700 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424000500 +0000" stop="20260424003600 +0000" channel="RTS2.ch@SD">
     <title lang="fr">19h30 - Signé</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863" />
   </programme>
   <programme start="20260424004000 +0000" stop="20260424005700 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424005500 +0000" stop="20260424012600 +0000" channel="RTS2.ch@SD">
     <title lang="fr">19h30 - Signé</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863" />
   </programme>
   <programme start="20260424012500 +0000" stop="20260424014200 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424014500 +0000" stop="20260424021600 +0000" channel="RTS2.ch@SD">
     <title lang="fr">19h30 - Signé</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863" />
   </programme>
   <programme start="20260424021500 +0000" stop="20260424023200 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424023000 +0000" stop="20260424030100 +0000" channel="RTS2.ch@SD">
     <title lang="fr">19h30 - Signé</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863" />
   </programme>
   <programme start="20260424030000 +0000" stop="20260424031700 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424032000 +0000" stop="20260424035100 +0000" channel="RTS2.ch@SD">
     <title lang="fr">19h30 - Signé</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863" />
   </programme>
   <programme start="20260424035000 +0000" stop="20260424040700 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424040500 +0000" stop="20260424043600 +0000" channel="RTS2.ch@SD">
     <title lang="fr">19h30 - Signé</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1061863" />
   </programme>
   <programme start="20260424044000 +0000" stop="20260424045700 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424045500 +0000" stop="20260424053000 +0000" channel="RTS2.ch@SD">
     <title lang="fr">RTS Info</title>
     <sub-title lang="fr">L'actualité en continu</sub-title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703" />
   </programme>
   <programme start="20260424050000 +0000" stop="20260424060030 +0000" channel="RTS2.ch@SD">
     <title lang="fr">La Matinale</title>
     <sub-title lang="fr">La Matinale en vidéo7h-8h de La Première du 24.04.2026</sub-title>
     <desc lang="fr">Toute l'info romande, Suisse et internationale pour débuter la journée. Le 6h30-8h00 c'est des journaux, des chroniqueurs, des invités, dans une émission rythmée, variée et conviviale emmenée par Valérie Hauert.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1831393"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1831393" />
   </programme>
   <programme start="20260424060000 +0000" stop="20260424064221 +0000" channel="RTS2.ch@SD">
     <title lang="fr">RTS Info</title>
     <sub-title lang="fr">L'actualité en continu</sub-title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703" />
   </programme>
   <programme start="20260424064500 +0000" stop="20260424074500 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Forum</title>
     <sub-title lang="fr">Forum en différé du 23.04.2026</sub-title>
     <desc lang="fr">Forum questionne en direct les acteurs de l’actualité, ouvre le débat sur les controverses qui animent la vie politique, culturelle et économique. Cette page est consacrée aux émissions filmées de Forum.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1912433"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1912433" />
   </programme>
   <programme start="20260424074500 +0000" stop="20260424075905 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Ramdam</title>
     <sub-title lang="fr">Dessine-moi la vraie vie</sub-title>
     <desc lang="fr">Les bandes dessinées qui racontent le réel connaissent un succès incroyable. Des albums qui ressuscitent des héros oubliés. Ou encore celles qui dénoncent des injustices, qui révèlent des scoops ou racontent des reportages avec des bulles et des cases. Trois femmes qui prouvent, crayon en main, que la réalité est aussi passionnante que la fiction.</desc>
     <category lang="fr">Magazine</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922597"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922597" />
   </programme>
   <programme start="20260424080000 +0000" stop="20260424090835 +0000" channel="RTS2.ch@SD">
     <title lang="fr">RTS Info</title>
     <sub-title lang="fr">L'actualité en continu</sub-title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703" />
   </programme>
   <programme start="20260424091000 +0000" stop="20260424093544 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Geopolitis</title>
     <sub-title lang="fr">Cartes, instruments de pouvoir</sub-title>
     <desc lang="fr">Depuis des siècles, l’humanité affronte un défi : représenter fidèlement la Terre sur une surface plane. Ce casse-tête impose aux cartographes des compromis, créant de nombreuses projections. Or ces choix ne sont pas neutres : chaque carte reflète une vision du monde.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922561"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1922561" />
   </programme>
   <programme start="20260424093500 +0000" stop="20260424100205 +0000" channel="RTS2.ch@SD">
     <title lang="fr">RTS Info</title>
     <sub-title lang="fr">L'actualité en continu</sub-title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703" />
   </programme>
   <programme start="20260424100000 +0000" stop="20260424101700 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Couleurs locales</title>
     <desc lang="fr">Couleurs locales, c’est toute l’actualité locale en Suisse romande présentée sur le terrain. Un magazine d’information de proximité qui part chaque soir à la découverte des lieux et des gens qui font l’actualité dans vos régions.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1840080" />
   </programme>
   <programme start="20260424102000 +0000" stop="20260424111029 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Mise au point</title>
     <desc lang="fr">Chaque dimanche à 20h sur RTS Un, Mise Au Point revisite à sa manière l’actualité nationale et internationale.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:395208"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:395208" />
   </programme>
   <programme start="20260424111500 +0000" stop="20260424113600 +0000" channel="RTS2.ch@SD">
     <title lang="fr">12h45</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1033473"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1033473" />
   </programme>
   <programme start="20260424113500 +0000" stop="20260424113800 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Météo</title>
     <desc lang="fr">Les flashes météo de la RTS vous donnent un aperçu de la météo en Suisse et en Romandie dans les jours à venir.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400670"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:400670" />
   </programme>
   <programme start="20260424114000 +0000" stop="20260424123158 +0000" channel="RTS2.ch@SD">
     <title lang="fr">RTS Info</title>
     <sub-title lang="fr">L'actualité en continu</sub-title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703" />
   </programme>
   <programme start="20260424123500 +0000" stop="20260424132300 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Temps présent</title>
     <sub-title lang="fr">Gynécos hommes, dernières consultations</sub-title>
     <desc lang="fr">De plus en plus de femmes refusent d'être examinées par un gynécologue homme. Cette révolution silencieuse, annonce-t-elle la disparition d'une profession au masculin ? Entre archives troublantes d'une époque révolue, témoignages de praticiens en quête de légitimité et paroles de patientes libérées, ce reportage explore les mutations profondes du métier dans le sillage des affaires #metoo. Temps Présent a poussé la porte des cabinets de gynécologie pour documenter ce déclin programmé, celui des praticiens masculins. Un reportage de Marc Wolfensberger, avec la collaboration de Marcel Schüpbach</desc>
     <category lang="fr">Magazine</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1945574"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1945574" />
   </programme>
   <programme start="20260424132000 +0000" stop="20260424140537 +0000" channel="RTS2.ch@SD">
     <title lang="fr">RTS Info</title>
     <sub-title lang="fr">L'actualité en continu</sub-title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703" />
   </programme>
   <programme start="20260424141000 +0000" stop="20260424145719 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Passe-moi les jumelles</title>
     <desc lang="fr">"Passe-moi les jumelles" est une émission d'évasion qui permet, le temps de deux reportages, de toucher à l’essentiel en privilégiant la rencontre, en renouant avec les délices de la lenteur, accordant ainsi aux silences et aux émotions la place d’exister.</desc>
     <category lang="fr">Magazine</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1907172"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1907172" />
   </programme>
   <programme start="20260424145500 +0000" stop="20260424152633 +0000" channel="RTS2.ch@SD">
     <title lang="fr">RTS Info</title>
     <sub-title lang="fr">L'actualité en continu</sub-title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703" />
   </programme>
   <programme start="20260424153000 +0000" stop="20260424155635 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Objectif Monde L'hebdo</title>
     <sub-title lang="fr">L’incroyable business des dinosaures</sub-title>
     <desc lang="fr">Quelque 5 millions d’euros pour un fossile de Tricératops, 23 millions pour un fossile de Tyrannosaurus rex : les ossements de ces créatures extraordinaires, disparues il y a 66 millions d’années et de grande valeur scientifique, attirent les foules lors des ventes aux enchères, et font l’objet de spéculations au même titre que des œuvres d’art. Comment s'organise ce business ? Ces fossiles, vendus des millions d’euros, sont-ils vraiment si rares et précieux ? Et comment s’assurer de leur authenticité ? Une équipe d’Envoyé Spécial a mené l’enquête.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:365333"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:365333" />
   </programme>
   <programme start="20260424160000 +0000" stop="20260424170000 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Forum</title>
     <sub-title lang="fr">Forum du 24.04.2026</sub-title>
     <desc lang="fr">Forum questionne en direct les acteurs de l’actualité, ouvre le débat sur les controverses qui animent la vie politique, culturelle et économique. Cette page est consacrée aux émissions filmées de Forum.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1912433"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1912433" />
   </programme>
   <programme start="20260424170500 +0000" stop="20260424173345 +0000" channel="RTS2.ch@SD">
     <title lang="fr">RTS Info</title>
     <sub-title lang="fr">L'actualité en continu</sub-title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1050703" />
   </programme>
   <programme start="20260424173500 +0000" stop="20260424201741 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Suisse - Hongrie</title>
     <sub-title lang="fr">Match de préparation</sub-title>
     <desc lang="fr">En direct de Bienne</desc>
     <category lang="fr">Sport</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/kf/urn:kf-image:676e38d5c5bcd3f044ac22efff8babb52b5a7b506c97be352d056a529ca0b114"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/kf/urn:kf-image:676e38d5c5bcd3f044ac22efff8babb52b5a7b506c97be352d056a529ca0b114" />
   </programme>
   <programme start="20260424201500 +0000" stop="20260424213335 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Zaï zaï zaï zaï</title>
     <desc lang="fr">Fabrice, acteur de comédie, réalise qu’il n’a pas sa carte de fidélité alors qu’il fait ses courses. Malgré la menace d’un vigile, il parvient à s’enfuir. Commence alors une cavale sans merci, pour celui qui devient rapidement l'ennemi public numéro 1.</desc>
     <category lang="fr">Fiction</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1978972"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1978972" />
   </programme>
   <programme start="20260424213200 +0000" stop="20260424213230 +0000" channel="RTS2.ch@SD">
     <title lang="fr">PMU</title>
     <category lang="fr">Divertissement</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:364179"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:364179" />
   </programme>
   <programme start="20260424213300 +0000" stop="20260424213343 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Zap RTS Sport</title>
     <category lang="fr">Sport</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1047734"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1047734" />
   </programme>
   <programme start="20260424213500 +0000" stop="20260424215000 +0000" channel="RTS2.ch@SD">
     <title lang="fr">Fribourg-Gottéron - HC Davos</title>
     <sub-title lang="fr">Playoffs Acte 4 - FinaleEn différé de Fribourg</sub-title>
     <desc lang="fr">En différé de Fribourg</desc>
     <category lang="fr">Sport</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/kf/urn:kf-image:c486a08b61bfac3d1978ff7a52133ed64d52f3b18a12745e9ac5947381bc33e8"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/kf/urn:kf-image:c486a08b61bfac3d1978ff7a52133ed64d52f3b18a12745e9ac5947381bc33e8" />
   </programme>
   <programme start="20260423050000 +0000" stop="20260423160000 +0000" channel="RTSInfo.ch@SD">
     <title lang="fr">L'essentiel de l'actualité</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1043433"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1043433" />
   </programme>
   <programme start="20260423160000 +0000" stop="20260423170000 +0000" channel="RTSInfo.ch@SD">
     <title lang="fr">Forum</title>
     <desc lang="fr">Forum questionne en direct les acteurs de l’actualité, ouvre le débat sur les controverses qui animent la vie politique, culturelle et économique. Cette page est consacrée aux émissions filmées de Forum.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1831387"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1831387" />
   </programme>
   <programme start="20260423170000 +0000" stop="20260424050000 +0000" channel="RTSInfo.ch@SD">
     <title lang="fr">L'essentiel de l'actualité</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1043433"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1043433" />
   </programme>
   <programme start="20260424050000 +0000" stop="20260424160000 +0000" channel="RTSInfo.ch@SD">
     <title lang="fr">L'essentiel de l'actualité</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1043433"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1043433" />
   </programme>
   <programme start="20260424160000 +0000" stop="20260424170000 +0000" channel="RTSInfo.ch@SD">
     <title lang="fr">Forum</title>
     <desc lang="fr">Forum questionne en direct les acteurs de l’actualité, ouvre le débat sur les controverses qui animent la vie politique, culturelle et économique. Cette page est consacrée aux émissions filmées de Forum.</desc>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1831387"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1831387" />
   </programme>
   <programme start="20260424170000 +0000" stop="20260425050000 +0000" channel="RTSInfo.ch@SD">
     <title lang="fr">L'essentiel de l'actualité</title>
     <category lang="fr">Actualité</category>
-    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1043433"/>
+    <icon src="https://kingfisher.rts.ch/res/img/cdns3/sherlock/urn:orphea-image:1043433" />
   </programme>
 </tv>

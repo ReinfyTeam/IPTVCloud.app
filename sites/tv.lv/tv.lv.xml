@@ -1,53 +1,53 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="TV3Plus.lv@SD">
     <display-name>3+</display-name>
-    <icon src="https://i.imgur.com/oWLnYLn.png"/>
+    <icon src="https://i.imgur.com/oWLnYLn.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="3sat.de@SD">
     <display-name>3SAT</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="8TV.lv@SD">
     <display-name>8TV</display-name>
-    <icon src="https://i.imgur.com/F8P8GY3.png"/>
+    <icon src="https://i.imgur.com/F8P8GY3.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="360TV.lv@SD">
     <display-name>360</display-name>
-    <icon src="https://i.imgur.com/bnSydaN.png"/>
+    <icon src="https://i.imgur.com/bnSydaN.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="AlJazeera.qa@English">
     <display-name>Al Jazeera</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="AnimalPlanetEurope.uk@SD">
     <display-name>Animal Planet EU</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="AnimalPlanetEurope.uk@HD">
     <display-name>Animal Planet HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="ARDalpha.de@SD">
     <display-name>ARD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/960px-ARD_alpha.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/960px-ARD_alpha.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="ArenaHDBaltic.lt@SD">
     <display-name>Arena HD Baltic</display-name>
-    <icon src="https://i.imgur.com/oUT6rCF.png"/>
+    <icon src="https://i.imgur.com/oUT6rCF.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="ArirangTV.kr@SD">
     <display-name>Arirang TV</display-name>
-    <icon src="https://i.imgur.com/Asu5pE9.png"/>
+    <icon src="https://i.imgur.com/Asu5pE9.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="arte">
@@ -56,7 +56,7 @@
   </channel>
   <channel id="BBCEntertainment.uk@SD">
     <display-name>BBC Entertainment</display-name>
-    <icon src="https://i.imgur.com/fx2z8M1.png"/>
+    <icon src="https://i.imgur.com/fx2z8M1.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="bbc-world">
@@ -65,7 +65,7 @@
   </channel>
   <channel id="BloombergTV.us@Europe">
     <display-name>Bloomberg</display-name>
-    <icon src="https://i.imgur.com/OuogLHx.png"/>
+    <icon src="https://i.imgur.com/OuogLHx.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="boomerang-baltic-cee">
@@ -74,7 +74,7 @@
   </channel>
   <channel id="StingrayCMusic.ca@SD">
     <display-name>C Music TV</display-name>
-    <icon src="https://i.imgur.com/3UppN5P.png"/>
+    <icon src="https://i.imgur.com/3UppN5P.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="cartoon-network-rse">
@@ -83,22 +83,22 @@
   </channel>
   <channel id="RealityXtra.uk@SD">
     <display-name>CBS Drama</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/RealityXtra_logo.svg/960px-RealityXtra_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/RealityXtra_logo.svg/960px-RealityXtra_logo.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="CBSReality.uk@SD">
     <display-name>CBS Reality</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/CBS_Reality.png/960px-CBS_Reality.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/CBS_Reality.png/960px-CBS_Reality.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="CNBCEurope.uk@SD">
     <display-name>CNBC Europe</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="CNNInternational.us@MENA">
     <display-name>CNN</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="detskii-klub-100">
@@ -159,7 +159,7 @@
   </channel>
   <channel id="Duo6.lv@SD">
     <display-name>Duo 6 LV</display-name>
-    <icon src="https://i.imgur.com/bHtkbHT.png"/>
+    <icon src="https://i.imgur.com/bHtkbHT.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="e-entertainment">
@@ -168,7 +168,7 @@
   </channel>
   <channel id="EpicDrama.uk@Sweden">
     <display-name>Epic Drama CEE</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Epic-Drama-TV.jpg/960px-Epic-Drama-TV.jpg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Epic-Drama-TV.jpg/960px-Epic-Drama-TV.jpg" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="esportstv">
@@ -181,12 +181,12 @@
   </channel>
   <channel id="Eurosport1.fr@France">
     <display-name>Eurosport 1</display-name>
-    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="Eurosport2.fr@France">
     <display-name>Eurosport 2</display-name>
-    <icon src="https://i.imgur.com/f56dHgR.png"/>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="eurosport-2-bundesliga">
@@ -207,7 +207,7 @@
   </channel>
   <channel id="FashionTVEurope.fr@SD">
     <display-name>Fashion TV Europe</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="fight-sports-tv">
@@ -216,7 +216,7 @@
   </channel>
   <channel id="FilmzonePlus.ee@SD">
     <display-name>Filmzone +</display-name>
-    <icon src="https://i.imgur.com/uWBRdS9.png"/>
+    <icon src="https://i.imgur.com/uWBRdS9.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="filmzone-lv">
@@ -245,27 +245,27 @@
   </channel>
   <channel id="Go3Films.ee@SD">
     <display-name>GO3 Films</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Go3_Films_Logo_2023.svg/500px-Go3_Films_Logo_2023.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Go3_Films_Logo_2023.svg/500px-Go3_Films_Logo_2023.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="Go3Sport.ee@SD">
     <display-name>GO3 Sport</display-name>
-    <icon src="https://i.imgur.com/AHiWUGn.png"/>
+    <icon src="https://i.imgur.com/AHiWUGn.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="Go3Sport2.ee@SD">
     <display-name>GO3 Sport 2</display-name>
-    <icon src="https://i.imgur.com/ikRWy9M.png"/>
+    <icon src="https://i.imgur.com/ikRWy9M.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="Go3Sport3.ee@SD">
     <display-name>GO3 Sport 3</display-name>
-    <icon src="https://i.imgur.com/UjpLnPv.png"/>
+    <icon src="https://i.imgur.com/UjpLnPv.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="Go3Sport4.ee@SD">
     <display-name>GO3 Sport 4</display-name>
-    <icon src="https://i.imgur.com/WBLF0CX.png"/>
+    <icon src="https://i.imgur.com/WBLF0CX.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="gulli">
@@ -290,7 +290,7 @@
   </channel>
   <channel id="KiKA.de@SD">
     <display-name>KIKA</display-name>
-    <icon src="https://i.imgur.com/vZdNp5S.png"/>
+    <icon src="https://i.imgur.com/vZdNp5S.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="lolo-tv-lv">
@@ -299,12 +299,12 @@
   </channel>
   <channel id="LTV1.lv@SD">
     <display-name>LTV1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/LTV1_%282022%29.svg/960px-LTV1_%282022%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/LTV1_%282022%29.svg/960px-LTV1_%282022%29.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="LTV7.lv@SD">
     <display-name>LTV7</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/LTV7_Logo_2021.svg/960px-LTV7_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/LTV7_Logo_2021.svg/960px-LTV7_Logo_2021.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="luxetv-hd">
@@ -361,7 +361,7 @@
   </channel>
   <channel id="N24Doku.de@SD">
     <display-name>N24 Doku</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/N24Doku.svg/960px-N24Doku.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/N24Doku.svg/960px-N24Doku.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="n-tv">
@@ -398,12 +398,12 @@
   </channel>
   <channel id="ORF1.at@SD">
     <display-name>ORF1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ORF_1_2019.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ORF_1_2019.svg" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="ORF2.at@SD">
     <display-name>ORF2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e7/ORF2_logo_n.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e7/ORF2_logo_n.svg" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="pro-7">
@@ -412,7 +412,7 @@
   </channel>
   <channel id="ReTV.lv@SD">
     <display-name>ReTV</display-name>
-    <icon src="https://i.imgur.com/Z3cre5Xm.png"/>
+    <icon src="https://i.imgur.com/Z3cre5Xm.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="riga-tv24">
@@ -429,12 +429,12 @@
   </channel>
   <channel id="Nitro.de@SD">
     <display-name>RTL Nitro</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/960px-Nitro_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/960px-Nitro_Logo.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="SAT1Gold.de@SD">
     <display-name>SAT.1 Gold</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sat.1_Gold_Logo_2019.svg/960px-Sat.1_Gold_Logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sat.1_Gold_Logo_2019.svg/960px-Sat.1_Gold_Logo_2019.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="sat-1">
@@ -443,7 +443,7 @@
   </channel>
   <channel id="sixx.de@SD">
     <display-name>SIXX</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sixx_Logo.svg/960px-Sixx_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sixx_Logo.svg/960px-Sixx_Logo.svg.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="smartzone-baltic-lithuania">
@@ -468,7 +468,7 @@
   </channel>
   <channel id="RTLSuper.de@SD">
     <display-name>Super RTL</display-name>
-    <icon src="https://i.imgur.com/KbdK8t9.png"/>
+    <icon src="https://i.imgur.com/KbdK8t9.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="tiji">
@@ -485,7 +485,7 @@
   </channel>
   <channel id="TraceUrban.fr@SD">
     <display-name>Trace Urban</display-name>
-    <icon src="https://i.imgur.com/DLIbUMx.png"/>
+    <icon src="https://i.imgur.com/DLIbUMx.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="travel-channel">
@@ -498,22 +498,22 @@
   </channel>
   <channel id="TV3.lv@SD">
     <display-name>TV3</display-name>
-    <icon src="https://i.imgur.com/7nipq0y.png"/>
+    <icon src="https://i.imgur.com/7nipq0y.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="TV3Life.lv@SD">
     <display-name>TV3 Life</display-name>
-    <icon src="https://i.imgur.com/Tm8hj45.png"/>
+    <icon src="https://i.imgur.com/Tm8hj45.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="TV3Mini.lv@SD">
     <display-name>TV3 Mini</display-name>
-    <icon src="https://i.imgur.com/q8JOJ0o.png"/>
+    <icon src="https://i.imgur.com/q8JOJ0o.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="TV6.lv@SD">
     <display-name>TV6</display-name>
-    <icon src="https://i.imgur.com/oC0jiFW.png"/>
+    <icon src="https://i.imgur.com/oC0jiFW.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="tv-21">
@@ -542,7 +542,7 @@
   </channel>
   <channel id="ViasatExplore.se@SD">
     <display-name>Viasat Explore Nordic</display-name>
-    <icon src="https://i.imgur.com/DyT5pKB.png"/>
+    <icon src="https://i.imgur.com/DyT5pKB.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="viasat-golf">
@@ -551,7 +551,7 @@
   </channel>
   <channel id="ViasatHistory.se@SD">
     <display-name>Viasat History CEE</display-name>
-    <icon src="https://i.imgur.com/wRP9XA7.png"/>
+    <icon src="https://i.imgur.com/wRP9XA7.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="viasat-kino">
@@ -572,7 +572,7 @@
   </channel>
   <channel id="ViasatNature.se@SD">
     <display-name>VIASAT Nature CEE</display-name>
-    <icon src="https://i.imgur.com/ousRqqD.png"/>
+    <icon src="https://i.imgur.com/ousRqqD.png" />
     <url>https://tv.lv</url>
   </channel>
   <channel id="viasat-naturehistory-hd">
@@ -593,7 +593,7 @@
   </channel>
   <channel id="ZDF.de@SD">
     <display-name>ZDF</display-name>
-    <icon src="https://i.imgur.com/rtLb6m9.png"/>
+    <icon src="https://i.imgur.com/rtLb6m9.png" />
     <url>https://tv.lv</url>
   </channel>
   <programme start="20260423033000 +0000" stop="20260423043000 +0000" channel="8TV.lv@SD">

@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="KringvarpForoya.fo@SD">
     <display-name>KVF</display-name>
-    <icon src="https://static.wikia.nocookie.net/logopedia/images/b/b6/KVF_2019.svg"/>
+    <icon src="https://static.wikia.nocookie.net/logopedia/images/b/b6/KVF_2019.svg" />
     <url>https://kvf.fo</url>
   </channel>
 </tv>

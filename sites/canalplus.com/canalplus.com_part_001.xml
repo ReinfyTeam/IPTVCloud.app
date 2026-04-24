@@ -1,424 +1,424 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv>
   <channel id="ad#19">
-    <display-name/>
-    <url/>
+    <display-name />
+    <url />
   </channel>
   <channel id="ad#26">
-    <display-name/>
-    <url/>
+    <display-name />
+    <url />
   </channel>
   <programme start="20260423050900 +0000" stop="20260423065200 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <date />
+    <image />
   </programme>
   <programme start="20260423065200 +0000" stop="20260423083700 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <date />
+    <image />
   </programme>
   <programme start="20260423083700 +0000" stop="20260423102100 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <credits/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <date />
+    <image />
   </programme>
   <programme start="20260423102100 +0000" stop="20260423104700 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423104700 +0000" stop="20260423114900 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423114900 +0000" stop="20260423133300 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <credits/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <date />
+    <image />
   </programme>
   <programme start="20260423133300 +0000" stop="20260423151200 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <credits/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <date />
+    <image />
   </programme>
   <programme start="20260423151200 +0000" stop="20260423165800 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <date />
+    <image />
   </programme>
   <programme start="20260423165800 +0000" stop="20260423180300 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423180300 +0000" stop="20260423182000 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423182000 +0000" stop="20260423185500 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423185500 +0000" stop="20260423204500 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <date />
+    <image />
   </programme>
   <programme start="20260423204500 +0000" stop="20260423210000 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423210000 +0000" stop="20260423220100 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423220100 +0000" stop="20260423234700 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <date />
+    <image />
   </programme>
   <programme start="20260423234700 +0000" stop="20260424004700 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260424053200 +0000" stop="20260424072000 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <date />
+    <image />
   </programme>
   <programme start="20260424072000 +0000" stop="20260424073400 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260424073400 +0000" stop="20260424091800 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <credits/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <date />
+    <image />
   </programme>
   <programme start="20260424091800 +0000" stop="20260424110100 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <date />
+    <image />
   </programme>
   <programme start="20260424110100 +0000" stop="20260424120300 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260424120300 +0000" stop="20260424134600 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <credits/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <date />
+    <image />
   </programme>
   <programme start="20260424134600 +0000" stop="20260424153600 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <date />
+    <image />
   </programme>
   <programme start="20260424153600 +0000" stop="20260424161500 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <credits/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <date />
+    <image />
   </programme>
   <programme start="20260424161500 +0000" stop="20260424170800 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260424170800 +0000" stop="20260424180500 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260424180500 +0000" stop="20260424182000 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260424182000 +0000" stop="20260424185500 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260424185500 +0000" stop="20260424210000 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <date />
+    <image />
   </programme>
   <programme start="20260424210000 +0000" stop="20260424220100 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260424220100 +0000" stop="20260424222900 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260424222900 +0000" stop="20260425001000 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <date />
+    <image />
   </programme>
   <programme start="20260425001000 +0000" stop="20260425011000 +0000" channel="ad#19">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423040000 +0000" stop="20260423043500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423043500 +0000" stop="20260423060000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423060000 +0000" stop="20260423063000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423063000 +0000" stop="20260423075500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423075500 +0000" stop="20260423085000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423085000 +0000" stop="20260423085100 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <date />
+    <image />
   </programme>
   <programme start="20260423085100 +0000" stop="20260423092500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423092500 +0000" stop="20260423095500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423095500 +0000" stop="20260423105500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423105500 +0000" stop="20260423110000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423110000 +0000" stop="20260423114500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423114500 +0000" stop="20260423114700 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423114700 +0000" stop="20260423115000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423115000 +0000" stop="20260423115500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423115500 +0000" stop="20260423130500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <rating/>
-    <image/>
+    <title />
+    <desc />
+    <rating />
+    <image />
   </programme>
   <programme start="20260423130500 +0000" stop="20260423141500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423141500 +0000" stop="20260423142500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423142500 +0000" stop="20260423152000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423152000 +0000" stop="20260423160100 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423160100 +0000" stop="20260423164000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423164000 +0000" stop="20260423171000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423171000 +0000" stop="20260423175500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423175500 +0000" stop="20260423180000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423180000 +0000" stop="20260423185000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423185000 +0000" stop="20260423185200 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423185200 +0000" stop="20260423185500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423185500 +0000" stop="20260423190000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423190000 +0000" stop="20260423191000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260423191000 +0000" stop="20260423210000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423210000 +0000" stop="20260423221500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423221500 +0000" stop="20260423224500 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423224500 +0000" stop="20260423233000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260423233000 +0000" stop="20260424002000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260424002000 +0000" stop="20260424005000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <credits/>
-    <image/>
+    <title />
+    <desc />
+    <credits />
+    <image />
   </programme>
   <programme start="20260424005000 +0000" stop="20260424014000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <rating/>
-    <image/>
+    <title />
+    <desc />
+    <rating />
+    <image />
   </programme>
   <programme start="20260424014000 +0000" stop="20260424022300 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <rating/>
-    <image/>
+    <title />
+    <desc />
+    <rating />
+    <image />
   </programme>
   <programme start="20260424022300 +0000" stop="20260424023000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <date/>
-    <image/>
+    <title />
+    <desc />
+    <date />
+    <image />
   </programme>
   <programme start="20260424023000 +0000" stop="20260424024000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
   <programme start="20260424024000 +0000" stop="20260424025000 +0000" channel="ad#26">
-    <title/>
-    <desc/>
-    <image/>
+    <title />
+    <desc />
+    <image />
   </programme>
 </tv>

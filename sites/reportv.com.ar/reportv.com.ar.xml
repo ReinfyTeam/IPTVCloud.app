@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="0">
     <display-name>Todos</display-name>
@@ -6,22 +6,22 @@
   </channel>
   <channel id="LasEstrellasLatinAmerica.mx@SD">
     <display-name>LAS ESTRELLAS</display-name>
-    <icon src="https://i.imgur.com/g5ShxZ7.png"/>
+    <icon src="https://i.imgur.com/g5ShxZ7.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="CNNInternational.us@LatinAmerica">
     <display-name>CNN</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="DW.de@Espanol">
     <display-name>DW ESPAÑOL</display-name>
-    <icon src="https://i.imgur.com/8MRNFb9.png"/>
+    <icon src="https://i.imgur.com/8MRNFb9.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="HBOLatinAmerica.us@SD">
     <display-name>HBO</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="29">
@@ -34,17 +34,17 @@
   </channel>
   <channel id="TVEInternacionalAmerica.es@SD">
     <display-name>TVE</display-name>
-    <icon src="https://i.ibb.co/RpKLCMvp/tve.png"/>
+    <icon src="https://i.ibb.co/RpKLCMvp/tve.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="Antena3Internacional.es@SD">
     <display-name>ANTENA3</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/8/83/Antena3Internacional2025.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/8/83/Antena3Internacional2025.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="FilmArts.ar@Panregional">
     <display-name>FILM&amp;ARTS</display-name>
-    <icon src="https://i.imgur.com/ukdmEKD.png"/>
+    <icon src="https://i.imgur.com/ukdmEKD.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="64">
@@ -53,12 +53,12 @@
   </channel>
   <channel id="MultiPremier.mx@SD">
     <display-name>MULTIPREMIER</display-name>
-    <icon src="https://i.imgur.com/H3PzGZW.png"/>
+    <icon src="https://i.imgur.com/H3PzGZW.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="HTV.us@SD">
     <display-name>HTV</display-name>
-    <icon src="https://i.imgur.com/NlKFNHS.png"/>
+    <icon src="https://i.imgur.com/NlKFNHS.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="135">
@@ -71,12 +71,12 @@
   </channel>
   <channel id="TelefeInternacional.ar@SD">
     <display-name>TELEFE INTERNACIONAL</display-name>
-    <icon src="https://i.imgur.com/HNcCX3h.png"/>
+    <icon src="https://i.imgur.com/HNcCX3h.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="EuropaEuropa.ar@SD">
     <display-name>EUROPA EUROPA</display-name>
-    <icon src="https://i.imgur.com/w5SOfyJ.png"/>
+    <icon src="https://i.imgur.com/w5SOfyJ.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="222">
@@ -89,7 +89,7 @@
   </channel>
   <channel id="Globovision.ve@SD">
     <display-name>GLOBOVISION</display-name>
-    <icon src="https://i.imgur.com/v6nRdxQ.png"/>
+    <icon src="https://i.imgur.com/v6nRdxQ.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="311">
@@ -98,22 +98,22 @@
   </channel>
   <channel id="HBOXtremeLatinAmerica.us@SD">
     <display-name>HBO XTREME</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/960px-HBO_Xtreme.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/960px-HBO_Xtreme.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="HBOFamilyLatinAmerica.us@SD">
     <display-name>HBO FAMILY</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/960px-HBO_Family.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/960px-HBO_Family.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="Eurochannel.uk@SD">
     <display-name>EUROCHANNEL</display-name>
-    <icon src="https://i.imgur.com/yXAtmI6.png"/>
+    <icon src="https://i.imgur.com/yXAtmI6.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="TLCLatinAmerica.us@Panregional">
     <display-name>TLC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="374">
@@ -126,7 +126,7 @@
   </channel>
   <channel id="Telesur.ve@SD">
     <display-name>TELESUR</display-name>
-    <icon src="https://i.imgur.com/P50VjRX.png"/>
+    <icon src="https://i.imgur.com/P50VjRX.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="396">
@@ -135,7 +135,7 @@
   </channel>
   <channel id="Golden.mx@Panregional">
     <display-name>GOLDEN</display-name>
-    <icon src="https://i.imgur.com/NNd1lYl.png"/>
+    <icon src="https://i.imgur.com/NNd1lYl.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="403">
@@ -148,12 +148,12 @@
   </channel>
   <channel id="Vive.ve@SD">
     <display-name>VIVE TV</display-name>
-    <icon src="https://i.imgur.com/VEYhkDq.png"/>
+    <icon src="https://i.imgur.com/VEYhkDq.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="Televen.ve@SD">
     <display-name>TELEVEN</display-name>
-    <icon src="https://i.imgur.com/cxvkUvK.png"/>
+    <icon src="https://i.imgur.com/cxvkUvK.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="413">
@@ -162,7 +162,7 @@
   </channel>
   <channel id="VenezolanadeTelevision.ve@SD">
     <display-name>VTV</display-name>
-    <icon src="https://i.imgur.com/FeRTDqz.png"/>
+    <icon src="https://i.imgur.com/FeRTDqz.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="423">
@@ -179,7 +179,7 @@
   </channel>
   <channel id="HistoryLatinAmerica.us@South">
     <display-name>HISTORY</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="446">
@@ -196,17 +196,17 @@
   </channel>
   <channel id="TNTLatinAmerica.us@Center">
     <display-name>TNT</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="WarnerChannel.us@Venezuela">
     <display-name>WARNER</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="ElGourmet.ar@South">
     <display-name>EL GOURMET</display-name>
-    <icon src="https://i.imgur.com/ByMyRI9.png"/>
+    <icon src="https://i.imgur.com/ByMyRI9.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="479">
@@ -219,17 +219,17 @@
   </channel>
   <channel id="DiscoveryTurboLatinAmerica.us@Panregional">
     <display-name>DISCOVERY TURBO</display-name>
-    <icon src="https://i.imgur.com/1pQPxu3.png"/>
+    <icon src="https://i.imgur.com/1pQPxu3.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="DiscoveryScienceLatinAmerica.us@SD">
     <display-name>DISCOVERY SCIENCE</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/960px-Discovery_science_new_logo_2017.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/960px-Discovery_science_new_logo_2017.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="HBOSignatureLatinAmerica.us@SD">
     <display-name>HBO SIGNATURE</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/960px-HBO_Signature.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/960px-HBO_Signature.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="532">
@@ -266,7 +266,7 @@
   </channel>
   <channel id="StudioUniversalLatinAmerica.us@Panregional">
     <display-name>STUDIO UNIVERSAL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="591">
@@ -275,7 +275,7 @@
   </channel>
   <channel id="BabyTV.uk@UK">
     <display-name>BABY TV</display-name>
-    <icon src="https://i.imgur.com/4BDJ5FT.png"/>
+    <icon src="https://i.imgur.com/4BDJ5FT.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="727">
@@ -284,7 +284,7 @@
   </channel>
   <channel id="SunChannel.ve@SD">
     <display-name>SUN CHANNEL</display-name>
-    <icon src="https://i.imgur.com/B26qL3e.png"/>
+    <icon src="https://i.imgur.com/B26qL3e.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="778">
@@ -293,47 +293,47 @@
   </channel>
   <channel id="BethelTV.pe@SD">
     <display-name>BETHEL</display-name>
-    <icon src="https://i.imgur.com/zCVh765.png"/>
+    <icon src="https://i.imgur.com/zCVh765.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="Tooncast.us@SD">
     <display-name>TOONCAST</display-name>
-    <icon src="https://i.imgur.com/3yXRbQy.png"/>
+    <icon src="https://i.imgur.com/3yXRbQy.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="TCMLatinAmerica.us@Panregional">
     <display-name>TCM</display-name>
-    <icon src="https://i.imgur.com/QpDkrmT.png"/>
+    <icon src="https://i.imgur.com/QpDkrmT.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="VePlus.ve@Venezuela">
     <display-name>VENEVISION PLUS</display-name>
-    <icon src="https://i.imgur.com/uc3zqcP.png"/>
+    <icon src="https://i.imgur.com/uc3zqcP.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="ISat.ar@Panregional">
     <display-name>I-SAT</display-name>
-    <icon src="https://i.imgur.com/oIu6Oje.png"/>
+    <icon src="https://i.imgur.com/oIu6Oje.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="RTPmAmerica.pt@SD">
     <display-name>RTP Mundo</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="MTV80s.uk@SD">
     <display-name>VH1 CLASSIC</display-name>
-    <icon src="https://i.imgur.com/N9e5hv5.png"/>
+    <icon src="https://i.imgur.com/N9e5hv5.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="MeridianoTV.ve@SD">
     <display-name>MERIDIANO TV</display-name>
-    <icon src="https://i.imgur.com/I6gsUqD.png"/>
+    <icon src="https://i.imgur.com/I6gsUqD.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="CanalI.ve@SD">
     <display-name>CANAL I</display-name>
-    <icon src="https://i.imgur.com/vKfOavW.png"/>
+    <icon src="https://i.imgur.com/vKfOavW.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="1054">
@@ -346,17 +346,17 @@
   </channel>
   <channel id="DisneyJrLatinAmerica.ar@North">
     <display-name>DISNEY JR</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="truTVLatinAmerica.us@SD">
     <display-name>TRU TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/960px-TruTV_2014.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/960px-TruTV_2014.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="SyfyLatinAmerica.us@Panregional">
     <display-name>SY FY</display-name>
-    <icon src="https://i.imgur.com/4fMWhUE.png"/>
+    <icon src="https://i.imgur.com/4fMWhUE.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="1132">
@@ -365,7 +365,7 @@
   </channel>
   <channel id="TelemundoInternacional.us@South">
     <display-name>TELEMUNDO</display-name>
-    <icon src="https://i.imgur.com/j2O4ndp.png"/>
+    <icon src="https://i.imgur.com/j2O4ndp.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="1154">
@@ -374,17 +374,17 @@
   </channel>
   <channel id="DiscoveryTheaterLatinAmerica.us@SD">
     <display-name>DISCOVERY HD THEATER</display-name>
-    <icon src="https://i.imgur.com/AqR0Jkn.png"/>
+    <icon src="https://i.imgur.com/AqR0Jkn.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="NickJrLatinAmerica.us@Panregional">
     <display-name>NICK JR</display-name>
-    <icon src="https://i.imgur.com/KT4tdQs.png"/>
+    <icon src="https://i.imgur.com/KT4tdQs.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="NickelodeonLatinAmerica.us@Panregional">
     <display-name>NICKELODEON</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="1258">
@@ -401,27 +401,27 @@
   </channel>
   <channel id="MTVLatinAmerica.us@Panregional">
     <display-name>MTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="HBOMundiLatinAmerica.us@SD">
     <display-name>HBO MUNDI</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/960px-HBO_Mundi.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/960px-HBO_Mundi.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="AMCLatinAmerica.us@SD">
     <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="RTenEspanol.ru@SD">
     <display-name>RUSSIA TODAY</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/960px-Russia-today-logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/960px-Russia-today-logo.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="HGTVLatinAmerica.us@Panregional">
     <display-name>HGTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="1537">
@@ -434,22 +434,22 @@
   </channel>
   <channel id="MasChic.ar@Panregional">
     <display-name>MAS CHIC</display-name>
-    <icon src="https://i.imgur.com/cJC22gJ.png"/>
+    <icon src="https://i.imgur.com/cJC22gJ.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="Glitz.ar@Panregional">
     <display-name>GLITZ</display-name>
-    <icon src="https://i.imgur.com/2ahJoz4.png"/>
+    <icon src="https://i.imgur.com/2ahJoz4.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="LaVozdeMaria.do@SD">
     <display-name>LA VOZ DE MARIA</display-name>
-    <icon src="https://i.imgur.com/Zv8CxZX.png"/>
+    <icon src="https://i.imgur.com/Zv8CxZX.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="TBSLatinAmerica.us@Panregional">
     <display-name>TBS VERYFUNNY</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/TBS_logo_2016.svg/960px-TBS_logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/TBS_logo_2016.svg/960px-TBS_logo_2016.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="2005">
@@ -462,32 +462,32 @@
   </channel>
   <channel id="ComedyCentralLatinAmerica.us@Panregional">
     <display-name>COMEDY CENTRAL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="HBO2LatinAmerica.us@SD">
     <display-name>HBO 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="Venevision.ve@SD">
     <display-name>VENEVISION</display-name>
-    <icon src="https://i.imgur.com/gm1m8hW.png"/>
+    <icon src="https://i.imgur.com/gm1m8hW.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="HBOPlusLatinAmerica.us@SD">
     <display-name>HBO PLUS</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/960px-Logohboplus2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/960px-Logohboplus2019.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="TVes.ve@SD">
     <display-name>TVES</display-name>
-    <icon src="https://i.imgur.com/QX5DVUB.png"/>
+    <icon src="https://i.imgur.com/QX5DVUB.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="ANTV.ve@SD">
     <display-name>ANTV</display-name>
-    <icon src="https://i.imgur.com/Qm88HT0.png"/>
+    <icon src="https://i.imgur.com/Qm88HT0.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="2202">
@@ -500,12 +500,12 @@
   </channel>
   <channel id="PasionesLatinAmerica.us@SD">
     <display-name>PASIONES HD</display-name>
-    <icon src="https://i.imgur.com/VGnbWjO.png"/>
+    <icon src="https://i.imgur.com/VGnbWjO.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="SerTV.pa@SD">
     <display-name>SERTV</display-name>
-    <icon src="https://i.imgur.com/o04YvVS.png"/>
+    <icon src="https://i.imgur.com/o04YvVS.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="2235">
@@ -514,12 +514,12 @@
   </channel>
   <channel id="AgrotendenciaTV.cr@SD">
     <display-name>AGROTENDENCIA</display-name>
-    <icon src="https://i.imgur.com/frd60hR.png"/>
+    <icon src="https://i.imgur.com/frd60hR.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="CinemaxLatinAmerica.us@SD">
     <display-name>CINEMAX</display-name>
-    <icon src="https://i.imgur.com/cZWoJWD.png"/>
+    <icon src="https://i.imgur.com/cZWoJWD.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="2360">
@@ -528,7 +528,7 @@
   </channel>
   <channel id="GoldenPremier.mx@SD">
     <display-name>GOLDEN PREMIER</display-name>
-    <icon src="https://i.imgur.com/JMa7jws.png"/>
+    <icon src="https://i.imgur.com/JMa7jws.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="2566">
@@ -541,12 +541,12 @@
   </channel>
   <channel id="Colombeia.ve@SD">
     <display-name>COLOMBEIA</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/38/Logo_Colombeia.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/38/Logo_Colombeia.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="HolaTVLatinAmerica.us@SD">
     <display-name>HOLA TV</display-name>
-    <icon src="https://i.imgur.com/i0Qexxd.png"/>
+    <icon src="https://i.imgur.com/i0Qexxd.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="2670">
@@ -555,7 +555,7 @@
   </channel>
   <channel id="LifetimeLatinAmerica.us@Panregional">
     <display-name>LIFETIME</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="2791">
@@ -564,22 +564,22 @@
   </channel>
   <channel id="AdrenalinaSportsNetwork.us@SD">
     <display-name>ADRENALINA SPORTS NETWORK</display-name>
-    <icon src="https://i.imgur.com/xui8cL8.png"/>
+    <icon src="https://i.imgur.com/xui8cL8.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="History2LatinAmerica.us@Panregional">
     <display-name>H2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="ConCienciaTV.ve@SD">
     <display-name>CONCIENCIA TV</display-name>
-    <icon src="https://i.imgur.com/kzOOz8R.png"/>
+    <icon src="https://i.imgur.com/kzOOz8R.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="TlnovelasLatinAmerica.mx@SD">
     <display-name>TLNOVELAS</display-name>
-    <icon src="https://i.imgur.com/Rvm38Mu.png"/>
+    <icon src="https://i.imgur.com/Rvm38Mu.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="2899">
@@ -588,12 +588,12 @@
   </channel>
   <channel id="ParamountNetworkLatinAmerica.us@Panregional">
     <display-name>PARAMOUNT NETWORK</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="AnimalPlanetLatinAmerica.us@SD">
     <display-name>ANIMAL PLANET</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="3041">
@@ -602,52 +602,52 @@
   </channel>
   <channel id="DiscoveryHomeHealthLatinAmerica.mx@Chile">
     <display-name>DISCOVERY HOME AND HEALTH</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Discovery_H%26H_Logo_2022.webp/960px-Discovery_H%26H_Logo_2022.webp.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Discovery_H%26H_Logo_2022.webp/960px-Discovery_H%26H_Logo_2022.webp.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="BrazzersTVEurope.us@SD">
     <display-name>BRAZZERS TV</display-name>
-    <icon src="https://i.imgur.com/95nP0Pb.png"/>
+    <icon src="https://i.imgur.com/95nP0Pb.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="PenthouseTV.us@SD">
     <display-name>PENTHOUSE</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Penthouse_TV.svg/960px-Penthouse_TV.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Penthouse_TV.svg/960px-Penthouse_TV.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="PlayboyTVLatinAmerica.us@SD">
     <display-name>PLAYBOY</display-name>
-    <icon src="https://i.imgur.com/B3DMUM9.png"/>
+    <icon src="https://i.imgur.com/B3DMUM9.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="Venus.ar@SD">
     <display-name>VENUS</display-name>
-    <icon src="https://i.imgur.com/4LFXPMk.png"/>
+    <icon src="https://i.imgur.com/4LFXPMk.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="AvilaTV.ve@SD">
     <display-name>ÁVILA TV</display-name>
-    <icon src="https://i.imgur.com/hL2R9K1.png"/>
+    <icon src="https://i.imgur.com/hL2R9K1.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="TVFANB.ve@SD">
     <display-name>FANB TV</display-name>
-    <icon src="https://i.imgur.com/yaEyv29.png"/>
+    <icon src="https://i.imgur.com/yaEyv29.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="IVC.ve@SD">
     <display-name>IVC</display-name>
-    <icon src="https://i.imgur.com/HyXYR2o.png"/>
+    <icon src="https://i.imgur.com/HyXYR2o.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="VepacoTV.ve@SD">
     <display-name>TVEPACO</display-name>
-    <icon src="https://i.imgur.com/0bqJksL.png"/>
+    <icon src="https://i.imgur.com/0bqJksL.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="ValeTV.ve@SD">
     <display-name>VALE TV</display-name>
-    <icon src="https://i.imgur.com/NMI2Wed.png"/>
+    <icon src="https://i.imgur.com/NMI2Wed.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="3381">
@@ -656,17 +656,17 @@
   </channel>
   <channel id="TVFamilia.ve@SD">
     <display-name>TV FAMILIA</display-name>
-    <icon src="https://i.imgur.com/A3bU5e7.png"/>
+    <icon src="https://i.imgur.com/A3bU5e7.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="HBOPopLatinAmerica.us@SD">
     <display-name>HBO POP PANAMERICANO</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/960px-HBO_Pop.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/960px-HBO_Pop.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="FoodNetworkLatinAmerica.us@Panregional">
     <display-name>FOOD NETWORK HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="3467">
@@ -675,7 +675,7 @@
   </channel>
   <channel id="LaTeleTuya.ve@SD">
     <display-name>TLT</display-name>
-    <icon src="https://i.ibb.co/vvqk2hw/LOGO-HORIZONTAL-text.png"/>
+    <icon src="https://i.ibb.co/vvqk2hw/LOGO-HORIZONTAL-text.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="3750">
@@ -688,7 +688,7 @@
   </channel>
   <channel id="BoliviaTV.bo@SD">
     <display-name>BOLIVIA TV</display-name>
-    <icon src="https://i.imgur.com/tKLYYys.png"/>
+    <icon src="https://i.imgur.com/tKLYYys.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="4361">
@@ -701,12 +701,12 @@
   </channel>
   <channel id="GoldenEdge.mx@Panregional">
     <display-name>GOLDEN EDGE HD</display-name>
-    <icon src="https://i.imgur.com/SlSbcp3.png"/>
+    <icon src="https://i.imgur.com/SlSbcp3.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="GoldenPlus.mx@SD">
     <display-name>GOLDEN PLUS HD</display-name>
-    <icon src="https://i.imgur.com/OOEkyM2.png"/>
+    <icon src="https://i.imgur.com/OOEkyM2.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="6223">
@@ -727,7 +727,7 @@
   </channel>
   <channel id="DirecTVSports2.us@Panregional">
     <display-name>DIRECTV SPORTS 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/DIRECTV_Sports_2_Latin_America_%282018%29.svg/960px-DIRECTV_Sports_2_Latin_America_%282018%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/DIRECTV_Sports_2_Latin_America_%282018%29.svg/960px-DIRECTV_Sports_2_Latin_America_%282018%29.svg.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="6999">
@@ -736,7 +736,7 @@
   </channel>
   <channel id="DirecTVSportsPlus.us@Panregional">
     <display-name>DIRECTV SPORTS +</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/DirecTV_Sports%2B_Latin_America_%282018%29.png/960px-DirecTV_Sports%2B_Latin_America_%282018%29.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/DirecTV_Sports%2B_Latin_America_%282018%29.png/960px-DirecTV_Sports%2B_Latin_America_%282018%29.png" />
     <url>https://reportv.com.ar</url>
   </channel>
   <channel id="7001">

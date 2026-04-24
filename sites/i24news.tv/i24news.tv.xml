@@ -1,18 +1,18 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="i24NEWSArabic.il@SD">
     <display-name>I24NEWS عربى</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" />
     <url>https://i24news.tv</url>
   </channel>
   <channel id="i24NEWSEnglishUSA.il@SD">
     <display-name>I24NEWS English (USA)</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" />
     <url>https://i24news.tv</url>
   </channel>
   <channel id="i24NEWSFrench.il@SD">
     <display-name>I24NEWS Français</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" />
     <url>https://i24news.tv</url>
   </channel>
   <channel id="he">

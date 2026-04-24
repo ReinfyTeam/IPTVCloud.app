@@ -1,33 +1,33 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="QmusicVlaanderen.be@SD">
     <display-name>Qmusic</display-name>
-    <icon src="https://i.imgur.com/J09lNZK.png"/>
+    <icon src="https://i.imgur.com/J09lNZK.png" />
     <url>https://vtm.be</url>
   </channel>
   <channel id="VTM.be@SD">
     <display-name>VTM</display-name>
-    <icon src="https://i.imgur.com/N3nwyDd.png"/>
+    <icon src="https://i.imgur.com/N3nwyDd.png" />
     <url>https://vtm.be</url>
   </channel>
   <channel id="VTM2.be@SD">
     <display-name>VTM 2</display-name>
-    <icon src="https://i.imgur.com/kYBHMlw.png"/>
+    <icon src="https://i.imgur.com/kYBHMlw.png" />
     <url>https://vtm.be</url>
   </channel>
   <channel id="VTM3.be@SD">
     <display-name>VTM 3</display-name>
-    <icon src="https://i.imgur.com/vY6892N.png"/>
+    <icon src="https://i.imgur.com/vY6892N.png" />
     <url>https://vtm.be</url>
   </channel>
   <channel id="VTM4.be@SD">
     <display-name>VTM 4</display-name>
-    <icon src="https://i.imgur.com/vabFMLq.png"/>
+    <icon src="https://i.imgur.com/vabFMLq.png" />
     <url>https://vtm.be</url>
   </channel>
   <channel id="VTMGold.be@SD">
     <display-name>VTM Gold</display-name>
-    <icon src="https://i.imgur.com/HF49zV1.png"/>
+    <icon src="https://i.imgur.com/HF49zV1.png" />
     <url>https://vtm.be</url>
   </channel>
   <channel id="vtmnonstop">

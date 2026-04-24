@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="381">
     <display-name>A&amp;E HD</display-name>
@@ -626,132 +626,132 @@
   </channel>
   <channel id="AELatinAmerica.us@Chile">
     <display-name>A&amp;E</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="AMCLatinAmerica.us@SD">
     <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="AnimalPlanetLatinAmerica.us@SD">
     <display-name>ANIMAL PLANET</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="AXNLatinAmerica.us@Andes">
     <display-name>AXN</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Cablenoticias.co@SD">
     <display-name>CABLE NOTICIAS</display-name>
-    <icon src="https://i.imgur.com/FfhOGR9.png"/>
+    <icon src="https://i.imgur.com/FfhOGR9.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Canal1.co@SD">
     <display-name>CANAL 1</display-name>
-    <icon src="https://i.imgur.com/MiYlN0t.png"/>
+    <icon src="https://i.imgur.com/MiYlN0t.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="CanalCapital.co@SD">
     <display-name>CANAL CAPITAL</display-name>
-    <icon src="https://i.imgur.com/zAYtbYi.png"/>
+    <icon src="https://i.imgur.com/zAYtbYi.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="CanalClaro.cl@SD">
     <display-name>CANAL CLARO</display-name>
-    <icon src="https://i.imgur.com/Kgjfd3J.png"/>
+    <icon src="https://i.imgur.com/Kgjfd3J.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="CanalCongreso.co@SD">
     <display-name>CANAL DEL CONGRESO</display-name>
-    <icon src="https://i.imgur.com/3VnL8dp.png"/>
+    <icon src="https://i.imgur.com/3VnL8dp.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="CanalInstitucional.co@SD">
     <display-name>CANAL INSTITUCIONAL</display-name>
-    <icon src="https://i.imgur.com/CKnf3Ua.png"/>
+    <icon src="https://i.imgur.com/CKnf3Ua.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="CanalRCN.co@SD">
     <display-name>CANAL RCN</display-name>
-    <icon src="https://i.imgur.com/5PhTaHp.png"/>
+    <icon src="https://i.imgur.com/5PhTaHp.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="CanalTRO.co@SD">
     <display-name>TRO</display-name>
-    <icon src="https://i.imgur.com/bdBduvj.png"/>
+    <icon src="https://i.imgur.com/bdBduvj.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="CaracolTV.co@SD">
     <display-name>CANAL CARACOL</display-name>
-    <icon src="https://i.imgur.com/WbfdJbk.png"/>
+    <icon src="https://i.imgur.com/WbfdJbk.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="CartoonNetworkLatinAmerica.us@NorthAtlantic">
     <display-name>CARTOON NETWORK</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Cinecanal.us@Pacific">
     <display-name>CINECANAL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="CineLatino.mx@SD">
     <display-name>CINE LATINO</display-name>
-    <icon src="https://i.imgur.com/2V0R0xT.png"/>
+    <icon src="https://i.imgur.com/2V0R0xT.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="CinemaxLatinAmerica.us@SD">
     <display-name>CINEMAX</display-name>
-    <icon src="https://i.imgur.com/cZWoJWD.png"/>
+    <icon src="https://i.imgur.com/cZWoJWD.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="ClaroCinema.mx@SD">
     <display-name>CLARO CINEMA</display-name>
-    <icon src="https://i.imgur.com/SOLGQxQ.jpg"/>
+    <icon src="https://i.imgur.com/SOLGQxQ.jpg" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="ClaroMusicaTV.co@SD">
     <display-name>CLARO MúSICA TV</display-name>
-    <icon src="https://i.imgur.com/vrSFUwv.png"/>
+    <icon src="https://i.imgur.com/vrSFUwv.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="ClaroSportsChile.cl@SD">
     <display-name>CLARO SPORTS</display-name>
-    <icon src="https://i.imgur.com/61tSA6a.png"/>
+    <icon src="https://i.imgur.com/61tSA6a.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="CNNenEspanol.us@SD">
     <display-name>CNN EN ESPANOL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="ComedyCentralLatinAmerica.us@Panregional">
     <display-name>COMEDY CENTRAL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Cosmovision.co@SD">
     <display-name>COSMOVISION</display-name>
-    <icon src="https://i.imgur.com/QlvYfEJ.png"/>
+    <icon src="https://i.imgur.com/QlvYfEJ.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Cristovision.co@SD">
     <display-name>CRISTOVISION</display-name>
-    <icon src="https://i.imgur.com/XIhCUY9.png"/>
+    <icon src="https://i.imgur.com/XIhCUY9.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="DiscoveryChannelLatinAmerica.us@Panregional">
     <display-name>DISCOVERY CHANNEL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="DiscoveryHomeHealthLatinAmerica.mx@Panregional">
     <display-name>DISCOVERY HOME &amp; HEALTH</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Discovery_H%26H_Logo_2022.webp/960px-Discovery_H%26H_Logo_2022.webp.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Discovery_H%26H_Logo_2022.webp/960px-Discovery_H%26H_Logo_2022.webp.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="DiscoveryKidsLatinAmerica.us@Panregional">
@@ -760,42 +760,42 @@
   </channel>
   <channel id="DiscoveryTurboLatinAmerica.us@Panregional">
     <display-name>DISCOVERY TURBO</display-name>
-    <icon src="https://i.imgur.com/1pQPxu3.png"/>
+    <icon src="https://i.imgur.com/1pQPxu3.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="DisneyChannelLatinAmerica.ar@Center">
     <display-name>DISNEY CHANNEL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="ELatinAmerica.us@Andes">
     <display-name>E! ENTERTAINMENT</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/500px-E%21_Logo_2012.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/500px-E%21_Logo_2012.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="ElGourmet.ar@Panregional">
     <display-name>EL GOURMET</display-name>
-    <icon src="https://i.imgur.com/ByMyRI9.png"/>
+    <icon src="https://i.imgur.com/ByMyRI9.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="ElTiempoTV.co@SD">
     <display-name>EL TIEMPO TELEVISION</display-name>
-    <icon src="https://i.imgur.com/qKC1NJI.png"/>
+    <icon src="https://i.imgur.com/qKC1NJI.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Enlace.cr@SD">
     <display-name>ENLACE</display-name>
-    <icon src="https://i.imgur.com/YwUVTmS.png"/>
+    <icon src="https://i.imgur.com/YwUVTmS.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="ESNETV.us@SD">
     <display-name>EL SEMBRADOR</display-name>
-    <icon src="https://i.imgur.com/bwAuFgx.png"/>
+    <icon src="https://i.imgur.com/bwAuFgx.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="FoodNetworkLatinAmerica.us@Panregional">
     <display-name>FOOD NETWORK</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="FoxSports2LatinAmerica.us@South">
@@ -804,262 +804,262 @@
   </channel>
   <channel id="FoxSports3LatinAmerica.us@Panregional">
     <display-name>ESPN 6</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Fox_sports_3_logo.svg/960px-Fox_sports_3_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Fox_sports_3_logo.svg/960px-Fox_sports_3_logo.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="FoxSportsLatinAmerica.us@South">
     <display-name>ESPN 5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="FX.cl@SD">
     <display-name>FX</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Golden.mx@Panregional">
     <display-name>GOLDEN</display-name>
-    <icon src="https://i.imgur.com/NNd1lYl.png"/>
+    <icon src="https://i.imgur.com/NNd1lYl.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="History2LatinAmerica.us@Panregional">
     <display-name>H2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="HistoryLatinAmerica.us@Panregional">
     <display-name>HISTORY CHANNEL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="HTV.us@SD">
     <display-name>HTV</display-name>
-    <icon src="https://i.imgur.com/NlKFNHS.png"/>
+    <icon src="https://i.imgur.com/NlKFNHS.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="InvestigationDiscoveryLatinAmerica.us@Panregional">
     <display-name>INVESTIGATION DISCOVERY</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="LasEstrellasLatinAmerica.mx@SD">
     <display-name>CANAL DE LAS ESTRELLAS</display-name>
-    <icon src="https://i.imgur.com/g5ShxZ7.png"/>
+    <icon src="https://i.imgur.com/g5ShxZ7.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="LifetimeLatinAmerica.us@Panregional">
     <display-name>LIFETIME</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="MTVLatinAmerica.us@Panregional">
     <display-name>MTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="MultiPremier.mx@SD">
     <display-name>MULTIPREMIER</display-name>
-    <icon src="https://i.imgur.com/H3PzGZW.png"/>
+    <icon src="https://i.imgur.com/H3PzGZW.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="NationalGeographicLatinAmerica.us@Panregional">
     <display-name>NATIONAL GEOGRAPHIC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="NickelodeonLatinAmerica.us@Panregional">
     <display-name>NICKELODEON</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="NickJrLatinAmerica.us@Panregional">
     <display-name>NICK JR</display-name>
-    <icon src="https://i.imgur.com/KT4tdQs.png"/>
+    <icon src="https://i.imgur.com/KT4tdQs.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="NickMusic.us@SD">
     <display-name>NICKMUSIC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/NickMusic.svg/960px-NickMusic.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/NickMusic.svg/960px-NickMusic.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="NTN24.co@SD">
     <display-name>NTN 24</display-name>
-    <icon src="https://i.imgur.com/UoKmSAP.png"/>
+    <icon src="https://i.imgur.com/UoKmSAP.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="ParamountNetworkLatinAmerica.us@Panregional">
     <display-name>PARAMOUNT</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="PasionesLatinAmerica.us@SD">
     <display-name>PASIONES</display-name>
-    <icon src="https://i.imgur.com/VGnbWjO.png"/>
+    <icon src="https://i.imgur.com/VGnbWjO.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="PenthouseTV.us@SD">
     <display-name>PENTHOUSE</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Penthouse_TV.svg/960px-Penthouse_TV.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Penthouse_TV.svg/960px-Penthouse_TV.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="PlayboyTVLatinAmerica.us@SD">
     <display-name>PLAYBOY</display-name>
-    <icon src="https://i.imgur.com/B3DMUM9.png"/>
+    <icon src="https://i.imgur.com/B3DMUM9.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="RCNNovelas.co@SD">
     <display-name>RCN TELENOVELAS</display-name>
-    <icon src="https://i.imgur.com/9wxdWNQ.png"/>
+    <icon src="https://i.imgur.com/9wxdWNQ.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="RedPlus.co@SD">
     <display-name>RED+</display-name>
-    <icon src="https://i.imgur.com/kuqkTMC.png"/>
+    <icon src="https://i.imgur.com/kuqkTMC.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="SenalColombia.co@SD">
     <display-name>SENAL COLOMBIA</display-name>
-    <icon src="https://i.imgur.com/Y9x16vl.png"/>
+    <icon src="https://i.imgur.com/Y9x16vl.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Sextreme.br@SD">
     <display-name>SEXTREME</display-name>
-    <icon src="https://i.imgur.com/jWsW2Rd.png"/>
+    <icon src="https://i.imgur.com/jWsW2Rd.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="SinLimites.co@SD">
     <display-name>SIN LíMITES</display-name>
-    <icon src="https://i.imgur.com/wrFfgzC.png"/>
+    <icon src="https://i.imgur.com/wrFfgzC.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="SonyChannelAndes.us@SD">
     <display-name>SONY</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Space.ar@Alternate">
     <display-name>SPACE</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/960px-SpaceLogo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/960px-SpaceLogo.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="StarChannel.co@SD">
     <display-name>STAR CHANNEL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="StudioUniversalLatinAmerica.us@Chile">
     <display-name>STUDIO UNIVERSAL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="TBSLatinAmerica.us@Panregional">
     <display-name>TNT NOVELAS</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/TBS_logo_2016.svg/960px-TBS_logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/TBS_logo_2016.svg/960px-TBS_logo_2016.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="TeleAmiga.co@SD">
     <display-name>TELEAMIGA</display-name>
-    <icon src="https://i.imgur.com/gBZFZNv.png"/>
+    <icon src="https://i.imgur.com/gBZFZNv.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Teleantioquia.co@SD">
     <display-name>TELEANTIOQUIA</display-name>
-    <icon src="https://i.imgur.com/6WMV2Az.png"/>
+    <icon src="https://i.imgur.com/6WMV2Az.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Telecafe.co@SD">
     <display-name>TELECAFE</display-name>
-    <icon src="https://i.imgur.com/z18LRqM.png"/>
+    <icon src="https://i.imgur.com/z18LRqM.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Telecaribe.co@SD">
     <display-name>TELECARIBE</display-name>
-    <icon src="https://i.imgur.com/E35cXHt.png"/>
+    <icon src="https://i.imgur.com/E35cXHt.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Teleislas.co@SD">
     <display-name>TELEISLAS CHANNEL</display-name>
-    <icon src="https://i.imgur.com/aKHGRyk.png"/>
+    <icon src="https://i.imgur.com/aKHGRyk.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="TelemundoInternacional.us@CentralAmerica">
     <display-name>TELEMUNDO</display-name>
-    <icon src="https://i.imgur.com/j2O4ndp.png"/>
+    <icon src="https://i.imgur.com/j2O4ndp.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Telepacifico.co@SD">
     <display-name>TELEPACIFICO</display-name>
-    <icon src="https://i.imgur.com/39hy97J.png"/>
+    <icon src="https://i.imgur.com/39hy97J.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="TLCLatinAmerica.us@Panregional">
     <display-name>TLC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="TlnovelasLatinAmerica.mx@SD">
     <display-name>TL NOVELAS</display-name>
-    <icon src="https://i.imgur.com/Rvm38Mu.png"/>
+    <icon src="https://i.imgur.com/Rvm38Mu.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="TNTLatinAmerica.us@Chile">
     <display-name>TNT</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="TNTSeriesLatinAmerica.us@Panregional">
     <display-name>TNT SERIES</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Trece.co@SD">
     <display-name>TRECE</display-name>
-    <icon src="https://i.imgur.com/jsuXXIg.png"/>
+    <icon src="https://i.imgur.com/jsuXXIg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="truTVLatinAmerica.us@SD">
     <display-name>ADULT SWIM</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/960px-TruTV_2014.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/960px-TruTV_2014.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="TVAgro.co@SD">
     <display-name>TV AGRO</display-name>
-    <icon src="https://i.imgur.com/9nzY7Ch.png"/>
+    <icon src="https://i.imgur.com/9nzY7Ch.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="TVFamilia.ve@SD">
     <display-name>TV FAMILIA</display-name>
-    <icon src="https://i.imgur.com/A3bU5e7.png"/>
+    <icon src="https://i.imgur.com/A3bU5e7.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="UniversalTVLatinAmerica.us@Colombia">
     <display-name>UNIVERSAL CHANNEL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Venus.ar@SD">
     <display-name>VENUS</display-name>
-    <icon src="https://i.imgur.com/4LFXPMk.png"/>
+    <icon src="https://i.imgur.com/4LFXPMk.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="VePlus.ve@Panregional">
     <display-name>VE PLUS TV</display-name>
-    <icon src="https://i.imgur.com/uc3zqcP.png"/>
+    <icon src="https://i.imgur.com/uc3zqcP.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="WarnerChannel.us@Panregional">
     <display-name>WARNER CHANNEL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="WinSports.co@SD">
     <display-name>WIN SPORTS</display-name>
-    <icon src="https://i.imgur.com/DuSSrHV.png"/>
+    <icon src="https://i.imgur.com/DuSSrHV.png" />
     <url>https://siba.com.co</url>
   </channel>
   <channel id="Zoom.co@SD">
     <display-name>ZOOM TV</display-name>
-    <icon src="https://i.imgur.com/euy5zp6.png"/>
+    <icon src="https://i.imgur.com/euy5zp6.png" />
     <url>https://siba.com.co</url>
   </channel>
   <programme start="20260423130000 +0000" stop="20260423140000 +0000" channel="381">

@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="1%2B1+International">
     <display-name>1+1 International</display-name>
@@ -14,7 +14,7 @@
   </channel>
   <channel id="ChannelOne.ru@SD">
     <display-name>1TV</display-name>
-    <icon src="https://i.imgur.com/RUSX0rX.png"/>
+    <icon src="https://i.imgur.com/RUSX0rX.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="2x2">
@@ -23,32 +23,32 @@
   </channel>
   <channel id="3sat.de@SD">
     <display-name>3SAT</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="4FunDance.pl@SD">
     <display-name>4Fun Dance</display-name>
-    <icon src="https://i.imgur.com/ZEWHe1B.png"/>
+    <icon src="https://i.imgur.com/ZEWHe1B.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="4FunKids.pl@SD">
     <display-name>4Fun Kids</display-name>
-    <icon src="https://i.imgur.com/2JO5Y8c.png"/>
+    <icon src="https://i.imgur.com/2JO5Y8c.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="4FunTV.pl@SD">
     <display-name>4Fun.TV</display-name>
-    <icon src="https://i.imgur.com/rI1wo2l.png"/>
+    <icon src="https://i.imgur.com/rI1wo2l.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Channel5.ua@SD">
     <display-name>5 Kanal</display-name>
-    <icon src="https://i.imgur.com/a9JJXPk.png"/>
+    <icon src="https://i.imgur.com/a9JJXPk.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="7D7.ee@SD">
     <display-name>7D7TV</display-name>
-    <icon src="https://i.imgur.com/WrQI2EN.png"/>
+    <icon src="https://i.imgur.com/WrQI2EN.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="13tv">
@@ -77,17 +77,17 @@
   </channel>
   <channel id="360TuneBox.nl@SD">
     <display-name>360TuneBox</display-name>
-    <icon src="https://i.imgur.com/1Fyezng.png"/>
+    <icon src="https://i.imgur.com/1Fyezng.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SlagerMuzika.cz@SD">
     <display-name>lgr Muzika</display-name>
-    <icon src="https://i.imgur.com/hKdXwrW.png"/>
+    <icon src="https://i.imgur.com/hKdXwrW.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SlagerOriginal.cz@SD">
     <display-name>lgr Originl</display-name>
-    <icon src="https://i.imgur.com/0YjeWcq.png"/>
+    <icon src="https://i.imgur.com/0YjeWcq.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="%8Auriansky+spravodaj">
@@ -96,7 +96,7 @@
   </channel>
   <channel id="TukiTV.sk@SD">
     <display-name>uki</display-name>
-    <icon src="https://i.imgur.com/mqbYLdv.png"/>
+    <icon src="https://i.imgur.com/mqbYLdv.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="%C8Ro+%C8esk%E9+Bud%ECjovice">
@@ -205,52 +205,52 @@
   </channel>
   <channel id="CT1.cz@SD">
     <display-name>T1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%C4%8CT1_logo_2012.svg/960px-%C4%8CT1_logo_2012.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%C4%8CT1_logo_2012.svg/960px-%C4%8CT1_logo_2012.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CT2.cz@SD">
     <display-name>T2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%C4%8CT2_logo_2012.svg/960px-%C4%8CT2_logo_2012.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/%C4%8CT2_logo_2012.svg/960px-%C4%8CT2_logo_2012.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CTSport.cz@SD">
     <display-name>T4 Sport</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/960px-%C4%8CT_sport_logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/960px-%C4%8CT_sport_logo.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CT24.cz@SD">
     <display-name>T24</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%C4%8CT24_logo.png/960px-%C4%8CT24_logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%C4%8CT24_logo.png/960px-%C4%8CT24_logo.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CTDecko.cz@SD">
     <display-name>T :D</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%C4%8CT-D_logo.svg/960px-%C4%8CT-D_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%C4%8CT-D_logo.svg/960px-%C4%8CT-D_logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CTart.cz@SD">
     <display-name>T art</display-name>
-    <icon src="https://i.imgur.com/aNghU1z.png"/>
+    <icon src="https://i.imgur.com/aNghU1z.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Ocko.cz@SD">
     <display-name>ko</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%93%C4%8Dko_logo_2012.png/960px-%C3%93%C4%8Dko_logo_2012.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%93%C4%8Dko_logo_2012.png/960px-%C3%93%C4%8Dko_logo_2012.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="OckoBlack.cz@SD">
     <display-name>ko Black</display-name>
-    <icon src="https://i.imgur.com/5rw9tWy.png"/>
+    <icon src="https://i.imgur.com/5rw9tWy.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="OckoExpres.cz@SD">
     <display-name>ko Expres</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%C3%93%C4%8Dko_Expres_logo.png/960px-%C3%93%C4%8Dko_Expres_logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%C3%93%C4%8Dko_Expres_logo.png/960px-%C3%93%C4%8Dko_Expres_logo.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="OckoStar.cz@SD">
     <display-name>ko Star</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/%C3%93%C4%8Dko_Star_logo.png/960px-%C3%93%C4%8Dko_Star_logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/%C3%93%C4%8Dko_Star_logo.png/960px-%C3%93%C4%8Dko_Star_logo.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="A11">
@@ -271,27 +271,27 @@
   </channel>
   <channel id="AdventureTV.pl@SD">
     <display-name>Adventure TV (pl)</display-name>
-    <icon src="https://i.imgur.com/VQVr4Nk.png"/>
+    <icon src="https://i.imgur.com/VQVr4Nk.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="AlJazeera.qa@English">
     <display-name>Al Jazeera</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="AlJazeeraBalkans.ba@SD">
     <display-name>Al Jazeera Balkans</display-name>
-    <icon src="https://i.imgur.com/vMzCr8O.png"/>
+    <icon src="https://i.imgur.com/vMzCr8O.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="AlJazeera.qa@Arabic">
     <display-name>Aljazeera (Arabic)</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="AMCEurope.uk@CzechRepublic">
     <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="AMC+%28pl%29">
@@ -308,12 +308,12 @@
   </channel>
   <channel id="AnimalPlanet.uk@SD">
     <display-name>AnimalPlanet UK</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="AnixeHDSerie.de@SD">
     <display-name>ANIXE HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Anixe_HD.svg/960px-Anixe_HD.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Anixe_HD.svg/960px-Anixe_HD.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Antena3">
@@ -330,27 +330,27 @@
   </channel>
   <channel id="One.de@SD">
     <display-name>ARD One</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/One_2022.svg/960px-One_2022.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/One_2022.svg/960px-One_2022.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ARDalpha.de@SD">
     <display-name>ARD-alpha</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/960px-ARD_alpha.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/960px-ARD_alpha.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ArenaSport1.sk@SD">
     <display-name>Arena Sport 1</display-name>
-    <icon src="https://i.imgur.com/2qf67zW.png"/>
+    <icon src="https://i.imgur.com/2qf67zW.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ArenaSport2.sk@SD">
     <display-name>Arena Sport 2</display-name>
-    <icon src="https://i.imgur.com/Yq3Jf19.png"/>
+    <icon src="https://i.imgur.com/Yq3Jf19.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ArirangWorld.kr@SD">
     <display-name>Arirang</display-name>
-    <icon src="https://i.imgur.com/5Aoithj.png"/>
+    <icon src="https://i.imgur.com/5Aoithj.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ARTE">
@@ -375,7 +375,7 @@
   </channel>
   <channel id="ATV.hu@SD">
     <display-name>ATV</display-name>
-    <icon src="https://i.imgur.com/85sIvrX.png"/>
+    <icon src="https://i.imgur.com/85sIvrX.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ATV+%28de%29">
@@ -392,7 +392,7 @@
   </channel>
   <channel id="automotorundsportchannel.de@SD">
     <display-name>Auto Motor Sport</display-name>
-    <icon src="https://i.imgur.com/o8wOvJ7.png"/>
+    <icon src="https://i.imgur.com/o8wOvJ7.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="AXN">
@@ -401,7 +401,7 @@
   </channel>
   <channel id="AXNBlack.us@Bulgary">
     <display-name>AXN Black</display-name>
-    <icon src="https://i.imgur.com/Peo1QiZ.png"/>
+    <icon src="https://i.imgur.com/Peo1QiZ.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="AXN+Digi+TV">
@@ -418,7 +418,7 @@
   </channel>
   <channel id="AXNWhite.us@SD">
     <display-name>AXN White</display-name>
-    <icon src="https://i.imgur.com/47IKxmt.png"/>
+    <icon src="https://i.imgur.com/47IKxmt.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="B1+Televizija">
@@ -427,12 +427,12 @@
   </channel>
   <channel id="BabesTV.us@SD">
     <display-name>Babes TV</display-name>
-    <icon src="https://i.imgur.com/XK19a9v.png"/>
+    <icon src="https://i.imgur.com/XK19a9v.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="BabyTV.uk@UK">
     <display-name>Baby TV</display-name>
-    <icon src="https://i.imgur.com/4BDJ5FT.png"/>
+    <icon src="https://i.imgur.com/4BDJ5FT.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="BangU">
@@ -445,12 +445,12 @@
   </channel>
   <channel id="TVBarrandov.cz@SD">
     <display-name>Barrandov</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Logo_TV_Barrandov.png/960px-Logo_TV_Barrandov.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Logo_TV_Barrandov.png/960px-Logo_TV_Barrandov.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="BarrandovKrimi.cz@SD">
     <display-name>Barrandov Krimi</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Logo-krimi-barrandov-color.svg/960px-Logo-krimi-barrandov-color.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Logo-krimi-barrandov-color.svg/960px-Logo-krimi-barrandov-color.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="BBC+Brit">
@@ -479,7 +479,7 @@
   </channel>
   <channel id="BBCFour.uk@UK">
     <display-name>BBC Four</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/960px-BBC_Four_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/960px-BBC_Four_logo_2021.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="BBC+Lifestyle">
@@ -488,7 +488,7 @@
   </channel>
   <channel id="BBCOne.uk@London">
     <display-name>BBC One</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="BBC+Radio">
@@ -497,37 +497,37 @@
   </channel>
   <channel id="BBCTwo.uk@England">
     <display-name>BBC Two</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="BBCNews.uk@Europe">
     <display-name>BBC World News</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Biznes24.pl@SD">
     <display-name>Biznes24</display-name>
-    <icon src="https://i.imgur.com/0yoFsuq.png"/>
+    <icon src="https://i.imgur.com/0yoFsuq.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="BloombergTV.us@Europe">
     <display-name>Bloomberg</display-name>
-    <icon src="https://i.imgur.com/OuogLHx.png"/>
+    <icon src="https://i.imgur.com/OuogLHx.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="BlueHustler.nl@SD">
     <display-name>Blue Hustler</display-name>
-    <icon src="https://i.imgur.com/G1YaX0Q.png"/>
+    <icon src="https://i.imgur.com/G1YaX0Q.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="BNTV.ba@SD">
     <display-name>BN Televizija</display-name>
-    <icon src="https://i.imgur.com/DUBvfWb.png"/>
+    <icon src="https://i.imgur.com/DUBvfWb.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Bober.ru@SD">
     <display-name>Bober</display-name>
-    <icon src="https://i.imgur.com/clWWhB8.png"/>
+    <icon src="https://i.imgur.com/clWWhB8.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Body+in+Balance">
@@ -552,7 +552,7 @@
   </channel>
   <channel id="StingrayClassica.ca@SD">
     <display-name>Brava HDTV</display-name>
-    <icon src="https://i.imgur.com/nh1k5RC.png"/>
+    <icon src="https://i.imgur.com/nh1k5RC.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Bravo%21+Kids">
@@ -565,17 +565,17 @@
   </channel>
   <channel id="BrazzersTVEurope.us@SD">
     <display-name>Brazzers TV Europe</display-name>
-    <icon src="https://i.imgur.com/95nP0Pb.png"/>
+    <icon src="https://i.imgur.com/95nP0Pb.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="BVN.nl@SD">
     <display-name>BVN</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/BVN_logo.svg/960px-BVN_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/BVN_logo.svg/960px-BVN_logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="StingrayCMusic.ca@SD">
     <display-name>C Music TV</display-name>
-    <icon src="https://i.imgur.com/3UppN5P.png"/>
+    <icon src="https://i.imgur.com/3UppN5P.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Canal%2B+Action">
@@ -584,7 +584,7 @@
   </channel>
   <channel id="CanalPlusSport1.cz@SD">
     <display-name>Canal+ Sport</display-name>
-    <icon src="https://i.imgur.com/Q3WjH1Q.png"/>
+    <icon src="https://i.imgur.com/Q3WjH1Q.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Canal%2B+Sport+2">
@@ -617,7 +617,7 @@
   </channel>
   <channel id="24Horas.es@SD">
     <display-name>Canal 24 Horas</display-name>
-    <icon src="https://i.ibb.co/21sXZ3GT/24h.png"/>
+    <icon src="https://i.ibb.co/21sXZ3GT/24h.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Canale+5">
@@ -626,7 +626,7 @@
   </channel>
   <channel id="Carousel.ru@SD">
     <display-name>Carousel</display-name>
-    <icon src="https://i.imgur.com/4wmnx1W.png"/>
+    <icon src="https://i.imgur.com/4wmnx1W.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Cars+%26+Stars+TV">
@@ -635,7 +635,7 @@
   </channel>
   <channel id="CartoonNetworkCEE.uk@CzechRepublic">
     <display-name>Cartoon Network</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Cartoon+Network%2BTCM+%28hu%29">
@@ -656,7 +656,7 @@
   </channel>
   <channel id="CartoonNetworkCEE.uk@Poland">
     <display-name>Cartoon Network (pl)</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Cartoonito">
@@ -669,7 +669,7 @@
   </channel>
   <channel id="CBBC.uk@SD">
     <display-name>CBBC</display-name>
-    <icon src="https://i.imgur.com/tk8G4CU.png"/>
+    <icon src="https://i.imgur.com/tk8G4CU.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CBS+Reality+%28pl%29">
@@ -678,17 +678,17 @@
   </channel>
   <channel id="CCTV4Europe.cn@SD">
     <display-name>CCTV4 Europe</display-name>
-    <icon src="https://i.imgur.com/HGLFdfk.png"/>
+    <icon src="https://i.imgur.com/HGLFdfk.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CCTV9.cn@SD">
     <display-name>CCTV9</display-name>
-    <icon src="https://i.imgur.com/3tivvMm.png"/>
+    <icon src="https://i.imgur.com/3tivvMm.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVCentral.sk@SD">
     <display-name>CETV</display-name>
-    <icon src="https://i.imgur.com/LqGT8o9.png"/>
+    <icon src="https://i.imgur.com/LqGT8o9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CGTN+Arabic">
@@ -721,7 +721,7 @@
   </channel>
   <channel id="Channel5.uk@SD">
     <display-name>Channel 5</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Channel+final+9">
@@ -734,12 +734,12 @@
   </channel>
   <channel id="CinemaxCentralEurope.hu@HD">
     <display-name>Cinemax</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/960px-Cinemax_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/960px-Cinemax_2016.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Cinemax2CentralEurope.hu@HD">
     <display-name>Cinemax 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Cinemax_2_%282016%29.png/960px-Cinemax_2_%282016%29.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Cinemax_2_%282016%29.png/960px-Cinemax_2_%282016%29.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Cinemax+2+%28hr%29">
@@ -784,7 +784,7 @@
   </channel>
   <channel id="ClubMTVEurope.uk@SD">
     <display-name>Club MTV</display-name>
-    <icon src="https://i.imgur.com/FD6eQI3.png"/>
+    <icon src="https://i.imgur.com/FD6eQI3.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CMC+Televizija">
@@ -801,22 +801,22 @@
   </channel>
   <channel id="CNLEurope.kz@SD">
     <display-name>CNL</display-name>
-    <icon src="https://i.imgur.com/u7jxarn.png"/>
+    <icon src="https://i.imgur.com/u7jxarn.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CNNInternational.us@MENA">
     <display-name>CNN International</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CNNPrimaNews.cz@SD">
     <display-name>CNN Prima News</display-name>
-    <icon src="https://i.imgur.com/elZyUjX.png"/>
+    <icon src="https://i.imgur.com/elZyUjX.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ComedyCentral.hu@SD">
     <display-name>Comedy Central (hu)</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Comedy+Central+%28pl%29">
@@ -825,7 +825,7 @@
   </channel>
   <channel id="CoolTV.hu@SD">
     <display-name>Cool TV</display-name>
-    <icon src="https://i.imgur.com/rXJtthd.png"/>
+    <icon src="https://i.imgur.com/rXJtthd.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Country+Radio">
@@ -834,17 +834,17 @@
   </channel>
   <channel id="CredoTV.ro@SD">
     <display-name>Credo</display-name>
-    <icon src="https://i.imgur.com/RD4TgcM.png"/>
+    <icon src="https://i.imgur.com/RD4TgcM.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CrimePlusInvestigationCEE.uk@SD">
     <display-name>Crime and Investigation</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CrimePlusInvestigation.uk@SD">
     <display-name>Crime and Investigation UK</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1448.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1448.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Crotv">
@@ -853,22 +853,22 @@
   </channel>
   <channel id="CSFilm.cz@SD">
     <display-name>CS Film</display-name>
-    <icon src="https://i.imgur.com/BAAuBB2.png"/>
+    <icon src="https://i.imgur.com/BAAuBB2.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CSHistory.cz@SD">
     <display-name>CS History</display-name>
-    <icon src="https://i.imgur.com/rtYj21D.png"/>
+    <icon src="https://i.imgur.com/rtYj21D.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CSHorror.cz@SD">
     <display-name>CS Horror</display-name>
-    <icon src="https://i.imgur.com/PPulPtS.png"/>
+    <icon src="https://i.imgur.com/PPulPtS.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CSMystery.cz@SD">
     <display-name>CS Mystery</display-name>
-    <icon src="https://i.imgur.com/3cFbkUj.png"/>
+    <icon src="https://i.imgur.com/3cFbkUj.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="CTV+Dla+Ciebie">
@@ -901,22 +901,22 @@
   </channel>
   <channel id="DeluxeLounge.de@SD">
     <display-name>Deluxe Lounge HD</display-name>
-    <icon src="https://i.imgur.com/pgCA35z.png"/>
+    <icon src="https://i.imgur.com/pgCA35z.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DeluxeMusic.de@SD">
     <display-name>Deluxe Music</display-name>
-    <icon src="https://i.imgur.com/HimuPPb.png"/>
+    <icon src="https://i.imgur.com/HimuPPb.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Desire.uk@SD">
     <display-name>Desire</display-name>
-    <icon src="https://i.imgur.com/YYSsMP8.png"/>
+    <icon src="https://i.imgur.com/YYSsMP8.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DW.de@Deutsch">
     <display-name>Deutsche Welle</display-name>
-    <icon src="https://i.imgur.com/8MRNFb9.png"/>
+    <icon src="https://i.imgur.com/8MRNFb9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DIM">
@@ -945,17 +945,17 @@
   </channel>
   <channel id="DisneyChannel.cz@SD">
     <display-name>Disney Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DisneyChannel.de@SD">
     <display-name>Disney Channel (de)</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DisneyJunior.cz@SD">
     <display-name>Disney Junior</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Disney+Junior+HD+UK">
@@ -972,7 +972,7 @@
   </channel>
   <channel id="StingrayDJAZZ.ca@SD">
     <display-name>DJazz</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="dlaCiebie.tv">
@@ -981,7 +981,7 @@
   </channel>
   <channel id="DMSat.rs@SD">
     <display-name>DM Sat</display-name>
-    <icon src="https://i.imgur.com/LdeA1Cn.png"/>
+    <icon src="https://i.imgur.com/LdeA1Cn.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DniproTV">
@@ -990,7 +990,7 @@
   </channel>
   <channel id="DocuBox.nl@SD">
     <display-name>DocuBox HD</display-name>
-    <icon src="https://i.imgur.com/pX4U9OG.png"/>
+    <icon src="https://i.imgur.com/pX4U9OG.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DocuBox+HD+%28pl%29">
@@ -1003,17 +1003,17 @@
   </channel>
   <channel id="Domkino.ru@SD">
     <display-name>Dom Kino</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png/960px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png/960px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DomkinoPremium.ru@SD">
     <display-name>Dom Kino Premium</display-name>
-    <icon src="https://i.imgur.com/rJpQtvK.png"/>
+    <icon src="https://i.imgur.com/rJpQtvK.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MarkizaDoma.sk@SD">
     <display-name>Doma</display-name>
-    <icon src="https://i.imgur.com/emVnkFK.png"/>
+    <icon src="https://i.imgur.com/emVnkFK.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Doma%E6i+TV">
@@ -1022,17 +1022,17 @@
   </channel>
   <channel id="DomaTV.hr@SD">
     <display-name>Doma TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Doma_TV_logo.png/960px-Doma_TV_logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Doma_TV_logo.png/960px-Doma_TV_logo.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DorcelTV.nl@SD">
     <display-name>Dorcel TV</display-name>
-    <icon src="https://i.imgur.com/RkzyjEd.png"/>
+    <icon src="https://i.imgur.com/RkzyjEd.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DorcelXXX.nl@SD">
     <display-name>Dorcel XXX</display-name>
-    <icon src="https://i.imgur.com/ZwMZEKZ.png"/>
+    <icon src="https://i.imgur.com/ZwMZEKZ.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Dr.+Fit">
@@ -1053,27 +1053,27 @@
   </channel>
   <channel id="ducktv.sk@SD">
     <display-name>ducktv</display-name>
-    <icon src="https://i.imgur.com/gRFQ35W.png"/>
+    <icon src="https://i.imgur.com/gRFQ35W.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ducktvPLUS.sk@SD">
     <display-name>ducktv plus</display-name>
-    <icon src="https://i.imgur.com/RFhxfOx.png"/>
+    <icon src="https://i.imgur.com/RFhxfOx.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Duna.hu@SD">
     <display-name>Duna</display-name>
-    <icon src="https://i.imgur.com/oPbsSlp.png"/>
+    <icon src="https://i.imgur.com/oPbsSlp.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DunaWorld.hu@SD">
     <display-name>Duna World</display-name>
-    <icon src="https://i.imgur.com/uOBQJZS.png"/>
+    <icon src="https://i.imgur.com/uOBQJZS.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DuskTV.nl@SD">
     <display-name>Dusk!</display-name>
-    <icon src="https://i.imgur.com/TTlS1qi.png"/>
+    <icon src="https://i.imgur.com/TTlS1qi.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="DVTV+Extra">
@@ -1082,12 +1082,12 @@
   </channel>
   <channel id="E4.uk@SD">
     <display-name>E4 HD UK</display-name>
-    <icon src="https://i.imgur.com/22MfjF4.png"/>
+    <icon src="https://i.imgur.com/22MfjF4.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="EEurope.nl@SD">
     <display-name>E! Entertainment</display-name>
-    <icon src="https://i.imgur.com/TWFDkap.png"/>
+    <icon src="https://i.imgur.com/TWFDkap.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Echo24">
@@ -1116,17 +1116,17 @@
   </channel>
   <channel id="EnglishClubTV.uk@SD">
     <display-name>English Club TV</display-name>
-    <icon src="https://i.imgur.com/9FMvaRK.png"/>
+    <icon src="https://i.imgur.com/9FMvaRK.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="EnterFilm.ua@SD">
     <display-name>Enter Film</display-name>
-    <icon src="https://i.imgur.com/wQbiGs6.png"/>
+    <icon src="https://i.imgur.com/wQbiGs6.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="EpicDrama.uk@Sweden">
     <display-name>Epic Drama</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Epic-Drama-TV.jpg/960px-Epic-Drama-TV.jpg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Epic-Drama-TV.jpg/960px-Epic-Drama-TV.jpg" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Epic+Drama+%28hr%29">
@@ -1143,12 +1143,12 @@
   </channel>
   <channel id="EroX.nl@HD">
     <display-name>Erox HD</display-name>
-    <icon src="https://i.imgur.com/B9Fz9Yr.png"/>
+    <icon src="https://i.imgur.com/B9Fz9Yr.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="EroXXX.nl@HD">
     <display-name>Eroxxx HD</display-name>
-    <icon src="https://i.imgur.com/sc11PtR.png"/>
+    <icon src="https://i.imgur.com/sc11PtR.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Eska+Rock">
@@ -1157,7 +1157,7 @@
   </channel>
   <channel id="EskaTV.pl@SD">
     <display-name>Eska TV</display-name>
-    <icon src="https://i.imgur.com/N0eH0Cg.png"/>
+    <icon src="https://i.imgur.com/N0eH0Cg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Eska+TV+Extra">
@@ -1174,7 +1174,7 @@
   </channel>
   <channel id="Eurochannel.uk@SD">
     <display-name>Eurochannel</display-name>
-    <icon src="https://i.imgur.com/yXAtmI6.png"/>
+    <icon src="https://i.imgur.com/yXAtmI6.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Eurochannel+%28hr%29">
@@ -1187,17 +1187,17 @@
   </channel>
   <channel id="EuronewsEnglish.fr@SD">
     <display-name>Euronews</display-name>
-    <icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png"/>
+    <icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="EuronewsHungarian.fr@SD">
     <display-name>Euronews (hu)</display-name>
-    <icon src="https://i.imgur.com/8t9mdg9.png"/>
+    <icon src="https://i.imgur.com/8t9mdg9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="EuronewsRussian.fr@SD">
     <display-name>Euronews (ru)</display-name>
-    <icon src="https://i.imgur.com/8t9mdg9.png"/>
+    <icon src="https://i.imgur.com/8t9mdg9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Europa+2">
@@ -1206,7 +1206,7 @@
   </channel>
   <channel id="Eurosport1.fr@France">
     <display-name>Eurosport 1</display-name>
-    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Eurosport+1+%28hr%29">
@@ -1215,7 +1215,7 @@
   </channel>
   <channel id="Eurosport2.fr@France">
     <display-name>Eurosport 2</display-name>
-    <icon src="https://i.imgur.com/f56dHgR.png"/>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Eurosport+2+%28hr%29">
@@ -1236,12 +1236,12 @@
   </channel>
   <channel id="EWTN.us@Europe">
     <display-name>EWTN</display-name>
-    <icon src="https://i.imgur.com/sua70RO.png"/>
+    <icon src="https://i.imgur.com/sua70RO.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="EXTASYTV.cz@SD">
     <display-name>Extasy</display-name>
-    <icon src="https://i.imgur.com/aBa7eoE.png"/>
+    <icon src="https://i.imgur.com/aBa7eoE.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Extasy+4K+Platinum">
@@ -1250,7 +1250,7 @@
   </channel>
   <channel id="ExtremeSportsChannel.nl@SD">
     <display-name>Extreme Sports</display-name>
-    <icon src="https://i.imgur.com/m7IC01U.png"/>
+    <icon src="https://i.imgur.com/m7IC01U.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="EZO+TV">
@@ -1275,12 +1275,12 @@
   </channel>
   <channel id="FashionBox.nl@SD">
     <display-name>FashionBox HD</display-name>
-    <icon src="https://i.imgur.com/Taqj4yi.png"/>
+    <icon src="https://i.imgur.com/Taqj4yi.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FashionTVEurope.fr@SD">
     <display-name>FashionTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FashionTV+HD">
@@ -1289,17 +1289,17 @@
   </channel>
   <channel id="FastFunBox.nl@SD">
     <display-name>Fast&amp;Funbox HD</display-name>
-    <icon src="https://i.imgur.com/a9ZtP17.png"/>
+    <icon src="https://i.imgur.com/a9ZtP17.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FEM3.hu@SD">
     <display-name>FEM3</display-name>
-    <icon src="https://i.imgur.com/AF4Sz8Z.png"/>
+    <icon src="https://i.imgur.com/AF4Sz8Z.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FightBox.nl@SD">
     <display-name>FightBox</display-name>
-    <icon src="https://i.imgur.com/mRsnztA.png"/>
+    <icon src="https://i.imgur.com/mRsnztA.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FighTime">
@@ -1308,22 +1308,22 @@
   </channel>
   <channel id="FilmPlus.cz@SD">
     <display-name>Film+</display-name>
-    <icon src="https://i.imgur.com/OBYuY3S.png"/>
+    <icon src="https://i.imgur.com/OBYuY3S.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FilmPlus.hu@SD">
     <display-name>Film+ (hu)</display-name>
-    <icon src="https://i.imgur.com/OWqzJyy.png"/>
+    <icon src="https://i.imgur.com/OWqzJyy.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Film4.hu@SD">
     <display-name>Film 4</display-name>
-    <icon src="https://i.imgur.com/X5N8CHf.png"/>
+    <icon src="https://i.imgur.com/X5N8CHf.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FilmCafe.hu@Hungary">
     <display-name>Film Caf</display-name>
-    <icon src="https://i.imgur.com/jaKRnzU.png"/>
+    <icon src="https://i.imgur.com/jaKRnzU.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FILM+CAFE+%28pl%29">
@@ -1332,17 +1332,17 @@
   </channel>
   <channel id="FilmEurope.cz@SD">
     <display-name>Film Europe</display-name>
-    <icon src="https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmeurope.png"/>
+    <icon src="https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmeurope.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FilmEuropePlus.cz@SD">
     <display-name>Film Europe +</display-name>
-    <icon src="https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmeuropeplus.png"/>
+    <icon src="https://www.sms.cz/kategorie/televize/bmp/loga/velka/filmeuropeplus.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FilmMania.hu@SD">
     <display-name>Film Mnia</display-name>
-    <icon src="https://i.imgur.com/crhsomk.png"/>
+    <icon src="https://i.imgur.com/crhsomk.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Film.Ua+Drama">
@@ -1355,7 +1355,7 @@
   </channel>
   <channel id="FilmBox.nl@CzechRepublic">
     <display-name>Filmbox</display-name>
-    <icon src="https://i.imgur.com/VyaslIY.png"/>
+    <icon src="https://i.imgur.com/VyaslIY.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Filmbox+%28hu%29">
@@ -1364,12 +1364,12 @@
   </channel>
   <channel id="FilmBoxAction.nl@Africa">
     <display-name>Filmbox Action (pl)</display-name>
-    <icon src="https://i.imgur.com/y7VMgXK.png"/>
+    <icon src="https://i.imgur.com/y7VMgXK.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FilmBoxArthouse.nl@SD">
     <display-name>FilmBox Arthouse</display-name>
-    <icon src="https://i.imgur.com/hDg35ne.png"/>
+    <icon src="https://i.imgur.com/hDg35ne.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FilmBox+Arthouse+%28hr%29">
@@ -1378,7 +1378,7 @@
   </channel>
   <channel id="FilmBoxExtra.nl@CzechRepublic">
     <display-name>Filmbox Extra HD</display-name>
-    <icon src="https://i.imgur.com/ML7SlIW.png"/>
+    <icon src="https://i.imgur.com/ML7SlIW.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FilmBox+Extra+HD+%28hr%29">
@@ -1387,12 +1387,12 @@
   </channel>
   <channel id="FilmBoxExtra.nl@Poland">
     <display-name>Filmbox Extra HD (pl)</display-name>
-    <icon src="https://i.imgur.com/ML7SlIW.png"/>
+    <icon src="https://i.imgur.com/ML7SlIW.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FilmBoxFamily.nl@Africa">
     <display-name>Filmbox Family</display-name>
-    <icon src="https://i.imgur.com/CGFyAyc.png"/>
+    <icon src="https://i.imgur.com/CGFyAyc.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Filmbox+Family+%28pl%29">
@@ -1401,7 +1401,7 @@
   </channel>
   <channel id="FilmBoxPremium.nl@CzechRepublic">
     <display-name>Filmbox Premium</display-name>
-    <icon src="https://i.imgur.com/RydfsE9.png"/>
+    <icon src="https://i.imgur.com/RydfsE9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FilmBox+Premium+%28hr%29">
@@ -1414,7 +1414,7 @@
   </channel>
   <channel id="FilmBoxStars.nl@CzechRepublic">
     <display-name>Filmbox Stars</display-name>
-    <icon src="https://i.imgur.com/eZFdHbR.png"/>
+    <icon src="https://i.imgur.com/eZFdHbR.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FilmBox+Stars+%28hr%29">
@@ -1431,12 +1431,12 @@
   </channel>
   <channel id="FokusTV.pl@SD">
     <display-name>Fokus TV</display-name>
-    <icon src="https://i.imgur.com/emWWd5k.png"/>
+    <icon src="https://i.imgur.com/emWWd5k.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Folklorika.sk@SD">
     <display-name>Folklorika</display-name>
-    <icon src="https://i.imgur.com/Mxk1nWM.png"/>
+    <icon src="https://i.imgur.com/Mxk1nWM.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FOLX">
@@ -1445,7 +1445,7 @@
   </channel>
   <channel id="FoodNetworkEMEA.us@SD">
     <display-name>Food Network</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="FOX">
@@ -1458,7 +1458,7 @@
   </channel>
   <channel id="France3.fr@SD">
     <display-name>France3</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="France4">
@@ -1471,12 +1471,12 @@
   </channel>
   <channel id="France24.fr@French">
     <display-name>France24</display-name>
-    <icon src="https://i.imgur.com/u8N6uoj.png"/>
+    <icon src="https://i.imgur.com/u8N6uoj.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="France24.fr@English">
     <display-name>France24 EN</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Freedom">
@@ -1509,17 +1509,17 @@
   </channel>
   <channel id="Galaxy4.hu@SD">
     <display-name>Galaxy</display-name>
-    <icon src="https://i.imgur.com/fTG99xh.png"/>
+    <icon src="https://i.imgur.com/fTG99xh.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Gametoon.nl@SD">
     <display-name>Gametoon HD (hr)</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/b/b6/Gametoon_HD_logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/b/b6/Gametoon_HD_logo.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="GINXTV.uk@SD">
     <display-name>Ginx</display-name>
-    <icon src="https://i.imgur.com/diw20TN.png"/>
+    <icon src="https://i.imgur.com/diw20TN.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Globo+channel">
@@ -1528,12 +1528,12 @@
   </channel>
   <channel id="GoldTV.pl@SD">
     <display-name>Gold TV</display-name>
-    <icon src="https://i.imgur.com/XD494ig.png"/>
+    <icon src="https://i.imgur.com/XD494ig.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="GolfChannel.us@SD">
     <display-name>Golf Channel</display-name>
-    <icon src="https://i.imgur.com/Lgux6Ik.png"/>
+    <icon src="https://i.imgur.com/Lgux6Ik.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Good+Food+Channel+HD">
@@ -1558,7 +1558,7 @@
   </channel>
   <channel id="HirTV.hu@SD">
     <display-name>Hr TV</display-name>
-    <icon src="https://i.imgur.com/xmIUDRN.png"/>
+    <icon src="https://i.imgur.com/xmIUDRN.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="HAHATV.sk@SD">
@@ -1571,12 +1571,12 @@
   </channel>
   <channel id="HBOCentralEurope.hu@HD">
     <display-name>HBO</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="HBO2CentralEurope.hu@HD">
     <display-name>HBO2</display-name>
-    <icon src="https://i.imgur.com/JiWBsLQ.png"/>
+    <icon src="https://i.imgur.com/JiWBsLQ.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="HBO2+%28hr%29">
@@ -1585,7 +1585,7 @@
   </channel>
   <channel id="HBO3CentralEurope.hu@HD">
     <display-name>HBO3</display-name>
-    <icon src="https://i.imgur.com/3QIHh2V.png"/>
+    <icon src="https://i.imgur.com/3QIHh2V.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="HBO3+%28hr%29">
@@ -1598,12 +1598,12 @@
   </channel>
   <channel id="HGTVLatinAmerica.us@Panregional">
     <display-name>HGTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyHistory2.uk@SD">
     <display-name>History2</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1879.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1879.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="History+%28pl%29">
@@ -1612,7 +1612,7 @@
   </channel>
   <channel id="History.cz@SD">
     <display-name>History Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="History+HD+UK">
@@ -1621,7 +1621,7 @@
   </channel>
   <channel id="HobbyTV.cz@SD">
     <display-name>Hobby TV</display-name>
-    <icon src="https://i.imgur.com/xfwuWiy.png"/>
+    <icon src="https://i.imgur.com/xfwuWiy.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Home">
@@ -1630,7 +1630,7 @@
   </channel>
   <channel id="HomeTV.pl@SD">
     <display-name>Home TV</display-name>
-    <icon src="https://i.imgur.com/qAFR1Cr.png"/>
+    <icon src="https://i.imgur.com/qAFR1Cr.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Hope">
@@ -1639,32 +1639,32 @@
   </channel>
   <channel id="hrfernsehen.de@SD">
     <display-name>HR-fernsehen</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/960px-HR-Fernsehen_Logo_2023.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/960px-HR-Fernsehen_Logo_2023.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="HRT1.hr@SD">
     <display-name>HRT 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="HRT2.hr@SD">
     <display-name>HRT 2</display-name>
-    <icon src="https://i.imgur.com/yyePcl1.png"/>
+    <icon src="https://i.imgur.com/yyePcl1.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="HRT3.hr@SD">
     <display-name>HRT 3</display-name>
-    <icon src="https://i.imgur.com/4OrOJRx.png"/>
+    <icon src="https://i.imgur.com/4OrOJRx.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="HRT4.hr@SD">
     <display-name>HRT 4</display-name>
-    <icon src="https://i.imgur.com/VcNrY0m.png"/>
+    <icon src="https://i.imgur.com/VcNrY0m.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="HRTInternational.hr@SD">
     <display-name>HRT International</display-name>
-    <icon src="https://i.imgur.com/useLwHV.png"/>
+    <icon src="https://i.imgur.com/useLwHV.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="HSE24">
@@ -1673,17 +1673,17 @@
   </channel>
   <channel id="HustlerHD.nl@SD">
     <display-name>Hustler HD</display-name>
-    <icon src="https://i.imgur.com/41Ej2io.png"/>
+    <icon src="https://i.imgur.com/41Ej2io.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="HustlerTVEurope.nl@SD">
     <display-name>Hustler TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/HustlerTV.svg/960px-HustlerTV.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/HustlerTV.svg/960px-HustlerTV.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="StingrayiConcerts.ca@SD">
     <display-name>iConcerts</display-name>
-    <icon src="https://i.imgur.com/GKc7RFz.png"/>
+    <icon src="https://i.imgur.com/GKc7RFz.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ICTbusiness+TV">
@@ -1716,7 +1716,7 @@
   </channel>
   <channel id="Inter.ua@SD">
     <display-name>Inter</display-name>
-    <icon src="https://i.imgur.com/FHRagMx.png"/>
+    <icon src="https://i.imgur.com/FHRagMx.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Inter+Plus">
@@ -1725,17 +1725,17 @@
   </channel>
   <channel id="Iris.it@SD">
     <display-name>Iris</display-name>
-    <icon src="https://i.imgur.com/ZLnSLh4.png"/>
+    <icon src="https://i.imgur.com/ZLnSLh4.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Italia1.it@SD">
     <display-name>Italia 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Italia_1_logo.svg/500px-Italia_1_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Italia_1_logo.svg/500px-Italia_1_logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Italia2.it@SD">
     <display-name>Italia 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_Italia2.svg/960px-Logo_Italia2.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_Italia2.svg/960px-Logo_Italia2.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ITV">
@@ -1744,17 +1744,17 @@
   </channel>
   <channel id="ITV2.uk@SD">
     <display-name>ITV2</display-name>
-    <icon src="https://i.imgur.com/2BpUK0W.png"/>
+    <icon src="https://i.imgur.com/2BpUK0W.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ITV3.uk@SD">
     <display-name>ITV3</display-name>
-    <icon src="https://i.imgur.com/JuyM2z5.png"/>
+    <icon src="https://i.imgur.com/JuyM2z5.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ITV4.uk@SD">
     <display-name>ITV4</display-name>
-    <icon src="https://i.imgur.com/DYI4IA2.png"/>
+    <icon src="https://i.imgur.com/DYI4IA2.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ITV+%28ua%29">
@@ -1763,12 +1763,12 @@
   </channel>
   <channel id="ITV1.uk@London">
     <display-name>ITV HD London</display-name>
-    <icon src="https://i.imgur.com/xwPekCF.png"/>
+    <icon src="https://i.imgur.com/xwPekCF.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="IzauraTV.hu@SD">
     <display-name>Izaura TV</display-name>
-    <icon src="https://i.imgur.com/p9YFnpw.png"/>
+    <icon src="https://i.imgur.com/p9YFnpw.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Jadran">
@@ -1789,7 +1789,7 @@
   </channel>
   <channel id="JimJamEurope.uk@SD">
     <display-name>Jim Jam</display-name>
-    <icon src="https://i.imgur.com/ODhkYyx.png"/>
+    <icon src="https://i.imgur.com/ODhkYyx.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Jocky+TV">
@@ -1798,17 +1798,17 @@
   </channel>
   <channel id="TVJOJ.sk@SD">
     <display-name>JOJ</display-name>
-    <icon src="https://i.imgur.com/NSpxSOD.png"/>
+    <icon src="https://i.imgur.com/NSpxSOD.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="JOJ24.sk@SD">
     <display-name>JOJ 24</display-name>
-    <icon src="https://i.imgur.com/Tv12wOd.png"/>
+    <icon src="https://i.imgur.com/Tv12wOd.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="JOJSport.sk@SD">
     <display-name>JOJ port</display-name>
-    <icon src="https://i.imgur.com/KirqaU4.png"/>
+    <icon src="https://i.imgur.com/KirqaU4.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="JOJ+%8Aport+2">
@@ -1817,17 +1817,17 @@
   </channel>
   <channel id="JOJCinema.sk@SD">
     <display-name>JOJ Cinema</display-name>
-    <icon src="https://i.imgur.com/5Auduch.png"/>
+    <icon src="https://i.imgur.com/5Auduch.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="JOJFamily.sk@SD">
     <display-name>JOJ Family</display-name>
-    <icon src="https://i.imgur.com/k1COMHi.png"/>
+    <icon src="https://i.imgur.com/k1COMHi.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="JOJPlus.sk@SD">
     <display-name>JOJ Plus</display-name>
-    <icon src="https://i.imgur.com/1LHa0EI.png"/>
+    <icon src="https://i.imgur.com/1LHa0EI.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="JOJ+Svet">
@@ -1836,7 +1836,7 @@
   </channel>
   <channel id="Jojko.sk@SD">
     <display-name>Jojko</display-name>
-    <icon src="https://i.imgur.com/JBB1n1Z.png"/>
+    <icon src="https://i.imgur.com/JBB1n1Z.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Jugoton">
@@ -1849,7 +1849,7 @@
   </channel>
   <channel id="JurnalTV.md@SD">
     <display-name>Jurnal TV Moldova</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Logo_Jurnal_TV_%282012%29.svg/960px-Logo_Jurnal_TV_%282012%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Logo_Jurnal_TV_%282012%29.svg/960px-Logo_Jurnal_TV_%282012%29.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="K1">
@@ -1862,12 +1862,12 @@
   </channel>
   <channel id="K2.ua@SD">
     <display-name>K2 UA</display-name>
-    <icon src="https://i.imgur.com/NMhydr5.png"/>
+    <icon src="https://i.imgur.com/NMhydr5.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="kabeleins.de@SD">
     <display-name>Kabel1</display-name>
-    <icon src="https://i.imgur.com/6pulSHZ.png"/>
+    <icon src="https://i.imgur.com/6pulSHZ.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Kanal+6+%28ba%29">
@@ -1888,27 +1888,27 @@
   </channel>
   <channel id="KBSWorld.kr@SD">
     <display-name>KBS World</display-name>
-    <icon src="https://i.imgur.com/7DqgELX.png"/>
+    <icon src="https://i.imgur.com/7DqgELX.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="KiKA.de@SD">
     <display-name>Kika</display-name>
-    <icon src="https://i.imgur.com/vZdNp5S.png"/>
+    <icon src="https://i.imgur.com/vZdNp5S.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="KinoBarrandov.cz@SD">
     <display-name>Kino Barrandov</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kino_Barrandov_logo.png/960px-Kino_Barrandov_logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kino_Barrandov_logo.png/960px-Kino_Barrandov_logo.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="KinoPolska.pl@SD">
     <display-name>Kino Polska</display-name>
-    <icon src="https://i.imgur.com/lbl8K23.png"/>
+    <icon src="https://i.imgur.com/lbl8K23.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="KinoTV.pl@SD">
     <display-name>Kino TV</display-name>
-    <icon src="https://i.imgur.com/sqjuXUO.png"/>
+    <icon src="https://i.imgur.com/sqjuXUO.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="KINOTV+%28hr%29">
@@ -1953,7 +1953,7 @@
   </channel>
   <channel id="La5.it@SD">
     <display-name>LA5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/La5_Mediaset.svg/960px-La5_Mediaset.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/La5_Mediaset.svg/960px-La5_Mediaset.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="LA7">
@@ -1982,7 +1982,7 @@
   </channel>
   <channel id="LalaTV.sk@SD">
     <display-name>Lala TV</display-name>
-    <icon src="https://i.imgur.com/WQiCe0P.png"/>
+    <icon src="https://i.imgur.com/WQiCe0P.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="LangLab">
@@ -1999,12 +1999,12 @@
   </channel>
   <channel id="LEOTV.cz@SD">
     <display-name>Leo</display-name>
-    <icon src="https://i.imgur.com/gqMiEi0.png"/>
+    <icon src="https://i.imgur.com/gqMiEi0.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="LEOTVGOLD.cz@SD">
     <display-name>Leo TV Gold</display-name>
-    <icon src="https://i.imgur.com/yJdnsHs.png"/>
+    <icon src="https://i.imgur.com/yJdnsHs.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Libertas">
@@ -2013,7 +2013,7 @@
   </channel>
   <channel id="TV2Sef.hu@SD">
     <display-name>Lichi TV</display-name>
-    <icon src="https://i.imgur.com/8GFj3XP.png"/>
+    <icon src="https://i.imgur.com/8GFj3XP.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Life+Network">
@@ -2038,7 +2038,7 @@
   </channel>
   <channel id="LoveNature.ca@SD">
     <display-name>Love Nature</display-name>
-    <icon src="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png"/>
+    <icon src="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Lumen">
@@ -2047,17 +2047,17 @@
   </channel>
   <channel id="TVLux.sk@SD">
     <display-name>Lux</display-name>
-    <icon src="https://i.imgur.com/mAMyTkq.png"/>
+    <icon src="https://i.imgur.com/mAMyTkq.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="LuxeTV.lu@SD">
     <display-name>Luxe.tv HD</display-name>
-    <icon src="https://i.imgur.com/24ehonx.png"/>
+    <icon src="https://i.imgur.com/24ehonx.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="M1.hu@SD">
     <display-name>M1</display-name>
-    <icon src="https://i.imgur.com/r4tgKZK.png"/>
+    <icon src="https://i.imgur.com/r4tgKZK.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="M1+%28ua%29">
@@ -2066,7 +2066,7 @@
   </channel>
   <channel id="M2.hu@SD">
     <display-name>M2</display-name>
-    <icon src="https://i.imgur.com/B0nYT0l.png"/>
+    <icon src="https://i.imgur.com/B0nYT0l.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="M2+%28ua%29">
@@ -2075,12 +2075,12 @@
   </channel>
   <channel id="M4Sport.hu@SD">
     <display-name>M4 Sport</display-name>
-    <icon src="https://i.imgur.com/TQ4uJZk.png"/>
+    <icon src="https://i.imgur.com/TQ4uJZk.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="M5.hu@SD">
     <display-name>M5 HD</display-name>
-    <icon src="https://i.imgur.com/y21wFd0.png"/>
+    <icon src="https://i.imgur.com/y21wFd0.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="M6">
@@ -2093,22 +2093,22 @@
   </channel>
   <channel id="MnamTV.cz@SD">
     <display-name>Mam TV</display-name>
-    <icon src="https://i.imgur.com/lyfc7Ys.png"/>
+    <icon src="https://i.imgur.com/lyfc7Ys.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MnauTV.cz@SD">
     <display-name>Mau TV</display-name>
-    <icon src="https://i.imgur.com/deVHJKS.png"/>
+    <icon src="https://i.imgur.com/deVHJKS.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Markiza.sk@SD">
     <display-name>Markza</display-name>
-    <icon src="https://i.imgur.com/W56rOi2.png"/>
+    <icon src="https://i.imgur.com/W56rOi2.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MarkizaInternational.sk@SD">
     <display-name>Markza International</display-name>
-    <icon src="https://i.imgur.com/HHdDWOS.png"/>
+    <icon src="https://i.imgur.com/HHdDWOS.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Mark%EDza+KLASIK">
@@ -2117,7 +2117,7 @@
   </channel>
   <channel id="MarkizaKrimi.sk@SD">
     <display-name>Markza KRIMI</display-name>
-    <icon src="https://i.imgur.com/5KnajhP.png"/>
+    <icon src="https://i.imgur.com/5KnajhP.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MDR">
@@ -2126,7 +2126,7 @@
   </channel>
   <channel id="MediasetExtra.it@SD">
     <display-name>Mediaset Extra</display-name>
-    <icon src="https://i.imgur.com/G51Lvah.png"/>
+    <icon src="https://i.imgur.com/G51Lvah.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Megamax+%28hu%29">
@@ -2139,27 +2139,27 @@
   </channel>
   <channel id="Mezzo.fr@SD">
     <display-name>Mezzo</display-name>
-    <icon src="https://i.imgur.com/auNdGeW.png"/>
+    <icon src="https://i.imgur.com/auNdGeW.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MezzoLive.fr@SD">
     <display-name>Mezzo Live HD</display-name>
-    <icon src="https://i.imgur.com/H9ytKPN.png"/>
+    <icon src="https://i.imgur.com/H9ytKPN.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MiniTV.hr@SD">
     <display-name>Mini TV</display-name>
-    <icon src="https://i.imgur.com/cEVqlRl.png"/>
+    <icon src="https://i.imgur.com/cEVqlRl.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MinimaxCEE.cz@SD">
     <display-name>Minimax</display-name>
-    <icon src="https://i.imgur.com/WWOlm1x.png"/>
+    <icon src="https://i.imgur.com/WWOlm1x.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Minimax.hu@SD">
     <display-name>Minimax (hu)</display-name>
-    <icon src="https://i.imgur.com/WWOlm1x.png"/>
+    <icon src="https://i.imgur.com/WWOlm1x.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Mist+TV">
@@ -2172,7 +2172,7 @@
   </channel>
   <channel id="More4.uk@SD">
     <display-name>More 4</display-name>
-    <icon src="https://i.imgur.com/cx5YcAU.png"/>
+    <icon src="https://i.imgur.com/cx5YcAU.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Motowizja">
@@ -2201,17 +2201,17 @@
   </channel>
   <channel id="MTV00s.uk@SD">
     <display-name>MTV00s</display-name>
-    <icon src="https://i.imgur.com/l5wBRfF.png"/>
+    <icon src="https://i.imgur.com/l5wBRfF.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MTV80s.uk@SD">
     <display-name>MTV80s</display-name>
-    <icon src="https://i.imgur.com/N9e5hv5.png"/>
+    <icon src="https://i.imgur.com/N9e5hv5.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MTV90s.uk@SD">
     <display-name>MTV90s</display-name>
-    <icon src="https://i.imgur.com/au5zhwP.png"/>
+    <icon src="https://i.imgur.com/au5zhwP.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MTV+00s+%28pl%29">
@@ -2228,7 +2228,7 @@
   </channel>
   <channel id="MTVGlobal.uk@SD">
     <display-name>MTV (hu)</display-name>
-    <icon src="https://i.imgur.com/n2BoU7Q.png"/>
+    <icon src="https://i.imgur.com/n2BoU7Q.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MTV+Germany">
@@ -2237,12 +2237,12 @@
   </channel>
   <channel id="MTVHitsEurope.uk@SD">
     <display-name>MTV Hits</display-name>
-    <icon src="https://i.imgur.com/zNscEST.png"/>
+    <icon src="https://i.imgur.com/zNscEST.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MTVLive.uk@SD">
     <display-name>MTV Live</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/30/MTV_Live_2021_logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/30/MTV_Live_2021_logo.svg" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MTV+Polska">
@@ -2251,12 +2251,12 @@
   </channel>
   <channel id="MTV.uk@SD">
     <display-name>MTV UK HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MusicBoxUkraine.ua@SD">
     <display-name>Music Box</display-name>
-    <icon src="https://i.imgur.com/MJeKucp.png"/>
+    <icon src="https://i.imgur.com/MJeKucp.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Music+Channel+%28hu%29">
@@ -2269,7 +2269,7 @@
   </channel>
   <channel id="MuzsikaTV.hu@SD">
     <display-name>Muzsika TV</display-name>
-    <icon src="https://i.imgur.com/kmQ5vYC.png"/>
+    <icon src="https://i.imgur.com/kmQ5vYC.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Muzvar">
@@ -2278,17 +2278,17 @@
   </channel>
   <channel id="MuzykaPervogo.ru@SD">
     <display-name>Muzyka Pervogo</display-name>
-    <icon src="https://i.imgur.com/U0vKj3P.png"/>
+    <icon src="https://i.imgur.com/U0vKj3P.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MyZenTV.fr@SD">
     <display-name>myZen</display-name>
-    <icon src="https://i.imgur.com/fIi8o0C.png"/>
+    <icon src="https://i.imgur.com/fIi8o0C.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="MyZenTV4K.fr@SD">
     <display-name>myZen 4K</display-name>
-    <icon src="https://i.imgur.com/hjEKyR1.png"/>
+    <icon src="https://i.imgur.com/hjEKyR1.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="N%F3ta+TV">
@@ -2297,7 +2297,7 @@
   </channel>
   <channel id="ntv.de@SD">
     <display-name>n-tv</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N-tv_logo-september2017.svg/960px-N-tv_logo-september2017.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/N-tv_logo-september2017.svg/960px-N-tv_logo-september2017.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NA%8AA+TV">
@@ -2306,17 +2306,17 @@
   </channel>
   <channel id="NASATVPublic.us@SD">
     <display-name>NASA TV</display-name>
-    <icon src="https://i.imgur.com/ECPgLf6.png"/>
+    <icon src="https://i.imgur.com/ECPgLf6.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NASATVUHD.us@SD">
     <display-name>NASA TV UHD</display-name>
-    <icon src="https://i.imgur.com/3R6ejrG.png"/>
+    <icon src="https://i.imgur.com/3R6ejrG.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NationalGeographic.hr@SD">
     <display-name>National Geographic (hr)</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="National+Geographic+%28hu%29">
@@ -2329,17 +2329,17 @@
   </channel>
   <channel id="NationalGeographic.cz@SD">
     <display-name>National Geographic HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NationalGeographic.uk@SD">
     <display-name>National Geographic HD UK</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NationalGeographicWild.cz@SD">
     <display-name>National Geographic Wild</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="National+Geographic+Wild+%28hr%29">
@@ -2360,12 +2360,12 @@
   </channel>
   <channel id="NauticalChannel.it@SD">
     <display-name>Nautical Channel</display-name>
-    <icon src="https://i.imgur.com/2ByDyzL.png"/>
+    <icon src="https://i.imgur.com/2ByDyzL.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NBATV.us@SD">
     <display-name>NBA SD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NDR+Fernsehen">
@@ -2394,12 +2394,12 @@
   </channel>
   <channel id="NHKWorldJapan.jp@SD">
     <display-name>NHK World TV</display-name>
-    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png"/>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NickJr.cz@SD">
     <display-name>Nick Jr.</display-name>
-    <icon src="https://i.imgur.com/KT4tdQs.png"/>
+    <icon src="https://i.imgur.com/KT4tdQs.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Nick+Jr.+%28en%29">
@@ -2416,7 +2416,7 @@
   </channel>
   <channel id="Nickelodeon.cz@SD">
     <display-name>Nickelodeon</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Nickelodeon+%28affiliate%29">
@@ -2437,7 +2437,7 @@
   </channel>
   <channel id="Nicktoons.cz@SD">
     <display-name>Nicktoons</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Nicktoons+%28pl%29">
@@ -2458,7 +2458,7 @@
   </channel>
   <channel id="TVNoe.cz@SD">
     <display-name>Noe</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Noe-logo-2016.png/500px-Noe-logo-2016.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Noe-logo-2016.png/500px-Noe-logo-2016.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Noe%2B">
@@ -2467,7 +2467,7 @@
   </channel>
   <channel id="TVNova.cz@SD">
     <display-name>Nova</display-name>
-    <icon src="https://i.imgur.com/77ztmd9.png"/>
+    <icon src="https://i.imgur.com/77ztmd9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Nova+%28es%29">
@@ -2476,32 +2476,32 @@
   </channel>
   <channel id="NovaAction.cz@SD">
     <display-name>Nova Action</display-name>
-    <icon src="https://i.imgur.com/oRSsfRx.png"/>
+    <icon src="https://i.imgur.com/oRSsfRx.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NovaCinema.cz@SD">
     <display-name>Nova Cinema</display-name>
-    <icon src="https://i.imgur.com/8Hxm0bV.png"/>
+    <icon src="https://i.imgur.com/8Hxm0bV.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NovaFun.cz@SD">
     <display-name>Nova Fun</display-name>
-    <icon src="https://i.imgur.com/ky3JevF.png"/>
+    <icon src="https://i.imgur.com/ky3JevF.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NovaGold.cz@SD">
     <display-name>Nova Gold</display-name>
-    <icon src="https://i.imgur.com/CdBHkPE.png"/>
+    <icon src="https://i.imgur.com/CdBHkPE.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NovaInternational.cz@SD">
     <display-name>Nova International</display-name>
-    <icon src="https://i.imgur.com/uN6sgf5.png"/>
+    <icon src="https://i.imgur.com/uN6sgf5.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NovaLady.cz@SD">
     <display-name>Nova Lady</display-name>
-    <icon src="https://i.imgur.com/gkxfNiq.png"/>
+    <icon src="https://i.imgur.com/gkxfNiq.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Nova+Pula">
@@ -2510,22 +2510,22 @@
   </channel>
   <channel id="NovaSport1.cz@SD">
     <display-name>Nova Sport 1</display-name>
-    <icon src="https://i.imgur.com/w8k0Lbg.png"/>
+    <icon src="https://i.imgur.com/w8k0Lbg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NovaSport2.cz@SD">
     <display-name>Nova Sport 2</display-name>
-    <icon src="https://i.imgur.com/Xdc5JTE.png"/>
+    <icon src="https://i.imgur.com/Xdc5JTE.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NovaSport3.cz@SD">
     <display-name>Nova Sport 3</display-name>
-    <icon src="https://i.imgur.com/mgPc3X6.png"/>
+    <icon src="https://i.imgur.com/mgPc3X6.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NovaSport4.cz@SD">
     <display-name>Nova Sport 4</display-name>
-    <icon src="https://i.imgur.com/R14S6El.png"/>
+    <icon src="https://i.imgur.com/R14S6El.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Nova+Sport+5">
@@ -2538,12 +2538,12 @@
   </channel>
   <channel id="NovaTV.hr@SD">
     <display-name>Nova TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Nova_TV_Croatia_logo.png/960px-Nova_TV_Croatia_logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Nova_TV_Croatia_logo.png/960px-Nova_TV_Croatia_logo.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="NovelaTV.pl@SD">
     <display-name>Novela tv</display-name>
-    <icon src="https://i.imgur.com/qgqS2vy.png"/>
+    <icon src="https://i.imgur.com/qgqS2vy.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Novelas%2B1">
@@ -2572,7 +2572,7 @@
   </channel>
   <channel id="NutaTV.pl@SD">
     <display-name>Nuta.TV</display-name>
-    <icon src="https://i.imgur.com/JHFUxDu.png"/>
+    <icon src="https://i.imgur.com/JHFUxDu.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="O2+Info+1">
@@ -2581,12 +2581,12 @@
   </channel>
   <channel id="O2TVSport.cz@SD">
     <display-name>O2 Sport</display-name>
-    <icon src="https://i.imgur.com/W1e2Rbf.png"/>
+    <icon src="https://i.imgur.com/W1e2Rbf.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="O2TVFotbal.cz@SD">
     <display-name>O2TV Fotbal</display-name>
-    <icon src="https://i.imgur.com/9zkN9pm.png"/>
+    <icon src="https://i.imgur.com/9zkN9pm.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="O2TV+Sport2">
@@ -2647,17 +2647,17 @@
   </channel>
   <channel id="ORF1.at@SD">
     <display-name>ORF1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ORF_1_2019.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ORF_1_2019.svg" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ORF2.at@SD">
     <display-name>ORF2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e7/ORF2_logo_n.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e7/ORF2_logo_n.svg" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ORFIII.at@SD">
     <display-name>ORF3</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/960px-ORF_III_Logo_Monochrom.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/960px-ORF_III_Logo_Monochrom.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Osje%E8ka">
@@ -2670,17 +2670,17 @@
   </channel>
   <channel id="OutdoorChannel.us@SD">
     <display-name>Outdoor Channel</display-name>
-    <icon src="https://i.imgur.com/Kh4MWaY.png"/>
+    <icon src="https://i.imgur.com/Kh4MWaY.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVPaprika.cz@SD">
     <display-name>Paprika</display-name>
-    <icon src="https://i.imgur.com/NSabYyT.png"/>
+    <icon src="https://i.imgur.com/NSabYyT.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVPaprika.hu@SD">
     <display-name>Paprika (hu)</display-name>
-    <icon src="https://i.imgur.com/KLpZIS6.png"/>
+    <icon src="https://i.imgur.com/KLpZIS6.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Paramount+Channel">
@@ -2689,7 +2689,7 @@
   </channel>
   <channel id="ParamountNetwork.cz@SD">
     <display-name>Paramount Network</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Paramount+Network+%28pl%29">
@@ -2698,17 +2698,17 @@
   </channel>
   <channel id="ParkTV.sk@SD">
     <display-name>Park TV</display-name>
-    <icon src="https://i.imgur.com/N6CSgzA.png"/>
+    <icon src="https://i.imgur.com/N6CSgzA.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PassionXXX.nl@SD">
     <display-name>Passion XXX</display-name>
-    <icon src="https://www.passionxxx.net/img/logo@2x.png"/>
+    <icon src="https://www.passionxxx.net/img/logo@2x.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PaxTV.hu@SD">
     <display-name>Pax TV</display-name>
-    <icon src="https://i.imgur.com/tXcy50t.png"/>
+    <icon src="https://i.imgur.com/tXcy50t.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Pershiy">
@@ -2717,12 +2717,12 @@
   </channel>
   <channel id="phoenix.de@HD">
     <display-name>Phoenix</display-name>
-    <icon src="https://i.imgur.com/T1532t9.png"/>
+    <icon src="https://i.imgur.com/T1532t9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyMix.uk@SD">
     <display-name>Pick TV</display-name>
-    <icon src="https://i.imgur.com/hHEz5rq.png"/>
+    <icon src="https://i.imgur.com/hHEz5rq.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Planet+Earth">
@@ -2739,7 +2739,7 @@
   </channel>
   <channel id="PlayboyTVEurope.us@SD">
     <display-name>Playboy TV</display-name>
-    <icon src="https://i.imgur.com/5di4Nis.png"/>
+    <icon src="https://i.imgur.com/5di4Nis.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Pobeda">
@@ -2748,7 +2748,7 @@
   </channel>
   <channel id="Poehali.ru@SD">
     <display-name>Poehali</display-name>
-    <icon src="https://i.imgur.com/ZNCpbII.png"/>
+    <icon src="https://i.imgur.com/ZNCpbII.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="POLAR">
@@ -2757,22 +2757,22 @@
   </channel>
   <channel id="PoloTV.pl@SD">
     <display-name>Polo TV</display-name>
-    <icon src="https://i.imgur.com/GEJZjRB.png"/>
+    <icon src="https://i.imgur.com/GEJZjRB.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVPPolonia.pl@SD">
     <display-name>Polonia</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/960px-TVP_Polonia_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/960px-TVP_Polonia_Logo_2020.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Polonia1.pl@SD">
     <display-name>Polonia 1</display-name>
-    <icon src="https://i.imgur.com/4TVDMGD.png"/>
+    <icon src="https://i.imgur.com/4TVDMGD.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Polsat.pl@SD">
     <display-name>Polsat</display-name>
-    <icon src="https://i.imgur.com/xff6zGN.png"/>
+    <icon src="https://i.imgur.com/xff6zGN.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Polsat+1">
@@ -2781,12 +2781,12 @@
   </channel>
   <channel id="Polsat2.pl@SD">
     <display-name>Polsat 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Polsat_2_2021_gradient.svg/960px-Polsat_2_2021_gradient.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Polsat_2_2021_gradient.svg/960px-Polsat_2_2021_gradient.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PolsatCafe.pl@SD">
     <display-name>Polsat Caf</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Polsat_Caf%C3%A9_2021_gradient.svg/500px-Polsat_Caf%C3%A9_2021_gradient.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Polsat_Caf%C3%A9_2021_gradient.svg/500px-Polsat_Caf%C3%A9_2021_gradient.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Polsat+Comedy+Central+Extra+%28pl%29">
@@ -2811,17 +2811,17 @@
   </channel>
   <channel id="PolsatNews.pl@SD">
     <display-name>Polsat News</display-name>
-    <icon src="https://i.imgur.com/sx1yPuc.png"/>
+    <icon src="https://i.imgur.com/sx1yPuc.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PolsatNews2.pl@SD">
     <display-name>Polsat News 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Polsat_News_2_2021_gradient.svg/500px-Polsat_News_2_2021_gradient.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Polsat_News_2_2021_gradient.svg/500px-Polsat_News_2_2021_gradient.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PolsatPlay.pl@SD">
     <display-name>Polsat Play</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Polsat_Play_2021_gradient.svg/500px-Polsat_Play_2021_gradient.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Polsat_Play_2021_gradient.svg/500px-Polsat_Play_2021_gradient.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Polsat+Rodzina">
@@ -2838,12 +2838,12 @@
   </channel>
   <channel id="PolsatSport.pl@SD">
     <display-name>Polsat Sport</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_Sport_2021_gradient.svg/500px-Polsat_Sport_2021_gradient.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_Sport_2021_gradient.svg/500px-Polsat_Sport_2021_gradient.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PolsatSportExtra.pl@SD">
     <display-name>Polsat Sport Extra</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Polsat_Sport_Extra_2021_gradient.svg/960px-Polsat_Sport_Extra_2021_gradient.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Polsat_Sport_Extra_2021_gradient.svg/960px-Polsat_Sport_Extra_2021_gradient.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Polsat+Sport+Fight">
@@ -2880,12 +2880,12 @@
   </channel>
   <channel id="PremierSport1.sk@SD">
     <display-name>Premier Sport 1</display-name>
-    <icon src="https://i.imgur.com/XqGEeSE.png"/>
+    <icon src="https://i.imgur.com/XqGEeSE.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PremierSport2.sk@SD">
     <display-name>Premier Sport 2</display-name>
-    <icon src="https://i.imgur.com/yOn6CxZ.png"/>
+    <icon src="https://i.imgur.com/yOn6CxZ.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Premier+Sport+3">
@@ -2898,12 +2898,12 @@
   </channel>
   <channel id="Prima.cz@SD">
     <display-name>Prima</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Prima_2013.png/960px-Prima_2013.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Prima_2013.png/960px-Prima_2013.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PrimaCool.cz@SD">
     <display-name>Prima Cool</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Prima_Cool_logo_zelen%C3%A9.png/960px-Prima_Cool_logo_zelen%C3%A9.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Prima_Cool_logo_zelen%C3%A9.png/960px-Prima_Cool_logo_zelen%C3%A9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Prima+COOL+SK">
@@ -2912,12 +2912,12 @@
   </channel>
   <channel id="PrimaKrimi.cz@SD">
     <display-name>Prima Krimi</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Prima_Krimi.png/960px-Prima_Krimi.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Prima_Krimi.png/960px-Prima_Krimi.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PrimaLove.cz@SD">
     <display-name>Prima LOVE</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Prima_Love_logo_2018.png/960px-Prima_Love_logo_2018.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Prima_Love_logo_2018.png/960px-Prima_Love_logo_2018.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Prima+LOVE+SK">
@@ -2926,12 +2926,12 @@
   </channel>
   <channel id="PrimaMax.cz@SD">
     <display-name>Prima MAX</display-name>
-    <icon src="https://i.imgur.com/ePrdyLi.png"/>
+    <icon src="https://i.imgur.com/ePrdyLi.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PrimaShow.cz@SD">
     <display-name>Prima Show</display-name>
-    <icon src="https://i.imgur.com/XbwAwkp.png"/>
+    <icon src="https://i.imgur.com/XbwAwkp.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Prima+SK">
@@ -2940,12 +2940,12 @@
   </channel>
   <channel id="PrimaStar.cz@SD">
     <display-name>Prima Star</display-name>
-    <icon src="https://i.imgur.com/ppqgNDA.png"/>
+    <icon src="https://i.imgur.com/ppqgNDA.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PrimaZoom.cz@SD">
     <display-name>Prima ZOOM</display-name>
-    <icon src="https://i.imgur.com/uNJqZ6p.png"/>
+    <icon src="https://i.imgur.com/uNJqZ6p.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PRIME">
@@ -2958,7 +2958,7 @@
   </channel>
   <channel id="PrivateTV.nl@SD">
     <display-name>Private TV</display-name>
-    <icon src="https://i.imgur.com/2yt8MAA.png"/>
+    <icon src="https://i.imgur.com/2yt8MAA.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="PRO4">
@@ -2967,7 +2967,7 @@
   </channel>
   <channel id="ProSieben.de@SD">
     <display-name>PRO7</display-name>
-    <icon src="https://i.imgur.com/zZOk3nh.png"/>
+    <icon src="https://i.imgur.com/zZOk3nh.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ProTV+International">
@@ -2984,7 +2984,7 @@
   </channel>
   <channel id="Puls2.pl@SD">
     <display-name>Puls 2</display-name>
-    <icon src="https://i.imgur.com/EOnzPiZ.png"/>
+    <icon src="https://i.imgur.com/EOnzPiZ.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Pure+Babes">
@@ -3085,57 +3085,57 @@
   </channel>
   <channel id="Rai5.it@SD">
     <display-name>Rai 5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_5_-_Logo_2017.svg/960px-Rai_5_-_Logo_2017.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_5_-_Logo_2017.svg/960px-Rai_5_-_Logo_2017.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Rai2.it@SD">
     <display-name>Rai Due</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RaiGulp.it@SD">
     <display-name>Rai Gulp</display-name>
-    <icon src="https://i.imgur.com/irAhPJM.png"/>
+    <icon src="https://i.imgur.com/irAhPJM.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RaiMovie.it@SD">
     <display-name>Rai Movie</display-name>
-    <icon src="https://i.imgur.com/0FjxXU9.png"/>
+    <icon src="https://i.imgur.com/0FjxXU9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RaiNews24.it@SD">
     <display-name>Rai News</display-name>
-    <icon src="https://i.imgur.com/n2u57y3.png"/>
+    <icon src="https://i.imgur.com/n2u57y3.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RaiPremium.it@SD">
     <display-name>Rai Premium</display-name>
-    <icon src="https://i.imgur.com/40g5Urz.png"/>
+    <icon src="https://i.imgur.com/40g5Urz.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RaiSport.it@SD">
     <display-name>Rai Sport 1</display-name>
-    <icon src="https://i.imgur.com/6PEevOM.png"/>
+    <icon src="https://i.imgur.com/6PEevOM.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RaiStoria.it@SD">
     <display-name>Rai Storia</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/960px-Rai_Storia_-_Logo_2017.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/960px-Rai_Storia_-_Logo_2017.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Rai3.it@HD">
     <display-name>Rai Tre</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/960px-Rai_3_-_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/960px-Rai_3_-_Logo_2016.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Rai1.it@SD">
     <display-name>Rai Uno</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RaiYoyo.it@SD">
     <display-name>Rai Yoyo</display-name>
-    <icon src="https://i.imgur.com/9gCxiDy.png"/>
+    <icon src="https://i.imgur.com/9gCxiDy.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RBB+Berlin">
@@ -3144,12 +3144,12 @@
   </channel>
   <channel id="RealityKingsTV.us@SD">
     <display-name>Reality Kings TV</display-name>
-    <icon src="https://i.imgur.com/HaR7ODC.png"/>
+    <icon src="https://i.imgur.com/HaR7ODC.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Rebel.cz@SD">
     <display-name>Rebel</display-name>
-    <icon src="https://i.imgur.com/KMltQ5N.png"/>
+    <icon src="https://i.imgur.com/KMltQ5N.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Red+Bull+TV">
@@ -3158,7 +3158,7 @@
   </channel>
   <channel id="RedCarpetTV.pl@SD">
     <display-name>Red Carpet</display-name>
-    <icon src="https://i.imgur.com/Vh1auIa.png"/>
+    <icon src="https://i.imgur.com/Vh1auIa.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Redevida">
@@ -3167,7 +3167,7 @@
   </channel>
   <channel id="RedlightHD.nl@SD">
     <display-name>Redlight HD</display-name>
-    <icon src="https://i.imgur.com/g0QF5IG.png"/>
+    <icon src="https://i.imgur.com/g0QF5IG.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="regiony%2B">
@@ -3176,17 +3176,17 @@
   </channel>
   <channel id="Relax.cz@SD">
     <display-name>RELAX</display-name>
-    <icon src="https://i.imgur.com/LPLTdd9.png"/>
+    <icon src="https://i.imgur.com/LPLTdd9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Rete4.it@SD">
     <display-name>Rete 4</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/500px-Rete_4_-_Logo_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/500px-Rete_4_-_Logo_2018.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RetroMusicTV.cz@SD">
     <display-name>Retro Music</display-name>
-    <icon src="https://i.imgur.com/pyOjdZs.png"/>
+    <icon src="https://i.imgur.com/pyOjdZs.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RFM+TV">
@@ -3195,7 +3195,7 @@
   </channel>
   <channel id="TVRiK.sk@SD">
     <display-name>Rik TV</display-name>
-    <icon src="https://i.imgur.com/ZAA5dnh.png"/>
+    <icon src="https://i.imgur.com/ZAA5dnh.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Rimava">
@@ -3212,7 +3212,7 @@
   </channel>
   <channel id="TVRomana.sk@SD">
     <display-name>Romana</display-name>
-    <icon src="https://i.imgur.com/r7avFBX.png"/>
+    <icon src="https://i.imgur.com/r7avFBX.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Romance+TV">
@@ -3225,37 +3225,37 @@
   </channel>
   <channel id="RTL.de@SD">
     <display-name>RTL</display-name>
-    <icon src="https://i.imgur.com/94K94k2.png"/>
+    <icon src="https://i.imgur.com/94K94k2.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTLZwei.de@SD">
     <display-name>RTL2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/960px-RTLZWEI_Logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/960px-RTLZWEI_Logo_2019.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTLKetto.hu@SD">
     <display-name>RTL2 (hu)</display-name>
-    <icon src="https://i.imgur.com/IVv0qrI.png"/>
+    <icon src="https://i.imgur.com/IVv0qrI.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTLHarom.hu@SD">
     <display-name>RTL+</display-name>
-    <icon src="https://i.imgur.com/c4Hhhzs.png"/>
+    <icon src="https://i.imgur.com/c4Hhhzs.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTL2.hr@SD">
     <display-name>RTL 2 (hr)</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/RTL_2_Logo.svg/960px-RTL_2_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/RTL_2_Logo.svg/960px-RTL_2_Logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTL4.nl@SD">
     <display-name>RTL 4</display-name>
-    <icon src="https://i.imgur.com/WPOcwO9.png"/>
+    <icon src="https://i.imgur.com/WPOcwO9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTL5.nl@SD">
     <display-name>RTL 5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/0/07/RTL5_2023.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/0/07/RTL5_2023.svg" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTL+102.5">
@@ -3264,7 +3264,7 @@
   </channel>
   <channel id="RTL.hr@SD">
     <display-name>RTL (hr)</display-name>
-    <icon src="https://i.imgur.com/akAa45j.png"/>
+    <icon src="https://i.imgur.com/akAa45j.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTL+Adria+%28hr%29">
@@ -3273,7 +3273,7 @@
   </channel>
   <channel id="RTLCrime.hr@SD">
     <display-name>RTL Crime (hr)</display-name>
-    <icon src="https://i.imgur.com/kG8uaCD.png"/>
+    <icon src="https://i.imgur.com/kG8uaCD.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTL+Croatia+World">
@@ -3282,27 +3282,27 @@
   </channel>
   <channel id="RTLGold.hu@SD">
     <display-name>RTL Gold</display-name>
-    <icon src="https://i.imgur.com/PwbLDUQ.png"/>
+    <icon src="https://i.imgur.com/PwbLDUQ.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTL.hu@SD">
     <display-name>RTL klub</display-name>
-    <icon src="https://i.imgur.com/ruRshE1.png"/>
+    <icon src="https://i.imgur.com/ruRshE1.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTLKockica.hr@SD">
     <display-name>RTL Kockica (hr)</display-name>
-    <icon src="https://i.imgur.com/C7H5bJs.png"/>
+    <icon src="https://i.imgur.com/C7H5bJs.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTLLiving.hr@SD">
     <display-name>RTL Living (hr)</display-name>
-    <icon src="https://i.imgur.com/S2GrnwX.png"/>
+    <icon src="https://i.imgur.com/S2GrnwX.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Nitro.de@SD">
     <display-name>RTL Nitro</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/960px-Nitro_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/960px-Nitro_Logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTL+Otthon">
@@ -3311,7 +3311,7 @@
   </channel>
   <channel id="RTLPassion.hr@SD">
     <display-name>RTL Passion (hr)</display-name>
-    <icon src="https://i.imgur.com/ZAZKrOB.png"/>
+    <icon src="https://i.imgur.com/ZAZKrOB.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTM">
@@ -3324,7 +3324,7 @@
   </channel>
   <channel id="RTRPlaneta.ru@SD">
     <display-name>RTR</display-name>
-    <icon src="https://i.imgur.com/T42cuYx.png"/>
+    <icon src="https://i.imgur.com/T42cuYx.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTS+Svet">
@@ -3337,7 +3337,7 @@
   </channel>
   <channel id="RTVi.ru@SD">
     <display-name>RTVi</display-name>
-    <icon src="https://i.imgur.com/1AEhXyS.png"/>
+    <icon src="https://i.imgur.com/1AEhXyS.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTVi+Retro">
@@ -3346,17 +3346,17 @@
   </channel>
   <channel id="24.sk@SD">
     <display-name>RTVS 24</display-name>
-    <icon src="https://i.imgur.com/tTCuczU.png"/>
+    <icon src="https://i.imgur.com/tTCuczU.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Sport.sk@SD">
     <display-name>RTVS port</display-name>
-    <icon src="https://i.imgur.com/oAtcxNZ.png"/>
+    <icon src="https://i.imgur.com/oAtcxNZ.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Russia24.ru@SD">
     <display-name>Russia 24</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Russia+Today">
@@ -3365,12 +3365,12 @@
   </channel>
   <channel id="RTDocumentary.ru@Russian">
     <display-name>Russia Today Doc</display-name>
-    <icon src="https://i.imgur.com/aeu5zIC.png"/>
+    <icon src="https://i.imgur.com/aeu5zIC.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTGTV.ru@SD">
     <display-name>Russian Travel Guide</display-name>
-    <icon src="https://i.imgur.com/ZMKPAho.png"/>
+    <icon src="https://i.imgur.com/ZMKPAho.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Rybalka+TV">
@@ -3383,12 +3383,12 @@
   </channel>
   <channel id="SAT1.de@SD">
     <display-name>SAT1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Neues_Sat._1_Logo_transparent.png/960px-Neues_Sat._1_Logo_transparent.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Neues_Sat._1_Logo_transparent.png/960px-Neues_Sat._1_Logo_transparent.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SAT1Gold.de@SD">
     <display-name>SAT1 Gold</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sat.1_Gold_Logo_2019.svg/960px-Sat.1_Gold_Logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sat.1_Gold_Logo_2019.svg/960px-Sat.1_Gold_Logo_2019.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SBS6">
@@ -3401,7 +3401,7 @@
   </channel>
   <channel id="Senzi.sk@SD">
     <display-name>SENZI</display-name>
-    <icon src="https://i.imgur.com/1qJMmBu.png"/>
+    <icon src="https://i.imgur.com/1qJMmBu.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Sevdah+TV">
@@ -3410,12 +3410,12 @@
   </channel>
   <channel id="TVSeverka.sk@SD">
     <display-name>Severka</display-name>
-    <icon src="https://i.imgur.com/oQSee9S.png"/>
+    <icon src="https://i.imgur.com/oQSee9S.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TelevizeSeznam.cz@SD">
     <display-name>Seznam.cz TV</display-name>
-    <icon src="https://i.imgur.com/TpQ8PRb.png"/>
+    <icon src="https://i.imgur.com/TpQ8PRb.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Shanson+TV">
@@ -3428,7 +3428,7 @@
   </channel>
   <channel id="sixx.de@SD">
     <display-name>Sixx</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sixx_Logo.svg/960px-Sixx_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sixx_Logo.svg/960px-Sixx_Logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Skvele+TV">
@@ -3437,37 +3437,37 @@
   </channel>
   <channel id="SkyOne.uk@SD">
     <display-name>Sky1 HD UK</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/19/Sky_One_2026.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/19/Sky_One_2026.svg" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyArts.uk@SD">
     <display-name>Sky Arts HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1752.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1752.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyAtlantic.uk@SD">
     <display-name>Sky Atlantic HD UK</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1412.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1412.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyWitness.uk@SD">
     <display-name>Sky Living HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2201.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2201.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyCinemaAction.uk@SD">
     <display-name>Sky Movies Action &amp; Adventure HD</display-name>
-    <icon src="https://i.imgur.com/2JjZG7g.png"/>
+    <icon src="https://i.imgur.com/2JjZG7g.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyComedy.uk@SD">
     <display-name>Sky Movies Comedy HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Sky_Comedy_logo_2020.svg/960px-Sky_Comedy_logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Sky_Comedy_logo_2020.svg/960px-Sky_Comedy_logo_2020.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyCrime.uk@SD">
     <display-name>Sky Movies Crime &amp; Thriller HD</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2207.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb2207.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Sky+Movies+Disney+HD">
@@ -3476,42 +3476,42 @@
   </channel>
   <channel id="SkyCinemaDrama.uk@SD">
     <display-name>Sky Movies Drama &amp; Romance HD</display-name>
-    <icon src="https://i.imgur.com/bCVpVKE.png"/>
+    <icon src="https://i.imgur.com/bCVpVKE.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyCinemaFamily.uk@SD">
     <display-name>Sky Movies Family HD</display-name>
-    <icon src="https://i.imgur.com/vKZSotN.png"/>
+    <icon src="https://i.imgur.com/vKZSotN.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyCinemaGreats.uk@SD">
     <display-name>Sky Movies Greats HD</display-name>
-    <icon src="https://i.imgur.com/ssalgh1.png"/>
+    <icon src="https://i.imgur.com/ssalgh1.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyCinemaPremiere.uk@SD">
     <display-name>Sky Movies Premiere HD</display-name>
-    <icon src="https://i.imgur.com/Di39qLn.png"/>
+    <icon src="https://i.imgur.com/Di39qLn.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyCinemaSelect.uk@SD">
     <display-name>Sky Movies Select HD</display-name>
-    <icon src="https://i.imgur.com/l97n20v.png"/>
+    <icon src="https://i.imgur.com/l97n20v.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyCinemaHits.uk@SD">
     <display-name>Sky Movies Showcase HD</display-name>
-    <icon src="https://i.imgur.com/6qYnSaA.png"/>
+    <icon src="https://i.imgur.com/6qYnSaA.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyNewsInternational.uk@SD">
     <display-name>Sky news</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/5/57/Sky_News_logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/5/57/Sky_News_logo.svg" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SkyCinemaSciFiHorror.uk@SD">
     <display-name>Sky SciFi &amp; Horror SD</display-name>
-    <icon src="https://i.imgur.com/Plz70jD.png"/>
+    <icon src="https://i.imgur.com/Plz70jD.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Sky+Sports+1">
@@ -3536,12 +3536,12 @@
   </channel>
   <channel id="SkySportsNews.uk@SD">
     <display-name>Sky Sports News</display-name>
-    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1314.png"/>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1314.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SlagerTV.hu@SD">
     <display-name>Slger TV</display-name>
-    <icon src="https://i.imgur.com/qDNRgSQ.png"/>
+    <icon src="https://i.imgur.com/qDNRgSQ.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Slavonije+i+Baranje">
@@ -3558,12 +3558,12 @@
   </channel>
   <channel id="TVSLO1.si@SD">
     <display-name>Slovenija 1</display-name>
-    <icon src="https://i.imgur.com/E3YmlxF.png"/>
+    <icon src="https://i.imgur.com/E3YmlxF.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVSLO2.si@SD">
     <display-name>Slovenija 2</display-name>
-    <icon src="https://i.imgur.com/OPlzjjv.png"/>
+    <icon src="https://i.imgur.com/OPlzjjv.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Slovenija+3">
@@ -3572,17 +3572,17 @@
   </channel>
   <channel id="Viasat2.hu@SD">
     <display-name>Sony Max</display-name>
-    <icon src="https://i.imgur.com/lEAhKPa.png"/>
+    <icon src="https://i.imgur.com/lEAhKPa.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ViasatFilm.hu@SD">
     <display-name>Sony Movie</display-name>
-    <icon src="https://i.imgur.com/5CoP6ex.png"/>
+    <icon src="https://i.imgur.com/5CoP6ex.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SorozatPlus.hu@SD">
     <display-name>Sorozat+</display-name>
-    <icon src="https://i.imgur.com/KsxWZIw.png"/>
+    <icon src="https://i.imgur.com/KsxWZIw.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Sorozatklub">
@@ -3607,22 +3607,22 @@
   </channel>
   <channel id="Spektrum.cz@SD">
     <display-name>Spektrum</display-name>
-    <icon src="https://i.imgur.com/F5Uosum.png"/>
+    <icon src="https://i.imgur.com/F5Uosum.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Spektrum.hu@SD">
     <display-name>Spektrum (hu)</display-name>
-    <icon src="https://i.imgur.com/GmFRQ82.png"/>
+    <icon src="https://i.imgur.com/GmFRQ82.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SpektrumHome.cz@SD">
     <display-name>Spektrum Home</display-name>
-    <icon src="https://i.imgur.com/VaVi65F.png"/>
+    <icon src="https://i.imgur.com/VaVi65F.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SpektrumHome.hu@SD">
     <display-name>Spektrum Home (hu)</display-name>
-    <icon src="https://i.imgur.com/VaVi65F.png"/>
+    <icon src="https://i.imgur.com/VaVi65F.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Spiler+TV">
@@ -3631,7 +3631,7 @@
   </channel>
   <channel id="Sport1.cz@SD">
     <display-name>Sport1</display-name>
-    <icon src="https://i.imgur.com/X5X3tKC.png"/>
+    <icon src="https://i.imgur.com/X5X3tKC.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SPORT1+%28DSF%29">
@@ -3640,17 +3640,17 @@
   </channel>
   <channel id="Sport1.hu@SD">
     <display-name>Sport1 (hu)</display-name>
-    <icon src="https://i.imgur.com/X5X3tKC.png"/>
+    <icon src="https://i.imgur.com/X5X3tKC.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Sport2.cz@SD">
     <display-name>Sport2</display-name>
-    <icon src="https://i.imgur.com/UxflVoU.png"/>
+    <icon src="https://i.imgur.com/UxflVoU.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Sport2.hu@SD">
     <display-name>Sport2 (hu)</display-name>
-    <icon src="https://i.imgur.com/UxflVoU.png"/>
+    <icon src="https://i.imgur.com/UxflVoU.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SportM+%28hu%29">
@@ -3739,7 +3739,7 @@
   </channel>
   <channel id="StarsTV.pl@SD">
     <display-name>Stars TV</display-name>
-    <icon src="https://i.imgur.com/NdITPCk.png"/>
+    <icon src="https://i.imgur.com/NdITPCk.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="STB">
@@ -3748,12 +3748,12 @@
   </channel>
   <channel id="StopklatkaTV.pl@SD">
     <display-name>Stopklatka TV</display-name>
-    <icon src="https://i.imgur.com/qqNsIkx.png"/>
+    <icon src="https://i.imgur.com/qqNsIkx.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Story4.hu@SD">
     <display-name>Story4</display-name>
-    <icon src="https://i.imgur.com/pJsLyiv.png"/>
+    <icon src="https://i.imgur.com/pJsLyiv.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Story4+%28cz%29">
@@ -3766,12 +3766,12 @@
   </channel>
   <channel id="Jednotka.sk@SD">
     <display-name>STV1</display-name>
-    <icon src="https://i.imgur.com/aqVki9i.png"/>
+    <icon src="https://i.imgur.com/aqVki9i.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Dvojka.sk@SD">
     <display-name>STV2</display-name>
-    <icon src="https://i.imgur.com/ft10wQn.png"/>
+    <icon src="https://i.imgur.com/ft10wQn.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Sundance+TV">
@@ -3784,17 +3784,17 @@
   </channel>
   <channel id="SuperONE.hu@HD">
     <display-name>Super One</display-name>
-    <icon src="https://i.imgur.com/T4PbWL6.png"/>
+    <icon src="https://i.imgur.com/T4PbWL6.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SuperPolsat.pl@SD">
     <display-name>Super Polsat</display-name>
-    <icon src="https://i.imgur.com/6KXJRHc.png"/>
+    <icon src="https://i.imgur.com/6KXJRHc.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="RTLSuper.de@SD">
     <display-name>Super RTL</display-name>
-    <icon src="https://i.imgur.com/KbdK8t9.png"/>
+    <icon src="https://i.imgur.com/KbdK8t9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Superstacja">
@@ -3807,12 +3807,12 @@
   </channel>
   <channel id="SuperTV2.hu@SD">
     <display-name>SuperTV2</display-name>
-    <icon src="https://i.imgur.com/JCu1u2v.png"/>
+    <icon src="https://i.imgur.com/JCu1u2v.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SuperyachtTV.mc@SD">
     <display-name>Superyacht</display-name>
-    <icon src="https://i.imgur.com/cgjgjE1.png"/>
+    <icon src="https://i.imgur.com/cgjgjE1.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="SWR+Fernsehen">
@@ -3821,12 +3821,12 @@
   </channel>
   <channel id="TA3.sk@SD">
     <display-name>TA3</display-name>
-    <icon src="https://i.imgur.com/DFeWp93.png"/>
+    <icon src="https://i.imgur.com/DFeWp93.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="tagesschau24.de@SD">
     <display-name>tagesschau24</display-name>
-    <icon src="https://i.imgur.com/LH0Gctv.png"/>
+    <icon src="https://i.imgur.com/LH0Gctv.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TBN+Polska">
@@ -3855,7 +3855,7 @@
   </channel>
   <channel id="Telecafe.ru@SD">
     <display-name>Telecafe</display-name>
-    <icon src="https://i.imgur.com/1H3h1HL.png"/>
+    <icon src="https://i.imgur.com/1H3h1HL.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Telecinco">
@@ -3868,17 +3868,17 @@
   </channel>
   <channel id="O.ru@SD">
     <display-name>Telekanal O</display-name>
-    <icon src="https://i.imgur.com/pDc665V.png"/>
+    <icon src="https://i.imgur.com/pDc665V.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVDK.sk@SD">
     <display-name>Televzia Doln Kubn</display-name>
-    <icon src="https://i.imgur.com/qTOnPXe.png"/>
+    <icon src="https://i.imgur.com/qTOnPXe.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVVychod.sk@SD">
     <display-name>Televzia Vchod</display-name>
-    <icon src="https://i.imgur.com/RRbk7yf.png"/>
+    <icon src="https://i.imgur.com/RRbk7yf.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Televizija+Zelina">
@@ -3891,7 +3891,7 @@
   </channel>
   <channel id="TVRepublika.pl@SD">
     <display-name>Telewizja Republika</display-name>
-    <icon src="https://i.imgur.com/ljpK6dZ.png"/>
+    <icon src="https://i.imgur.com/ljpK6dZ.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TET">
@@ -3900,12 +3900,12 @@
   </channel>
   <channel id="TF1.fr@SD">
     <display-name>TF1</display-name>
-    <icon src="https://i.imgur.com/QxHt9NC.png"/>
+    <icon src="https://i.imgur.com/QxHt9NC.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TheFishingHuntingChannel.hu@SD">
     <display-name>The Fishing and Hunting</display-name>
-    <icon src="https://i.imgur.com/KcTTnUA.png"/>
+    <icon src="https://i.imgur.com/KcTTnUA.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TiJi">
@@ -3918,7 +3918,7 @@
   </channel>
   <channel id="TLCLatinAmerica.us@Panregional">
     <display-name>TLC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TLC+%28hr%29">
@@ -3927,7 +3927,7 @@
   </channel>
   <channel id="TMC.fr@SD">
     <display-name>TMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TNT+Kids">
@@ -3948,7 +3948,7 @@
   </channel>
   <channel id="TraceSportStars.fr@HD">
     <display-name>Trace Sports</display-name>
-    <icon src="https://i.imgur.com/FabFP5A.png"/>
+    <icon src="https://i.imgur.com/FabFP5A.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TravelChannelEMEA.uk@SD">
@@ -3961,7 +3961,7 @@
   </channel>
   <channel id="Travelxp.in@SD">
     <display-name>Travelxp HD</display-name>
-    <icon src="https://i.imgur.com/HUWEnc5.png"/>
+    <icon src="https://i.imgur.com/HUWEnc5.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Trend+TV">
@@ -3978,22 +3978,22 @@
   </channel>
   <channel id="TrueAmateurs.uk@SD">
     <display-name>True Amateurs</display-name>
-    <icon src="https://i.imgur.com/K804K83.png"/>
+    <icon src="https://i.imgur.com/K804K83.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TTV.pl@SD">
     <display-name>TTV</display-name>
-    <icon src="https://i.imgur.com/MrWB4Gc.png"/>
+    <icon src="https://i.imgur.com/MrWB4Gc.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TurboTV.sk@SD">
     <display-name>Turbo TV</display-name>
-    <icon src="https://i.imgur.com/HI7bCHq.png"/>
+    <icon src="https://i.imgur.com/HI7bCHq.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TV2.hu@SD">
     <display-name>TV2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TV2_2008.svg/960px-TV2_2008.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TV2_2008.svg/960px-TV2_2008.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TV2+S%E9f">
@@ -4002,22 +4002,22 @@
   </channel>
   <channel id="TV3.es@SD">
     <display-name>TV3</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/TV3.svg/960px-TV3.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/TV3.svg/960px-TV3.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TV3CAT.es@SD">
     <display-name>TV3CAT</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/960px-TV3CAT.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/960px-TV3CAT.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TV4.pl@SD">
     <display-name>TV4</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d4/TV4Polska.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d4/TV4Polska.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TV4.hu@SD">
     <display-name>TV4 (hu)</display-name>
-    <icon src="https://i.imgur.com/cjypCfu.png"/>
+    <icon src="https://i.imgur.com/cjypCfu.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TV5+%28hr%29">
@@ -4030,17 +4030,17 @@
   </channel>
   <channel id="TV5MondeEurope.fr@SD">
     <display-name>TV5monde (en)</display-name>
-    <icon src="https://i.imgur.com/rPAbMSu.png"/>
+    <icon src="https://i.imgur.com/rPAbMSu.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TV6.pl@SD">
     <display-name>TV6</display-name>
-    <icon src="https://i.imgur.com/sW2PQ9z.png"/>
+    <icon src="https://i.imgur.com/sW2PQ9z.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TV7.sk@SD">
     <display-name>TV7</display-name>
-    <icon src="https://i.imgur.com/bUecrRM.png"/>
+    <icon src="https://i.imgur.com/bUecrRM.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TV9+KTV">
@@ -4049,17 +4049,17 @@
   </channel>
   <channel id="TV2000.it@SD">
     <display-name>TV2000</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/0/0d/Logo_tv2000_2015.svg/960px-Logo_tv2000_2015.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/0/0d/Logo_tv2000_2015.svg/960px-Logo_tv2000_2015.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="vijuTV1000.ru@SD">
     <display-name>TV 1000 Balkans</display-name>
-    <icon src="https://i.imgur.com/ZMsyjSr.png"/>
+    <icon src="https://i.imgur.com/ZMsyjSr.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Belarus24.by@SD">
     <display-name>TV Bialorus</display-name>
-    <icon src="https://i.imgur.com/BP7tY6F.png"/>
+    <icon src="https://i.imgur.com/BP7tY6F.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TV+Bratislava">
@@ -4080,7 +4080,7 @@
   </channel>
   <channel id="MarkizaDajto.sk@SD">
     <display-name>TV DAJTO</display-name>
-    <icon src="https://i.imgur.com/DdWj4xv.png"/>
+    <icon src="https://i.imgur.com/DdWj4xv.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TV+Doktor">
@@ -4105,17 +4105,17 @@
   </channel>
   <channel id="TVPovazie.sk@SD">
     <display-name>TV Povaie</display-name>
-    <icon src="https://i.imgur.com/JRD9YIY.png"/>
+    <icon src="https://i.imgur.com/JRD9YIY.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVPuls.pl@SD">
     <display-name>TV Puls</display-name>
-    <icon src="https://i.imgur.com/gXA7pai.png"/>
+    <icon src="https://i.imgur.com/gXA7pai.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVRaj.sk@SD">
     <display-name>TV RAJ</display-name>
-    <icon src="https://i.imgur.com/CGckMyx.png"/>
+    <icon src="https://i.imgur.com/CGckMyx.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TV+Ru%9Einov">
@@ -4132,17 +4132,17 @@
   </channel>
   <channel id="TVTrwam.pl@SD">
     <display-name>TV Trwam</display-name>
-    <icon src="https://i.imgur.com/yq10wS5.png"/>
+    <icon src="https://i.imgur.com/yq10wS5.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVC.pl@SD">
     <display-name>TVC</display-name>
-    <icon src="https://i.imgur.com/1Wmib2f.png"/>
+    <icon src="https://i.imgur.com/1Wmib2f.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVCGMNE.me@SD">
     <display-name>TVCG SAT</display-name>
-    <icon src="https://i.imgur.com/pf8VEwf.png"/>
+    <icon src="https://i.imgur.com/pf8VEwf.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVEInternacionalEuropeAsia.es@SD">
@@ -4151,17 +4151,17 @@
   </channel>
   <channel id="TVN.pl@SD">
     <display-name>TVN</display-name>
-    <icon src="https://i.imgur.com/PeUsth6.png"/>
+    <icon src="https://i.imgur.com/PeUsth6.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVN7.pl@SD">
     <display-name>TVN7</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/TVN7_logo_2021.svg/960px-TVN7_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/TVN7_logo_2021.svg/960px-TVN7_logo_2021.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVN24.pl@SD">
     <display-name>TVN24</display-name>
-    <icon src="https://i.imgur.com/zATBgL6.png"/>
+    <icon src="https://i.imgur.com/zATBgL6.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVN24+BiS">
@@ -4170,17 +4170,17 @@
   </channel>
   <channel id="TVNTurbo.pl@SD">
     <display-name>TVN Turbo</display-name>
-    <icon src="https://i.imgur.com/4qtR66S.png"/>
+    <icon src="https://i.imgur.com/4qtR66S.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVP1.pl@SD">
     <display-name>TVP1</display-name>
-    <icon src="https://i.imgur.com/ewpSjBs.png"/>
+    <icon src="https://i.imgur.com/ewpSjBs.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVP2.pl@SD">
     <display-name>TVP2</display-name>
-    <icon src="https://i.imgur.com/XxCc32B.png"/>
+    <icon src="https://i.imgur.com/XxCc32B.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVP3">
@@ -4253,42 +4253,42 @@
   </channel>
   <channel id="TVPABC.pl@SD">
     <display-name>TVP ABC</display-name>
-    <icon src="https://i.imgur.com/wP2mpfM.png"/>
+    <icon src="https://i.imgur.com/wP2mpfM.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVPHD.pl@SD">
     <display-name>TVP HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/TVP_HD_logo.svg/960px-TVP_HD_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/TVP_HD_logo.svg/960px-TVP_HD_logo.svg.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVPHistoria.pl@SD">
     <display-name>TVP Historia</display-name>
-    <icon src="https://i.imgur.com/Bc4QZiy.png"/>
+    <icon src="https://i.imgur.com/Bc4QZiy.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVPInfo.pl@SD">
     <display-name>TVP Info</display-name>
-    <icon src="https://i.imgur.com/qXrrNxv.png"/>
+    <icon src="https://i.imgur.com/qXrrNxv.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVPKultura.pl@SD">
     <display-name>TVP Kultura</display-name>
-    <icon src="https://i.imgur.com/JU858Es.png"/>
+    <icon src="https://i.imgur.com/JU858Es.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVPRozrywka.pl@SD">
     <display-name>TVP Rozrywka</display-name>
-    <icon src="https://i.imgur.com/05Vx5px.png"/>
+    <icon src="https://i.imgur.com/05Vx5px.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVPSeriale.pl@SD">
     <display-name>TVP Seriale</display-name>
-    <icon src="https://i.imgur.com/MuRtvXk.png"/>
+    <icon src="https://i.imgur.com/MuRtvXk.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVPSport.pl@SD">
     <display-name>TVP Sport</display-name>
-    <icon src="https://i.imgur.com/JUZDOCO.png"/>
+    <icon src="https://i.imgur.com/JUZDOCO.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVP+World">
@@ -4297,7 +4297,7 @@
   </channel>
   <channel id="TVS.pl@SD">
     <display-name>TVS</display-name>
-    <icon src="https://i.imgur.com/RHwlp35.png"/>
+    <icon src="https://i.imgur.com/RHwlp35.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="TVT">
@@ -4362,7 +4362,7 @@
   </channel>
   <channel id="TVVega.sk@SD">
     <display-name>Vega</display-name>
-    <icon src="https://i.imgur.com/Qw3NeLA.png"/>
+    <icon src="https://i.imgur.com/Qw3NeLA.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Veronica">
@@ -4387,7 +4387,7 @@
   </channel>
   <channel id="ViasatHistory.cz@SD">
     <display-name>Viasat History</display-name>
-    <icon src="https://i.imgur.com/wRP9XA7.png"/>
+    <icon src="https://i.imgur.com/wRP9XA7.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Viasat+History+%28hr%29">
@@ -4396,7 +4396,7 @@
   </channel>
   <channel id="ViasatNature.cz@SD">
     <display-name>Viasat Nature</display-name>
-    <icon src="https://i.imgur.com/ousRqqD.png"/>
+    <icon src="https://i.imgur.com/ousRqqD.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Viasat+Nature+%28hr%29">
@@ -4445,12 +4445,12 @@
   </channel>
   <channel id="WaterPlanet.pl@SD">
     <display-name>Water Planet</display-name>
-    <icon src="https://i.imgur.com/ZKczKhD.png"/>
+    <icon src="https://i.imgur.com/ZKczKhD.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="JOJWAU.sk@SD">
     <display-name>WAU</display-name>
-    <icon src="https://i.imgur.com/j51uAjL.png"/>
+    <icon src="https://i.imgur.com/j51uAjL.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="WDR+Fernsehen">
@@ -4459,7 +4459,7 @@
   </channel>
   <channel id="WELT.de@SD">
     <display-name>Welt</display-name>
-    <icon src="https://i.imgur.com/s4TZoxx.png"/>
+    <icon src="https://i.imgur.com/s4TZoxx.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Wild+nature">
@@ -4468,7 +4468,7 @@
   </channel>
   <channel id="WildTV.ca@SD">
     <display-name>Wild TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Wild_TV_logo_2020.png/960px-Wild_TV_logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Wild_TV_logo_2020.png/960px-Wild_TV_logo_2020.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Wild+TV+HD">
@@ -4505,7 +4505,7 @@
   </channel>
   <channel id="Z1.hr@SD">
     <display-name>Z1</display-name>
-    <icon src="https://i.imgur.com/k8OBcG1.png"/>
+    <icon src="https://i.imgur.com/k8OBcG1.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Z%E1padoslovensk%E1+telev%EDzia">
@@ -4518,17 +4518,17 @@
   </channel>
   <channel id="ZDF.de@SD">
     <display-name>ZDF</display-name>
-    <icon src="https://i.imgur.com/rtLb6m9.png"/>
+    <icon src="https://i.imgur.com/rtLb6m9.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ZDFinfo.de@SD">
     <display-name>ZDFinfo</display-name>
-    <icon src="https://i.imgur.com/vtq1IWp.png"/>
+    <icon src="https://i.imgur.com/vtq1IWp.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ZDFneo.de@SD">
     <display-name>ZDFneo</display-name>
-    <icon src="https://i.imgur.com/1JIIGgL.png"/>
+    <icon src="https://i.imgur.com/1JIIGgL.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Zempl%EDn">
@@ -4541,12 +4541,12 @@
   </channel>
   <channel id="Zoom.ua@SD">
     <display-name>ZOOM</display-name>
-    <icon src="https://i.imgur.com/EzIiXIT.png"/>
+    <icon src="https://i.imgur.com/EzIiXIT.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="ZoomTV.pl@SD">
     <display-name>Zoom TV</display-name>
-    <icon src="https://i.imgur.com/UtZM4zm.png"/>
+    <icon src="https://i.imgur.com/UtZM4zm.png" />
     <url>https://m.tv.sms.cz</url>
   </channel>
   <channel id="Zwei+music">

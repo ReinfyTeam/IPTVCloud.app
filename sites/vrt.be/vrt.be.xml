@@ -1,53 +1,53 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="VRTCanvas.be">
     <display-name>VRT CANVAS</display-name>
-    <icon src="https://images.vrt.be/orig/2023/11/09/1ae4c23e-7ef9-11ee-91d7-02b7b76bf47f.png"/>
+    <icon src="https://images.vrt.be/orig/2023/11/09/1ae4c23e-7ef9-11ee-91d7-02b7b76bf47f.png" />
     <url>https://vrt.be</url>
   </channel>
   <channel id="DeTijdloze.be">
     <display-name>De Tijdloze</display-name>
-    <icon src="https://images.vrt.be/orig/2025/06/19/a8150bd0-4af0-4c4f-bdaf-193f579adba6.png"/>
+    <icon src="https://images.vrt.be/orig/2025/06/19/a8150bd0-4af0-4c4f-bdaf-193f579adba6.png" />
     <url>https://vrt.be</url>
   </channel>
   <channel id="Ketnet.be">
     <display-name>Ketnet</display-name>
-    <icon src="https://images.vrt.be/orig/2024/10/22/03aa85a7-302c-4b2e-8028-71b52ae0a38d.png"/>
+    <icon src="https://images.vrt.be/orig/2024/10/22/03aa85a7-302c-4b2e-8028-71b52ae0a38d.png" />
     <url>https://vrt.be</url>
   </channel>
   <channel id="Klara.be">
     <display-name>Klara</display-name>
-    <icon src="https://images.vrt.be/orig/2025/06/19/1434fa63-eb65-4f65-b465-26919982d6fc.png"/>
+    <icon src="https://images.vrt.be/orig/2025/06/19/1434fa63-eb65-4f65-b465-26919982d6fc.png" />
     <url>https://vrt.be</url>
   </channel>
   <channel id="MNM.be">
     <display-name>MNM</display-name>
-    <icon src="https://images.vrt.be/orig/2025/06/19/f0be1c65-3f98-43d1-b962-ded0f3bca602.png"/>
+    <icon src="https://images.vrt.be/orig/2025/06/19/f0be1c65-3f98-43d1-b962-ded0f3bca602.png" />
     <url>https://vrt.be</url>
   </channel>
   <channel id="Radio1.be">
     <display-name>Radio 1</display-name>
-    <icon src="https://images.vrt.be/orig/2025/06/19/2a99563b-7503-4906-81fb-aa6bc91bfa08.png"/>
+    <icon src="https://images.vrt.be/orig/2025/06/19/2a99563b-7503-4906-81fb-aa6bc91bfa08.png" />
     <url>https://vrt.be</url>
   </channel>
   <channel id="Radio2.be">
     <display-name>Radio 2</display-name>
-    <icon src="https://images.vrt.be/orig/2025/06/19/11b3ccce-bc76-43cf-aa15-b6c93e75f6db.png"/>
+    <icon src="https://images.vrt.be/orig/2025/06/19/11b3ccce-bc76-43cf-aa15-b6c93e75f6db.png" />
     <url>https://vrt.be</url>
   </channel>
   <channel id="RadioBene.be">
     <display-name>Radio Bene</display-name>
-    <icon src="https://images.vrt.be/orig/2025/06/19/d7fc517e-2fc8-4467-b1d0-90a32b1c7334.png"/>
+    <icon src="https://images.vrt.be/orig/2025/06/19/d7fc517e-2fc8-4467-b1d0-90a32b1c7334.png" />
     <url>https://vrt.be</url>
   </channel>
   <channel id="StuBru.be">
     <display-name>Studio Brussel</display-name>
-    <icon src="https://images.vrt.be/orig/2023/12/08/a6d153f0-95cb-11ee-b483-02b7b76bf47f.png"/>
+    <icon src="https://images.vrt.be/orig/2023/12/08/a6d153f0-95cb-11ee-b483-02b7b76bf47f.png" />
     <url>https://vrt.be</url>
   </channel>
   <channel id="VRT1.be">
     <display-name>VRT 1</display-name>
-    <icon src="https://images.vrt.be/orig/2023/04/28/c448d669-e5c1-11ed-91d7-02b7b76bf47f.png"/>
+    <icon src="https://images.vrt.be/orig/2023/04/28/c448d669-e5c1-11ed-91d7-02b7b76bf47f.png" />
     <url>https://vrt.be</url>
   </channel>
   <programme start="20260423050000 +0000" stop="20260423150000 +0000" channel="DeTijdloze.be">

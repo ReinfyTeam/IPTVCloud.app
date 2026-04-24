@@ -1,18 +1,18 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="KabloInfo.tr@SD">
     <display-name>Kablo Info</display-name>
-    <icon src="https://i.imgur.com/6BC3M4C.png"/>
+    <icon src="https://i.imgur.com/6BC3M4C.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TRT1.tr@SD">
     <display-name>TRT 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TRTHaber.tr@SD">
     <display-name>TRT Haber</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1106">
@@ -25,22 +25,22 @@
   </channel>
   <channel id="SinemaAksiyon.tr@SD">
     <display-name>Sinema Aksiyon</display-name>
-    <icon src="https://i.imgur.com/kd1PUID.png"/>
+    <icon src="https://i.imgur.com/kd1PUID.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="SinemaKomedi.tr@SD">
     <display-name>Sinema Komedi</display-name>
-    <icon src="https://i.imgur.com/U4C7JId.png"/>
+    <icon src="https://i.imgur.com/U4C7JId.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="ATV.am@SD">
     <display-name>Atv</display-name>
-    <icon src="https://i.imgur.com/xrqFEou.png"/>
+    <icon src="https://i.imgur.com/xrqFEou.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="KanalD.tr@SD">
     <display-name>Kanal D</display-name>
-    <icon src="https://i.imgur.com/9o1atM6.png"/>
+    <icon src="https://i.imgur.com/9o1atM6.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1203">
@@ -49,7 +49,7 @@
   </channel>
   <channel id="SportsTV.tr@SD">
     <display-name>Sports Tv</display-name>
-    <icon src="https://i.imgur.com/tGTVcVe.jpg"/>
+    <icon src="https://i.imgur.com/tGTVcVe.jpg" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1205">
@@ -58,7 +58,7 @@
   </channel>
   <channel id="BloombergHT.tr@SD">
     <display-name>Bloomberg HT</display-name>
-    <icon src="https://i.imgur.com/bmkXfIE.png"/>
+    <icon src="https://i.imgur.com/bmkXfIE.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1207">
@@ -67,17 +67,17 @@
   </channel>
   <channel id="TV5.tr@SD">
     <display-name>TV 5</display-name>
-    <icon src="https://i.imgur.com/ENvv42b.png"/>
+    <icon src="https://i.imgur.com/ENvv42b.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TRTAvaz.tr@SD">
     <display-name>TRT Avaz</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/960px-TRT_Avaz_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/960px-TRT_Avaz_logo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="BRT1.cy@SD">
     <display-name>Brt 1</display-name>
-    <icon src="https://i.imgur.com/gOPAi2c.png"/>
+    <icon src="https://i.imgur.com/gOPAi2c.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1311">
@@ -94,22 +94,22 @@
   </channel>
   <channel id="HaberGlobal.tr@SD">
     <display-name>Haber Global</display-name>
-    <icon src="https://i.imgur.com/fu6XeGS.png"/>
+    <icon src="https://i.imgur.com/fu6XeGS.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TV8.tr@SD">
     <display-name>TV 8</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="NTV.tr@SD">
     <display-name>NTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="24TV.tr@SD">
     <display-name>24</display-name>
-    <icon src="https://i.imgur.com/8FO41es.png"/>
+    <icon src="https://i.imgur.com/8FO41es.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1406">
@@ -122,7 +122,7 @@
   </channel>
   <channel id="TV100.tr@SD">
     <display-name>tv 100</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/thumb/0/0f/TV100_logo.png/960px-TV100_logo.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1505">
@@ -139,17 +139,17 @@
   </channel>
   <channel id="AzTV.az@SD">
     <display-name>Az TV</display-name>
-    <icon src="https://i.imgur.com/snBMMeH.png"/>
+    <icon src="https://i.imgur.com/snBMMeH.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="VavTV.tr@SD">
     <display-name>Vav TV</display-name>
-    <icon src="https://i.imgur.com/jw0gB8L.png"/>
+    <icon src="https://i.imgur.com/jw0gB8L.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="HalkTV.tr@SD">
     <display-name>Halk TV</display-name>
-    <icon src="https://i.imgur.com/xM0HA30.png"/>
+    <icon src="https://i.imgur.com/xM0HA30.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1601">
@@ -158,7 +158,7 @@
   </channel>
   <channel id="DMAX.tr@SD">
     <display-name>DMAX</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1603">
@@ -167,7 +167,7 @@
   </channel>
   <channel id="MoonbugKids.uk@SD">
     <display-name>MOONBUG KIDS</display-name>
-    <icon src="https://i.imgur.com/vZHtxQb.png"/>
+    <icon src="https://i.imgur.com/vZHtxQb.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1606">
@@ -176,12 +176,12 @@
   </channel>
   <channel id="CartoonNetwork.tr@SD">
     <display-name>Cartoon Network</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="ducktv.sk@SD">
     <display-name>Duck TV</display-name>
-    <icon src="https://i.imgur.com/gRFQ35W.png"/>
+    <icon src="https://i.imgur.com/gRFQ35W.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1612">
@@ -194,17 +194,17 @@
   </channel>
   <channel id="TRTEBA.tr@SD">
     <display-name>TRT Eba</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TRT_EBA_TV_logo.svg/960px-TRT_EBA_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TRT_EBA_TV_logo.svg/960px-TRT_EBA_TV_logo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TGRTHaber.tr@SD">
     <display-name>TGRT Haber</display-name>
-    <icon src="https://i.imgur.com/PrxwKDw.png"/>
+    <icon src="https://i.imgur.com/PrxwKDw.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TLC.tr@SD">
     <display-name>TLC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1703">
@@ -213,12 +213,12 @@
   </channel>
   <channel id="TV5MondeEurope.fr@SD">
     <display-name>Tv 5 Monde Europe</display-name>
-    <icon src="https://i.imgur.com/rPAbMSu.png"/>
+    <icon src="https://i.imgur.com/rPAbMSu.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="KBSWorld.kr@SD">
     <display-name>Kbs World</display-name>
-    <icon src="https://i.imgur.com/7DqgELX.png"/>
+    <icon src="https://i.imgur.com/7DqgELX.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1707">
@@ -227,12 +227,12 @@
   </channel>
   <channel id="KonTV.tr@SD">
     <display-name>Kon TV</display-name>
-    <icon src="https://i.imgur.com/ex67TP8.png"/>
+    <icon src="https://i.imgur.com/ex67TP8.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="Tivi6.tr@SD">
     <display-name>TİVİ 6</display-name>
-    <icon src="https://i.imgur.com/Mbi0jbz.png"/>
+    <icon src="https://i.imgur.com/Mbi0jbz.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="1802">
@@ -245,62 +245,62 @@
   </channel>
   <channel id="FBTV.tr@SD">
     <display-name>FB TV</display-name>
-    <icon src="https://i.imgur.com/qBVqtYd.png"/>
+    <icon src="https://i.imgur.com/qBVqtYd.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="Eurosport2.fr@France">
     <display-name>Eurosport 2</display-name>
-    <icon src="https://i.imgur.com/f56dHgR.png"/>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="SSport.tr@SD">
     <display-name>S Sport</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a9/S_Sport_logo1.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a9/S_Sport_logo1.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TV85.tr@SD">
     <display-name>TV 8,5</display-name>
-    <icon src="https://i.imgur.com/QuelSsc.png"/>
+    <icon src="https://i.imgur.com/QuelSsc.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="GZT.tr@SD">
     <display-name>GZT</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/960px-GZT_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/960px-GZT_logo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="SinemaTV.tr@SD">
     <display-name>Sinema TV</display-name>
-    <icon src="https://i.imgur.com/qstBXDP.png"/>
+    <icon src="https://i.imgur.com/qstBXDP.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="Sinema2.tr@SD">
     <display-name>Sinema 2</display-name>
-    <icon src="https://i.imgur.com/mUjeqJM.png"/>
+    <icon src="https://i.imgur.com/mUjeqJM.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="SinemaAile.tr@SD">
     <display-name>Sinema Aile</display-name>
-    <icon src="https://i.imgur.com/2gTUEEC.png"/>
+    <icon src="https://i.imgur.com/2gTUEEC.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="ANews.tr@SD">
     <display-name>A News</display-name>
-    <icon src="https://i.imgur.com/6tWCzTp.png"/>
+    <icon src="https://i.imgur.com/6tWCzTp.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TarihTV.tr@SD">
     <display-name>Tarih Tv</display-name>
-    <icon src="https://i.imgur.com/HbIGZUt.png"/>
+    <icon src="https://i.imgur.com/HbIGZUt.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="Eurosport1.fr@France">
     <display-name>Eurosport 1</display-name>
-    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="CNBCe.tr@SD">
     <display-name>CNBC-e</display-name>
-    <icon src="https://s.cnbce.com/dist/images/logo-nav.png"/>
+    <icon src="https://s.cnbce.com/dist/images/logo-nav.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="2012">
@@ -309,7 +309,7 @@
   </channel>
   <channel id="CGTN.cn@SD">
     <display-name>CGTN</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="2101">
@@ -322,42 +322,42 @@
   </channel>
   <channel id="TRTBelgesel.tr@SD">
     <display-name>TRT Belgesel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/960px-TRT_Belgesel_logo_%282019-%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/960px-TRT_Belgesel_logo_%282019-%29.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="BRT3.cy@SD">
     <display-name>Brt 3</display-name>
-    <icon src="https://i.imgur.com/uczNZ3E.png"/>
+    <icon src="https://i.imgur.com/uczNZ3E.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TMB.tr@SD">
     <display-name>TMB</display-name>
-    <icon src="https://i.imgur.com/28AyWHe.png"/>
+    <icon src="https://i.imgur.com/28AyWHe.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TRTArabi.tr@SD">
     <display-name>TRT Arabi</display-name>
-    <icon src="https://i.imgur.com/dEfI2M9.png"/>
+    <icon src="https://i.imgur.com/dEfI2M9.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="beINSportsHaber.tr@SD">
     <display-name>beIN SPORTS HABER</display-name>
-    <icon src="https://i.imgur.com/QWo0x7S.jpg"/>
+    <icon src="https://i.imgur.com/QWo0x7S.jpg" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="LiderHaber.tr@SD">
     <display-name>Lider Haber</display-name>
-    <icon src="https://i.imgur.com/5B42KwY.png"/>
+    <icon src="https://i.imgur.com/5B42KwY.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="ASpor.tr@SD">
     <display-name>A Spor</display-name>
-    <icon src="https://i.imgur.com/ZhkZzLf.png"/>
+    <icon src="https://i.imgur.com/ZhkZzLf.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="DiscoveryChannel.tr@SD">
     <display-name>Discovery Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="2212">
@@ -370,7 +370,7 @@
   </channel>
   <channel id="DiyanetTV.tr@SD">
     <display-name>Diyanet TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/960px-Diyanet_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Diyanet_TV_logo.svg/960px-Diyanet_TV_logo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="2306">
@@ -383,7 +383,7 @@
   </channel>
   <channel id="TRT2.tr@SD">
     <display-name>TRT 2</display-name>
-    <icon src="https://i.imgur.com/iOCQdyD.png"/>
+    <icon src="https://i.imgur.com/iOCQdyD.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="2310">
@@ -392,37 +392,37 @@
   </channel>
   <channel id="ATV.tr@SD">
     <display-name>Atv</display-name>
-    <icon src="https://i.imgur.com/HyVUwFC.png"/>
+    <icon src="https://i.imgur.com/HyVUwFC.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="AHaber.tr@SD">
     <display-name>A Haber</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="MinikaGo.tr@SD">
     <display-name>Minika Go</display-name>
-    <icon src="https://i.imgur.com/qIoipDq.png"/>
+    <icon src="https://i.imgur.com/qIoipDq.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="APara.tr@SD">
     <display-name>a Para</display-name>
-    <icon src="https://i.imgur.com/GjHnq0c.png"/>
+    <icon src="https://i.imgur.com/GjHnq0c.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TRTSpor.tr@SD">
     <display-name>TRT Spor</display-name>
-    <icon src="https://i.imgur.com/6tv0zxh.png"/>
+    <icon src="https://i.imgur.com/6tv0zxh.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="EnglishClubTV.uk@SD">
     <display-name>English Club TV</display-name>
-    <icon src="https://i.imgur.com/9FMvaRK.png"/>
+    <icon src="https://i.imgur.com/9FMvaRK.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="KanalB.tr@SD">
     <display-name>Kanal B</display-name>
-    <icon src="https://i.imgur.com/bUsbxTQ.png"/>
+    <icon src="https://i.imgur.com/bUsbxTQ.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="Teve2.tr@SD">
@@ -435,17 +435,17 @@
   </channel>
   <channel id="BabyTV.uk@UK">
     <display-name>BabyTV</display-name>
-    <icon src="https://i.imgur.com/4BDJ5FT.png"/>
+    <icon src="https://i.imgur.com/4BDJ5FT.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="Sinema1001.tr@SD">
     <display-name>Sinema 1001</display-name>
-    <icon src="https://i.imgur.com/OOMEELj.png"/>
+    <icon src="https://i.imgur.com/OOMEELj.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="CGTNDocumentary.cn@SD">
     <display-name>CGTN Documentary</display-name>
-    <icon src="https://i.imgur.com/JHv0WxM.png"/>
+    <icon src="https://i.imgur.com/JHv0WxM.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="2608">
@@ -454,7 +454,7 @@
   </channel>
   <channel id="TV8.cr@SD">
     <display-name>TV 8</display-name>
-    <icon src="https://i.imgur.com/nM9iIYX.png"/>
+    <icon src="https://i.imgur.com/nM9iIYX.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="2615">
@@ -471,22 +471,22 @@
   </channel>
   <channel id="DaVinci.de@SD">
     <display-name>Da Vinci</display-name>
-    <icon src="https://i.imgur.com/iBx7K1M.png"/>
+    <icon src="https://i.imgur.com/iBx7K1M.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TraceUrban.fr@SD">
     <display-name>Trace Urban</display-name>
-    <icon src="https://i.imgur.com/DLIbUMx.png"/>
+    <icon src="https://i.imgur.com/DLIbUMx.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TraceSportStars.fr@HD">
     <display-name>Trace Sport Stars</display-name>
-    <icon src="https://i.imgur.com/FabFP5A.png"/>
+    <icon src="https://i.imgur.com/FabFP5A.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="FREEDOM.ua@SD">
     <display-name>Freedom</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/FreeDOMUAlogo.svg/960px-FreeDOMUAlogo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/FreeDOMUAlogo.svg/960px-FreeDOMUAlogo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="2711">
@@ -499,17 +499,17 @@
   </channel>
   <channel id="EpicDrama.uk@Turkiye">
     <display-name>Epic Drama</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Epic-Drama-TV.jpg/960px-Epic-Drama-TV.jpg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Epic-Drama-TV.jpg/960px-Epic-Drama-TV.jpg" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="ViasatHistory.tr@SD">
     <display-name>Viasat History</display-name>
-    <icon src="https://i.imgur.com/wRP9XA7.png"/>
+    <icon src="https://i.imgur.com/wRP9XA7.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="ViasatExplore.tr@SD">
     <display-name>Viasat Explore</display-name>
-    <icon src="https://i.imgur.com/DyT5pKB.png"/>
+    <icon src="https://i.imgur.com/DyT5pKB.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="2813">
@@ -518,7 +518,7 @@
   </channel>
   <channel id="Kanal7.tr@SD">
     <display-name>Kanal 7</display-name>
-    <icon src="https://i.imgur.com/0gq9xOm.png"/>
+    <icon src="https://i.imgur.com/0gq9xOm.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="2902">
@@ -527,7 +527,7 @@
   </channel>
   <channel id="BeyazTV.tr@SD">
     <display-name>Beyaz TV</display-name>
-    <icon src="https://i.imgur.com/uykIdML.png"/>
+    <icon src="https://i.imgur.com/uykIdML.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="2904">
@@ -536,7 +536,7 @@
   </channel>
   <channel id="TVNET.tr@SD">
     <display-name>Tvnet</display-name>
-    <icon src="https://i.imgur.com/mQo8yWQ.png"/>
+    <icon src="https://i.imgur.com/mQo8yWQ.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="3002">
@@ -545,22 +545,22 @@
   </channel>
   <channel id="MyZenTV.fr@SD">
     <display-name>MyZEN TV</display-name>
-    <icon src="https://i.imgur.com/fIi8o0C.png"/>
+    <icon src="https://i.imgur.com/fIi8o0C.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="360.tr@SD">
     <display-name>360</display-name>
-    <icon src="https://i.imgur.com/agn47sQ.png"/>
+    <icon src="https://i.imgur.com/agn47sQ.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="CNNInternational.us@MENA">
     <display-name>CNN International</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="GenTV.ar@SD">
     <display-name>Genç TV</display-name>
-    <icon src="https://i.imgur.com/qGddRW4.png"/>
+    <icon src="https://i.imgur.com/qGddRW4.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="3205">
@@ -573,42 +573,42 @@
   </channel>
   <channel id="A2TV.tr@SD">
     <display-name>a2</display-name>
-    <icon src="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png"/>
+    <icon src="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="SinemaAile2.tr@SD">
     <display-name>Sinema Aile 2</display-name>
-    <icon src="https://i.imgur.com/EMJiBSb.png"/>
+    <icon src="https://i.imgur.com/EMJiBSb.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="SinemaKomedi2.tr@SD">
     <display-name>Sinema Komedi 2</display-name>
-    <icon src="https://i.imgur.com/XsjPusN.png"/>
+    <icon src="https://i.imgur.com/XsjPusN.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="SinemaAksiyon2.tr@SD">
     <display-name>Sinema Aksiyon 2</display-name>
-    <icon src="https://i.imgur.com/oy8Nq1r.png"/>
+    <icon src="https://i.imgur.com/oy8Nq1r.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="SinemaYerli.tr@SD">
     <display-name>Sinema Yerli</display-name>
-    <icon src="https://i.imgur.com/9nJvnMl.png"/>
+    <icon src="https://i.imgur.com/9nJvnMl.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="SinemaYerli2.tr@SD">
     <display-name>Sinema Yerli 2</display-name>
-    <icon src="https://i.imgur.com/C1aJK5t.png"/>
+    <icon src="https://i.imgur.com/C1aJK5t.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="Sinema1002.tr@SD">
     <display-name>Sinema 1002</display-name>
-    <icon src="https://i.imgur.com/BEFyizf.png"/>
+    <icon src="https://i.imgur.com/BEFyizf.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TRTWorld.tr@SD">
     <display-name>TRT World</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="3402">
@@ -617,7 +617,7 @@
   </channel>
   <channel id="Russia24.ru@SD">
     <display-name>Russia 24</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="3404">
@@ -630,7 +630,7 @@
   </channel>
   <channel id="Mezzo.fr@SD">
     <display-name>Mezzo</display-name>
-    <icon src="https://i.imgur.com/auNdGeW.png"/>
+    <icon src="https://i.imgur.com/auNdGeW.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="3502">
@@ -639,7 +639,7 @@
   </channel>
   <channel id="LoveNature.ca@SD">
     <display-name>Love Nature</display-name>
-    <icon src="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png"/>
+    <icon src="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="3504">
@@ -656,22 +656,22 @@
   </channel>
   <channel id="DisneyJr.tr@SD">
     <display-name>Disney Junior</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="FX.tr@HD">
     <display-name>FX</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="NationalGeographicWild.tr@SD">
     <display-name>National Geographic Wild</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="NationalGeographic.tr@SD">
     <display-name>National Geographic</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="3710">
@@ -688,7 +688,7 @@
   </channel>
   <channel id="Tele1.tr@SD">
     <display-name>TELE 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="3715">
@@ -713,27 +713,27 @@
   </channel>
   <channel id="ClassicalHarmony.uk@SD">
     <display-name>Classical Harmony</display-name>
-    <icon src="https://i.imgur.com/cZypFNk.png"/>
+    <icon src="https://i.imgur.com/cZypFNk.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="SSport2.tr@SD">
     <display-name>S Sport2</display-name>
-    <icon src="https://i.imgur.com/2jIItAy.png"/>
+    <icon src="https://i.imgur.com/2jIItAy.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="WSport.za@SD">
     <display-name>W-Sport</display-name>
-    <icon src="https://i.imgur.com/K4GDwMp.png"/>
+    <icon src="https://i.imgur.com/K4GDwMp.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="NBATV.us@SD">
     <display-name>NBA TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="TV4.tr@SD">
     <display-name>TV 4</display-name>
-    <icon src="https://i.imgur.com/UpsQsbd.png"/>
+    <icon src="https://i.imgur.com/UpsQsbd.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
   <channel id="4006">
@@ -742,7 +742,7 @@
   </channel>
   <channel id="TV41.tr@SD">
     <display-name>TV41</display-name>
-    <icon src="https://i.imgur.com/6T472LM.png"/>
+    <icon src="https://i.imgur.com/6T472LM.png" />
     <url>https://turksatkablo.com.tr</url>
   </channel>
 </tv>

@@ -1,23 +1,23 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="TVSClassicSports.us@SD">
     <display-name>TVS Classic Sports</display-name>
-    <icon src="https://i.imgur.com/auR0Mi6.png"/>
+    <icon src="https://i.imgur.com/auR0Mi6.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSBoxing.us@SD">
     <display-name>TVS Boxing Network</display-name>
-    <icon src="https://i.imgur.com/30ZoF75.png"/>
+    <icon src="https://i.imgur.com/30ZoF75.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSTurbo.us@SD">
     <display-name>TVS Turbo Network</display-name>
-    <icon src="https://i.imgur.com/7zYIbU1.png"/>
+    <icon src="https://i.imgur.com/7zYIbU1.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSTavern.us@SD">
     <display-name>TVS Tavern TV</display-name>
-    <icon src="https://i.imgur.com/3GTIs4j.png"/>
+    <icon src="https://i.imgur.com/3GTIs4j.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="796">
@@ -26,17 +26,17 @@
   </channel>
   <channel id="TVSNostalgia.us@SD">
     <display-name>TVS Nostalgia</display-name>
-    <icon src="https://i.imgur.com/q72FCCQ.png"/>
+    <icon src="https://i.imgur.com/q72FCCQ.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSWomenSports.us@SD">
     <display-name>TVS Women's Sports Network</display-name>
-    <icon src="https://i.imgur.com/8hC4PfF.png"/>
+    <icon src="https://i.imgur.com/8hC4PfF.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSMainstreet.us@SD">
     <display-name>TVS Main Street</display-name>
-    <icon src="https://i.imgur.com/N9nQpnP.png"/>
+    <icon src="https://i.imgur.com/N9nQpnP.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="802">
@@ -49,7 +49,7 @@
   </channel>
   <channel id="TVSHiTops.us@SD">
     <display-name>TVS Hi Tops</display-name>
-    <icon src="https://i.imgur.com/RiWg1IA.png"/>
+    <icon src="https://i.imgur.com/RiWg1IA.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="817">
@@ -62,27 +62,27 @@
   </channel>
   <channel id="TVSDriveInMovie.us@SD">
     <display-name>TVS Drive In Movie</display-name>
-    <icon src="https://i.imgur.com/OR9APjb.png"/>
+    <icon src="https://i.imgur.com/OR9APjb.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSClassicMovies.us@SD">
     <display-name>TVS Classic Movies</display-name>
-    <icon src="https://i.imgur.com/st1xMsw.png"/>
+    <icon src="https://i.imgur.com/st1xMsw.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSWesternMovie.us@SD">
     <display-name>TVS Western Movie</display-name>
-    <icon src="https://i.imgur.com/dwr98qb.png"/>
+    <icon src="https://i.imgur.com/dwr98qb.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSNostalgiaMovies.us@SD">
     <display-name>TVS Nostalgia Movie Network</display-name>
-    <icon src="https://i.imgur.com/w4fxiKi.png"/>
+    <icon src="https://i.imgur.com/w4fxiKi.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSHollywoodHistory.us@SD">
     <display-name>TVS Hollywood History</display-name>
-    <icon src="https://i.imgur.com/QtQGyMS.png"/>
+    <icon src="https://i.imgur.com/QtQGyMS.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="824">
@@ -91,12 +91,12 @@
   </channel>
   <channel id="TVSHorrorNetwork.us@SD">
     <display-name>TVS Horror</display-name>
-    <icon src="https://i.imgur.com/n0LAunC.png"/>
+    <icon src="https://i.imgur.com/n0LAunC.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSTallyHo.us@SD">
     <display-name>TVS Tally Ho</display-name>
-    <icon src="https://i.imgur.com/JlFwnDD.png"/>
+    <icon src="https://i.imgur.com/JlFwnDD.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSSelectNetwork.us@SD">
@@ -105,12 +105,12 @@
   </channel>
   <channel id="TVSComedyNetwork.us@SD">
     <display-name>TVS Comedy</display-name>
-    <icon src="https://i.imgur.com/rXORbti.png"/>
+    <icon src="https://i.imgur.com/rXORbti.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSQuizShowNetwork.us@SD">
     <display-name>TVS Quiz Show Network</display-name>
-    <icon src="https://i.imgur.com/5ljQwx2.png"/>
+    <icon src="https://i.imgur.com/5ljQwx2.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="831">
@@ -131,7 +131,7 @@
   </channel>
   <channel id="TVSPinballNetwork.us@SD">
     <display-name>TVS Pinball Network</display-name>
-    <icon src="https://i.imgur.com/HHmc14i.png"/>
+    <icon src="https://i.imgur.com/HHmc14i.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="840">
@@ -144,17 +144,17 @@
   </channel>
   <channel id="TVSFilmNoirNetwork.us@SD">
     <display-name>TVS Film Noir Network</display-name>
-    <icon src="https://i.imgur.com/A4yWhQw.png"/>
+    <icon src="https://i.imgur.com/A4yWhQw.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSCipherNetwork.us@SD">
     <display-name>TVS Cipher Network</display-name>
-    <icon src="https://i.imgur.com/yyz1S2W.png"/>
+    <icon src="https://i.imgur.com/yyz1S2W.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="TVSFrontPageDetective.us@SD">
     <display-name>TVS Front Page Detective</display-name>
-    <icon src="https://i.imgur.com/1YHIbZB.png"/>
+    <icon src="https://i.imgur.com/1YHIbZB.png" />
     <url>https://watchyour.tv</url>
   </channel>
   <channel id="845">

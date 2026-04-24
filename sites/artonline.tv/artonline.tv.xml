@@ -1,28 +1,28 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="ARTAflam1.sa@SD">
     <display-name>افلام 1</display-name>
-    <icon src="https://i.imgur.com/aeY4ax8.png"/>
+    <icon src="https://i.imgur.com/aeY4ax8.png" />
     <url>https://artonline.tv</url>
   </channel>
   <channel id="ARTAflam2.sa@SD">
     <display-name>افلام 2</display-name>
-    <icon src="https://i.imgur.com/icE2WOw.png"/>
+    <icon src="https://i.imgur.com/icE2WOw.png" />
     <url>https://artonline.tv</url>
   </channel>
   <channel id="ARTCinema.sa@SD">
     <display-name>سينما</display-name>
-    <icon src="https://i.imgur.com/urnaqiu.png"/>
+    <icon src="https://i.imgur.com/urnaqiu.png" />
     <url>https://artonline.tv</url>
   </channel>
   <channel id="ARTHekayat.sa@SD">
     <display-name>حكايات</display-name>
-    <icon src="https://i.imgur.com/kzNnSoV.png"/>
+    <icon src="https://i.imgur.com/kzNnSoV.png" />
     <url>https://artonline.tv</url>
   </channel>
   <channel id="ARTHekayat2.sa@SD">
     <display-name>حكايات 2</display-name>
-    <icon src="https://i.imgur.com/EfzfrOL.png"/>
+    <icon src="https://i.imgur.com/EfzfrOL.png" />
     <url>https://artonline.tv</url>
   </channel>
 </tv>

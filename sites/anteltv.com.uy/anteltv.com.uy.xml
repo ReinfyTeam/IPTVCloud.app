@@ -1,78 +1,78 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="MiMovilTV.uy@SD">
     <display-name>Mi Móvil TV</display-name>
-    <icon src="https://i.imgur.com/5yJ7CY7.png"/>
+    <icon src="https://i.imgur.com/5yJ7CY7.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal12Melo.uy@SD">
     <display-name>Canal 12 Melo</display-name>
-    <icon src="https://i.imgur.com/xwLWoSC.png"/>
+    <icon src="https://i.imgur.com/xwLWoSC.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal4Chuy.uy@SD">
     <display-name>Canal 4 Chuy</display-name>
-    <icon src="https://i.imgur.com/oLKMwgm.png"/>
+    <icon src="https://i.imgur.com/oLKMwgm.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal23Florida.uy@SD">
     <display-name>Canal 23 Florida</display-name>
-    <icon src="https://i.imgur.com/LyAjQOF.png"/>
+    <icon src="https://i.imgur.com/LyAjQOF.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal2SanCarlos.uy@SD">
     <display-name>Canal 2 HD San Carlos</display-name>
-    <icon src="https://i.imgur.com/Xo4SMvN.png"/>
+    <icon src="https://i.imgur.com/Xo4SMvN.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal5.uy@SD">
     <display-name>Canal 5</display-name>
-    <icon src="https://i.imgur.com/IpYxSr1.png"/>
+    <icon src="https://i.imgur.com/IpYxSr1.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal4JuanLacaze.uy@SD">
     <display-name>Canal 4 Juan Lacaze</display-name>
-    <icon src="https://i.imgur.com/gNqoBQo.png"/>
+    <icon src="https://i.imgur.com/gNqoBQo.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal2VisionCanaria.uy@SD">
     <display-name>Canal 2 Visión Canaria</display-name>
-    <icon src="https://i.imgur.com/3wmlfqk.png"/>
+    <icon src="https://i.imgur.com/3wmlfqk.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="ANPITV.uy@SD">
     <display-name>ANPI TV</display-name>
-    <icon src="https://i.imgur.com/vk3pZ0w.png"/>
+    <icon src="https://i.imgur.com/vk3pZ0w.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal2Lascano.uy@SD">
     <display-name>Canal 2 Lascano</display-name>
-    <icon src="https://i.imgur.com/TnzrvuU.png"/>
+    <icon src="https://i.imgur.com/TnzrvuU.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal11TV.uy@SD">
     <display-name>Canal 11 Las Piedras</display-name>
-    <icon src="https://i.imgur.com/h9jh44X.png"/>
+    <icon src="https://i.imgur.com/h9jh44X.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal9Telerocha.uy@SD">
     <display-name>El 9 de Rocha</display-name>
-    <icon src="https://i.imgur.com/cGNfnOh.png"/>
+    <icon src="https://i.imgur.com/cGNfnOh.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal8Salto.uy@SD">
     <display-name>Canal 8 Salto</display-name>
-    <icon src="https://i.imgur.com/RB1U8zx.png"/>
+    <icon src="https://i.imgur.com/RB1U8zx.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="ArtigasTelevision.uy@SD">
     <display-name>Artigas Televisión</display-name>
-    <icon src="https://i.imgur.com/XMqXdfI.png"/>
+    <icon src="https://i.imgur.com/XMqXdfI.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal11TreintayTres.uy@SD">
     <display-name>Canal 11 Treinta y Tres</display-name>
-    <icon src="https://i.imgur.com/L66pQoa.png"/>
+    <icon src="https://i.imgur.com/L66pQoa.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="2s6nx">
@@ -81,122 +81,122 @@
   </channel>
   <channel id="UruguayPresidencia.uy@SD">
     <display-name>Uruguay Presidencia</display-name>
-    <icon src="https://i.imgur.com/3PQIRUZ.png"/>
+    <icon src="https://i.imgur.com/3PQIRUZ.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal8Artigas.uy@SD">
     <display-name>Canal 8 Artigas</display-name>
-    <icon src="https://i.imgur.com/nyYeBm3.png"/>
+    <icon src="https://i.imgur.com/nyYeBm3.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal4Salto.uy@SD">
     <display-name>Canal 4 Salto</display-name>
-    <icon src="https://i.imgur.com/SB52TSr.png"/>
+    <icon src="https://i.imgur.com/SB52TSr.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal4Tacuarembo.uy@SD">
     <display-name>Canal 4 Tacuarembó</display-name>
-    <icon src="https://i.imgur.com/3jL0Atd.png"/>
+    <icon src="https://i.imgur.com/3jL0Atd.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="UCL.uy@SD">
     <display-name>Canal UCL</display-name>
-    <icon src="https://i.imgur.com/BzQphbw.png"/>
+    <icon src="https://i.imgur.com/BzQphbw.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal8Durazno.uy@SD">
     <display-name>Canal 8 Durazno</display-name>
-    <icon src="https://i.imgur.com/knFYWoq.png"/>
+    <icon src="https://i.imgur.com/knFYWoq.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal4Paysandu.uy@SD">
     <display-name>Canal 4 Paysandú</display-name>
-    <icon src="https://i.imgur.com/9hVmY1R.png"/>
+    <icon src="https://i.imgur.com/9hVmY1R.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal6Durazno.uy@SD">
     <display-name>Canal 6 Durazno</display-name>
-    <icon src="https://i.imgur.com/M14nDfC.png"/>
+    <icon src="https://i.imgur.com/M14nDfC.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="CardinalTV.uy@SD">
     <display-name>Cardinal TV</display-name>
-    <icon src="https://i.imgur.com/NOoZNgK.png"/>
+    <icon src="https://i.imgur.com/NOoZNgK.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="TVCiudad.uy@SD">
     <display-name>TV CIUDAD</display-name>
-    <icon src="https://i.imgur.com/zoEYZil.png"/>
+    <icon src="https://i.imgur.com/zoEYZil.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Siemprecine.uy@SD">
     <display-name>Siemprecine</display-name>
-    <icon src="https://i.imgur.com/ChcMDLv.png"/>
+    <icon src="https://i.imgur.com/ChcMDLv.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="RDTV.uy@SD">
     <display-name>RDTV 24HS</display-name>
-    <icon src="https://i.imgur.com/V5ZyMUy.png"/>
+    <icon src="https://i.imgur.com/V5ZyMUy.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Plazacanal.uy@SD">
     <display-name>33 TV</display-name>
-    <icon src="https://i.imgur.com/XMwX6qi.jpeg"/>
+    <icon src="https://i.imgur.com/XMwX6qi.jpeg" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="PantallaIMPO.uy@SD">
     <display-name>Pantalla IMPO</display-name>
-    <icon src="https://i.imgur.com/mX9qRhl.png"/>
+    <icon src="https://i.imgur.com/mX9qRhl.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="ElCanaldelaRegion.uy@SD">
     <display-name>El Canal de la Región - Noreste Canelones</display-name>
-    <icon src="https://i.imgur.com/pn2QBwl.png"/>
+    <icon src="https://i.imgur.com/pn2QBwl.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="LatinaTVPaysandu.uy@SD">
     <display-name>Latina TV Paysandú</display-name>
-    <icon src="https://i.imgur.com/t4MeCLF.png"/>
+    <icon src="https://i.imgur.com/t4MeCLF.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="FTC.uy@SD">
     <display-name>Florida Televisora Color HD</display-name>
-    <icon src="https://i.imgur.com/kPuW1fm.png"/>
+    <icon src="https://i.imgur.com/kPuW1fm.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="RioUruguayTV.uy@SD">
     <display-name>Rio Uruguay TV</display-name>
-    <icon src="https://i.imgur.com/hTNKaKZ.png"/>
+    <icon src="https://i.imgur.com/hTNKaKZ.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="DuraznoTV.uy@SD">
     <display-name>Durazno TV</display-name>
-    <icon src="https://i.imgur.com/qFEi97E.png"/>
+    <icon src="https://i.imgur.com/qFEi97E.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="TVLPando.uy@SD">
     <display-name>TVL Pando</display-name>
-    <icon src="https://i.imgur.com/yTiMKoj.png"/>
+    <icon src="https://i.imgur.com/yTiMKoj.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Telesur.ve@SD">
     <display-name>Telesur</display-name>
-    <icon src="https://i.imgur.com/P50VjRX.png"/>
+    <icon src="https://i.imgur.com/P50VjRX.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="CamaradeRepresentantes.uy@SD">
     <display-name>Cámara de Representantes</display-name>
-    <icon src="https://i.imgur.com/rDcHjlb.png"/>
+    <icon src="https://i.imgur.com/rDcHjlb.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="MaronasEntertainment.uy@SD">
     <display-name>Maroñas Entertainment</display-name>
-    <icon src="https://i.imgur.com/qssSxPn.png"/>
+    <icon src="https://i.imgur.com/qssSxPn.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="CamaradeSenadores.uy@SD">
     <display-name>Cámara de Senadores</display-name>
-    <icon src="https://i.imgur.com/6NBK4LN.png"/>
+    <icon src="https://i.imgur.com/6NBK4LN.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="2s68w">
@@ -205,7 +205,7 @@
   </channel>
   <channel id="DW.de@Espanol">
     <display-name>DW (Español)</display-name>
-    <icon src="https://i.imgur.com/8MRNFb9.png"/>
+    <icon src="https://i.imgur.com/8MRNFb9.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="2sffq">
@@ -218,22 +218,22 @@
   </channel>
   <channel id="1000xHoraTV.uy@SD">
     <display-name>1000XHora TV</display-name>
-    <icon src="https://i.imgur.com/wP3bbYr.png"/>
+    <icon src="https://i.imgur.com/wP3bbYr.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="APlusV.uy@SD">
     <display-name>A + V</display-name>
-    <icon src="https://i.imgur.com/tmEXjlY.png"/>
+    <icon src="https://i.imgur.com/tmEXjlY.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal7PuntadelEste.uy@SD">
     <display-name>Canal 7 Punta</display-name>
-    <icon src="https://i.imgur.com/W87rlp2.png"/>
+    <icon src="https://i.imgur.com/W87rlp2.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="Canal8Rivera.uy@SD">
     <display-name>Canal 8 Rivera</display-name>
-    <icon src="https://i.imgur.com/Y7RWTTN.png"/>
+    <icon src="https://i.imgur.com/Y7RWTTN.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="2srkb">
@@ -246,12 +246,12 @@
   </channel>
   <channel id="AntelEventos.uy@SD">
     <display-name>Antel Eventos</display-name>
-    <icon src="https://i.imgur.com/h8lcF21.png"/>
+    <icon src="https://i.imgur.com/h8lcF21.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="MIEM.uy@SD">
     <display-name>MIEM</display-name>
-    <icon src="https://i.imgur.com/4MEN4EI.png"/>
+    <icon src="https://i.imgur.com/4MEN4EI.png" />
     <url>https://anteltv.com.uy</url>
   </channel>
   <channel id="2stzy">

@@ -1,18 +1,18 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="ANTV.id@SD">
     <display-name>ANTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/960px-Antv_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/960px-Antv_logo.svg.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="AXNAsia.sg@Indonesia">
     <display-name>AXN</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="beINSports1.qa@Indonesia">
     <display-name>beIN Sports 1</display-name>
-    <icon src="https://i.imgur.com/Vtk2cGI.png"/>
+    <icon src="https://i.imgur.com/Vtk2cGI.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="beinsports2">
@@ -21,72 +21,72 @@
   </channel>
   <channel id="beINSports3.qa@Indonesia">
     <display-name>beIN Sports 3</display-name>
-    <icon src="https://i.imgur.com/UYSMao3.png"/>
+    <icon src="https://i.imgur.com/UYSMao3.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="BTV.id@SD">
     <display-name>BTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BTV_%28Indonesia%29_logo_%282025%29.svg/960px-BTV_%28Indonesia%29_logo_%282025%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BTV_%28Indonesia%29_logo_%282025%29.svg/960px-BTV_%28Indonesia%29_logo_%282025%29.svg.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="CinemaxAsia.sg@SD">
     <display-name>Cinemax</display-name>
-    <icon src="https://i.imgur.com/c8crJfA.png"/>
+    <icon src="https://i.imgur.com/c8crJfA.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="CNNIndonesia.id@SD">
     <display-name>CNN</display-name>
-    <icon src="https://i.imgur.com/l0JyOrm.png"/>
+    <icon src="https://i.imgur.com/l0JyOrm.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="Galaxy.id@SD">
     <display-name>Galaxy</display-name>
-    <icon src="https://i.imgur.com/205RLbh.png"/>
+    <icon src="https://i.imgur.com/205RLbh.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="GalaxyPremium.id@SD">
     <display-name>Galaxy Premium</display-name>
-    <icon src="https://i.imgur.com/oGKtYYG.png"/>
+    <icon src="https://i.imgur.com/oGKtYYG.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="GarudaTV.id@SD">
     <display-name>Garuda TV</display-name>
-    <icon src="https://i.imgur.com/sXsAcZ3.png"/>
+    <icon src="https://i.imgur.com/sXsAcZ3.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="GTV.id@SD">
     <display-name>GTV</display-name>
-    <icon src="https://i.imgur.com/jjuKnYs.png"/>
+    <icon src="https://i.imgur.com/jjuKnYs.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="HBOAsia.sg@Vietnam">
     <display-name>HBO</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="HBOFamilyAsia.sg@SD">
     <display-name>HBO Family</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/HBO_Family_Asia_logo.svg/960px-HBO_Family_Asia_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/HBO_Family_Asia_logo.svg/960px-HBO_Family_Asia_logo.svg.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="HBOHitsAsia.sg@SD">
     <display-name>HBO Hits</display-name>
-    <icon src="https://i.imgur.com/CTjmocc.png"/>
+    <icon src="https://i.imgur.com/CTjmocc.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="HBOSignatureAsia.sg@SD">
     <display-name>HBO Signature</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/HBO_Signature_Asia.png/960px-HBO_Signature_Asia.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/HBO_Signature_Asia.png/960px-HBO_Signature_Asia.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="HITS.sg@SD">
     <display-name>HITS</display-name>
-    <icon src="https://i.imgur.com/IM8Gy1l.png"/>
+    <icon src="https://i.imgur.com/IM8Gy1l.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="HITSMovies.sg@SD">
     <display-name>HITS Movies</display-name>
-    <icon src="https://i.imgur.com/kyE3vXf.png"/>
+    <icon src="https://i.imgur.com/kyE3vXf.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="hitsnow">
@@ -95,122 +95,122 @@
   </channel>
   <channel id="Indosiar.id@SD">
     <display-name>Indosiar</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/960px-Indosiar_2015.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/960px-Indosiar_2015.svg.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="iNews.id@SD">
     <display-name>iNews</display-name>
-    <icon src="https://i.imgur.com/M2R3lfg.png"/>
+    <icon src="https://i.imgur.com/M2R3lfg.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="KompasTV.id@SD">
     <display-name>Kompas TV</display-name>
-    <icon src="https://i.imgur.com/bD6UHeZ.png"/>
+    <icon src="https://i.imgur.com/bD6UHeZ.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="LifetimeAsia.us@SD">
     <display-name>Lifetime</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="NET.id@SD">
     <display-name>MDTV</display-name>
-    <icon src="https://i.imgur.com/RPT8O12.png"/>
+    <icon src="https://i.imgur.com/RPT8O12.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="MentariTV.id@SD">
     <display-name>Mentari TV</display-name>
-    <icon src="https://i.imgur.com/QkTgy1M.png"/>
+    <icon src="https://i.imgur.com/QkTgy1M.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="MetroTV.id@SD">
     <display-name>Metro TV</display-name>
-    <icon src="https://i.imgur.com/QnU70NI.png"/>
+    <icon src="https://i.imgur.com/QnU70NI.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="MNCTV.id@SD">
     <display-name>MNC TV</display-name>
-    <icon src="https://i.imgur.com/SK8pjQy.png"/>
+    <icon src="https://i.imgur.com/SK8pjQy.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="Moji.id@SD">
     <display-name>Moji</display-name>
-    <icon src="https://i.imgur.com/mM9zapJ.png"/>
+    <icon src="https://i.imgur.com/mM9zapJ.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="NusantaraTV.id@SD">
     <display-name>Nusantara TV</display-name>
-    <icon src="https://i.imgur.com/viun5hj.png"/>
+    <icon src="https://i.imgur.com/viun5hj.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="RCTI.id@SD">
     <display-name>RCTI</display-name>
-    <icon src="https://i.imgur.com/iLFx8ia.png"/>
+    <icon src="https://i.imgur.com/iLFx8ia.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="ROCKExtreme.sg@SD">
     <display-name>Rock Action</display-name>
-    <icon src="https://i.imgur.com/3U1JpHm.png"/>
+    <icon src="https://i.imgur.com/3U1JpHm.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="ROCKEntertainment.sg@SD">
     <display-name>Rock Entertainment</display-name>
-    <icon src="https://i.imgur.com/PWzq0aU.png"/>
+    <icon src="https://i.imgur.com/PWzq0aU.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="RajawaliTV.id@SD">
     <display-name>RTV</display-name>
-    <icon src="https://i.imgur.com/dlsv1sl.png"/>
+    <icon src="https://i.imgur.com/dlsv1sl.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="SCTV.id@SD">
     <display-name>SCTV</display-name>
-    <icon src="https://i.imgur.com/EMmOvnQ.png"/>
+    <icon src="https://i.imgur.com/EMmOvnQ.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="SEAToday.id@SD">
     <display-name>SEA Today</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/SEA_Today_Indonesia_Logo.png/960px-SEA_Today_Indonesia_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/SEA_Today_Indonesia_Logo.png/960px-SEA_Today_Indonesia_Logo.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="SindoNewsTV.id@SD">
     <display-name>Sindonews TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/SindoNewsTV_2023.png/960px-SindoNewsTV_2023.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/SindoNewsTV_2023.png/960px-SindoNewsTV_2023.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="SPOTV.id@SD">
     <display-name>SpoTV</display-name>
-    <icon src="https://i.imgur.com/HaoVsm5.png"/>
+    <icon src="https://i.imgur.com/HaoVsm5.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="SPOTV2.id@SD">
     <display-name>SpoTV 2</display-name>
-    <icon src="https://i.imgur.com/YD8fbTH.png"/>
+    <icon src="https://i.imgur.com/YD8fbTH.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="Trans7.id@SD">
     <display-name>Trans7</display-name>
-    <icon src="https://i.imgur.com/fAbGImS.png"/>
+    <icon src="https://i.imgur.com/fAbGImS.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="TransTV.id@SD">
     <display-name>Trans TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Trans_TV_2013.svg/960px-Trans_TV_2013.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Trans_TV_2013.svg/960px-Trans_TV_2013.svg.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="tvNAsia.hk@SD">
     <display-name>tvN</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/960px-Logo_tvN.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/960px-Logo_tvN.svg.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="tvNMoviesAsia.hk@SD">
     <display-name>tvN Movies</display-name>
-    <icon src="https://i.imgur.com/c4XvwO2.png"/>
+    <icon src="https://i.imgur.com/c4XvwO2.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="tvOne.id@SD">
     <display-name>TvOne</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/960px-TvOne_2023.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/960px-TvOne_2023.svg.png" />
     <url>https://tivie.id</url>
   </channel>
   <channel id="tvri">
@@ -219,7 +219,7 @@
   </channel>
   <channel id="ZeeBioskop.id@SD">
     <display-name>Zee Bioskop</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Zee_Bioskop_%282025%29.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Zee_Bioskop_%282025%29.svg" />
     <url>https://tivie.id</url>
   </channel>
   <programme start="20260422170000 +0000" stop="20260422174500 +0000" channel="ANTV.id@SD">

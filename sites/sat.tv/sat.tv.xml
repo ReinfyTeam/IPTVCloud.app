@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="1#33#1 بي ان سبورت ماكس">
     <display-name>1 بي ان سبورت ماكس</display-name>
@@ -8470,7 +8470,7 @@
   </channel>
   <channel id="2M.ma@SD">
     <display-name>2M وطني</display-name>
-    <icon src="https://i.imgur.com/PJYTfHi.png"/>
+    <icon src="https://i.imgur.com/PJYTfHi.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#2 الحياة">
@@ -8607,17 +8607,17 @@
   </channel>
   <channel id="AbuDhabiSports1.ae@SD">
     <display-name>أبو ظبي الرياضية 1</display-name>
-    <icon src="https://i.imgur.com/6BVWk8z.png"/>
+    <icon src="https://i.imgur.com/6BVWk8z.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AbuDhabiSports2.ae@SD">
     <display-name>أبو ظبي الرياضية 2</display-name>
-    <icon src="https://i.imgur.com/y1I2jFK.png"/>
+    <icon src="https://i.imgur.com/y1I2jFK.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AbuDhabiTV.ae@SD">
     <display-name>أبو ظبي تي في</display-name>
-    <icon src="https://i.imgur.com/8DAriPs.png"/>
+    <icon src="https://i.imgur.com/8DAriPs.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#أَذَان طولكرم">
@@ -8858,7 +8858,7 @@
   </channel>
   <channel id="SBC.sa@SD">
     <display-name>اس بي سي</display-name>
-    <icon src="https://i.imgur.com/9JSQglj.png"/>
+    <icon src="https://i.imgur.com/9JSQglj.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#اطفال و مواهب">
@@ -8895,7 +8895,7 @@
   </channel>
   <channel id="AlAanTV.ae@SD">
     <display-name>الآن</display-name>
-    <icon src="https://i.imgur.com/Jl9Uw8N.png"/>
+    <icon src="https://i.imgur.com/Jl9Uw8N.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الآن اف ام">
@@ -8916,7 +8916,7 @@
   </channel>
   <channel id="JordanTV.jo@SD">
     <display-name>الأردني تي في</display-name>
-    <icon src="https://i.imgur.com/0XozB5N.png"/>
+    <icon src="https://i.imgur.com/0XozB5N.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الأغاني">
@@ -8981,7 +8981,7 @@
   </channel>
   <channel id="AbuDhabiEmirates.ae@SD">
     <display-name>الامارات</display-name>
-    <icon src="https://i.imgur.com/iSbZqn4.png"/>
+    <icon src="https://i.imgur.com/iSbZqn4.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الامام الصادق">
@@ -8998,7 +8998,7 @@
   </channel>
   <channel id="AlAoula.ma@SD">
     <display-name>الاولى</display-name>
-    <icon src="https://i.imgur.com/nq53d2N.png"/>
+    <icon src="https://i.imgur.com/nq53d2N.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الاولى العراقية">
@@ -9071,7 +9071,7 @@
   </channel>
   <channel id="TV2.dz@SD">
     <display-name>الجزائر تي في</display-name>
-    <icon src="https://i.imgur.com/VEb631f.png"/>
+    <icon src="https://i.imgur.com/VEb631f.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الجزائر رقم 1 ۔">
@@ -9080,17 +9080,17 @@
   </channel>
   <channel id="TV3.dz@SD">
     <display-name>الجزائرية الثالثة</display-name>
-    <icon src="https://i.imgur.com/EQTGCbm.png"/>
+    <icon src="https://i.imgur.com/EQTGCbm.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="TV8.dz@SD">
     <display-name>الجزائرية الثامنة</display-name>
-    <icon src="https://i.imgur.com/LlQcIWM.png"/>
+    <icon src="https://i.imgur.com/LlQcIWM.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="TV5.dz@SD">
     <display-name>الجزائرية الخامسة</display-name>
-    <icon src="https://i.imgur.com/zQr0SDM.png"/>
+    <icon src="https://i.imgur.com/zQr0SDM.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الجزائرية الدولية تي في">
@@ -9099,17 +9099,17 @@
   </channel>
   <channel id="TV4.dz@SD">
     <display-name>الجزائرية الرابعة</display-name>
-    <icon src="https://i.imgur.com/BZvdjBN.png"/>
+    <icon src="https://i.imgur.com/BZvdjBN.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="TV7.dz@SD">
     <display-name>الجزائرية السابعة</display-name>
-    <icon src="https://i.imgur.com/40rR4hD.png"/>
+    <icon src="https://i.imgur.com/40rR4hD.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="TV6.dz@SD">
     <display-name>الجزائرية السادسة</display-name>
-    <icon src="https://i.imgur.com/nu0CpJn.png"/>
+    <icon src="https://i.imgur.com/nu0CpJn.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الجزيرة">
@@ -9170,17 +9170,17 @@
   </channel>
   <channel id="AlhayatTV.eg@SD">
     <display-name>الحياة</display-name>
-    <icon src="https://i.imgur.com/bl9ie9u.png"/>
+    <icon src="https://i.imgur.com/bl9ie9u.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlhayatDrama.eg@SD">
     <display-name>الحياة مسلسلات</display-name>
-    <icon src="https://i.imgur.com/vVM7I4a.png"/>
+    <icon src="https://i.imgur.com/vVM7I4a.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="KhartoumTV.sd@SD">
     <display-name>الخرطوم</display-name>
-    <icon src="https://i.imgur.com/0TXj5mq.png"/>
+    <icon src="https://i.imgur.com/0TXj5mq.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الدعوة تي في">
@@ -9233,7 +9233,7 @@
   </channel>
   <channel id="AlRayyanTV.qa@SD">
     <display-name>الريان</display-name>
-    <icon src="https://i.imgur.com/Ts3RjTV.png"/>
+    <icon src="https://i.imgur.com/Ts3RjTV.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الريان القديم">
@@ -9266,12 +9266,12 @@
   </channel>
   <channel id="AlSaudiya.sa@SD">
     <display-name>السعودية</display-name>
-    <icon src="https://i.imgur.com/GRQTndk.png"/>
+    <icon src="https://i.imgur.com/GRQTndk.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlEkhbariya.sa@SD">
     <display-name>السعودية الإخبارية</display-name>
-    <icon src="https://i.imgur.com/WcRlHQm.png"/>
+    <icon src="https://i.imgur.com/WcRlHQm.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#السعودية السنة النبوية">
@@ -9324,22 +9324,22 @@
   </channel>
   <channel id="SudanTV.sd@SD">
     <display-name>السودان تي في</display-name>
-    <icon src="https://i.imgur.com/XUPAYAA.png"/>
+    <icon src="https://i.imgur.com/XUPAYAA.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="Alsumaria.iq@SD">
     <display-name>السومرية</display-name>
-    <icon src="https://i.imgur.com/2eiGt0r.png"/>
+    <icon src="https://i.imgur.com/2eiGt0r.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="SharjahSports.ae@SD">
     <display-name>الشارقة الرياضية</display-name>
-    <icon src="https://i.imgur.com/CsEElsJ.png"/>
+    <icon src="https://i.imgur.com/CsEElsJ.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="SharjahTV.ae@SD">
     <display-name>الشارقة تي في</display-name>
-    <icon src="https://maraya.faulio.com/storage/mediagallery/bd/e5/fullhd_e2d4b08eb269edbf134b01459cc79b9802f63b8b.png"/>
+    <icon src="https://maraya.faulio.com/storage/mediagallery/bd/e5/fullhd_e2d4b08eb269edbf134b01459cc79b9802f63b8b.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الشاشة ألوان">
@@ -9384,12 +9384,12 @@
   </channel>
   <channel id="AlSharqiya.iq@SD">
     <display-name>الشرقية</display-name>
-    <icon src="https://i.imgur.com/mJIG5IV.png"/>
+    <icon src="https://i.imgur.com/mJIG5IV.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlSharqiyaNews.iq@SD">
     <display-name>الشرقية للأخبار</display-name>
-    <icon src="https://i.imgur.com/PeAcXB9.png"/>
+    <icon src="https://i.imgur.com/PeAcXB9.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الشرقية من كلباء">
@@ -9398,12 +9398,12 @@
   </channel>
   <channel id="EchoroukTV.dz@SD">
     <display-name>الشروق</display-name>
-    <icon src="https://i.imgur.com/33rf7KV.png"/>
+    <icon src="https://i.imgur.com/33rf7KV.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="EchoroukNews.dz@SD">
     <display-name>الشروق الإخبارية</display-name>
-    <icon src="https://i.imgur.com/TNtjYcw.png"/>
+    <icon src="https://i.imgur.com/TNtjYcw.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الشعائر">
@@ -9572,7 +9572,7 @@
   </channel>
   <channel id="FujairahTV.ae@SD">
     <display-name>الفجيرة</display-name>
-    <icon src="https://i.imgur.com/D2tOhbE.png"/>
+    <icon src="https://i.imgur.com/D2tOhbE.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الفرات">
@@ -9645,7 +9645,7 @@
   </channel>
   <channel id="AttessiaTV.tn@SD">
     <display-name>القناة 9</display-name>
-    <icon src="https://i.imgur.com/kmfRNVy.png"/>
+    <icon src="https://i.imgur.com/kmfRNVy.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#القناة التعليمية">
@@ -9750,7 +9750,7 @@
   </channel>
   <channel id="ElMehwarChannel.eg@SD">
     <display-name>المحور تي في</display-name>
-    <icon src="https://i.ibb.co/84t3yXTV/mehwar.png"/>
+    <icon src="https://i.ibb.co/84t3yXTV/mehwar.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#المديح">
@@ -9787,12 +9787,12 @@
   </channel>
   <channel id="AlMasriyah.eg@SD">
     <display-name>المصرية</display-name>
-    <icon src="https://i.ibb.co/Kx7wmXCQ/almasriya.png"/>
+    <icon src="https://i.ibb.co/Kx7wmXCQ/almasriya.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="ERTU1.eg@SD">
     <display-name>المصرية الأولى</display-name>
-    <icon src="https://i.imgur.com/uuIqiAy.png"/>
+    <icon src="https://i.imgur.com/uuIqiAy.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#المصرية الثانية">
@@ -9817,7 +9817,7 @@
   </channel>
   <channel id="AlMamlakaTV.jo@SD">
     <display-name>المملكة تي في</display-name>
-    <icon src="https://i.imgur.com/UeTseMV.png"/>
+    <icon src="https://i.imgur.com/UeTseMV.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#المنيا">
@@ -9846,7 +9846,7 @@
   </channel>
   <channel id="AlMayadeenTV.lb@SD">
     <display-name>الميادين</display-name>
-    <icon src="https://i.imgur.com/GtQOKeW.png"/>
+    <icon src="https://i.imgur.com/GtQOKeW.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#الناس">
@@ -9883,12 +9883,12 @@
   </channel>
   <channel id="EnnaharTV.dz@SD">
     <display-name>النهار تي في</display-name>
-    <icon src="https://i.imgur.com/C0TCA1s.png"/>
+    <icon src="https://i.imgur.com/C0TCA1s.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlNaharDrama.eg@SD">
     <display-name>النهار دراما</display-name>
-    <icon src="https://i.ibb.co/ksnNhr5w/Al-Nahar-Drama.png"/>
+    <icon src="https://i.ibb.co/ksnNhr5w/Al-Nahar-Drama.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#النيل التعليمية تي في">
@@ -9953,7 +9953,7 @@
   </channel>
   <channel id="YemenTV.ye@SD">
     <display-name>اليمن تي في</display-name>
-    <icon src="https://i.imgur.com/wN3REXv.png"/>
+    <icon src="https://i.imgur.com/wN3REXv.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#اليوم تي في">
@@ -9966,12 +9966,12 @@
   </channel>
   <channel id="MBC1.ae@SD">
     <display-name>ام بي سي 1</display-name>
-    <icon src="https://i.imgur.com/CiA3plN.png"/>
+    <icon src="https://i.imgur.com/CiA3plN.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="MBC2.ae@SD">
     <display-name>ام بي سي 2</display-name>
-    <icon src="https://i.imgur.com/n9mSHuP.png"/>
+    <icon src="https://i.imgur.com/n9mSHuP.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#ام بي سي 3">
@@ -9980,7 +9980,7 @@
   </channel>
   <channel id="MBC4.ae@SD">
     <display-name>ام بي سي 4</display-name>
-    <icon src="https://i.imgur.com/BcXASJp.png"/>
+    <icon src="https://i.imgur.com/BcXASJp.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#ام بي سي اكشن">
@@ -10085,7 +10085,7 @@
   </channel>
   <channel id="PNCFood.eg@SD">
     <display-name>بانوراما فوود</display-name>
-    <icon src="https://i.imgur.com/mN5wZlP.png"/>
+    <icon src="https://i.imgur.com/mN5wZlP.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#بانوراما فيلم">
@@ -10098,7 +10098,7 @@
   </channel>
   <channel id="BahiaTV.dz@SD">
     <display-name>باهية</display-name>
-    <icon src="https://i.imgur.com/RvfNxIw.png"/>
+    <icon src="https://i.imgur.com/RvfNxIw.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#بربري">
@@ -10275,17 +10275,17 @@
   </channel>
   <channel id="DubaiSports1.ae@SD">
     <display-name>دبي الرياضية 1</display-name>
-    <icon src="https://i.imgur.com/Poxw8lG.png"/>
+    <icon src="https://i.imgur.com/Poxw8lG.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="DubaiSports2.ae@SD">
     <display-name>دبي الرياضية 2</display-name>
-    <icon src="https://i.imgur.com/PMJ7Zmo.png"/>
+    <icon src="https://i.imgur.com/PMJ7Zmo.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="DubaiSports3.ae@SD">
     <display-name>دبي الرياضية 3</display-name>
-    <icon src="https://i.imgur.com/U0A8Gex.png"/>
+    <icon src="https://i.imgur.com/U0A8Gex.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#دبي تي في">
@@ -10294,17 +10294,17 @@
   </channel>
   <channel id="DubaiRacing.ae@SD">
     <display-name>دبي ريسينج 1</display-name>
-    <icon src="https://i.imgur.com/CJ1dagP.png"/>
+    <icon src="https://i.imgur.com/CJ1dagP.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="DubaiRacing2.ae@SD">
     <display-name>دبي ريسينج 2</display-name>
-    <icon src="https://i.imgur.com/H2TTn7t.png"/>
+    <icon src="https://i.imgur.com/H2TTn7t.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="DubaiRacing3.ae@SD">
     <display-name>دبي ريسينج 3</display-name>
-    <icon src="https://i.imgur.com/Vg4fxmc.png"/>
+    <icon src="https://i.imgur.com/Vg4fxmc.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#دبي وان">
@@ -10313,7 +10313,7 @@
   </channel>
   <channel id="DijlahTV.iq@SD">
     <display-name>دجلة</display-name>
-    <icon src="https://i.imgur.com/kyzH3G5.png"/>
+    <icon src="https://i.imgur.com/kyzH3G5.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#دجلة زمان">
@@ -10326,22 +10326,22 @@
   </channel>
   <channel id="KTV1.kw@SD">
     <display-name>دولة الكويت - الأولى</display-name>
-    <icon src="https://i.imgur.com/kG0d8Ay.png"/>
+    <icon src="https://i.imgur.com/kG0d8Ay.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="KTV2.kw@SD">
     <display-name>دولة الكويت - الثانية</display-name>
-    <icon src="https://i.imgur.com/hB57mNh.png"/>
+    <icon src="https://i.imgur.com/hB57mNh.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="DMC.eg@SD">
     <display-name>دي ام سي</display-name>
-    <icon src="https://i.imgur.com/iy70Xxr.png"/>
+    <icon src="https://i.imgur.com/iy70Xxr.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="DMCDrama.eg@SD">
     <display-name>دي ام سي دراما</display-name>
-    <icon src="https://i.imgur.com/OOXylJI.png"/>
+    <icon src="https://i.imgur.com/OOXylJI.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#دي دبليو عربية">
@@ -10354,12 +10354,12 @@
   </channel>
   <channel id="ThikrayatTV.sa@SD">
     <display-name>ذكريات</display-name>
-    <icon src="https://i.imgur.com/AKa1X9d.png"/>
+    <icon src="https://i.imgur.com/AKa1X9d.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="RoyaTV.jo@SD">
     <display-name>رؤيا تي في</display-name>
-    <icon src="https://i.imgur.com/WX80rty.png"/>
+    <icon src="https://i.imgur.com/WX80rty.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#راديو أنتينيا">
@@ -10424,22 +10424,22 @@
   </channel>
   <channel id="RotanaKhalijia.sa@SD">
     <display-name>روتانا خليجية</display-name>
-    <icon src="https://i.imgur.com/6HMluzv.png"/>
+    <icon src="https://i.imgur.com/6HMluzv.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="RotanaDrama.sa@SD">
     <display-name>روتانا دراما</display-name>
-    <icon src="https://i.imgur.com/btnhPjZ.png"/>
+    <icon src="https://i.imgur.com/btnhPjZ.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="RotanaCinemaKSA.sa@SD">
     <display-name>روتانا سينما السعودية</display-name>
-    <icon src="https://i.imgur.com/pGgp38I.png"/>
+    <icon src="https://i.imgur.com/pGgp38I.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="RotanaCinemaEgypt.eg@SD">
     <display-name>روتانا سينما مصر</display-name>
-    <icon src="https://i.imgur.com/dGlKoLW.png"/>
+    <icon src="https://i.imgur.com/dGlKoLW.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#روتانا طرب الأردن">
@@ -10448,7 +10448,7 @@
   </channel>
   <channel id="RotanaClassic.sa@SD">
     <display-name>روتانا كلاسيك</display-name>
-    <icon src="https://i.imgur.com/pMMUvkt.png"/>
+    <icon src="https://i.imgur.com/pMMUvkt.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#روتانا كليب">
@@ -10529,7 +10529,7 @@
   </channel>
   <channel id="SpacetoonArabic.ae@SD">
     <display-name>سبيس تون</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#ستار 1">
@@ -10554,7 +10554,7 @@
   </channel>
   <channel id="SkyNewsArabia.ae@SD">
     <display-name>سكاي نيوز عربية</display-name>
-    <icon src="https://i.imgur.com/SvjU4h6.png"/>
+    <icon src="https://i.imgur.com/SvjU4h6.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#سما الاردن">
@@ -10571,7 +10571,7 @@
   </channel>
   <channel id="SamiraTV.dz@SD">
     <display-name>سميرة</display-name>
-    <icon src="https://i.imgur.com/XZzINfq.png"/>
+    <icon src="https://i.imgur.com/XZzINfq.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#سهيل">
@@ -10604,17 +10604,17 @@
   </channel>
   <channel id="CBC.eg@SD">
     <display-name>سي بي سي</display-name>
-    <icon src="https://i.imgur.com/8apNaLP.png"/>
+    <icon src="https://i.imgur.com/8apNaLP.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="CBCDrama.eg@SD">
     <display-name>سي بي سي دراما</display-name>
-    <icon src="https://i.imgur.com/I8YdakH.png"/>
+    <icon src="https://i.imgur.com/I8YdakH.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="CBCSofra.eg@SD">
     <display-name>سي بي سي سفرة</display-name>
-    <icon src="https://i.imgur.com/YAdk2WR.png"/>
+    <icon src="https://i.imgur.com/YAdk2WR.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#سي سات">
@@ -10675,17 +10675,17 @@
   </channel>
   <channel id="SadaElbalad.eg@SD">
     <display-name>صدى البلد</display-name>
-    <icon src="https://i.imgur.com/vOKvPeK.png"/>
+    <icon src="https://i.imgur.com/vOKvPeK.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="SadaElbalad2.eg@SD">
     <display-name>صدى البلد 2</display-name>
-    <icon src="https://i.imgur.com/Z2YkoG2.png"/>
+    <icon src="https://i.imgur.com/Z2YkoG2.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="SadaElbaladDrama.eg@SD">
     <display-name>صدى البلد دراما</display-name>
-    <icon src="https://i.imgur.com/3VLjZKc.png"/>
+    <icon src="https://i.imgur.com/3VLjZKc.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#صدى الرحاب">
@@ -10774,7 +10774,7 @@
   </channel>
   <channel id="AdenTV.ye@SD">
     <display-name>عدن</display-name>
-    <icon src="https://i.imgur.com/ut3fI8D.png"/>
+    <icon src="https://i.imgur.com/ut3fI8D.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#عدن المستقيلة">
@@ -10811,12 +10811,12 @@
   </channel>
   <channel id="AmmanTV.jo@SD">
     <display-name>عمان تي في</display-name>
-    <icon src="https://i.imgur.com/5l7kw0b.png"/>
+    <icon src="https://i.imgur.com/5l7kw0b.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="OmanTV.om@SD">
     <display-name>عُمان تي في</display-name>
-    <icon src="https://i.imgur.com/rBftT9x.png"/>
+    <icon src="https://i.imgur.com/rBftT9x.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#عُمان مباشر">
@@ -10909,12 +10909,12 @@
   </channel>
   <channel id="QatarTelevision2.qa@SD">
     <display-name>قطر 2</display-name>
-    <icon src="https://i.imgur.com/iWJxDUm.png"/>
+    <icon src="https://i.imgur.com/iWJxDUm.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="QatarTelevision.qa@SD">
     <display-name>قطر تي في</display-name>
-    <icon src="https://i.imgur.com/N5RB4sp.png"/>
+    <icon src="https://i.imgur.com/N5RB4sp.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#قناة أنجل العربية">
@@ -11219,7 +11219,7 @@
   </channel>
   <channel id="NileDrama.eg@SD">
     <display-name>نايل دراما</display-name>
-    <icon src="https://i.imgur.com/FasJFMM.png"/>
+    <icon src="https://i.imgur.com/FasJFMM.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#نايل سبورت تي في">
@@ -11228,7 +11228,7 @@
   </channel>
   <channel id="NileCinema.eg@SD">
     <display-name>نايل سينما</display-name>
-    <icon src="https://i.imgur.com/SCpizej.png"/>
+    <icon src="https://i.imgur.com/SCpizej.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#نايل فاملي">
@@ -11237,12 +11237,12 @@
   </channel>
   <channel id="NileComedy.eg@SD">
     <display-name>نايل كوميدي</display-name>
-    <icon src="https://i.imgur.com/rcl3br8.png"/>
+    <icon src="https://i.imgur.com/rcl3br8.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="NileLife.eg@SD">
     <display-name>نايل لايف</display-name>
-    <icon src="https://i.imgur.com/ou42bUh.png"/>
+    <icon src="https://i.imgur.com/ou42bUh.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#نجوم إف إم">
@@ -11271,7 +11271,7 @@
   </channel>
   <channel id="NoorDubai.ae@SD">
     <display-name>نور دبي تي في</display-name>
-    <icon src="https://i.imgur.com/Nwl8Y7K.png"/>
+    <icon src="https://i.imgur.com/Nwl8Y7K.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#نور مريم">
@@ -11348,7 +11348,7 @@
   </channel>
   <channel id="YasTV.ae@SD">
     <display-name>ياس تي في</display-name>
-    <icon src="https://i.imgur.com/CSHQhP4.png"/>
+    <icon src="https://i.imgur.com/CSHQhP4.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#يلا مصارعة">
@@ -11357,7 +11357,7 @@
   </channel>
   <channel id="YemenShababChannel.ye@SD">
     <display-name>يمن شباب</display-name>
-    <icon src="https://i.imgur.com/H5Oi2NS.png"/>
+    <icon src="https://i.imgur.com/H5Oi2NS.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#38#يو تي في عراق">
@@ -39354,7 +39354,7 @@
   </channel>
   <channel id="TamazightTV.ma@SD">
     <display-name>الأمازيغية</display-name>
-    <icon src="https://freebox.cdn.scw.iliad.fr/552_56201db052.png"/>
+    <icon src="https://freebox.cdn.scw.iliad.fr/552_56201db052.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#49#الأنس">
@@ -39495,7 +39495,7 @@
   </channel>
   <channel id="Athaqafia.ma@SD">
     <display-name>الثقافية</display-name>
-    <icon src="https://freebox.cdn.scw.iliad.fr/medium_Athaqafia_fdc90e055e.png"/>
+    <icon src="https://freebox.cdn.scw.iliad.fr/medium_Athaqafia_fdc90e055e.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#49#الثقلين">
@@ -39632,7 +39632,7 @@
   </channel>
   <channel id="Arryadia.ma@HD">
     <display-name>الرياضية</display-name>
-    <icon src="https://i.imgur.com/XjzK3gZ.png"/>
+    <icon src="https://i.imgur.com/XjzK3gZ.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#49#الريان">
@@ -40065,7 +40065,7 @@
   </channel>
   <channel id="AlMaghribia.ma@SD">
     <display-name>المغربية</display-name>
-    <icon src="https://i.imgur.com/7GaahYh.png"/>
+    <icon src="https://i.imgur.com/7GaahYh.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#49#المملكة تي في">
@@ -41818,7 +41818,7 @@
   </channel>
   <channel id="AlJanoubiyaTV.tn@SD">
     <display-name>الجنوبية</display-name>
-    <icon src="https://i.imgur.com/w1bZdap.png"/>
+    <icon src="https://i.imgur.com/w1bZdap.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#50#الحدث">
@@ -41847,7 +41847,7 @@
   </channel>
   <channel id="ElhiwarEttounsiTV.tn@SD">
     <display-name>الحوار التونسي</display-name>
-    <icon src="https://i.imgur.com/qYG1qLO.png"/>
+    <icon src="https://i.imgur.com/qYG1qLO.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#50#الحوار تي في">
@@ -42624,12 +42624,12 @@
   </channel>
   <channel id="TelvzaTV.tn@SD">
     <display-name>تلفزة</display-name>
-    <icon src="https://i.imgur.com/3VTZ1QC.png"/>
+    <icon src="https://i.imgur.com/3VTZ1QC.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="TunisnaTV.tn@SD">
     <display-name>تونسنا</display-name>
-    <icon src="https://i.imgur.com/EePmh2R.png"/>
+    <icon src="https://i.imgur.com/EePmh2R.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#50#تي آر تي الدولي (تركيا)">
@@ -42670,7 +42670,7 @@
   </channel>
   <channel id="HannibalTV.tn@SD">
     <display-name>حنبعل</display-name>
-    <icon src="https://i.imgur.com/sIMmkBo.png"/>
+    <icon src="https://i.imgur.com/sIMmkBo.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#50#خليل الرحمن">
@@ -43455,7 +43455,7 @@
   </channel>
   <channel id="NessmaElJadida.tn@SD">
     <display-name>نسمة الجديدة</display-name>
-    <icon src="https://i.imgur.com/66CJtdz.png"/>
+    <icon src="https://i.imgur.com/66CJtdz.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#50#نغم إف إم">
@@ -62172,7 +62172,7 @@
   </channel>
   <channel id="2MMonde.ma@SD">
     <display-name>2M Monde</display-name>
-    <icon src="https://i.imgur.com/MvpntzA.png"/>
+    <icon src="https://i.imgur.com/MvpntzA.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#A TV Kurd HD">
@@ -62201,7 +62201,7 @@
   </channel>
   <channel id="AdenTV.ye@SD">
     <display-name>Aden TV</display-name>
-    <icon src="https://i.imgur.com/ut3fI8D.png"/>
+    <icon src="https://i.imgur.com/ut3fI8D.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#ADM R3">
@@ -62214,17 +62214,17 @@
   </channel>
   <channel id="AfaqTV.iq@SD">
     <display-name>Afaq TV</display-name>
-    <icon src="https://i.imgur.com/t7CaTu3.png"/>
+    <icon src="https://i.imgur.com/t7CaTu3.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AghapyTV.eg@SD">
     <display-name>Aghapy TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/e/eb/AghapyTV.jpg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/e/eb/AghapyTV.jpg" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AhaduTV.et@SD">
     <display-name>Ahadu TV</display-name>
-    <icon src="https://i.imgur.com/TQ1DiMU.png"/>
+    <icon src="https://i.imgur.com/TQ1DiMU.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Ajman TV HD">
@@ -62237,7 +62237,7 @@
   </channel>
   <channel id="AlAanTV.ae@SD">
     <display-name>Al Aan TV</display-name>
-    <icon src="https://i.imgur.com/Jl9Uw8N.png"/>
+    <icon src="https://i.imgur.com/Jl9Uw8N.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Aghani">
@@ -62250,7 +62250,7 @@
   </channel>
   <channel id="AlAhvazTV.ir@SD">
     <display-name>Al Ahvaz TV</display-name>
-    <icon src="https://i.imgur.com/ToFlG3B.png"/>
+    <icon src="https://i.imgur.com/ToFlG3B.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Amal">
@@ -62263,12 +62263,12 @@
   </channel>
   <channel id="AlAnwarTV.kw@SD">
     <display-name>Al Anwar TV</display-name>
-    <icon src="https://i.imgur.com/ypfyew1.png"/>
+    <icon src="https://i.imgur.com/ypfyew1.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AnwarTV2.iq@SD">
     <display-name>Al Anwar TV 2</display-name>
-    <icon src="https://i.imgur.com/yHZXPcn.png"/>
+    <icon src="https://i.imgur.com/yHZXPcn.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Aoula">
@@ -62309,7 +62309,7 @@
   </channel>
   <channel id="AlAyyamTV.iq@SD">
     <display-name>Al Ayyam TV</display-name>
-    <icon src="https://www.lyngsat.com/logo/tv/aa/al-ayam-tv.png"/>
+    <icon src="https://www.lyngsat.com/logo/tv/aa/al-ayam-tv.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Bachaeer Radio">
@@ -62354,7 +62354,7 @@
   </channel>
   <channel id="AlEshraqTV.iq@SD">
     <display-name>Al Eshraq TV</display-name>
-    <icon src="https://i.imgur.com/SuACr3L.png"/>
+    <icon src="https://i.imgur.com/SuACr3L.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Etejah HD">
@@ -62363,17 +62363,17 @@
   </channel>
   <channel id="AlFallujahTV.iq@SD">
     <display-name>Al Fallujah TV</display-name>
-    <icon src="https://i.imgur.com/4gQGfhU.png"/>
+    <icon src="https://i.imgur.com/4gQGfhU.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlForatTV.iq@SD">
     <display-name>Al Forat</display-name>
-    <icon src="https://i.imgur.com/f6PQzKd.png"/>
+    <icon src="https://i.imgur.com/f6PQzKd.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlGhadTV.eg@SD">
     <display-name>Al Ghad</display-name>
-    <icon src="https://i.imgur.com/ga6NXb9.png"/>
+    <icon src="https://i.imgur.com/ga6NXb9.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Hadath">
@@ -62390,7 +62390,7 @@
   </channel>
   <channel id="AlHawyah.ye@SD">
     <display-name>Al Hawyah</display-name>
-    <icon src="https://i.imgur.com/PbzccXt.png"/>
+    <icon src="https://i.imgur.com/PbzccXt.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Hayah 2">
@@ -62403,12 +62403,12 @@
   </channel>
   <channel id="AlhayatDrama.eg@SD">
     <display-name>Al Hayah Mosalsalat</display-name>
-    <icon src="https://i.imgur.com/vVM7I4a.png"/>
+    <icon src="https://i.imgur.com/vVM7I4a.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlhayatTV.eg@SD">
     <display-name>Al Hayat</display-name>
-    <icon src="https://i.imgur.com/bl9ie9u.png"/>
+    <icon src="https://i.imgur.com/bl9ie9u.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Heddaf TV">
@@ -62425,7 +62425,7 @@
   </channel>
   <channel id="AlHorreyaTV.us@SD">
     <display-name>Al Horreya TV</display-name>
-    <icon src="https://i.imgur.com/EK75DMJ.png"/>
+    <icon src="https://i.imgur.com/EK75DMJ.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Hurra TV HD">
@@ -62458,7 +62458,7 @@
   </channel>
   <channel id="AlIttihadTV.lb@SD">
     <display-name>Al Ittihad TV</display-name>
-    <icon src="https://i.imgur.com/QMUjPXx.png"/>
+    <icon src="https://i.imgur.com/QMUjPXx.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Janoub">
@@ -62471,7 +62471,7 @@
   </channel>
   <channel id="AlJazeera.qa@EnglishHD">
     <display-name>Al Jazeera English HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Jazeera HD">
@@ -62500,12 +62500,12 @@
   </channel>
   <channel id="AlKaheraWalNas.eg@SD">
     <display-name>Al Kahera Wal Nas</display-name>
-    <icon src="https://i.ibb.co/SD0YYqYW/alkahera-welnas.png"/>
+    <icon src="https://i.ibb.co/SD0YYqYW/alkahera-welnas.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlKaheraWalNas2.eg@SD">
     <display-name>Al Kahera Wal Nas 2</display-name>
-    <icon src="https://i.imgur.com/5GVcS8t.png"/>
+    <icon src="https://i.imgur.com/5GVcS8t.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Kalema">
@@ -62522,7 +62522,7 @@
   </channel>
   <channel id="AlKawtharTV.ir@SD">
     <display-name>Al Kawthar TV</display-name>
-    <icon src="https://i.imgur.com/x4zUmY1.png"/>
+    <icon src="https://i.imgur.com/x4zUmY1.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Kawther">
@@ -62543,7 +62543,7 @@
   </channel>
   <channel id="AlMahdiTV.us@SD">
     <display-name>Al Mahdi TV</display-name>
-    <icon src="https://i.imgur.com/S1YM83i.png"/>
+    <icon src="https://i.imgur.com/S1YM83i.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Majd">
@@ -62552,7 +62552,7 @@
   </channel>
   <channel id="AlMajdHolyQuran.sa@SD">
     <display-name>Al Majd Holy Quran</display-name>
-    <icon src="https://i.imgur.com/JBelAQj.png"/>
+    <icon src="https://i.imgur.com/JBelAQj.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Mamlaka TV HD">
@@ -62569,7 +62569,7 @@
   </channel>
   <channel id="AlMasriyah.eg@SD">
     <display-name>Al Masriyah</display-name>
-    <icon src="https://i.ibb.co/Kx7wmXCQ/almasriya.png"/>
+    <icon src="https://i.ibb.co/Kx7wmXCQ/almasriya.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Mawqef">
@@ -62578,7 +62578,7 @@
   </channel>
   <channel id="AlMayadeenTV.lb@SD">
     <display-name>Al Mayadeen TV</display-name>
-    <icon src="https://i.imgur.com/GtQOKeW.png"/>
+    <icon src="https://i.imgur.com/GtQOKeW.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Menia">
@@ -62587,17 +62587,17 @@
   </channel>
   <channel id="AlNadaTV.eg@SD">
     <display-name>Al Nada TV</display-name>
-    <icon src="https://i.imgur.com/ai9wPUW.png"/>
+    <icon src="https://i.imgur.com/ai9wPUW.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlNaeemTV.iq@SD">
     <display-name>Al Naeem TV</display-name>
-    <icon src="https://i.imgur.com/JyWjfIB.png"/>
+    <icon src="https://i.imgur.com/JyWjfIB.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlNaharDrama.eg@SD">
     <display-name>Al Nahar Drama</display-name>
-    <icon src="https://i.ibb.co/ksnNhr5w/Al-Nahar-Drama.png"/>
+    <icon src="https://i.ibb.co/ksnNhr5w/Al-Nahar-Drama.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Nahar Noor">
@@ -62618,12 +62618,12 @@
   </channel>
   <channel id="AlNujabaTV.iq@SD">
     <display-name>Al Nujaba TV</display-name>
-    <icon src="https://i.imgur.com/XWXehZL.png"/>
+    <icon src="https://i.imgur.com/XWXehZL.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlOnsTV.ma@SD">
     <display-name>Al Ons TV</display-name>
-    <icon src="https://i.imgur.com/HshRXMz.png"/>
+    <icon src="https://i.imgur.com/HshRXMz.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Oula">
@@ -62632,22 +62632,22 @@
   </channel>
   <channel id="AlQaheraNews.eg@SD">
     <display-name>Al Qahera News</display-name>
-    <icon src="https://i.imgur.com/37t7yfO.png"/>
+    <icon src="https://i.imgur.com/37t7yfO.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlQamarTV.ae@SD">
     <display-name>Al Qamar TV</display-name>
-    <icon src="https://i.imgur.com/zkBT0C8.png"/>
+    <icon src="https://i.imgur.com/zkBT0C8.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlQanat9.tr@SD">
     <display-name>Al Qanat 9</display-name>
-    <icon src="https://i.imgur.com/HC91Mho.png"/>
+    <icon src="https://i.imgur.com/HC91Mho.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlQudsTodayTV.ps@SD">
     <display-name>Al Quds Today TV</display-name>
-    <icon src="https://i.imgur.com/Q0E4LLi.png"/>
+    <icon src="https://i.imgur.com/Q0E4LLi.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Quran Al Karem">
@@ -62688,7 +62688,7 @@
   </channel>
   <channel id="AlSabah.kw@SD">
     <display-name>Al Sabah</display-name>
-    <icon src="https://i.imgur.com/5fujkfE.png"/>
+    <icon src="https://i.imgur.com/5fujkfE.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Saeed 7">
@@ -62697,22 +62697,22 @@
   </channel>
   <channel id="AlSaeedah.eg@SD">
     <display-name>Al Saeedah</display-name>
-    <icon src="https://i.imgur.com/fVgus9P.png"/>
+    <icon src="https://i.imgur.com/fVgus9P.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlSahatTV.ye@SD">
     <display-name>Al Sahat TV</display-name>
-    <icon src="https://i.imgur.com/UVndAta.png"/>
+    <icon src="https://i.imgur.com/UVndAta.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlSahraaTV.sa@SD">
     <display-name>Al Sahraa TV</display-name>
-    <icon src="https://i.imgur.com/6W4wX1C.png"/>
+    <icon src="https://i.imgur.com/6W4wX1C.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlSalamTV.iq@SD">
     <display-name>Al Salam TV</display-name>
-    <icon src="https://i.imgur.com/d59OY8J.png"/>
+    <icon src="https://i.imgur.com/d59OY8J.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Sayedah TV">
@@ -62725,7 +62725,7 @@
   </channel>
   <channel id="AlShamsTV.eg@SD">
     <display-name>Al Shams TV</display-name>
-    <icon src="https://www.lyngsat.com/logo/tv/aa/al-shams-tv-eg.png"/>
+    <icon src="https://www.lyngsat.com/logo/tv/aa/al-shams-tv-eg.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Al Shaoub TV">
@@ -62818,7 +62818,7 @@
   </channel>
   <channel id="AlerthAlnabawiChannel.jo@SD">
     <display-name>Alerth Alnabawi</display-name>
-    <icon src="https://i.imgur.com/iYibJxK.png"/>
+    <icon src="https://i.imgur.com/iYibJxK.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Alfa Cinema">
@@ -62835,7 +62835,7 @@
   </channel>
   <channel id="AlfathTV.eg@SD">
     <display-name>Alfath TV</display-name>
-    <icon src="https://i.imgur.com/87bdieg.png"/>
+    <icon src="https://i.imgur.com/87bdieg.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Algerian 4kids">
@@ -62868,22 +62868,22 @@
   </channel>
   <channel id="AlghadeerTV.iq@SD">
     <display-name>Alghadeer TV</display-name>
-    <icon src="https://i.imgur.com/YPj6kXq.png"/>
+    <icon src="https://i.imgur.com/YPj6kXq.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlHadathAlyoum.eg@SD">
     <display-name>AlHadath Alyoum</display-name>
-    <icon src="https://i.ibb.co/sd2k94pS/Final-Hadath.png"/>
+    <icon src="https://i.ibb.co/sd2k94pS/Final-Hadath.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlistiqamaTV.om@SD">
     <display-name>Alistiqama TV</display-name>
-    <icon src="https://i.imgur.com/2FPtYZr.png"/>
+    <icon src="https://i.imgur.com/2FPtYZr.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlkarmaTVPraise.us@SD">
     <display-name>Alkarma Praise</display-name>
-    <icon src="https://i.imgur.com/bJLKkou.png"/>
+    <icon src="https://i.imgur.com/bJLKkou.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Alkarma TV Middle East 1">
@@ -62896,7 +62896,7 @@
   </channel>
   <channel id="AlkassOne.qa@HD">
     <display-name>Alkass One HD</display-name>
-    <icon src="https://i.imgur.com/10mmlha.png"/>
+    <icon src="https://i.imgur.com/10mmlha.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Alkass Three">
@@ -62905,7 +62905,7 @@
   </channel>
   <channel id="AlkassTwo.qa@HD">
     <display-name>Alkass Two HD</display-name>
-    <icon src="https://i.imgur.com/8w61kFX.png"/>
+    <icon src="https://i.imgur.com/8w61kFX.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Alking Drama TV">
@@ -62914,12 +62914,12 @@
   </channel>
   <channel id="AllahdhahTV.ye@SD">
     <display-name>Allahdhah TV</display-name>
-    <icon src="https://i.imgur.com/v9VOJC1.png"/>
+    <icon src="https://i.imgur.com/v9VOJC1.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AlmagdTV.us@SD">
     <display-name>Almagd TV</display-name>
-    <icon src="https://i.imgur.com/wBttnTe.png"/>
+    <icon src="https://i.imgur.com/wBttnTe.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Almasirah TV">
@@ -62932,7 +62932,7 @@
   </channel>
   <channel id="AlMustakillah.uk@SD">
     <display-name>Almustakillah TV</display-name>
-    <icon src="https://i.imgur.com/4CDavcN.png"/>
+    <icon src="https://i.imgur.com/4CDavcN.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Als3yda Madeeh">
@@ -62941,7 +62941,7 @@
   </channel>
   <channel id="AlshaaerTV.iq@SD">
     <display-name>Alshaaer TV</display-name>
-    <icon src="https://i.imgur.com/WZqTPgo.png"/>
+    <icon src="https://i.imgur.com/WZqTPgo.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#AlSukariya Drama">
@@ -62954,7 +62954,7 @@
   </channel>
   <channel id="AltaleaaTV.iq@SD">
     <display-name>Altaleaa TV</display-name>
-    <icon src="https://i.imgur.com/Uo5NaLZ.png"/>
+    <icon src="https://i.imgur.com/Uo5NaLZ.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#AlThaqafeya HD">
@@ -62975,7 +62975,7 @@
   </channel>
   <channel id="AmozhgaryTV.iq@SD">
     <display-name>Amozhgary TV</display-name>
-    <icon src="https://i.imgur.com/sseqFsO.png"/>
+    <icon src="https://i.imgur.com/sseqFsO.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Anewz">
@@ -62984,17 +62984,17 @@
   </channel>
   <channel id="AngelTV.in@Arabia">
     <display-name>Angel TV Arabia</display-name>
-    <icon src="https://i.imgur.com/qKLEGU7.png"/>
+    <icon src="https://i.imgur.com/qKLEGU7.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="ArirangWorld.kr@SD">
     <display-name>Arirang World</display-name>
-    <icon src="https://i.imgur.com/5Aoithj.png"/>
+    <icon src="https://i.imgur.com/5Aoithj.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="AryenTV.se@SD">
     <display-name>Aryen TV</display-name>
-    <icon src="https://i.imgur.com/hIhzT7t.png"/>
+    <icon src="https://i.imgur.com/hIhzT7t.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Asharq Discovery HD">
@@ -63011,7 +63011,7 @@
   </channel>
   <channel id="AsilTV.ir@SD">
     <display-name>Asil TV</display-name>
-    <icon src="https://i.imgur.com/gROQqFD.png"/>
+    <icon src="https://i.imgur.com/gROQqFD.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Aswan">
@@ -63040,7 +63040,7 @@
   </channel>
   <channel id="AzhariTV.jo@SD">
     <display-name>Azhari TV</display-name>
-    <icon src="https://i.imgur.com/TQlNoKH.png"/>
+    <icon src="https://i.imgur.com/TQlNoKH.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="B4UPlus.in@SD">
@@ -63053,12 +63053,12 @@
   </channel>
   <channel id="BahiaTV.dz@SD">
     <display-name>Bahia TV</display-name>
-    <icon src="https://i.imgur.com/RvfNxIw.png"/>
+    <icon src="https://i.imgur.com/RvfNxIw.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="BahrainInternational.bh@SD">
     <display-name>Bahrain International</display-name>
-    <icon src="https://i.imgur.com/t6Lmntr.png"/>
+    <icon src="https://i.imgur.com/t6Lmntr.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Bahrain TV HD">
@@ -63071,7 +63071,7 @@
   </channel>
   <channel id="BangawazTV.iq@SD">
     <display-name>Bangawaz TV</display-name>
-    <icon src="https://www.lyngsat.com/logo/tv/bb/bangawaz-tv-iq.png"/>
+    <icon src="https://www.lyngsat.com/logo/tv/bb/bangawaz-tv-iq.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Baynounah TV HD">
@@ -63080,7 +63080,7 @@
   </channel>
   <channel id="BBCArabic.uk@SD">
     <display-name>BBC Arabic</display-name>
-    <icon src="https://i.imgur.com/ScyTG6P.png"/>
+    <icon src="https://i.imgur.com/ScyTG6P.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#BBC E">
@@ -63121,7 +63121,7 @@
   </channel>
   <channel id="BelqeesTV.ye@SD">
     <display-name>Belqees TV</display-name>
-    <icon src="https://i.imgur.com/bNDJlO0.png"/>
+    <icon src="https://i.imgur.com/bNDJlO0.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Bengali">
@@ -63130,7 +63130,7 @@
   </channel>
   <channel id="BerbereTV.fr@SD">
     <display-name>Berbère TV</display-name>
-    <icon src="https://i.imgur.com/Uc2PAmL.png"/>
+    <icon src="https://i.imgur.com/Uc2PAmL.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Better Life Radio">
@@ -63143,7 +63143,7 @@
   </channel>
   <channel id="BinOthaimeen.sa@SD">
     <display-name>Bin Othaimeen</display-name>
-    <icon src="https://i.imgur.com/st3wFud.png"/>
+    <icon src="https://i.imgur.com/st3wFud.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#C Sat">
@@ -63180,12 +63180,12 @@
   </channel>
   <channel id="CBCDrama.eg@SD">
     <display-name>CBC Drama</display-name>
-    <icon src="https://i.imgur.com/I8YdakH.png"/>
+    <icon src="https://i.imgur.com/I8YdakH.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="CBCSofra.eg@SD">
     <display-name>CBC Sofra</display-name>
-    <icon src="https://i.imgur.com/YAdk2WR.png"/>
+    <icon src="https://i.imgur.com/YAdk2WR.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#CGTN">
@@ -63194,12 +63194,12 @@
   </channel>
   <channel id="CGTNArabic.cn@SD">
     <display-name>CGTN Arabic</display-name>
-    <icon src="https://i.imgur.com/AkFFrS7.png"/>
+    <icon src="https://i.imgur.com/AkFFrS7.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="ChadaTV.ma@SD">
     <display-name>Chada TV</display-name>
-    <icon src="https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png"/>
+    <icon src="https://freebox.cdn.scw.iliad.fr/medium_Logo_chada_tv_2ee1412d38.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#CHAINE 1">
@@ -63216,17 +63216,17 @@
   </channel>
   <channel id="ChinaArabTV.ae@SD">
     <display-name>China Arab TV</display-name>
-    <icon src="https://i.imgur.com/uFlZrAc.png"/>
+    <icon src="https://i.imgur.com/uFlZrAc.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="Cima.eg@SD">
     <display-name>Cima</display-name>
-    <icon src="https://i.ibb.co/p6SPr0Ym/Cima.png"/>
+    <icon src="https://i.ibb.co/p6SPr0Ym/Cima.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="CiraTV.de@SD">
     <display-name>Çira TV</display-name>
-    <icon src="https://i.imgur.com/YFnmSLW.png"/>
+    <icon src="https://i.imgur.com/YFnmSLW.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#CN Arabic">
@@ -63239,7 +63239,7 @@
   </channel>
   <channel id="CNBCArabiya.ae@SD">
     <display-name>CNBC Arabiya</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/5/54/CNBC_Arabia_-_New_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/5/54/CNBC_Arabia_-_New_Logo.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#CNN International">
@@ -63264,12 +63264,12 @@
   </channel>
   <channel id="DMC.eg@SD">
     <display-name>DMC</display-name>
-    <icon src="https://i.imgur.com/iy70Xxr.png"/>
+    <icon src="https://i.imgur.com/iy70Xxr.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="DMCDrama.eg@SD">
     <display-name>DMC Drama</display-name>
-    <icon src="https://i.imgur.com/OOXylJI.png"/>
+    <icon src="https://i.imgur.com/OOXylJI.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Dolly Alyoom">
@@ -63314,7 +63314,7 @@
   </channel>
   <channel id="DubaiRacing2.ae@SD">
     <display-name>Dubai Racing 2</display-name>
-    <icon src="https://i.imgur.com/H2TTn7t.png"/>
+    <icon src="https://i.imgur.com/H2TTn7t.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Dubai Sports 1 HD">
@@ -63323,7 +63323,7 @@
   </channel>
   <channel id="DubaiSports2.ae@SD">
     <display-name>Dubai Sports 2</display-name>
-    <icon src="https://i.imgur.com/PMJ7Zmo.png"/>
+    <icon src="https://i.imgur.com/PMJ7Zmo.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#DW05">
@@ -63340,7 +63340,7 @@
   </channel>
   <channel id="EchoroukNews.dz@SD">
     <display-name>Echorouk News</display-name>
-    <icon src="https://i.imgur.com/TNtjYcw.png"/>
+    <icon src="https://i.imgur.com/TNtjYcw.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Echorouk TV HD">
@@ -63365,7 +63365,7 @@
   </channel>
   <channel id="ElHayatTV.dz@SD">
     <display-name>El Hayat TV</display-name>
-    <icon src="https://i.imgur.com/C0s1I8w.png"/>
+    <icon src="https://i.imgur.com/C0s1I8w.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#El Mehwar HD">
@@ -63374,7 +63374,7 @@
   </channel>
   <channel id="ElMoled.eg@SD">
     <display-name>El Moled</display-name>
-    <icon src="https://i.imgur.com/rUjGSSb.png"/>
+    <icon src="https://i.imgur.com/rUjGSSb.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#El Omda Al yom">
@@ -63411,7 +63411,7 @@
   </channel>
   <channel id="EnnaharTV.dz@SD">
     <display-name>Ennahar TV</display-name>
-    <icon src="https://i.imgur.com/C0TCA1s.png"/>
+    <icon src="https://i.imgur.com/C0TCA1s.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#ERI Radio 1">
@@ -63444,7 +63444,7 @@
   </channel>
   <channel id="ExtraLive.eg@SD">
     <display-name>Extra live</display-name>
-    <icon src="https://i.imgur.com/Cv2O0Cj.png"/>
+    <icon src="https://i.imgur.com/Cv2O0Cj.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Extra News HD">
@@ -63453,7 +63453,7 @@
   </channel>
   <channel id="FalastiniTV.ps@SD">
     <display-name>Falastini TV</display-name>
-    <icon src="https://i.imgur.com/6B3Cims.png"/>
+    <icon src="https://i.imgur.com/6B3Cims.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#falestinona TV">
@@ -63470,12 +63470,12 @@
   </channel>
   <channel id="France24.fr@Arabic">
     <display-name>France 24 Arabic</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="France24.fr@English">
     <display-name>France 24 English</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Free TV">
@@ -63504,12 +63504,12 @@
   </channel>
   <channel id="HalabTodayTV.sy@SD">
     <display-name>Halab Today TV</display-name>
-    <icon src="https://pbs.twimg.com/profile_images/1779495135841075200/aPINrLwe_400x400.png"/>
+    <icon src="https://pbs.twimg.com/profile_images/1779495135841075200/aPINrLwe_400x400.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="HaqTV.mz@SD">
     <display-name>Haq TV</display-name>
-    <icon src="https://i.imgur.com/rs1Xvkt.png"/>
+    <icon src="https://i.imgur.com/rs1Xvkt.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Hawa Baghdad">
@@ -63522,7 +63522,7 @@
   </channel>
   <channel id="HebronSat.ps@SD">
     <display-name>Hebron Sat</display-name>
-    <icon src="https://i.imgur.com/EFfaVhL.png"/>
+    <icon src="https://i.imgur.com/EFfaVhL.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#HodHod TV">
@@ -63555,7 +63555,7 @@
   </channel>
   <channel id="i24NEWSArabic.il@SD">
     <display-name>I24 News Arabic</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#I News HD">
@@ -63564,7 +63564,7 @@
   </channel>
   <channel id="iFilmArabic.ir@SD">
     <display-name>iFilm Arabic</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Ifrikya FM">
@@ -63585,7 +63585,7 @@
   </channel>
   <channel id="ImamHusseinTV2.iq@SD">
     <display-name>Imam Hussein TV 2</display-name>
-    <icon src="https://i.imgur.com/IXVSPdJ.png"/>
+    <icon src="https://i.imgur.com/IXVSPdJ.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Iraq 24 HD">
@@ -63626,12 +63626,12 @@
   </channel>
   <channel id="IraqFuture.iq@SD">
     <display-name>Iraq Future TV</display-name>
-    <icon src="https://i.imgur.com/Z7woTe5.png"/>
+    <icon src="https://i.imgur.com/Z7woTe5.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="IraqNow.iq@SD">
     <display-name>Iraq Now</display-name>
-    <icon src="https://i.imgur.com/kSUsgkl.png"/>
+    <icon src="https://i.imgur.com/kSUsgkl.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Iraqia Syriac">
@@ -63644,7 +63644,7 @@
   </channel>
   <channel id="JeddahRadio.sa@SD">
     <display-name>Jedda Radio</display-name>
-    <icon src="https://i.imgur.com/Q3d7G04.png"/>
+    <icon src="https://i.imgur.com/Q3d7G04.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Jin TV HD">
@@ -63673,12 +63673,12 @@
   </channel>
   <channel id="KaifaTV.jo@SD">
     <display-name>Kaifa TV</display-name>
-    <icon src="https://i.imgur.com/zGGeSQg.png"/>
+    <icon src="https://i.imgur.com/zGGeSQg.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="Karameesh.jo@SD">
     <display-name>Karameesh</display-name>
-    <icon src="https://i.imgur.com/Pld33CZ.png"/>
+    <icon src="https://i.imgur.com/Pld33CZ.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Karbala TV HD">
@@ -63691,7 +63691,7 @@
   </channel>
   <channel id="KhartoumTV.sd@SD">
     <display-name>Khartoum TV</display-name>
-    <icon src="https://i.imgur.com/0TXj5mq.png"/>
+    <icon src="https://i.imgur.com/0TXj5mq.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Khozama Radio">
@@ -63704,7 +63704,7 @@
   </channel>
   <channel id="KirkukTV.iq@SD">
     <display-name>Kirkuk TV</display-name>
-    <icon src="https://i.imgur.com/SPslJS4.png"/>
+    <icon src="https://i.imgur.com/SPslJS4.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#KNN HD">
@@ -63713,12 +63713,12 @@
   </channel>
   <channel id="KoogiTV.eg@SD">
     <display-name>Koogi TV</display-name>
-    <icon src="https://i.imgur.com/zojMTP9.png"/>
+    <icon src="https://i.imgur.com/zojMTP9.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="KSASports1.sa@SD">
     <display-name>KSA sports 1</display-name>
-    <icon src="https://i.imgur.com/ONKNOAp.png"/>
+    <icon src="https://i.imgur.com/ONKNOAp.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#KSA sports 2 HD">
@@ -63739,12 +63739,12 @@
   </channel>
   <channel id="Kurdistan24.iq@SD">
     <display-name>Kurdistan 24</display-name>
-    <icon src="https://i.imgur.com/9QWs2ms.png"/>
+    <icon src="https://i.imgur.com/9QWs2ms.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="KurdistanTV.iq@SD">
     <display-name>Kurdistan TV</display-name>
-    <icon src="https://i.imgur.com/mjQptpc.png"/>
+    <icon src="https://i.imgur.com/mjQptpc.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#KurdMax HD">
@@ -63753,7 +63753,7 @@
   </channel>
   <channel id="Kurdsat.iq@SD">
     <display-name>Kurdsat</display-name>
-    <icon src="https://i.imgur.com/UAbSwYA.png"/>
+    <icon src="https://i.imgur.com/UAbSwYA.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Kurdsat News HD">
@@ -63842,7 +63842,7 @@
   </channel>
   <channel id="LibyaAlrasmiaChannel.ly@SD">
     <display-name>Libya Alrasmia Channel</display-name>
-    <icon src="https://i.imgur.com/a0a1UyA.png"/>
+    <icon src="https://i.imgur.com/a0a1UyA.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Libya Alwathaiqia TV">
@@ -63907,12 +63907,12 @@
   </channel>
   <channel id="MakkahTV.sa@SD">
     <display-name>Makkah TV</display-name>
-    <icon src="https://i.imgur.com/PRPcOi0.png"/>
+    <icon src="https://i.imgur.com/PRPcOi0.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="ManuChat.iq@SD">
     <display-name>Manu Chat</display-name>
-    <icon src="https://i.imgur.com/voyoljW.png"/>
+    <icon src="https://i.imgur.com/voyoljW.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Marina HD">
@@ -63929,7 +63929,7 @@
   </channel>
   <channel id="MasperoZaman.eg@SD">
     <display-name>Maspero Zaman</display-name>
-    <icon src="https://i.ibb.co/Tqr4q5wd/Maspero.png"/>
+    <icon src="https://i.ibb.co/Tqr4q5wd/Maspero.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Matrouh">
@@ -63942,7 +63942,7 @@
   </channel>
   <channel id="Mazzika.eg@SD">
     <display-name>Mazzika</display-name>
-    <icon src="https://i.imgur.com/P7PUHIx.png"/>
+    <icon src="https://i.imgur.com/P7PUHIx.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#MBC 1">
@@ -63963,22 +63963,22 @@
   </channel>
   <channel id="MBCAction.ae@SD">
     <display-name>MBC Action</display-name>
-    <icon src="https://i.imgur.com/OWZAghw.png"/>
+    <icon src="https://i.imgur.com/OWZAghw.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="MBCBollywood.ae@SD">
     <display-name>MBC Bollywood</display-name>
-    <icon src="https://i.imgur.com/TTAGFHG.png"/>
+    <icon src="https://i.imgur.com/TTAGFHG.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="MBCDrama.ae@SD">
     <display-name>MBC Drama</display-name>
-    <icon src="https://i.imgur.com/g5PWnqp.png"/>
+    <icon src="https://i.imgur.com/g5PWnqp.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="MBCFM.ae@SD">
     <display-name>MBC FM</display-name>
-    <icon src="https://i.imgur.com/lF8UxvR.png"/>
+    <icon src="https://i.imgur.com/lF8UxvR.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#MBC Iraq HD">
@@ -63999,7 +63999,7 @@
   </channel>
   <channel id="MedMuzik.tr@SD">
     <display-name>Med Muzîk</display-name>
-    <icon src="https://i.imgur.com/gtUFmCD.png"/>
+    <icon src="https://i.imgur.com/gtUFmCD.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Medi1Radio Afrique">
@@ -64020,7 +64020,7 @@
   </channel>
   <channel id="MisrAlBalad.eg@SD">
     <display-name>Misr AlBalad</display-name>
-    <icon src="https://i.imgur.com/dfKxdbt.png"/>
+    <icon src="https://i.imgur.com/dfKxdbt.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Misr Quran Kareem">
@@ -64033,7 +64033,7 @@
   </channel>
   <channel id="MixBelAraby.eg@SD">
     <display-name>Mix bel Araby TV</display-name>
-    <icon src="https://i.imgur.com/KucgM9c.png"/>
+    <icon src="https://i.imgur.com/KucgM9c.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Mix One">
@@ -64070,7 +64070,7 @@
   </channel>
   <channel id="NabaaTV.lb@SD">
     <display-name>Nabaa TV</display-name>
-    <icon src="https://i.imgur.com/p8eRgSs.png"/>
+    <icon src="https://i.imgur.com/p8eRgSs.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Nablus Radio">
@@ -64099,37 +64099,37 @@
   </channel>
   <channel id="NHKWorldJapan.jp@SD">
     <display-name>NHK World Japan</display-name>
-    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png"/>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="NileCinema.eg@SD">
     <display-name>Nile Cinema</display-name>
-    <icon src="https://i.imgur.com/SCpizej.png"/>
+    <icon src="https://i.imgur.com/SCpizej.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="NileComedy.eg@SD">
     <display-name>Nile Comedy</display-name>
-    <icon src="https://i.imgur.com/rcl3br8.png"/>
+    <icon src="https://i.imgur.com/rcl3br8.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="NileCulture.eg@SD">
     <display-name>Nile Culture</display-name>
-    <icon src="https://i.imgur.com/fcIuSiX.png"/>
+    <icon src="https://i.imgur.com/fcIuSiX.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="NileDrama.eg@SD">
     <display-name>Nile Drama</display-name>
-    <icon src="https://i.imgur.com/FasJFMM.png"/>
+    <icon src="https://i.imgur.com/FasJFMM.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="NileEducationChannel.eg@SD">
     <display-name>Nile Education</display-name>
-    <icon src="https://i.imgur.com/9yPW8oY.png"/>
+    <icon src="https://i.imgur.com/9yPW8oY.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="NileFamily.eg@SD">
     <display-name>Nile Family</display-name>
-    <icon src="https://i.imgur.com/zNBfxOc.png"/>
+    <icon src="https://i.imgur.com/zNBfxOc.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Nile FM">
@@ -64138,17 +64138,17 @@
   </channel>
   <channel id="NileLife.eg@SD">
     <display-name>Nile Life</display-name>
-    <icon src="https://i.imgur.com/ou42bUh.png"/>
+    <icon src="https://i.imgur.com/ou42bUh.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="NileNews.eg@SD">
     <display-name>Nile News</display-name>
-    <icon src="https://i.ibb.co/Kz0H3mLP/Nile-News.png"/>
+    <icon src="https://i.ibb.co/Kz0H3mLP/Nile-News.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="NileSport.eg@SD">
     <display-name>Nile Sport</display-name>
-    <icon src="https://i.imgur.com/ILlinUJ.png"/>
+    <icon src="https://i.imgur.com/ILlinUJ.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Nile TV">
@@ -64161,7 +64161,7 @@
   </channel>
   <channel id="NogoumFMTV.eg@SD">
     <display-name>Nogoum FM TV</display-name>
-    <icon src="https://i.imgur.com/krp3kgv.png"/>
+    <icon src="https://i.imgur.com/krp3kgv.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#North Sinai">
@@ -64170,12 +64170,12 @@
   </channel>
   <channel id="NourAlKoddass.lb@SD">
     <display-name>Nour Koddass</display-name>
-    <icon src="https://i.imgur.com/dF4Mvts.png"/>
+    <icon src="https://i.imgur.com/dF4Mvts.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="NourMariam.lb@SD">
     <display-name>Nour Mariam TV</display-name>
-    <icon src="https://i.imgur.com/Ow5Lqh6.jpg"/>
+    <icon src="https://i.imgur.com/Ow5Lqh6.jpg" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Noursat Al Chabab">
@@ -64196,7 +64196,7 @@
   </channel>
   <channel id="NRT4.iq@SD">
     <display-name>NRT 4</display-name>
-    <icon src="https://www.lyngsat.com/logo/tv/nn/nrt-4-iq.png"/>
+    <icon src="https://www.lyngsat.com/logo/tv/nn/nrt-4-iq.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#NRT HD">
@@ -64273,7 +64273,7 @@
   </channel>
   <channel id="OyounAlWatanTV.sa@SD">
     <display-name>Oyoun Al Watan TV</display-name>
-    <icon src="https://i.imgur.com/dbil1Or.png"/>
+    <icon src="https://i.imgur.com/dbil1Or.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Palestine Edu HD">
@@ -64302,12 +64302,12 @@
   </channel>
   <channel id="PalestineSport.ps@SD">
     <display-name>Palestine Sport</display-name>
-    <icon src="https://i.imgur.com/ewOZcsA.png"/>
+    <icon src="https://i.imgur.com/ewOZcsA.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="PalestineToday.ps@SD">
     <display-name>Palestine Today</display-name>
-    <icon src="https://i.imgur.com/BS8XXug.png"/>
+    <icon src="https://i.imgur.com/BS8XXug.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Panorama Drama">
@@ -64328,7 +64328,7 @@
   </channel>
   <channel id="PayamTV.iq@SD">
     <display-name>Payam TV</display-name>
-    <icon src="https://i.imgur.com/qySEibb.png"/>
+    <icon src="https://i.imgur.com/qySEibb.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Pishto">
@@ -64341,7 +64341,7 @@
   </channel>
   <channel id="PressTV.ir@SD">
     <display-name>Press TV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Pulse95 SHJ">
@@ -64466,7 +64466,7 @@
   </channel>
   <channel id="AlRiyadhRadio.sa@SD">
     <display-name>Riyad Radio</display-name>
-    <icon src="https://i.imgur.com/8PH1Lak.png"/>
+    <icon src="https://i.imgur.com/8PH1Lak.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Riyadh FM Split">
@@ -64491,27 +64491,27 @@
   </channel>
   <channel id="RotanaCinemaEgypt.eg@SD">
     <display-name>Rotana Cinema Egypt</display-name>
-    <icon src="https://i.imgur.com/dGlKoLW.png"/>
+    <icon src="https://i.imgur.com/dGlKoLW.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="RotanaCinemaKSA.sa@SD">
     <display-name>Rotana Cinema KSA</display-name>
-    <icon src="https://i.imgur.com/pGgp38I.png"/>
+    <icon src="https://i.imgur.com/pGgp38I.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="RotanaClassic.sa@SD">
     <display-name>Rotana Classic</display-name>
-    <icon src="https://i.imgur.com/pMMUvkt.png"/>
+    <icon src="https://i.imgur.com/pMMUvkt.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="RotanaClip.sa@SD">
     <display-name>Rotana Clip</display-name>
-    <icon src="https://i.imgur.com/nhREk0o.png"/>
+    <icon src="https://i.imgur.com/nhREk0o.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="RotanaDrama.sa@SD">
     <display-name>Rotana Drama</display-name>
-    <icon src="https://i.imgur.com/btnhPjZ.png"/>
+    <icon src="https://i.imgur.com/btnhPjZ.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Rotana FM KSA">
@@ -64520,12 +64520,12 @@
   </channel>
   <channel id="RotanaKhalijia.sa@SD">
     <display-name>Rotana Khalijia</display-name>
-    <icon src="https://i.imgur.com/6HMluzv.png"/>
+    <icon src="https://i.imgur.com/6HMluzv.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="RotanaMusic.sa@SD">
     <display-name>Rotana Music</display-name>
-    <icon src="https://i.imgur.com/2zFQbQi.png"/>
+    <icon src="https://i.imgur.com/2zFQbQi.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Rotana Radio Jordan">
@@ -64550,27 +64550,27 @@
   </channel>
   <channel id="SadaElbalad.eg@SD">
     <display-name>Sada El Balad</display-name>
-    <icon src="https://i.imgur.com/vOKvPeK.png"/>
+    <icon src="https://i.imgur.com/vOKvPeK.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="SadaElbalad2.eg@SD">
     <display-name>Sada El Balad 2</display-name>
-    <icon src="https://i.imgur.com/Z2YkoG2.png"/>
+    <icon src="https://i.imgur.com/Z2YkoG2.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="SadaElbaladDrama.eg@SD">
     <display-name>Sada El Balad Drama</display-name>
-    <icon src="https://i.imgur.com/3VLjZKc.png"/>
+    <icon src="https://i.imgur.com/3VLjZKc.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="SaharKurdi.ir@SD">
     <display-name>Sahar Kurdi</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/fa/9/92/Sahar-New.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/fa/9/92/Sahar-New.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="SalahalddinTV.iq@SD">
     <display-name>Salahalddin TV</display-name>
-    <icon src="https://www.lyngsat.com/logo/tv/ss/salahalddin-tv-iq.png"/>
+    <icon src="https://www.lyngsat.com/logo/tv/ss/salahalddin-tv-iq.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Salam HD">
@@ -64591,12 +64591,12 @@
   </channel>
   <channel id="Sat7Arabic.cy@SD">
     <display-name>Sat-7 Arabic</display-name>
-    <icon src="https://i.imgur.com/BzDjQeQ.png"/>
+    <icon src="https://i.imgur.com/BzDjQeQ.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="Sat7Kids.cy@SD">
     <display-name>Sat-7 Kids</display-name>
-    <icon src="https://i.imgur.com/M0ik0i2.png"/>
+    <icon src="https://i.imgur.com/M0ik0i2.png" />
     <url>https://sat.tv</url>
   </channel>
   <channel id="1#33#Sat.tv">

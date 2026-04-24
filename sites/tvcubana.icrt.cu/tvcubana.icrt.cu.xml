@@ -1,53 +1,53 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="CanalCaribe.cu@SD">
     <display-name>Canal Caribe</display-name>
-    <icon src="https://i.imgur.com/CV5Rz35.png"/>
+    <icon src="https://i.imgur.com/CV5Rz35.png" />
     <url>https://tvcubana.icrt.cu</url>
   </channel>
   <channel id="CanalHabana.cu@SD">
     <display-name>Canal Habana</display-name>
-    <icon src="https://i.imgur.com/0EUc52w.png"/>
+    <icon src="https://i.imgur.com/0EUc52w.png" />
     <url>https://tvcubana.icrt.cu</url>
   </channel>
   <channel id="CanalClave.cu@SD">
     <display-name>Canal Clave</display-name>
-    <icon src="https://i.imgur.com/7tMkA4Z.png"/>
+    <icon src="https://i.imgur.com/7tMkA4Z.png" />
     <url>https://tvcubana.icrt.cu</url>
   </channel>
   <channel id="Cubavision.cu@SD">
     <display-name>Cubavisión</display-name>
-    <icon src="https://i.imgur.com/ki9ipMU.png"/>
+    <icon src="https://i.imgur.com/ki9ipMU.png" />
     <url>https://tvcubana.icrt.cu</url>
   </channel>
   <channel id="CubavisionInternacional.cu@SD">
     <display-name>Cubavisión Internacional</display-name>
-    <icon src="https://i.imgur.com/0ZHm9f6.png"/>
+    <icon src="https://i.imgur.com/0ZHm9f6.png" />
     <url>https://tvcubana.icrt.cu</url>
   </channel>
   <channel id="CubavisionPlus.cu@SD">
     <display-name>Cubavisión Plus</display-name>
-    <icon src="https://i.imgur.com/KTwZzGR.png"/>
+    <icon src="https://i.imgur.com/KTwZzGR.png" />
     <url>https://tvcubana.icrt.cu</url>
   </channel>
   <channel id="CanalEducativo.cu@SD">
     <display-name>Canal Educativo</display-name>
-    <icon src="https://i.imgur.com/huBxZpP.png"/>
+    <icon src="https://i.imgur.com/huBxZpP.png" />
     <url>https://tvcubana.icrt.cu</url>
   </channel>
   <channel id="CanalEducativo2.cu@SD">
     <display-name>Canal Educativo 2</display-name>
-    <icon src="https://i.imgur.com/nOl3H5X.png"/>
+    <icon src="https://i.imgur.com/nOl3H5X.png" />
     <url>https://tvcubana.icrt.cu</url>
   </channel>
   <channel id="Multivision.cu@SD">
     <display-name>Multivisión</display-name>
-    <icon src="https://i.imgur.com/wBX0GNs.png"/>
+    <icon src="https://i.imgur.com/wBX0GNs.png" />
     <url>https://tvcubana.icrt.cu</url>
   </channel>
   <channel id="TeleRebelde.cu@SD">
     <display-name>Tele Rebelde</display-name>
-    <icon src="https://i.imgur.com/M6wZzuz.png"/>
+    <icon src="https://i.imgur.com/M6wZzuz.png" />
     <url>https://tvcubana.icrt.cu</url>
   </channel>
 </tv>

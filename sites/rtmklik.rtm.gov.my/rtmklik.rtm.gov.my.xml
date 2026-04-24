@@ -1,33 +1,33 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="TV1.my@SD">
     <display-name>TV1</display-name>
-    <icon src="https://i.imgur.com/wSyPmiY.png"/>
+    <icon src="https://i.imgur.com/wSyPmiY.png" />
     <url>https://rtmklik.rtm.gov.my</url>
   </channel>
   <channel id="TV2.my@SD">
     <display-name>TV2</display-name>
-    <icon src="https://i.imgur.com/LGEdeyJ.png"/>
+    <icon src="https://i.imgur.com/LGEdeyJ.png" />
     <url>https://rtmklik.rtm.gov.my</url>
   </channel>
   <channel id="Okey.my@SD">
     <display-name>Okey</display-name>
-    <icon src="https://i.imgur.com/V2jREQ5.png"/>
+    <icon src="https://i.imgur.com/V2jREQ5.png" />
     <url>https://rtmklik.rtm.gov.my</url>
   </channel>
   <channel id="SukanRTM.my@SD">
     <display-name>Sukan RTM</display-name>
-    <icon src="https://i.imgur.com/1pYYSu2.png"/>
+    <icon src="https://i.imgur.com/1pYYSu2.png" />
     <url>https://rtmklik.rtm.gov.my</url>
   </channel>
   <channel id="BeritaRTM.my@SD">
     <display-name>Berita RTM</display-name>
-    <icon src="https://i.imgur.com/1Xzxsgl.png"/>
+    <icon src="https://i.imgur.com/1Xzxsgl.png" />
     <url>https://rtmklik.rtm.gov.my</url>
   </channel>
   <channel id="TV6.my@SD">
     <display-name>TV6</display-name>
-    <icon src="https://i.imgur.com/bK8UH9D.png"/>
+    <icon src="https://i.imgur.com/bK8UH9D.png" />
     <url>https://rtmklik.rtm.gov.my</url>
   </channel>
   <channel id="9">

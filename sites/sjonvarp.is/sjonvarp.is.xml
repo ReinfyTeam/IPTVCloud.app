@@ -1,68 +1,68 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="RUV2.is@SD">
     <display-name>RÚV Íþróttir</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/R%C3%9AV_2_2019_logo.svg/960px-R%C3%9AV_2_2019_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/R%C3%9AV_2_2019_logo.svg/960px-R%C3%9AV_2_2019_logo.svg.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <channel id="RUV.is@SD">
     <display-name>RÚV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/R%C3%9AV_ohf_2019_logo.svg/960px-R%C3%9AV_ohf_2019_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/R%C3%9AV_ohf_2019_logo.svg/960px-R%C3%9AV_ohf_2019_logo.svg.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <channel id="SiminnSport2.is@SD">
     <display-name>Síminn Sport 2</display-name>
-    <icon src="https://i.imgur.com/88drF3l.png"/>
+    <icon src="https://i.imgur.com/88drF3l.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <channel id="SiminnSport.is@SD">
     <display-name>Síminn Sport</display-name>
-    <icon src="https://i.imgur.com/JjAGBms.png"/>
+    <icon src="https://i.imgur.com/JjAGBms.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <channel id="SjonvarpSimans.is@SD">
     <display-name>Sjónvarp Símans</display-name>
-    <icon src="https://i.imgur.com/b94TVdj.png"/>
+    <icon src="https://i.imgur.com/b94TVdj.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <channel id="Stod2.is@SD">
     <display-name>Stöð 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/St%C3%B6%C3%B0-2-Logo.svg/960px-St%C3%B6%C3%B0-2-Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/St%C3%B6%C3%B0-2-Logo.svg/960px-St%C3%B6%C3%B0-2-Logo.svg.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <channel id="Stod2Esport.is@SD">
     <display-name>Stöð 2 E Sport</display-name>
-    <icon src="https://i.imgur.com/f33AL69.png"/>
+    <icon src="https://i.imgur.com/f33AL69.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <channel id="Stod2Fjolskylda.is@SD">
     <display-name>Stöð 2 Fjölskylda</display-name>
-    <icon src="https://i.imgur.com/cI6ECDy.png"/>
+    <icon src="https://i.imgur.com/cI6ECDy.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <channel id="Stod2Golf.is@SD">
     <display-name>Stöð 2 Golf</display-name>
-    <icon src="https://i.imgur.com/JJFQdoB.png"/>
+    <icon src="https://i.imgur.com/JJFQdoB.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <channel id="Stod2Sport2.is@SD">
     <display-name>Stöð 2 Sport 2</display-name>
-    <icon src="https://i.imgur.com/isXJASk.png"/>
+    <icon src="https://i.imgur.com/isXJASk.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <channel id="Stod2Sport3.is@SD">
     <display-name>Stöð 2 Sport 3</display-name>
-    <icon src="https://i.imgur.com/xzJg1Ip.png"/>
+    <icon src="https://i.imgur.com/xzJg1Ip.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <channel id="Stod2Sport4.is@SD">
     <display-name>Stöð 2 Sport 4</display-name>
-    <icon src="https://i.imgur.com/2tJ4SRT.png"/>
+    <icon src="https://i.imgur.com/2tJ4SRT.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <channel id="Stod2Sport.is@SD">
     <display-name>Stöð 2 Sport</display-name>
-    <icon src="https://i.imgur.com/JD5nyED.png"/>
+    <icon src="https://i.imgur.com/JD5nyED.png" />
     <url>https://sjonvarp.is</url>
   </channel>
   <programme start="20260423190000 +0000" stop="20260423193000 +0000" channel="RUV2.is@SD">
@@ -241,7 +241,7 @@
     <title lang="is">Ludwig</title>
     <desc lang="is">Breskir gamanþættir um einfarann John Taylor sem gefur út þrautabækur undir dulnefninu „Ludwig.“ Þegar eineggja tvíburabróðir hans, James, hverfur sporlaust heldur John á lögreglustöðina til að grennslast fyrir um hann. Þar er bræðrunum ruglað saman og John er skyndilega kominn í starf bróður síns sem rannsóknarlögreglustjóri Cambridge. Aðalhlutverk: David Mitchell, Anna Maxwell Martin og Dipo Ola. Þættirnir eru ekki við hæfi barna yngri en 12 ára.</desc>
   </programme>
-  <programme start="20260424003000 +0000" stop="20260424130000 +0000" channel="RUV.is@SD"/>
+  <programme start="20260424003000 +0000" stop="20260424130000 +0000" channel="RUV.is@SD" />
   <programme start="20260424130000 +0000" stop="20260424133000 +0000" channel="RUV.is@SD">
     <title lang="is">Fréttir (með táknmálstúlkun)</title>
     <desc lang="is">Helstu fréttir dagsins af innlendum og erlendum vettvangi. Alla daga, árið um kring.</desc>

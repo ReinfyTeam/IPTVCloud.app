@@ -1,13 +1,13 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="TokyoMX1.jp@SD">
     <display-name>Tokyo MX1</display-name>
-    <icon src="https://i.imgur.com/igia8OX.png"/>
+    <icon src="https://i.imgur.com/igia8OX.png" />
     <url>https://s.mxtv.jp</url>
   </channel>
   <channel id="TokyoMX2.jp@SD">
     <display-name>Tokyo MX2</display-name>
-    <icon src="https://i.imgur.com/SwvuR00.png"/>
+    <icon src="https://i.imgur.com/SwvuR00.png" />
     <url>https://s.mxtv.jp</url>
   </channel>
   <programme start="20260422200000 +0000" stop="20260422210000 +0000" channel="TokyoMX2.jp@SD">
@@ -28,7 +28,7 @@
   </programme>
   <programme start="20260422223000 +0000" stop="20260422230000 +0000" channel="TokyoMX2.jp@SD">
     <title lang="ja">ＭＸショッピング</title>
-    <desc lang="ja"/>
+    <desc lang="ja" />
   </programme>
   <programme start="20260422230000 +0000" stop="20260422233000 +0000" channel="TokyoMX2.jp@SD">
     <title lang="ja">ヒーリングタイム＆ヘッドラインニュース</title>
@@ -60,11 +60,11 @@
   </programme>
   <programme start="20260423083000 +0000" stop="20260423090000 +0000" channel="TokyoMX2.jp@SD">
     <title lang="ja">ＭＸショッピング</title>
-    <desc lang="ja"/>
+    <desc lang="ja" />
   </programme>
   <programme start="20260423090000 +0000" stop="20260423093000 +0000" channel="TokyoMX2.jp@SD">
     <title lang="ja">ＭＸショッピング</title>
-    <desc lang="ja"/>
+    <desc lang="ja" />
   </programme>
   <programme start="20260423093000 +0000" stop="20260423093800 +0000" channel="TokyoMX2.jp@SD">
     <title lang="ja">ヒーリングタイム＆ヘッドラインニュース</title>

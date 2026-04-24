@@ -1,43 +1,43 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="M1.hu@SD">
     <display-name>M1</display-name>
-    <icon src="https://i.imgur.com/r4tgKZK.png"/>
+    <icon src="https://i.imgur.com/r4tgKZK.png" />
     <url>https://mediaklikk.hu</url>
   </channel>
   <channel id="M2.hu@SD">
     <display-name>M2</display-name>
-    <icon src="https://i.imgur.com/B0nYT0l.png"/>
+    <icon src="https://i.imgur.com/B0nYT0l.png" />
     <url>https://mediaklikk.hu</url>
   </channel>
   <channel id="Duna.hu@SD">
     <display-name>Duna</display-name>
-    <icon src="https://i.imgur.com/oPbsSlp.png"/>
+    <icon src="https://i.imgur.com/oPbsSlp.png" />
     <url>https://mediaklikk.hu</url>
   </channel>
   <channel id="DunaWorld.hu@SD">
     <display-name>Duna World</display-name>
-    <icon src="https://i.imgur.com/uOBQJZS.png"/>
+    <icon src="https://i.imgur.com/uOBQJZS.png" />
     <url>https://mediaklikk.hu</url>
   </channel>
   <channel id="M3.hu@SD">
     <display-name>M3</display-name>
-    <icon src="https://i.imgur.com/IaQREoF.png"/>
+    <icon src="https://i.imgur.com/IaQREoF.png" />
     <url>https://mediaklikk.hu</url>
   </channel>
   <channel id="M4Sport.hu@SD">
     <display-name>M4 Sport</display-name>
-    <icon src="https://i.imgur.com/TQ4uJZk.png"/>
+    <icon src="https://i.imgur.com/TQ4uJZk.png" />
     <url>https://mediaklikk.hu</url>
   </channel>
   <channel id="M5.hu@SD">
     <display-name>M5</display-name>
-    <icon src="https://i.imgur.com/y21wFd0.png"/>
+    <icon src="https://i.imgur.com/y21wFd0.png" />
     <url>https://mediaklikk.hu</url>
   </channel>
   <channel id="M4SportPlus.hu@SD">
     <display-name>M4 Sport +</display-name>
-    <icon src="https://i.imgur.com/0wrFYdN.png"/>
+    <icon src="https://i.imgur.com/0wrFYdN.png" />
     <url>https://mediaklikk.hu</url>
   </channel>
   <programme start="20260422222137 +0000" stop="20260422222655 +0000" channel="Duna.hu@SD">

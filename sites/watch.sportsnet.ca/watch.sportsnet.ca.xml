@@ -1,43 +1,43 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="SportsnetWorld.ca@SD">
     <display-name>SN World</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/SportsnetWorld.svg/960px-SportsnetWorld.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/SportsnetWorld.svg/960px-SportsnetWorld.svg.png" />
     <url>https://watch.sportsnet.ca</url>
   </channel>
   <channel id="Sportsnet.ca@East">
     <display-name>SN East</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Logo_Sportsnet_2011.svg/960px-Logo_Sportsnet_2011.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Logo_Sportsnet_2011.svg/960px-Logo_Sportsnet_2011.svg.png" />
     <url>https://watch.sportsnet.ca</url>
   </channel>
   <channel id="Sportsnet360.ca@SD">
     <display-name>SN 360</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/SN_360_logo.svg/960px-SN_360_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/SN_360_logo.svg/960px-SN_360_logo.svg.png" />
     <url>https://watch.sportsnet.ca</url>
   </channel>
   <channel id="Sportsnet.ca@West">
     <display-name>SN West</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Logo_Sportsnet_2011.svg/960px-Logo_Sportsnet_2011.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Logo_Sportsnet_2011.svg/960px-Logo_Sportsnet_2011.svg.png" />
     <url>https://watch.sportsnet.ca</url>
   </channel>
   <channel id="SportsnetOne.ca@SD">
     <display-name>SN One</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Sportsnetone2011.svg/960px-Sportsnetone2011.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Sportsnetone2011.svg/960px-Sportsnetone2011.svg.png" />
     <url>https://watch.sportsnet.ca</url>
   </channel>
   <channel id="Sportsnet.ca@Pacific">
     <display-name>SN Pacific</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Logo_Sportsnet_2011.svg/960px-Logo_Sportsnet_2011.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Logo_Sportsnet_2011.svg/960px-Logo_Sportsnet_2011.svg.png" />
     <url>https://watch.sportsnet.ca</url>
   </channel>
   <channel id="Sportsnet.ca@Ontario">
     <display-name>SN Ontario</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Logo_Sportsnet_2011.svg/960px-Logo_Sportsnet_2011.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Logo_Sportsnet_2011.svg/960px-Logo_Sportsnet_2011.svg.png" />
     <url>https://watch.sportsnet.ca</url>
   </channel>
   <channel id="WWENetwork.ca@SD">
     <display-name>WWE Network</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/WWE_Network_logo.svg/500px-WWE_Network_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/WWE_Network_logo.svg/500px-WWE_Network_logo.svg.png" />
     <url>https://watch.sportsnet.ca</url>
   </channel>
 </tv>

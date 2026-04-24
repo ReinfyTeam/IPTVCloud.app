@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="NHKWorldJapan.jp@SD">
     <display-name>NHK World-Japan</display-name>
@@ -11,7 +11,7 @@
   </programme>
   <programme start="20260422152800 +0000" stop="20260422153000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422153000 +0000" stop="20260422155800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Dive in Tokyo</title>
@@ -21,7 +21,7 @@
   </programme>
   <programme start="20260422155800 +0000" stop="20260422160000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422160000 +0000" stop="20260422162800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -30,7 +30,7 @@
   </programme>
   <programme start="20260422162800 +0000" stop="20260422163000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422163000 +0000" stop="20260422165800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">JAPAN DELISH</title>
@@ -40,7 +40,7 @@
   </programme>
   <programme start="20260422165800 +0000" stop="20260422170000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422170000 +0000" stop="20260422172800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -49,7 +49,7 @@
   </programme>
   <programme start="20260422172800 +0000" stop="20260422173000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422173000 +0000" stop="20260422174500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Direct Talk</title>
@@ -88,7 +88,7 @@
   </programme>
   <programme start="20260422185300 +0000" stop="20260422185500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422185500 +0000" stop="20260422190000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Ukiyoe EDO-LIFE</title>
@@ -104,7 +104,7 @@
   </programme>
   <programme start="20260422192700 +0000" stop="20260422193000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422193000 +0000" stop="20260422195800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">FRONTRUNNERS</title>
@@ -114,7 +114,7 @@
   </programme>
   <programme start="20260422195800 +0000" stop="20260422200000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422200000 +0000" stop="20260422202800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -123,7 +123,7 @@
   </programme>
   <programme start="20260422202800 +0000" stop="20260422203000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422203000 +0000" stop="20260422205800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Trails to Oishii Tokyo</title>
@@ -133,7 +133,7 @@
   </programme>
   <programme start="20260422205800 +0000" stop="20260422210000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422210000 +0000" stop="20260422212800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -142,7 +142,7 @@
   </programme>
   <programme start="20260422212800 +0000" stop="20260422213000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422213000 +0000" stop="20260422215800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Dive in Tokyo</title>
@@ -152,7 +152,7 @@
   </programme>
   <programme start="20260422215800 +0000" stop="20260422220000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422220000 +0000" stop="20260422222800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -161,7 +161,7 @@
   </programme>
   <programme start="20260422222800 +0000" stop="20260422223000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422223000 +0000" stop="20260422224500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Direct Talk</title>
@@ -182,7 +182,7 @@
   </programme>
   <programme start="20260422232800 +0000" stop="20260422233000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260422233000 +0000" stop="20260422235800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">JAPAN DELISH</title>
@@ -192,7 +192,7 @@
   </programme>
   <programme start="20260422235800 +0000" stop="20260423000000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423000000 +0000" stop="20260423002800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -201,7 +201,7 @@
   </programme>
   <programme start="20260423002800 +0000" stop="20260423003000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423003000 +0000" stop="20260423005800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Ethical Every Day</title>
@@ -211,7 +211,7 @@
   </programme>
   <programme start="20260423005800 +0000" stop="20260423010000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423010000 +0000" stop="20260423012800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -220,7 +220,7 @@
   </programme>
   <programme start="20260423012800 +0000" stop="20260423013000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423013000 +0000" stop="20260423015800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Core Kyoto</title>
@@ -230,7 +230,7 @@
   </programme>
   <programme start="20260423015800 +0000" stop="20260423020000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423020000 +0000" stop="20260423022800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -239,7 +239,7 @@
   </programme>
   <programme start="20260423022800 +0000" stop="20260423023000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423023000 +0000" stop="20260423025800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Japanology Plus</title>
@@ -249,7 +249,7 @@
   </programme>
   <programme start="20260423025800 +0000" stop="20260423030000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423030000 +0000" stop="20260423032800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -258,7 +258,7 @@
   </programme>
   <programme start="20260423032800 +0000" stop="20260423033000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423033000 +0000" stop="20260423035800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Trails to Oishii Tokyo</title>
@@ -268,7 +268,7 @@
   </programme>
   <programme start="20260423035800 +0000" stop="20260423040000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423040000 +0000" stop="20260423042800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -277,7 +277,7 @@
   </programme>
   <programme start="20260423042800 +0000" stop="20260423043000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423043000 +0000" stop="20260423045900 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Backstage Japan</title>
@@ -287,7 +287,7 @@
   </programme>
   <programme start="20260423045900 +0000" stop="20260423050000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423050000 +0000" stop="20260423052800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -296,7 +296,7 @@
   </programme>
   <programme start="20260423052800 +0000" stop="20260423053000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423053000 +0000" stop="20260423055800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Ethical Every Day</title>
@@ -306,7 +306,7 @@
   </programme>
   <programme start="20260423055800 +0000" stop="20260423060000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423060000 +0000" stop="20260423062800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NEWSLINE ASIA 24</title>
@@ -315,7 +315,7 @@
   </programme>
   <programme start="20260423062800 +0000" stop="20260423063000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423063000 +0000" stop="20260423065800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Core Kyoto</title>
@@ -325,7 +325,7 @@
   </programme>
   <programme start="20260423065800 +0000" stop="20260423070000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423070000 +0000" stop="20260423072800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NEWSLINE ASIA 24</title>
@@ -334,7 +334,7 @@
   </programme>
   <programme start="20260423072800 +0000" stop="20260423073000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423073000 +0000" stop="20260423075800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Japanology Plus</title>
@@ -344,7 +344,7 @@
   </programme>
   <programme start="20260423075800 +0000" stop="20260423080000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423080000 +0000" stop="20260423082800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -353,7 +353,7 @@
   </programme>
   <programme start="20260423082800 +0000" stop="20260423083000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423083000 +0000" stop="20260423085900 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Backstage Japan</title>
@@ -363,7 +363,7 @@
   </programme>
   <programme start="20260423085900 +0000" stop="20260423090000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423090000 +0000" stop="20260423092800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -372,7 +372,7 @@
   </programme>
   <programme start="20260423092800 +0000" stop="20260423093000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423093000 +0000" stop="20260423095800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Trails to Oishii Tokyo</title>
@@ -382,7 +382,7 @@
   </programme>
   <programme start="20260423095800 +0000" stop="20260423100000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423100000 +0000" stop="20260423103000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWS 7</title>
@@ -397,7 +397,7 @@
   </programme>
   <programme start="20260423105800 +0000" stop="20260423110000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423110000 +0000" stop="20260423112800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NEWSROOM TOKYO</title>
@@ -418,7 +418,7 @@
   </programme>
   <programme start="20260423115300 +0000" stop="20260423115500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423115500 +0000" stop="20260423120000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Ukiyoe EDO-LIFE</title>
@@ -433,7 +433,7 @@
   </programme>
   <programme start="20260423122800 +0000" stop="20260423123000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423123000 +0000" stop="20260423125800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Core Kyoto</title>
@@ -443,7 +443,7 @@
   </programme>
   <programme start="20260423125800 +0000" stop="20260423130000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423130000 +0000" stop="20260423132800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -452,7 +452,7 @@
   </programme>
   <programme start="20260423132800 +0000" stop="20260423133000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423133000 +0000" stop="20260423135800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Japanology Plus</title>
@@ -462,7 +462,7 @@
   </programme>
   <programme start="20260423135800 +0000" stop="20260423140000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423140000 +0000" stop="20260423142800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -471,7 +471,7 @@
   </programme>
   <programme start="20260423142800 +0000" stop="20260423143000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423143000 +0000" stop="20260423145800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Japan Railway Journal</title>
@@ -481,7 +481,7 @@
   </programme>
   <programme start="20260423145800 +0000" stop="20260423150000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423150000 +0000" stop="20260423152800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -490,7 +490,7 @@
   </programme>
   <programme start="20260423152800 +0000" stop="20260423153000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423153000 +0000" stop="20260423155800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Ethical Every Day</title>
@@ -500,7 +500,7 @@
   </programme>
   <programme start="20260423155800 +0000" stop="20260423160000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423160000 +0000" stop="20260423162800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -509,7 +509,7 @@
   </programme>
   <programme start="20260423162800 +0000" stop="20260423163000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423163000 +0000" stop="20260423165900 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Backstage Japan</title>
@@ -519,7 +519,7 @@
   </programme>
   <programme start="20260423165900 +0000" stop="20260423170000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423170000 +0000" stop="20260423172800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -528,7 +528,7 @@
   </programme>
   <programme start="20260423172800 +0000" stop="20260423173000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423173000 +0000" stop="20260423175800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Core Kyoto</title>
@@ -538,7 +538,7 @@
   </programme>
   <programme start="20260423175800 +0000" stop="20260423180000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423180000 +0000" stop="20260423182800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NEWSROOM TOKYO</title>
@@ -559,7 +559,7 @@
   </programme>
   <programme start="20260423185300 +0000" stop="20260423185500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423185500 +0000" stop="20260423190000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Ukiyoe EDO-LIFE</title>
@@ -575,7 +575,7 @@
   </programme>
   <programme start="20260423192715 +0000" stop="20260423193000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423193000 +0000" stop="20260423195800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Japanology Plus</title>
@@ -585,7 +585,7 @@
   </programme>
   <programme start="20260423195800 +0000" stop="20260423200000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423200000 +0000" stop="20260423202800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -594,7 +594,7 @@
   </programme>
   <programme start="20260423202800 +0000" stop="20260423203000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423203000 +0000" stop="20260423205800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Japan Railway Journal</title>
@@ -604,7 +604,7 @@
   </programme>
   <programme start="20260423205800 +0000" stop="20260423210000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423210000 +0000" stop="20260423212800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -613,7 +613,7 @@
   </programme>
   <programme start="20260423212800 +0000" stop="20260423213000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423213000 +0000" stop="20260423215800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Ethical Every Day</title>
@@ -623,7 +623,7 @@
   </programme>
   <programme start="20260423215800 +0000" stop="20260423220000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423220000 +0000" stop="20260423222800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -632,7 +632,7 @@
   </programme>
   <programme start="20260423222800 +0000" stop="20260423223000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423223000 +0000" stop="20260423225800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Core Kyoto</title>
@@ -642,7 +642,7 @@
   </programme>
   <programme start="20260423225800 +0000" stop="20260423230000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423230000 +0000" stop="20260423232800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -651,7 +651,7 @@
   </programme>
   <programme start="20260423232800 +0000" stop="20260423233000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260423233000 +0000" stop="20260423235900 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Backstage Japan</title>
@@ -661,7 +661,7 @@
   </programme>
   <programme start="20260423235900 +0000" stop="20260424000000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424000000 +0000" stop="20260424002800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -670,7 +670,7 @@
   </programme>
   <programme start="20260424002800 +0000" stop="20260424003000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424003000 +0000" stop="20260424005700 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Japan in Focus</title>
@@ -680,7 +680,7 @@
   </programme>
   <programme start="20260424005700 +0000" stop="20260424010000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424010000 +0000" stop="20260424012800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -689,7 +689,7 @@
   </programme>
   <programme start="20260424012800 +0000" stop="20260424013000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424013000 +0000" stop="20260424015800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Asia Insight</title>
@@ -699,7 +699,7 @@
   </programme>
   <programme start="20260424015800 +0000" stop="20260424020000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424020000 +0000" stop="20260424022800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -708,7 +708,7 @@
   </programme>
   <programme start="20260424022800 +0000" stop="20260424023000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424023000 +0000" stop="20260424030000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">The Imperial Palace</title>
@@ -723,7 +723,7 @@
   </programme>
   <programme start="20260424032800 +0000" stop="20260424033000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424033000 +0000" stop="20260424035800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Japan Railway Journal</title>
@@ -733,7 +733,7 @@
   </programme>
   <programme start="20260424035800 +0000" stop="20260424040000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424040000 +0000" stop="20260424042800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -742,7 +742,7 @@
   </programme>
   <programme start="20260424042800 +0000" stop="20260424043000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424043000 +0000" stop="20260424045800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Seasoning the Seasons</title>
@@ -752,7 +752,7 @@
   </programme>
   <programme start="20260424045800 +0000" stop="20260424050000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424050000 +0000" stop="20260424052800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -761,7 +761,7 @@
   </programme>
   <programme start="20260424052800 +0000" stop="20260424053000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424053000 +0000" stop="20260424055700 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Japan in Focus</title>
@@ -771,7 +771,7 @@
   </programme>
   <programme start="20260424055700 +0000" stop="20260424060000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424060000 +0000" stop="20260424062800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NEWSLINE ASIA 24</title>
@@ -780,7 +780,7 @@
   </programme>
   <programme start="20260424062800 +0000" stop="20260424063000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424063000 +0000" stop="20260424065800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Asia Insight</title>
@@ -790,7 +790,7 @@
   </programme>
   <programme start="20260424065800 +0000" stop="20260424070000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424070000 +0000" stop="20260424072800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NEWSLINE ASIA 24</title>
@@ -799,7 +799,7 @@
   </programme>
   <programme start="20260424072800 +0000" stop="20260424073000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424073000 +0000" stop="20260424080000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">The Imperial Palace</title>
@@ -814,7 +814,7 @@
   </programme>
   <programme start="20260424082800 +0000" stop="20260424083000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424083000 +0000" stop="20260424085945 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Document 72 hours</title>
@@ -824,7 +824,7 @@
   </programme>
   <programme start="20260424085945 +0000" stop="20260424090000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424090000 +0000" stop="20260424092800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -833,7 +833,7 @@
   </programme>
   <programme start="20260424092800 +0000" stop="20260424093000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424093000 +0000" stop="20260424095800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Japan Railway Journal</title>
@@ -843,7 +843,7 @@
   </programme>
   <programme start="20260424095800 +0000" stop="20260424100000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424100000 +0000" stop="20260424103000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWS 7</title>
@@ -858,7 +858,7 @@
   </programme>
   <programme start="20260424105700 +0000" stop="20260424110000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424110000 +0000" stop="20260424112800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NEWSROOM TOKYO</title>
@@ -879,7 +879,7 @@
   </programme>
   <programme start="20260424115300 +0000" stop="20260424115500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424115500 +0000" stop="20260424115800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Chatroom Japan</title>
@@ -889,7 +889,7 @@
   </programme>
   <programme start="20260424115800 +0000" stop="20260424120000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424120000 +0000" stop="20260424122800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NEWSROOM TOKYO</title>
@@ -898,7 +898,7 @@
   </programme>
   <programme start="20260424122800 +0000" stop="20260424123000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424123000 +0000" stop="20260424125800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Asia Insight</title>
@@ -908,7 +908,7 @@
   </programme>
   <programme start="20260424125800 +0000" stop="20260424130000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424130000 +0000" stop="20260424132800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -917,7 +917,7 @@
   </programme>
   <programme start="20260424132800 +0000" stop="20260424133000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424133000 +0000" stop="20260424140000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">The Imperial Palace</title>
@@ -932,7 +932,7 @@
   </programme>
   <programme start="20260424142800 +0000" stop="20260424143000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424143000 +0000" stop="20260424145800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Design X Stories</title>
@@ -942,7 +942,7 @@
   </programme>
   <programme start="20260424145800 +0000" stop="20260424150000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424150000 +0000" stop="20260424152800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -951,7 +951,7 @@
   </programme>
   <programme start="20260424152800 +0000" stop="20260424153000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424153000 +0000" stop="20260424155700 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Japan in Focus</title>
@@ -961,7 +961,7 @@
   </programme>
   <programme start="20260424155700 +0000" stop="20260424160000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424160000 +0000" stop="20260424162800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -970,7 +970,7 @@
   </programme>
   <programme start="20260424162800 +0000" stop="20260424163000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424163000 +0000" stop="20260424165800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">FRONTRUNNERS</title>
@@ -980,7 +980,7 @@
   </programme>
   <programme start="20260424165800 +0000" stop="20260424170000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424170000 +0000" stop="20260424172800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -989,7 +989,7 @@
   </programme>
   <programme start="20260424172800 +0000" stop="20260424173000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424173000 +0000" stop="20260424175800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Asia Insight</title>
@@ -999,7 +999,7 @@
   </programme>
   <programme start="20260424175800 +0000" stop="20260424180000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424180000 +0000" stop="20260424182800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NEWSROOM TOKYO</title>
@@ -1020,7 +1020,7 @@
   </programme>
   <programme start="20260424185300 +0000" stop="20260424185500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424185500 +0000" stop="20260424190000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Ukiyoe EDO-LIFE</title>
@@ -1036,7 +1036,7 @@
   </programme>
   <programme start="20260424192800 +0000" stop="20260424193000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424193000 +0000" stop="20260424200000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">The Imperial Palace</title>
@@ -1051,7 +1051,7 @@
   </programme>
   <programme start="20260424202800 +0000" stop="20260424203000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424203000 +0000" stop="20260424205800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Design X Stories</title>
@@ -1061,7 +1061,7 @@
   </programme>
   <programme start="20260424205800 +0000" stop="20260424210000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424210000 +0000" stop="20260424212800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1070,7 +1070,7 @@
   </programme>
   <programme start="20260424212800 +0000" stop="20260424213000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424213000 +0000" stop="20260424215700 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Japan in Focus</title>
@@ -1080,7 +1080,7 @@
   </programme>
   <programme start="20260424215700 +0000" stop="20260424220000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424220000 +0000" stop="20260424222800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1089,7 +1089,7 @@
   </programme>
   <programme start="20260424222800 +0000" stop="20260424223000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424223000 +0000" stop="20260424225800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Asia Insight</title>
@@ -1099,7 +1099,7 @@
   </programme>
   <programme start="20260424225800 +0000" stop="20260424230000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424230000 +0000" stop="20260424231000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1114,7 +1114,7 @@
   </programme>
   <programme start="20260424231300 +0000" stop="20260424231500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260424231500 +0000" stop="20260424233000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">JAPAN'S TOP INVENTIONS</title>
@@ -1130,7 +1130,7 @@
   </programme>
   <programme start="20260424235800 +0000" stop="20260425000000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425000000 +0000" stop="20260425001000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1145,7 +1145,7 @@
   </programme>
   <programme start="20260425005900 +0000" stop="20260425010000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425010000 +0000" stop="20260425011000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1160,7 +1160,7 @@
   </programme>
   <programme start="20260425015900 +0000" stop="20260425020000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425020000 +0000" stop="20260425021000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1175,7 +1175,7 @@
   </programme>
   <programme start="20260425025430 +0000" stop="20260425025500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425025500 +0000" stop="20260425030000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">JAPAN DELISH 5min.</title>
@@ -1196,7 +1196,7 @@
   </programme>
   <programme start="20260425033800 +0000" stop="20260425034000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425034000 +0000" stop="20260425035000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Story Land</title>
@@ -1222,7 +1222,7 @@
   </programme>
   <programme start="20260425043800 +0000" stop="20260425044000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425044000 +0000" stop="20260425045500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Cinematic Journey: Endless Beauty</title>
@@ -1260,7 +1260,7 @@
   </programme>
   <programme start="20260425055800 +0000" stop="20260425060000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425060000 +0000" stop="20260425061000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1275,7 +1275,7 @@
   </programme>
   <programme start="20260425065900 +0000" stop="20260425070000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425070000 +0000" stop="20260425071000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1290,7 +1290,7 @@
   </programme>
   <programme start="20260425075900 +0000" stop="20260425080000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425080000 +0000" stop="20260425081000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1304,7 +1304,7 @@
   </programme>
   <programme start="20260425083800 +0000" stop="20260425084000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425084000 +0000" stop="20260425085500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Cinematic Journey: Endless Beauty</title>
@@ -1331,7 +1331,7 @@
   </programme>
   <programme start="20260425093800 +0000" stop="20260425094000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425094000 +0000" stop="20260425095000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Story Land</title>
@@ -1358,7 +1358,7 @@
   </programme>
   <programme start="20260425105430 +0000" stop="20260425105500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425105500 +0000" stop="20260425110000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">JAPAN DELISH 5min.</title>
@@ -1390,7 +1390,7 @@
   </programme>
   <programme start="20260425115800 +0000" stop="20260425120000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425120000 +0000" stop="20260425121000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1405,7 +1405,7 @@
   </programme>
   <programme start="20260425125900 +0000" stop="20260425130000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425130000 +0000" stop="20260425131000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1420,7 +1420,7 @@
   </programme>
   <programme start="20260425135900 +0000" stop="20260425140000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425140000 +0000" stop="20260425141000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1441,7 +1441,7 @@
   </programme>
   <programme start="20260425143800 +0000" stop="20260425144000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425144000 +0000" stop="20260425145000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Story Land</title>
@@ -1468,7 +1468,7 @@
   </programme>
   <programme start="20260425155430 +0000" stop="20260425155500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425155500 +0000" stop="20260425160000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">JAPAN DELISH 5min.</title>
@@ -1488,7 +1488,7 @@
   </programme>
   <programme start="20260425163800 +0000" stop="20260425164000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425164000 +0000" stop="20260425165500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Cinematic Journey: Endless Beauty</title>
@@ -1526,7 +1526,7 @@
   </programme>
   <programme start="20260425175800 +0000" stop="20260425180000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425180000 +0000" stop="20260425181000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1541,7 +1541,7 @@
   </programme>
   <programme start="20260425185900 +0000" stop="20260425190000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425190000 +0000" stop="20260425191000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1556,7 +1556,7 @@
   </programme>
   <programme start="20260425195900 +0000" stop="20260425200000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425200000 +0000" stop="20260425201000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1577,7 +1577,7 @@
   </programme>
   <programme start="20260425203800 +0000" stop="20260425204000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425204000 +0000" stop="20260425205000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Story Land</title>
@@ -1604,7 +1604,7 @@
   </programme>
   <programme start="20260425215430 +0000" stop="20260425215500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425215500 +0000" stop="20260425220000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">JAPAN DELISH 5min.</title>
@@ -1624,7 +1624,7 @@
   </programme>
   <programme start="20260425223800 +0000" stop="20260425224000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260425224000 +0000" stop="20260425225500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Cinematic Journey: Endless Beauty</title>
@@ -1662,7 +1662,7 @@
   </programme>
   <programme start="20260425235800 +0000" stop="20260426000000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426000000 +0000" stop="20260426005915 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Docmentary360: A Century on Film</title>
@@ -1672,7 +1672,7 @@
   </programme>
   <programme start="20260426005915 +0000" stop="20260426010000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426010000 +0000" stop="20260426011000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1685,7 +1685,7 @@
   </programme>
   <programme start="20260426015400 +0000" stop="20260426015500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426015500 +0000" stop="20260426020000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">1/100: Men Who Took Parental Leave</title>
@@ -1706,7 +1706,7 @@
   </programme>
   <programme start="20260426023900 +0000" stop="20260426024000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426024000 +0000" stop="20260426025000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Little Charo</title>
@@ -1739,7 +1739,7 @@
   </programme>
   <programme start="20260426033800 +0000" stop="20260426034000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426034000 +0000" stop="20260426040000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">The Wakey Show</title>
@@ -1760,7 +1760,7 @@
   </programme>
   <programme start="20260426045900 +0000" stop="20260426050000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426050000 +0000" stop="20260426051000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1804,7 +1804,7 @@
   </programme>
   <programme start="20260426065500 +0000" stop="20260426065700 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426065700 +0000" stop="20260426070000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">The Masterpieces of Ukiyo-e producer Tsutaju</title>
@@ -1823,7 +1823,7 @@
   </programme>
   <programme start="20260426075400 +0000" stop="20260426075500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426075500 +0000" stop="20260426080000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">1/100: Men Who Took Parental Leave</title>
@@ -1844,7 +1844,7 @@
   </programme>
   <programme start="20260426085900 +0000" stop="20260426090000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426090000 +0000" stop="20260426091000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -1859,7 +1859,7 @@
   </programme>
   <programme start="20260426093800 +0000" stop="20260426094000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426094000 +0000" stop="20260426100000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">The Wakey Show</title>
@@ -1880,7 +1880,7 @@
   </programme>
   <programme start="20260426103900 +0000" stop="20260426104000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426104000 +0000" stop="20260426105000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Little Charo</title>
@@ -1942,7 +1942,7 @@
   </programme>
   <programme start="20260426125500 +0000" stop="20260426125700 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426125700 +0000" stop="20260426130000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">The Masterpieces of Ukiyo-e producer Tsutaju</title>
@@ -1961,7 +1961,7 @@
   </programme>
   <programme start="20260426135400 +0000" stop="20260426135500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426135500 +0000" stop="20260426140000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">1/100: Men Who Took Parental Leave</title>
@@ -1982,7 +1982,7 @@
   </programme>
   <programme start="20260426143800 +0000" stop="20260426144000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426144000 +0000" stop="20260426150000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">The Wakey Show</title>
@@ -2003,7 +2003,7 @@
   </programme>
   <programme start="20260426153900 +0000" stop="20260426154000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426154000 +0000" stop="20260426155000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Little Charo</title>
@@ -2036,7 +2036,7 @@
   </programme>
   <programme start="20260426165900 +0000" stop="20260426170000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426170000 +0000" stop="20260426171000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -2075,7 +2075,7 @@
   </programme>
   <programme start="20260426185915 +0000" stop="20260426190000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426190000 +0000" stop="20260426191000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -2088,7 +2088,7 @@
   </programme>
   <programme start="20260426195400 +0000" stop="20260426195500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426195500 +0000" stop="20260426200000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">1/100: Men Who Took Parental Leave</title>
@@ -2109,7 +2109,7 @@
   </programme>
   <programme start="20260426203800 +0000" stop="20260426204000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426204000 +0000" stop="20260426210000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">The Wakey Show</title>
@@ -2130,7 +2130,7 @@
   </programme>
   <programme start="20260426213900 +0000" stop="20260426214000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260426214000 +0000" stop="20260426215000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Little Charo</title>
@@ -2192,7 +2192,7 @@
   </programme>
   <programme start="20260426235900 +0000" stop="20260427000000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427000000 +0000" stop="20260427001000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -2207,7 +2207,7 @@
   </programme>
   <programme start="20260427001300 +0000" stop="20260427001500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427001500 +0000" stop="20260427002500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">IMPACTS: Climates Change the World</title>
@@ -2235,7 +2235,7 @@
   </programme>
   <programme start="20260427005800 +0000" stop="20260427010000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427010000 +0000" stop="20260427011000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -2267,7 +2267,7 @@
   </programme>
   <programme start="20260427014300 +0000" stop="20260427014500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427014500 +0000" stop="20260427015500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Culture Crossroads</title>
@@ -2288,7 +2288,7 @@
   </programme>
   <programme start="20260427022800 +0000" stop="20260427023000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427023000 +0000" stop="20260427025800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Seasonig the Seasons</title>
@@ -2298,7 +2298,7 @@
   </programme>
   <programme start="20260427025800 +0000" stop="20260427030000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427030000 +0000" stop="20260427032800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -2307,7 +2307,7 @@
   </programme>
   <programme start="20260427032800 +0000" stop="20260427033000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427033000 +0000" stop="20260427035500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Darwin's Amazing Animals</title>
@@ -2323,7 +2323,7 @@
   </programme>
   <programme start="20260427035800 +0000" stop="20260427040000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427040000 +0000" stop="20260427042800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -2332,7 +2332,7 @@
   </programme>
   <programme start="20260427042800 +0000" stop="20260427043000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427043000 +0000" stop="20260427045915 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Hometown Stories</title>
@@ -2342,7 +2342,7 @@
   </programme>
   <programme start="20260427045915 +0000" stop="20260427050000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427050000 +0000" stop="20260427052800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -2351,7 +2351,7 @@
   </programme>
   <programme start="20260427052800 +0000" stop="20260427053000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427053000 +0000" stop="20260427055500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">The Factory Wonders</title>
@@ -2367,7 +2367,7 @@
   </programme>
   <programme start="20260427055800 +0000" stop="20260427060000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427060000 +0000" stop="20260427062800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NEWSLINE ASIA 24</title>
@@ -2376,7 +2376,7 @@
   </programme>
   <programme start="20260427062800 +0000" stop="20260427063000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427063000 +0000" stop="20260427064000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Magical Japanese</title>
@@ -2392,7 +2392,7 @@
   </programme>
   <programme start="20260427064300 +0000" stop="20260427064500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427064500 +0000" stop="20260427065500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Culture Crossroads</title>
@@ -2413,7 +2413,7 @@
   </programme>
   <programme start="20260427072800 +0000" stop="20260427073000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427073000 +0000" stop="20260427075800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Seasonig the Seasons</title>
@@ -2423,7 +2423,7 @@
   </programme>
   <programme start="20260427075800 +0000" stop="20260427080000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427080000 +0000" stop="20260427082800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -2432,7 +2432,7 @@
   </programme>
   <programme start="20260427082800 +0000" stop="20260427083000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427083000 +0000" stop="20260427085915 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Hometown Stories</title>
@@ -2442,7 +2442,7 @@
   </programme>
   <programme start="20260427085915 +0000" stop="20260427090000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427090000 +0000" stop="20260427092800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -2451,7 +2451,7 @@
   </programme>
   <programme start="20260427092800 +0000" stop="20260427093000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427093000 +0000" stop="20260427095800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Journeys in Japan</title>
@@ -2461,7 +2461,7 @@
   </programme>
   <programme start="20260427095800 +0000" stop="20260427100000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427100000 +0000" stop="20260427103000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWS 7</title>
@@ -2482,7 +2482,7 @@
   </programme>
   <programme start="20260427105800 +0000" stop="20260427110000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427110000 +0000" stop="20260427112800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NEWSROOM TOKYO</title>
@@ -2503,7 +2503,7 @@
   </programme>
   <programme start="20260427115300 +0000" stop="20260427115500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427115500 +0000" stop="20260427120000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">HELLO!NHK WORLD JAPAN</title>
@@ -2518,7 +2518,7 @@
   </programme>
   <programme start="20260427122800 +0000" stop="20260427123000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427123000 +0000" stop="20260427125800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Dive in Tokyo</title>
@@ -2528,7 +2528,7 @@
   </programme>
   <programme start="20260427125800 +0000" stop="20260427130000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427130000 +0000" stop="20260427132800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -2537,7 +2537,7 @@
   </programme>
   <programme start="20260427132800 +0000" stop="20260427133000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427133000 +0000" stop="20260427135800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Seasonig the Seasons</title>
@@ -2547,7 +2547,7 @@
   </programme>
   <programme start="20260427135800 +0000" stop="20260427140000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427140000 +0000" stop="20260427142800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">NHK NEWSLINE</title>
@@ -2556,7 +2556,7 @@
   </programme>
   <programme start="20260427142800 +0000" stop="20260427143000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
   <programme start="20260427143000 +0000" stop="20260427145800 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">Medical Frontiers</title>
@@ -2566,6 +2566,6 @@
   </programme>
   <programme start="20260427145800 +0000" stop="20260427150000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="en">INFO</title>
-    <desc lang="en"/>
+    <desc lang="en" />
   </programme>
 </tv>

@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="WorldFishingNetwork.us@SD">
     <display-name>World Fishing Network</display-name>
-    <icon src="https://i.imgur.com/2llPsSV.png"/>
+    <icon src="https://i.imgur.com/2llPsSV.png" />
     <url>https://worldfishingnetwork.com</url>
   </channel>
   <programme start="20260423040000 +0000" stop="20260423043000 +0000" channel="WorldFishingNetwork.us@SD">

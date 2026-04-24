@@ -1,53 +1,53 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="ArenaSport1.hr@SD">
     <display-name>Arena Sport 1</display-name>
-    <icon src="https://i.imgur.com/RJrJGbW.png"/>
+    <icon src="https://i.imgur.com/RJrJGbW.png" />
     <url>https://tvarenasport.hr</url>
   </channel>
   <channel id="ArenaSport2.hr@SD">
     <display-name>Arena Sport 2</display-name>
-    <icon src="https://i.imgur.com/aqlECBj.png"/>
+    <icon src="https://i.imgur.com/aqlECBj.png" />
     <url>https://tvarenasport.hr</url>
   </channel>
   <channel id="ArenaSport3.hr@SD">
     <display-name>Arena Sport 3</display-name>
-    <icon src="https://i.imgur.com/3r3burN.png"/>
+    <icon src="https://i.imgur.com/3r3burN.png" />
     <url>https://tvarenasport.hr</url>
   </channel>
   <channel id="ArenaSport4.hr@SD">
     <display-name>Arena Sport 4</display-name>
-    <icon src="https://i.imgur.com/h1XhGkz.png"/>
+    <icon src="https://i.imgur.com/h1XhGkz.png" />
     <url>https://tvarenasport.hr</url>
   </channel>
   <channel id="ArenaSport5.hr@SD">
     <display-name>Arena Sport 5</display-name>
-    <icon src="https://i.imgur.com/036qMgu.png"/>
+    <icon src="https://i.imgur.com/036qMgu.png" />
     <url>https://tvarenasport.hr</url>
   </channel>
   <channel id="ArenaSport6.hr@SD">
     <display-name>Arena Sport 6</display-name>
-    <icon src="https://i.imgur.com/Z5PE4vx.png"/>
+    <icon src="https://i.imgur.com/Z5PE4vx.png" />
     <url>https://tvarenasport.hr</url>
   </channel>
   <channel id="ArenaSport7.hr@SD">
     <display-name>Arena Sport 7</display-name>
-    <icon src="https://i.imgur.com/0fgvOrR.png"/>
+    <icon src="https://i.imgur.com/0fgvOrR.png" />
     <url>https://tvarenasport.hr</url>
   </channel>
   <channel id="ArenaSport8.hr@SD">
     <display-name>Arena Sport 8</display-name>
-    <icon src="https://i.imgur.com/Wk9dr78.png"/>
+    <icon src="https://i.imgur.com/Wk9dr78.png" />
     <url>https://tvarenasport.hr</url>
   </channel>
   <channel id="ArenaSport9.hr@SD">
     <display-name>Arena Sport 9</display-name>
-    <icon src="https://i.imgur.com/riMTqTu.png"/>
+    <icon src="https://i.imgur.com/riMTqTu.png" />
     <url>https://tvarenasport.hr</url>
   </channel>
   <channel id="ArenaSport10.hr@SD">
     <display-name>Arena Sport 10</display-name>
-    <icon src="https://i.imgur.com/oMiS7D3.png"/>
+    <icon src="https://i.imgur.com/oMiS7D3.png" />
     <url>https://tvarenasport.hr</url>
   </channel>
   <programme start="20260422210000 +0000" stop="20260422230000 +0000" channel="ArenaSport1.hr@SD">

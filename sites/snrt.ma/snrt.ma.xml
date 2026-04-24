@@ -1,38 +1,38 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="AlAoula.ma@SD">
     <display-name>Al Aoula</display-name>
-    <icon src="https://i.imgur.com/nq53d2N.png"/>
+    <icon src="https://i.imgur.com/nq53d2N.png" />
     <url>https://snrt.ma</url>
   </channel>
   <channel id="LaayouneTV.ma@SD">
     <display-name>Laâyoune</display-name>
-    <icon src="https://i.ibb.co/Q3r5D5d0/image-removebg-preview.png"/>
+    <icon src="https://i.ibb.co/Q3r5D5d0/image-removebg-preview.png" />
     <url>https://snrt.ma</url>
   </channel>
   <channel id="Arryadia.ma@HD">
     <display-name>Arryadia</display-name>
-    <icon src="https://i.imgur.com/XjzK3gZ.png"/>
+    <icon src="https://i.imgur.com/XjzK3gZ.png" />
     <url>https://snrt.ma</url>
   </channel>
   <channel id="Athaqafia.ma@SD">
     <display-name>Athaqafia</display-name>
-    <icon src="https://freebox.cdn.scw.iliad.fr/medium_Athaqafia_fdc90e055e.png"/>
+    <icon src="https://freebox.cdn.scw.iliad.fr/medium_Athaqafia_fdc90e055e.png" />
     <url>https://snrt.ma</url>
   </channel>
   <channel id="AlMaghribia.ma@SD">
     <display-name>Almaghribia</display-name>
-    <icon src="https://i.imgur.com/7GaahYh.png"/>
+    <icon src="https://i.imgur.com/7GaahYh.png" />
     <url>https://snrt.ma</url>
   </channel>
   <channel id="Assadissa.ma@SD">
     <display-name>Assadissa</display-name>
-    <icon src="https://freebox.cdn.scw.iliad.fr/medium_Assadissa_f8b25de821.png"/>
+    <icon src="https://freebox.cdn.scw.iliad.fr/medium_Assadissa_f8b25de821.png" />
     <url>https://snrt.ma</url>
   </channel>
   <channel id="TamazightTV.ma@SD">
     <display-name>Tamazight</display-name>
-    <icon src="https://freebox.cdn.scw.iliad.fr/552_56201db052.png"/>
+    <icon src="https://freebox.cdn.scw.iliad.fr/552_56201db052.png" />
     <url>https://snrt.ma</url>
   </channel>
   <channel id="4076">

@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="CCPRadio.cl@SD">
     <display-name>CCP Radio</display-name>
-    <icon src="https://cdn.energeek.cl/logos/CCPRadio-2023.png"/>
+    <icon src="https://cdn.energeek.cl/logos/CCPRadio-2023.png" />
     <url>https://energeek.cl</url>
   </channel>
   <channel id="EnerGeek 4">
@@ -15,7 +15,7 @@
   </channel>
   <channel id="EnerGeekRadio.cl@SD">
     <display-name>EnerGeek Radio TV</display-name>
-    <icon src="https://cdn.energeek.cl/logos/EG-Radio-2025_pfp.png"/>
+    <icon src="https://cdn.energeek.cl/logos/EG-Radio-2025_pfp.png" />
     <url>https://energeek.cl</url>
   </channel>
   <channel id="EnerGeek Retro">
@@ -413,7 +413,7 @@
   <programme start="20260423010000 +0000" stop="20260423013000 +0000" channel="Fanpop TV">
     <title lang="es">Power Rangers</title>
     <desc lang="es">Cinco adolescentes deben convertirse en algo extraordinario cuando descubren que su pueblo, Angel Grove, así como todo el mundo, está al borde de la aniquilación a manos de una amenaza alienígena</desc>
-    <icon src="https://www.compulms.info/xml/imgapk/power.jpg"/>
+    <icon src="https://www.compulms.info/xml/imgapk/power.jpg" />
   </programme>
   <programme start="20260423013000 +0000" stop="20260423020000 +0000" channel="Fanpop TV">
     <title lang="es">Blossom</title>
@@ -446,7 +446,7 @@
   <programme start="20260423063000 +0000" stop="20260423070000 +0000" channel="Fanpop TV">
     <title lang="es">Power Rangers</title>
     <desc lang="es">Cinco adolescentes deben convertirse en algo extraordinario cuando descubren que su pueblo, Angel Grove, así como todo el mundo, está al borde de la aniquilación a manos de una amenaza alienígena</desc>
-    <icon src="https://www.compulms.info/xml/imgapk/power.jpg"/>
+    <icon src="https://www.compulms.info/xml/imgapk/power.jpg" />
   </programme>
   <programme start="20260423070000 +0000" stop="20260423073000 +0000" channel="Fanpop TV">
     <title lang="es">Blossom</title>
@@ -463,7 +463,7 @@
   <programme start="20260423110000 +0000" stop="20260423113000 +0000" channel="Fanpop TV">
     <title lang="es">El Mundo de Beakman</title>
     <desc lang="es">Beakman es un científico excéntrico que hace experimentos cómicos y demostraciones, a veces a petición escrita de los televidentes, para ilustrar los conceptos básicos de la ciencia, como la densidad o la electricidad</desc>
-    <icon src="https://pics.filmaffinity.com/beakman_s_world_tv_series-858097885-mmed.jpg"/>
+    <icon src="https://pics.filmaffinity.com/beakman_s_world_tv_series-858097885-mmed.jpg" />
   </programme>
   <programme start="20260423113000 +0000" stop="20260423120000 +0000" channel="Fanpop TV">
     <title lang="es">Mecanica Popular para Niños</title>
@@ -484,7 +484,7 @@
   <programme start="20260423133000 +0000" stop="20260423140000 +0000" channel="Fanpop TV">
     <title lang="es">El Oso Yogi</title>
     <desc lang="es">Yogui es un simpático y glotón oso que vive en el parque nacional de Yellowstone (Jellystone), y al que le pasan numerosas aventuras en compañía de su pequeño gran amigo Boo Boo (Bubu). En el parque está prohibido dar de comer a los animales, pero a Yogui y a Bubu les gusta la comida de los hombres, así que se la roban a los campistas. El guardabosques anda siempre detrás de ellos, y les tiene prohibido acercarse a los humanos, pero los traviesos plantígrados no le hacen mucho caso</desc>
-    <icon src="https://pics.filmaffinity.com/the_yogi_bear_show-869219215-mmed.jpg"/>
+    <icon src="https://pics.filmaffinity.com/the_yogi_bear_show-869219215-mmed.jpg" />
   </programme>
   <programme start="20260423140000 +0000" stop="20260423150000 +0000" channel="Fanpop TV">
     <title lang="es">La Familia Sallinger</title>
@@ -493,7 +493,7 @@
   <programme start="20260423150000 +0000" stop="20260423153000 +0000" channel="Fanpop TV">
     <title lang="es">El Mundo de Beakman</title>
     <desc lang="es">Beakman es un científico excéntrico que hace experimentos cómicos y demostraciones, a veces a petición escrita de los televidentes, para ilustrar los conceptos básicos de la ciencia, como la densidad o la electricidad</desc>
-    <icon src="https://pics.filmaffinity.com/beakman_s_world_tv_series-858097885-mmed.jpg"/>
+    <icon src="https://pics.filmaffinity.com/beakman_s_world_tv_series-858097885-mmed.jpg" />
   </programme>
   <programme start="20260423153000 +0000" stop="20260423160000 +0000" channel="Fanpop TV">
     <title lang="es">Mecanica Popular para Niños</title>
@@ -510,7 +510,7 @@
   <programme start="20260423170000 +0000" stop="20260423173000 +0000" channel="Fanpop TV">
     <title lang="es">Tres por Tres</title>
     <desc lang="es">Danny Tanner es un padre de familia que acaba de quedar viudo después de que su mujer falleciera en un accidente automovilístico. Él queda al cuidado de sus tres hijas pequeñas: D.J., Stephanie y Michelle. Rápidamente, Danny decide pedirle a su cuñado Jesse Cochran, y su mejor amigo Joey Gladstone, que se muden con él para que lo ayuden a criar a las chicas</desc>
-    <icon src="https://www.alohacriticon.com/wp-content/uploads/2021/09/padres-forzosos-full-house-poster-sinopsis.jpg"/>
+    <icon src="https://www.alohacriticon.com/wp-content/uploads/2021/09/padres-forzosos-full-house-poster-sinopsis.jpg" />
   </programme>
   <programme start="20260423173000 +0000" stop="20260423180000 +0000" channel="Fanpop TV">
     <title lang="es">Garfield y sus Amigos</title>
@@ -523,7 +523,7 @@
   <programme start="20260423200000 +0000" stop="20260423203000 +0000" channel="Fanpop TV">
     <title lang="es">El Mundo de Beakman</title>
     <desc lang="es">Beakman es un científico excéntrico que hace experimentos cómicos y demostraciones, a veces a petición escrita de los televidentes, para ilustrar los conceptos básicos de la ciencia, como la densidad o la electricidad</desc>
-    <icon src="https://pics.filmaffinity.com/beakman_s_world_tv_series-858097885-mmed.jpg"/>
+    <icon src="https://pics.filmaffinity.com/beakman_s_world_tv_series-858097885-mmed.jpg" />
   </programme>
   <programme start="20260423203000 +0000" stop="20260423210000 +0000" channel="Fanpop TV">
     <title lang="es">Mecanica Popular para Niños</title>
@@ -540,7 +540,7 @@
   <programme start="20260423220000 +0000" stop="20260423223000 +0000" channel="Fanpop TV">
     <title lang="es">Tres por Tres</title>
     <desc lang="es">Danny Tanner es un padre de familia que acaba de quedar viudo después de que su mujer falleciera en un accidente automovilístico. Él queda al cuidado de sus tres hijas pequeñas: D.J., Stephanie y Michelle. Rápidamente, Danny decide pedirle a su cuñado Jesse Cochran, y su mejor amigo Joey Gladstone, que se muden con él para que lo ayuden a criar a las chicas</desc>
-    <icon src="https://www.alohacriticon.com/wp-content/uploads/2021/09/padres-forzosos-full-house-poster-sinopsis.jpg"/>
+    <icon src="https://www.alohacriticon.com/wp-content/uploads/2021/09/padres-forzosos-full-house-poster-sinopsis.jpg" />
   </programme>
   <programme start="20260423223000 +0000" stop="20260423230000 +0000" channel="Fanpop TV">
     <title lang="es">Garfield y sus Amigos</title>
@@ -553,7 +553,7 @@
   <programme start="20260424010000 +0000" stop="20260424013000 +0000" channel="Fanpop TV">
     <title lang="es">Power Rangers</title>
     <desc lang="es">Cinco adolescentes deben convertirse en algo extraordinario cuando descubren que su pueblo, Angel Grove, así como todo el mundo, está al borde de la aniquilación a manos de una amenaza alienígena</desc>
-    <icon src="https://www.compulms.info/xml/imgapk/power.jpg"/>
+    <icon src="https://www.compulms.info/xml/imgapk/power.jpg" />
   </programme>
   <programme start="20260424013000 +0000" stop="20260424020000 +0000" channel="Fanpop TV">
     <title lang="es">Blossom</title>
@@ -586,7 +586,7 @@
   <programme start="20260424063000 +0000" stop="20260424070000 +0000" channel="Fanpop TV">
     <title lang="es">Power Rangers</title>
     <desc lang="es">Cinco adolescentes deben convertirse en algo extraordinario cuando descubren que su pueblo, Angel Grove, así como todo el mundo, está al borde de la aniquilación a manos de una amenaza alienígena</desc>
-    <icon src="https://www.compulms.info/xml/imgapk/power.jpg"/>
+    <icon src="https://www.compulms.info/xml/imgapk/power.jpg" />
   </programme>
   <programme start="20260424070000 +0000" stop="20260424073000 +0000" channel="Fanpop TV">
     <title lang="es">Blossom</title>
@@ -603,7 +603,7 @@
   <programme start="20260424110000 +0000" stop="20260424113000 +0000" channel="Fanpop TV">
     <title lang="es">El Mundo de Beakman</title>
     <desc lang="es">Beakman es un científico excéntrico que hace experimentos cómicos y demostraciones, a veces a petición escrita de los televidentes, para ilustrar los conceptos básicos de la ciencia, como la densidad o la electricidad</desc>
-    <icon src="https://pics.filmaffinity.com/beakman_s_world_tv_series-858097885-mmed.jpg"/>
+    <icon src="https://pics.filmaffinity.com/beakman_s_world_tv_series-858097885-mmed.jpg" />
   </programme>
   <programme start="20260424113000 +0000" stop="20260424120000 +0000" channel="Fanpop TV">
     <title lang="es">Mecanica Popular para Niños</title>
@@ -624,7 +624,7 @@
   <programme start="20260424133000 +0000" stop="20260424140000 +0000" channel="Fanpop TV">
     <title lang="es">El Oso Yogi</title>
     <desc lang="es">Yogui es un simpático y glotón oso que vive en el parque nacional de Yellowstone (Jellystone), y al que le pasan numerosas aventuras en compañía de su pequeño gran amigo Boo Boo (Bubu). En el parque está prohibido dar de comer a los animales, pero a Yogui y a Bubu les gusta la comida de los hombres, así que se la roban a los campistas. El guardabosques anda siempre detrás de ellos, y les tiene prohibido acercarse a los humanos, pero los traviesos plantígrados no le hacen mucho caso</desc>
-    <icon src="https://pics.filmaffinity.com/the_yogi_bear_show-869219215-mmed.jpg"/>
+    <icon src="https://pics.filmaffinity.com/the_yogi_bear_show-869219215-mmed.jpg" />
   </programme>
   <programme start="20260424140000 +0000" stop="20260424150000 +0000" channel="Fanpop TV">
     <title lang="es">La Familia Sallinger</title>
@@ -633,7 +633,7 @@
   <programme start="20260424150000 +0000" stop="20260424153000 +0000" channel="Fanpop TV">
     <title lang="es">El Mundo de Beakman</title>
     <desc lang="es">Beakman es un científico excéntrico que hace experimentos cómicos y demostraciones, a veces a petición escrita de los televidentes, para ilustrar los conceptos básicos de la ciencia, como la densidad o la electricidad</desc>
-    <icon src="https://pics.filmaffinity.com/beakman_s_world_tv_series-858097885-mmed.jpg"/>
+    <icon src="https://pics.filmaffinity.com/beakman_s_world_tv_series-858097885-mmed.jpg" />
   </programme>
   <programme start="20260424153000 +0000" stop="20260424160000 +0000" channel="Fanpop TV">
     <title lang="es">Mecanica Popular para Niños</title>
@@ -650,7 +650,7 @@
   <programme start="20260424170000 +0000" stop="20260424173000 +0000" channel="Fanpop TV">
     <title lang="es">Tres por Tres</title>
     <desc lang="es">Danny Tanner es un padre de familia que acaba de quedar viudo después de que su mujer falleciera en un accidente automovilístico. Él queda al cuidado de sus tres hijas pequeñas: D.J., Stephanie y Michelle. Rápidamente, Danny decide pedirle a su cuñado Jesse Cochran, y su mejor amigo Joey Gladstone, que se muden con él para que lo ayuden a criar a las chicas</desc>
-    <icon src="https://www.alohacriticon.com/wp-content/uploads/2021/09/padres-forzosos-full-house-poster-sinopsis.jpg"/>
+    <icon src="https://www.alohacriticon.com/wp-content/uploads/2021/09/padres-forzosos-full-house-poster-sinopsis.jpg" />
   </programme>
   <programme start="20260424173000 +0000" stop="20260424180000 +0000" channel="Fanpop TV">
     <title lang="es">Garfield y sus Amigos</title>
@@ -663,7 +663,7 @@
   <programme start="20260424200000 +0000" stop="20260424203000 +0000" channel="Fanpop TV">
     <title lang="es">El Mundo de Beakman</title>
     <desc lang="es">Beakman es un científico excéntrico que hace experimentos cómicos y demostraciones, a veces a petición escrita de los televidentes, para ilustrar los conceptos básicos de la ciencia, como la densidad o la electricidad</desc>
-    <icon src="https://pics.filmaffinity.com/beakman_s_world_tv_series-858097885-mmed.jpg"/>
+    <icon src="https://pics.filmaffinity.com/beakman_s_world_tv_series-858097885-mmed.jpg" />
   </programme>
   <programme start="20260424203000 +0000" stop="20260424210000 +0000" channel="Fanpop TV">
     <title lang="es">Mecanica Popular para Niños</title>
@@ -680,7 +680,7 @@
   <programme start="20260424220000 +0000" stop="20260424223000 +0000" channel="Fanpop TV">
     <title lang="es">Tres por Tres</title>
     <desc lang="es">Danny Tanner es un padre de familia que acaba de quedar viudo después de que su mujer falleciera en un accidente automovilístico. Él queda al cuidado de sus tres hijas pequeñas: D.J., Stephanie y Michelle. Rápidamente, Danny decide pedirle a su cuñado Jesse Cochran, y su mejor amigo Joey Gladstone, que se muden con él para que lo ayuden a criar a las chicas</desc>
-    <icon src="https://www.alohacriticon.com/wp-content/uploads/2021/09/padres-forzosos-full-house-poster-sinopsis.jpg"/>
+    <icon src="https://www.alohacriticon.com/wp-content/uploads/2021/09/padres-forzosos-full-house-poster-sinopsis.jpg" />
   </programme>
   <programme start="20260424223000 +0000" stop="20260424230000 +0000" channel="Fanpop TV">
     <title lang="es">Garfield y sus Amigos</title>

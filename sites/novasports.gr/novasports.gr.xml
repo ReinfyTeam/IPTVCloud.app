@@ -1,83 +1,83 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="Eurosport1.fr@Greece">
     <display-name>Eurosport 1 HD</display-name>
-    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="Eurosport2.fr@Greece">
     <display-name>Eurosport 2 HD</display-name>
-    <icon src="https://i.imgur.com/f56dHgR.png"/>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="Novasports1.gr@HD">
     <display-name>Novasports1HD</display-name>
-    <icon src="https://i.imgur.com/Q1FPQeL.png"/>
+    <icon src="https://i.imgur.com/Q1FPQeL.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="Novasports2.gr@HD">
     <display-name>Novasports2HD</display-name>
-    <icon src="https://i.imgur.com/BITjUin.png"/>
+    <icon src="https://i.imgur.com/BITjUin.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="Novasports3.gr@HD">
     <display-name>Novasports3HD</display-name>
-    <icon src="https://i.imgur.com/jy7zmlJ.png"/>
+    <icon src="https://i.imgur.com/jy7zmlJ.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="Novasports4.gr@HD">
     <display-name>Novasports4HD</display-name>
-    <icon src="https://i.imgur.com/ZANobhK.png"/>
+    <icon src="https://i.imgur.com/ZANobhK.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="Novasports5.gr@HD">
     <display-name>Novasports5HD</display-name>
-    <icon src="https://i.imgur.com/Rb550MA.png"/>
+    <icon src="https://i.imgur.com/Rb550MA.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="Novasports6.gr@HD">
     <display-name>Novasports6HD</display-name>
-    <icon src="https://i.imgur.com/m6RRIxG.png"/>
+    <icon src="https://i.imgur.com/m6RRIxG.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="NovasportsExtra2.gr@HD">
     <display-name>Novasports Extra2</display-name>
-    <icon src="https://i.imgur.com/GjX4lUs.png"/>
+    <icon src="https://i.imgur.com/GjX4lUs.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="NovasportsExtra3.gr@HD">
     <display-name>Novasports Extra3</display-name>
-    <icon src="https://i.imgur.com/uTAqgQs.png"/>
+    <icon src="https://i.imgur.com/uTAqgQs.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="NovasportsExtra4.gr@HD">
     <display-name>Novasports Extra4</display-name>
-    <icon src="https://i.imgur.com/4TM3qFP.png"/>
+    <icon src="https://i.imgur.com/4TM3qFP.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="NovasportsPremierLeague.gr@HD">
     <display-name>Novasports Premier League</display-name>
-    <icon src="https://i.imgur.com/aOPBuEa.png"/>
+    <icon src="https://i.imgur.com/aOPBuEa.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="NovasportsPrime.gr@HD">
     <display-name>Novasports Prime</display-name>
-    <icon src="https://i.imgur.com/rkap6Yf.png"/>
+    <icon src="https://i.imgur.com/rkap6Yf.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="NovasportsExtra1.gr@HD">
     <display-name>Novasports Εxtra1</display-name>
-    <icon src="https://i.imgur.com/Zn0uS3z.png"/>
+    <icon src="https://i.imgur.com/Zn0uS3z.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="NovasportsNews.gr@HD">
     <display-name>ΝovasportsNews</display-name>
-    <icon src="https://i.imgur.com/io77AJM.png"/>
+    <icon src="https://i.imgur.com/io77AJM.png" />
     <url>https://novasports.gr</url>
   </channel>
   <channel id="NovasportsStart.gr@HD">
     <display-name>ΝovasportsStart</display-name>
-    <icon src="https://i.imgur.com/22CPcwO.png"/>
+    <icon src="https://i.imgur.com/22CPcwO.png" />
     <url>https://novasports.gr</url>
   </channel>
 </tv>

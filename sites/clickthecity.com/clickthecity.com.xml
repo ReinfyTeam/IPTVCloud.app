@@ -1,63 +1,63 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="GMATV.ph@SD">
     <display-name>GMA</display-name>
-    <icon src="https://i.imgur.com/uAqFMLy.png"/>
+    <icon src="https://i.imgur.com/uAqFMLy.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="PTV.ph@SD">
     <display-name>PTV</display-name>
-    <icon src="https://i.imgur.com/MMccHNd.png"/>
+    <icon src="https://i.imgur.com/MMccHNd.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="TV5.ph@SD">
     <display-name>TV5</display-name>
-    <icon src="https://i.imgur.com/PYJhTiq.png"/>
+    <icon src="https://i.imgur.com/PYJhTiq.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="IBC13.ph@SD">
     <display-name>IBC TV 13</display-name>
-    <icon src="https://i.imgur.com/1KaTUOo.png"/>
+    <icon src="https://i.imgur.com/1KaTUOo.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="ANC.ph@SD">
     <display-name>ANC</display-name>
-    <icon src="https://i.imgur.com/odwRbRk.png"/>
+    <icon src="https://i.imgur.com/odwRbRk.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="CinemaxAsia.sg@SD">
     <display-name>Cinemax</display-name>
-    <icon src="https://i.imgur.com/c8crJfA.png"/>
+    <icon src="https://i.imgur.com/c8crJfA.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="MetroChannel.ph@SD">
     <display-name>Metro Channel</display-name>
-    <icon src="https://i.imgur.com/mRMPwfl.jpg"/>
+    <icon src="https://i.imgur.com/mRMPwfl.jpg" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="NationalGeographic.ph@SD">
     <display-name>National Geographic</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="Nickelodeon.ph@SD">
     <display-name>Nickelodeon</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="CinemaOneGlobal.ph@SD">
     <display-name>Cinema One</display-name>
-    <icon src="https://i.imgur.com/zN8mfDR.png"/>
+    <icon src="https://i.imgur.com/zN8mfDR.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="AXNAsia.sg@Philippines">
     <display-name>AXN</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="Net25.ph@SD">
     <display-name>Net 25</display-name>
-    <icon src="https://i.imgur.com/pPPubX5.png"/>
+    <icon src="https://i.imgur.com/pPPubX5.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="137">
@@ -66,32 +66,32 @@
   </channel>
   <channel id="Myx.ph@SD">
     <display-name>MYX</display-name>
-    <icon src="https://i.imgur.com/pbHuUuV.png"/>
+    <icon src="https://i.imgur.com/pbHuUuV.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="PBO.ph@SD">
     <display-name>PBO</display-name>
-    <icon src="https://i.imgur.com/HZURi7d.png"/>
+    <icon src="https://i.imgur.com/HZURi7d.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="GTV.ph@SD">
     <display-name>GTV</display-name>
-    <icon src="https://i.imgur.com/rWhamwh.png"/>
+    <icon src="https://i.imgur.com/rWhamwh.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="VivaCinema.ph@SD">
     <display-name>VIVA Cinema</display-name>
-    <icon src="https://i.imgur.com/Bwcj1Oc.png"/>
+    <icon src="https://i.imgur.com/Bwcj1Oc.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="TeleNovelaChannel.ph@SD">
     <display-name>Telenovela Channel</display-name>
-    <icon src="https://i.imgur.com/5hyjR8C.png"/>
+    <icon src="https://i.imgur.com/5hyjR8C.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="History.ph@SD">
     <display-name>History</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="163">
@@ -100,62 +100,62 @@
   </channel>
   <channel id="AnimaxAsia.sg@Philippines">
     <display-name>Animax</display-name>
-    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png"/>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="CNNPhilippines.ph@SD">
     <display-name>CNN Philippines</display-name>
-    <icon src="https://i.imgur.com/PNymaxE.png"/>
+    <icon src="https://i.imgur.com/PNymaxE.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="TagalizedMovieChannel.ph@SD">
     <display-name>Tagalized Movie Channel</display-name>
-    <icon src="https://i.imgur.com/jr9Qm2M.png"/>
+    <icon src="https://i.imgur.com/jr9Qm2M.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="JeepneyTV.ph@SD">
     <display-name>Jeepney TV</display-name>
-    <icon src="https://i.imgur.com/RNxfhcc.png"/>
+    <icon src="https://i.imgur.com/RNxfhcc.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="ROCKEntertainment.sg@SD">
     <display-name>Rock Entertainment</display-name>
-    <icon src="https://i.imgur.com/PWzq0aU.png"/>
+    <icon src="https://i.imgur.com/PWzq0aU.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="CelestialMoviesPinoy.hk@SD">
     <display-name>Celestial Movies Pinoy</display-name>
-    <icon src="https://i.imgur.com/0JFXfx1.png"/>
+    <icon src="https://i.imgur.com/0JFXfx1.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="KMoviesPinoy.ph@SD">
     <display-name>K-Movies Pinoy</display-name>
-    <icon src="https://i.imgur.com/V7na1lH.png"/>
+    <icon src="https://i.imgur.com/V7na1lH.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="GEM.sg@SD">
     <display-name>GEM</display-name>
-    <icon src="https://i.imgur.com/DjI6SS1.png"/>
+    <icon src="https://i.imgur.com/DjI6SS1.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="KapamilyaChannel.ph@SD">
     <display-name>Kapamilya Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Kapamilya_Channel_Logo_2020.svg/960px-Kapamilya_Channel_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Kapamilya_Channel_Logo_2020.svg/960px-Kapamilya_Channel_Logo_2020.svg.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="ROCKExtreme.sg@SD">
     <display-name>Rock Extreme</display-name>
-    <icon src="https://i.imgur.com/3U1JpHm.png"/>
+    <icon src="https://i.imgur.com/3U1JpHm.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="Liga.ph@SD">
     <display-name>Liga</display-name>
-    <icon src="https://i.imgur.com/bRb0Tlv.png"/>
+    <icon src="https://i.imgur.com/bRb0Tlv.png" />
     <url>https://clickthecity.com</url>
   </channel>
   <channel id="A2Z.ph@SD">
     <display-name>a2z Channel 11</display-name>
-    <icon src="https://i.imgur.com/1zsdloF.png"/>
+    <icon src="https://i.imgur.com/1zsdloF.png" />
     <url>https://clickthecity.com</url>
   </channel>
 </tv>

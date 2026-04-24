@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="VantageMusic.ee@SD">
     <display-name>Vantage Music</display-name>
-    <icon src="https://vantagetv.ee/vantage_music.png"/>
+    <icon src="https://vantagetv.ee/vantage_music.png" />
     <url>https://vantagetv.ee</url>
   </channel>
   <channel id="vdance">

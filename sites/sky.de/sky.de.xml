@@ -1,198 +1,198 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="13thStreetUniversal.de@HD">
     <display-name>13th Street HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/13th_Street_Universal.svg/500px-13th_Street_Universal.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/13th_Street_Universal.svg/500px-13th_Street_Universal.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="BeateUhseTV.de@HD">
     <display-name>Beate Uhse HD</display-name>
-    <icon src="https://i.imgur.com/TgWa0TN.png"/>
+    <icon src="https://i.imgur.com/TgWa0TN.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="CartoonitoCEE.uk@Germany">
     <display-name>Cartoonito</display-name>
-    <icon src="https://i.imgur.com/9MrzLb1.png"/>
+    <icon src="https://i.imgur.com/9MrzLb1.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="CartoonNetworkCEE.uk@Germany">
     <display-name>Cartoon Network</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="CrimePlusInvestigation.de@SD">
     <display-name>Crime + Investigation</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg" />
     <url>https://sky.de</url>
   </channel>
   <channel id="DAZN1.uk@GermanyHD">
     <display-name>DAZN 1 HD</display-name>
-    <icon src="https://i.imgur.com/2Z2EmZF.png"/>
+    <icon src="https://i.imgur.com/2Z2EmZF.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="DAZN2.uk@GermanyHD">
     <display-name>DAZN 2 HD</display-name>
-    <icon src="https://i.imgur.com/OGj3qf5.png"/>
+    <icon src="https://i.imgur.com/OGj3qf5.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="Heimatkanal.de@SD">
     <display-name>Heimatkanal</display-name>
-    <icon src="https://i.imgur.com/fngeJ3D.png"/>
+    <icon src="https://i.imgur.com/fngeJ3D.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="History.de@HD">
     <display-name>HISTORY Channel HD</display-name>
-    <icon src="https://i.imgur.com/P5aKEES.png"/>
+    <icon src="https://i.imgur.com/P5aKEES.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="Jukebox.de@SD">
     <display-name>Jukebox</display-name>
-    <icon src="https://i.imgur.com/mDdspqU.png"/>
+    <icon src="https://i.imgur.com/mDdspqU.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="Motorvision.de@SD">
     <display-name>Motorvision+</display-name>
-    <icon src="https://i.imgur.com/v4kj8pI.png"/>
+    <icon src="https://i.imgur.com/v4kj8pI.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="NationalGeographic.de@HD">
     <display-name>NatGeo HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="NationalGeographicWild.de@HD">
     <display-name>NatGeo Wild HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="NickJr.de@SD">
     <display-name>Nick Jr.</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="Nicktoons.de">
     <display-name>Nicktoons</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="RomanceTV.de@HD">
     <display-name>Romance TV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Romance_TV_Logo_10.2019.svg/960px-Romance_TV_Logo_10.2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Romance_TV_Logo_10.2019.svg/960px-Romance_TV_Logo_10.2019.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyAtlantic.de@HD">
     <display-name>Sky Atlantic HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Sky_Atlantic_-_Logo_2020_%28TV_channel%29.svg/960px-Sky_Atlantic_-_Logo_2020_%28TV_channel%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Sky_Atlantic_-_Logo_2020_%28TV_channel%29.svg/960px-Sky_Atlantic_-_Logo_2020_%28TV_channel%29.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyCinemaAction.de@HD">
     <display-name>Sky Cinema Action HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Sky_Cinema_Action_-_Logo_2021.svg/960px-Sky_Cinema_Action_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Sky_Cinema_Action_-_Logo_2021.svg/960px-Sky_Cinema_Action_-_Logo_2021.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyCinemaBestOf.de@HD">
     <display-name>Sky Cinema Highlights HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Sky_Cinema_Best_Of_DE_Logo_2020.svg/960px-Sky_Cinema_Best_Of_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Sky_Cinema_Best_Of_DE_Logo_2020.svg/960px-Sky_Cinema_Best_Of_DE_Logo_2020.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyCinemaClassics.de">
     <display-name>Sky Cinema Classics HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sky_Cinema_Classics_DE_Logo_2020.svg/960px-Sky_Cinema_Classics_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sky_Cinema_Classics_DE_Logo_2020.svg/960px-Sky_Cinema_Classics_DE_Logo_2020.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyCinemaFamily.de@HD">
     <display-name>Sky Cinema Family HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sky_Cinema_Family_-_Logo_2021.svg/960px-Sky_Cinema_Family_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sky_Cinema_Family_-_Logo_2021.svg/960px-Sky_Cinema_Family_-_Logo_2021.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyCinemaPremieren.de@HD">
     <display-name>Sky Cinema Premiere HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Cinema_Premieren_DE_Logo_2020.svg/960px-Sky_Cinema_Premieren_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Cinema_Premieren_DE_Logo_2020.svg/960px-Sky_Cinema_Premieren_DE_Logo_2020.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyCrime.de@HD">
     <display-name>Sky Crime HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Sky_Crime_logo_2020.svg/960px-Sky_Crime_logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Sky_Crime_logo_2020.svg/960px-Sky_Crime_logo_2020.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyDocumentaries.de@HD">
     <display-name>Sky Documentaries HD</display-name>
-    <icon src="https://i.imgur.com/WZVLRoz.png"/>
+    <icon src="https://i.imgur.com/WZVLRoz.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyKrimi.de@HD">
     <display-name>Sky Krimi HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sky_Krimi_2020.svg/960px-Sky_Krimi_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sky_Krimi_2020.svg/960px-Sky_Krimi_2020.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyNature.de@HD">
     <display-name>Sky Nature HD</display-name>
-    <icon src="https://i.imgur.com/NWKIfXy.png"/>
+    <icon src="https://i.imgur.com/NWKIfXy.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyOne.de@HD">
     <display-name>Sky One HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sky_One_-_Logo_2020.png/960px-Sky_One_-_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sky_One_-_Logo_2020.png/960px-Sky_One_-_Logo_2020.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyReplay.de@HD">
     <display-name>Sky Replay HD</display-name>
-    <icon src="https://i.imgur.com/YBHWMJ5.png"/>
+    <icon src="https://i.imgur.com/YBHWMJ5.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkyShowcase.de@HD">
     <display-name>Sky Showcase HD</display-name>
-    <icon src="https://i.imgur.com/7viaZKs.png"/>
+    <icon src="https://i.imgur.com/7viaZKs.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySport1.de@HD">
     <display-name>Sky Sport 1 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sky_Sport_1_DE_Logo_2020.svg/960px-Sky_Sport_1_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sky_Sport_1_DE_Logo_2020.svg/960px-Sky_Sport_1_DE_Logo_2020.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySport2.de@HD">
     <display-name>Sky Sport 2 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sky_Sport_2_DE_Logo_2020.svg/960px-Sky_Sport_2_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sky_Sport_2_DE_Logo_2020.svg/960px-Sky_Sport_2_DE_Logo_2020.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySport3.de@HD">
     <display-name>Sky Sport 3 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sky_Sport_3_DE_Logo_2020.svg/960px-Sky_Sport_3_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sky_Sport_3_DE_Logo_2020.svg/960px-Sky_Sport_3_DE_Logo_2020.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySport4.de@HD">
     <display-name>Sky Sport 4 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Sky_Sport_4_DE_Logo_2020.svg/960px-Sky_Sport_4_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Sky_Sport_4_DE_Logo_2020.svg/960px-Sky_Sport_4_DE_Logo_2020.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySport5.de@HD">
     <display-name>Sky Sport 5 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sky_Sport_5_DE_Logo_2020.svg/960px-Sky_Sport_5_DE_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sky_Sport_5_DE_Logo_2020.svg/960px-Sky_Sport_5_DE_Logo_2020.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySport6.de@HD">
     <display-name>Sky Sport 6 HD</display-name>
-    <icon src="https://i.imgur.com/WfeyX8D.png"/>
+    <icon src="https://i.imgur.com/WfeyX8D.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySport7.de@HD">
     <display-name>Sky Sport 7 HD</display-name>
-    <icon src="https://i.imgur.com/XeflUV9.png"/>
+    <icon src="https://i.imgur.com/XeflUV9.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySport8.de@HD">
     <display-name>Sky Sport 8 HD</display-name>
-    <icon src="https://i.imgur.com/2YCQyZm.png"/>
+    <icon src="https://i.imgur.com/2YCQyZm.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySport9.de@HD">
     <display-name>Sky Sport 9 HD</display-name>
-    <icon src="https://i.imgur.com/NQMl2hn.png"/>
+    <icon src="https://i.imgur.com/NQMl2hn.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySport10.de@HD">
     <display-name>Sky Sport 10 HD</display-name>
-    <icon src="https://i.imgur.com/ZnUAdGj.png"/>
+    <icon src="https://i.imgur.com/ZnUAdGj.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySport.de@UHD">
@@ -201,172 +201,172 @@
   </channel>
   <channel id="SkySportAustria1.at@HD">
     <display-name>Sky Sport Austria 1 HD</display-name>
-    <icon src="https://i.imgur.com/bB0HZDu.png"/>
+    <icon src="https://i.imgur.com/bB0HZDu.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportAustria2.at@HD">
     <display-name>Sky Sport Austria 2 HD</display-name>
-    <icon src="https://i.imgur.com/hK1hNlT.png"/>
+    <icon src="https://i.imgur.com/hK1hNlT.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportAustria3.at@HD">
     <display-name>Sky Sport Austria 3 HD</display-name>
-    <icon src="https://i.imgur.com/Kq7lhcY.png"/>
+    <icon src="https://i.imgur.com/Kq7lhcY.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportAustria4.at@HD">
     <display-name>Sky Sport Austria 4 HD</display-name>
-    <icon src="https://i.imgur.com/8S1cmCs.png"/>
+    <icon src="https://i.imgur.com/8S1cmCs.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportAustria5.at@HD">
     <display-name>Sky Sport Austria 5 HD</display-name>
-    <icon src="https://i.imgur.com/PnI3ZAB.png"/>
+    <icon src="https://i.imgur.com/PnI3ZAB.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportAustria6.at@HD">
     <display-name>Sky Sport Austria 6 HD</display-name>
-    <icon src="https://i.imgur.com/zNilG3u.png"/>
+    <icon src="https://i.imgur.com/zNilG3u.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportAustria7.at@HD">
     <display-name>Sky Sport Austria 7 HD</display-name>
-    <icon src="https://i.imgur.com/4QH8heA.png"/>
+    <icon src="https://i.imgur.com/4QH8heA.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportAustria8.at@HD">
     <display-name>Sky Sport Austria 8 HD</display-name>
-    <icon src="https://www.lyngsat.com/logo/tv/ss/sky-sport-austria-1-de-at.png"/>
+    <icon src="https://www.lyngsat.com/logo/tv/ss/sky-sport-austria-1-de-at.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportBundesliga1.de@HD">
     <display-name>Sky Sport Bundesliga 1 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/c/ca/Sky_Sport_Bundesliga_2020.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/c/ca/Sky_Sport_Bundesliga_2020.svg" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportBundesliga2.de@HD">
     <display-name>Sky Sport Bundesliga 2 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/8/86/Sky_Sport_Bundesliga_2_Logo_2020.png/960px-Sky_Sport_Bundesliga_2_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/8/86/Sky_Sport_Bundesliga_2_Logo_2020.png/960px-Sky_Sport_Bundesliga_2_Logo_2020.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportBundesliga3.de@HD">
     <display-name>Sky Sport Bundesliga 3 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/d/de/Sky_Sport_Bundesliga_3_Logo_2020.png/960px-Sky_Sport_Bundesliga_3_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/d/de/Sky_Sport_Bundesliga_3_Logo_2020.png/960px-Sky_Sport_Bundesliga_3_Logo_2020.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportBundesliga4.de@HD">
     <display-name>Sky Sport Bundesliga 4 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/f/f6/Sky_Sport_Bundesliga_4_Logo_2020.png/960px-Sky_Sport_Bundesliga_4_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/f/f6/Sky_Sport_Bundesliga_4_Logo_2020.png/960px-Sky_Sport_Bundesliga_4_Logo_2020.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportBundesliga5.de@HD">
     <display-name>Sky Sport Bundesliga 5 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/c/cd/Sky_Sport_Bundesliga_5_Logo_2020.png/960px-Sky_Sport_Bundesliga_5_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/c/cd/Sky_Sport_Bundesliga_5_Logo_2020.png/960px-Sky_Sport_Bundesliga_5_Logo_2020.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportBundesliga6.de@HD">
     <display-name>Sky Sport Bundesliga 6 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/a/ad/Sky_Sport_Bundesliga_6_Logo_2020.png/960px-Sky_Sport_Bundesliga_6_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/a/ad/Sky_Sport_Bundesliga_6_Logo_2020.png/960px-Sky_Sport_Bundesliga_6_Logo_2020.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportBundesliga7.de@HD">
     <display-name>Sky Sport Bundesliga 7 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/e/eb/Sky_Sport_Bundesliga_7_Logo_2020.png/960px-Sky_Sport_Bundesliga_7_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/e/eb/Sky_Sport_Bundesliga_7_Logo_2020.png/960px-Sky_Sport_Bundesliga_7_Logo_2020.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportBundesliga8.de@HD">
     <display-name>Sky Sport Bundesliga 8 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/4/4f/Sky_Sport_Bundesliga_8_Logo_2020.png/960px-Sky_Sport_Bundesliga_8_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/4/4f/Sky_Sport_Bundesliga_8_Logo_2020.png/960px-Sky_Sport_Bundesliga_8_Logo_2020.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportBundesliga9.de@HD">
     <display-name>Sky Sport Bundesliga 9 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/7/70/Sky_Sport_Bundesliga_9_Logo_2020.png/960px-Sky_Sport_Bundesliga_9_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/7/70/Sky_Sport_Bundesliga_9_Logo_2020.png/960px-Sky_Sport_Bundesliga_9_Logo_2020.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportBundesliga10.de@HD">
     <display-name>Sky Sport Bundesliga 10 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/2/22/Sky_Sport_Bundesliga_10_Logo_2020.png/960px-Sky_Sport_Bundesliga_10_Logo_2020.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/2/22/Sky_Sport_Bundesliga_10_Logo_2020.png/960px-Sky_Sport_Bundesliga_10_Logo_2020.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportBundesliga.de@HD">
     <display-name>Sky Sport Bundesliga HD</display-name>
-    <icon src="https://i.imgur.com/UXtjFtd.png"/>
+    <icon src="https://i.imgur.com/UXtjFtd.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportBundesliga.de@UHD">
     <display-name>Sky Sport Bundesliga UHD</display-name>
-    <icon src="https://i.imgur.com/UXtjFtd.png"/>
+    <icon src="https://i.imgur.com/UXtjFtd.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportF1.de@HD">
     <display-name>Sky Sport F1 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/960px-Sky_Sport_F1_-_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/960px-Sky_Sport_F1_-_Logo_2020.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportGolf.de@HD">
     <display-name>Sky Sport Golf HD</display-name>
-    <icon src="https://i.imgur.com/nhhbHvs.png"/>
+    <icon src="https://i.imgur.com/nhhbHvs.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportMix.de@HD">
     <display-name>Sky Sport Mix HD</display-name>
-    <icon src="https://i.imgur.com/erx02nr.png"/>
+    <icon src="https://i.imgur.com/erx02nr.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportNews.de@HD">
     <display-name>Sky Sport News HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/c/cc/Sky_Sport_News_2020.svg/960px-Sky_Sport_News_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/de/thumb/c/cc/Sky_Sport_News_2020.svg/960px-Sky_Sport_News_2020.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportPremierLeague.de@HD">
     <display-name>Sky Sport Premier League HD</display-name>
-    <icon src="https://i.imgur.com/ChWdcRC.png"/>
+    <icon src="https://i.imgur.com/ChWdcRC.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportTennis.de@HD">
     <display-name>Sky Sport Tennis HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sky_Sport_Tennis.svg/960px-Sky_Sport_Tennis.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sky_Sport_Tennis.svg/960px-Sky_Sport_Tennis.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SkySportTopEvent.de@HD">
     <display-name>Sky Sport Top Event HD</display-name>
-    <icon src="https://i.imgur.com/kQ6cVNx.png"/>
+    <icon src="https://i.imgur.com/kQ6cVNx.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SportdigitalFUSSBALL.de">
     <display-name>SPORTDIGITAL FUSSBALL</display-name>
-    <icon src="https://i.imgur.com/NDbWxqF.png"/>
+    <icon src="https://i.imgur.com/NDbWxqF.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="SYFY.de@HD">
     <display-name>SYFY HD</display-name>
-    <icon src="https://i.imgur.com/4fMWhUE.png"/>
+    <icon src="https://i.imgur.com/4fMWhUE.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="UniversalTV.de@HD">
     <display-name>Universal TV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="WarnerTVComedy.de@HD">
     <display-name>Warner TV Comedy HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/WarnerTV_Comedy_Logo_2021.svg/960px-WarnerTV_Comedy_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/WarnerTV_Comedy_Logo_2021.svg/960px-WarnerTV_Comedy_Logo_2021.svg.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="WarnerTVFilm.de@HD">
     <display-name>Warner TV Film HD</display-name>
-    <icon src="https://i.imgur.com/U3PCFFJ.png"/>
+    <icon src="https://i.imgur.com/U3PCFFJ.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="WarnerTVFilm.de@SD">
     <display-name>Warner TV Film</display-name>
-    <icon src="https://i.imgur.com/U3PCFFJ.png"/>
+    <icon src="https://i.imgur.com/U3PCFFJ.png" />
     <url>https://sky.de</url>
   </channel>
   <channel id="WarnerTVSerie.de@HD">
     <display-name>Warner TV Serie HD</display-name>
-    <icon src="https://i.imgur.com/QZYRu0I.png"/>
+    <icon src="https://i.imgur.com/QZYRu0I.png" />
     <url>https://sky.de</url>
   </channel>
   <programme start="20260423224000 +0000" stop="20260423232000 +0000" channel="13thStreetUniversal.de@HD">

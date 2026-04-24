@@ -1,43 +1,43 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="KnowledgeChannel.ph@SD">
     <display-name>KNOWLEDGE CHANNEL</display-name>
-    <icon src="https://i.imgur.com/YrmMWXD.png"/>
+    <icon src="https://i.imgur.com/YrmMWXD.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="CineMo.ph@SD">
     <display-name>CINEMO!</display-name>
-    <icon src="https://i.imgur.com/rGAOD3f.png"/>
+    <icon src="https://i.imgur.com/rGAOD3f.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="KapamilyaChannel.ph@SD">
     <display-name>KAPAMILYA CHANNEL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Kapamilya_Channel_Logo_2020.svg/960px-Kapamilya_Channel_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Kapamilya_Channel_Logo_2020.svg/960px-Kapamilya_Channel_Logo_2020.svg.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="JeepneyTV.ph@SD">
     <display-name>JEEPNEY TV</display-name>
-    <icon src="https://i.imgur.com/RNxfhcc.png"/>
+    <icon src="https://i.imgur.com/RNxfhcc.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="TV5.ph@SD">
     <display-name>TV5</display-name>
-    <icon src="https://i.imgur.com/PYJhTiq.png"/>
+    <icon src="https://i.imgur.com/PYJhTiq.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="AsianFoodNetwork.sg@SD">
     <display-name>ASIAN FOOD NETWORK</display-name>
-    <icon src="https://i.imgur.com/pux6WN8.png"/>
+    <icon src="https://i.imgur.com/pux6WN8.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="Myx.ph@SD">
     <display-name>MYX</display-name>
-    <icon src="https://i.imgur.com/pbHuUuV.png"/>
+    <icon src="https://i.imgur.com/pbHuUuV.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="ANC.ph@SD">
     <display-name>ANC</display-name>
-    <icon src="https://i.imgur.com/odwRbRk.png"/>
+    <icon src="https://i.imgur.com/odwRbRk.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="28">
@@ -50,12 +50,12 @@
   </channel>
   <channel id="SPOTV.kr@SD">
     <display-name>SPOTV</display-name>
-    <icon src="https://i.imgur.com/HaoVsm5.png"/>
+    <icon src="https://i.imgur.com/HaoVsm5.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="SPOTV2.kr@SD">
     <display-name>SPOTV 2</display-name>
-    <icon src="https://i.imgur.com/YD8fbTH.png"/>
+    <icon src="https://i.imgur.com/YD8fbTH.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="34">
@@ -76,7 +76,7 @@
   </channel>
   <channel id="CartoonNetwork.ph@SD">
     <display-name>CARTOON NETWORK</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="45">
@@ -97,7 +97,7 @@
   </channel>
   <channel id="ROCKEntertainment.sg@SD">
     <display-name>ROCK ENTERTAINMENT</display-name>
-    <icon src="https://i.imgur.com/PWzq0aU.png"/>
+    <icon src="https://i.imgur.com/PWzq0aU.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="54">
@@ -106,27 +106,27 @@
   </channel>
   <channel id="TAPMovies.ph@SD">
     <display-name>TAP MOVIES</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/0/06/TapMovies-ph.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/0/06/TapMovies-ph.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="CinemaOne.ph@SD">
     <display-name>CINEMA ONE</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/960px-Cinema_One_2013_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/960px-Cinema_One_2013_logo.svg.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="PBO.ph@SD">
     <display-name>PBO</display-name>
-    <icon src="https://i.imgur.com/HZURi7d.png"/>
+    <icon src="https://i.imgur.com/HZURi7d.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="TLCSoutheastAsia.sg@SD">
     <display-name>TLC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="KIX.hk@SD">
     <display-name>KIX</display-name>
-    <icon src="https://i.imgur.com/zWcUAdb.png"/>
+    <icon src="https://i.imgur.com/zWcUAdb.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="65">
@@ -143,17 +143,17 @@
   </channel>
   <channel id="KBSWorld.kr@SD">
     <display-name>KBS WORLD</display-name>
-    <icon src="https://i.imgur.com/7DqgELX.png"/>
+    <icon src="https://i.imgur.com/7DqgELX.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="TAPActionFlix.ph@SD">
     <display-name>TapAction Flix</display-name>
-    <icon src="https://i.imgur.com/45Y6iXq.png"/>
+    <icon src="https://i.imgur.com/45Y6iXq.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="TagalizedMovieChannel.ph@SD">
     <display-name>TMC (TAGALIZED MOVIE CHANNEL)</display-name>
-    <icon src="https://i.imgur.com/jr9Qm2M.png"/>
+    <icon src="https://i.imgur.com/jr9Qm2M.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="82">
@@ -166,7 +166,7 @@
   </channel>
   <channel id="CCM.hk@SD">
     <display-name>CELESTIAL CLASSIC MOVIES</display-name>
-    <icon src="https://i.imgur.com/1VhXilw.png"/>
+    <icon src="https://i.imgur.com/1VhXilw.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="99">
@@ -191,12 +191,12 @@
   </channel>
   <channel id="ROCKExtreme.sg@SD">
     <display-name>ROCK ACTION</display-name>
-    <icon src="https://i.imgur.com/3U1JpHm.png"/>
+    <icon src="https://i.imgur.com/3U1JpHm.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="Thrill.hk@SD">
     <display-name>THRILL</display-name>
-    <icon src="https://i.imgur.com/Y282owj.png"/>
+    <icon src="https://i.imgur.com/Y282owj.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="108">
@@ -237,17 +237,17 @@
   </channel>
   <channel id="PremierSports.ph@SD">
     <display-name>PREMIER SPORTS</display-name>
-    <icon src="https://i.imgur.com/BURPHzI.png"/>
+    <icon src="https://i.imgur.com/BURPHzI.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="TVBSAsia.tw@SD">
     <display-name>TVBS ASIA</display-name>
-    <icon src="https://i.imgur.com/4S1rkhm.png"/>
+    <icon src="https://i.imgur.com/4S1rkhm.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="StarBharat.in@SD">
     <display-name>STAR BHARAT</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s159101_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s159101_ld_h15_aa.png?lock=720x540" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="164">
@@ -368,7 +368,7 @@
   </channel>
   <channel id="NHKWorldJapan.jp@SD">
     <display-name>NHK WORLD JAPAN</display-name>
-    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png"/>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="242">
@@ -401,7 +401,7 @@
   </channel>
   <channel id="MezzoLive.fr@SD">
     <display-name>MEZZO LIVE HD</display-name>
-    <icon src="https://i.imgur.com/H9ytKPN.png"/>
+    <icon src="https://i.imgur.com/H9ytKPN.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="253">
@@ -414,7 +414,7 @@
   </channel>
   <channel id="MetroChannel.ph@SD">
     <display-name>METRO CHANNEL SD</display-name>
-    <icon src="https://i.imgur.com/mRMPwfl.jpg"/>
+    <icon src="https://i.imgur.com/mRMPwfl.jpg" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="288">
@@ -435,72 +435,72 @@
   </channel>
   <channel id="ZooMoo.sg@SD">
     <display-name>ZOO MOO</display-name>
-    <icon src="https://i.imgur.com/ciTJrnl.png"/>
+    <icon src="https://i.imgur.com/ciTJrnl.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="DaVinciAsia.de@SD">
     <display-name>DA VINCI</display-name>
-    <icon src="https://i.imgur.com/iBx7K1M.png"/>
+    <icon src="https://i.imgur.com/iBx7K1M.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="TechStorm.sg@SD">
     <display-name>TECH STORM</display-name>
-    <icon src="https://i.imgur.com/fAprFBJ.png"/>
+    <icon src="https://i.imgur.com/fAprFBJ.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="TVBSNews.tw@SD">
     <display-name>TVBS NEWS</display-name>
-    <icon src="https://i.imgur.com/171lwfg.png"/>
+    <icon src="https://i.imgur.com/171lwfg.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="OneSports.ph@SD">
     <display-name>ONE SPORTS</display-name>
-    <icon src="https://i.imgur.com/ig5PBMu.png"/>
+    <icon src="https://i.imgur.com/ig5PBMu.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="TAPSports.ph@SD">
     <display-name>TAP SPORTS HD</display-name>
-    <icon src="https://i.imgur.com/4GmuJMD.png"/>
+    <icon src="https://i.imgur.com/4GmuJMD.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="MTV90s.uk@SD">
     <display-name>MTV 90s</display-name>
-    <icon src="https://i.imgur.com/au5zhwP.png"/>
+    <icon src="https://i.imgur.com/au5zhwP.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="PremierFootball.ph@SD">
     <display-name>PREMIER FOOTBALL HD</display-name>
-    <icon src="https://i.imgur.com/lKjXwtG.png"/>
+    <icon src="https://i.imgur.com/lKjXwtG.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="A2Z.ph@SD">
     <display-name>A2Z</display-name>
-    <icon src="https://i.imgur.com/1zsdloF.png"/>
+    <icon src="https://i.imgur.com/1zsdloF.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="TAPTV.ph@SD">
     <display-name>TAP TV</display-name>
-    <icon src="https://i.imgur.com/1Fkh0Vx.png"/>
+    <icon src="https://i.imgur.com/1Fkh0Vx.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="TAPEdge.ph@SD">
     <display-name>TAP EDGE</display-name>
-    <icon src="https://i.imgur.com/ljey69u.png"/>
+    <icon src="https://i.imgur.com/ljey69u.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="PremierSports2.ph@SD">
     <display-name>PREMIER SPORTS 2 HD</display-name>
-    <icon src="https://i.imgur.com/UQeXWd2.png"/>
+    <icon src="https://i.imgur.com/UQeXWd2.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="GlobalTrekker.sg@SD">
     <display-name>GLOBAL TREKKER HD</display-name>
-    <icon src="https://i.imgur.com/5nlmJIw.png"/>
+    <icon src="https://i.imgur.com/5nlmJIw.png" />
     <url>https://mysky.com.ph</url>
   </channel>
   <channel id="LoveNature.ca@SD">
     <display-name>LOVE NATURE HD</display-name>
-    <icon src="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png"/>
+    <icon src="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" />
     <url>https://mysky.com.ph</url>
   </channel>
 </tv>

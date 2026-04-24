@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="76">
     <display-name>HOY 國際財經台</display-name>
@@ -6,7 +6,7 @@
   </channel>
   <channel id="HOYTV.hk@SD">
     <display-name>HOY TV</display-name>
-    <icon src="https://i.imgur.com/NfVZPTT.png"/>
+    <icon src="https://i.imgur.com/NfVZPTT.png" />
     <url>https://hoy.tv</url>
   </channel>
   <channel id="78">

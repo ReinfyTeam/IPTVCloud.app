@@ -1,148 +1,148 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="AnhuiTV.cn@SD">
     <display-name>安徽卫视</display-name>
-    <icon src="https://i.imgur.com/gDn101f.png"/>
+    <icon src="https://i.imgur.com/gDn101f.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="BeijingSatelliteTV.cn@SD">
     <display-name>北京卫视</display-name>
-    <icon src="https://i.imgur.com/vsktAez.png"/>
+    <icon src="https://i.imgur.com/vsktAez.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="BRTVArtsChannel.cn@SD">
     <display-name>BTV文艺</display-name>
-    <icon src="https://i.imgur.com/5nimp0q.png"/>
+    <icon src="https://i.imgur.com/5nimp0q.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="BRTVScienceEducationChannel.cn@SD">
     <display-name>BTV科教</display-name>
-    <icon src="https://i.imgur.com/q0qvOUe.png"/>
+    <icon src="https://i.imgur.com/q0qvOUe.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="BRTVFilmTelevisionChannel.cn@SD">
     <display-name>BTV影视</display-name>
-    <icon src="https://i.imgur.com/S6XVVbH.png"/>
+    <icon src="https://i.imgur.com/S6XVVbH.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="BRTVFinancialChannel.cn@SD">
     <display-name>BTV财经</display-name>
-    <icon src="https://i.imgur.com/Ry0JHYW.png"/>
+    <icon src="https://i.imgur.com/Ry0JHYW.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="BRTVLifeChannel.cn@SD">
     <display-name>BTV生活</display-name>
-    <icon src="https://i.imgur.com/Bg05fxY.png"/>
+    <icon src="https://i.imgur.com/Bg05fxY.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="BRTVNewsChannel.cn@SD">
     <display-name>BTV新闻</display-name>
-    <icon src="https://i.imgur.com/QwORUF9.png"/>
+    <icon src="https://i.imgur.com/QwORUF9.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="BRTVKakuChildrensChannel.cn@SD">
     <display-name>BTV卡酷少儿</display-name>
-    <icon src="https://i.imgur.com/t8X4wPZ.png"/>
+    <icon src="https://i.imgur.com/t8X4wPZ.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="BRTVWinterOlympicsDocumentaryChannel.cn@SD">
     <display-name>BTV纪实</display-name>
-    <icon src="https://i.imgur.com/X1CQGpD.png"/>
+    <icon src="https://i.imgur.com/X1CQGpD.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV1.cn@SD">
     <display-name>CCTV 1</display-name>
-    <icon src="https://i.imgur.com/TpA3cUl.png"/>
+    <icon src="https://i.imgur.com/TpA3cUl.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV2.cn@SD">
     <display-name>CCTV 2</display-name>
-    <icon src="https://i.imgur.com/ILamhwU.png"/>
+    <icon src="https://i.imgur.com/ILamhwU.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV3.cn@SD">
     <display-name>CCTV 3</display-name>
-    <icon src="https://i.imgur.com/iFlkIuw.png"/>
+    <icon src="https://i.imgur.com/iFlkIuw.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV5.cn@SD">
     <display-name>CCTV 5</display-name>
-    <icon src="https://i.imgur.com/nbmnGwE.png"/>
+    <icon src="https://i.imgur.com/nbmnGwE.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV5Plus.cn@SD">
     <display-name>CCTV 5+</display-name>
-    <icon src="https://i.imgur.com/OK8mdJV.png"/>
+    <icon src="https://i.imgur.com/OK8mdJV.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV6.cn@SD">
     <display-name>CCTV 6</display-name>
-    <icon src="https://i.imgur.com/rFiaef7.png"/>
+    <icon src="https://i.imgur.com/rFiaef7.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV7.cn@SD">
     <display-name>CCTV 7</display-name>
-    <icon src="https://i.imgur.com/CKcPMQC.png"/>
+    <icon src="https://i.imgur.com/CKcPMQC.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV8.cn@SD">
     <display-name>CCTV 8</display-name>
-    <icon src="https://i.imgur.com/GyHaZ8X.png"/>
+    <icon src="https://i.imgur.com/GyHaZ8X.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV10.cn@SD">
     <display-name>CCTV 10</display-name>
-    <icon src="https://i.imgur.com/sSSO7UD.png"/>
+    <icon src="https://i.imgur.com/sSSO7UD.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV11.cn@SD">
     <display-name>CCTV 11</display-name>
-    <icon src="https://i.imgur.com/CjOWx7L.png"/>
+    <icon src="https://i.imgur.com/CjOWx7L.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV12.cn@SD">
     <display-name>CCTV 12</display-name>
-    <icon src="https://i.imgur.com/3yTuiOM.png"/>
+    <icon src="https://i.imgur.com/3yTuiOM.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV13.cn@SD">
     <display-name>CCTV 13</display-name>
-    <icon src="https://i.imgur.com/6MTar6J.png"/>
+    <icon src="https://i.imgur.com/6MTar6J.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV15.cn@SD">
     <display-name>CCTV 15</display-name>
-    <icon src="https://i.imgur.com/CCV0eRG.png"/>
+    <icon src="https://i.imgur.com/CCV0eRG.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV4America.cn@SD">
     <display-name>CCTV 4 America</display-name>
-    <icon src="https://i.imgur.com/gBbLyqh.png"/>
+    <icon src="https://i.imgur.com/gBbLyqh.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV14.cn@SD">
     <display-name>CCTV 14</display-name>
-    <icon src="https://i.imgur.com/c5SXW7i.png"/>
+    <icon src="https://i.imgur.com/c5SXW7i.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV4Europe.cn@SD">
     <display-name>CCTV 4 Europe</display-name>
-    <icon src="https://i.imgur.com/HGLFdfk.png"/>
+    <icon src="https://i.imgur.com/HGLFdfk.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTVStormFootball.cn@SD">
     <display-name>CCTV风云足球</display-name>
-    <icon src="https://i.imgur.com/Fy6HkX0.png"/>
+    <icon src="https://i.imgur.com/Fy6HkX0.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTVGolfTennis.cn@SD">
     <display-name>CCTV高尔夫网球</display-name>
-    <icon src="https://i.imgur.com/iqJJTmH.png"/>
+    <icon src="https://i.imgur.com/iqJJTmH.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTV9.cn@SD">
     <display-name>CCTV 9</display-name>
-    <icon src="https://i.imgur.com/3tivvMm.png"/>
+    <icon src="https://i.imgur.com/3tivvMm.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="cctvlaogushi">
@@ -151,7 +151,7 @@
   </channel>
   <channel id="JiangsuLiangMakeUp.cn@SD">
     <display-name>靓妆</display-name>
-    <icon src="https://i.imgur.com/LdBsMIV.png"/>
+    <icon src="https://i.imgur.com/LdBsMIV.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="cctvqimo">
@@ -164,32 +164,32 @@
   </channel>
   <channel id="CCTVEntertainment.cn@SD">
     <display-name>CCTV娱乐</display-name>
-    <icon src="https://i.imgur.com/GRbTW53.png"/>
+    <icon src="https://i.imgur.com/GRbTW53.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CDTV1.cn@SD">
     <display-name>成都新闻综合</display-name>
-    <icon src="https://i.imgur.com/B4RzrDk.png"/>
+    <icon src="https://i.imgur.com/B4RzrDk.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CDTV2.cn@SD">
     <display-name>成都经济资讯服务</display-name>
-    <icon src="https://i.imgur.com/VybrHW5.png"/>
+    <icon src="https://i.imgur.com/VybrHW5.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CETV1.cn@SD">
     <display-name>CETV 1</display-name>
-    <icon src="https://i.imgur.com/6sOHLq8.png"/>
+    <icon src="https://i.imgur.com/6sOHLq8.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CETV2.cn@SD">
     <display-name>CETV 2</display-name>
-    <icon src="https://i.imgur.com/ZD8XPmw.png"/>
+    <icon src="https://i.imgur.com/ZD8XPmw.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CETV3.cn@SD">
     <display-name>CETV 3</display-name>
-    <icon src="https://i.imgur.com/nkXzRJ6.png"/>
+    <icon src="https://i.imgur.com/nkXzRJ6.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="chongqing">
@@ -198,17 +198,17 @@
   </channel>
   <channel id="CCTVChinaTelevisionShoppingChannel.cn@SD">
     <display-name>CCTV中视购物</display-name>
-    <icon src="https://i.imgur.com/ToJBJg4.png"/>
+    <icon src="https://i.imgur.com/ToJBJg4.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTVTheFirstTheater.cn@SD">
     <display-name>CCTV第一剧场</display-name>
-    <icon src="https://i.imgur.com/eFxD3hq.png"/>
+    <icon src="https://i.imgur.com/eFxD3hq.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="DragonTV.cn@SD">
     <display-name>东方卫视</display-name>
-    <icon src="https://i.imgur.com/WqM6xnF.png"/>
+    <icon src="https://i.imgur.com/WqM6xnF.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="dongnan">
@@ -217,67 +217,67 @@
   </channel>
   <channel id="CCTVStormTheater.cn@SD">
     <display-name>CCTV风云剧场</display-name>
-    <icon src="https://i.imgur.com/rEttkKm.png"/>
+    <icon src="https://i.imgur.com/rEttkKm.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTVStormMusic.cn@SD">
     <display-name>CCTV风云音乐</display-name>
-    <icon src="https://i.imgur.com/IiiRmrf.png"/>
+    <icon src="https://i.imgur.com/IiiRmrf.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="GansuTV.cn@SD">
     <display-name>甘肃卫视</display-name>
-    <icon src="https://i.imgur.com/dANSiug.png"/>
+    <icon src="https://i.imgur.com/dANSiug.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="GuangdongSatelliteTV.cn@SD">
     <display-name>广东卫视</display-name>
-    <icon src="https://parco-zh.github.io/demo/guangdong.jpg"/>
+    <icon src="https://parco-zh.github.io/demo/guangdong.jpg" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="GuangxiTV.cn@SD">
     <display-name>广西卫视</display-name>
-    <icon src="https://i.imgur.com/dpre5Qs.png"/>
+    <icon src="https://i.imgur.com/dpre5Qs.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="GuizhouTV.cn@SD">
     <display-name>贵州卫视</display-name>
-    <icon src="https://i.imgur.com/nkcKCdr.png"/>
+    <icon src="https://i.imgur.com/nkcKCdr.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="HebeiTV.cn@SD">
     <display-name>河北卫视</display-name>
-    <icon src="https://i.imgur.com/Z5Ppzbi.png"/>
+    <icon src="https://i.imgur.com/Z5Ppzbi.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="HeilongjiangTV.cn@SD">
     <display-name>黑龙江卫视</display-name>
-    <icon src="https://i.imgur.com/9fj1uba.png"/>
+    <icon src="https://i.imgur.com/9fj1uba.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="HenanTVSatellite.cn@SD">
     <display-name>河南卫视</display-name>
-    <icon src="https://i.imgur.com/IBW26kV.png"/>
+    <icon src="https://i.imgur.com/IBW26kV.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTVNostalgiaTheater.cn@SD">
     <display-name>CCTV怀旧剧场</display-name>
-    <icon src="https://i.imgur.com/TVs9PBc.png"/>
+    <icon src="https://i.imgur.com/TVs9PBc.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="SuperChannel.cn@SD">
     <display-name>环球奇观</display-name>
-    <icon src="https://i.imgur.com/oLgm0xI.png"/>
+    <icon src="https://i.imgur.com/oLgm0xI.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="HubeiSatelliteTV.cn@SD">
     <display-name>湖北卫视</display-name>
-    <icon src="https://i.imgur.com/CTRa9BJ.png"/>
+    <icon src="https://i.imgur.com/CTRa9BJ.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="HunanTV.cn@SD">
     <display-name>湖南卫视</display-name>
-    <icon src="https://parco-zh.github.io/demo/HNWS.png"/>
+    <icon src="https://parco-zh.github.io/demo/HNWS.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="JiangsuSatelliteTV.cn@SD">
@@ -286,142 +286,142 @@
   </channel>
   <channel id="JiangxiTV.cn@SD">
     <display-name>江西卫视</display-name>
-    <icon src="https://i.imgur.com/RrLthH3.png"/>
+    <icon src="https://i.imgur.com/RrLthH3.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="JilinTVStation.cn@SD">
     <display-name>吉林卫视</display-name>
-    <icon src="https://i.imgur.com/CikxiyB.png"/>
+    <icon src="https://i.imgur.com/CikxiyB.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTVCultureofQuality.cn@SD">
     <display-name>CCTV央视文化精品</display-name>
-    <icon src="https://i.imgur.com/Paig8gG.png"/>
+    <icon src="https://i.imgur.com/Paig8gG.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="LiaoningTV.cn@SD">
     <display-name>辽宁卫视</display-name>
-    <icon src="https://i.imgur.com/XRfeNTd.png"/>
+    <icon src="https://i.imgur.com/XRfeNTd.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="NBTV1.cn@SD">
     <display-name>宁波一套</display-name>
-    <icon src="https://i.imgur.com/9P2iTld.png"/>
+    <icon src="https://i.imgur.com/9P2iTld.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="NBTV2.cn@SD">
     <display-name>宁波二套</display-name>
-    <icon src="https://i.imgur.com/fpOlkDs.png"/>
+    <icon src="https://i.imgur.com/fpOlkDs.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="NBTV3.cn@SD">
     <display-name>宁波三套</display-name>
-    <icon src="https://i.imgur.com/MKB2aaM.png"/>
+    <icon src="https://i.imgur.com/MKB2aaM.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="NBTV4.cn@SD">
     <display-name>宁波四套</display-name>
-    <icon src="https://i.imgur.com/BPy1jif.png"/>
+    <icon src="https://i.imgur.com/BPy1jif.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="NBTV5.cn@SD">
     <display-name>宁波五套</display-name>
-    <icon src="https://i.imgur.com/RStBo1O.png"/>
+    <icon src="https://i.imgur.com/RStBo1O.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="NeiMonggolChineseTV.cn@SD">
     <display-name>内蒙古卫视</display-name>
-    <icon src="https://i.imgur.com/R4DWvBa.png"/>
+    <icon src="https://i.imgur.com/R4DWvBa.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="NingxiaSatelliteChannel.cn@SD">
     <display-name>宁夏卫视</display-name>
-    <icon src="https://i.imgur.com/nUQE4Ib.png"/>
+    <icon src="https://i.imgur.com/nUQE4Ib.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="QinghaiTV.cn@SD">
     <display-name>青海卫视</display-name>
-    <icon src="https://i.imgur.com/Nyuxo8S.png"/>
+    <icon src="https://i.imgur.com/Nyuxo8S.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="ShandongEducationTV.cn@SD">
     <display-name>山东教育台</display-name>
-    <icon src="https://i.imgur.com/yb10kF0.png"/>
+    <icon src="https://i.imgur.com/yb10kF0.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="ShanxiTV.cn@SD">
     <display-name>山西卫视</display-name>
-    <icon src="https://i.imgur.com/UfKJBWW.png"/>
+    <icon src="https://i.imgur.com/UfKJBWW.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="ShandongTV.cn@SD">
     <display-name>山东卫视</display-name>
-    <icon src="https://i.imgur.com/t3ICc4i.png"/>
+    <icon src="https://i.imgur.com/t3ICc4i.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="ShenzhenTV.cn@SD">
     <display-name>深圳卫视</display-name>
-    <icon src="https://i.imgur.com/AnZjWm4.png"/>
+    <icon src="https://i.imgur.com/AnZjWm4.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTVWorldGeography.cn@SD">
     <display-name>CCTV世界地理</display-name>
-    <icon src="https://i.imgur.com/V2ncOXi.png"/>
+    <icon src="https://i.imgur.com/V2ncOXi.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTVWomensFashion.cn@SD">
     <display-name>CCTV女性时尚</display-name>
-    <icon src="https://i.imgur.com/FVbP0aP.png"/>
+    <icon src="https://i.imgur.com/FVbP0aP.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="SichuanTV1.cn@SD">
     <display-name>四川卫视</display-name>
-    <icon src="https://i.imgur.com/Crapy6M.png"/>
+    <icon src="https://i.imgur.com/Crapy6M.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTVBilliards.cn@SD">
     <display-name>CCTV央视台球</display-name>
-    <icon src="https://i.imgur.com/WK3keM9.png"/>
+    <icon src="https://i.imgur.com/WK3keM9.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="TianjinTV.cn@SD">
     <display-name>天津卫视</display-name>
-    <icon src="https://i.imgur.com/Bg24eaH.png"/>
+    <icon src="https://i.imgur.com/Bg24eaH.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="TianyuanIGoChannel.cn@SD">
     <display-name>天元围棋</display-name>
-    <icon src="https://i.imgur.com/zCBOnxL.png"/>
+    <icon src="https://i.imgur.com/zCBOnxL.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="HainanSatelliteTV.cn@SD">
     <display-name>旅游卫视</display-name>
-    <icon src="https://i.imgur.com/j6kY8nh.png"/>
+    <icon src="https://i.imgur.com/j6kY8nh.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="LiyuanTV.cn@SD">
     <display-name>文物宝库</display-name>
-    <icon src="https://i.imgur.com/5mn4PJn.png"/>
+    <icon src="https://i.imgur.com/5mn4PJn.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTVHealth.cn@SD">
     <display-name>卫生健康</display-name>
-    <icon src="https://i.imgur.com/AzpRtCz.png"/>
+    <icon src="https://i.imgur.com/AzpRtCz.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="MartialArtsWorld.cn@SD">
     <display-name>武术世界</display-name>
-    <icon src="https://i.imgur.com/Z7aSwv8.png"/>
+    <icon src="https://i.imgur.com/Z7aSwv8.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="XiamenStarTVChina.cn@SD">
     <display-name>厦门卫视</display-name>
-    <icon src="https://i.imgur.com/vDwOXvz.png"/>
+    <icon src="https://i.imgur.com/vDwOXvz.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="XizangTVChinese.cn@SD">
     <display-name>新疆卫视</display-name>
-    <icon src="https://i.imgur.com/V0v3ST5.png"/>
+    <icon src="https://i.imgur.com/V0v3ST5.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="xinkedongman">
@@ -430,37 +430,37 @@
   </channel>
   <channel id="XizangTVTibetan.cn@SD">
     <display-name>西藏卫视</display-name>
-    <icon src="https://i.imgur.com/NtvfnVV.png"/>
+    <icon src="https://i.imgur.com/NtvfnVV.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="YanbianTV1.cn@SD">
     <display-name>延边卫视</display-name>
-    <icon src="https://i.imgur.com/gBUlAfX.png"/>
+    <icon src="https://i.imgur.com/gBUlAfX.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="GTV.cn@SD">
     <display-name>游戏竞技</display-name>
-    <icon src="https://i.imgur.com/iyQBBgw.png"/>
+    <icon src="https://i.imgur.com/iyQBBgw.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="YunnanTV1.cn@SD">
     <display-name>云南卫视</display-name>
-    <icon src="https://i.imgur.com/POV1PUV.png"/>
+    <icon src="https://i.imgur.com/POV1PUV.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CETVEarlyEducation.cn@SD">
     <display-name>早期教育</display-name>
-    <icon src="https://i.imgur.com/Ey2MrAj.png"/>
+    <icon src="https://i.imgur.com/Ey2MrAj.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="ZhejiangSatelliteTV.cn@SD">
     <display-name>浙江卫视</display-name>
-    <icon src="https://i.imgur.com/NFFQNhq.png"/>
+    <icon src="https://i.imgur.com/NFFQNhq.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <channel id="CCTVTVGuide.cn@SD">
     <display-name>CCTV电视指南</display-name>
-    <icon src="https://i.imgur.com/U73Q4NW.png"/>
+    <icon src="https://i.imgur.com/U73Q4NW.png" />
     <url>https://tv.cctv.com</url>
   </channel>
   <programme start="20260422160700 +0000" stop="20260422162200 +0000" channel="AnhuiTV.cn@SD">

@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="KNR1.gl@SD">
     <display-name>KNR</display-name>
-    <icon src="https://i.imgur.com/FfV4aKa.png"/>
+    <icon src="https://i.imgur.com/FfV4aKa.png" />
     <url>https://knr.gl</url>
   </channel>
   <programme start="20260424090000 +0000" stop="20260424100000 +0000" channel="KNR1.gl@SD">

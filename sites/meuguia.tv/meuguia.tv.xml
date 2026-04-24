@@ -1,63 +1,63 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="PremiereClubes.br@SD">
     <display-name>Premiere Clubes</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Premiere_(2017)_logo.png/960px-Premiere_(2017)_logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Premiere_(2017)_logo.png/960px-Premiere_(2017)_logo.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Combate.br@SD">
     <display-name>Combate</display-name>
-    <icon src="https://i.imgur.com/ZPYK5jr.png"/>
+    <icon src="https://i.imgur.com/ZPYK5jr.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="LifetimeLatinAmerica.us@Brazil">
     <display-name>Lifetime</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="AnimalPlanet.br@SD">
     <display-name>Animal Planet</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="AXN.br@SD">
     <display-name>AXN</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="BabyTV.uk@UK">
     <display-name>Baby TV</display-name>
-    <icon src="https://i.imgur.com/4BDJ5FT.png"/>
+    <icon src="https://i.imgur.com/4BDJ5FT.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Band.br@SD">
     <display-name>Band</display-name>
-    <icon src="https://i.imgur.com/1r5T6Pw.png"/>
+    <icon src="https://i.imgur.com/1r5T6Pw.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="BBCNews.uk@NorthAmerica">
     <display-name>BBC World News</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="BloombergTV.us@US">
     <display-name>Bloomberg</display-name>
-    <icon src="https://i.imgur.com/OuogLHx.png"/>
+    <icon src="https://i.imgur.com/OuogLHx.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="CanaldoBoi.br@SD">
     <display-name>Canal do Boi</display-name>
-    <icon src="https://i.imgur.com/pVM5MhS.png"/>
+    <icon src="https://i.imgur.com/pVM5MhS.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Arte1.br@SD">
     <display-name>Arte 1</display-name>
-    <icon src="https://i.imgur.com/Ivnk7A6.png"/>
+    <icon src="https://i.imgur.com/Ivnk7A6.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="BandSports.br@SD">
     <display-name>Band Sports</display-name>
-    <icon src="https://i.imgur.com/EuPvzJe.png"/>
+    <icon src="https://i.imgur.com/EuPvzJe.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="C21">
@@ -66,42 +66,42 @@
   </channel>
   <channel id="TVCamara.br@SD">
     <display-name>TV Câmara</display-name>
-    <icon src="https://i.imgur.com/Sdou1Ab.png"/>
+    <icon src="https://i.imgur.com/Sdou1Ab.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="CartoonNetworkLatinAmerica.us@Brazil">
     <display-name>Cartoon Network</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="CanalBrasil.br@SD">
     <display-name>Canal Brasil</display-name>
-    <icon src="https://i.imgur.com/1MusQ5K.png"/>
+    <icon src="https://i.imgur.com/1MusQ5K.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="ComedyCentralLatinAmerica.us@Brazil">
     <display-name>Comedy Central</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="FXLatinAmerica.us@Brazil">
     <display-name>FX</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Climatempo.br@SD">
     <display-name>Climatempo</display-name>
-    <icon src="https://i.imgur.com/gEdF9A9.png"/>
+    <icon src="https://i.imgur.com/gEdF9A9.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="CNN.us@SD">
     <display-name>CNN International</display-name>
-    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png"/>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TVCancaoNova.br@SD">
     <display-name>Canção Nova</display-name>
-    <icon src="https://i.imgur.com/OaM9hkH.png"/>
+    <icon src="https://i.imgur.com/OaM9hkH.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="CUL">
@@ -110,97 +110,97 @@
   </channel>
   <channel id="DiscoveryTheater.br@SD">
     <display-name>Discovery HD Theater</display-name>
-    <icon src="https://i.imgur.com/T07gvEb.png"/>
+    <icon src="https://i.imgur.com/T07gvEb.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="DiscoveryChannelLatinAmerica.us@Brazil">
     <display-name>Discovery Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="DiscoveryWorld.us@Brazil">
     <display-name>Discovery World</display-name>
-    <icon src="https://i.imgur.com/yNFmUkE.png"/>
+    <icon src="https://i.imgur.com/yNFmUkE.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="DisneyChannel.br@SD">
     <display-name>Disney Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Disney_channel_2019.png/960px-Disney_channel_2019.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Disney_channel_2019.png/960px-Disney_channel_2019.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="DiscoveryScienceLatinAmerica.us@Brazil">
     <display-name>Discovery Science</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/960px-Discovery_science_new_logo_2017.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/960px-Discovery_science_new_logo_2017.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="DiscoveryTurboLatinAmerica.us@Brazil">
     <display-name>Discovery Turbo</display-name>
-    <icon src="https://i.imgur.com/1pQPxu3.png"/>
+    <icon src="https://i.imgur.com/1pQPxu3.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="DW.de@Deutsch">
     <display-name>Deutsche Welle</display-name>
-    <icon src="https://i.imgur.com/8MRNFb9.png"/>
+    <icon src="https://i.imgur.com/8MRNFb9.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="ELatinAmerica.us@Brazil">
     <display-name>E! Entertainment Television</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/500px-E%21_Logo_2012.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/500px-E%21_Logo_2012.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="ESPN.br@SD">
     <display-name>ESPN Brasil</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TVEscola.br@SD">
     <display-name>TV Escola</display-name>
-    <icon src="https://i.imgur.com/OF6aGQj.png"/>
+    <icon src="https://i.imgur.com/OF6aGQj.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="ESPN.us@SD">
     <display-name>ESPN</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Eurochannel.uk@SD">
     <display-name>Eurochannel</display-name>
-    <icon src="https://i.imgur.com/yXAtmI6.png"/>
+    <icon src="https://i.imgur.com/yXAtmI6.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="FoxSports2.br@SD">
     <display-name>Fox Sports 2</display-name>
-    <icon src="https://i.imgur.com/VbPBoYF.png"/>
+    <icon src="https://i.imgur.com/VbPBoYF.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="FoxSports.br@SD">
     <display-name>Fox Sports</display-name>
-    <icon src="https://i.imgur.com/xO5JwDQ.png"/>
+    <icon src="https://i.imgur.com/xO5JwDQ.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="CanalFutura.br@SD">
     <display-name>Futura</display-name>
-    <icon src="https://i.imgur.com/LgynEBC.png"/>
+    <icon src="https://i.imgur.com/LgynEBC.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TVGazeta.br@SD">
     <display-name>TV Gazeta</display-name>
-    <icon src="https://i.imgur.com/0sksWse.png"/>
+    <icon src="https://i.imgur.com/0sksWse.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="GloboNews.br@SD">
     <display-name>Globo News</display-name>
-    <icon src="https://i.imgur.com/3yZyaCm.png"/>
+    <icon src="https://i.imgur.com/3yZyaCm.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="GNT.br@SD">
     <display-name>GNT</display-name>
-    <icon src="https://i.imgur.com/XymcvMy.png"/>
+    <icon src="https://i.imgur.com/XymcvMy.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Gloob.br@SD">
     <display-name>Gloob</display-name>
-    <icon src="https://i.imgur.com/N1BUULh.png"/>
+    <icon src="https://i.imgur.com/N1BUULh.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="GRD">
@@ -209,102 +209,102 @@
   </channel>
   <channel id="StudioUniversalLatinAmerica.us@Brazil">
     <display-name>Studio Universal</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="HBO2.br@SD">
     <display-name>HBO 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="HBO.br@SD">
     <display-name>HBO</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="HBOFamily.br@SD">
     <display-name>HBO Family</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/960px-HBO_Family.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/960px-HBO_Family.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="HBOSignature.br@SD">
     <display-name>HBO Signature</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/960px-HBO_Signature.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/960px-HBO_Signature.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="HBOPlus.br@SD">
     <display-name>HBO Plus</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/960px-Logohboplus2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/960px-Logohboplus2019.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TVJustica.br@SD">
     <display-name>TV Justiça</display-name>
-    <icon src="https://i.imgur.com/rOQKiMO.png"/>
+    <icon src="https://i.imgur.com/rOQKiMO.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="BoaVontadeTV.br@SD">
     <display-name>Rede Boa Vontade</display-name>
-    <icon src="https://i.imgur.com/Ms5tSgu.png"/>
+    <icon src="https://i.imgur.com/Ms5tSgu.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="AMCLatinAmerica.us@Brazil">
     <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Cinemax.br@SD">
     <display-name>Cinemax</display-name>
-    <icon src="https://i.imgur.com/cZWoJWD.png"/>
+    <icon src="https://i.imgur.com/cZWoJWD.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Megapix.br@SD">
     <display-name>Megapix</display-name>
-    <icon src="https://i.imgur.com/qTYv5jt.png"/>
+    <icon src="https://i.imgur.com/qTYv5jt.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Bis.br@SD">
     <display-name>Bis</display-name>
-    <icon src="https://i.imgur.com/VUt1lmH.png"/>
+    <icon src="https://i.imgur.com/VUt1lmH.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Multishow.br@SD">
     <display-name>Multishow</display-name>
-    <icon src="https://i.imgur.com/bqVg8nT.png"/>
+    <icon src="https://i.imgur.com/bqVg8nT.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="MTV.br@SD">
     <display-name>MTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="BandNews.br@SD">
     <display-name>Band News</display-name>
-    <icon src="https://i.ibb.co/0jVZBFp/u8ya-iw-R-400x400.jpg"/>
+    <icon src="https://i.ibb.co/0jVZBFp/u8ya-iw-R-400x400.jpg" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="NHKWorldJapan.jp@SD">
     <display-name>NHK World</display-name>
-    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png"/>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Nickelodeon.br@SD">
     <display-name>Nickelodeon</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="NickJr.br@SD">
     <display-name>Nick Jr.</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="CanalOff.br@SD">
     <display-name>OFF HD</display-name>
-    <icon src="https://i.imgur.com/1biaLgJ.png"/>
+    <icon src="https://i.imgur.com/1biaLgJ.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="ParamountNetworkLatinAmerica.us@Brazil">
     <display-name>Paramount Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="RAI">
@@ -313,27 +313,27 @@
   </channel>
   <channel id="RecordNews.br@SD">
     <display-name>Record News</display-name>
-    <icon src="https://i.imgur.com/HZDRG0K.png"/>
+    <icon src="https://i.imgur.com/HZDRG0K.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Record.br@SD">
     <display-name>Record TV</display-name>
-    <icon src="https://i.imgur.com/sz9gTTr.png"/>
+    <icon src="https://i.imgur.com/sz9gTTr.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TVRaTimBum.br@SD">
     <display-name>TV Rá-tim-bum</display-name>
-    <icon src="https://i.imgur.com/JIQwz0w.png"/>
+    <icon src="https://i.imgur.com/JIQwz0w.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="RedeTV.br@SD">
     <display-name>Rede TV</display-name>
-    <icon src="https://i.imgur.com/ZJgD38F.png"/>
+    <icon src="https://i.imgur.com/ZJgD38F.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="CanalRural.br@SD">
     <display-name>Canal Rural</display-name>
-    <icon src="https://i.imgur.com/w9R9IIX.png"/>
+    <icon src="https://i.imgur.com/w9R9IIX.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="SBT">
@@ -342,132 +342,132 @@
   </channel>
   <channel id="SyfyLatinAmerica.us@Brazil">
     <display-name>SyFy</display-name>
-    <icon src="https://i.imgur.com/4fMWhUE.png"/>
+    <icon src="https://i.imgur.com/4fMWhUE.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TVSenado.br@SD">
     <display-name>TV Senado</display-name>
-    <icon src="https://i.imgur.com/duy6waL.png"/>
+    <icon src="https://i.imgur.com/duy6waL.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="SonyChannel.br@SD">
     <display-name>Sony</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Shoptime.br@SD">
     <display-name>Shoptime</display-name>
-    <icon src="https://i.imgur.com/wcsIaWu.png"/>
+    <icon src="https://i.imgur.com/wcsIaWu.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="SICInternacional.pt@SD">
     <display-name>SIC International</display-name>
-    <icon src="https://i.imgur.com/H0ZiaUd.png"/>
+    <icon src="https://i.imgur.com/H0ZiaUd.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="SporTV2.br@SD">
     <display-name>SporTV 2</display-name>
-    <icon src="https://i.imgur.com/pBiUnb2.png"/>
+    <icon src="https://i.imgur.com/pBiUnb2.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="SporTV3.br@SD">
     <display-name>SporTV 3</display-name>
-    <icon src="https://i.imgur.com/mWOR8pi.png"/>
+    <icon src="https://i.imgur.com/mWOR8pi.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Space.ar@Brazil">
     <display-name>SPACE</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/960px-SpaceLogo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/960px-SpaceLogo.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="SporTV.br@SD">
     <display-name>SporTV</display-name>
-    <icon src="https://i.postimg.cc/gr9x3z71/Spor-TV-2021.png"/>
+    <icon src="https://i.postimg.cc/gr9x3z71/Spor-TV-2021.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="NationalGeographic.br@SD">
     <display-name>National Geographic</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TVAparecida.br@SD">
     <display-name>TV Aparecida (aberta)</display-name>
-    <icon src="https://i.imgur.com/kxrja0X.png"/>
+    <icon src="https://i.imgur.com/kxrja0X.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TBSLatinAmerica.us@Brazil">
     <display-name>TBS</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/TBS_logo_2016.svg/960px-TBS_logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/TBS_logo_2016.svg/960px-TBS_logo_2016.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TelecinePremium.br@SD">
     <display-name>Telecine Premium</display-name>
-    <icon src="https://i.imgur.com/uVFgIr8.png"/>
+    <icon src="https://i.imgur.com/uVFgIr8.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TelecineAction.br@SD">
     <display-name>Telecine Action</display-name>
-    <icon src="https://i.imgur.com/BHYWG0h.png"/>
+    <icon src="https://i.imgur.com/BHYWG0h.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TelecineTouch.br@SD">
     <display-name>Telecine Touch</display-name>
-    <icon src="https://i.imgur.com/Nky0hRo.png"/>
+    <icon src="https://i.imgur.com/Nky0hRo.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TelecinePipoca.br@SD">
     <display-name>Telecine Pipoca</display-name>
-    <icon src="https://i.imgur.com/hW9JYXr.png"/>
+    <icon src="https://i.imgur.com/hW9JYXr.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TelecineCult.br@SD">
     <display-name>Telecine Cult</display-name>
-    <icon src="https://i.imgur.com/6GuHXnr.png"/>
+    <icon src="https://i.imgur.com/6GuHXnr.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TelecineFun.br@SD">
     <display-name>Telecine Fun</display-name>
-    <icon src="https://i.imgur.com/MO2Ynki.png"/>
+    <icon src="https://i.imgur.com/MO2Ynki.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TCMLatinAmerica.us@Brazil">
     <display-name>TCM - Turner Classic</display-name>
-    <icon src="https://i.imgur.com/QpDkrmT.png"/>
+    <icon src="https://i.imgur.com/QpDkrmT.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TVBrasil.br@SD">
     <display-name>TV Brasil</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvBrasil2023.png/960px-TvBrasil2023.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvBrasil2023.png/960px-TvBrasil2023.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TNTSeriesLatinAmerica.us@Brazil">
     <display-name>TNT Séries</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TNTLatinAmerica.us@Brazil">
     <display-name>TNT</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="Tooncast.us@SD">
     <display-name>Tooncast</display-name>
-    <icon src="https://i.imgur.com/3yXRbQy.png"/>
+    <icon src="https://i.imgur.com/3yXRbQy.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TravelBoxBrazil.br@SD">
     <display-name>Travel Box Brazil</display-name>
-    <icon src="https://i.imgur.com/3tBJERH.png"/>
+    <icon src="https://i.imgur.com/3tBJERH.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TLCLatinAmerica.us@Brazil">
     <display-name>TLC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TV5MondeLatinAmerica.fr@SD">
     <display-name>TV5 Monde</display-name>
-    <icon src="https://i.imgur.com/x8rjGhp.png"/>
+    <icon src="https://i.imgur.com/x8rjGhp.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="TVE">
@@ -476,32 +476,32 @@
   </channel>
   <channel id="TerraViva.br@SD">
     <display-name>Terra Viva</display-name>
-    <icon src="https://i.imgur.com/wnYsE3O.png"/>
+    <icon src="https://i.imgur.com/wnYsE3O.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="UniversalTVLatinAmerica.us@Brazil">
     <display-name>Universal Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="RedeVida.br@SD">
     <display-name>Rede Vida</display-name>
-    <icon src="https://i.imgur.com/mP1qfp2.png"/>
+    <icon src="https://i.imgur.com/mP1qfp2.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="CanalViva.br@SD">
     <display-name>Viva</display-name>
-    <icon src="https://i.imgur.com/uNHu40M.png"/>
+    <icon src="https://i.imgur.com/uNHu40M.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="WarnerChannel.us@Brazil">
     <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png" />
     <url>https://meuguia.tv</url>
   </channel>
   <channel id="WooHoo.br@SD">
     <display-name>Woohoo</display-name>
-    <icon src="https://i.imgur.com/me622pa.png"/>
+    <icon src="https://i.imgur.com/me622pa.png" />
     <url>https://meuguia.tv</url>
   </channel>
 </tv>

@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="ToonamiAftermath.us@East">
     <display-name>Toonami Aftermath EST</display-name>
-    <icon src="https://i.imgur.com/aSjhZK7.png"/>
+    <icon src="https://i.imgur.com/aSjhZK7.png" />
     <url>https://toonamiaftermath.com</url>
   </channel>
   <programme start="20260423160030 +0000" stop="20260423162034 +0000" channel="ToonamiAftermath.us@East">
@@ -536,15 +536,15 @@
     <sub-title lang="en">Nautilus, The Fantastic Submarine</sub-title>
     <image>https://i.imgur.com/n9ylocT.gif</image>
   </programme>
-  <programme start="20260425080000 +0000" stop="20260425081833 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260425082003 +0000" stop="20260425083428 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260425083608 +0000" stop="20260425084835 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260425085017 +0000" stop="20260425090157 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260425090337 +0000" stop="20260425091419 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260425091603 +0000" stop="20260425092616 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260425092800 +0000" stop="20260425093747 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260425093920 +0000" stop="20260425094848 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260425095044 +0000" stop="20260425100000 +0000" channel="ToonamiAftermath.us@East"/>
+  <programme start="20260425080000 +0000" stop="20260425081833 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260425082003 +0000" stop="20260425083428 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260425083608 +0000" stop="20260425084835 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260425085017 +0000" stop="20260425090157 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260425090337 +0000" stop="20260425091419 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260425091603 +0000" stop="20260425092616 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260425092800 +0000" stop="20260425093747 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260425093920 +0000" stop="20260425094848 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260425095044 +0000" stop="20260425100000 +0000" channel="ToonamiAftermath.us@East" />
   <programme start="20260425100000 +0000" stop="20260425101050 +0000" channel="ToonamiAftermath.us@East">
     <title lang="en">Spiderman</title>
     <sub-title lang="en">The Golden Rhino</sub-title>
@@ -788,13 +788,13 @@
   <programme start="20260426073133 +0000" stop="20260426090400 +0000" channel="ToonamiAftermath.us@East">
     <title lang="en">MST3K - S06E21 - Beast Of Yucca Flats</title>
   </programme>
-  <programme start="20260426090400 +0000" stop="20260426092233 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260426092403 +0000" stop="20260426093828 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260426094008 +0000" stop="20260426095235 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260426095417 +0000" stop="20260426100557 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260426100737 +0000" stop="20260426101819 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260426102003 +0000" stop="20260426103016 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260426103200 +0000" stop="20260426104147 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260426104320 +0000" stop="20260426105248 +0000" channel="ToonamiAftermath.us@East"/>
-  <programme start="20260426105444 +0000" stop="20260426110400 +0000" channel="ToonamiAftermath.us@East"/>
+  <programme start="20260426090400 +0000" stop="20260426092233 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260426092403 +0000" stop="20260426093828 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260426094008 +0000" stop="20260426095235 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260426095417 +0000" stop="20260426100557 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260426100737 +0000" stop="20260426101819 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260426102003 +0000" stop="20260426103016 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260426103200 +0000" stop="20260426104147 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260426104320 +0000" stop="20260426105248 +0000" channel="ToonamiAftermath.us@East" />
+  <programme start="20260426105444 +0000" stop="20260426110400 +0000" channel="ToonamiAftermath.us@East" />
 </tv>

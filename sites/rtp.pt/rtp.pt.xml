@@ -1,53 +1,53 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="RTP1.pt@HD">
     <display-name>RTP1</display-name>
-    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp1_2026.png"/>
+    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp1_2026.png" />
     <url>https://rtp.pt</url>
   </channel>
   <channel id="RTP2.pt@HD">
     <display-name>RTP2</display-name>
-    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp2_2026.png"/>
+    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtp2_2026.png" />
     <url>https://rtp.pt</url>
   </channel>
   <channel id="RTPAcores.pt@HD">
     <display-name>RTP Açores</display-name>
-    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpacores_2026.png"/>
+    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpacores_2026.png" />
     <url>https://rtp.pt</url>
   </channel>
   <channel id="RTPAfrica.pt@SD">
     <display-name>RTP África</display-name>
-    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpafrica_2026.png"/>
+    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpafrica_2026.png" />
     <url>https://rtp.pt</url>
   </channel>
   <channel id="RTPmAmerica.pt@SD">
     <display-name>RTP Mundo América</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png" />
     <url>https://rtp.pt</url>
   </channel>
   <channel id="RTPmAsia.pt@SD">
     <display-name>RTP Mundo Ásia</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png" />
     <url>https://rtp.pt</url>
   </channel>
   <channel id="RTPMundo.pt@SD">
     <display-name>RTP Mundo</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png" />
     <url>https://rtp.pt</url>
   </channel>
   <channel id="RTPMadeira.pt@HD">
     <display-name>RTP Madeira</display-name>
-    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpmadeira_2026.png"/>
+    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpmadeira_2026.png" />
     <url>https://rtp.pt</url>
   </channel>
   <channel id="RTPMemoria.pt@SD">
     <display-name>RTP Memória</display-name>
-    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpmemoria_2026.png"/>
+    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpmemoria_2026.png" />
     <url>https://rtp.pt</url>
   </channel>
   <channel id="RTPNoticias.pt@HD">
     <display-name>RTP Noticias</display-name>
-    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpnoticias_2026.png"/>
+    <icon src="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/rtpnoticias_2026.png" />
     <url>https://rtp.pt</url>
   </channel>
   <programme start="20260423050000 +0000" stop="20260423090000 +0000" channel="RTP1.pt@HD">

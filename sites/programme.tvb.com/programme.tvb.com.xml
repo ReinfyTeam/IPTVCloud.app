@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="B">
     <display-name>tvb plus</display-name>
@@ -6,17 +6,17 @@
   </channel>
   <channel id="TVBNewsChannel.hk@SD">
     <display-name>tvb news channel</display-name>
-    <icon src="https://i.imgur.com/Gwij0Fj.png"/>
+    <icon src="https://i.imgur.com/Gwij0Fj.png" />
     <url>https://programme.tvb.com</url>
   </channel>
   <channel id="Jade.hk@SD">
     <display-name>jade</display-name>
-    <icon src="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png"/>
+    <icon src="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" />
     <url>https://programme.tvb.com</url>
   </channel>
   <channel id="Pearl.hk@SD">
     <display-name>pearl</display-name>
-    <icon src="https://i.imgur.com/UPdcMkW.png"/>
+    <icon src="https://i.imgur.com/UPdcMkW.png" />
     <url>https://programme.tvb.com</url>
   </channel>
   <channel id="B">
@@ -25,17 +25,17 @@
   </channel>
   <channel id="TVBNewsChannel.hk@SD">
     <display-name>無綫新聞台</display-name>
-    <icon src="https://i.imgur.com/Gwij0Fj.png"/>
+    <icon src="https://i.imgur.com/Gwij0Fj.png" />
     <url>https://programme.tvb.com</url>
   </channel>
   <channel id="Jade.hk@SD">
     <display-name>翡翠台</display-name>
-    <icon src="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png"/>
+    <icon src="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" />
     <url>https://programme.tvb.com</url>
   </channel>
   <channel id="Pearl.hk@SD">
     <display-name>明珠台</display-name>
-    <icon src="https://i.imgur.com/UPdcMkW.png"/>
+    <icon src="https://i.imgur.com/UPdcMkW.png" />
     <url>https://programme.tvb.com</url>
   </channel>
   <programme start="20260422220000 +0000" stop="20260422223000 +0000" channel="B">

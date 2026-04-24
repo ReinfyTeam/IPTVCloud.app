@@ -1,23 +1,23 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="OmanTV.om">
     <display-name>قناة عمان العامة</display-name>
-    <icon src="https://i.imgur.com/rBftT9x.png"/>
+    <icon src="https://i.imgur.com/rBftT9x.png" />
     <url>https://ayn.om</url>
   </channel>
   <channel id="OmanSportsTV.om">
     <display-name>قناة عمان الرياضية</display-name>
-    <icon src="https://i.imgur.com/1omi7p8.png"/>
+    <icon src="https://i.imgur.com/1omi7p8.png" />
     <url>https://ayn.om</url>
   </channel>
   <channel id="OmanTVCultural.om">
     <display-name>قناة عمان الثقافية</display-name>
-    <icon src="https://i.imgur.com/b38wNPK.png"/>
+    <icon src="https://i.imgur.com/b38wNPK.png" />
     <url>https://ayn.om</url>
   </channel>
   <channel id="OmanTVMubashir.om">
     <display-name>قناة عمان مباشر</display-name>
-    <icon src="https://i.imgur.com/UkQTR5b.png"/>
+    <icon src="https://i.imgur.com/UkQTR5b.png" />
     <url>https://ayn.om</url>
   </channel>
   <programme start="20260422200000 +0000" stop="20260422210000 +0000" channel="OmanSportsTV.om">

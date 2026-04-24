@@ -1,18 +1,18 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="SIC.pt@SD">
     <display-name>SIC</display-name>
-    <icon src="https://i.imgur.com/SPMqiDG.png"/>
+    <icon src="https://i.imgur.com/SPMqiDG.png" />
     <url>https://opto.sic.pt</url>
   </channel>
   <channel id="SICAltaDefinicao.pt@SD">
     <display-name>SIC Alta Definição</display-name>
-    <icon src="https://i.imgur.com/VdPwyQv.png"/>
+    <icon src="https://i.imgur.com/VdPwyQv.png" />
     <url>https://opto.sic.pt</url>
   </channel>
   <channel id="SICReplay.pt@SD">
     <display-name>SIC Replay</display-name>
-    <icon src="https://i.imgur.com/fj84mXz.png"/>
+    <icon src="https://i.imgur.com/fj84mXz.png" />
     <url>https://opto.sic.pt</url>
   </channel>
   <programme start="20260423142045 +0000" stop="20260423151445 +0000" channel="SIC.pt@SD">

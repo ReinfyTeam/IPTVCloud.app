@@ -1,13 +1,13 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="NHKWorldPremium.jp@SD">
     <display-name>NHK World Premium</display-name>
-    <icon src="https://i.imgur.com/4ESi2La.png"/>
+    <icon src="https://i.imgur.com/4ESi2La.png" />
     <url>https://nhkworldpremium.com</url>
   </channel>
   <channel id="NHKWorldPremium.jp@SD">
     <display-name>NHK World Premium</display-name>
-    <icon src="https://i.imgur.com/4ESi2La.png"/>
+    <icon src="https://i.imgur.com/4ESi2La.png" />
     <url>https://nhkworldpremium.com</url>
   </channel>
   <programme start="20260422152900 +0000" stop="20260422153000 +0000" channel="NHKWorldPremium.jp@SD">

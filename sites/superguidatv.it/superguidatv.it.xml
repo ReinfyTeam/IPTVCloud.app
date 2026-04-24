@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="20.it@SD">
     <display-name>20</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20_Mediaset_2018.svg/960px-20_Mediaset_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/20_Mediaset_2018.svg/960px-20_Mediaset_2018.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="20/sky-intrattenimento/443">
@@ -11,67 +11,67 @@
   </channel>
   <channel id="ACISportTV.it@SD">
     <display-name>ACI Sport Tv</display-name>
-    <icon src="https://i.imgur.com/U8cHMOt.png"/>
+    <icon src="https://i.imgur.com/U8cHMOt.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="AlmaTV.it@SD">
     <display-name>Alma TV</display-name>
-    <icon src="https://i.imgur.com/MfFOnJp.png"/>
+    <icon src="https://i.imgur.com/MfFOnJp.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="BabyTV.uk@UK">
     <display-name>Baby TV</display-name>
-    <icon src="https://i.imgur.com/4BDJ5FT.png"/>
+    <icon src="https://i.imgur.com/4BDJ5FT.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Blaze.it@SD">
     <display-name>Blaze</display-name>
-    <icon src="https://i.imgur.com/6UcPWP9.png"/>
+    <icon src="https://i.imgur.com/6UcPWP9.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="BloombergTV.us@Europe">
     <display-name>Bloomberg</display-name>
-    <icon src="https://i.imgur.com/OuogLHx.png"/>
+    <icon src="https://i.imgur.com/OuogLHx.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="BoingPlus.it@SD">
     <display-name>Boing Plus</display-name>
-    <icon src="https://i.imgur.com/STbfHwE.png"/>
+    <icon src="https://i.imgur.com/STbfHwE.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Boing.it@SD">
     <display-name>Boing</display-name>
-    <icon src="https://i.imgur.com/rabKj9i.png"/>
+    <icon src="https://i.imgur.com/rabKj9i.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Boomerang.it@Plus1">
     <display-name>Boomerang + 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Boomerang.it@SD">
     <display-name>Boomerang</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="CacciaePesca.it@SD">
     <display-name>Caccia e Pesca</display-name>
-    <icon src="https://i.imgur.com/uZr0cXB.png"/>
+    <icon src="https://i.imgur.com/uZr0cXB.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Canale5.it@SD">
     <display-name>Canale 5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/960px-Canale_5_-_2018_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Canale_5_-_2018_logo.svg/960px-Canale_5_-_2018_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="CartoonNetwork.it@SD">
     <display-name>Cartoon Network</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Cartoonito.it@SD">
     <display-name>Cartoonito</display-name>
-    <icon src="https://i.imgur.com/6vYWCD0.png"/>
+    <icon src="https://i.imgur.com/6vYWCD0.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="cielo-hd/sky-intrattenimento/17">
@@ -80,47 +80,47 @@
   </channel>
   <channel id="Cielo.it@SD">
     <display-name>Cielo</display-name>
-    <icon src="https://i.imgur.com/tWUy3yx.png"/>
+    <icon src="https://i.imgur.com/tWUy3yx.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Cine34.it@SD">
     <display-name>Cine34</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cine34_logo.svg/960px-Cine34_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cine34_logo.svg/960px-Cine34_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="ClassCNBC.it@SD">
     <display-name>Class-Cnbc</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Class_CNBC_2026.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Class_CNBC_2026.svg" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Classica.it@HD">
     <display-name>Classica HD</display-name>
-    <icon src="https://i.imgur.com/AiOZyXP.png"/>
+    <icon src="https://i.imgur.com/AiOZyXP.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="CartoonNetwork.it@Plus1">
     <display-name>CN +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="CNBCEurope.uk@SD">
     <display-name>CNBC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="CNNInternational.us@MENA">
     <display-name>CNN Intl</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="ComedyCentral.it@SD">
     <display-name>Comedy Central</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="CrimePlusInvestigation.it@SD">
     <display-name>Crime+ Inv.</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="dazn/dazn/459">
@@ -129,37 +129,37 @@
   </channel>
   <channel id="DeAJunior.it@SD">
     <display-name>DeA Junior</display-name>
-    <icon src="https://i.imgur.com/vBNBCNd.png"/>
+    <icon src="https://i.imgur.com/vBNBCNd.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="DeAKids.it@Plus1">
     <display-name>DeAKids+1</display-name>
-    <icon src="https://i.imgur.com/ixnJAuq.png"/>
+    <icon src="https://i.imgur.com/ixnJAuq.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="DeAKids.it@SD">
     <display-name>DeAKids</display-name>
-    <icon src="https://i.imgur.com/ixnJAuq.png"/>
+    <icon src="https://i.imgur.com/ixnJAuq.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="DeejayTV.it@SD">
     <display-name>Deejay TV</display-name>
-    <icon src="https://i.imgur.com/YV27Chs.png"/>
+    <icon src="https://i.imgur.com/YV27Chs.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="DiscoveryChannel.it@Plus1">
     <display-name>Discovery Ch +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="DiscoveryChannel.it@SD">
     <display-name>Discovery Channel HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="DiscoveryScienceEurope.uk@Italy">
     <display-name>Discovery Science HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="dmax-hd/sky-intrattenimento/27">
@@ -168,62 +168,62 @@
   </channel>
   <channel id="DMAX.it@SD">
     <display-name>DMAX</display-name>
-    <icon src="https://i.imgur.com/uGd9fnn.png"/>
+    <icon src="https://i.imgur.com/uGd9fnn.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="DonnaTV.it@SD">
     <display-name>DonnaTv</display-name>
-    <icon src="https://i.imgur.com/39cSNHs.png"/>
+    <icon src="https://i.imgur.com/39cSNHs.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="EuronewsItalian.fr@SD">
     <display-name>Euronews</display-name>
-    <icon src="https://i.imgur.com/8t9mdg9.png"/>
+    <icon src="https://i.imgur.com/8t9mdg9.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Eurosport2.fr@Italy">
     <display-name>Eurosport 2HD</display-name>
-    <icon src="https://i.imgur.com/f56dHgR.png"/>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Eurosport1.fr@Italy">
     <display-name>Eurosport HD</display-name>
-    <icon src="https://i.imgur.com/olQJgm7.png"/>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Focus.it@SD">
     <display-name>Focus</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/1/11/Focus_Logo.svg/960px-Focus_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/1/11/Focus_Logo.svg/960px-Focus_Logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="FoodNetwork.it@SD">
     <display-name>FoodNetwork</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Fox.it@Plus1">
     <display-name>Fox +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/960px-FOX_wordmark-orange.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/960px-FOX_wordmark-orange.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="FoxBusinessNetwork.us@SD">
     <display-name>Fox Business</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/960px-Fox_Business.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/960px-Fox_Business.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Fox.it@SD">
     <display-name>Fox HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/960px-FOX_wordmark-orange.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/960px-FOX_wordmark-orange.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="FoxNewsChannel.us@SD">
     <display-name>Fox News</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="France24.fr@English">
     <display-name>France 24 English</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="france-24/252">
@@ -232,12 +232,12 @@
   </channel>
   <channel id="France24.fr@French">
     <display-name>France 24</display-name>
-    <icon src="https://i.imgur.com/u8N6uoj.png"/>
+    <icon src="https://i.imgur.com/u8N6uoj.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Frisbee.it@SD">
     <display-name>Frisbee</display-name>
-    <icon src="https://i.imgur.com/U1MF1vR.png"/>
+    <icon src="https://i.imgur.com/U1MF1vR.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="frisbee/sky-bambini/246">
@@ -246,12 +246,12 @@
   </channel>
   <channel id="GamberoRossoChannel.it@SD">
     <display-name>Gambero Rosso HD</display-name>
-    <icon src="https://i.imgur.com/x5cwb1q.png"/>
+    <icon src="https://i.imgur.com/x5cwb1q.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Giallo.it@SD">
     <display-name>Giallo</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Giallo_-_Logo_2014.svg/960px-Giallo_-_Logo_2014.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Giallo_-_Logo_2014.svg/960px-Giallo_-_Logo_2014.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="giallo/sky-intrattenimento/244">
@@ -260,22 +260,22 @@
   </channel>
   <channel id="GM24.it@SD">
     <display-name>GM24</display-name>
-    <icon src="https://i.imgur.com/PoXd0su.png"/>
+    <icon src="https://i.imgur.com/PoXd0su.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="HGTV.it@SD">
     <display-name>HGTV - Home&amp;Garden</display-name>
-    <icon src="https://i.imgur.com/ejPii8T.png"/>
+    <icon src="https://i.imgur.com/ejPii8T.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="History.it@Plus1">
     <display-name>History 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="History.it@SD">
     <display-name>History HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="horse-tv-hd/sky-sport/51">
@@ -284,27 +284,27 @@
   </channel>
   <channel id="i24NEWSEnglishWorld.il@SD">
     <display-name>I24news</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="InterTV.it@SD">
     <display-name>Inter TV HD</display-name>
-    <icon src="https://i.imgur.com/FUTqh2L.png"/>
+    <icon src="https://i.imgur.com/FUTqh2L.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Iris.it@SD">
     <display-name>Iris</display-name>
-    <icon src="https://i.imgur.com/ZLnSLh4.png"/>
+    <icon src="https://i.imgur.com/ZLnSLh4.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Italia1.it@SD">
     <display-name>Italia 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Italia_1_logo.svg/500px-Italia_1_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Italia_1_logo.svg/500px-Italia_1_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Italia2.it@SD">
     <display-name>Italia 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_Italia2.svg/960px-Logo_Italia2.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Logo_Italia2.svg/960px-Logo_Italia2.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="italia-2/sky-intrattenimento/191">
@@ -313,12 +313,12 @@
   </channel>
   <channel id="7Gold.it@SD">
     <display-name>Italia 7 Gold</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/7gold.jpg/960px-7gold.jpg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/7gold.jpg/960px-7gold.jpg" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="K2.it@SD">
     <display-name>K2</display-name>
-    <icon src="https://i.imgur.com/T1E8rFF.png"/>
+    <icon src="https://i.imgur.com/T1E8rFF.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="k2/sky-bambini/245">
@@ -327,27 +327,27 @@
   </channel>
   <channel id="LA7.it@SD">
     <display-name>La7</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/960px-LA7_-_Logo_2011.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/LA7_-_Logo_2011.svg/960px-LA7_-_Logo_2011.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="LA7d.it@SD">
     <display-name>La7d</display-name>
-    <icon src="https://i.imgur.com/sM0A3GD.png"/>
+    <icon src="https://i.imgur.com/sM0A3GD.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RSILa1.ch@SD">
     <display-name>La 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RSI_La_1_2012.svg/960px-RSI_La_1_2012.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RSI_La_1_2012.svg/960px-RSI_La_1_2012.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RSILa2.ch@SD">
     <display-name>La 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/960px-RSI_La_2_2012.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/960px-RSI_La_2_2012.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="La5.it@SD">
     <display-name>La 5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/La5_Mediaset.svg/960px-La5_Mediaset.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/La5_Mediaset.svg/960px-La5_Mediaset.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="la-5/sky-intrattenimento/190">
@@ -356,12 +356,12 @@
   </channel>
   <channel id="LazioStyleChannel.it@SD">
     <display-name>Lazio Style Channel</display-name>
-    <icon src="https://i.imgur.com/vDB8HFq.png"/>
+    <icon src="https://i.imgur.com/vDB8HFq.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="MediasetExtra.it@SD">
     <display-name>Mediaset Extra</display-name>
-    <icon src="https://i.imgur.com/G51Lvah.png"/>
+    <icon src="https://i.imgur.com/G51Lvah.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="mediaset-extra/sky-intrattenimento/194">
@@ -370,12 +370,12 @@
   </channel>
   <channel id="MilanTV.it@SD">
     <display-name>Milan TV</display-name>
-    <icon src="https://i.imgur.com/gAMQfUw.png"/>
+    <icon src="https://i.imgur.com/gAMQfUw.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="MotorTrend.it@SD">
     <display-name>Motor Trend HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Motor_Trend_logo.svg/960px-Motor_Trend_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Motor_Trend_logo.svg/960px-Motor_Trend_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="motor-trend-hd/sky-doc-e-lifestyle/444">
@@ -384,57 +384,57 @@
   </channel>
   <channel id="MTVMusic.it@SD">
     <display-name>Mtv Music</display-name>
-    <icon src="https://i.imgur.com/Vyu5Mx4.png"/>
+    <icon src="https://i.imgur.com/Vyu5Mx4.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="MTV.it@SD">
     <display-name>MTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="NationalGeographicWild.it@Plus1">
     <display-name>Nat Geo Wild +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="NationalGeographic.it@SD">
     <display-name>National Geo HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="NationalGeographicWild.it@SD">
     <display-name>National Geographic Wild</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="NationalGeographic.it@Plus1">
     <display-name>NationalGeo +1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="NickJr.it@Plus1">
     <display-name>Nick Jr+1</display-name>
-    <icon src="https://i.imgur.com/6p3eFgf.png"/>
+    <icon src="https://i.imgur.com/6p3eFgf.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="NickJr.it@SD">
     <display-name>Nick Junior</display-name>
-    <icon src="https://i.imgur.com/6p3eFgf.png"/>
+    <icon src="https://i.imgur.com/6p3eFgf.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Nickelodeon.it@Plus1">
     <display-name>Nickelodeon + 1</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Nickelodeon.it@SD">
     <display-name>Nickelodeon</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Nove.it@SD">
     <display-name>Nove</display-name>
-    <icon src="https://i.imgur.com/rTjIkGO.png"/>
+    <icon src="https://i.imgur.com/rTjIkGO.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="nove/sky-intrattenimento/238">
@@ -443,67 +443,67 @@
   </channel>
   <channel id="PescaeCaccia.it@SD">
     <display-name>Pesca e Caccia</display-name>
-    <icon src="https://i.imgur.com/nW5dJBl.png"/>
+    <icon src="https://i.imgur.com/nW5dJBl.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="PremiumAction.it@SD">
     <display-name>Premium Action</display-name>
-    <icon src="https://i.imgur.com/m8POolj.png"/>
+    <icon src="https://i.imgur.com/m8POolj.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="PremiumCinema1.it@SD">
     <display-name>Premium Cinema 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/8/83/PremiumCinema1.png/960px-PremiumCinema1.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/8/83/PremiumCinema1.png/960px-PremiumCinema1.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="PremiumCinema2.it@SD">
     <display-name>Premium Cinema 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/9/9c/PremiumCinema2.png/960px-PremiumCinema2.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/9/9c/PremiumCinema2.png/960px-PremiumCinema2.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="PremiumCinema3.it@SD">
     <display-name>Premium Cinema 3</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/1/1f/PremiumCinema3.png/960px-PremiumCinema3.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/1/1f/PremiumCinema3.png/960px-PremiumCinema3.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="PremiumCrime.it@SD">
     <display-name>Premium Crime</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/c/c6/Logo_Premium_Crime.png/960px-Logo_Premium_Crime.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/c/c6/Logo_Premium_Crime.png/960px-Logo_Premium_Crime.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="PremiumStories.it@SD">
     <display-name>Premium Stories</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/it/9/9a/Premium_Stories_Logo_2015.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/it/9/9a/Premium_Stories_Logo_2015.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyPrimafila1.it@SD">
     <display-name>Primafila 1</display-name>
-    <icon src="https://i.imgur.com/tSH7Jo8.png"/>
+    <icon src="https://i.imgur.com/tSH7Jo8.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyPrimafila2.it@SD">
     <display-name>Primafila 2</display-name>
-    <icon src="https://i.imgur.com/tSH7Jo8.png"/>
+    <icon src="https://i.imgur.com/tSH7Jo8.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyPrimafila3.it@SD">
     <display-name>Primafila 3</display-name>
-    <icon src="https://i.imgur.com/tSH7Jo8.png"/>
+    <icon src="https://i.imgur.com/tSH7Jo8.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyPrimafila4.it@SD">
     <display-name>Primafila 4</display-name>
-    <icon src="https://i.imgur.com/tSH7Jo8.png"/>
+    <icon src="https://i.imgur.com/tSH7Jo8.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyPrimafila5.it@SD">
     <display-name>Primafila 5</display-name>
-    <icon src="https://i.imgur.com/tSH7Jo8.png"/>
+    <icon src="https://i.imgur.com/tSH7Jo8.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="QVC.it@SD">
     <display-name>QVC</display-name>
-    <icon src="https://i.imgur.com/6TWUVrh.png"/>
+    <icon src="https://i.imgur.com/6TWUVrh.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="qvc/sky-doc-e-lifestyle/242">
@@ -512,102 +512,102 @@
   </channel>
   <channel id="R101TV.it@SD">
     <display-name>R101</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/R101_-_Logo_2015.svg/500px-R101_-_Logo_2015.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/R101_-_Logo_2015.svg/500px-R101_-_Logo_2015.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Radio105TV.it@SD">
     <display-name>Radio 105</display-name>
-    <icon src="https://i.imgur.com/F2dUQM1.png"/>
+    <icon src="https://i.imgur.com/F2dUQM1.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Radiofreccia.it@HD">
     <display-name>Radio Freccia</display-name>
-    <icon src="https://i.imgur.com/RxeRlar.png"/>
+    <icon src="https://i.imgur.com/RxeRlar.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RadioItaliaTV.it@SD">
     <display-name>Radio Italia Tv</display-name>
-    <icon src="https://i.imgur.com/XqNhQp6.png"/>
+    <icon src="https://i.imgur.com/XqNhQp6.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RadioMonteCarloTV.it@SD">
     <display-name>Radio Monte Carlo</display-name>
-    <icon src="https://i.imgur.com/by9XvWF.png"/>
+    <icon src="https://i.imgur.com/by9XvWF.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RadioNorbaTV.it@SD">
     <display-name>Radionorba TV</display-name>
-    <icon src="https://i.imgur.com/Tucoyzy.png"/>
+    <icon src="https://i.imgur.com/Tucoyzy.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Rai1.it@SD">
     <display-name>Rai 1</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Rai2.it@SD">
     <display-name>Rai 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Rai3.it@HD">
     <display-name>Rai 3</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/960px-Rai_3_-_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/960px-Rai_3_-_Logo_2016.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Rai4.it@SD">
     <display-name>Rai 4</display-name>
-    <icon src="https://i.imgur.com/sEY21rg.png"/>
+    <icon src="https://i.imgur.com/sEY21rg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Rai5.it@SD">
     <display-name>Rai 5</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_5_-_Logo_2017.svg/960px-Rai_5_-_Logo_2017.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_5_-_Logo_2017.svg/960px-Rai_5_-_Logo_2017.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RaiGulp.it@SD">
     <display-name>Rai Gulp</display-name>
-    <icon src="https://i.imgur.com/irAhPJM.png"/>
+    <icon src="https://i.imgur.com/irAhPJM.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RaiMovie.it@SD">
     <display-name>Rai Movie</display-name>
-    <icon src="https://i.imgur.com/0FjxXU9.png"/>
+    <icon src="https://i.imgur.com/0FjxXU9.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RaiPremium.it@SD">
     <display-name>Rai Premium</display-name>
-    <icon src="https://i.imgur.com/40g5Urz.png"/>
+    <icon src="https://i.imgur.com/40g5Urz.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RaiScuola.it@SD">
     <display-name>Rai Scuola</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/960px-Rai_Scuola_-_Logo_2017.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/960px-Rai_Scuola_-_Logo_2017.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RaiSport.it@HD">
     <display-name>Rai Sport + HD</display-name>
-    <icon src="https://i.imgur.com/6PEevOM.png"/>
+    <icon src="https://i.imgur.com/6PEevOM.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RaiStoria.it@SD">
     <display-name>Rai Storia</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/960px-Rai_Storia_-_Logo_2017.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rai_Storia_-_Logo_2017.svg/960px-Rai_Storia_-_Logo_2017.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RaiYoyo.it@SD">
     <display-name>Rai Yoyo</display-name>
-    <icon src="https://i.imgur.com/9gCxiDy.png"/>
+    <icon src="https://i.imgur.com/9gCxiDy.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RaiNews24.it@SD">
     <display-name>RaiNews24</display-name>
-    <icon src="https://i.imgur.com/n2u57y3.png"/>
+    <icon src="https://i.imgur.com/n2u57y3.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="RaiSport.it@SD">
     <display-name>RaiSport</display-name>
-    <icon src="https://i.imgur.com/6PEevOM.png"/>
+    <icon src="https://i.imgur.com/6PEevOM.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="real-time-hd/sky-intrattenimento/22">
@@ -616,12 +616,12 @@
   </channel>
   <channel id="RealTime.it@SD">
     <display-name>Real Time</display-name>
-    <icon src="https://i.imgur.com/SPlk2Gx.png"/>
+    <icon src="https://i.imgur.com/SPlk2Gx.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Rete4.it@SD">
     <display-name>Rete 4</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/500px-Rete_4_-_Logo_2018.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Rete_4_-_Logo_2018.svg/500px-Rete_4_-_Logo_2018.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="rt-doc-hd/sky-news/128">
@@ -630,7 +630,7 @@
   </channel>
   <channel id="RTL1025TV.it@SD">
     <display-name>RTL 102.5 TV</display-name>
-    <icon src="https://i.imgur.com/75qUdR7.png"/>
+    <icon src="https://i.imgur.com/75qUdR7.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="rtl-1025-tv/sky-musica/243">
@@ -651,32 +651,32 @@
   </channel>
   <channel id="SkyAtlanticMaratone.it@SD">
     <display-name>Sky Atlantic +1</display-name>
-    <icon src="https://i.imgur.com/4gU9diR.png"/>
+    <icon src="https://i.imgur.com/4gU9diR.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyAtlantic.it@SD">
     <display-name>Sky Atlantic HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Sky_Atlantic_-_Logo_2020_%28TV_channel%29.svg/960px-Sky_Atlantic_-_Logo_2020_%28TV_channel%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Sky_Atlantic_-_Logo_2020_%28TV_channel%29.svg/960px-Sky_Atlantic_-_Logo_2020_%28TV_channel%29.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyCinemaAction.it@SD">
     <display-name>Sky Cinema Action HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Sky_Cinema_Action_-_Logo_2021.svg/960px-Sky_Cinema_Action_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Sky_Cinema_Action_-_Logo_2021.svg/960px-Sky_Cinema_Action_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyCinemaCollection.it@SD">
     <display-name>Sky Cinema Collection HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Sky_Cinema_Collection_-_Logo_2021.svg/960px-Sky_Cinema_Collection_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Sky_Cinema_Collection_-_Logo_2021.svg/960px-Sky_Cinema_Collection_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyCinemaComedy.it@SD">
     <display-name>Sky Cinema Comedy HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Sky_Cinema_Comedy_-_Logo_2021.svg/960px-Sky_Cinema_Comedy_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Sky_Cinema_Comedy_-_Logo_2021.svg/960px-Sky_Cinema_Comedy_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyCinemaDrama.it@SD">
     <display-name>Sky Cinema Drama HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Sky_Cinema_Drama_-_Logo_2021.svg/960px-Sky_Cinema_Drama_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Sky_Cinema_Drama_-_Logo_2021.svg/960px-Sky_Cinema_Drama_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="sky-cinema-due-24/sky-cinema/582">
@@ -685,37 +685,37 @@
   </channel>
   <channel id="SkyCinemaDue.it@SD">
     <display-name>Sky Cinema Due HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sky_Cinema_Due_-_Logo_2021.svg/960px-Sky_Cinema_Due_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sky_Cinema_Due_-_Logo_2021.svg/960px-Sky_Cinema_Due_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyCinemaFamily.it@SD">
     <display-name>Sky Cinema Family HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sky_Cinema_Family_-_Logo_2021.svg/960px-Sky_Cinema_Family_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sky_Cinema_Family_-_Logo_2021.svg/960px-Sky_Cinema_Family_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyCinemaRomance.it@SD">
     <display-name>Sky Cinema Romance HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Sky_Cinema_Romance_-_Logo_2021.svg/960px-Sky_Cinema_Romance_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Sky_Cinema_Romance_-_Logo_2021.svg/960px-Sky_Cinema_Romance_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyCinemaSuspense.it@SD">
     <display-name>Sky Cinema Suspense HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Cinema_Suspense_-_Logo_2021.svg/960px-Sky_Cinema_Suspense_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Cinema_Suspense_-_Logo_2021.svg/960px-Sky_Cinema_Suspense_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyCinemaUno.it@Plus24">
     <display-name>Sky Cinema Uno +24</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sky_Cinema_Uno_-_Logo_2021.svg/960px-Sky_Cinema_Uno_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sky_Cinema_Uno_-_Logo_2021.svg/960px-Sky_Cinema_Uno_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyCinemaUno.it@SD">
     <display-name>Sky Cinema Uno HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sky_Cinema_Uno_-_Logo_2021.svg/960px-Sky_Cinema_Uno_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sky_Cinema_Uno_-_Logo_2021.svg/960px-Sky_Cinema_Uno_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyDocumentaries.it@Plus1">
     <display-name>Sky Documentaries +1 HD</display-name>
-    <icon src="https://i.imgur.com/bCJZZo6.png"/>
+    <icon src="https://i.imgur.com/bCJZZo6.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="sky-documentaries-1-hd/sky-intrattenimento/596">
@@ -724,7 +724,7 @@
   </channel>
   <channel id="SkyDocumentaries.it@SD">
     <display-name>Sky Documentaries HD</display-name>
-    <icon src="https://i.imgur.com/bCJZZo6.png"/>
+    <icon src="https://i.imgur.com/bCJZZo6.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="sky-documentaries-hd/sky-intrattenimento/595">
@@ -733,22 +733,22 @@
   </channel>
   <channel id="SkyInvestigation.it@Plus1">
     <display-name>Sky Investigation +1 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Sky_Investigation.svg/960px-Sky_Investigation.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Sky_Investigation.svg/960px-Sky_Investigation.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyInvestigation.it@SD">
     <display-name>Sky Investigation HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Sky_Investigation.svg/960px-Sky_Investigation.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Sky_Investigation.svg/960px-Sky_Investigation.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyMeteo24.it@SD">
     <display-name>Sky Meteo24</display-name>
-    <icon src="https://i.imgur.com/9lsHabx.png"/>
+    <icon src="https://i.imgur.com/9lsHabx.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyNature.it@SD">
     <display-name>Sky Nature HD</display-name>
-    <icon src="https://i.imgur.com/NWKIfXy.png"/>
+    <icon src="https://i.imgur.com/NWKIfXy.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="sky-nature-hd/sky-intrattenimento/597">
@@ -765,12 +765,12 @@
   </channel>
   <channel id="SkySerie.it@SD">
     <display-name>Sky Serie HD</display-name>
-    <icon src="https://i.imgur.com/ofaaIKf.png"/>
+    <icon src="https://i.imgur.com/ofaaIKf.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkySport24.it@SD">
     <display-name>Sky Sport24</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sky_Sport_24_-_Logo_2020.svg/960px-Sky_Sport_24_-_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sky_Sport_24_-_Logo_2020.svg/960px-Sky_Sport_24_-_Logo_2020.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="sky-sport-251/sky-sport/584">
@@ -819,32 +819,32 @@
   </channel>
   <channel id="SkySportAction.it@SD">
     <display-name>Sky Sport Action HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sky_Sport_Action.svg/960px-Sky_Sport_Action.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sky_Sport_Action.svg/960px-Sky_Sport_Action.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkySportArena.it@SD">
     <display-name>Sky Sport Arena</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_Arena_-_Logo_2020.svg/960px-Sky_Sport_Arena_-_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_Arena_-_Logo_2020.svg/960px-Sky_Sport_Arena_-_Logo_2020.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkySportCalcio.it@SD">
     <display-name>Sky Sport Calcio</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Sky_Sport_Calcio.svg/960px-Sky_Sport_Calcio.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Sky_Sport_Calcio.svg/960px-Sky_Sport_Calcio.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkySportF1.it@SD">
     <display-name>Sky Sport F1 HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/960px-Sky_Sport_F1_-_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/960px-Sky_Sport_F1_-_Logo_2020.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkySportFootball.it@SD">
     <display-name>Sky Sport Football HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Sport_Football_-_Logo_2020.svg/960px-Sky_Sport_Football_-_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Sport_Football_-_Logo_2020.svg/960px-Sky_Sport_Football_-_Logo_2020.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkySportMotoGP.it@SD">
     <display-name>Sky Sport MotoGP</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sky_Sport_MotoGP_-_Logo_2020.svg/960px-Sky_Sport_MotoGP_-_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sky_Sport_MotoGP_-_Logo_2020.svg/960px-Sky_Sport_MotoGP_-_Logo_2020.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="sky-sport-nba/sky-sport/40">
@@ -853,17 +853,17 @@
   </channel>
   <channel id="SkySportTennis.it@SD">
     <display-name>Sky Sport Tennis HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sky_Sport_Tennis.svg/960px-Sky_Sport_Tennis.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sky_Sport_Tennis.svg/960px-Sky_Sport_Tennis.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkySportUno.it@SD">
     <display-name>Sky Sport Uno</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sky_Sport_Uno_-_Logo_2020.svg/960px-Sky_Sport_Uno_-_Logo_2020.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sky_Sport_Uno_-_Logo_2020.svg/960px-Sky_Sport_Uno_-_Logo_2020.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyTG24.it@SD">
     <display-name>Sky Tg24</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Sky_TG24_-_Logo_2021.svg/960px-Sky_TG24_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Sky_TG24_-_Logo_2021.svg/960px-Sky_TG24_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="sky-tg24/sky-news/240">
@@ -872,27 +872,27 @@
   </channel>
   <channel id="SkyUno.it@Plus1">
     <display-name>Sky Uno +1HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sky_Uno_-_Logo_2021.svg/960px-Sky_Uno_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sky_Uno_-_Logo_2021.svg/960px-Sky_Uno_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SkyUno.it@SD">
     <display-name>Sky Uno HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sky_Uno_-_Logo_2021.svg/960px-Sky_Uno_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sky_Uno_-_Logo_2021.svg/960px-Sky_Uno_-_Logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="SanMarinoRTV.sm@SD">
     <display-name>SMtv San Marino</display-name>
-    <icon src="https://i.imgur.com/ZJSWusT.png"/>
+    <icon src="https://i.imgur.com/ZJSWusT.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Sportitalia.it@SD">
     <display-name>Sportitalia</display-name>
-    <icon src="https://i.imgur.com/0CJGGgd.png"/>
+    <icon src="https://i.imgur.com/0CJGGgd.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="Super.it@SD">
     <display-name>Super!</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Super%21_logo_2021.svg/960px-Super%21_logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Super%21_logo_2021.svg/960px-Super%21_logo_2021.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="super/sky-bambini/247">
@@ -905,27 +905,27 @@
   </channel>
   <channel id="SuperTennis.it@SD">
     <display-name>SuperTennis</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/6/6a/SuperTennis_-_Logo_2016.svg/960px-SuperTennis_-_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/6/6a/SuperTennis_-_Logo_2016.svg/960px-SuperTennis_-_Logo_2016.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="TGNorba24.it@SD">
     <display-name>TG Norba24</display-name>
-    <icon src="https://i.imgur.com/zAZcSgz.png"/>
+    <icon src="https://i.imgur.com/zAZcSgz.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="TGCom24.it@SD">
     <display-name>Tgcom24</display-name>
-    <icon src="https://i.imgur.com/fPmvbGH.png"/>
+    <icon src="https://i.imgur.com/fPmvbGH.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="TopCalcio24.it@SD">
     <display-name>Top Calcio 24</display-name>
-    <icon src="https://i.imgur.com/qYPiXlB.png"/>
+    <icon src="https://i.imgur.com/qYPiXlB.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="TopCrime.it@SD">
     <display-name>Top Crime</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Top_Crime_-_Logo_2013.svg/960px-Top_Crime_-_Logo_2013.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Top_Crime_-_Logo_2013.svg/960px-Top_Crime_-_Logo_2013.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="top-crime/sky-intrattenimento/193">
@@ -934,12 +934,12 @@
   </channel>
   <channel id="TRMh24.it@SD">
     <display-name>TRM h24</display-name>
-    <icon src="https://i.imgur.com/WEtsM4l.png"/>
+    <icon src="https://i.imgur.com/WEtsM4l.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="TV8.it@SD">
     <display-name>TV8</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/6/6d/TV8_Logo_2016.svg/500px-TV8_Logo_2016.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/6/6d/TV8_Logo_2016.svg/500px-TV8_Logo_2016.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="tv8/sky-intrattenimento/237">
@@ -948,7 +948,7 @@
   </channel>
   <channel id="TV2000.it@SD">
     <display-name>TV2000</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/0/0d/Logo_tv2000_2015.svg/960px-Logo_tv2000_2015.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/it/thumb/0/0d/Logo_tv2000_2015.svg/960px-Logo_tv2000_2015.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="tv2000/sky-intrattenimento/241">
@@ -957,22 +957,22 @@
   </channel>
   <channel id="Twentyseven.it@SD">
     <display-name>Twenty Seven</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twentyseven_logo.svg/960px-Twentyseven_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twentyseven_logo.svg/960px-Twentyseven_logo.svg.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="VH1.it@SD">
     <display-name>VH1</display-name>
-    <icon src="https://i.imgur.com/ZZEvehR.png"/>
+    <icon src="https://i.imgur.com/ZZEvehR.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="VirginRadioTV.it@SD">
     <display-name>Virgin Radio</display-name>
-    <icon src="https://i.imgur.com/aUY2KvX.png"/>
+    <icon src="https://i.imgur.com/aUY2KvX.png" />
     <url>https://superguidatv.it</url>
   </channel>
   <channel id="WarnerTV.it@SD">
     <display-name>Warner TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/960px-Warner2018LA.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/960px-Warner2018LA.png" />
     <url>https://superguidatv.it</url>
   </channel>
 </tv>

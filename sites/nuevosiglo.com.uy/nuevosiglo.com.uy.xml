@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="Canal26.ar@SD">
     <display-name>26 TV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="A3CINE">
@@ -11,7 +11,7 @@
   </channel>
   <channel id="A24.ar@SD">
     <display-name>A24</display-name>
-    <icon src="https://i.ibb.co/TxJWSBds/A24-2025-svg.png"/>
+    <icon src="https://i.ibb.co/TxJWSBds/A24-2025-svg.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="A&amp;E MUNDO">
@@ -68,27 +68,27 @@
   </channel>
   <channel id="BBCNews.uk@LatinAmerica">
     <display-name>BBC WORLD</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="BloombergTV.us@US">
     <display-name>BLOOMBERG</display-name>
-    <icon src="https://i.imgur.com/OuogLHx.png"/>
+    <icon src="https://i.imgur.com/OuogLHx.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="C5N.ar@SD">
     <display-name>C5N</display-name>
-    <icon src="https://i.imgur.com/5ZNZYjO.png"/>
+    <icon src="https://i.imgur.com/5ZNZYjO.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="Canal4.uy@SD">
     <display-name>CANAL 4 MONTECARLO</display-name>
-    <icon src="https://i.imgur.com/E4gotbu.png"/>
+    <icon src="https://i.imgur.com/E4gotbu.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="Canal5.uy@SD">
     <display-name>CANAL 5</display-name>
-    <icon src="https://i.imgur.com/IpYxSr1.png"/>
+    <icon src="https://i.imgur.com/IpYxSr1.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="CANAL 24 HS">
@@ -97,7 +97,7 @@
   </channel>
   <channel id="ETBBasque.es@SD">
     <display-name>CANAL VASCO</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETB_Basque_2022_logo.svg/960px-ETB_Basque_2022_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETB_Basque_2022_logo.svg/960px-ETB_Basque_2022_logo.svg.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="CARTOON NETWORK">
@@ -110,7 +110,7 @@
   </channel>
   <channel id="CartoonitoLatinAmerica.us@SD">
     <display-name>CARTOONITO</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/960px-Cartoonito_-_Logo_2021.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/960px-Cartoonito_-_Logo_2021.svg.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="CINECANAL">
@@ -131,17 +131,17 @@
   </channel>
   <channel id="CiudadMagazine.ar@SD">
     <display-name>CIUDAD MAGAZINE</display-name>
-    <icon src="https://i.imgur.com/V1xZV72.png"/>
+    <icon src="https://i.imgur.com/V1xZV72.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="CNNenEspanol.us@SD">
     <display-name>CNN EN ESPAÑOL</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="CronicaTV.ar@SD">
     <display-name>CRONICA TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Cr%C3%B3nica_TV_logotipo_%282008-2015%29.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Cr%C3%B3nica_TV_logotipo_%282008-2015%29.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="DEUTSCHE WELLE">
@@ -254,12 +254,12 @@
   </channel>
   <channel id="Eurochannel.uk@SD">
     <display-name>EUROCHANNEL</display-name>
-    <icon src="https://i.imgur.com/yXAtmI6.png"/>
+    <icon src="https://i.imgur.com/yXAtmI6.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="EuropaEuropa.ar@SD">
     <display-name>EUROPA EUROPA</display-name>
-    <icon src="https://i.imgur.com/w5SOfyJ.png"/>
+    <icon src="https://i.imgur.com/w5SOfyJ.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="EWTN">
@@ -280,7 +280,7 @@
   </channel>
   <channel id="FoxNewsChannel.us@SD">
     <display-name>FOX NEWS</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="FOX SPORTS 2">
@@ -309,7 +309,7 @@
   </channel>
   <channel id="GaliciaTVAmerica.es@SD">
     <display-name>GALICIA TV</display-name>
-    <icon src="https://i.imgur.com/s59AaqG.png"/>
+    <icon src="https://i.imgur.com/s59AaqG.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="GLITZ">
@@ -318,17 +318,17 @@
   </channel>
   <channel id="GolTVLatinAmerica.us@SD">
     <display-name>GOL TV</display-name>
-    <icon src="https://i.imgur.com/pypul3s.png"/>
+    <icon src="https://i.imgur.com/pypul3s.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="GoldenPlus.mx@SD">
     <display-name>GOLDEN PLUS</display-name>
-    <icon src="https://i.imgur.com/OOEkyM2.png"/>
+    <icon src="https://i.imgur.com/OOEkyM2.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="GoldenPremier.mx@SD">
     <display-name>GOLDEN PREMIER HD</display-name>
-    <icon src="https://i.imgur.com/JMa7jws.png"/>
+    <icon src="https://i.imgur.com/JMa7jws.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="H2">
@@ -341,7 +341,7 @@
   </channel>
   <channel id="HBOLatinAmerica.us@SD">
     <display-name>HBO</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="HBO 2 HD">
@@ -350,7 +350,7 @@
   </channel>
   <channel id="HBOFamilyLatinAmerica.us@SD">
     <display-name>HBO FAMILY HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/960px-HBO_Family.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/960px-HBO_Family.svg.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="HBO HD">
@@ -359,7 +359,7 @@
   </channel>
   <channel id="HBOMundiLatinAmerica.us@SD">
     <display-name>HBO MUNDI HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/960px-HBO_Mundi.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/960px-HBO_Mundi.svg.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="HBO PLUS HD">
@@ -372,12 +372,12 @@
   </channel>
   <channel id="HBOSignatureLatinAmerica.us@SD">
     <display-name>HBO SIGNATURE HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/960px-HBO_Signature.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/960px-HBO_Signature.svg.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="HBOXtremeLatinAmerica.us@SD">
     <display-name>HBO XTREME HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/960px-HBO_Xtreme.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/960px-HBO_Xtreme.svg.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="HGTV">
@@ -394,7 +394,7 @@
   </channel>
   <channel id="HolaTVLatinAmerica.us@SD">
     <display-name>HOLA TV</display-name>
-    <icon src="https://i.imgur.com/i0Qexxd.png"/>
+    <icon src="https://i.imgur.com/i0Qexxd.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="HOME AND HEALTH">
@@ -415,12 +415,12 @@
   </channel>
   <channel id="KanalDDrama.tr@SD">
     <display-name>KANAL D DRAMA</display-name>
-    <icon src="https://i.imgur.com/WIeZMKT.png"/>
+    <icon src="https://i.imgur.com/WIeZMKT.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="LasEstrellasLatinAmerica.mx@SD">
     <display-name>LAS ESTRELLAS HD</display-name>
-    <icon src="https://i.imgur.com/g5ShxZ7.png"/>
+    <icon src="https://i.imgur.com/g5ShxZ7.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="LIFETIME">
@@ -429,7 +429,7 @@
   </channel>
   <channel id="LaNacionPlus.ar@SD">
     <display-name>LN+</display-name>
-    <icon src="https://i.imgur.com/Gj1kqH5.png"/>
+    <icon src="https://i.imgur.com/Gj1kqH5.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="MAS CHIC">
@@ -478,22 +478,22 @@
   </channel>
   <channel id="NSEventos1.uy@SD">
     <display-name>NS EVENTOS 1</display-name>
-    <icon src="https://i.imgur.com/2r3Jpzx.png"/>
+    <icon src="https://i.imgur.com/2r3Jpzx.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="NSEventos2.uy@SD">
     <display-name>NS EVENTOS 2</display-name>
-    <icon src="https://i.imgur.com/2r3Jpzx.png"/>
+    <icon src="https://i.imgur.com/2r3Jpzx.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="NSEventos3.uy@SD">
     <display-name>NS EVENTOS 3</display-name>
-    <icon src="https://i.imgur.com/2r3Jpzx.png"/>
+    <icon src="https://i.imgur.com/2r3Jpzx.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="NuevoSigloTV.uy@SD">
     <display-name>NUEVO SIGLO TV</display-name>
-    <icon src="https://i.imgur.com/Iq14xnx.png"/>
+    <icon src="https://i.imgur.com/Iq14xnx.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="PARAMOUNT NETWORK">
@@ -506,7 +506,7 @@
   </channel>
   <channel id="PasionesLatinAmerica.us@SD">
     <display-name>PASIONES</display-name>
-    <icon src="https://i.imgur.com/VGnbWjO.png"/>
+    <icon src="https://i.imgur.com/VGnbWjO.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="PENTHOUSE">
@@ -515,7 +515,7 @@
   </channel>
   <channel id="PlayboyTVLatinAmerica.us@SD">
     <display-name>PLAYBOY</display-name>
-    <icon src="https://i.imgur.com/B3DMUM9.png"/>
+    <icon src="https://i.imgur.com/B3DMUM9.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="QUIERO">
@@ -536,12 +536,12 @@
   </channel>
   <channel id="Canal10.uy@SD">
     <display-name>SAETA</display-name>
-    <icon src="https://i.imgur.com/LowlfG2.png"/>
+    <icon src="https://i.imgur.com/LowlfG2.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="Sextreme.br@SD">
     <display-name>SEXTREME</display-name>
-    <icon src="https://i.imgur.com/jWsW2Rd.png"/>
+    <icon src="https://i.imgur.com/jWsW2Rd.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="SONY">
@@ -598,12 +598,12 @@
   </channel>
   <channel id="Teledoce.uy@SD">
     <display-name>TELEDOCE</display-name>
-    <icon src="https://i.imgur.com/JiA09sa.png"/>
+    <icon src="https://i.imgur.com/JiA09sa.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="TelefeInternacional.ar@SD">
     <display-name>TELEFE INTER</display-name>
-    <icon src="https://i.imgur.com/HNcCX3h.png"/>
+    <icon src="https://i.imgur.com/HNcCX3h.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="TELEMUNDO">
@@ -616,7 +616,7 @@
   </channel>
   <channel id="TVCiudad.uy@SD">
     <display-name>TEVECIUDAD</display-name>
-    <icon src="https://i.imgur.com/zoEYZil.png"/>
+    <icon src="https://i.imgur.com/zoEYZil.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="TLC">
@@ -625,7 +625,7 @@
   </channel>
   <channel id="TN.ar@SD">
     <display-name>TN</display-name>
-    <icon src="https://i.imgur.com/vFwPhPS.png"/>
+    <icon src="https://i.imgur.com/vFwPhPS.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="TNT">
@@ -646,12 +646,12 @@
   </channel>
   <channel id="Tooncast.us@SD">
     <display-name>TOONCAST</display-name>
-    <icon src="https://i.imgur.com/3yXRbQy.png"/>
+    <icon src="https://i.imgur.com/3yXRbQy.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="truTVLatinAmerica.us@SD">
     <display-name>TRU TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/960px-TruTV_2014.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/960px-TruTV_2014.svg.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="TRU TV HD">
@@ -676,7 +676,7 @@
   </channel>
   <channel id="TVChile.cl@SD">
     <display-name>TVN CHILE</display-name>
-    <icon src="https://i.imgur.com/oYFto0V.png"/>
+    <icon src="https://i.imgur.com/oYFto0V.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="TYC SPORTS">
@@ -717,17 +717,17 @@
   </channel>
   <channel id="Venus.ar@SD">
     <display-name>VENUS</display-name>
-    <icon src="https://i.imgur.com/4LFXPMk.png"/>
+    <icon src="https://i.imgur.com/4LFXPMk.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="VTV.uy@SD">
     <display-name>VTV</display-name>
-    <icon src="https://i.imgur.com/SiImXjJ.png"/>
+    <icon src="https://i.imgur.com/SiImXjJ.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="VTVPlus.uy@SD">
     <display-name>VTV PLUS</display-name>
-    <icon src="https://i.imgur.com/HndFaFP.png"/>
+    <icon src="https://i.imgur.com/HndFaFP.png" />
     <url>https://nuevosiglo.com.uy</url>
   </channel>
   <channel id="WARNER">

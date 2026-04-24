@@ -1,53 +1,53 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="AsianBox.mn@SD">
     <display-name>AsianBox</display-name>
-    <icon src="https://i.imgur.com/WAYZSgx.png"/>
+    <icon src="https://i.imgur.com/WAYZSgx.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="BloombergTVMongolia.mn@SD">
     <display-name>Bloomberg TV MGL</display-name>
-    <icon src="https://i.imgur.com/OuogLHx.png"/>
+    <icon src="https://i.imgur.com/OuogLHx.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="EdutainmentTV.mn@SD">
     <display-name>Боловсрол ТВ</display-name>
-    <icon src="https://i.imgur.com/0m8t3vh.png"/>
+    <icon src="https://i.imgur.com/0m8t3vh.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="C1.mn@SD">
     <display-name>C1</display-name>
-    <icon src="https://i.imgur.com/v1mHG5x.png"/>
+    <icon src="https://i.imgur.com/v1mHG5x.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="CentralTV.mn@SD">
     <display-name>Central TV</display-name>
-    <icon src="https://i.imgur.com/E9wAUrT.png"/>
+    <icon src="https://i.imgur.com/E9wAUrT.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="DreamTV.mn@SD">
     <display-name>Dream</display-name>
-    <icon src="https://i.imgur.com/YPbvzgV.png"/>
+    <icon src="https://i.imgur.com/YPbvzgV.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="EcoTV.mn@SD">
     <display-name>Eco Channel</display-name>
-    <icon src="https://i.imgur.com/8LpDHYT.png"/>
+    <icon src="https://i.imgur.com/8LpDHYT.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="ETV.mn@SD">
     <display-name>ETV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/ETV_Mongolia_logo.png/960px-ETV_Mongolia_logo.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/ETV_Mongolia_logo.png/960px-ETV_Mongolia_logo.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="TV25.mn@SD">
     <display-name>MN25</display-name>
-    <icon src="https://i.imgur.com/F3MMJMd.png"/>
+    <icon src="https://i.imgur.com/F3MMJMd.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="MNB.mn@SD">
     <display-name>МҮОНТ</display-name>
-    <icon src="https://i.imgur.com/RdRd0to.png"/>
+    <icon src="https://i.imgur.com/RdRd0to.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="mnb-ger-bl">
@@ -56,42 +56,42 @@
   </channel>
   <channel id="MNBSport.mn@SD">
     <display-name>MNB Sport</display-name>
-    <icon src="https://i.imgur.com/z854PC3.png"/>
+    <icon src="https://i.imgur.com/z854PC3.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="MongolianNewsChannel.mn@SD">
     <display-name>MNC</display-name>
-    <icon src="https://i.imgur.com/gMVqbwU.png"/>
+    <icon src="https://i.imgur.com/gMVqbwU.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="MongolTV.mn@SD">
     <display-name>Монгол ТВ</display-name>
-    <icon src="https://i.imgur.com/RBEnEvX.png"/>
+    <icon src="https://i.imgur.com/RBEnEvX.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="MNBMongoliinMedee.mn@SD">
     <display-name>Mонголын Мэдээ</display-name>
-    <icon src="https://i.imgur.com/KUvJzUD.png"/>
+    <icon src="https://i.imgur.com/KUvJzUD.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="MovieBox.mn@SD">
     <display-name>MovieBox</display-name>
-    <icon src="https://i.imgur.com/xeO1Zb4.png"/>
+    <icon src="https://i.imgur.com/xeO1Zb4.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="NTN.mn@SD">
     <display-name>NTN</display-name>
-    <icon src="https://i.imgur.com/56YJg8G.png"/>
+    <icon src="https://i.imgur.com/56YJg8G.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="NTV.mn@SD">
     <display-name>NTV</display-name>
-    <icon src="https://i.imgur.com/2JbqbPY.png"/>
+    <icon src="https://i.imgur.com/2JbqbPY.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="ParliamentTV.mn@SD">
     <display-name>Парламент телевиз</display-name>
-    <icon src="https://i.imgur.com/OD7YKuz.jpeg"/>
+    <icon src="https://i.imgur.com/OD7YKuz.jpeg" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="premier sports 1">
@@ -116,32 +116,32 @@
   </channel>
   <channel id="SBN.mn@SD">
     <display-name>SBN</display-name>
-    <icon src="https://i.imgur.com/E3fvpwn.png"/>
+    <icon src="https://i.imgur.com/E3fvpwn.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="StarTV.mn@SD">
     <display-name>Star TV</display-name>
-    <icon src="https://i.imgur.com/R6hxJgl.png"/>
+    <icon src="https://i.imgur.com/R6hxJgl.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="SuldTV.mn@SD">
     <display-name>Сүлд ТВ</display-name>
-    <icon src="https://i.imgur.com/CnLxehv.png"/>
+    <icon src="https://i.imgur.com/CnLxehv.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="TenGerTV.mn@SD">
     <display-name>TenGer</display-name>
-    <icon src="https://i.imgur.com/MmPvkcO.png"/>
+    <icon src="https://i.imgur.com/MmPvkcO.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="TMTV.mn@SD">
     <display-name>TM</display-name>
-    <icon src="https://i.imgur.com/Bza9r7U.png"/>
+    <icon src="https://i.imgur.com/Bza9r7U.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="TV5.mn@SD">
     <display-name>TV5</display-name>
-    <icon src="https://i.imgur.com/asGQfGN.png"/>
+    <icon src="https://i.imgur.com/asGQfGN.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="tv7">
@@ -150,17 +150,17 @@
   </channel>
   <channel id="TV8.mn@SD">
     <display-name>TV8</display-name>
-    <icon src="https://i.imgur.com/EguOdxW.png"/>
+    <icon src="https://i.imgur.com/EguOdxW.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="TV9.mn@SD">
     <display-name>TV9</display-name>
-    <icon src="https://i.imgur.com/QFteAgd.png"/>
+    <icon src="https://i.imgur.com/QFteAgd.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <channel id="UBS.mn@SD">
     <display-name>UBS-1</display-name>
-    <icon src="https://i.imgur.com/dIRMYYd.png"/>
+    <icon src="https://i.imgur.com/dIRMYYd.png" />
     <url>https://zuragt.mn</url>
   </channel>
   <programme start="20260422220000 +0000" stop="20260422220500 +0000" channel="AsianBox.mn@SD">

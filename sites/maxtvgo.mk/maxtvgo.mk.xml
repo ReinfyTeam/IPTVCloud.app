@@ -1,53 +1,53 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="Sitel.mk@SD">
     <display-name>Сител HD</display-name>
-    <icon src="https://i.imgur.com/pdobwKt.png"/>
+    <icon src="https://i.imgur.com/pdobwKt.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="KlanMacedonia.mk@SD">
     <display-name>Klan Macedonia HD</display-name>
-    <icon src="https://i.imgur.com/tel58lt.png"/>
+    <icon src="https://i.imgur.com/tel58lt.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="DMSat.rs@SD">
     <display-name>DM Sat</display-name>
-    <icon src="https://i.imgur.com/LdeA1Cn.png"/>
+    <icon src="https://i.imgur.com/LdeA1Cn.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="Kanal5.mk@SD">
     <display-name>Канал 5 HD</display-name>
-    <icon src="https://i.imgur.com/Qw7N3S2.png"/>
+    <icon src="https://i.imgur.com/Qw7N3S2.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="BalkanikaTV.bg@SD">
     <display-name>Balkanika</display-name>
-    <icon src="https://i.imgur.com/ak4jyZu.png"/>
+    <icon src="https://i.imgur.com/ak4jyZu.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="ArenaSport1.rs@SD">
     <display-name>Arena Sport 1 HD</display-name>
-    <icon src="https://i.imgur.com/RJrJGbW.png"/>
+    <icon src="https://i.imgur.com/RJrJGbW.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="AlfaTV.mk@SD">
     <display-name>Алфа HD</display-name>
-    <icon src="https://i.imgur.com/5BSyXfr.png"/>
+    <icon src="https://i.imgur.com/5BSyXfr.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="TV24.mk@SD">
     <display-name>ТВ 24 HD</display-name>
-    <icon src="https://i.imgur.com/o5n40jq.png"/>
+    <icon src="https://i.imgur.com/o5n40jq.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="MTV00s.uk@SD">
     <display-name>MTV 00s</display-name>
-    <icon src="https://i.imgur.com/l5wBRfF.png"/>
+    <icon src="https://i.imgur.com/l5wBRfF.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="TelmaTV.mk@SD">
     <display-name>Телма HD</display-name>
-    <icon src="https://i.imgur.com/Fqunp0h.png"/>
+    <icon src="https://i.imgur.com/Fqunp0h.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="37">
@@ -56,17 +56,17 @@
   </channel>
   <channel id="TVSonce.mk@SD">
     <display-name>ТВ Сонце</display-name>
-    <icon src="https://i.imgur.com/eNQaxy1.png"/>
+    <icon src="https://i.imgur.com/eNQaxy1.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="MinimaxCEE.cz@SD">
     <display-name>Minimax</display-name>
-    <icon src="https://i.imgur.com/WWOlm1x.png"/>
+    <icon src="https://i.imgur.com/WWOlm1x.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="HayatFolk.ba@SD">
     <display-name>Hayat Folk</display-name>
-    <icon src="https://i.imgur.com/LteJva4.png"/>
+    <icon src="https://i.imgur.com/LteJva4.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="48">
@@ -75,142 +75,142 @@
   </channel>
   <channel id="NasaTV.mk@SD">
     <display-name>Наша ТВ</display-name>
-    <icon src="https://i.imgur.com/9rB4VZy.png"/>
+    <icon src="https://i.imgur.com/9rB4VZy.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="MRT2.mk@SD">
     <display-name>МАКЕДОНСКА ТВ 2 HD</display-name>
-    <icon src="https://i.imgur.com/YvOrUnN.png"/>
+    <icon src="https://i.imgur.com/YvOrUnN.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="ArenaSport3.rs@SD">
     <display-name>Arena Sport 3 HD</display-name>
-    <icon src="https://i.imgur.com/3r3burN.png"/>
+    <icon src="https://i.imgur.com/3r3burN.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="Alsat.mk@SD">
     <display-name>Алсат М HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Logo_of_Alsat_TV_%282020-%29.svg/960px-Logo_of_Alsat_TV_%282020-%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Logo_of_Alsat_TV_%282020-%29.svg/960px-Logo_of_Alsat_TV_%282020-%29.svg.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="MRTSobraniskikanal.mk@SD">
     <display-name>МРТ СОБРАНИСКИ КАНАЛ</display-name>
-    <icon src="https://i.imgur.com/fyNQ8Nf.png"/>
+    <icon src="https://i.imgur.com/fyNQ8Nf.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="TVEdo.mk@SD">
     <display-name>TV EDO</display-name>
-    <icon src="https://i.imgur.com/Nu75zfb.png"/>
+    <icon src="https://i.imgur.com/Nu75zfb.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="ArenaSport2.rs@SD">
     <display-name>Arena Sport 2 HD</display-name>
-    <icon src="https://i.imgur.com/aqlECBj.png"/>
+    <icon src="https://i.imgur.com/aqlECBj.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="TVShenja.mk@SD">
     <display-name>TV SHENJA</display-name>
-    <icon src="https://i.imgur.com/JsdUpB8.png"/>
+    <icon src="https://i.imgur.com/JsdUpB8.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="M1Film.hr@SD">
     <display-name>M1</display-name>
-    <icon src="https://i.imgur.com/OEo6reV.png"/>
+    <icon src="https://i.imgur.com/OEo6reV.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="TeraTV.mk@SD">
     <display-name>TERA</display-name>
-    <icon src="https://i.imgur.com/8uS7sqo.png"/>
+    <icon src="https://i.imgur.com/8uS7sqo.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="vijuTV1000.ru@SD">
     <display-name>TV 1000 HD</display-name>
-    <icon src="https://i.imgur.com/ZMsyjSr.png"/>
+    <icon src="https://i.imgur.com/ZMsyjSr.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="ArenaSport4.rs@SD">
     <display-name>Arena Sport 4 HD</display-name>
-    <icon src="https://i.imgur.com/h1XhGkz.png"/>
+    <icon src="https://i.imgur.com/h1XhGkz.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="DaVinci.de@SD">
     <display-name>DA VINCHI LEARNING HD</display-name>
-    <icon src="https://i.imgur.com/iBx7K1M.png"/>
+    <icon src="https://i.imgur.com/iBx7K1M.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="MTV80s.uk@SD">
     <display-name>MTV 80s</display-name>
-    <icon src="https://i.imgur.com/N9e5hv5.png"/>
+    <icon src="https://i.imgur.com/N9e5hv5.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="MRT1.mk@SD">
     <display-name>Македонска ТВ 1 HD</display-name>
-    <icon src="https://i.imgur.com/EkkyAE0.png"/>
+    <icon src="https://i.imgur.com/EkkyAE0.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="ViasatNature.se@SD">
     <display-name>Viasat Nature</display-name>
-    <icon src="https://i.imgur.com/ousRqqD.png"/>
+    <icon src="https://i.imgur.com/ousRqqD.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="ViasatExplore.se@SD">
     <display-name>Viasat Explore</display-name>
-    <icon src="https://i.imgur.com/DyT5pKB.png"/>
+    <icon src="https://i.imgur.com/DyT5pKB.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="AlJazeeraBalkans.ba@SD">
     <display-name>Aljazeera Balkans HD</display-name>
-    <icon src="https://i.imgur.com/vMzCr8O.png"/>
+    <icon src="https://i.imgur.com/vMzCr8O.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="ViasatHistory.se@SD">
     <display-name>Viasat History</display-name>
-    <icon src="https://i.imgur.com/wRP9XA7.png"/>
+    <icon src="https://i.imgur.com/wRP9XA7.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="M1Gold.hr@SD">
     <display-name>M1 Gold</display-name>
-    <icon src="https://i.imgur.com/g5hnghG.png"/>
+    <icon src="https://i.imgur.com/g5hnghG.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="Fox.rs@SD">
     <display-name>STAR CHANNEL HD</display-name>
-    <icon src="https://i.imgur.com/zYz6AwQ.png"/>
+    <icon src="https://i.imgur.com/zYz6AwQ.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="FoxLife.rs@SD">
     <display-name>STAR LIFE HD</display-name>
-    <icon src="https://i.imgur.com/O2miSLA.png"/>
+    <icon src="https://i.imgur.com/O2miSLA.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="FoxMovies.rs@SD">
     <display-name>STAR MOVIES HD</display-name>
-    <icon src="https://i.imgur.com/P63yktY.png"/>
+    <icon src="https://i.imgur.com/P63yktY.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="FoxCrime.rs@SD">
     <display-name>STAR CRIME HD</display-name>
-    <icon src="https://i.imgur.com/htrPojY.png"/>
+    <icon src="https://i.imgur.com/htrPojY.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="NationalGeographic.gr@HD">
     <display-name>National Geographic HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="NationalGeographicWild.gr@HD">
     <display-name>National Geographic Wild</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="ArenaSport5.rs@SD">
     <display-name>Arena Sport 5 HD</display-name>
-    <icon src="https://i.imgur.com/036qMgu.png"/>
+    <icon src="https://i.imgur.com/036qMgu.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="BalkanMusicTV.mk@SD">
     <display-name>Balkan Music HD</display-name>
-    <icon src="https://i.imgur.com/42UfYjc.png"/>
+    <icon src="https://i.imgur.com/42UfYjc.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="3188274">
@@ -267,17 +267,17 @@
   </channel>
   <channel id="MRT4.mk@SD">
     <display-name>МРТ 4 HD</display-name>
-    <icon src="https://i.imgur.com/wSmxUqY.png"/>
+    <icon src="https://i.imgur.com/wSmxUqY.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="MRT5.mk@SD">
     <display-name>МРТ 5 HD</display-name>
-    <icon src="https://i.imgur.com/zcvKu1h.png"/>
+    <icon src="https://i.imgur.com/zcvKu1h.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="MRT3.mk@SD">
     <display-name>МРТ 3 HD</display-name>
-    <icon src="https://i.imgur.com/3VZrG4T.png"/>
+    <icon src="https://i.imgur.com/3VZrG4T.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="3511559">
@@ -306,17 +306,17 @@
   </channel>
   <channel id="ArenaSport2Premium.rs@SD">
     <display-name>Arena Premium 2 HD</display-name>
-    <icon src="https://i.imgur.com/ztOmQ7P.png"/>
+    <icon src="https://i.imgur.com/ztOmQ7P.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="ArenaSport1Premium.rs@SD">
     <display-name>Arena Premium 1 HD</display-name>
-    <icon src="https://i.imgur.com/csv6YsL.png"/>
+    <icon src="https://i.imgur.com/csv6YsL.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="ArenaSport3Premium.rs@SD">
     <display-name>Arena Premium 3 HD</display-name>
-    <icon src="https://i.imgur.com/gpqemLf.png"/>
+    <icon src="https://i.imgur.com/gpqemLf.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="3655191">
@@ -329,7 +329,7 @@
   </channel>
   <channel id="ArenaFight.rs@SD">
     <display-name>Arena Fight HD</display-name>
-    <icon src="https://i.imgur.com/5abTrJU.png"/>
+    <icon src="https://i.imgur.com/5abTrJU.png" />
     <url>https://maxtvgo.mk</url>
   </channel>
   <channel id="3780858">

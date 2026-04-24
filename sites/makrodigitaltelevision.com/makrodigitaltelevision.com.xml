@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="MakroDigitalTelevision.ec@SD">
     <display-name>MakroDigital Television</display-name>
-    <icon src="https://makrodigitaltelevision.com/logo.jpg"/>
+    <icon src="https://makrodigitaltelevision.com/logo.jpg" />
     <url>https://makrodigitaltelevision.com</url>
   </channel>
   <programme start="20260423120000 +0000" stop="20260423123000 +0000" channel="MakroDigitalTelevision.ec@SD">

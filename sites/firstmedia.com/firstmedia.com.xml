@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <tv date="20260423">
   <channel id="BTV.id@SD">
     <display-name>BTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BTV_%28Indonesia%29_logo_%282025%29.svg/960px-BTV_%28Indonesia%29_logo_%282025%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BTV_%28Indonesia%29_logo_%282025%29.svg/960px-BTV_%28Indonesia%29_logo_%282025%29.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="2">
@@ -15,37 +15,37 @@
   </channel>
   <channel id="NET.id@SD">
     <display-name>NET.</display-name>
-    <icon src="https://i.imgur.com/RPT8O12.png"/>
+    <icon src="https://i.imgur.com/RPT8O12.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="MetroTV.id@SD">
     <display-name>Metro TV</display-name>
-    <icon src="https://i.imgur.com/QnU70NI.png"/>
+    <icon src="https://i.imgur.com/QnU70NI.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="SCTV.id@SD">
     <display-name>SCTV</display-name>
-    <icon src="https://i.imgur.com/EMmOvnQ.png"/>
+    <icon src="https://i.imgur.com/EMmOvnQ.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="Indosiar.id@SD">
     <display-name>Indosiar</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/960px-Indosiar_2015.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/960px-Indosiar_2015.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="ANTV.id@SD">
     <display-name>ANTV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/960px-Antv_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/960px-Antv_logo.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="tvOne.id@SD">
     <display-name>TV One</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/960px-TvOne_2023.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/960px-TvOne_2023.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="KompasTV.id@SD">
     <display-name>Kompas TV</display-name>
-    <icon src="https://i.imgur.com/bD6UHeZ.png"/>
+    <icon src="https://i.imgur.com/bD6UHeZ.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="16">
@@ -54,12 +54,12 @@
   </channel>
   <channel id="JTV.id@SD">
     <display-name>Jawa Pos Media Televisi - JTV</display-name>
-    <icon src="https://i.imgur.com/mIDWIQk.png"/>
+    <icon src="https://i.imgur.com/mIDWIQk.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="Reformed21.id@SD">
     <display-name>Reformed 21</display-name>
-    <icon src="https://reformed21.tv/images/logo.png"/>
+    <icon src="https://reformed21.tv/images/logo.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="23">
@@ -76,17 +76,17 @@
   </channel>
   <channel id="Moji.id@SD">
     <display-name>MOJI</display-name>
-    <icon src="https://i.imgur.com/mM9zapJ.png"/>
+    <icon src="https://i.imgur.com/mM9zapJ.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="DAAITV.id@SD">
     <display-name>DAAI TV</display-name>
-    <icon src="https://i.imgur.com/YC7JCHo.png"/>
+    <icon src="https://i.imgur.com/YC7JCHo.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="EWTN.us@AsiaPacific">
     <display-name>Eternal Word Television Network (EWTN)</display-name>
-    <icon src="https://i.imgur.com/sua70RO.png"/>
+    <icon src="https://i.imgur.com/sua70RO.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="30">
@@ -103,32 +103,32 @@
   </channel>
   <channel id="RajawaliTV.id@SD">
     <display-name>Rajawali TV</display-name>
-    <icon src="https://i.imgur.com/dlsv1sl.png"/>
+    <icon src="https://i.imgur.com/dlsv1sl.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="SindoNewsTV.id@SD">
     <display-name>MNC News</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/SindoNewsTV_2023.png/960px-SindoNewsTV_2023.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/SindoNewsTV_2023.png/960px-SindoNewsTV_2023.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="TV9Nusantara.id@SD">
     <display-name>TV9</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/id/e/ed/TV9_Nusantara.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/id/e/ed/TV9_Nusantara.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="GarudaTV.id@SD">
     <display-name>Garuda TV</display-name>
-    <icon src="https://i.imgur.com/sXsAcZ3.png"/>
+    <icon src="https://i.imgur.com/sXsAcZ3.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="QuranTV.sa@SD">
     <display-name>Al Quran Al Kareem</display-name>
-    <icon src="https://i.imgur.com/OKpxQef.jpg"/>
+    <icon src="https://i.imgur.com/OKpxQef.jpg" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="AlSunnahAlNabawiyahTV.sa@SD">
     <display-name>Sunnah TV</display-name>
-    <icon src="https://i.imgur.com/S6LcTJv.png"/>
+    <icon src="https://i.imgur.com/S6LcTJv.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="50">
@@ -137,112 +137,112 @@
   </channel>
   <channel id="AXNAsia.sg@Indonesia">
     <display-name>AXN</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="AnimaxAsia.sg@SD">
     <display-name>Animax</display-name>
-    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png"/>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="GTV.id@SD">
     <display-name>GTV</display-name>
-    <icon src="https://i.imgur.com/jjuKnYs.png"/>
+    <icon src="https://i.imgur.com/jjuKnYs.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="ROCKExtreme.sg@SD">
     <display-name>Rock Action</display-name>
-    <icon src="https://i.imgur.com/3U1JpHm.png"/>
+    <icon src="https://i.imgur.com/3U1JpHm.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="EuronewsEnglish.fr@SD">
     <display-name>Euronews</display-name>
-    <icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png"/>
+    <icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="TBNAsia.us@SD">
     <display-name>TBN Asia</display-name>
-    <icon src="https://i.imgur.com/9Sw2Cns.png"/>
+    <icon src="https://i.imgur.com/9Sw2Cns.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="JakTV.id@SD">
     <display-name>Jakarta TV - Jak TV</display-name>
-    <icon src="https://i.imgur.com/xyLLLOi.png"/>
+    <icon src="https://i.imgur.com/xyLLLOi.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="iNews.id@SD">
     <display-name>iNews</display-name>
-    <icon src="https://i.imgur.com/M2R3lfg.png"/>
+    <icon src="https://i.imgur.com/M2R3lfg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="TLCSoutheastAsia.sg@SD">
     <display-name>The Learning Channel - TLC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="AsianFoodNetwork.sg@SD">
     <display-name>Asian Food Network</display-name>
-    <icon src="https://i.imgur.com/pux6WN8.png"/>
+    <icon src="https://i.imgur.com/pux6WN8.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="IMC.id@SD">
     <display-name>IMC</display-name>
-    <icon src="https://i.postimg.cc/RhrVvp29/4r2D8xN.png"/>
+    <icon src="https://i.postimg.cc/RhrVvp29/4r2D8xN.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="FashionTVAsia.fr@SD">
     <display-name>Fashion TV</display-name>
-    <icon src="https://i.imgur.com/ucTh9tO.png"/>
+    <icon src="https://i.imgur.com/ucTh9tO.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="GMS.id@SD">
     <display-name>GMS Channel</display-name>
-    <icon src="https://i.imgur.com/hIroLuT.png"/>
+    <icon src="https://i.imgur.com/hIroLuT.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="DiscoveryChannel.id@SD">
     <display-name>Discovery Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="AnimalPlanetSoutheastAsia.sg@SD">
     <display-name>Animal Planet</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="NickJrAsia.sg@SD">
     <display-name>Nick jr.</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="NickelodeonAsia.sg@SD">
     <display-name>Nickelodeon</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="CartoonNetworkAsia.sg@SD">
     <display-name>Cartoon Network</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="SPOTV.id@SD">
     <display-name>SPOTV</display-name>
-    <icon src="https://i.imgur.com/HaoVsm5.png"/>
+    <icon src="https://i.imgur.com/HaoVsm5.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="SPOTV2.id@SD">
     <display-name>SPOTV 2</display-name>
-    <icon src="https://i.imgur.com/YD8fbTH.png"/>
+    <icon src="https://i.imgur.com/YD8fbTH.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="ChampionsTV1.id@SD">
     <display-name>Champions TV 1</display-name>
-    <icon src="https://i.imgur.com/ctwmSHa.png"/>
+    <icon src="https://i.imgur.com/ctwmSHa.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="ChampionsTV2.id@SD">
     <display-name>Champions TV 2</display-name>
-    <icon src="https://i.imgur.com/oYUUKra.png"/>
+    <icon src="https://i.imgur.com/oYUUKra.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="145">
@@ -251,27 +251,27 @@
   </channel>
   <channel id="Eurosport.fr@Asia">
     <display-name>Eurosport</display-name>
-    <icon src="https://i.imgur.com/s4jDnJh.png"/>
+    <icon src="https://i.imgur.com/s4jDnJh.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="StarGold.in@SD">
     <display-name>Star Gold</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s143815_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s143815_ld_h15_aa.png?lock=720x540" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="ZeeBioskop.id@SD">
     <display-name>Zee Bioskop</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Zee_Bioskop_%282025%29.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Zee_Bioskop_%282025%29.svg" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="StarPlus.in@SD">
     <display-name>Star Plus</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s143832_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s143832_ld_h15_aa.png?lock=720x540" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="ZeeTVAsiaPacific.sg@SD">
     <display-name>ZEE TV</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Zee_TV_Logo_2025.svg"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Zee_TV_Logo_2025.svg" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="175">
@@ -280,207 +280,207 @@
   </channel>
   <channel id="WION.in@SD">
     <display-name>Wion</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s144087_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s144087_ld_h15_aa.png?lock=720x540" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="ZeeAction.in@SD">
     <display-name>Zee Action</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0022K5ZV.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/GNLZZGG0022K5ZV.png?lock=720x540" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="TVBXingHe.hk@SD">
     <display-name>TVB Xing He</display-name>
-    <icon src="https://i.imgur.com/uf0bYFm.png"/>
+    <icon src="https://i.imgur.com/uf0bYFm.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="PhoenixInfoNewsChannel.hk@SD">
     <display-name>Phoenix Info News</display-name>
-    <icon src="https://i.imgur.com/mt4h3VO.png"/>
+    <icon src="https://i.imgur.com/mt4h3VO.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="PhoenixChineseChannel.hk@SD">
     <display-name>Phoenix Chinese Channel</display-name>
-    <icon src="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png"/>
+    <icon src="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="CelestialMoviesIndonesia.id@SD">
     <display-name>Celestial Movies</display-name>
-    <icon src="https://i.imgur.com/KYP1xXZ.png"/>
+    <icon src="https://i.imgur.com/KYP1xXZ.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="ONE.sg@SD">
     <display-name>ONE</display-name>
-    <icon src="https://i.imgur.com/ea0iGfA.png"/>
+    <icon src="https://i.imgur.com/ea0iGfA.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="XingKongChina.cn@SD">
     <display-name>Xing Kong China</display-name>
-    <icon src="https://i.imgur.com/6zocaAM.png"/>
+    <icon src="https://i.imgur.com/6zocaAM.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="ZhejiangSatelliteTV.cn@SD">
     <display-name>Zhejiang TV</display-name>
-    <icon src="https://i.imgur.com/NFFQNhq.png"/>
+    <icon src="https://i.imgur.com/NFFQNhq.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="CCTV4Asia.cn@SD">
     <display-name>CCTV 4</display-name>
-    <icon src="https://i.imgur.com/tWt4Wou.png"/>
+    <icon src="https://i.imgur.com/tWt4Wou.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="CGTN.cn@SD">
     <display-name>CGTN</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="TVBSAsia.tw@SD">
     <display-name>TVBS Asia</display-name>
-    <icon src="https://i.imgur.com/4S1rkhm.png"/>
+    <icon src="https://i.imgur.com/4S1rkhm.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="TVBSNews.tw@SD">
     <display-name>TVBS News</display-name>
-    <icon src="https://i.imgur.com/171lwfg.png"/>
+    <icon src="https://i.imgur.com/171lwfg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="HunanTV.cn@SD">
     <display-name>Hunan TV</display-name>
-    <icon src="https://parco-zh.github.io/demo/HNWS.png"/>
+    <icon src="https://parco-zh.github.io/demo/HNWS.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="DragonTV.cn@SD">
     <display-name>Dragon TV</display-name>
-    <icon src="https://i.imgur.com/WqM6xnF.png"/>
+    <icon src="https://i.imgur.com/WqM6xnF.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="JiangsuTV.cn@SD">
     <display-name>Jiangsu TV</display-name>
-    <icon src="https://i.imgur.com/TtMLJFa.png"/>
+    <icon src="https://i.imgur.com/TtMLJFa.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="AnhuiTV.cn@SD">
     <display-name>ANHUI TV</display-name>
-    <icon src="https://i.imgur.com/gDn101f.png"/>
+    <icon src="https://i.imgur.com/gDn101f.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="ShenzhenTV.cn@SD">
     <display-name>Shenzen TV</display-name>
-    <icon src="https://i.imgur.com/AnZjWm4.png"/>
+    <icon src="https://i.imgur.com/AnZjWm4.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="MTV90s.uk@SD">
     <display-name>MTV 90s</display-name>
-    <icon src="https://i.imgur.com/au5zhwP.png"/>
+    <icon src="https://i.imgur.com/au5zhwP.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="DW.de@English">
     <display-name>DW English</display-name>
-    <icon src="https://i.imgur.com/8MRNFb9.png"/>
+    <icon src="https://i.imgur.com/8MRNFb9.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="ArirangTV.kr@SD">
     <display-name>Arirang</display-name>
-    <icon src="https://i.imgur.com/Asu5pE9.png"/>
+    <icon src="https://i.imgur.com/Asu5pE9.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="BBCNews.uk@AsiaPacific">
     <display-name>BBC World News</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="CNNInternational.us@AsiaPacific">
     <display-name>CNN International</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="FoxNewsChannel.us@SD">
     <display-name>Fox News</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="RT.ru@SD">
     <display-name>Russia Today</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="BloombergTV.us@Asia">
     <display-name>Bloomberg</display-name>
-    <icon src="https://i.imgur.com/OuogLHx.png"/>
+    <icon src="https://i.imgur.com/OuogLHx.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="TRTWorld.tr@SD">
     <display-name>TRT World</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="CNA.sg@SD">
     <display-name>Channel News Asia</display-name>
-    <icon src="https://i.imgur.com/awIDugE.png"/>
+    <icon src="https://i.imgur.com/awIDugE.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="AlJazeera.qa@English">
     <display-name>Al Jazeera International</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="KBSWorld.kr@SD">
     <display-name>KBS World</display-name>
-    <icon src="https://i.imgur.com/7DqgELX.png"/>
+    <icon src="https://i.imgur.com/7DqgELX.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="AlJazeera.qa@Arabic">
     <display-name>Al Jazeera Arabic</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="France24.fr@English">
     <display-name>France 24</display-name>
-    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540"/>
+    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="NHKWorldPremium.jp@SD">
     <display-name>NHK World Premium</display-name>
-    <icon src="https://i.imgur.com/4ESi2La.png"/>
+    <icon src="https://i.imgur.com/4ESi2La.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="ABCAustralia.au@SD">
     <display-name>ABC Australia</display-name>
-    <icon src="https://i.imgur.com/qQ33TVM.png"/>
+    <icon src="https://i.imgur.com/qQ33TVM.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="RaiItalia.it@Asia">
     <display-name>Rai Italia</display-name>
-    <icon src="https://i.imgur.com/1nN4rEP.png"/>
+    <icon src="https://i.imgur.com/1nN4rEP.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="TV5MondeAsia.fr@SD">
     <display-name>TV5 Monde</display-name>
-    <icon src="https://i.imgur.com/FRsRXRR.png"/>
+    <icon src="https://i.imgur.com/FRsRXRR.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="HBOAsia.sg@Vietnam">
     <display-name>HBO</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="HBOSignatureAsia.sg@SD">
     <display-name>HBO Signature</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/HBO_Signature_Asia.png/960px-HBO_Signature_Asia.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/HBO_Signature_Asia.png/960px-HBO_Signature_Asia.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="HBOHitsAsia.sg@SD">
     <display-name>HBO Hits</display-name>
-    <icon src="https://i.imgur.com/CTjmocc.png"/>
+    <icon src="https://i.imgur.com/CTjmocc.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="HBOFamilyAsia.sg@SD">
     <display-name>HBO Family</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/HBO_Family_Asia_logo.svg/960px-HBO_Family_Asia_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/HBO_Family_Asia_logo.svg/960px-HBO_Family_Asia_logo.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="CinemaxAsia.sg@SD">
     <display-name>Cinemax</display-name>
-    <icon src="https://i.imgur.com/c8crJfA.png"/>
+    <icon src="https://i.imgur.com/c8crJfA.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="300">
@@ -501,42 +501,42 @@
   </channel>
   <channel id="HBOAsia.sg@HD">
     <display-name>HBO HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="HBOHitsAsia.sg@HD">
     <display-name>HBO Hits HD</display-name>
-    <icon src="https://i.imgur.com/CTjmocc.png"/>
+    <icon src="https://i.imgur.com/CTjmocc.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="HBOFamilyAsia.sg@HD">
     <display-name>HBO Family HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/HBO_Family_Asia_logo.svg/960px-HBO_Family_Asia_logo.svg.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/HBO_Family_Asia_logo.svg/960px-HBO_Family_Asia_logo.svg.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="HBOSignatureAsia.sg@HD">
     <display-name>HBO Signature HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/HBO_Signature_Asia.png/960px-HBO_Signature_Asia.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/HBO_Signature_Asia.png/960px-HBO_Signature_Asia.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="CinemaxAsia.sg@HD">
     <display-name>Cinemax HD</display-name>
-    <icon src="https://i.imgur.com/c8crJfA.png"/>
+    <icon src="https://i.imgur.com/c8crJfA.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="CelestialMoviesIndonesia.id@HD">
     <display-name>Celestial Movies HD</display-name>
-    <icon src="https://i.imgur.com/KYP1xXZ.png"/>
+    <icon src="https://i.imgur.com/KYP1xXZ.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="WarnerTVAsia.us@SD">
     <display-name>Warner TV HD</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/960px-Warner2018LA.png"/>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/960px-Warner2018LA.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="Eurosport.fr@AsiaHD">
     <display-name>Eurosport HD</display-name>
-    <icon src="https://i.imgur.com/s4jDnJh.png"/>
+    <icon src="https://i.imgur.com/s4jDnJh.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="321">
@@ -553,12 +553,12 @@
   </channel>
   <channel id="HITSMovies.sg@SD">
     <display-name>Hits Movies HD</display-name>
-    <icon src="https://i.imgur.com/kyE3vXf.png"/>
+    <icon src="https://i.imgur.com/kyE3vXf.png" />
     <url>https://firstmedia.com</url>
   </channel>
   <channel id="HITS.sg@SD">
     <display-name>HITS HD</display-name>
-    <icon src="https://i.imgur.com/IM8Gy1l.png"/>
+    <icon src="https://i.imgur.com/IM8Gy1l.png" />
     <url>https://firstmedia.com</url>
   </channel>
 </tv>
