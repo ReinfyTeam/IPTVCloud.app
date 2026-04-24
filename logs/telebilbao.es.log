@@ -1,31 +1,3 @@
-═══════════════════════════════════════════════════════════════
-  Site            : telebilbao.es
-  Status          : PASS
-  Attempts used   : 1 / 10
-  Total elapsed   : 7s
-  Channels        : 2
-  With programmes : 2
-  Empty channels  : 0
-  Total programs  : 94
-  Output size     : 11569 bytes
-  Generated       : 2026-04-24 12:17:30
-═══════════════════════════════════════════════════════════════
-
------ raw npm grab output (last attempt) -----
-
-
-===== attempt 1/10 @ 12:17:23 =====
-
-> grab
-> tsx scripts/commands/epg/grab.ts --sites=telebilbao.es --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
-
-ℹ starting...
-ℹ loading channels...
-ℹ found 1 channel(s)
-ℹ loading api data...
-ℹ creating queue...
-ℹ run:
-ℹ   [1/2] telebilbao.es (es) - TeleBilbao.es@SD - Apr 24, 2026 (47 programs)
-ℹ   [2/2] telebilbao.es (es) - TeleBilbao.es@SD - Apr 25, 2026 (47 programs)
-ℹ   saving to "/home/runner/workspace/sites/telebilbao.es/telebilbao.es.xml"...
-✔   done in 00h 00m 01s
+version https://git-lfs.github.com/spec/v1
+oid sha256:03d57f7a63dc833b2782053eebcd10e5f92bd609d4de8ad94ed2b7fb16c14e6b
+size 1298

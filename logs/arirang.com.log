@@ -1,35 +1,3 @@
-═══════════════════════════════════════════════════════════════
-  Site            : arirang.com
-  Status          : PASS
-  Attempts used   : 1 / 10
-  Total elapsed   : 30s
-  Channels        : 6
-  With programmes : 6
-  Empty channels  : 0
-  Total programs  : 319
-  Output size     : 254943 bytes
-  Generated       : 2026-04-24 10:45:26
-═══════════════════════════════════════════════════════════════
-
------ raw npm grab output (last attempt) -----
-
-
-===== attempt 1/10 @ 10:44:56 =====
-
-> grab
-> tsx scripts/commands/epg/grab.ts --sites=arirang.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
-
-ℹ starting...
-ℹ loading channels...
-ℹ found 3 channel(s)
-ℹ loading api data...
-ℹ creating queue...
-ℹ run:
-ℹ   [1/6] arirang.com (en) - ArirangWorld.kr@SD - Apr 25, 2026 (53 programs)
-ℹ   [2/6] arirang.com (en) - ArirangWorld.kr@SD - Apr 24, 2026 (52 programs)
-ℹ   [3/6] arirang.com (en) - ArirangTV.kr@SD - Apr 25, 2026 (53 programs)
-ℹ   [4/6] arirang.com (en) - ArirangTV.kr@SD - Apr 24, 2026 (53 programs)
-ℹ   [5/6] arirang.com (en) - ArirangUN.kr@SD - Apr 24, 2026 (55 programs)
-ℹ   [6/6] arirang.com (en) - ArirangUN.kr@SD - Apr 25, 2026 (53 programs)
-ℹ   saving to "/home/runner/workspace/sites/arirang.com/arirang.com.xml"...
-✔   done in 00h 00m 18s
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e06aa683d17a90c7fadbdc5e5d3a0cff3e2ce60579b3f14cdae880db505dba0
+size 1597

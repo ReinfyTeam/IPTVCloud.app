@@ -1,31 +1,3 @@
-═══════════════════════════════════════════════════════════════
-  Site            : makrodigitaltelevision.com
-  Status          : PASS
-  Attempts used   : 1 / 10
-  Total elapsed   : 8s
-  Channels        : 2
-  With programmes : 2
-  Empty channels  : 0
-  Total programs  : 42
-  Output size     : 7105 bytes
-  Generated       : 2026-04-24 11:09:34
-═══════════════════════════════════════════════════════════════
-
------ raw npm grab output (last attempt) -----
-
-
-===== attempt 1/10 @ 11:09:26 =====
-
-> grab
-> tsx scripts/commands/epg/grab.ts --sites=makrodigitaltelevision.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
-
-ℹ starting...
-ℹ loading channels...
-ℹ found 1 channel(s)
-ℹ loading api data...
-ℹ creating queue...
-ℹ run:
-ℹ   [1/2] makrodigitaltelevision.com (es) - MakroDigitalTelevision.ec@SD - Apr 24, 2026 (15 programs)
-ℹ   [2/2] makrodigitaltelevision.com (es) - MakroDigitalTelevision.ec@SD - Apr 25, 2026 (27 programs)
-ℹ   saving to "/home/runner/workspace/sites/makrodigitaltelevision.com/makrodigitaltelevision.com.xml"...
-✔   done in 00h 00m 01s
+version https://git-lfs.github.com/spec/v1
+oid sha256:f395239114fdc475362ecb0a111525cabd7c1ee9f64936b675ed56432a07ad32
+size 1399

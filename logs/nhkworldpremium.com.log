@@ -1,33 +1,3 @@
-═══════════════════════════════════════════════════════════════
-  Site            : nhkworldpremium.com
-  Status          : PASS
-  Attempts used   : 1 / 10
-  Total elapsed   : 5s
-  Channels        : 4
-  With programmes : 4
-  Empty channels  : 0
-  Total programs  : 274
-  Output size     : 49824 bytes
-  Generated       : 2026-04-24 11:25:54
-═══════════════════════════════════════════════════════════════
-
------ raw npm grab output (last attempt) -----
-
-
-===== attempt 1/10 @ 11:25:49 =====
-
-> grab
-> tsx scripts/commands/epg/grab.ts --sites=nhkworldpremium.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
-
-ℹ starting...
-ℹ loading channels...
-ℹ found 2 channel(s)
-ℹ loading api data...
-ℹ creating queue...
-ℹ run:
-ℹ   [1/4] nhkworldpremium.com (en) - NHKWorldPremium.jp@SD - Apr 24, 2026 (69 programs)
-ℹ   [2/4] nhkworldpremium.com (ja) - NHKWorldPremium.jp@SD - Apr 24, 2026 (69 programs)
-ℹ   [3/4] nhkworldpremium.com (en) - NHKWorldPremium.jp@SD - Apr 25, 2026 (68 programs)
-ℹ   [4/4] nhkworldpremium.com (ja) - NHKWorldPremium.jp@SD - Apr 25, 2026 (68 programs)
-ℹ   saving to "/home/runner/workspace/sites/nhkworldpremium.com/nhkworldpremium.com.xml"...
-✔   done in 00h 00m 01s
+version https://git-lfs.github.com/spec/v1
+oid sha256:442729eec8f1e3d81b5514f7fe297d144d868c1d3317154e71974dd6b8e40a86
+size 1525

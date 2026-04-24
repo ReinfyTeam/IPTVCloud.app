@@ -1,31 +1,3 @@
-═══════════════════════════════════════════════════════════════
-  Site            : ctc.ru
-  Status          : PASS
-  Attempts used   : 1 / 10
-  Total elapsed   : 8s
-  Channels        : 2
-  With programmes : 2
-  Empty channels  : 0
-  Total programs  : 30
-  Output size     : 22113 bytes
-  Generated       : 2026-04-24 10:47:24
-═══════════════════════════════════════════════════════════════
-
------ raw npm grab output (last attempt) -----
-
-
-===== attempt 1/10 @ 10:47:17 =====
-
-> grab
-> tsx scripts/commands/epg/grab.ts --sites=ctc.ru --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
-
-ℹ starting...
-ℹ loading channels...
-ℹ found 1 channel(s)
-ℹ loading api data...
-ℹ creating queue...
-ℹ run:
-ℹ   [1/2] ctc.ru (ru) - STS.ru@SD - Apr 24, 2026 (8 programs)
-ℹ   [2/2] ctc.ru (ru) - STS.ru@SD - Apr 25, 2026 (22 programs)
-ℹ   saving to "/home/runner/workspace/sites/ctc.ru/ctc.ru.xml"...
-✔   done in 00h 00m 01s
+version https://git-lfs.github.com/spec/v1
+oid sha256:1068e003e1ad994663aa9c58a5203cfc9169b5804611df13450620a00d17790a
+size 1241

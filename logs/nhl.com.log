@@ -1,31 +1,3 @@
-═══════════════════════════════════════════════════════════════
-  Site            : nhl.com
-  Status          : PASS
-  Attempts used   : 1 / 10
-  Total elapsed   : 5s
-  Channels        : 2
-  With programmes : 2
-  Empty channels  : 0
-  Total programs  : 59
-  Output size     : 13056 bytes
-  Generated       : 2026-04-24 11:25:59
-═══════════════════════════════════════════════════════════════
-
------ raw npm grab output (last attempt) -----
-
-
-===== attempt 1/10 @ 11:25:54 =====
-
-> grab
-> tsx scripts/commands/epg/grab.ts --sites=nhl.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
-
-ℹ starting...
-ℹ loading channels...
-ℹ found 1 channel(s)
-ℹ loading api data...
-ℹ creating queue...
-ℹ run:
-ℹ   [1/2] nhl.com (en) - NHLNetwork.us@SD - Apr 24, 2026 (27 programs)
-ℹ   [2/2] nhl.com (en) - NHLNetwork.us@SD - Apr 25, 2026 (32 programs)
-ℹ   saving to "/home/runner/workspace/sites/nhl.com/nhl.com.xml"...
-✔   done in 00h 00m 00s
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a07481bfe26192c559934ecc83584c20ef1ec77f4ce42a928c0ae99fe276088
+size 1262

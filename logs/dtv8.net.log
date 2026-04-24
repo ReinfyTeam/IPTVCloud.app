@@ -1,35 +1,3 @@
-═══════════════════════════════════════════════════════════════
-  Site            : dtv8.net
-  Status          : PASS
-  Attempts used   : 1 / 10
-  Total elapsed   : 9s
-  Channels        : 2
-  With programmes : 1
-  Empty channels  : 1
-  Total programs  : 19
-  Output size     : 2989 bytes
-  Other errors    :
-    1 Invalid time value
-  Last error      : Invalid time value
-  Generated       : 2026-04-24 10:50:43
-═══════════════════════════════════════════════════════════════
-
------ raw npm grab output (last attempt) -----
-
-
-===== attempt 1/10 @ 10:50:34 =====
-
-> grab
-> tsx scripts/commands/epg/grab.ts --sites=dtv8.net --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
-
-ℹ starting...
-ℹ loading channels...
-ℹ found 1 channel(s)
-ℹ loading api data...
-ℹ creating queue...
-ℹ run:
-ℹ   [1/2] dtv8.net (en) - DTV8.gy@SD - Apr 24, 2026 (19 programs)
-ℹ   [2/2] dtv8.net (en) - DTV8.gy@SD - Apr 25, 2026 (0 programs)
-ℹ     ERR: Invalid time value
-ℹ   saving to "/home/runner/workspace/sites/dtv8.net/dtv8.net.xml"...
-✔   done in 00h 00m 01s
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab72033e80ce03d60224e6718ab1bff5ef37ba9ba6142c55b16b07db415b66ae
+size 1370

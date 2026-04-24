@@ -1,33 +1,3 @@
-═══════════════════════════════════════════════════════════════
-  Site            : toonamiaftermath.com
-  Status          : PASS
-  Attempts used   : 1 / 10
-  Total elapsed   : 5s
-  Channels        : 2
-  With programmes : 2
-  Empty channels  : 0
-  Total programs  : 111
-  Output size     : 25583 bytes
-  Generated       : 2026-04-24 12:25:05
-═══════════════════════════════════════════════════════════════
-
------ raw npm grab output (last attempt) -----
-
-
-===== attempt 1/10 @ 12:25:00 =====
-
-> grab
-> tsx scripts/commands/epg/grab.ts --sites=toonamiaftermath.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
-
-ℹ starting...
-ℹ loading channels...
-ℹ found 1 channel(s)
-ℹ loading api data...
-ℹ creating queue...
-ℹ run:
-(node:58637) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
-(Use `node --trace-warnings ...` to show where the warning was created)
-ℹ   [1/2] toonamiaftermath.com (en) - ToonamiAftermath.us@East - Apr 25, 2026 (59 programs)
-ℹ   [2/2] toonamiaftermath.com (en) - ToonamiAftermath.us@East - Apr 24, 2026 (52 programs)
-ℹ   saving to "/home/runner/workspace/sites/toonamiaftermath.com/toonamiaftermath.com.xml"...
-✔   done in 00h 00m 00s
+version https://git-lfs.github.com/spec/v1
+oid sha256:719ed2af9fe7fd46e0527bf40f9ca753e12370ee0892f2d297a1cafc90f45e48
+size 1609

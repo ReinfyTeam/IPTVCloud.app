@@ -1,35 +1,3 @@
-═══════════════════════════════════════════════════════════════
-  Site            : opto.sic.pt
-  Status          : PASS
-  Attempts used   : 1 / 10
-  Total elapsed   : 8s
-  Channels        : 6
-  With programmes : 6
-  Empty channels  : 0
-  Total programs  : 153
-  Output size     : 41222 bytes
-  Generated       : 2026-04-24 11:31:51
-═══════════════════════════════════════════════════════════════
-
------ raw npm grab output (last attempt) -----
-
-
-===== attempt 1/10 @ 11:31:43 =====
-
-> grab
-> tsx scripts/commands/epg/grab.ts --sites=opto.sic.pt --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
-
-ℹ starting...
-ℹ loading channels...
-ℹ found 3 channel(s)
-ℹ loading api data...
-ℹ creating queue...
-ℹ run:
-ℹ   [1/6] opto.sic.pt (pt) - SIC.pt@SD - Apr 24, 2026 (17 programs)
-ℹ   [2/6] opto.sic.pt (pt) - SICAltaDefinicao.pt@SD - Apr 24, 2026 (38 programs)
-ℹ   [3/6] opto.sic.pt (pt) - SIC.pt@SD - Apr 25, 2026 (13 programs)
-ℹ   [4/6] opto.sic.pt (pt) - SICAltaDefinicao.pt@SD - Apr 25, 2026 (39 programs)
-ℹ   [5/6] opto.sic.pt (pt) - SICReplay.pt@SD - Apr 24, 2026 (23 programs)
-ℹ   [6/6] opto.sic.pt (pt) - SICReplay.pt@SD - Apr 25, 2026 (23 programs)
-ℹ   saving to "/home/runner/workspace/sites/opto.sic.pt/opto.sic.pt.xml"...
-✔   done in 00h 00m 01s
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7a23182fd56de5af6a8be62d3448cdefcc9c1e76fcecb950cf3a090b49f0ad9
+size 1591

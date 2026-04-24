@@ -1,31 +1,3 @@
-═══════════════════════════════════════════════════════════════
-  Site            : arianatelevision.com
-  Status          : PASS
-  Attempts used   : 1 / 10
-  Total elapsed   : 24s
-  Channels        : 2
-  With programmes : 2
-  Empty channels  : 0
-  Total programs  : 98
-  Output size     : 14510 bytes
-  Generated       : 2026-04-24 10:44:58
-═══════════════════════════════════════════════════════════════
-
------ raw npm grab output (last attempt) -----
-
-
-===== attempt 1/10 @ 10:44:34 =====
-
-> grab
-> tsx scripts/commands/epg/grab.ts --sites=arianatelevision.com --output=/home/runner/workspace/sites/{site}/{site}.xml --timeout=30000 --maxConnections=5 --delay=250 --days=2
-
-ℹ starting...
-ℹ loading channels...
-ℹ found 1 channel(s)
-ℹ loading api data...
-ℹ creating queue...
-ℹ run:
-ℹ   [1/2] arianatelevision.com (en) - ATNNational.af@SD - Apr 25, 2026 (49 programs)
-ℹ   [2/2] arianatelevision.com (en) - ATNNational.af@SD - Apr 24, 2026 (49 programs)
-ℹ   saving to "/home/runner/workspace/sites/arianatelevision.com/arianatelevision.com.xml"...
-✔   done in 00h 00m 02s
+version https://git-lfs.github.com/spec/v1
+oid sha256:e93ab1b497ddb11cb6e26c91e04718f021248a49d34bd32e4c2983ccd7293714
+size 1343
