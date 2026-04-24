@@ -9,15 +9,18 @@ set -Eeuo pipefail
 #   • Sites are batched per worker (cuts npm/node spawn overhead from
 #     ~232 invocations to PARALLEL invocations).
 #   • Per-site channel fetches run concurrently inside `npm run grab`
-#     via --maxConnections.
-#   • Default outer parallelism scales with CPU count.
+#     via --maxConnections (default 20).
+#   • Outer parallelism scales with CPU count (default nproc*4, min 16).
+#   • Per-batch hard timeout scales with batch size, so big batches
+#     don't get killed mid-way through.
 #   • Worker process tree is reaped on Ctrl-C.
 #
 # Tunables (env vars):
-#   PARALLEL          outer batch workers           (default: max(8, nproc*2))
-#   MAX_CONNECTIONS   inner per-site channel pool   (default: 10)
-#   SITE_TIMEOUT      hard timeout per *batch*      (default: 3600s)
-#   GRAB_TIMEOUT      per-channel HTTP timeout (ms) (default: 60000)
+#   PARALLEL          outer batch workers           (default: max(16, nproc*4))
+#   MAX_CONNECTIONS   inner per-site channel pool   (default: 20)
+#   PER_SITE_TIMEOUT  per-site time budget (s)      (default: 600)
+#   BATCH_TIMEOUT     per-batch wall budget (s)     (default: PER_SITE_TIMEOUT * batch_size, capped at 21600)
+#   GRAB_TIMEOUT      per-channel HTTP timeout (ms) (default: 30000)
 #   DAYS              days of EPG to grab           (default: 2)
 #   REPO_URL          iptv-org/epg fork to use
 # ════════════════════════════════════════════════════════════════
@@ -31,13 +34,13 @@ WORK_DIR="$BASE_DIR/epg"
 OUT_DIR="$BASE_DIR/sites"
 
 NPROC=$(nproc 2>/dev/null || echo 4)
-DEFAULT_PAR=$(( NPROC * 2 ))
-[[ $DEFAULT_PAR -lt 8 ]] && DEFAULT_PAR=8
+DEFAULT_PAR=$(( NPROC * 4 ))
+[[ $DEFAULT_PAR -lt 16 ]] && DEFAULT_PAR=16
 
 PARALLEL="${PARALLEL:-$DEFAULT_PAR}"
-MAX_CONNECTIONS="${MAX_CONNECTIONS:-10}"
-SITE_TIMEOUT="${SITE_TIMEOUT:-3600}"
-GRAB_TIMEOUT="${GRAB_TIMEOUT:-60000}"
+MAX_CONNECTIONS="${MAX_CONNECTIONS:-20}"
+PER_SITE_TIMEOUT="${PER_SITE_TIMEOUT:-600}"
+GRAB_TIMEOUT="${GRAB_TIMEOUT:-30000}"
 DAYS="${DAYS:-2}"
 
 GREEN='\033[0;32m'
@@ -60,12 +63,17 @@ fbytes() {
     }'
 }
 
+fnum() {
+    # Always return a printable integer (defaults to 0).
+    local n="${1:-}"
+    [[ "$n" =~ ^[0-9]+$ ]] && echo "$n" || echo 0
+}
+
 TMP=""
 WORKER=""
 cleanup() {
     [[ -n "$TMP" && -f "$TMP" ]] && rm -f "$TMP"
     [[ -n "$WORKER" && -f "$WORKER" ]] && rm -f "$WORKER"
-    # Reap any straggler npm/node procs we spawned via xargs.
     pkill -P $$ 2>/dev/null || true
 }
 trap cleanup EXIT
@@ -104,20 +112,25 @@ if [[ $TOTAL -eq 0 ]]; then
     exit 1
 fi
 
-# Batch sites across PARALLEL workers (round-robin chunking).
+# Batch sites across PARALLEL workers.
 BATCHES=$PARALLEL
 [[ $BATCHES -gt $TOTAL ]] && BATCHES=$TOTAL
 BATCH_SIZE=$(( (TOTAL + BATCHES - 1) / BATCHES ))
+
+# Per-batch wall budget = PER_SITE_TIMEOUT * batch_size, capped at 6h.
+DERIVED_BATCH_TIMEOUT=$(( PER_SITE_TIMEOUT * BATCH_SIZE ))
+[[ $DERIVED_BATCH_TIMEOUT -gt 21600 ]] && DERIVED_BATCH_TIMEOUT=21600
+BATCH_TIMEOUT="${BATCH_TIMEOUT:-$DERIVED_BATCH_TIMEOUT}"
 
 log "Sites detected   : $TOTAL"
 log "Outer workers    : $BATCHES   (PARALLEL=$PARALLEL)"
 log "Batch size       : $BATCH_SIZE sites/worker"
 log "Inner channels   : $MAX_CONNECTIONS concurrent per worker"
+log "Per-channel HTTP : ${GRAB_TIMEOUT}ms"
+log "Per-batch budget : ${BATCH_TIMEOUT}s   (=${PER_SITE_TIMEOUT}s/site x ${BATCH_SIZE})"
 log "Days of guide    : $DAYS"
-log "Per-batch budget : ${SITE_TIMEOUT}s"
 
 TMP=$(mktemp)
-i=0
 batch=""
 batch_n=0
 for s in "${SITES[@]}"; do
@@ -132,11 +145,14 @@ for s in "${SITES[@]}"; do
         batch=""
         batch_n=0
     fi
-    i=$(( i + 1 ))
 done
 [[ -n "$batch" ]] && printf "%s\n" "$batch" >> "$TMP"
 
 # ── WORKER ──────────────────────────────────────────────────────
+# Emits one PASS|FAIL|TIMEOUT line per site, with a guaranteed numeric
+# elapsed value (in seconds). PROGS is counted with awk so a zero
+# match does not fall back to a second `echo 0` line — that was the
+# source of the empty-elapsed-time printf bug.
 WORKER=$(mktemp)
 cat > "$WORKER" <<'EOF'
 #!/usr/bin/env bash
@@ -164,23 +180,36 @@ timeout --kill-after=30 "$TIMEOUT" \
         --days="$DAYS" \
         > "$LOG" 2>&1 \
     || RC=$?
-
-ELAPSED=$(( $(date +%s) - START ))
 rm -f "$LOG"
 
+NOW=$(date +%s)
+ELAPSED=$(( NOW - START ))
+[[ -z "$ELAPSED" || ! "$ELAPSED" =~ ^[0-9]+$ ]] && ELAPSED=0
+
+# Spread elapsed roughly across sites in the batch.
 IFS=',' read -ra SITES <<< "$BATCH"
+N=${#SITES[@]}
+[[ $N -lt 1 ]] && N=1
+PER_SITE=$(( ELAPSED / N ))
+[[ $PER_SITE -lt 1 ]] && PER_SITE=1
+
 for SITE in "${SITES[@]}"; do
     OUT_FILE="$ROOT/sites/$SITE/$SITE.xml"
-    if [[ $RC -eq 124 || $RC -eq 137 ]]; then
-        rm -f "$OUT_FILE"
-        echo "TIMEOUT|$SITE|$ELAPSED"
-    elif [[ -s "$OUT_FILE" ]]; then
-        BYTES=$(wc -c < "$OUT_FILE" | tr -d ' ')
-        PROGS=$(grep -c '<programme' "$OUT_FILE" 2>/dev/null || echo 0)
-        echo "PASS|$SITE|$BYTES|$PROGS|$ELAPSED"
+    if [[ -s "$OUT_FILE" ]]; then
+        BYTES=$(wc -c < "$OUT_FILE" 2>/dev/null | tr -d ' ')
+        [[ -z "$BYTES" || ! "$BYTES" =~ ^[0-9]+$ ]] && BYTES=0
+        # Count <programme entries with awk so zero matches still
+        # produce a single clean number (no extra newline from `||`).
+        PROGS=$(awk 'BEGIN{c=0} /<programme/{c++} END{print c}' "$OUT_FILE" 2>/dev/null)
+        [[ -z "$PROGS" || ! "$PROGS" =~ ^[0-9]+$ ]] && PROGS=0
+        echo "PASS|$SITE|$BYTES|$PROGS|$PER_SITE"
     else
         rm -f "$OUT_FILE"
-        echo "FAIL|$SITE|$ELAPSED"
+        if [[ $RC -eq 124 || $RC -eq 137 ]]; then
+            echo "TIMEOUT|$SITE|$PER_SITE"
+        else
+            echo "FAIL|$SITE|$PER_SITE"
+        fi
     fi
 done
 EOF
@@ -202,24 +231,28 @@ while IFS='|' read -r TYPE A B C D; do
     case "$TYPE" in
         PASS)
             PASS=$(( PASS + 1 ))
-            SIZE=$(fbytes "$B")
-            printf "${GREEN}[OK %d/%d]${NC} %-35s %10s %8s progs %6ss\n" \
-                "$DONE" "$TOTAL" "$SITE" "$SIZE" "$C" "$D"
+            SIZE=$(fbytes "$(fnum "$B")")
+            P=$(fnum "$C")
+            T=$(fnum "$D")
+            printf "${GREEN}[OK %d/%d]${NC} %-35s %10s %8s progs %5ds\n" \
+                "$DONE" "$TOTAL" "$SITE" "$SIZE" "$P" "$T"
             ;;
         FAIL)
             FAIL=$(( FAIL + 1 ))
-            printf "${RED}[FAIL %d/%d]${NC} %-35s after %ss\n" \
-                "$DONE" "$TOTAL" "$SITE" "$B"
+            T=$(fnum "$B")
+            printf "${RED}[FAIL %d/%d]${NC} %-35s after %ds\n" \
+                "$DONE" "$TOTAL" "$SITE" "$T"
             ;;
         TIMEOUT)
             FAIL=$(( FAIL + 1 ))
-            printf "${YELLOW}[TIMEOUT %d/%d]${NC} %-35s after %ss\n" \
-                "$DONE" "$TOTAL" "$SITE" "$B"
+            T=$(fnum "$B")
+            printf "${YELLOW}[TIMEOUT %d/%d]${NC} %-35s after %ds\n" \
+                "$DONE" "$TOTAL" "$SITE" "$T"
             ;;
     esac
 done < <(
     xargs -d '\n' -n1 -P "$BATCHES" -I{} \
-        bash "$WORKER" "{}" "$BASE_DIR" "$SITE_TIMEOUT" \
+        bash "$WORKER" "{}" "$BASE_DIR" "$BATCH_TIMEOUT" \
                        "$GRAB_TIMEOUT" "$MAX_CONNECTIONS" "$DAYS" \
         < "$TMP"
 )

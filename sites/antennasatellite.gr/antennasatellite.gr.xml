@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<tv date="20260423">
-  <channel id="ANT1Satellite.gr@SD">
-    <display-name>ANT1 SATELLITE</display-name>
-    <icon src="https://i.imgur.com/ayJ2ABV.png" />
-    <url>https://antennasatellite.gr</url>
-  </channel>
-</tv>
