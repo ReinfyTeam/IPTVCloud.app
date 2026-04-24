@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, Suspense, useRef, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import Image from 'next/image';
 
 interface ChallengeData {
   type: 'IMAGE' | 'TEXT' | 'MATH' | 'CLICK';
@@ -75,8 +76,10 @@ function SecurityCheckContent() {
       if (response.ok) {
         setSuccess(true);
         setStatus('Verified! Redirecting...');
-        const from = searchParams.get('from') || '/';
-        setTimeout(() => router.replace(decodeURIComponent(from)), 1000);
+        const from = searchParams.get('from') || '/home';
+        setTimeout(() => {
+          window.location.replace(decodeURIComponent(from));
+        }, 1000);
       } else {
         setError(result.error || 'Verification failed. Try again.');
         setLoading(false);
@@ -189,9 +192,12 @@ function SecurityCheckContent() {
                         className={`relative aspect-square bg-slate-800 rounded-xl overflow-hidden border-2 transition-all active:scale-95 ${isSelected ? 'border-cyan-500 ring-4 ring-cyan-500/20' : 'border-transparent hover:border-white/20'}`}
                       >
                         {/* Render real image */}
-                        <img
+                        <Image
                           src={img}
                           alt="Challenge option"
+                          width={200}
+                          height={200}
+                          unoptimized
                           className={`w-full h-full object-cover transition-all duration-300 ${isSelected ? 'opacity-50 scale-110' : 'opacity-100'}`}
                         />
 

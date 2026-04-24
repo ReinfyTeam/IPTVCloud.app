@@ -11,6 +11,9 @@ export async function GET(req: Request) {
 
     const url = new URL(req.url);
     const q = url.searchParams.get('q') || '';
+    const page = parseInt(url.searchParams.get('page') || '1');
+    const limit = parseInt(url.searchParams.get('limit') || '50');
+    const skip = (page - 1) * limit;
 
     let whereClause = '';
     let params: any[] = [];
@@ -31,10 +34,10 @@ export async function GET(req: Request) {
       LEFT JOIN "User" u ON p."userId" = u.id
       ${whereClause}
       ORDER BY p."createdAt" DESC
-      LIMIT 100
+      LIMIT $${params.length + 1} OFFSET $${params.length + 2}
     `;
 
-    const res = await db.query(postsQuery, params);
+    const res = await db.query(postsQuery, [...params, limit, skip]);
 
     return NextResponse.json(res.rows);
   } catch (error) {

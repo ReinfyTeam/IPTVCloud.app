@@ -65,7 +65,17 @@ export default function SetupTOTPPage() {
       if (res.ok) {
         setSuccess('2FA has been enabled successfully!');
         setError('');
-        setTimeout(() => router.push('/account/settings'), 2000);
+
+        // Refresh user profile
+        const meRes = await fetch('/api/auth/me', {
+          headers: { Authorization: `Bearer ${token}` },
+        });
+        const meData = await meRes.json();
+        if (meRes.ok && meData.user) {
+          useAuthStore.getState().setAuth(meData.user, token!);
+        }
+
+        setTimeout(() => router.push('/account/credentials'), 2000);
       } else {
         const data = await res.json();
         setError(data.error || 'Invalid token. Please try again.');
@@ -76,20 +86,24 @@ export default function SetupTOTPPage() {
   };
 
   return (
-    <div className="min-h-screen pt-32 pb-20 px-4 sm:px-6 bg-background">
+    <div className="min-h-screen pt-32 pb-20 px-4 sm:px-6 bg-slate-950">
       <div className="mx-auto max-w-lg space-y-8 animate-fade-in">
         <div className="text-center">
-          <h1 className="text-4xl font-black text-foreground tracking-tighter uppercase italic">
-            Setup Two-Factor Authentication
+          <h1 className="text-4xl font-black text-white tracking-tighter uppercase italic">
+            Setup <span className="text-cyan-500">2FA</span> Protection
           </h1>
-          <p className="mt-4 text-foreground-muted">
+          <p className="mt-4 text-slate-500 text-sm font-medium">
             Scan the QR code with your authenticator app (e.g., Google Authenticator, Authy).
           </p>
         </div>
 
-        <div className="glass-card p-8 rounded-[48px]">
-          {error && <p className="text-red-500 text-center mb-4">{error}</p>}
-          {success && <p className="text-green-500 text-center mb-4">{success}</p>}
+        <div className="glass-card p-8 rounded-[48px] border border-white/5 bg-white/[0.02] backdrop-blur-2xl shadow-2xl">
+          {error && (
+            <p className="text-red-400 text-center mb-6 font-bold text-sm animate-shake">{error}</p>
+          )}
+          {success && (
+            <p className="text-emerald-400 text-center mb-6 font-bold text-sm">{success}</p>
+          )}
 
           {qrCode ? (
             <div className="space-y-8 flex flex-col items-center">
@@ -113,11 +127,11 @@ export default function SetupTOTPPage() {
                     type="text"
                     readOnly
                     value={secret}
-                    className="w-full rounded-2xl border border-border bg-background-elevated/50 p-4 text-center font-mono text-sm text-foreground outline-none focus:border-cyan-500 transition-all shadow-inner pr-14"
+                    className="w-full rounded-2xl border border-white/5 bg-slate-950/50 p-4 text-center font-mono text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner pr-14"
                   />
                   <button
                     onClick={copyToClipboard}
-                    className="absolute right-2 top-2 h-10 w-10 flex items-center justify-center rounded-xl bg-accent/10 text-accent hover:bg-accent hover:text-slate-950 transition-all active:scale-95"
+                    className="absolute right-2 top-2 h-10 w-10 flex items-center justify-center rounded-xl bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500 hover:text-slate-950 transition-all active:scale-95"
                     title="Copy to clipboard"
                   >
                     <span className="material-icons text-lg">
@@ -129,15 +143,15 @@ export default function SetupTOTPPage() {
             </div>
           ) : (
             <div className="flex flex-col items-center py-12 space-y-4">
-              <div className="h-12 w-12 rounded-full border-2 border-border border-t-accent animate-spin" />
-              <p className="text-[10px] font-black uppercase tracking-widest text-foreground-muted">
+              <div className="h-12 w-12 rounded-full border-2 border-white/5 border-t-cyan-500 animate-spin" />
+              <p className="text-[10px] font-black uppercase tracking-widest text-slate-500">
                 Generating Secure Key...
               </p>
             </div>
           )}
 
           <div className="mt-12 space-y-4">
-            <h3 className="text-xs font-black uppercase tracking-widest text-center text-foreground-muted">
+            <h3 className="text-xs font-black uppercase tracking-widest text-center text-slate-500">
               Verification Step
             </h3>
             <input
@@ -146,7 +160,7 @@ export default function SetupTOTPPage() {
               onChange={(e) => setTokenInput(e.target.value)}
               placeholder="000 000"
               maxLength={6}
-              className="w-full text-center rounded-2xl border border-border bg-background-elevated/50 p-4 text-2xl font-black text-foreground outline-none focus:border-cyan-500 transition-all tracking-[0.5em]"
+              className="w-full text-center rounded-2xl border border-white/5 bg-slate-950/50 p-4 text-2xl font-black text-white outline-none focus:border-cyan-500 transition-all tracking-[0.5em]"
             />
             <button
               onClick={handleVerify}

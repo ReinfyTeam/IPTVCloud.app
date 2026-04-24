@@ -22,7 +22,7 @@ export async function GET(request: Request) {
   }
 
   const usersQuery = `
-    SELECT id, email, username, name, role, "isVerified", "suspendedAt", "isMuted", "isRestricted", "createdAt", "twoFactorEnabled"
+    SELECT id, email, username, name, role, "isVerified", "suspendedAt", "isMuted", "isRestricted", "isShadowBanned", "createdAt", "twoFactorEnabled"
     FROM "User"
     ${whereClause}
     ORDER BY "createdAt" DESC
@@ -57,7 +57,7 @@ export async function POST(request: Request) {
     if (action === 'SUSPEND') {
       await db.query(
         'UPDATE "User" SET "suspendedAt" = $1, "suspensionReason" = $2 WHERE id = $3',
-        [new Date(), reason, userId],
+        [new Date(), reason || 'No reason provided', userId],
       );
     } else if (action === 'UNSUSPEND') {
       await db.query(
@@ -65,20 +65,45 @@ export async function POST(request: Request) {
         [userId],
       );
     } else if (action === 'MUTE') {
-      await db.query('UPDATE "User" SET "isMuted" = $1, "muteExpiresAt" = $2 WHERE id = $3', [
-        true,
-        new Date(Date.now() + 24 * 60 * 60 * 1000),
-        userId,
-      ]);
+      await db.query(
+        'UPDATE "User" SET "isMuted" = $1, "muteExpiresAt" = $2, "suspensionReason" = $3 WHERE id = $4',
+        [true, new Date(Date.now() + 24 * 60 * 60 * 1000), reason || 'No reason provided', userId],
+      );
     } else if (action === 'UNMUTE') {
       await db.query('UPDATE "User" SET "isMuted" = $1, "muteExpiresAt" = NULL WHERE id = $2', [
         false,
         userId,
       ]);
     } else if (action === 'RESTRICT') {
-      await db.query('UPDATE "User" SET "isRestricted" = $1 WHERE id = $2', [true, userId]);
+      await db.query(
+        'UPDATE "User" SET "isRestricted" = $1, "suspensionReason" = $2 WHERE id = $3',
+        [true, reason || 'No reason provided', userId],
+      );
     } else if (action === 'UNRESTRICT') {
       await db.query('UPDATE "User" SET "isRestricted" = $1 WHERE id = $2', [false, userId]);
+    } else if (action === 'SHADOW_BAN') {
+      await db.query('UPDATE "User" SET "isShadowBanned" = $1 WHERE id = $2', [true, userId]);
+    } else if (action === 'UNSHADOW_BAN') {
+      await db.query('UPDATE "User" SET "isShadowBanned" = $1 WHERE id = $2', [false, userId]);
+    } else if (action === 'RESET_DATA') {
+      if (!auth.isAdmin)
+        return NextResponse.json({ ok: false, error: 'Forbidden' }, { status: 403 });
+      // Clear user content and activity
+      await Promise.all([
+        db.query('DELETE FROM "WatchHistory" WHERE "userId" = $1', [userId]),
+        db.query('DELETE FROM "Message" WHERE "senderId" = $1 OR "receiverId" = $1', [userId]),
+        db.query('DELETE FROM "GroupChatMember" WHERE "userId" = $1', [userId]),
+        db.query('DELETE FROM "Favorite" WHERE "userId" = $1', [userId]),
+        db.query('DELETE FROM "Comment" WHERE "userId" = $1', [userId]),
+        db.query('DELETE FROM "Post" WHERE "userId" = $1', [userId]),
+        db.query('DELETE FROM "Ticket" WHERE "userId" = $1', [userId]),
+      ]);
+    } else if (action === 'RESET_FOLLOWERS') {
+      if (!auth.isAdmin)
+        return NextResponse.json({ ok: false, error: 'Forbidden' }, { status: 403 });
+      await db.query('DELETE FROM "Follower" WHERE "followerId" = $1 OR "followingId" = $1', [
+        userId,
+      ]);
     } else if (action === 'SET_ROLE') {
       if (!auth.isAdmin)
         return NextResponse.json({ ok: false, error: 'Forbidden' }, { status: 403 });

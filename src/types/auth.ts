@@ -17,6 +17,7 @@ export interface AuthUser {
   isVerified: boolean;
   twoFactorEnabled: boolean;
   lastUsernameChange: string | null;
+  isShadowBanned: boolean;
   suspendedAt?: string | null;
   suspensionReason?: string | null;
   isMuted?: boolean;

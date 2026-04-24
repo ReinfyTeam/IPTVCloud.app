@@ -1,7 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
+import { useAuthStore } from '@/store/auth-store';
+import { useRouter } from 'next/navigation';
 
 export default function RestrictedPage() {
+  const { clearAuth } = useAuthStore();
+  const router = useRouter();
+
+  const handleLogout = async () => {
+    await fetch('/api/auth/logout', { method: 'POST' });
+    clearAuth();
+    window.location.href = '/';
+  };
+
   return (
     <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center p-6 text-center">
       <div className="max-w-md w-full space-y-8 animate-fade-in">
@@ -37,22 +48,36 @@ export default function RestrictedPage() {
               <span className="material-icons text-sm">mail</span>
               Appeal Restriction
             </Link>
-            <Link
-              href="/tos"
-              className="block text-[9px] font-black text-slate-600 hover:text-slate-400 uppercase tracking-widest transition-colors"
-            >
-              Review Terms of Service
-            </Link>
+            <div className="flex justify-center gap-4">
+              <Link
+                href="/tos"
+                className="text-[9px] font-black text-slate-600 hover:text-slate-400 uppercase tracking-widest transition-colors"
+              >
+                Terms
+              </Link>
+              <Link
+                href="/privacy"
+                className="text-[9px] font-black text-slate-600 hover:text-slate-400 uppercase tracking-widest transition-colors"
+              >
+                Privacy
+              </Link>
+              <Link
+                href="/dmca"
+                className="text-[9px] font-black text-slate-600 hover:text-slate-400 uppercase tracking-widest transition-colors"
+              >
+                DMCA
+              </Link>
+            </div>
           </div>
         </div>
 
         <div className="pt-8">
-          <Link
-            href="/api/auth/signout"
+          <button
+            onClick={handleLogout}
             className="px-8 py-3 rounded-full border border-white/10 text-[9px] font-black text-slate-500 uppercase tracking-widest hover:text-white hover:border-white/20 transition-all"
           >
             Sign Out
-          </Link>
+          </button>
         </div>
       </div>
     </div>

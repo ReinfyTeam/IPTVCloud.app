@@ -10,13 +10,27 @@ export default function UserStatusGuard({ children }: { children: React.ReactNod
   const router = useRouter();
 
   useEffect(() => {
-    if (user?.isRestricted && pathname !== '/restricted' && !pathname.startsWith('/support')) {
+    const isAllowedPath =
+      pathname === '/restricted' ||
+      pathname.startsWith('/support') ||
+      pathname === '/tos' ||
+      pathname === '/privacy' ||
+      pathname === '/dmca';
+
+    if (user?.isRestricted && !isAllowedPath) {
       router.replace('/restricted');
     }
   }, [user, pathname, router]);
 
-  // If user is restricted, only allow them to see the restricted page or support
-  if (user?.isRestricted && pathname !== '/restricted' && !pathname.startsWith('/support')) {
+  // If user is restricted, only allow them to see the restricted page, support, or legal pages
+  const isAllowedPath =
+    pathname === '/restricted' ||
+    pathname.startsWith('/support') ||
+    pathname === '/tos' ||
+    pathname === '/privacy' ||
+    pathname === '/dmca';
+
+  if (user?.isRestricted && !isAllowedPath) {
     return null; // Or a loading spinner
   }
 

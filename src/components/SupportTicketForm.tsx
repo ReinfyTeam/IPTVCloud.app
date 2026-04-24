@@ -146,13 +146,20 @@ export default function SupportTicketForm({ initialType = 'SUPPORT' }: Props) {
               <select
                 value={type}
                 onChange={(e) => setType(e.target.value as TicketType)}
-                className="w-full rounded-xl sm:rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner appearance-none cursor-pointer"
+                className="w-full rounded-xl sm:rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm text-white outline-none focus:border-cyan-500 transition-all shadow-inner appearance-none cursor-pointer disabled:opacity-50"
+                disabled={user?.isRestricted}
               >
-                <option value="SUPPORT">Support Request</option>
-                <option value="APPEAL">Account Appeal</option>
-                <option value="BUG">Bug Report</option>
-                <option value="FEATURE">Feature Request</option>
-                <option value="CHANNEL">Channel Submission</option>
+                {!user?.isRestricted ? (
+                  <>
+                    <option value="SUPPORT">Support Request</option>
+                    <option value="APPEAL">Account Appeal</option>
+                    <option value="BUG">Bug Report</option>
+                    <option value="FEATURE">Feature Request</option>
+                    <option value="CHANNEL">Channel Submission</option>
+                  </>
+                ) : (
+                  <option value="APPEAL">Account Appeal</option>
+                )}
               </select>
               <span className="material-icons absolute right-4 top-1/2 -translate-y-1/2 text-slate-600 pointer-events-none">
                 expand_more
@@ -160,6 +167,16 @@ export default function SupportTicketForm({ initialType = 'SUPPORT' }: Props) {
             </div>
           </div>
         </div>
+
+        {user?.isRestricted && (
+          <div className="p-4 rounded-2xl bg-red-500/5 border border-red-500/10 flex items-start gap-4">
+            <span className="material-icons text-red-500 text-sm mt-0.5">info</span>
+            <p className="text-[10px] text-slate-500 font-medium leading-relaxed uppercase tracking-wider">
+              Your account is currently restricted. You may only use this form to appeal your
+              status. Please provide a clear explanation for your appeal.
+            </p>
+          </div>
+        )}
 
         <div className="space-y-3">
           <label className="block text-[9px] sm:text-[10px] font-black text-slate-500 uppercase tracking-widest px-1">

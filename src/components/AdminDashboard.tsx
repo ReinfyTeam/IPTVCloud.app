@@ -14,6 +14,7 @@ type AdminUser = {
   suspendedAt: string | null;
   isMuted: boolean;
   isRestricted: boolean;
+  isShadowBanned: boolean;
   createdAt: string;
   twoFactorEnabled: boolean;
 };
@@ -132,10 +133,11 @@ export default function AdminDashboard() {
   const [userPage, setUserPage] = useState(1);
   const [usersHasMore, setUsersHasMore] = useState(true);
   const [usersLoading, setUsersLoading] = useState(false);
-  const observerTarget = useRef<HTMLDivElement>(null);
 
   // Incidents State
   const [incidents, setIncidents] = useState<Incident[]>([]);
+  const [incidentPage, setIncidentPage] = useState(1);
+  const [incidentsHasMore, setIncidentsHasMore] = useState(true);
   const [showIncidentForm, setShowIncidentForm] = useState(false);
   const [incidentId, setIncidentId] = useState('');
   const [incidentTitle, setIncidentTitle] = useState('');
@@ -147,92 +149,62 @@ export default function AdminDashboard() {
 
   // Tickets State
   const [tickets, setTickets] = useState<Ticket[]>([]);
+  const [ticketPage, setTicketPage] = useState(1);
+  const [ticketsHasMore, setTicketsHasMore] = useState(true);
   const [ticketSort, setTicketSort] = useState('newest');
   const [showArchived, setShowArchived] = useState(false);
 
   // Posts State
   const [posts, setPosts] = useState<Post[]>([]);
+  const [postPage, setPostPage] = useState(1);
+  const [postsHasMore, setPostsHasMore] = useState(true);
   const [postSearch, setPostSearch] = useState('');
 
-  // FETCH USERS
-  const fetchUsers = useCallback(
-    async (pageToLoad: number, q: string, append: boolean = false) => {
-      setUsersLoading(true);
-      try {
-        const res = await fetch(
-          `/api/admin/users?page=${pageToLoad}&limit=20&q=${encodeURIComponent(q)}`,
-          { headers: authHeaders() },
-        );
-        const data = await res.json();
-        if (data.users) {
-          if (append) {
-            setUsers((prev) => [...prev, ...data.users]);
-          } else {
-            setUsers(data.users);
-          }
-          setUsersHasMore(data.users.length === 20);
-        }
-      } catch {
-      } finally {
-        setUsersLoading(false);
-      }
-    },
-    [authHeaders],
-  );
-
-  useEffect(() => {
-    if (tab === 'users' && token) {
-      setUserPage(1);
-      fetchUsers(1, userSearch, false);
-    }
-  }, [userSearch, tab, token, fetchUsers]);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting && usersHasMore && !usersLoading) {
-          const nextPage = userPage + 1;
-          setUserPage(nextPage);
-          fetchUsers(nextPage, userSearch, true);
-        }
-      },
-      { threshold: 0.1 },
-    );
-
-    if (observerTarget.current) observer.observe(observerTarget.current);
-    return () => observer.disconnect();
-  }, [usersHasMore, usersLoading, userPage, userSearch, fetchUsers]);
-
-  // FETCH INCIDENTS
+  // ... (update fetchers to use pages)
   const fetchIncidents = useCallback(async () => {
     try {
-      const res = await fetch('/api/admin/incidents', { headers: authHeaders() });
+      const res = await fetch(`/api/admin/incidents?page=${incidentPage}&limit=10`, {
+        headers: authHeaders(),
+      });
       const data = await res.json();
-      if (Array.isArray(data)) setIncidents(data);
+      if (Array.isArray(data)) {
+        setIncidents(data);
+        setIncidentsHasMore(data.length === 10);
+      }
     } catch {}
-  }, [authHeaders]);
+  }, [authHeaders, incidentPage]);
 
-  // FETCH TICKETS
   const fetchTickets = useCallback(async () => {
     try {
-      const res = await fetch(`/api/tickets?sort=${ticketSort}&archived=${showArchived}`, {
-        headers: authHeaders(),
-      });
+      const res = await fetch(
+        `/api/tickets?sort=${ticketSort}&archived=${showArchived}&page=${ticketPage}&limit=10`,
+        {
+          headers: authHeaders(),
+        },
+      );
       const data = await res.json();
-      if (Array.isArray(data)) setTickets(data);
+      if (Array.isArray(data)) {
+        setTickets(data);
+        setTicketsHasMore(data.length === 10);
+      }
     } catch {}
-  }, [authHeaders, ticketSort, showArchived]);
+  }, [authHeaders, ticketSort, showArchived, ticketPage]);
 
-  // FETCH POSTS
   const fetchPosts = useCallback(async () => {
     try {
-      const res = await fetch(`/api/admin/posts?q=${encodeURIComponent(postSearch)}`, {
-        headers: authHeaders(),
-      });
+      const res = await fetch(
+        `/api/admin/posts?q=${encodeURIComponent(postSearch)}&page=${postPage}&limit=10`,
+        {
+          headers: authHeaders(),
+        },
+      );
       const data = await res.json();
-      if (Array.isArray(data)) setPosts(data);
+      if (Array.isArray(data)) {
+        setPosts(data);
+        setPostsHasMore(data.length === 10);
+      }
     } catch {}
-  }, [authHeaders, postSearch]);
+  }, [authHeaders, postSearch, postPage]);
 
   useEffect(() => {
     if (tab === 'incidents' && token) fetchIncidents();
@@ -258,6 +230,12 @@ export default function AdminDashboard() {
   };
 
   const handleModeration = async (userId: string, action: string, value?: any) => {
+    let reason = '';
+    if (['SUSPEND', 'RESTRICT', 'MUTE'].includes(action)) {
+      reason = prompt(`Enter reason for ${action}:`) || '';
+      if (!reason) return;
+    }
+
     try {
       const res = await fetch('/api/admin/users', {
         method: 'POST',
@@ -266,6 +244,7 @@ export default function AdminDashboard() {
           userId,
           action,
           value,
+          reason,
         }),
       });
       const data = await res.json();
@@ -276,7 +255,7 @@ export default function AdminDashboard() {
           showActionMessage(`${action} successful.`);
         }
 
-        // Refresh local user state softly without refetching everything
+        // Refresh local user state softly
         setUsers(
           users.map((u) => {
             if (u.id !== userId) return u;
@@ -289,6 +268,8 @@ export default function AdminDashboard() {
             if (action === 'UNSUSPEND') u2.suspendedAt = null;
             if (action === 'RESTRICT') u2.isRestricted = true;
             if (action === 'UNRESTRICT') u2.isRestricted = false;
+            if (action === 'SHADOW_BAN') u2.isShadowBanned = true;
+            if (action === 'UNSHADOW_BAN') u2.isShadowBanned = false;
             if (action === 'RESET_2FA') u2.twoFactorEnabled = false;
             return u2;
           }),
@@ -543,17 +524,43 @@ export default function AdminDashboard() {
       {/* USERS TAB */}
       {tab === 'users' && (
         <div className="space-y-6">
-          <div className="relative w-full max-w-md">
-            <span className="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 text-sm">
-              search
-            </span>
-            <input
-              type="text"
-              value={userSearch}
-              onChange={(e) => setUserSearch(e.target.value)}
-              placeholder="Search community members..."
-              className="w-full bg-white/[0.02] border border-white/[0.08] rounded-2xl py-3 pl-11 pr-4 text-white text-xs font-bold outline-none focus:border-cyan-500 transition-colors shadow-inner"
-            />
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div className="relative w-full max-w-md">
+              <span className="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 text-sm">
+                search
+              </span>
+              <input
+                type="text"
+                value={userSearch}
+                onChange={(e) => {
+                  setUserSearch(e.target.value);
+                  setUserPage(1);
+                }}
+                placeholder="Search community members..."
+                className="w-full bg-white/[0.02] border border-white/[0.08] rounded-2xl py-3 pl-11 pr-4 text-white text-xs font-bold outline-none focus:border-cyan-500 transition-colors shadow-inner"
+              />
+            </div>
+
+            {/* Pagination Controls */}
+            <div className="flex items-center gap-2">
+              <button
+                disabled={userPage === 1}
+                onClick={() => setUserPage((p) => p - 1)}
+                className="h-10 w-10 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center text-slate-500 hover:text-white disabled:opacity-30 transition-all"
+              >
+                <span className="material-icons">chevron_left</span>
+              </button>
+              <div className="px-4 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-[10px] font-black text-cyan-400">
+                PAGE {userPage}
+              </div>
+              <button
+                disabled={!usersHasMore}
+                onClick={() => setUserPage((p) => p + 1)}
+                className="h-10 w-10 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center text-slate-500 hover:text-white disabled:opacity-30 transition-all"
+              >
+                <span className="material-icons">chevron_right</span>
+              </button>
+            </div>
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
@@ -574,12 +581,22 @@ export default function AdminDashboard() {
                       <tr key={u.id} className="hover:bg-white/[0.01] transition-colors group">
                         <td className="px-8 py-6">
                           <div className="flex items-center gap-3">
-                            <div className="h-10 w-10 shrink-0 rounded-xl bg-slate-900 border border-white/5 flex items-center justify-center text-slate-700 shadow-xl">
+                            <div className="h-10 w-10 shrink-0 rounded-xl bg-slate-900 border border-white/5 flex items-center justify-center text-slate-700 shadow-xl overflow-hidden">
                               <span className="material-icons">account_circle</span>
                             </div>
                             <div className="min-w-0">
-                              <div className="font-black text-white text-base uppercase italic tracking-tighter truncate">
-                                @{u.username || 'anonymous'}
+                              <div className="flex items-center gap-2">
+                                <div className="font-black text-white text-base uppercase italic tracking-tighter truncate">
+                                  @{u.username || 'anonymous'}
+                                </div>
+                                {u.isShadowBanned && (
+                                  <span
+                                    className="material-icons text-amber-500 text-sm"
+                                    title="Shadow Banned"
+                                  >
+                                    visibility_off
+                                  </span>
+                                )}
                               </div>
                               <div className="text-[10px] font-bold text-slate-500 uppercase truncate">
                                 {u.email}
@@ -639,6 +656,11 @@ export default function AdminDashboard() {
                         {u.isVerified && (
                           <span className="material-icons text-cyan-400 text-sm">verified</span>
                         )}
+                        {u.isShadowBanned && (
+                          <span className="material-icons text-amber-500 text-sm">
+                            visibility_off
+                          </span>
+                        )}
                       </div>
                       <div className="text-[10px] font-bold text-slate-500 uppercase truncate">
                         {u.email}
@@ -689,20 +711,14 @@ export default function AdminDashboard() {
               ))}
             </div>
 
-            {/* INFINITE SCROLL OBSERVER */}
-            <div
-              ref={observerTarget}
-              className="h-20 flex items-center justify-center border-t border-white/5"
-            >
-              {usersLoading && (
-                <div className="h-6 w-6 rounded-full border-2 border-cyan-500/20 border-t-cyan-500 animate-spin" />
-              )}
-              {!usersHasMore && users.length > 0 && (
+            {/* END OF RESULTS */}
+            {users.length === 0 && !usersLoading && (
+              <div className="h-40 flex items-center justify-center border border-dashed border-white/10 rounded-[40px]">
                 <span className="text-[10px] font-black text-slate-600 uppercase tracking-widest">
-                  End of results
+                  No community members found
                 </span>
-              )}
-            </div>
+              </div>
+            )}
           </div>
         </div>
       )}
@@ -710,17 +726,42 @@ export default function AdminDashboard() {
       {/* POSTS TAB */}
       {tab === 'posts' && (
         <div className="space-y-6">
-          <div className="relative max-w-md">
-            <span className="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">
-              search
-            </span>
-            <input
-              type="text"
-              value={postSearch}
-              onChange={(e) => setPostSearch(e.target.value)}
-              placeholder="Search post ID, title, or content..."
-              className="w-full bg-white/[0.02] border border-white/[0.08] rounded-2xl py-3 pl-12 pr-4 text-white text-sm outline-none focus:border-cyan-500 transition-colors"
-            />
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div className="relative w-full max-w-md">
+              <span className="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">
+                search
+              </span>
+              <input
+                type="text"
+                value={postSearch}
+                onChange={(e) => {
+                  setPostSearch(e.target.value);
+                  setPostPage(1);
+                }}
+                placeholder="Search post ID, title, or content..."
+                className="w-full bg-white/[0.02] border border-white/[0.08] rounded-2xl py-3 pl-12 pr-4 text-white text-sm outline-none focus:border-cyan-500 transition-colors"
+              />
+            </div>
+
+            <div className="flex items-center gap-2">
+              <button
+                disabled={postPage === 1}
+                onClick={() => setPostPage((p) => p - 1)}
+                className="h-10 w-10 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center text-slate-500 hover:text-white disabled:opacity-30"
+              >
+                <span className="material-icons">chevron_left</span>
+              </button>
+              <div className="px-4 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-[10px] font-black text-cyan-400 uppercase">
+                PAGE {postPage}
+              </div>
+              <button
+                disabled={!postsHasMore}
+                onClick={() => setPostPage((p) => p + 1)}
+                className="h-10 w-10 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center text-slate-500 hover:text-white disabled:opacity-30"
+              >
+                <span className="material-icons">chevron_right</span>
+              </button>
+            </div>
           </div>
 
           <div className="grid gap-4">
@@ -779,24 +820,53 @@ export default function AdminDashboard() {
       {tab === 'tickets' && (
         <div className="space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 px-2">
-            <div className="flex bg-white/5 border border-white/10 rounded-xl p-1 overflow-x-auto scrollbar-hide">
-              {['newest', 'oldest', 'type', 'name'].map((s) => (
-                <button
-                  key={s}
-                  onClick={() => setTicketSort(s)}
-                  className={`px-4 py-2 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${ticketSort === s ? 'bg-cyan-500 text-slate-950 shadow-lg' : 'text-slate-500 hover:text-white'}`}
-                >
-                  {s}
-                </button>
-              ))}
+            <div className="flex items-center gap-4">
+              <div className="flex bg-white/5 border border-white/10 rounded-xl p-1 overflow-x-auto scrollbar-hide">
+                {['newest', 'oldest', 'type', 'name'].map((s) => (
+                  <button
+                    key={s}
+                    onClick={() => {
+                      setTicketSort(s);
+                      setTicketPage(1);
+                    }}
+                    className={`px-4 py-2 rounded-lg text-[9px] font-black uppercase tracking-widest transition-all whitespace-nowrap ${ticketSort === s ? 'bg-cyan-500 text-slate-950 shadow-lg' : 'text-slate-500 hover:text-white'}`}
+                  >
+                    {s}
+                  </button>
+                ))}
+              </div>
+              <button
+                onClick={() => {
+                  setShowArchived(!showArchived);
+                  setTicketPage(1);
+                }}
+                className={`px-4 py-2 rounded-xl border text-[9px] font-black uppercase tracking-widest transition-all ${showArchived ? 'bg-amber-400/10 border-amber-400/30 text-amber-400' : 'bg-white/5 border-white/10 text-slate-500'}`}
+              >
+                {showArchived ? 'SHOWING ARCHIVED' : 'VIEW ARCHIVE'}
+              </button>
             </div>
-            <button
-              onClick={() => setShowArchived(!showArchived)}
-              className={`px-4 py-2 rounded-xl border text-[9px] font-black uppercase tracking-widest transition-all ${showArchived ? 'bg-amber-400/10 border-amber-400/30 text-amber-400' : 'bg-white/5 border-white/10 text-slate-500'}`}
-            >
-              {showArchived ? 'SHOWING ARCHIVED' : 'VIEW ARCHIVE'}
-            </button>
+
+            <div className="flex items-center gap-2">
+              <button
+                disabled={ticketPage === 1}
+                onClick={() => setTicketPage((p) => p - 1)}
+                className="h-10 w-10 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center text-slate-500 hover:text-white disabled:opacity-30"
+              >
+                <span className="material-icons">chevron_left</span>
+              </button>
+              <div className="px-4 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-[10px] font-black text-cyan-400 uppercase">
+                PAGE {ticketPage}
+              </div>
+              <button
+                disabled={!ticketsHasMore}
+                onClick={() => setTicketPage((p) => p + 1)}
+                className="h-10 w-10 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center text-slate-500 hover:text-white disabled:opacity-30"
+              >
+                <span className="material-icons">chevron_right</span>
+              </button>
+            </div>
           </div>
+          {/* ... (keep tickets loop) */}
 
           <div className="grid gap-4">
             {tickets.map((tk) => (
@@ -897,16 +967,37 @@ export default function AdminDashboard() {
       {/* INCIDENTS TAB */}
       {tab === 'incidents' && (
         <div className="space-y-8">
-          <div className="flex items-center justify-between px-2">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 px-2">
             <h2 className="text-2xl font-black text-white uppercase italic tracking-tighter leading-none">
               Global Incidents.
             </h2>
-            <button
-              onClick={() => resetIncidentForm()}
-              className="px-8 py-3.5 rounded-2xl bg-cyan-500 text-slate-950 font-black text-[10px] uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95"
-            >
-              Log New Incident
-            </button>
+            <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2">
+                <button
+                  disabled={incidentPage === 1}
+                  onClick={() => setIncidentPage((p) => p - 1)}
+                  className="h-10 w-10 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center text-slate-500 hover:text-white disabled:opacity-30 transition-all"
+                >
+                  <span className="material-icons">chevron_left</span>
+                </button>
+                <div className="px-4 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-[10px] font-black text-cyan-400 uppercase">
+                  PAGE {incidentPage}
+                </div>
+                <button
+                  disabled={!incidentsHasMore}
+                  onClick={() => setIncidentPage((p) => p + 1)}
+                  className="h-10 w-10 rounded-xl bg-white/5 border border-white/5 flex items-center justify-center text-slate-500 hover:text-white disabled:opacity-30 transition-all"
+                >
+                  <span className="material-icons">chevron_right</span>
+                </button>
+              </div>
+              <button
+                onClick={() => resetIncidentForm()}
+                className="px-8 py-3.5 rounded-2xl bg-cyan-500 text-slate-950 font-black text-[10px] uppercase tracking-widest hover:bg-cyan-400 transition-all active:scale-95 shadow-lg shadow-cyan-900/30"
+              >
+                Log New Incident
+              </button>
+            </div>
           </div>
 
           {showIncidentForm && (
@@ -1125,7 +1216,7 @@ function UserActions({
           MORE <span className="material-icons text-[10px]">expand_more</span>
         </button>
         <div
-          className={`absolute ${isMobile ? 'left-0' : 'right-0'} bottom-full sm:top-full mb-2 sm:mb-0 sm:mt-1 w-56 bg-slate-900 border border-white/10 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] opacity-0 group-hover/actions:opacity-100 pointer-events-none group-hover/actions:pointer-events-auto transition-all z-[100] overflow-hidden text-left p-1 backdrop-blur-xl`}
+          className={`absolute ${isMobile ? 'left-0' : 'right-0'} bottom-full sm:top-full mb-2 sm:mb-0 sm:mt-1 w-64 bg-slate-900 border border-white/10 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] opacity-0 group-hover/actions:opacity-100 pointer-events-none group-hover/actions:pointer-events-auto transition-all z-[100] overflow-hidden text-left p-1 backdrop-blur-xl`}
         >
           <div className="px-3 py-2 text-[8px] font-black text-slate-600 uppercase tracking-widest border-b border-white/5 mb-1">
             User Operations
@@ -1150,36 +1241,67 @@ function UserActions({
             <span className="material-icons text-xs text-slate-500">mail</span>
             Change Email
           </button>
-          <button
-            onClick={() => {
-              const name = prompt('New Name:', user.name || '');
-              if (name) onAction(user.id, 'CHANGE_NAME', name);
-            }}
-            className="w-full px-4 py-2.5 text-[10px] font-bold text-white hover:bg-white/5 uppercase transition-all rounded-xl flex items-center gap-3"
-          >
-            <span className="material-icons text-xs text-slate-500">person</span>
-            Change Name
-          </button>
           <div className="h-px bg-white/5 my-1" />
+
+          <button
+            onClick={() => onAction(user.id, user.isShadowBanned ? 'UNSHADOW_BAN' : 'SHADOW_BAN')}
+            className="w-full px-4 py-2.5 text-[10px] font-bold text-amber-400 hover:bg-amber-400/5 uppercase transition-all rounded-xl flex items-center gap-3"
+          >
+            <span className="material-icons text-xs">visibility_off</span>
+            {user.isShadowBanned ? 'Lift Shadow Ban' : 'Shadow Ban'}
+          </button>
+
           <button
             onClick={() => {
               if (confirm('Force reset password? User will need to set a new one.'))
                 onAction(user.id, 'RESET_PASSWORD');
             }}
-            className="w-full px-4 py-2.5 text-[10px] font-bold text-amber-400 hover:bg-amber-400/5 uppercase transition-all rounded-xl flex items-center gap-3"
+            className="w-full px-4 py-2.5 text-[10px] font-bold text-white hover:bg-white/5 uppercase transition-all rounded-xl flex items-center gap-3"
           >
-            <span className="material-icons text-xs">lock_reset</span>
-            Reset Password
+            <span className="material-icons text-xs text-slate-500">lock_reset</span>
+            Force Password Reset
           </button>
+
           <button
             onClick={() => {
               if (confirm('Disable 2FA for this user?')) onAction(user.id, 'RESET_2FA');
             }}
-            className="w-full px-4 py-2.5 text-[10px] font-bold text-amber-400 hover:bg-amber-400/5 uppercase transition-all rounded-xl flex items-center gap-3"
+            className="w-full px-4 py-2.5 text-[10px] font-bold text-white hover:bg-white/5 uppercase transition-all rounded-xl flex items-center gap-3"
           >
-            <span className="material-icons text-xs">security_update_warning</span>
+            <span className="material-icons text-xs text-slate-500">security_update_warning</span>
             Remove 2FA
           </button>
+
+          <div className="h-px bg-white/5 my-1" />
+
+          <button
+            onClick={() => {
+              if (
+                confirm(
+                  'RESET ALL DATA? This clears history, messages, chats, and favorites. Cannot be undone.',
+                )
+              )
+                onAction(user.id, 'RESET_DATA');
+            }}
+            className="w-full px-4 py-2.5 text-[10px] font-bold text-red-400 hover:bg-red-400/5 uppercase transition-all rounded-xl flex items-center gap-3"
+          >
+            <span className="material-icons text-xs">history</span>
+            Reset User Data
+          </button>
+
+          <button
+            onClick={() => {
+              if (confirm('Reset all followers and following?'))
+                onAction(user.id, 'RESET_FOLLOWERS');
+            }}
+            className="w-full px-4 py-2.5 text-[10px] font-bold text-red-400 hover:bg-red-400/5 uppercase transition-all rounded-xl flex items-center gap-3"
+          >
+            <span className="material-icons text-xs">people_alt</span>
+            Reset Followers
+          </button>
+
+          <div className="h-px bg-white/5 my-1" />
+
           <Link
             href={`/profile/${user.username || user.id}`}
             className="w-full px-4 py-2.5 text-[10px] font-bold text-cyan-400 hover:bg-cyan-400/5 uppercase transition-all rounded-xl flex items-center gap-3"
@@ -1187,7 +1309,7 @@ function UserActions({
             <span className="material-icons text-xs">visibility</span>
             View Profile
           </Link>
-          <div className="h-px bg-white/5 my-1" />
+
           {isAdmin && (
             <button
               onClick={() => {

@@ -6,8 +6,13 @@ import crypto from 'crypto';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET() {
+export async function GET(req: Request) {
   try {
+    const url = new URL(req.url);
+    const page = parseInt(url.searchParams.get('page') || '1');
+    const limit = parseInt(url.searchParams.get('limit') || '50');
+    const skip = (page - 1) * limit;
+
     const incidentsQuery = `
       SELECT i.*, 
              COALESCE(
@@ -18,8 +23,9 @@ export async function GET() {
              ) as updates
       FROM "Incident" i
       ORDER BY i."createdAt" DESC
+      LIMIT $1 OFFSET $2
     `;
-    const res = await db.query(incidentsQuery);
+    const res = await db.query(incidentsQuery, [limit, skip]);
     return NextResponse.json(res.rows);
   } catch (error) {
     console.error('Failed to fetch incidents:', error);

@@ -26,6 +26,7 @@ export interface User {
   twoFactorEnabled: boolean;
   forcePasswordReset: boolean;
   lastUsernameChange: Date | null;
+  isShadowBanned: boolean;
   createdAt: Date;
   updatedAt: Date;
 }

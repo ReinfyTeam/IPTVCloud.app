@@ -13,6 +13,9 @@ export async function GET(req: Request) {
     const sort = searchParams.get('sort') || 'newest';
     const filterType = searchParams.get('type');
     const archived = searchParams.get('archived') === 'true';
+    const page = parseInt(searchParams.get('page') || '1');
+    const limit = parseInt(searchParams.get('limit') || '50');
+    const skip = (page - 1) * limit;
 
     let orderBy = 't."createdAt" DESC';
     if (sort === 'oldest') orderBy = 't."createdAt" ASC';
@@ -32,10 +35,11 @@ export async function GET(req: Request) {
 
     if (filterType) {
       query += ` AND t."type" = $2`;
-      (await params).push(filterType);
+      params.push(filterType);
     }
 
-    query += ` ORDER BY ${orderBy}`;
+    query += ` ORDER BY ${orderBy} LIMIT $${params.length + 1} OFFSET $${params.length + 2}`;
+    params.push(limit, skip);
 
     const result = await db.query(query, params);
     return NextResponse.json(result.rows);

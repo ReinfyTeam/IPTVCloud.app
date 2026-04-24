@@ -7,6 +7,7 @@ import ThemeProvider from '@/components/ThemeProvider';
 import UserStatusGuard from '@/components/UserStatusGuard';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import DynamicWrappers from '@/components/DynamicWrappers';
+import NextTopLoader from 'nextjs-toploader';
 
 export const metadata: Metadata = {
   title: 'IPTVCloud.app — Live TV Browser',
@@ -22,6 +23,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       </head>
       <body className="min-h-screen bg-slate-950 text-slate-100 antialiased flex flex-col">
+        <NextTopLoader
+          color="#06b6d4"
+          initialPosition={0.08}
+          crawlSpeed={200}
+          height={3}
+          crawl={true}
+          showSpinner={false}
+          easing="ease"
+          speed={200}
+          shadow="0 0 10px #06b6d4,0 0 5px #06b6d4"
+        />
         <ThemeProvider>
           <UserStatusGuard>
             <Navbar />

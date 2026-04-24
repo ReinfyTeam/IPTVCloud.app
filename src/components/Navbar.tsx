@@ -163,11 +163,15 @@ export default function Navbar() {
 
             <div
               ref={searchRef}
-              className={`hidden lg:flex flex-1 max-w-[480px] ml-auto relative group/search ${pathname === '/home' && !scrolled ? 'hidden' : ''}`}
+              className={`hidden lg:flex flex-1 max-w-[480px] ml-auto relative group/search ${
+                pathname === '/home' && !scrolled ? 'hidden' : ''
+              }`}
             >
-              <span className="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-lg text-foreground-muted group-focus-within/search:text-cyan-400 transition-colors pointer-events-none">
-                search
-              </span>
+              <div className="absolute left-4 top-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none">
+                <span className="material-icons text-xl text-slate-500 group-focus-within/search:text-cyan-400 transition-colors">
+                  search
+                </span>
+              </div>
               <input
                 type="text"
                 placeholder="Global Discovery..."
@@ -180,7 +184,7 @@ export default function Navbar() {
                     setShowSuggestions(false);
                   }
                 }}
-                className="w-full rounded-xl border border-white/[0.05] bg-slate-900/50 py-2 pl-11 pr-4 text-[11px] font-bold text-foreground placeholder:text-foreground-muted outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm shadow-inner"
+                className="w-full rounded-2xl border border-white/[0.05] bg-slate-900/50 py-3 pl-12 pr-4 text-[11px] font-bold text-white placeholder:text-slate-600 outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm shadow-inner"
               />
               {false && (
                 <button className="lg:hidden p-2 text-foreground-muted">
@@ -468,9 +472,11 @@ export default function Navbar() {
 
             {/* Search Bar for Mobile */}
             <div className="relative group/search-mobile">
-              <span className="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-xl text-foreground-muted group-focus-within/search-mobile:text-cyan-400 transition-colors pointer-events-none">
-                search
-              </span>
+              <div className="absolute left-4 top-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none">
+                <span className="material-icons text-xl text-slate-500 group-focus-within/search-mobile:text-cyan-400 transition-colors">
+                  search
+                </span>
+              </div>
               <input
                 type="text"
                 placeholder="Global Discovery..."
@@ -484,7 +490,7 @@ export default function Navbar() {
                     setMenuOpen(false);
                   }
                 }}
-                className="w-full rounded-2xl border border-white/10 bg-slate-900/50 py-4 pl-12 pr-4 text-sm font-bold text-foreground placeholder:text-foreground-muted outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm shadow-inner"
+                className="w-full rounded-2xl border border-white/10 bg-slate-900/50 py-4 pl-12 pr-4 text-sm font-bold text-white placeholder:text-slate-600 outline-none focus:border-cyan-500/50 focus:ring-4 focus:ring-cyan-500/10 transition-all backdrop-blur-sm shadow-inner"
               />
               {showSuggestions && suggestions.length > 0 && (
                 <div className="absolute top-full left-0 right-0 mt-3 rounded-[32px] border border-white/[0.08] bg-slate-900 shadow-2xl overflow-hidden z-50 p-2">

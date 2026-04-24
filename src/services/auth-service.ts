@@ -51,6 +51,7 @@ export function sanitizeUser(user: User): AuthUser {
     isVerified: user.isVerified,
     twoFactorEnabled: user.twoFactorEnabled,
     lastUsernameChange: user.lastUsernameChange?.toISOString() || null,
+    isShadowBanned: user.isShadowBanned,
     suspendedAt: user.suspendedAt?.toISOString() || null,
     suspensionReason: user.suspensionReason || null,
     isMuted: user.isMuted,
