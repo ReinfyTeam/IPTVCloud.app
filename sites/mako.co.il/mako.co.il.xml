@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="Keshet12.il@SD">
+    <display-name>קשת 12</display-name>
+    <icon src="https://i.imgur.com/fY3eakc.png" />
+    <url>https://mako.co.il</url>
+  </channel>
+  <programme start="20260424030000 +0000" stop="20260424031000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">מבזק חדשות</title>
+    <desc lang="he">עדכוני חדשות ודיווחי אקטואליה שוטפים בזמן אמת מהארץ ומהעולם, כל מה שעומד על סדר היום הציבורי בתחומי ביטחון, פוליטיקה, כלכלה ועוד</desc>
+    <image>https://img.mako.co.il//2021/08/25/Mivzak_epg.jpg</image>
+  </programme>
+  <programme start="20260424031000 +0000" stop="20260424040000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">שש עם יואב לימור ויונה לייבזון</title>
+    <desc lang="he">יואב לימור ויונה לייבזון פותחים את סוף השבוע עם הסיפורים והאורחים הכי מעניינים שעליהם ידברו כל השבת</desc>
+    <image>https://img.mako.co.il/2025/12/31/ShishiBaBoker_EPG.jpg</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424040800 +0000" channel="Keshet12.il@SD">
+    <title lang="he">מבזק חדשות</title>
+    <desc lang="he">עדכוני חדשות ודיווחי אקטואליה שוטפים בזמן אמת מהארץ ומהעולם, כל מה שעומד על סדר היום הציבורי בתחומי ביטחון, פוליטיקה, כלכלה ועוד</desc>
+    <image>https://img.mako.co.il//2021/08/25/Mivzak_epg.jpg</image>
+  </programme>
+  <programme start="20260424040800 +0000" stop="20260424070000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">שישי בבוקר עם יואב לימור ויונה לייבזון</title>
+    <desc lang="he">יואב לימור ויונה לייבזון פותחים את סוף השבוע עם הסיפורים והאורחים הכי מעניינים שעליהם ידברו כל השבת</desc>
+    <image>https://img.mako.co.il/2025/12/31/ShishiBaBoker_EPG.jpg</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">כמעט שבת שלום</title>
+    <desc lang="he">כמעט שבת שלום בספיישל נוסטלגיה עם שירז טל, צ'רלי בוזגלו, רוית אסף, ציפי מור, מעין קרת והבשלנית דיקלולה</desc>
+    <image>https://img.mako.co.il//2021/08/04/kimat_shabat_shalom.jpg</image>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424083000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">השיעור השבועי עם סיון רהב מאיר</title>
+    <desc lang="he">איך מתנחמים אחרי אבל? ואיך מכניסים יותר קדושה לחיים? השיעור השבועי עם סיון רהב-מאיר, פרשת "אחרי מות קדושים". מוזמנים להצטרף, מוזמנים לשתף</desc>
+    <image>https://img.mako.co.il/2026/02/22/Sivan_rahav_EPG.jpg</image>
+  </programme>
+  <programme start="20260424083000 +0000" stop="20260424095000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">רק בישראל</title>
+    <desc lang="he">אחרי 23 שנה, "רק בישראל", תוכנית הבידור הכי אהובה, חוזרת למסך באופן חד פעמי לספיישל יום העצמאות. ארז טל ולימור, האיחוד הגדול! וגם: משה פרץ, גלי עטרי ואלי יצפאן</desc>
+    <image>https://img.mako.co.il/2026/04/20/RakBIsraelAzmaut2026_epg.jpg</image>
+  </programme>
+  <programme start="20260424095000 +0000" stop="20260424102000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">עוטף ישראל עם אבי ביטון ויובל בן נריה</title>
+    <desc lang="he">השפים יובל בן נריה ואבי ביטון מארחים חקלאים ומבשלים להם ארוחה מהתוצרת שלהם. הפעם: מנגולד, תרד ועוד ירוקים מחממה הידרופונית בגבעת יואב. נארח את מיכל אלטמן שהגידולים הראשונים צמחו בביתה</desc>
+    <image>https://img.mako.co.il/2025/12/30/otef_israel_epg_12.jpg</image>
+  </programme>
+  <programme start="20260424102000 +0000" stop="20260424110000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">חדשות האוכל</title>
+    <desc lang="he">חדשות האוכל בהגשת ריטה גולדשטיין. הפעם: השף-קונדיטורית קרן קדוש והבלוגרית יעל קצב עם טיפים להכנת קצפת יציבה ואוורירית, מעצבי העל והמותגים ששילבו מזון בעיצוב, והמלצה למסעדת דגים בשפרעם</desc>
+    <image>https://img.mako.co.il/2025/07/27/HadshotHaohel2_EPG.jpg</image>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424130000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">גלית ואילנית</title>
+    <desc lang="he">גלית ואילנית מסכמות את יום העצמאות. רביב כנר עם שיר חדש ותפקיד ראשי ב"סיפור הפרברים", אודיה קורן ומיקי קם על הבמה ומאחורי הקלעים, וגם: אזי ודני מהמירוץ למיליון</desc>
+    <image>https://img.mako.co.il//2021/08/04/galit_ve_ilanit.jpg</image>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424140000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">חיים ומעיין</title>
+    <desc lang="he">בהגשת חיים אתגר ומעיין אדם. חוזרים למלחמה? כל העדכונים על טראמפ ואיראן. וגם: למה השר ניר ברקת מנסה להשתיק משפיענים? מי זה? מי זה? נראה אם תדעו מי המפורסם במסכה</desc>
+    <image>https://img.mako.co.il/2024/04/11/HaimVeMaayan_EPG.jpg</image>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424140500 +0000" channel="Keshet12.il@SD">
+    <title lang="he">מבזק חדשות</title>
+    <desc lang="he">עדכוני חדשות ודיווחי אקטואליה שוטפים בזמן אמת מהארץ ומהעולם, כל מה שעומד על סדר היום הציבורי בתחומי ביטחון, פוליטיקה, כלכלה ועוד</desc>
+    <image>https://img.mako.co.il//2021/08/25/Mivzak_epg.jpg</image>
+  </programme>
+  <programme start="20260424140500 +0000" stop="20260424150000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">חיים ומעיין</title>
+    <desc lang="he">בהגשת חיים אתגר ומעיין אדם. חוזרים למלחמה? כל העדכונים על טראמפ ואיראן. וגם: למה השר ניר ברקת מנסה להשתיק משפיענים? מי זה? מי זה? נראה אם תדעו מי המפורסם במסכה</desc>
+    <image>https://img.mako.co.il/2024/04/11/HaimVeMaayan_EPG.jpg</image>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424165000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">משדר מיוחד עם יואב לימור</title>
+    <desc lang="he">יואב לימור עם האורחים והסיפורים המעניינים. האם הפסקות האש באיראן ובלבנון יקרסו? וגם: ראש הממשלה לשעבר אהוד אולמרט בראיון מיוחד, הקרב על ועדת חקירה ממלכתית, ומי תקף את מלכת היופי לשעבר?</desc>
+    <image>https://img.mako.co.il/2026/04/23/YoavLimor_EPG.jpg</image>
+  </programme>
+  <programme start="20260424165000 +0000" stop="20260424191000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">אולפן שישי</title>
+    <desc lang="he">בכל יום שישי דני קושמרו ופאנל הפרשנים מקבלים את השבת עם כל הכותרות, הדיווחים והעדכונים. וגם: כתבות המגזין המעמיקות שכל המדינה תדבר עליהן</desc>
+    <image>https://img.mako.co.il/2021/11/11/Ulpan_Shishi.jpg</image>
+  </programme>
+  <programme start="20260424191000 +0000" stop="20260424200500 +0000" channel="Keshet12.il@SD">
+    <title lang="he">כוכבים בריבוע - הכוכבים באמבוש על עידו</title>
+    <desc lang="he">התחרות הכי מצחיקה. והערב נגלה סוף סוף מה הכינוי של יונית לוי לעידו רוזנבלום ומה יקרה אחרי שהכוכבים יגלו את זה... וגם: הסיפור הפסיכי של אנה ארונוב, והאם מרגול משקרת לכולם?</desc>
+    <image>https://img.mako.co.il/2025/10/29/Stars_Square_Logo_epg.jpg</image>
+  </programme>
+  <programme start="20260424200500 +0000" stop="20260424203000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">המירוץ למירוץ</title>
+    <desc lang="he">מאיה קיי עם סיכום השבוע של המירוץ למיליון. ראיון ושאלון חד פעמי עם אור ועדי, וגם בנות הזוג של אסף ושלומי על המפגש המרגש בפרו</desc>
+    <image>https://img.mako.co.il/2026/01/29/Race2Race_EPG.jpg</image>
+  </programme>
+  <programme start="20260424203000 +0000" stop="20260424215500 +0000" channel="Keshet12.il@SD">
+    <title lang="he">ארץ נהדרת – מנגל העצמאות הגדול</title>
+    <desc lang="he">ארץ נהדרת מסיימת עונה במנגל יום עצמאות ענק וחגיגי! עם כל מדליקי המשואות, יהודה לוי היישר מחופשת הלידה, "כשהגלים מתחזקים" בספיישל עצמאות, ואפילו המנגל המיוחד של פרדס חנה</desc>
+    <image>https://img.mako.co.il/2022/09/21/ErtezNehederet_S20_EPG.jpg</image>
+  </programme>
+  <programme start="20260424215500 +0000" stop="20260424232000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">חיים ומעיין</title>
+    <desc lang="he">בהגשת חיים אתגר ומעיין אדם. חוזרים למלחמה? כל העדכונים על טראמפ ואיראן. וגם: למה השר ניר ברקת מנסה להשתיק משפיענים? מי זה? מי זה? נראה אם תדעו מי המפורסם במסכה</desc>
+    <image>https://img.mako.co.il/2024/04/11/HaimVeMaayan_EPG.jpg</image>
+  </programme>
+  <programme start="20260424232000 +0000" stop="20260425002000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">מאסטר שף – המנה הפנומנלית!</title>
+    <desc lang="he">תתכוננו לפגוש את ההבטחה של העונה עם המנה שלא נראתה מעולם בתכנית והוציאה את השופטים מגדרם</desc>
+    <image>https://img.mako.co.il/2024/02/28/MasterChef_11_EPG.jpg</image>
+  </programme>
+  <programme start="20260425002000 +0000" stop="20260425010500 +0000" channel="Keshet12.il@SD">
+    <title lang="he">כוכבים בריבוע – לי בירן נגד אליאנה תדהר</title>
+    <desc lang="he">התחרות הכי מצחיקה. והפעם: הזוג המלכותי של ישראל, לי בירן ואליאנה תדהר, מגיע לדו קרב עצבני. הם מורידים את הכפפות ומשאירים את הזוגיות בבית. וגם: תתכוננו למפגש המצחיק של דליה מזור ומרגול</desc>
+    <image>https://img.mako.co.il/2025/10/29/Stars_Square_Logo_epg.jpg</image>
+  </programme>
+  <programme start="20260425010500 +0000" stop="20260425012000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">מבחני הדרכים של אוטו - ג'אקו 8</title>
+    <desc lang="he">ג'אקו 8 הוא רכב פנאי גדול עם שבעה מושבים, הנעה היברידית נטענת ואבזור עשיר במיוחד במחיר תחרותי. השורה השלישית מיועדת בעיקר לילדים ונפח תא המטען מוגבל כשהיא בשימוש</desc>
+    <image>https://img.mako.co.il/2025/01/02/AutoTest_EPG.jpg</image>
+  </programme>
+  <programme start="20260425012000 +0000" stop="20260425022000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">המירוץ למיליון 2026 – מפגש בקצה המדרגות</title>
+    <desc lang="he">משימת המדרגות שמובילה עד לנקודת הסיום ממשיכה והזוגות נשברים כשהקובייה שולחת שוב ושוב למטה. בקצה המדרגות ממתין להם מפגש שישנה את הכול!</desc>
+    <image>https://img.mako.co.il/2026/01/22/RACE2026_EPG.jpg</image>
+  </programme>
+  <programme start="20260425022000 +0000" stop="20260425024400 +0000" channel="Keshet12.il@SD">
+    <title lang="he">המירוץ למירוץ</title>
+    <desc lang="he">מאיה קיי עם סיכום השבוע של המירוץ למיליון. ראיון ושאלון חד פעמי עם אור ועדי, וגם בנות הזוג של אסף ושלומי על המפגש המרגש בפרו</desc>
+    <image>https://img.mako.co.il/2026/01/29/Race2Race_EPG.jpg</image>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425035000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">פרספקטיבה</title>
+    <desc lang="he">מגזין שבועי בהנחיית אליאס עבוד. תוכנית אירוח וראיונות טלוויזיונית בשפה הערבית. אורחים מרקעים מגוונים, ובעלי תחומי עניין רחבים דנים בנושאים אישיים וציבוריים</desc>
+    <image>https://img.mako.co.il//2021/08/04/perspectiva.jpg</image>
+  </programme>
+  <programme start="20260425035000 +0000" stop="20260425042500 +0000" channel="Keshet12.il@SD">
+    <title lang="he">המהדורה הצעירה</title>
+    <desc lang="he">תכנית אקטואליה וחדשות שמותאמת לילדים ולנוער</desc>
+    <image>https://img.mako.co.il/2025/02/23/YoungNews_EPG.jpg</image>
+  </programme>
+  <programme start="20260425042500 +0000" stop="20260425045000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">עוטף ישראל עם אבי ביטון ויובל בן נריה</title>
+    <desc lang="he">השפים יובל בן נריה ואבי ביטון מארחים חקלאים ומבשלים להם ארוחה מהתוצרת שלהם. הפעם: מנגולד, תרד ועוד ירוקים מחממה הידרופונית בגבעת יואב. נארח את מיכל אלטמן שהגידולים הראשונים צמחו בביתה</desc>
+    <image>https://img.mako.co.il/2025/12/30/otef_israel_epg_12.jpg</image>
+  </programme>
+  <programme start="20260425045000 +0000" stop="20260425052500 +0000" channel="Keshet12.il@SD">
+    <title lang="he">חדשות האוכל</title>
+    <desc lang="he">חדשות האוכל בהגשת ריטה גולדשטיין. הפעם: השף-קונדיטורית קרן קדוש והבלוגרית יעל קצב עם טיפים להכנת קצפת יציבה ואוורירית, מעצבי העל והמותגים ששילבו מזון בעיצוב, והמלצה למסעדת דגים בשפרעם</desc>
+    <image>https://img.mako.co.il/2025/07/27/HadshotHaohel2_EPG.jpg</image>
+  </programme>
+  <programme start="20260425052500 +0000" stop="20260425073000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">גלית ואילנית</title>
+    <desc lang="he">גלית ואילנית מסכמות את יום העצמאות. רביב כנר עם שיר חדש ותפקיד ראשי ב"סיפור הפרברים", אודיה קורן ומיקי קם על הבמה ומאחורי הקלעים, וגם: אזי ודני מהמירוץ למיליון</desc>
+    <image>https://img.mako.co.il//2021/08/04/galit_ve_ilanit.jpg</image>
+  </programme>
+  <programme start="20260425073000 +0000" stop="20260425090000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">המירוץ למיליון 2026 – יום בלי אוויר בפרו</title>
+    <desc lang="he">אתגר הגלגל שובר את הזוגות ויש בו הכול חוץ מדבר אחד חשוב – חמצן! תתכוננו ליום שהשאיר את הזוגות בלי אוויר. וגם: ההחלטה האמיצה של שלומי ואסף. האם היא תכריע את גורלם במירוץ?</desc>
+    <image>https://img.mako.co.il/2026/01/22/RACE2026_EPG.jpg</image>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425102000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">המירוץ למיליון 2026 – מפגש בקצה המדרגות</title>
+    <desc lang="he">משימת המדרגות שמובילה עד לנקודת הסיום ממשיכה והזוגות נשברים כשהקובייה שולחת שוב ושוב למטה. בקצה המדרגות ממתין להם מפגש שישנה את הכול!</desc>
+    <image>https://img.mako.co.il/2026/01/22/RACE2026_EPG.jpg</image>
+  </programme>
+  <programme start="20260425102000 +0000" stop="20260425105000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">המירוץ למירוץ</title>
+    <desc lang="he">מאיה קיי עם סיכום השבוע של המירוץ למיליון. ראיון ושאלון חד פעמי עם אור ועדי, וגם בנות הזוג של אסף ושלומי על המפגש המרגש בפרו</desc>
+    <image>https://img.mako.co.il/2026/01/29/Race2Race_EPG.jpg</image>
+  </programme>
+  <programme start="20260425105000 +0000" stop="20260425120000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">רק בישראל</title>
+    <desc lang="he">אחרי 23 שנה, "רק בישראל", תוכנית הבידור הכי אהובה, חוזרת למסך באופן חד פעמי לספיישל יום העצמאות. ארז טל ולימור, האיחוד הגדול! וגם: משה פרץ, גלי עטרי ואלי יצפאן</desc>
+    <image>https://img.mako.co.il/2026/04/20/RakBIsraelAzmaut2026_epg.jpg</image>
+  </programme>
+  <programme start="20260425120000 +0000" stop="20260425140000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">סדר עולמי</title>
+    <desc lang="he">ערד ניר עם מגזין חדשות החוץ השבועי. התכנית שעושה סדר בענייני העולם מזווית מקומית ומסתכלת על ישראל מזווית עולמית</desc>
+    <image>https://img.mako.co.il/2021/11/11/Seder_Olami.jpg</image>
+  </programme>
+  <programme start="20260425140000 +0000" stop="20260425150000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">שבת בחמש</title>
+    <desc lang="he">גדעון אוקו עם כל הכותרות הריאיונות וסיפורי סוף השבוע</desc>
+    <image>https://img.mako.co.il/2024/05/22/Shabat_at_5_EPG.jpg</image>
+  </programme>
+  <programme start="20260425150000 +0000" stop="20260425165000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">פגוש את העיתונות החדשה</title>
+    <desc lang="he">עמית סגל ובן כספית פוגשים את האנשים שעושים את הפוליטיקה הישראלית</desc>
+    <image>https://img.mako.co.il/2024/02/11/Pgosh_et_Haitonut.jpg</image>
+  </programme>
+  <programme start="20260425165000 +0000" stop="20260425183000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">חדשות סוף השבוע עם דנה ויס</title>
+    <desc lang="he">דנה ויס מגישה לכם את סיכום חדשות השבת, ואת כתבות המגזין על הנושאים שנוגעים לחיים של כל אחד ואחת מאיתנו</desc>
+    <image>https://img.mako.co.il/2021/11/11/Sof_Hashavoa.jpg</image>
+  </programme>
+  <programme start="20260425183000 +0000" stop="20260425201400 +0000" channel="Keshet12.il@SD">
+    <title lang="he">המירוץ למיליון 2026 – הדחת רבע הגמר</title>
+    <desc lang="he">הזוגות נלחמים על מקומם ברבע הגמר במשימת חיפוש אכזרית במיוחד – מי יגיע אחרון ליהודה וימצא את עצמו מחוץ למירוץ? וגם - חילופי הזוגות משאירים את הזוגות בהלם!</desc>
+    <image>https://img.mako.co.il/2026/01/22/RACE2026_EPG.jpg</image>
+  </programme>
+  <programme start="20260425201400 +0000" stop="20260425201700 +0000" channel="Keshet12.il@SD">
+    <title lang="he">הגרלת הלוטו</title>
+    <desc lang="he">תוצאות הגרלת הלוטו בשידור חי</desc>
+    <image>https://img.mako.co.il/2024/03/14/HagralatHalotto_EPG.jpg</image>
+  </programme>
+  <programme start="20260425201700 +0000" stop="20260425203000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">המירוץ למירוץ</title>
+    <desc lang="he">מאיה קיי בראיון ראשון עם המודחים</desc>
+    <image>https://img.mako.co.il/2026/01/29/Race2Race_EPG.jpg</image>
+  </programme>
+  <programme start="20260425203000 +0000" stop="20260425213000 +0000" channel="Keshet12.il@SD">
+    <title lang="he">אברי ושרקי</title>
+    <desc lang="he">אברי גלעד ויאיר שרקי בתכנית מיוחדת על כל אירועי היום בארץ ובעולם עם הפרשנים, הכתבים והאורחים המעניינים</desc>
+    <image>https://img.mako.co.il/2024/06/24/Avri_sherki_EPG.jpg</image>
+  </programme>
+</tv>

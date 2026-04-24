@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="TeleBilbao.es@SD">
+    <display-name>TeleBilbao</display-name>
+    <icon src="https://i.imgur.com/x2HmBq1.png" />
+    <url>https://telebilbao.es</url>
+  </channel>
+  <programme start="20260424050000 +0000" stop="20260424053000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">BAI HORIXE</title>
+  </programme>
+  <programme start="20260424053000 +0000" stop="20260424060000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">BAI HORIXE</title>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424063000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">BAI HORIXE</title>
+  </programme>
+  <programme start="20260424063000 +0000" stop="20260424070000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260424070000 +0000" stop="20260424073000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">DIARIO LOCAL</title>
+  </programme>
+  <programme start="20260424073000 +0000" stop="20260424080000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">LA KAPITAL</title>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424083000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">LA KAPITAL</title>
+  </programme>
+  <programme start="20260424083000 +0000" stop="20260424090000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">LA KAPITAL</title>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424093000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">LA KAPITAL</title>
+  </programme>
+  <programme start="20260424093000 +0000" stop="20260424100000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">LA KAPITAL</title>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424103000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260424103000 +0000" stop="20260424110000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">LOCAL MUSICAL</title>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424113000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">COCINA FAMILIAR</title>
+  </programme>
+  <programme start="20260424113000 +0000" stop="20260424120000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">BILBOSPORT</title>
+  </programme>
+  <programme start="20260424120000 +0000" stop="20260424123000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">BILBOSPORT</title>
+  </programme>
+  <programme start="20260424123000 +0000" stop="20260424130000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">DIARIO LOCAL</title>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424133000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">LA KAPITAL.</title>
+  </programme>
+  <programme start="20260424133000 +0000" stop="20260424140000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">LA KAPITAL.</title>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424143000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">LA KAPITAL.</title>
+  </programme>
+  <programme start="20260424143000 +0000" stop="20260424150000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">LA KAPITAL.</title>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424153000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">DIARIO LOCAL</title>
+  </programme>
+  <programme start="20260424153000 +0000" stop="20260424160000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">REVISTA SEMANAL</title>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424163000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">REVISTA SEMANAL</title>
+  </programme>
+  <programme start="20260424163000 +0000" stop="20260424170000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">REVISTA SEMANAL</title>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424173000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">REVISTA SEMANAL</title>
+  </programme>
+  <programme start="20260424173000 +0000" stop="20260424180000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">DOS BUTACAS</title>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424183000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">DIARIO LOCAL</title>
+  </programme>
+  <programme start="20260424183000 +0000" stop="20260424190000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">BILBOSPORT</title>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424193000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">BILBOSPORT</title>
+  </programme>
+  <programme start="20260424193000 +0000" stop="20260424200000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">DIARIO LOCAL</title>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424220000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">RESUMEN</title>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424223000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260424223000 +0000" stop="20260424230000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">DIARIO LOCAL</title>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260424233000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">CINE. UN LUGAR EN EL SOL. 1951. 122′ Drama romántico. Monygomery Cliff, Elizabeth Taylor</title>
+  </programme>
+  <programme start="20260424233000 +0000" stop="20260425013000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">CINE. UN LUGAR EN EL SOL. 1951. 122′ Drama romántico. Monygomery Cliff, Elizabeth Taylor</title>
+  </programme>
+  <programme start="20260425013000 +0000" stop="20260425020000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425020000 +0000" stop="20260425023000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">VERICAT</title>
+  </programme>
+  <programme start="20260425023000 +0000" stop="20260425030000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425030000 +0000" stop="20260425033000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425033000 +0000" stop="20260425033000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425033000 +0000" stop="20260425040000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">TACONES REVISTA SEMANAL</title>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425043000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">TACONES REVISTA SEMANAL</title>
+  </programme>
+  <programme start="20260425043000 +0000" stop="20260425050000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">TACONES REVISTA SEMANAL</title>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425053000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">TACONES REVISTA SEMANAL</title>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425053000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425053000 +0000" stop="20260425060000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">TACONES REVISTA SEMANAL</title>
+  </programme>
+  <programme start="20260425053000 +0000" stop="20260425060000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425060000 +0000" stop="20260425063000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">TACONES REVISTA SEMANAL</title>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425063000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425063000 +0000" stop="20260425070000 +0000" channel="TeleBilbao.es@SD">
+    <title lang="es">TACONES REVISTA SEMANAL</title>
+  </programme>
+  <programme start="20260425063000 +0000" stop="20260425070000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425070000 +0000" stop="20260425073000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425073000 +0000" stop="20260425080000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425080000 +0000" stop="20260425083000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425083000 +0000" stop="20260425090000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425090000 +0000" stop="20260425093000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425093000 +0000" stop="20260425100000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425100000 +0000" stop="20260425103000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425103000 +0000" stop="20260425110000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425110000 +0000" stop="20260425113000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425113000 +0000" stop="20260425120000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425120000 +0000" stop="20260425123000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425123000 +0000" stop="20260425130000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425130000 +0000" stop="20260425133000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425133000 +0000" stop="20260425140000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425140000 +0000" stop="20260425143000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425143000 +0000" stop="20260425150000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425150000 +0000" stop="20260425153000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425153000 +0000" stop="20260425160000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425160000 +0000" stop="20260425163000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425163000 +0000" stop="20260425170000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425170000 +0000" stop="20260425173000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425173000 +0000" stop="20260425180000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425180000 +0000" stop="20260425183000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425183000 +0000" stop="20260425190000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425190000 +0000" stop="20260425193000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425193000 +0000" stop="20260425200000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425200000 +0000" stop="20260425220000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425220000 +0000" stop="20260425223000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425223000 +0000" stop="20260425230000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425230000 +0000" stop="20260425233000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260425233000 +0000" stop="20260426013000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260426013000 +0000" stop="20260426020000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260426020000 +0000" stop="20260426023000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260426023000 +0000" stop="20260426030000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260426030000 +0000" stop="20260426033000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260426033000 +0000" stop="20260426033000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260426033000 +0000" stop="20260426040000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260426040000 +0000" stop="20260426043000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260426043000 +0000" stop="20260426050000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260426050000 +0000" stop="20260426053000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260426053000 +0000" stop="20260426060000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260426060000 +0000" stop="20260426063000 +0000" channel="TeleBilbao.es@SD" />
+  <programme start="20260426063000 +0000" stop="20260426070000 +0000" channel="TeleBilbao.es@SD" />
+</tv>

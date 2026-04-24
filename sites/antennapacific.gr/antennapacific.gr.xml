@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="ANT1Pacific.gr@SD">
+    <display-name>ANT1 PACIFIC</display-name>
+    <icon src="https://i.imgur.com/IssYNSL.png" />
+    <url>https://antennapacific.gr</url>
+  </channel>
+  <programme start="20260424031500 +0000" stop="20260424040000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΚΑΙ ΟΙ ΠΑΝΤΡΕΜΕΝΟΙ ΕΧΟΥΝ ΨΥΧΗ</title>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424050000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ANT1 NEWS - ΚΕΝΤΡΙΚΟ ΔΕΛΤΙΟ</title>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424060000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΤΟ ΚΑΦΕ ΤΗΣ ΧΑΡΑΣ</title>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424090000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΤΟ ΠΡΩΙΝΟ</title>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424100000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΜΠΡΟΥΣΚΟ</title>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424130000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΚΑΛΗΜΕΡΑ ΕΛΛΑΔΑ</title>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424150000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΑΠΟΚΑΛΥΨΕΙΣ</title>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424160000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΡΟΥΚ ΖΟΥΚ</title>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424170000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΚΑΤΙ ΨΗΝΕΤΑΙ</title>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424180000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΨΥΧΑΓΩΓΙΚΟ ΠΡΟΓΡΑΜΜΑ</title>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424191500 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΕΛΛΗΝΙΚΗ ΣΕΙΡΑ</title>
+  </programme>
+  <programme start="20260424191500 +0000" stop="20260424194500 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ANT1 NEWS</title>
+  </programme>
+  <programme start="20260424194500 +0000" stop="20260424213000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΕΝΩΠΙΟΣ ΕΝΩΠΙΩ</title>
+  </programme>
+  <programme start="20260424213000 +0000" stop="20260424224500 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΡΟΥΚ ΖΟΥΚ</title>
+  </programme>
+  <programme start="20260424224500 +0000" stop="20260424234500 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ANT1 NEWS - ΚΕΝΤΡΙΚΟ ΔΕΛΤΙΟ</title>
+  </programme>
+  <programme start="20260424234500 +0000" stop="20260425020000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΑΠΟΚΑΛΥΨΕΙΣ</title>
+  </programme>
+  <programme start="20260425020000 +0000" stop="20260425023000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΚΑΤΙ ΨΗΝΕΤΑΙ</title>
+  </programme>
+  <programme start="20260425031500 +0000" stop="20260425040000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΚΑΙ ΟΙ ΠΑΝΤΡΕΜΕΝΟΙ ΕΧΟΥΝ ΨΥΧΗ</title>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425050000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ANT1 NEWS - ΚΕΝΤΡΙΚΟ ΔΕΛΤΙΟ</title>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425060000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΤΟ ΚΑΦΕ ΤΗΣ ΧΑΡΑΣ</title>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425084500 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΤΟ ΠΡΩΙΝΟ</title>
+  </programme>
+  <programme start="20260425084500 +0000" stop="20260425094500 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΡΟΥΚ ΖΟΥΚ</title>
+  </programme>
+  <programme start="20260425094500 +0000" stop="20260425104500 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΤΑ ΝΕΑ ΤΟΥ ΑΝΤΕΝΝΑ ΚΥΠΡΟΥ</title>
+  </programme>
+  <programme start="20260425104500 +0000" stop="20260425114500 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΥΓΕΙΑ ΠΑΝΩ ΑΠ’ ΟΛΑ</title>
+  </programme>
+  <programme start="20260425114500 +0000" stop="20260425123000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ANTENNA PACIFIC TOP 10</title>
+  </programme>
+  <programme start="20260425123000 +0000" stop="20260425125000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΤΑ ΦΕΣΤΙΒΑΛ ΤΩΝ ΕΛΛΗΝΩΝ</title>
+  </programme>
+  <programme start="20260425125000 +0000" stop="20260425163000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΣΑΒΒΑΤΟΚΥΡΙΑΚΟ ΠΑΡΕΑ</title>
+  </programme>
+  <programme start="20260425163000 +0000" stop="20260425170000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ANT1 NEWS</title>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425183000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΨΥΧΑΓΩΓΙΚΟ ΠΡΟΓΡΑΜΜΑ</title>
+  </programme>
+  <programme start="20260425183000 +0000" stop="20260425203000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">THE 2NIGHT SHOW</title>
+  </programme>
+  <programme start="20260425203000 +0000" stop="20260425211500 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΜΗ ΜΟΥ ΛΕΣ ΑΝΤΙΟ</title>
+  </programme>
+  <programme start="20260425211500 +0000" stop="20260425224500 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΚΑΤΙ ΨΗΝΕΤΑΙ</title>
+  </programme>
+  <programme start="20260425224500 +0000" stop="20260426003000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ANT1 NEWS - ΚΕΝΤΡΙΚΟ ΔΕΛΤΙΟ</title>
+  </programme>
+  <programme start="20260426003000 +0000" stop="20260426023000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ΚΥΠΕΛΛΟ ΕΛΛΑΔΑΣ ΤΕΛΙΚΟΣ: ΠΑΟΚ - ΟΦΗ</title>
+  </programme>
+  <programme start="20260426023000 +0000" stop="20260426030000 +0000" channel="ANT1Pacific.gr@SD">
+    <title lang="el">ANTENNA PACIFIC TOP 10</title>
+  </programme>
+</tv>

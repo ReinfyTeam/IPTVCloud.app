@@ -1,0 +1,682 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="i24NEWSArabic.il@SD">
+    <display-name>I24NEWS عربى</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" />
+    <url>https://i24news.tv</url>
+  </channel>
+  <channel id="i24NEWSEnglishUSA.il@SD">
+    <display-name>I24NEWS English (USA)</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" />
+    <url>https://i24news.tv</url>
+  </channel>
+  <channel id="i24NEWSFrench.il@SD">
+    <display-name>I24NEWS Français</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" />
+    <url>https://i24news.tv</url>
+  </channel>
+  <channel id="he">
+    <display-name>I24NEWS עברית</display-name>
+    <url>https://i24news.tv</url>
+  </channel>
+  <programme start="20260423210000 +0000" stop="20260423213000 +0000" channel="he">
+    <title lang="he">שיחת נפש</title>
+    <image>https://cdn.i24news.tv/uploads/90/e4/77/ae/8b/92/9c/4a/e2/87/e7/31/6c/51/c0/44/90e477ae8b929c4ae287e7316c51c044.jpg</image>
+  </programme>
+  <programme start="20260423213000 +0000" stop="20260423221500 +0000" channel="he">
+    <title lang="he">תוכנית הלילה עם דניאל רוט אבנרי</title>
+    <image>https://cdn.i24news.tv/uploads/28/67/39/a5/61/cc/15/7a/ed/77/6e/d3/3a/c4/7e/a6/286739a561cc157aed776ed33ac47ea6.jpg</image>
+  </programme>
+  <programme start="20260423221500 +0000" stop="20260423224500 +0000" channel="he">
+    <title lang="he">שיחת נפש</title>
+    <image>https://cdn.i24news.tv/uploads/90/e4/77/ae/8b/92/9c/4a/e2/87/e7/31/6c/51/c0/44/90e477ae8b929c4ae287e7316c51c044.jpg</image>
+  </programme>
+  <programme start="20260423224500 +0000" stop="20260423233000 +0000" channel="he">
+    <title lang="he">תוכנית הלילה עם דניאל רוט אבנרי</title>
+    <image>https://cdn.i24news.tv/uploads/28/67/39/a5/61/cc/15/7a/ed/77/6e/d3/3a/c4/7e/a6/286739a561cc157aed776ed33ac47ea6.jpg</image>
+  </programme>
+  <programme start="20260423233000 +0000" stop="20260424000000 +0000" channel="he">
+    <title lang="he">שיחת נפש</title>
+    <image>https://cdn.i24news.tv/uploads/90/e4/77/ae/8b/92/9c/4a/e2/87/e7/31/6c/51/c0/44/90e477ae8b929c4ae287e7316c51c044.jpg</image>
+  </programme>
+  <programme start="20260424000000 +0000" stop="20260424010000 +0000" channel="he">
+    <title lang="he">הערביסטים</title>
+    <image>https://cdn.i24news.tv/uploads/15/ad/06/48/fa/50/46/5a/62/76/0b/1f/1c/d4/5a/c4/15ad0648fa50465a62760b1f1cd45ac4.png</image>
+  </programme>
+  <programme start="20260424010000 +0000" stop="20260424011000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260424011000 +0000" stop="20260424020000 +0000" channel="he">
+    <title lang="he">הצלחה כחול-לבן</title>
+    <image>https://cdn.i24news.tv/uploads/9b/c8/29/4a/33/de/3b/dd/fc/13/e2/8c/9f/b6/3d/a6/9bc8294a33de3bddfc13e28c9fb63da6.jpg</image>
+  </programme>
+  <programme start="20260424020000 +0000" stop="20260424021000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260424021000 +0000" stop="20260424030000 +0000" channel="he">
+    <title lang="he">הצלחה כחול-לבן</title>
+    <image>https://cdn.i24news.tv/uploads/9b/c8/29/4a/33/de/3b/dd/fc/13/e2/8c/9f/b6/3d/a6/9bc8294a33de3bddfc13e28c9fb63da6.jpg</image>
+  </programme>
+  <programme start="20260424030000 +0000" stop="20260424033000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260424033000 +0000" stop="20260424040000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424043000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260424043000 +0000" stop="20260424050000 +0000" channel="he">
+    <title lang="he">זמן ריפוי</title>
+    <image>https://cdn.i24news.tv/uploads/a0/1f/96/99/ae/c4/37/86/48/9c/9b/eb/64/c8/1b/11/a01f9699aec43786489c9beb64c81b11.png</image>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424053000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260424053000 +0000" stop="20260424060000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424065500 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260424065500 +0000" stop="20260424080000 +0000" channel="he">
+    <title lang="he">גלבוע בעצמאות</title>
+    <image>https://cdn.i24news.tv/uploads/eb/8a/d2/2d/75/18/0e/64/f5/97/2c/1e/bc/b2/3e/68/eb8ad22d75180e64f5972c1ebcb23e68.jpg</image>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424090000 +0000" channel="he">
+    <title lang="he">הערביסטים</title>
+    <image>https://cdn.i24news.tv/uploads/15/ad/06/48/fa/50/46/5a/62/76/0b/1f/1c/d4/5a/c4/15ad0648fa50465a62760b1f1cd45ac4.png</image>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424115000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260424115000 +0000" stop="20260424135000 +0000" channel="he">
+    <title lang="he">המהדורה המוקדמת</title>
+    <image>https://cdn.i24news.tv/uploads/63/8a/a3/38/7a/20/14/10/25/dc/54/8e/03/2b/9e/96/638aa3387a20141025dc548e032b9e96.png</image>
+  </programme>
+  <programme start="20260424135000 +0000" stop="20260424160000 +0000" channel="he">
+    <title lang="he">קבינט שישי</title>
+    <image>https://cdn.i24news.tv/uploads/42/e9/d0/54/1e/98/2c/26/39/a1/fa/77/37/0a/89/53/42e9d0541e982c2639a1fa77370a8953.jpg</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424170900 +0000" channel="he">
+    <title lang="he">גלבוע בעצמאות</title>
+    <image>https://cdn.i24news.tv/uploads/eb/8a/d2/2d/75/18/0e/64/f5/97/2c/1e/bc/b2/3e/68/eb8ad22d75180e64f5972c1ebcb23e68.jpg</image>
+  </programme>
+  <programme start="20260424170900 +0000" stop="20260424181000 +0000" channel="he">
+    <title lang="he">הישראלים</title>
+    <image>https://cdn.i24news.tv/uploads/c7/59/e1/bd/19/d4/71/aa/91/36/55/a4/bb/bf/06/6b/c759e1bd19d471aa913655a4bbbf066b.png</image>
+  </programme>
+  <programme start="20260424181000 +0000" stop="20260424184000 +0000" channel="he">
+    <title lang="he">שיחת נפש</title>
+    <image>https://cdn.i24news.tv/uploads/90/e4/77/ae/8b/92/9c/4a/e2/87/e7/31/6c/51/c0/44/90e477ae8b929c4ae287e7316c51c044.jpg</image>
+  </programme>
+  <programme start="20260424184000 +0000" stop="20260424192500 +0000" channel="he">
+    <title lang="he">תוכנית הלילה עם דניאל רוט אבנרי</title>
+    <image>https://cdn.i24news.tv/uploads/28/67/39/a5/61/cc/15/7a/ed/77/6e/d3/3a/c4/7e/a6/286739a561cc157aed776ed33ac47ea6.jpg</image>
+  </programme>
+  <programme start="20260424192500 +0000" stop="20260424200000 +0000" channel="he">
+    <title lang="he">שיחת נפש</title>
+    <image>https://cdn.i24news.tv/uploads/90/e4/77/ae/8b/92/9c/4a/e2/87/e7/31/6c/51/c0/44/90e477ae8b929c4ae287e7316c51c044.jpg</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424204500 +0000" channel="he">
+    <title lang="he">תוכנית הלילה עם דניאל רוט אבנרי</title>
+    <image>https://cdn.i24news.tv/uploads/28/67/39/a5/61/cc/15/7a/ed/77/6e/d3/3a/c4/7e/a6/286739a561cc157aed776ed33ac47ea6.jpg</image>
+  </programme>
+  <programme start="20260424211500 +0000" stop="20260424220500 +0000" channel="he">
+    <title lang="he">תוכנית הלילה עם דניאל רוט אבנרי</title>
+    <image>https://cdn.i24news.tv/uploads/28/67/39/a5/61/cc/15/7a/ed/77/6e/d3/3a/c4/7e/a6/286739a561cc157aed776ed33ac47ea6.jpg</image>
+  </programme>
+  <programme start="20260424220500 +0000" stop="20260424223500 +0000" channel="he">
+    <title lang="he">שיחת נפש</title>
+    <image>https://cdn.i24news.tv/uploads/90/e4/77/ae/8b/92/9c/4a/e2/87/e7/31/6c/51/c0/44/90e477ae8b929c4ae287e7316c51c044.jpg</image>
+  </programme>
+  <programme start="20260424223500 +0000" stop="20260424232500 +0000" channel="he">
+    <title lang="he">תוכנית הלילה עם דניאל רוט אבנרי</title>
+    <image>https://cdn.i24news.tv/uploads/28/67/39/a5/61/cc/15/7a/ed/77/6e/d3/3a/c4/7e/a6/286739a561cc157aed776ed33ac47ea6.jpg</image>
+  </programme>
+  <programme start="20260424232500 +0000" stop="20260425000000 +0000" channel="he">
+    <title lang="he">שיחת נפש</title>
+    <image>https://cdn.i24news.tv/uploads/90/e4/77/ae/8b/92/9c/4a/e2/87/e7/31/6c/51/c0/44/90e477ae8b929c4ae287e7316c51c044.jpg</image>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425003000 +0000" channel="he">
+    <title lang="he">שיחת נפש</title>
+    <image>https://cdn.i24news.tv/uploads/90/e4/77/ae/8b/92/9c/4a/e2/87/e7/31/6c/51/c0/44/90e477ae8b929c4ae287e7316c51c044.jpg</image>
+  </programme>
+  <programme start="20260425003000 +0000" stop="20260425011000 +0000" channel="he">
+    <title lang="he">תוכנית הלילה עם דניאל רוט אבנרי</title>
+    <image>https://cdn.i24news.tv/uploads/28/67/39/a5/61/cc/15/7a/ed/77/6e/d3/3a/c4/7e/a6/286739a561cc157aed776ed33ac47ea6.jpg</image>
+  </programme>
+  <programme start="20260425011000 +0000" stop="20260425031000 +0000" channel="he">
+    <title lang="he">קבינט שישי</title>
+    <image>https://cdn.i24news.tv/uploads/42/e9/d0/54/1e/98/2c/26/39/a1/fa/77/37/0a/89/53/42e9d0541e982c2639a1fa77370a8953.jpg</image>
+  </programme>
+  <programme start="20260425031000 +0000" stop="20260425034000 +0000" channel="he">
+    <title lang="he">הסיפורים הגדולים</title>
+    <image>https://cdn.i24news.tv/uploads/7c/8a/ca/3c/46/35/22/df/20/ae/56/e6/e4/99/b7/c2/7c8aca3c463522df20ae56e6e499b7c2.png</image>
+  </programme>
+  <programme start="20260425034000 +0000" stop="20260425040000 +0000" channel="he">
+    <title lang="he">חוק וצדק | תוכן ממומן</title>
+    <image>https://cdn.i24news.tv/uploads/1e/b6/27/70/34/5a/f0/8f/39/22/cc/0c/87/3a/dc/2f/1eb62770345af08f3922cc0c873adc2f.png</image>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425043000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260425043000 +0000" stop="20260425050000 +0000" channel="he">
+    <title lang="he">זמן ריפוי</title>
+    <image>https://cdn.i24news.tv/uploads/a0/1f/96/99/ae/c4/37/86/48/9c/9b/eb/64/c8/1b/11/a01f9699aec43786489c9beb64c81b11.png</image>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425053000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260425053000 +0000" stop="20260425060000 +0000" channel="he">
+    <title lang="he">קול העסק | תוכן ממומן</title>
+    <image>https://cdn.i24news.tv/uploads/dc/26/36/50/bd/7d/68/3a/2f/21/d1/c3/f5/6d/7e/6d/dc263650bd7d683a2f21d1c3f56d7e6d.png</image>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425063000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260425063000 +0000" stop="20260425070000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425073000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260425073000 +0000" stop="20260425080000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425083000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260425083000 +0000" stop="20260425090000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425115000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260425115000 +0000" stop="20260425135000 +0000" channel="he">
+    <title lang="he">המהדורה המוקדמת</title>
+    <image>https://cdn.i24news.tv/uploads/63/8a/a3/38/7a/20/14/10/25/dc/54/8e/03/2b/9e/96/638aa3387a20141025dc548e032b9e96.png</image>
+  </programme>
+  <programme start="20260425135000 +0000" stop="20260425153000 +0000" channel="he">
+    <title lang="he">מגזין השבת עם מיכל רבינוביץ'</title>
+    <image>https://cdn.i24news.tv/uploads/6d/5e/34/5d/58/b5/55/65/ef/3f/86/8b/13/72/90/8b/6d5e345d58b55565ef3f868b1372908b.jpg</image>
+  </programme>
+  <programme start="20260425153000 +0000" stop="20260425165000 +0000" channel="he">
+    <title lang="he">הישראלים</title>
+    <image>https://cdn.i24news.tv/uploads/c7/59/e1/bd/19/d4/71/aa/91/36/55/a4/bb/bf/06/6b/c759e1bd19d471aa913655a4bbbf066b.png</image>
+  </programme>
+  <programme start="20260425165000 +0000" stop="20260425175000 +0000" channel="he">
+    <title lang="he">הערביסטים</title>
+    <image>https://cdn.i24news.tv/uploads/15/ad/06/48/fa/50/46/5a/62/76/0b/1f/1c/d4/5a/c4/15ad0648fa50465a62760b1f1cd45ac4.png</image>
+  </programme>
+  <programme start="20260425175000 +0000" stop="20260425180000 +0000" channel="he">
+    <title lang="he">חדר החדשות</title>
+    <image>https://cdn.i24news.tv/uploads/b1/36/27/7b/28/73/55/42/11/09/b7/27/2b/4f/ba/39/b136277b287355421109b7272b4fba39.png</image>
+  </programme>
+  <programme start="20260423210000 +0000" stop="20260423230000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260423230000 +0000" stop="20260424010000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424010000 +0000" stop="20260424030000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424030000 +0000" stop="20260424050000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424070000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424090000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424110000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424120000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424120000 +0000" stop="20260424123000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424123000 +0000" stop="20260424130000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424140000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424150000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424160000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424170000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424180000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424190000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260423210000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424230000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260425010000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425010000 +0000" stop="20260425030000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425050000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425070000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425090000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425110000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425120000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425120000 +0000" stop="20260425123000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425123000 +0000" stop="20260425130000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425130000 +0000" stop="20260425140000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425140000 +0000" stop="20260425150000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425150000 +0000" stop="20260425160000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425170000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425180000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425190000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260424210000 +0000" channel="i24NEWSArabic.il@SD">
+    <title lang="ar">تغطية خاصة</title>
+    <image>https://cdn.i24news.tv/uploads/a1/be/85/20/69/6f/32/1c/ed/b0/f8/5c/f6/1c/40/f9/a1be8520696f321cedb0f85cf61c40f9.png</image>
+  </programme>
+  <programme start="20260423220000 +0000" stop="20260424000000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">SPECIAL EDITION</title>
+    <image>https://cdn.i24news.tv/upload/image/139c5ab1c879c0062778054f9cd28b3202f54b8e.jpg</image>
+  </programme>
+  <programme start="20260424000000 +0000" stop="20260424010000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">The Arabists</title>
+    <image>https://cdn.i24news.tv/uploads/18/b4/4d/7d/a7/ec/a5/eb/d3/86/e2/a8/ea/17/c3/34/18b44d7da7eca5ebd386e2a8ea17c334.png</image>
+  </programme>
+  <programme start="20260424010000 +0000" stop="20260424011000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260424011000 +0000" stop="20260424020000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">SPECIAL EDITION</title>
+    <image>https://cdn.i24news.tv/upload/image/139c5ab1c879c0062778054f9cd28b3202f54b8e.jpg</image>
+  </programme>
+  <programme start="20260424020000 +0000" stop="20260424021000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260424021000 +0000" stop="20260424030000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">SPECIAL EDITION</title>
+    <image>https://cdn.i24news.tv/upload/image/139c5ab1c879c0062778054f9cd28b3202f54b8e.jpg</image>
+  </programme>
+  <programme start="20260424030000 +0000" stop="20260424040000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424050000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424060000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424070000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424090000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424100000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">The Arabists</title>
+    <image>https://cdn.i24news.tv/uploads/18/b4/4d/7d/a7/ec/a5/eb/d3/86/e2/a8/ea/17/c3/34/18b44d7da7eca5ebd386e2a8ea17c334.png</image>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424115000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260424115000 +0000" stop="20260424135000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260424135000 +0000" stop="20260424160000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">Friday Cabinet</title>
+    <image>https://cdn.i24news.tv/uploads/ca/e2/83/15/5e/2c/e3/5a/96/fc/c8/18/56/d4/8d/df/cae283155e2ce35a96fcc81856d48ddf.png</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424170000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">7 Sharon Gal</title>
+    <image>https://cdn.i24news.tv/uploads/50/16/3f/c4/3c/9f/f1/fc/26/59/54/a1/ce/ee/b2/57/50163fc43c9ff1fc265954a1ceeeb257.jpg</image>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424180000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">The Israelis</title>
+    <image>https://cdn.i24news.tv/uploads/4e/a7/fa/95/9b/d8/ce/ba/fb/13/c4/05/a9/96/58/0a/4ea7fa959bd8cebafb13c405a996580a.png</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424200000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">SPECIAL EDITION</title>
+    <image>https://cdn.i24news.tv/upload/image/139c5ab1c879c0062778054f9cd28b3202f54b8e.jpg</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260423220000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">SPECIAL EDITION</title>
+    <image>https://cdn.i24news.tv/upload/image/139c5ab1c879c0062778054f9cd28b3202f54b8e.jpg</image>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260425000000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">SPECIAL EDITION</title>
+    <image>https://cdn.i24news.tv/upload/image/139c5ab1c879c0062778054f9cd28b3202f54b8e.jpg</image>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425010000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260425010000 +0000" stop="20260425020000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">Friday Cabinet</title>
+    <image>https://cdn.i24news.tv/uploads/ca/e2/83/15/5e/2c/e3/5a/96/fc/c8/18/56/d4/8d/df/cae283155e2ce35a96fcc81856d48ddf.png</image>
+  </programme>
+  <programme start="20260425020000 +0000" stop="20260425030000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425040000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425050000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425060000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425070000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425080000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425090000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425100000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425115000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260425115000 +0000" stop="20260425135000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260425135000 +0000" stop="20260425153000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">The Main Edition</title>
+    <image>https://cdn.i24news.tv/uploads/98/a0/02/6b/1a/fb/5f/40/55/9b/eb/32/b8/b8/19/82/98a0026b1afb5f40559beb32b8b81982.png</image>
+  </programme>
+  <programme start="20260425153000 +0000" stop="20260425170000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">The Israelis</title>
+    <image>https://cdn.i24news.tv/uploads/4e/a7/fa/95/9b/d8/ce/ba/fb/13/c4/05/a9/96/58/0a/4ea7fa959bd8cebafb13c405a996580a.png</image>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425174500 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">The Arabists</title>
+    <image>https://cdn.i24news.tv/uploads/18/b4/4d/7d/a7/ec/a5/eb/d3/86/e2/a8/ea/17/c3/34/18b44d7da7eca5ebd386e2a8ea17c334.png</image>
+  </programme>
+  <programme start="20260425174500 +0000" stop="20260425180000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425200000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">Friday Cabinet</title>
+    <image>https://cdn.i24news.tv/uploads/ca/e2/83/15/5e/2c/e3/5a/96/fc/c8/18/56/d4/8d/df/cae283155e2ce35a96fcc81856d48ddf.png</image>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260424220000 +0000" channel="i24NEWSEnglishUSA.il@SD">
+    <title lang="en">i24NEWS DESK Extended</title>
+    <image>https://cdn.i24news.tv/uploads/bd/c2/7d/ec/c5/42/03/25/9f/fb/a4/42/78/7d/1f/b9/bdc27decc54203259ffba442787d1fb9.png</image>
+  </programme>
+  <programme start="20260423210000 +0000" stop="20260423220000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Edition Spéciale</title>
+    <image>https://cdn.i24news.tv/upload/image/8c6f75006f1c2b727b5dceb09cf7c622d0d8fdd3.jpg</image>
+  </programme>
+  <programme start="20260423220000 +0000" stop="20260423230000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Edition Spéciale</title>
+    <image>https://cdn.i24news.tv/upload/image/8c6f75006f1c2b727b5dceb09cf7c622d0d8fdd3.jpg</image>
+  </programme>
+  <programme start="20260423230000 +0000" stop="20260424000000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Edition Spéciale</title>
+    <image>https://cdn.i24news.tv/upload/image/8c6f75006f1c2b727b5dceb09cf7c622d0d8fdd3.jpg</image>
+  </programme>
+  <programme start="20260424000000 +0000" stop="20260424010000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Les Arabisants</title>
+    <image>https://cdn.i24news.tv/uploads/87/6b/02/3b/7c/4f/48/f7/a7/0d/c4/78/c8/15/9d/2f/876b023b7c4f48f7a70dc478c8159d2f.png</image>
+  </programme>
+  <programme start="20260424010000 +0000" stop="20260424020000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260424020000 +0000" stop="20260424030000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260424030000 +0000" stop="20260424040000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424050000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424060000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424070000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424083000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260424083000 +0000" stop="20260424090000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424091000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260424091000 +0000" stop="20260424100000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">L'indice Gilboa</title>
+    <image>https://cdn.i24news.tv/uploads/1e/75/3c/f0/70/02/e4/e0/80/b0/35/ce/99/b3/e2/00/1e753cf07002e4e080b035ce99b3e200.png</image>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424110000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Les Arabisants</title>
+    <image>https://cdn.i24news.tv/uploads/87/6b/02/3b/7c/4f/48/f7/a7/0d/c4/78/c8/15/9d/2f/876b023b7c4f48f7a70dc478c8159d2f.png</image>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424115000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260424115000 +0000" stop="20260424135000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">INNOV'NATION</title>
+    <image>https://cdn.i24news.tv/uploads/0e/67/76/84/2e/17/e7/ca/71/6d/d8/c4/b2/e8/bd/90/0e6776842e17e7ca716dd8c4b2e8bd90.png</image>
+  </programme>
+  <programme start="20260424135000 +0000" stop="20260424160000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Le débat du Vendredi</title>
+    <image>https://cdn.i24news.tv/uploads/f2/78/4d/dc/cd/62/c6/8b/5e/57/f2/b3/d5/ab/0e/78/f2784ddccd62c68b5e57f2b3d5ab0e78.png</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424170000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">7 Sharon Gal</title>
+    <image>https://cdn.i24news.tv/uploads/03/79/8a/12/be/e0/35/dd/b0/33/e3/a9/61/17/ac/6b/03798a12bee035ddb033e3a96117ac6b.jpg</image>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424180000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Les Israéliens</title>
+    <image>https://cdn.i24news.tv/uploads/5c/a8/ca/a1/15/9d/0e/bc/20/9f/d1/79/c1/65/30/75/5ca8caa1159d0ebc209fd179c1653075.png</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424200000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Edition Spéciale</title>
+    <image>https://cdn.i24news.tv/upload/image/8c6f75006f1c2b727b5dceb09cf7c622d0d8fdd3.jpg</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260423220000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Edition Spéciale</title>
+    <image>https://cdn.i24news.tv/upload/image/8c6f75006f1c2b727b5dceb09cf7c622d0d8fdd3.jpg</image>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260425000000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Edition Spéciale</title>
+    <image>https://cdn.i24news.tv/upload/image/8c6f75006f1c2b727b5dceb09cf7c622d0d8fdd3.jpg</image>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425020000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">La Première Edition</title>
+    <image>https://cdn.i24news.tv/uploads/e3/47/dd/16/12/cd/c6/92/ea/fe/0d/35/e9/46/7d/09/e347dd1612cdc692eafe0d35e9467d09.png</image>
+  </programme>
+  <programme start="20260425020000 +0000" stop="20260425040000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Le débat du Vendredi</title>
+    <image>https://cdn.i24news.tv/uploads/f2/78/4d/dc/cd/62/c6/8b/5e/57/f2/b3/d5/ab/0e/78/f2784ddccd62c68b5e57f2b3d5ab0e78.png</image>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425050000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425060000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425070000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425080000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425090000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425100000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425115000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">i24NEWSROOM</title>
+    <image>https://cdn.i24news.tv/upload/image/6df77e23ca1a2443c4cd40fb35356134edd97f47.jpg</image>
+  </programme>
+  <programme start="20260425115000 +0000" stop="20260425135000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">La Première Edition</title>
+    <image>https://cdn.i24news.tv/uploads/e3/47/dd/16/12/cd/c6/92/ea/fe/0d/35/e9/46/7d/09/e347dd1612cdc692eafe0d35e9467d09.png</image>
+  </programme>
+  <programme start="20260425135000 +0000" stop="20260425153000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">L'Edition Principale</title>
+    <image>https://cdn.i24news.tv/uploads/be/74/67/c2/6d/53/b3/ef/bb/62/d8/a6/b2/99/e2/40/be7467c26d53b3efbb62d8a6b299e240.png</image>
+  </programme>
+  <programme start="20260425153000 +0000" stop="20260425170000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Les Israéliens</title>
+    <image>https://cdn.i24news.tv/uploads/5c/a8/ca/a1/15/9d/0e/bc/20/9f/d1/79/c1/65/30/75/5ca8caa1159d0ebc209fd179c1653075.png</image>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425180000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Les Arabisants</title>
+    <image>https://cdn.i24news.tv/uploads/87/6b/02/3b/7c/4f/48/f7/a7/0d/c4/78/c8/15/9d/2f/876b023b7c4f48f7a70dc478c8159d2f.png</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425200000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">Le débat du Vendredi</title>
+    <image>https://cdn.i24news.tv/uploads/f2/78/4d/dc/cd/62/c6/8b/5e/57/f2/b3/d5/ab/0e/78/f2784ddccd62c68b5e57f2b3d5ab0e78.png</image>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260424220000 +0000" channel="i24NEWSFrench.il@SD">
+    <title lang="fr">La Première Edition</title>
+    <image>https://cdn.i24news.tv/uploads/e3/47/dd/16/12/cd/c6/92/ea/fe/0d/35/e9/46/7d/09/e347dd1612cdc692eafe0d35e9467d09.png</image>
+  </programme>
+</tv>

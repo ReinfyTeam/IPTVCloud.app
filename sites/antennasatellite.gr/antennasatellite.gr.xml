@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="ANT1Satellite.gr@SD">
+    <display-name>ANT1 SATELLITE</display-name>
+    <icon src="https://i.imgur.com/ayJ2ABV.png" />
+    <url>https://antennasatellite.gr</url>
+  </channel>
+  <programme start="20260424023000 +0000" stop="20260424031500 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ANT1 NEWS</title>
+  </programme>
+  <programme start="20260424031500 +0000" stop="20260424054500 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΚΑΛΗΜΕΡΑ ΕΛΛΑΔΑ</title>
+  </programme>
+  <programme start="20260424054500 +0000" stop="20260424084500 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΤΟ ΠΡΩΙΝΟ</title>
+  </programme>
+  <programme start="20260424084500 +0000" stop="20260424100000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ANT1 NEWS</title>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424110000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΜΠΡΟΥΣΚΟ</title>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424133000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΑΠΟΚΑΛΥΨΕΙΣ</title>
+  </programme>
+  <programme start="20260424133000 +0000" stop="20260424143000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΡΟΥΚ ΖΟΥΚ</title>
+  </programme>
+  <programme start="20260424143000 +0000" stop="20260424154500 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΚΑΤΙ ΨΗΝΕΤΑΙ</title>
+  </programme>
+  <programme start="20260424154500 +0000" stop="20260424170000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ANT1 NEWS</title>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424180000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΨΥΧΑΓΩΓΙΚΟ ΠΡΟΓΡΑΜΜΑ</title>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424191500 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΓΙΑΤΙ ΡΕ ΠΑΤΕΡΑ ;</title>
+  </programme>
+  <programme start="20260424191500 +0000" stop="20260424211500 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">THE 2NIGHT SHOW</title>
+  </programme>
+  <programme start="20260424211500 +0000" stop="20260424225000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΠΕΦΤΕΙ Η ΝΥΧΤΑ ΜΕ... ΡΥΘΜΟ</title>
+  </programme>
+  <programme start="20260424225000 +0000" stop="20260424232000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΣΑΒΒΑΤΟΚΥΡΙΑΚΟ ΠΑΡΕΑ</title>
+  </programme>
+  <programme start="20260425023000 +0000" stop="20260425031000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ANT1 NEWS</title>
+  </programme>
+  <programme start="20260425031000 +0000" stop="20260425040000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΟΝΕΙΡΟΠΑΓΙΔΑ</title>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425073000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΣΑΒΒΑΤΟΚΥΡΙΑΚΟ ΠΑΡΕΑ</title>
+  </programme>
+  <programme start="20260425073000 +0000" stop="20260425084500 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΚΑΤΙ ΨΗΝΕΤΑΙ</title>
+  </programme>
+  <programme start="20260425084500 +0000" stop="20260425103000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ANT1 NEWS</title>
+  </programme>
+  <programme start="20260425103000 +0000" stop="20260425141500 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΚΥΠΕΛΛΟ ΕΛΛΑΔΑΣ - ΤΕΛΙΚΟΣ: ΠΑΟΚ - ΟΦΗ</title>
+  </programme>
+  <programme start="20260425141500 +0000" stop="20260425150000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΟΙ ΣΥΜΜΑΘΗΤΕΣ</title>
+  </programme>
+  <programme start="20260425150000 +0000" stop="20260425154500 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΥΓΕΙΑ ΠΑΝΩ ΑΠ’ ΟΛΑ</title>
+  </programme>
+  <programme start="20260425154500 +0000" stop="20260425170000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ANT1 NEWS</title>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425180000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΨΥΧΑΓΩΓΙΚΟ ΠΡΟΓΡΑΜΜΑ</title>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425191500 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΣΟΥΠΕΡ ΗΡΩΕΣ</title>
+  </programme>
+  <programme start="20260425191500 +0000" stop="20260425214500 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">THE 2NIGHT SHOW</title>
+  </programme>
+  <programme start="20260425214500 +0000" stop="20260425225000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΕΛΛΗΝΙΚΗ ΣΕΙΡΑ</title>
+  </programme>
+  <programme start="20260425225000 +0000" stop="20260425232000 +0000" channel="ANT1Satellite.gr@SD">
+    <title lang="el">ΣΑΒΒΑΤΟΚΥΡΙΑΚΟ ΠΑΡΕΑ</title>
+  </programme>
+</tv>

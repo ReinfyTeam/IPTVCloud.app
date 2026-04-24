@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="STS.ru@SD">
+    <display-name>STS</display-name>
+    <icon src="https://i.imgur.com/ilUzAeb.png" />
+    <url>https://ctc.ru</url>
+  </channel>
+  <programme start="20260424054000 +0000" stop="20260424054000 +0000" channel="STS.ru@SD">
+    <title lang="ru">Уральские пельмени</title>
+    <category lang="ru">Шоу</category>
+    <url>https://ctc.ru/projects/show/shou-_uralskikh-pelmeney_/</url>
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/1089/horizontalcover/web/5f2aa1d137f20-1536x864.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/1089/horizontalcover/web/5f2aa1ca5fd54-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/1089/horizontalcover/web/5f2aa1c7eefef-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/1089/squarecover/web/5f2aa1c6be176-200x200.jpeg" width="200" height="200" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/1089/squarecover/web/5f2aa1c627a82-125x125.jpeg" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/1089/squarecover/web/5f2aa1c609c03-60x60.jpeg" width="60" height="60" />
+  </programme>
+  <programme start="20260424104724 +0000" stop="20260424104724 +0000" channel="STS.ru@SD" />
+  <programme start="20260424104724 +0000" stop="20260424104724 +0000" channel="STS.ru@SD" />
+  <programme start="20260424104724 +0000" stop="20260424104724 +0000" channel="STS.ru@SD" />
+  <programme start="20260424104724 +0000" stop="20260424104724 +0000" channel="STS.ru@SD" />
+  <programme start="20260424104724 +0000" stop="20260424104724 +0000" channel="STS.ru@SD" />
+  <programme start="20260424104724 +0000" stop="20260424104724 +0000" channel="STS.ru@SD" />
+  <programme start="20260424104724 +0000" stop="20260424104724 +0000" channel="STS.ru@SD" />
+  <programme start="20260424104724 +0000" stop="20260424104724 +0000" channel="STS.ru@SD" />
+  <programme start="20260424104724 +0000" stop="20260424104724 +0000" channel="STS.ru@SD" />
+  <programme start="20260424104724 +0000" stop="20260424104724 +0000" channel="STS.ru@SD" />
+  <programme start="20260424104724 +0000" stop="20260424104724 +0000" channel="STS.ru@SD" />
+  <programme start="20260424104724 +0000" stop="20260424104724 +0000" channel="STS.ru@SD" />
+  <programme start="20260425020000 +0000" stop="20260424054000 +0000" channel="STS.ru@SD">
+    <title lang="ru">100 мест, где поесть</title>
+    <category lang="ru">Шоу</category>
+    <url>https://ctc.ru/projects/show/100-mest-gde-poest/</url>
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903b047f6-1740x978.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903db557c-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903e42b74-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/6329902619e66-200x200.jpeg" width="200" height="200" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/63299024eb84e-125x125.jpeg" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/63299024bd838-60x60.jpeg" width="60" height="60" />
+  </programme>
+  <programme start="20260425055500 +0000" stop="20260425063000 +0000" channel="STS.ru@SD">
+    <title lang="ru">Просто кухня</title>
+    <category lang="ru">Шоу</category>
+    <url>https://ctc.ru/projects/show/prosto_kuhnya/</url>
+    <rating system="Russia">
+      <value>12+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/3365/horizontalcover/web/68a341474d7fa-1740x978.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/3365/horizontalcover/web/68a3414895c7d-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/3365/horizontalcover/web/68a34148d04b0-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/3365/squarecover/web/68a3414718f59-200x200.jpeg" width="200" height="200" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/3365/squarecover/web/68a34146f0384-125x125.jpeg" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/3365/squarecover/web/68a34146c5230-60x60.jpeg" width="60" height="60" />
+  </programme>
+  <programme start="20260425063000 +0000" stop="20260425070000 +0000" channel="STS.ru@SD">
+    <title lang="ru">Просто кухня</title>
+    <category lang="ru">Шоу</category>
+    <url>https://ctc.ru/projects/show/prosto_kuhnya/</url>
+    <new />
+    <rating system="Russia">
+      <value>12+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/3365/horizontalcover/web/68a341474d7fa-1740x978.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/3365/horizontalcover/web/68a3414895c7d-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/3365/horizontalcover/web/68a34148d04b0-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/3365/squarecover/web/68a3414718f59-200x200.jpeg" width="200" height="200" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/3365/squarecover/web/68a34146f0384-125x125.jpeg" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/3365/squarecover/web/68a34146c5230-60x60.jpeg" width="60" height="60" />
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425080000 +0000" channel="STS.ru@SD">
+    <title lang="ru">100 мест, где поесть</title>
+    <category lang="ru">Шоу</category>
+    <url>https://ctc.ru/projects/show/100-mest-gde-poest/</url>
+    <new />
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903b047f6-1740x978.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903db557c-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903e42b74-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/6329902619e66-200x200.jpeg" width="200" height="200" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/63299024eb84e-125x125.jpeg" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/63299024bd838-60x60.jpeg" width="60" height="60" />
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425090000 +0000" channel="STS.ru@SD">
+    <title lang="ru">100 мест, где поесть</title>
+    <category lang="ru">Шоу</category>
+    <url>https://ctc.ru/projects/show/100-mest-gde-poest/</url>
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903b047f6-1740x978.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903db557c-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903e42b74-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/6329902619e66-200x200.jpeg" width="200" height="200" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/63299024eb84e-125x125.jpeg" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/63299024bd838-60x60.jpeg" width="60" height="60" />
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425095000 +0000" channel="STS.ru@SD">
+    <title lang="ru">Чем заняться в выходные?</title>
+    <category lang="ru">Шоу</category>
+    <url>https://ctc.ru/projects/show/chem-zanyatsya-v-vyhodnye/</url>
+    <new />
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/23068/horizontalcover/web/69c68e1f3121f-1740x978.png</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/23068/horizontalcover/web/69c68e22f3fc8-400x225.png</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/23068/horizontalcover/web/69c68e237e988-150x84.png</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/23068/squarecover/web/69c68e1dbb333-200x200.png" width="200" height="200" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/23068/squarecover/web/69c68e1da531f-125x125.png" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/23068/squarecover/web/69c68e1d93f23-60x60.png" width="60" height="60" />
+  </programme>
+  <programme start="20260425095000 +0000" stop="20260425114000 +0000" channel="STS.ru@SD">
+    <title lang="ru">Пробуждающая совесть</title>
+    <category lang="ru">Фильмы</category>
+    <url>https://ctc.ru/collections/filmi/</url>
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/22077/horizontalcover/web/689c9786a7fea-3840x2160.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/22077/horizontalcover/web/689c978a895c9-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/22077/horizontalcover/web/689c978b1af2b-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fe0d7cc-125x125.png" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fdc5493-60x60.png" width="60" height="60" />
+  </programme>
+  <programme start="20260425114000 +0000" stop="20260425135000 +0000" channel="STS.ru@SD">
+    <title lang="ru">Пробуждающая совесть-2. Дар змеи</title>
+    <category lang="ru">Фильмы</category>
+    <url>https://ctc.ru/collections/filmi/</url>
+    <rating system="Russia">
+      <value>12+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/22081/horizontalcover/web/689c97b89bfa3-3840x2160.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/22081/horizontalcover/web/689c97bd034a3-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/22081/horizontalcover/web/689c97bda420b-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fe0d7cc-125x125.png" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fdc5493-60x60.png" width="60" height="60" />
+  </programme>
+  <programme start="20260425135000 +0000" stop="20260425172000 +0000" channel="STS.ru@SD">
+    <title lang="ru">Граф Монте-Кристо (2024)</title>
+    <category lang="ru">Фильмы</category>
+    <url>https://ctc.ru/collections/filmi/</url>
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/22520/horizontalcover/web/692b6faaf2837-3840x2160.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/22520/horizontalcover/web/692b6faf1080a-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/22520/horizontalcover/web/692b6fafa0082-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fe0d7cc-125x125.png" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fdc5493-60x60.png" width="60" height="60" />
+  </programme>
+  <programme start="20260425172000 +0000" stop="20260425190500 +0000" channel="STS.ru@SD">
+    <title lang="ru">Va-банк</title>
+    <category lang="ru">Фильмы</category>
+    <url>https://ctc.ru/collections/filmi/</url>
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/4113/horizontalcover/web/5f32cae4d1a2b-1536x864.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/4113/horizontalcover/web/5f32cae2e2060-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/4113/horizontalcover/web/5f32cae290539-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fe0d7cc-125x125.png" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fdc5493-60x60.png" width="60" height="60" />
+  </programme>
+  <programme start="20260425190500 +0000" stop="20260425205500 +0000" channel="STS.ru@SD">
+    <title lang="ru">Эффект парадокса</title>
+    <category lang="ru">Фильмы</category>
+    <url>https://ctc.ru/collections/filmi/</url>
+    <new />
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/23138/horizontalcover/web/69e0c46c7a820-1740x978.png</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/23138/horizontalcover/web/69e0c470134af-400x225.png</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/23138/horizontalcover/web/69e0c47098e42-150x84.png</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fe0d7cc-125x125.png" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fdc5493-60x60.png" width="60" height="60" />
+  </programme>
+  <programme start="20260425205500 +0000" stop="20260425233500 +0000" channel="STS.ru@SD">
+    <title lang="ru">Исчезнувшая (2014)</title>
+    <category lang="ru">Фильмы</category>
+    <url>https://ctc.ru/collections/filmi/</url>
+    <rating system="Russia">
+      <value>18+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/4257/horizontalcover/web/5f333468e1f37-1536x864.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/4257/horizontalcover/web/5f333467e18de-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/4257/horizontalcover/web/5f3334679b54d-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fe0d7cc-125x125.png" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fdc5493-60x60.png" width="60" height="60" />
+  </programme>
+  <programme start="20260425233500 +0000" stop="20260426010500 +0000" channel="STS.ru@SD">
+    <title lang="ru">Кодекс киллера</title>
+    <category lang="ru">Фильмы</category>
+    <url>https://ctc.ru/collections/filmi/</url>
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/21903/horizontalcover/web/6865556371839-3840x2160.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/21903/horizontalcover/web/686555683a622-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/21903/horizontalcover/web/68655568e04a8-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fe0d7cc-125x125.png" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-dictionary-category/4/iconurl/web/5f9027fdc5493-60x60.png" width="60" height="60" />
+  </programme>
+  <programme start="20260426010500 +0000" stop="20260426013500 +0000" channel="STS.ru@SD">
+    <title lang="ru">Сториз</title>
+    <category lang="ru">Сериалы</category>
+    <url>https://ctc.ru/projects/serials/storis/</url>
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/15146/horizontalcover/web/60e6b22c69555-1536x864.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/15146/horizontalcover/web/60e6b22e3e29c-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/15146/horizontalcover/web/60e6b22eac5fe-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/15146/squarecover/web/60e6b22c1b014-200x200.jpeg" width="200" height="200" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/15146/squarecover/web/60e6b22be7fad-125x125.jpeg" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/15146/squarecover/web/60e6b22bd2629-60x60.jpeg" width="60" height="60" />
+  </programme>
+  <programme start="20260426013500 +0000" stop="20260426013500 +0000" channel="STS.ru@SD">
+    <title lang="ru">100 мест, где поесть</title>
+    <category lang="ru">Шоу</category>
+    <url>https://ctc.ru/projects/show/100-mest-gde-poest/</url>
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903b047f6-1740x978.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903db557c-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903e42b74-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/6329902619e66-200x200.jpeg" width="200" height="200" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/63299024eb84e-125x125.jpeg" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/63299024bd838-60x60.jpeg" width="60" height="60" />
+  </programme>
+  <programme start="20260426020000 +0000" stop="20260426022500 +0000" channel="STS.ru@SD">
+    <title lang="ru">Уральские пельмени</title>
+    <category lang="ru">Шоу</category>
+    <url>https://ctc.ru/projects/show/shou-_uralskikh-pelmeney_/</url>
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/1089/horizontalcover/web/5f2aa1d137f20-1536x864.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/1089/horizontalcover/web/5f2aa1ca5fd54-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/1089/horizontalcover/web/5f2aa1c7eefef-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/1089/squarecover/web/5f2aa1c6be176-200x200.jpeg" width="200" height="200" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/1089/squarecover/web/5f2aa1c627a82-125x125.jpeg" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/1089/squarecover/web/5f2aa1c609c03-60x60.jpeg" width="60" height="60" />
+  </programme>
+  <programme start="20260426022500 +0000" stop="20260425055500 +0000" channel="STS.ru@SD">
+    <title lang="ru">100 мест, где поесть</title>
+    <category lang="ru">Шоу</category>
+    <url>https://ctc.ru/projects/show/100-mest-gde-poest/</url>
+    <rating system="Russia">
+      <value>16+</value>
+    </rating>
+    <image type="backdrop" size="3" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903b047f6-1740x978.jpeg</image>
+    <image type="backdrop" size="2" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903db557c-400x225.jpeg</image>
+    <image type="backdrop" size="1" orient="L">https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/horizontalcover/web/6329903e42b74-150x84.jpeg</image>
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/6329902619e66-200x200.jpeg" width="200" height="200" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/63299024eb84e-125x125.jpeg" width="125" height="125" />
+    <icon src="https://mgf2-static-ssl.ctc.ru/images/ctc-entity-project/17449/squarecover/web/63299024bd838-60x60.jpeg" width="60" height="60" />
+  </programme>
+</tv>

@@ -1,0 +1,1001 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="VirginMediaOne.ie@SD">
+    <display-name>One</display-name>
+    <icon src="https://i.imgur.com/QN0SMt4.png" />
+    <url>https://virginmediatelevision.ie</url>
+  </channel>
+  <channel id="VirginMediaThree.ie@SD">
+    <display-name>Three</display-name>
+    <icon src="https://i.imgur.com/lWkazAS.png" />
+    <url>https://virginmediatelevision.ie</url>
+  </channel>
+  <channel id="VirginMediaTwo.ie@SD">
+    <display-name>Two</display-name>
+    <icon src="https://i.imgur.com/adtqhBy.png" />
+    <url>https://virginmediatelevision.ie</url>
+  </channel>
+  <channel id="VirginMediaFour.ie@SD">
+    <display-name>Four</display-name>
+    <icon src="https://i.imgur.com/x4VsyIm.png" />
+    <url>https://virginmediatelevision.ie</url>
+  </channel>
+  <channel id="VirginMediaMore.ie@SD">
+    <display-name>More</display-name>
+    <icon src="https://i.imgur.com/Fj5wxEv.png" />
+    <url>https://virginmediatelevision.ie</url>
+  </channel>
+  <programme start="20260424005000 +0000" stop="20260424061500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Off Air</title>
+    <desc lang="en">Off Air</desc>
+    <image>/content/player/shows/live_schedule_1685570061_1000000117_517x291.jpg</image>
+  </programme>
+  <programme start="20260424061500 +0000" stop="20260424070500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">The Tonight Show</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Comment and analysis on the big stories of the day in Ireland and abroad with a panel of guests covering the key issues.</desc>
+    <image>/content/player/shows/1294_517x291_1734541176.jpg</image>
+  </programme>
+  <programme start="20260424070500 +0000" stop="20260424075500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">The Royal</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Susie’s quick thinking saves the day when Matron reaches her lowest ebb. Weatherill gets to the bottom of a would-be priest’s problem - but how can she break the bad news?</desc>
+    <image>/content/player/shows/765_517x291_1691844868.jpg</image>
+  </programme>
+  <programme start="20260424075500 +0000" stop="20260424085500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Sport Stories: Paul McGrath</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Paul McGrath played at three major tournaments throughout Ireland’s golden era. He relives a club and international career and his battles on and off the field.</desc>
+    <image>/content/player/shows/2139_517x291_1662739605.jpg</image>
+  </programme>
+  <programme start="20260424085500 +0000" stop="20260424093000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Don't Look Back In Anger</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">In a series of 20 half hours, we chronicle the news and highlights of the last 20 years in this archive and music-based series.</desc>
+    <image>/content/player/shows/1535_517x291_1654786852.jpg</image>
+  </programme>
+  <programme start="20260424093000 +0000" stop="20260424100000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Don't Look Back In Anger</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">In a series of 20 half hours, we chronicle the news and highlights of the last 20 years in this archive and music-based series.</desc>
+    <image>/content/player/shows/1535_517x291_1654786852.jpg</image>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424110000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Cash Trapped</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Bradley Walsh presents the big money quiz based on his own idea which features six players who cannot leave the contest until somebody wins....</desc>
+    <image>/content/player/shows/generic_channel_four.jpg</image>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424120000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Sport Stories: Kenneth Egan</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">From Clondalkin to Beijing. Olympic silver medallist Kenny Egan’s journey to the top of the amateur boxing world and his hidden struggles with addiction</desc>
+    <image>/content/player/shows/2124_517x291_1713612223.jpg</image>
+  </programme>
+  <programme start="20260424120000 +0000" stop="20260424123000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Paul O'Grady: For the Love of Dogs</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">With exclusive access, Paul O’Grady follows the ups and downs of life at Battersea Dogs and Cats Home as its dedicated staff care for our four-legged friends in need.</desc>
+    <image>/content/player/shows/499_517x291_1660903672.jpg</image>
+  </programme>
+  <programme start="20260424123000 +0000" stop="20260424130000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Paul O'Grady: For the Love of Dogs</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">With exclusive access, Paul O’Grady follows the ups and downs of life at Battersea Dogs and Cats Home as its dedicated staff care for our four-legged friends in need.</desc>
+    <image>/content/player/shows/499_517x291_1660903672.jpg</image>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424135500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">The Six O'Clock Show</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A lively mix of celebrity chat with national and international guests, fabulous food from the country’s top Chefs, expert advice and all the unmissable stories making the headlines</desc>
+    <image>/content/player/shows/723_517x291_1701431859.jpg</image>
+  </programme>
+  <programme start="20260424135500 +0000" stop="20260424145500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Unbeatable</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Jason Manford hosts the general knowledge quiz show in which the four contestants can always give an answer - but can they give an unbeatable answer?</desc>
+    <image>/content/player/shows/generic_channel_four.jpg</image>
+  </programme>
+  <programme start="20260424145500 +0000" stop="20260424155500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Dress To Impress</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Three fashionistas compete with each other in a shopping spree to win the ultimate prize of going on a blind date with a fashion savvy singleton.</desc>
+    <image>/content/player/shows/1282_517x291_1654783237.jpg</image>
+  </programme>
+  <programme start="20260424155500 +0000" stop="20260424165500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Dress To Impress</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Three fashionistas compete with each other in a shopping spree to win the ultimate prize of going on a blind date with a fashion savvy singleton.</desc>
+    <image>/content/player/shows/1282_517x291_1654783237.jpg</image>
+  </programme>
+  <programme start="20260424165500 +0000" stop="20260424175500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Cash Trapped</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Bradley Walsh presents the big money quiz based on his own idea which features six players who cannot leave the contest until somebody wins....</desc>
+    <image>/content/player/shows/generic_channel_four.jpg</image>
+  </programme>
+  <programme start="20260424175500 +0000" stop="20260424190000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">River Monsters</title>
+    <desc lang="en">Jeremy Wade investigates a case in Nepal that sounds strangely familiar - a lone fisherman dragged off his feet and into a mountain river by an unseen creature.</desc>
+    <image>/content/player/shows/1225_517x291_1691409315.jpg</image>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424200000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">The Chase</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Huge global hit game show The Chase is the ultimate heart-racing, high-pressure quiz.</desc>
+    <image>/content/player/shows/480_517x291_1660903086.jpg</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424203000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Judge Judy</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A man rescues his disabled mother while her daughter reportedly refuses to repay a loan; a man proud of his educated daughter is sued after her wages are garnished for his mistake.</desc>
+    <image>/content/player/shows/727_517x291_1775731321.jpg</image>
+  </programme>
+  <programme start="20260424203000 +0000" stop="20260424212500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Long Lost Family: What Happened Next</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Davina McCall and Nicky Campbell revisit the families they have help reunite and discover what happened after their emotional reunion.</desc>
+    <image>/content/player/shows/generic_channel_four.jpg</image>
+  </programme>
+  <programme start="20260424212500 +0000" stop="20260424223000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Love Island</title>
+    <desc lang="en">Love Island UK returns for a twelfth series, offering the ultimate summer of fun, romance and drama.</desc>
+    <image>/content/player/shows/2865_517x291_1749481030.jpg</image>
+  </programme>
+  <programme start="20260424223000 +0000" stop="20260425002000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">This Morning</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A mix of celebrity interviews, entertainment news, current affairs discussions, a look at sports competitions, health columns, cooking tips and tricks, and more.</desc>
+    <image>/content/player/shows/1086_517x291_1684854727.jpg</image>
+  </programme>
+  <programme start="20260424223000 +0000" stop="20260425005000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">This Morning</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A mix of celebrity interviews, entertainment news, current affairs discussions, a look at sports competitions, health columns, cooking tips and tricks, and more.</desc>
+    <image>/content/player/shows/1086_517x291_1684854727.jpg</image>
+  </programme>
+  <programme start="20260425005000 +0000" stop="20260425061500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Off Air</title>
+    <desc lang="en">Off Air</desc>
+    <image>/content/player/shows/live_schedule_1685570061_1000000117_517x291.jpg</image>
+  </programme>
+  <programme start="20260425061500 +0000" stop="20260425070500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Sport Stories: Mick McCarthy Part One</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">One of the most prominent figures in Irish football history, Mick McCarthy sits down with Tommy Martin for an in-depth, honest conversation.</desc>
+    <image>/content/player/shows/2272_517x291_1660571786.jpg</image>
+  </programme>
+  <programme start="20260425070500 +0000" stop="20260425075500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Sport Stories</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">The former Republic of Ireland midfielder talks about his life in professional football and his battles with addiction.</desc>
+    <image>/content/player/shows/2791_517x291_1734892116.jpg</image>
+  </programme>
+  <programme start="20260425075500 +0000" stop="20260425085500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">The Finish Line</title>
+    <desc lang="en">On your marks, get set, quiz! Hosted by Roman Kemp and Sarah Greene, and based on the nostalgic horse-racing fairground game, five players battle it out on an iconic racetrack set.</desc>
+    <image>/content/player/shows/2822_517x291_1740405732.jpg</image>
+  </programme>
+  <programme start="20260425085500 +0000" stop="20260425095500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Impossible Engineering</title>
+    <desc lang="en">From the planet's most stunning state-of-the-art structures to its mightiest modern machines, none would have been possible without engineering's greatest pioneers.</desc>
+    <image>/content/player/shows/generic_channel_four.jpg</image>
+  </programme>
+  <programme start="20260425095500 +0000" stop="20260425102500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Paul O'Grady: For the Love of Dogs</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">With exclusive access, Paul O’Grady follows the ups and downs of life at Battersea Dogs and Cats Home as its dedicated staff care for our four-legged friends in need.</desc>
+    <image>/content/player/shows/499_517x291_1660903672.jpg</image>
+  </programme>
+  <programme start="20260425102500 +0000" stop="20260425105500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Paul O'Grady: For the Love of Dogs</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">With exclusive access, Paul O’Grady follows the ups and downs of life at Battersea Dogs and Cats Home as its dedicated staff care for our four-legged friends in need.</desc>
+    <image>/content/player/shows/499_517x291_1660903672.jpg</image>
+  </programme>
+  <programme start="20260425105500 +0000" stop="20260425120000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">The Royal</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A routine visit turns into a nightmare for Dr Jill Weatherill when she gets taken hostage by an ex-prisoner of war, Patrick Maver.</desc>
+    <image>/content/player/shows/765_517x291_1691844868.jpg</image>
+  </programme>
+  <programme start="20260425120000 +0000" stop="20260425130000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">The Royal</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">When a young girl falls from a cliff Dr Jill Weatherill finds herself involved in a dramatic air rescue. The girl is trapped on a ledge and bleeding heavily, so time is of essence</desc>
+    <image>/content/player/shows/765_517x291_1691844868.jpg</image>
+  </programme>
+  <programme start="20260425130000 +0000" stop="20260425140500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Sport Stories: Philly McMahon</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Eight time All Ireland winner Philly McMahon talks us through his journey of self-sacrifice, sense of identity, personal tragedy and an insatiable desire for success.</desc>
+    <image>/content/player/shows/2410_517x291_1672339273.jpg</image>
+  </programme>
+  <programme start="20260425140500 +0000" stop="20260425143500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Ed Finn's America</title>
+    <desc lang="en">Ed kicks off his adventure in Cleveland, Ohio. He visits the iconic Rock and Roll Hall of Fame and explores Playhouse Square, revealing a vibrant city filled with surprises.</desc>
+    <image>/content/player/shows/2763_517x291_1732196809.jpg</image>
+  </programme>
+  <programme start="20260425143500 +0000" stop="20260425150500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Ed Finn's America</title>
+    <desc lang="en">Ed visits Columbus, Ohio’s state capital, and discovers the home of soccer in America. Ed uncovers why Columbus is a hidden gem in the Midwest.</desc>
+    <image>/content/player/shows/2763_517x291_1732196809.jpg</image>
+  </programme>
+  <programme start="20260425150500 +0000" stop="20260425160500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Good Witch</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">The Good Witch meets her match when Cassie’s long-lost college roommate, makes an unexpected visit to Grey House on a mission to disrupt Middleton’s Halloween festivities.</desc>
+    <image>/content/player/shows/1802_517x291_1722247297.jpg</image>
+  </programme>
+  <programme start="20260425160500 +0000" stop="20260425165500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Good Witch</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">The Good Witch meets her match when Cassie’s long-lost college roommate, makes an unexpected visit to Grey House on a mission to disrupt Middleton’s Halloween festivities.</desc>
+    <image>/content/player/shows/1802_517x291_1722247297.jpg</image>
+  </programme>
+  <programme start="20260425165500 +0000" stop="20260425180000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Sport Stories: Paul McGrath</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">One of Ireland’s greatest ever footballers opens up in a powerful in-depth interview about his life and a career from St. Pat’s to Man United, racism and Jack Charlton.</desc>
+    <image>/content/player/shows/2139_517x291_1662739605.jpg</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425183000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Paul O'Grady: For the Love of Indian Dogs</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">In this series, Paul O'Grady travels to India to help some of the 400,000 dogs living on the streets of Delhi.</desc>
+    <image>/content/player/shows/1645_517x291_1680292264.jpg</image>
+  </programme>
+  <programme start="20260425183000 +0000" stop="20260425190000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Paul O'Grady: For the Love of Indian Dogs</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">In this series, Paul O'Grady travels to India to help some of the 400,000 dogs living on the streets of Delhi.</desc>
+    <image>/content/player/shows/1645_517x291_1680292264.jpg</image>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260425200000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">A Year on Planet Earth</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Awe-inspiring, ambitious, and with an innovative, interlinked story arc that marks a first in natural history programming, this landmark series, narrated by Stephen Fry.</desc>
+    <image>/content/player/shows/2399_517x291_1671794403.jpg</image>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425210000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Fanning at Whelan's</title>
+    <desc lang="en">KhakiKid, The Waterboys, Waylon Wyatt, Darren Kiely, Aimee Carty, and Theatre join Dave Fanning for live performances and chat from Dublin’s iconic venue, Whelan’s.</desc>
+    <image>/content/player/shows/1985_517x291_1669803304.jpg</image>
+  </programme>
+  <programme start="20260425210000 +0000" stop="20260425215500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Million Dollar Listing LA</title>
+    <desc lang="en">With all three agents working at the same agency for the first time, collaboration is inevitable, but so is the intense competition.</desc>
+    <image>/content/player/shows/2777_517x291_1733929021.jpg</image>
+  </programme>
+  <programme start="20260425215500 +0000" stop="20260425230500 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">Love Island</title>
+    <desc lang="en">Love Island UK returns for a twelfth series, offering the ultimate summer of fun, romance and drama.</desc>
+    <image>/content/player/shows/2865_517x291_1749481030.jpg</image>
+  </programme>
+  <programme start="20260425223000 +0000" stop="20260426002000 +0000" channel="VirginMediaFour.ie@SD">
+    <title lang="en">This Morning</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A mix of celebrity interviews, entertainment news, current affairs discussions, a look at sports competitions, health columns, cooking tips and tricks, and more.</desc>
+    <image>/content/player/shows/1086_517x291_1684854727.jpg</image>
+  </programme>
+  <programme start="20260423232100 +0000" stop="20260424002000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Out There</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Nathan (Martin Clunes) is fighting back against the dark urban menace making their way into his community. Sometimes the familiar world can become a dangerous place.</desc>
+    <image>/content/player/shows/2804_517x291_1737134075.jpg</image>
+  </programme>
+  <programme start="20260424002000 +0000" stop="20260424013600 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">The Mystery of the Lady in the Lake</title>
+    <desc lang="en">When 26-year-old Shani Warren's bound and gagged body was found drowned in a lake in 1987, the case was front-page news.</desc>
+    <image>/content/player/shows/2886_517x291_1756219996.jpg</image>
+  </programme>
+  <programme start="20260424013600 +0000" stop="20260424051400 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Off Air</title>
+    <desc lang="en">Off Air</desc>
+    <image>/content/player/shows/live_schedule_1685570061_1000000117_517x291.jpg</image>
+  </programme>
+  <programme start="20260424051500 +0000" stop="20260424060000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">The Six O'Clock Show</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A lively mix of celebrity chat with national and international guests, fabulous food from the country’s top Chefs, expert advice and all the unmissable stories making the headlines</desc>
+    <image>/content/player/shows/723_517x291_1701431859.jpg</image>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424090000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Ireland AM</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Ireland AM is the longest running daytime show in Ireland. Blending a mixture of lifestyle interviews and news content, with gardening, health, food and fashion seven days a week.</desc>
+    <image>/content/player/shows/809_517x291_1656946218.jpg</image>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424113000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">This Morning</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A mix of celebrity interviews, entertainment news, current affairs discussions, a look at sports competitions, health columns, cooking tips and tricks, and more.</desc>
+    <image>/content/player/shows/1086_517x291_1684854727.jpg</image>
+  </programme>
+  <programme start="20260424113000 +0000" stop="20260424120000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">News at 12:30</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">The latest national and international news stories from the Virgin Media News team, followed by sport and weather.</desc>
+    <image>/content/player/shows/633_517x291_1535617774.jpg</image>
+  </programme>
+  <programme start="20260424120000 +0000" stop="20260424123000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Tom Kerridge Cooks Spain</title>
+    <desc lang="en">Tom Kerridge hits the road in his 1950s food truck to discover what it takes to produce the food on our plate and to cook with the British ingredients he finds along the way.</desc>
+    <image>/content/player/shows/2990_517x291_1776878223.jpg</image>
+  </programme>
+  <programme start="20260424123000 +0000" stop="20260424150000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Horse Racing 2026 Live: Sandown Park - Jumps Finale Day 1</title>
+    <desc lang="en">Day 1 of the Sandown Jumps Finale brings top‑class hurdles and chases as stars of the season compete for final honours.</desc>
+    <image>/content/player/shows/generic_tv3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424160000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Help me Buy a Home</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Artist Alison revives a derelict home, Denise &amp; Nicholas want city living, and Michael Fry asks: can a clown ever get a mortgage?</desc>
+    <image>/content/player/shows/2469_517x291_1682261429.jpg</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424163000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Judge Judy</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A woman in a wheelchair is hit by an uninsured vehicle and sustains severe road rash; the judge shows little interest in two men arguing over $13,500 worth of luxury suites.</desc>
+    <image>/content/player/shows/727_517x291_1775731321.jpg</image>
+  </programme>
+  <programme start="20260424163000 +0000" stop="20260424170500 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">News at 5:30</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">The latest national and international news stories from the Virgin Media News team.</desc>
+    <image>/content/player/shows/1513_517x291_1535633769.jpg</image>
+  </programme>
+  <programme start="20260424170500 +0000" stop="20260424180000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">The Six O'Clock Show</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A lively mix of celebrity chat with national and international guests, fabulous food from the country’s top Chefs, expert advice and all the unmissable stories making the headlines</desc>
+    <image>/content/player/shows/723_517x291_1701431859.jpg</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424183100 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">News at 7</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">The latest national and international news stories from the Virgin Media News team</desc>
+    <image>/content/player/shows/2236_517x291_1654779207.jpg</image>
+  </programme>
+  <programme start="20260424183100 +0000" stop="20260424200000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">I'm A Celebrity... Get Me Out Of Here! South Africa</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Ant and Dec assemble iconic ex-campmates to battle it out in brutal trials under the scorching African sun. In a show where legends are made, who will get a second chance at glory?</desc>
+    <image>/content/player/shows/generic_tv3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424210000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">The Neighbourhood</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Six households live side by side, competing in a high-stakes reality game for a cash prize.</desc>
+    <image>/content/player/shows/2991_517x291_1776949346.jpg</image>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424213000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">I'm A Celebrity... Get Me Out Of Here! South Africa</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Ant and Dec assemble iconic ex-campmates to battle it out in brutal trials under the scorching African sun. In a show where legends are made, who will get a second chance at glory?</desc>
+    <image>/content/player/shows/generic_tv3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424213000 +0000" stop="20260424223500 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">I’m a Celebrity…Get Me Out of Here! Unpacked South Africa</title>
+    <desc lang="en">Kemi Rodgers, and former King of the Jungle Sam Thompson dissect and discuss everything happening in the I’m a Celebrity South Africa Camp.</desc>
+    <image>/content/player/shows/generic_tv3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424222000 +0000" stop="20260424224100 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">The Suspect</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Joe is knocked sideways when an old grudge rears its head. With the net closing in, he flees to his Dad’s house for sanctuary. Trying to plan his next move, Joe is blindsided.</desc>
+    <image>/content/player/shows/2369_517x291_1670252074.jpg</image>
+  </programme>
+  <programme start="20260424223500 +0000" stop="20260424233500 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Romesh Ranganathan's Parents Evening</title>
+    <desc lang="en">It's the star-studded primetime game show where contestants’ fortunes lie in the hands of those supposed to know them best… their parents!</desc>
+    <image>/content/player/shows/2776_517x291_1733926085.jpg</image>
+  </programme>
+  <programme start="20260424233500 +0000" stop="20260425003500 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Gogglebox Ireland</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Back for a 10th series, join our Irish telly fanatics from around the country as they watch, dissect and offer plenty of opinions about the best telly moments from the past week.</desc>
+    <image>/content/player/shows/1025_517x291_1659531815.jpg</image>
+  </programme>
+  <programme start="20260425003500 +0000" stop="20260425012300 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">The Hotel Inspector</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">In this latest season, renowned host and hotelier Alex Polizzi's credible business advice is once again delivered with her tradesmark no-nonsense approach and natural charm.</desc>
+    <image>/content/player/shows/42_517x291_1654785688.jpg</image>
+  </programme>
+  <programme start="20260425012300 +0000" stop="20260425054400 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Off Air</title>
+    <desc lang="en">Off Air</desc>
+    <image>/content/player/shows/live_schedule_1685570061_1000000117_517x291.jpg</image>
+  </programme>
+  <programme start="20260425054500 +0000" stop="20260425063500 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Impossible Engineering</title>
+    <desc lang="en">From the planet's most stunning state-of-the-art structures to its mightiest modern machines, none would have been possible without engineering's greatest pioneers.</desc>
+    <image>/content/player/shows/generic_tv3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425063500 +0000" stop="20260425071000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Mountain Vets</title>
+    <desc lang="en">Documentary series following the busy mountain vets at the ancient Kingdom of Mourne</desc>
+    <image>/content/player/shows/generic_tv3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425071000 +0000" stop="20260425080000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">This Time Next Year</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Davina McCall hosts the series featuring ordinary people on a mission to transform their lives in extraordinary ways over the course of 12 months.</desc>
+    <image>/content/player/shows/generic_tv3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425110000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Ireland AM</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Ireland AM is the longest running daytime show in Ireland. Blending a mixture of lifestyle interviews and news content, with gardening, health, food and fashion seven days a week.</desc>
+    <image>/content/player/shows/809_517x291_1656946218.jpg</image>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425121500 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Celebrity Sabotage</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Hidden celebs, rigged games, zero rules, this reality show plays dirty for big rewards.</desc>
+    <image>/content/player/shows/2976_517x291_1774040362.jpg</image>
+  </programme>
+  <programme start="20260425121500 +0000" stop="20260425150000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Horse Racing 2026 Live: Sandown Park - Jumps Finale Day 2</title>
+    <desc lang="en">The Sandown Jumps Finale concludes with premier races and standout jumpers battling for prestige on a thrilling final day.</desc>
+    <image>/content/player/shows/generic_tv3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425150000 +0000" stop="20260425160000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Celebrity Catchphrase</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A fast, fun quiz show where celebrities race to name catchphrases from clever animations, by buzzing in quickly and saying what they see to win cash for charity.</desc>
+    <image>/content/player/shows/1870_517x291_1657393862.jpg</image>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425163000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Week In Review</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Week In Review looks back at the main local, national and international stories of the week.</desc>
+    <image>/content/player/shows/2972_517x291_1773436490.jpg</image>
+  </programme>
+  <programme start="20260425163000 +0000" stop="20260425170000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">News at 5:30</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">The latest national and international news stories from the Virgin Media News team.</desc>
+    <image>/content/player/shows/1513_517x291_1535633769.jpg</image>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425180000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Deal or No Deal</title>
+    <desc lang="en">Will today’s player ‘Deal’ with the banker or withstand the banker’s offers saying ‘No Deal’ as they go in search for the red box containing £100,000?</desc>
+    <image>/content/player/shows/222_517x291_1764851028.jpg</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425200000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Britain's Got Talent</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Hosted by Ant and Dec, Britain’s Got Talent is back for its 19th series with even more spectacular performances than previous years, continuing its accolade-winning run.</desc>
+    <image>/content/player/shows/129_517x291_1681298727.jpg</image>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425210500 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">The Neighbourhood</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Six households live side by side, competing in a high-stakes reality game for a cash prize.</desc>
+    <image>/content/player/shows/2991_517x291_1776949346.jpg</image>
+  </programme>
+  <programme start="20260425210500 +0000" stop="20260425220500 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">The Claudia Winkleman Show</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Claudia revisits series highlights, featuring her studio audience and sofa stars including Lisa Kudrow, Jennifer Saunders, Niall Horan, Jeff Goldblum, James McAvoy and many more.</desc>
+    <image>/content/player/shows/2971_517x291_1773337803.jpg</image>
+  </programme>
+  <programme start="20260425220500 +0000" stop="20260425230500 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Who Wants To Be A Millionaire?</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Jeremy Clarkson hosts the ultimate test of concentration, strategic thinking, and emotional endurance as contestants compete for a top prize of £1,000,000.</desc>
+    <image>/content/player/shows/2015_517x291_1663763924.jpg</image>
+  </programme>
+  <programme start="20260425223500 +0000" stop="20260425231000 +0000" channel="VirginMediaOne.ie@SD">
+    <title lang="en">Romesh Ranganathan's Parents Evening</title>
+    <desc lang="en">It's the star-studded primetime game show where contestants’ fortunes lie in the hands of those supposed to know them best… their parents!</desc>
+    <image>/content/player/shows/2776_517x291_1733926085.jpg</image>
+  </programme>
+  <programme start="20260423230500 +0000" stop="20260424002000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Four Lives</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Four Lives sheds light on the crimes of Stephen Port who murdered four young gay men in London, focusing on their loved one’s tireless efforts to uncover the truth of what happened</desc>
+    <image>/content/player/shows/2371_517x291_1675419341.jpg</image>
+  </programme>
+  <programme start="20260424002000 +0000" stop="20260424015900 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">McDonald and Dodds</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A tough, driven cop, McDonald cracks cases through sheer force of will. When she’s partnered with the quiet and unassuming veteran sergeant Dodds the pair instantly lock horns.</desc>
+    <image>/content/player/shows/generic_be3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424015900 +0000" stop="20260424060400 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Off Air</title>
+    <desc lang="en">Off Air</desc>
+    <image>/content/player/shows/live_schedule_1685570061_1000000117_517x291.jpg</image>
+  </programme>
+  <programme start="20260424060500 +0000" stop="20260424065500 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Heartbeat</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Joe and Carol work together on a case involving a young ballet dancer, following her collapse in the village, David writes for the local newspaper as an agony uncle.</desc>
+    <image>/content/player/shows/1272_517x291_1654778743.jpg</image>
+  </programme>
+  <programme start="20260424065500 +0000" stop="20260424075000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Poirot</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">An enchanting beauty is fatally poisoned while Poirot holidays on the Greek island of Rhodes.</desc>
+    <image>/content/player/shows/1144_517x291_1671024328.jpg</image>
+  </programme>
+  <programme start="20260424075000 +0000" stop="20260424085000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Building Giants</title>
+    <desc lang="en">From a record-breaking skyscraper to one of the world's most ambitious mega roads, we see the extraordinary innovations that enable engineers to build these remarkable structures.</desc>
+    <image>/content/player/shows/2516_517x291_1688661182.jpg</image>
+  </programme>
+  <programme start="20260424085000 +0000" stop="20260424094500 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">John &amp; Lisa's Weekend Kitchen</title>
+    <desc lang="en">John Torode and Lisa Faulkner invite us into their kitchen for a morning of feel good food. Brimming with recipes, shortcuts, inspiration and tips from top chef John and cook Lisa.</desc>
+    <image>/content/player/shows/1842_517x291_1660903962.jpg</image>
+  </programme>
+  <programme start="20260424094500 +0000" stop="20260424102000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">My Unique B&amp;B</title>
+    <desc lang="en">All around the country lie unique spaces, in beautiful places: campervans; sheds, attics; caravans even horseboxes! They are unloved and unused... until now!</desc>
+    <image>/content/player/shows/2729_517x291_1727211096.jpg</image>
+  </programme>
+  <programme start="20260424102000 +0000" stop="20260424114000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Hospital</title>
+    <desc lang="en">Packed with real-life drama, Hospital reveals the extraordinary dilemmas faced by NHS staff, all of which have profound consequences for those in their care.</desc>
+    <image>/content/player/shows/1795_517x291_1711809550.jpg</image>
+  </programme>
+  <programme start="20260424114000 +0000" stop="20260424124500 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Heartbeat</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">When a man dies falling off his horse at a hunt it appears he fell off drunk, but the pathologist finds high doses of sleeping pills in his bloodstream.</desc>
+    <image>/content/player/shows/1272_517x291_1654778743.jpg</image>
+  </programme>
+  <programme start="20260424124500 +0000" stop="20260424135000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">This Time Next Year</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Davina McCall hosts the series featuring ordinary people on a mission to transform their lives in extraordinary ways over the course of 12 months.</desc>
+    <image>/content/player/shows/generic_be3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424135000 +0000" stop="20260424145000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">The Hotel Inspector</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Hotel Inspector Alex Polizzi sets out on a mission to transform the fortunes of hotels and guest houses.</desc>
+    <image>/content/player/shows/42_517x291_1654785688.jpg</image>
+  </programme>
+  <programme start="20260424145000 +0000" stop="20260424152000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Don't Look Back In Anger 2024</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">This latest addition to the Don't Look Back In Anger series chronicles the highs and lows of 2024 and all the chaos in between.</desc>
+    <image>/content/player/shows/generic_be3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424152000 +0000" stop="20260424155000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Don't Look Back In Anger 2025</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">This latest addition to the Don't Look Back In Anger series chronicles the highs and lows of 2025 and all the chaos in between.</desc>
+    <image>/content/player/shows/generic_be3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424155000 +0000" stop="20260424165000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">The Royal</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Lizzie’s housewarming do brings a few members of staff closer together. But Matron finds the new porter, Eric Fogle, is getting a bit too close for comfort.</desc>
+    <image>/content/player/shows/765_517x291_1691844868.jpg</image>
+  </programme>
+  <programme start="20260424165000 +0000" stop="20260424185500 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">A Touch of Frost</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Detective Jack Frost unravels crimes and finds the perpetrators. Based on the novels by R.D. Wingfield, Frost is always on edge with his superiors.</desc>
+    <image>/content/player/shows/1468_517x291_1654791696.jpg</image>
+  </programme>
+  <programme start="20260424185500 +0000" stop="20260424200000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Heartbeat</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Trouble arrives in Aidensfield as a Russian ship docks in Whitby and a crew member believes he has killed one of his colleagues. Meanwhile two children go missing.</desc>
+    <image>/content/player/shows/1272_517x291_1654778743.jpg</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424211500 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Vigil</title>
+    <desc lang="en">Following the stabbing of an officer on the base, Eliza warns Amy to get control of her investigation; Amy must find the traitor in the ranks of the Air Force.</desc>
+    <image>/content/player/shows/2349_517x291_1775733748.jpg</image>
+  </programme>
+  <programme start="20260424211500 +0000" stop="20260424221500 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Prime Suspect 1973</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Stefanie Martini, Sam Reid, Blake Harrison and Alun Armstrong star in the much-anticipated prequel to Prime Suspect.</desc>
+    <image>/content/player/shows/1139_517x291_1714562845.jpg</image>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424220500 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Spies of Terror</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Based on the book by Matthieu Suc, this tense thriller plunges viewers into the heart of the French secret services as the country faces an unprecedented terrorist campaign.</desc>
+    <image>/content/player/shows/2917_517x291_1764161609.jpg</image>
+  </programme>
+  <programme start="20260424221500 +0000" stop="20260424231500 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">The Widower</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">After two failed attempts on Felicity's life, Malcolm returns to Scotland; and and reinvents himself - this time as a perfect boyfriend to Simone.</desc>
+    <image>/content/player/shows/1470_517x291_1709653211.jpg</image>
+  </programme>
+  <programme start="20260424231500 +0000" stop="20260425001500 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">The Real Anne Williams: One Mother's Fight for Justice</title>
+    <desc lang="en">Maxine Peake looks at the remarkable battle of Merseyside mum and campaigner Anne Williams, who lost her son Kevin at Hillsborough, Britain's worst sporting disaster.</desc>
+    <image>/content/player/shows/2960_517x291_1770817743.jpg</image>
+  </programme>
+  <programme start="20260425001500 +0000" stop="20260425020000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">McDonald and Dodds</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A tough, driven cop, McDonald cracks cases through sheer force of will. When she’s partnered with the quiet and unassuming veteran sergeant Dodds the pair instantly lock horns.</desc>
+    <image>/content/player/shows/generic_be3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425020000 +0000" stop="20260425062000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Off Air</title>
+    <desc lang="en">Off Air</desc>
+    <image>/content/player/shows/live_schedule_1685570061_1000000117_517x291.jpg</image>
+  </programme>
+  <programme start="20260425062000 +0000" stop="20260425071000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Heartbeat</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">PC Walker uncovers a horse rustlinf racket after a young girl is injured in a riding accident. Helen decides a relationship with Rob could be a minefield.</desc>
+    <image>/content/player/shows/1272_517x291_1654778743.jpg</image>
+  </programme>
+  <programme start="20260425071000 +0000" stop="20260425080000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Heartbeat</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Lord Ashfordly is under investigation for child labour following a shooting accident at the Hall. Bellamy soon discovers that the new estate manager is not all he seems.</desc>
+    <image>/content/player/shows/1272_517x291_1654778743.jpg</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425090000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Heartbeat</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Members of the local constabulary patrol the town of Ashfordly and the nearby village of Aidensfield in the North Riding of Yorkshire.</desc>
+    <image>/content/player/shows/1272_517x291_1654778743.jpg</image>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425100500 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Poirot</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Hercule Poirot, a famous Belgian detective, who has an impeccable knack for getting embroiled in a mystery, solves crimes along with Captain Hastings and Chief Inspector James Japp</desc>
+    <image>/content/player/shows/1144_517x291_1671024328.jpg</image>
+  </programme>
+  <programme start="20260425100500 +0000" stop="20260425111000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Poirot</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Hercule Poirot, a famous Belgian detective, who has an impeccable knack for getting embroiled in a mystery, solves crimes along with Captain Hastings and Chief Inspector James Japp</desc>
+    <image>/content/player/shows/1144_517x291_1671024328.jpg</image>
+  </programme>
+  <programme start="20260425111000 +0000" stop="20260425114000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Emmerdale</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Ross tries to help Jacob. Moira’s plan for the day backfires. Paddy worries for Bear.</desc>
+    <image>/content/player/shows/1057_517x291_1654778064.jpg</image>
+  </programme>
+  <programme start="20260425114000 +0000" stop="20260425121000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Emmerdale</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">It’s the baby shower, but Charity and Jacob fail to make it. Charity goes into labour. Jacob has a secret meeting.</desc>
+    <image>/content/player/shows/1057_517x291_1654778064.jpg</image>
+  </programme>
+  <programme start="20260425121000 +0000" stop="20260425124000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Emmerdale</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Charity is in labour, trapped in a lift. Mark and Ross do their best. The villagers await news from the hospital.</desc>
+    <image>/content/player/shows/1057_517x291_1654778064.jpg</image>
+  </programme>
+  <programme start="20260425124000 +0000" stop="20260425131000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Emmerdale</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Charity’s at risk despite giving birth successfully. Sarah and Jacob meet their baby. Doctor Todd learns a secret.</desc>
+    <image>/content/player/shows/1057_517x291_1654778064.jpg</image>
+  </programme>
+  <programme start="20260425131000 +0000" stop="20260425134000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Emmerdale</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Todd looms large. Dylan has a plan. Robert is guilty about Moira’s situation.</desc>
+    <image>/content/player/shows/1057_517x291_1654778064.jpg</image>
+  </programme>
+  <programme start="20260425134000 +0000" stop="20260425141000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Paul O'Grady: For the Love of Dogs</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">With exclusive access, Paul O’Grady follows the ups and downs of life at Battersea Dogs and Cats Home as its dedicated staff care for our four-legged friends in need.</desc>
+    <image>/content/player/shows/499_517x291_1660903672.jpg</image>
+  </programme>
+  <programme start="20260425141000 +0000" stop="20260425161000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Endeavour</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">As campaigning for the 1970 general election gets underway in Oxford, racial tensions escalate in the city and a clash between two young rival gangs results in tragedy.</desc>
+    <image>/content/player/shows/1122_517x291_1664376685.jpg</image>
+  </programme>
+  <programme start="20260425161000 +0000" stop="20260425165000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Marcus Wareing: Tales from a Kitchen Garden</title>
+    <desc lang="en">This series follows Marcus - chef extraordinaire and successful restaurateur - as he follows his dream of living, and cooking, in the English countryside.</desc>
+    <image>/content/player/shows/2821_517x291_1740057822.jpg</image>
+  </programme>
+  <programme start="20260425165000 +0000" stop="20260425175000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Hotel Benidorm</title>
+    <desc lang="en">Hotel Benidorm will take the viewers not only to one of the meds favourite towns, Benidorm, but also behind the scenes in one of the resort's most popular hotels.</desc>
+    <image>/content/player/shows/generic_be3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425175000 +0000" stop="20260425190000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Puppy Secrets - The First Six Months</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Everyone loves puppies. They are cute, cuddly, and clumsy – a joy to watch, and even more of a joy to have in the home.</desc>
+    <image>/content/player/shows/1174_517x291_1730200637.jpg</image>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260425200000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">The Hotel Inspector</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Renowned hotelier and author Ruth Watson is The Hotel Inspector, and she's looking to whip Britain's struggling bed-and-breakfast owners and hoteliers into shape.</desc>
+    <image>/content/player/shows/42_517x291_1654785688.jpg</image>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425220000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Grace</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Grace is caught in a frantic race to save lives at a football stadium.</desc>
+    <image>/content/player/shows/2095_517x291_1667908545.jpg</image>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260426000000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">Best Men</title>
+    <desc lang="en">Four best men pick up their friend, the groom, outside prison. On the way to the chapel, they stop at a bank and get involved in a robbery.</desc>
+    <image>/content/player/shows/generic_be3_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425221500 +0000" stop="20260425223000 +0000" channel="VirginMediaThree.ie@SD">
+    <title lang="en">The Widower</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">After two failed attempts on Felicity's life, Malcolm returns to Scotland; and and reinvents himself - this time as a perfect boyfriend to Simone.</desc>
+    <image>/content/player/shows/1470_517x291_1709653211.jpg</image>
+  </programme>
+  <programme start="20260423234500 +0000" stop="20260424003500 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Judge Rinder Crime Stories</title>
+    <desc lang="en">Judge Rinder rules the courtroom in his hit series, but now the respected barrister with a criminal defence background steps out from behind the bench to take on real cases.</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424003500 +0000" stop="20260424010500 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">C*A*U*G*H*T</title>
+    <desc lang="en">The boys must raise the stakes and deliver Director Bustard exactly what he wants. Notoriety on a world scale - exactly what mercenary 'The Dingo' is sent in to nip in the bud.</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424010500 +0000" stop="20260424014000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">C*A*U*G*H*T</title>
+    <desc lang="en">When Phil takes a bullet where it hurts, Rowdy must suck up all his courage to help get it out.</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424014000 +0000" stop="20260424060000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Off Air</title>
+    <desc lang="en">Off Air</desc>
+    <image>/content/player/shows/live_schedule_1685570061_1000000117_517x291.jpg</image>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424070000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Unbeatable</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Jason Manford hosts the general knowledge quiz show in which the four contestants can always give an answer - but can they give an unbeatable answer?</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Tipping Point</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Three players are pit against a mesmerising machine. There are mystery prizes and a jaw-dropping jackpot up for grabs for any player.</desc>
+    <image>/content/player/shows/561_517x291_1743180937.jpg</image>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424090000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">The Chase</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Huge global hit game show The Chase is the ultimate heart-racing, high-pressure quiz.</desc>
+    <image>/content/player/shows/480_517x291_1660903086.jpg</image>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424100000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">The Chase</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Huge global hit game show The Chase is the ultimate heart-racing, high-pressure quiz.</desc>
+    <image>/content/player/shows/480_517x291_1660903086.jpg</image>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424103000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">In For A Penny</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Stephen Mulhern presents the pop-up game show based on the original `Saturday Night Takeaway' feature. Our host takes their unique brand of games and quizzes to the streets.</desc>
+    <image>/content/player/shows/1655_517x291_1654784959.jpg</image>
+  </programme>
+  <programme start="20260424103000 +0000" stop="20260424110000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">In For A Penny</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Stephen Mulhern presents the pop-up game show based on the original `Saturday Night Takeaway' feature. Our host takes their unique brand of games and quizzes to the streets.</desc>
+    <image>/content/player/shows/1655_517x291_1654784959.jpg</image>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424120000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Unbeatable</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Jason Manford hosts the general knowledge quiz show in which the four contestants can always give an answer - but can they give an unbeatable answer?</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424120000 +0000" stop="20260424130000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Dress To Impress</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Three fashionistas compete with each other in a shopping spree to win the ultimate prize of going on a blind date with a fashion savvy singleton.</desc>
+    <image>/content/player/shows/1282_517x291_1654783237.jpg</image>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424140000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Storage Hoarders</title>
+    <desc lang="en">It's time to say goodbye to the things with no value and turn forgotten collectibles into hard cash.</desc>
+    <image>/content/player/shows/2121_517x291_1659094316.jpg</image>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424150000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">What Would Your Kid Do?</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Kids think they're taking part in a variety of classroom activities and games, unaware that the parents need to predict what their child will do in each situation.</desc>
+    <image>/content/player/shows/2044_517x291_1713541476.jpg</image>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424160000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Tipping Point</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Three players are pit against a mesmerising machine. There are mystery prizes and a jaw-dropping jackpot up for grabs for any player.</desc>
+    <image>/content/player/shows/561_517x291_1743180937.jpg</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424170000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Tipping Point</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Three players are pit against a mesmerising machine. There are mystery prizes and a jaw-dropping jackpot up for grabs for any player.</desc>
+    <image>/content/player/shows/561_517x291_1743180937.jpg</image>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424180000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">The Chase</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Four players answer trivia questions. Then as a team, face a quiz champion (The Chaser) to win thousands of pounds in a timed final quiz. Bradley Walsh hosts.</desc>
+    <image>/content/player/shows/480_517x291_1660903086.jpg</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424183000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Heathrow</title>
+    <desc lang="en">This documentary series follows the daily activity at Britain's largest international airport, London Heathrow.</desc>
+    <image>/content/player/shows/1191_517x291_1660903878.jpg</image>
+  </programme>
+  <programme start="20260424183000 +0000" stop="20260424213000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">SSE Airtricity Men's Premier Division: Derry City v Shamrock Rovers</title>
+    <desc lang="en">Derry City meet Shamrock Rovers in a top‑flight showdown between two of last season’s leading contenders in the title race.</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424213000 +0000" stop="20260424222000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Bump</title>
+    <desc lang="en">The smash-hit original drama Bump returns for its final full-length series, finding Oly unemployed and newly pregnant, and Angie facing a return of her cancer.</desc>
+    <image>/content/player/shows/2240_517x291_1662727854.jpg</image>
+  </programme>
+  <programme start="20260424222000 +0000" stop="20260424230000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Bump</title>
+    <desc lang="en">The smash-hit original drama Bump returns for its final full-length series, finding Oly unemployed and newly pregnant, and Angie facing a return of her cancer.</desc>
+    <image>/content/player/shows/2240_517x291_1662727854.jpg</image>
+  </programme>
+  <programme start="20260424225000 +0000" stop="20260424233500 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Vanderpump Rules</title>
+    <desc lang="en">Lisa Vanderpump lifts the velvet curtain on the drama-filled lives of her mischievous staff while opening Vanderpump à Paris in Las Vegas.</desc>
+    <image>/content/player/shows/2713_517x291_1734027330.jpg</image>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260424233500 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Spreadsheet</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Meet Lauren. Her life’s a bit of a mess. She’s a busy lawyer, freshly divorced and a mother of two slightly insane children. And she needs to get laid.</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260424233500 +0000" stop="20260425000500 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Spreadsheet</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Meet Lauren. Her life’s a bit of a mess. She’s a busy lawyer, freshly divorced and a mother of two slightly insane children. And she needs to get laid.</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425000500 +0000" stop="20260425003500 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">C*A*U*G*H*T</title>
+    <desc lang="en">Ropeable at being cut out of their own story, the boys give one last effort to wrestle back control of the narrative.</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425003500 +0000" stop="20260425011000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">C*A*U*G*H*T</title>
+    <desc lang="en">With Sean Penn on his way to Behati-Prinsloo to trade places with the boys, Director Bustard commits to letting the boys go home, and to killing Penn.</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425011000 +0000" stop="20260425015900 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Judge Rinder Crime Stories</title>
+    <desc lang="en">Judge Rinder rules the courtroom in his hit series, but now the respected barrister with a criminal defence background steps out from behind the bench to take on real cases.</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425015900 +0000" stop="20260425055500 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Off Air</title>
+    <desc lang="en">Off Air</desc>
+    <image>/content/player/shows/live_schedule_1685570061_1000000117_517x291.jpg</image>
+  </programme>
+  <programme start="20260425055500 +0000" stop="20260425065000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Unbeatable</title>
+    <desc lang="en">Jason Manford hosts the general knowledge quiz show in which the four contestants can always give an answer - but can they give an unbeatable answer?</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425065000 +0000" stop="20260425072000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Jann</title>
+    <desc lang="en">A tense road trip with Jann and Max culminates in a sister-on-sister karaoke battle.</desc>
+    <image>/content/player/shows/2460_517x291_1680555965.jpg</image>
+  </programme>
+  <programme start="20260425072000 +0000" stop="20260425075000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Jann</title>
+    <desc lang="en">Tensions between Jann and Cale come to a head at The Tunie Awards.</desc>
+    <image>/content/player/shows/2460_517x291_1680555965.jpg</image>
+  </programme>
+  <programme start="20260425075000 +0000" stop="20260425085000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Tipping Point</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Three players are pit against a mesmerising machine. There are mystery prizes and a jaw-dropping jackpot up for grabs for any player.</desc>
+    <image>/content/player/shows/561_517x291_1743180937.jpg</image>
+  </programme>
+  <programme start="20260425085000 +0000" stop="20260425095000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Tipping Point</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Three players are pit against a mesmerising machine. There are mystery prizes and a jaw-dropping jackpot up for grabs for any player.</desc>
+    <image>/content/player/shows/561_517x291_1743180937.jpg</image>
+  </programme>
+  <programme start="20260425095000 +0000" stop="20260425102000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">UEFA Champions League Magazine Show</title>
+    <desc lang="en">All the latest from the world of UEFA Champions League. Featuring highlights and interviews.</desc>
+    <image>/content/player/shows/2547_517x291_1694202839.jpg</image>
+  </programme>
+  <programme start="20260425102000 +0000" stop="20260425105000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Britain's Brightest Family</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">The Chase's Governess hosts as sixteen brilliantly bright families take part in a knock out tournament to win the coveted title of Britain’s Brightest Family.</desc>
+    <image>/content/player/shows/2266_517x291_1658994566.jpg</image>
+  </programme>
+  <programme start="20260425105000 +0000" stop="20260425112000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Britain's Brightest Family</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">The Chase's Governess hosts as sixteen brilliantly bright families take part in a knock out tournament to win the coveted title of Britain’s Brightest Family.</desc>
+    <image>/content/player/shows/2266_517x291_1658994566.jpg</image>
+  </programme>
+  <programme start="20260425112000 +0000" stop="20260425122000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Yes Chef</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Actress Sheree Murphy presents the cookery competition in which top chefs work with three amateur cooks, selecting one to partner them in the weekly final.</desc>
+    <image>/content/player/shows/1476_517x291_1671556034.jpg</image>
+  </programme>
+  <programme start="20260425122000 +0000" stop="20260425132000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Who's Doing The Dishes</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Award-winning Hollyoaks actor Kieron Richardson (Ste Hay) tries to avoid the soapy dishes, but finds himself up against four guests who are keen on boosting their prize fund.</desc>
+    <image>/content/player/shows/1095_517x291_1733131536.jpg</image>
+  </programme>
+  <programme start="20260425132000 +0000" stop="20260425142000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Winning Combination</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Contestants compete to be part of the winning combination - a perfect storm of players, general knowledge and cash up for grabs.</desc>
+    <image>/content/player/shows/2104_517x291_1660903308.jpg</image>
+  </programme>
+  <programme start="20260425142000 +0000" stop="20260425152000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Dress To Impress</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Three fashionistas compete with each other in a shopping spree to win the ultimate prize of going on a blind date with a fashion savvy singleton.</desc>
+    <image>/content/player/shows/1282_517x291_1654783237.jpg</image>
+  </programme>
+  <programme start="20260425152000 +0000" stop="20260425173500 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Women's Six Nations 2026 Live: Italy v Scotland</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Italy host Scotland in round 3 of the Women’s Six Nations Championship at the Stadio Sergio Lanfranchi in Parma.</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425173500 +0000" stop="20260425174500 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Uprising</title>
+    <desc lang="en">Drawing on Hot Press' credibility, history and contacts, the brand new Irish Music Awards Show will capture this musical mayhem at its best!</desc>
+    <image>/content/player/shows/2619_517x291_1704734794.jpg</image>
+  </programme>
+  <programme start="20260425174500 +0000" stop="20260425184500 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Help me Buy a Home</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Emma seeks a fresh start, Mike &amp; Anna downsize, and Michael Fry grills the Housing Minister on the questions his generation needs answered.</desc>
+    <image>/content/player/shows/2469_517x291_1682261429.jpg</image>
+  </programme>
+  <programme start="20260425184500 +0000" stop="20260425213000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Women's Six Nations 2026 Live: France v Ireland</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">A stern test ahead for Ireland as they head to Clermont to take on France in round 3 of the Women’s six nations.</desc>
+    <image>/content/player/shows/generic_3e_FAVM.jpg</image>
+  </programme>
+  <programme start="20260425213000 +0000" stop="20260425223000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Gogglebox Ireland</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Back for a 10th series, join our Irish telly fanatics from around the country as they watch, dissect and offer plenty of opinions about the best telly moments from the past week.</desc>
+    <image>/content/player/shows/1025_517x291_1659531815.jpg</image>
+  </programme>
+  <programme start="20260425223000 +0000" stop="20260425233000 +0000" channel="VirginMediaTwo.ie@SD">
+    <title lang="en">Dark Side of Reality TV</title>
+    <sub-title lang="en">[Subtitles]</sub-title>
+    <desc lang="en">Seven celebs spend ten days together in a Hollywood mansion, but what starts as a social experiment gets out of hand after producers cast personalities that explode on contact.</desc>
+    <image>/content/player/shows/2878_517x291_1754331107.jpg</image>
+  </programme>
+</tv>

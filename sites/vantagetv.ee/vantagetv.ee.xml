@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="VantageMusic.ee@SD">
+    <display-name>Vantage Music</display-name>
+    <icon src="https://vantagetv.ee/vantage_music.png" />
+    <url>https://vantagetv.ee</url>
+  </channel>
+  <channel id="vdance">
+    <display-name>Vantage Dance</display-name>
+    <url>https://vantagetv.ee</url>
+  </channel>
+  <channel id="vrock">
+    <display-name>Vantage Rock</display-name>
+    <url>https://vantagetv.ee</url>
+  </channel>
+  <programme start="20260424030000 +0000" stop="20260424070000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Breakfast with Vantage Music</title>
+    <desc lang="en">Get ready for your day with Vantage Music</desc>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">It&amp;apos;s The 80&amp;apos;s</title>
+    <desc lang="en">The start of the music video era, with 80&amp;apos;s classics not to be forgotten as well as some you probably have forgotten (for good reason!).</desc>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424090000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">The 90&amp;apos;s</title>
+    <desc lang="en">Britpop, Jamming basslines, Catchy pop, forgotten boy bands with a bit of hip hop. It&amp;apos;s the 90&amp;apos;s baby.</desc>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424100000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Ultimate 2000&amp;apos;s</title>
+    <desc lang="en">A mix of the hits of 2000&amp;apos;s along with some more lesser known artists.</desc>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424111000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">European Top 20</title>
+    <desc lang="en">A rundown of the top playing hits across the EU, compiled by our partners at top40-charts.com</desc>
+  </programme>
+  <programme start="20260424111000 +0000" stop="20260424130000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Video Mix</title>
+    <desc lang="en">A mix of today&amp;apos;s hits, with the classics you remember</desc>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424140000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Vantage Rocks</title>
+    <desc lang="en">The best rock hits from the past to today.</desc>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424150000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Dance With Vantage</title>
+    <desc lang="en">One hour of non-stop dance to end your work day.</desc>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424170000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Video Mix</title>
+    <desc lang="en">A mix of today&amp;apos;s hits, with the classics you remember</desc>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424180000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">It&amp;apos;s The 80&amp;apos;s</title>
+    <desc lang="en">The start of the music video era, with 80&amp;apos;s classics not to be forgotten as well as some you probably have forgotten (for good reason!).</desc>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424190000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">The 90&amp;apos;s</title>
+    <desc lang="en">Britpop, Jamming basslines, Catchy pop, forgotten boy bands with a bit of hip hop. It&amp;apos;s the 90&amp;apos;s baby.</desc>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424200000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Ultimate 2000&amp;apos;s</title>
+    <desc lang="en">A mix of the hits of 2000&amp;apos;s along with some more lesser known artists.</desc>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424220000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Clubzone</title>
+    <desc lang="en">Two hours of club music to get your night going</desc>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260425000000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Partyzone</title>
+    <desc lang="en">Party all night long with two hours of new and old dance, electronic and trance</desc>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425010000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Chillout Zone</title>
+    <desc lang="en">It&amp;apos;s time to relax, cop out, and chill with the chillout zone</desc>
+  </programme>
+  <programme start="20260425010000 +0000" stop="20260425030000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Night Videos</title>
+    <desc lang="en">Night Videos but it&amp;apos;s probably also some chillout zone cuz it&amp;apos;s great let&amp;apos;s be real</desc>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425070000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Breakfast with Vantage Music</title>
+    <desc lang="en">Get ready for your day with Vantage Music</desc>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425080000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">It&amp;apos;s The 80&amp;apos;s</title>
+    <desc lang="en">The start of the music video era, with 80&amp;apos;s classics not to be forgotten as well as some you probably have forgotten (for good reason!).</desc>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425090000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">The 90&amp;apos;s</title>
+    <desc lang="en">Britpop, Jamming basslines, Catchy pop, forgotten boy bands with a bit of hip hop. It&amp;apos;s the 90&amp;apos;s baby.</desc>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425110000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Ultimate 2000&amp;apos;s</title>
+    <desc lang="en">A mix of the hits of 2000&amp;apos;s along with some more lesser known artists.</desc>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425120000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">brand:new</title>
+    <desc lang="en">A look at the latest music videos</desc>
+  </programme>
+  <programme start="20260425120000 +0000" stop="20260425130000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">US Top 20</title>
+    <desc lang="en">A dive in to the top 20 songs playing in the United States, Compiled by our partners at top40-charts.com</desc>
+  </programme>
+  <programme start="20260425130000 +0000" stop="20260425150000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Dance With Vantage</title>
+    <desc lang="en">A mix of today&amp;apos;s hits, with the classics you remember</desc>
+  </programme>
+  <programme start="20260425150000 +0000" stop="20260425160000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Vantage Raps</title>
+    <desc lang="en">-</desc>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425170000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Rockzone</title>
+    <desc lang="en">Playing the best in rock music, if it rocks, it&amp;apos;s on the rockzone</desc>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425180000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">It&amp;apos;s The 80&amp;apos;s</title>
+    <desc lang="en">The start of the music video era, with 80&amp;apos;s classics not to be forgotten as well as some you probably have forgotten (for good reason!).</desc>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425190000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">The 90&amp;apos;s</title>
+    <desc lang="en">Britpop, Jamming basslines, Catchy pop, forgotten boy bands with a bit of hip hop. It&amp;apos;s the 90&amp;apos;s baby.</desc>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260425200000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Ultimate 2000&amp;apos;s</title>
+    <desc lang="en">A mix of the hits of 2000&amp;apos;s along with some more lesser known artists.</desc>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425220000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Clubzone</title>
+    <desc lang="en">Two hours of club music to get your night going</desc>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260426000000 +0000" channel="VantageMusic.ee@SD">
+    <title lang="en">Partyzone</title>
+    <desc lang="en">Party all night long with two hours of new and old dance, electronic and trance</desc>
+  </programme>
+  <programme start="20260424000000 +0000" stop="20260424200000 +0000" channel="vdance">
+    <title lang="en">Don&amp;apos;t Stop The Dance</title>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424220000 +0000" channel="vdance">
+    <title lang="en">Clubzone Reloaded</title>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260425000000 +0000" channel="vdance">
+    <title lang="en">Partyzone Reloaded</title>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425200000 +0000" channel="vdance">
+    <title lang="en">Don&amp;apos;t Stop The Dance</title>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425220000 +0000" channel="vdance">
+    <title lang="en">Clubzone Reloaded</title>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260426000000 +0000" channel="vdance">
+    <title lang="en">Partyzone Reloaded</title>
+  </programme>
+  <programme start="20260424030000 +0000" stop="20260424060000 +0000" channel="vrock">
+    <title lang="en">Breakfast with Vantage Rock</title>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260425030000 +0000" channel="vrock">
+    <title lang="en">Can&amp;apos;t Stop The Rock</title>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425060000 +0000" channel="vrock">
+    <title lang="en">Breakfast with Vantage Rock</title>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260426030000 +0000" channel="vrock">
+    <title lang="en">Can&amp;apos;t Stop The Rock</title>
+  </programme>
+</tv>

@@ -1,0 +1,734 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="76">
+    <display-name>HOY 國際財經台</display-name>
+    <url>https://hoy.tv</url>
+  </channel>
+  <channel id="HOYTV.hk@SD">
+    <display-name>HOY TV</display-name>
+    <icon src="https://i.imgur.com/NfVZPTT.png" />
+    <url>https://hoy.tv</url>
+  </channel>
+  <channel id="78">
+    <display-name>HOY 資訊台</display-name>
+    <url>https://hoy.tv</url>
+  </channel>
+  <programme start="20260424000000 +0000" stop="20260424010000 +0000" channel="76">
+    <title lang="zh">CGTN 時段[直播]</title>
+  </programme>
+  <programme start="20260424010000 +0000" stop="20260424013000 +0000" channel="76">
+    <title lang="zh">Polly Pocket - 新系列 2</title>
+  </programme>
+  <programme start="20260424013000 +0000" stop="20260424020000 +0000" channel="76">
+    <title lang="zh">克拉斯蒂騎士</title>
+  </programme>
+  <programme start="20260424020000 +0000" stop="20260424023000 +0000" channel="76">
+    <title lang="zh">與寶拉數數第7季</title>
+  </programme>
+  <programme start="20260424023000 +0000" stop="20260424030000 +0000" channel="76">
+    <title lang="zh">彩虹寶寶</title>
+  </programme>
+  <programme start="20260424030000 +0000" stop="20260424040000 +0000" channel="76">
+    <title lang="zh">全能老婆[PG]</title>
+    <sub-title lang="zh">第74集</sub-title>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424050000 +0000" channel="76">
+    <title lang="zh">凌雲志[PG]</title>
+    <sub-title lang="zh">第36集</sub-title>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424060000 +0000" channel="76">
+    <title lang="zh">Bloomberg 時段[直播]</title>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424070000 +0000" channel="76">
+    <title lang="zh">Bloomberg 時段[直播]</title>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="76">
+    <title lang="zh">Bloomberg 時段[直播]</title>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424083000 +0000" channel="76">
+    <title lang="zh">Polly Pocket - 新系列 2</title>
+  </programme>
+  <programme start="20260424083000 +0000" stop="20260424090000 +0000" channel="76">
+    <title lang="zh">克拉斯蒂騎士</title>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424093000 +0000" channel="76">
+    <title lang="zh">與寶拉數數第7季</title>
+  </programme>
+  <programme start="20260424093000 +0000" stop="20260424100000 +0000" channel="76">
+    <title lang="zh">彩虹寶寶</title>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424110000 +0000" channel="76">
+    <title lang="zh">Bloomberg 時段[直播]</title>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424113000 +0000" channel="76">
+    <title lang="zh">Bloomberg 時段[直播]</title>
+  </programme>
+  <programme start="20260424113000 +0000" stop="20260424114500 +0000" channel="76">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260424114500 +0000" stop="20260424115500 +0000" channel="76">
+    <title lang="zh">Green Touch</title>
+  </programme>
+  <programme start="20260424115500 +0000" stop="20260424135500 +0000" channel="76">
+    <title lang="zh">泰國甲組足球聯賽-素可泰 對 拉查武里[直播]</title>
+  </programme>
+  <programme start="20260424135500 +0000" stop="20260424144500 +0000" channel="76">
+    <title lang="zh">阿聯酋職業足球聯賽-艾迪哈夫拉 對 阿吉曼會[直播]</title>
+  </programme>
+  <programme start="20260424144500 +0000" stop="20260424150000 +0000" channel="76">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424160000 +0000" channel="76">
+    <title lang="zh">阿聯酋職業足球聯賽-艾迪哈夫拉 對 阿吉曼會[直播]</title>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424163000 +0000" channel="76">
+    <title lang="zh">小空間大活用 3</title>
+  </programme>
+  <programme start="20260424163000 +0000" stop="20260424164000 +0000" channel="76">
+    <title lang="zh">Green Touch</title>
+  </programme>
+  <programme start="20260424164000 +0000" stop="20260424184500 +0000" channel="76">
+    <title lang="zh">阿聯酋職業足球聯賽-阿爾納沙 對 艾查捷拉[直播]</title>
+  </programme>
+  <programme start="20260424184500 +0000" stop="20260424190000 +0000" channel="76">
+    <title lang="zh">Bloomberg 時段[直播]</title>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424200000 +0000" channel="76">
+    <title lang="zh">Bloomberg 時段[直播]</title>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424210000 +0000" channel="76">
+    <title lang="zh">Bloomberg 時段[直播]</title>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424220000 +0000" channel="76">
+    <title lang="zh">Bloomberg 時段[直播]</title>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424230000 +0000" channel="76">
+    <title lang="zh">Bloomberg 時段[直播]</title>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260425000000 +0000" channel="76">
+    <title lang="zh">CGTN 時段[直播]</title>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425002500 +0000" channel="76">
+    <title lang="zh">Bloomberg 時段[直播]</title>
+  </programme>
+  <programme start="20260425002500 +0000" stop="20260425023000 +0000" channel="76">
+    <title lang="zh">阿根廷甲組足球聯賽- 競賽會 對 巴拉卡斯中央[直播]</title>
+  </programme>
+  <programme start="20260425023000 +0000" stop="20260425030000 +0000" channel="76">
+    <title lang="zh">彩虹寶寶</title>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425033000 +0000" channel="76">
+    <title lang="zh">與Kal Penn一起變暖</title>
+  </programme>
+  <programme start="20260425033000 +0000" stop="20260425035500 +0000" channel="76">
+    <title lang="zh">與Kal Penn一起變暖</title>
+  </programme>
+  <programme start="20260425035500 +0000" stop="20260425060000 +0000" channel="76">
+    <title lang="zh">澳洲女子職業足球聯賽季後賽-坎培拉聯 對 墨爾本勝利[直播]</title>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425065500 +0000" channel="76">
+    <title lang="zh">FashionTV[PG]</title>
+  </programme>
+  <programme start="20260425065500 +0000" stop="20260425090000 +0000" channel="76">
+    <title lang="zh">澳洲女子職業足球聯賽季後賽-布里斯班獅吼 對 阿德萊德聯[直播]</title>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425093000 +0000" channel="76">
+    <title lang="zh">與寶拉數數第7季</title>
+  </programme>
+  <programme start="20260425093000 +0000" stop="20260425100000 +0000" channel="76">
+    <title lang="zh">彩虹寶寶</title>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425110000 +0000" channel="76">
+    <title lang="zh">體育360</title>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425113000 +0000" channel="76">
+    <title lang="zh">歐洲大觀</title>
+  </programme>
+  <programme start="20260425113000 +0000" stop="20260425120000 +0000" channel="76">
+    <title lang="zh">Arts.21</title>
+  </programme>
+  <programme start="20260425120000 +0000" stop="20260425121500 +0000" channel="76">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260425121500 +0000" stop="20260425123000 +0000" channel="76">
+    <title lang="zh">Green Touch</title>
+  </programme>
+  <programme start="20260425123000 +0000" stop="20260425130000 +0000" channel="76">
+    <title lang="zh">彭博入門</title>
+  </programme>
+  <programme start="20260425130000 +0000" stop="20260425140000 +0000" channel="76">
+    <title lang="zh">鐵路建造的建築第3季</title>
+  </programme>
+  <programme start="20260425140000 +0000" stop="20260425143000 +0000" channel="76">
+    <title lang="zh">與Kal Penn一起變暖</title>
+  </programme>
+  <programme start="20260425143000 +0000" stop="20260425150000 +0000" channel="76">
+    <title lang="zh">與Kal Penn一起變暖</title>
+  </programme>
+  <programme start="20260425150000 +0000" stop="20260425151500 +0000" channel="76">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425151500 +0000" stop="20260425153000 +0000" channel="76">
+    <title lang="zh">Green Touch</title>
+  </programme>
+  <programme start="20260425153000 +0000" stop="20260425160000 +0000" channel="76">
+    <title lang="zh">歐洲大觀</title>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425161000 +0000" channel="76">
+    <title lang="zh">Green Touch</title>
+  </programme>
+  <programme start="20260425161000 +0000" stop="20260425183000 +0000" channel="76">
+    <title lang="zh">亞洲聯賽冠軍盃精英聯賽決賽-吉達艾阿里 對 町田澤維亞[直播]</title>
+  </programme>
+  <programme start="20260425183000 +0000" stop="20260425190000 +0000" channel="76">
+    <title lang="zh">與Kal Penn一起變暖</title>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260425193000 +0000" channel="76">
+    <title lang="zh">歐洲大觀</title>
+  </programme>
+  <programme start="20260425193000 +0000" stop="20260425200000 +0000" channel="76">
+    <title lang="zh">Arts.21</title>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425210000 +0000" channel="76">
+    <title lang="zh">體育360</title>
+  </programme>
+  <programme start="20260425210000 +0000" stop="20260425213000 +0000" channel="76">
+    <title lang="zh">彭博入門</title>
+  </programme>
+  <programme start="20260425213000 +0000" stop="20260425220000 +0000" channel="76">
+    <title lang="zh">彭博入門</title>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260425230000 +0000" channel="76">
+    <title lang="zh">Bloomberg 時段[直播]</title>
+  </programme>
+  <programme start="20260425230000 +0000" stop="20260426000000 +0000" channel="76">
+    <title lang="zh">CGTN 時段[直播]</title>
+  </programme>
+  <programme start="20260424000000 +0000" stop="20260424003000 +0000" channel="78">
+    <title lang="zh">Cable 早晨[直播]</title>
+  </programme>
+  <programme start="20260424003000 +0000" stop="20260424010000 +0000" channel="78">
+    <title lang="zh">Cable 早晨</title>
+  </programme>
+  <programme start="20260424010000 +0000" stop="20260424020000 +0000" channel="78">
+    <title lang="zh">股市直播室[直播]</title>
+  </programme>
+  <programme start="20260424020000 +0000" stop="20260424023000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260424023000 +0000" stop="20260424030000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424030000 +0000" stop="20260424033000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424033000 +0000" stop="20260424040000 +0000" channel="78">
+    <title lang="zh">一線搜查</title>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424043000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260424043000 +0000" stop="20260424050000 +0000" channel="78">
+    <title lang="zh">午間新聞[直播]</title>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424053000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260424053000 +0000" stop="20260424060000 +0000" channel="78">
+    <title lang="zh">智‧創未來</title>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424063000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424063000 +0000" stop="20260424070000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424073000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424073000 +0000" stop="20260424080000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424083000 +0000" channel="78">
+    <title lang="zh">股市直播室[直播]</title>
+  </programme>
+  <programme start="20260424083000 +0000" stop="20260424090000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424093000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424093000 +0000" stop="20260424100000 +0000" channel="78">
+    <title lang="zh">股市直播室</title>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424103000 +0000" channel="78">
+    <title lang="zh">手語新聞報道[直播]</title>
+  </programme>
+  <programme start="20260424103000 +0000" stop="20260424105000 +0000" channel="78">
+    <title lang="zh">六點半新聞報道[直播]</title>
+  </programme>
+  <programme start="20260424105000 +0000" stop="20260424110000 +0000" channel="78">
+    <title lang="zh">焦點財經[直播]</title>
+    <desc lang="zh">股市、樓市 環球財金焦點 央行動態、企業消息 全方位跟進</desc>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424115000 +0000" channel="78">
+    <title lang="zh">7點直播室[直播]</title>
+  </programme>
+  <programme start="20260424115000 +0000" stop="20260424120000 +0000" channel="78">
+    <title lang="zh">28Hse搵樓App特約 : 每日樓市</title>
+  </programme>
+  <programme start="20260424120000 +0000" stop="20260424123000 +0000" channel="78">
+    <title lang="zh">國際最前線[直播]</title>
+  </programme>
+  <programme start="20260424123000 +0000" stop="20260424130000 +0000" channel="78">
+    <title lang="zh">一線搜查</title>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424134500 +0000" channel="78">
+    <title lang="zh">晚間直播室[直播]</title>
+  </programme>
+  <programme start="20260424134500 +0000" stop="20260424140000 +0000" channel="78">
+    <title lang="zh">焦點財經及28Hse搵樓App特約:每日樓市</title>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424143000 +0000" channel="78">
+    <title lang="zh">家國天下</title>
+  </programme>
+  <programme start="20260424143000 +0000" stop="20260424150000 +0000" channel="78">
+    <title lang="zh">一線搜查</title>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424153000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260424153000 +0000" stop="20260424160000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424163000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424163000 +0000" stop="20260424170000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424173000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424173000 +0000" stop="20260424180000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424183000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424183000 +0000" stop="20260424190000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424193000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424193000 +0000" stop="20260424200000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424203000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424203000 +0000" stop="20260424210000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424213000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424213000 +0000" stop="20260424220000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424223000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424223000 +0000" stop="20260424230000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260424233000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260424233000 +0000" stop="20260425000000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425003000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425003000 +0000" stop="20260425010000 +0000" channel="78">
+    <title lang="zh">我是我生命的傳奇 3</title>
+  </programme>
+  <programme start="20260425010000 +0000" stop="20260425013000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260425013000 +0000" stop="20260425020000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425020000 +0000" stop="20260425023000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260425023000 +0000" stop="20260425030000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425033000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425033000 +0000" stop="20260425040000 +0000" channel="78">
+    <title lang="zh">有理有得傾</title>
+    <desc lang="zh">香港特別行政區走過26年，經歷跌宕起伏，2019年社會運動再緊接全球肆虐新冠肺炎，無論經濟、民心都可算墮入低谷，各界都思考良策如何令香港尋回八、九十年代經濟起飛的動力，有線新聞籌備新論政節目《有理有得傾》，請來各界重量級嘉賓，用30分鐘時間討論當前重</desc>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425043000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260425043000 +0000" stop="20260425050000 +0000" channel="78">
+    <title lang="zh">午間新聞[直播]</title>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425053000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260425053000 +0000" stop="20260425060000 +0000" channel="78">
+    <title lang="zh">有理有得傾</title>
+    <desc lang="zh">香港特別行政區走過26年，經歷跌宕起伏，2019年社會運動再緊接全球肆虐新冠肺炎，無論經濟、民心都可算墮入低谷，各界都思考良策如何令香港尋回八、九十年代經濟起飛的動力，有線新聞籌備新論政節目《有理有得傾》，請來各界重量級嘉賓，用30分鐘時間討論當前重</desc>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425063000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425063000 +0000" stop="20260425070000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425073000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425073000 +0000" stop="20260425080000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425083000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260425083000 +0000" stop="20260425090000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425093000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425093000 +0000" stop="20260425100000 +0000" channel="78">
+    <title lang="zh">有理有得傾</title>
+    <desc lang="zh">香港特別行政區走過26年，經歷跌宕起伏，2019年社會運動再緊接全球肆虐新冠肺炎，無論經濟、民心都可算墮入低谷，各界都思考良策如何令香港尋回八、九十年代經濟起飛的動力，有線新聞籌備新論政節目《有理有得傾》，請來各界重量級嘉賓，用30分鐘時間討論當前重</desc>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425103000 +0000" channel="78">
+    <title lang="zh">手語新聞報道[直播]</title>
+  </programme>
+  <programme start="20260425103000 +0000" stop="20260425110000 +0000" channel="78">
+    <title lang="zh">六點半新聞報道[直播]</title>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425112500 +0000" channel="78">
+    <title lang="zh">7點直播室[直播]</title>
+  </programme>
+  <programme start="20260425112500 +0000" stop="20260425113000 +0000" channel="78">
+    <title lang="zh">科技園INNOPOLE呈獻 : AI+引領產業革新</title>
+  </programme>
+  <programme start="20260425113000 +0000" stop="20260425120000 +0000" channel="78">
+    <title lang="zh">智‧創未來</title>
+  </programme>
+  <programme start="20260425120000 +0000" stop="20260425123000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260425123000 +0000" stop="20260425130000 +0000" channel="78">
+    <title lang="zh">有理有得傾</title>
+    <desc lang="zh">香港特別行政區走過26年，經歷跌宕起伏，2019年社會運動再緊接全球肆虐新冠肺炎，無論經濟、民心都可算墮入低谷，各界都思考良策如何令香港尋回八、九十年代經濟起飛的動力，有線新聞籌備新論政節目《有理有得傾》，請來各界重量級嘉賓，用30分鐘時間討論當前重</desc>
+  </programme>
+  <programme start="20260425130000 +0000" stop="20260425133000 +0000" channel="78">
+    <title lang="zh">晚間直播室[直播]</title>
+  </programme>
+  <programme start="20260425133000 +0000" stop="20260425140000 +0000" channel="78">
+    <title lang="zh">五平方Squarefoot優質樓盤專區特約 : 樓盤傳真</title>
+  </programme>
+  <programme start="20260425140000 +0000" stop="20260425143000 +0000" channel="78">
+    <title lang="zh">我是我生命的傳奇 3</title>
+  </programme>
+  <programme start="20260425143000 +0000" stop="20260425150000 +0000" channel="78">
+    <title lang="zh">智‧創未來</title>
+  </programme>
+  <programme start="20260425150000 +0000" stop="20260425153000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260425153000 +0000" stop="20260425160000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425163000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425163000 +0000" stop="20260425170000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425173000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425173000 +0000" stop="20260425180000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425183000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425183000 +0000" stop="20260425190000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260425193000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425193000 +0000" stop="20260425200000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425203000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425203000 +0000" stop="20260425210000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425210000 +0000" stop="20260425213000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425213000 +0000" stop="20260425220000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260425223000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425223000 +0000" stop="20260425230000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260425230000 +0000" stop="20260425233000 +0000" channel="78">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260425233000 +0000" stop="20260426000000 +0000" channel="78">
+    <title lang="zh">有線新聞</title>
+  </programme>
+  <programme start="20260424000000 +0000" stop="20260424010000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">現在很美麗[PG]</title>
+    <sub-title lang="zh">第5集</sub-title>
+  </programme>
+  <programme start="20260424010000 +0000" stop="20260424013000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">煉狗術師 II[PG]</title>
+    <desc lang="zh">經歷數天後，各狗主和狗狗問題已經無所遁形！每晚營舍都會傳出陣陣哀鳴，原來另有內情。狗主們打成一片，唯獨有狗主因愛犬未能融入其他狗狗而自我隔離。 Eric直擊最核心問題，決定為每位展開獨立特訓！本集更邀來獸醫連醫生示範正確狗仔急救知識。</desc>
+  </programme>
+  <programme start="20260424013000 +0000" stop="20260424020000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">好好生活在灣區</title>
+    <desc lang="zh">$2000租咁so？ 大型商場上蓋中山公寓有冇伏？幾十萬買中山樓一直都屬港人買家心大心細話題，結果中伏新聞時有發生，歸根究底同內地樓宇分別有關，究竟住宅及公寓之間有何不同？點解全新公寓幾十萬買到，又位處市區，但竟然冇二手市場？主持翊榆搵來中山地產KO</desc>
+  </programme>
+  <programme start="20260424020000 +0000" stop="20260424023000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">深宵菜館</title>
+  </programme>
+  <programme start="20260424023000 +0000" stop="20260424033000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">耀眼的秘密[PG]</title>
+    <sub-title lang="zh">第59集</sub-title>
+  </programme>
+  <programme start="20260424033000 +0000" stop="20260424043000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">臥底[PG]</title>
+    <sub-title lang="zh">第23集</sub-title>
+  </programme>
+  <programme start="20260424043000 +0000" stop="20260424050000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">午間新聞[直播]</title>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424053000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">一線搜查</title>
+  </programme>
+  <programme start="20260424053000 +0000" stop="20260424060000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">煮題COOK</title>
+    <desc lang="zh">當葡汁遇上麻辣，會碰撞出怎樣的驚喜？Ricky 完美呈現茶餐廳的巔峰之作——焗葡國雞飯，，焗出迷人的金黃焦香。Jacky 則不藏私地分享他的萬用麻辣醬祕方，無論是搭配清新涼拌雞絲還是香脆的藤椒炸雞腿，那種麻辣交織的快感簡直讓人欲罷不能！</desc>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424063000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">健康關注組</title>
+    <desc lang="zh">兒童生得矮小，飲食影響身高發展；不少父母會擔憂子女長不高。從醫學角度，如何界定兒童是否過矮呢？長高的關鍵原來是生長激素，醫生可以利用增高針去幫助兒童長高，而且功效顯著。可是這種治療是有限期的，一旦過了某個階段，可能沒法再令兒童長高。</desc>
+  </programme>
+  <programme start="20260424063000 +0000" stop="20260424070000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">詹姆士出走料理</title>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424073000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">坐月攻略</title>
+    <desc lang="zh">今集請來瑜伽及香薰治癒師作嘉賓，產後媽媽無論身體同心靈，都需要照顧，最重要找到一個正確及適合自己方法去舒壓，釋放負能量，人自然健康一點，心情都開朗一些。另外，資深陪月員霞姐，會煮有助傷口癒合月子餐。</desc>
+  </programme>
+  <programme start="20260424073000 +0000" stop="20260424080000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">好好生活在灣區</title>
+    <desc lang="zh">$2000租咁so？ 大型商場上蓋中山公寓有冇伏？幾十萬買中山樓一直都屬港人買家心大心細話題，結果中伏新聞時有發生，歸根究底同內地樓宇分別有關，究竟住宅及公寓之間有何不同？點解全新公寓幾十萬買到，又位處市區，但竟然冇二手市場？主持翊榆搵來中山地產KO</desc>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424083000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">認真地不認真的怪俠佐羅利</title>
+  </programme>
+  <programme start="20260424083000 +0000" stop="20260424090000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">美斯的奧奇島</title>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424093000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">雷頓 不可思議偵探社 ～卡特莉的解謎事件簿～</title>
+  </programme>
+  <programme start="20260424093000 +0000" stop="20260424100000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">藍精靈</title>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424103000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">香港奇則 3</title>
+    <desc lang="zh">女孩子愛打卡，今集有嘉賓陳欣茵同主持Omi，帶大家邀去到兩個「蹟」，感受「活化」如何注入新生命，讓大家可以換個方法認識歷史。中環域多地監獄是香港首個監獄奇則，過百年建築點樣變成最真實的監獄Cafe？灣仔茂蘿街是昔日唐樓群，今日又再換過面貌，繼續服務街</desc>
+  </programme>
+  <programme start="20260424103000 +0000" stop="20260424110000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">深宵菜館</title>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424115000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">7點直播室[直播]</title>
+  </programme>
+  <programme start="20260424115000 +0000" stop="20260424120000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">28Hse 搵樓App 特約 : 每日樓市</title>
+  </programme>
+  <programme start="20260424120000 +0000" stop="20260424123000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">一線搜查</title>
+  </programme>
+  <programme start="20260424123000 +0000" stop="20260424130000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">煮題COOK</title>
+    <desc lang="zh">茶記醬汁系列最後召集！壓軸一集由 Ricky 帶來香氣撲鼻的特製蒜汁羊架，展示如何將平凡的蒜茸轉化為濃厚甘香的星級醬汁。Jacky 則在傳統瑞士汁中加入驚喜元素，烹調出外酥內嫩、醬味香醇的創新瑞士汁燻魚。想知道如何煮出大廚級的壓軸名菜？那就一定要準時</desc>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424133000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">健康關注組</title>
+    <desc lang="zh">根據衞生防護中心2024年的數據顯示，包括慢性阻塞性肺病在內的慢性下呼吸道疾病，已經成為本港第九大主要死因。患者一旦出現急性發作，不單止肺功能會進一步衰退，更會加速病情惡化，顯著增加死亡風險。而據台灣嘅研究統計，全球每10秒鐘，就有一個人死於慢阻肺！</desc>
+  </programme>
+  <programme start="20260424133000 +0000" stop="20260424140000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">詹姆士出走料理</title>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424150000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">耀眼的秘密[PG]</title>
+    <sub-title lang="zh">第60集</sub-title>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424153000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260424153000 +0000" stop="20260424154500 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">娛樂頭條 E-news Headline[PG]</title>
+  </programme>
+  <programme start="20260424154500 +0000" stop="20260424164500 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">晚安晚安</title>
+    <desc lang="zh">《晚安晚安》從「空虛」出發——這不是寂寞，而是連自己都不知道自己想要什麼的感覺，像一個人站在空蕩蕩的房間裡，沒有聲音、沒有方向。神經科學發現，空虛會使夜間皮質醇升高，讓身體感到「不安全」而無法入睡。主持人敖嘉年與音頻治療師陳明憙，透過真實故事分享及音</desc>
+  </programme>
+  <programme start="20260424164500 +0000" stop="20260424170000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">娛樂頭條 E-news Headline[PG]</title>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424190000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">HOY 動音樂[PG]</title>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424220000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">魚樂無限</title>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424230000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">道地生豆乳特約 : 健康原因講多D</title>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260424233000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">活出真我</title>
+  </programme>
+  <programme start="20260424233000 +0000" stop="20260425000000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">逆境追夢人</title>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425010000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">滋味人生</title>
+    <desc lang="zh">梁師傅入廚超過四十年，曾經到海外任職，尤其是在日本擔任主廚的五年，令他日後烹調的有更多想法。兩位主持人今集就非常有口福，能夠品嘗梁師傅三道口味截然不同的菜式，包括 “龍皇白玉卷” 、“水晶牛肋肉” 、“鴛鴦糯米飯”。</desc>
+  </programme>
+  <programme start="20260425010000 +0000" stop="20260425020000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">奇職修補師</title>
+  </programme>
+  <programme start="20260425020000 +0000" stop="20260425023000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">深宵菜館</title>
+  </programme>
+  <programme start="20260425023000 +0000" stop="20260425033000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">帶阿媽去旅行</title>
+    <desc lang="zh">帶阿媽去旅行已經「頭痕」，還加上阿爸，方健儀你好嘢！不丹看似平靜，但方健儀卻把她變成冒險樂園－激流旅程、跳民族舞找女兒……令阿媽阿爸樂而忘返！方健儀母親為家庭付出所有，為了令旅程畢生難忘，方健儀更找到梁朝偉和劉嘉玲結婚的地點，究竟在那裡會有甚麼驚喜？</desc>
+  </programme>
+  <programme start="20260425033000 +0000" stop="20260425043000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">立邦抗甲醛淨味兒童漆系列特約 : 空間改造王</title>
+    <desc lang="zh">位於大阪市的中辻家是一棟樓齡110年、地盤面積約285呎的傳統長屋。但室內設計奇特，玄關異常寬闊，生活空間與設備卻嚴重不足，令到中辻一家三口難以一同居住。改造工匠「木內一德」巧妙地善用空間，在創意與實用之間取得平衡，為中辻家打造一個理想的居住環境。</desc>
+  </programme>
+  <programme start="20260425043000 +0000" stop="20260425050500 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">午間新聞[直播]</title>
+  </programme>
+  <programme start="20260425050500 +0000" stop="20260425053000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">一線搜查</title>
+  </programme>
+  <programme start="20260425053000 +0000" stop="20260425060000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">老派小店之必要</title>
+    <desc lang="zh">相信很多人都覺得童年的回憶是最美好，總是希望回到從前 。雖然現在還沒有時光機，帶我們回到從前。但在香港有班人仍然堅持為不同年代的小朋友服務，守護每個人心目中最珍貴的童年回憶。不論是透過尋找糖果的甜蜜、品味造型棉花糖的創意，還是尋找懷舊玩具的感動。今集</desc>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425070000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">滋味人生</title>
+    <desc lang="zh">梁師傅入廚超過四十年，曾經到海外任職，尤其是在日本擔任主廚的五年，令他日後烹調的有更多想法。兩位主持人今集就非常有口福，能夠品嘗梁師傅三道口味截然不同的菜式，包括 “龍皇白玉卷” 、“水晶牛肋肉” 、“鴛鴦糯米飯”。</desc>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425073000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">嘻哈馬場[PG]</title>
+  </programme>
+  <programme start="20260425073000 +0000" stop="20260425080000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">活出真我</title>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425083000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">汪汪隊立大功</title>
+  </programme>
+  <programme start="20260425083000 +0000" stop="20260425090000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">寶可夢地平線：第二季 - 尋找拉庫雅</title>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425093000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">發酵魔法</title>
+  </programme>
+  <programme start="20260425093000 +0000" stop="20260425100000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">狗狗看天下</title>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425103000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">我的香港故事</title>
+  </programme>
+  <programme start="20260425103000 +0000" stop="20260425110000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">逆境追夢人</title>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425112500 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">7點直播室[直播]</title>
+  </programme>
+  <programme start="20260425112500 +0000" stop="20260425113000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">科技園INNOPOLE呈獻 : AI+引領產業革新</title>
+  </programme>
+  <programme start="20260425113000 +0000" stop="20260425120000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">江湖菜館</title>
+  </programme>
+  <programme start="20260425120000 +0000" stop="20260425123000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">安居樂業</title>
+    <desc lang="zh">港島南區高級住宅，望住無敵大海景；業主一家生活多年，想屋企有啲改變，設計總監Maggy，點樣用「度假」主題，為屋主重新打造成一家幾口的新居？全新佈局設計，如何做到簡約而有氣派感覺？實用方面，又點樣去隱藏大量的儲物位置？ 另外今集仲加設電器開箱，教大家</desc>
+  </programme>
+  <programme start="20260425123000 +0000" stop="20260425133000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">道地蜂蜜綠茶特約 : 山旮旯睇樓團</title>
+  </programme>
+  <programme start="20260425133000 +0000" stop="20260425140000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">WeChat Pay HK 呈獻 : 女行團</title>
+    <desc lang="zh">樂宜穿上火辣比堅尼到商場頂樓新開水上樂園玩水降溫，又去金碧輝煌的國際名牌開設咖啡廳朝聖，晚上去按摩，但場內是令人驚喜的日式歌舞派對，結果按完更疲勞。樂宜又到新興文青小街，感受泰國年青創意風味，去探超可愛水豚君，再帶大家到市區40分鐘車程一個縮小版泰國</desc>
+  </programme>
+  <programme start="20260425140000 +0000" stop="20260425143000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">治癒星期六 : 見習家務男</title>
+  </programme>
+  <programme start="20260425143000 +0000" stop="20260425150000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">E F Interior Design呈獻 : 家居設計解密室</title>
+    <desc lang="zh">家居裝修設計解密室由主持黃美棋，以及擁有超過35年設計經驗的空間規劃師Eric Fung主理，為大家深入解構近年設計趨勢、物料應用，以及一些較少聽聞卻充滿趣味的裝修話題。今集節目將會解構樓梯設計、在香港安裝升降機的實際規劃情況，以及娛樂室的設計要點。</desc>
+  </programme>
+  <programme start="20260425150000 +0000" stop="20260425153000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">HOY娛樂一周[PG]</title>
+  </programme>
+  <programme start="20260425153000 +0000" stop="20260425160000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">有線新聞[直播]</title>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425163000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">老派小店之必要</title>
+    <desc lang="zh">相信很多人都覺得童年的回憶是最美好，總是希望回到從前 。雖然現在還沒有時光機，帶我們回到從前。但在香港有班人仍然堅持為不同年代的小朋友服務，守護每個人心目中最珍貴的童年回憶。不論是透過尋找糖果的甜蜜、品味造型棉花糖的創意，還是尋找懷舊玩具的感動。今集</desc>
+  </programme>
+  <programme start="20260425163000 +0000" stop="20260425170000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">小儀與13型男[PG]</title>
+    <desc lang="zh">在陽光下揮灑著汗水，他一舉手一投足都在撩撥你的心弦，你我應該都試過迷上那永遠青春熱血的氣息，迷上那永不言敗的精神。今集型男方力申絕對香港人心中是陽光運動男的代表，濕凍的天氣中大家就跟這位曾擁九項香港游泳紀錄的陽光運動男一起成為戀愛和冬天的冠軍吧！</desc>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425190000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">HOY 動音樂[PG]</title>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260425220000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">魚樂無限</title>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260425230000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">奇職修補師</title>
+  </programme>
+  <programme start="20260425230000 +0000" stop="20260425233000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">發酵魔法</title>
+  </programme>
+  <programme start="20260425233000 +0000" stop="20260426000000 +0000" channel="HOYTV.hk@SD">
+    <title lang="zh">狗狗看天下</title>
+  </programme>
+</tv>

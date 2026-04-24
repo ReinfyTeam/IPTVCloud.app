@@ -1,0 +1,3395 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="Eurosport1.fr@Russia">
+    <display-name>Eurosport 1</display-name>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MTV00s.uk@SD">
+    <display-name>MTV 00s</display-name>
+    <icon src="https://i.imgur.com/l5wBRfF.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Mir.ru@SD">
+    <display-name>МИР</display-name>
+    <icon src="https://i.imgur.com/AqWaJT8.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BloombergTV.us@Europe">
+    <display-name>Bloomberg</display-name>
+    <icon src="https://i.imgur.com/OuogLHx.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RTRBelarus.by@SD">
+    <display-name>РТР Беларусь</display-name>
+    <icon src="https://i.imgur.com/FEVPypV.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Rybolov.ru@SD">
+    <display-name>Рыболов</display-name>
+    <icon src="https://i.imgur.com/wJMTcFS.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MoskvaDoveriye.ru@SD">
+    <display-name>Москва. Доверие</display-name>
+    <icon src="https://i.imgur.com/QDqDQzt.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuHistory.ru@SD">
+    <display-name>viju History</display-name>
+    <icon src="https://i.imgur.com/FqWkeXb.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RussianExtreme.ru@SD">
+    <display-name>Русский Экстрим</display-name>
+    <icon src="https://i.imgur.com/hJK7mOW.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DiscoveryChannel.ru@SD">
+    <display-name>Discovery Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ShoppingLive.ru@SD">
+    <display-name>Shopping Live</display-name>
+    <icon src="https://i.imgur.com/EMmGnjV.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Tonus.ru@SD">
+    <display-name>Тонус</display-name>
+    <icon src="https://i.imgur.com/pGm8QCj.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Teleputeshestviya.ru@SD">
+    <display-name>Телепутешествия</display-name>
+    <icon src="https://i.imgur.com/eXJm1n3.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Nickelodeon.ru@SD">
+    <display-name>Nickelodeon</display-name>
+    <icon src="https://i.imgur.com/w8iE8dV.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="360.ru@SD">
+    <display-name>360TV</display-name>
+    <icon src="https://i.imgur.com/VTJqdoX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Shokiruyushchee.ru@HD">
+    <display-name>Шокирующее HD</display-name>
+    <icon src="https://i.imgur.com/UG63hZ0.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ProBusiness.ru@SD">
+    <display-name>PRO Business</display-name>
+    <icon src="https://i.imgur.com/1u8KvTD.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="HustlerTVEurope.nl@SD">
+    <display-name>Hustler TV Europe</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/HustlerTV.svg/960px-HustlerTV.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MezzoLive.fr@SD">
+    <display-name>Mezzo Live HD</display-name>
+    <icon src="https://i.imgur.com/H9ytKPN.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuTV1000action.ru@SD">
+    <display-name>viju TV1000 action</display-name>
+    <icon src="https://i.imgur.com/TMmyuzh.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="WorldFashionChannel.ru@SD">
+    <display-name>World Fashion Channel</display-name>
+    <icon src="https://i.imgur.com/ewH0rNd.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="STV.by@SD">
+    <display-name>СТВ</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%A1%D0%A2%D0%92%C2%BB.svg/960px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%A1%D0%A2%D0%92%C2%BB.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuTV1000.ru@SD">
+    <display-name>viju TV1000</display-name>
+    <icon src="https://i.imgur.com/ZMsyjSr.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NTVBelarus.by@SD">
+    <display-name>НТВ Беларусь</display-name>
+    <icon src="https://i.imgur.com/QLuUIeB.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuExplore.ru@SD">
+    <display-name>viju Explore</display-name>
+    <icon src="https://i.imgur.com/EGIpLPu.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Zhara.ru@SD">
+    <display-name>Жара</display-name>
+    <icon src="https://i.imgur.com/41K9Y2s.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RadostMoya.ru@SD">
+    <display-name>Радость Моя</display-name>
+    <icon src="https://i.imgur.com/B5FA62o.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ParamountComedy.ru@SD">
+    <display-name>Paramount Comedy Russia</display-name>
+    <icon src="https://i.imgur.com/Nki62R7.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MCMTop.ru@SD">
+    <display-name>MCM TOP</display-name>
+    <icon src="https://i.imgur.com/EVtWQLd.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NasheNovoeKino.ru@SD">
+    <display-name>Наше новое кино</display-name>
+    <icon src="https://i.imgur.com/IOxIsPj.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BRIDGERussianHit.ru@SD">
+    <display-name>BRIDGE TV Русский Хит</display-name>
+    <icon src="https://i.imgur.com/f9xdIlN.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="832">
+    <display-name>Luxe HD</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="IndiyskoyeKino.ru@SD">
+    <display-name>Индийское кино</display-name>
+    <icon src="https://i.imgur.com/LL8GyCh.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="StingrayCMusic.ca@SD">
+    <display-name>Stingray CMusic</display-name>
+    <icon src="https://i.imgur.com/3UppN5P.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CNNInternational.us@MENA">
+    <display-name>CNN</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinoseriya.ru@SD">
+    <display-name>Киносерия</display-name>
+    <icon src="https://i.imgur.com/iao7zLZ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Moskva24.ru@SD">
+    <display-name>Москва-24</display-name>
+    <icon src="https://i.imgur.com/gXbUMVy.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ChannelOne.ru@SD">
+    <display-name>Первый канал</display-name>
+    <icon src="https://i.imgur.com/RUSX0rX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BRIDGE.ru@SD">
+    <display-name>BRIDGE TV</display-name>
+    <icon src="https://i.imgur.com/qYObfrG.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchFutbol1.ru@SD">
+    <display-name>МАТЧ! Футбол 1</display-name>
+    <icon src="https://i.imgur.com/XS2BB02.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Ktoestkto.ru@SD">
+    <display-name>Кто есть кто</display-name>
+    <icon src="https://i.imgur.com/PmD17UQ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="HDL.ru@SD">
+    <display-name>HDL</display-name>
+    <icon src="https://i.imgur.com/tKgmhxh.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Nauka.ru@SD">
+    <display-name>Наука</display-name>
+    <icon src="https://i.imgur.com/ZZxzueO.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Retro.ru@SD">
+    <display-name>Ретро</display-name>
+    <icon src="https://i.imgur.com/p21co1w.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Soyuz.ru@SD">
+    <display-name>Союз</display-name>
+    <icon src="https://i.imgur.com/w3OewHc.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="LaMinorTV.ru@SD">
+    <display-name>Ля-минор. Мой музыкальный</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ONT.by@SD">
+    <display-name>ОНТ</display-name>
+    <icon src="https://i.imgur.com/LbHdHEk.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FashionTVHD.fr@SD">
+    <display-name>Fashion TV HD</display-name>
+    <icon src="https://i.imgur.com/GFXsreR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KHL.ru@SD">
+    <display-name>Телеканал КХЛ</display-name>
+    <icon src="https://i.imgur.com/RgdHdOV.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Hollywood.ru@SD">
+    <display-name>Hollywood</display-name>
+    <icon src="https://i.imgur.com/1j7cT2I.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Zhivi.ru@SD">
+    <display-name>ЖИВИ!</display-name>
+    <icon src="https://i.imgur.com/LPqySGk.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Eda.ru@SD">
+    <display-name>ЕДА</display-name>
+    <icon src="https://i.imgur.com/htmbgOX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinopokaz.ru@HD">
+    <display-name>Кинопоказ HD</display-name>
+    <icon src="https://i.imgur.com/nNjMyAq.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Usadba.ru@SD">
+    <display-name>Усадьба</display-name>
+    <icon src="https://i.imgur.com/mf13haG.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Uspeh.ru@SD">
+    <display-name>Успех</display-name>
+    <icon src="https://i.imgur.com/o3K1h5Q.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NST.ru@SD">
+    <display-name>Настоящее Страшное Телевидение</display-name>
+    <icon src="https://i.imgur.com/uv2yxa5.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DiscoveryScienceEurope.uk@Russia">
+    <display-name>Discovery Science</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="o2tv.ru@SD">
+    <display-name>О2ТВ</display-name>
+    <icon src="https://i.imgur.com/CM6z7fA.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="LuxeTV.lu@SD">
+    <display-name>Luxe.TV</display-name>
+    <icon src="https://i.imgur.com/24ehonx.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TVCentr.ru@SD">
+    <display-name>ТВ Центр</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/ru/7/72/TV_Tsentr_2013_Logo.svg" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Channel5.ru@SD">
+    <display-name>5 канал</display-name>
+    <icon src="https://i.imgur.com/KPXMa3U.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="U.ru@SD">
+    <display-name>Ю</display-name>
+    <icon src="https://i.imgur.com/KDZvt0Q.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MirSeriala.ru@SD">
+    <display-name>Мир сериала</display-name>
+    <icon src="https://i.imgur.com/uzj7wVp.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="365daysTV.ru@SD">
+    <display-name>365 дней ТВ</display-name>
+    <icon src="https://i.imgur.com/NfnAiTR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Football.ru@SD">
+    <display-name>Футбол</display-name>
+    <icon src="https://i.imgur.com/pEuaZVx.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FoodTime.ru@SD">
+    <display-name>FoodTime</display-name>
+    <icon src="https://i.imgur.com/gxCYAwH.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Zvezda.ru@SD">
+    <display-name>Звезда</display-name>
+    <icon src="https://i.imgur.com/4PAcpfM.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ZooTV.ru@SD">
+    <display-name>Зоо ТВ</display-name>
+    <icon src="https://i.imgur.com/p7WzqGS.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Zagorodnyy.ru@SD">
+    <display-name>Загородный</display-name>
+    <icon src="https://i.imgur.com/YGqO3Us.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RusskiyIllusion.ru@SD">
+    <display-name>Русский Иллюзион</display-name>
+    <icon src="https://i.imgur.com/RlsqFN8.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="IllusionPlus.ru@SD">
+    <display-name>Иллюзион +</display-name>
+    <icon src="https://i.imgur.com/9GvuHQ5.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TopSecret.ru@SD">
+    <display-name>Совершенно секретно</display-name>
+    <icon src="https://i.imgur.com/HM4xy4G.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FeniksplusKino.ru@SD">
+    <display-name>Феникс+Кино</display-name>
+    <icon src="https://i.imgur.com/S9OPMLE.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Muzhskoy.ru@SD">
+    <display-name>Мужской</display-name>
+    <icon src="https://i.imgur.com/xyztpBf.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SupermarketTV.ru@SD">
+    <display-name>TV club</display-name>
+    <icon src="https://i.imgur.com/ZxZ61Px.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MTV80s.uk@SD">
+    <display-name>MTV 80s</display-name>
+    <icon src="https://i.imgur.com/N9e5hv5.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BelMuzTV.by@SD">
+    <display-name>БелМуз-ТВ</display-name>
+    <icon src="https://i.imgur.com/31MPLIL.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Channel8.ru@SD">
+    <display-name>8 Канал</display-name>
+    <icon src="https://i.imgur.com/nUSx1jF.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2x2.ru@SD">
+    <display-name>2x2</display-name>
+    <icon src="https://i.imgur.com/fhQFLEl.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Telecafe.ru@SD">
+    <display-name>Телекафе</display-name>
+    <icon src="https://i.imgur.com/1H3h1HL.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Domashniy.ru@SD">
+    <display-name>Dомашний</display-name>
+    <icon src="https://i.imgur.com/XVRwgom.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MusicBoxGold.ru@SD">
+    <display-name>Music Box Gold</display-name>
+    <icon src="https://i.imgur.com/3arWh0k.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="VoprosyiOtvety.ru@SD">
+    <display-name>Вопросы и ответы</display-name>
+    <icon src="https://i.imgur.com/yjETxk1.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ExtremeSportsChannel.ru@SD">
+    <display-name>Extreme Sports</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Extreme_Sports_Channel.svg/960px-Extreme_Sports_Channel.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Komediynoe.ru@HD">
+    <display-name>Комедийное HD</display-name>
+    <icon src="https://i.imgur.com/cEKe8XC.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Evronovosti.ru@SD">
+    <display-name>Евроновости</display-name>
+    <icon src="https://i.imgur.com/9eIZJSQ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinokomedija.ru@SD">
+    <display-name>Кинокомедия</display-name>
+    <icon src="https://i.imgur.com/dVjtth0.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="red.ru@SD">
+    <display-name>.red</display-name>
+    <icon src="https://i.imgur.com/GET9Qut.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TV3.ru@SD">
+    <display-name>ТВ-3</display-name>
+    <icon src="https://i.imgur.com/JLAvq8O.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Psikhologiya.ru@SD">
+    <display-name>Психология 21</display-name>
+    <icon src="https://i.imgur.com/GsfedKS.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KukhnyaTV.ru@SD">
+    <display-name>Кухня ТВ</display-name>
+    <icon src="https://i.imgur.com/7jxZnuS.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TopShopTV.ru@SD">
+    <display-name>Top Shop TV</display-name>
+    <icon src="https://i.imgur.com/5P9Rw06.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="India.ru@SD">
+    <display-name>Индия</display-name>
+    <icon src="https://i.imgur.com/xDVcDOc.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RodnoeKino.ru@SD">
+    <display-name>Родное кино</display-name>
+    <icon src="https://i.imgur.com/H70LxoZ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MuzykaPervogo.ru@SD">
+    <display-name>Музыка Первого</display-name>
+    <icon src="https://i.imgur.com/U0vKj3P.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MuzTV.ru@SD">
+    <display-name>МУЗ ТВ</display-name>
+    <icon src="https://i.imgur.com/BtqrHmz.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="STS.ru@SD">
+    <display-name>СТС</display-name>
+    <icon src="https://i.imgur.com/ilUzAeb.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CNBCEurope.uk@SD">
+    <display-name>CNBC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="AutoPlus.ru@SD">
+    <display-name>Авто Плюс</display-name>
+    <icon src="https://i.imgur.com/sVc8cFt.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RBKTV.ru@SD">
+    <display-name>РБК</display-name>
+    <icon src="https://i.imgur.com/CwhmJby.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RussianMusicBox.ru@SD">
+    <display-name>RUSSIAN MUSICBOX</display-name>
+    <icon src="https://i.imgur.com/ZkJ3Rh9.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Russiannight.ru@SD">
+    <display-name>Русская ночь</display-name>
+    <icon src="https://i.imgur.com/Q6xebjQ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ShansonTV.ru@SD">
+    <display-name>Шансон-TB</display-name>
+    <icon src="https://i.imgur.com/Fk4sd8t.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="1133">
+    <display-name>Первый Городской</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinomix.ru@SD">
+    <display-name>Киномикс</display-name>
+    <icon src="https://i.imgur.com/D4q2XUT.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Vremya.ru@SD">
+    <display-name>Время</display-name>
+    <icon src="https://i.imgur.com/jZlj3ga.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchBoets.ru@SD">
+    <display-name>МАТЧ! Боец</display-name>
+    <icon src="https://i.imgur.com/DogOkA4.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuTV1000russkoe.ru@SD">
+    <display-name>viju TV1000 русское</display-name>
+    <icon src="https://i.imgur.com/Meak2y4.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RENTV.ru@SD">
+    <display-name>РЕН ТВ</display-name>
+    <icon src="https://i.imgur.com/0Tu5lte.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MyZenTV.fr@SD">
+    <display-name>myZen.tv</display-name>
+    <icon src="https://i.imgur.com/fIi8o0C.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinosvidanie.ru@SD">
+    <display-name>Киносвидание</display-name>
+    <icon src="https://i.imgur.com/ZRaWqxj.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Carousel.ru@SD">
+    <display-name>Карусель</display-name>
+    <icon src="https://i.imgur.com/4wmnx1W.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Belarus2.by@SD">
+    <display-name>Беларусь 2</display-name>
+    <icon src="https://i.imgur.com/BpEHpPS.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RussiaK.ru@SD">
+    <display-name>Культура</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/960px-Russia-Cultura.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TNVTatarstan.ru@SD">
+    <display-name>ТНВ</display-name>
+    <icon src="https://i.imgur.com/58u9TQT.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Sarafan.ru@SD">
+    <display-name>Сарафан</display-name>
+    <icon src="https://i.imgur.com/u4q1rMT.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Mezzo.fr@SD">
+    <display-name>Mezzo</display-name>
+    <icon src="https://i.imgur.com/auNdGeW.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TNTMusic.ru@SD">
+    <display-name>ТНТ MUSIC</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Spas.ru@SD">
+    <display-name>Спас ТВ</display-name>
+    <icon src="https://i.imgur.com/yY39nMg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ZagorodnayaZhizn.ru@SD">
+    <display-name>Загородная жизнь</display-name>
+    <icon src="https://i.imgur.com/RoYd5pz.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RT.ru@SD">
+    <display-name>Russia Today</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Domkino.ru@SD">
+    <display-name>Дом Кино</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png/960px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="France24.fr@English">
+    <display-name>France 24</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Nostalgia.ru@SD">
+    <display-name>Ностальгия</display-name>
+    <icon src="https://i.imgur.com/YBdBc0J.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DaVinci.ru@SD">
+    <display-name>Da Vinci</display-name>
+    <icon src="https://i.imgur.com/iBx7K1M.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="1241">
+    <display-name>Кинохит</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ZdorovoeTV.ru@SD">
+    <display-name>Здоровое ТВ</display-name>
+    <icon src="https://i.imgur.com/jedtE5l.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="scifi.ru@SD">
+    <display-name>.sci-fi</display-name>
+    <icon src="https://i.imgur.com/nSSUHcg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Priklyucheniya.ru@HD">
+    <display-name>Приключения HD</display-name>
+    <icon src="https://i.imgur.com/qQ6pPPQ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TDK.ru@SD">
+    <display-name>TDK</display-name>
+    <icon src="https://i.imgur.com/8jLLC8h.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="HDMedia.ru@SD">
+    <display-name>HD Медиа</display-name>
+    <icon src="https://i.imgur.com/vEjTNlf.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinopremyera.ru@SD">
+    <display-name>Кинопремьера</display-name>
+    <icon src="https://i.imgur.com/s0UYT8T.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NasheLubimoeKino.ru@SD">
+    <display-name>Любимое кино</display-name>
+    <icon src="https://i.imgur.com/iKPfM5K.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Cinema.ru@SD">
+    <display-name>Cinema</display-name>
+    <icon src="https://i.imgur.com/b5e9qUA.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NationalGeographic.ru@SD">
+    <display-name>National Geographic</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TVXXI.lv@SD">
+    <display-name>TV XXI</display-name>
+    <icon src="https://i.imgur.com/Fja4bWt.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Russia1.ru@SD">
+    <display-name>Россия 1</display-name>
+    <icon src="https://i.imgur.com/Osd2JHL.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FashionTV.ru@SD">
+    <display-name>Fashion TV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Belarus1.by@SD">
+    <display-name>Беларусь 1</display-name>
+    <icon src="https://i.imgur.com/sUD9t5j.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuPlusSport.ru@SD">
+    <display-name>viju+ Sport</display-name>
+    <icon src="https://i.imgur.com/fXESG0l.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BlueHustler.nl@SD">
+    <display-name>Blue Hustler</display-name>
+    <icon src="https://i.imgur.com/G1YaX0Q.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Oruzhie.ru@SD">
+    <display-name>Оружие</display-name>
+    <icon src="https://i.imgur.com/lfJQJqa.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="OceanTV.ru@SD">
+    <display-name>Ocean TV</display-name>
+    <icon src="https://i.imgur.com/zswzDZS.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SanktPeterburg.ru@SD">
+    <display-name>Санкт-Петербург</display-name>
+    <icon src="https://i.imgur.com/9At4oG7.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Unikum.ru@SD">
+    <display-name>Уникум</display-name>
+    <icon src="https://i.imgur.com/kSJZjDL.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="GulliGirl.ru@SD">
+    <display-name>Gulli Girl</display-name>
+    <icon src="https://i.imgur.com/lbViDuC.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DomashnieZhivotnye.ru@SD">
+    <display-name>Домашние животные</display-name>
+    <icon src="https://i.imgur.com/ISJzQGP.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MoyaPlaneta.ru@SD">
+    <display-name>Моя Планета</display-name>
+    <icon src="https://i.imgur.com/uIiAdBv.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Zoopark.ru@SD">
+    <display-name>Zooпарк</display-name>
+    <icon src="https://i.imgur.com/IO5jegK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="EnglishClass.ru@SD">
+    <display-name>English Club TV</display-name>
+    <icon src="https://i.imgur.com/gst7wW7.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RUTV.ru@SD">
+    <display-name>Ru.TV</display-name>
+    <icon src="https://i.imgur.com/Z7HUU7V.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="1352">
+    <display-name>BBC</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Okhotairybalka.ru@SD">
+    <display-name>Охота и рыбалка</display-name>
+    <icon src="https://i.imgur.com/nZwBaeW.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TiJi.ru@SD">
+    <display-name>TiJi</display-name>
+    <icon src="https://i.imgur.com/QCOUJ30.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RTGTV.ru@SD">
+    <display-name>Russian Travel Guide</display-name>
+    <icon src="https://i.imgur.com/ZMKPAho.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuNature.ru@SD">
+    <display-name>viju Nature</display-name>
+    <icon src="https://i.imgur.com/8BPZ18l.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Mama.ru@SD">
+    <display-name>Мама</display-name>
+    <icon src="https://i.imgur.com/kmMIjjf.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RusskiyBestseller.ru@SD">
+    <display-name>Русский бестселлер</display-name>
+    <icon src="https://i.imgur.com/w0ZE9QJ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="PlayboyTVEurope.us@SD">
+    <display-name>Playboy TV</display-name>
+    <icon src="https://i.imgur.com/5di4Nis.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BBCNews.uk@Europe">
+    <display-name>BBC World</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Multilandia.ru@SD">
+    <display-name>Мультиландия</display-name>
+    <icon src="https://i.imgur.com/ccwijY0.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BelRos.ru@SD">
+    <display-name>БелРос</display-name>
+    <icon src="https://i.imgur.com/tUF33HD.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Belarus24.by@SD">
+    <display-name>Беларусь 24</display-name>
+    <icon src="https://i.imgur.com/BP7tY6F.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NTV.ru@SD">
+    <display-name>НТВ</display-name>
+    <icon src="https://i.imgur.com/9r1BKzK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Drive.ru@SD">
+    <display-name>Драйв</display-name>
+    <icon src="https://i.imgur.com/FnuwfSC.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Russkiyroman.ru@SD">
+    <display-name>Русский роман</display-name>
+    <icon src="https://i.imgur.com/cQN0P2B.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchFutbol2.ru@HD">
+    <display-name>МАТЧ! Футбол 2 HD</display-name>
+    <icon src="https://i.imgur.com/WhdGfSo.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FashionOne.uk@HD">
+    <display-name>Fashion One HD</display-name>
+    <icon src="https://i.imgur.com/cyvNhJq.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="France24.fr@French">
+    <display-name>France 24 Francais</display-name>
+    <icon src="https://i.imgur.com/u8N6uoj.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Hollywood.ru@HD">
+    <display-name>Hollywood HD</display-name>
+    <icon src="https://i.imgur.com/1j7cT2I.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TNVPlanet.ru@SD">
+    <display-name>ТНВ-планета</display-name>
+    <icon src="https://i.imgur.com/ijA1zDw.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Prosveshchenie.ru@SD">
+    <display-name>Просвещение</display-name>
+    <icon src="https://i.imgur.com/uppFhhq.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchFutbol1.ru@HD">
+    <display-name>МАТЧ! Футбол 1 HD</display-name>
+    <icon src="https://i.imgur.com/XS2BB02.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NTVMir.ru@SD">
+    <display-name>НТВ Международное</display-name>
+    <icon src="https://i.imgur.com/pUcV46F.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="9Volna.ru@SD">
+    <display-name>ACB TV</display-name>
+    <icon src="https://i.imgur.com/zmnSoBA.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CarouselInternational.ru@SD">
+    <display-name>Карусель International</display-name>
+    <icon src="https://i.imgur.com/DnlngRZ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuPlusPlanet.ru@SD">
+    <display-name>viju+ Planet</display-name>
+    <icon src="https://i.imgur.com/9Weqdsk.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FrenchLover.ru@SD">
+    <display-name>French Lover</display-name>
+    <icon src="https://i.imgur.com/xQXpRtz.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FashionOne.uk@SD">
+    <display-name>Fashion One</display-name>
+    <icon src="https://i.imgur.com/cyvNhJq.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuPlusMegahit.ru@SD">
+    <display-name>viju+ Megahit</display-name>
+    <icon src="https://i.imgur.com/oIQNddV.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TVMall.ru@SD">
+    <display-name>TV Mall</display-name>
+    <icon src="https://i.imgur.com/CRhOb3J.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="black.ru@SD">
+    <display-name>.black</display-name>
+    <icon src="https://i.imgur.com/Q4A6ci4.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="LeomaxPlus.ru@SD">
+    <display-name>Домашний Магазин</display-name>
+    <icon src="https://i.imgur.com/yjBLJvy.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="HustlerHD.nl@SD">
+    <display-name>Hustler HD</display-name>
+    <icon src="https://i.imgur.com/41Ej2io.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Boomerang.ru@SD">
+    <display-name>Boomerang</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TravelPlusAdventure.ru@HD">
+    <display-name>Travel+Adventure HD</display-name>
+    <icon src="https://i.imgur.com/AlpdXC4.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CGTNRussian.cn@SD">
+    <display-name>CGTN Русский</display-name>
+    <icon src="https://i.imgur.com/nDWkCmL.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RostovPapa.ru@SD">
+    <display-name>Ростов-папа</display-name>
+    <icon src="https://i.imgur.com/2JYkoSa.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MTVLive.uk@SD">
+    <display-name>MTV Live International HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/30/MTV_Live_2021_logo.svg" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchFutbol2.ru@SD">
+    <display-name>МАТЧ! Футбол 2</display-name>
+    <icon src="https://i.imgur.com/WhdGfSo.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ShotTV.ru@SD">
+    <display-name>SHOT TV</display-name>
+    <icon src="https://i.imgur.com/MLSG7tA.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="A2.ru@SD">
+    <display-name>А2</display-name>
+    <icon src="https://i.imgur.com/NqHla2V.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Teatr.ru@SD">
+    <display-name>Театр</display-name>
+    <icon src="https://i.imgur.com/nc2ijCH.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="StingrayiConcerts.ca@SD">
+    <display-name>Stingray iConcerts</display-name>
+    <icon src="https://i.imgur.com/GKc7RFz.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TraceSportStars.fr@HD">
+    <display-name>Trace Sports HD</display-name>
+    <icon src="https://i.imgur.com/FabFP5A.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Shop24.ru@SD">
+    <display-name>Shop24</display-name>
+    <icon src="https://i.imgur.com/aTb8v1o.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BabyTV.uk@UK">
+    <display-name>Baby TV</display-name>
+    <icon src="https://i.imgur.com/4BDJ5FT.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Eurosport1.fr@RussiaHD">
+    <display-name>Eurosport 1 HD</display-name>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KHL.ru@HD">
+    <display-name>Телеканал КХЛ HD</display-name>
+    <icon src="https://i.imgur.com/RgdHdOV.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuPlusComedy.ru@SD">
+    <display-name>viju+ Comedy</display-name>
+    <icon src="https://i.imgur.com/YoNOFu7.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NickJr.ru@SD">
+    <display-name>Nick Jr</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NHKWorldJapan.jp@SD">
+    <display-name>NHK WORLD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Nano.ru@SD">
+    <display-name>Нано</display-name>
+    <icon src="https://i.imgur.com/dYj3XDa.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="OutdoorChannel.us@HD">
+    <display-name>Outdoor HD</display-name>
+    <icon src="https://i.imgur.com/Kh4MWaY.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="red.ru@HD">
+    <display-name>.red HD</display-name>
+    <icon src="https://i.imgur.com/GET9Qut.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="1622">
+    <display-name>CNN (eng)</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="GlobalStarTV.ru@SD">
+    <display-name>Global Star</display-name>
+    <icon src="https://i.imgur.com/qu7t9d4.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CBSRealityEMEA.uk@SD">
+    <display-name>CBS Reality</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/CBS_Reality.png/960px-CBS_Reality.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RZDTV.ru@SD">
+    <display-name>РЖД</display-name>
+    <icon src="https://i.imgur.com/lf1r9L6.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ArirangTV.kr@SD">
+    <display-name>Arirang TV</display-name>
+    <icon src="https://i.imgur.com/Asu5pE9.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TBN.ru@SD">
+    <display-name>ТБН</display-name>
+    <icon src="https://i.imgur.com/XAmPtWu.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ShantTV.am@SD">
+    <display-name>SHANT</display-name>
+    <icon src="https://i.imgur.com/AyitGj7.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinosemja.ru@SD">
+    <display-name>Киносемья</display-name>
+    <icon src="https://i.imgur.com/4BF5VeK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CandyTV.ru@SD">
+    <display-name>Candy TV</display-name>
+    <icon src="https://i.imgur.com/oPPYtQl.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KinoTV.ru@SD">
+    <display-name>Кино ТВ</display-name>
+    <icon src="https://i.imgur.com/sMpamNO.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RTDocumentary.ru@Russian">
+    <display-name>Russia Today Documentary</display-name>
+    <icon src="https://i.imgur.com/aeu5zIC.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="EuropaPlusTV.ru@HD">
+    <display-name>Europa Plus TV HD</display-name>
+    <icon src="https://i.imgur.com/GLc4qrc.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Russia1.ru@HD">
+    <display-name>Россия 1 HD</display-name>
+    <icon src="https://i.imgur.com/Osd2JHL.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Evrokino.ru@SD">
+    <display-name>Еврокино</display-name>
+    <icon src="https://i.imgur.com/8LPtPf6.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="OTR.ru@SD">
+    <display-name>ОТР</display-name>
+    <icon src="https://i.imgur.com/VaWlnjZ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Friday.ru@SD">
+    <display-name>Пятница!</display-name>
+    <icon src="https://i.imgur.com/UfmlXxe.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="AmediaPremium.ru@HD">
+    <display-name>Amedia Premium HD</display-name>
+    <icon src="https://i.imgur.com/UUjehw9.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="EchoTV.ru@SD">
+    <display-name>Эхо TV</display-name>
+    <icon src="https://i.imgur.com/YWKJA1O.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ChannelOne.ru@HD">
+    <display-name>Первый канал HD</display-name>
+    <icon src="https://i.imgur.com/RUSX0rX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="VTV.by@SD">
+    <display-name>ВТВ</display-name>
+    <icon src="https://i.imgur.com/9A7SW33.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Belarus3.by@SD">
+    <display-name>Беларусь 3</display-name>
+    <icon src="https://i.imgur.com/JkcDycn.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Ohotnikirybolov.ru@HD">
+    <display-name>Охотник и Рыболов HD</display-name>
+    <icon src="https://i.imgur.com/Bj1jI7F.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CandyTV.ru@HD">
+    <display-name>Candy TV HD</display-name>
+    <icon src="https://i.imgur.com/oPPYtQl.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TravelPlusAdventure.ru@SD">
+    <display-name>Travel+Adventure</display-name>
+    <icon src="https://i.imgur.com/AlpdXC4.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TeleDom.ru@SD">
+    <display-name>Теледом</display-name>
+    <icon src="https://i.imgur.com/071JRrb.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BRIDGEHits.ru@SD">
+    <display-name>BRIDGE TV HITS</display-name>
+    <icon src="https://i.imgur.com/sIW9oR4.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Channel8Belarus.by@SD">
+    <display-name>8 канал</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/33/8channeltv.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="A1.ru@HD">
+    <display-name>А1 HD</display-name>
+    <icon src="https://i.imgur.com/2pAHdAi.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Moyastikhiya.ru@SD">
+    <display-name>Моя стихия</display-name>
+    <icon src="https://i.imgur.com/Sl8c9eB.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="HDMedia3D.ru@SD">
+    <display-name>HD Media 3D</display-name>
+    <icon src="https://i.imgur.com/oJgreUh.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Istoriya.ru@SD">
+    <display-name>История</display-name>
+    <icon src="https://i.imgur.com/eEjPail.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MTV.ru@SD">
+    <display-name>MTV Россия</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Ostrosyuzhetnoye.ru@HD">
+    <display-name>Остросюжетное HD</display-name>
+    <icon src="https://i.imgur.com/NwQ7GBy.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Premialnoe.ru@HD">
+    <display-name>Премиальное HD</display-name>
+    <icon src="https://i.imgur.com/ck4aLBP.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Luxury.ru@SD">
+    <display-name>LUXURY</display-name>
+    <icon src="https://i.imgur.com/nobZa5l.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="PeretzInternational.ru@SD">
+    <display-name>Перец International</display-name>
+    <icon src="https://i.imgur.com/On6ggLe.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BrazzersTVEurope.us@SD">
+    <display-name>Brazzers TV Europe</display-name>
+    <icon src="https://i.imgur.com/95nP0Pb.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Belarus5.by@SD">
+    <display-name>Беларусь 5</display-name>
+    <icon src="https://i.imgur.com/NJsRFud.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CandyManTV.ru@SD">
+    <display-name>Candy Man</display-name>
+    <icon src="https://i.imgur.com/kDfLikT.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ParamountChannelCIS.ru@SD">
+    <display-name>Paramount Channel</display-name>
+    <icon src="https://i.imgur.com/1aZ3rQ2.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ParamountChannelCIS.ru@HD">
+    <display-name>Paramount Channel HD</display-name>
+    <icon src="https://i.imgur.com/1aZ3rQ2.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ParamountComedy.ru@HD">
+    <display-name>Paramount Comedy Russia HD</display-name>
+    <icon src="https://i.imgur.com/Nki62R7.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Avto24.ru@HD">
+    <display-name>Авто 24 HD</display-name>
+    <icon src="https://i.imgur.com/GXSXmN2.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Olala.ru@SD">
+    <display-name>O-la-la</display-name>
+    <icon src="https://i.imgur.com/klra5go.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RusskiyDetektiv.ru@SD">
+    <display-name>Русский Детектив</display-name>
+    <icon src="https://i.imgur.com/H3qhN8S.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="History.ru@HD">
+    <display-name>History HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="History.ru@SD">
+    <display-name>History</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="STSLove.ru@SD">
+    <display-name>СТС Love</display-name>
+    <icon src="https://i.imgur.com/YBVZoDd.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="3ABNRussia.ru@SD">
+    <display-name>Три Ангела</display-name>
+    <icon src="https://i.imgur.com/4fhBbam.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="PlanetaHD.ru@SD">
+    <display-name>Планета HD</display-name>
+    <icon src="https://i.imgur.com/MeYWJu8.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="InvestigationDiscovery.ru@HD">
+    <display-name>ID Investigation Discovery HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchFutbol3.ru@SD">
+    <display-name>МАТЧ! Футбол 3</display-name>
+    <icon src="https://i.imgur.com/P2ReH1u.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KrikTV.ru@SD">
+    <display-name>Крик ТВ</display-name>
+    <icon src="https://i.imgur.com/rtuChZR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="VmesteRF.ru@SD">
+    <display-name>Вместе-РФ</display-name>
+    <icon src="https://i.imgur.com/KI1qZNc.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RTGTV.ru@HD">
+    <display-name>Russian Travel Guide HD</display-name>
+    <icon src="https://i.imgur.com/ZMKPAho.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuPlusSport.ru@HD">
+    <display-name>viju+ Sport HD</display-name>
+    <icon src="https://i.imgur.com/fXESG0l.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="1HDMusicTelevision.ru@SD">
+    <display-name>1 HD Music Television</display-name>
+    <icon src="https://i.imgur.com/4Ww7CsR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Mult.ru@SD">
+    <display-name>Мульт</display-name>
+    <icon src="https://i.imgur.com/xi351Fx.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Mir24.ru@SD">
+    <display-name>МИР 24</display-name>
+    <icon src="https://i.imgur.com/dj9c8Yd.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DiscoveryScienceEurope.uk@RussiaHD">
+    <display-name>Discovery Science HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Candy3DHD.ru@SD">
+    <display-name>Candy 3D HD</display-name>
+    <icon src="https://i.imgur.com/oPPYtQl.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BRIDGEClassic.ru@SD">
+    <display-name>BRIDGE TV CLASSIC</display-name>
+    <icon src="https://i.imgur.com/JJTQq81.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="360.ru@HD">
+    <display-name>Телеканал 360° HD</display-name>
+    <icon src="https://i.imgur.com/VTJqdoX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RTDocumentary.ru@RussianHD">
+    <display-name>Russia Today Doc HD</display-name>
+    <icon src="https://i.imgur.com/aeu5zIC.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Vmirezhivotnykh.ru@SD">
+    <display-name>В мире животных</display-name>
+    <icon src="https://i.imgur.com/6uotdVQ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="PervyyKosmicheskiy.ru@HD">
+    <display-name>Первый Космический HD</display-name>
+    <icon src="https://i.imgur.com/N1Ze5IE.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Zhivayapriroda.ru@SD">
+    <display-name>Живая природа</display-name>
+    <icon src="https://i.imgur.com/9lHQPdN.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BoksTV.ru@SD">
+    <display-name>Бокс ТВ</display-name>
+    <icon src="https://i.imgur.com/R1UjyfX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="StrashnoeHD.ru@SD">
+    <display-name>Страшное HD</display-name>
+    <icon src="https://i.imgur.com/VhI688z.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SetantaSports1.ru@SD">
+    <display-name>Setanta Sports 1</display-name>
+    <icon src="https://i.imgur.com/8ANUZAu.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Bollywood.ru@HD">
+    <display-name>Bollywood HD</display-name>
+    <icon src="https://i.imgur.com/YLQRnXt.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TochkaTV.ru@SD">
+    <display-name>Точка ТВ</display-name>
+    <icon src="https://i.imgur.com/yyNR5jG.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kuban24Orbita.ru@SD">
+    <display-name>Кубань 24 Орбита</display-name>
+    <icon src="https://i.imgur.com/XjJHJjX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="1884">
+    <display-name>Russia Today Documentary HD</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FoodNetwork.ru@SD">
+    <display-name>Food Network</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="LDPRTV.ru@SD">
+    <display-name>ЛДПР ТВ</display-name>
+    <icon src="https://i.imgur.com/gCmCRfe.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="AmediaHit.ru@SD">
+    <display-name>Amedia Hit</display-name>
+    <icon src="https://i.imgur.com/a8ZBGBw.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="T24.ru@SD">
+    <display-name>Техно 24</display-name>
+    <icon src="https://i.imgur.com/1W6R14o.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="EGETV.ru@SD">
+    <display-name>ЕГЭ ТВ</display-name>
+    <icon src="https://i.imgur.com/XxJBLt4.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TVMChannel.ru@SD">
+    <display-name>TVM Channel</display-name>
+    <icon src="https://i.imgur.com/ZX6crqH.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ZhivayaPlaneta.ru@SD">
+    <display-name>Живая планета</display-name>
+    <icon src="https://i.imgur.com/onNv1tM.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MTVRocksEurope.uk@SD">
+    <display-name>MTV Rocks International</display-name>
+    <icon src="https://i.imgur.com/3Gh80hk.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BelBiznesChenel.by@SD">
+    <display-name>БелБизнесЧенел</display-name>
+    <icon src="https://i.imgur.com/LibPNLc.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TV1KG.kg@SD">
+    <display-name>TV1 KG HD</display-name>
+    <icon src="https://i.imgur.com/Mti9t9C.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TNTInternational.ru@SD">
+    <display-name>ТНТ International</display-name>
+    <icon src="https://i.imgur.com/l0RGbRI.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DomkinoPremium.ru@SD">
+    <display-name>Дом Кино Премиум</display-name>
+    <icon src="https://i.imgur.com/rJpQtvK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Miruvlecheniy.ru@SD">
+    <display-name>Мир Увлечений</display-name>
+    <icon src="https://i.imgur.com/tWd8GWU.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Ryzhiy.ru@SD">
+    <display-name>Рыжий</display-name>
+    <icon src="https://i.imgur.com/acrU2IE.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TaynyGalaktiki.ru@SD">
+    <display-name>Тайны галактики</display-name>
+    <icon src="https://i.imgur.com/fR3abSD.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="HopeChannelRussia.ru@SD">
+    <display-name>Надежда</display-name>
+    <icon src="https://i.imgur.com/ah6VnFJ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KapitanFantastika.ru@SD">
+    <display-name>Капитан Фантастика</display-name>
+    <icon src="https://i.imgur.com/K3PSHiT.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RedLine.ru@SD">
+    <display-name>Красная линия</display-name>
+    <icon src="https://i.imgur.com/TgZ8Uv1.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SONGTVArmenia.am@SD">
+    <display-name>SONGTV Armenia</display-name>
+    <icon src="https://i.imgur.com/nM7LbmV.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Bober.ru@SD">
+    <display-name>Бобер</display-name>
+    <icon src="https://i.imgur.com/clWWhB8.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Ani.ru@SD">
+    <display-name>Ani</display-name>
+    <icon src="https://i.imgur.com/i2AP0hp.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Yuvelirochka.ru@SD">
+    <display-name>Ювелирочка</display-name>
+    <icon src="https://i.imgur.com/IcWtXCZ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Muzhskoekino.ru@SD">
+    <display-name>Мужское кино</display-name>
+    <icon src="https://i.imgur.com/8RN3tQC.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Match.ru@SD">
+    <display-name>МАТЧ!</display-name>
+    <icon src="https://i.imgur.com/iKZvKyP.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Che.ru@SD">
+    <display-name>Че</display-name>
+    <icon src="https://i.imgur.com/ZOcDGpB.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Komedia.ru@SD">
+    <display-name>Комедия</display-name>
+    <icon src="https://i.imgur.com/VRC5juh.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TNT4.ru@SD">
+    <display-name>ТНТ4</display-name>
+    <icon src="https://i.imgur.com/gBokU5i.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KaleidoscopeTV.ru@SD">
+    <display-name>Калейдоскоп ТВ</display-name>
+    <icon src="https://i.imgur.com/Ub3gojM.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2113">
+    <display-name>Museum HD</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2116">
+    <display-name>Insight Ultra HD</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchPlaneta.ru@SD">
+    <display-name>МАТЧ! Планета</display-name>
+    <icon src="https://i.imgur.com/vhyMb9D.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchIgra.ru@SD">
+    <display-name>МАТЧ! Игра</display-name>
+    <icon src="https://i.imgur.com/5XWpF19.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchArena.ru@SD">
+    <display-name>МАТЧ! Арена</display-name>
+    <icon src="https://i.imgur.com/udTzwzu.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchArena.ru@HD">
+    <display-name>МАТЧ! Арена HD</display-name>
+    <icon src="https://i.imgur.com/udTzwzu.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ETV.ru@SD">
+    <display-name>E TV</display-name>
+    <icon src="https://i.imgur.com/FbPFS8u.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Konniymir.ru@SD">
+    <display-name>Конный мир</display-name>
+    <icon src="https://i.imgur.com/X6otbK0.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DomashniyInternational.ru@SD">
+    <display-name>Dомашний International</display-name>
+    <icon src="https://i.imgur.com/nf7GRXb.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KVNTV.ru@SD">
+    <display-name>КВН ТВ</display-name>
+    <icon src="https://i.imgur.com/Vw3LFLX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="History2.ru@SD">
+    <display-name>History 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CentralTV.ru@SD">
+    <display-name>Центральное телевидение</display-name>
+    <icon src="https://i.imgur.com/L4FbXTr.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Otkritiymir.ru@SD">
+    <display-name>Открытый мир</display-name>
+    <icon src="https://i.imgur.com/leRGn6D.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TLUM.ru@HD">
+    <display-name>ТЛУМ HD</display-name>
+    <icon src="https://i.imgur.com/jiQIlXz.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FashionOne.uk@4K">
+    <display-name>Fashion One 4K</display-name>
+    <icon src="https://i.imgur.com/cyvNhJq.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Russkiyroman.ru@HD">
+    <display-name>Русский роман HD</display-name>
+    <icon src="https://i.imgur.com/cQN0P2B.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Zhivayapriroda.ru@HD">
+    <display-name>Живая природа HD</display-name>
+    <icon src="https://i.imgur.com/9lHQPdN.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BRIDGEDeluxe.ru@HD">
+    <display-name>BRIDGE TV Deluxe HD</display-name>
+    <icon src="https://i.imgur.com/EazL8w7.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KinoTV.ru@HD">
+    <display-name>Кино ТВ HD</display-name>
+    <icon src="https://i.imgur.com/sMpamNO.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2181">
+    <display-name>Радио Страна ФМ</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2184">
+    <display-name>Eurosport 2 International</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RussianMusicBox.ru@HD">
+    <display-name>RUSSIAN MUSICBOX HD</display-name>
+    <icon src="https://i.imgur.com/ZkJ3Rh9.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="AnekdotTV.ru@SD">
+    <display-name>Анекдот ТВ</display-name>
+    <icon src="https://i.imgur.com/wKfB79s.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SuperGeroi.ru@SD">
+    <display-name>Малыш ТВ</display-name>
+    <icon src="https://i.imgur.com/c0zZUR1.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Noise.ru@SD">
+    <display-name>Noise</display-name>
+    <icon src="https://i.imgur.com/pyqpmZs.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Nashekrutoe.ru@SD">
+    <display-name>Наше Крутое</display-name>
+    <icon src="https://i.imgur.com/EsdRlPM.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NashKinoroman.ru@SD">
+    <display-name>Наш Кинороман</display-name>
+    <icon src="https://i.imgur.com/ri22Rn1.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CCTV4Europe.cn@SD">
+    <display-name>CCTV4</display-name>
+    <icon src="https://i.imgur.com/HGLFdfk.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FoodNetwork.ru@HD">
+    <display-name>Food Network HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Shalun.ru@SD">
+    <display-name>Шалун</display-name>
+    <icon src="https://i.imgur.com/ZjiqOCH.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Shalun.ru@HD">
+    <display-name>Шалун HD</display-name>
+    <icon src="https://i.imgur.com/ZjiqOCH.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Vgostyakhuskazki.ru@SD">
+    <display-name>В гостях у сказки</display-name>
+    <icon src="https://i.imgur.com/jNJkLHl.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NTVLaw.ru@SD">
+    <display-name>НТВ Право</display-name>
+    <icon src="https://i.imgur.com/3ChnWGg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NTVSeries.ru@SD">
+    <display-name>НТВ Сериал</display-name>
+    <icon src="https://i.imgur.com/QdVa8tl.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NTVStyle.ru@SD">
+    <display-name>НТВ Стиль</display-name>
+    <icon src="https://i.imgur.com/rX6K6qT.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="HITV.ru@SD">
+    <display-name>HITV</display-name>
+    <icon src="https://i.imgur.com/Mr9AJxK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="O.ru@SD">
+    <display-name>О!</display-name>
+    <icon src="https://i.imgur.com/pDc665V.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TNT.ru@HD">
+    <display-name>ТНТ HD</display-name>
+    <icon src="https://i.imgur.com/T4A6rEI.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2232">
+    <display-name>Russian Extreme ULTRA HD</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TVRUS.de@SD">
+    <display-name>TVRUS</display-name>
+    <icon src="https://i.imgur.com/2mJKi7g.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Prodvizhenie.ru@SD">
+    <display-name>Продвижение</display-name>
+    <icon src="https://i.imgur.com/KlsnfG9.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Spike.ru@SD">
+    <display-name>Spike</display-name>
+    <icon src="https://i.imgur.com/xOFTcQI.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="WorldBusinessChannel.ru@SD">
+    <display-name>World Business Channel</display-name>
+    <icon src="https://i.imgur.com/ilA7fNx.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="History2.ru@HD">
+    <display-name>History 2 HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Poehali.ru@SD">
+    <display-name>Поехали!</display-name>
+    <icon src="https://i.imgur.com/ZNCpbII.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FilmBoxArthouse.nl@SD">
+    <display-name>FilmBox Arthouse</display-name>
+    <icon src="https://i.imgur.com/hDg35ne.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="7tv.ru@SD">
+    <display-name>7 TV</display-name>
+    <icon src="https://i.imgur.com/Wuy9Vtn.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ArmeniaTV.am@SD">
+    <display-name>Армения ТВ</display-name>
+    <icon src="https://i.imgur.com/UnoI5uM.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Home4K.ru@SD">
+    <display-name>HOME 4K</display-name>
+    <icon src="https://i.imgur.com/3UXk7JR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KBSWorld.kr@SD">
+    <display-name>KBS World</display-name>
+    <icon src="https://i.imgur.com/7DqgELX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2261">
+    <display-name>Fast &amp; FunBox HD</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="EroX.nl@SD">
+    <display-name>Erox</display-name>
+    <icon src="https://i.imgur.com/B9Fz9Yr.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FightBox.nl@SD">
+    <display-name>FightBox</display-name>
+    <icon src="https://i.imgur.com/mRsnztA.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="360TuneBox.nl@SD">
+    <display-name>360 TuneBox</display-name>
+    <icon src="https://i.imgur.com/1Fyezng.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="OhotnikirybolovInt.ru@SD">
+    <display-name>Охотник и Рыболов Int</display-name>
+    <icon src="https://i.imgur.com/XJ3laN8.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2269">
+    <display-name>China TV</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Doctor.ru@SD">
+    <display-name>Доктор</display-name>
+    <icon src="https://i.imgur.com/VNirxxn.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Dialogiorybalke.ru@SD">
+    <display-name>Диалоги о рыбалке</display-name>
+    <icon src="https://i.imgur.com/OuBtnGU.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="PesiKo.ru@SD">
+    <display-name>Пес и Ко</display-name>
+    <icon src="https://i.imgur.com/LWABEiA.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Eurochannel.uk@SD">
+    <display-name>Eurochannel</display-name>
+    <icon src="https://i.imgur.com/yXAtmI6.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NashaSibir.ru@4K">
+    <display-name>Наша Сибирь 4К</display-name>
+    <icon src="https://i.imgur.com/uXOz2d9.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ClubbingTV.us@Russia">
+    <display-name>Clubbing TV</display-name>
+    <icon src="https://i.imgur.com/MyiA92q.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="C4K360.ru@SD">
+    <display-name>C4K360</display-name>
+    <icon src="https://i.imgur.com/A6wKlkM.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Pervyyvegetarianskiy.ru@SD">
+    <display-name>Первый вегетарианский</display-name>
+    <icon src="https://i.imgur.com/lvKlOkm.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TNT.ru@SD">
+    <display-name>ТНТ</display-name>
+    <icon src="https://i.imgur.com/T4A6rEI.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MovieClassic.ru@SD">
+    <display-name>Классика Кино</display-name>
+    <icon src="https://i.imgur.com/bMLz7xx.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Izvestia.ru@SD">
+    <display-name>Известия</display-name>
+    <icon src="https://i.imgur.com/r5HzA6J.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Neizvestnayaplaneta.ru@SD">
+    <display-name>Неизвестная Планета</display-name>
+    <icon src="https://i.imgur.com/SBF8WXi.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="VostokTV.ru@SD">
+    <display-name>Восток ТВ</display-name>
+    <icon src="https://i.imgur.com/X1RysL8.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="EurosportGold.ru@SD">
+    <display-name>Eurosport Gold</display-name>
+    <icon src="https://i.imgur.com/XPYugNF.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Ratnik.ru@SD">
+    <display-name>Ратник</display-name>
+    <icon src="https://i.imgur.com/vhLQtSd.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Dikij.ru@SD">
+    <display-name>Дикий</display-name>
+    <icon src="https://i.imgur.com/VDXDiPC.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BarelyLegalTV.us@SD">
+    <display-name>Barely legal</display-name>
+    <icon src="https://i.imgur.com/pSROUaB.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Dorama.ru@HD">
+    <display-name>Дорама HD</display-name>
+    <icon src="https://i.imgur.com/ZH5LuXU.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Start.ru@SD">
+    <display-name>Старт</display-name>
+    <icon src="https://i.imgur.com/VBqVkno.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BigAsia.ru@SD">
+    <display-name>Большая Азия</display-name>
+    <icon src="https://i.imgur.com/vruuPKF.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FreshTV.ru@SD">
+    <display-name>FRESHTV</display-name>
+    <icon src="https://i.imgur.com/PDNUztS.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="LyubimoeTV.ru@SD">
+    <display-name>Любимое.ТВ</display-name>
+    <icon src="https://i.imgur.com/JJv81ZP.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TVTURTV.ru@SD">
+    <display-name>ТВТУР</display-name>
+    <icon src="https://i.imgur.com/ut3rvDk.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Dikayarybalka.ru@HD">
+    <display-name>Дикая рыбалка HD</display-name>
+    <icon src="https://i.imgur.com/e3BFVgt.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Dikayaokhota.ru@HD">
+    <display-name>Дикая охота HD</display-name>
+    <icon src="https://i.imgur.com/EOue13e.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Detskimir.ru@SD">
+    <display-name>Детский мир</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Logo_Detskiy_Mir_15_January_2013.jpg" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="StingrayFestival4K.ca@SD">
+    <display-name>Festival 4K</display-name>
+    <icon src="https://i.imgur.com/qDYEE8r.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BabesTV.us@SD">
+    <display-name>Babes TV</display-name>
+    <icon src="https://i.imgur.com/XK19a9v.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="EurosportGold.ru@HD">
+    <display-name>Eurosport Gold HD</display-name>
+    <icon src="https://i.imgur.com/XPYugNF.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DivingTV.ru@SD">
+    <display-name>Дайвинг.TV</display-name>
+    <icon src="https://i.imgur.com/gCBkbZE.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Multimuzyka.ru@SD">
+    <display-name>Мультимузыка</display-name>
+    <icon src="https://i.imgur.com/SYt6BZP.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Subbota.ru@SD">
+    <display-name>Суббота!</display-name>
+    <icon src="https://i.imgur.com/nsk8PpB.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Tochkaotryva.ru@SD">
+    <display-name>Точка отрыва</display-name>
+    <icon src="https://i.imgur.com/TZiBQDK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RENTVInternational.ru@SD">
+    <display-name>РЕН ТВ International</display-name>
+    <icon src="https://i.imgur.com/gBjk9oF.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SerialUHD.ru@SD">
+    <display-name>Сериал Ultra HD</display-name>
+    <icon src="https://i.imgur.com/Pvwm31r.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KinoUHD.ru@SD">
+    <display-name>Кино Ultra HD</display-name>
+    <icon src="https://i.imgur.com/kC4HixZ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ZagorodnyyInt.ru@SD">
+    <display-name>Загородный Int</display-name>
+    <icon src="https://i.imgur.com/n7zOS06.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MMATVcom.ru@SD">
+    <display-name>M1 GLOBAL</display-name>
+    <icon src="https://i.imgur.com/QhdxNsB.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NTVHit.ru@SD">
+    <display-name>НТВ Хит</display-name>
+    <icon src="https://i.imgur.com/FfKBvz5.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MosObrTV.ru@SD">
+    <display-name>Московский образовательный</display-name>
+    <icon src="https://i.imgur.com/t6PmOD5.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2356">
+    <display-name>Foodman.club</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Channel5International.ru@SD">
+    <display-name>Пятый International</display-name>
+    <icon src="https://i.imgur.com/KPXMa3U.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ZharPtitsa.ru@SD">
+    <display-name>Жар Птица</display-name>
+    <icon src="https://i.imgur.com/19R470V.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MotorsportTV.ru@SD">
+    <display-name>Motorsport.tv</display-name>
+    <icon src="https://i.imgur.com/DtgJKxN.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="UltraHDCinema.ru@SD">
+    <display-name>Russian Extreme TV ULTRA HD CINEMA</display-name>
+    <icon src="https://i.imgur.com/1oxzSNz.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SvetloeTV.by@SD">
+    <display-name>Светлое ТВ</display-name>
+    <icon src="https://i.imgur.com/75cfvJt.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="STSkids.ru@SD">
+    <display-name>СТС Kids</display-name>
+    <icon src="https://i.imgur.com/o9kLpAL.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchPremier.ru@SD">
+    <display-name>МАТЧ! Премьер</display-name>
+    <icon src="https://i.imgur.com/GQPyHYK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2386">
+    <display-name>Хабар 24</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Nano.ru@HD">
+    <display-name>NANO HD</display-name>
+    <icon src="https://i.imgur.com/dYj3XDa.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2399">
+    <display-name>Eurosport 4K</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Bolt.ru@SD">
+    <display-name>BOLT</display-name>
+    <icon src="https://i.imgur.com/YdIHXOR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="360News.ru@SD">
+    <display-name>360° Новости</display-name>
+    <icon src="https://i.imgur.com/YXDeX8q.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Rai1.it@SD">
+    <display-name>Rai 1</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Tayna.ru@SD">
+    <display-name>Тайна</display-name>
+    <icon src="https://i.imgur.com/S5BNJMp.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TVBRICSRussian.ru@SD">
+    <display-name>TV BRICS</display-name>
+    <icon src="https://i.imgur.com/vLpm8tN.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2416">
+    <display-name>Смайлик ТВ</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2420">
+    <display-name>Deutsche Welle (Rus)</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SovetskoeKino.ru@SD">
+    <display-name>Советское кино</display-name>
+    <icon src="https://i.imgur.com/uqnTowX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Sovetskiemultfilmi.ru@SD">
+    <display-name>Советские мультфильмы</display-name>
+    <icon src="https://i.imgur.com/y3zposB.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="VkusnoeTV.ru@SD">
+    <display-name>Вкусное TV</display-name>
+    <icon src="https://i.imgur.com/rh2r13k.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Skazkizayki.ru@SD">
+    <display-name>Сказки Зайки</display-name>
+    <icon src="https://i.imgur.com/wwIWW7U.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Romantichnoe.ru@HD">
+    <display-name>Романтичное HD</display-name>
+    <icon src="https://i.imgur.com/ruacPMS.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2437">
+    <display-name>Мир вокруг HD</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FAN.ru@SD">
+    <display-name>FAN</display-name>
+    <icon src="https://i.imgur.com/mDeTbaF.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Nicktoons.ru@SD">
+    <display-name>NickToons</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="JoyCook.ru@SD">
+    <display-name>JOY COOK</display-name>
+    <icon src="https://i.imgur.com/ULgwS9H.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TerraInkognita.ru@SD">
+    <display-name>Терра Инкогнита</display-name>
+    <icon src="https://i.imgur.com/wwQmcVL.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NashaTema.ru@SD">
+    <display-name>Наша Тема</display-name>
+    <icon src="https://i.imgur.com/67ZVDKW.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2451">
+    <display-name>The World Live</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuPlusSerial.ru@SD">
+    <display-name>viju+ Serial</display-name>
+    <icon src="https://i.imgur.com/8yXZET5.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SetantaSports2.ru@SD">
+    <display-name>Setanta Sports 2</display-name>
+    <icon src="https://i.imgur.com/NOBACb6.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NationalGeographic.ru@HD">
+    <display-name>NGC HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="EuropaPlusTV.ru@SD">
+    <display-name>Europa Plus TV</display-name>
+    <icon src="https://i.imgur.com/GLc4qrc.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MirBasketbola.ru@SD">
+    <display-name>Мир Баскетбола</display-name>
+    <icon src="https://i.imgur.com/Tn6M609.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="OKino.ru@SD">
+    <display-name>О!Кино</display-name>
+    <icon src="https://i.imgur.com/0VslPj9.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="AIVATV.ru@SD">
+    <display-name>AIVA</display-name>
+    <icon src="https://i.imgur.com/Wt88mg6.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BeautyTV.ru@SD">
+    <display-name>Бьюти.TV</display-name>
+    <icon src="https://i.imgur.com/BrwtVBa.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchStrana.ru@SD">
+    <display-name>МАТЧ! Страна</display-name>
+    <icon src="https://i.imgur.com/X02s2UE.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SONGTVRussia.ru@SD">
+    <display-name>SONGTV Russia</display-name>
+    <icon src="https://i.imgur.com/nM7LbmV.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Pobeda.ru@SD">
+    <display-name>Победа</display-name>
+    <icon src="https://i.imgur.com/4KiYSln.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ShantMusic.ru@SD">
+    <display-name>Shant Music</display-name>
+    <icon src="https://i.imgur.com/4vHOdTN.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinoman.ru@SD">
+    <display-name>Киноман</display-name>
+    <icon src="https://i.imgur.com/38yMv7L.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Russia24.ru@SD">
+    <display-name>Россия 24</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RENTV.ru@HD">
+    <display-name>РЕН ТВ HD</display-name>
+    <icon src="https://i.imgur.com/0Tu5lte.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ChannelOneCIS.ru@SD">
+    <display-name>Первый СНГ</display-name>
+    <icon src="https://i.imgur.com/RUSX0rX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RZDTV.ru@HD">
+    <display-name>РЖД HD</display-name>
+    <icon src="https://i.imgur.com/lf1r9L6.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Dikayarybalka.ru@SD">
+    <display-name>Дикая рыбалка</display-name>
+    <icon src="https://i.imgur.com/e3BFVgt.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Dikayaokhota.ru@SD">
+    <display-name>Дикая охота</display-name>
+    <icon src="https://i.imgur.com/EOue13e.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NTV.ru@HD">
+    <display-name>НТВ HD</display-name>
+    <icon src="https://i.imgur.com/9r1BKzK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TNT4International.ru@SD">
+    <display-name>ТНТ4 international</display-name>
+    <icon src="https://i.imgur.com/SjdOaya.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Lyubimoe.ru@SD">
+    <display-name>Любимое SD</display-name>
+    <icon src="https://i.imgur.com/qWK6WvG.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchPremier.ru@HD">
+    <display-name>МАТЧ! Премьер HD</display-name>
+    <icon src="https://i.imgur.com/GQPyHYK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DiscoveryChannel.ru@HD">
+    <display-name>Discovery HD Showcase</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MTV.ru@HD">
+    <display-name>MTV Россия HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MTVGlobal.uk@SD">
+    <display-name>MTV European</display-name>
+    <icon src="https://i.imgur.com/n2BoU7Q.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Fox.ru@HD">
+    <display-name>FOX HD</display-name>
+    <icon src="https://i.imgur.com/nr1Y67Z.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchIgra.ru@HD">
+    <display-name>Матч! Игра HD</display-name>
+    <icon src="https://i.imgur.com/5XWpF19.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MatchFutbol3.ru@HD">
+    <display-name>МАТЧ! Футбол 3 HD</display-name>
+    <icon src="https://i.imgur.com/P2ReH1u.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Match.ru@HD">
+    <display-name>МАТЧ! HD</display-name>
+    <icon src="https://i.imgur.com/iKZvKyP.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Balastan.kg@SD">
+    <display-name>ОТРК Баластан</display-name>
+    <icon src="https://i.imgur.com/D5ylCiX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Madaniyat.kg@SD">
+    <display-name>ОТРК Маданият</display-name>
+    <icon src="https://i.imgur.com/nMbzmos.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Music.kg@SD">
+    <display-name>ОТРК Музыка</display-name>
+    <icon src="https://www.utrk.kg/img/stream/45.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="AlJazeera.qa@English">
+    <display-name>Al JaZeera</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Mir24.ru@HD">
+    <display-name>МИР 24 HD</display-name>
+    <icon src="https://i.imgur.com/dj9c8Yd.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="StarFamily.ru@SD">
+    <display-name>Star Family</display-name>
+    <icon src="https://i.imgur.com/eGuGHnZ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="StarCinema.ru@SD">
+    <display-name>Star Cinema</display-name>
+    <icon src="https://i.imgur.com/5sis895.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Tochkaotryva.ru@HD">
+    <display-name>Точка отрыва HD</display-name>
+    <icon src="https://i.imgur.com/TZiBQDK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Russiannight.ru@HD">
+    <display-name>Русская ночь HD</display-name>
+    <icon src="https://i.imgur.com/Q6xebjQ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ShantSerial.ru@SD">
+    <display-name>Shant TV Сериал</display-name>
+    <icon src="https://i.imgur.com/ZzgNyLK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TV1000.ru@HD">
+    <display-name>DTV TV1000 HD</display-name>
+    <icon src="https://i.imgur.com/GHNsctR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="AmediaHit.ru@HD">
+    <display-name>Amedia Hit HD</display-name>
+    <icon src="https://i.imgur.com/a8ZBGBw.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="AmediaPremium.ru@SD">
+    <display-name>Amedia Premium</display-name>
+    <icon src="https://i.imgur.com/UUjehw9.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Animaux.fr@SD">
+    <display-name>Animaux</display-name>
+    <icon src="https://i.imgur.com/FM9FVAG.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KarapuzTV.ru@SD">
+    <display-name>Карапуз ТВ</display-name>
+    <icon src="https://i.imgur.com/7nSbEVv.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Dorama.ru@SD">
+    <display-name>Дорама</display-name>
+    <icon src="https://i.imgur.com/ZH5LuXU.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RT.ru@HD">
+    <display-name>Russia Today HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Belarus5.by@HD">
+    <display-name>Беларусь 5 HD</display-name>
+    <icon src="https://i.imgur.com/NJsRFud.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Belarus24.by@HD">
+    <display-name>Беларусь 24 HD</display-name>
+    <icon src="https://i.imgur.com/BP7tY6F.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RTViArchive.ru@SD">
+    <display-name>RTVi Архив</display-name>
+    <icon src="https://i.imgur.com/Ux50nNS.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinozal1.ru@SD">
+    <display-name>Кинозал 1</display-name>
+    <icon src="https://i.imgur.com/VWGCbga.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinozal2.ru@SD">
+    <display-name>Кинозал 2</display-name>
+    <icon src="https://i.imgur.com/6oowLCN.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinozal3.ru@SD">
+    <display-name>Кинозал 3</display-name>
+    <icon src="https://i.imgur.com/3tBCcJR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinozal4.ru@SD">
+    <display-name>Кинозал 4</display-name>
+    <icon src="https://i.imgur.com/Jk9v9CK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinozal5.ru@SD">
+    <display-name>Кинозал 5</display-name>
+    <icon src="https://i.imgur.com/OVmNvQi.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinozal6.ru@SD">
+    <display-name>Кинозал 6</display-name>
+    <icon src="https://i.imgur.com/S2P8HjF.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinozal7.ru@SD">
+    <display-name>Кинозал 7</display-name>
+    <icon src="https://i.imgur.com/ZXMYzu1.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinozal8.ru@SD">
+    <display-name>Кинозал 8</display-name>
+    <icon src="https://i.imgur.com/7F4haN4.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinozal9.ru@SD">
+    <display-name>Кинозал 9</display-name>
+    <icon src="https://i.imgur.com/yu7AImn.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinozal10.ru@SD">
+    <display-name>Кинозал 10</display-name>
+    <icon src="https://i.imgur.com/VckUlso.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinozal11.ru@SD">
+    <display-name>Кинозал 11</display-name>
+    <icon src="https://i.imgur.com/QkyJsTE.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinozal12.ru@SD">
+    <display-name>Кинозал 12</display-name>
+    <icon src="https://i.imgur.com/zBC29LR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Evrokino.ru@HD">
+    <display-name>Еврокино HD</display-name>
+    <icon src="https://i.imgur.com/8LPtPf6.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TraceUrban.fr@HD">
+    <display-name>Trace Urban HD</display-name>
+    <icon src="https://i.imgur.com/DLIbUMx.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RedlightHD.nl@SD">
+    <display-name>Redlight</display-name>
+    <icon src="https://i.imgur.com/g0QF5IG.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TV3International.ru@SD">
+    <display-name>ТВ-3 International</display-name>
+    <icon src="https://i.imgur.com/MAVIP8e.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="WorldBusinessChannel.ru@HD">
+    <display-name>World Business Channel HD</display-name>
+    <icon src="https://i.imgur.com/ilA7fNx.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FashionBox.nl@HD">
+    <display-name>FashionBox HD</display-name>
+    <icon src="https://i.imgur.com/Taqj4yi.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="A1.ru@SD">
+    <display-name>А1</display-name>
+    <icon src="https://i.imgur.com/2pAHdAi.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Eurosport2.fr@RussiaHD">
+    <display-name>EuroSport 2 HD</display-name>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Eurosport2.fr@Russia">
+    <display-name>EuroSport 2</display-name>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DAR21.am@SD">
+    <display-name>21TV</display-name>
+    <icon src="https://i.imgur.com/F7YP7cX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="YerkirMedia.am@SD">
+    <display-name>Yerkir Media</display-name>
+    <icon src="https://i.imgur.com/KqkOz6H.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KentronTV.am@SD">
+    <display-name>Kentron TV</display-name>
+    <icon src="https://i.imgur.com/eCaxBFn.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ShoghakatTV.am@SD">
+    <display-name>Shoghakat</display-name>
+    <icon src="https://i.imgur.com/U6Bs4wt.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ArmNews.am@SD">
+    <display-name>ArmNews</display-name>
+    <icon src="https://i.imgur.com/wEYG6pw.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KBSWorld.kr@HD">
+    <display-name>KBS World HD</display-name>
+    <icon src="https://i.imgur.com/7DqgELX.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="PenthouseTV.us@SD">
+    <display-name>Penthouse</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Penthouse_TV.svg/960px-Penthouse_TV.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RussianExtreme.ru@HD">
+    <display-name>Русский Экстрим HD</display-name>
+    <icon src="https://i.imgur.com/hJK7mOW.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="AzTV.az@SD">
+    <display-name>AzTV</display-name>
+    <icon src="https://i.imgur.com/snBMMeH.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="IctimaiTV.az@SD">
+    <display-name>Ictimai TV</display-name>
+    <icon src="https://i.imgur.com/HzY4VMo.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MedeniyyetTV.az@SD">
+    <display-name>Medeniyyet TV</display-name>
+    <icon src="https://i.imgur.com/PlvaDIa.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Football.ru@HD">
+    <display-name>Футбол HD</display-name>
+    <icon src="https://i.imgur.com/pEuaZVx.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Life.ru@HD">
+    <display-name>LifeNews HD</display-name>
+    <icon src="https://i.imgur.com/HrbmOKb.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NashaSibir.ru@HD">
+    <display-name>Наша сибирь HD</display-name>
+    <icon src="https://i.imgur.com/uXOz2d9.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Moyastikhiya.ru@HD">
+    <display-name>Моя стихия HD</display-name>
+    <icon src="https://i.imgur.com/Sl8c9eB.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Bollywood.ru@SD">
+    <display-name>Bollywood</display-name>
+    <icon src="https://i.imgur.com/YLQRnXt.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Sila.ru@HD">
+    <display-name>Сила ТВ</display-name>
+    <icon src="https://i.imgur.com/xS4Bp3Y.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SpaceTV.az@SD">
+    <display-name>Space TV</display-name>
+    <icon src="https://i.imgur.com/ufvVQJH.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Muzhskoekino.ru@HD">
+    <display-name>Мужское кино HD</display-name>
+    <icon src="https://i.imgur.com/8RN3tQC.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Zhivi.ru@HD">
+    <display-name>Живи! HD</display-name>
+    <icon src="https://i.imgur.com/LPqySGk.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="XezerTV.az@SD">
+    <display-name>Xezer</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/9/97/X%C9%99z%C9%99r_TV_Logo.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2826">
+    <display-name>Xezer HD</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2829">
+    <display-name>AR TV</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="UTRK.kg@SD">
+    <display-name>КТРК</display-name>
+    <icon src="https://i.ibb.co/VJ7cPRH/Xp5clCA.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Sport.kg@SD">
+    <display-name>КТРК Спорт</display-name>
+    <icon src="https://i.imgur.com/ORCu0w0.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DorcelTV.nl@SD">
+    <display-name>Dorcel TV</display-name>
+    <icon src="https://i.imgur.com/RkzyjEd.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CBC.az@SD">
+    <display-name>CBC</display-name>
+    <icon src="https://i.imgur.com/wVT0dwO.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ElTR.kg@SD">
+    <display-name>ЭлТр</display-name>
+    <icon src="https://i.ibb.co/r6czQwQ/365049798-774721644658455-5702658175909463406-n-2.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BelsatTV.pl@SD">
+    <display-name>BELSAT TV</display-name>
+    <icon src="https://i.imgur.com/qJyjSR6.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NasheTV.by@SD">
+    <display-name>Наше ТВ</display-name>
+    <icon src="https://i.imgur.com/FnoSJdh.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="M6.ch@HD">
+    <display-name>M6 Suisse HD</display-name>
+    <icon src="https://i.imgur.com/7GVp3fW.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Avto24.ru@SD">
+    <display-name>Авто 24</display-name>
+    <icon src="https://i.imgur.com/GXSXmN2.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Konniymir.ru@HD">
+    <display-name>Конный мир HD</display-name>
+    <icon src="https://i.imgur.com/X6otbK0.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Luxury.ru@HD">
+    <display-name>Luxury HD</display-name>
+    <icon src="https://i.imgur.com/nobZa5l.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="5TV.am@SD">
+    <display-name>5 TV</display-name>
+    <icon src="https://i.imgur.com/jOGZZDo.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NorHayastanTV.am@SD">
+    <display-name>Nor Hayastan</display-name>
+    <icon src="https://i.imgur.com/QH7VytI.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinomix.ru@HD">
+    <display-name>Киномикс HD</display-name>
+    <icon src="https://i.imgur.com/D4q2XUT.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2864">
+    <display-name>Скиф</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2865">
+    <display-name>Travel XP HD</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FineLiving.ru@HD">
+    <display-name>Fine Living HD</display-name>
+    <icon src="https://i.imgur.com/6hHTYV5.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinopremyera.ru@HD">
+    <display-name>Кинопремьера HD</display-name>
+    <icon src="https://i.imgur.com/s0UYT8T.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2870">
+    <display-name>Muzzon TV</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="365daysTV.ru@HD">
+    <display-name>365 дней ТВ HD</display-name>
+    <icon src="https://i.imgur.com/NfnAiTR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DomkinoPremium.ru@HD">
+    <display-name>Дом кино Премиум HD</display-name>
+    <icon src="https://i.imgur.com/rJpQtvK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Domkino.ru@HD">
+    <display-name>Дом кино HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png/960px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinopokaz.ru@SD">
+    <display-name>Кинопоказ</display-name>
+    <icon src="https://i.imgur.com/nNjMyAq.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kino24.ru@SD">
+    <display-name>KINO24</display-name>
+    <icon src="https://i.imgur.com/QAdDARF.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ArmeniaTV.am@HD">
+    <display-name>Армения ТВ HD</display-name>
+    <icon src="https://i.imgur.com/UnoI5uM.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MMATVcom.ru@HD">
+    <display-name>M1 Global HD</display-name>
+    <icon src="https://i.imgur.com/QhdxNsB.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MotorsportTV.ru@HD">
+    <display-name>Motorsport.tv HD</display-name>
+    <icon src="https://i.imgur.com/DtgJKxN.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="AngelTV.in@Russian">
+    <display-name>Angel TV</display-name>
+    <icon src="https://i.imgur.com/qKLEGU7.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="StingrayiConcerts.ca@HD">
+    <display-name>Stingray iConcerts HD</display-name>
+    <icon src="https://i.imgur.com/GKc7RFz.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FAN.ru@HD">
+    <display-name>FAN HD</display-name>
+    <icon src="https://i.imgur.com/mDeTbaF.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Pro100TV.ru@SD">
+    <display-name>Pro100TV</display-name>
+    <icon src="https://i.imgur.com/YfQEflM.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2899">
+    <display-name>+ТВ</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="YASNAeTV.by@SD">
+    <display-name>ЯСНАе ТV</display-name>
+    <icon src="https://i.imgur.com/AmONjVc.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="PrivateSpice.fr@SD">
+    <display-name>Private Spice</display-name>
+    <icon src="https://i.imgur.com/nP9dmhS.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Vitebsk.by@SD">
+    <display-name>Витебск</display-name>
+    <icon src="https://i.imgur.com/qr26qQn.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TeleDom.ru@HD">
+    <display-name>Теледом HD</display-name>
+    <icon src="https://i.imgur.com/071JRrb.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FastFunBox.nl@SD">
+    <display-name>Fast &amp; FunBox</display-name>
+    <icon src="https://i.imgur.com/a9ZtP17.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="LidaTV.by@SD">
+    <display-name>Лида ТВ</display-name>
+    <icon src="https://i.imgur.com/ii1IFQJ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2934">
+    <display-name>Fitnes TV</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2943">
+    <display-name>USArmenia</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ATV.am@SD">
+    <display-name>ATV</display-name>
+    <icon src="https://i.imgur.com/xrqFEou.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2945">
+    <display-name>ARTN</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ATVHayTV.am@SD">
+    <display-name>HAY TV</display-name>
+    <icon src="https://static.wikia.nocookie.net/logopedia/images/9/9c/Atvnew.png/revision/latest/scale-to-width-down/512" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ATVFilmzone.am@SD">
+    <display-name>FILMZONE</display-name>
+    <icon src="https://static.wikia.nocookie.net/logopedia/images/9/9c/Atvnew.png/revision/latest/scale-to-width-down/512" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ATVTavaTV.am@SD">
+    <display-name>TAVA TV</display-name>
+    <icon src="https://static.wikia.nocookie.net/logopedia/images/9/9c/Atvnew.png/revision/latest/scale-to-width-down/512" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SetantaSports1.ru@HD">
+    <display-name>Setanta Sports 1 HD</display-name>
+    <icon src="https://i.imgur.com/8ANUZAu.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="SetantaSports2.ru@HD">
+    <display-name>Setanta Sports 2 HD</display-name>
+    <icon src="https://i.imgur.com/NOBACb6.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="AlaToo24.kg@SD">
+    <display-name>Ала-Тоо 24</display-name>
+    <icon src="https://i.imgur.com/vBPmUQA.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ATVKinoman.am@SD">
+    <display-name>KINOMAN TV</display-name>
+    <icon src="https://static.wikia.nocookie.net/logopedia/images/9/9c/Atvnew.png/revision/latest/scale-to-width-down/512" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TBNArmenia.us@SD">
+    <display-name>ТБН</display-name>
+    <icon src="https://i.imgur.com/U5XsT3j.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="LuysTV.tr@SD">
+    <display-name>Luys</display-name>
+    <icon src="https://i.imgur.com/9EruWIQ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Premialnoe.ru@SD">
+    <display-name>Премиальное SD</display-name>
+    <icon src="https://i.imgur.com/ck4aLBP.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Ostrosyuzhetnoye.ru@SD">
+    <display-name>Остросюжетное SD</display-name>
+    <icon src="https://i.imgur.com/NwQ7GBy.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="EnglishClass.ru@HD">
+    <display-name>English Club HD</display-name>
+    <icon src="https://i.imgur.com/gst7wW7.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="2988">
+    <display-name>Live Music Channel HD</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DikijInternational.ru@SD">
+    <display-name>Дикий International</display-name>
+    <icon src="https://i.imgur.com/ayk6UWv.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Armenia1.am@SD">
+    <display-name>H1</display-name>
+    <icon src="https://i.imgur.com/HIwJ4lc.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Armenia1.am@SD">
+    <display-name>H1</display-name>
+    <icon src="https://i.imgur.com/HIwJ4lc.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="YerkirMedia.am@SD">
+    <display-name>Еркир Медиа</display-name>
+    <icon src="https://i.imgur.com/KqkOz6H.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ARBGunes.az@SD">
+    <display-name>ARB Gunes</display-name>
+    <icon src="https://i.imgur.com/dSg7KUK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Varjag.by@SD">
+    <display-name>Варяг</display-name>
+    <icon src="https://i.imgur.com/qA5bUSm.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ATVBazmocTV.am@SD">
+    <display-name>Bazmoc TV</display-name>
+    <icon src="https://i.imgur.com/bMGwT7V.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NHKWorldJapan.jp@HD">
+    <display-name>NHK World HD</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ICFN.us@SD">
+    <display-name>ICFN TV</display-name>
+    <icon src="https://i.imgur.com/dPzESqs.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ARB.az@SD">
+    <display-name>ARB TV</display-name>
+    <icon src="https://i.imgur.com/E97M2OL.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CBCSport.az@HD">
+    <display-name>CBC Sport HD</display-name>
+    <icon src="https://i.imgur.com/3mEdjuq.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Podyolkoy.ru@HD">
+    <display-name>Под елкой HD</display-name>
+    <icon src="https://i.imgur.com/t3b0Uai.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinouzhas.ru@SD">
+    <display-name>Киноужас</display-name>
+    <icon src="https://i.imgur.com/mAcAAQF.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Arsenal.ru@SD">
+    <display-name>Арсенал</display-name>
+    <icon src="https://i.imgur.com/DBpVeb0.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="LoveNature.ca@SD">
+    <display-name>Love Nature</display-name>
+    <icon src="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KinoSezon.ru@SD">
+    <display-name>КиноСезон</display-name>
+    <icon src="https://i.imgur.com/pk8PMUh.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="IdmanTV.az@SD">
+    <display-name>Idman</display-name>
+    <icon src="https://i.imgur.com/fM9FOrZ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CGTN.cn@SD">
+    <display-name>CGTN</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NashKinopokaz.ru@HD">
+    <display-name>Наш Кинопоказ HD</display-name>
+    <icon src="https://i.imgur.com/iwTMl8O.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Blokbaster.ru@HD">
+    <display-name>Блокбастер HD</display-name>
+    <icon src="https://i.imgur.com/KcOi4Os.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Nashemuzhskoe.ru@HD">
+    <display-name>Наше мужское HD</display-name>
+    <icon src="https://i.imgur.com/QRWKpmb.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ProLyubov.ru@SD">
+    <display-name>Про любовь</display-name>
+    <icon src="https://i.imgur.com/QpIGAT0.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Hit.ru@HD">
+    <display-name>Хит HD</display-name>
+    <icon src="https://i.imgur.com/jl3MNPe.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kamedi.ru@SD">
+    <display-name>Камеди</display-name>
+    <icon src="https://i.imgur.com/UU4SGuk.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TrashTV.ru@SD">
+    <display-name>Trash</display-name>
+    <icon src="https://i.imgur.com/jnUD3ak.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="NashKinopokaz.ru@SD">
+    <display-name>Наш Кинопоказ</display-name>
+    <icon src="https://i.imgur.com/iwTMl8O.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Nashemuzhskoe.ru@SD">
+    <display-name>Наше мужское</display-name>
+    <icon src="https://i.imgur.com/QRWKpmb.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Blokbaster.ru@SD">
+    <display-name>Блокбастер</display-name>
+    <icon src="https://i.imgur.com/KcOi4Os.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Hit.ru@SD">
+    <display-name>Хит</display-name>
+    <icon src="https://i.imgur.com/jl3MNPe.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MosfilmGoldCollection.ru@SD">
+    <display-name>Мосфильм. Золотая коллекция</display-name>
+    <icon src="https://i.imgur.com/95Y8jb6.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kluch.ru@SD">
+    <display-name>Ключ</display-name>
+    <icon src="https://i.imgur.com/WA9TOPi.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FlixSnip.ru@SD">
+    <display-name>FlixSnip</display-name>
+    <icon src="https://i.imgur.com/UVKX2rd.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Zalsuda.ru@SD">
+    <display-name>Зал суда</display-name>
+    <icon src="https://i.imgur.com/KON0z08.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="3172">
+    <display-name>Gagsnetwork</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KinoJam1.ru@SD">
+    <display-name>KinoJam 1</display-name>
+    <icon src="https://i.imgur.com/6HQFM4m.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="KinoJam2.ru@SD">
+    <display-name>KinoJam 2</display-name>
+    <icon src="https://i.imgur.com/4oWsuJn.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TimelessDiziChannel.ru@SD">
+    <display-name>Timeless Dizi Channel</display-name>
+    <icon src="https://i.imgur.com/s3Sqd4L.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="MoskvaOtkrytyymir.ru@SD">
+    <display-name>ТВ Центр Открытый МИР</display-name>
+    <icon src="https://i.imgur.com/NJUtR9e.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ATV.am@SD">
+    <display-name>ATV</display-name>
+    <icon src="https://i.imgur.com/xrqFEou.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ZvezdaPlus.ru@SD">
+    <display-name>Звезда Плюс</display-name>
+    <icon src="https://i.imgur.com/NNmjD9Z.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ClassicMusic.ru@SD">
+    <display-name>Classic Music</display-name>
+    <icon src="https://i.imgur.com/TpXs1qA.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="DumaTV.ru@SD">
+    <display-name>Дума ТВ</display-name>
+    <icon src="https://i.imgur.com/JvlO3PU.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BigPlanet.ru@HD">
+    <display-name>Big Planet HD</display-name>
+    <icon src="https://i.imgur.com/wyuqWTR.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Saphire.ru@SD">
+    <display-name>Сапфир</display-name>
+    <icon src="https://i.imgur.com/NMOBvle.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kineko.ru@SD">
+    <display-name>Кинеко</display-name>
+    <icon src="https://i.imgur.com/Otfvlmf.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="TERRA.ru@SD">
+    <display-name>Terra</display-name>
+    <icon src="https://i.imgur.com/ZxUjCpF.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Leva.ru@SD">
+    <display-name>Лева ТВ</display-name>
+    <icon src="https://i.imgur.com/lQzgmpz.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="RedLips.ru@SD">
+    <display-name>Red Lips</display-name>
+    <icon src="https://i.imgur.com/NteJThd.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="EdaPremiumInternational.ru@SD">
+    <display-name>Еда Премиум Международный</display-name>
+    <icon src="https://i.imgur.com/9xP8ucM.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Zdorove.ru@HD">
+    <display-name>Здоровье HD</display-name>
+    <icon src="https://i.imgur.com/pOwxvDZ.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="STARTAir.ru@SD">
+    <display-name>Start Air</display-name>
+    <icon src="https://i.imgur.com/4bACa7x.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="PlanB.ru@SD">
+    <display-name>Plan_B</display-name>
+    <icon src="https://i.imgur.com/V1kDv8H.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Exxxotica.ru@SD">
+    <display-name>Exxxotica</display-name>
+    <icon src="https://i.imgur.com/QPmIDHy.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BRIDGESchlager.ru@SD">
+    <display-name>BRiDGE TV Шлягер</display-name>
+    <icon src="https://i.imgur.com/a9DXkMN.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Silk.ru@SD">
+    <display-name>Шелк</display-name>
+    <icon src="https://i.imgur.com/pbLpTrt.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="FirstRussiannationalchannel.ru@SD">
+    <display-name>1 российский национальный канал</display-name>
+    <icon src="https://i.imgur.com/LodWwi5.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="STARTWorld.ru@SD">
+    <display-name>Start World</display-name>
+    <icon src="https://i.imgur.com/TXtY5eM.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="StartTriumf.ru@SD">
+    <display-name>Старт Триумф</display-name>
+    <icon src="https://i.imgur.com/L9jTieL.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Kinoliving.ru@SD">
+    <display-name>KINOLIVING</display-name>
+    <icon src="https://i.imgur.com/9XJcmBY.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Quadro.ru@SD">
+    <display-name>Quadro</display-name>
+    <icon src="https://i.imgur.com/P4c53HA.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="Solnce.ru@SD">
+    <display-name>СОЛНЦЕ</display-name>
+    <icon src="https://i.imgur.com/HCefxaK.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="HHQ.ru@SD">
+    <display-name>Телеканал HHQ</display-name>
+    <icon src="https://i.imgur.com/P2G62xe.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="BRIDGERock.ru@SD">
+    <display-name>BRIDGE ROCK</display-name>
+    <icon src="https://i.imgur.com/MHuwct2.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="3252">
+    <display-name>Travelxp 4K</display-name>
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="vijuPlusPremiere.ru@SD">
+    <display-name>viju+ Premiere</display-name>
+    <icon src="https://i.imgur.com/klRvhR5.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="ZnanieTV.ru@SD">
+    <display-name>Знание ТВ</display-name>
+    <icon src="https://i.imgur.com/Et5hmy0.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <channel id="CuriosityStream.ru@SD">
+    <display-name>Curiosity Stream</display-name>
+    <icon src="https://i.imgur.com/UFREahx.png" />
+    <url>https://tv.mail.ru</url>
+  </channel>
+  <programme start="20260424030500 +0000" stop="20260424043500 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Велоспорт: PRO Series Тур Альп Четвертый этап Men</title>
+  </programme>
+  <programme start="20260424043500 +0000" stop="20260424063400 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 17 Round 01</title>
+  </programme>
+  <programme start="20260424063400 +0000" stop="20260424070300 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Rice Bikes</title>
+    <category lang="ru">Досуг,Хобби</category>
+  </programme>
+  <programme start="20260424070300 +0000" stop="20260424075900 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Велоспорт: PRO Series Тур Альп Четвертый этап Men</title>
+  </programme>
+  <programme start="20260424075900 +0000" stop="20260424090000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 17 Round 01</title>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424120000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 3 Round 02. Прямая трансляция</title>
+  </programme>
+  <programme start="20260424120000 +0000" stop="20260424131500 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Теннис: Grand Slam Australian Open Aryna Sabalenka - Elena Rybakina Final Single Women</title>
+  </programme>
+  <programme start="20260424131500 +0000" stop="20260424163000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 4 Round 02. Прямая трансляция</title>
+  </programme>
+  <programme start="20260424163000 +0000" stop="20260424173000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 3 Round 02</title>
+  </programme>
+  <programme start="20260424173000 +0000" stop="20260424210000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 5 Round 02. Прямая трансляция</title>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424220000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 4 Round 02</title>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424233000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Велоспорт: PRO Series Тур Альп Пятый этап Men</title>
+  </programme>
+  <programme start="20260424233000 +0000" stop="20260425010000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Велоспорт World Tour &amp;#34;Париж - Рубе&amp;#34; Men</title>
+  </programme>
+  <programme start="20260425010000 +0000" stop="20260425020000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 5 Round 02</title>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425043000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Велоспорт: PRO Series Тур Альп Пятый этап Men</title>
+  </programme>
+  <programme start="20260425043000 +0000" stop="20260425063000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 5 Round 02</title>
+  </programme>
+  <programme start="20260425063000 +0000" stop="20260425080000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Велоспорт: PRO Series Тур Альп Пятый этап Men</title>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425090000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 5 Round 02</title>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425120000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 6 Round 02. Прямая трансляция</title>
+  </programme>
+  <programme start="20260425120000 +0000" stop="20260425131500 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Триатлон: Мировой тур T100 Сингапур</title>
+  </programme>
+  <programme start="20260425131500 +0000" stop="20260425163000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 7 Round 02. Прямая трансляция</title>
+  </programme>
+  <programme start="20260425163000 +0000" stop="20260425173000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 6 Round 02</title>
+  </programme>
+  <programme start="20260425173000 +0000" stop="20260425210000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 8 Round 02. Прямая трансляция</title>
+  </programme>
+  <programme start="20260425210000 +0000" stop="20260425220000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 7 Round 02</title>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260425230000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Велоспорт: &amp;#34;Флеш Валлонь&amp;#34;. Мужчины</title>
+  </programme>
+  <programme start="20260425230000 +0000" stop="20260426000000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Велоспорт: &amp;#34;Флеш Валлонь&amp;#34;. Женщины</title>
+  </programme>
+  <programme start="20260426000000 +0000" stop="20260426010000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Велоспорт: PRO Series Тур Альп Пятый этап Men</title>
+  </programme>
+  <programme start="20260426010000 +0000" stop="20260426020000 +0000" channel="Eurosport1.fr@Russia">
+    <title lang="ru">Снукер: Чемпионат мира Sheffield Session 8 Round 02</title>
+  </programme>
+  <programme start="20260424020000 +0000" stop="20260424030000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Понять. Простить</title>
+    <category lang="ru">Сериал</category>
+  </programme>
+  <programme start="20260424030000 +0000" stop="20260424031500 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Вместе каждый день</title>
+    <category lang="ru">Досуг,Хобби</category>
+  </programme>
+  <programme start="20260424031500 +0000" stop="20260424045500 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Дела судебные. Деньги верните!</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424045500 +0000" stop="20260424060500 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Дела судебные. Битва за будущее</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424060500 +0000" stop="20260424070000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Дела судебные. Новые истории</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424071000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Вместе каждый день</title>
+    <category lang="ru">Досуг,Хобби</category>
+  </programme>
+  <programme start="20260424071000 +0000" stop="20260424080500 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Дела судебные. Деньги верните!</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424080500 +0000" stop="20260424090000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Дела судебные. Битва за будущее</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424100000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Дела судебные. Новые истории</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424101500 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Вместе каждый день</title>
+    <category lang="ru">Досуг,Хобби</category>
+  </programme>
+  <programme start="20260424101500 +0000" stop="20260424111000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Мировое соглашение</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424111000 +0000" stop="20260424120500 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Дела судебные. Битва за будущее</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424120500 +0000" stop="20260424130000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Дела судебные. Новые истории</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424131500 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Вместе каждый день</title>
+    <category lang="ru">Досуг,Хобби</category>
+  </programme>
+  <programme start="20260424131500 +0000" stop="20260424133500 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Обману. Нет</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424133500 +0000" stop="20260424150000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Дела судебные. Яблоко раздора</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424152000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Вместе каждый день</title>
+    <category lang="ru">Досуг,Хобби</category>
+  </programme>
+  <programme start="20260424152000 +0000" stop="20260424153000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Дела судебные. Яблоко раздора</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424153000 +0000" stop="20260424163000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Дела судебные. Деньги верните!</title>
+    <category lang="ru">Позновательное</category>
+  </programme>
+  <programme start="20260424163000 +0000" stop="20260424180500 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Русский бизнес</title>
+    <category lang="ru">Фильм</category>
+  </programme>
+  <programme start="20260424180500 +0000" stop="20260424200000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">На Дерибасовской хорошая погода, или На Брайтон-Бич опять идут дожди</title>
+    <category lang="ru">Фильм</category>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424224000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Интердевочка</title>
+    <category lang="ru">Фильм</category>
+  </programme>
+  <programme start="20260424224000 +0000" stop="20260425005000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Десять негритят</title>
+    <category lang="ru">Фильм</category>
+  </programme>
+  <programme start="20260425005000 +0000" stop="20260425015000 +0000" channel="Mir.ru@SD">
+    <title lang="ru">Закон жизни</title>
+    <category lang="ru">Фильм</category>
+  </programme>
+</tv>

@@ -1,0 +1,1881 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="13emeRue.fr@SD">
+    <display-name>13eme RUE</display-name>
+    <icon src="https://i.imgur.com/k0DCMTL.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="3sat.de@SD">
+    <display-name>3SAT</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France2.fr@SD">
+    <display-name>France 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="AB1.fr@SD">
+    <display-name>AB 1</display-name>
+    <icon src="https://i.imgur.com/9C7UsOe.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Mangas.fr@SD">
+    <display-name>Mangas</display-name>
+    <icon src="https://i.imgur.com/wmmEOza.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ToutelHistoire.fr@SD">
+    <display-name>Toute l'histoire</display-name>
+    <icon src="https://i.imgur.com/xRfyQYn.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Action.fr@SD">
+    <display-name>Action</display-name>
+    <icon src="https://i.imgur.com/Zv9VsVq.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Animaux.fr@SD">
+    <display-name>Animaux</display-name>
+    <icon src="https://i.imgur.com/FM9FVAG.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="DasErste.de@SD">
+    <display-name>Das Erste</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/960px-ARD_Dachmarke_2014.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Automotolachaine.fr@SD">
+    <display-name>Automoto</display-name>
+    <icon src="https://i.imgur.com/ebf2uc7.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="BBCOne.uk@London">
+    <display-name>BBC 1</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/960px-BBC_One_logo_2021.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="BBCTwo.uk@England">
+    <display-name>BBC 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/960px-BBC_Two_logo_2021.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="BBCEntertainment.uk@SD">
+    <display-name>BBC Entertainment</display-name>
+    <icon src="https://i.imgur.com/fx2z8M1.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="BBCNews.uk@Europe">
+    <display-name>BBC World News</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="23">
+    <display-name>één</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="24">
+    <display-name>Canvas</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Be1.be@SD">
+    <display-name>BE 1</display-name>
+    <icon src="https://i.imgur.com/gVlYUCA.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CanalJ.fr@SD">
+    <display-name>Canal J</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Canal_J_2019_Logo.png/960px-Canal_J_2019_Logo.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="33">
+    <display-name>Canal+ Cinéma(s)</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CanalPlus.fr@SD">
+    <display-name>Canal+</display-name>
+    <icon src="https://i.imgur.com/5HcyMnW.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CanalPlusSport.fr@SD">
+    <display-name>Canal+ Sport</display-name>
+    <icon src="https://i.imgur.com/EOXnU15.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CartoonNetworkCEE.uk@France">
+    <display-name>Cartoon Network</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ChassePeche.fr@SD">
+    <display-name>Chasse et pêche</display-name>
+    <icon src="https://i.imgur.com/ZIS2ZQ1.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France5.fr@SD">
+    <display-name>France 5</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="SerieClub.fr@SD">
+    <display-name>serieclub</display-name>
+    <icon src="https://i.imgur.com/V8wRRg5.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="50">
+    <display-name>RTL Club</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CNNInternational.us@MENA">
+    <display-name>CNN</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ComediePlus.fr@SD">
+    <display-name>Comédie+</display-name>
+    <icon src="https://i.imgur.com/ArgX0Af.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="DemainTV.fr@SD">
+    <display-name>Demain TV</display-name>
+    <icon src="https://i.imgur.com/EIjYLyj.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="DisneyChannel.fr@SD">
+    <display-name>Disney Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="DW.de@English">
+    <display-name>DW (English)</display-name>
+    <icon src="https://i.imgur.com/8MRNFb9.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ScienceVieTV.fr@SD">
+    <display-name>Science &amp; Vie TV</display-name>
+    <icon src="https://i.imgur.com/9ELsSMI.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Equidia.fr@SD">
+    <display-name>Equidia</display-name>
+    <icon src="https://i.imgur.com/QPpbRcZ.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Eurosport1.fr@France">
+    <display-name>Eurosport 1</display-name>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France4.fr@SD">
+    <display-name>France 4</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@SD">
+    <display-name>France 3</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="GameOne.fr@SD">
+    <display-name>Game One</display-name>
+    <icon src="https://i.imgur.com/UHkaObv.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="HistoireTV.fr@SD">
+    <display-name>Histoire TV</display-name>
+    <icon src="https://i.imgur.com/hxuJXll.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="InfosportPlus.fr@SD">
+    <display-name>Infosport+</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/1/19/Infosport%2B_%282016%29.svg/960px-Infosport%2B_%282016%29.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="KTO.fr@SD">
+    <display-name>KTO</display-name>
+    <icon src="https://i.imgur.com/EY6TsdV.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="arte.fr@SD">
+    <display-name>Arte</display-name>
+    <icon src="https://i.imgur.com/ecXMjNl.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="LCI.fr@SD">
+    <display-name>LCI - La Chaîne Info</display-name>
+    <icon src="https://i.imgur.com/DED8EXs.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RTL9.lu@SD">
+    <display-name>RTL 9</display-name>
+    <icon src="https://i.imgur.com/nFqjVNW.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="BFMLyon.fr@SD">
+    <display-name>BFM Lyon Métropole</display-name>
+    <icon src="https://i.imgur.com/0uiiZRo.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="M6.fr@HD">
+    <display-name>M6</display-name>
+    <icon src="https://i.imgur.com/7GVp3fW.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="W9.fr@SD">
+    <display-name>W9</display-name>
+    <icon src="https://i.imgur.com/reYeMuE.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="MCM.fr@SD">
+    <display-name>MCM</display-name>
+    <icon src="https://i.imgur.com/F5WNCp0.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Mezzo.fr@SD">
+    <display-name>Mezzo</display-name>
+    <icon src="https://i.imgur.com/auNdGeW.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="MTV.fr@SD">
+    <display-name>MTV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="EuronewsFrench.fr@SD">
+    <display-name>Euronews</display-name>
+    <icon src="https://i.imgur.com/5A0Wnrv.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ParisPremiere.fr@SD">
+    <display-name>Paris Première</display-name>
+    <icon src="https://i.imgur.com/ily4bEm.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="PlanetePlus.fr@SD">
+    <display-name>Planète+</display-name>
+    <icon src="https://i.imgur.com/RMbMGMg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Rai2.it@SD">
+    <display-name>Rai Due</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Rai3.it@HD">
+    <display-name>Rai Tre</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/960px-Rai_3_-_Logo_2016.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Rai1.it@SD">
+    <display-name>Rai Uno</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="LaUne.be@SD">
+    <display-name>La Une</display-name>
+    <icon src="https://i.imgur.com/jMwZp7z.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RTLTVI.be@SD">
+    <display-name>RTL TVI</display-name>
+    <icon src="https://i.imgur.com/2CimAAN.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RTPMundo.pt@SD">
+    <display-name>RTP Mundo</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/RTP_Mundo.svg/1920px-RTP_Mundo.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Seasons.fr@SD">
+    <display-name>Seasons</display-name>
+    <icon src="https://i.imgur.com/vBti1As.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RTS2.ch@SD">
+    <display-name>RTS 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/RTS_2_logo_2019.svg/960px-RTS_2_logo_2019.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TCMCinema.fr@SD">
+    <display-name>TCM Cinéma</display-name>
+    <icon src="https://i.imgur.com/fT4XxM6.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Tipik.be@SD">
+    <display-name>Tipik</display-name>
+    <icon src="https://i.imgur.com/LKLjnrp.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Teva.fr@SD">
+    <display-name>Téva</display-name>
+    <icon src="https://i.imgur.com/kDW0hN5.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TF1.fr@SD">
+    <display-name>TF1</display-name>
+    <icon src="https://i.imgur.com/QxHt9NC.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TMC.fr@SD">
+    <display-name>TMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TeletoonPlus.fr@SD">
+    <display-name>TéléToon+</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/T%C3%A9l%C3%A9toon%2B_Logo.png/960px-T%C3%A9l%C3%A9toon%2B_Logo.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RSILa1.ch@SD">
+    <display-name>RSI LA 1</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RSI_La_1_2012.svg/960px-RSI_La_1_2012.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RSILa2.ch@SD">
+    <display-name>RSI LA 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/960px-RSI_La_2_2012.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RTS1.ch@SD">
+    <display-name>RTS 1</display-name>
+    <icon src="https://i.imgur.com/OP5lHv9.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TV5MondeFranceBelgiumSwitzerlandMonaco.fr@SD">
+    <display-name>TV5MONDE</display-name>
+    <icon src="https://i.imgur.com/WmRbudc.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="La1.es@SD">
+    <display-name>TVE 1</display-name>
+    <icon src="https://i.ibb.co/MxJNPHsn/La-1.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="La2.es@SD">
+    <display-name>TVE 2</display-name>
+    <icon src="https://i.ibb.co/rfsr9PSh/La-2.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TVEInternacionalEuropeAsia.es@SD">
+    <display-name>TVE</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="VTM.be@SD">
+    <display-name>VTM</display-name>
+    <icon src="https://i.imgur.com/N3nwyDd.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="XXL.fr@SD">
+    <display-name>XXL</display-name>
+    <icon src="https://i.imgur.com/TEuLkeQ.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ZDF.de@SD">
+    <display-name>ZDF</display-name>
+    <icon src="https://i.imgur.com/rtLb6m9.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TVBreizh.fr@SD">
+    <display-name>TvBreizh</display-name>
+    <icon src="https://i.imgur.com/O8W4yhn.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CNews.fr@SD">
+    <display-name>CNEWS</display-name>
+    <icon src="https://i.imgur.com/sSNhk2g.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TiJi.fr@SD">
+    <display-name>TIJI</display-name>
+    <icon src="https://i.imgur.com/ZjsfAGb.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TV5MondeEurope.fr@SD">
+    <display-name>TV5MONDE Europe</display-name>
+    <icon src="https://i.imgur.com/rPAbMSu.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="LCP.fr@SD">
+    <display-name>La Chaîne parlementaire</display-name>
+    <icon src="https://i.imgur.com/k7UImOJ.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="NouvelleCaledonie1ere.nc@SD">
+    <display-name>Nouvelle-Calédonie la 1ère</display-name>
+    <icon src="https://i.imgur.com/BJgNq21.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="NationalGeographic.fr@SD">
+    <display-name>National Geographic</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Reunion1ere.re@SD">
+    <display-name>Réunion la 1ère</display-name>
+    <icon src="https://i.imgur.com/3RuzTbG.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="AB3.be@SD">
+    <display-name>AB 3</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/5/5d/AB3_2025.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Guyane1ere.gf@SD">
+    <display-name>Guyane la 1ère</display-name>
+    <icon src="https://i.imgur.com/aHoVNvh.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Melody.fr@SD">
+    <display-name>Melody</display-name>
+    <icon src="https://i.imgur.com/9GVyQ6x.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TV7Bordeaux.fr@SD">
+    <display-name>TV7 Bordeaux</display-name>
+    <icon src="https://i.imgur.com/lJdlu2r.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CinePlusPremier.fr@SD">
+    <display-name>Ciné+ Premier</display-name>
+    <icon src="https://i.imgur.com/b20LLN6.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CinePlusEmotion.fr@SD">
+    <display-name>Ciné+ Emotion</display-name>
+    <icon src="https://i.imgur.com/upYjPvc.jpeg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CinePlusFrisson.fr@SD">
+    <display-name>Ciné+ Frisson</display-name>
+    <icon src="https://i.imgur.com/MwFtbnR.jpeg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CinePlusClub.fr@SD">
+    <display-name>Ciné+ Club</display-name>
+    <icon src="https://i.imgur.com/OJfAUMj.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CinePlusClassic.fr@SD">
+    <display-name>Ciné+ Classic</display-name>
+    <icon src="https://i.imgur.com/y2zeLS3.jpeg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="294">
+    <display-name>Ciné+ Premier Belgique</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ViaATV.mq@SD">
+    <display-name>ATV Martinique</display-name>
+    <icon src="https://i.imgur.com/Ua6rOXo.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="DisneyJr.fr@SD">
+    <display-name>Disney Junior</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Disney_Junior_logo.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ABXplore.be@SD">
+    <display-name>ABXPLORE</display-name>
+    <icon src="https://i.imgur.com/Z7bCdz9.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@CorseViaStella">
+    <display-name>France 3 Corse Via Stella</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/0/07/France_3_Corse_Via_Stella_-_Logo.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="317">
+    <display-name>Ciné+ Frisson Belgique</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CGTNFrench.cn@SD">
+    <display-name>CGTN</display-name>
+    <icon src="https://i.imgur.com/BwhledK.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Boomerang.fr@SD">
+    <display-name>Boomerang</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Martinique1ere.mq@SD">
+    <display-name>Martinique la 1ère</display-name>
+    <icon src="https://i.imgur.com/rBhc87a.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Guadeloupe1ere.gp@SD">
+    <display-name>Guadeloupe la 1ère</display-name>
+    <icon src="https://i.imgur.com/g8QTonQ.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="2MMonde.ma@SD">
+    <display-name>2M Monde</display-name>
+    <icon src="https://i.imgur.com/MvpntzA.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="PiwiPlus.fr@SD">
+    <display-name>Piwi+</display-name>
+    <icon src="https://i.imgur.com/Ahckjj2.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CanalPlusCaraibes.fr@SD">
+    <display-name>Canal+ Antilles</display-name>
+    <icon src="https://i.imgur.com/1CWs7Hg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="377">
+    <display-name>RTL Plug</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="BX1.be@SD">
+    <display-name>BX1</display-name>
+    <icon src="https://i.imgur.com/0OkSa6c.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Telesambre.be@SD">
+    <display-name>Télé Sambre</display-name>
+    <icon src="https://i.imgur.com/TuIAkA3.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="385">
+    <display-name>TV COM</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CanalZoom.be@SD">
+    <display-name>Canal Zoom</display-name>
+    <icon src="https://i.imgur.com/JUNP8Rx.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TeleMB.be@SD">
+    <display-name>Télé MB</display-name>
+    <icon src="https://i.imgur.com/XAggjM4.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ACTV.be@SD">
+    <display-name>ACTV</display-name>
+    <icon src="https://files.catbox.moe/8v2y8m.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Bouke.be@SD">
+    <display-name>Canal C</display-name>
+    <icon src="https://i.imgur.com/STLavel.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="390">
+    <display-name>RTC Télé Liège</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Vedia.be@SD">
+    <display-name>VEDIA</display-name>
+    <icon src="https://i.imgur.com/7LnH6yu.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TVLux.be@SD">
+    <display-name>TV Lux</display-name>
+    <icon src="https://i.imgur.com/ljbdWkC.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Matele.be@SD">
+    <display-name>MAtélé</display-name>
+    <icon src="https://i.imgur.com/rw72POr.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="DiscoveryChannel.fr@SD">
+    <display-name>Discovery Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="401">
+    <display-name>Ciné+ Famiz</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="PlanetePlusAventure.fr@SD">
+    <display-name>Planète+ Aventure &amp; Expérience</display-name>
+    <icon src="https://i.imgur.com/h09sbN0.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="E.fr@SD">
+    <display-name>E !</display-name>
+    <icon src="https://i.imgur.com/TWFDkap.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="PinkTV.fr@SD">
+    <display-name>Pink TV</display-name>
+    <icon src="https://i.imgur.com/FOFRZrD.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="VOOsportWorld1.be@SD">
+    <display-name>VOOsport World 1</display-name>
+    <icon src="https://i.imgur.com/bCm2ndt.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="VOOsportWorld2.be@SD">
+    <display-name>VOOsport World 2</display-name>
+    <icon src="https://i.imgur.com/rxDARkz.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="NauticalChannel.it@SD">
+    <display-name>Nautical Channel</display-name>
+    <icon src="https://i.imgur.com/2ByDyzL.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="HustlerTVEurope.nl@SD">
+    <display-name>Hustler TV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/HustlerTV.svg/960px-HustlerTV.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="BeCine.be@SD">
+    <display-name>Be Ciné</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/b/ba/Be_Cin%C3%A9_logo.png/960px-Be_Cin%C3%A9_logo.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="BeSeries.be@SD">
+    <display-name>Be Séries</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/b/bc/Be_S%C3%A9ries_logo.png/960px-Be_S%C3%A9ries_logo.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TV8MontBlanc.fr@SD">
+    <display-name>8 Mont-Blanc</display-name>
+    <icon src="https://i.imgur.com/dOXRNVj.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="AntenneReunion.fr@SD">
+    <display-name>Antenne Réunion</display-name>
+    <icon src="https://i.imgur.com/EPIMMaB.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="437">
+    <display-name>Ciné+ Classic Belgique</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Eurosport2.fr@France">
+    <display-name>Eurosport 2</display-name>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="NRJ12.fr@SD">
+    <display-name>NRJ 12</display-name>
+    <icon src="https://i.imgur.com/Lv66Gcv.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="C8.fr@SD">
+    <display-name>C8</display-name>
+    <icon src="https://i.imgur.com/40mdgqQ.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TFX.fr@SD">
+    <display-name>TFX</display-name>
+    <icon src="https://i.imgur.com/d91GcVf.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="UshuaiaTV.fr@SD">
+    <display-name>Ushuaïa TV</display-name>
+    <icon src="https://i.imgur.com/WjjlqbP.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CStar.fr@SD">
+    <display-name>CSTAR</display-name>
+    <icon src="https://i.imgur.com/w4kAX1V.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="OLTV.fr@SD">
+    <display-name>OLTV</display-name>
+    <icon src="https://i.imgur.com/0Y856vu.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="VOOsportWorld3.be@SD">
+    <display-name>VOOsport World 3</display-name>
+    <icon src="https://i.imgur.com/tBoAVHY.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Nickelodeon.fr@SD">
+    <display-name>Nickelodéon</display-name>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Syfy.fr@SD">
+    <display-name>Syfy</display-name>
+    <icon src="https://i.imgur.com/gUOXdjv.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="BFMTV.fr@SD">
+    <display-name>BFMTV</display-name>
+    <icon src="https://i.imgur.com/YJCcczD.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Gulli.fr@SD">
+    <display-name>Gulli</display-name>
+    <icon src="https://i.imgur.com/kqYssbW.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Telenantes.fr@SD">
+    <display-name>Télénantes</display-name>
+    <icon src="https://i.imgur.com/G1SCqNI.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TVSudProvence.fr@SD">
+    <display-name>TVSUD Marseille</display-name>
+    <icon src="https://i.imgur.com/hzVYfy5.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="WallisFutuna1ere.wf@SD">
+    <display-name>Wallis et Futuna la 1ère</display-name>
+    <icon src="https://i.imgur.com/qYcWze6.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="AlJazeera.qa@English">
+    <display-name>Al Jazeera English</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France24.fr@French">
+    <display-name>France 24</display-name>
+    <icon src="https://i.imgur.com/u8N6uoj.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ViaOccitaniePaysGardois.fr@SD">
+    <display-name>Vià Occitanie Pays Gardois</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Viaoccitaniepaysgardois.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TVTours.fr@SD">
+    <display-name>TV Tours</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Logo_tvt_2016_RVB.png/960px-Logo_tvt_2016_RVB.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="DorcelTV.nl@SD">
+    <display-name>Dorcel TV</display-name>
+    <icon src="https://i.imgur.com/RkzyjEd.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CanalPlusFamily.fr@SD">
+    <display-name>Canal+ KIDS</display-name>
+    <icon src="https://i.imgur.com/TXI8hM1.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="PlanetePlusCrime.fr@SD">
+    <display-name>Planète+ Crime Investigation</display-name>
+    <icon src="https://i.imgur.com/xGGBbun.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ManX.be@SD">
+    <display-name>Man-X</display-name>
+    <icon src="https://i.imgur.com/rod1KmE.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ViaOccitanieMontpellier.fr@SD">
+    <display-name>Vià Occitanie Montpellier</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Viaoccitaniemontpellier.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="NationalGeographicWild.fr@SD">
+    <display-name>National Geographic Wild</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="OCSMax.fr@SD">
+    <display-name>OCS Max</display-name>
+    <icon src="https://i.imgur.com/nYS8K4A.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="OCSChoc.fr@SD">
+    <display-name>OCS Pulp</display-name>
+    <icon src="https://i.imgur.com/euruHoB.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="OCSCity.fr@SD">
+    <display-name>OCS City</display-name>
+    <icon src="https://i.imgur.com/mj38OWR.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="OCSGeants.fr@SD">
+    <display-name>OCS Géants</display-name>
+    <icon src="https://i.imgur.com/sd0HZ4L.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="i24NEWSFrench.il@SD">
+    <display-name>I24news</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RougeTV.ch@SD">
+    <display-name>Rouge TV</display-name>
+    <icon src="https://i.imgur.com/hx3exCH.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="MyZenTV.fr@SD">
+    <display-name>MyZen.tv</display-name>
+    <icon src="https://i.imgur.com/fIi8o0C.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="832">
+    <display-name>Nick Jr</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="StingrayClassica.ca@SD">
+    <display-name>Stingray Brava</display-name>
+    <icon src="https://i.imgur.com/nh1k5RC.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="NickelodeonJunior.fr@SD">
+    <display-name>Nickelodeon Junior</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/960px-Nickelodeon_Junior.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="LaTrois.be@SD">
+    <display-name>La Trois</display-name>
+    <icon src="https://i.imgur.com/jMs4h9F.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="MezzoLive.fr@SD">
+    <display-name>Mezzo Live HD</display-name>
+    <icon src="https://i.imgur.com/H9ytKPN.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="BFMGrandLille.fr@SD">
+    <display-name>BFM Grand Lille</display-name>
+    <icon src="https://i.imgur.com/HE5xP0r.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CanalZ.be@SD">
+    <display-name>Canal Z</display-name>
+    <icon src="https://i.imgur.com/qtiGLzZ.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ProSieben.de@SD">
+    <display-name>Pro7</display-name>
+    <icon src="https://i.imgur.com/zZOk3nh.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="MoselleTV.fr@SD">
+    <display-name>ViàMoselleTV</display-name>
+    <icon src="https://i.imgur.com/hrm5QnU.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="1072">
+    <display-name>Museum TV</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="BFMBusiness.fr@SD">
+    <display-name>BFM Business</display-name>
+    <icon src="https://i.imgur.com/psqIHn4.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Proximus11.be@SD">
+    <display-name>Proximus 11</display-name>
+    <icon src="https://i.imgur.com/ZAZ0ONE.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Mayotte1ere.yt@SD">
+    <display-name>Mayotte la 1ère</display-name>
+    <icon src="https://i.imgur.com/rC43UZV.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="SaintPierreMiquelon1ere.pm@SD">
+    <display-name>Saint-Pierre et Miquelon la 1ère</display-name>
+    <icon src="https://i.imgur.com/9Ul9et7.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ViaGuadeloupe.fr@SD">
+    <display-name>ATV Guadeloupe</display-name>
+    <icon src="https://i.imgur.com/97jNE32.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="1144">
+    <display-name>Voo Foot</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="GolfChannel.fr@SD">
+    <display-name>Golf Channel</display-name>
+    <icon src="https://i.imgur.com/Ftuw3ug.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TraceSportStars.fr@HD">
+    <display-name>TRACE Sport Stars</display-name>
+    <icon src="https://i.imgur.com/FabFP5A.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Eurochannel.uk@SD">
+    <display-name>Eurochannel</display-name>
+    <icon src="https://i.imgur.com/yXAtmI6.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Ketnet.be@SD">
+    <display-name>Ketnet</display-name>
+    <icon src="https://i.imgur.com/Q4vI453.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="beINSports1.qa@France">
+    <display-name>beIN SPORTS 1</display-name>
+    <icon src="https://i.imgur.com/Vtk2cGI.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="GolfPlus.fr@SD">
+    <display-name>Golf+</display-name>
+    <icon src="https://i.imgur.com/WHnddkg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="beINSports2.qa@France">
+    <display-name>beIN SPORTS 2</display-name>
+    <icon src="https://i.imgur.com/vUJZSvs.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="beINSports3.qa@France">
+    <display-name>beIN SPORTS 3</display-name>
+    <icon src="https://i.imgur.com/UYSMao3.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="beINSportsMax4.qa@France">
+    <display-name>beIN SPORTS MAX 4</display-name>
+    <icon src="https://i.imgur.com/j7osMfM.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="beINSportsMax5.qa@France">
+    <display-name>beIN SPORTS MAX 5</display-name>
+    <icon src="https://i.imgur.com/L6TvXAi.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="beINSportsMax6.qa@France">
+    <display-name>beIN SPORTS MAX 6</display-name>
+    <icon src="https://i.imgur.com/GHZHRPF.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="beINSportsMax7.qa@France">
+    <display-name>beIN SPORTS MAX 7</display-name>
+    <icon src="https://i.imgur.com/sMH0tFc.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="beINSportsMax8.qa@France">
+    <display-name>beIN SPORTS MAX 8</display-name>
+    <icon src="https://i.imgur.com/VTzzoQP.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="beINSportsMax9.qa@France">
+    <display-name>beIN SPORTS MAX 9</display-name>
+    <icon src="https://i.imgur.com/dMTBut1.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="beINSportsMax10.qa@France">
+    <display-name>beIN SPORTS MAX 10</display-name>
+    <icon src="https://i.imgur.com/lVB4Ao9.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="StingrayDJAZZ.ca@SD">
+    <display-name>Stingray Djazz</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="DiscoveryScienceEurope.uk@France">
+    <display-name>Discovery Science</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="1399">
+    <display-name>Chérie 25</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCDecouverte.fr@SD">
+    <display-name>RMC Découverte</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/960px-RMC_D%C3%A9couverte_logo_2017.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="LEquipe.fr@SD">
+    <display-name>L'Equipe</display-name>
+    <icon src="https://i.imgur.com/t35zhM9.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCStory.fr@SD">
+    <display-name>RMC Story</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_RMC_Story_2025.png/960px-Logo_RMC_Story_2025.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="6ter.fr@SD">
+    <display-name>6ter</display-name>
+    <icon src="https://i.imgur.com/2nd5Cox.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="TF1SeriesFilms.fr@SD">
+    <display-name>TF1 Séries Films</display-name>
+    <icon src="https://i.imgur.com/4CJIDKQ.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="MensUPTV.fr@SD">
+    <display-name>Men's UP TV</display-name>
+    <icon src="https://i.imgur.com/5BZwRFs.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="NollywoodTV.fr@SD">
+    <display-name>Nollywood TV</display-name>
+    <icon src="https://i.imgur.com/29L2gbb.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ViaGuyane.fr@SD">
+    <display-name>ATV Guyane</display-name>
+    <icon src="https://i.imgur.com/aiITdjE.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ParamountChannel.fr@SD">
+    <display-name>Paramount Channel</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CanalPlusSeries.fr@SD">
+    <display-name>Canal+ Séries</display-name>
+    <icon src="https://i.imgur.com/JxXXTGk.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="JOne.fr@SD">
+    <display-name>J-One</display-name>
+    <icon src="https://i.imgur.com/cicreDo.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Trek.fr@SD">
+    <display-name>Trek</display-name>
+    <icon src="https://i.imgur.com/TcF53W4.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="NovelasTV.fr@SD">
+    <display-name>Novelas TV</display-name>
+    <icon src="https://i.imgur.com/HZw19jM.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Notele.be@SD">
+    <display-name>NoTélé</display-name>
+    <icon src="https://i.imgur.com/fGS55nR.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@Alpes">
+    <display-name>France 3 Alpes</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@Alsace">
+    <display-name>France 3 Alsace</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@Aquitaine">
+    <display-name>France 3 Aquitaine</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/a7/France_3_Aquitaine_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@Auvergne">
+    <display-name>France 3 Auvergne</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@NormandieCaen">
+    <display-name>France 3 Normandie - Caen</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@Bourgogne">
+    <display-name>France 3 Bourgogne</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/77/France_3_Bourgogne_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@Bretagne">
+    <display-name>France 3 Bretagne</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/c/c2/France_3_Bretagne_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@CentreValdeLoire">
+    <display-name>France 3 Centre-Val de Loire</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/9/96/France_3_Centre-Val_de_Loire_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@ChampagneArdenne">
+    <display-name>France 3 Champagne-Ardennes</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/9/97/France_3_Champagne-Ardenne_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@CotedAzur">
+    <display-name>France 3 Côte d'Azur</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/9/9c/France_3_Cote_d%27Azur_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@FrancheComte">
+    <display-name>France 3 Franche-Comté</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/17/France_3_Franche-Comt%C3%A9_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@NormandieRouen">
+    <display-name>France 3 Normandie - Rouen</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@LanguedocRoussillon">
+    <display-name>France 3 Languedoc-Roussillon</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/f/f4/France_3_Languedoc-Roussillon_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@Limousin">
+    <display-name>France 3 Limousin</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/5/58/France_3_Limousin_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@Lorraine">
+    <display-name>France 3 Lorraine</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/6/61/France_3_Lorraine_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@MidiPyrenees">
+    <display-name>France 3 Midi-Pyrénées</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/f/fa/France_3_Midi-Pyr%C3%A9n%C3%A9es_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@NordPasdeCalais">
+    <display-name>France 3 Nord Pas-de-Calais</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/6/66/France_3_Nord-Pas-de-Calais_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@ParisIledeFrance">
+    <display-name>France 3 Paris Ile-de-France</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/16/France_3_Paris_Ile-de-France_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@PaysdelaLoire">
+    <display-name>France 3 Pays de la Loire</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/9/9c/France_3_Pays_de_la_Loire_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@Picardie">
+    <display-name>France 3 Picardie</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/47/France_3_Picardie_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@PoitouCharentes">
+    <display-name>France 3 Poitou-Charentes</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/2/2d/France_3_Poitou-Charentes_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@ProvenceAlpes">
+    <display-name>France 3 Provence-Alpes</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/1f/France_3_Provence-Alpes_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="France3.fr@RhoneAlpes">
+    <display-name>France 3 Rhône-Alpes</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/75/France_3_Rh%C3%B4ne-Alpes_-_Logo_2018.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="BET.fr@SD">
+    <display-name>BET</display-name>
+    <icon src="https://i.imgur.com/HOtpa6H.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="DisneyChannel.be@SD">
+    <display-name>Disney Channel Wallonia</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Nickelodeon.nl@SD">
+    <display-name>Nickelodéon Wallonia</display-name>
+    <icon src="https://i.imgur.com/E84jnP8.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="2024">
+    <display-name>Eleven Sports 1</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="2025">
+    <display-name>Eleven Sports 2</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSport1.fr@UHD">
+    <display-name>RMC Sport 1 UHD</display-name>
+    <icon src="https://i.imgur.com/NsFTG7u.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="CrimeDistrict.fr@SD">
+    <display-name>Crime District</display-name>
+    <icon src="https://i.imgur.com/WQJ6Lbk.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Toonami.fr@SD">
+    <display-name>Warner TV Next</display-name>
+    <icon src="https://i.imgur.com/U7qh4yF.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="APlusInternational.fr@SD">
+    <display-name>A+ International France</display-name>
+    <icon src="https://i.imgur.com/tkUjnWD.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="StingrayFestival4K.ca@SD">
+    <display-name>Stingray Festival 4K</display-name>
+    <icon src="https://i.imgur.com/qDYEE8r.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSportAccess1.fr@SD">
+    <display-name>RMC Sport Access 1</display-name>
+    <icon src="https://i.imgur.com/NsFTG7u.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="Franceinfo.fr@SD">
+    <display-name>Franceinfo</display-name>
+    <icon src="https://i.imgur.com/eITXz6A.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="InvestigationDiscovery.fr@SD">
+    <display-name>Discovery Investigation</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="MelodydAfrique.fr@SD">
+    <display-name>Melody d'Afrique</display-name>
+    <icon src="https://i.imgur.com/srBbJ4s.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="PolarPlus.fr@SD">
+    <display-name>Polar+</display-name>
+    <icon src="https://i.imgur.com/RjnuWFU.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="WarnerTV.fr@SD">
+    <display-name>Warner TV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/960px-Warner2018LA.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="2381">
+    <display-name>Eleven Sports 3</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSport1.fr@SD">
+    <display-name>RMC Sport 1</display-name>
+    <icon src="https://i.imgur.com/NsFTG7u.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSport2.fr@SD">
+    <display-name>RMC Sport 2</display-name>
+    <icon src="https://i.imgur.com/nZd8aPo.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSportLive5.fr@SD">
+    <display-name>RMC Sport Live 5</display-name>
+    <icon src="https://i.imgur.com/rkhDtbF.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSportLive6.fr@SD">
+    <display-name>RMC Sport Live 6</display-name>
+    <icon src="https://i.imgur.com/ZaVaqgc.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSportLive7.fr@SD">
+    <display-name>RMC Sport Live 7</display-name>
+    <icon src="https://i.imgur.com/6T15YQK.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSportLive8.fr@SD">
+    <display-name>RMC Sport Live 8</display-name>
+    <icon src="https://i.imgur.com/J95ZUC4.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSportLive9.fr@SD">
+    <display-name>RMC Sport Live 9</display-name>
+    <icon src="https://i.imgur.com/BN0XhTY.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSportLive10.fr@SD">
+    <display-name>RMC Sport Live 10</display-name>
+    <icon src="https://i.imgur.com/by2oeGF.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSportLive11.fr@SD">
+    <display-name>RMC Sport Live 11</display-name>
+    <icon src="https://i.imgur.com/7HAJePh.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSportLive12.fr@SD">
+    <display-name>RMC Sport Live 12</display-name>
+    <icon src="https://i.imgur.com/K1IOH65.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSportLive13.fr@SD">
+    <display-name>RMC Sport Live 13</display-name>
+    <icon src="https://i.imgur.com/rSyEalN.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="RMCSportLive14.fr@SD">
+    <display-name>RMC Sport Live 14</display-name>
+    <icon src="https://i.imgur.com/sIF0dHX.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="ComedyCentral.fr@SD">
+    <display-name>Comedy Central</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="OlympiaTV.fr@SD">
+    <display-name>Olympia TV</display-name>
+    <icon src="https://i.imgur.com/F7z42mX.png" />
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="3347">
+    <display-name>Canal+ DOCS</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <channel id="3349">
+    <display-name>Canal+ Grand Ecran</display-name>
+    <url>https://tv-programme.telecablesat.fr</url>
+  </channel>
+  <programme start="20260424042000 +0000" stop="20260424050000 +0000" channel="3sat.de@SD">
+    <title lang="fr">Kulturzeit</title>
+    <desc lang="fr">Au sommaire: Film "Palästina 36" - Aufstand gegen die britische Kolonialmacht und jüdische Siedler Film "Luisa - Das letzte Tabu" - Gespräch mit Julia Roesler Theater Chemnitz - Oper und Theater auf einer Bühne?...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3itqWnqU_tV2P0BBLIhF3Zw4wD_RBGBxM57k7r7yaUxhZisRxDvl-sEhB63ZFryISY1VXlnRsyGLXD8glE-tOmwENZJCCLH9mjL11i_B-.jpg</image>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424053000 +0000" channel="3sat.de@SD">
+    <title lang="fr">nano</title>
+    <desc lang="fr">Das 3sat-Wissenschaftsmagazin berichtet ausführlich, verständlich und aktuell über Technik, Medizin, Wissenschaft und Forschung. "nano" macht Zukunftsvisionen sichtbar und erfahrbar. Durch eine unterhaltsame, spannende und informative Mischung von...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w32qq29Cz92ep6hIZYEom4O3OAeSAiE3iYznP3QQQxZxyJq0xpxnI_iLnq1-1KQUhJHaFGg0o1LpqIXarrZJ1RsteDhAIy8vJn1rpbtwbeDw.jpg</image>
+  </programme>
+  <programme start="20260424053000 +0000" stop="20260424060000 +0000" channel="3sat.de@SD">
+    <title lang="fr">Alpenpanorama</title>
+    <desc lang="fr">"Alpenpanorama" zeigt über zahlreiche Web- und Panoramakameras täglich Livebilder aus ausgewählten Urlaubsorten. Die Sendung informiert auch über Temperatur- und Wetterbedingungen vor Ort.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDgIhDADQu3StIB8rchY2BYoSJZIpk5gY767vAO8DmYQhwn2tGZNOug-6sajBtdNxbiyiyvO116QL-YwuNCTvPTYbcmNHV1utMRhOGQ4wSB7_DPHyduEM3x8.jpg</image>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424060500 +0000" channel="3sat.de@SD">
+    <title lang="fr">ZIB</title>
+    <desc lang="fr">Die "Früh-ZIB" informiert von Montag bis Freitag über das aktuelle Geschehen aus Innen- und Außenpolitik, Wirtschaft, Wissenschaft, Kultur und Chronik. Reportagen und Hintergrundberichte vertiefen das Verständnis der aktuellen Ereignisse.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxBDoMgEAXQu8zaih0U1LOwGeFjTUtqHJuYNN5d3wHenyZR0EivfV_HYIJZiszQuiAt8lg3qNbx8_2lYBipBZrsXR5a8dxzhPW5YSsYnhypoiL6vjPn_GH7js4L.jpg</image>
+  </programme>
+  <programme start="20260424060500 +0000" stop="20260424063000 +0000" channel="3sat.de@SD">
+    <title lang="fr">Alpenpanorama</title>
+    <desc lang="fr">"Alpenpanorama" zeigt über zahlreiche Web- und Panoramakameras täglich Livebilder aus ausgewählten Urlaubsorten. Die Sendung informiert auch über Temperatur- und Wetterbedingungen vor Ort.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3Sh8ePUt_tt0WoSGWRCLuzhxgHvDIESxM57lbJ5yYM46RqxxpxnI_InMV1u0iJ8iYWpIcEna19j5grxup1WAoNSgVQQEZefmztu1u1Rt4Pw.jpg</image>
+  </programme>
+  <programme start="20260424063000 +0000" stop="20260424063300 +0000" channel="3sat.de@SD">
+    <title lang="fr">ZIB</title>
+    <desc lang="fr">Die "Früh-ZIB" informiert von Montag bis Freitag über das aktuelle Geschehen aus Innen- und Außenpolitik, Wirtschaft, Wissenschaft, Kultur und Chronik. Reportagen und Hintergrundberichte vertiefen das Verständnis der aktuellen Ereignisse.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRCoMwDADQu-R72lrXmPYs_YlL2ESLYhSE4d23d4D3hZFNIcPnOLZcXHFT5bdaW1UmbrZdzdrXsp5SXEwomDxJ8N0TGUl5FKY-dJ5CigEeUNnmf4Y4XD1FuH8.jpg</image>
+  </programme>
+  <programme start="20260424063300 +0000" stop="20260424070000 +0000" channel="3sat.de@SD">
+    <title lang="fr">Alpenpanorama</title>
+    <desc lang="fr">"Alpenpanorama" zeigt über zahlreiche Web- und Panoramakameras täglich Livebilder aus ausgewählten Urlaubsorten. Die Sendung informiert auch über Temperatur- und Wetterbedingungen vor Ort.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDgIhDADQu3StIB8rchY2BYoSJZIpk5gY767vAO8DmYQhwn2tGZNOug-6sajBtdNxbiyiyvO116QL-YwuNCTvPTYbcmNHV1utMRhOGQ4wSB7_DPHyduEM3x8.jpg</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424070500 +0000" channel="3sat.de@SD">
+    <title lang="fr">ZIB</title>
+    <desc lang="fr">Die "Früh-ZIB" informiert von Montag bis Freitag über das aktuelle Geschehen aus Innen- und Außenpolitik, Wirtschaft, Wissenschaft, Kultur und Chronik. Reportagen und Hintergrundberichte vertiefen das Verständnis der aktuellen Ereignisse.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxBDoMgEAXQu8zaih0U1LOwGeFjTUtqHJuYNN5d3wHenyZR0EivfV_HYIJZiszQuiAt8lg3qNbx8_2lYBipBZrsXR5a8dxzhPW5YSsYnhypoiL6vjPn_GH7js4L.jpg</image>
+  </programme>
+  <programme start="20260424070500 +0000" stop="20260424074500 +0000" channel="3sat.de@SD">
+    <title lang="fr">Kulturzeit</title>
+    <desc lang="fr">Au sommaire: Film "Palästina 36" - Aufstand gegen die britische Kolonialmacht und jüdische Siedler Film "Luisa - Das letzte Tabu" - Gespräch mit Julia Roesler Theater Chemnitz - Oper und Theater auf einer Bühne?...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDoQgDADQu3TtiBUFhrOwaQE_UaKxmpgY7z7zDvAeYJIMHqbz3H1QQc2Fxix1yWmmz35kkTqu25WCQmqwMQNibGPXfR0zJmeNZjewpmShgkKy_DNj7K1dD-8P.jpg</image>
+  </programme>
+  <programme start="20260424074500 +0000" stop="20260424082500 +0000" channel="3sat.de@SD">
+    <title lang="fr">nano</title>
+    <desc lang="fr">Das 3sat-Wissenschaftsmagazin berichtet ausführlich, verständlich und aktuell über Technik, Medizin, Wissenschaft und Forschung. "nano" macht Zukunftsvisionen sichtbar und erfahrbar. Durch eine unterhaltsame, spannende und informative Mischung von...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3mtIXZ-nPtrtBaIglkYi7MweYBxIKwwDTee5DVFHNBUeWpjDNWO8HizR53S6KijKFPli2ufUmBdM7zVo7a7xpUyKECgrK8mfO-bsLFt4P.jpg</image>
+  </programme>
+  <programme start="20260424082500 +0000" stop="20260424091500 +0000" channel="3sat.de@SD">
+    <title lang="fr">Rundschau</title>
+    <desc lang="fr">Au sommaire: Lehrerinnen mit Kopftuch: Ja oder Nein? Überteuerte WM-Tickets - Vorwurf Abzocke</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxBCoAgEADAv-y5kkote4uXVdeSkqI1CKK_13Eu84BDJphgKeWYrLAiZZyJm0whYX2cxNz4bb-CFUGNGMm72MlWevPLd1JGpRF7bchABRl5_TOth7sfFbwf.jpg</image>
+  </programme>
+  <programme start="20260424091500 +0000" stop="20260424095000 +0000" channel="3sat.de@SD">
+    <title lang="fr">Angst vor dem Scheitern - Was, wenn ich versage?</title>
+    <desc lang="fr">Die Angst zu scheitern kennen alle - doch kaum jemand spricht darüber. "rec."-Reporter Martin Lustenberger trifft Menschen, die offen über ihre Misserfolge reden: Sales scheiterte auf dem Weg zu seinem Traumberuf und Rebekka musste ihren Kleiderladen...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDkAwEADQu8waVf1ylm7GtEFoiCGRiLtr3v69MCInGGC-rmMIIogl45S4ySkuWB9nYm5o2-8YhHMGSRmShfYSe22k0pEQW6tsR1BBRl5LZq17lDfw_Q.jpg</image>
+  </programme>
+  <programme start="20260424095000 +0000" stop="20260424105000 +0000" channel="3sat.de@SD">
+    <title lang="fr">Stolperstein</title>
+    <desc lang="fr">Das Prasseln von Regen, die Lieblings-Band oder einfach nur ein Lachen - Klänge verbinden uns mit der Umwelt, mit Gefühlen und mit Menschen. Aber was ist, wenn man das alles gar nicht oder nur noch sehr schwer hören kann? Heilung nach Hörverlust...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDkUwEADAu-y3p12t1nOW_iy7QWiIJZGIuzMHmBs6UoEWxuPY2mSSmTINomUWnui37aJa9st6cjIeexZm_0cfvbVM2ESyHWLg2rkqQgGZdP6yEOLlmhqeFw.jpg</image>
+  </programme>
+  <programme start="20260425042000 +0000" stop="20260425050000 +0000" channel="3sat.de@SD">
+    <title lang="fr">Kulturzeit</title>
+    <desc lang="fr">"Kulturzeit" ist das werktägliche Kulturmagazin von 3sat. "Kulturzeit" mischt sich in kulturelle und gesellschaftspolitische Fragen ein. Das Magazin bietet Hintergrundinformationen, Porträts und Gespräche zu aktuellen und brisanten Fragen.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDoQgDADQu3TtiBUFhrOwaQE_UaKxmpgY7z7zDvAeYJIMHqbz3H1QQc2Fxix1yWmmz35kkTqu25WCQmqwMQNibGPXfR0zJmeNZjewpmShgkKy_DNj7K1dD-8P.jpg</image>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425053000 +0000" channel="3sat.de@SD">
+    <title lang="fr">nano</title>
+    <desc lang="fr">Das 3sat-Wissenschaftsmagazin berichtet ausführlich, verständlich und aktuell über Technik, Medizin, Wissenschaft und Forschung. "nano" macht Zukunftsvisionen sichtbar und erfahrbar. Durch eine unterhaltsame, spannende und informative Mischung von...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w32qq29Cz92ep6hIZYEom4O3OAeSAiE3iYznP3QQQxZxyJq0xpxnI_iLnq1-1KQUhJHaFGg0o1LpqIXarrZJ1RsteDhAIy8vJn1rpbtwbeDw.jpg</image>
+  </programme>
+  <programme start="20260425053000 +0000" stop="20260425070000 +0000" channel="3sat.de@SD">
+    <title lang="fr">Alpenpanorama</title>
+    <desc lang="fr">"Alpenpanorama" zeigt über zahlreiche Web- und Panoramakameras täglich Livebilder aus ausgewählten Urlaubsorten. Die Sendung informiert auch über Temperatur- und Wetterbedingungen vor Ort.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDgIhDADQu3StIB8rchY2BYoSJZIpk5gY767vAO8DmYQhwn2tGZNOug-6sajBtdNxbiyiyvO116QL-YwuNCTvPTYbcmNHV1utMRhOGQ4wSB7_DPHyduEM3x8.jpg</image>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425070500 +0000" channel="3sat.de@SD">
+    <title lang="fr">ZIB</title>
+    <desc lang="fr">Die Kurzausgaben der österreichischen Nachrichtensendung "Zeit im Bild" (ZIB) liefern neben klassischen Nachrichten Informationen über Entwicklungen auf den Finanzmärkten und Expertenanalysen.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRCoMwDADQu-R72lrXmPYs_YlL2ESLYhSE4d23d4D3hZFNIcPnOLZcXHFT5bdaW1UmbrZdzdrXsp5SXEwomDxJ8N0TGUl5FKY-dJ5CigEeUNnmf4Y4XD1FuH8.jpg</image>
+  </programme>
+  <programme start="20260425070500 +0000" stop="20260425073500 +0000" channel="3sat.de@SD">
+    <title lang="fr">Kulturplatz</title>
+    <desc lang="fr">Die Sendung möchte für Kultur begeistern und behält wichtige Akteure und Ereignisse des Kulturbetriebes im Blick.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3qtpu6Vn6s30EoSGWRCLuzhxgHgjEGRxM57k7L7yYC42Zm5LTTPV-ZOYmrtuVvOgkddoqHSMG3QbqW2uUlgMNEk1CggoK8fJniPZWvYH3Aw.jpg</image>
+  </programme>
+  <programme start="20260425073500 +0000" stop="20260425080000 +0000" channel="3sat.de@SD">
+    <title lang="fr">Bilder aus Südtirol</title>
+    <desc lang="fr">Au sommaire: Wolkenstein in Gröden - Die Gemeinde will weiterhin hart gegen Wildcamper vorgehen Vater erfindet Armband mit Alarm - Für seinen autistischen Sohn Extreme Ausdauersportarten - Immer mehr junge Südtiroler...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDsIgEADQu8xaARn59SxspjIosaTEwcTEePf6DvC-sJIwLPCYcyxZZ9063VlU59LoPF4som7b_i5Z18quJkcGma8xYkJjXajsjbEB0wVO0Eme_8z78MHo4HcA.jpg</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425084500 +0000" channel="3sat.de@SD">
+    <title lang="fr">Wasserwege in Österreich - Die Traun</title>
+    <desc lang="fr">Die Traun ist weit mehr als ein Fluss - sie ist die Lebensader des Salzkammerguts. Die Dokumentation begleitet die Traun auf ihrem Weg durch die Zeit. Vom mittelalterlichen Rudolfsturm in Hallstatt, der die Salzvorkommen, das "weiße Gold" der...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DczLDYMwDADQXXxuSSrnQ5klFxM7bVQiUA0SEmJ3eAO8A0ZSgQG-67oMySRTG31EuyZc6bn8RbXL07xxMihv9uwtOZcdltgHQSqxvNhljGLhAY30d2chxB17D-cF.jpg</image>
+  </programme>
+  <programme start="20260425084500 +0000" stop="20260425093000 +0000" channel="3sat.de@SD">
+    <title lang="fr">Wasserwege in Österreich - Die Mur</title>
+    <desc lang="fr">An den Ufern der Mur jagten die Habsburger in ihren Revieren, unten im Fluss fuhren Flöße und Kähne. Die Mur atmet die Geschichte der alten Monarchie. Der Fluss verbindet Österreich mit Slowenien und Kroatien und ist weit über vierhundert Kilometer...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLCoQwDADQu2Tt2BnUmHqWblITPzhFMRUE8e76DvAuiGwKHUw5b11wwc2JR7Uyqcz82XY1K_v_ekhwyL75-p-vsJYae-WBhCJRG5lE2UMBiW15M8T2rKiB-wE.jpg</image>
+  </programme>
+  <programme start="20260425093000 +0000" stop="20260425103000 +0000" channel="3sat.de@SD">
+    <title lang="fr">Wasserwege in Österreich - Die Leitha</title>
+    <desc lang="fr">Es ist nicht die Breite oder die Länge der Leitha, die sie als Gewässer so besonders macht, sondern ihre Geschichte: teilte sie doch Habsburgs Reich in Cis- und ein Transleithanien. Die eine Hälfte war westlich-österreichisch und die andere...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDoMgDADQu_Tbia4UxLPwU6RsZiMz1iUmxrvrO8A7ILEKjPDetmWMJpq58ku0rZJnfiyrqLbT9_fP0SS0Q0cYXPHFhuJ4evYeOyoUsM9C0EBl_dyZc37HgeC8AA.jpg</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424042000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chose mentale</title>
+    <desc lang="fr">Depuis qu'elle est électrosensible, Ema vit recluse chez elle, coupée du monde. Son seul lien avec l'extérieur est mental, à travers ses expériences de sorties hors du corps. Mais un jour, deux garçons s'introduisent chez elle en pensant cambrioler...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3Wo-ubc_Sn1ZbhIZYEom4O3OAecA7jmBgOs_dWGHFnN0YucoxzK7cj8hcDet2BStqPVCfulAr7TtUyQeZSBLpFhNiI6GA7Hj5M8T-bknB-wE.jpg</image>
+  </programme>
+  <programme start="20260424042000 +0000" stop="20260424043500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Underwater</title>
+    <desc lang="fr">Pour confondre un tueur en série, un policier doit découvrir s'il détient chez lui l'une de ses vitimes. Une femme à l'ouïe très fine analyse pour lui les plus petits bruits en provenance du logement du psychopathe...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3Kq0-OEt_urqloSGWRCLuzhxgHsDABAPM57kPXniRS5iIm0Ixh3o_iLkZ1-2KXjirXDSyQzSuk73ssR0xkUStSCuboIISePkzY-ytnIb3Aw.jpg</image>
+  </programme>
+  <programme start="20260424043500 +0000" stop="20260424061500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Alex Hugo</title>
+    <desc lang="fr">Un couple d'une petite soixantaine, les Gathier, se présentent à la rurale. Ils sont inquiets. Leur fils Clément et Léna, leur belle-fille sont partis faire une randonnée et ne donnent plus la moindre nouvelle. Clément Gathier n'est pas n'importe...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDkAwEADQu8waTX06xlm6GTpFaIghkYi7k7d_D_SsAh1M57l33ngzJx5FiyRh5nw_RLUY1u0K3hCWHC1SHX-25BZJsCFC7C1GFyCDxLr8mXN4V20D7wc.jpg</image>
+  </programme>
+  <programme start="20260424061500 +0000" stop="20260424071500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Léo Mattéï, brigade des mineurs</title>
+    <desc lang="fr">Léo Mattéï et son équipe mènent l'enquête au sein de la famille Pasquier, après que leur fils de 10 ans a tenté de mettre le feu à une petite fille. La brigade tente de comprendre d'où viennent les accès de violence du petit garçon. Au fil de...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3WqoPPUt_VrseoSGWRCLuzhxgHuiRCTxM57n7IIKYM47EVaY0Y7kfxFzFdbtSENjEaBuFg3Nda6nDvtayNVrJlNBJDQVk5OXPjLG3chreDw.jpg</image>
+  </programme>
+  <programme start="20260424071500 +0000" stop="20260424080000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Léo Mattéï, brigade des mineurs</title>
+    <desc lang="fr">Qui chez les Pasquier acceptera de briser l'omerta ? Entre un ambitieux père de famille pris dans ses mensonges, une mère blessée qui se ment à elle-même depuis des années, une tante en colère contre son frère et une impressionnante grand-mère...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxBDoQgDADAv_SsIm6twFu4gBQ1SjRWE5PN_n2dB8wXYhAGB_N1Hc4rr5YSJpamcFpCfZws0ozbfievshm1tciUUSNRitlmotiS0bpLiFBBCbK-GdHwfEwPvz8.jpg</image>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424085500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Harry Wild</title>
+    <desc lang="fr">Harry, Fergus et Lola sont invités à une soirée "meurtre et mystère", dans un hôtel situé sur une île isolée, par la mère d'une amie de Lola. Seulement, les meurtres qui sont censés être fictifs deviennent réalité. Qui est le tueur parmi...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxtDkAwDADQu_Q3RtCps-xPN_URFqKTSMTdeQd4D3hWgR7mlI7eGWeWyJNoEWVYOD9OUS3Ctl-DM2OoLGKLJTE33jMRWqIgZVOTMFrIILKuf4Zo77pr4f0A.jpg</image>
+  </programme>
+  <programme start="20260424085500 +0000" stop="20260424094000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Police Department</title>
+    <desc lang="fr">Bernie Hoffman, un avocat, est retrouvé mort chez lui après une soirée de collecte de fonds pour la campagne du chef de la police. L'enquête révèle qu'il s'agit d'un rendez-vous qui a mal tourné avec l'un de ses clients, André Griffin, chef du...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDoQgDADQu3TtiFKhA2dhw6dRo2TMVBMT4931HeBdkKIweJj2ffNBBTXXOLK0lcscP9ufRdq8_o4SlKZMLvecULuBMDlEnbIxPaHubHHQQI2yvJm1dOLXwP0A.jpg</image>
+  </programme>
+  <programme start="20260424094000 +0000" stop="20260424102500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Police Department</title>
+    <desc lang="fr">Halstead remonte une filière de China White, de l'héroïne haut de gamme, jusqu'au fournisseur, Matthew Garrett, dealer et proxénète dont les proies sont des fugueuses. Garrett est le principal suspect dans le meurtre non élucidé de Lauren Sanders,...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRCoMwDADQu-R72pTVmHqW_sQ2bjKLYhQGw7u7d4D3g1FMYYD3cWxDcsnNVV5qbdUyS7PtatbmZT1LcuSjTNyPTBhCCRi7qMheFWnKjAgPqGKff0bUf5_cwXUD.jpg</image>
+  </programme>
+  <programme start="20260424102500 +0000" stop="20260424111000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">En vérifiant un entrepôt dans le cadre de ses fonctions de conseiller, le lieutenant Casey se retrouve au mauvais endroit, au mauvais moment quand un chariot élévateur perce accidentellement un réservoir d'acide, provoquant un déversement...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3WumWcpb-bNv1CA2xJBJxd-YA80AgYehhOs-998qrOdPIUmVOM5X7wSJVXLcreUVBd86iiUwBo607pMFpbRhTJHQ1FJBJlj9rmvY2zsL7AQ.jpg</image>
+  </programme>
+  <programme start="20260424111000 +0000" stop="20260424115500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">Le lieutenant Casey est incapable de sauver une femme piégée à l'intérieur de son immeuble. Casey et Severide ne sont pas d'accord sur la marche à suivre. Tous deux doivent maintenant régler leur conflit. En cherchant les causes du sinistre, Casey...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRCoAgDADQu-y7EslSPIs_m86SkqIVBNHd6x3gPUAoDB7m89x9UEGVihNLVzkVbPeDRbq4blcKiqk3UTtii9qQyRTJojOk05ByZoQGKsryZ-No794N8H4.jpg</image>
+  </programme>
+  <programme start="20260424115500 +0000" stop="20260424134000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Meurtres à...</title>
+    <desc lang="fr">Le corps de Solange Dorval est retrouvé devant la basilique Saint-Nazaire à Carcassonne. Les images de vidéosurveillance montrent le tueur revêtu d'une cape sur laquelle est brodée la croix des anciens Templiers. Pour le lieutenant de police...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDkQwEADQu8w3qqlOjbP0p8zsEhpiKpHI3n29A7wHxqQCA8ylHEM00Sw5fUWbLLyk-jhFtZm2_eJoPCOhJc-tpc6FQH60LJ-WrLhJeoQKctL1zRDD7XoPvz8.jpg</image>
+  </programme>
+  <programme start="20260424134000 +0000" stop="20260424142500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Harry Wild</title>
+    <desc lang="fr">Freddie, propriétaire populaire d'un club de boxe dans lequel Fergus s'entraîne, est retrouvé assassiné dans les montagnes de Dublin. La salle était endettée et le défunt avait des problèmes avec sa future femme et son ex-femme. Fergus demande à...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DczLDYMwEAXAXvacYMdfQi2-rOEZUGIFsSBFQvQOU8AclFlAHU3btnRJJTVXHiFNxTDzc1kh0vTf3z4kBV3gDAy8eztjQg5ZR1-if2lwqy09qLJ87iyE-Letp_MC.jpg</image>
+  </programme>
+  <programme start="20260424142500 +0000" stop="20260424151000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Motive : le mobile du crime</title>
+    <desc lang="fr">Brendan Kendall, assistant de Jimmy Ramsay, est découvert mort dans sa chambre d'hôtel alors qu'il participait à un important séminaire organisé par Cybrex, la société qui l'employait. L'homme a été empoisonné au cyanure, ce qui persuade Flynn...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDoQgDADQu3TtSESh1rOwKVI_mSGaKSYmxrvrO8C7ILIKDLCUsg_BBLNmnkXrLGnlz_4X1Xr8bUcKhgk9R0T2seksJUI3SUeWWmfHxgpUkFm_b-Y9nm3v4H4A.jpg</image>
+  </programme>
+  <programme start="20260424151000 +0000" stop="20260424155500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Police Department</title>
+    <desc lang="fr">Atwater enquête sous couverture pour tenter de faire tomber le chef d'une organisation criminelle. Mais tout ne se passe pas comme prévu. Le coéquipier d'Atwater est tué par balle. Piégé, Atwater se retrouve dans une situation qui met à l'épreuve...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DczRDkAgFADQf7nPSKuEb-mlqxuNxtxsNvPvnA84D6BnghGWUo7RCSdS9jNxkykkXx8nMTfTtl_BCRzkEJUkRa3UBg1SwDYGK6OifrIaKsie1z_rOnur3sD7AQ.jpg</image>
+  </programme>
+  <programme start="20260424155500 +0000" stop="20260424164000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Police Department</title>
+    <desc lang="fr">L'unité des renseignements tente de remonter une filière d'armes illégales intraçables, les "tueuses de flics". Burgess et Hailey, qui enquêtent sous couverture, sont enlevés par deux suspects dans un salon de vente d'armes...Saison</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DczLDYMwDADQXXwGQgjgkFlycbD5qI1ANZWQELvDG-BdkEgFAizHsYdoolkzzaJVFl6p3H-iWo3f7c_R1LWjZvC2GVBacpNntF1KhIzCo01QQCb9vFnf4-l8B_cD.jpg</image>
+  </programme>
+  <programme start="20260424164000 +0000" stop="20260424172500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">Les lieutenants Casey et Dawson font une demande d'adoption permanente pour Louie, mais découvrent rapidement un obstacle. Jeff Clark, un ancien pompier devenu étudiant en médecine, contacte Severide avec une proposition intéressante...Saison</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDkAwEADQu8waLdoaPUs3Q8cnNMSQSMTd2b3Ve6AjYfAwnefugwpqTjSyFInjTPl-sEjRr9sVg0KDmqzty8g_eWgNoqtd1TZao-EOMkgky58519w1Wng_.jpg</image>
+  </programme>
+  <programme start="20260424172500 +0000" stop="20260424181000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">Dawson et Casey se plongent dans d'épineuses questions juridiques afin de garantir leur statut de tuteurs légaux de Louie. Ils se renseignent auprès de Tina, qui est en contact avec les services d'adoption. Brett, de son côté, s'ouvre à Dawson. Au...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3WumWcpb-bNv1CA2xJBJxd-YA80AgYehhOs-998qrOdPIUmVOM5X7wSJVXLcreUVBd86iiUwBo607pMFpbRhTJHQ1FJBJlj9rmvY2zsL7AQ.jpg</image>
+  </programme>
+  <programme start="20260424181000 +0000" stop="20260424190000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Motive : le mobile du crime</title>
+    <desc lang="fr">Le cadavre du jeune Nathan Conroy, 17 ans, est découvert dans un parc de la ville. Il a reçu plusieurs coups de couteau mortels dans l'abdomen. Ne découvrant aucune trace de sang à proximité du corps de la victime, les policiers comprennent qu'elle...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DczJDYMwEADAXvYNOPjARy3-rL3mUGIFsSAhIXqHKWAuSMgFAsz7voYoolgqToW7WmjBdt0Kc5d__4OiMKNHJQlJUtZeflzWJiVvLSnt--SggYr8fbNhsKdyBu4H.jpg</image>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424194500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">New York Unité Spéciale</title>
+    <desc lang="fr">Carlos, qui garde son neveu Tino, décide de le laisser seul devant un jeu vidéo pendant qu'il va voir sa petite amie. Mais Tino est en ligne avec un autre joueur qui lui donne rendez-vous en dehors de chez lui. Un homme adulte arrive en voiture, se...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDoMgDADQu_TbCRlYwLPwU6Qo2cjMqomJ8e76DvBOSCQMIyzbto5RRVUbzSx941zptf5ZpJ--vz1HpYN-D-hs8ZxtRgwJbTG-kDN-CslCB43k82SI7jB-gOsG.jpg</image>
+  </programme>
+  <programme start="20260424194500 +0000" stop="20260424203000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">New York Unité Spéciale</title>
+    <desc lang="fr">Après dix-huit mois de rééducation intensive pour retrouver la forme après une blessure à l'épaule, Tommy Baker, champion de MMA, s'apprête à remonter sur le ring pour affronter Alves, le "Ninja brésilien". Mais l'heure du combat arrive et Tommy...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDkAwDADQu_Qby0w3nGU_tXUIC1ESibg77wDvgYGEoYfpPPfeK6_mTCNLlTnOVO4Hi1Rh3a7oVYNJx2jQEaYmYd2ZQJqtrQM5HQxDAZlk-TNr3W1ahPcD.jpg</image>
+  </programme>
+  <programme start="20260424203000 +0000" stop="20260424211000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Police Department</title>
+    <desc lang="fr">Un mois après avoir frôlé la mort, Voight rejoint une unité débordée par une affaire de drogue. L'équipe affronte pertes et dilemmes moraux. Au milieu des tensions, une enquête sur une fusillade pousse Atwater et Val à remettre en question le...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDoIwDADQu_RbWbTQFc6yn24tQmCRUEhMiHfXd4B3QRY3GGA6jm1IIYW5ysu8qaaz3Lfd3Juyvk9NYcSM8uBoHVMrRqxZn1F7RioFs8ENqvjyz4jiB7mD7w8.jpg</image>
+  </programme>
+  <programme start="20260424211000 +0000" stop="20260424215500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">New York, police judiciaire</title>
+    <desc lang="fr">Lorsqu'une jeune fille est tuée, Cosgrove fait équipe avec l'inspecteur Jalen Shaw pour retrouver son assassin. Benson et Stabler du FBI réalisent que c'est plus qu'un homicide classique. McCoy et Price demandent justice contre un réseau criminel...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRCoMwDADQu-R72qC2Np6lP6nJNtnKxFQQhnfXd4D3h8ymMMG71nVKLrml8EutLSoLN-umZu38_e2SXCTGLhPNqN0QfCDfIwrSc8gqUUZ4QGH73FkI49FHD-cF.jpg</image>
+  </programme>
+  <programme start="20260424215500 +0000" stop="20260424224000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">New York, police judiciaire</title>
+    <desc lang="fr">Cosgrove et Shaw enquêtent sur le meurtre d'une adolescente. L'affaire se complique quand il s'avère que la victime, fille d'un politicien pro-life, était en ville pour avorter. D'après les premiers éléments, il ne s'agirait pas d'un acte de...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkUwEADQvcw32ni0w1r6MzpT5GqIIZHc2DtnAecPI6nAAPN57kMwwSyZJtEqCy9U7oeoVnHdLg4Ga2ySZXIJU9tTJI9sKVruBVvXeSggk_6-zDl_N9jB8wI.jpg</image>
+  </programme>
+  <programme start="20260424224000 +0000" stop="20260425003000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Les petits meurtres d'Agatha Christie</title>
+    <desc lang="fr">A Ambleteuse, petite ville du Nord de la France, une jeune femme est retrouvée morte sur la plage. Une mystérieuse missive est découverte près du corps. Puis les crimes se succèdent, précédés à chaque fois par une lettre envoyée à la police,...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkUwEADQvcy3q9HpA2vpz1SnCA25QyIRe-cs4NwQSRh6mI5j74MKai40stSF00y__c8i9bBuZwqqsUiYGsrGa2M9t6i7DnN01meORkMFhWT5Muf8ha2F5wU.jpg</image>
+  </programme>
+  <programme start="20260425003000 +0000" stop="20260425011500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Ransom</title>
+    <desc lang="fr">Alors qu'Eric fait un exposé sur la négociation lors d'un séminaire du Centre national d'épidémiologie du Canada, l'hôtel où sont rassemblés les chercheurs fait l'objet d'une prise d'otages. Deux agents de sécurité sont abattus. Eric décide de...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDoMgDADQu_R7SgCthbPwU6HbjBKJ1cRk2d23d4D3gZlVIML7PFtMJpml8ku0r1IW7tohqn3e9qskk9EFa0N5ZiyDpYGQKcw0Ijoh5z08oLKu_wxxuj2N8P0B.jpg</image>
+  </programme>
+  <programme start="20260425011500 +0000" stop="20260425020000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Ransom</title>
+    <desc lang="fr">Eric et son équipe sont appelés en renfort sur une nouvelle affaire d'enlèvement. La fille d'un sénateur a en effet été kidnappée. La rançon réclamée n'est pas sous forme pécuniaire, mais bien plus personnelle. Le politicien a confié avoir...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDoMgDADQu_R7SgCthbPwU6HbjBKJ1cRk2d23d4D3gZlVIML7PFtMJpml8ku0r1IW7tohqn3e9qskk9EFa0N5ZiyDpYGQKcw0Ijoh5z08oLKu_wxxuj2N8P0B.jpg</image>
+  </programme>
+  <programme start="20260425020000 +0000" stop="20260425023000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Trauma Zéro</title>
+    <desc lang="fr">Dans un futur proche, une avancée médicale permet aux médecins d'effacer les souvenirs traumatiques et de soigner les phobies. Thomas décide d'essayer ce traitement.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3qsW2cZb-9LFFaIitRCLuzhxgHvCOCUaYSzlGK6xYspuIm0xxcfVxEnMTtv2KVhgk1RoZAibZo9ImKoW99yFKnSQmqCA7Xv8MUd-dGeD9AA.jpg</image>
+  </programme>
+  <programme start="20260425023000 +0000" stop="20260425025000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Diversion</title>
+    <desc lang="fr">Sur la piste d'un tueur en série, un inspecteur de police à l'instinct redoutable est proche du but lorsque la sûreté de l'état interfère dans son dossier.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDkAwEADQu8wa1TBt4yzdTM34hIYYEom4O9u3eA8kUoEOpvPcu2iimTONolUWnqncD1Gt-nW7OBpvLfeWE2OT2jbU5CWgYGAcficHBWTS5c-c83cTEN4P.jpg</image>
+  </programme>
+  <programme start="20260425025000 +0000" stop="20260425030000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Service de nettoyage</title>
+    <desc lang="fr">Une jeune femme de ménage intervient pour nettoyer les restes d'une soirée. Elle fait la connaissance de trois fêtards encore sur place.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3qqEvZ-nPVrcIjcaSSMTdmQPMAwGZYID5PMvghRdLxom4yRQXrMtBzM247Vf0QqZoUu-ScSr0CtG2JIko6KhdK1FBBRl5_TOtzd1ZBe8H.jpg</image>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425031000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Veuillez ne pas tenter d'ouvrir les portes</title>
+    <desc lang="fr">Un train reste bloqué de nuit en rase campagne à la suite d'un accident. Les voyageurs ont été évacués, l'enquête est terminée et le trafic reprendra prochainement.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDkAwEADQu8waRT-0Z-lmtIOGhhgSibg7y7d5DwzIBA7m89ydF16kjBNxlSkmLPeDmKuwblf0QoXGBlSkMEpFesC-NTHYRre1HX9AARl5-TNjulv2Gt4P.jpg</image>
+  </programme>
+  <programme start="20260425031000 +0000" stop="20260425033500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Massacre</title>
+    <desc lang="fr">Deux sœurs, de 10 et 12 ans, s'apprêtent à quitter leur île adorée, devenue trop chère pour leur famille. Leur tristesse se transforme en rage pointée vers ceux qui les poussent à partir : les touristes. Ce dernier été sera noir, mortel et...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3qqEvZ-nPVrcIjcaSSMTdmQPMAwGZYID5PMvghRdLxom4yRQXrMtBzM247Vf0QqZoUu-ScSr0CtG2JIko6KhdK1FBBRl5_TOtzd1ZBe8H.jpg</image>
+  </programme>
+  <programme start="20260425033500 +0000" stop="20260425043500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Nickel chrome</title>
+    <desc lang="fr">Au cours de leur cavale, trois jeunes malfrats doivent trouver le courage de se débarrasser du seul témoin qui pourrait les dénoncer pour leur braquage chez un diamantaire mafieux.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3qugjztKftrtFaIitRCLuzhxgHgieCUaYSzlGJ5xYsp-Im0y4-Po4ibmJ236hE5iQYhekSiiHkIxto7RKk7TYJRN6qCB7Xv9Ma3P3VsH7AQ.jpg</image>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425042000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Entre les tombes</title>
+    <desc lang="fr">Charles est un vieux gardien de cimetière solitaire. Un soir, à la fermeture, un visiteur l'interpelle, à la recherche de la tombe de sa mère biologique qu'il n'a pas connue. Charles ne reconnaît pas le nom de la défunte, mais; devant l'insistance...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxtDkAwDADQu_Q3FjYdzrI_tdZHWIiSSMTdeQd4D_SkAh1M57l3wQQzJxpFiyQ8U74folrEdbs4GHaVRBnEtywuMrbosPdky9oOFEsLGSTS5c8Q_W2bGt4P.jpg</image>
+  </programme>
+  <programme start="20260425042000 +0000" stop="20260425043500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Underwater</title>
+    <desc lang="fr">Pour confondre un tueur en série, un policier doit découvrir s'il détient chez lui l'une de ses vitimes. Une femme à l'ouïe très fine analyse pour lui les plus petits bruits en provenance du logement du psychopathe...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3Kq0-OEt_urqloSGWRCLuzhxgHsDABAPM57kPXniRS5iIm0Ixh3o_iLkZ1-2KXjirXDSyQzSuk73ssR0xkUStSCuboIISePkzY-ytnIb3Aw.jpg</image>
+  </programme>
+  <programme start="20260425043500 +0000" stop="20260425045500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Personae</title>
+    <desc lang="fr">Lorsqu'Anna vole le sac d'une de ses concurrentes à un casting, elle découvre un courrier annonçant que les parents biologiques de sa victime, orpheline, ont levé le secret de leur identité. Dans l'espoir d'empocher de quoi sortir de la galère,...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDoMgDADQu_R7CgahxbPwUynbzCQSq8mSZXfXd4D3g5m1wATv42hTMskslV9F-1pk4a7tRbXP63ZKMnnA2boRkYY4Pq2Lmb0VDJ44kAjBAyrr585CwK8jD_8L.jpg</image>
+  </programme>
+  <programme start="20260425045500 +0000" stop="20260425051500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">La belle affaire</title>
+    <desc lang="fr">A la frontière suisse, une détective est chargée d'enquêter sur une femme dont les allées et venues inquiètent son mari. La filature se met en place, la nuit tombe et le désir refait surface...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxtDkAwDADQu_Q3FjYdzrI_tdZHWIiSSMTdeQd4D_SkAh1M57l3wQQzJxpFiyQ8U74folrEdbs4GHaVRBnEtywuMrbosPdky9oOFEsLGSTS5c8Q_W2bGt4P.jpg</image>
+  </programme>
+  <programme start="20260425051500 +0000" stop="20260425060500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Harry Wild</title>
+    <desc lang="fr">Harry, Lola et Fergus enquêtent sur la disparition d'Alice et se rendent dans un village très étrange où règne sorcellerie et règles anciennes. Alice est-elle tombée sur quelque chose qui l'a conduite à la mort ? Ou a-t-elle été assassinée par...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxBDoQgDADAv_S8ClgF5C1camHVKNFYTUyMf9-dB8wDA0mGANN57iGqqOZCY5a65DRTtR9ZpOZ1u1JUnTYOG9Oy9dg6z2S-TerR8KAZe6fhA4Vk-WfWuht9B-8P.jpg</image>
+  </programme>
+  <programme start="20260425060500 +0000" stop="20260425065500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Harry Wild</title>
+    <desc lang="fr">Elaine va bientôt se marier, pour l'occasion elle organise un enterrement de vie de jeune fille avec ses amies. Seulement la demoiselle d'honneur est empoisonnée, alors que les autres partageaient la même bouteille de champagne. Harry et Fergus...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDkAwDADQu_QbmwwtZ9lPTYewECWRiLvzDvAe6FkFOpjOc--88WZOPIoWSYaZ8_0Q1SKs2zV4g0F6im0klFhZasmRLS2XHBwiRQsZJNblz5oGb0c1vB8.jpg</image>
+  </programme>
+  <programme start="20260425065500 +0000" stop="20260425074500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Harry Wild</title>
+    <desc lang="fr">Un homme du passé d'Orla la supplie de l'aider : Ben Finnegan est en fuite, accusé de meurtre et traqué par un tueur à l'arbalète. La seule personne vers laquelle Orla peut se tourner est la dernière personne à qui elle aurait voulu demander de...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxtDkAwDADQu_Q3RtCps-xPN_URFqKTSMTdeQd4D3hWgR7mlI7eGWeWyJNoEWVYOD9OUS3Ctl-DM2OoLGKLJTE33jMRWqIgZVOTMFrIILKuf4Zo77pr4f0A.jpg</image>
+  </programme>
+  <programme start="20260425074500 +0000" stop="20260425082500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">Après la mort de son frère, Jimmy se retrouve en désaccord avec Boden. Dawson continue de tout mettre en oeuvre pour favoriser l'adoption de Louie, mais lorsque Casey lui propose de venir s'installer chez lui, elle refuse. Au même moment, l'équipe...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxdCoMwDADgu-R5Wmj6p2fpS9pEJ1tRjIOBeHf9DvCdUEgFRngfxzZmk83SaBbtm_BC3baLal-_64-zYUJyJWKdQnJJ_FBdsWiLi8wevYUXNNLPk4UQ_5g8XDc.jpg</image>
+  </programme>
+  <programme start="20260425082500 +0000" stop="20260425091500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">Dawson et Casey sont de retour ensemble, ravis d'avoir obtenu la garde de Louie. Quant à Stella, après avoir passé la nuit avec Severide, elle apprend par le docteur Charles que Grant, son ex-petit ami, psychologiquement instable, est parvenu à...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRCoAgDADQu-y7EslSPIs_m86SkqIVBNHd6x3gPUAoDB7m89x9UEGVihNLVzkVbPeDRbq4blcKiqk3UTtii9qQyRTJojOk05ByZoQGKsryZ-No794N8H4.jpg</image>
+  </programme>
+  <programme start="20260425091500 +0000" stop="20260425100000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">Casey fait appel à Susan Weller pour l'aider sur une question personnelle urgente. Severide reçoit une offre pour voyager luxueusement avec le riche businessman Travis Brenner. Stella utilise toutes ses ressources pour aider un enfant de la rue qu'elle...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxtDkAwDADQu_Q3loxt5Sz702l9hIUoiUTcnXeA90AiFehgOs-9iyaaOdMoWmXhmcr9ENWqX7eLo2GH7BIGRrRNHxoSn2iw4sQOLG2AAjLp8mfeh7tGB-8H.jpg</image>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425104500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">Casey se tourne vers Susan Weller pour qu'elle l'aide à régler une affaire personnelle urgente, tandis que Severide a l'opportunité de faire un voyage, dans le cadre d'une campagne de vodka, avec Travis Brenner, un riche buisinessman adepte des...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3WumWcpb-bNv1CA2xJBJxd-YA80AgYehhOs-998qrOdPIUmVOM5X7wSJVXLcreUVBd86iiUwBo607pMFpbRhTJHQ1FJBJlj9rmvY2zsL7AQ.jpg</image>
+  </programme>
+  <programme start="20260425104500 +0000" stop="20260425113000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">En vérifiant un entrepôt dans le cadre de ses fonctions de conseiller, le lieutenant Casey se retrouve au mauvais endroit, au mauvais moment quand un chariot élévateur perce accidentellement un réservoir d'acide, provoquant un déversement...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3WumWcpb-bNv1CA2xJBJxd-YA80AgYehhOs-998qrOdPIUmVOM5X7wSJVXLcreUVBd86iiUwBo607pMFpbRhTJHQ1FJBJlj9rmvY2zsL7AQ.jpg</image>
+  </programme>
+  <programme start="20260425113000 +0000" stop="20260425121000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">Le lieutenant Casey est incapable de sauver une femme piégée à l'intérieur de son immeuble. Casey et Severide ne sont pas d'accord sur la marche à suivre. Tous deux doivent maintenant régler leur conflit. En cherchant les causes du sinistre, Casey...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3qlptOUt_2u56hIZYEom4O3OAeSAGJuhhOs-998KLOYeRuMqEcyj3g5irtG4XeoGywzrKhDE1WjcmkjNKu2FIUllHFgrIgZc_M8beyrXwfg.jpg</image>
+  </programme>
+  <programme start="20260425121000 +0000" stop="20260425125500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">Alors qu'elle répond à un appel, Dawson percute accidentellement un piéton qui passait devant l'ambulance. Elle doit gérer les conséquences du drame. Les lieutenants Casey et Severide sont en désaccord et continuent d'enquêter sur un incendie...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkUwFAXQuZxvlOiLsfRnO61H3OaKQyIRc2cNYN00QBL1NB_H1gcV1JIxJalyigvKbU8iFf_-Zwwqeq5Zu86MtdcOZuDWgGGBpmvYaiooQ9Yvs9ZdrTf0vA.jpg</image>
+  </programme>
+  <programme start="20260425125500 +0000" stop="20260425134000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">Les parents de Gabriela et d'Antonio arrivent à Chicago pour fêter leur anniversaire de mariage en famille, mais les choses se passent moins bien que prévu. Cruz découvre que James, le beau-fils de Boden, a des hématomes dans le dos et décide d'en...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3WumWcpb-bNv1CA2xJBJxd-YA80AgYehhOs-998qrOdPIUmVOM5X7wSJVXLcreUVBd86iiUwBo607pMFpbRhTJHQ1FJBJlj9rmvY2zsL7AQ.jpg</image>
+  </programme>
+  <programme start="20260425134000 +0000" stop="20260425142000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">Les lieutenants Casey et Dawson font une demande d'adoption permanente pour Louie, mais découvrent rapidement un obstacle. Jeff Clark, un ancien pompier devenu étudiant en médecine, contacte Severide avec une proposition intéressante...Saison</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDkAwEADQu8waLdoaPUs3Q8cnNMSQSMTd2b3Ve6AjYfAwnefugwpqTjSyFInjTPl-sEjRr9sVg0KDmqzty8g_eWgNoqtd1TZao-EOMkgky58519w1Wng_.jpg</image>
+  </programme>
+  <programme start="20260425142000 +0000" stop="20260425151000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Fire</title>
+    <desc lang="fr">Dawson et Casey se plongent dans d'épineuses questions juridiques afin de garantir leur statut de tuteurs légaux de Louie. Ils se renseignent auprès de Tina, qui est en contact avec les services d'adoption. Brett, de son côté, s'ouvre à Dawson. Au...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3WumWcpb-bNv1CA2xJBJxd-YA80AgYehhOs-998qrOdPIUmVOM5X7wSJVXLcreUVBd86iiUwBo607pMFpbRhTJHQ1FJBJlj9rmvY2zsL7AQ.jpg</image>
+  </programme>
+  <programme start="20260425151000 +0000" stop="20260425155500 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">New York, police judiciaire</title>
+    <desc lang="fr">Lorsqu'une jeune fille est tuée, Cosgrove fait équipe avec l'inspecteur Jalen Shaw pour retrouver son assassin. Benson et Stabler du FBI réalisent que c'est plus qu'un homicide classique. McCoy et Price demandent justice contre un réseau criminel...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRCoMwDADQu-R72qC2Np6lP6nJNtnKxFQQhnfXd4D3h8ymMMG71nVKLrml8EutLSoLN-umZu38_e2SXCTGLhPNqN0QfCDfIwrSc8gqUUZ4QGH73FkI49FHD-cF.jpg</image>
+  </programme>
+  <programme start="20260425155500 +0000" stop="20260425164000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">New York, police judiciaire</title>
+    <desc lang="fr">Cosgrove et Shaw enquêtent sur le meurtre d'une adolescente. L'affaire se complique quand il s'avère que la victime, fille d'un politicien pro-life, était en ville pour avorter. D'après les premiers éléments, il ne s'agirait pas d'un acte de...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRCoMwDADQu-R7WjVtXTxLf9ImbKJlYhQGY3fXd4D3g8ymMMH7OLYpueTmyi-1tqrM3Gy7mrVl_ZySnPaeCXMgQvKEXc6j9By6IoJahgEeUNmWO4tx_OIzwP8C.jpg</image>
+  </programme>
+  <programme start="20260425164000 +0000" stop="20260425172000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">Chicago Police Department</title>
+    <desc lang="fr">Un mois après avoir frôlé la mort, Voight retrouve son unité submergée par une vaste affaire de drogue. L'équipe fait face à des pertes, des dilemmes moraux et des tensions internes. Au coeur d'enquêtes éprouvantes, elle affronte révélations...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDkQwEADQu8y31XQZ7TpLf6Y6g9CQnUok4u68A7wLIilDD1Mpex9MMHOmkbXOnGb67H9WrYd1O1Iw0vhvQvLOorRRMKIkN6AVll8Uy1BBJl3erOvc2XiE-wE.jpg</image>
+  </programme>
+  <programme start="20260425172000 +0000" stop="20260425182000 +0000" channel="13emeRue.fr@SD">
+    <title lang="fr">New York Unité Spéciale</title>
+    <desc lang="fr">Richard Wheatley a beau multiplier les recours et les coups de théâtre en changeant d'avocats, son procès va avoir lieu, et le témoignage de son fils sera accablant pour lui. Il fait appel à Rafael Barba pour le défendre et il attaque Stabler sur...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3SlW7nKU_q1uP0BBLIhF3Zw4wD_QkETqYznPvvPJqTjRGKVLkmfL9iCJFWLeLvRpM6XRFQ-uqYJAYUTcGAxtLXGptIYNEsvyZte6usYH3Aw.jpg</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424043000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Le 6h info</title>
+    <desc lang="fr">Un rendez-vous réveil-matin, avec un point sur l'actualité assorti de différentes rubriques qui permettent d'en explorer certains aspects plus en profondeur.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDoQgDADQu3TtCAMI6FnYtFI_mSEaq4mJ8e76DvAuIBSGDqZ9X7ukkpoLjix14TzjZ91YpO7_y5GTMo7Yo8log3WoA2ntmdrgaPiayBEqKCi_N_M-nDY2cD8.jpg</image>
+  </programme>
+  <programme start="20260424043000 +0000" stop="20260424060000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Télématin</title>
+    <desc lang="fr">De l'info et de la bonne humeur, sept jours sur sept : résolument dans l'air du temps, la première matinale de France, forte de sa richesse éditoriale et de sa dynamique d'équipe, aborde de nombreuses thématiques et traite l'actualité avec sérieux...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3uvryOEt_VrtBaIglkYi7MweYBwYShh6m89z7oIKaM40sVeY0U7kfLFLFdbtSUGg9mqZNxmq0GB1xTcnUGH3nOtQaCsgky59539ymdfB-.jpg</image>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424063000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Journal 08h00</title>
+    <desc lang="fr">Pour bien démarrer la journée, la rédaction de France 2 propose un point sur l'actualité. Les principales informations nationales et internationales sont passées en revue.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3Sl8aZ-nParcIDbGVSMTdmQPMAyMywQBzKcfghRdLxom4yRQXrI-TmJuw7Vf0IkXpFJpIQbeaNKEhZ0NytpMqya6FCjLy-mfW9rdyBt4P.jpg</image>
+  </programme>
+  <programme start="20260424063000 +0000" stop="20260424075500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Télématin</title>
+    <desc lang="fr">De l'info et de la bonne humeur, sept jours sur sept : résolument dans l'air du temps, la première matinale de France, forte de sa richesse éditoriale et de sa dynamique d'équipe, aborde de nombreuses thématiques et traite l'actualité avec sérieux...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxZDkAwEADQu8w3SjrdnKU_08USGmJIJOLuvAO8BwJxhh6m89x7L7yYC42Zm5LTTPV-ZOYmrtuVvKBgVXKh64xxqFC5GLRtEQfToowkoYJCvPyZ1uaWVsH7AQ.jpg</image>
+  </programme>
+  <programme start="20260424075500 +0000" stop="20260424084500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Bel &amp; Bien ensemble</title>
+    <desc lang="fr">Magazine féminin qui traite du bien-être et du quotidien mode d'emploi pour aller mieux.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDkAwDADQu_QbW2wznGU_XdcgLEQnkYi78w7wHogoDCPMpRxjUEEtGSeWJnNasD5OFmlo268UlB4oGW0senYWIw_k0GiO3rWEliJUkFHWP-s6f5vewfsB.jpg</image>
+  </programme>
+  <programme start="20260424084500 +0000" stop="20260424085000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Journal Météo climat outre-mer</title>
+    <desc lang="fr">Un point météo complet sur la météo dans les Outre-mer, avec les prévisions de températures et la force des vents.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DczLDYMwDADQXXwGQkpxTGbJxQ7hI4hAGCSkit3pG-D9QFgTeJjOc_fBBDNnHpNWOfUzl_uRVKu4blcfjEWprcRBhJuvw0goHTkm_tDALVkoILMu_wzR3Q218Lw.jpg</image>
+  </programme>
+  <programme start="20260424085000 +0000" stop="20260424092500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Chacun son tour</title>
+    <desc lang="fr">Chacun son tour</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDoQgDADQu3TtiAMC4lnYlFI_mSEaq4mJ8e76DvAuSCgMPUz7vvZRRTUXHFnqwnnGz7qxSE3_5chR-UxBow5kPLbcUGhtQz45q79DQjRQQUH5vZlz_jSdhfsB.jpg</image>
+  </programme>
+  <programme start="20260424092500 +0000" stop="20260424095500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Chacun son tour</title>
+    <desc lang="fr">Chacun son tour</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DczLDYMwDADQXXwuBId8ILPkYhO3RRCBMJUqVexO3wDvB0wqkOB9nnvKJpu50ku0rVJmavZDVNtp3T4lG1cYvfXsMZLrHY8WJTw75Ghx6myBB1TS5Z-FEL_94OG6AQ.jpg</image>
+  </programme>
+  <programme start="20260424095500 +0000" stop="20260424105500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place. Les 2 premières manches, "les qualifs", et "la compèt'" désignent...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDoMgDADQu_R7ihZB6ln4qVCnUaJZXWKy7O76DvB-MLIKDDCf5zFEE81S-C1aF8kLV8dHVOu07d8cTRrFY0_ouMWOAtJEOaSAzWQdYWvhBYV1fTLv-8sGB_8b.jpg</image>
+  </programme>
+  <programme start="20260424105500 +0000" stop="20260424110000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Journal Météo climat</title>
+    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkUwEADQvcw3OlFGay39ac145N6GGBKJ2DtnAeeGFFWgh_k4tj6YYJYcJ9EqCy-x3HZRrYb_enIwPgkKu9FhapqWvCdbD8KdFUa0SFBAjvr7MqLusq6F5wU.jpg</image>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424114200 +0000" channel="France2.fr@SD">
+    <title lang="fr">Journal 13h00</title>
+    <desc lang="fr">Tous les jours, à 13h, la rédaction propose un point sur l'actualité. Les informations nationales et internationales sont passées à la loupe et mises en perspective, illustrées par des reportages sur le terrain.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxBDoMgEAXQu8y6ClEGimdh8wujNZbUOJo0Mb27vgO8k15QoYHe-74OySQzV0yibZUyo1k3UW3z53uUZNi5OMbgEWx2GYjcd2wzFysOHQo9qEKXO_M-_Pon0_8C.jpg</image>
+  </programme>
+  <programme start="20260424114200 +0000" stop="20260424114500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Journal Météo climat</title>
+    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkUwEADQvcw3OlFGay39ac145N6GGBKJ2DtnAeeGFFWgh_k4tj6YYJYcJ9EqCy-x3HZRrYb_enIwPgkKu9FhapqWvCdbD8KdFUa0SFBAjvr7MqLusq6F5wU.jpg</image>
+  </programme>
+  <programme start="20260424114500 +0000" stop="20260424115500 +0000" channel="France2.fr@SD">
+    <title lang="fr">La p'tite librairie</title>
+    <desc lang="fr">François Busnel propose chaque jour de découvrir ou redécouvrir une œuvre française ou étrangère : roman, essai, grand classique ou encore bande dessinée.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxtDkAwDADQu_Q3pkOHs-xPR32EhSiJRNydd4D3QGAVaGE6z731xps58iiaRelnTvdDVLNu3a7em4CObGU5BOxKHByLkwZLwZyIrWVIILIuf0bk7qKu4P0A.jpg</image>
+  </programme>
+  <programme start="20260424115500 +0000" stop="20260424130500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Ça commence aujourd'hui</title>
+    <desc lang="fr">Faustine Bollaert reçoit des invités qui se sont mariés, ont divorcé et ont ensuite réépousé le même partenaire : ils racontent leur surprenant parcours amoureux.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3Wo_u0rP0p9X1CA2xJBJxd-YA80DwwmBhOs_dOuXUnPzIUiSOs8_3g0WKft2u6BQGjUw6NoaGxlS6JaxKE6nrhxI1B8ggeVn-DJHuujXwfg.jpg</image>
+  </programme>
+  <programme start="20260424130500 +0000" stop="20260424141000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Ça commence aujourd'hui</title>
+    <desc lang="fr">Avec les trois invités de Faustine Bollaert, l'émission du jour s'intéresse aux médicaments et à leurs leurs effets secondaires parfois ravageurs.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDkAwDADQu_QbW8w2nGU_1XUIC1ESibg77wDvgQGFoYfpPPc-qKDmjCNLlTnOWO4Hi1S0blcMqjZWoyeNTZ0aQsaOUyRtnYk0kCUoIKMsf-acv01r4f0A.jpg</image>
+  </programme>
+  <programme start="20260424141000 +0000" stop="20260424142000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Affaire conclue : la vie des objets</title>
+    <desc lang="fr">Parce que les maisons sont remplies de babioles insolites qui ne demandent qu'à trouver acquéreurs, des spécialistes accompagnent les propriétaires d'objets tout au long des étapes susceptibles de les mener à la vente.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DczJDYQwDADAXvxmSThivNSSj5OYQxCB1qyEhOgdpoC5ILAK9DAdx957482ceRQts6SZP_tPVMu4bv_kja0CYRVaRrKtIyaUZDF96wFrF2KEAjLr8maI3dmQg_sB.jpg</image>
+  </programme>
+  <programme start="20260424142000 +0000" stop="20260424151500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
+    <desc lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxBDkAwEADAv-wZRXWVt_Sy1S1CQyyJRPydzH0e8CQMPUznufdOOTUnGlmKxGGmfD9YpBjW7QpO1VRqtGxCbKqGW08GO_srY9TokSCDRLL8GWJ7a2vg_QA.jpg</image>
+  </programme>
+  <programme start="20260424151500 +0000" stop="20260424160000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</title>
+    <desc lang="fr">Affaire conclue, tout le monde a quelque chose à vendre</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDoMgDADQu_TbCcQK1LPwU6SbRolm1cTEePftHeDdkFkFBpiOYx-SSWau_BFtq5SZX_tXVNtx3c6SjMXoSodoyTOSJYouBxdQ-jDmNxM0UFmXf-Z9uLrYw_MD.jpg</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424164000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Tout le monde a son mot à dire</title>
+    <desc lang="fr">Émission quotidienne pour jouer avec la langue française et enrichir sa culture générale. Autour de Sidonie Bonnec et Bruno Guillon, 2 équipes jouent en répondant à des questions. Chacune est constituée d'un candidat, épaulé par 2...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3imp3OUt_tlqP0BBLIhF3Zw4wD3iWCB1M57l3Tjk1Jx6jFCmGmfP9iCJFv25XcMqQrxptBqQWG-y5ReSSDJPFqrZaQwaJZfkza_HWZOD9AA.jpg</image>
+  </programme>
+  <programme start="20260424164000 +0000" stop="20260424171000 +0000" channel="France2.fr@SD">
+    <title lang="fr">N'oubliez pas les paroles</title>
+    <desc lang="fr">Les candidats chantent en karaoké accompagnés par un orchestre. Quand les mots s'effacent, seuls gagnent ceux qui se souviennent de toutes les paroles.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDoQgDADQu3TtCIhA9SxsitRPZojGamJivLvzDvBuSCQMPczHsfVRRbUUmljqwnmhz7azSD381jNHhcw-dNoiIbXeOHTBaGtozKlJ2gWooJB8_5n34bLo4HkB.jpg</image>
+  </programme>
+  <programme start="20260424171000 +0000" stop="20260424175500 +0000" channel="France2.fr@SD">
+    <title lang="fr">N'oubliez pas les paroles</title>
+    <desc lang="fr">Les candidats chantent en karaoké accompagnés par un orchestre. Quand les mots s'effacent, seuls gagnent ceux qui se souviennent de toutes les paroles.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxZDkAwEADQu8w3aummZ-lP2xlLaIghkYi78w7wHoiBCRxM57k7L7yYcxiJq0w4h3I_iLlK63ahF1YiDSZh3atGYiRbtygpKm2sTKlTUEAOvPyZ1uburIL3Aw.jpg</image>
+  </programme>
+  <programme start="20260424175500 +0000" stop="20260424180000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Journal Météo climat</title>
+    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3St-cpT_bdoPQEEsiEXdnDjAPRGSCAabz3IcggpgLjsRNoTxjvR_E3KR1u3IQPUkZk1aUjdQuGR8xoYq689K6FjuooCAvf2atu5U38H4.jpg</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424183500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Journal 20h00</title>
+    <desc lang="fr">Les principales informations nationales et internationales sont passées à la loupe et mises en perspective, illustrées par des reportages sur le terrain.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3KlZpnaU_23Y9QkNsJRJxd-YA84AnYRhgzvkYnHJqSTSxVInjQuVxskgVtv2KTpnoa9Z1QNZtO2KwiKNBb2zs0WJDUEAiWf-s6_objYb3Aw.jpg</image>
+  </programme>
+  <programme start="20260424183500 +0000" stop="20260424185000 +0000" channel="France2.fr@SD">
+    <title lang="fr">20h30 le vendredi</title>
+    <desc lang="fr">20H0 LE VENDREDI 2026</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3iurLWfqz1S1CQyyJRNydOcA8EJAJepjOc--98GLOOBJXmeKM5X4QczWs2xW9SOisjpZ0lHVnk3KyVSEZ1wUlXWMMFJCRlz_T2tzSKng_.jpg</image>
+  </programme>
+  <programme start="20260424185000 +0000" stop="20260424185500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Journal Météo climat</title>
+    <desc lang="fr">Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDkAwEADQu8waRUcNZ-lmhvqEhhgSibg7u7d6DwhrgBam89xbb7yZI49Bsxj6mdP9CKpZt25X701piXBokCVv0IkwWfpZoetwEC4ggci6_Jlz9W2pgvcD.jpg</image>
+  </programme>
+  <programme start="20260424185500 +0000" stop="20260424190000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Basique, l'essentiel de la musique</title>
+    <desc lang="fr">Coup de projecteur sur l'actualité musicale, dans un format dynamique et accessible.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDkQwEADQu8y31S41LWfpzwxTZLchhkQi7s47wLuASQU6mPZ97aKJZs40ipZZhpk-6yaqZf9fjiGaFKhKnm0VrHWpdewxEbovBbYojqGATPp7M0R_1qGB-wE.jpg</image>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424191000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Mot de passe : le duel</title>
+    <desc lang="fr">Mot de passe - Le Duel est un jeu qui consiste à faire deviner des mots à un partenaire de jeu en donnant des mots indices. Il se joue avec deux candidats face à deux célébrités. Du lundi au jeudi, ce sont les Duels et la Finale se joue en fin de...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DczBDYMwDADAXfwuxNQhhMySj11MQTQqwlSqhNgdboA7QNgUEkz7vqbsspsLv9XqosPM1bqpWf36fH9DdkgiEnGMT1RPQfqRGt9q6JhQ0PfwgMK23FkI3Z9iC-cF.jpg</image>
+  </programme>
+  <programme start="20260424191000 +0000" stop="20260424200000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Tropiques criminels</title>
+    <desc lang="fr">Olivier Baudry, un styliste de renom de 25 ans, est retrouvé assassiné dans son atelier. Contre l'avis de ses collègues, Mélissa insiste pour prendre part à l'enquête. Elle est certes enceinte, mais pas diminuée et veut continuer à vivre...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDoMgEADQu8y6CpGWj2dhMzBDJS3ROJqYGO-u7wDvhITCMMK0bcsYVVS14Zelb0wVu2VlkT7_552i8jxoQybkktw7hIIOtbeciDS67C28oKH8nsxadxj_gesG.jpg</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424205500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Tropiques criminels</title>
+    <desc lang="fr">Un homme, professeur de science dans un collège privé de Fort-de-France, est retrouvé mort à son domicile, tué par les morsures de plusieurs araignées venimeuses originaires de la région de Sydney, en Australie, arrivées par colis surprise....</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DczLDkAwEAXQf5k1Kqr1-JZuRns9QkNMJRLx72zO8jw0sIB6mlM6eqecWiJPkCIiLJwfJ0QKv-1XcMp3FqZlA82mDsEPuhx_UDHqEp2ljCLL-mfWNrduDb0f.jpg</image>
+  </programme>
+  <programme start="20260424205500 +0000" stop="20260424231000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Taratata 100% live</title>
+    <desc lang="fr">Laurent Voulzy interprète "Le Rêve du pêcheur", puis "Somerset Maugham", d'Alain Souchon, avec Isaure Le Faou. Youssou N'Dour et Fally Ipupa chantent "Migrants des rêves". Il interprète aussi "Sam Fall" avec Angélique Kidjo. Sam Sauvage propose...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxtDkAwDADQu_Q3hlEfZ9mfajeEhSiJRNydd4D3wEDqoYfpPPfeGWfmSKPXLHqZKd0Pr5rxul3iTJVjHYpy4ELaCoU7JAwWrZSBhZAhgUi6_Blic9u2hvcD.jpg</image>
+  </programme>
+  <programme start="20260424231000 +0000" stop="20260425001000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Basique, le concert</title>
+    <desc lang="fr">Lors de ce "Basique le concert", M. Pokora offre l'occasion de découvrir ou redécouvrir le meilleur de sa discographie, jalonnée par neuf albums studio, dans un condensé d'une heure de ses plus grands succès. Inévitablement, il interprète les...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDkAwEADQu8waxfSjztLNaCcIDTEkEnF3tm_xHhhIGHqYznPvgwpqzjSyVJnTTOV-sEgV1-1KQQ3ISfu6o2icboz1PmKN6Li1uv0FCsgky59Z627sDLwf.jpg</image>
+  </programme>
+  <programme start="20260425001000 +0000" stop="20260425005500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Tropiques criminels</title>
+    <desc lang="fr">Un patron de pompes funèbres est retrouvé mort dans un cimetière. Depuis qu'il avait repris les rênes de l'entreprise, la société avait connu une ascension fulgurante, mais ses méthodes ne faisaient guère l'unanimité. Arnaud est fou de joie...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDkQwEADQu8z30lGdmjhLf4rpEhpiKpGIu---A7wHhqgCPcylHH0wwSw5fkXrLNMSq-MU1Xrc9msKBkmStdQ4n1rHyDygY2pGTmiRbIIP5KjrP_O-u1smeH8.jpg</image>
+  </programme>
+  <programme start="20260425005500 +0000" stop="20260425014000 +0000" channel="France2.fr@SD">
+    <title lang="fr">Tropiques criminels</title>
+    <desc lang="fr">Une grande street artiste qui a toujours créé dans la clandestinité est retrouvée morte dans la galerie où elle s'apprêtait à faire sa première exposition publique, révélant ainsi son identité. En enquêtant de conserve dans le monde huppé...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxLDkAwEADQu8waRac6epZuptQnNMSQSMTdWb_kPRBYIjiYznN3Xnk1Jx6jFCn2M-f7EUWKbt2u3ivSZU1kqGpNhaQ1mcCoW8QwWDtgCRkkluXPmsbeP8P7AQ.jpg</image>
+  </programme>
+  <programme start="20260425014000 +0000" stop="20260425014500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Journal Météo climat outre-mer</title>
+    <desc lang="fr">Un point météo complet sur la météo dans les Outre-mer, avec les prévisions de températures et la force des vents.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDkAwDADQu_QbSzdsnGU_nTYIC1ESibg77wDvgUQq0MN0nnsfTTRzplG0ysIzlfshqtWwbhdHY9ETsiNxvqv9gMEihWRTFxhtzQwFZNLlz9rW3y408H4.jpg</image>
+  </programme>
+  <programme start="20260425014500 +0000" stop="20260425024500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Ça commence aujourd'hui</title>
+    <desc lang="fr">Faustine Bollaert reçoit des invités qui se sont mariés, ont divorcé et ont ensuite réépousé le même partenaire : ils racontent leur surprenant parcours amoureux.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DczLDYMwDADQXXwuJDQQQ2bJxcTmI4hAGKRKFbvDG-D9oScVCDCd5x6iiWbONIqWWXimYj9EtUzrdnE0TRosWWGsv1XtPHZUoWU3CHtM5Cx8IJMub-Y9_lzbwP0A.jpg</image>
+  </programme>
+  <programme start="20260425024500 +0000" stop="20260425030500 +0000" channel="France2.fr@SD">
+    <title lang="fr">La civilisation des arbres</title>
+    <desc lang="fr">Coup de projecteur fascinant sur la manière dont les arbres semblent faire civilisation entre eux et avec le reste de la végétation qui les entoure.</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxbDkAwEADAu-w3Wo9W9Sz9Wd31CA2xJBJxd-YA80CPwuBhOs_dBxXUnHBkKRLTjPl-sEgR1-2ioFzZxWqoEEnbhpzuTcsdD5EM1lEzQwYJZfkza9u7dgbeDw.jpg</image>
+  </programme>
+  <programme start="20260425030500 +0000" stop="20260425040500 +0000" channel="France2.fr@SD">
+    <title lang="fr">Tout le monde veut prendre sa place</title>
+    <desc lang="fr">Quiz de culture générale au cours duquel 6 candidats vont tenter chaque jour de déloger le champion en titre (qui accumule les gains d'émission en émission) et de prendre sa place. Les 2 premières manches, "les qualifs", et "la compèt'" désignent...</desc>
+    <image>https://tv.cdnartwhere.eu/cache/i2/DcxRDoMgDADQu_R7ihZB6ln4qVCnUaJZXWKy7O76DvB-MLIKDDCf5zFEE81S-C1aF8kLV8dHVOu07d8cTRrFY0_ouMWOAtJEOaSAzWQdYWvhBYV1fTLv-8sGB_8b.jpg</image>
+  </programme>
+</tv>

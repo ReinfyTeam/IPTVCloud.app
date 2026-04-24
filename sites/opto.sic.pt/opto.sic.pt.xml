@@ -1,0 +1,781 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="SIC.pt@SD">
+    <display-name>SIC</display-name>
+    <icon src="https://i.imgur.com/SPMqiDG.png" />
+    <url>https://opto.sic.pt</url>
+  </channel>
+  <channel id="SICAltaDefinicao.pt@SD">
+    <display-name>SIC Alta Definição</display-name>
+    <icon src="https://i.imgur.com/VdPwyQv.png" />
+    <url>https://opto.sic.pt</url>
+  </channel>
+  <channel id="SICReplay.pt@SD">
+    <display-name>SIC Replay</display-name>
+    <icon src="https://i.imgur.com/fj84mXz.png" />
+    <url>https://opto.sic.pt</url>
+  </channel>
+  <programme start="20260424115830 +0000" stop="20260424131930 +0000" channel="SIC.pt@SD">
+    <title lang="pt">PRIMEIRO JORNAL</title>
+    <episode-num system="xmltv_ns">0.113.0/1</episode-num>
+    <episode-num system="onscreen">S01E114</episode-num>
+  </programme>
+  <programme start="20260424132023 +0000" stop="20260424142023 +0000" channel="SIC.pt@SD">
+    <title lang="pt">LINHA ABERTA COM HERNANI CARVALHO - TEMPORADA 12</title>
+    <episode-num system="xmltv_ns">0.14.0/1</episode-num>
+    <episode-num system="onscreen">S01E15</episode-num>
+  </programme>
+  <programme start="20260424142023 +0000" stop="20260424151523 +0000" channel="SIC.pt@SD">
+    <title lang="pt">AMOR ETERNO</title>
+    <episode-num system="xmltv_ns">0.237.0/1</episode-num>
+    <episode-num system="onscreen">S01E238</episode-num>
+  </programme>
+  <programme start="20260424151535 +0000" stop="20260424161435 +0000" channel="SIC.pt@SD">
+    <title lang="pt">ÊTA MUNDO MELHOR</title>
+    <episode-num system="xmltv_ns">0.113.0/1</episode-num>
+    <episode-num system="onscreen">S01E114</episode-num>
+  </programme>
+  <programme start="20260424161526 +0000" stop="20260424170026 +0000" channel="SIC.pt@SD">
+    <title lang="pt">A FORÇA DO QUERER</title>
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+  </programme>
+  <programme start="20260424170026 +0000" stop="20260424180926 +0000" channel="SIC.pt@SD">
+    <title lang="pt">FORÇA DE MULHER</title>
+    <episode-num system="xmltv_ns">0.157.0/1</episode-num>
+    <episode-num system="onscreen">S01E158</episode-num>
+  </programme>
+  <programme start="20260424181006 +0000" stop="20260424185406 +0000" channel="SIC.pt@SD">
+    <title lang="pt">CASADOS À PRIMEIRA VISTA</title>
+    <episode-num system="xmltv_ns">0.14.0/1</episode-num>
+    <episode-num system="onscreen">S01E15</episode-num>
+  </programme>
+  <programme start="20260424185503 +0000" stop="20260424204503 +0000" channel="SIC.pt@SD">
+    <title lang="pt">JORNAL DA NOITE</title>
+    <episode-num system="xmltv_ns">0.111.0/1</episode-num>
+    <episode-num system="onscreen">S01E112</episode-num>
+  </programme>
+  <programme start="20260424204528 +0000" stop="20260424213028 +0000" channel="SIC.pt@SD">
+    <title lang="pt">VITÓRIA</title>
+    <episode-num system="xmltv_ns">0.151.0/1</episode-num>
+    <episode-num system="onscreen">S01E152</episode-num>
+  </programme>
+  <programme start="20260424213028 +0000" stop="20260424230028 +0000" channel="SIC.pt@SD">
+    <title lang="pt">PÁGINAS DA VIDA</title>
+    <episode-num system="xmltv_ns">0.44.0/1</episode-num>
+    <episode-num system="onscreen">S01E45</episode-num>
+  </programme>
+  <programme start="20260424230049 +0000" stop="20260424234549 +0000" channel="SIC.pt@SD">
+    <title lang="pt">CASADOS À PRIMEIRA VISTA</title>
+    <episode-num system="xmltv_ns">0.14.0/1</episode-num>
+    <episode-num system="onscreen">S01E15</episode-num>
+  </programme>
+  <programme start="20260424234550 +0000" stop="20260425030950 +0000" channel="SIC.pt@SD">
+    <title lang="pt">A HORA DA LIBERDADE</title>
+    <episode-num system="xmltv_ns">0.79.0/1</episode-num>
+    <episode-num system="onscreen">S01E80</episode-num>
+  </programme>
+  <programme start="20260425031026 +0000" stop="20260425031026 +0000" channel="SIC.pt@SD">
+    <title lang="pt">TELEVENDAS</title>
+    <episode-num system="xmltv_ns">0.81.0/1</episode-num>
+    <episode-num system="onscreen">S01E82</episode-num>
+  </programme>
+  <programme start="20260425044508 +0000" stop="20260425051508 +0000" channel="SIC.pt@SD">
+    <title lang="pt">LINHA ABERTA COM HERNANI CARVALHO - TEMPORADA 12</title>
+    <episode-num system="xmltv_ns">11.13.0/1</episode-num>
+    <episode-num system="onscreen">S12E14</episode-num>
+  </programme>
+  <programme start="20260425051527 +0000" stop="20260425055527 +0000" channel="SIC.pt@SD">
+    <title lang="pt">ETNIAS</title>
+    <episode-num system="xmltv_ns">25.15.0/1</episode-num>
+    <episode-num system="onscreen">S26E16</episode-num>
+  </programme>
+  <programme start="20260425055552 +0000" stop="20260425080952 +0000" channel="SIC.pt@SD">
+    <title lang="pt">EDIÇÃO DA MANHÃ</title>
+    <episode-num system="xmltv_ns">0.114.0/1</episode-num>
+    <episode-num system="onscreen">S01E115</episode-num>
+  </programme>
+  <programme start="20260425081018 +0000" stop="20260425105518 +0000" channel="SIC.pt@SD">
+    <title lang="pt">ALÔ PORTUGAL</title>
+    <episode-num system="xmltv_ns">0.16.0/1</episode-num>
+    <episode-num system="onscreen">S01E17</episode-num>
+  </programme>
+  <programme start="20260425115808 +0000" stop="20260425131008 +0000" channel="SIC.pt@SD">
+    <title lang="pt">PRIMEIRO JORNAL</title>
+    <episode-num system="xmltv_ns">0.114.0/1</episode-num>
+    <episode-num system="onscreen">S01E115</episode-num>
+  </programme>
+  <programme start="20260425131019 +0000" stop="20260425140019 +0000" channel="SIC.pt@SD">
+    <title lang="pt">ALTA DEFINIÇÃO</title>
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <episode-num system="onscreen">S01E14</episode-num>
+  </programme>
+  <programme start="20260425140048 +0000" stop="20260425145948 +0000" channel="SIC.pt@SD">
+    <title lang="pt">E-ESPECIAL</title>
+    <episode-num system="xmltv_ns">0.14.0/1</episode-num>
+    <episode-num system="onscreen">S01E15</episode-num>
+  </programme>
+  <programme start="20260425150030 +0000" stop="20260425155030 +0000" channel="SIC.pt@SD">
+    <title lang="pt">ESTAMOS EM CASA</title>
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <episode-num system="onscreen">S01E14</episode-num>
+  </programme>
+  <programme start="20260425155030 +0000" stop="20260425185430 +0000" channel="SIC.pt@SD">
+    <title lang="pt">CASADOS À PRIMEIRA VISTA - ESPECIAIS</title>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+  </programme>
+  <programme start="20260425185508 +0000" stop="20260425203508 +0000" channel="SIC.pt@SD">
+    <title lang="pt">JORNAL DA NOITE</title>
+    <episode-num system="xmltv_ns">0.112.0/1</episode-num>
+    <episode-num system="onscreen">S01E113</episode-num>
+  </programme>
+  <programme start="20260425203508 +0000" stop="20260425231508 +0000" channel="SIC.pt@SD">
+    <title lang="pt">FAMILY FEUD - TUDO EM FAMÍLIA</title>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+  </programme>
+  <programme start="20260425231517 +0000" stop="20260426020917 +0000" channel="SIC.pt@SD">
+    <title lang="pt">CASADOS À PRIMEIRA VISTA</title>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+  </programme>
+  <programme start="20260426021000 +0000" stop="20260426034500 +0000" channel="SIC.pt@SD">
+    <title lang="pt">PASSADEIRA VERMELHA</title>
+    <episode-num system="xmltv_ns">0.78.0/1</episode-num>
+    <episode-num system="onscreen">S01E79</episode-num>
+  </programme>
+  <programme start="20260426034500 +0000" stop="20260426040000 +0000" channel="SIC.pt@SD">
+    <title lang="pt">TELEVENDAS</title>
+  </programme>
+  <programme start="20260426045055 +0000" stop="20260426052955 +0000" channel="SIC.pt@SD">
+    <title lang="pt">UMA AVENTURA</title>
+    <episode-num system="xmltv_ns">12.12.0/1</episode-num>
+    <episode-num system="onscreen">S13E13</episode-num>
+  </programme>
+  <programme start="20260426053030 +0000" stop="20260426081030 +0000" channel="SIC.pt@SD">
+    <title lang="pt">ALÔ PORTUGAL</title>
+    <episode-num system="xmltv_ns">17.11.0/1</episode-num>
+    <episode-num system="onscreen">S18E12</episode-num>
+  </programme>
+  <programme start="20260426081041 +0000" stop="20260426105441 +0000" channel="SIC.pt@SD">
+    <title lang="pt">CASA FELIZ EM MAIO</title>
+    <episode-num system="xmltv_ns">0.15.0/1</episode-num>
+    <episode-num system="onscreen">S01E16</episode-num>
+  </programme>
+  <programme start="20260424120537 +0000" stop="20260424124237 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Filipa Areosa</title>
+    <episode-num system="xmltv_ns">0.369.0/1</episode-num>
+    <episode-num system="onscreen">S01E370</episode-num>
+  </programme>
+  <programme start="20260424124222 +0000" stop="20260424132022 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Dânia Neto - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.92.0/1</episode-num>
+    <episode-num system="onscreen">S01E93</episode-num>
+  </programme>
+  <programme start="20260424132040 +0000" stop="20260424135840 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Marco Delgado</title>
+    <episode-num system="xmltv_ns">0.394.0/1</episode-num>
+    <episode-num system="onscreen">S01E395</episode-num>
+  </programme>
+  <programme start="20260424135814 +0000" stop="20260424143614 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Especial Aniversário - Daniela Ruah</title>
+    <episode-num system="xmltv_ns">0.201.0/1</episode-num>
+    <episode-num system="onscreen">S01E202</episode-num>
+  </programme>
+  <programme start="20260424143626 +0000" stop="20260424151226 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição</title>
+    <episode-num system="xmltv_ns">0.139.0/1</episode-num>
+    <episode-num system="onscreen">S01E140</episode-num>
+  </programme>
+  <programme start="20260424151237 +0000" stop="20260424154137 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Zé Pedro Gomes - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.26.0/1</episode-num>
+    <episode-num system="onscreen">S01E27</episode-num>
+  </programme>
+  <programme start="20260424154111 +0000" stop="20260424162511 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Henrique Cymerman</title>
+    <episode-num system="xmltv_ns">0.228.0/1</episode-num>
+    <episode-num system="onscreen">S01E229</episode-num>
+  </programme>
+  <programme start="20260424162503 +0000" stop="20260424165403 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Virgilio Castelo - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.50.0/1</episode-num>
+    <episode-num system="onscreen">S01E51</episode-num>
+  </programme>
+  <programme start="20260424165431 +0000" stop="20260424173131 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Julia Pinheiro - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.73.0/1</episode-num>
+    <episode-num system="onscreen">S01E74</episode-num>
+  </programme>
+  <programme start="20260424173150 +0000" stop="20260424181250 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Patrícia Tavares</title>
+    <episode-num system="xmltv_ns">0.307.0/1</episode-num>
+    <episode-num system="onscreen">S01E308</episode-num>
+  </programme>
+  <programme start="20260424181222 +0000" stop="20260424183722 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Toy - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.197.0/1</episode-num>
+    <episode-num system="onscreen">S01E198</episode-num>
+  </programme>
+  <programme start="20260424183729 +0000" stop="20260424191629 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Rita Ferro</title>
+    <episode-num system="xmltv_ns">0.227.0/1</episode-num>
+    <episode-num system="onscreen">S01E228</episode-num>
+  </programme>
+  <programme start="20260424191628 +0000" stop="20260424195428 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Ruy de Carvalho 90 anos - Um novo Olhar</title>
+    <episode-num system="xmltv_ns">0.367.0/1</episode-num>
+    <episode-num system="onscreen">S01E368</episode-num>
+  </programme>
+  <programme start="20260424195446 +0000" stop="20260424203146 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Patricia Mamona</title>
+    <episode-num system="xmltv_ns">0.349.0/1</episode-num>
+    <episode-num system="onscreen">S01E350</episode-num>
+  </programme>
+  <programme start="20260424203201 +0000" stop="20260424211001 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Filipe La Féria - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.98.0/1</episode-num>
+    <episode-num system="onscreen">S01E99</episode-num>
+  </programme>
+  <programme start="20260424211021 +0000" stop="20260424214621 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - São José Correia</title>
+    <episode-num system="xmltv_ns">0.233.0/1</episode-num>
+    <episode-num system="onscreen">S01E234</episode-num>
+  </programme>
+  <programme start="20260424214619 +0000" stop="20260424222819 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - António Raminhos</title>
+    <episode-num system="xmltv_ns">0.374.0/1</episode-num>
+    <episode-num system="onscreen">S01E375</episode-num>
+  </programme>
+  <programme start="20260424222815 +0000" stop="20260424231415 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Ágata</title>
+    <episode-num system="xmltv_ns">0.340.0/1</episode-num>
+    <episode-num system="onscreen">S01E341</episode-num>
+  </programme>
+  <programme start="20260424231427 +0000" stop="20260424233527 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Carlos Queiróz - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
+    <episode-num system="onscreen">S01E09</episode-num>
+  </programme>
+  <programme start="20260424233537 +0000" stop="20260425001537 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Liliana Campos</title>
+    <episode-num system="xmltv_ns">0.265.0/1</episode-num>
+    <episode-num system="onscreen">S01E266</episode-num>
+  </programme>
+  <programme start="20260425001524 +0000" stop="20260425005824 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Especial Alta 4º Aniversário</title>
+    <episode-num system="xmltv_ns">0.203.0/1</episode-num>
+    <episode-num system="onscreen">S01E204</episode-num>
+  </programme>
+  <programme start="20260425005807 +0000" stop="20260425013507 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Hernani Carvalho</title>
+    <episode-num system="xmltv_ns">0.224.0/1</episode-num>
+    <episode-num system="onscreen">S01E225</episode-num>
+  </programme>
+  <programme start="20260425013534 +0000" stop="20260425021034 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Thiago Lacerda</title>
+    <episode-num system="xmltv_ns">0.387.0/1</episode-num>
+    <episode-num system="onscreen">S01E388</episode-num>
+  </programme>
+  <programme start="20260425021012 +0000" stop="20260425024212 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Prof. José Hermano Saraiva - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.107.0/1</episode-num>
+    <episode-num system="onscreen">S01E108</episode-num>
+  </programme>
+  <programme start="20260425024220 +0000" stop="20260425032420 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Rita Ribeiro com 4º Prémios TV7 Dias - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.182.0/1</episode-num>
+    <episode-num system="onscreen">S01E183</episode-num>
+  </programme>
+  <programme start="20260425032416 +0000" stop="20260425035016 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - João Paulo Rodrigues (RM)</title>
+    <episode-num system="xmltv_ns">0.247.0/1</episode-num>
+    <episode-num system="onscreen">S01E248</episode-num>
+  </programme>
+  <programme start="20260425035030 +0000" stop="20260425042730 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Rogério Samora - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.124.0/1</episode-num>
+    <episode-num system="onscreen">S01E125</episode-num>
+  </programme>
+  <programme start="20260425042748 +0000" stop="20260425050648 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Sofia sá da Bandeira - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.189.0/1</episode-num>
+    <episode-num system="onscreen">S01E190</episode-num>
+  </programme>
+  <programme start="20260425050647 +0000" stop="20260425054347 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">João Baião - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.79.0/1</episode-num>
+    <episode-num system="onscreen">S01E80</episode-num>
+  </programme>
+  <programme start="20260425054357 +0000" stop="20260425061257 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Joana Santos - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.70.0/1</episode-num>
+    <episode-num system="onscreen">S01E71</episode-num>
+  </programme>
+  <programme start="20260425061307 +0000" stop="20260425064807 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Joaquim de Almeida - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.68.0/1</episode-num>
+    <episode-num system="onscreen">S01E69</episode-num>
+  </programme>
+  <programme start="20260425064740 +0000" stop="20260425071540 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Taís Araújo - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.36.0/1</episode-num>
+    <episode-num system="onscreen">S01E37</episode-num>
+  </programme>
+  <programme start="20260425071512 +0000" stop="20260425074512 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Paulo Bento - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.55.0/1</episode-num>
+    <episode-num system="onscreen">S01E56</episode-num>
+  </programme>
+  <programme start="20260425074444 +0000" stop="20260425082644 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Mariza - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.110.0/1</episode-num>
+    <episode-num system="onscreen">S01E111</episode-num>
+  </programme>
+  <programme start="20260425082713 +0000" stop="20260425090813 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Zé Pedro (Xutos) - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.102.0/1</episode-num>
+    <episode-num system="onscreen">S01E103</episode-num>
+  </programme>
+  <programme start="20260425090746 +0000" stop="20260425093546 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Diana Chaves - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.48.0/1</episode-num>
+    <episode-num system="onscreen">S01E49</episode-num>
+  </programme>
+  <programme start="20260425093518 +0000" stop="20260425102118 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Anselmo Ralph</title>
+    <episode-num system="xmltv_ns">0.264.0/1</episode-num>
+    <episode-num system="onscreen">S01E265</episode-num>
+  </programme>
+  <programme start="20260425102130 +0000" stop="20260425110330 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Rita Ferro Rodrigues - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.119.0/1</episode-num>
+    <episode-num system="onscreen">S01E120</episode-num>
+  </programme>
+  <programme start="20260425114206 +0000" stop="20260425122006 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Especial Aniversário - Daniela Ruah</title>
+    <episode-num system="xmltv_ns">0.201.0/1</episode-num>
+    <episode-num system="onscreen">S01E202</episode-num>
+  </programme>
+  <programme start="20260425122018 +0000" stop="20260425124718 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Manuel Moura dos Santos - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.22.0/1</episode-num>
+    <episode-num system="onscreen">S01E23</episode-num>
+  </programme>
+  <programme start="20260425124650 +0000" stop="20260425132550 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Rita Guerra - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.83.0/1</episode-num>
+    <episode-num system="onscreen">S01E84</episode-num>
+  </programme>
+  <programme start="20260425132615 +0000" stop="20260425140415 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Conceição Lino</title>
+    <episode-num system="xmltv_ns">0.389.0/1</episode-num>
+    <episode-num system="onscreen">S01E390</episode-num>
+  </programme>
+  <programme start="20260425140424 +0000" stop="20260425144424 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Marina Mota - Especial Dia da Mãe - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.80.0/1</episode-num>
+    <episode-num system="onscreen">S01E81</episode-num>
+  </programme>
+  <programme start="20260425144411 +0000" stop="20260425150911 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Roberta Medina - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
+    <episode-num system="onscreen">S01E21</episode-num>
+  </programme>
+  <programme start="20260425150902 +0000" stop="20260425154902 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Daniela Mercury</title>
+    <episode-num system="xmltv_ns">0.273.0/1</episode-num>
+    <episode-num system="onscreen">S01E274</episode-num>
+  </programme>
+  <programme start="20260425154850 +0000" stop="20260425162450 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - André Sardet</title>
+    <episode-num system="xmltv_ns">0.217.0/1</episode-num>
+    <episode-num system="onscreen">S01E218</episode-num>
+  </programme>
+  <programme start="20260425162458 +0000" stop="20260425170058 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Henri Castelli</title>
+    <episode-num system="xmltv_ns">0.348.0/1</episode-num>
+    <episode-num system="onscreen">S01E349</episode-num>
+  </programme>
+  <programme start="20260425170107 +0000" stop="20260425173707 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Ana Marques</title>
+    <episode-num system="xmltv_ns">0.245.0/1</episode-num>
+    <episode-num system="onscreen">S01E246</episode-num>
+  </programme>
+  <programme start="20260425173733 +0000" stop="20260425181733 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Darko</title>
+    <episode-num system="xmltv_ns">0.366.0/1</episode-num>
+    <episode-num system="onscreen">S01E367</episode-num>
+  </programme>
+  <programme start="20260425181723 +0000" stop="20260425185523 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Miguel Ângelo - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.146.0/1</episode-num>
+    <episode-num system="onscreen">S01E147</episode-num>
+  </programme>
+  <programme start="20260425185507 +0000" stop="20260425193507 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">João Paulo Rodrigues - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.134.0/1</episode-num>
+    <episode-num system="onscreen">S01E135</episode-num>
+  </programme>
+  <programme start="20260425193510 +0000" stop="20260425200710 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Malvino Salvador</title>
+    <episode-num system="xmltv_ns">0.246.0/1</episode-num>
+    <episode-num system="onscreen">S01E247</episode-num>
+  </programme>
+  <programme start="20260425200649 +0000" stop="20260425203749 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Bárbara Norton de Matos</title>
+    <episode-num system="xmltv_ns">0.286.0/1</episode-num>
+    <episode-num system="onscreen">S01E287</episode-num>
+  </programme>
+  <programme start="20260425203725 +0000" stop="20260425210925 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Eunice Muñoz - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.69.0/1</episode-num>
+    <episode-num system="onscreen">S01E70</episode-num>
+  </programme>
+  <programme start="20260425210921 +0000" stop="20260425213621 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Maria João Luis (RM)</title>
+    <episode-num system="xmltv_ns">0.249.0/1</episode-num>
+    <episode-num system="onscreen">S01E250</episode-num>
+  </programme>
+  <programme start="20260425213557 +0000" stop="20260425220757 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Bárbara Guimarães - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.72.0/1</episode-num>
+    <episode-num system="onscreen">S01E73</episode-num>
+  </programme>
+  <programme start="20260425220750 +0000" stop="20260425225050 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - David Carreira</title>
+    <episode-num system="xmltv_ns">0.311.0/1</episode-num>
+    <episode-num system="onscreen">S01E312</episode-num>
+  </programme>
+  <programme start="20260425225028 +0000" stop="20260425231828 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Especial Dia da Mulher</title>
+    <episode-num system="xmltv_ns">0.226.0/1</episode-num>
+    <episode-num system="onscreen">S01E227</episode-num>
+  </programme>
+  <programme start="20260425231856 +0000" stop="20260425235856 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Agir</title>
+    <episode-num system="xmltv_ns">0.326.0/1</episode-num>
+    <episode-num system="onscreen">S01E327</episode-num>
+  </programme>
+  <programme start="20260425235846 +0000" stop="20260426004446 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Cláudio Ramos</title>
+    <episode-num system="xmltv_ns">0.312.0/1</episode-num>
+    <episode-num system="onscreen">S01E313</episode-num>
+  </programme>
+  <programme start="20260426004437 +0000" stop="20260426012237 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Especial 11 setembro - Luis Costa Ribas - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.99.0/1</episode-num>
+    <episode-num system="onscreen">S01E100</episode-num>
+  </programme>
+  <programme start="20260426012208 +0000" stop="20260426015408 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Nucha - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.77.0/1</episode-num>
+    <episode-num system="onscreen">S01E78</episode-num>
+  </programme>
+  <programme start="20260426015351 +0000" stop="20260426022851 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Maneul Marques</title>
+    <episode-num system="xmltv_ns">0.236.0/1</episode-num>
+    <episode-num system="onscreen">S01E237</episode-num>
+  </programme>
+  <programme start="20260426022828 +0000" stop="20260426025828 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Especial Best Of Mundial - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.40.0/1</episode-num>
+    <episode-num system="onscreen">S01E41</episode-num>
+  </programme>
+  <programme start="20260426025842 +0000" stop="20260426033842 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Marisa Liz</title>
+    <episode-num system="xmltv_ns">0.209.0/1</episode-num>
+    <episode-num system="onscreen">S01E210</episode-num>
+  </programme>
+  <programme start="20260426033843 +0000" stop="20260426041843 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">João Paulo Rodrigues - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.134.0/1</episode-num>
+    <episode-num system="onscreen">S01E135</episode-num>
+  </programme>
+  <programme start="20260426041846 +0000" stop="20260426045046 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Bárbara Guimarães - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.72.0/1</episode-num>
+    <episode-num system="onscreen">S01E73</episode-num>
+  </programme>
+  <programme start="20260426045039 +0000" stop="20260426052639 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição</title>
+    <episode-num system="xmltv_ns">0.139.0/1</episode-num>
+    <episode-num system="onscreen">S01E140</episode-num>
+  </programme>
+  <programme start="20260426052650 +0000" stop="20260426055650 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Dulce Pontes</title>
+    <episode-num system="xmltv_ns">0.269.0/1</episode-num>
+    <episode-num system="onscreen">S01E270</episode-num>
+  </programme>
+  <programme start="20260426055634 +0000" stop="20260426063434 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Maestro Vitorino D'Almeida - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.185.0/1</episode-num>
+    <episode-num system="onscreen">S01E186</episode-num>
+  </programme>
+  <programme start="20260426063457 +0000" stop="20260426071157 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Sofia Carvalho - Especial Dia da Mulher - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.174.0/1</episode-num>
+    <episode-num system="onscreen">S01E175</episode-num>
+  </programme>
+  <programme start="20260426071208 +0000" stop="20260426074308 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Maria Rueff - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.61.0/1</episode-num>
+    <episode-num system="onscreen">S01E62</episode-num>
+  </programme>
+  <programme start="20260426074322 +0000" stop="20260426082122 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Marco Delgado</title>
+    <episode-num system="xmltv_ns">0.394.0/1</episode-num>
+    <episode-num system="onscreen">S01E395</episode-num>
+  </programme>
+  <programme start="20260426082056 +0000" stop="20260426085956 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Pedro Granger - Alta Definição</title>
+    <episode-num system="xmltv_ns">0.96.0/1</episode-num>
+    <episode-num system="onscreen">S01E97</episode-num>
+  </programme>
+  <programme start="20260426085958 +0000" stop="20260426093858 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Raul Meireles</title>
+    <episode-num system="xmltv_ns">0.240.0/1</episode-num>
+    <episode-num system="onscreen">S01E241</episode-num>
+  </programme>
+  <programme start="20260426093833 +0000" stop="20260426101033 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Especial Best Of 2015</title>
+    <episode-num system="xmltv_ns">0.314.0/1</episode-num>
+    <episode-num system="onscreen">S01E315</episode-num>
+  </programme>
+  <programme start="20260426101005 +0000" stop="20260426104905 +0000" channel="SICAltaDefinicao.pt@SD">
+    <title lang="pt">Alta Definição - Joana Solnado</title>
+    <episode-num system="xmltv_ns">0.365.0/1</episode-num>
+    <episode-num system="onscreen">S01E366</episode-num>
+  </programme>
+  <programme start="20260424115435 +0000" stop="20260424124035 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">What's UP TV</title>
+    <episode-num system="xmltv_ns">2.13.0/1</episode-num>
+    <episode-num system="onscreen">S03E14</episode-num>
+  </programme>
+  <programme start="20260424124044 +0000" stop="20260424132944 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Casados no Paraíso</title>
+    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
+    <episode-num system="onscreen">S01E21</episode-num>
+  </programme>
+  <programme start="20260424133012 +0000" stop="20260424140412 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Irresistível</title>
+    <episode-num system="xmltv_ns">2.0.0/1</episode-num>
+    <episode-num system="onscreen">S03E01</episode-num>
+  </programme>
+  <programme start="20260424140353 +0000" stop="20260424145153 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Patrões Fora</title>
+    <episode-num system="xmltv_ns">1.8.0/1</episode-num>
+    <episode-num system="onscreen">S02E09</episode-num>
+  </programme>
+  <programme start="20260424145149 +0000" stop="20260424153349 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">What's UP TV</title>
+    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
+    <episode-num system="onscreen">S03E05</episode-num>
+  </programme>
+  <programme start="20260424153337 +0000" stop="20260424161937 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Amigos Improváveis Famosos</title>
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
+    <episode-num system="onscreen">S01E09</episode-num>
+  </programme>
+  <programme start="20260424161956 +0000" stop="20260424165356 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Temos de Falar</title>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
+  </programme>
+  <programme start="20260424165409 +0000" stop="20260424174309 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Casados no Paraíso</title>
+    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
+    <episode-num system="onscreen">S01E21</episode-num>
+  </programme>
+  <programme start="20260424174337 +0000" stop="20260424181637 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Temos de Falar</title>
+    <episode-num system="xmltv_ns">1.11.0/1</episode-num>
+    <episode-num system="onscreen">S02E12</episode-num>
+  </programme>
+  <programme start="20260424181655 +0000" stop="20260424201455 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Tudo Em Familia</title>
+    <episode-num system="xmltv_ns">0.14.0/1</episode-num>
+    <episode-num system="onscreen">S01E15</episode-num>
+  </programme>
+  <programme start="20260424201430 +0000" stop="20260424221130 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">A Máscara</title>
+    <episode-num system="xmltv_ns">3.10.0/1</episode-num>
+    <episode-num system="onscreen">S04E11</episode-num>
+  </programme>
+  <programme start="20260424221146 +0000" stop="20260424225746 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Amigos Improváveis Famosos</title>
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
+    <episode-num system="onscreen">S01E09</episode-num>
+  </programme>
+  <programme start="20260424225805 +0000" stop="20260424233005 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Irresistível</title>
+    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
+    <episode-num system="onscreen">S03E05</episode-num>
+  </programme>
+  <programme start="20260424232939 +0000" stop="20260425013939 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Tudo Em Familia</title>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+  </programme>
+  <programme start="20260425014002 +0000" stop="20260425031602 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">A Máscara</title>
+    <episode-num system="xmltv_ns">3.11.0/1</episode-num>
+    <episode-num system="onscreen">S04E12</episode-num>
+  </programme>
+  <programme start="20260425031629 +0000" stop="20260425040529 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Casados no Paraíso</title>
+    <episode-num system="xmltv_ns">0.21.0/1</episode-num>
+    <episode-num system="onscreen">S01E22</episode-num>
+  </programme>
+  <programme start="20260425040547 +0000" stop="20260425045347 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">What's UP TV</title>
+    <episode-num system="xmltv_ns">2.17.0/1</episode-num>
+    <episode-num system="onscreen">S03E18</episode-num>
+  </programme>
+  <programme start="20260425045411 +0000" stop="20260425053311 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Temos de Falar</title>
+    <episode-num system="xmltv_ns">1.6.0/1</episode-num>
+    <episode-num system="onscreen">S02E07</episode-num>
+  </programme>
+  <programme start="20260425053246 +0000" stop="20260425061946 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Amigos Improváveis Famosos</title>
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+  </programme>
+  <programme start="20260425061919 +0000" stop="20260425070119 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">What's UP TV</title>
+    <episode-num system="xmltv_ns">2.14.0/1</episode-num>
+    <episode-num system="onscreen">S03E15</episode-num>
+  </programme>
+  <programme start="20260425070135 +0000" stop="20260425074335 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Patrões Fora</title>
+    <episode-num system="xmltv_ns">2.10.0/1</episode-num>
+    <episode-num system="onscreen">S03E11</episode-num>
+  </programme>
+  <programme start="20260425074404 +0000" stop="20260425095404 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Tudo Em Familia</title>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+  </programme>
+  <programme start="20260425095427 +0000" stop="20260425103127 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Irresistível</title>
+    <episode-num system="xmltv_ns">2.3.0/1</episode-num>
+    <episode-num system="onscreen">S03E04</episode-num>
+  </programme>
+  <programme start="20260425120730 +0000" stop="20260425124330 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Temos de Falar</title>
+    <episode-num system="xmltv_ns">1.8.0/1</episode-num>
+    <episode-num system="onscreen">S02E09</episode-num>
+  </programme>
+  <programme start="20260425124339 +0000" stop="20260425133239 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Casados no Paraíso</title>
+    <episode-num system="xmltv_ns">0.21.0/1</episode-num>
+    <episode-num system="onscreen">S01E22</episode-num>
+  </programme>
+  <programme start="20260425133257 +0000" stop="20260425140857 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Temos de Falar</title>
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <episode-num system="onscreen">S02E06</episode-num>
+  </programme>
+  <programme start="20260425140907 +0000" stop="20260425145507 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Patrões Fora</title>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+  </programme>
+  <programme start="20260425145452 +0000" stop="20260425152652 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Irresistível</title>
+    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
+    <episode-num system="onscreen">S03E05</episode-num>
+  </programme>
+  <programme start="20260425152626 +0000" stop="20260425161326 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Amigos Improváveis Famosos</title>
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+  </programme>
+  <programme start="20260425161258 +0000" stop="20260425165558 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">What's UP TV</title>
+    <episode-num system="xmltv_ns">2.8.0/1</episode-num>
+    <episode-num system="onscreen">S03E09</episode-num>
+  </programme>
+  <programme start="20260425165559 +0000" stop="20260425174459 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Casados no Paraíso</title>
+    <episode-num system="xmltv_ns">0.21.0/1</episode-num>
+    <episode-num system="onscreen">S01E22</episode-num>
+  </programme>
+  <programme start="20260425174517 +0000" stop="20260425183317 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">What's UP TV</title>
+    <episode-num system="xmltv_ns">2.15.0/1</episode-num>
+    <episode-num system="onscreen">S03E16</episode-num>
+  </programme>
+  <programme start="20260425183258 +0000" stop="20260425204258 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Tudo Em Familia</title>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+  </programme>
+  <programme start="20260425204321 +0000" stop="20260425221921 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">A Máscara</title>
+    <episode-num system="xmltv_ns">3.11.0/1</episode-num>
+    <episode-num system="onscreen">S04E12</episode-num>
+  </programme>
+  <programme start="20260425221948 +0000" stop="20260425230648 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Amigos Improváveis Famosos</title>
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+  </programme>
+  <programme start="20260425230620 +0000" stop="20260426010520 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Tudo Em Familia</title>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+  </programme>
+  <programme start="20260426010534 +0000" stop="20260426024934 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">A Máscara</title>
+    <episode-num system="xmltv_ns">3.12.0/1</episode-num>
+    <episode-num system="onscreen">S04E13</episode-num>
+  </programme>
+  <programme start="20260426024907 +0000" stop="20260426033907 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Casados no Paraíso</title>
+    <episode-num system="xmltv_ns">0.22.0/1</episode-num>
+    <episode-num system="onscreen">S01E23</episode-num>
+  </programme>
+  <programme start="20260426033838 +0000" stop="20260426042238 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">What's UP TV</title>
+    <episode-num system="xmltv_ns">2.10.0/1</episode-num>
+    <episode-num system="onscreen">S03E11</episode-num>
+  </programme>
+  <programme start="20260426042219 +0000" stop="20260426045319 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Irresistível</title>
+    <episode-num system="xmltv_ns">2.1.0/1</episode-num>
+    <episode-num system="onscreen">S03E02</episode-num>
+  </programme>
+  <programme start="20260426045312 +0000" stop="20260426054012 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Amigos Improváveis Famosos</title>
+    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
+    <episode-num system="onscreen">S01E11</episode-num>
+  </programme>
+  <programme start="20260426054008 +0000" stop="20260426061208 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Irresistível</title>
+    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
+    <episode-num system="onscreen">S03E05</episode-num>
+  </programme>
+  <programme start="20260426061142 +0000" stop="20260426070242 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Patrões Fora</title>
+    <episode-num system="xmltv_ns">2.6.0/1</episode-num>
+    <episode-num system="onscreen">S03E07</episode-num>
+  </programme>
+  <programme start="20260426070243 +0000" stop="20260426090143 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">Tudo Em Familia</title>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+  </programme>
+  <programme start="20260426090157 +0000" stop="20260426094657 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">What's UP TV</title>
+    <episode-num system="xmltv_ns">2.5.0/1</episode-num>
+    <episode-num system="onscreen">S03E06</episode-num>
+  </programme>
+  <programme start="20260426094658 +0000" stop="20260426113058 +0000" channel="SICReplay.pt@SD">
+    <title lang="pt">A Máscara</title>
+    <episode-num system="xmltv_ns">3.12.0/1</episode-num>
+    <episode-num system="onscreen">S04E13</episode-num>
+  </programme>
+</tv>

@@ -1,0 +1,1008 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="TV3Plus.lv@SD">
+    <display-name>3+</display-name>
+    <icon src="https://i.imgur.com/oWLnYLn.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="3sat.de@SD">
+    <display-name>3SAT</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="8TV.lv@SD">
+    <display-name>8TV</display-name>
+    <icon src="https://i.imgur.com/F8P8GY3.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="360TV.lv@SD">
+    <display-name>360</display-name>
+    <icon src="https://i.imgur.com/bnSydaN.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="AlJazeera.qa@English">
+    <display-name>Al Jazeera</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="AnimalPlanetEurope.uk@SD">
+    <display-name>Animal Planet EU</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="AnimalPlanetEurope.uk@HD">
+    <display-name>Animal Planet HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="ARDalpha.de@SD">
+    <display-name>ARD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/960px-ARD_alpha.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="ArenaHDBaltic.lt@SD">
+    <display-name>Arena HD Baltic</display-name>
+    <icon src="https://i.imgur.com/oUT6rCF.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="ArirangTV.kr@SD">
+    <display-name>Arirang TV</display-name>
+    <icon src="https://i.imgur.com/Asu5pE9.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="arte">
+    <display-name>Arte</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="BBCEntertainment.uk@SD">
+    <display-name>BBC Entertainment</display-name>
+    <icon src="https://i.imgur.com/fx2z8M1.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="bbc-world">
+    <display-name>BBC World</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="BloombergTV.us@Europe">
+    <display-name>Bloomberg</display-name>
+    <icon src="https://i.imgur.com/OuogLHx.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="boomerang-baltic-cee">
+    <display-name>Boomerang Baltic (CEE)</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="StingrayCMusic.ca@SD">
+    <display-name>C Music TV</display-name>
+    <icon src="https://i.imgur.com/3UppN5P.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="cartoon-network-rse">
+    <display-name>Cartoon Network RSE</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="RealityXtra.uk@SD">
+    <display-name>CBS Drama</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/3/34/RealityXtra_logo.svg/960px-RealityXtra_logo.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="CBSReality.uk@SD">
+    <display-name>CBS Reality</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/CBS_Reality.png/960px-CBS_Reality.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="CNBCEurope.uk@SD">
+    <display-name>CNBC Europe</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="CNNInternational.us@MENA">
+    <display-name>CNN</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="detskii-klub-100">
+    <display-name>Детский - Клуб 100</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="deutche-welle">
+    <display-name>Deutche Welle</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="discovery-channel-ce">
+    <display-name>Discovery Channel CE</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="discovery-hd-showcase">
+    <display-name>Discovery HD Showcase</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="discovery-id-xtra">
+    <display-name>Discovery ID XTRA</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="discovery-life">
+    <display-name>Discovery Life</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="discovery-science-eu">
+    <display-name>Discovery Science EU</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="discovery-world-eu">
+    <display-name>Discovery World EU</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="disney-channel">
+    <display-name>Disney Channel</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="disney-junior">
+    <display-name>Disney Junior</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="disney-xd">
+    <display-name>Disney XD</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="djazztv">
+    <display-name>DJAZZ.tv</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="duo-3-baltic">
+    <display-name>Duo 3 Baltic</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="duo-3-blt">
+    <display-name>Duo 3 BLT</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="Duo6.lv@SD">
+    <display-name>Duo 6 LV</display-name>
+    <icon src="https://i.imgur.com/bHtkbHT.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="e-entertainment">
+    <display-name>E! Entertainment</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="EpicDrama.uk@Sweden">
+    <display-name>Epic Drama CEE</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Epic-Drama-TV.jpg/960px-Epic-Drama-TV.jpg" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="esportstv">
+    <display-name>eSportsTV</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="euronews">
+    <display-name>Euronews</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="Eurosport1.fr@France">
+    <display-name>Eurosport 1</display-name>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="Eurosport2.fr@France">
+    <display-name>Eurosport 2</display-name>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="eurosport-2-bundesliga">
+    <display-name>Eurosport 2 (Bundesliga)</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="eurosport-deutchland">
+    <display-name>Eurosport Deutchland</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="extreme-sports">
+    <display-name>Extreme Sports</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="fashion-one">
+    <display-name>Fashion One</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="FashionTVEurope.fr@SD">
+    <display-name>Fashion TV Europe</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="fight-sports-tv">
+    <display-name>Fight Sports TV</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="FilmzonePlus.ee@SD">
+    <display-name>Filmzone +</display-name>
+    <icon src="https://i.imgur.com/uWBRdS9.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="filmzone-lv">
+    <display-name>Filmzone LV</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="food-network-hd-emea">
+    <display-name>Food Network HD (EMEA)</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="fox">
+    <display-name>Fox</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="fox-life">
+    <display-name>Fox Life</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="france-24-uk">
+    <display-name>France 24 UK</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="futbol">
+    <display-name>Футбол</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="Go3Films.ee@SD">
+    <display-name>GO3 Films</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Go3_Films_Logo_2023.svg/500px-Go3_Films_Logo_2023.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="Go3Sport.ee@SD">
+    <display-name>GO3 Sport</display-name>
+    <icon src="https://i.imgur.com/AHiWUGn.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="Go3Sport2.ee@SD">
+    <display-name>GO3 Sport 2</display-name>
+    <icon src="https://i.imgur.com/ikRWy9M.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="Go3Sport3.ee@SD">
+    <display-name>GO3 Sport 3</display-name>
+    <icon src="https://i.imgur.com/UjpLnPv.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="Go3Sport4.ee@SD">
+    <display-name>GO3 Sport 4</display-name>
+    <icon src="https://i.imgur.com/WBLF0CX.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="gulli">
+    <display-name>Gulli</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="history-europe">
+    <display-name>History Europe</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="kanal-7-lv">
+    <display-name>Kanal 7 LV</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="kidzone-mini-baltic">
+    <display-name>Kidzone Mini Baltic</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="kidzonetv-latvija">
+    <display-name>KidzoneTV Latvija</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="KiKA.de@SD">
+    <display-name>KIKA</display-name>
+    <icon src="https://i.imgur.com/vZdNp5S.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="lolo-tv-lv">
+    <display-name>Lolo TV (LV)</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="LTV1.lv@SD">
+    <display-name>LTV1</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/LTV1_%282022%29.svg/960px-LTV1_%282022%29.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="LTV7.lv@SD">
+    <display-name>LTV7</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/LTV7_Logo_2021.svg/960px-LTV7_Logo_2021.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="luxetv-hd">
+    <display-name>Luxe.TV HD</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="mcm-top">
+    <display-name>MCM TOP</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="mezzo">
+    <display-name>Mezzo</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="motorsport-tv">
+    <display-name>Motorsport TV</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="mtv-dance">
+    <display-name>MTV Dance</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="mtv-europe">
+    <display-name>MTV Europe</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="mtv-hits">
+    <display-name>MTV Hits</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="mtv-live-hd">
+    <display-name>MTV Live HD</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="mtv-music">
+    <display-name>MTV Music</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="mtv-rocks">
+    <display-name>MTV Rocks</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="mtv-sport-1">
+    <display-name>MTV Sport 1</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="mtv-sport-2">
+    <display-name>MTV sport 2</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="mvk">
+    <display-name>MVK</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="N24Doku.de@SD">
+    <display-name>N24 Doku</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/N24Doku.svg/960px-N24Doku.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="n-tv">
+    <display-name>N-TV</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="nat-geo-wild-europe">
+    <display-name>Nat Geo Wild Europe</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="national-geographic-baltic">
+    <display-name>National Geographic Baltic</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="national-geographic-channel-hd">
+    <display-name>National Geographic Channel HD</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="nautical-channel">
+    <display-name>Nautical Channel</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="nick-jr">
+    <display-name>Nick Jr.</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="nickelodeon-euro">
+    <display-name>Nickelodeon EURO</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="nickelodeon-latvia">
+    <display-name>Nickelodeon Latvia</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="ORF1.at@SD">
+    <display-name>ORF1</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ORF_1_2019.svg" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="ORF2.at@SD">
+    <display-name>ORF2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e7/ORF2_logo_n.svg" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="pro-7">
+    <display-name>PRO 7</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="ReTV.lv@SD">
+    <display-name>ReTV</display-name>
+    <icon src="https://i.imgur.com/Z3cre5Xm.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="riga-tv24">
+    <display-name>Riga TV24</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="rtl">
+    <display-name>RTL</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="rtl-2">
+    <display-name>RTL 2</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="Nitro.de@SD">
+    <display-name>RTL Nitro</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/960px-Nitro_Logo.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="SAT1Gold.de@SD">
+    <display-name>SAT.1 Gold</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Sat.1_Gold_Logo_2019.svg/960px-Sat.1_Gold_Logo_2019.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="sat-1">
+    <display-name>SAT 1</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="sixx.de@SD">
+    <display-name>SIXX</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sixx_Logo.svg/960px-Sixx_Logo.svg.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="smartzone-baltic-lithuania">
+    <display-name>Smartzone Baltic Lithuania</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="sport1">
+    <display-name>Sport1</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="sport-1">
+    <display-name>Sport 1</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="sportacentrs">
+    <display-name>Sportacentrs</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="stv-latvija">
+    <display-name>STV Latvija</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="RTLSuper.de@SD">
+    <display-name>Super RTL</display-name>
+    <icon src="https://i.imgur.com/KbdK8t9.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="tiji">
+    <display-name>TiJi</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="tlc-germany">
+    <display-name>TLC Germany</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="trace-sports">
+    <display-name>Trace Sports</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="TraceUrban.fr@SD">
+    <display-name>Trace Urban</display-name>
+    <icon src="https://i.imgur.com/DLIbUMx.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="travel-channel">
+    <display-name>Travel Channel</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="travel-channel-hd">
+    <display-name>Travel Channel HD</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="TV3.lv@SD">
+    <display-name>TV3</display-name>
+    <icon src="https://i.imgur.com/7nipq0y.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="TV3Life.lv@SD">
+    <display-name>TV3 Life</display-name>
+    <icon src="https://i.imgur.com/Tm8hj45.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="TV3Mini.lv@SD">
+    <display-name>TV3 Mini</display-name>
+    <icon src="https://i.imgur.com/q8JOJ0o.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="TV6.lv@SD">
+    <display-name>TV6</display-name>
+    <icon src="https://i.imgur.com/oC0jiFW.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="tv-21">
+    <display-name>TV-21</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="tv-kurzeme">
+    <display-name>TV Kurzeme</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="tve">
+    <display-name>TVE</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="unian">
+    <display-name>Униан</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="VH1ClassicEurope.uk@SD">
+    <display-name>VH1 Classic Europe</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="vh1-euro-imm">
+    <display-name>VH1 Euro IMM</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="ViasatExplore.se@SD">
+    <display-name>Viasat Explore Nordic</display-name>
+    <icon src="https://i.imgur.com/DyT5pKB.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="viasat-golf">
+    <display-name>Viasat Golf</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="ViasatHistory.se@SD">
+    <display-name>Viasat History CEE</display-name>
+    <icon src="https://i.imgur.com/wRP9XA7.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="viasat-kino">
+    <display-name>Viasat Kino</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="viasat-kino-action">
+    <display-name>Viasat Kino Action</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="viasat-kino-comedy">
+    <display-name>Viasat Kino Comedy</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="viasat-kino-world">
+    <display-name>Viasat Kino World</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="ViasatNature.se@SD">
+    <display-name>VIASAT Nature CEE</display-name>
+    <icon src="https://i.imgur.com/ousRqqD.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="viasat-naturehistory-hd">
+    <display-name>Viasat Nature/History HD</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="viasat-sport">
+    <display-name>Viasat Sport</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="viasat-sport-east">
+    <display-name>VIASAT Sport East</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="vox">
+    <display-name>VOX</display-name>
+    <url>https://tv.lv</url>
+  </channel>
+  <channel id="ZDF.de@SD">
+    <display-name>ZDF</display-name>
+    <icon src="https://i.imgur.com/rtLb6m9.png" />
+    <url>https://tv.lv</url>
+  </channel>
+  <programme start="20260424033000 +0000" stop="20260424043000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Обътия лжи</title>
+    <desc lang="lv">История любви Тимура и Наны растянулась на двадцать лет. Они могли бы быть счастливы, но расстались из-за рокового недоразумения. Она вышла замуж за его близкого друга Андрея и стала врачом. Тимур так и не понял, что послужило причиной расставания. Он остался одинок и посвятил себя карьере, став успешным специалистом. И вот неожиданно судьба вновь свела их вместе.</desc>
+  </programme>
+  <programme start="20260424043000 +0000" stop="20260424052500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Обътия лжи</title>
+    <desc lang="lv">История любви Тимура и Наны растянулась на двадцать лет. Они могли бы быть счастливы, но расстались из-за рокового недоразумения. Она вышла замуж за его близкого друга Андрея и стала врачом. Тимур так и не понял, что послужило причиной расставания. Он остался одинок и посвятил себя карьере, став успешным специалистом. И вот неожиданно судьба вновь свела их вместе.</desc>
+  </programme>
+  <programme start="20260424052500 +0000" stop="20260424064500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Мир наизнанку Латинская Америка</title>
+    <desc lang="lv">Телепрограмма «Мир наизнанку» продолжает свое путешествия по интересным странам и континентам. В шестом сезоне Дмитрий Комаров отправляется в страны Латинской Америки — Куба и Мексика. Зритель увидит настоящие, нетуристические маршруты и достопримечательности — познакомится с местными племенами майя и лакандонов, узнает в какие районы лучше не заходить туристам, научится производить настоящую Текилу. Ведущий посетит такие города, как Гавана, Гвадалахара, Мехико, Сан-Кристобаль, поучаствует в праздниках и карнавалах, необычных и устрашающих ритуалах, пообщается с местными жителями и расскажет о всех прелестях и запретах в курортных городах.</desc>
+  </programme>
+  <programme start="20260424064500 +0000" stop="20260424075500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Орел и Решка. Земляне 2</title>
+    <desc lang="lv">Новый сезон знаменитого трэвел-шоу «Орёл и Решка – Земляне»! Авторы программы собираются раскрыть главную загадку и чудо нашей планеты - это земляне. Вас ждут путешествия, которых прежде не было, а поведут вас в него - Кирилл Макашов и Мишель Андраде.</desc>
+  </programme>
+  <programme start="20260424075500 +0000" stop="20260424083000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Дикая</title>
+    <desc lang="lv">Рада — потомственная цыганская ведьма (шувани), которая большую часть свой жизни провела в большом городе. Но в какой-то момент ее происхождение и предназначение дают о себе знать: девушка переезжает подольше от шумного мегаполиса и селится в лесную хижину. Ей хочется быть ближе к природе, которая напитывает ее и дает силы. Вскоре к ее скромному жилищу находят дорогу люди, которым нужна помощь. Рада с помощью рун и других магических предметов, а также заговоров помогает людям, обратившемся к ней, избежать опасности, а также подсказывает, как лучше поступить, чтобы в жизни все сложилось наилучшим образом.</desc>
+  </programme>
+  <programme start="20260424083000 +0000" stop="20260424091000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Дикая</title>
+    <desc lang="lv">Рада — потомственная цыганская ведьма (шувани), которая большую часть свой жизни провела в большом городе. Но в какой-то момент ее происхождение и предназначение дают о себе знать: девушка переезжает подольше от шумного мегаполиса и селится в лесную хижину. Ей хочется быть ближе к природе, которая напитывает ее и дает силы. Вскоре к ее скромному жилищу находят дорогу люди, которым нужна помощь. Рада с помощью рун и других магических предметов, а также заговоров помогает людям, обратившемся к ней, избежать опасности, а также подсказывает, как лучше поступить, чтобы в жизни все сложилось наилучшим образом.</desc>
+  </programme>
+  <programme start="20260424091000 +0000" stop="20260424095000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Дикая</title>
+    <desc lang="lv">Рада — потомственная цыганская ведьма (шувани), которая большую часть свой жизни провела в большом городе. Но в какой-то момент ее происхождение и предназначение дают о себе знать: девушка переезжает подольше от шумного мегаполиса и селится в лесную хижину. Ей хочется быть ближе к природе, которая напитывает ее и дает силы. Вскоре к ее скромному жилищу находят дорогу люди, которым нужна помощь. Рада с помощью рун и других магических предметов, а также заговоров помогает людям, обратившемся к ней, избежать опасности, а также подсказывает, как лучше поступить, чтобы в жизни все сложилось наилучшим образом.</desc>
+  </programme>
+  <programme start="20260424095000 +0000" stop="20260424105000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">К.О.Д</title>
+    <desc lang="lv">К.О.Д. – это новое спецподразделение полиции Украины, сформированное из лучших специалистов агентства ОСА и Водной полиции. В раскрытии сверхсложных уголовных дел спецподразделение будет использовать искусственный интеллект, который и называется К.О.Д. Вас ждут уникальные дела и увлекательные расследования в духе сериалов «След» и «Водная полиция».</desc>
+  </programme>
+  <programme start="20260424105000 +0000" stop="20260424115000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Телефон доверия</title>
+    <desc lang="lv">Несмотря на то, что сегодня прогресс достиг небывалых высот, и найти себе друзей можно не покидая стен дома, количество одиноких людей, которыми овладело отчаяние, растет с каждым днем. Парадоксально, но им абсолютно не с кем поделиться своими проблемами, особенно, если они связаны с личной жизнью, отношениями с партнерами и семьей. Не всегда можно поделиться своими секретами и тайнами с близкими людьми, ведь их мнение будет предвзятым, что может нанести только вред. Чтобы найти правильный выход из любой жизненной ситуации, необходимо воспользоваться профессиональной помощью психолога из службы «Телефон доверия».</desc>
+  </programme>
+  <programme start="20260424115000 +0000" stop="20260424125000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">След</title>
+    <desc lang="lv">В Федеральной Экспертной Службе (ФЭС) собрано все, что может помочь расследованию самого запутанного преступления. В нее за помощью могут обратиться не только высокие чины прокуратуры, но и простой оперативник, экспериментальная лаборатория оборудована по последнему слову техники, и каждый из ее работников - уникальный специалист в своей области. Их задача помогать и направлять следствие, изучая улики, находить ту самую важную, благодаря которой удастся определить настоящего виновника. Каждый день они работают, чтобы ни одно преступление не осталось безнаказанным. В 39-минутных минифильмах сотрудники ФЭС расследуют сложные дела, выводя виновных на чистую воду.</desc>
+  </programme>
+  <programme start="20260424125000 +0000" stop="20260424135500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Обътия лжи</title>
+    <desc lang="lv">История любви Тимура и Наны растянулась на двадцать лет. Они могли бы быть счастливы, но расстались из-за рокового недоразумения. Она вышла замуж за его близкого друга Андрея и стала врачом. Тимур так и не понял, что послужило причиной расставания. Он остался одинок и посвятил себя карьере, став успешным специалистом. И вот неожиданно судьба вновь свела их вместе.</desc>
+  </programme>
+  <programme start="20260424135500 +0000" stop="20260424150000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Обътия лжи</title>
+    <desc lang="lv">История любви Тимура и Наны растянулась на двадцать лет. Они могли бы быть счастливы, но расстались из-за рокового недоразумения. Она вышла замуж за его близкого друга Андрея и стала врачом. Тимур так и не понял, что послужило причиной расставания. Он остался одинок и посвятил себя карьере, став успешным специалистом. И вот неожиданно судьба вновь свела их вместе.</desc>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424160000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Телефон доверия</title>
+    <desc lang="lv">Несмотря на то, что сегодня прогресс достиг небывалых высот, и найти себе друзей можно не покидая стен дома, количество одиноких людей, которыми овладело отчаяние, растет с каждым днем. Парадоксально, но им абсолютно не с кем поделиться своими проблемами, особенно, если они связаны с личной жизнью, отношениями с партнерами и семьей. Не всегда можно поделиться своими секретами и тайнами с близкими людьми, ведь их мнение будет предвзятым, что может нанести только вред. Чтобы найти правильный выход из любой жизненной ситуации, необходимо воспользоваться профессиональной помощью психолога из службы «Телефон доверия».</desc>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424165500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">След</title>
+    <desc lang="lv">В Федеральной Экспертной Службе (ФЭС) собрано все, что может помочь расследованию самого запутанного преступления. В нее за помощью могут обратиться не только высокие чины прокуратуры, но и простой оперативник, экспериментальная лаборатория оборудована по последнему слову техники, и каждый из ее работников - уникальный специалист в своей области. Их задача помогать и направлять следствие, изучая улики, находить ту самую важную, благодаря которой удастся определить настоящего виновника. Каждый день они работают, чтобы ни одно преступление не осталось безнаказанным. В 39-минутных минифильмах сотрудники ФЭС расследуют сложные дела, выводя виновных на чистую воду.</desc>
+  </programme>
+  <programme start="20260424165500 +0000" stop="20260424180500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Тот, кто читает мысли</title>
+    <desc lang="lv">Харизматичный 42-летний Даниил Романов - консультант особого криминального отдела полиции, превосходный менталист, психолог-практик и манипулятор, некогда выдававший себя за экстрасенса и ясновидящего, способного читать чужие мысли. Все изменилось, когда он в одном из телешоу дал унизительную характеристику опасному маньяку по кличке Демон.</desc>
+  </programme>
+  <programme start="20260424180500 +0000" stop="20260424190500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">К.О.Д</title>
+    <desc lang="lv">К.О.Д. – это новое спецподразделение полиции Украины, сформированное из лучших специалистов агентства ОСА и Водной полиции. В раскрытии сверхсложных уголовных дел спецподразделение будет использовать искусственный интеллект, который и называется К.О.Д. Вас ждут уникальные дела и увлекательные расследования в духе сериалов «След» и «Водная полиция».</desc>
+  </programme>
+  <programme start="20260424190500 +0000" stop="20260425033000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Спрут 4</title>
+    <desc lang="lv">Комиссар Коррадо Каттани продолжает войну с мафией, но теперь его преследуют не только враги, но и призраки прошлого. Потеряв женщину, которую любил, он живёт горькими воспоминаниями, однако новое расследование не оставляет времени для скорби. Случайное преступление выводит Каттани на след сложной сети мафиозных интриг, где переплетаются власть, деньги и судьбы невинных людей. Шаг за шагом комиссар приближается к тем, кто стоит за преступлениями, но чем ближе он к правде, тем опаснее становится игра. В этой борьбе ставки растут, а враги готовы на всё, чтобы остановить его. Каттани понимает: назад дороги нет.</desc>
+  </programme>
+  <programme start="20260425033000 +0000" stop="20260425044000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Орел и Решка. Земляне 2</title>
+    <desc lang="lv">Новый сезон знаменитого трэвел-шоу «Орёл и Решка – Земляне»! Авторы программы собираются раскрыть главную загадку и чудо нашей планеты - это земляне. Вас ждут путешествия, которых прежде не было, а поведут вас в него - Кирилл Макашов и Мишель Андраде.</desc>
+  </programme>
+  <programme start="20260425044000 +0000" stop="20260425053500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Орел и Решка. Земляне 2</title>
+    <desc lang="lv">Новый сезон знаменитого трэвел-шоу «Орёл и Решка – Земляне»! Авторы программы собираются раскрыть главную загадку и чудо нашей планеты - это земляне. Вас ждут путешествия, которых прежде не было, а поведут вас в него - Кирилл Макашов и Мишель Андраде.</desc>
+  </programme>
+  <programme start="20260425053500 +0000" stop="20260425064500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Мир наизнанку Латинская Америка</title>
+    <desc lang="lv">Телепрограмма «Мир наизнанку» продолжает свое путешествия по интересным странам и континентам. В шестом сезоне Дмитрий Комаров отправляется в страны Латинской Америки — Куба и Мексика. Зритель увидит настоящие, нетуристические маршруты и достопримечательности — познакомится с местными племенами майя и лакандонов, узнает в какие районы лучше не заходить туристам, научится производить настоящую Текилу. Ведущий посетит такие города, как Гавана, Гвадалахара, Мехико, Сан-Кристобаль, поучаствует в праздниках и карнавалах, необычных и устрашающих ритуалах, пообщается с местными жителями и расскажет о всех прелестях и запретах в курортных городах.</desc>
+  </programme>
+  <programme start="20260425064500 +0000" stop="20260425080000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Мир наизнанку Латинская Америка</title>
+    <desc lang="lv">Телепрограмма «Мир наизнанку» продолжает свое путешествия по интересным странам и континентам. В шестом сезоне Дмитрий Комаров отправляется в страны Латинской Америки — Куба и Мексика. Зритель увидит настоящие, нетуристические маршруты и достопримечательности — познакомится с местными племенами майя и лакандонов, узнает в какие районы лучше не заходить туристам, научится производить настоящую Текилу. Ведущий посетит такие города, как Гавана, Гвадалахара, Мехико, Сан-Кристобаль, поучаствует в праздниках и карнавалах, необычных и устрашающих ритуалах, пообщается с местными жителями и расскажет о всех прелестях и запретах в курортных городах.</desc>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425091000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Мир наизнанку Латинская Америка</title>
+    <desc lang="lv">Телепрограмма «Мир наизнанку» продолжает свое путешествия по интересным странам и континентам. В шестом сезоне Дмитрий Комаров отправляется в страны Латинской Америки — Куба и Мексика. Зритель увидит настоящие, нетуристические маршруты и достопримечательности — познакомится с местными племенами майя и лакандонов, узнает в какие районы лучше не заходить туристам, научится производить настоящую Текилу. Ведущий посетит такие города, как Гавана, Гвадалахара, Мехико, Сан-Кристобаль, поучаствует в праздниках и карнавалах, необычных и устрашающих ритуалах, пообщается с местными жителями и расскажет о всех прелестях и запретах в курортных городах.</desc>
+  </programme>
+  <programme start="20260425091000 +0000" stop="20260425101500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Продается дом с собакой</title>
+    <desc lang="lv">Полина в один момент остается без возлюбленного, работы и съемной квартиры. Это огорчает ее гораздо больше, чем известие о смерти отца, на которого она обижена с детства и с которым не общалась последние пять лет. Полина едет в родной город, чтобы поскорее продать его дом, вернуться и снова завоевать свое место под солнцем в большом городе. Но именно в отцовском доме она осознает, как ошибалась насчет своей семьи. Там же девушку ждет и судьбоносное знакомство с врачом-ветеринаром Валерием. Дадут ли они шанс друг другу на взаимные и искренние чувства или же вернутся в прежнюю жизнь</desc>
+  </programme>
+  <programme start="20260425101500 +0000" stop="20260425112000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Продается дом с собакой</title>
+    <desc lang="lv">Полина в один момент остается без возлюбленного, работы и съемной квартиры. Это огорчает ее гораздо больше, чем известие о смерти отца, на которого она обижена с детства и с которым не общалась последние пять лет. Полина едет в родной город, чтобы поскорее продать его дом, вернуться и снова завоевать свое место под солнцем в большом городе. Но именно в отцовском доме она осознает, как ошибалась насчет своей семьи. Там же девушку ждет и судьбоносное знакомство с врачом-ветеринаром Валерием. Дадут ли они шанс друг другу на взаимные и искренние чувства или же вернутся в прежнюю жизнь</desc>
+  </programme>
+  <programme start="20260425112000 +0000" stop="20260425122500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Продается дом с собакой</title>
+    <desc lang="lv">Полина в один момент остается без возлюбленного, работы и съемной квартиры. Это огорчает ее гораздо больше, чем известие о смерти отца, на которого она обижена с детства и с которым не общалась последние пять лет. Полина едет в родной город, чтобы поскорее продать его дом, вернуться и снова завоевать свое место под солнцем в большом городе. Но именно в отцовском доме она осознает, как ошибалась насчет своей семьи. Там же девушку ждет и судьбоносное знакомство с врачом-ветеринаром Валерием. Дадут ли они шанс друг другу на взаимные и искренние чувства или же вернутся в прежнюю жизнь</desc>
+  </programme>
+  <programme start="20260425122500 +0000" stop="20260425132500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Продается дом с собакой</title>
+    <desc lang="lv">Полина в один момент остается без возлюбленного, работы и съемной квартиры. Это огорчает ее гораздо больше, чем известие о смерти отца, на которого она обижена с детства и с которым не общалась последние пять лет. Полина едет в родной город, чтобы поскорее продать его дом, вернуться и снова завоевать свое место под солнцем в большом городе. Но именно в отцовском доме она осознает, как ошибалась насчет своей семьи. Там же девушку ждет и судьбоносное знакомство с врачом-ветеринаром Валерием. Дадут ли они шанс друг другу на взаимные и искренние чувства или же вернутся в прежнюю жизнь</desc>
+  </programme>
+  <programme start="20260425132500 +0000" stop="20260425142500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">След</title>
+    <desc lang="lv">В Федеральной Экспертной Службе (ФЭС) собрано все, что может помочь расследованию самого запутанного преступления. В нее за помощью могут обратиться не только высокие чины прокуратуры, но и простой оперативник, экспериментальная лаборатория оборудована по последнему слову техники, и каждый из ее работников - уникальный специалист в своей области. Их задача помогать и направлять следствие, изучая улики, находить ту самую важную, благодаря которой удастся определить настоящего виновника. Каждый день они работают, чтобы ни одно преступление не осталось безнаказанным. В 39-минутных минифильмах сотрудники ФЭС расследуют сложные дела, выводя виновных на чистую воду.</desc>
+  </programme>
+  <programme start="20260425142500 +0000" stop="20260425151500 +0000" channel="8TV.lv@SD">
+    <title lang="lv">След</title>
+    <desc lang="lv">В Федеральной Экспертной Службе (ФЭС) собрано все, что может помочь расследованию самого запутанного преступления. В нее за помощью могут обратиться не только высокие чины прокуратуры, но и простой оперативник, экспериментальная лаборатория оборудована по последнему слову техники, и каждый из ее работников - уникальный специалист в своей области. Их задача помогать и направлять следствие, изучая улики, находить ту самую важную, благодаря которой удастся определить настоящего виновника. Каждый день они работают, чтобы ни одно преступление не осталось безнаказанным. В 39-минутных минифильмах сотрудники ФЭС расследуют сложные дела, выводя виновных на чистую воду.</desc>
+  </programme>
+  <programme start="20260425151500 +0000" stop="20260425173000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Комиссар Монтальбано: Глиняная пирамида</title>
+    <desc lang="lv">Комиссар Сальво Монтальбано отвечает за полицейский участок в одном из штатов Сицилии. Монтальбано раскрывает любое преступление с помощью интеллекта и при поддержке своей команды.</desc>
+  </programme>
+  <programme start="20260425173000 +0000" stop="20260425194000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Сломанная стрела</title>
+    <desc lang="lv">История двух пилотов-асов американских ВВС. Им поручается выполнить секретное задание на самолете-невидимке с двумя ядерными боеголовками на борту. Дикенс, неудачник по жизни, постоянно пропускающий повышения по службе, задумывает похитить боеголовки, с тем чтобы шантажировать правительство США. Но его напарник Хэйл - честный парень и не позволит никому так просто взять и украсть собственность своей родной страны. Между ними разгорается самая настоящая война, в которой могут погибнуть не только они, но и несколько миллионов мирных жителей, живущих в округе, если хотя бы одна ядерная боеголовка взорвется.</desc>
+  </programme>
+  <programme start="20260425194000 +0000" stop="20260426032000 +0000" channel="8TV.lv@SD">
+    <title lang="lv">Заложник</title>
+    <desc lang="lv">Джеф Тэлли, бывший переговорщик секретных служб Лос-Анджелеса, переезжает работать в провинциальный городок, оставив жену и дочь в Лос Анджелесе. Когда в его округе происходит ограбление, три преступника берут в заложники ничего не подозревающую семью. Но у отца семейства есть тайна, которая могла бы поставить под угрозу его семью, а один из преступников уже начал терять самообладание. Джеф Тэлли должен сделать все, что в его силах, чтобы эта ночь не стала последней для невинных людей.</desc>
+  </programme>
+  <programme start="20260423223500 +0000" stop="20260424023000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Laika labirints</title>
+    <desc lang="lv">Netāla nākotne, izpratne par laiku ir mainījusies. Bagātnieki ceļo laikā. Niks un Džanīna dzīvo laimīgu laulāta pāra dzīvi, līdz jau trešo reizi gada laikā notiek laika nobīdes, kas satrauc Niku. Katru reizi pēc šādas nobīdes viņam šķiet, ka ir mainījies kaut kas būtisks – suņa vietā viņiem tagad ir kaķis, varbūt iepriekš viņiem bija arī bērni? Notiekošajā Niks vaino Džanīnas bijušo vīru Tomiju – ka tas mēģina iejaukties viņu attiecībās. Džanīnu Tomijs vairs neinteresē, taču viņu sāk kaitināt Nika apsēstība ar šo domu un abu attiecībās tiešām parādās plaisa. Niks dodas pie Tomija, lai pats noskaidrotu, kas īsti notiek. Nika aizdomas tikai pastiprinās, un viņš piedāvā Džanīnai doties prom. Diemžēl īsi pirms tam notiek pamatīga laika nobīde, pēc kuras Džanīnas Nika dzīvē vairs nav. Galvenajās lomās: Leslijs Odoms juniors, Sintija Erivo, Orlando Blūms</desc>
+  </programme>
+  <programme start="20260424023000 +0000" stop="20260424030500 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Ģimene burkā</title>
+    <desc lang="lv">Pēteris ķēries klāt nedēļas uzdevuma izpildīšanai, katru dienu cītīgi barojot abus kaķus. Viņu nemitīgi uzmana visas trīs dāmas, kuras seko līdzi, lai ģimenes mīluļi būtu paēduši. Vai Katrīne ar meitām ikdienā pārbaro kaķus? Kādas ir Pētera domas šajā jautājumā? Vēlāk Saulietes ģimene gremdējas atmiņās par iepriekš pildītajiem vēlmju burkas uzdevumiem. Kurš no visiem izaicinājumiem viņiem sagādāja vislielākās grūtības? Tikmēr Agrita un Jānis rosās pa virtuvi. Kamēr Agrita mazgā traukus, Jānis sūdzas sievai, ka viņas māsas draugs nemitīgi viņam raksta par dzīvokli, kā arī publiski nomelnojis visu ģimeni. Abi ir ļoti dusmīgi un neslēpj savas emocijas, atklājot privātas detaļas par radušos nepatīkamo situāciju, kurā viņi visas Latvijas priekšā nostādīti grēkāžu lomā.</desc>
+  </programme>
+  <programme start="20260424030500 +0000" stop="20260424033000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Kung Fu Panda: Izcilības leģendas</title>
+    <desc lang="lv">Panda vārdā Po, pazīstams arī kā Pūķa Cīnītājs, ir slavens ar īpašajām cīņas mākslas prasmēm, ar ko viņš uzveicis pasaules līmeņa ļaundarus. Po piedzīvojumi turpinās – viņš trenējas, aizsargā, cīnās, māca, apmāca, reizēm klūp, bieži vien pārāk daudz runā un arī izklaidējas. Po tagad dzīvo Miera ielejā, kazarmās kopā ar saviem uzticamajiem draugiem – Nikno piecinieku, un piedzīvojumu viņiem netrūkst!</desc>
+  </programme>
+  <programme start="20260424033000 +0000" stop="20260424035000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Kung Fu Panda: Izcilības leģendas</title>
+    <desc lang="lv">Panda vārdā Po, pazīstams arī kā Pūķa Cīnītājs, ir slavens ar īpašajām cīņas mākslas prasmēm, ar ko viņš uzveicis pasaules līmeņa ļaundarus. Po piedzīvojumi turpinās – viņš trenējas, aizsargā, cīnās, māca, apmāca, reizēm klūp, bieži vien pārāk daudz runā un arī izklaidējas. Po tagad dzīvo Miera ielejā, kazarmās kopā ar saviem uzticamajiem draugiem – Nikno piecinieku, un piedzīvojumu viņiem netrūkst!</desc>
+  </programme>
+  <programme start="20260424035000 +0000" stop="20260424045000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Amerikas smieklīgākie video: Dzīvnieki</title>
+    <desc lang="lv">Pasaulē ik dienu notiek komiski, jocīgi, neizprotami un smieklīgi atgadījumi, tomēr tikai retajiem paveicas šos kadrus notvert videoformātā. Laiks pasmieties par neveiklībām, jokiem, izjokošanām, kļūmīgām situācijām, kuras iesūtījuši Amerikas iedzīvotāji, un šoreiz joku epicentrā ir neviens cits kā dzīvnieki. Katrā raidījumā tiek atlasīti trīs labākie video, un uzvarētājs, kuru nosaka skatītāji, iegūst vērtīgu naudas balvu.</desc>
+  </programme>
+  <programme start="20260424045000 +0000" stop="20260424055000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Amerikas smieklīgākie video: Dzīvnieki 2</title>
+    <desc lang="lv">Pasaulē ik dienu notiek komiski, jocīgi, neizprotami un smieklīgi atgadījumi, tomēr tikai retajiem paveicas šos kadrus notvert videoformātā. Laiks pasmieties par neveiklībām, jokiem, izjokošanām, kļūmīgām situācijām, kuras iesūtījuši Amerikas iedzīvotāji, un šoreiz joku epicentrā ir neviens cits kā dzīvnieki. Katrā raidījumā tiek atlasīti trīs labākie video, un uzvarētājs, kuru nosaka skatītāji, iegūst vērtīgu naudas balvu.</desc>
+  </programme>
+  <programme start="20260424055000 +0000" stop="20260424065000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">15 jautājumi 4</title>
+    <desc lang="lv">Erudīcijas spēle katram darbdienu vakaram! Katru vakaru 15 jautājumi, viens uzvarētājs un 150 eiro balva. Spēli vada radio personība, dīdžejs un pasākumu vadītājs Magnuss Eriņš, bet par vakara erudītākā cilvēka titulu sacenšas divi dalībnieki. Noteikumi ir pavisam vienkārši – katram dalībniekam priekšā ir poga, kas kļūst aktīva, līdzko izskanējis jautājums. Kurš pirmais šo pogu nospiež, tas izvēlas jautājuma likteni – vai pats vēlas uz to atbildēt cerībā nopelnīt divus punktus, vai arī pirmo iespēju dot konkurentam, lai pats pēc tam mēģinātu tikt pie viena punkta. Kurš atbildējis pirmais un pareizi, tas tiek pie diviem punktiem, kurš otrais – pie viena, bet par nepareizu atbildi punkti nepienākas. Kuram vakara beigās vairāk punktu, tas arī uzvarētājs! Uzvarētājs saņem 150 eiro balvu un iespēju piedalīties nākamā vakara spēlē.</desc>
+  </programme>
+  <programme start="20260424065000 +0000" stop="20260424075000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">NCIS: Losandželosa 8</title>
+    <desc lang="lv">Slavenā NCIS Losandželosas īpašā vienība ķeras pie darba! Augsti kvalificēti, pieredzējuši un spējīgi – viņi tiek piesaistīti lietās, kurās uz spēles ir valsts drošība. Komandu vada augumā necilā, tomēr ļoti spējīgā Hetija, kuras apskaužamās zināšanas, skarbā attieksme un ciešais skatiens iedveš bailes kā noziedzniekiem, tā viņas padotajiem. Īpašais aģents Džī Kalens iepriekš stradājis FIB, Narkotiku apkarošanas administrācijā un Centrālajā izlūkošanas pārvaldē, bet viņa pārinieks Sems Hanna ir ar militāru un sporta pieredzi un kopā ar savu uzticamo komandu viņi ir neapturami un spēj aizturēt pat visrūdītākos noziedzniekus. Galvenajās lomās: Kriss O’Donels, LL Cool J, Linda Hanta</desc>
+  </programme>
+  <programme start="20260424075000 +0000" stop="20260424085500 +0000" channel="360TV.lv@SD">
+    <title lang="lv">SOKO Leipciga 22/23</title>
+    <desc lang="lv">Leipcigas policijas īpašā vienība SOKO – labākie no labākajiem, augstas klases profesionāļi, izmeklētāji, kas ķeras pie darba, lai atrisinātu smagākos un sarežģītākos pilsētā paveiktos noziegumus. Vienību vada ambiciozā vecākā policijas komisāre Ina Cimermane, kas kopā ar savu uzticamo komandu Janu Meibahu, Tomu Kovalski un Olīviju Faredi izmeklē smagus noziegumus – gan rūpīgi plānotas slepkavības, gan emociju karstumā paveiktas. Lai notvertu noziedzniekus, komanda piesaista valsts izcilākos ekspertus un labākos konsultantus. Galvenajās lomās: Melānija Marške, Marko Girnts, Štefans Šrūders, Nilama Faruka</desc>
+  </programme>
+  <programme start="20260424085500 +0000" stop="20260424112500 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Izredzētais džentlmenis</title>
+    <desc lang="lv">Komēdija ar Ediju Mērfiju. Tomass Džefersons Džonsons ir harizmātisks Floridas krāpnieks, kurš saprot, ka vislielākā peļņa un visvieglākie upuri atrodas nevis uz ielas, bet gan Vašingtonā. Izmantojot vēlētāju neuzmanību un savu uzvārdu, kas sakrīt ar nesen miruša kongresmeņa vārdu, viņš vēlēšanās gūst uzvaru un nokļūst Kongresā. Sākotnēji Tomasa vienīgais mērķis ir iedzīvoties uz lobiju un kukuļu rēķina, taču drīz vien viņš saskaras ar politiskās sistēmas patieso korupciju un cinismu. Kad kāds nopietns vides piesārņojuma gadījums sāk apdraudēt bērnu veselību viņa vēlēšanu apgabalā, krāpniekam nākas izvēlēties — turpināt pildīt kabatas vai pirmo reizi mūžā rīkoties godprātīgi, lai uzveiktu sistēmu ar tās pašas ieročiem.</desc>
+  </programme>
+  <programme start="20260424112500 +0000" stop="20260424125500 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Četri uz koferiem 9</title>
+    <desc lang="lv">Turpinot iepazīt valdzinošo Āziju, žurnālists Ojārs Rubenis savu dienu sāks ar snorkelēšanas pasākumu, piedāvājot izpētīt zemūdens pasauli saviem grupas biedriem - psiholoģei Diānai Zandei, erudīcijas spēles “15 jautājumi” vadītājam Magnusam Eriņam un TV raidījumu vadītājai Dagmārai Legantei. Magnuss gan ne visai labi peld, tāpēc atzīst, ka labprātāk iztiktu bez ūdens aktivitātēm, taču iespējas palikt mājās nav. Vai viņam izdosies pārvarēt savas bailes? Lielākā problēma Lomboka salā ir atkritumi, kas peld pat okeānā. Lai vietējiem rādītu, ka dabu nedrīkst piemēslot, Ojārs Rubenis noorganizē atkritumu vākšanu pludmalē, uz kuru vietējie vien noskatās no malas. Tāpat slavenības dosies uz alām, kur piedzīvotais liks Magnusam Eriņam izbīlī izskriet ārā…</desc>
+  </programme>
+  <programme start="20260424125500 +0000" stop="20260424135500 +0000" channel="360TV.lv@SD">
+    <title lang="lv">NCIS: Losandželosa 9</title>
+    <desc lang="lv">Pēc traģiskajiem notikumiem un komandas ilggadējā vadītāja Ouena Grendžera aiziešanas, vienībā ienāk jaunā izpilddirektore Šeila Moslija. Viņas stingrais vadības stils tūlītēji rada berzi ar aģentiem, kuri ir pieraduši pie ģimeniskākas atmosfēras. Visi ceļi aģentus vedīs uz Vjetnamu, kur bīstamā un neoficiālā misijā pazūd leģendārā Hetija Lenga. Kamēr aģenti Kallens, Sems, Kensija un Dīkss riskē ar savu karjeru un dzīvību, lai viņu atrastu, katram no viņiem nākas saskarties arī ar iekšējiem dēmoniem. Sems mēģina rast mieru pēc sievas zaudējuma, Kallens turpina šķetināt savas dzimtas tumšos noslēpumus, bet Kensijas un Dīksa attiecības nonāk krustcelēs, kad kāzu plānošana liek uzdot smagus jautājumus par darba savienojamību ar kopīgu nākotni.</desc>
+  </programme>
+  <programme start="20260424135500 +0000" stop="20260424145500 +0000" channel="360TV.lv@SD">
+    <title lang="lv">CSI Ņujorka 3</title>
+    <desc lang="lv">Īpašā izmeklētāju vienība detektīva Maka Teilora vadībā šķetina noziegumus tumšākajos Ņujorkas nostūros. Viņi ir kā savdabīga ģimene, kurus vieno spēcīga taisnīguma izjūta. Lai atklātu sarežģītās krimināllietas, viņi izmanto progresīvākās metodes, pretstatā tradicionālajiem izmeklēšanas paņēmieniem. Katra ir lieta kā rēbuss, kuru komanda risina, analizējot katru detaļu un pavedienu.</desc>
+  </programme>
+  <programme start="20260424145500 +0000" stop="20260424160000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Dr. Sirmais S03</title>
+    <desc lang="lv">Dr. Sirmais iedvesmos ģimenes savus iecienītākos ēdienus gatavot dažādāk, vienlaikus lētāk, ātrāk un gudrāk! Pie pavāra Mārtiņa Sirmā katru nedēļu viesosies kāda sabiedrībā atpazīstama persona kopā ar ģimeni, lai apspriestu savus ēšanas paradumus un kopīgi pagatavotu maltītes veselai darba nedēļai. Pirms tam viesiem būs jāizdara mājas darbs un jādokumentē piecu darba dienu vakariņas visos sagatavošanās posmos - no veikala apmeklējuma līdz pat maltītes servēšanai. Mārtiņš Sirmais analizēs viesu ikdienu, lai vēlāk sniegtu vērtīgus padomus, kā atvieglot iepirkšanās un gatavošanas procesu, kā arī kā ēdienu padarīt vēl gardāku. Visu to, ko viesi būs gatavojuši mājās, viņi gatavos vēlreiz kopā ar pavāru Mārtiņu Sirmo, bet nu jau uzlabotās versijās, turklāt saņemot ieteikumus, kā gatavošanu padarīt arī maciņam draudzīgāku, vienlaikus tam veltot mazāk laika.</desc>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424162000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">360 Ziņas</title>
+    <desc lang="lv">360 Ziņas - neatkarīgs, mediju profesionāļu veidots ziņu dienests, kas sniedz svarīgāko informāciju par notiekošo Latvijā un pasaulē, skaidrojot šo notikumu ietekmi uz sabiedrības ikdienu. 360 Ziņas ir klātesošas sabiedrībai un valstij svarīgos notikumos, palīdzot skatītājiem orientēties gan vietēja, gan starptautiska mēroga notikumos, atbildot uz katram svarīgo jautājumu – kāpēc man ir svarīgi šo zināt?</desc>
+  </programme>
+  <programme start="20260424162000 +0000" stop="20260424172000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">15 jautājumi 4</title>
+    <desc lang="lv">Erudīcijas spēle katram darbdienu vakaram! Katru vakaru 15 jautājumi, viens uzvarētājs un 150 eiro balva. Spēli vada radio personība, dīdžejs un pasākumu vadītājs Magnuss Eriņš, bet par vakara erudītākā cilvēka titulu sacenšas divi dalībnieki. Noteikumi ir pavisam vienkārši – katram dalībniekam priekšā ir poga, kas kļūst aktīva, līdzko izskanējis jautājums. Kurš pirmais šo pogu nospiež, tas izvēlas jautājuma likteni – vai pats vēlas uz to atbildēt cerībā nopelnīt divus punktus, vai arī pirmo iespēju dot konkurentam, lai pats pēc tam mēģinātu tikt pie viena punkta. Kurš atbildējis pirmais un pareizi, tas tiek pie diviem punktiem, kurš otrais – pie viena, bet par nepareizu atbildi punkti nepienākas. Kuram vakara beigās vairāk punktu, tas arī uzvarētājs! Uzvarētājs saņem 150 eiro balvu un iespēju piedalīties nākamā vakara spēlē.</desc>
+  </programme>
+  <programme start="20260424172000 +0000" stop="20260424191000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Šīs bīstamās balkona durvis</title>
+    <desc lang="lv">Bērnībā Rolands aiz spītības nolēcis no balkona un salauzis kāju, tāpēc viņa vecāku savrupmājā balkona durvis ir aiznaglotas. 18 gadu vecumā puisis un viņa klasesbiedri aizraujas ar amatierfilmēšanu, un Rolanda dzimšanas dienā tiek demonstrēts ar slēpto kameru filmēts sižets par meiteni, kas veltīgi gaida puisi. Medmāsa Inga pazīst meitenē pacienti, kas ar ātro palīdzību atvesta uz slimnīcu, un noskaidrojas, ka puiši pret viņu izturējušies nežēlīgi. Galvenajās lomās: Varis Vētra un Ligita Skujiņa.</desc>
+  </programme>
+  <programme start="20260424191000 +0000" stop="20260424212000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Laimas Rendezvous Jūrmala 1.koncerts 2025</title>
+    <desc lang="lv">Festivāls “Laima Rendezvous Jūrmala 2025” – mūzikas svētki un neaizmirstami pārsteigumi. Šis pasākums apvieno spožākās pasaules mūzikas zvaigznes un Latvijā iemīļotus izpildītājus, piedāvājot skatītājiem izcilus dzīvos priekšnesumus orķestra pavadībā. Laima Rendezvous Jūrmala ir tradīcija, kas kļuvusi par vasaras simbolu – vieta, kur atgriežas ne tikai uzticīgi skatītāji, bet arī izcilākie mākslinieki, lai kopīgi svinētu radošumu un mūziku. Katrs priekšnesums šeit ir dvēseles svētki, un Dzintaru koncertzāle pārtop par iedvesmas un neaizmirstamu emociju epicentru.</desc>
+  </programme>
+  <programme start="20260424212000 +0000" stop="20260424221000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">72 stundas</title>
+    <desc lang="lv">Krīzes situācijās var nonākt ikviens – krīze var būt globāla, lokāla vai skart tikai tevi. Lielākā daļa no mums ikdienā par šiem tematiem padziļināti nedomā un visticamāk nespēj atbildēt uz jautājumiem – kā iegūt tīru ūdeni, kad veikali ir ciet, kā sasildīties naktī, kad esi bez pajumtes, ko ēst meža vidū, kad kurjeri nepiegādā ēdienu? Šī dokumentālā filma iepazīstina cilvēkus, kā ar dažādiem paņēmieniem sagatavoties krīzes situācijām.</desc>
+  </programme>
+  <programme start="20260424221000 +0000" stop="20260425022000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Labie ļaudis</title>
+    <desc lang="lv">Džeimss Franko un Keita Hadsone piedzīvojumu kriminālfilmā par dzīves nepareizajām izvēlēm. Anna un Toms ir precēts pāris, kas domā par ģimenes pieaugumu, taču viņus nomoka finansiālas problēmas. Kad viņi mirušu uziet īrnieku, kuram izīrējuši savu pagrabu, kopā ar kaudzi naudas, viņi daudz nedomā un naudu piesavinās. Tomēr izrādās, ka nauda piederējusi bīstamam vīram, kurš, protams, vēlas to atgūt. Toms un Anna ir smagas izvēles priekšā – riskēt ar savām dzīvībām un paturēt naudu vai ziņot par notikušo policijai un atgriezties savās grūtībās.</desc>
+  </programme>
+  <programme start="20260425022000 +0000" stop="20260425032500 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Vilcienā cauri pasaulei 4</title>
+    <desc lang="lv">Aizraujošs ceļojumu raidījums, kas aicina izbraukāt pasaules iespaidīgākos un neaizmirstamākos vilcienu maršrutus. Raidījuma galvenais varonis ir vilciens — tas ved cauri elpu aizraujošām ainavām, vēsturiskām pilsētām un nomaļiem reģioniem, kur pārvietošanās pa sliedēm nav tikai, lai nokļūtu no viena punkta līdz otram – tas ir īsts piedzīvojums. Raidījums apvieno ainaviskus skatus, kultūras stāstus un dzelzceļa vēsturi, ļaujot atklāt gan pasaulslavenus, gan mazāk zināmus maršrutus, pa ceļam iepazīstot vietējās tradīcijas, cilvēkus paradumus, arhitektūru un inženiertehniskos risinājumus, kas padara katru braucienu unikālu.</desc>
+  </programme>
+  <programme start="20260425032500 +0000" stop="20260425044000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Sapnis par Ameriku</title>
+    <desc lang="lv">Slava, nauda, vara, sekss!! JĀ!!! Tas ir sapnis par Ameriku! Lasvegasa, Ņujorka, Maiami, Losandželosa. Kā dzīvo latvieši Amerikā? Intars Rešetins devās trakā ceļojumā, lai to uzzinātu. Un nu pienākusi ceļojuma pēdējā sērija, kurā viņš satiks gan modeli Luīzi Salmgriezi, gan Miku Ozoliņu, gan komponisti Lolitu Ritmanis, DJ Ellu un citus viesus, kuri viņam izrādījuši Ameriku krāsainā ceļojuma laikā.</desc>
+  </programme>
+  <programme start="20260425044000 +0000" stop="20260425054000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Ceļot bez robežām 2</title>
+    <desc lang="lv">Iedvesmojošs raidījums par reāliem ceļojumiem bez liekas izskaistināšanas — ar praktiskiem padomiem, godīgiem iespaidiem un maršrutiem, ko katrs var atkārtot pats. Katrā epizodē ceļotāji dodas uz jaunu galamērķi – atklājam vietējo atmosfēru, ēdienus, apskates vietas, budžeta trikus, kā arī slepenas pērles, par kurām ceļvežos bieži vien nekas nav rakstīts. Raidījums visiem, kas meklē idejas nākamajam braucienam, vēlas ceļot gudrāk un redzēt vairāk par ierastajiem tūristu maršrutiem.</desc>
+  </programme>
+  <programme start="20260425054000 +0000" stop="20260425064500 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Dr. Sirmais S03</title>
+    <desc lang="lv">Dr. Sirmais iedvesmos ģimenes savus iecienītākos ēdienus gatavot dažādāk, vienlaikus lētāk, ātrāk un gudrāk! Pie pavāra Mārtiņa Sirmā katru nedēļu viesosies kāda sabiedrībā atpazīstama persona kopā ar ģimeni, lai apspriestu savus ēšanas paradumus un kopīgi pagatavotu maltītes veselai darba nedēļai. Pirms tam viesiem būs jāizdara mājas darbs un jādokumentē piecu darba dienu vakariņas visos sagatavošanās posmos - no veikala apmeklējuma līdz pat maltītes servēšanai. Mārtiņš Sirmais analizēs viesu ikdienu, lai vēlāk sniegtu vērtīgus padomus, kā atvieglot iepirkšanās un gatavošanas procesu, kā arī kā ēdienu padarīt vēl gardāku. Visu to, ko viesi būs gatavojuši mājās, viņi gatavos vēlreiz kopā ar pavāru Mārtiņu Sirmo, bet nu jau uzlabotās versijās, turklāt saņemot ieteikumus, kā gatavošanu padarīt arī maciņam draudzīgāku, vienlaikus tam veltot mazāk laika.</desc>
+  </programme>
+  <programme start="20260425064500 +0000" stop="20260425081500 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Četri uz koferiem 11</title>
+    <desc lang="lv">Šova “Četri uz koferiem” vienpadsmitajā sezonā četri spilgti piedzīvojumu meklētāji – TV personība Aivis Ceriņš, mūziķe Asnate Rancāne, juriste Ieva Brante un pasākumu vadītājs, improvizators Kaspars Breidaks – dodas eksotiskā ceļojumā uz Ruandu! Āfrikā ceļotājus gaida pārsteigumi, sākot ar pazudušu bagāžu un krasām kultūras atšķirībām, emocionāliem mirkļiem vietējos ciematos un beidzot ar nervus kutinošu safari braucienu ar nakšņošanu teltīs bez jebkādām ērtībām, vienlaikus mēģinot balansēt grupas budžetu starp greznām vakariņām un taupību. Piedzīvojuma kulminācijā gaidāmi arī fiziski izaicinājumi un neparedzētas veselības problēmas, kas vienu no ceļotājiem pat novedīs līdz Ruandas slimnīcas apmeklējumam, liekot komandai saliedēties, lai veiksmīgi noslēgtu kontrastiem bagāto Āfrikas braucienu.</desc>
+  </programme>
+  <programme start="20260425081500 +0000" stop="20260425092000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Vilcienā cauri pasaulei 4</title>
+    <desc lang="lv">Aizraujošs ceļojumu raidījums, kas aicina izbraukāt pasaules iespaidīgākos un neaizmirstamākos vilcienu maršrutus. Raidījuma galvenais varonis ir vilciens — tas ved cauri elpu aizraujošām ainavām, vēsturiskām pilsētām un nomaļiem reģioniem, kur pārvietošanās pa sliedēm nav tikai, lai nokļūtu no viena punkta līdz otram – tas ir īsts piedzīvojums. Raidījums apvieno ainaviskus skatus, kultūras stāstus un dzelzceļa vēsturi, ļaujot atklāt gan pasaulslavenus, gan mazāk zināmus maršrutus, pa ceļam iepazīstot vietējās tradīcijas, cilvēkus paradumus, arhitektūru un inženiertehniskos risinājumus, kas padara katru braucienu unikālu.</desc>
+  </programme>
+  <programme start="20260425092000 +0000" stop="20260425103000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Vilcienā cauri pasaulei 5</title>
+    <desc lang="lv">Dodies neaizmirstamā piedzīvojumā apkārt pasaulei! Šosezon raidījums sekos līdzi harizmātiskajam ceļotājam Filipam Gijē, kurš turpina savu misiju atklāt planētas dārgumus, izmantojot tās daudzveidīgos sliežu ceļus. No modernām lielpilsētu maģistrālēm līdz nomaļiem džungļiem un sniegotiem kalnu masīviem, katrs brauciens atklāj jaunu un negaidītu šķautni par konkrētās valsts identitāti. Skatītājiem būs iespēja paviesoties Krievijas plašajos sniega klajumos, kur vilciens ir vienīgā dzīvības dzīsla, sajust Dienvidāfrikas kontrastus starp greznām lokomotīvēm un mutuļojošu ikdienas kņadu, kā arī pieredzēt Austrālijas svelmainos tuksneša horizontus un Indonēzijas eksotiskās vulkānu pakājes.</desc>
+  </programme>
+  <programme start="20260425103000 +0000" stop="20260425130000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Spoku mednieki: Viņā pusē</title>
+    <desc lang="lv">Leģendārie spoku mednieki nekur nav pazuduši! Nonākusi finansiālās grūtībās un neredzot vairs citu iespēju, vientuļā māte Kellija ar savām divām pusaugu atvasēm Fēbi un Trevoru pārvācas uz nomaļu pilsētiņu Samervilu, kur viņa var apmesties sava ekscentriskā nelaiķa tēva pussabrukušajā mājā. Tomēr ātri vien kļūst skaidrs, ka ar šo māju notiek kas neparasts – vectēvs viņiem atstājis neparastu mantojumu, un ģimenei nāksies sastapties ar slavenajiem spoku medniekiem. Galvenajās lomās: Kerija Kūna, Pols Rads, Fins Volfhards</desc>
+  </programme>
+  <programme start="20260425130000 +0000" stop="20260425153000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Grenlande</title>
+    <desc lang="lv">Zemei tuvojas milzu komētas fragmenti, kuru spēkos ir iznīcināt cilvēci. Izdzīvot katastrofā var, vienīgi nokļūstot bunkuros tālu Grenlandē. Džons, viņa sieva Alisone un dēliņš Neitans dodas riskantā ceļojumā, lai izcīnītu savu vietu vienīgajā patvērumā. Apkārt virmojot šausminošām ziņām no pilsētām, kuras līdz ar zemi nolīdzinājuši komētas fragmenti, Garitī ģimene pieredz cilvēka dabas labākos un ļaunākos aspektus, spēkojoties ar aizvien pieaugošo paniku un nelikumībām. Kad pulkstenis skaita pēdējās sekundes līdz vispasaules apokalipsei, viņu neticamais brauciens sasniedz kulmināciju izmisīgā pēdējā brīža lidojumā uz iespējamo glābiņu. Galvenajās lomās: Džerards Batlers, Morena Bakarina, Rodžers Deils</desc>
+  </programme>
+  <programme start="20260425153000 +0000" stop="20260425163000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Ceļot bez robežām 2</title>
+    <desc lang="lv">Iedvesmojošs raidījums par reāliem ceļojumiem bez liekas izskaistināšanas — ar praktiskiem padomiem, godīgiem iespaidiem un maršrutiem, ko katrs var atkārtot pats. Katrā epizodē ceļotāji dodas uz jaunu galamērķi – atklājam vietējo atmosfēru, ēdienus, apskates vietas, budžeta trikus, kā arī slepenas pērles, par kurām ceļvežos bieži vien nekas nav rakstīts. Raidījums visiem, kas meklē idejas nākamajam braucienam, vēlas ceļot gudrāk un redzēt vairāk par ierastajiem tūristu maršrutiem.</desc>
+  </programme>
+  <programme start="20260425163000 +0000" stop="20260425173000 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Dr. Sirmais S03</title>
+    <desc lang="lv">Dr. Sirmais iedvesmos ģimenes savus iecienītākos ēdienus gatavot dažādāk, vienlaikus lētāk, ātrāk un gudrāk! Pie pavāra Mārtiņa Sirmā katru nedēļu viesosies kāda sabiedrībā atpazīstama persona kopā ar ģimeni, lai apspriestu savus ēšanas paradumus un kopīgi pagatavotu maltītes veselai darba nedēļai. Pirms tam viesiem būs jāizdara mājas darbs un jādokumentē piecu darba dienu vakariņas visos sagatavošanās posmos - no veikala apmeklējuma līdz pat maltītes servēšanai. Mārtiņš Sirmais analizēs viesu ikdienu, lai vēlāk sniegtu vērtīgus padomus, kā atvieglot iepirkšanās un gatavošanas procesu, kā arī kā ēdienu padarīt vēl gardāku. Visu to, ko viesi būs gatavojuši mājās, viņi gatavos vēlreiz kopā ar pavāru Mārtiņu Sirmo, bet nu jau uzlabotās versijās, turklāt saņemot ieteikumus, kā gatavošanu padarīt arī maciņam draudzīgāku, vienlaikus tam veltot mazāk laika.</desc>
+  </programme>
+  <programme start="20260425173000 +0000" stop="20260425190500 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Četri uz koferiem 11</title>
+    <desc lang="lv">Šova “Četri uz koferiem” vienpadsmitajā sezonā četri spilgti piedzīvojumu meklētāji – TV personība Aivis Ceriņš, mūziķe Asnate Rancāne, juriste Ieva Brante un pasākumu vadītājs, improvizators Kaspars Breidaks – dodas eksotiskā ceļojumā uz Ruandu! Āfrikā ceļotājus gaida pārsteigumi, sākot ar pazudušu bagāžu un krasām kultūras atšķirībām, emocionāliem mirkļiem vietējos ciematos un beidzot ar nervus kutinošu safari braucienu ar nakšņošanu teltīs bez jebkādām ērtībām, vienlaikus mēģinot balansēt grupas budžetu starp greznām vakariņām un taupību. Piedzīvojuma kulminācijā gaidāmi arī fiziski izaicinājumi un neparedzētas veselības problēmas, kas vienu no ceļotājiem pat novedīs līdz Ruandas slimnīcas apmeklējumam, liekot komandai saliedēties, lai veiksmīgi noslēgtu kontrastiem bagāto Āfrikas braucienu.</desc>
+  </programme>
+  <programme start="20260425190500 +0000" stop="20260425210500 +0000" channel="360TV.lv@SD">
+    <title lang="lv">Sanandreasa lūzums</title>
+    <desc lang="lv">Ģeoloģisko plātņu sakustēšanās Kalifornijā, Sanandreasa lūzuma zonā, izraisa 9 balles spēcīgu zemestrīci, un glābēju helikoptera pilots kopā ar šķirto sievu dodas no Losandželosas uz Sanfrancisko, lai glābtu savu vienīgo meitu. Briesmu pilnais ceļojums uz ziemeļiem ir tikai sākums izaicinošajam piedzīvojumam – kad šķiet, ka ļaunākais jau ir aiz muguras, katastrofas apmēri tikai pieaug. Galvenajās lomās: Dveins Džonsons, Karla Gugino, Aleksandra Dadario.</desc>
+  </programme>
+  <programme start="20260423225000 +0000" stop="20260423231500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Ziņas +</title>
+  </programme>
+  <programme start="20260423231500 +0000" stop="20260424001500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Drons</title>
+  </programme>
+  <programme start="20260424001500 +0000" stop="20260424011000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Lietiskie pierādījumi 6</title>
+  </programme>
+  <programme start="20260424011000 +0000" stop="20260424014500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Nekā deklarējama: Austrālija 15</title>
+    <desc lang="ru">Nedeklarētas lietas, aizliegtas vielas, mēģinājumi nelegāli iebraukt valstī, svešu cilvēku pases, aizdomīgi sūtījumi – tā ir robežkontroles darbinieku ikdiena. Viņu uzdevums ir identificēt un novērst noziedzīgas darbības – konfiscēt narkotikas, ieročus un citas aizliegtas lietas, neielaist valstī noziedzniekus un cilvēkus, kuri varētu mēģināt nelegāli uzturēties Austrālijā.</desc>
+  </programme>
+  <programme start="20260424014500 +0000" stop="20260424020000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">TV3 Plus nakts ēters</title>
+  </programme>
+  <programme start="20260424020000 +0000" stop="20260424022000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">TV3 Plus nakts ēters</title>
+  </programme>
+  <programme start="20260424022000 +0000" stop="20260424031500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Cipars vai ģerbonis. Restarts 2018</title>
+  </programme>
+  <programme start="20260424031500 +0000" stop="20260424034500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Romeo un Džuljeta no Čerkasiem</title>
+    <desc lang="ru">Jūlija un Roma ir laimīgi atraduši viens otru un plāno precēties. Taču abu vecāki, kuri gadu desmitiem ir bijuši nesamierināmi naidnieki, iejauksies jauniešu plānos. Lai kāzas patiešām notiktu, Jūlijai un Romam būs jāsamierina tēvi, jāsalabina mātes un jāpārvar tūkstoš un viens pārbaudījums, ko sarūpēs pārējie tuvinieki.</desc>
+  </programme>
+  <programme start="20260424034500 +0000" stop="20260424041000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Romeo un Džuljeta no Čerkasiem</title>
+    <desc lang="ru">Jūlija un Roma ir laimīgi atraduši viens otru un plāno precēties. Taču abu vecāki, kuri gadu desmitiem ir bijuši nesamierināmi naidnieki, iejauksies jauniešu plānos. Lai kāzas patiešām notiktu, Jūlijai un Romam būs jāsamierina tēvi, jāsalabina mātes un jāpārvar tūkstoš un viens pārbaudījums, ko sarūpēs pārējie tuvinieki.</desc>
+  </programme>
+  <programme start="20260424041000 +0000" stop="20260424051000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Visvislabākā māja</title>
+  </programme>
+  <programme start="20260424051000 +0000" stop="20260424062000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Superomīte 2</title>
+  </programme>
+  <programme start="20260424062000 +0000" stop="20260424072500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Cipars vai ģerbonis</title>
+  </programme>
+  <programme start="20260424072500 +0000" stop="20260424075500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Nekā deklarējama: Austrālija 15</title>
+    <desc lang="ru">Nedeklarētas lietas, aizliegtas vielas, mēģinājumi nelegāli iebraukt valstī, svešu cilvēku pases, aizdomīgi sūtījumi – tā ir robežkontroles darbinieku ikdiena. Viņu uzdevums ir identificēt un novērst noziedzīgas darbības – konfiscēt narkotikas, ieročus un citas aizliegtas lietas, neielaist valstī noziedzniekus un cilvēkus, kuri varētu mēģināt nelegāli uzturēties Austrālijā.</desc>
+  </programme>
+  <programme start="20260424075500 +0000" stop="20260424085500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Noķert kontrabandistu</title>
+  </programme>
+  <programme start="20260424085500 +0000" stop="20260424095500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Elementāri, Vatson! 2</title>
+    <desc lang="ru">Mūsdienīga Šerloka Holmsa interpretācija, kura darbība notiek Ņujorkā, lai arī pat Šerloks Holms ir no Anglijas – reiz darbojies kā Skotlendjarda konsultants izmeklēšanas lietās, taču kritis narkotiku gūstā un pēc ārstēšanās kursa pārcēlies uz ASV. Ņujorkā Šerloku sagaida viņa bagātā tēva noalgotā uzraudze Džoana Vatsone, kuras uzdevums ir dzīvot kopā ar Šerloku, sekot viņam līdzi it visur un pieskatīt, lai viņš turas pa gabalu no narkotikām. Tomēr pats Šerloks uzskata, ka vislabāk nedomāt par narkotikām viņam palīdzēs darbs policijā. Un viņš sāk palīdzēt Ņujorkas policijai noziegumu izmeklēšanā.</desc>
+  </programme>
+  <programme start="20260424095500 +0000" stop="20260424105500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Elementāri, Vatson! 2</title>
+    <desc lang="ru">Mūsdienīga Šerloka Holmsa interpretācija, kura darbība notiek Ņujorkā, lai arī pat Šerloks Holms ir no Anglijas – reiz darbojies kā Skotlendjarda konsultants izmeklēšanas lietās, taču kritis narkotiku gūstā un pēc ārstēšanās kursa pārcēlies uz ASV. Ņujorkā Šerloku sagaida viņa bagātā tēva noalgotā uzraudze Džoana Vatsone, kuras uzdevums ir dzīvot kopā ar Šerloku, sekot viņam līdzi it visur un pieskatīt, lai viņš turas pa gabalu no narkotikām. Tomēr pats Šerloks uzskata, ka vislabāk nedomāt par narkotikām viņam palīdzēs darbs policijā. Un viņš sāk palīdzēt Ņujorkas policijai noziegumu izmeklēšanā.</desc>
+  </programme>
+  <programme start="20260424105500 +0000" stop="20260424121000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Drons</title>
+  </programme>
+  <programme start="20260424121000 +0000" stop="20260424132500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Spožie prāti 4</title>
+    <desc lang="ru">sērijaAsinīm klātā Rafaela atgūst samaņu pie sadauzītās automašīnas stūres. Sev līdzās viņa ierauga mirušu vīrieti. Mediķi viņu nogādā slimnīcā. Rafaela neatceras nedz negadījumu, nedz notikumus trīs dienas pirms tā. Vīrietis, kas bija sašauts vēderā, izrādās Žans Marks Luvē, Rafaelas ienaidnieks. Situācija vēl vairāk sarežģās, kad atklājas, ka upuris nogalināts ar dienesta ieroci.</desc>
+  </programme>
+  <programme start="20260424132500 +0000" stop="20260424143000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Cipars vai ģerbonis. Restarts 2018</title>
+  </programme>
+  <programme start="20260424143000 +0000" stop="20260424163000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Snūpijs un Čārlijs Brauns: Riekstiņu filma</title>
+    <desc lang="ru">Čarlijs Brauns, Snūpijs un visi pārējie atgriežas ar šo aizkustinošo stāstu. Kad apkārtnē uz dzīvi apmetas jauna sarkanmataina meitene, Čārlijs Brauns viņā iemīlas. Viņš vairākkārt mēģina pievērst jaunās meitenes uzmanību un dažādos veidos mēģina savā dzīvē kaut ko sasniegt, taču katru reizi šķiet, ka neveicas arvien vairāk. Vai viņam izdosies iepatikties savai mīlestībai? Tajā pašā laikā Snūpijs apņemas tikt galā ar savu ļaunāko ienaidnieku – Sarkano Baronu.</desc>
+  </programme>
+  <programme start="20260424163000 +0000" stop="20260424165500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Ziņas +</title>
+  </programme>
+  <programme start="20260424165500 +0000" stop="20260424180000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Noķert kontrabandistu</title>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424203000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Aizmirstība</title>
+    <desc lang="ru">Tālā nākotnē Zeme ir attīstījusies līdz nepazīšanai, un Džeks Hārpers (Toms Krūzs) ir viens no pēdējiem lidmašīnu mehāniķiem uz planētas. Pēc ilgstoša kara ar baisajiem skaviem noslēgumam tuvojas milzīgā dzīvībai nepieciešamo resursu vākšana. Džeks patrulē elpu aizraujošajās debesīs, taču kādu dienu viņa pasaule mainās, kad no notriekta kosmosa kuģa viņš izglābj daiļu svešinieci. Viņas parādīšanās izraisa notikumu ķēdi, kas liek Džekam apšaubīt visu, ko līdz šim zinājis. Cilvēces liktenis ir viņa rokās.</desc>
+  </programme>
+  <programme start="20260424203000 +0000" stop="20260424221500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Paradīzes pilsēta</title>
+    <desc lang="ru">Pat saulainajās Havaju salās eksistē kriminālā bandītu un algotņu pagrīde. Pieredzējis algots slepkava, meklējot vecu ienaidnieku, pats kļūst par mērķi. Viņa dēls ar diviem pavadoņiem dodas atriebties sava tēva slepkavam un iekļūst arvien bīstamākos “Paradīzes pilsētas” nostūros. Brūss Viliss pret Džonu Travoltu ugunīgā tropu bojevikā.</desc>
+  </programme>
+  <programme start="20260424221500 +0000" stop="20260424224000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Ziņas +</title>
+  </programme>
+  <programme start="20260424224000 +0000" stop="20260424235000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Drons</title>
+  </programme>
+  <programme start="20260424235000 +0000" stop="20260425004500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Lietiskie pierādījumi 6</title>
+  </programme>
+  <programme start="20260425004500 +0000" stop="20260425014500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Cipars vai ģerbonis. Restarts 2018</title>
+  </programme>
+  <programme start="20260425014500 +0000" stop="20260425020000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">TV3 Plus nakts ēters</title>
+  </programme>
+  <programme start="20260425020000 +0000" stop="20260425024000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">TV3 Plus nakts ēters</title>
+  </programme>
+  <programme start="20260425024000 +0000" stop="20260425031000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Nekā deklarējama: Austrālija 15</title>
+    <desc lang="ru">Nedeklarētas lietas, aizliegtas vielas, mēģinājumi nelegāli iebraukt valstī, svešu cilvēku pases, aizdomīgi sūtījumi – tā ir robežkontroles darbinieku ikdiena. Viņu uzdevums ir identificēt un novērst noziedzīgas darbības – konfiscēt narkotikas, ieročus un citas aizliegtas lietas, neielaist valstī noziedzniekus un cilvēkus, kuri varētu mēģināt nelegāli uzturēties Austrālijā.</desc>
+  </programme>
+  <programme start="20260425031000 +0000" stop="20260425033500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Romeo un Džuljeta no Čerkasiem</title>
+    <desc lang="ru">Jūlija un Roma ir laimīgi atraduši viens otru un plāno precēties. Taču abu vecāki, kuri gadu desmitiem ir bijuši nesamierināmi naidnieki, iejauksies jauniešu plānos. Lai kāzas patiešām notiktu, Jūlijai un Romam būs jāsamierina tēvi, jāsalabina mātes un jāpārvar tūkstoš un viens pārbaudījums, ko sarūpēs pārējie tuvinieki.</desc>
+  </programme>
+  <programme start="20260425033500 +0000" stop="20260425040500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Romeo un Džuljeta no Čerkasiem</title>
+    <desc lang="ru">Jūlija un Roma ir laimīgi atraduši viens otru un plāno precēties. Taču abu vecāki, kuri gadu desmitiem ir bijuši nesamierināmi naidnieki, iejauksies jauniešu plānos. Lai kāzas patiešām notiktu, Jūlijai un Romam būs jāsamierina tēvi, jāsalabina mātes un jāpārvar tūkstoš un viens pārbaudījums, ko sarūpēs pārējie tuvinieki.</desc>
+  </programme>
+  <programme start="20260425040500 +0000" stop="20260425043500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Romeo un Džuljeta no Čerkasiem</title>
+    <desc lang="ru">Jūlija un Roma ir laimīgi atraduši viens otru un plāno precēties. Taču abu vecāki, kuri gadu desmitiem ir bijuši nesamierināmi naidnieki, iejauksies jauniešu plānos. Lai kāzas patiešām notiktu, Jūlijai un Romam būs jāsamierina tēvi, jāsalabina mātes un jāpārvar tūkstoš un viens pārbaudījums, ko sarūpēs pārējie tuvinieki.</desc>
+  </programme>
+  <programme start="20260425043500 +0000" stop="20260425050500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Romeo un Džuljeta no Čerkasiem</title>
+    <desc lang="ru">Jūlija un Roma ir laimīgi atraduši viens otru un plāno precēties. Taču abu vecāki, kuri gadu desmitiem ir bijuši nesamierināmi naidnieki, iejauksies jauniešu plānos. Lai kāzas patiešām notiktu, Jūlijai un Romam būs jāsamierina tēvi, jāsalabina mātes un jāpārvar tūkstoš un viens pārbaudījums, ko sarūpēs pārējie tuvinieki.</desc>
+  </programme>
+  <programme start="20260425050500 +0000" stop="20260425061500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Superomīte 2</title>
+  </programme>
+  <programme start="20260425061500 +0000" stop="20260425073000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Superomīte 2</title>
+  </programme>
+  <programme start="20260425073000 +0000" stop="20260425083500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Cipars vai ģerbonis</title>
+  </programme>
+  <programme start="20260425083500 +0000" stop="20260425094000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Cipars vai ģerbonis</title>
+  </programme>
+  <programme start="20260425094000 +0000" stop="20260425114500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Agatas Kristi detektīvspēlītes</title>
+  </programme>
+  <programme start="20260425114500 +0000" stop="20260425134500 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Skubijs Dū 2: Briesmoņi savā vaļā</title>
+    <desc lang="ru">Detektīvam Skūbijam Dū un viņa draugiem Fredam, Dafnei, Šagijam un Velmai jāstājas pretī nezināmam un maskētam ienaidniekam. Viņa nelietīgais plāns ir pārņemt varu Kūlsvilas pilsētā, ar briesmoņu radīšanas mašīnas palīdzību palaižot savā vaļā tādus mošķus kā Pterodaktila spoks, Melnā Bruņinieka spoks un 10 000 Voltu spoks.</desc>
+  </programme>
+  <programme start="20260425134500 +0000" stop="20260425160000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Megalodons</title>
+    <desc lang="ru">Starptautiskas pētnieku komandas zemūdene nogrimst vienā no dziļākajām Klusā okeāna dziļvagām, pēc tam kad tai uzbrucis noslēpumains milzu radījums, kurš tika uzskatīts par sen izmirušu. Lai glābtu zemūdenē iesprostotos cilvēkus, ķīniešu okeanogrāfs Minvejs Džans nolīgst pieredzējušo nirēju Džonasu Teiloru. Turklāt izrādās, ka Teiloram pirms dažiem gadiem jau ir nācies sastapties ar šo aizvēsturisko haizivi – vairāk nekā 20 metrus garo plēsēju megalodonu.</desc>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425180000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Slepkavība Oksitānijā</title>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425202000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Slepkavība Austrumu ekspresī</title>
+    <desc lang="ru">Ceļojums vienā no krāšņākajiem Eiropas vilcienu maršrutiem pārvēršas sarežģītākajā un visaizraujošākajā mīklā kriminālistikas vēsturē. Savā kupejā miris atrasts noslēpumainais amerikāņu miljonārs Rečets un nav šaubu, ka slepkava ir viens no pasažieriem. Kamēr puteņa dēļ vilciens ir apstājies un nošķirts no ārējās pasaules, detektīvam Erkilam Puaro ir jānoskaidro slepkava, pirms tas uzbruks atkal.</desc>
+  </programme>
+  <programme start="20260425202000 +0000" stop="20260425221000 +0000" channel="TV3Plus.lv@SD">
+    <title lang="ru">Elpot</title>
+  </programme>
+</tv>

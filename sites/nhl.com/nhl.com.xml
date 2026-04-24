@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="NHLNetwork.us@SD">
+    <display-name>NHL Network</display-name>
+    <icon src="https://i.imgur.com/UNZ8bef.png" />
+    <url>https://nhl.com</url>
+  </channel>
+  <programme start="20260424000000 +0000" stop="20260424003000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424003000 +0000" stop="20260424010000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424010000 +0000" stop="20260424020000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424020000 +0000" stop="20260424030000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424030000 +0000" stop="20260424040000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424050000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424060000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424070000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424090000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424100000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424123000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">IIHF U-18 World Championship</title>
+    <desc lang="en">IIHF U-18 Men's World Championship: Denmark vs USA on 4/24/26</desc>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424123000 +0000" stop="20260424130000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Trophy Case - Ep 1</title>
+    <desc lang="en">NHL Trophy Case is a limited-run documentary series that takes a deep dive into the history, lore, and special meaning of the NHL's most storied trophies. Episode one of NHL Trophy Case dives into the Hart Trophy, the Vezina Trophy and the Lady Byng, and features bites from marquee NHL players Tom Wilson, Leon Draisaitl, Connor McDavid, Robert Thomas, David Pastrnak and Morgan Rielly.</desc>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424140000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424160000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Game</title>
+    <desc lang="en">1st Round: Carolina Hurricanes at Ottawa Senators, Game 3 on 4/23/2026 From Canadian Tire Centre</desc>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424170000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: First Shift</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424190000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Now</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424193000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Now</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424193000 +0000" stop="20260424200000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Now</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424203000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Now</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424203000 +0000" stop="20260424210000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Now</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424213000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Now</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424213000 +0000" stop="20260424220000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Now</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424230000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424223000 +0000" stop="20260424230000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260424233000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260424233000 +0000" stop="20260425000000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425003000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425003000 +0000" stop="20260425010000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425010000 +0000" stop="20260425020000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425020000 +0000" stop="20260425030000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425040000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425050000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425060000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425070000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425080000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425090000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425100000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425123000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">IIHF U-18 World Championship</title>
+    <desc lang="en">IIHF U-18 Men's World Championship: Sweden vs USA on 4/25/26</desc>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425123000 +0000" stop="20260425130000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">Becoming Wild: Season 15 - Ep 5 Ryan Hartman</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425130000 +0000" stop="20260425133000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">Becoming Wild: Season 15 - Ep 6 Feeding the Wild</title>
+    <desc lang="en">Like your car on the road, an NHL team relies on the right fuel to run its best on the ice. In this episode of Becoming Wild, meet the nutrition team that helps Wild players find out what fuel works best for them. Whether its breakfast at the TRIA Rink on a game day or a postgame smoothie on the road, nutrition support for the Wild is in every room and keeping up with a constantly changing science.</desc>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425133000 +0000" stop="20260425153000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Game</title>
+    <desc lang="en">1st Round: Vegas Golden Knights at Utah Mammoth, Game 3 on 4/24/2026 From Delta Center</desc>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425153000 +0000" stop="20260425160000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Trophy Case - Ep 2</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425163000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Network Countdown: Playoff Upsets</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425163000 +0000" stop="20260425170000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">Top Shelf: Best of the Regular Season</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425190000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425173000 +0000" stop="20260425180000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425183000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425183000 +0000" stop="20260425190000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260425193000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425193000 +0000" stop="20260425200000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425210000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425203000 +0000" stop="20260425210000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425210000 +0000" stop="20260425213000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425213000 +0000" stop="20260425220000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260425223000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425223000 +0000" stop="20260425230000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425230000 +0000" stop="20260426000000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20260425233000 +0000" stop="20260426000000 +0000" channel="NHLNetwork.us@SD">
+    <title lang="en">NHL Tonight: Playoff Edition</title>
+    <category lang="en">Sports</category>
+  </programme>
+</tv>

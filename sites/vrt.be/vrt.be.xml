@@ -1,0 +1,2205 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="VRTCanvas.be">
+    <display-name>VRT CANVAS</display-name>
+    <icon src="https://images.vrt.be/orig/2023/11/09/1ae4c23e-7ef9-11ee-91d7-02b7b76bf47f.png" />
+    <url>https://vrt.be</url>
+  </channel>
+  <channel id="DeTijdloze.be">
+    <display-name>De Tijdloze</display-name>
+    <icon src="https://images.vrt.be/orig/2025/06/19/a8150bd0-4af0-4c4f-bdaf-193f579adba6.png" />
+    <url>https://vrt.be</url>
+  </channel>
+  <channel id="Ketnet.be">
+    <display-name>Ketnet</display-name>
+    <icon src="https://images.vrt.be/orig/2024/10/22/03aa85a7-302c-4b2e-8028-71b52ae0a38d.png" />
+    <url>https://vrt.be</url>
+  </channel>
+  <channel id="Klara.be">
+    <display-name>Klara</display-name>
+    <icon src="https://images.vrt.be/orig/2025/06/19/1434fa63-eb65-4f65-b465-26919982d6fc.png" />
+    <url>https://vrt.be</url>
+  </channel>
+  <channel id="MNM.be">
+    <display-name>MNM</display-name>
+    <icon src="https://images.vrt.be/orig/2025/06/19/f0be1c65-3f98-43d1-b962-ded0f3bca602.png" />
+    <url>https://vrt.be</url>
+  </channel>
+  <channel id="Radio1.be">
+    <display-name>Radio 1</display-name>
+    <icon src="https://images.vrt.be/orig/2025/06/19/2a99563b-7503-4906-81fb-aa6bc91bfa08.png" />
+    <url>https://vrt.be</url>
+  </channel>
+  <channel id="Radio2.be">
+    <display-name>Radio 2</display-name>
+    <icon src="https://images.vrt.be/orig/2025/06/19/11b3ccce-bc76-43cf-aa15-b6c93e75f6db.png" />
+    <url>https://vrt.be</url>
+  </channel>
+  <channel id="RadioBene.be">
+    <display-name>Radio Bene</display-name>
+    <icon src="https://images.vrt.be/orig/2025/06/19/d7fc517e-2fc8-4467-b1d0-90a32b1c7334.png" />
+    <url>https://vrt.be</url>
+  </channel>
+  <channel id="StuBru.be">
+    <display-name>Studio Brussel</display-name>
+    <icon src="https://images.vrt.be/orig/2023/12/08/a6d153f0-95cb-11ee-b483-02b7b76bf47f.png" />
+    <url>https://vrt.be</url>
+  </channel>
+  <channel id="VRT1.be">
+    <display-name>VRT 1</display-name>
+    <icon src="https://images.vrt.be/orig/2023/04/28/c448d669-e5c1-11ed-91d7-02b7b76bf47f.png" />
+    <url>https://vrt.be</url>
+  </channel>
+  <programme start="20260424050000 +0000" stop="20260424150000 +0000" channel="DeTijdloze.be">
+    <title lang="nl">De Tijdloze Staat Op</title>
+    <desc lang="nl">De beste manier om aan je dag te beginnen</desc>
+    <image>https://images.vrt.be/orig/2025/12/09/127536cd-cb0b-48a7-a306-0f44f31f3b3d.jpg</image>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424160000 +0000" channel="DeTijdloze.be">
+    <title lang="nl">De favoriete albums van ...</title>
+    <desc lang="nl">Tess Elst</desc>
+    <image>https://images.vrt.be/orig/2026/04/23/DTL_Stijn&amp;Tess_RADIOCOVER_1080x1080.jpg</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424180000 +0000" channel="DeTijdloze.be">
+    <title lang="nl">De Tijdloze Dansant</title>
+    <desc lang="nl">De beste fuifplaten aller tijden</desc>
+    <image>https://images.vrt.be/orig/2024/12/17/8e3c1468-cc99-479b-a33c-a6327d33942d.jpg</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424220000 +0000" channel="DeTijdloze.be">
+    <title lang="nl">De Tijdloze</title>
+    <desc lang="nl">Niet kapot te krijgen</desc>
+    <image>https://images.vrt.be/orig/2024/12/17/39020584-5988-47af-9c31-3b2840310a9c.jpg</image>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260425070000 +0000" channel="DeTijdloze.be">
+    <title lang="nl">De Tijdloze</title>
+    <desc lang="nl">Niet kapot te krijgen</desc>
+    <image>https://images.vrt.be/orig/2024/12/17/39020584-5988-47af-9c31-3b2840310a9c.jpg</image>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425100000 +0000" channel="DeTijdloze.be">
+    <title lang="nl">De Tijdloze Jaren 90</title>
+    <desc lang="nl">De Tijdloze Jaren 90</desc>
+    <image>https://images.vrt.be/orig/2024/12/17/6df0b926-bceb-49b6-a79e-f4b1bd2fe563.png</image>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425110000 +0000" channel="DeTijdloze.be">
+    <title lang="nl">Met de paplepel</title>
+    <desc lang="nl">Tijdloze muziek wordt doorgegeven van generatie op generatie. Welke muziek heb jij met de paplepel meegekregen?</desc>
+    <image>https://images.vrt.be/orig/2025/01/06/57f0ac85-534f-4814-ae08-3207c8529d89.png</image>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425160000 +0000" channel="DeTijdloze.be">
+    <title lang="nl">De Tijdloze</title>
+    <desc lang="nl">Niet kapot te krijgen</desc>
+    <image>https://images.vrt.be/orig/2024/12/17/39020584-5988-47af-9c31-3b2840310a9c.jpg</image>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425180000 +0000" channel="DeTijdloze.be">
+    <title lang="nl">De Tijdloze Dansant</title>
+    <desc lang="nl">De beste fuifplaten aller tijden</desc>
+    <image>https://images.vrt.be/orig/2024/12/17/8e3c1468-cc99-479b-a33c-a6327d33942d.jpg</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425220000 +0000" channel="DeTijdloze.be">
+    <title lang="nl">De Tijdloze</title>
+    <desc lang="nl">Niet kapot te krijgen</desc>
+    <image>https://images.vrt.be/orig/2024/12/17/39020584-5988-47af-9c31-3b2840310a9c.jpg</image>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260426080000 +0000" channel="DeTijdloze.be">
+    <title lang="nl">De Tijdloze</title>
+    <desc lang="nl">Niet kapot te krijgen</desc>
+    <image>https://images.vrt.be/orig/2024/12/17/39020584-5988-47af-9c31-3b2840310a9c.jpg</image>
+  </programme>
+  <programme start="20260424040010 +0000" stop="20260424040516 +0000" channel="Ketnet.be">
+    <title lang="nl">Tik Tak</title>
+    <desc lang="nl">Aflevering 52</desc>
+    <episode-num system="xmltv_ns">2019.51.0/1</episode-num>
+    <episode-num system="onscreen">S2020E52</episode-num>
+    <image>https://images.vrt.be/orig/2023/03/10/cf389fbe-bf1b-11ed-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424040516 +0000" stop="20260424041016 +0000" channel="Ketnet.be">
+    <title lang="nl">Bumba</title>
+    <desc lang="nl">Voetballen met Zinzi</desc>
+    <episode-num system="xmltv_ns">2021.1.0/1</episode-num>
+    <episode-num system="onscreen">S2022E02</episode-num>
+    <image>https://images.vrt.be/orig/2022/02/23/d84fcd82-94b6-11ec-b07d-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424041016 +0000" stop="20260424041523 +0000" channel="Ketnet.be">
+    <title lang="nl">Timbalo</title>
+    <desc lang="nl">De ijskar van Pepe</desc>
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <episode-num system="onscreen">S01E25</episode-num>
+    <image>https://images.vrt.be/orig/2025/06/11/e7a8a1ed-4eef-4e4c-b4ff-11424e593b2f.jpg</image>
+  </programme>
+  <programme start="20260424041523 +0000" stop="20260424042126 +0000" channel="Ketnet.be">
+    <title lang="nl">Ellie de olifant</title>
+    <desc lang="nl">De wereld rond</desc>
+    <episode-num system="xmltv_ns">0.19.0/1</episode-num>
+    <episode-num system="onscreen">S01E20</episode-num>
+    <image>https://images.vrt.be/orig/2025/10/20/09bdc837-2e75-4b73-b45f-8b091ea0206f.jpg</image>
+  </programme>
+  <programme start="20260424042126 +0000" stop="20260424042251 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">We maken een kringetje</desc>
+    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
+    <episode-num system="onscreen">S01E13</episode-num>
+    <image>https://images.vrt.be/orig/2023/11/17/9e35ccee-8539-11ee-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424042251 +0000" stop="20260424042819 +0000" channel="Ketnet.be">
+    <title lang="nl">Simon</title>
+    <desc lang="nl">De verliezer wint</desc>
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <image>https://images.vrt.be/orig/2024/08/13/5f5a8902-42f7-48c5-8c7b-b23645182cde.jpg</image>
+  </programme>
+  <programme start="20260424042819 +0000" stop="20260424043351 +0000" channel="Ketnet.be">
+    <title lang="nl">Kaatje kan het</title>
+    <desc lang="nl">Balanceren</desc>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://images.vrt.be/orig/2025/12/11/26d3399a-abfa-470d-a384-bcc2706eb68a.jpg</image>
+  </programme>
+  <programme start="20260424043351 +0000" stop="20260424044121 +0000" channel="Ketnet.be">
+    <title lang="nl">Dropje</title>
+    <desc lang="nl">Raket</desc>
+    <image>https://images.vrt.be/orig/2023/03/20/b97dd79b-c726-11ed-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424044121 +0000" stop="20260424044439 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">Dinopoten</desc>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://images.vrt.be/orig/2020/11/13/762d0cdb-25a4-11eb-aae0-02b7b76bf47f.png?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424044439 +0000" stop="20260424045148 +0000" channel="Ketnet.be">
+    <title lang="nl">Bing</title>
+    <desc lang="nl">Bakken</desc>
+    <episode-num system="xmltv_ns">0.15.0/1</episode-num>
+    <episode-num system="onscreen">S01E16</episode-num>
+    <image>https://images.vrt.be/orig/2026/02/10/1a4c8cb0-c916-4937-80a8-5edcf12ee7fb.jpg</image>
+  </programme>
+  <programme start="20260424045148 +0000" stop="20260424045848 +0000" channel="Ketnet.be">
+    <title lang="nl">Toet! Toet! Cory Carson</title>
+    <desc lang="nl">Gelukkig jubileum</desc>
+    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
+    <episode-num system="onscreen">S02E02</episode-num>
+    <image>https://images.vrt.be/orig/2024/06/17/7e108f5e-2cb2-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424045848 +0000" stop="20260424050939 +0000" channel="Ketnet.be">
+    <title lang="nl">Mojo Wisseltop</title>
+    <desc lang="nl">Vogelballon</desc>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://images.vrt.be/orig/2025/10/05/9a4bce97-e527-4176-ad4e-608bced2afd1.jpg</image>
+  </programme>
+  <programme start="20260424050939 +0000" stop="20260424051218 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">Letter G</desc>
+    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
+    <episode-num system="onscreen">S01E13</episode-num>
+    <image>https://images.vrt.be/orig/2025/12/01/f357fa14-9194-4291-8596-2f6bc6d6cbf3.jpg</image>
+  </programme>
+  <programme start="20260424051218 +0000" stop="20260424052323 +0000" channel="Ketnet.be">
+    <title lang="nl">Biggen Bouwers</title>
+    <desc lang="nl">Cloud</desc>
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <episode-num system="onscreen">S01E25</episode-num>
+    <image>https://images.vrt.be/orig/2025/11/23/e38c127c-3f09-42fd-adec-1f2e638fad4c.jpg</image>
+  </programme>
+  <programme start="20260424052323 +0000" stop="20260424052826 +0000" channel="Ketnet.be">
+    <title lang="nl">Samson &amp; Marie</title>
+    <desc lang="nl">Het circus</desc>
+    <episode-num system="xmltv_ns">0.86.0/1</episode-num>
+    <episode-num system="onscreen">S01E87</episode-num>
+    <image>https://images.vrt.be/orig/2022/12/13/aa2c1eef-7ab9-11ed-b07d-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424052826 +0000" stop="20260424053331 +0000" channel="Ketnet.be">
+    <title lang="nl">Molang</title>
+    <desc lang="nl">The potion</desc>
+    <episode-num system="xmltv_ns">4.15.0/1</episode-num>
+    <episode-num system="onscreen">S05E16</episode-num>
+    <image>https://images.vrt.be/orig/2023/03/01/390ed21b-b815-11ed-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424053331 +0000" stop="20260424054454 +0000" channel="Ketnet.be">
+    <title lang="nl">De mini's</title>
+    <desc lang="nl">De dieren van de stad</desc>
+    <episode-num system="xmltv_ns">0.11.0/1</episode-num>
+    <episode-num system="onscreen">S01E12</episode-num>
+    <image>https://images.vrt.be/orig/2026/03/04/f6f02a23-f835-4fdc-bada-099415e07576.jpg</image>
+  </programme>
+  <programme start="20260424054454 +0000" stop="20260424060112 +0000" channel="Ketnet.be">
+    <title lang="nl">HALLO KROKET!</title>
+    <desc lang="nl">Neemt een MONSTER de studio over?!</desc>
+    <image>https://images.vrt.be/orig/2026/04/23/a8a091e2-ba20-4f68-ae48-e9bcec147814.jpg</image>
+  </programme>
+  <programme start="20260424060112 +0000" stop="20260424062323 +0000" channel="Ketnet.be">
+    <title lang="nl">Waiko</title>
+    <desc lang="nl">Door gevaarlijk alienstof verandert Bibi stilaan in een alien</desc>
+    <episode-num system="xmltv_ns">1.6.0/1</episode-num>
+    <episode-num system="onscreen">S02E07</episode-num>
+    <image>https://images.vrt.be/orig/2026/03/10/bf8dc45d-3f9b-49eb-bf62-1af9f2c0f280.jpg</image>
+  </programme>
+  <programme start="20260424062323 +0000" stop="20260424062826 +0000" channel="Ketnet.be">
+    <title lang="nl">Molang</title>
+    <desc lang="nl">The javelin</desc>
+    <episode-num system="xmltv_ns">4.40.0/1</episode-num>
+    <episode-num system="onscreen">S05E41</episode-num>
+    <image>https://images.vrt.be/orig/2023/03/01/abed4118-b815-11ed-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424062826 +0000" stop="20260424063959 +0000" channel="Ketnet.be">
+    <title lang="nl">De Marsupilami's</title>
+    <desc lang="nl">Twisters Boomhut</desc>
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
+    <episode-num system="onscreen">S01E09</episode-num>
+    <image>https://images.vrt.be/orig/2026/02/10/6f1a0293-96bb-4144-875b-3eb69dbef695.jpg</image>
+  </programme>
+  <programme start="20260424063959 +0000" stop="20260424064730 +0000" channel="Ketnet.be">
+    <title lang="nl">Mr. Magoo</title>
+    <desc lang="nl">Fizz Junior</desc>
+    <episode-num system="xmltv_ns">1.4.0/1</episode-num>
+    <episode-num system="onscreen">S02E05</episode-num>
+    <image>https://images.vrt.be/orig/2024/03/16/711dc92e-e320-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424064730 +0000" stop="20260424065704 +0000" channel="Ketnet.be">
+    <title lang="nl">Karrewiet met VGT</title>
+    <desc lang="nl">Het nieuws van 23 april met Vlaamse Gebarentaal</desc>
+    <image>https://images.vrt.be/orig/2026/04/23/b56a6d4a-43a4-4b9a-8d46-898002081d30.jpg</image>
+  </programme>
+  <programme start="20260424065704 +0000" stop="20260424070017 +0000" channel="Ketnet.be">
+    <title lang="nl">Kleine dingen</title>
+    <desc lang="nl">De boerderij</desc>
+    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
+    <episode-num system="onscreen">S02E04</episode-num>
+    <image>https://images.vrt.be/orig/2023/12/08/d36f8ee6-95a5-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424070017 +0000" stop="20260424070524 +0000" channel="Ketnet.be">
+    <title lang="nl">Tik Tak</title>
+    <desc lang="nl">Aflevering 1</desc>
+    <episode-num system="xmltv_ns">2019.0.0/1</episode-num>
+    <episode-num system="onscreen">S2020E01</episode-num>
+    <image>https://images.vrt.be/orig/2023/03/10/408501b1-bf2f-11ed-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424070524 +0000" stop="20260424071045 +0000" channel="Ketnet.be">
+    <title lang="nl">Bumba</title>
+    <desc lang="nl">Trommelen in de ruimte</desc>
+    <episode-num system="xmltv_ns">2021.2.0/1</episode-num>
+    <episode-num system="onscreen">S2022E03</episode-num>
+    <image>https://images.vrt.be/orig/2022/02/23/d8150e71-94b6-11ec-b07d-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424071045 +0000" stop="20260424071554 +0000" channel="Ketnet.be">
+    <title lang="nl">Timbalo</title>
+    <desc lang="nl">De fanfare</desc>
+    <episode-num system="xmltv_ns">0.25.0/1</episode-num>
+    <episode-num system="onscreen">S01E26</episode-num>
+    <image>https://images.vrt.be/orig/2025/06/11/0dc934d6-6b0c-4d33-8f08-0ffe7dc08ee1.jpg</image>
+  </programme>
+  <programme start="20260424071554 +0000" stop="20260424072104 +0000" channel="Ketnet.be">
+    <title lang="nl">Uki</title>
+    <desc lang="nl">Waar is de bal?</desc>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://images.vrt.be/orig/2024/12/05/2632f0e7-42d3-48e5-95d4-086df45985dc.jpg</image>
+  </programme>
+  <programme start="20260424072104 +0000" stop="20260424072234 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">Een aapje wou eens vrolijk zijn</desc>
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <episode-num system="onscreen">S01E14</episode-num>
+    <image>https://images.vrt.be/orig/2023/11/17/922f7e05-8539-11ee-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424072234 +0000" stop="20260424072639 +0000" channel="Ketnet.be">
+    <title lang="nl">Ollie</title>
+    <desc lang="nl">Windvangers</desc>
+    <episode-num system="xmltv_ns">0.50.0/1</episode-num>
+    <episode-num system="onscreen">S01E51</episode-num>
+    <image>https://images.vrt.be/orig/2023/06/28/69981e3d-1583-11ee-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424072639 +0000" stop="20260424073349 +0000" channel="Ketnet.be">
+    <title lang="nl">Bing</title>
+    <desc lang="nl">Trein</desc>
+    <episode-num system="xmltv_ns">0.16.0/1</episode-num>
+    <episode-num system="onscreen">S01E17</episode-num>
+    <image>https://images.vrt.be/orig/2026/02/10/01fe76f2-bd7e-4eea-acec-0e178b02c255.jpg</image>
+  </programme>
+  <programme start="20260424073349 +0000" stop="20260424074047 +0000" channel="Ketnet.be">
+    <title lang="nl">Kaatjes Kameraadjes</title>
+    <desc lang="nl">Kaatje en Kamiel zijn bang voor het onweer</desc>
+    <episode-num system="xmltv_ns">1.4.0/1</episode-num>
+    <episode-num system="onscreen">S02E05</episode-num>
+    <image>https://images.vrt.be/orig/2024/10/08/684397a6-6ceb-4bc2-a503-937f93e8b946.jpg</image>
+  </programme>
+  <programme start="20260424074047 +0000" stop="20260424074755 +0000" channel="Ketnet.be">
+    <title lang="nl">Stoppeltje</title>
+    <desc lang="nl">Opgelet! Wees voorzichtig!</desc>
+    <episode-num system="xmltv_ns">1.4.0/1</episode-num>
+    <episode-num system="onscreen">S02E05</episode-num>
+    <image>https://images.vrt.be/orig/2023/10/04/e4545d99-62b9-11ee-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424074755 +0000" stop="20260424075304 +0000" channel="Ketnet.be">
+    <title lang="nl">Rintje</title>
+    <desc lang="nl">Weglopen</desc>
+    <episode-num system="xmltv_ns">1.15.0/1</episode-num>
+    <episode-num system="onscreen">S02E16</episode-num>
+    <image>https://images.vrt.be/orig/2024/10/08/7143e18b-c8c6-41cc-ad7c-abfc52832656.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424075304 +0000" stop="20260424075626 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">Memory</desc>
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
+    <episode-num system="onscreen">S01E09</episode-num>
+    <image>https://images.vrt.be/orig/2025/06/23/4b15aa97-766c-4216-9aff-1b085325681d.jpg</image>
+  </programme>
+  <programme start="20260424075626 +0000" stop="20260424080706 +0000" channel="Ketnet.be">
+    <title lang="nl">Pop Papierstad</title>
+    <desc lang="nl">Zip's prachtige herinneringsboek</desc>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://images.vrt.be/orig/2024/03/26/f439c2f8-eb93-11ee-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424080706 +0000" stop="20260424081232 +0000" channel="Ketnet.be">
+    <title lang="nl">Simon Superkonijn</title>
+    <desc lang="nl">De spaghettiboom</desc>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://images.vrt.be/orig/2024/01/26/e12c779e-bbd5-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424081232 +0000" stop="20260424081929 +0000" channel="Ketnet.be">
+    <title lang="nl">Knofje</title>
+    <desc lang="nl">Slaapkoppen</desc>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://images.vrt.be/orig/2024/05/13/76e4b5fd-112f-11ef-8fc9-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424081929 +0000" stop="20260424082207 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">Letter I</desc>
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <episode-num system="onscreen">S01E14</episode-num>
+    <image>https://images.vrt.be/orig/2025/12/01/38946841-c738-463a-839f-6de4a1453ff7.jpg</image>
+  </programme>
+  <programme start="20260424082207 +0000" stop="20260424083448 +0000" channel="Ketnet.be">
+    <title lang="nl">Beer Bo</title>
+    <desc lang="nl">Het konijnmysterie</desc>
+    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
+    <episode-num system="onscreen">S03E05</episode-num>
+    <image>https://images.vrt.be/orig/2023/02/03/c473b587-a34d-11ed-b07d-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424083448 +0000" stop="20260424084555 +0000" channel="Ketnet.be">
+    <title lang="nl">Ridder Muis</title>
+    <desc lang="nl">Ster</desc>
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <episode-num system="onscreen">S02E06</episode-num>
+    <image>https://images.vrt.be/orig/2025/02/12/7fbae62a-c1cf-45dd-9d9f-98bcb83c3c25.jpg</image>
+  </programme>
+  <programme start="20260424084555 +0000" stop="20260424085707 +0000" channel="Ketnet.be">
+    <title lang="nl">Edmond &amp; Lucy</title>
+    <desc lang="nl">Het kleine volk van de vijver</desc>
+    <episode-num system="xmltv_ns">0.34.0/1</episode-num>
+    <episode-num system="onscreen">S01E35</episode-num>
+    <image>https://images.vrt.be/orig/2023/12/07/6dd98bd9-94e1-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424085707 +0000" stop="20260424090741 +0000" channel="Ketnet.be">
+    <title lang="nl">Vos en Haas</title>
+    <desc lang="nl">Kleur</desc>
+    <image>https://images.vrt.be/orig/2024/04/22/382892a8-00ad-11ef-8fc9-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424090741 +0000" stop="20260424091522 +0000" channel="Ketnet.be">
+    <title lang="nl">Kaatjes Kameraadjes</title>
+    <desc lang="nl">Eendje is ziek</desc>
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <episode-num system="onscreen">S02E06</episode-num>
+    <image>https://images.vrt.be/orig/2024/10/08/8e10f873-ae67-40e4-93ff-490bf0ff4dbc.jpg</image>
+  </programme>
+  <programme start="20260424091522 +0000" stop="20260424092304 +0000" channel="Ketnet.be">
+    <title lang="nl">Toet! Toet! Cory Carson</title>
+    <desc lang="nl">Olielek</desc>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://images.vrt.be/orig/2024/06/17/7a4a5f9b-2cb2-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424092304 +0000" stop="20260424092509 +0000" channel="Ketnet.be">
+    <title lang="nl">Slaapwel</title>
+    <desc lang="nl">Giraffen</desc>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://images.vrt.be/orig/2023/12/21/f9916f6a-a006-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424092509 +0000" stop="20260424092814 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">Hinkelen</desc>
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <image>https://images.vrt.be/orig/2025/06/23/e5a4a3e6-c270-4a0f-b7e6-7ac3a185f9fc.jpg</image>
+  </programme>
+  <programme start="20260424092814 +0000" stop="20260424093509 +0000" channel="Ketnet.be">
+    <title lang="nl">Mironins</title>
+    <desc lang="nl">Ro's paarden</desc>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://images.vrt.be/orig/2023/06/06/2b5e992b-043d-11ee-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424093509 +0000" stop="20260424094302 +0000" channel="Ketnet.be">
+    <title lang="nl">Yetili vertelt</title>
+    <desc lang="nl">Billie</desc>
+    <episode-num system="xmltv_ns">0.66.0/1</episode-num>
+    <episode-num system="onscreen">S01E67</episode-num>
+    <image>https://images.vrt.be/orig/2026/02/18/830029b5-e27f-46f2-94b7-3f3f6e0d731d.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424094302 +0000" stop="20260424130644 +0000" channel="Ketnet.be">
+    <title lang="nl">Casper en Emma</title>
+    <desc lang="nl">Toveren</desc>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
+    <image>https://images.vrt.be/orig/2024/01/25/ca6df32b-bb8d-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424130644 +0000" stop="20260424131347 +0000" channel="Ketnet.be">
+    <title lang="nl">Het Muizenhuis - Sam &amp; Julia</title>
+    <desc lang="nl">De verrassing van Sarah</desc>
+    <episode-num system="xmltv_ns">0.59.0/1</episode-num>
+    <episode-num system="onscreen">S01E60</episode-num>
+    <image>https://images.vrt.be/orig/2026/03/18/c04757cb-2049-4130-bb55-d41fa07c405b.jpg</image>
+  </programme>
+  <programme start="20260424131347 +0000" stop="20260424131555 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">Letter K</desc>
+    <episode-num system="xmltv_ns">0.14.0/1</episode-num>
+    <episode-num system="onscreen">S01E15</episode-num>
+    <image>https://images.vrt.be/orig/2025/12/01/63b01456-0391-426e-ace0-9611caf31100.jpg</image>
+  </programme>
+  <programme start="20260424131555 +0000" stop="20260424132645 +0000" channel="Ketnet.be">
+    <title lang="nl">Mojo Wisseltop</title>
+    <desc lang="nl">Toertoestand</desc>
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://images.vrt.be/orig/2025/10/05/ea160320-7f8e-447e-9634-407544fde016.jpg</image>
+  </programme>
+  <programme start="20260424132645 +0000" stop="20260424133359 +0000" channel="Ketnet.be">
+    <title lang="nl">Lu en de dolle boel</title>
+    <desc lang="nl">Lu's beslissing</desc>
+    <episode-num system="xmltv_ns">0.41.0/1</episode-num>
+    <episode-num system="onscreen">S01E42</episode-num>
+    <image>https://images.vrt.be/orig/2025/06/11/9b0f9cf9-65b6-4e16-bab4-6c2eac6febb9.jpg</image>
+  </programme>
+  <programme start="20260424133359 +0000" stop="20260424134323 +0000" channel="Ketnet.be">
+    <title lang="nl">Aap, Poot, Pies</title>
+    <desc lang="nl">Huisdier</desc>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://images.vrt.be/orig/2023/06/28/e28ca3a8-1587-11ee-91d7-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424134323 +0000" stop="20260424135040 +0000" channel="Ketnet.be">
+    <title lang="nl">Saïd &amp; Anna</title>
+    <desc lang="nl">Superservice</desc>
+    <episode-num system="xmltv_ns">1.4.0/1</episode-num>
+    <episode-num system="onscreen">S02E05</episode-num>
+    <image>https://images.vrt.be/orig/2026/01/28/12fea0b2-72f9-47b1-81f1-0bffb8b4483e.jpg</image>
+  </programme>
+  <programme start="20260424135040 +0000" stop="20260424135648 +0000" channel="Ketnet.be">
+    <title lang="nl">Samson &amp; Marie</title>
+    <desc lang="nl">Drie sterren</desc>
+    <episode-num system="xmltv_ns">0.88.0/1</episode-num>
+    <episode-num system="onscreen">S01E89</episode-num>
+    <image>https://images.vrt.be/orig/2022/12/13/a7a796ea-7ab9-11ed-b07d-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424135648 +0000" stop="20260424140823 +0000" channel="Ketnet.be">
+    <title lang="nl">De Smurfen</title>
+    <desc lang="nl">Wilde Smurf settelt zich</desc>
+    <episode-num system="xmltv_ns">2022.4.0/1</episode-num>
+    <episode-num system="onscreen">S2023E05</episode-num>
+    <image>https://images.vrt.be/orig/2023/11/14/898fbdcb-82be-11ee-91d7-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424140823 +0000" stop="20260424142001 +0000" channel="Ketnet.be">
+    <title lang="nl">Robin Hood</title>
+    <desc lang="nl">Merlijn de Bedrieger</desc>
+    <episode-num system="xmltv_ns">3.20.0/1</episode-num>
+    <episode-num system="onscreen">S04E21</episode-num>
+    <image>https://images.vrt.be/orig/2026/03/18/29205c2b-e2b6-4d33-a3ae-732fe464eb34.jpg</image>
+  </programme>
+  <programme start="20260424142001 +0000" stop="20260424143134 +0000" channel="Ketnet.be">
+    <title lang="nl">De Marsupilami's</title>
+    <desc lang="nl">Een marsu voor Bibi</desc>
+    <episode-num system="xmltv_ns">0.11.0/1</episode-num>
+    <episode-num system="onscreen">S01E12</episode-num>
+    <image>https://images.vrt.be/orig/2026/02/10/1760ee1b-1df0-4edb-82b3-c7780952f4d8.jpg</image>
+  </programme>
+  <programme start="20260424143134 +0000" stop="20260424145338 +0000" channel="Ketnet.be">
+    <title lang="nl">Belfort &amp; Lupin</title>
+    <desc lang="nl">Het biljart van de koning</desc>
+    <episode-num system="xmltv_ns">0.23.0/1</episode-num>
+    <episode-num system="onscreen">S01E24</episode-num>
+    <image>https://images.vrt.be/orig/2026/01/31/73f1e1b1-fe32-4ea7-b324-d05a96545125.jpg</image>
+  </programme>
+  <programme start="20260424145338 +0000" stop="20260424152817 +0000" channel="Ketnet.be">
+    <title lang="nl">Meisjes</title>
+    <desc lang="nl">Back to school special</desc>
+    <episode-num system="xmltv_ns">4.0.0/1</episode-num>
+    <episode-num system="onscreen">S05E01</episode-num>
+    <image>https://images.vrt.be/orig/2022/09/08/b5c7ebec-2f5f-11ed-b07d-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424152817 +0000" stop="20260424155503 +0000" channel="Ketnet.be">
+    <title lang="nl">GameKeepers</title>
+    <desc lang="nl">Bio Dome</desc>
+    <episode-num system="xmltv_ns">2.3.0/1</episode-num>
+    <episode-num system="onscreen">S03E04</episode-num>
+    <image>https://images.vrt.be/orig/2023/09/13/00b220fb-51b8-11ee-91d7-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424155503 +0000" stop="20260424160431 +0000" channel="Ketnet.be">
+    <title lang="nl">Karrewiet</title>
+    <desc lang="nl">Het nieuws van vrijdag 24 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/aaeed3e9-4122-4822-af9e-cffecf67cd15.jpg</image>
+  </programme>
+  <programme start="20260424160431 +0000" stop="20260424162349 +0000" channel="Ketnet.be">
+    <title lang="nl">Lettersoep</title>
+    <desc lang="nl">Filmambities versus meertalige buren - wie speelt de hoofdrol in deze Lettersoep?</desc>
+    <episode-num system="xmltv_ns">0.19.0/1</episode-num>
+    <episode-num system="onscreen">S01E20</episode-num>
+    <image>https://images.vrt.be/orig/2026/02/23/bd1c02ec-6dd6-4c2d-9a66-9d87372e2acd.jpg</image>
+  </programme>
+  <programme start="20260424162349 +0000" stop="20260424163011 +0000" channel="Ketnet.be">
+    <title lang="nl">Waiko: reis door de ruimte</title>
+    <desc lang="nl">Otto wil een nieuwe exoplaneet ontdekken</desc>
+    <episode-num system="xmltv_ns">0.19.0/1</episode-num>
+    <episode-num system="onscreen">S01E20</episode-num>
+    <image>https://images.vrt.be/orig/2025/12/24/fb4bc3fa-1bc4-4a56-bb7d-7614ca2e55e9.jpg</image>
+  </programme>
+  <programme start="20260424163011 +0000" stop="20260424164540 +0000" channel="Ketnet.be">
+    <title lang="nl">HALLO KROKET!</title>
+    <desc lang="nl">Er komt een Ketnetfestival!!</desc>
+    <image>https://images.vrt.be/orig/2026/04/24/4ab97ec2-0178-4723-8963-82d9095d2d65.jpg</image>
+  </programme>
+  <programme start="20260424164540 +0000" stop="20260424165304 +0000" channel="Ketnet.be">
+    <title lang="nl">Grizzy &amp; the Lemmings</title>
+    <desc lang="nl">De keiharde trainers</desc>
+    <episode-num system="xmltv_ns">2.18.0/1</episode-num>
+    <episode-num system="onscreen">S03E19</episode-num>
+    <image>https://images.vrt.be/orig/2025/08/18/f5192dac-293d-4649-a9a1-0162deca2af9.jpg</image>
+  </programme>
+  <programme start="20260424165304 +0000" stop="20260424170810 +0000" channel="Ketnet.be">
+    <title lang="nl">De Hoppers</title>
+    <desc lang="nl">RIP Kruimeltje</desc>
+    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
+    <episode-num system="onscreen">S01E13</episode-num>
+    <image>https://images.vrt.be/orig/2022/12/09/0bc3a5dd-77c4-11ed-b07d-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424170810 +0000" stop="20260424172224 +0000" channel="Ketnet.be">
+    <title lang="nl">De Raad van Soekie</title>
+    <desc lang="nl">Marsmannetjes</desc>
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <episode-num system="onscreen">S02E06</episode-num>
+    <image>https://images.vrt.be/orig/2024/12/10/fb1bfd80-b1d8-4b7b-b18d-d68cc73596f4.jpg</image>
+  </programme>
+  <programme start="20260424172224 +0000" stop="20260424173604 +0000" channel="Ketnet.be">
+    <title lang="nl">Jenny</title>
+    <desc lang="nl">Onze grote reis</desc>
+    <episode-num system="xmltv_ns">1.19.0/1</episode-num>
+    <episode-num system="onscreen">S02E20</episode-num>
+    <image>https://images.vrt.be/orig/2024/02/15/325ba034-cbec-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424173604 +0000" stop="20260424174728 +0000" channel="Ketnet.be">
+    <title lang="nl">De regels van Floor</title>
+    <desc lang="nl">Verkering</desc>
+    <episode-num system="xmltv_ns">3.4.0/1</episode-num>
+    <episode-num system="onscreen">S04E05</episode-num>
+    <image>https://images.vrt.be/orig/2025/02/10/2cc7559a-5c58-4e80-8bb4-cd4384c03261.jpg</image>
+  </programme>
+  <programme start="20260424174728 +0000" stop="20260424175636 +0000" channel="Ketnet.be">
+    <title lang="nl">Karrewiet</title>
+    <desc lang="nl">Het nieuws van vrijdag 24 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/aaeed3e9-4122-4822-af9e-cffecf67cd15.jpg</image>
+  </programme>
+  <programme start="20260424175636 +0000" stop="20260424180020 +0000" channel="Ketnet.be">
+    <title lang="nl">Zo Cool!</title>
+    <desc lang="nl">Van padden krijg je wratten</desc>
+    <episode-num system="xmltv_ns">0.44.0/1</episode-num>
+    <episode-num system="onscreen">S01E45</episode-num>
+    <image>https://images.vrt.be/orig/2026/04/03/551ab4a4-6956-4bc4-8e48-7254e69349e3.jpg</image>
+  </programme>
+  <programme start="20260424180020 +0000" stop="20260424181500 +0000" channel="Ketnet.be">
+    <title lang="nl">Geen uitzending</title>
+    <image>https://images.vrt.be/orig/2026/04/03/6755c513-b0c9-4053-b53b-0431c173476d.jpg</image>
+  </programme>
+  <programme start="20260424181500 +0000" stop="20260424190004 +0000" channel="Ketnet.be">
+    <title lang="nl">VRT NWS journaal met VGT</title>
+    <desc lang="nl">VRT NWS journaal 19u met Vlaamse Gebarentaal</desc>
+    <image>https://images.vrt.be/orig/2022/08/29/c88734ef-2759-11ed-b07d-02b7b76bf47f.png?gravity=60p%2C21p</image>
+  </programme>
+  <programme start="20260424190004 +0000" stop="20260424194202 +0000" channel="Ketnet.be">
+    <title lang="nl">Dag &amp; nacht (open audiodescriptie)</title>
+    <image>https://images.vrt.be/orig/2026/04/03/c2001c2a-fc68-423f-9e96-afad6313b65a.jpg</image>
+  </programme>
+  <programme start="20260425040010 +0000" stop="20260425040516 +0000" channel="Ketnet.be">
+    <title lang="nl">Tik Tak</title>
+    <desc lang="nl">Aflevering 3</desc>
+    <episode-num system="xmltv_ns">2019.2.0/1</episode-num>
+    <episode-num system="onscreen">S2020E03</episode-num>
+    <image>https://images.vrt.be/orig/2023/03/10/32db3bf8-bf2f-11ed-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425040516 +0000" stop="20260425041019 +0000" channel="Ketnet.be">
+    <title lang="nl">Bumba</title>
+    <desc lang="nl">Bumba en Zinzi zien een leeuw</desc>
+    <episode-num system="xmltv_ns">2021.4.0/1</episode-num>
+    <episode-num system="onscreen">S2022E05</episode-num>
+    <image>https://images.vrt.be/orig/2022/02/23/d8b6a5a4-94b6-11ec-b07d-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425041019 +0000" stop="20260425041526 +0000" channel="Ketnet.be">
+    <title lang="nl">Timbalo</title>
+    <desc lang="nl">Picknick in het bos</desc>
+    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
+    <episode-num system="onscreen">S02E02</episode-num>
+    <image>https://images.vrt.be/orig/2025/12/01/40f8af1e-3464-4ec2-9462-5b29962a196b.jpg</image>
+  </programme>
+  <programme start="20260425041526 +0000" stop="20260425042134 +0000" channel="Ketnet.be">
+    <title lang="nl">Ellie de olifant</title>
+    <desc lang="nl">In de speeltuin</desc>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://images.vrt.be/orig/2025/10/20/1beb934f-4cba-4752-8722-5aafdc2b2724.jpg</image>
+  </programme>
+  <programme start="20260425042134 +0000" stop="20260425042323 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">Zon zien zakken</desc>
+    <episode-num system="xmltv_ns">0.15.0/1</episode-num>
+    <episode-num system="onscreen">S01E16</episode-num>
+    <image>https://images.vrt.be/orig/2023/11/17/925ccf96-8539-11ee-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425042323 +0000" stop="20260425042852 +0000" channel="Ketnet.be">
+    <title lang="nl">Simon</title>
+    <desc lang="nl">Het geheim</desc>
+    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
+    <episode-num system="onscreen">S01E11</episode-num>
+    <image>https://images.vrt.be/orig/2024/08/13/2a974008-f341-4534-8cdc-9cd4abc95a44.jpg</image>
+  </programme>
+  <programme start="20260425042852 +0000" stop="20260425043606 +0000" channel="Ketnet.be">
+    <title lang="nl">Kaatje kan het</title>
+    <desc lang="nl">Dagen van de week</desc>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://images.vrt.be/orig/2025/12/11/733a5223-da61-4a4c-9b99-ce5b49eb0e21.jpg</image>
+  </programme>
+  <programme start="20260425043606 +0000" stop="20260425044314 +0000" channel="Ketnet.be">
+    <title lang="nl">Dropje</title>
+    <desc lang="nl">Jaloers</desc>
+    <image>https://images.vrt.be/orig/2023/04/21/7d9f243c-e045-11ed-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425044314 +0000" stop="20260425044704 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">Ballenvanger</desc>
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://images.vrt.be/orig/2020/11/13/f9391f4b-259f-11eb-aae0-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425044704 +0000" stop="20260425045414 +0000" channel="Ketnet.be">
+    <title lang="nl">Bing</title>
+    <desc lang="nl">Kwijt</desc>
+    <episode-num system="xmltv_ns">0.18.0/1</episode-num>
+    <episode-num system="onscreen">S01E19</episode-num>
+    <image>https://images.vrt.be/orig/2026/02/06/0d52d71b-ec6a-492f-8c9b-ff3aa3cf2318.jpg</image>
+  </programme>
+  <programme start="20260425045414 +0000" stop="20260425050117 +0000" channel="Ketnet.be">
+    <title lang="nl">Toet! Toet! Cory Carson</title>
+    <desc lang="nl">Mike's speelhal</desc>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
+    <image>https://images.vrt.be/orig/2024/06/17/86dd1006-2cb2-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425050117 +0000" stop="20260425051207 +0000" channel="Ketnet.be">
+    <title lang="nl">Mojo Wisseltop</title>
+    <desc lang="nl">Cadeautje</desc>
+    <episode-num system="xmltv_ns">0.7.0/1</episode-num>
+    <episode-num system="onscreen">S01E08</episode-num>
+    <image>https://images.vrt.be/orig/2025/10/05/1f872e8e-491b-4bb8-bd09-50c141fdbd58.jpg</image>
+  </programme>
+  <programme start="20260425051207 +0000" stop="20260425051441 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">Letter OO</desc>
+    <episode-num system="xmltv_ns">0.15.0/1</episode-num>
+    <episode-num system="onscreen">S01E16</episode-num>
+    <image>https://images.vrt.be/orig/2025/12/01/f722639d-03e1-4b6d-b561-26beb8b4ea22.jpg</image>
+  </programme>
+  <programme start="20260425051441 +0000" stop="20260425052547 +0000" channel="Ketnet.be">
+    <title lang="nl">Biggen Bouwers</title>
+    <desc lang="nl">Schattenjacht</desc>
+    <episode-num system="xmltv_ns">0.25.0/1</episode-num>
+    <episode-num system="onscreen">S01E26</episode-num>
+    <image>https://images.vrt.be/orig/2025/11/23/df398332-2192-4241-a4b8-da2d8f875df1.jpg</image>
+  </programme>
+  <programme start="20260425052547 +0000" stop="20260425052958 +0000" channel="Ketnet.be">
+    <title lang="nl">Samson &amp; Marie</title>
+    <desc lang="nl">Prinses Albertia</desc>
+    <episode-num system="xmltv_ns">0.89.0/1</episode-num>
+    <episode-num system="onscreen">S01E90</episode-num>
+    <image>https://images.vrt.be/orig/2022/12/13/b2eda319-7ab9-11ed-b07d-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425052958 +0000" stop="20260425053501 +0000" channel="Ketnet.be">
+    <title lang="nl">Molang</title>
+    <desc lang="nl">Mummy star</desc>
+    <episode-num system="xmltv_ns">4.17.0/1</episode-num>
+    <episode-num system="onscreen">S05E18</episode-num>
+    <image>https://images.vrt.be/orig/2023/03/01/3fa586fd-b815-11ed-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425053501 +0000" stop="20260425054952 +0000" channel="Ketnet.be">
+    <title lang="nl">De Smurfen</title>
+    <desc lang="nl">Handen af van de artiest!</desc>
+    <episode-num system="xmltv_ns">2022.5.0/1</episode-num>
+    <episode-num system="onscreen">S2023E06</episode-num>
+    <image>https://images.vrt.be/orig/2023/10/24/45742a14-7243-11ee-91d7-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425054952 +0000" stop="20260425060041 +0000" channel="Ketnet.be">
+    <title lang="nl">Goat girl</title>
+    <desc lang="nl">Kom erbij en blaat</desc>
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <episode-num system="onscreen">S01E14</episode-num>
+    <image>https://images.vrt.be/orig/2026/02/28/97ef8931-deb7-4661-b44c-8dd38af6e4a6.jpg</image>
+  </programme>
+  <programme start="20260425060041 +0000" stop="20260425061623 +0000" channel="Ketnet.be">
+    <title lang="nl">Ongezien</title>
+    <desc lang="nl">Imea Denooze</desc>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://images.vrt.be/orig/2025/10/20/10f5ccd7-daba-4ac6-9315-095d0aef8049.jpg</image>
+  </programme>
+  <programme start="20260425061623 +0000" stop="20260425063258 +0000" channel="Ketnet.be">
+    <title lang="nl">De Positivo's</title>
+    <desc lang="nl">Arno</desc>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://images.vrt.be/orig/2024/04/18/67fcaacc-fd7f-11ee-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425063258 +0000" stop="20260425064300 +0000" channel="Ketnet.be">
+    <title lang="nl">Nerdland voor Kleine Nerds</title>
+    <desc lang="nl">Leve de frietjes</desc>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://images.vrt.be/orig/2026/04/03/ddc7b88f-3a4e-4fda-8bf1-a390e2cdfb00.jpg</image>
+  </programme>
+  <programme start="20260425064300 +0000" stop="20260425065706 +0000" channel="Ketnet.be">
+    <title lang="nl">Zee in zicht</title>
+    <desc lang="nl">De geschiedenis van de Noordzee</desc>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://images.vrt.be/orig/2026/04/01/a02f0c8c-4c43-494a-aed0-768fc94b4163.jpg</image>
+  </programme>
+  <programme start="20260425065706 +0000" stop="20260425071310 +0000" channel="Ketnet.be">
+    <title lang="nl">Superhelden Academie</title>
+    <image>https://images.vrt.be/orig/2024/03/25/b1023d1e-ea93-11ee-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425071310 +0000" stop="20260425073908 +0000" channel="Ketnet.be">
+    <title lang="nl">Nachtwacht</title>
+    <desc lang="nl">Rama, de collector</desc>
+    <episode-num system="xmltv_ns">4.1.0/1</episode-num>
+    <episode-num system="onscreen">S05E02</episode-num>
+    <image>https://images.vrt.be/orig/2022/12/06/455eb59d-7533-11ed-b07d-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425073908 +0000" stop="20260425080212 +0000" channel="Ketnet.be">
+    <title lang="nl">Draken</title>
+    <desc lang="nl">Hoe begin je een draken academie ?</desc>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://images.vrt.be/orig/2025/12/01/9c3c2f7c-8c47-4060-a5e9-9cf362a2f468.jpg</image>
+  </programme>
+  <programme start="20260425080212 +0000" stop="20260425081421 +0000" channel="Ketnet.be">
+    <title lang="nl">De week van Karrewiet</title>
+    <desc lang="nl">Het nieuws van maandag 20 tot vrijdag 24 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/0da26f8f-abab-4c26-a07d-7194e6564f28.jpg</image>
+  </programme>
+  <programme start="20260425081421 +0000" stop="20260425082959 +0000" channel="Ketnet.be">
+    <title lang="nl">Ongezien</title>
+    <desc lang="nl">KassaTicket</desc>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://images.vrt.be/orig/2025/10/20/6ba93981-4b91-4886-af41-448d679b15ac.jpg</image>
+  </programme>
+  <programme start="20260425082959 +0000" stop="20260425083506 +0000" channel="Ketnet.be">
+    <title lang="nl">Tik Tak</title>
+    <desc lang="nl">Aflevering 4</desc>
+    <episode-num system="xmltv_ns">2019.3.0/1</episode-num>
+    <episode-num system="onscreen">S2020E04</episode-num>
+    <image>https://images.vrt.be/orig/2023/03/10/3d4f2b0c-bf2f-11ed-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425083506 +0000" stop="20260425083954 +0000" channel="Ketnet.be">
+    <title lang="nl">Bumba</title>
+    <desc lang="nl">Bumbina fopt Bumba met een trommel</desc>
+    <episode-num system="xmltv_ns">2021.5.0/1</episode-num>
+    <episode-num system="onscreen">S2022E06</episode-num>
+    <image>https://images.vrt.be/orig/2022/02/23/5a1738e1-94b7-11ec-b07d-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425083954 +0000" stop="20260425084504 +0000" channel="Ketnet.be">
+    <title lang="nl">Timbalo</title>
+    <desc lang="nl">De bus van Mimi</desc>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
+    <image>https://images.vrt.be/orig/2025/12/01/6a3d4a99-13c9-4785-b494-66bce0abcd72.jpg</image>
+  </programme>
+  <programme start="20260425084504 +0000" stop="20260425085015 +0000" channel="Ketnet.be">
+    <title lang="nl">Uki</title>
+    <desc lang="nl">Wat een rommel</desc>
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://images.vrt.be/orig/2024/12/05/0b817a2b-29ed-4ed7-9f69-8c98f6af3f54.jpg</image>
+  </programme>
+  <programme start="20260425085015 +0000" stop="20260425085247 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">Letter T</desc>
+    <episode-num system="xmltv_ns">0.16.0/1</episode-num>
+    <episode-num system="onscreen">S01E17</episode-num>
+    <image>https://images.vrt.be/orig/2025/12/01/35cd817c-c752-4e11-80af-178cb496505b.jpg</image>
+  </programme>
+  <programme start="20260425085247 +0000" stop="20260425085652 +0000" channel="Ketnet.be">
+    <title lang="nl">Ollie</title>
+    <desc lang="nl">Slaapfeestje</desc>
+    <episode-num system="xmltv_ns">0.51.0/1</episode-num>
+    <episode-num system="onscreen">S01E52</episode-num>
+    <image>https://images.vrt.be/orig/2023/06/28/d626cc68-1583-11ee-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425085652 +0000" stop="20260425090407 +0000" channel="Ketnet.be">
+    <title lang="nl">Kaatjes Kameraadjes</title>
+    <desc lang="nl">Frits en Frats zijn vuil</desc>
+    <episode-num system="xmltv_ns">1.6.0/1</episode-num>
+    <episode-num system="onscreen">S02E07</episode-num>
+    <image>https://images.vrt.be/orig/2024/10/08/1369436a-c440-4e3c-9824-671a721e2019.jpg</image>
+  </programme>
+  <programme start="20260425090407 +0000" stop="20260425091520 +0000" channel="Ketnet.be">
+    <title lang="nl">Ridder Muis</title>
+    <desc lang="nl">Spook</desc>
+    <episode-num system="xmltv_ns">1.6.0/1</episode-num>
+    <episode-num system="onscreen">S02E07</episode-num>
+    <image>https://images.vrt.be/orig/2025/02/12/98528d5c-b794-49b7-b181-1e4e84a1d2f2.jpg</image>
+  </programme>
+  <programme start="20260425091520 +0000" stop="20260425092626 +0000" channel="Ketnet.be">
+    <title lang="nl">Edmond &amp; Lucy</title>
+    <desc lang="nl">De gezinswoning</desc>
+    <episode-num system="xmltv_ns">0.35.0/1</episode-num>
+    <episode-num system="onscreen">S01E36</episode-num>
+    <image>https://images.vrt.be/orig/2023/12/07/6f189b8a-94e1-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425092626 +0000" stop="20260425093707 +0000" channel="Ketnet.be">
+    <title lang="nl">Vos en Haas</title>
+    <desc lang="nl">Overwinnaar</desc>
+    <image>https://images.vrt.be/orig/2024/04/22/4167ab3e-00ad-11ef-8fc9-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425093707 +0000" stop="20260425094510 +0000" channel="Ketnet.be">
+    <title lang="nl">Yetili vertelt</title>
+    <desc lang="nl">Vrolijk kerstfeest, Rita en dinges</desc>
+    <episode-num system="xmltv_ns">0.68.0/1</episode-num>
+    <episode-num system="onscreen">S01E69</episode-num>
+    <image>https://images.vrt.be/orig/2026/02/18/68dd0267-0e74-41f4-bd23-effcc3841d2d.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425094510 +0000" stop="20260425094706 +0000" channel="Ketnet.be">
+    <title lang="nl">Sarah</title>
+    <desc lang="nl">Cijfer 1</desc>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://images.vrt.be/orig/2022/12/19/08d6c594-7f8e-11ed-b07d-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425094706 +0000" stop="20260425100006 +0000" channel="Ketnet.be">
+    <title lang="nl">Casper en Emma</title>
+    <desc lang="nl">Casper en Emma zien spoken</desc>
+    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
+    <episode-num system="onscreen">S02E04</episode-num>
+    <image>https://images.vrt.be/orig/2024/01/25/caccb4fc-bb8d-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425100006 +0000" stop="20260425100506 +0000" channel="Ketnet.be">
+    <title lang="nl">Samson &amp; Marie</title>
+    <desc lang="nl">Het trickshot</desc>
+    <episode-num system="xmltv_ns">0.90.0/1</episode-num>
+    <episode-num system="onscreen">S01E91</episode-num>
+    <image>https://images.vrt.be/orig/2022/12/13/b42a68db-7ab9-11ed-b07d-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425100506 +0000" stop="20260425101640 +0000" channel="Ketnet.be">
+    <title lang="nl">De mini's</title>
+    <desc lang="nl">De mysterieuze stukmaker</desc>
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <episode-num system="onscreen">S01E14</episode-num>
+    <image>https://images.vrt.be/orig/2026/03/04/28250270-ec9a-4b7d-ab72-63a3f713658c.jpg</image>
+  </programme>
+  <programme start="20260425101640 +0000" stop="20260425102328 +0000" channel="Ketnet.be">
+    <title lang="nl">Shaun het schaap</title>
+    <desc lang="nl">De kraai</desc>
+    <episode-num system="xmltv_ns">2.5.0/1</episode-num>
+    <episode-num system="onscreen">S03E06</episode-num>
+    <image>https://images.vrt.be/orig/2025/12/22/b8fb7a73-6467-475d-a34d-7eb097017555.jpg</image>
+  </programme>
+  <programme start="20260425102328 +0000" stop="20260425103906 +0000" channel="Ketnet.be">
+    <title lang="nl">Wannabe's</title>
+    <desc lang="nl">Radio Video King</desc>
+    <episode-num system="xmltv_ns">1.6.0/1</episode-num>
+    <episode-num system="onscreen">S02E07</episode-num>
+    <image>https://images.vrt.be/orig/2022/02/09/40147f46-898a-11ec-b07d-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425103906 +0000" stop="20260425105323 +0000" channel="Ketnet.be">
+    <title lang="nl">De week van Karrewiet met VGT</title>
+    <desc lang="nl">Het nieuws van 20 tot 24 april met Vlaamse Gebarentaal</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/4652643d-e405-45d9-af8f-fa8bd06d6004.jpg</image>
+  </programme>
+  <programme start="20260425105323 +0000" stop="20260425110449 +0000" channel="Ketnet.be">
+    <title lang="nl">Mush Mush &amp; de Zwammetjes</title>
+    <desc lang="nl">Aflevering 12</desc>
+    <episode-num system="xmltv_ns">1.11.0/1</episode-num>
+    <episode-num system="onscreen">S02E12</episode-num>
+    <image>https://images.vrt.be/orig/2024/03/16/4090bd29-e320-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425110449 +0000" stop="20260425113026 +0000" channel="Ketnet.be">
+    <title lang="nl">Mega Mindy</title>
+    <desc lang="nl">Electro</desc>
+    <episode-num system="xmltv_ns">3.4.0/1</episode-num>
+    <episode-num system="onscreen">S04E05</episode-num>
+    <image>https://images.vrt.be/orig/2022/12/16/20f58d37-7d37-11ed-b07d-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425113026 +0000" stop="20260425114114 +0000" channel="Ketnet.be">
+    <title lang="nl">Goat girl</title>
+    <desc lang="nl">Geit in wolfskleren</desc>
+    <episode-num system="xmltv_ns">0.14.0/1</episode-num>
+    <episode-num system="onscreen">S01E15</episode-num>
+    <image>https://images.vrt.be/orig/2026/02/28/c2e9df51-c9c1-4cf2-9f90-78394242a1c8.jpg</image>
+  </programme>
+  <programme start="20260425114114 +0000" stop="20260425115229 +0000" channel="Ketnet.be">
+    <title lang="nl">Bestiebot</title>
+    <desc lang="nl">Veel te gevaarlijk</desc>
+    <episode-num system="xmltv_ns">0.21.0/1</episode-num>
+    <episode-num system="onscreen">S01E22</episode-num>
+    <image>https://images.vrt.be/orig/2025/09/24/8a7d55e3-0c6b-4400-b58d-f4f35306a991.jpg</image>
+  </programme>
+  <programme start="20260425115229 +0000" stop="20260425115929 +0000" channel="Ketnet.be">
+    <title lang="nl">De WieWats</title>
+    <desc lang="nl">Het vreemde verhaal</desc>
+    <episode-num system="xmltv_ns">0.21.0/1</episode-num>
+    <episode-num system="onscreen">S01E22</episode-num>
+    <image>https://images.vrt.be/orig/2024/07/06/f4ed7b21-3b19-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424070000 +0000" channel="Klara.be">
+    <title lang="nl">Espresso</title>
+    <desc lang="nl">De Twintigers zijn een frisse lading jonge muzikanten met héél veel talent. Hun belangrijkste overeenkomst is dat ze allemaal in de twintig zijn. Een nieuwe generatie die de toekomst van klassiek, jazz en global in ons land laat horen. Deze week zetten we de spotlights op Sabra Bahri Khatri. Sabra is sopraan en draait haar hand niet om voor opera, lied, barok of romantiek. En daar hoort ook af en toe jazz bij. De Franse tenor Cyrille Dubois duikt in de muziek van zijn thuisland. Samen met Brussels Philharmonic laat hij een uniek genre sprankelen: het Franse kunstlied met orkest. Met liederen van Saint-Saëns, Gounod, Fauré en Massenet. So Poétique! is de nieuwe Keuze van Klara! Espresso, uw ochtendradio met pit!</desc>
+    <image>https://images.vrt.be/orig/2025/01/27/0cd823ed-2982-42e6-a86a-649f1c4ef544.jpg</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424100000 +0000" channel="Klara.be">
+    <title lang="nl">Ampersand</title>
+    <desc lang="nl">Zondag is het Erfgoeddag. Die staat helemaal in het teken van HA HA Humor! Klassieke muziek en humor? Water en vuur! Neen hoor. Ampersand tussen de muzikale grappen en grollen, de humoristische componisten en artiesten, en de vraag of onze luisteraars grappige momenten hebben meegemaakt met/over klassieke muziek?</desc>
+    <image>https://images.vrt.be/orig/2024/03/07/1e5e8f91-dc97-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424160000 +0000" channel="Klara.be">
+    <title lang="nl">De Twintigers</title>
+    <desc lang="nl">Vandaag is de Belgische sopraan Sabra Bahri Khatri te gast bij Carlo Siau. Momenteel zingt ze veel opera, vooral in Nederland. Maar daarbuiten reikt haar repertoire van barok en romantische liederen tot jazz standards. In haar Studio Toots concert speelt ze samen met pianist Ramon Van Engelenhoven, oud-speler Abid Bahri en luitist Philippe Malfeyt.</desc>
+    <image>https://images.vrt.be/orig/2024/03/07/d51fd6e0-dc97-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424180000 +0000" channel="Klara.be">
+    <title lang="nl">So What?!</title>
+    <desc lang="nl">In deze aflevering van So What koppelen we recente muziek van grote namen als Marc Ribot en Flea aan vergeten parels van Leo Cuypers en Roland Hanna en vieren we de verjaardagen van saxkanonnen Johnny Griffin en Joe Henderson. Een programma op de wip tussen middag en avond, week en weekend. Ergens tussen verrassing, herkenning en dat 'aha-gevoel'. Met zinderende nieuwe muziek uit jazzland en verwante regio's, maar ook onverslijtbare klassiekers en persoonlijke favorieten en aanraders.</desc>
+    <image>https://images.vrt.be/orig/2024/07/04/efd24190-39e6-11ef-92ff-02b7b76bf47f.png</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424200000 +0000" channel="Klara.be">
+    <title lang="nl">Klara Live @ Concertgebouw</title>
+    <desc lang="nl">Rechtstreeks vanuit Brugge met Nicole Van Opstal: een concert dat volledig in het teken staat van het muzikale genie Joseph Haydn. Kammerorchester Basel en IL Giardino Armonico staan onder leiding van Giovanni Antonini; samen werken zij sinds enige jaren aan een integrale opname van Haydns symfonieën, een hele klus! De jonge sopraan Lilit Davtyan vervolledigt het programma vanavond met enkele operafragmenten.</desc>
+    <image>https://images.vrt.be/orig/2024/03/07/24642417-dc9e-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424220000 +0000" channel="Klara.be">
+    <title lang="nl">Valckenaers &amp; Vanhoudt</title>
+    <desc lang="nl">Met nogmaals in nostalgie gedrenkte tracks van Chris Thile , Maryam Rahmani, Ù, Karski Quartet, Linda Perhacs, JB Dunckel, Paul Pankert, Mobilhome, Philip Glass, thalas, XII Sound, Orlando Gibbons, Laurie Spiegel, Glenn Branca, Naked City, Kris Davis &amp; Lutosławski Quartet, Laurel Premo, Brecht Ameel en Pétur Ben. Tune in, Joh!</desc>
+    <image>https://images.vrt.be/orig/2024/07/04/be709dea-39e5-11ef-92ff-02b7b76bf47f.png</image>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260425050000 +0000" channel="Klara.be">
+    <title lang="nl">Klara Continuo</title>
+    <desc lang="nl">Een nacht vol klassiek.</desc>
+    <image>https://images.vrt.be/orig/2025/01/21/17470b03-6574-4952-b67f-3943e0aa8728.png</image>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425080000 +0000" channel="Klara.be">
+    <title lang="nl">Klara Staat Op</title>
+    <desc lang="nl">Sander brengt je een soundtrack bij het ontbijt met nieuwe en tijdloze platen; met muzikale weetjes en ontdekkingen. Met welke klassieke muziek begin je welgezind aan je dag? Wat is jouw ideale ontbijtplaat?</desc>
+    <image>https://images.vrt.be/orig/2024/03/07/01012a6f-dc97-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425100000 +0000" channel="Klara.be">
+    <title lang="nl">De Liefhebber met Anna-Livia Smekens</title>
+    <desc lang="nl">Anna-Livia Smekens is een Belgische content creator, influencer en podcastmaker. Je vindt haar terug op TikTok en Instagram onder de gebruikersnaam Vanilack. In 2024 behaalde ze magna cum laude haar masterdiploma in de Kunstwetenschappen &amp; Archeologie aan de Vrije Universiteit Brussel. Samen met Fatma Taspinar en Tim Verheyden is ze ambassadeur van de VRT Checkweken, die de desinformatie in de digitale wereld op de korrel neemt. Katelijne Boon duikt in haar muzikale verleden en platenkast.</desc>
+    <image>https://images.vrt.be/orig/2024/03/07/753cc2fa-dc98-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425120000 +0000" channel="Klara.be">
+    <title lang="nl">Klara Serveert</title>
+    <desc lang="nl">Verfijnde muziek voor bij de lunch.</desc>
+    <image>https://images.vrt.be/orig/2024/03/07/623c4279-dc98-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425120000 +0000" stop="20260425160000 +0000" channel="Klara.be">
+    <title lang="nl">De Keuze van Klara</title>
+    <desc lang="nl">Carlo Siau neemt je mee op ontdekkingstocht langs de nieuwste cd's met grote namen, jong talent en met verrassende combinaties van klassiek, gekleurd met jazz en global. Eén ervan wordt de keuze van Klara.</desc>
+    <image>https://images.vrt.be/orig/2024/03/07/d51fd6e0-dc97-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425180000 +0000" channel="Klara.be">
+    <title lang="nl">Caramba</title>
+    <desc lang="nl">Let’s swing, let’s sing, let’s Caramba! Zaterdagavond, dansavond! Caramba zet in op blije muziek, sensueel en meeslepend, zot en swingend.</desc>
+    <image>https://images.vrt.be/orig/2024/07/04/99af537a-39e6-11ef-92ff-02b7b76bf47f.png</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425211500 +0000" channel="Klara.be">
+    <title lang="nl">Klara in concert</title>
+    <desc lang="nl">Idomeneo, re di Creta van W.A. Mozart in een recente productie van de Munt. Joshua Stewart is Idomeneo, Gaëlle Arquez, Idamante, Shira Patchornik, Ilia en Kathryn Lewek, Elettra. Enrico Onofri dirigeert. Deze opera is te volgen met beeld via VRT MAX en de Klara‑app</desc>
+    <image>https://images.vrt.be/orig/2024/03/07/882f12ae-dc98-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425211500 +0000" stop="20260425220000 +0000" channel="Klara.be">
+    <title lang="nl">Klara Continuo</title>
+    <desc lang="nl">Een nacht vol klassiek.</desc>
+    <image>https://images.vrt.be/orig/2025/01/21/17470b03-6574-4952-b67f-3943e0aa8728.png</image>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260426050000 +0000" channel="Klara.be">
+    <title lang="nl">Klara Continuo</title>
+    <desc lang="nl">Een nacht vol klassiek.</desc>
+    <image>https://images.vrt.be/orig/2025/01/21/17470b03-6574-4952-b67f-3943e0aa8728.png</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424140000 +0000" channel="MNM.be">
+    <title lang="nl">De MNM Ochtendshow</title>
+    <desc lang="nl">Opstaan en gaan! Met Sander, Maureen en Imane</desc>
+    <image>https://images.vrt.be/orig/2025/08/22/a041c664-e20e-44c6-bfcd-48a55dffc73e.jpg</image>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424160000 +0000" channel="MNM.be">
+    <title lang="nl">De vrijdag is van ons</title>
+    <desc lang="nl">Charlotte viert samen met jou de start van het weekend !</desc>
+    <image>https://images.vrt.be/orig/2025/08/29/f1b41475-fca0-4d01-b263-93a5baf148f2.png</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424180000 +0000" channel="MNM.be">
+    <title lang="nl">De Show van Julie &amp; Bregje</title>
+    <desc lang="nl">met Julie Van den Steen en Bregje Iding</desc>
+    <image>https://images.vrt.be/orig/2025/11/05/b611c351-3c32-4a3f-b312-b8b83ead0179.png</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424200000 +0000" channel="MNM.be">
+    <title lang="nl">Nina Black Friday</title>
+    <desc lang="nl">DJ's Nina Black en Laurens Luyten knallen je weekend op gang</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/2e707330-a3e2-4842-a66d-5a8115b29a05.png</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424210000 +0000" channel="MNM.be">
+    <title lang="nl">DJ Licious</title>
+    <desc lang="nl">DJ Licious</desc>
+    <image>https://images.vrt.be/orig/2024/09/05/950b9f05-24e6-4428-8278-1d4032c82627.png</image>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424220000 +0000" channel="MNM.be">
+    <title lang="nl">MNM Start To DJ</title>
+    <desc lang="nl">MNM Start To DJ</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/7e7de199-5480-4679-aea9-63f8c7b49d31.png</image>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260425010000 +0000" channel="MNM.be">
+    <title lang="nl">MNM - Make Life Sing</title>
+    <desc lang="nl">MNM - Make Life Sing</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/3434a966-b07d-46af-a5a6-76c1bde38a5f.png</image>
+  </programme>
+  <programme start="20260425010000 +0000" stop="20260425020000 +0000" channel="MNM.be">
+    <title lang="nl">TOP 10: MNM 00's Top 500</title>
+    <desc lang="nl">TOP 10: MNM 00's Top 500</desc>
+    <image>https://images.vrt.be/orig/2026/04/24/2599b3a0-7a34-4570-a92a-277e0c136cec.png</image>
+  </programme>
+  <programme start="20260425020000 +0000" stop="20260425050000 +0000" channel="MNM.be">
+    <title lang="nl">MNM - Make Life Sing</title>
+    <desc lang="nl">MNM - Make Life Sing</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/3434a966-b07d-46af-a5a6-76c1bde38a5f.png</image>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425080000 +0000" channel="MNM.be">
+    <title lang="nl">MNM Throwback</title>
+    <desc lang="nl">Terug in de tijd met MNM</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/9d92c75b-5a31-4f83-bbe2-0279d58374df.png</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425110000 +0000" channel="MNM.be">
+    <title lang="nl">MNM50</title>
+    <desc lang="nl">Jij kiest de allerbeste hits van vandaag</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/36541444-ad9d-4eb5-a490-5c76e5877510.png</image>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425140000 +0000" channel="MNM.be">
+    <title lang="nl">MNM Weekend</title>
+    <desc lang="nl">Genieten van het weekend met de grootste hits</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/5fd85c1f-632e-4854-881a-d57b3ccb324b.png</image>
+  </programme>
+  <programme start="20260425140000 +0000" stop="20260425170000 +0000" channel="MNM.be">
+    <title lang="nl">MNM Weekend</title>
+    <desc lang="nl">Genieten van het weekend met de grootste hits</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/5fd85c1f-632e-4854-881a-d57b3ccb324b.png</image>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425190000 +0000" channel="MNM.be">
+    <title lang="nl">MagiK Saturday</title>
+    <desc lang="nl">DJ's MagiK en Laura Govaerts knallen je zaterdagavond op gang</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/e56ab98a-b95a-4584-a351-73a7827ae4be.png</image>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260425200000 +0000" channel="MNM.be">
+    <title lang="nl">MNM Party Hits</title>
+    <desc lang="nl">De beste beats en heetste tracks</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/ba18799a-4474-4c40-98b1-8900be22b6d3.png</image>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425210000 +0000" channel="MNM.be">
+    <title lang="nl">Beste van Tomorrowland</title>
+    <desc lang="nl">One World Radio op MNM</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/a3fc2269-eace-49e2-9438-e6eff76953d0.png</image>
+  </programme>
+  <programme start="20260425210000 +0000" stop="20260425220000 +0000" channel="MNM.be">
+    <title lang="nl">Smash The House</title>
+    <desc lang="nl">Dimitri Vegas &amp; Like Mike feesten op MNM</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/fa917b9a-f14d-499f-adb3-f26fae9707dd.png</image>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260426050000 +0000" channel="MNM.be">
+    <title lang="nl">MNM - Make Life Sing</title>
+    <desc lang="nl">MNM - Make Life Sing</desc>
+    <image>https://images.vrt.be/orig/2024/08/31/3434a966-b07d-46af-a5a6-76c1bde38a5f.png</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424070000 +0000" channel="Radio1.be">
+    <title lang="nl">De Ochtend</title>
+    <desc lang="nl">met Ruth Joos en Jasper Verhulst</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/5bbcf3fe-daff-48a5-a5dc-5dcc47fdc8d3.png</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="Radio1.be">
+    <title lang="nl">Het uur van de waarheid</title>
+    <desc lang="nl">Deepfakes van (stem)acteurs en propaganda.</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/950c2eb8-2d59-42d6-b97d-8408b674ba34.png</image>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424100000 +0000" channel="Radio1.be">
+    <title lang="nl">Compagnie Merckpoel</title>
+    <desc lang="nl">met Linde Merckpoel</desc>
+    <image>https://images.vrt.be/orig/2026/04/24/3383d5c3-f7d1-4602-abf8-2726e1409746.jpg</image>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424140000 +0000" channel="Radio1.be">
+    <title lang="nl">Nieuwe Feiten</title>
+    <desc lang="nl">Is koning Albert I verongelukt of vermoord? Daarover schreef Johan Op de Beeck het boek 'Het mysterie van Albert I'. Jan Jaap van der Wal weegt de week. Roodharigen hebben een evolutionair voordeel, blijkt uit nieuw onderzoek. We praten met Maarten Larmouseau, geneticus aan de KU Leuven. We spelen de Nieuwe feiten vrijdagquiz. Het middagjournaal van Nico Dijkshoorn.</desc>
+    <image>https://images.vrt.be/orig/2025/02/07/d8cc34bf-9f61-41aa-81fc-906042ba0847.png</image>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424160000 +0000" channel="Radio1.be">
+    <title lang="nl">De Wereld Vandaag</title>
+    <desc lang="nl">met Ruth Roets</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/bfd4cd6d-6b15-464f-9d2e-f038739dafa7.png</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424163000 +0000" channel="Radio1.be">
+    <title lang="nl">Het kwartier</title>
+    <desc lang="nl">met Katrien Boon</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/136b1a39-ed3e-45a4-9a07-a97ca75b1d34.png</image>
+  </programme>
+  <programme start="20260424163000 +0000" stop="20260424170000 +0000" channel="Radio1.be">
+    <title lang="nl">Voorproevers</title>
+    <desc lang="nl">Kloegen ze in de middeleeuwen al over de jeugd van tegenwoordig? En bestond er eigenlijk wel zoiets als 'jeugd' in de middeleeuwen, of is dat een 20ste-eeuwse uitvinding? En zijn ze altijd lui, spilzuchtig en onverantwoordelijk geweest? Goede vragen, en aan historici om ze te beantwoorden. Peter Stabel en Anke De Meyer zijn er zo twee en zij schreven een boek over de stedelijke jongerencultuur in de laatmiddeleeuwse Lage Landen. Het is geen hiphop en social media, maar het scheelt niet veel.</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/30fd46d4-3c4b-4320-b74c-4469c93742d6.png</image>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424190000 +0000" channel="Radio1.be">
+    <title lang="nl">Wonderland</title>
+    <desc lang="nl">met Joren Carels</desc>
+    <image>https://images.vrt.be/orig/2025/02/06/ed68968c-0547-4416-a91d-5a23de5059ad.png</image>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424200000 +0000" channel="Radio1.be">
+    <title lang="nl">Belpop</title>
+    <desc lang="nl">Belpop</desc>
+    <image>https://images.vrt.be/orig/2025/08/28/631a671c-1a0c-460e-869e-a48d1d52e910.jpg</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424220000 +0000" channel="Radio1.be">
+    <title lang="nl">De nacht van Radio 1</title>
+    <desc lang="nl">De nacht van Radio 1</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/0d1cb77b-cdc8-443b-ac6c-e6fd0cec43c1.png</image>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260425000000 +0000" channel="Radio1.be">
+    <title lang="nl">Compagnie Merckpoel [HERHALING]</title>
+    <desc lang="nl">met Linde Merckpoel</desc>
+    <image>https://images.vrt.be/orig/2026/04/24/3383d5c3-f7d1-4602-abf8-2726e1409746.jpg</image>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425030000 +0000" channel="Radio1.be">
+    <title lang="nl">De nacht van Radio 1</title>
+    <desc lang="nl">De nacht van Radio 1</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/0d1cb77b-cdc8-443b-ac6c-e6fd0cec43c1.png</image>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425040000 +0000" channel="Radio1.be">
+    <title lang="nl">Nieuwe Feiten [HERHALING]</title>
+    <desc lang="nl">met Lieven Vandenhaute</desc>
+    <image>https://images.vrt.be/orig/2025/02/12/d394a6c8-4ec1-4b43-9196-a67b0b0ca2a5.png</image>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425050000 +0000" channel="Radio1.be">
+    <title lang="nl">De nacht van Radio 1</title>
+    <desc lang="nl">De nacht van Radio 1</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/0d1cb77b-cdc8-443b-ac6c-e6fd0cec43c1.png</image>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425070000 +0000" channel="Radio1.be">
+    <title lang="nl">De Ochtend</title>
+    <desc lang="nl">met Joris Vergeyle</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/5bbcf3fe-daff-48a5-a5dc-5dcc47fdc8d3.png</image>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425090000 +0000" channel="Radio1.be">
+    <title lang="nl">Vox</title>
+    <desc lang="nl">met Max Vryens</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/7c25098d-d1a3-4642-be6e-da009cae809b.png</image>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425100000 +0000" channel="Radio1.be">
+    <title lang="nl">Het uur van de waarheid</title>
+    <desc lang="nl">met Dennis van den Buijs</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/950c2eb8-2d59-42d6-b97d-8408b674ba34.png</image>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425110000 +0000" channel="Radio1.be">
+    <title lang="nl">De Verrekijkers</title>
+    <desc lang="nl">met Kobe Ilsen en Björn Soenens</desc>
+    <image>https://images.vrt.be/orig/2025/11/21/a2951ae6-d1ae-4d20-94aa-921be176bf08.jpg</image>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425130000 +0000" channel="Radio1.be">
+    <title lang="nl">Belpop</title>
+    <desc lang="nl">met Floris Daelemans</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/03b5b437-2a99-4406-ae1b-a35fa715a631.png</image>
+  </programme>
+  <programme start="20260425130000 +0000" stop="20260425160000 +0000" channel="Radio1.be">
+    <title lang="nl">Classics</title>
+    <desc lang="nl">met Ronald Verhaegen</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/7a29873e-0626-4194-91b7-b944275c5668.png</image>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425210000 +0000" channel="Radio1.be">
+    <title lang="nl">Sporza</title>
+    <desc lang="nl">met Jonathan Metdepenninghen</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/3d6d30f9-a37d-4023-81de-d3be76e1cd6e.png</image>
+  </programme>
+  <programme start="20260425210000 +0000" stop="20260425220000 +0000" channel="Radio1.be">
+    <title lang="nl">De nacht van Radio 1</title>
+    <desc lang="nl">De nacht van Radio 1</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/0d1cb77b-cdc8-443b-ac6c-e6fd0cec43c1.png</image>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260426050000 +0000" channel="Radio1.be">
+    <title lang="nl">De nacht van Radio 1</title>
+    <desc lang="nl">De nacht van Radio 1</desc>
+    <image>https://images.vrt.be/orig/2025/02/05/0d1cb77b-cdc8-443b-ac6c-e6fd0cec43c1.png</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424070000 +0000" channel="Radio2.be">
+    <title lang="nl">Goeiemorgen Morgen!</title>
+    <desc lang="nl">De vrolijkste ochtendshow van Vlaanderen! Het belangrijkste nieuws van de ochtend, de nieuwste showbizz, de beste verhalen uit je buurt en het verkeer en het weer uit jouw regio.</desc>
+    <image>https://images.vrt.be/orig/2025/06/09/GMM%20%20RADIOCOVER.jpg</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="Radio2.be">
+    <title lang="nl">WinWin</title>
+    <desc lang="nl">Treinbegeleider Kristof beantwoordt al jouw consumentenvragen. Influencer Steffie Mercie komt langs, want haar populaire Mercie-kaas wordt aan woekerprijzen verkocht. Mag dat zomaar? Xavier Taveirne zoekt het uit. WinWin maakt je leven slimmer, bewuster en vaak ook goedkoper. Want elke Win telt voor twee.</desc>
+    <image>https://images.vrt.be/orig/2025/06/05/6889ef01-78f3-4c96-96bb-38b61a9a6e7f.jpg</image>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424100000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Ann &amp; Daan</title>
+    <desc lang="nl">Alles om je leven leuk, lekker en gezond te maken, met veel tips om er alles uit te halen!</desc>
+    <image>https://images.vrt.be/orig/2025/06/05/518053c6-4fe1-4296-9ab2-44e0350c5690.jpg</image>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424140000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Middag in Vlaams-Brabant</title>
+    <desc lang="nl">met Jana Smeets</desc>
+    <image>https://images.vrt.be/orig/2025/06/05/f8c8fea2-3d38-4387-b93e-eb3bad9d5449.jpg</image>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424160000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Spits</title>
+    <desc lang="nl">De leukste avondspits van het land met de beste verhalen uit je buurt, het belangrijkste nieuws en de grootste hits om vrolijk aan jouw avond te beginnen.</desc>
+    <image>https://images.vrt.be/orig/2025/06/05/9cfd74de-951e-47db-b30f-83e2fc34f4ff.jpg</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424200000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 80, 90 &amp; nillies</title>
+    <desc lang="nl">De grootste hits uit drie muzikale topdecennia maken jouw weekend nog leuker!</desc>
+    <image>https://images.vrt.be/orig/2025/06/05/1d6bb692-76eb-40c0-86c2-c9b227a42e45.jpg</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424220000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Relax</title>
+    <desc lang="nl">Ontspannen met de beste muziek. Luister op elk moment van de dag naar Radio 2 Relax! Ontdek de stream op VRT MAX.</desc>
+    <image>https://images.vrt.be/orig/2025/10/03/Relax_RadioCover.jpg</image>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424230000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Relax</title>
+    <desc lang="nl">Ontspannen met de beste muziek. Luister op elk moment van de dag naar Radio 2 Relax! Ontdek de stream op VRT MAX.</desc>
+    <image>https://images.vrt.be/orig/2025/10/03/Relax_RadioCover.jpg</image>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260425040000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2</title>
+    <desc lang="nl">Radio 2</desc>
+    <image>https://images.vrt.be/orig/2025/06/09/02677595-5840-4ff5-b174-abd4c6a52737.jpg</image>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425060000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Wat een weekend</title>
+    <desc lang="nl">Start je weekend met een goed gevoel en een verfrissende kijk op wat er in Vlaanderen te beleven valt.</desc>
+    <image>https://images.vrt.be/orig/2025/06/05/1e6788d3-1613-48e7-b86c-13bc362c1ff7.jpg</image>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425080000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Weekwatchers</title>
+    <desc lang="nl">Dé ontbijtshow op zaterdag met op het menu: plezante en boeiende gesprekken met Niels Albert, heerlijke livemuziek van De Romeo's en hilarische momenten met Hans Cools!</desc>
+    <image>https://images.vrt.be/orig/2025/06/05/b6b39143-73d7-4ac0-9617-1ae96c19d8dc.jpg</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425090000 +0000" channel="Radio2.be">
+    <title lang="nl">De Zoete Inval</title>
+    <desc lang="nl">Wat zei de grootvader van Jan Verheyen bij zijn geboorte, waarom nam Leez ontslag op haar werk en wat vindt Jonatan Medart zo leuk aan alleen op restaurant gaan?</desc>
+    <image>https://images.vrt.be/orig/2025/06/05/2576d1b3-6900-477e-8f50-368062eed5f6.jpg</image>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425110000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Top 30</title>
+    <desc lang="nl">Elke zaterdagmiddag zetten we de beste hits van het moment op een rij. Tel mee af van 30 naar nummer 1!</desc>
+    <image>https://images.vrt.be/orig/2025/06/05/1d6bb692-76eb-40c0-86c2-c9b227a42e45.jpg</image>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425140000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Disco 40</title>
+    <desc lang="nl">met Caren Meynen</desc>
+    <image>https://images.vrt.be/orig/2025/06/05/f8ae0a98-8dd0-437c-8ca9-041ad81b770b.jpg</image>
+  </programme>
+  <programme start="20260425140000 +0000" stop="20260425160000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Weekendwijzer</title>
+    <desc lang="nl">Ontdek wat je dit weekend in Vlaanderen kan beleven.</desc>
+    <image>https://images.vrt.be/orig/2025/10/03/Radio2_Michae%CC%88lJoossens_Radiocover.jpg</image>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425180000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Album 200</title>
+    <desc lang="nl">Ontdek de meest verkochte en gestreamde albums van het moment in Vlaanderen.</desc>
+    <image>https://images.vrt.be/orig/2025/06/05/40b80546-3c6a-485c-ab46-7a8a118a1e63.jpg</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425200000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 80, 90 &amp; nillies</title>
+    <desc lang="nl">De grootste hits uit drie muzikale topdecennia maken jouw weekend nog leuker!</desc>
+    <image>https://images.vrt.be/orig/2025/06/05/1d6bb692-76eb-40c0-86c2-c9b227a42e45.jpg</image>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425220000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Relax</title>
+    <desc lang="nl">Ontspannen met de beste muziek. Luister op elk moment van de dag naar Radio 2 Relax! Ontdek de stream op VRT MAX.</desc>
+    <image>https://images.vrt.be/orig/2025/10/03/Relax_RadioCover.jpg</image>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260426000000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2 Top 30 rewind</title>
+    <desc lang="nl">Radio 2 Top 30 rewind</desc>
+    <image>https://images.vrt.be/orig/2025/06/10/radiocovers.jpg</image>
+  </programme>
+  <programme start="20260426000000 +0000" stop="20260426050000 +0000" channel="Radio2.be">
+    <title lang="nl">Radio 2</title>
+    <desc lang="nl">Radio 2</desc>
+    <image>https://images.vrt.be/orig/2025/06/09/02677595-5840-4ff5-b174-abd4c6a52737.jpg</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424070000 +0000" channel="RadioBene.be">
+    <title lang="nl">Radio Bene Klaarwakker</title>
+    <desc lang="nl">met Herbert Verhaeghe</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/612763cb-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="RadioBene.be">
+    <title lang="nl">De tijd van je leven</title>
+    <desc lang="nl">De beste evergreens en veel artiesten van bij ons</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424100000 +0000" channel="RadioBene.be">
+    <title lang="nl">Radio Bene Gewoon Genieten</title>
+    <desc lang="nl">met Cathérine Vandoorne</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/480b2ac9-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424140000 +0000" channel="RadioBene.be">
+    <title lang="nl">Radio Bene U vraagt, wij draaien</title>
+    <desc lang="nl">Radio Bene U vraagt, wij draaien</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424160000 +0000" channel="RadioBene.be">
+    <title lang="nl">Radio Bene Goed Gezind</title>
+    <desc lang="nl">Zonder zorgen door de avondspits met de tofste weetjes en de mooiste muziek.</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/bab654b4-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424180000 +0000" channel="RadioBene.be">
+    <title lang="nl">Radio Bene Feesthits</title>
+    <desc lang="nl">Radio Bene Feesthits</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424220000 +0000" channel="RadioBene.be">
+    <title lang="nl">Radio Bene Feesthits</title>
+    <desc lang="nl">De beste muziek van vroeger en nu voor op de dansvloer</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260425000000 +0000" channel="RadioBene.be">
+    <title lang="nl">Radio Bene Feesthits</title>
+    <desc lang="nl">De beste muziek van vroeger en nu voor op de dansvloer</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425050000 +0000" channel="RadioBene.be">
+    <title lang="nl">De tijd van je leven</title>
+    <desc lang="nl">De beste evergreens en veel artiesten van bij ons</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425070000 +0000" channel="RadioBene.be">
+    <title lang="nl">Radio Bene Klaarwakker Weekend</title>
+    <desc lang="nl">met Herbert Verhaeghe</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/612763cb-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425080000 +0000" channel="RadioBene.be">
+    <title lang="nl">De tijd van je leven</title>
+    <desc lang="nl">De beste evergreens en veel artiesten van bij ons</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425100000 +0000" channel="RadioBene.be">
+    <title lang="nl">De Pré Historie</title>
+    <desc lang="nl">met Guy De Pré</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/54e6cb0a-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425140000 +0000" channel="RadioBene.be">
+    <title lang="nl">De tijd van je leven</title>
+    <desc lang="nl">De beste evergreens en veel artiesten van bij ons</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425140000 +0000" stop="20260425160000 +0000" channel="RadioBene.be">
+    <title lang="nl">Radio Bene Vlaamse 30</title>
+    <desc lang="nl">De beste Vlaamse hits van het moment! Tel mee af van 30 naar nummer 1.</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425180000 +0000" channel="RadioBene.be">
+    <title lang="nl">Radio Bene Zalige Zaterdag</title>
+    <desc lang="nl">met Yannick Bovy</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425220000 +0000" channel="RadioBene.be">
+    <title lang="nl">Radio Bene Feesthits</title>
+    <desc lang="nl">De beste muziek van vroeger en nu voor op de dansvloer</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260426000000 +0000" channel="RadioBene.be">
+    <title lang="nl">Radio Bene Feesthits</title>
+    <desc lang="nl">De beste muziek van vroeger en nu voor op de dansvloer</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260426000000 +0000" stop="20260426050000 +0000" channel="RadioBene.be">
+    <title lang="nl">De tijd van je leven</title>
+    <desc lang="nl">De beste evergreens en veel artiesten van bij ons</desc>
+    <image>https://images.vrt.be/orig/2024/06/26/cfc1e775-33a0-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424070000 +0000" channel="StuBru.be">
+    <title lang="nl">Eva &amp; Dries</title>
+    <desc lang="nl">Bazart kondigt een exclusieve showcase aan op Studio Brussel.</desc>
+    <image>https://images.vrt.be/orig/2025/08/27/bb3144b2-5885-47ad-bcb6-66e74c23a5f0.jpg</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424100000 +0000" channel="StuBru.be">
+    <title lang="nl">Kenneth Berth</title>
+    <desc lang="nl">De ideale soundtrack voor op de werkvloer.</desc>
+    <image>https://images.vrt.be/orig/2025/08/28/4ee941e5-a7b5-47bb-902f-2272b1f92741.jpg</image>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424140000 +0000" channel="StuBru.be">
+    <title lang="nl">Vijf Over Twaalf</title>
+    <desc lang="nl">met Gunther Desamblanx</desc>
+    <image>https://images.vrt.be/orig/2025/08/27/bfc7040a-5667-4c99-8723-4f368a1f726e.jpg</image>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424160000 +0000" channel="StuBru.be">
+    <title lang="nl">Pien Lefranc</title>
+    <desc lang="nl">Pien Lefranc</desc>
+    <image>https://images.vrt.be/orig/2025/08/27/f37cd714-c1e6-494c-aec9-abe816c9a85f.jpg</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424180000 +0000" channel="StuBru.be">
+    <title lang="nl">Café Cliché</title>
+    <desc lang="nl">met Jeff Bronder &amp; Pieterjan Marchand</desc>
+    <image>https://images.vrt.be/orig/2025/08/27/d6a0b656-5b24-4fd2-8d74-d5c807ceb078.jpg</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424190000 +0000" channel="StuBru.be">
+    <title lang="nl">UNTZ | Garnizoen</title>
+    <desc lang="nl">Garnizoen neemt Studio Brussel over.</desc>
+    <image>https://images.vrt.be/orig/2024/03/26/3da971f3-eb50-11ee-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424200000 +0000" channel="StuBru.be">
+    <title lang="nl">UNTZ</title>
+    <desc lang="nl">The party never stops!</desc>
+    <image>https://images.vrt.be/orig/2025/08/27/d3947622-f10f-4b67-b6e5-1e6b7f730247.jpg</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424210000 +0000" channel="StuBru.be">
+    <title lang="nl">UNTZ invites</title>
+    <desc lang="nl">The party never stops!</desc>
+    <image>https://images.vrt.be/orig/2024/10/24/c06d076d-1d58-4e10-ba75-43cfdfdcfa0c.jpg</image>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260425010000 +0000" channel="StuBru.be">
+    <title lang="nl">UNTZ</title>
+    <desc lang="nl">The party never stops.</desc>
+    <image>https://images.vrt.be/orig/2024/03/26/cde4bb9b-eb4e-11ee-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425010000 +0000" stop="20260425050000 +0000" channel="StuBru.be">
+    <title lang="nl">Life is music</title>
+    <desc lang="nl">Life is music</desc>
+    <image>https://images.vrt.be/orig/2024/03/26/e706bcf1-eb55-11ee-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425080000 +0000" channel="StuBru.be">
+    <title lang="nl">Rik Staat Op</title>
+    <desc lang="nl">Opstaan is music.</desc>
+    <image>https://images.vrt.be/orig/2025/08/27/1f69dff2-c521-45da-b60e-623af3c8a13b.jpg</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425100000 +0000" channel="StuBru.be">
+    <title lang="nl">De Afrekening</title>
+    <desc lang="nl">De 30 beste platen van het moment, door jou gekozen.</desc>
+    <image>https://images.vrt.be/orig/2025/08/27/366bfc92-7bd9-4582-b11d-e0c9a92f6aa6.jpg</image>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425130000 +0000" channel="StuBru.be">
+    <title lang="nl">Pieken Op Zaterdag</title>
+    <desc lang="nl">met Marie Neefs</desc>
+    <image>https://images.vrt.be/orig/2024/03/26/811114fe-eb52-11ee-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425130000 +0000" stop="20260425160000 +0000" channel="StuBru.be">
+    <title lang="nl">Pieken Op Zaterdag</title>
+    <desc lang="nl">met Tinneke Van Ransbeeck</desc>
+    <image>https://images.vrt.be/orig/2024/03/26/811114fe-eb52-11ee-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425180000 +0000" channel="StuBru.be">
+    <title lang="nl">De Jaren Nul</title>
+    <desc lang="nl">De beste muziek van 2000 tot 2009.</desc>
+    <image>https://images.vrt.be/orig/2025/08/27/d2ff1fff-3438-44db-aa93-fa11fe9c930d.jpg</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425200000 +0000" channel="StuBru.be">
+    <title lang="nl">UNTZ</title>
+    <desc lang="nl">The party never stops!</desc>
+    <image>https://images.vrt.be/orig/2025/08/27/d3947622-f10f-4b67-b6e5-1e6b7f730247.jpg</image>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425210000 +0000" channel="StuBru.be">
+    <title lang="nl">UNTZ invites</title>
+    <desc lang="nl">The party never stops!</desc>
+    <image>https://images.vrt.be/orig/2024/10/24/c06d076d-1d58-4e10-ba75-43cfdfdcfa0c.jpg</image>
+  </programme>
+  <programme start="20260425210000 +0000" stop="20260426010000 +0000" channel="StuBru.be">
+    <title lang="nl">UNTZ</title>
+    <desc lang="nl">The party never stops.</desc>
+    <image>https://images.vrt.be/orig/2024/03/26/cde4bb9b-eb4e-11ee-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260426010000 +0000" stop="20260426050000 +0000" channel="StuBru.be">
+    <title lang="nl">Life is music</title>
+    <desc lang="nl">Life is music</desc>
+    <image>https://images.vrt.be/orig/2024/03/26/e706bcf1-eb55-11ee-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424040008 +0000" stop="20260424040739 +0000" channel="VRT1.be">
+    <title lang="nl">Mr. Magoo</title>
+    <desc lang="nl">Alleen thuis</desc>
+    <episode-num system="xmltv_ns">1.39.0/1</episode-num>
+    <episode-num system="onscreen">S02E40</episode-num>
+    <image>https://images.vrt.be/orig/2024/12/07/a0df048a-42f7-42b6-bce6-d2749e1da3e6.jpg</image>
+  </programme>
+  <programme start="20260424040739 +0000" stop="20260424041814 +0000" channel="VRT1.be">
+    <title lang="nl">Ninja Express</title>
+    <desc lang="nl">Vuur</desc>
+    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
+    <episode-num system="onscreen">S01E21</episode-num>
+    <image>https://images.vrt.be/orig/2023/06/20/dd6a30c9-0f6d-11ee-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424041814 +0000" stop="20260424043019 +0000" channel="VRT1.be">
+    <title lang="nl">Sisters</title>
+    <desc lang="nl">Ramp Coco</desc>
+    <episode-num system="xmltv_ns">2.20.0/1</episode-num>
+    <episode-num system="onscreen">S03E21</episode-num>
+    <image>https://images.vrt.be/orig/2025/06/17/bae962db-4276-4c42-a505-feba53ee850a.jpg</image>
+  </programme>
+  <programme start="20260424043019 +0000" stop="20260424044247 +0000" channel="VRT1.be">
+    <title lang="nl">Lou</title>
+    <desc lang="nl">De nacht van de bibbers</desc>
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://images.vrt.be/orig/2024/01/27/0b7605ca-bc9f-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424044247 +0000" stop="20260424045322 +0000" channel="VRT1.be">
+    <title lang="nl">Dodo</title>
+    <desc lang="nl">Gezapt</desc>
+    <episode-num system="xmltv_ns">0.32.0/1</episode-num>
+    <episode-num system="onscreen">S01E33</episode-num>
+    <image>https://images.vrt.be/orig/2024/12/20/763c1c5a-c690-465b-b981-2d24de412494.jpg</image>
+  </programme>
+  <programme start="20260424045322 +0000" stop="20260424045720 +0000" channel="VRT1.be">
+    <title lang="nl">Bernie</title>
+    <desc lang="nl">The clownfish</desc>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://images.vrt.be/orig/2023/06/17/994fb445-0c92-11ee-91d7-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424045720 +0000" stop="20260424050652 +0000" channel="VRT1.be">
+    <title lang="nl">Karrewiet met VGT</title>
+    <desc lang="nl">Het nieuws van 23 april met Vlaamse Gebarentaal</desc>
+    <image>https://images.vrt.be/orig/2026/04/23/b56a6d4a-43a4-4b9a-8d46-898002081d30.jpg</image>
+  </programme>
+  <programme start="20260424050652 +0000" stop="20260424052310 +0000" channel="VRT1.be">
+    <title lang="nl">HALLO KROKET!</title>
+    <desc lang="nl">Neemt een MONSTER de studio over?!</desc>
+    <image>https://images.vrt.be/orig/2026/04/23/a8a091e2-ba20-4f68-ae48-e9bcec147814.jpg</image>
+  </programme>
+  <programme start="20260424052310 +0000" stop="20260424053013 +0000" channel="VRT1.be">
+    <title lang="nl">Grizzy &amp; the Lemmings</title>
+    <desc lang="nl">Choco-coco</desc>
+    <episode-num system="xmltv_ns">2.14.0/1</episode-num>
+    <episode-num system="onscreen">S03E15</episode-num>
+    <image>https://images.vrt.be/orig/2025/08/18/3e1338f5-9bf3-4083-ad07-e6a51190d54a.jpg</image>
+  </programme>
+  <programme start="20260424053013 +0000" stop="20260424054606 +0000" channel="VRT1.be">
+    <title lang="nl">Ket &amp; Doc</title>
+    <desc lang="nl">Licht</desc>
+    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
+    <episode-num system="onscreen">S03E05</episode-num>
+    <image>https://images.vrt.be/orig/2022/03/01/8fe11884-9936-11ec-b07d-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424054606 +0000" stop="20260424061014 +0000" channel="VRT1.be">
+    <title lang="nl">Dance academy</title>
+    <desc lang="nl">De perfecte storm</desc>
+    <episode-num system="xmltv_ns">2.11.0/1</episode-num>
+    <episode-num system="onscreen">S03E12</episode-num>
+    <image>https://images.vrt.be/orig/2025/08/06/076097dc-b00d-4769-89dd-af4d842cf696.jpg</image>
+  </programme>
+  <programme start="20260424061014 +0000" stop="20260424062122 +0000" channel="VRT1.be">
+    <title lang="nl">Stresskippen</title>
+    <desc lang="nl">VS. MAURANE</desc>
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://images.vrt.be/orig/2025/07/26/20eb4f56-d94b-44c9-85f3-c0a6b365de42.jpg</image>
+  </programme>
+  <programme start="20260424062122 +0000" stop="20260424063542 +0000" channel="VRT1.be">
+    <title lang="nl">De Raad van Soekie</title>
+    <desc lang="nl">Brolvampieren</desc>
+    <episode-num system="xmltv_ns">0.7.0/1</episode-num>
+    <episode-num system="onscreen">S01E08</episode-num>
+    <image>https://images.vrt.be/orig/2024/04/24/19b259be-01bd-11ef-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424063542 +0000" stop="20260424065132 +0000" channel="VRT1.be">
+    <title lang="nl">De Hoppers</title>
+    <desc lang="nl">Ghosthunters</desc>
+    <episode-num system="xmltv_ns">1.17.0/1</episode-num>
+    <episode-num system="onscreen">S02E18</episode-num>
+    <image>https://images.vrt.be/orig/2022/05/09/646b3af7-cf8d-11ec-b07d-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424065132 +0000" stop="20260424070000 +0000" channel="VRT1.be">
+    <title lang="nl">Zig &amp; Sharko</title>
+    <desc lang="nl">The Slides Trail</desc>
+    <episode-num system="xmltv_ns">3.21.0/1</episode-num>
+    <episode-num system="onscreen">S04E22</episode-num>
+    <image>https://images.vrt.be/orig/2024/06/17/d05c31e4-2caa-11ef-92ff-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="VRT1.be">
+    <title lang="nl">Radio 2 op VRT 1: WinWin</title>
+    <image>https://images.vrt.be/orig/2026/04/03/c9429d47-2da4-422f-84dd-ea5c5e8a75d1.jpg</image>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424090035 +0000" channel="VRT1.be">
+    <title lang="nl">Radio 2 op VRT 1: Ann &amp; Daan</title>
+    <image>https://images.vrt.be/orig/2026/04/03/907096f7-cd56-48ed-95a0-f1afb22773b7.jpg</image>
+  </programme>
+  <programme start="20260424090035 +0000" stop="20260424101104 +0000" channel="VRT1.be">
+    <title lang="nl">Lentebeelden</title>
+    <image>https://images.vrt.be/orig/2026/03/09/e614ff0d-4d7b-4d2a-8a1b-195ec6cc3110.jpg</image>
+  </programme>
+  <programme start="20260424101104 +0000" stop="20260424102837 +0000" channel="VRT1.be">
+    <title lang="nl">Dagelijkse kost</title>
+    <desc lang="nl">Rollade van konijn met geroosterde aardappelen</desc>
+    <image>https://images.vrt.be/orig/2026/04/14/0633a83a-ce49-49ef-8709-83ed3e6fb468.jpg</image>
+  </programme>
+  <programme start="20260424102837 +0000" stop="20260424110000 +0000" channel="VRT1.be">
+    <title lang="nl">Blokken</title>
+    <desc lang="nl">Aflevering 6723</desc>
+    <image>https://images.vrt.be/orig/2025/12/18/4cf6958f-10c8-43f5-b775-ca30fdcfcf14.jpg</image>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424112710 +0000" channel="VRT1.be">
+    <title lang="nl">VRT NWS journaal</title>
+    <desc lang="nl">VRT NWS journaal 13u</desc>
+    <image>https://images.vrt.be/orig/2026/04/24/843d6365-8ed3-4633-98e6-710ea20981b3.jpg</image>
+  </programme>
+  <programme start="20260424112710 +0000" stop="20260424113343 +0000" channel="VRT1.be">
+    <title lang="nl">Het weer</title>
+    <image>https://images.vrt.be/orig/2026/04/03/64060a84-be6d-4caa-a35e-d3353bd607b2.jpg</image>
+  </programme>
+  <programme start="20260424113343 +0000" stop="20260424115900 +0000" channel="VRT1.be">
+    <title lang="nl">Homo universalis</title>
+    <desc lang="nl">Codes kraken: er valt geen touw aan vast te knopen</desc>
+    <image>https://images.vrt.be/orig/2026/04/13/5cae5f8d-55de-454c-92fe-135c498c0573.jpg</image>
+  </programme>
+  <programme start="20260424115900 +0000" stop="20260424122427 +0000" channel="VRT1.be">
+    <title lang="nl">Thuis</title>
+    <desc lang="nl">Vicky waarschuwt Femke voor Vince</desc>
+    <episode-num system="xmltv_ns">27.5441.0/1</episode-num>
+    <episode-num system="onscreen">S28E5442</episode-num>
+    <image>https://images.vrt.be/orig/2023/05/02/d2d85185-e86b-11ed-91d7-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424122427 +0000" stop="20260424132337 +0000" channel="VRT1.be">
+    <title lang="nl">Clips</title>
+    <image>https://images.vrt.be/orig/2025/10/15/dfa2c6d9-86fe-4ebb-bc6c-009beada7c98.jpg</image>
+  </programme>
+  <programme start="20260424132337 +0000" stop="20260424141236 +0000" channel="VRT1.be">
+    <title lang="nl">Flikken Maastricht</title>
+    <desc lang="nl">Optreden</desc>
+    <episode-num system="xmltv_ns">3.0.0/1</episode-num>
+    <episode-num system="onscreen">S04E01</episode-num>
+    <image>https://images.vrt.be/orig/2019/06/17/38088750-90ee-11e9-abcc-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424141236 +0000" stop="20260424150500 +0000" channel="VRT1.be">
+    <title lang="nl">Andermans zaken</title>
+    <desc lang="nl">Marie-Louise</desc>
+    <episode-num system="xmltv_ns">3.4.0/1</episode-num>
+    <episode-num system="onscreen">S04E05</episode-num>
+    <image>https://images.vrt.be/orig/2026/04/07/b3f09297-aca8-410e-b4bb-434a9b22f418.jpg</image>
+  </programme>
+  <programme start="20260424150500 +0000" stop="20260424160206 +0000" channel="VRT1.be">
+    <title lang="nl">Witse</title>
+    <desc lang="nl">Samaritaan</desc>
+    <episode-num system="xmltv_ns">4.10.0/1</episode-num>
+    <episode-num system="onscreen">S05E11</episode-num>
+    <image>https://images.vrt.be/orig/2024/03/28/680102e0-ece0-11ee-8fc9-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424160206 +0000" stop="20260424160412 +0000" channel="VRT1.be">
+    <title lang="nl">VRT NWS Update</title>
+    <image>https://images.vrt.be/orig/2026/04/03/3bfd0fee-9241-4a65-8a0c-6efffb72521e.jpg</image>
+  </programme>
+  <programme start="20260424160412 +0000" stop="20260424161020 +0000" channel="VRT1.be">
+    <title lang="nl">Het weer</title>
+    <image>https://images.vrt.be/orig/2026/04/03/5887c704-f2cf-49d1-ae19-500f5f282a0b.jpg</image>
+  </programme>
+  <programme start="20260424161020 +0000" stop="20260424162926 +0000" channel="VRT1.be">
+    <title lang="nl">Dagelijkse kost</title>
+    <desc lang="nl">Briochetaart</desc>
+    <image>https://images.vrt.be/orig/2026/04/15/9c78764d-b2c8-46f2-a1fb-06b9bc7d5dda.jpg</image>
+  </programme>
+  <programme start="20260424162926 +0000" stop="20260424170000 +0000" channel="VRT1.be">
+    <title lang="nl">Blokken</title>
+    <desc lang="nl">Dagelijkse quiz met Ben Crabbé</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/67a52234-902a-42c0-b30f-5f2e5fee2f21.jpg</image>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424174812 +0000" channel="VRT1.be">
+    <title lang="nl">VRT NWS journaal</title>
+    <desc lang="nl">VRT NWS journaal 19u</desc>
+    <image>https://images.vrt.be/orig/2026/03/09/34983736-7c7e-400f-ab85-2b384f9f8833.jpg?gravity=50p%2C28p</image>
+  </programme>
+  <programme start="20260424174812 +0000" stop="20260424181008 +0000" channel="VRT1.be">
+    <title lang="nl">Homo universalis</title>
+    <desc lang="nl">Hoe goed kunnen onze kandidaten iets aan de haak slaan?</desc>
+    <image>https://images.vrt.be/orig/2026/04/13/833a8e92-49a2-4cee-a19c-e8183c6bb80c.jpg</image>
+  </programme>
+  <programme start="20260424181008 +0000" stop="20260424181702 +0000" channel="VRT1.be">
+    <title lang="nl">Het weer</title>
+    <desc lang="nl">Het weerbericht van vrijdag 24 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/e9662297-320d-4e82-886f-f93121c096de.jpg</image>
+  </programme>
+  <programme start="20260424181702 +0000" stop="20260424184005 +0000" channel="VRT1.be">
+    <title lang="nl">Thuis</title>
+    <desc lang="nl">Femke geniet na van een lekkere lunch</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/9cb17f9c-aa10-4bd5-b1ee-a89faa6fc755.jpg</image>
+  </programme>
+  <programme start="20260424184005 +0000" stop="20260424192942 +0000" channel="VRT1.be">
+    <title lang="nl">Flikken Maastricht</title>
+    <desc lang="nl">Schutters</desc>
+    <episode-num system="xmltv_ns">16.2.0/1</episode-num>
+    <episode-num system="onscreen">S17E03</episode-num>
+    <image>https://images.vrt.be/orig/2026/03/27/f169e35c-2e38-41ae-8337-c99cbf55ccd6.jpg</image>
+  </programme>
+  <programme start="20260424192942 +0000" stop="20260424201955 +0000" channel="VRT1.be">
+    <title lang="nl">Dwars door de Lage Landen</title>
+    <desc lang="nl">In het spoor van de pioniers</desc>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
+    <image>https://images.vrt.be/orig/2024/10/01/2ee46a34-f9c2-4088-969d-f628f343bf27.jpg</image>
+  </programme>
+  <programme start="20260424201955 +0000" stop="20260424204512 +0000" channel="VRT1.be">
+    <title lang="nl">VRT NWS laat</title>
+    <desc lang="nl">VRT NWS laat van vrijdag 24 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/21dbd18e-0157-4b92-990f-99e8a508b387.jpg</image>
+  </programme>
+  <programme start="20260424204512 +0000" stop="20260424205149 +0000" channel="VRT1.be">
+    <title lang="nl">Het weer</title>
+    <desc lang="nl">Het weerbericht van vrijdag 24 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/e9662297-320d-4e82-886f-f93121c096de.jpg</image>
+  </programme>
+  <programme start="20260424205149 +0000" stop="20260424214450 +0000" channel="VRT1.be">
+    <title lang="nl">Lost luggage</title>
+    <desc lang="nl">Aflevering 5</desc>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://images.vrt.be/orig/2023/05/17/d87808b4-f48b-11ed-91d7-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424214450 +0000" stop="20260424214536 +0000" channel="VRT1.be">
+    <title lang="nl">Keno</title>
+    <image>https://images.vrt.be/orig/2026/04/03/aa94563f-4c8a-445d-91c6-c3bf4b242a00.jpg</image>
+  </programme>
+  <programme start="20260424214536 +0000" stop="20260424215140 +0000" channel="VRT1.be">
+    <title lang="nl">Euromillions</title>
+    <image>https://images.vrt.be/orig/2026/04/03/78bb335f-0567-486f-92e9-4e34da0be4bf.jpg</image>
+  </programme>
+  <programme start="20260424215140 +0000" stop="20260424220804 +0000" channel="VRT1.be">
+    <title lang="nl">Dagelijkse kost</title>
+    <desc lang="nl">Briochetaart</desc>
+    <image>https://images.vrt.be/orig/2026/04/15/9c78764d-b2c8-46f2-a1fb-06b9bc7d5dda.jpg</image>
+  </programme>
+  <programme start="20260424220804 +0000" stop="20260424223320 +0000" channel="VRT1.be">
+    <title lang="nl">VRT NWS laat</title>
+    <desc lang="nl">VRT NWS laat van vrijdag 24 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/21dbd18e-0157-4b92-990f-99e8a508b387.jpg</image>
+  </programme>
+  <programme start="20260425040008 +0000" stop="20260425040743 +0000" channel="VRT1.be">
+    <title lang="nl">Mr. Magoo</title>
+    <desc lang="nl">Werk aan de winkel</desc>
+    <episode-num system="xmltv_ns">1.40.0/1</episode-num>
+    <episode-num system="onscreen">S02E41</episode-num>
+    <image>https://images.vrt.be/orig/2024/12/07/3bea9340-5d28-40b0-be10-6c5c3e0d97af.jpg</image>
+  </programme>
+  <programme start="20260425040743 +0000" stop="20260425041840 +0000" channel="VRT1.be">
+    <title lang="nl">Ninja Express</title>
+    <desc lang="nl">Een eitje</desc>
+    <episode-num system="xmltv_ns">0.21.0/1</episode-num>
+    <episode-num system="onscreen">S01E22</episode-num>
+    <image>https://images.vrt.be/orig/2023/06/20/eaac821b-0f6d-11ee-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425041840 +0000" stop="20260425043043 +0000" channel="VRT1.be">
+    <title lang="nl">Sisters</title>
+    <desc lang="nl">Leve de staking!</desc>
+    <episode-num system="xmltv_ns">2.21.0/1</episode-num>
+    <episode-num system="onscreen">S03E22</episode-num>
+    <image>https://images.vrt.be/orig/2025/06/17/10c6937b-740b-4b9e-a20a-be084dfa8b71.jpg</image>
+  </programme>
+  <programme start="20260425043043 +0000" stop="20260425044311 +0000" channel="VRT1.be">
+    <title lang="nl">Lou</title>
+    <desc lang="nl">De prins op het witte paard</desc>
+    <episode-num system="xmltv_ns">0.7.0/1</episode-num>
+    <episode-num system="onscreen">S01E08</episode-num>
+    <image>https://images.vrt.be/orig/2024/01/27/0c93359b-bc9f-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425044311 +0000" stop="20260425045347 +0000" channel="VRT1.be">
+    <title lang="nl">Dodo</title>
+    <desc lang="nl">Superastronaut</desc>
+    <episode-num system="xmltv_ns">0.33.0/1</episode-num>
+    <episode-num system="onscreen">S01E34</episode-num>
+    <image>https://images.vrt.be/orig/2024/12/20/a111d441-0951-4421-bbaf-7901911160ce.jpg</image>
+  </programme>
+  <programme start="20260425045347 +0000" stop="20260425050255 +0000" channel="VRT1.be">
+    <title lang="nl">Karrewiet met VGT</title>
+    <desc lang="nl">Het nieuws van 24 april met Vlaamse Gebarentaal</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/4141b6dd-08d0-4143-b372-3821edbaecb3.jpg</image>
+  </programme>
+  <programme start="20260425050255 +0000" stop="20260425051608 +0000" channel="VRT1.be">
+    <title lang="nl">De regels van Floor</title>
+    <desc lang="nl">Heimwee</desc>
+    <episode-num system="xmltv_ns">1.11.0/1</episode-num>
+    <episode-num system="onscreen">S02E12</episode-num>
+    <image>https://images.vrt.be/orig/2024/12/06/fe44c32c-1343-4de5-83ca-911c72b74007.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425051608 +0000" stop="20260425053513 +0000" channel="VRT1.be">
+    <title lang="nl">De Faker</title>
+    <desc lang="nl">Wie is de faker bij de familie Gelade?</desc>
+    <episode-num system="xmltv_ns">2.11.0/1</episode-num>
+    <episode-num system="onscreen">S03E12</episode-num>
+    <image>https://images.vrt.be/orig/2024/12/11/5964d46f-7d22-4948-bc10-3b9e327cdb50.jpg</image>
+  </programme>
+  <programme start="20260425053513 +0000" stop="20260425054940 +0000" channel="VRT1.be">
+    <title lang="nl">De Raad van Soekie</title>
+    <desc lang="nl">Brol VIP Lounge</desc>
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
+    <episode-num system="onscreen">S01E09</episode-num>
+    <image>https://images.vrt.be/orig/2024/05/01/480659f0-073d-11ef-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425054940 +0000" stop="20260425060547 +0000" channel="VRT1.be">
+    <title lang="nl">De Hoppers</title>
+    <desc lang="nl">Wally wasbeerdag</desc>
+    <episode-num system="xmltv_ns">1.18.0/1</episode-num>
+    <episode-num system="onscreen">S02E19</episode-num>
+    <image>https://images.vrt.be/orig/2022/05/13/86b95566-d2b1-11ec-b07d-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425060547 +0000" stop="20260425063241 +0000" channel="VRT1.be">
+    <title lang="nl">#LikeMe</title>
+    <desc lang="nl">#Showtime</desc>
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://images.vrt.be/orig/2025/02/12/0fd9cc71-342b-4bac-91d9-f3ae6d10056d.jpg</image>
+  </programme>
+  <programme start="20260425063241 +0000" stop="20260425073302 +0000" channel="VRT1.be">
+    <title lang="nl">Ghost Rockers</title>
+    <desc lang="nl">Compilatieaflevering 1</desc>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://images.vrt.be/orig/2023/08/17/d32c388e-3ce2-11ee-91d7-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425073302 +0000" stop="20260425080000 +0000" channel="VRT1.be">
+    <title lang="nl">Silverpoint</title>
+    <desc lang="nl">Detour</desc>
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <image>https://images.vrt.be/orig/2024/05/29/ef7d95b1-1d3d-11ef-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425092421 +0000" channel="VRT1.be">
+    <title lang="nl">Lentebeelden</title>
+    <image>https://images.vrt.be/orig/2026/04/03/76c51275-827d-4b08-9260-cdc8343f1880.jpg</image>
+  </programme>
+  <programme start="20260425092421 +0000" stop="20260425100034 +0000" channel="VRT1.be">
+    <title lang="nl">De inzichten</title>
+    <desc lang="nl">De inzichten van Alain Remue</desc>
+    <episode-num system="xmltv_ns">7.2.0/1</episode-num>
+    <episode-num system="onscreen">S08E03</episode-num>
+    <image>https://images.vrt.be/orig/2026/04/20/4f771d8d-841c-4ba0-a7ec-21d996c4a2be.jpg</image>
+  </programme>
+  <programme start="20260425100034 +0000" stop="20260425103306 +0000" channel="VRT1.be">
+    <title lang="nl">De week van BRUZZ</title>
+    <desc lang="nl">Het nieuws van maandag 20 tot vrijdag 24 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/f639f1cd-1fe9-49e1-ac95-2eeae9ed2dfa.jpg</image>
+  </programme>
+  <programme start="20260425103306 +0000" stop="20260425110000 +0000" channel="VRT1.be">
+    <title lang="nl">De markt</title>
+    <desc lang="nl">De economische actualiteit van 20 tot 25 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/5073b9f1-f144-4136-91c2-16bf9c698fb1.jpg</image>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425112516 +0000" channel="VRT1.be">
+    <title lang="nl">VRT NWS journaal</title>
+    <desc lang="nl">VRT NWS journaal 13u</desc>
+    <image>https://images.vrt.be/orig/2026/03/09/34983736-7c7e-400f-ab85-2b384f9f8833.jpg?gravity=50p%2C28p</image>
+  </programme>
+  <programme start="20260425112516 +0000" stop="20260425113103 +0000" channel="VRT1.be">
+    <title lang="nl">Het weer</title>
+    <image>https://images.vrt.be/orig/2026/04/03/39630911-2563-4ac2-8c13-1fc9e521b5a3.jpg</image>
+  </programme>
+  <programme start="20260425113103 +0000" stop="20260425115111 +0000" channel="VRT1.be">
+    <title lang="nl">Homo universalis</title>
+    <desc lang="nl">Hoe goed kunnen onze kandidaten iets aan de haak slaan?</desc>
+    <image>https://images.vrt.be/orig/2026/04/13/833a8e92-49a2-4cee-a19c-e8183c6bb80c.jpg</image>
+  </programme>
+  <programme start="20260425115111 +0000" stop="20260425121103 +0000" channel="VRT1.be">
+    <title lang="nl">Clips</title>
+    <image>https://images.vrt.be/orig/2025/10/15/dfa2c6d9-86fe-4ebb-bc6c-009beada7c98.jpg</image>
+  </programme>
+  <programme start="20260425121103 +0000" stop="20260425125940 +0000" channel="VRT1.be">
+    <title lang="nl">Dubbelleven</title>
+    <desc lang="nl">De graffiti</desc>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://images.vrt.be/orig/2020/06/16/748b4887-af54-11ea-aae0-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425125940 +0000" stop="20260425132439 +0000" channel="VRT1.be">
+    <title lang="nl">Dierendokters 24/7</title>
+    <desc lang="nl">Poes Mila heeft een dringende bloedtransfusie nodig</desc>
+    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
+    <episode-num system="onscreen">S02E04</episode-num>
+    <image>https://images.vrt.be/orig/2020/05/06/2b4e525b-8f75-11ea-aae0-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425132439 +0000" stop="20260425141126 +0000" channel="VRT1.be">
+    <title lang="nl">Dwars door de Lage Landen</title>
+    <desc lang="nl">In het spoor van de pioniers</desc>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
+    <image>https://images.vrt.be/orig/2024/10/01/2ee46a34-f9c2-4088-969d-f628f343bf27.jpg</image>
+  </programme>
+  <programme start="20260425141126 +0000" stop="20260425145500 +0000" channel="VRT1.be">
+    <title lang="nl">Dagelijkse kost</title>
+    <desc lang="nl">Weekendcompilatie</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/46f66b29-b551-497b-8a7b-2d283a5f3e57.jpg</image>
+  </programme>
+  <programme start="20260425145500 +0000" stop="20260425154800 +0000" channel="VRT1.be">
+    <title lang="nl">Witse</title>
+    <desc lang="nl">Icarus (deel 1)</desc>
+    <episode-num system="xmltv_ns">4.11.0/1</episode-num>
+    <episode-num system="onscreen">S05E12</episode-num>
+    <image>https://images.vrt.be/orig/2019/07/31/a10a4834-b397-11e9-abcc-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260425154800 +0000" stop="20260425155500 +0000" channel="VRT1.be">
+    <title lang="nl">Kijk uit</title>
+    <desc lang="nl">Dag van de fietshelm</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/5bc26f4c-64fa-4a0f-b78a-86e3701baaef.jpg</image>
+  </programme>
+  <programme start="20260425155500 +0000" stop="20260425160500 +0000" channel="VRT1.be">
+    <title lang="nl">VRT NWS journaal</title>
+    <desc lang="nl">VRT NWS journaal update</desc>
+    <image>https://images.vrt.be/orig/2026/03/09/34983736-7c7e-400f-ab85-2b384f9f8833.jpg?gravity=50p%2C28p</image>
+  </programme>
+  <programme start="20260425160500 +0000" stop="20260425170000 +0000" channel="VRT1.be">
+    <title lang="nl">Down the road</title>
+    <desc lang="nl">De reisgenoten worden echte cowboys</desc>
+    <episode-num system="xmltv_ns">5.1.0/1</episode-num>
+    <episode-num system="onscreen">S06E02</episode-num>
+    <image>https://images.vrt.be/orig/2023/10/20/317550e3-6f2c-11ee-91d7-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425173700 +0000" channel="VRT1.be">
+    <title lang="nl">VRT NWS journaal</title>
+    <desc lang="nl">VRT NWS journaal 19u</desc>
+    <image>https://images.vrt.be/orig/2026/03/09/34983736-7c7e-400f-ab85-2b384f9f8833.jpg?gravity=50p%2C28p</image>
+  </programme>
+  <programme start="20260425173700 +0000" stop="20260425174000 +0000" channel="VRT1.be">
+    <title lang="nl">Het weer</title>
+    <desc lang="nl">Het weerbericht van zaterdag 25 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/871c85c6-1c1f-4f4f-8435-a564fab624d8.jpg</image>
+  </programme>
+  <programme start="20260425174000 +0000" stop="20260425174500 +0000" channel="VRT1.be">
+    <title lang="nl">Joker+ en Lotto</title>
+    <image>https://images.vrt.be/orig/2026/04/03/0fbcebf9-f6eb-482c-9e48-a8def6f7a761.jpg</image>
+  </programme>
+  <programme start="20260425174500 +0000" stop="20260425181000 +0000" channel="VRT1.be">
+    <title lang="nl">Dublin Zoo</title>
+    <desc lang="nl">Een droef afscheid van een geliefde bewoner</desc>
+    <episode-num system="xmltv_ns">11.0.0/1</episode-num>
+    <episode-num system="onscreen">S12E01</episode-num>
+    <image>https://images.vrt.be/orig/2026/04/03/2179f6d0-9328-4647-b4f2-ae9ac99d59a3.jpg</image>
+  </programme>
+  <programme start="20260425181000 +0000" stop="20260425185000 +0000" channel="VRT1.be">
+    <title lang="nl">FC De Kampioenen</title>
+    <desc lang="nl">Xaviera Waterslaeghers</desc>
+    <episode-num system="xmltv_ns">12.6.0/1</episode-num>
+    <episode-num system="onscreen">S13E07</episode-num>
+    <image>https://images.vrt.be/orig/2020/11/26/b016e29c-2f79-11eb-aae0-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425185000 +0000" stop="20260425193000 +0000" channel="VRT1.be">
+    <title lang="nl">Daar zijn beelden van</title>
+    <desc lang="nl">Jelle De Beule</desc>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://images.vrt.be/orig/2026/04/03/c106c8d0-adb5-405f-92eb-8f6c0c873f3a.jpg</image>
+  </programme>
+  <programme start="20260425193000 +0000" stop="20260425202000 +0000" channel="VRT1.be">
+    <title lang="nl">Van vlees en bloed</title>
+    <desc lang="nl">Aflevering 2</desc>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://images.vrt.be/orig/2025/04/02/c8114f96-8e2c-4f5f-ade0-22cca8e404c6.jpg</image>
+  </programme>
+  <programme start="20260425202000 +0000" stop="20260425205000 +0000" channel="VRT1.be">
+    <title lang="nl">Loslopend wild</title>
+    <desc lang="nl">Aflevering 6</desc>
+    <episode-num system="xmltv_ns">5.5.0/1</episode-num>
+    <episode-num system="onscreen">S06E06</episode-num>
+    <image>https://images.vrt.be/orig/2022/02/08/5726c5ee-88cb-11ec-b07d-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425205000 +0000" stop="20260425210500 +0000" channel="VRT1.be">
+    <title lang="nl">VRT NWS journaal</title>
+    <desc lang="nl">VRT NWS journaal laat</desc>
+    <image>https://images.vrt.be/orig/2026/03/09/34983736-7c7e-400f-ab85-2b384f9f8833.jpg?gravity=50p%2C28p</image>
+  </programme>
+  <programme start="20260425210500 +0000" stop="20260425210600 +0000" channel="VRT1.be">
+    <title lang="nl">Winst joker+ / lotto</title>
+    <image>https://images.vrt.be/orig/2026/04/03/7a6e6bd3-0572-45df-84d6-c67dc82b2076.jpg</image>
+  </programme>
+  <programme start="20260425210600 +0000" stop="20260425210700 +0000" channel="VRT1.be">
+    <title lang="nl">Keno</title>
+    <image>https://images.vrt.be/orig/2026/04/03/e640ddfd-a52e-4717-acb4-5bbfd2306896.jpg</image>
+  </programme>
+  <programme start="20260425210700 +0000" stop="20260425211000 +0000" channel="VRT1.be">
+    <title lang="nl">Euromillions winstverdeling</title>
+    <image>https://images.vrt.be/orig/2026/04/03/589e6349-cfe4-4619-87e2-f1afe5beeafa.jpg</image>
+  </programme>
+  <programme start="20260425211000 +0000" stop="20260425211500 +0000" channel="VRT1.be">
+    <title lang="nl">Het weer</title>
+    <desc lang="nl">Het weerbericht van zaterdag 25 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/871c85c6-1c1f-4f4f-8435-a564fab624d8.jpg</image>
+  </programme>
+  <programme start="20260425211500 +0000" stop="20260425220500 +0000" channel="VRT1.be">
+    <title lang="nl">Restaurant Misverstand</title>
+    <desc lang="nl">De medewerkers maken zich klaar voor hun laatste restaurantdag</desc>
+    <episode-num system="xmltv_ns">3.7.0/1</episode-num>
+    <episode-num system="onscreen">S04E08</episode-num>
+    <image>https://images.vrt.be/orig/2026/02/08/1b577337-438b-428e-a1e2-dd913deffe71.jpg</image>
+  </programme>
+  <programme start="20260425220500 +0000" stop="20260425222000 +0000" channel="VRT1.be">
+    <title lang="nl">VRT NWS journaal</title>
+    <desc lang="nl">VRT NWS journaal laat</desc>
+    <image>https://images.vrt.be/orig/2026/03/09/34983736-7c7e-400f-ab85-2b384f9f8833.jpg?gravity=50p%2C28p</image>
+  </programme>
+  <programme start="20260424040000 +0000" stop="20260424070000 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Radio 2: Goeiemorgen morgen</title>
+    <image>https://images.vrt.be/orig/2026/04/03/90e94201-06cd-45fb-a063-04fc457c7173.jpg</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424100000 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Lentebeelden</title>
+    <image>https://images.vrt.be/orig/2026/03/09/b0b81915-6bfe-4952-9ce8-106e7e6f22d1.jpg</image>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424140000 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Radio 1: Nieuwe Feiten</title>
+    <image>https://images.vrt.be/orig/2026/04/03/1ba0f315-61e3-4399-aae2-7c6519a0a7a2.jpg</image>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424153157 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Radio 1: De wereld vandaag</title>
+    <image>https://images.vrt.be/orig/2026/04/03/df275071-0d15-46d5-9c99-12a37af3cc95.jpg</image>
+  </programme>
+  <programme start="20260424153157 +0000" stop="20260424155233 +0000" channel="VRTCanvas.be">
+    <title lang="nl">The office US</title>
+    <desc lang="nl">Koi Pond</desc>
+    <episode-num system="xmltv_ns">5.7.0/1</episode-num>
+    <episode-num system="onscreen">S06E08</episode-num>
+    <image>https://images.vrt.be/orig/2024/01/18/8fc8b9e9-b5ec-11ee-b483-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424155233 +0000" stop="20260424161600 +0000" channel="VRTCanvas.be">
+    <title lang="nl">The office US</title>
+    <desc lang="nl">Double date</desc>
+    <episode-num system="xmltv_ns">5.8.0/1</episode-num>
+    <episode-num system="onscreen">S06E09</episode-num>
+    <image>https://images.vrt.be/orig/2024/01/18/f084d35b-b5ec-11ee-b483-02b7b76bf47f.jpg?gravity=50p%2C50p</image>
+  </programme>
+  <programme start="20260424161600 +0000" stop="20260424171712 +0000" channel="VRTCanvas.be">
+    <title lang="nl">The detectives</title>
+    <desc lang="nl">Aflevering 4</desc>
+    <episode-num system="xmltv_ns">2.3.0/1</episode-num>
+    <episode-num system="onscreen">S03E04</episode-num>
+    <image>https://images.vrt.be/orig/2025/06/23/373a72d4-376d-4ec5-8438-b8ed2e9d13d2.jpg</image>
+  </programme>
+  <programme start="20260424171712 +0000" stop="20260424180000 +0000" channel="VRTCanvas.be">
+    <title lang="nl">De ideale wereld</title>
+    <desc lang="nl">Anna-Livia Smekens</desc>
+    <image>https://images.vrt.be/orig/2026/04/23/7f8b9b9e-2cb5-4024-8400-2f54767b2578.jpg</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424183017 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Terzake</title>
+    <image>https://images.vrt.be/orig/2025/08/29/458518aa-f3a7-4d35-a3a3-5dd117461226.png</image>
+  </programme>
+  <programme start="20260424183017 +0000" stop="20260424183447 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Het weer</title>
+    <image>https://images.vrt.be/orig/2026/04/03/5887c704-f2cf-49d1-ae19-500f5f282a0b.jpg</image>
+  </programme>
+  <programme start="20260424183447 +0000" stop="20260424192638 +0000" channel="VRTCanvas.be">
+    <title lang="nl">De afspraak op vrijdag</title>
+    <image>https://images.vrt.be/orig/2026/04/03/7dd20731-75d9-4662-8b76-1bed7571b006.jpg</image>
+  </programme>
+  <programme start="20260424192638 +0000" stop="20260424210105 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Vera</title>
+    <desc lang="nl">Aflevering 2</desc>
+    <episode-num system="xmltv_ns">13.1.0/1</episode-num>
+    <episode-num system="onscreen">S14E02</episode-num>
+    <image>https://images.vrt.be/orig/2026/04/03/f5142e12-7800-4140-a211-e1a4fdfbce2e.jpg</image>
+  </programme>
+  <programme start="20260424210105 +0000" stop="20260424215722 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Steeltown murders</title>
+    <desc lang="nl">Aflevering 1</desc>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://images.vrt.be/orig/2024/03/20/be8b4b41-e6b6-11ee-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424215722 +0000" stop="20260424225558 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Steeltown murders</title>
+    <desc lang="nl">Aflevering 2</desc>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://images.vrt.be/orig/2024/03/23/3122805f-e8a0-11ee-8fc9-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260424225558 +0000" stop="20260424225915 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Het weer</title>
+    <image>https://images.vrt.be/orig/2026/04/03/5887c704-f2cf-49d1-ae19-500f5f282a0b.jpg</image>
+  </programme>
+  <programme start="20260424225915 +0000" stop="20260424232920 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Terzake</title>
+    <image>https://images.vrt.be/orig/2025/08/29/458518aa-f3a7-4d35-a3a3-5dd117461226.png</image>
+  </programme>
+  <programme start="20260424232920 +0000" stop="20260425001937 +0000" channel="VRTCanvas.be">
+    <title lang="nl">De afspraak op vrijdag</title>
+    <image>https://images.vrt.be/orig/2026/04/03/7dd20731-75d9-4662-8b76-1bed7571b006.jpg</image>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425080000 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Radio 2: Weekwatchers</title>
+    <image>https://images.vrt.be/orig/2026/04/03/2a6411bf-6b9c-48e5-9750-0d1d51010508.jpg</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425145000 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Lentebeelden</title>
+    <image>https://images.vrt.be/orig/2026/03/20/5ab959b2-843e-45db-babe-4fe0a2f48c2f.jpg</image>
+  </programme>
+  <programme start="20260425145000 +0000" stop="20260425153000 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Eva Longoria: searching for Mexico</title>
+    <desc lang="nl">Tacolicious</desc>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://images.vrt.be/orig/2026/02/28/01ebd32a-67b1-40fc-997b-3acb9db9e9c8.jpg</image>
+  </programme>
+  <programme start="20260425153000 +0000" stop="20260425162500 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Spaak</title>
+    <desc lang="nl">Paul-Henri Spaak zette zijn stempel op de wereld zoals wij die vandaag kennen</desc>
+    <image>https://images.vrt.be/orig/2026/04/08/25ccfdcb-60b4-4723-9d45-19343e7f1789.jpg</image>
+  </programme>
+  <programme start="20260425162500 +0000" stop="20260425180000 +0000" channel="VRTCanvas.be">
+    <title lang="nl">The Brokenwood mysteries</title>
+    <desc lang="nl">The power of steam</desc>
+    <episode-num system="xmltv_ns">5.0.0/1</episode-num>
+    <episode-num system="onscreen">S06E01</episode-num>
+    <image>https://images.vrt.be/orig/2023/09/29/b040786f-5e4a-11ee-91d7-02b7b76bf47f.jpg</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425180800 +0000" channel="VRTCanvas.be">
+    <title lang="nl">VRT NWS Update</title>
+    <image>https://images.vrt.be/orig/2026/04/03/5da4c443-44db-4703-b701-4449cee1ea02.jpg</image>
+  </programme>
+  <programme start="20260425180800 +0000" stop="20260425181500 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Het weer</title>
+    <desc lang="nl">Het weerbericht van zaterdag 25 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/871c85c6-1c1f-4f4f-8435-a564fab624d8.jpg</image>
+  </programme>
+  <programme start="20260425181500 +0000" stop="20260425190000 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Suspect</title>
+    <desc lang="nl">Aflevering 3</desc>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
+    <image>https://images.vrt.be/orig/2026/04/01/19114b15-2798-4add-9c6d-048cf1178d0f.jpg</image>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260425195000 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Suspect</title>
+    <desc lang="nl">Aflevering 4</desc>
+    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
+    <episode-num system="onscreen">S02E04</episode-num>
+    <image>https://images.vrt.be/orig/2026/04/01/2fe83171-73dc-443a-afa0-9637a533b9a0.jpg</image>
+  </programme>
+  <programme start="20260425195000 +0000" stop="20260425213200 +0000" channel="VRTCanvas.be">
+    <title lang="nl">The zone of interest</title>
+    <desc lang="nl">Kampcommandant Rudolf Höss en zijn gezin wonen vlak naast Auschwitz</desc>
+    <image>https://images.vrt.be/orig/2026/04/21/af6dda33-e647-484d-8004-ed7ea066263c.jpg</image>
+  </programme>
+  <programme start="20260425213200 +0000" stop="20260425213500 +0000" channel="VRTCanvas.be">
+    <title lang="nl">Het weer</title>
+    <desc lang="nl">Het weerbericht van zaterdag 25 april</desc>
+    <image>https://images.vrt.be/orig/2026/04/03/871c85c6-1c1f-4f4f-8435-a564fab624d8.jpg</image>
+  </programme>
+  <programme start="20260425213500 +0000" stop="20260425223000 +0000" channel="VRTCanvas.be">
+    <title lang="nl">The tattooist of Auschwitz</title>
+    <desc lang="nl">Aflevering 5</desc>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://images.vrt.be/orig/2025/01/19/f97a7534-210e-4c61-9d6d-4f21a647ee60.jpg</image>
+  </programme>
+  <programme start="20260425223000 +0000" stop="20260425224500 +0000" channel="VRTCanvas.be">
+    <title lang="nl">VRT NWS journaal</title>
+    <desc lang="nl">VRT NWS journaal laat</desc>
+    <image>https://images.vrt.be/orig/2026/03/09/34983736-7c7e-400f-ab85-2b384f9f8833.jpg?gravity=50p%2C28p</image>
+  </programme>
+</tv>

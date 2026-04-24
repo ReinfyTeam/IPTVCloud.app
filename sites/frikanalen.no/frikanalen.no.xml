@@ -1,0 +1,658 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="Frikanalen.no@SD">
+    <display-name>Frikanalen</display-name>
+    <icon src="https://i.imgur.com/rY3Owxl.png" />
+    <url>https://frikanalen.no</url>
+  </channel>
+  <programme start="20260423223000 +0000" stop="20260423224402 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - David Pizarro: The strange politics of disgust</title>
+    <desc lang="no">What does a disgusting image have to do with how you vote? Equipped with surveys and experiments, psychologist David Pizarro demonstrates a correlation between sensitivity to disgusting cues -- a photo of feces, an unpleasant odor -- and moral and political conservatism. (Filmed at TEDxEast.) TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260423224500 +0000" stop="20260423225357 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Dan Ariely: How equal do we want the world to be? You'd be surprised</title>
+    <desc lang="no">The news of society's growing inequality makes all of us uneasy. But why? Dan Ariely reveals some new, surprising research on what we think is fair, as far as how wealth is distributed over societies ... then shows how it stacks up to the real stats. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260423225400 +0000" stop="20260423225926 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Til det palestinske folket</title>
+    <desc lang="no">Trond Ali gir en støtteerklæring til det palestinske folket</desc>
+    <category lang="no">Solidaritet og bistand</category>
+  </programme>
+  <programme start="20260423230000 +0000" stop="20260423234938 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Open Source in Broadcasting</title>
+    <desc lang="no">For a variety of reasons broadcasters are not big users of open source - if anything many still have a viewpoint of Open Source that resembles views of the early 1990s. This presentation aims to explain what broadcasters around the world are doing in this area and what some of the difficulties are in an industry reliant on proprietary hardware and software as well as IPR-heavy. In particular it will look into the creation of the Open Broadcast Encoder (OBE), a professional television encoder running on commodity hardware which many Norwegian organisations have played a role in. Many of the deployments have been firsts for Open Source in broadcasting, not to mention software encoders, silencing many naysayers. Kieran Kunhya has worked on a variety of Open Source projects in multimedia, mainly on x264 and FFmpeg/libav, trying to make them suitable for use in professional environments such as Blu-Ray, television transmission and post-production to broadcaster file interchange. However, the technical issues are only half of the puzzle - he also spends a lot of time trying to explain Broadcasting to Open Source people and Open Source to Broadcasters and has spoken at many events about this. He is the creator of the Open Broadcast Encoder project, which is a fully open source broadcast encoder used to deliver a variety of channels around the world from the most high profile channels to much smaller channels, putting small players (e.g Frikanalen in Norway) on a similar playing field to the big players. He has worked on all the major deployments of OBE.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260423235000 +0000" stop="20260423235402 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TAK Shame on Arab governments</title>
+    <desc lang="no">Shame on Arab gorernments, and respect and houour to the resisting people in Gaza and Yemen</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260423235500 +0000" stop="20260424000800 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Mathias Jud: Art that lets you talk back to NSA spies</title>
+    <desc lang="no">In 2013, the world learned that the NSA and its UK equivalent, GCHQ, routinely spied on the German government. Amid the outrage, artists Mathias Jud and Christoph Wachter thought: Well, if they're listening ... let's talk to them. With antennas mounted on the roof of the Swiss Embassy in Berlin's government district, they set up an open network that let the world send messages to US and UK spies listening nearby. It's one of three bold, often funny, and frankly subversive works detailed in this talk, which highlights the world's growing discontent with surveillance and closed networks. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424000900 +0000" stop="20260424001643 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">At Stoltenberg tør?</title>
+    <desc lang="no">At Stoltenberg tør?</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424001700 +0000" stop="20260424010055 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Medieovervåkerne s.3, e.1: Oljefondets rolle i Israels folkemord</title>
+    <desc lang="no">Oljefondets rolle i Israels folkemord</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424010100 +0000" stop="20260424010718 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Marco Tempest: Maybe the best robot demo ever</title>
+    <desc lang="no">Marco Tempest uses charming stagecraft to demo EDI, the multi-purpose robot designed to work very closely with humans. Less a magic trick than an intricately choreographed performance, Tempest shows off the robot’s sensing technology, safety features and strength, and makes the case for a closer human-robot relationship. (Okay, there’s a little magic, too.) TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424010800 +0000" stop="20260424022245 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Data collection, psychometric profiling and their impact on politics</title>
+    <desc lang="no">Most political campaigns are data-driven nowadays, and many are getting into profiling of individual voters. Recently, a company with a strong background in military PSYOPS has implemented technology developed at Cambridge University, to enable psychological profiling based on digital traces. They have then been embedded into some of the most surprising recent political campaigns: Ted Cruz's, Donald Trump's and Leave.EU (Brexit). I will outline my personal journey, first discovering the technology as a test subject for Cambridge University, then investigating this company as a complete amateur, and eventually contributing to an article shared globally. A background article based on this research was published by NRK Beta early in february 2017, see &lt;https://nrkbeta.no/2017/02/04/dataene-som-snudde-verden-pa-hodet/&gt;. The speaker, Paul-Olivier Dehaye, is a mathematician at the University of Zurich working on interoperability tools enabling new forms of collaborative work on mathematical data, knowledge and software. In his spare time, he enjoys litigating (and especially winning!) against multibillion dollar businesses for the defence of his fundamental right to data protection. He is now leveraging that experience as co-founder of PersonalData.IO, a service that helps individuals regain control over their personal data. NUUG talk from 2017-04-04.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424022300 +0000" stop="20260424024102 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Fei-Fei Li: How we're teaching computers to understand pictures</title>
+    <desc lang="no">When a very young child looks at a picture, she can identify simple elements: "cat," "book," "chair." Now, computers are getting smart enough to do that too. What's next? In a thrilling talk, computer vision expert Fei-Fei Li describes the state of the art — including the database of 15 million photos her team built to "teach" a computer to understand pictures — and the key insights yet to come. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424024200 +0000" stop="20260424025602 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - David Pizarro: The strange politics of disgust</title>
+    <desc lang="no">What does a disgusting image have to do with how you vote? Equipped with surveys and experiments, psychologist David Pizarro demonstrates a correlation between sensitivity to disgusting cues -- a photo of feces, an unpleasant odor -- and moral and political conservatism. (Filmed at TEDxEast.) TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424025700 +0000" stop="20260424030211 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Rob Reid: The $8 billion iPod</title>
+    <desc lang="no">Comic author Rob Reid unveils Copyright Math (TM), a remarkable new field of study based on actual numbers from entertainment industry lawyers and lobbyists. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424030300 +0000" stop="20260424034850 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen og Hudson: Sivilasjoners skjebne, finansialisering og kollaps</title>
+    <desc lang="no">Diesen og Hudson: Sivilasjoners skjebne, finansialisering og kollaps</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424034900 +0000" stop="20260424041409 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">MakerCon - Autodesk’s 3D Printing Platform: Sparking innovation</title>
+    <desc lang="no">Hilde Sevens at MakerCon Nordic 2014-10-17.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424041500 +0000" stop="20260424042054 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">1. mai 2025. Solidaritetsdag og kamp for rettferd.</title>
+    <category lang="no">Solidaritet og bistand</category>
+  </programme>
+  <programme start="20260424042100 +0000" stop="20260424043659 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Eric Dishman: Health care should be a team sport</title>
+    <desc lang="no">When Eric Dishman was in college, doctors told him he had 2 to 3 years to live. That was a long time ago. One rectified diagnosis and a transplant later, Dishman puts his personal experience and his expertise as a leading medical tech specialist together to suggest some bold ideas for reinventing healthcare -- by putting the patient at the center of a treatment team. (Filmed at TED@Intel) TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424043700 +0000" stop="20260424044244 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Marco Tempest: Augmented reality, techno-magic</title>
+    <desc lang="no">Using sleight-of-hand techniques and charming storytelling, illusionist Marco Tempest brings a jaunty stick figure to life onstage at TEDGlobal. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424044300 +0000" stop="20260424050100 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Bruce Feiler: Agile programming -- for your family</title>
+    <desc lang="no">Bruce Feiler has a radical idea: To deal with the stress of modern family life, go agile. Inspired by agile software programming, Feiler introduces family practices which encourage flexibility, bottom-up idea flow, constant feedback and accountability. One surprising feature: Kids pick their own punishments. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424050200 +0000" stop="20260424051318 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Trond Alis Kvarter - Anmeldelse av Midtøsten på 200 sider, og Arab and Jew in the land of Canaan</title>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260424051400 +0000" stop="20260424053558 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TAK - Fred i Palestina krever oppgjør med sionist-jødisk tenkning</title>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260424053600 +0000" stop="20260424054834 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Laura Snyder: The Philosophical Breakfast Club</title>
+    <desc lang="no">In 1812, four men at Cambridge University met for breakfast. What began as an impassioned meal grew into a new scientific revolution, in which these men -- who called themselves “natural philosophers” until they later coined “scientist” -- introduced four major principles into scientific inquiry. Historian and philosopher Laura Snyder tells their intriguing story. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424054900 +0000" stop="20260424065126 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Medieovervåkerne: Glenn Diesen om Ukraina, USAID og NGOenes rolle</title>
+    <desc lang="no">Glenn Diesen om Ukraina, USAID og NGOenes rolle</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424065200 +0000" stop="20260424065955 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Palestine and The Rights of Return</title>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424072234 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Shofar August har mange merkedager i Israel</title>
+    <desc lang="no">Bladet Evangelisten Program 33 August har mange merkedager i Israel. Både i Hebron og i Gasa erdet sett dype spor som alltid vil prege folket. Smerten skaperforventinger og bønn til Israels Gud.</desc>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260424072300 +0000" stop="20260424073205 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Tom Wujec: Got a wicked problem? First, tell me how you make toast</title>
+    <desc lang="no">Making toast doesn’t sound very complicated — until someone asks you to draw the process, step by step. Tom Wujec loves asking people and teams to draw how they make toast, because the process reveals unexpected truths about how we can solve our biggest, most complicated problems at work. Learn how to run this exercise yourself, and hear Wujec’s surprising insights from watching thousands of people draw toast. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424073300 +0000" stop="20260424075508 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">MakerCon - Ultimaker — and open source 3D printing</title>
+    <desc lang="no">Erik de Bruijn at MakerCon Nordic 2014-10-17.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424075600 +0000" stop="20260424075648 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Frikanalen Informasjonsfilm</title>
+    <desc lang="no">Info!</desc>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260424075700 +0000" stop="20260424075830 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Caminandes 1: Llama Drama</title>
+    <desc lang="no">Llamaen Koro møter en uventet hindring, og finner en overraskende løsning.</desc>
+    <category lang="no">Barn og ungdom</category>
+  </programme>
+  <programme start="20260424075900 +0000" stop="20260424075935 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Infoplakat Frikanalen</title>
+    <desc lang="no">Informasjon om Frikanalen</desc>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424084625 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Jehovas hage og litt til...</title>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260424084700 +0000" stop="20260424085456 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Peter van Manen: How can Formula 1 racing help ... babies?</title>
+    <desc lang="no">During a Formula 1 race, a car sends hundreds of millions of data points to its garage for real-time analysis and feedback. So why not use this detailed and rigorous data system elsewhere, like ... at children’s hospitals? Peter van Manen tells us more. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424085500 +0000" stop="20260424085813 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Glass</title>
+    <desc lang="no">To amatørkunstkritikere treffes i et kunstgalleri og argumenterer heftig om maleriene de får se, inntil de endelig finner et kunstverk de kan enes om...</desc>
+    <category lang="no">Barn og ungdom</category>
+    <category lang="no">Kultur</category>
+  </programme>
+  <programme start="20260424085900 +0000" stop="20260424085935 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Infoplakat</title>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424091346 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">(38) Jehovas vitner - Tre eldstebrødre i Frankrike har ekskludert sine egne ledere Det Styrende Råd – Men er disse brødrene falske, eller er de ansatt av Vakttårnet?</title>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260424091400 +0000" stop="20260424100740 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Nettmøte om Jemen</title>
+    <desc lang="no">17 stater kriger mot Jemen. Samtidig blokkerer de forsyninger til Jemen. Lidelsene er enorme. De tiltar.</desc>
+    <category lang="no">Solidaritet og bistand</category>
+  </programme>
+  <programme start="20260424100800 +0000" stop="20260424110754 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen intervjuer Beletic: Iran-krigen leder til krig mot Kina</title>
+    <desc lang="no">Diesen intervjuer Beletic: Iran-krigen leder til krig mot Kina</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424110800 +0000" stop="20260424112431 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Dave deBronkart: Meet e-Patient Dave</title>
+    <desc lang="no">When Dave deBronkart learned he had a rare and terminal cancer, he turned to a group of fellow patients online -- and found the medical treatment that saved his life. Now he calls on all patients to talk with one another, know their own health data, and make health care better one e-Patient at a time. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424112500 +0000" stop="20260424121920 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen og Powell: Tid for energisuverenitet og energikrig</title>
+    <desc lang="no">Diesen og Powell: Tid for energisuverenitet og energikrig</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424122000 +0000" stop="20260424124619 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">MakerCon - The Impact of the Maker Movement</title>
+    <desc lang="no">Mike Senese at MakerCon Nordic 2014-10-17.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424124700 +0000" stop="20260424135259 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen: Hvordan CIA unndro seg statlig kontroll</title>
+    <desc lang="no">Diesen: Hvordan CIA unndro seg statlig kontroll</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424135300 +0000" stop="20260424135959 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Trond Alis Kvarter - Om Hard Choises, av Hillary Clinton</title>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424145450 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen og Crooke om falsk fred og fullskala-krig mot Iran</title>
+    <desc lang="no">Diesen og Crooke om falsk fred og fullskala-krig mot Iran</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424145500 +0000" stop="20260424151314 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - John Green: The nerd's guide to learning everything online</title>
+    <desc lang="no">Some of us learn best in the classroom, and some of us ... well, we don't. But we still love to learn, to find out new things about the world and challenge our minds. We just need to find the right place to do it, and the right community to learn with. In this charming talk, author John Green shares the world of learning he found in online video. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Barn og ungdom</category>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424151400 +0000" stop="20260424152020 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Christopher Soghoian: A brief history of phone wiretapping -- and how to avoid it</title>
+    <desc lang="no">Who is listening in on your phone calls? On a landline, it could be anyone, says privacy activist Christopher Soghoian, because surveillance backdoors are built into the phone system by default, to allow governments to listen in. But then again, so could a foreign intelligence service ... or a criminal. Which is why, says Soghoian, some tech companies are resisting governments' call to build the same backdoors into mobile phones and new messaging systems. Learn how some tech companies are working to keep your calls and messages private. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424152100 +0000" stop="20260424152710 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Anand Varma: A thrilling look at the first 21 days of a bee’s life</title>
+    <desc lang="no">We’ve heard that bees are disappearing. But what is making bee colonies so vulnerable? Photographer Anand Varma raised bees in his backyard — in front of a camera — to get an up close view. This project, for National Geographic, gives a lyrical glimpse into a bee hive — and reveals one of the biggest threats to its health, a mite that preys on baby bees in the first 21 days of life. With his incredible footage, set to music from Magik*Magik Orchestra, Varma shows the problem ... and what’s being done to solve it. (This talk was part of a session at TED2015 guest-curated by Pop-Up Magazine: popupmagazine.com or @popupmag on Twitter.) TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424152800 +0000" stop="20260424152848 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Frikanalen Informasjonsfilm</title>
+    <desc lang="no">Info!</desc>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260424152900 +0000" stop="20260424152935 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Infoplakat Frikanalen</title>
+    <desc lang="no">Informasjon om Frikanalen</desc>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260424153000 +0000" stop="20260424154542 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Wendy Freedman: This new telescope might show us the beginning of the universe</title>
+    <desc lang="no">When and how did the universe begin? A global group of astronomers wants to answer that question by peering as far back in time as a large new telescope will let us see. Wendy Freedman headed the creation of the Giant Magellan Telescope, under construction in South America; at TEDGlobal in Rio, she shares a bold vision of the discoveries about our universe that the GMT could make possible. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424154600 +0000" stop="20260424155629 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Chris Milk: How virtual reality can create the ultimate empathy machine</title>
+    <desc lang="no">Chris Milk uses cutting edge technology to produce astonishing films that delight and enchant. But for Milk, the human story is the driving force behind everything he does. In this short, charming talk, he shows some of his collaborations with musicians including Kanye West and Arcade Fire, and describes his latest, mind-bending experiments with virtual reality. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Kultur</category>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424155700 +0000" stop="20260424155926 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Caminandes 2: Gran Dillama</title>
+    <desc lang="no">Llamaen Koro erfarer at gresset er grønnere på den andre siden av gjerdet, og at veien dit kan være lang.</desc>
+    <category lang="no">Barn og ungdom</category>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424162715 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Israel - Guds Folk, del 1</title>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424162800 +0000" stop="20260424165824 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Console Password Manager - Passord-behandling i terminalen</title>
+    <desc lang="no">Console Password Manager (CPM) er et program for å håndtere lagring av passord på en sikker og strukturert måte. Det bruker ncurses for brukergrensesnitt, libxml2 for å lagre informasjonen, zlib for å komprimere dataen og GpgMe-biblioteket for å kryptere og dekryptere informasjonen. Kacper jobber i Redpill Linpro, han spesialiserer seg på sikkerhet og et helhetlig perspektiv over datasystemene. Han har erfaring innen utvikling, distribusjon og analyse. NUUG talk from 2014-05-13.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424165900 +0000" stop="20260424165935 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Infoplakat</title>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424175456 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">(34) Jehovas Vitner og Vakttårnet ødela Andrea. Hun våknet opp mens hun tjente på hovedkontoret deres i New York. Andrea diskuterer også viktigheten av å hjelpe de som går ut.</title>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424183342 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen og Merandi: Usas blokkade og invasjon av Iran</title>
+    <desc lang="no">Diesen og Merandi: Usas blokkade og invasjon av Iran</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424183400 +0000" stop="20260424185157 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Sir Ken Robinson: Bring on the learning revolution!</title>
+    <desc lang="no">In this poignant, funny follow-up to his fabled 2006 talk, Sir Ken Robinson makes the case for a radical shift from standardized schools to personalized learning -- creating conditions where kids' natural talents can flourish. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424185200 +0000" stop="20260424185706 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Marco Tempest: The magic of truth and lies (and iPods)</title>
+    <desc lang="no">Using three iPods like magical props, Marco Tempest spins a clever, surprisingly heartfelt meditation on truth and lies, art and emotion. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424185800 +0000" stop="20260424185930 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Caminandes 1: Llama Drama</title>
+    <desc lang="no">Llamaen Koro møter en uventet hindring, og finner en overraskende løsning.</desc>
+    <category lang="no">Barn og ungdom</category>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424194245 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen og Jiang: Iran-krigen og kampen for petrodollar</title>
+    <desc lang="no">Diesen og Jiang: Iran-krigen og kampen for petrodollar</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424194300 +0000" stop="20260424195929 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Michael Specter: The danger of science denial</title>
+    <desc lang="no">Vaccine-autism claims, "Frankenfood" bans, the herbal cure craze: All point to the public's growing fear (and, often, outright denial) of science and reason, says Michael Specter. He warns the trend spells disaster for human progress. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424204616 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Medieovervåkerne s.4, e.3: Blir vi kvitt Viktor Orbán nå?</title>
+    <desc lang="no">Medieovervåkerne s.4, e.3: Blir vi kvitt Viktor Orbán nå?</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424204700 +0000" stop="20260424213929 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Stopp NATO 5. november 2022, del 1</title>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424214000 +0000" stop="20260424223040 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Medieovervåkerne s.3, e.6: Venezuela under angrep</title>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424223100 +0000" stop="20260424224910 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">MakerCon - How Making is Changing the World – and How You Can Too!</title>
+    <desc lang="no">Jennifer Turliuk at MakerCon Nordic 2014-10-17.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424225000 +0000" stop="20260424225847 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Apollo Robbins: The art of misdirection</title>
+    <desc lang="no">Hailed as the greatest pickpocket in the world, Apollo Robbins studies the quirks of human behavior as he steals your watch. In a hilarious demonstration, Robbins samples the buffet of the TEDGlobal 2013 audience, showing how the flaws in our perception make it possible to swipe a wallet and leave it on its owner’s shoulder while they remain clueless. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424225900 +0000" stop="20260424225948 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Frikanalen Informasjonsfilm</title>
+    <desc lang="no">Info!</desc>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260424230632 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Marco Tempest: A magical tale (with augmented reality)</title>
+    <desc lang="no">Marco Tempest spins a beautiful story of what magic is, how it entertains us and how it highlights our humanity -- all while working extraordinary illusions with his hands and an augmented reality machine. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424230700 +0000" stop="20260424231912 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Rajiv Maheswaran: The math behind basketball's wildest moves</title>
+    <desc lang="no">Basketball is a fast-moving game of improvisation, contact and, ahem, spatio-temporal pattern recognition. Rajiv Maheswaran and his colleagues are analyzing the movements behind the key plays of the game, to help coaches and players combine intuition with new data. Bonus: What they're learning could help us understand how humans move everywhere. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Idrett</category>
+  </programme>
+  <programme start="20260424232000 +0000" stop="20260424232952 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - James Veitch: This is what happens when you reply to spam email</title>
+    <desc lang="no">Suspicious emails: unclaimed insurance bonds, diamond-encrusted safe deposit boxes, close friends marooned in a foreign country. They pop up in our inboxes, and standard procedure is to delete on sight. But what happens when you reply? Follow along as writer and comedian James Veitch narrates a hilarious, months-long exchange with a spammer who offered to cut him in on a hot deal. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+    <category lang="no">Solidaritet og bistand</category>
+  </programme>
+  <programme start="20260424233000 +0000" stop="20260424233840 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">FNS RESOLUSJON OM SIONISME</title>
+    <desc lang="no">FNS RESOLUSJON OM SIONISME</desc>
+    <category lang="no">Samfunn og politikk</category>
+    <category lang="no">Solidaritet og bistand</category>
+  </programme>
+  <programme start="20260424233900 +0000" stop="20260424235052 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Ben Wellington: How we found the worst place to park in New York City -- using big data</title>
+    <desc lang="no">City agencies have access to a wealth of data and statistics reflecting every part of urban life. But as data analyst Ben Wellington suggests in this entertaining talk, sometimes they just don't know what to do with it. He shows how a combination of unexpected questions and smart data crunching can produce strangely useful insights, and shares tips on how to release large sets of data so that anyone can use them. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260424235100 +0000" stop="20260424235626 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Til det palestinske folket</title>
+    <desc lang="no">Trond Ali gir en støtteerklæring til det palestinske folket</desc>
+    <category lang="no">Solidaritet og bistand</category>
+  </programme>
+  <programme start="20260424235700 +0000" stop="20260425001120 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">MakerCon - Travelling maker stories</title>
+    <desc lang="no">Øyvind Nydal Dahl at MakerCon Nordic 2014-10-18.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425001200 +0000" stop="20260425003824 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">MakerCon - Making the first Maker Faire in Sweden</title>
+    <desc lang="no">Nils Olander at MakerCon Nordic 2014-10-18. Video at the end is from https://www.youtube.com/watch?v=79IotXVypFs with music from https://soundcloud.com/nocopyrightsounds/tobu-itro-sunburst-ncs-release .</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425003900 +0000" stop="20260425011530 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Stopp våpenkappløpet, med Sigurd Allern</title>
+    <desc lang="no">Stopp våpenkappløpet</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425011600 +0000" stop="20260425012645 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Ron Finley: A guerilla gardener in South Central LA</title>
+    <desc lang="no">Ron Finley plants vegetable gardens in South Central LA -- in abandoned lots, traffic medians, along the curbs. Why? For fun, for defiance, for beauty and to offer some alternative to fast food in a community where "the drive-thrus are killing more people than the drive-bys." TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425012700 +0000" stop="20260425013603 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Robin Murphy: These robots come to the rescue after a disaster</title>
+    <desc lang="no">When disaster strikes, who's first on the scene? More and more, it’s a robot. In her lab, Robin Murphy builds robots that fly, tunnel, swim and crawl through disaster scenes, helping firefighters and rescue workers save more lives safely — and help communities return to normal up to three years faster. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425013700 +0000" stop="20260425020312 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Trond Ali og Rabbi Dovid Weiss</title>
+    <desc lang="no">Trond Ali inviterer Rabbi Dovid Weiss til å uttale seg om Naturei Karta og anti-sionisme</desc>
+    <category lang="no">Solidaritet og bistand</category>
+  </programme>
+  <programme start="20260425020400 +0000" stop="20260425024645 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen og Jiang: Iran-krigen og kampen for petrodollar</title>
+    <desc lang="no">Diesen og Jiang: Iran-krigen og kampen for petrodollar</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425024700 +0000" stop="20260425033055 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Medieovervåkerne s.3, e.1: Oljefondets rolle i Israels folkemord</title>
+    <desc lang="no">Oljefondets rolle i Israels folkemord</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425033100 +0000" stop="20260425042038 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Open Source in Broadcasting</title>
+    <desc lang="no">For a variety of reasons broadcasters are not big users of open source - if anything many still have a viewpoint of Open Source that resembles views of the early 1990s. This presentation aims to explain what broadcasters around the world are doing in this area and what some of the difficulties are in an industry reliant on proprietary hardware and software as well as IPR-heavy. In particular it will look into the creation of the Open Broadcast Encoder (OBE), a professional television encoder running on commodity hardware which many Norwegian organisations have played a role in. Many of the deployments have been firsts for Open Source in broadcasting, not to mention software encoders, silencing many naysayers. Kieran Kunhya has worked on a variety of Open Source projects in multimedia, mainly on x264 and FFmpeg/libav, trying to make them suitable for use in professional environments such as Blu-Ray, television transmission and post-production to broadcaster file interchange. However, the technical issues are only half of the puzzle - he also spends a lot of time trying to explain Broadcasting to Open Source people and Open Source to Broadcasters and has spoken at many events about this. He is the creator of the Open Broadcast Encoder project, which is a fully open source broadcast encoder used to deliver a variety of channels around the world from the most high profile channels to much smaller channels, putting small players (e.g Frikanalen in Norway) on a similar playing field to the big players. He has worked on all the major deployments of OBE.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425042100 +0000" stop="20260425051329 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Stopp NATO 5. november 2022, del 1</title>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425051400 +0000" stop="20260425054642 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen og Blumenthal om Venezuela blir innvandert</title>
+    <desc lang="no">Diesen og Blumenthal om Venezuela blir innvandert</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425054700 +0000" stop="20260425060217 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Sanjay Pradhan: How open data is changing international aid</title>
+    <desc lang="no">How do we make sure that development and aid money actually goes to the people who most need it? Sanjay Pradhan of the World Bank Institute lays out three guidelines to help relief efforts make the most impact — while curbing corruption. One key: connecting the players who are working to change broken systems with the data they need. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425060300 +0000" stop="20260425070859 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen: Hvordan CIA unndro seg statlig kontroll</title>
+    <desc lang="no">Diesen: Hvordan CIA unndro seg statlig kontroll</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425070900 +0000" stop="20260425073058 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TAK - Fred i Palestina krever oppgjør med sionist-jødisk tenkning</title>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260425073100 +0000" stop="20260425074026 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Trevor Aaronson: How this FBI strategy is actually creating US-based terrorists</title>
+    <desc lang="no">There's an organization responsible for more terrorism plots in the United States than al-Qaeda, al-Shabaab and ISIS combined: The FBI. How? Why? In an eye-opening talk, investigative journalist Trevor Aaronson reveals a disturbing FBI practice that breeds terrorist plots by exploiting Muslim-Americans with mental health problems. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425074100 +0000" stop="20260425075413 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Vijay Kumar: The future of flying robots</title>
+    <desc lang="no">At his lab at the University of Pennsylvania, Vijay Kumar and his team have created autonomous aerial robots inspired by honeybees. Their latest breakthrough: Precision Farming, in which swarms of robots map, reconstruct and analyze every plant and piece of fruit in an orchard, providing vital information to farmers that can help improve yields and make water management smarter. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425075500 +0000" stop="20260425081419 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Melissa Fleming: A boat carrying 500 refugees sunk at sea. The story of two survivors</title>
+    <desc lang="no">Aboard an overloaded ship carrying more than 500 refugees, a young woman becomes an unlikely hero. This single, powerful story, told by Melissa Fleming of the UN's refugee agency, gives a human face to the sheer numbers of human beings trying to escape to better lives ... as the refugee ships keep coming ... TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425081500 +0000" stop="20260425082056 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Greg Gage: How to control someone else's arm with your brain</title>
+    <desc lang="no">Greg Gage is on a mission to make brain science accessible to all. In this fun, kind of creepy demo, the neuroscientist and TED Senior Fellow uses a simple, inexpensive DIY kit to take away the free will of an audience member. It’s not a parlor trick; it actually works. You have to see it to believe it. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425082100 +0000" stop="20260425083748 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Mitch Resnick: Let's teach kids to code</title>
+    <desc lang="no">Coding isn’t just for computer whizzes, says Mitch Resnick of MIT Media Lab -- it’s for everyone. In a fun, demo-filled talk Resnick outlines the benefits of teaching kids to code, so they can do more than just “read” new technologies -- but also create them. (Filmed at TEDxBeaconStreet.) TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425083800 +0000" stop="20260425085243 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Michael Green: How we can make the world a better place by 2030</title>
+    <desc lang="no">Can we end hunger and poverty, halt climate change and achieve gender equality in the next 15 years? The governments of the world think we can. Meeting at the UN in September 2015, they agreed to a new set of Global Goals for the development of the world to 2030. Social progress expert Michael Green invites us to imagine how these goals and their vision for a better world can be achieved. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425085300 +0000" stop="20260425085854 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">1. mai 2025. Solidaritetsdag og kamp for rettferd.</title>
+    <category lang="no">Solidaritet og bistand</category>
+  </programme>
+  <programme start="20260425085900 +0000" stop="20260425085935 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Infoplakat</title>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425094230 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">(37) Jehovas Vitner og The New World Order - New World Translation - New World Society - Frimureri etc.</title>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260425094300 +0000" stop="20260425095728 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Paul Greenberg: The four fish we're overeating -- and what to eat instead</title>
+    <desc lang="no">The way we fish for popular seafood such as salmon, tuna and shrimp is threatening to ruin our oceans. Paul Greenberg explores the sheer size and irrationality of the seafood economy, and suggests a few specific ways we can change it, to benefit both the natural world and the people who depend on fishing for their livelihoods. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425095800 +0000" stop="20260425095930 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Caminandes 1: Llama Drama</title>
+    <desc lang="no">Llamaen Koro møter en uventet hindring, og finner en overraskende løsning.</desc>
+    <category lang="no">Barn og ungdom</category>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425102722 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Hvem er Gud?</title>
+    <desc lang="no">Ut i det perifere</desc>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260425102800 +0000" stop="20260425104507 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Geoffrey Canada: Our failing schools. Enough is enough!</title>
+    <desc lang="no">Why, why, why does our education system look so similar to the way it did 50 years ago? Millions of students were failing then, as they are now -- and it’s because we’re clinging to a business model that clearly doesn’t work. Education advocate Geoffrey Canada dares the system to look at the data, think about the customers and make systematic shifts in order to help greater numbers of kids excel. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425104600 +0000" stop="20260425104858 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Ingen sionister i våre gater</title>
+    <desc lang="no">Ingen sionister i våre gater</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425104900 +0000" stop="20260425105834 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Topher White: What can save the rainforest? Your used cell phone</title>
+    <desc lang="no">The sounds of the rainforest include: the chirps of birds, the buzz of cicadas, the banter of gibbons. But in the background is the almost-always present sound of a chainsaw, from illegal loggers. Engineer Topher White shares a simple, scalable way to stop this brutal deforestation — that starts with your old cell phone. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425105900 +0000" stop="20260425105935 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Infoplakat Frikanalen</title>
+    <desc lang="no">Informasjon om Frikanalen</desc>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425112413 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Shofar - Josef og brødrene</title>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260425112500 +0000" stop="20260425114710 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Gary Haugen: The hidden reason for poverty the world needs to address now</title>
+    <desc lang="no">Collective compassion has meant an overall decrease in global poverty since the 1980s, says civil rights lawyer Gary Haugen. Yet for all the world's aid money, there's a pervasive hidden problem keeping poverty alive. Haugen reveals the dark underlying cause we must recognize and act on now. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425114800 +0000" stop="20260425120822 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Laura Schulz: The surprisingly logical minds of babies</title>
+    <desc lang="no">How do babies learn so much from so little so quickly? In a fun, experiment-filled talk, cognitive scientist Laura Schulz shows how our young ones make decisions with a surprisingly strong sense of logic, well before they can talk. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425120900 +0000" stop="20260425122935 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">MakerCon - Making in Norway</title>
+    <desc lang="no">Haakon Karlsen Jr., Graham Hayward and Jens Dyvik at MakerCon Nordic 2014-10-17.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425123000 +0000" stop="20260425124512 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Jeremy Heimans: What new power looks like</title>
+    <desc lang="no">We can see the power of distributed, crowd-sourced business models every day — witness Uber, Kickstarter, Airbnb. But veteran online activist Jeremy Heimans asks: When does that kind of "new power" start to work in politics? His surprising answer: Sooner than you think. It’s a bold argument about the future of politics and power; watch and see if you agree. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260425124600 +0000" stop="20260425140850 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">OpenStack og drift i nettskyen</title>
+    <desc lang="no">Dag Stenstad fra Zetta.IO presenterer hvordan man kommer igang med drift av tjenester i nettskyen. De siste årene har skjedd en stor omveltning i den globale IT-bransjen, hvor IT-infrastruktur blir industrialisert og standardisert. Dette legger grunnlaget for helt andre drifts- og utviklingsmodeller enn det som benyttes i dag. Automatisering av oppsett og styring av kapasitet, gjør at fokus endres fra det å drifte enkelte servere, til å levere tjenester. Dag er daglig leder i Zetta.IO, den første norske leverandøren av Infrastruktur som tjeneste (IaaS) levert på Openstack. Han har 16 års erfaring fra telco- og hostingbransjen.</desc>
+    <category lang="no">Annet</category>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425140900 +0000" stop="20260425142220 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Daniel Suarez: The kill decision shouldn't belong to a robot</title>
+    <desc lang="no">As a novelist, Daniel Suarez spins dystopian tales of the future. But on the TEDGlobal stage, he talks us through a real-life scenario we all need to know more about: the rise of autonomous robotic weapons of war. Advanced drones, automated weapons and AI-powered intelligence-gathering tools, he suggests, could take the decision to make war out of the hands of humans. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425142300 +0000" stop="20260425142530 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Caminandes 3: Llamigos</title>
+    <desc lang="no">I denne episoden av tegnefilmserien Caminandes blir vi enda bedre kjent med vår helt Koro. Det er vinter i Patagonia, og det er lite mat. Llamaen Koro møter den plagsomme pingvinen Oti i en episk kamp om siste saftige bær.</desc>
+    <category lang="no">Barn og ungdom</category>
+  </programme>
+  <programme start="20260425142600 +0000" stop="20260425142913 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Glass</title>
+    <desc lang="no">To amatørkunstkritikere treffes i et kunstgalleri og argumenterer heftig om maleriene de får se, inntil de endelig finner et kunstverk de kan enes om...</desc>
+    <category lang="no">Barn og ungdom</category>
+    <category lang="no">Kultur</category>
+  </programme>
+  <programme start="20260425143000 +0000" stop="20260425151005 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">NUUG-foredrag： Sikker sletting, kryptering og bedre utnyttelse av datalager med komprimering</title>
+    <desc lang="no">NUUG</desc>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260425151100 +0000" stop="20260425152502 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - David Pizarro: The strange politics of disgust</title>
+    <desc lang="no">What does a disgusting image have to do with how you vote? Equipped with surveys and experiments, psychologist David Pizarro demonstrates a correlation between sensitivity to disgusting cues -- a photo of feces, an unpleasant odor -- and moral and political conservatism. (Filmed at TEDxEast.) TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425152600 +0000" stop="20260425154449 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">MakerCon - Making a one year school course for young makers</title>
+    <desc lang="no">Olav Helland at MakerCon Nordic 2014-10-18.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425154500 +0000" stop="20260425155618 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Trond Alis Kvarter - Anmeldelse av Midtøsten på 200 sider, og Arab and Jew in the land of Canaan</title>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260425155700 +0000" stop="20260425155926 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Caminandes 2: Gran Dillama</title>
+    <desc lang="no">Llamaen Koro erfarer at gresset er grønnere på den andre siden av gjerdet, og at veien dit kan være lang.</desc>
+    <category lang="no">Barn og ungdom</category>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425163958 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Israels 12 stammer er oss europeere</title>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260425164000 +0000" stop="20260425165251 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Harald Haas: Wireless data from every light bulb</title>
+    <desc lang="no">What if every light bulb in the world could also transmit data? At TEDGlobal, Harald Haas demonstrates, for the first time, a device that could do exactly that. By flickering the light from a single LED, a change too quick for the human eye to detect, he can transmit far more data than a cellular tower -- and do it in a way that's more efficient, secure and widespread. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425165300 +0000" stop="20260425165811 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Rob Reid: The $8 billion iPod</title>
+    <desc lang="no">Comic author Rob Reid unveils Copyright Math (TM), a remarkable new field of study based on actual numbers from entertainment industry lawyers and lobbyists. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425165900 +0000" stop="20260425165948 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Frikanalen Informasjonsfilm</title>
+    <desc lang="no">Info!</desc>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425171838 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">(16) Jehovas Vitner høster nå fruktene av det de har sådd. Deres tillit til Det Styrende Råd rakner fullstendig.</title>
+    <desc lang="no">E.Langemyr</desc>
+    <category lang="no">Annet</category>
+    <category lang="no">Religion og livssyn</category>
+  </programme>
+  <programme start="20260425171900 +0000" stop="20260425174108 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">MakerCon - Ultimaker — and open source 3D printing</title>
+    <desc lang="no">Erik de Bruijn at MakerCon Nordic 2014-10-17.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425174200 +0000" stop="20260425175646 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Johann Hari: Everything you think you know about addiction is wrong</title>
+    <desc lang="no">What really causes addiction — to everything from cocaine to smart-phones? And how can we overcome it? Johann Hari has seen our current methods fail firsthand, as he has watched loved ones struggle to manage their addictions. He started to wonder why we treat addicts the way we do — and if there might be a better way. As he shares in this deeply personal talk, his questions took him around the world, and unearthed some surprising and hopeful ways of thinking about an age-old problem. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425175700 +0000" stop="20260425175958 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Ingen sionister i våre gater</title>
+    <desc lang="no">Ingen sionister i våre gater</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425185315 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen og Freeman: Diplomati feiler. Hurmuz-stredet lukket igjen</title>
+    <desc lang="no">Diesen og Freeman: Diplomati feiler. Hurmuz-stredet lukket igjen</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425185400 +0000" stop="20260425185924 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Nancy Lublin: Texting that saves lives</title>
+    <desc lang="no">When Nancy Lublin started texting teenagers to help with her social advocacy organization, what she found was shocking -- they started texting back about their own problems, from bullying to depression to abuse. So she's setting up a text-only crisis line, and the results might be even more important than she expected. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260425195037 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen og Krapivni: Iran-lekse, vil Russland gjengjelde mot Estland</title>
+    <desc lang="no">Diesen og Krapivni: Iran-lekse, vil Russland gjengjelde mot Estland</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425195100 +0000" stop="20260425195856 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">TED - Peter van Manen: How can Formula 1 racing help ... babies?</title>
+    <desc lang="no">During a Formula 1 race, a car sends hundreds of millions of data points to its garage for real-time analysis and feedback. So why not use this detailed and rigorous data system elsewhere, like ... at children’s hospitals? Peter van Manen tells us more. TED talk downloaded from The Internet Archive.</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425195900 +0000" stop="20260425195935 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Infoplakat</title>
+    <category lang="no">Annet</category>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425204616 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Medieovervåkerne s.4, e.3: Blir vi kvitt Viktor Orbán nå?</title>
+    <desc lang="no">Medieovervåkerne s.4, e.3: Blir vi kvitt Viktor Orbán nå?</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425204700 +0000" stop="20260425214120 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Diesen og Powell: Tid for energisuverenitet og energikrig</title>
+    <desc lang="no">Diesen og Powell: Tid for energisuverenitet og energikrig</desc>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+  <programme start="20260425214200 +0000" stop="20260425223240 +0000" channel="Frikanalen.no@SD">
+    <title lang="no">Medieovervåkerne s.3, e.6: Venezuela under angrep</title>
+    <category lang="no">Samfunn og politikk</category>
+  </programme>
+</tv>

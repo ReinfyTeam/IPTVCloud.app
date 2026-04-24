@@ -1,0 +1,1653 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="TV3Plus.dk@SD">
+    <display-name>3 Plus Danmark</display-name>
+    <icon src="https://i.imgur.com/pj9jZHP.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="3sat.de@SD">
+    <display-name>3sat</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/960px-3sat_2019.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="AdultChannel.uk@SD">
+    <display-name>Adult Channel</display-name>
+    <icon src="https://i.imgur.com/CLBDM6g.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="adult-channel-nightly">
+    <display-name>Adult Channel Nightly</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="AlJazeera.qa@English">
+    <display-name>Al Jazeera English</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="AnimalPlanetNordic.uk@SD">
+    <display-name>Animal Planet</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="arte.fr@SD">
+    <display-name>ARTE</display-name>
+    <icon src="https://i.imgur.com/ecXMjNl.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="ATGLive.se@SD">
+    <display-name>ATG Live</display-name>
+    <icon src="https://i.imgur.com/bPWFXkL.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="AxessTV.se@SD">
+    <display-name>Axess TV</display-name>
+    <icon src="https://i.imgur.com/cKM7uSR.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="BBCEarth.uk@Nordic">
+    <display-name>BBC Earth</display-name>
+    <icon src="https://i.imgur.com/nGSsUd4.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="bbc-news">
+    <display-name>BBC News</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="BBCNordic.uk@SD">
+    <display-name>BBC Nordic</display-name>
+    <icon src="https://i.imgur.com/pC4pZuz.jpg" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="bloomberg-tv-hd-uk">
+    <display-name>Bloomberg TV HD (UK)</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="BrazzersTVEurope.us@SD">
+    <display-name>BraZZers TV Plus</display-name>
+    <icon src="https://i.imgur.com/95nP0Pb.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="SFkanalen.se@SD">
+    <display-name>SF-Kanalen</display-name>
+    <icon src="https://i.imgur.com/YpnN63k.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="cartoon-network">
+    <display-name>Cartoon Network</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="CartoonitoWesternEurope.uk@Sweden">
+    <display-name>Cartoonito</display-name>
+    <icon src="https://i.imgur.com/9MrzLb1.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="cbs-reality-mena">
+    <display-name>CBS Reality MENA</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="china-global-television-network">
+    <display-name>China Global Television Network</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="CGTNDocumentary.cn@SD">
+    <display-name>China Global Television Network 9 Documentary</display-name>
+    <icon src="https://i.imgur.com/JHv0WxM.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="ClubMTVEurope.uk@SD">
+    <display-name>Club MTV</display-name>
+    <icon src="https://i.imgur.com/FD6eQI3.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="CNBCEurope.uk@SD">
+    <display-name>CNBC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="CNNInternational.us@MENA">
+    <display-name>CNN International</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="CuriosityChannel.us@SD">
+    <display-name>CuriosityStream</display-name>
+    <icon src="https://i.imgur.com/K0kZMYo.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DasErste.de@SD">
+    <display-name>Das Erste</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/ARD_Dachmarke_2014.svg/960px-ARD_Dachmarke_2014.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DiscoveryChannel.se@SD">
+    <display-name>Discovery Channel</display-name>
+    <icon src="https://i.imgur.com/7pmvDqg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DiscoveryPlusExtra1.se@SD">
+    <display-name>Discovery+ Extra 1</display-name>
+    <icon src="https://i.imgur.com/O9JdSXT.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DiscoveryPlusExtra2.se@SD">
+    <display-name>Discovery+ Extra 2</display-name>
+    <icon src="https://i.imgur.com/SiPFp5T.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DiscoveryPlusExtra3.se@SD">
+    <display-name>Discovery+ Extra 3</display-name>
+    <icon src="https://i.imgur.com/u4UlDGk.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DiscoveryPlusExtra4.se@SD">
+    <display-name>Discovery+ Extra 4</display-name>
+    <icon src="https://i.imgur.com/u4UlDGk.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DiscoveryPlusExtra5.se@SD">
+    <display-name>Discovery+ Extra 5</display-name>
+    <icon src="https://i.imgur.com/u4UlDGk.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DiscoveryPlusExtra6.se@SD">
+    <display-name>Discovery+ Extra 6</display-name>
+    <icon src="https://i.imgur.com/u4UlDGk.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DiscoveryPlusExtra7.se@SD">
+    <display-name>Discovery+ Extra 7</display-name>
+    <icon src="https://i.imgur.com/u4UlDGk.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DiscoveryPlusExtra8.se@SD">
+    <display-name>Discovery+ Extra 8</display-name>
+    <icon src="https://i.imgur.com/u4UlDGk.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DiscoveryScienceEurope.uk@UKHD">
+    <display-name>Discovery Science</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/960px-Discovery_Science_2017_Logo.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DisneyChannelScandinavia.uk@SD">
+    <display-name>Disney Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DisneyJuniorScandinavia.uk@SD">
+    <display-name>Disney Junior</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="disney-junior-lang-tabla">
+    <display-name>Disney Junior (lång tablå)</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="StingrayDJAZZ.ca@SD">
+    <display-name>Djazz HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="dk4.dk@SD">
+    <display-name>DK4</display-name>
+    <icon src="https://i.imgur.com/eTZ1qdk.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="dk4.dk@HD">
+    <display-name>DK4 HD</display-name>
+    <icon src="https://i.imgur.com/eTZ1qdk.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DMAX.de@SD">
+    <display-name>DMAX</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DR1.dk@SD">
+    <display-name>DR1</display-name>
+    <icon src="https://i.imgur.com/OETzsOI.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DR2.dk@SD">
+    <display-name>DR2</display-name>
+    <icon src="https://i.imgur.com/7bYtukP.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DR3.dk@SD">
+    <display-name>DR3</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/DR3_Logo_2020.svg/960px-DR3_Logo_2020.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DRK.dk@SD">
+    <display-name>DR K</display-name>
+    <icon src="https://i.imgur.com/hzVLK9Y.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DRRamasjang.dk@SD">
+    <display-name>DR Ramasjang</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/8/82/DR_Ramasjang_2020.svg/960px-DR_Ramasjang_2020.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="DRUltra.dk@SD">
+    <display-name>DR Ultra</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/DR_Ultra_Logo_2020.svg/960px-DR_Ultra_Logo_2020.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="dw">
+    <display-name>DW</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="EEurope.nl@SD">
+    <display-name>E!</display-name>
+    <icon src="https://i.imgur.com/TWFDkap.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="eSports1.de@SD">
+    <display-name>eSportsone</display-name>
+    <icon src="https://i.imgur.com/282zLCo.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="EuronewsEnglish.fr@SD">
+    <display-name>Euro News</display-name>
+    <icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Eurosport1.fr@France">
+    <display-name>Eurosport 1</display-name>
+    <icon src="https://i.imgur.com/olQJgm7.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Eurosport2.fr@France">
+    <display-name>Eurosport 2</display-name>
+    <icon src="https://i.imgur.com/f56dHgR.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="ExtremeSportsChannel.nl@SD">
+    <display-name>Extreme Sports Channel</display-name>
+    <icon src="https://i.imgur.com/m7IC01U.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="FightSports.us@SD">
+    <display-name>Fight Sports</display-name>
+    <icon src="https://i.imgur.com/nV55veq.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="France2.fr@SD">
+    <display-name>France 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="France24.fr@EnglishHD">
+    <display-name>France 24 English HD</display-name>
+    <icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="FashionTVEurope.fr@SD">
+    <display-name>FTV</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="FUELTV.at@SD">
+    <display-name>FUEL TV</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="GINXTV.uk@SD">
+    <display-name>GINX eSports TV</display-name>
+    <icon src="https://i.imgur.com/diw20TN.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="GODTV.uk@SD">
+    <display-name>GOD TV</display-name>
+    <icon src="https://i.imgur.com/hW4g2oe.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Godare.se@SD">
+    <display-name>Godare</display-name>
+    <icon src="https://i.imgur.com/F0k9nIc.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="History2Nordic.us@SD">
+    <display-name>H2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="HighTV3D.us@SD">
+    <display-name>High TV 3D</display-name>
+    <icon src="https://i.imgur.com/isohJ5Q.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="History.se@HD">
+    <display-name>History HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="history-hd-internationell">
+    <display-name>History HD (Internationell)</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="SkyHistory.uk@SD">
+    <display-name>History (UK)</display-name>
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1875.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="HorseCountryTV.uk@SD">
+    <display-name>Horse &amp; Country TV</display-name>
+    <icon src="https://i.imgur.com/1x6zYZr.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="HRT1.hr@SD">
+    <display-name>HRT1</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="HustlerHD.nl@SD">
+    <display-name>Hustler TV</display-name>
+    <icon src="https://i.imgur.com/41Ej2io.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="InvestigationDiscovery.se@SD">
+    <display-name>Investigation Discovery</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Kanal4.dk@SD">
+    <display-name>Kanal 4</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Kanal_4_Logo_2024.svg/960px-Kanal_4_Logo_2024.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Kanal5.se@SD">
+    <display-name>Kanal 5</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Kanal_5_%26_TV5_Logo_2024.svg" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Kanal5.dk@SD">
+    <display-name>Kanal 5 Danmark</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Kanal_5_%26_TV5_Logo_2024.svg/960px-Kanal_5_%26_TV5_Logo_2024.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Kanal9.se@SD">
+    <display-name>Kanal 9</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/df/Kanal_9_Logo_2024.svg" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Kanal10.se@SD">
+    <display-name>Kanal 10</display-name>
+    <icon src="https://i.imgur.com/FGGPANK.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Kanal11.se@SD">
+    <display-name>Kanal 11</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kanal_11_Logo_2024.svg/960px-Kanal_11_Logo_2024.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Kunskapskanalen.se@SD">
+    <display-name>Kunskapskanalen</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kunskapskanalen_2017.svg/960px-Kunskapskanalen_2017.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="LoveNature.ca@4K">
+    <display-name>Love Nature 4K UHD</display-name>
+    <icon src="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Mezzo.fr@SD">
+    <display-name>Mezzo</display-name>
+    <icon src="https://i.imgur.com/auNdGeW.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="MezzoLive.fr@SD">
+    <display-name>Mezzo Live</display-name>
+    <icon src="https://i.imgur.com/H9ytKPN.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="mitteldeutscher-rundfunk">
+    <display-name>Mitteldeutscher Rundfunk (MDF)</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Motorvision.de@SD">
+    <display-name>Motorvision TV</display-name>
+    <icon src="https://i.imgur.com/v4kj8pI.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="MTVGlobal.uk@SD">
+    <display-name>MTV</display-name>
+    <icon src="https://i.imgur.com/n2BoU7Q.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="MTV3.fi@SD">
+    <display-name>MTV3</display-name>
+    <icon src="https://i.imgur.com/C5rQbBM.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="mtv-00s-europe">
+    <display-name>MTV 00s Europe</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="MTV80s.uk@SD">
+    <display-name>MTV 80s</display-name>
+    <icon src="https://i.imgur.com/N9e5hv5.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="MTV90s.uk@SD">
+    <display-name>MTV 90s</display-name>
+    <icon src="https://i.imgur.com/au5zhwP.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="MTVAitio.se@SD">
+    <display-name>MTV Aitio</display-name>
+    <icon src="https://i.imgur.com/jRXC7oh.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="MTVHitsEurope.uk@SD">
+    <display-name>MTV Hits</display-name>
+    <icon src="https://i.imgur.com/zNscEST.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="MTVLive.uk@SD">
+    <display-name>MTV Live HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/3/30/MTV_Live_2021_logo.svg" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="MTVViihde.se@SD">
+    <display-name>MTV Viihde</display-name>
+    <icon src="https://i.imgur.com/gW2qMCs.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="NationalGeographic.se@SD">
+    <display-name>National Geographic</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="national-geographic-3">
+    <display-name>National Geographic (International)</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="national-geographic-hd-3">
+    <display-name>National Geographic HD</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="national-geographic-hd-30242">
+    <display-name>National Geographic HD</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="NationalGeographicWild.se@SD">
+    <display-name>National Geographic Wild</display-name>
+    <icon src="https://i.imgur.com/MFeyj6q.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="NauticalChannel.it@SD">
+    <display-name>Nautical Channel</display-name>
+    <icon src="https://i.imgur.com/2ByDyzL.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Nelonen.fi@SD">
+    <display-name>Nelonen</display-name>
+    <icon src="https://i.imgur.com/BFbCyfY.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="NFLNetwork.us@SD">
+    <display-name>NFL Network</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="NHKWorldJapan.jp@SD">
+    <display-name>NHK World Europe</display-name>
+    <icon src="https://jiotvimages.cdn.jio.com/dare_images/images/NHK_World_Japan.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="NickJrScandinavia.nl@SD">
+    <display-name>Nick JR</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="nick-jr-lang-tabla">
+    <display-name>Nick JR (lång tablå)</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="NickelodeonScandinavia.nl@SD">
+    <display-name>Nickelodeon</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="NicktoonsScandinavia.nl@SD">
+    <display-name>Nicktoons</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="NRK1.no@SD">
+    <display-name>NRK1</display-name>
+    <icon src="https://i.imgur.com/9tj8ds7.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="NRK2.no@SD">
+    <display-name>NRK2</display-name>
+    <icon src="https://i.imgur.com/SiAdoK9.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="NRK3.no@SD">
+    <display-name>NRK3</display-name>
+    <icon src="https://i.imgur.com/TNhV2I7.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="NRKSuperNRK3.no@HD">
+    <display-name>NRK Super / NRK3 HD</display-name>
+    <icon src="https://i.imgur.com/q5mpbzD.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="OUTtv.nl@SD">
+    <display-name>OUTtv</display-name>
+    <icon src="https://i.imgur.com/QlUWNSU.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="PenthouseHD1.us@SD">
+    <display-name>Penthouse HD 1</display-name>
+    <icon src="https://i.imgur.com/nOwGOL8.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="PenthouseHD2.us@SD">
+    <display-name>Penthouse HD 2</display-name>
+    <icon src="https://i.imgur.com/laGTKSg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="PinkPlus.rs@SD">
+    <display-name>Pink Plus</display-name>
+    <icon src="https://i.imgur.com/A3D1RZP.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="PlayboyTVEurope.us@SD">
+    <display-name>Playboy TV Europe</display-name>
+    <icon src="https://i.imgur.com/5di4Nis.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="ProSieben.de@SD">
+    <display-name>ProSieben</display-name>
+    <icon src="https://i.imgur.com/zZOk3nh.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Rai1.it@SD">
+    <display-name>Rai 1</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Rai_1_-_Logo_2016.svg/960px-Rai_1_-_Logo_2016.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Rai2.it@SD">
+    <display-name>Rai 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/960px-Rai_2_-_Logo_2016.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="RTL.de@SD">
+    <display-name>RTL</display-name>
+    <icon src="https://i.imgur.com/94K94k2.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="RTLZwei.de@SD">
+    <display-name>RTLZWEI</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/960px-RTLZWEI_Logo_2019.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="Sjuan.se@SD">
+    <display-name>Sjuan</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sjuan_2018.svg/960px-Sjuan_2018.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="SkyNewsInternational.uk@SD">
+    <display-name>Sky News</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/5/57/Sky_News_logo.svg" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="SkyShowtime1.se@SD">
+    <display-name>SkyShowtime 1</display-name>
+    <icon src="https://i.imgur.com/Dw9Yv9P.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="SkyShowtime2.se@SD">
+    <display-name>SkyShowtime 2</display-name>
+    <icon src="https://i.imgur.com/mgiHnYW.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="StingrayClassica.ca@SD">
+    <display-name>Stingray Classica</display-name>
+    <icon src="https://i.imgur.com/nh1k5RC.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="RTLSuper.de@SD">
+    <display-name>Super RTL</display-name>
+    <icon src="https://i.imgur.com/KbdK8t9.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="SVT1.se@SD">
+    <display-name>SVT1</display-name>
+    <icon src="https://i.imgur.com/j6KusQX.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="SVT2.se@SD">
+    <display-name>SVT2</display-name>
+    <icon src="https://i.imgur.com/pGWvCxp.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="SVT24.se@SD">
+    <display-name>SVT24</display-name>
+    <icon src="https://i.imgur.com/Ms6qYIV.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="SVTBarn.se@SD">
+    <display-name>SVT Barn</display-name>
+    <icon src="https://i.imgur.com/ibA8mzG.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TLC.se@SD">
+    <display-name>TLC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TraceUrban.fr@SD">
+    <display-name>Trace Urban HD</display-name>
+    <icon src="https://i.imgur.com/DLIbUMx.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TravelChannelEMEA.uk@SD">
+    <display-name>Travel Channel</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV2.dk@SD">
+    <display-name>TV2</display-name>
+    <icon src="https://i.imgur.com/IZTe8ms.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV2Direkte.no@SD">
+    <display-name>TV2 (Norge)</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/TV_2_Direkte_%282022-%29.svg/960px-TV_2_Direkte_%282022-%29.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV3.se@SD">
+    <display-name>TV3</display-name>
+    <icon src="https://i.imgur.com/oysCIiw.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV3Plus.no@SD">
+    <display-name>TV3+</display-name>
+    <icon src="https://i.imgur.com/QJdfJKx.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV3.dk@SD">
+    <display-name>TV3 Danmark</display-name>
+    <icon src="https://i.imgur.com/sCr0h4N.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV3.no@SD">
+    <display-name>TV3 Norge</display-name>
+    <icon src="https://i.imgur.com/SAQHN12.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4.se@SD">
+    <display-name>TV4</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/TV4sweden_logo.svg/960px-TV4sweden_logo.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4Fakta.se@SD">
+    <display-name>TV4 Fakta</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/e/ef/TV4_Fakta_Logo_2023.svg" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4Film.se@SD">
+    <display-name>TV4 Film</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/a/ac/TV4_Film_Logo_2023.svg" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4Fotboll.se@SD">
+    <display-name>TV4 Fotboll</display-name>
+    <icon src="https://i.imgur.com/k83j0Nl.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4Guld.se@SD">
+    <display-name>TV4 Guld</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/c/c1/TV4_Guld_Logo_2023.svg" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4Hits.se@SD">
+    <display-name>TV4 Hits</display-name>
+    <icon src="https://i.imgur.com/EPYOSwZ.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4Hockey.se@SD">
+    <display-name>TV4 Hockey</display-name>
+    <icon src="https://i.imgur.com/GZ0rLfa.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4Motor.se@SD">
+    <display-name>TV4 Motor</display-name>
+    <icon src="https://i.imgur.com/IWEOuwZ.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4SportLive1.se@SD">
+    <display-name>TV4 Sport Live 1</display-name>
+    <icon src="https://i.imgur.com/rveZPpn.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4SportLive2.se@SD">
+    <display-name>TV4 Sport Live 2</display-name>
+    <icon src="https://i.imgur.com/a59DoEM.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4SportLive3.se@SD">
+    <display-name>TV4 Sport Live 3</display-name>
+    <icon src="https://i.imgur.com/zkPpXQB.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4SportLive4.se@SD">
+    <display-name>TV4 Sport Live 4</display-name>
+    <icon src="https://i.imgur.com/KBHOg6D.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4Sportkanalen.se@SD">
+    <display-name>TV4 Sportkanalen</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/TV4_Sportkanalen_Logo_2023.svg/960px-TV4_Sportkanalen_Logo_2023.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4Stars.se@SD">
+    <display-name>TV4 Stars</display-name>
+    <icon src="https://i.imgur.com/Sn7QnZa.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV4Tennis.se@SD">
+    <display-name>TV4 Tennis</display-name>
+    <icon src="https://i.imgur.com/ZW4rCG1.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="tv5-hd">
+    <display-name>TV5 HD</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV5MondeEurope.fr@SD">
+    <display-name>TV5 Monde Europe</display-name>
+    <icon src="https://i.imgur.com/rPAbMSu.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV6.se@SD">
+    <display-name>TV6</display-name>
+    <icon src="https://i.imgur.com/a9mMd2Q.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV8.se@SD">
+    <display-name>TV8</display-name>
+    <icon src="https://i.imgur.com/OiUyVUx.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV10.se@SD">
+    <display-name>TV10</display-name>
+    <icon src="https://i.imgur.com/unjaCJ6.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TV12.se@SD">
+    <display-name>TV12</display-name>
+    <icon src="https://i.imgur.com/ocrwbth.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TVChile.cl@SD">
+    <display-name>TV Chile</display-name>
+    <icon src="https://i.imgur.com/oYFto0V.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TVFinland.fi@SD">
+    <display-name>TV Finland</display-name>
+    <icon src="https://i.imgur.com/KXWjONv.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TVNorge.no@HD">
+    <display-name>TV Norge HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/TVNorge_Logo_2024.svg/960px-TVNorge_Logo_2024.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TVEInternacionalEuropeAsia.es@SD">
+    <display-name>TVE Internacional</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TVPPolonia.pl@SD">
+    <display-name>TVP Polonia</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/960px-TVP_Polonia_Logo_2020.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VFilmAction.se@SD">
+    <display-name>V Film Action</display-name>
+    <icon src="https://i.imgur.com/So0mOF8.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VFilmFamily.se@SD">
+    <display-name>V Film Family</display-name>
+    <icon src="https://i.imgur.com/K6fQ8pe.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VFilmHits.se@SD">
+    <display-name>V Film Hits</display-name>
+    <icon src="https://i.imgur.com/ga6EOsb.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VFilmPremiere.se@SD">
+    <display-name>V Film Premiere</display-name>
+    <icon src="https://i.imgur.com/QdFKe21.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSeries.se@SD">
+    <display-name>V Series</display-name>
+    <icon src="https://i.imgur.com/IXWuXB0.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSport1.se@Sweden">
+    <display-name>V Sport 1</display-name>
+    <icon src="https://i.imgur.com/ERWOdjs.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSportExtra.se@SD">
+    <display-name>V Sport Extra</display-name>
+    <icon src="https://i.imgur.com/xwdHxtk.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSportFootball.se@SD">
+    <display-name>V Sport Football</display-name>
+    <icon src="https://i.imgur.com/8zupSOw.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="v-sport-football-live-1">
+    <display-name>V Sport Football Live 1</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="v-sport-football-live-2">
+    <display-name>V Sport Football Live 2</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="v-sport-football-live-3">
+    <display-name>V Sport Football Live 3</display-name>
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSportGolf.se@SD">
+    <display-name>V Sport Golf</display-name>
+    <icon src="https://i.imgur.com/wCw8Pmz.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSportLive1.se@SD">
+    <display-name>V Sport Live 1</display-name>
+    <icon src="https://i.imgur.com/KGm37xW.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSportLive2.se@SD">
+    <display-name>V Sport Live 2</display-name>
+    <icon src="https://i.imgur.com/mrYUeKy.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSportLive3.se@SD">
+    <display-name>V Sport Live 3</display-name>
+    <icon src="https://i.imgur.com/enr8IAy.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSportLive4.se@SD">
+    <display-name>V Sport Live 4</display-name>
+    <icon src="https://i.imgur.com/yjIXL9k.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSportLive5.se@SD">
+    <display-name>V Sport Live 5</display-name>
+    <icon src="https://i.imgur.com/DToZTJK.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSportMotor.se@SD">
+    <display-name>V Sport Motor</display-name>
+    <icon src="https://i.imgur.com/zspl8AY.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSportPremium.se@SD">
+    <display-name>V Sport Premium</display-name>
+    <icon src="https://i.imgur.com/BGXq2a4.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSportUltraHD.se@SD">
+    <display-name>V Sport Ultra HD</display-name>
+    <icon src="https://i.imgur.com/17OHnMi.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VSportVinter.se@SD">
+    <display-name>V Sport Vinter</display-name>
+    <icon src="https://i.imgur.com/1vtjktv.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="ViasatExplore.se@SD">
+    <display-name>Viasat Explore</display-name>
+    <icon src="https://i.imgur.com/DyT5pKB.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="ViasatHistory.se@SD">
+    <display-name>Viasat History</display-name>
+    <icon src="https://i.imgur.com/wRP9XA7.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="ViasatNature.se@SD">
+    <display-name>Viasat Nature</display-name>
+    <icon src="https://i.imgur.com/ousRqqD.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="vijuPlusSport.ru@SD">
+    <display-name>Viasat Sport HD</display-name>
+    <icon src="https://i.imgur.com/fXESG0l.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="TVVisionSverige.se@SD">
+    <display-name>Vision Sverige</display-name>
+    <icon src="https://i.imgur.com/nYtwG8h.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="VOX.de@SD">
+    <display-name>VOX</display-name>
+    <icon src="https://i.imgur.com/QPcmfZb.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="WildTV.ca@SD">
+    <display-name>WILD TV HD</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Wild_TV_logo_2020.png/960px-Wild_TV_logo_2020.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="YleTeemaFem.fi@SD">
+    <display-name>Yle Teema &amp; Fem</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Yle_Teema_%26_Fem.svg/960px-Yle_Teema_%26_Fem.svg.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="YleTV1.fi@SD">
+    <display-name>Yle TV1</display-name>
+    <icon src="https://i.imgur.com/6yXZwUL.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="YleTV2.fi@SD">
+    <display-name>Yle TV2</display-name>
+    <icon src="https://i.imgur.com/4xkc6PL.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <channel id="ZDF.de@SD">
+    <display-name>ZDF</display-name>
+    <icon src="https://i.imgur.com/rtLb6m9.png" />
+    <url>https://tv.nu</url>
+  </channel>
+  <programme start="20260424123000 +0000" stop="20260424131500 +0000" channel="3sat.de@SD">
+    <title lang="de">Nationalparks: Geschützte Naturwunder</title>
+    <desc lang="de">Die vulkanische Insel Island wartet mit drei Nationalparks auf: voller Gletscher, Wasserfällen, heißer Quellen, und beeindruckender Zeugnisse der Wikinger, die dieses Land besiedelten.</desc>
+    <category lang="de">Dokumentär</category>
+    <category lang="de">Mijö</category>
+    <category lang="de">Natur</category>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+  </programme>
+  <programme start="20260424131500 +0000" stop="20260424140000 +0000" channel="3sat.de@SD">
+    <title lang="de">Nationalparks: Geschützte Naturwunder</title>
+    <desc lang="de">Im Eryri-Nationalpark im Nordwesten von Wales verbinden sich wilde Berge mit britischer Industriegeschichte. Heute spielt dort neben dem Tourismus auch Landwirtschaft eine wichtige Rolle.</desc>
+    <category lang="de">Dokumentär</category>
+    <category lang="de">Mijö</category>
+    <category lang="de">Natur</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424144500 +0000" channel="3sat.de@SD">
+    <title lang="de">Nationalparks: Geschützte Naturwunder</title>
+    <desc lang="de">Inmitten der zentraltürkischen Region Kappadokien liegt der Göreme-Nationalpark. Seine Landschaft weist einzigartige, kegelförmige Felsformationen auf, die als "Feenkamine" bekannt sind.</desc>
+    <category lang="de">Dokumentär</category>
+    <category lang="de">Mijö</category>
+    <category lang="de">Natur</category>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+  </programme>
+  <programme start="20260424144500 +0000" stop="20260424153000 +0000" channel="3sat.de@SD">
+    <title lang="de">Nationalparks: Geschützte Naturwunder</title>
+    <desc lang="de">Der Nationalpark Los Glaciares liegt auf der argentinischen Seite Patagoniens. Ein weites, windgepeitschtes Land mit Gletschern, türkisfarbenen Seen und atemberaubenden Bergpanoramen.</desc>
+    <category lang="de">Dokumentär</category>
+    <category lang="de">Mijö</category>
+    <category lang="de">Natur</category>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+  </programme>
+  <programme start="20260424153000 +0000" stop="20260424161500 +0000" channel="3sat.de@SD">
+    <title lang="de">Nationalparks: Geschützte Naturwunder</title>
+    <desc lang="de">Im Süden des französischen Zentralmassivs erstreckt sich der Cevennen-Nationalpark. Wo einst Dinosaurier umherstreiften, findet sich heute ein Naturparadies par excellence.</desc>
+    <category lang="de">Dokumentär</category>
+    <category lang="de">Mijö</category>
+    <category lang="de">Natur</category>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+  </programme>
+  <programme start="20260424161500 +0000" stop="20260424170000 +0000" channel="3sat.de@SD">
+    <title lang="de">nano</title>
+    <desc lang="de">Wie kommt man heraus aus einer Spirale des Hasses? Fernsehmoderator Tobi Krell findet in Bosnien, Mexiko und Kanada Menschen, die Wege aus dem Hass gefunden haben.</desc>
+    <category lang="de">Diskussion</category>
+    <category lang="de">Vetenskap</category>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424171800 +0000" channel="3sat.de@SD">
+    <title lang="de">heute</title>
+    <desc lang="de">20 Minuten für die Nachrichten des Tages. Der relevante Überblick aus der Nachrichtenredaktion des Zweiten Deutschen Fernsehens mit Vertiefung und Einordnung zu den wichtigsten Ereignissen in Deutschland und der Welt.</desc>
+    <category lang="de">Nyheter</category>
+  </programme>
+  <programme start="20260424171800 +0000" stop="20260424172000 +0000" channel="3sat.de@SD">
+    <title lang="de">3sat-Wetter</title>
+    <desc lang="de">Die Sendung "3sat-Wetter" zeigt die aktuelle Wetterlage und berichtet außerdem über die Wettervorhersage für die nächsten Tage aus den drei folgenden 3sat-Ländern - Deutschland, Österreich und der Schweiz.</desc>
+    <category lang="de">Väder</category>
+  </programme>
+  <programme start="20260424172000 +0000" stop="20260424180000 +0000" channel="3sat.de@SD">
+    <title lang="de">Kulturzeit</title>
+    <desc lang="de">"Kulturzeit" ist das werktägliche Kulturmagazin von 3sat. "Kulturzeit" mischt sich in kulturelle und gesellschaftspolitische Fragen ein. Das Magazin bietet Hintergrundinformationen, Porträts und Gespräche zu aktuellen und brisanten Fragen.</desc>
+    <category lang="de">Diskussion</category>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424181500 +0000" channel="3sat.de@SD">
+    <title lang="de">Tagesschau</title>
+    <desc lang="de">Die "Tagesschau" bietet die wichtigsten Nachrichten des Tages und zusätzliche Informationen in Text, Bild, Audio und Video sowie umfassende Berichte und Hintergründe zu aktuellen Themen und Entwicklungen. Das Flaggschiff unter den deutschen Nachrichtensendungen ist gleichzeitig die "dienstälteste" noch bestehende Sendung im deutschen Fernsehen. In bis zu 20 am Tag produzierten Sendungen wird die Komplexität des Weltgeschehens verständlich erklärt und in komprimierter Form über aktuelle politische, wirtschaftliche, soziale, kulturelle, sportliche und sonstige Ereignisse berichtet.</desc>
+    <category lang="de">Nyheter</category>
+  </programme>
+  <programme start="20260424181500 +0000" stop="20260424200000 +0000" channel="3sat.de@SD">
+    <title lang="de">Das Wunder von Kapstadt</title>
+    <desc lang="de">Die junge Medizinerin Lisa Scheel möchte als Chirurgin auch die berufliche Anerkennung ihres Vaters erkämpfen, der von seiner unehelichen Tochter nichts wissen will. Es ist der berühmte Herzchirurg Prof. Dr. Kohlfeld, bei dem sie die Assistenzstelle anstrebt. Als ihr Plan scheitert, fasst Lisa eine Entscheidung - Sie reist zu Dr. Christiaan Barnard nach Kapstadt, um ihm mit Wissen aus Kohlfelds Forschung zu ermöglichen, die erste Herztransplantation am Menschen durchzuführen. In dem Krankhausgärtner Hamilton, der als Schwarzer nur heimlich für Barnard forschen darf, erkennt sie den entscheidenden Helfer für die Operation.</desc>
+    <category lang="de">Drama</category>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424202500 +0000" channel="3sat.de@SD">
+    <title lang="de">ZIB 2</title>
+    <desc lang="de">Das tägliche Nachrichtenmagazin des ORF-Fernsehens.Von Montag bis Freitag liefert "ZIB 2" einen Überblick über die Ereignisse des Tages und bietet dabei vor allem vertiefende Hintergrundinformationen.</desc>
+    <category lang="de">Nyheter</category>
+  </programme>
+  <programme start="20260424202500 +0000" stop="20260424223000 +0000" channel="3sat.de@SD">
+    <title lang="de">Verleihung des 62. Grimme-Preises 2026</title>
+    <desc lang="de">Fernsehübertragung der Grimme-Preis-Verleihung. Die Auszeichnung des Adolf-Grimme-Instituts wird seit 1964 jährlich (außer 1977) vergeben. Der Grimme-Preis zählt zu den bedeutendsten Auszeichnungen für Fernsehproduktionen im deutschsprachigen Raum. Jedes Jahr werden die kreativsten Köpfe und bewegendsten Geschichten gefeiert.</desc>
+    <category lang="de">Pris</category>
+  </programme>
+  <programme start="20260424223000 +0000" stop="20260424225500 +0000" channel="3sat.de@SD">
+    <title lang="de">10 vor 10</title>
+    <desc lang="de">„10vor10“ ist eine News-Magazin vom Schweizer Radio und Fernsehen (SRF). Hintergründe zu den Schlagzeilen des Tages, vertiefende Berichte, Reportagen, Porträts und Live-Gespräche informieren über die wichtigsten Themen aus der Schweiz und der Welt.</desc>
+    <category lang="de">Nyheter</category>
+  </programme>
+  <programme start="20260424225500 +0000" stop="20260424234000 +0000" channel="3sat.de@SD">
+    <title lang="de">extra 3</title>
+    <desc lang="de">Bissig, frech und witzig zeigt Kabarettist Christian Ehring in der Satiresendung "extra 3" den politischen und gesellschaftlichen Irrsinn der Woche. "extra 3" bietet skurrile Realsatiren und jede Menge Politiker am Rande des Nervenzusammenbruchs.</desc>
+    <category lang="de">Komedi</category>
+    <category lang="de">Underhållning</category>
+  </programme>
+  <programme start="20260424234000 +0000" stop="20260425003500 +0000" channel="3sat.de@SD">
+    <title lang="de">Willkommen Österreich</title>
+    <desc lang="de">Stermann und Grissemann beherrschen wie immer gekonnt die Klaviatur der Gags, Gags, Gags, das ESC-Moderationspaar Victoria Swarovski und Michael Ostrowski kommt zum exklusiven Talk.</desc>
+    <category lang="de">Diskussion</category>
+    <category lang="de">Komedi</category>
+    <category lang="de">Underhållning</category>
+  </programme>
+  <programme start="20260425003500 +0000" stop="20260425010000 +0000" channel="3sat.de@SD">
+    <title lang="de">Gute Nacht Österreich</title>
+    <desc lang="de">Peter Klien, der Reporter ohne Grenzen, ist erwachsen geworden und bezieht sein eigenes Studio in ORF1. Vom Schreibtisch aus nimmt er die politische Lage Österreichs unter die Lupe: und es wird kein Auge zugedrückt!</desc>
+    <category lang="de">Underhållning</category>
+  </programme>
+  <programme start="20260425010000 +0000" stop="20260425021000 +0000" channel="3sat.de@SD">
+    <title lang="de">Die Tafelrunde</title>
+    <desc lang="de">Einmal im Monat treffen sich einige der besten Kabarettistinnen und Kabarettisten des Landes, um die wichtigsten Themen der vergangenen Wochen satirisch zu beleuchten.</desc>
+    <category lang="de">Komedi</category>
+  </programme>
+  <programme start="20260425021000 +0000" stop="20260425025500 +0000" channel="3sat.de@SD">
+    <title lang="de">Was gibt es Neues?</title>
+    <desc lang="de">Zur Feier des 200-jährigen Bestehens der Eisenbahn machen Gery Seidl, Eva Maria Marold, Omar Sarsam, Lydia Prenner-Kasper und Viktor Gernot Halt bei der Frage nach dem "Kamelzug".</desc>
+    <category lang="de">Game show</category>
+    <category lang="de">Underhållning</category>
+  </programme>
+  <programme start="20260425025500 +0000" stop="20260425033500 +0000" channel="3sat.de@SD">
+    <title lang="de">Was gibt es Neues?</title>
+    <desc lang="de">"Märchen ohne Ende" verspricht das neue Programm das Kabarett Simpl und märchenhaft sind auch die Antworten von Michael Niavarani, Joachim Brandl, Magda Leeb, Viktor Gernot und Jenny Frankl</desc>
+    <category lang="de">Game show</category>
+    <category lang="de">Underhållning</category>
+  </programme>
+  <programme start="20260425033500 +0000" stop="20260425042000 +0000" channel="3sat.de@SD">
+    <title lang="de">Was gibt es Neues?</title>
+    <desc lang="de">So kuschelig waren Viren noch nie! Diesmal begeht Oliver Baier mit seinem Rateteam nämlich nicht nur den "Welttag des Händewaschens", sondern vor allem den "Ehrentag des Virus".</desc>
+    <category lang="de">Game show</category>
+    <category lang="de">Underhållning</category>
+  </programme>
+  <programme start="20260425042000 +0000" stop="20260425050000 +0000" channel="3sat.de@SD">
+    <title lang="de">Kulturzeit</title>
+    <desc lang="de">"Kulturzeit" ist das werktägliche Kulturmagazin von 3sat. "Kulturzeit" mischt sich in kulturelle und gesellschaftspolitische Fragen ein. Das Magazin bietet Hintergrundinformationen, Porträts und Gespräche zu aktuellen und brisanten Fragen.</desc>
+    <category lang="de">Diskussion</category>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425053000 +0000" channel="3sat.de@SD">
+    <title lang="de">nano</title>
+    <desc lang="de">Die Welt von morgen</desc>
+    <category lang="de">Diskussion</category>
+    <category lang="de">Vetenskap</category>
+  </programme>
+  <programme start="20260425053000 +0000" stop="20260425070000 +0000" channel="3sat.de@SD">
+    <title lang="de">Alpenpanorama</title>
+    <desc lang="de">„Alpenpanorama“ zeigt über zahlreiche Web- und Panoramakameras täglich Livebilder aus ausgewählten Urlaubsorten in den Alpen. Die Sendung vermittelt aktuelle Eindrücke direkt aus den Regionen und lädt zum Mitreisen ein. Gleichzeitig informiert sie über Temperatur- und Wetterbedingungen vor Ort.</desc>
+    <category lang="de">Natur</category>
+    <category lang="de">Resor</category>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425070500 +0000" channel="3sat.de@SD">
+    <title lang="de">ZIB</title>
+    <desc lang="de">Die Kurzausgaben der österreichischen Nachrichtensendung "Zeit im Bild" (ZIB) liefern neben klassischen Nachrichten Informationen über Entwicklungen auf den Finanzmärkten und Expertenanalysen.</desc>
+    <category lang="de">Nyheter</category>
+  </programme>
+  <programme start="20260425070500 +0000" stop="20260425073500 +0000" channel="3sat.de@SD">
+    <title lang="de">Kulturplatz</title>
+    <desc lang="de">Feiertage in der Krise Welche Rezepte helfen? "Der Tunnel" Dürrenmatts Kurzgeschichte neu gelesen Berühren verboten Wenn ein Grundbedürfnis plötzlich verpönt ist "Kultur-Kick" Das faszinierende Projekt der Tänzerin Mirjam Barakar</desc>
+    <category lang="de">Dokumentär</category>
+  </programme>
+  <programme start="20260425073500 +0000" stop="20260425080000 +0000" channel="3sat.de@SD">
+    <title lang="de">Bilder aus Südtirol</title>
+    <desc lang="de">Wolkenstein in Gröden Die Gemeinde will weiterhin hart gegen Wildcamper vorgehen Vater erfindet Armband mit Alarm Für seinen autistischen Sohn Extreme Ausdauersportarten Immer mehr junge Südtiroler üben sie aus Wahl zur Sportler des Jahres Tennis und der Olympia-Winter standen im Mittelpunkt Autorin Caroline Wahl Polarisiert beim Literaturfestival in Dorf Tirol Meraner Fotograf Georg Tappeiner Er setzt die Dolomiten in Szene Der zwölfjährige Joachim Gufler Bringt die Ziehharmonika zum Klingen</desc>
+    <category lang="de">Diskussion</category>
+    <category lang="de">Nyheter</category>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425084500 +0000" channel="3sat.de@SD">
+    <title lang="de">Erbe Österreich</title>
+    <desc lang="de">Die Traun ist weit mehr als ein Fluss – sie ist die Lebensader des Salzkammerguts. Die Dokumentation begleitet die Traun auf ihrem Weg durch die Zeit.</desc>
+    <category lang="de">Dokumentär</category>
+    <category lang="de">Historia</category>
+    <episode-num system="xmltv_ns">0.445.0/1</episode-num>
+    <episode-num system="onscreen">S01E446</episode-num>
+  </programme>
+  <programme start="20260425084500 +0000" stop="20260425093000 +0000" channel="3sat.de@SD">
+    <title lang="de">Erbe Österreich</title>
+    <desc lang="de">An den Ufern der Mur jagten die Habsburger in ihren Revieren, unten im Fluss fuhren Flöße und Kähne. Die Mur atmet die Geschichte der alten Monarchie.</desc>
+    <category lang="de">Dokumentär</category>
+    <category lang="de">Historia</category>
+    <episode-num system="xmltv_ns">0.446.0/1</episode-num>
+    <episode-num system="onscreen">S01E447</episode-num>
+  </programme>
+  <programme start="20260425093000 +0000" stop="20260425101500 +0000" channel="3sat.de@SD">
+    <title lang="de">Erbe Österreich</title>
+    <desc lang="de">Es ist nicht die Breite oder die Länge der Leitha, die sie als Gewässer so besonders macht, sondern ihre Geschichte - teilte sie doch Habsburgs Reich in Cis- und ein Transleithanien.</desc>
+    <category lang="de">Dokumentär</category>
+    <category lang="de">Historia</category>
+    <episode-num system="xmltv_ns">0.447.0/1</episode-num>
+    <episode-num system="onscreen">S01E448</episode-num>
+  </programme>
+  <programme start="20260425101500 +0000" stop="20260425110000 +0000" channel="3sat.de@SD">
+    <title lang="de">Thema</title>
+    <desc lang="de">Die Tricks der falschen Polizisten Die Millionen-Masche Tschernobyl – 40 Jahre Supergau Schwerste Atomunfall der Geschichte Auf die Taube gekommen Haustier, Supersportler, Ärgernis?</desc>
+    <category lang="de">Diskussion</category>
+    <category lang="de">Nyheter</category>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425111000 +0000" channel="3sat.de@SD">
+    <title lang="de">ZIB</title>
+    <desc lang="de">Die Kurzausgaben der österreichischen Nachrichtensendung "Zeit im Bild" (ZIB) liefern neben klassischen Nachrichten Informationen über Entwicklungen auf den Finanzmärkten und Expertenanalysen.</desc>
+    <category lang="de">Nyheter</category>
+  </programme>
+  <programme start="20260425111000 +0000" stop="20260425111500 +0000" channel="3sat.de@SD">
+    <title lang="de">Notizen aus dem Ausland</title>
+    <desc lang="de">Thailand ist ein neuer Urlaubs- und Zufluchtsort vieler Russen. Sie kriegen dort leicht ein Visum. Die lokale Bevölkerung braucht die Touristen aus Russland nach der Pandemie.</desc>
+    <category lang="de">Diskussion</category>
+  </programme>
+  <programme start="20260425111500 +0000" stop="20260425120000 +0000" channel="3sat.de@SD">
+    <title lang="de">quer</title>
+    <desc lang="de">Was läuft quer? Christoph Süß kommentiert in seiner Magazinsendung von Querköpfen für Querdenker die Nachrichten der Woche.In spannenden Reportagen, Gesprächen und Live-Schaltungen geht er den Ereignissen der Woche satirisch auf den Grund.</desc>
+    <category lang="de">Diskussion</category>
+  </programme>
+  <programme start="20260425120000 +0000" stop="20260425123000 +0000" channel="3sat.de@SD">
+    <title lang="de">Ländermagazin</title>
+    <desc lang="de">Ein Ausflug ans Meer: das kann in Schleswig-Holstein zu schwierigen Entscheidungen führen - Nordsee oder Ostsee? Das "Ländermagazin" geht auf die Reise zu beiden Meeren.</desc>
+    <category lang="de">Diskussion</category>
+  </programme>
+  <programme start="20260425123000 +0000" stop="20260425130500 +0000" channel="3sat.de@SD">
+    <title lang="de">Kunst &amp; Krempel</title>
+    <desc lang="de">Was vor über 35 Jahren im BR Fernsehen als ein Fernsehflohmarkt begann, hat sich längst zur Kultsendung entwickelt - die Antiquitätenberatung "Kunst + Krempel".</desc>
+    <category lang="de">Diskussion</category>
+  </programme>
+  <programme start="20260425130500 +0000" stop="20260425132000 +0000" channel="3sat.de@SD">
+    <title lang="de">Fabelhafte Artgenossen: Das Schwein</title>
+    <category lang="de">Djur</category>
+    <category lang="de">Dokumentär</category>
+  </programme>
+  <programme start="20260425132000 +0000" stop="20260425134500 +0000" channel="3sat.de@SD">
+    <title lang="de">Der Sagenjäger: Max Müller auf Spurensuche</title>
+    <desc lang="de">Zwei Männer, eine Frau und ein Hund. Eine dramatische Sage aus dem Mittelalter um Liebe, Eifersucht und Tod. Gibt es ein Happy End? Max Müller, der Sagenjäger, bekommt es mit einer komplexen Familien-Saga zu tun.</desc>
+    <category lang="de">Dokumentär</category>
+  </programme>
+  <programme start="20260425134500 +0000" stop="20260425143500 +0000" channel="3sat.de@SD">
+    <title lang="de">Seenland Österreich</title>
+    <desc lang="de">Das Salzkammergut ist eine weit über die Grenzen Österreichs hinaus bekannte Region. Einst vom Salzabbau geprägt, ist heute der Tourismus rund um die Seen ein bedeutender Wirtschaftsfaktor.</desc>
+    <category lang="de">Dokumentär</category>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+  </programme>
+  <programme start="20260425143500 +0000" stop="20260425153000 +0000" channel="3sat.de@SD">
+    <title lang="de">Seenland Österreich</title>
+    <desc lang="de">Im Ausseerland hat jeder See seinen eigenen, besonderen Charakter. In den malerischen Gebirgstälern sind Brauchtum, Handwerk und Tradition bis heute fest verankert.</desc>
+    <category lang="de">Dokumentär</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+  </programme>
+  <programme start="20260425153000 +0000" stop="20260425170000 +0000" channel="3sat.de@SD">
+    <title lang="de">Seine Mutter und ich</title>
+    <desc lang="de">Für Marie geht ein Wunsch in Erfüllung - Sie heiratet ihren Traummann, den Airline-Piloten Hubert. Der ist allerdings, wenn er nicht in die große weite Welt oder bei der einen oder anderen Stewardess durchstartet, seiner imposanten Mutter Leopoldine sehr verbunden. Und Leopoldine gönnt Marie ihr Prachtexemplar von Sohn keineswegs, daran ändert auch Maries Schwangerschaft nichts. Als Leopoldines Mann stirbt, ziehen Marie und Hubert zu ihr. Ihre Ehe wird auf eine Zerreißprobe gestellt. Mit aller Macht versucht Leopoldine, ihrer Schwiegertochter das Leben zur Hölle zu machen und entwickelt sich dabei zum regelrechten Schwiegermonster.</desc>
+    <category lang="de">Komedi</category>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425171800 +0000" channel="3sat.de@SD">
+    <title lang="de">heute</title>
+    <desc lang="de">20 Minuten für die Nachrichten des Tages. Der relevante Überblick aus der Nachrichtenredaktion des Zweiten Deutschen Fernsehens mit Vertiefung und Einordnung zu den wichtigsten Ereignissen in Deutschland und der Welt.</desc>
+    <category lang="de">Nyheter</category>
+  </programme>
+  <programme start="20260425171800 +0000" stop="20260425172000 +0000" channel="3sat.de@SD">
+    <title lang="de">3sat-Wetter</title>
+    <desc lang="de">Die Sendung "3sat-Wetter" zeigt die aktuelle Wetterlage und berichtet außerdem über die Wettervorhersage für die nächsten Tage aus den drei folgenden 3sat-Ländern - Deutschland, Österreich und der Schweiz.</desc>
+    <category lang="de">Väder</category>
+  </programme>
+  <programme start="20260425172000 +0000" stop="20260425180000 +0000" channel="3sat.de@SD">
+    <title lang="de">Kunst für die Ewigkeit</title>
+    <desc lang="de">Gustav Klimt zählt zu den prägenden Künstlern der Wiener Moderne. Seine Bilder erzählen von Liebe, Leidenschaft und menschlicher Stärke – voller Sinnlichkeit, Emotion und Ausdruckskraft.</desc>
+    <category lang="de">Dokumentär</category>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425181500 +0000" channel="3sat.de@SD">
+    <title lang="de">Tagesschau</title>
+    <desc lang="de">Die "Tagesschau" bietet die wichtigsten Nachrichten des Tages und zusätzliche Informationen in Text, Bild, Audio und Video sowie umfassende Berichte und Hintergründe zu aktuellen Themen und Entwicklungen. Das Flaggschiff unter den deutschen Nachrichtensendungen ist gleichzeitig die "dienstälteste" noch bestehende Sendung im deutschen Fernsehen. In bis zu 20 am Tag produzierten Sendungen wird die Komplexität des Weltgeschehens verständlich erklärt und in komprimierter Form über aktuelle politische, wirtschaftliche, soziale, kulturelle, sportliche und sonstige Ereignisse berichtet.</desc>
+    <category lang="de">Nyheter</category>
+  </programme>
+  <programme start="20260425181500 +0000" stop="20260425191500 +0000" channel="3sat.de@SD">
+    <title lang="de">UDO!</title>
+    <desc lang="de">Udo Jürgens langer Weg zu sich selbst – das Künstlerporträt „UDO!“ von Sebastian Dehnhardt und David Kunac zeichnet das packende Psychogramm eines musikalischen Genies, das sein Leben der Bühne und dem Applaus verschrieben hat – bis in den Tod.</desc>
+    <category lang="de">Dokumentär</category>
+  </programme>
+  <programme start="20260425191500 +0000" stop="20260425200000 +0000" channel="3sat.de@SD">
+    <title lang="de">Hits, Herz, Heimat: Kitsch und Kult</title>
+    <desc lang="de">Eine Reise zu Kitsch, Kunst und Kommerz – von der Operette über das „Musikantenstadl“ bis zum ESC - Insider wie Guildo Horn und die Geschwister Pfister erkunden das Lebensgefühl des Schlagers. Dabei wird gezeigt, wie vielfältig das Genre ist und welche Bedeutung es für Fans und Künstler gleichermaßen besitzt.</desc>
+    <category lang="de">Dokumentär</category>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425210000 +0000" channel="3sat.de@SD">
+    <title lang="de">Max Mutzke und die SWR Big Band</title>
+    <desc lang="de">Leidenschaft und Talent kann man nicht wirklich lernen: Max Mutzke hat beides im Überfluss. Er hat die Gabe das Publikum in seinen Bann zu ziehen und stellt das eindrucksvoll unter Beweis.</desc>
+    <category lang="de">Konsert</category>
+  </programme>
+  <programme start="20260425210000 +0000" stop="20260425214500 +0000" channel="3sat.de@SD">
+    <title lang="de">Incognito: Baltic Soul Weekender Festival</title>
+    <desc lang="de">Beim "Baltic Soul Weekender"-Festival 2025 am Weißenhäuser Strand der Gemeinde Wangels in Schleswig-Holstein trat die britische Band Incognito als Headliner auf.</desc>
+    <category lang="de">Musik</category>
+    <category lang="de">Underhållning</category>
+  </programme>
+  <programme start="20260425214500 +0000" stop="20260425232000 +0000" channel="3sat.de@SD">
+    <title lang="de">Klondike</title>
+    <desc lang="de">Donbass 2014 - Eine schwangere Frau weigert sich, ihr Haus an der umkämpften ukrainisch-russischen Grenze zu verlassen, obwohl im Wohnzimmer anstelle der Wand ein riesiges Loch klafft und die Gefahr allgegenwärtig ist. Trotz der bedrohlichen Lage hält sie an ihrem Zuhause fest, während um sie herum die Kämpfe weiter eskalieren.</desc>
+    <category lang="de">Drama</category>
+  </programme>
+  <programme start="20260425232000 +0000" stop="20260426000000 +0000" channel="3sat.de@SD">
+    <title lang="de">lebensArt</title>
+    <desc lang="de">Peter Schneeberger und Clarissa Stadler präsentieren Inhalte, die nicht nur vom Kulturkalender, sondern auch von gesellschaftlichen und kulturpolitischen Entwicklungen bestimmt werden.</desc>
+    <category lang="de">Diskussion</category>
+  </programme>
+  <programme start="20260426000000 +0000" stop="20260426012500 +0000" channel="3sat.de@SD">
+    <title lang="de">das aktuelle sportstudio</title>
+    <category lang="de">Sport</category>
+    <category lang="de">Sportsnack</category>
+  </programme>
+  <programme start="20260426012500 +0000" stop="20260426021000 +0000" channel="3sat.de@SD">
+    <title lang="de">Erbe Österreich</title>
+    <desc lang="de">Die Traun ist weit mehr als ein Fluss – sie ist die Lebensader des Salzkammerguts. Die Dokumentation begleitet die Traun auf ihrem Weg durch die Zeit.</desc>
+    <category lang="de">Dokumentär</category>
+    <category lang="de">Historia</category>
+    <episode-num system="xmltv_ns">0.445.0/1</episode-num>
+    <episode-num system="onscreen">S01E446</episode-num>
+  </programme>
+  <programme start="20260426021000 +0000" stop="20260426025500 +0000" channel="3sat.de@SD">
+    <title lang="de">Erbe Österreich</title>
+    <desc lang="de">An den Ufern der Mur jagten die Habsburger in ihren Revieren, unten im Fluss fuhren Flöße und Kähne. Die Mur atmet die Geschichte der alten Monarchie.</desc>
+    <category lang="de">Dokumentär</category>
+    <category lang="de">Historia</category>
+    <episode-num system="xmltv_ns">0.446.0/1</episode-num>
+    <episode-num system="onscreen">S01E447</episode-num>
+  </programme>
+  <programme start="20260426025500 +0000" stop="20260426034000 +0000" channel="3sat.de@SD">
+    <title lang="de">Erbe Österreich</title>
+    <desc lang="de">Es ist nicht die Breite oder die Länge der Leitha, die sie als Gewässer so besonders macht, sondern ihre Geschichte - teilte sie doch Habsburgs Reich in Cis- und ein Transleithanien.</desc>
+    <category lang="de">Dokumentär</category>
+    <category lang="de">Historia</category>
+    <episode-num system="xmltv_ns">0.447.0/1</episode-num>
+    <episode-num system="onscreen">S01E448</episode-num>
+  </programme>
+  <programme start="20260426034000 +0000" stop="20260426043000 +0000" channel="3sat.de@SD">
+    <title lang="de">Hallstatt: Ein Leben zwischen Fels und See</title>
+    <desc lang="de">Die Region Hallstatt-Dachstein im Salzkammergut in Österreich ist eine der ältesten Kulturlandschaften der Welt. Eis, Karst und unterirdische Wasserwelten zeugen von der Frühzeit der Erde. Seit 1997 ist die Region UNESCO-Weltkultur- und Naturerbe. Die Dokumentation "Hallstatt: Ein Leben zwischen Fels und See" stellt die Landschaft vor und erzählt auch die Geschichte des Salzbergbaus in der Region.</desc>
+    <category lang="de">Dokumentär</category>
+    <category lang="de">Natur</category>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424130000 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Falling Down</title>
+    <desc lang="en">Academy Award-winners Michael Douglas ("Disclosure," "Wall Street," and "Basic Instinct") and Robert Duvall ("A Civil Action," "The Godfather") star with Emmy-winner and Oscar-nominee Barbara Hershey ("Portrait of a Lady," "Hannah and Her Sisters") in this action-drama about a man's odyssey into madness, prompted by the effects of modern city life. It follows two ordinary men - a laid-off defense worker (Douglas) driven beyond frustration in an endless traffic jam now on a path of violence and potential self destruction, and an LAPD detective (Duvall), only hours away from retirement who is determined to find him and stop his vigilante acts. Directed by hit-maker Joel Schumacher ("Batman Forever," "The Client").</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">Kriminalare</category>
+    <category lang="en">Thriller</category>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424170000 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Falling Down</title>
+    <desc lang="en">Academy Award-winners Michael Douglas ("Disclosure," "Wall Street," and "Basic Instinct") and Robert Duvall ("A Civil Action," "The Godfather") star with Emmy-winner and Oscar-nominee Barbara Hershey ("Portrait of a Lady," "Hannah and Her Sisters") in this action-drama about a man's odyssey into madness, prompted by the effects of modern city life. It follows two ordinary men - a laid-off defense worker (Douglas) driven beyond frustration in an endless traffic jam now on a path of violence and potential self destruction, and an LAPD detective (Duvall), only hours away from retirement who is determined to find him and stop his vigilante acts. Directed by hit-maker Joel Schumacher ("Batman Forever," "The Client").</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">Kriminalare</category>
+    <category lang="en">Thriller</category>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424200000 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Falling Down</title>
+    <desc lang="en">Academy Award-winners Michael Douglas ("Disclosure," "Wall Street," and "Basic Instinct") and Robert Duvall ("A Civil Action," "The Godfather") star with Emmy-winner and Oscar-nominee Barbara Hershey ("Portrait of a Lady," "Hannah and Her Sisters") in this action-drama about a man's odyssey into madness, prompted by the effects of modern city life. It follows two ordinary men - a laid-off defense worker (Douglas) driven beyond frustration in an endless traffic jam now on a path of violence and potential self destruction, and an LAPD detective (Duvall), only hours away from retirement who is determined to find him and stop his vigilante acts. Directed by hit-maker Joel Schumacher ("Batman Forever," "The Client").</desc>
+    <category lang="en">Drama</category>
+    <category lang="en">Kriminalare</category>
+    <category lang="en">Thriller</category>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424210000 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Bang Babes</title>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424211500 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Sherlock - A XXX Parody</title>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260424211500 +0000" stop="20260424213300 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Getting Freaky at the Laundromat</title>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260424213300 +0000" stop="20260424220000 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">ZZ Cup</title>
+    <desc lang="en">If you love curvy hotties, come watch Amirah and Mea get sporty with each other as they tease referee Danny D. (All 18 plus).</desc>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424221000 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Freeview</title>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260424221000 +0000" stop="20260424222800 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Executive Affairs</title>
+    <desc lang="en">Ep. 1. Lucia Love stars as a new recruit at a large corporation. Her daunting interview takes an unexpected turn as the boss demands a demonstration of Lucia's lusty girl-on-girl skills. (All 18+)</desc>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260424222800 +0000" stop="20260424225400 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Finda Bang Buddy</title>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260424225400 +0000" stop="20260424231700 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Find a Buddy</title>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260424231700 +0000" stop="20260424233600 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Thin Walls, Light *****</title>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260424233600 +0000" stop="20260424235900 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">UK Swinging Sexposed</title>
+    <desc lang="en">All the couples have been f... for hours now! It's quite a f... with plenty of licking, sucking and f... abound. Our cameramen can't get a word in edgeways let alone a b....</desc>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260424235900 +0000" stop="20260425002200 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Warning - Shoplifters Will Be..</title>
+    <desc lang="en">A store manager comes down hard on a shoplifter after the security system goes off. The manager decides she will teach the thief a lesson she will never forget. (All 18+)</desc>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260425002200 +0000" stop="20260425004100 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">A Rich Horny B...</title>
+    <desc lang="en">Heiress Penelope (Sophia Knight) has got herself in a spot of bother over her friend's wife Pippa, so asks prim Annabelle (Keira Knight) over for advice... which is licking p.... Together they take their first steps to girl-on-girl pleasure.</desc>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260425004100 +0000" stop="20260425010400 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Big Milky Breakfast ****</title>
+    <desc lang="en">Danny D is stressed at work and can't catch a break. His girlfriend, gorgeous Elisa Calvi, is frankly running out of sympathy and just wants his attention! (All 18+)</desc>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260425010400 +0000" stop="20260425012800 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Teen (18 Plus) Versus Monster C...</title>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260425012800 +0000" stop="20260425015000 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Kindly F... My Stepdaughter</title>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260425015000 +0000" stop="20260425020900 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Teach Me How To ****</title>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260425020900 +0000" stop="20260425023000 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Girl Crush</title>
+    <desc lang="en">What happens when a major studio acts like a match-maker to bring two insanely hot women together to explore the reaches of their crushes and bring each other to levels of pleasure that only another woman can provide?</desc>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260425023000 +0000" stop="20260425025200 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Dining On The Masseur's ****</title>
+    <desc lang="en">The sexy Blondie Fesser and her boyfriend go out to a strange restaurant, that has a window into the adjacent massage parlour. Jordi has a sweet gig... (All 18+)</desc>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260425025200 +0000" stop="20260425031800 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">Missionary - Impossible</title>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260425031800 +0000" stop="20260425043000 +0000" channel="AdultChannel.uk@SD">
+    <title lang="en">F... the First Timer</title>
+    <category lang="en">Vuxenfilm</category>
+  </programme>
+  <programme start="20260424120500 +0000" stop="20260424130500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Forsvundet sporløst</title>
+    <desc lang="sv">Mens de leder efter Julie Cochran, en kvinde fra Manhattan, der forsvandt den morgen, hun skulle have forladt byen, mistænker holdet hendes kæreste Greg Knowles.</desc>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <category lang="sv">Mysterium</category>
+    <episode-num system="xmltv_ns">1.18.0/1</episode-num>
+    <episode-num system="onscreen">S02E19</episode-num>
+  </programme>
+  <programme start="20260424130500 +0000" stop="20260424140500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Forsvundet sporløst</title>
+    <desc lang="sv">Da Martins tante Bonnie, en svag kræftpatient og sygeplejerske, forsvinder i flere timer, beder hendes bekymrede mand og voksne døtre Martin om hjælp med at finde hende.</desc>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <category lang="sv">Mysterium</category>
+    <episode-num system="xmltv_ns">1.19.0/1</episode-num>
+    <episode-num system="onscreen">S02E20</episode-num>
+  </programme>
+  <programme start="20260424140500 +0000" stop="20260424151000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">NCIS - Los Angeles</title>
+    <desc lang="sv">NCIS LA holdet efterforsker en bortførelsessag, mens de mangler to på holdet, med Hetty i D.C til afhøring og en anden stadig i ICU efter missionen i Syrien.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <episode-num system="xmltv_ns">7.2.0/1</episode-num>
+    <episode-num system="onscreen">S08E03</episode-num>
+  </programme>
+  <programme start="20260424151000 +0000" stop="20260424161000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">NCIS - Los Angeles</title>
+    <desc lang="sv">Efter en agent fra Homeland Security er blevet forgiftet af en Triad-lejemorder, finder NCIS et varelager med falske mærkevarer og et spor, der fører til stjålne statslige penge.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <episode-num system="xmltv_ns">7.3.0/1</episode-num>
+    <episode-num system="onscreen">S08E04</episode-num>
+  </programme>
+  <programme start="20260424161000 +0000" stop="20260424170500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">NCIS</title>
+    <desc lang="sv">I dette populære politidrama følger vi den amerikanske flådes efterforskere fra afdelingen NCIS med specialagent Gibbs i front. Gibbs og hans team løser alle sager fra mord og mishandling til terrorisme og spionage.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <episode-num system="xmltv_ns">21.18.0/1</episode-num>
+    <episode-num system="onscreen">S22E19</episode-num>
+  </programme>
+  <programme start="20260424170500 +0000" stop="20260424180000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">NCIS</title>
+    <desc lang="sv">I dette populære politidrama følger vi den amerikanske flådes efterforskere fra afdelingen NCIS med specialagent Gibbs i front. Gibbs og hans team løser alle sager fra mord og mishandling til terrorisme og spionage.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <episode-num system="xmltv_ns">21.19.0/1</episode-num>
+    <episode-num system="onscreen">S22E20</episode-num>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424190000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">NCIS - Hawai'i</title>
+    <desc lang="sv">Den første kvindelige leder af NCIS Pearl Harbor, Jane Tennant, er steget op gennem graderne i et system, der har modarbejdet hende hvert eneste skridt på vejen.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
+    <episode-num system="onscreen">S01E21</episode-num>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424211500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">xXx 2: The Next Level</title>
+    <desc lang="sv">Den modige agent, Augustus Gibbons, der er leder af National Security Agency, bliver sammen med sin makker, teknikeksperten Toby Lee Shavers, udsat for et dødbringende attentat i det tophemmelige operationscenter, og de når med nød og næppe at undslippe.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Äventyr</category>
+    <category lang="sv">Kriminalare</category>
+  </programme>
+  <programme start="20260424211500 +0000" stop="20260425000000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Creed</title>
+    <desc lang="sv">Adonis Johnson, søn af den afdøde verdensmester i sværvægt, Apollo Creed, drømmer om sin egen plads i boksehistorien. Han drager til Philadelphia og overtaler sin fars gamle rival Rocky Balboa, til at træne ham.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425005000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">NCIS - Hawai'i</title>
+    <desc lang="sv">Den første kvindelige leder af NCIS Pearl Harbor, Jane Tennant, er steget op gennem graderne i et system, der har modarbejdet hende hvert eneste skridt på vejen.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
+    <episode-num system="onscreen">S01E21</episode-num>
+  </programme>
+  <programme start="20260425005000 +0000" stop="20260425015000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">NCIS</title>
+    <desc lang="sv">I dette populære politidrama følger vi den amerikanske flådes efterforskere fra afdelingen NCIS med specialagent Gibbs i front. Gibbs og hans team løser alle sager fra mord og mishandling til terrorisme og spionage.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <episode-num system="xmltv_ns">21.18.0/1</episode-num>
+    <episode-num system="onscreen">S22E19</episode-num>
+  </programme>
+  <programme start="20260425015000 +0000" stop="20260425025500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">The Head</title>
+    <desc lang="sv">Maggie prøver stadig at huske, hvad der er sket, men Arthur advarer Johan mod at stole på hende. Morderen må være en af vinter-efterforskerne. Men hvem? Hvorfor? Og kan de overlevende flygte?</desc>
+    <category lang="sv">Mysterium</category>
+    <category lang="sv">Thriller</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+  </programme>
+  <programme start="20260425025500 +0000" stop="20260425040000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">The Head</title>
+    <desc lang="sv">Arthur afslører, at liget, der blev fundet i sneen, er selveste forskeren Sarah Jackson. Hun døde for flere år siden under Polaris V-ulykken; en mislykket mission, der endte i en tragedie.</desc>
+    <category lang="sv">Mysterium</category>
+    <category lang="sv">Thriller</category>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425043500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">UnBRAKEable</title>
+    <desc lang="sv">En dokumentarfilm om Patrick Seabases ultimative Tour de Suisse, hvor han kørte næsten 350 km og 9.000 højdemeter på en banecykel på kun én dag – i en rute, der forbandt nogle af de smukkeste steder i Schweiz.</desc>
+    <category lang="sv">Dokumentär</category>
+    <category lang="sv">Sport</category>
+  </programme>
+  <programme start="20260425043500 +0000" stop="20260425062000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Daddy Day Care</title>
+    <desc lang="sv">Da Charlie og hans ven Phil bliver sagt op og mister deres vellønnede jobs, ved de ikke, hvad de skal tage sig til. De forsøger at finde tilbage til arbejdslivet, samtidigt med at de selv passer deres små børn: for den høje egenbetaling i børnehaven har de ikke råd til længere.</desc>
+    <category lang="sv">Familj</category>
+    <category lang="sv">Komedi</category>
+  </programme>
+  <programme start="20260425062000 +0000" stop="20260425082500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Yes Man</title>
+    <desc lang="sv">Carl Allen befinder sig i et tomrum i sit liv. I et forsøg på at gøre det hele lidt mere spændende, beslutter han sig for, at han fremover vil sige ja til alle de ting, som han under normale omstændigheder ville sige nej til. Og vupti, pludselig får Carl både en kæreste og en uventet forfremmelse, men tingene er ikke altid så ligetil og Carl må snart sande, at hans nye livsstil også kan give bagslag.</desc>
+    <category lang="sv">Komedi</category>
+    <category lang="sv">Romantik</category>
+    <category lang="sv">Romantisk komedi</category>
+  </programme>
+  <programme start="20260425082500 +0000" stop="20260425092000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Hawaii Five-0</title>
+    <desc lang="sv">En autistisk mand hjælper Five-0 med detaljerne i et dristigt bankkup, hvilket fører til endnu et opgør med Gabriel Waincroft. FBI ønsker at tale med Dannys mor om hans brors død.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <episode-num system="xmltv_ns">5.14.0/1</episode-num>
+    <episode-num system="onscreen">S06E15</episode-num>
+  </programme>
+  <programme start="20260425092000 +0000" stop="20260425102500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Hawaii Five-0</title>
+    <desc lang="sv">Krimiserie. Da Five-O's ikke alt for troværdige, hemmelige kilde bliver anklaget for mord, beder McGarrett sin gamle ven, Odell Martin, om at forsvare ham.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <episode-num system="xmltv_ns">5.15.0/1</episode-num>
+    <episode-num system="onscreen">S06E16</episode-num>
+  </programme>
+  <programme start="20260425102500 +0000" stop="20260425113000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Hawaii Five-0</title>
+    <desc lang="sv">Mcgarrett og Five-0 skal opspore en russisk spion, der har stjålet et flashdrev, der indeholder klassificerede NSA-oplysninger, som sætter livet på spil for et medlem af deres Ohana.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <episode-num system="xmltv_ns">5.16.0/1</episode-num>
+    <episode-num system="onscreen">S06E17</episode-num>
+  </programme>
+  <programme start="20260425113000 +0000" stop="20260425122500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Hawaii Five-0</title>
+    <desc lang="sv">Da en mand er blevet efterladt til at dø ud for kysten af Oahu, opdager Five-0 en livsfarlig slavehandel, der opererer ombord på et ulovligt fiskerifartøj. Danny er desuden ude med sine børn, da han bil bliver stjålet, så han beslaglægger en bus for at fange tyvene.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <episode-num system="xmltv_ns">5.17.0/1</episode-num>
+    <episode-num system="onscreen">S06E18</episode-num>
+  </programme>
+  <programme start="20260425122500 +0000" stop="20260425132000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Hawaii Five-0</title>
+    <desc lang="sv">Grover bliver, uden varsel, tvunget til at tage sin familie med på tur, langt væk fra alting, da han opdager at en fjende, fra dengang han arbejdede undercover for FBI, leder efter ham.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Kriminalare</category>
+    <episode-num system="xmltv_ns">5.18.0/1</episode-num>
+    <episode-num system="onscreen">S06E19</episode-num>
+  </programme>
+  <programme start="20260425132000 +0000" stop="20260425161000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Creed II</title>
+    <desc lang="sv">Den unge bokser Adonis Johnson (Michael B. Jordan) bliver trænet af bokselegenden Rocky Balboa (Sylvester Stallone) og er blevet verdensmester. Da de forbereder sig til Adonis næste kamp, opdager de til deres store overraskelse, at Adonis modstander er søn af den russiske bokser Ivan Drago (Dolph Lundgren). Han dræbte i 1980'erne Adonis far og Rockys ven Apollo Creed i bokseringen. Rocky mener, de skal droppe kampen, da der er for meget personligt på spil for dem: men Adonis vil have den kamp.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+  </programme>
+  <programme start="20260425161000 +0000" stop="20260425181500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">The FA Cup</title>
+    <desc lang="sv">På Wembley Stadium venter FA Cup-semifinalen mellem Manchester City og Southampton, hvor en finaleplads er på spil. City jagter kontrol, tempo og chanceflow, mens Southampton går efter en stor overraskelse i et intenst knockoutdrama med alt på spil.</desc>
+    <category lang="sv">Fotboll</category>
+    <category lang="sv">Sport</category>
+  </programme>
+  <programme start="20260425181500 +0000" stop="20260425191500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Tøffe vs. Graver</title>
+    <desc lang="sv">AGF og FCM kæmper om guldet i Danmark, og spørgsmålet er om århusianerne er ved at få gummiben. Og hvad med Arsenal: hvorfor spiller de pludselig dårlig fodbold? Og så gæster Jay Jay Okocha studiet live fra Nigeria til en snak om tiden med Bolton og Tøffe.</desc>
+    <category lang="sv">Fotboll</category>
+    <category lang="sv">Sportsnack</category>
+  </programme>
+  <programme start="20260425191500 +0000" stop="20260425215500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Road House</title>
+    <desc lang="sv">Gentleman om dagen, dørvagt om natten. Da Dalton bliver ansat for at rydde op i de voldelige typer, der har gjort en populær bar til deres stamsted, bliver han kastet ud i en kamp med byens slagsbror.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Drama</category>
+    <category lang="sv">Thriller</category>
+  </programme>
+  <programme start="20260425215500 +0000" stop="20260426000500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">xXx 2: The Next Level</title>
+    <desc lang="sv">Den modige agent, Augustus Gibbons, der er leder af National Security Agency, bliver sammen med sin makker, teknikeksperten Toby Lee Shavers, udsat for et dødbringende attentat i det tophemmelige operationscenter, og de når med nød og næppe at undslippe.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Äventyr</category>
+    <category lang="sv">Kriminalare</category>
+  </programme>
+  <programme start="20260426000500 +0000" stop="20260426023000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">God Is a Bullet</title>
+    <desc lang="sv">Da kriminalbetjent Bob Hightower finder sin ekskone myrdet og sin datter kidnappet af en sadistisk sekt, tager han sagen i egne hænder. Med hjælp fra Case Hardin, en kvinde som tidligere er lykkedes med at flygte fra sekten, infiltrerer han den hemmelige sekt. Nu må han forsøge at redde sin datter og samtidig få hævn over mordet på sin eks og de grusomheder Case er blevet udsat for af sektenes gale leder.</desc>
+    <category lang="sv">Action</category>
+    <category lang="sv">Kriminalare</category>
+    <category lang="sv">Thriller</category>
+  </programme>
+  <programme start="20260426023000 +0000" stop="20260426025500 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Simpsons</title>
+    <desc lang="sv">Som vinder af 2019 Emmy® Award-prisen for fremragende, animeret program fortsætter The Simpsons med at vække genklang hos seere for uærbødigt at lave sjov med alt og alle. Med dens yderliggående humor og herlige vid har serien gjort et uudsletteligt indtryk på amerikansk popkultur, og dets familiemedlemmer: Homer (Dan Castellaneta), Marge (Julie Kavner), Bart (Nancy Cartwright), Lisa (Yeardley Smith) og Maggie: er tv-ikoner. Som den længst kørende, nedskrevne serie i tv-historien har den Emmy® Award-, Annie Award- og Peabody Award-vindende, animerede komedie overgået Gunsmokes rekord for flest episoder af en nedskrevet, primetime tv-serie. The Simpsons er en Gracie Films produktion i samarbejde med 20th Century Fox Television. Serien blev skabt af Matt Groening og udviklet af James L. Brooks, Matt Groening og Sam Simon. James L. Brooks og Matt Groening er executive producere. Al Jean og Matt Selman er også executive producere og seriens showrunners.</desc>
+    <category lang="sv">Animerat</category>
+    <category lang="sv">Komedi</category>
+    <category lang="sv">Sitcom</category>
+    <category lang="sv">Underhållning</category>
+    <category lang="sv">Vuxenfilm</category>
+    <episode-num system="xmltv_ns">33.8.0/1</episode-num>
+    <episode-num system="onscreen">S34E09</episode-num>
+  </programme>
+  <programme start="20260426025500 +0000" stop="20260426032000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">Simpsons</title>
+    <desc lang="sv">Da Bart opdager en profitabel fejl i et internetspil, inddrager han rektor Skinner i sit lukrative kriminelle foretagende. Marge og Maggie opdager paradis.</desc>
+    <category lang="sv">Animerat</category>
+    <category lang="sv">Komedi</category>
+    <category lang="sv">Sitcom</category>
+    <category lang="sv">Underhållning</category>
+    <category lang="sv">Vuxenfilm</category>
+    <episode-num system="xmltv_ns">33.9.0/1</episode-num>
+    <episode-num system="onscreen">S34E10</episode-num>
+  </programme>
+  <programme start="20260426032000 +0000" stop="20260426040000 +0000" channel="TV3Plus.dk@SD">
+    <title lang="sv">UnBRAKEable</title>
+    <desc lang="sv">En dokumentarfilm om Patrick Seabases ultimative Tour de Suisse, hvor han kørte næsten 350 km og 9.000 højdemeter på en banecykel på kun én dag – i en rute, der forbandt nogle af de smukkeste steder i Schweiz.</desc>
+    <category lang="sv">Dokumentär</category>
+    <category lang="sv">Sport</category>
+  </programme>
+</tv>

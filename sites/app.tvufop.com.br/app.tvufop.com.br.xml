@@ -1,0 +1,1199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="TVUFOP.br@HD">
+    <display-name>TV UFOP</display-name>
+    <icon src="https://raw.githubusercontent.com/daniloroxette/tvufop/refs/heads/main/images/tvufop_logo.png" />
+    <url>https://app.tvufop.com.br</url>
+  </channel>
+  <programme start="20260424030001 +0000" stop="20260424031400 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[Canal Futura] Canal da História - Making Of</title>
+    <desc lang="pt">Clara e Neto usam uma máquina do tempo para conversar com importantes figuras da nossa História.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/CANAL%20DA%20HIST%C3%93RIA%20I%20MAKING%20OF%20DO%20CANAL%20DA%20HIST%C3%93RIA.jpg" />
+  </programme>
+  <programme start="20260424031400 +0000" stop="20260424031704 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Pós-Graduação em Química Multicêntrico</title>
+    <desc lang="pt">O programa mostra os cursos de pós graduação, de níveis mestrado e doutorado, oferecidos pela UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20P%C3%93S%20GRADUA%C3%87%C3%83O%20EM%20QU%C3%8DMICA%20MULTIC%C3%8ANTRICO.jpg" />
+  </programme>
+  <programme start="20260424031704 +0000" stop="20260424032332 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - 7 Dicas Para Combater o Sedentarismo</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20I%2007%20DICAS%20PARA%20COMBATER%20O%20SEDENTARISMO.jpg" />
+  </programme>
+  <programme start="20260424032332 +0000" stop="20260424033020 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Personalidades Femininas - Rosana Paulino</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20PERSONALIDADES%20FEMININAS%20-%20ROSANA%20PAULINO.jpg" />
+  </programme>
+  <programme start="20260424033020 +0000" stop="20260424033809 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Sabor de Memória (2018) - EP4 - Mara Lúcia</title>
+    <desc lang="pt">Um olhar para os pratos culinários como forma de reconhecimento da nossa cultura e memória.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SABOR%20DE%20MEM%C3%93RIA%20I%20MARA%20L%C3%9ACIA.jpg" />
+  </programme>
+  <programme start="20260424033809 +0000" stop="20260424034110 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Pós-Graduação em Química</title>
+    <desc lang="pt">O programa mostra os cursos de pós graduação, de níveis mestrado e doutorado, oferecidos pela UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20P%C3%93S-GRADUA%C3%87%C3%83O%20EM%20QU%C3%8DMICA.jpg" />
+  </programme>
+  <programme start="20260424034110 +0000" stop="20260424034318 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Formas de Mudar O Mundo</title>
+    <desc lang="pt">O que você faria para mudar o mundo? Quais são suas ideias? Seus ideais? Como podemos fazer isso?</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/FORMAS%20DE%20MUDAR%20O%20MUNDO%20-%207.jpg" />
+  </programme>
+  <programme start="20260424034318 +0000" stop="20260424034917 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - O que é Ansiedade?</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20I%20O%20QUE%20%C3%89%20ANSIEDADE.jpg" />
+  </programme>
+  <programme start="20260424034917 +0000" stop="20260424035448 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mutatis Mutandis - Entrevista O Que É Ciência</title>
+    <desc lang="pt">O programa "Mutatis Mutandis: à procura do saber" tenta desvendar o que é ciência.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MUTATIS%20MUTANDIS%20I%20ENTREVISTA%20O%20QUE%20%C3%89%20CI%C3%8ANCIA.jpg" />
+  </programme>
+  <programme start="20260424035448 +0000" stop="20260424035716 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Visibilidade Trans</title>
+    <desc lang="pt">No Brasil, o Dia da Visibilidade Trans é celebrado no dia 29 de janeiro.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/VISIBILIDADE%20TRANS.jpg" />
+  </programme>
+  <programme start="20260424035716 +0000" stop="20260424040038 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Pós-Graduação em Engenharia Geotécnica</title>
+    <desc lang="pt">O programa mostra os cursos de pós graduação, de níveis mestrado e doutorado, oferecidos pela UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20P%C3%93S-GRADUA%C3%87%C3%83O%20EM%20ENGENHARIA%20GEOT%C3%89CNICA.jpg" />
+  </programme>
+  <programme start="20260424040038 +0000" stop="20260424040424 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Inep abre pedidos de isenção para o Enem</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Inep%20abre%20pedidos%20de%20isen%C3%A7%C3%A3o%20para%20o%20Enem.jpg" />
+  </programme>
+  <programme start="20260424040424 +0000" stop="20260424041125 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Reportagem - Parque do Itacolomi Reabre ao Público</title>
+    <desc lang="pt">Parque Estadual do Itacolomi reabre com modelo de concessão e gratuidade para moradores locais.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/REPORTAGEM%20-%20PARQUE%20DO%20ITACOLOMI%20REABRE%20AO%20P%C3%9ABLICO.jpg" />
+  </programme>
+  <programme start="20260424041125 +0000" stop="20260424043014 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Entrevista - Cotas Raciais e Justiça Social</title>
+    <desc lang="pt">Adilson Pereira dos Santos, presidente da ABPN, discute cotas raciais como ferramenta de justiça.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/ENTREVISTA%20-%20COTAS%20RACIAIS%20E%20JUSTI%C3%87A%20SOCIAL.jpg" />
+  </programme>
+  <programme start="20260424043014 +0000" stop="20260424044010 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Pé da Letra (2014) - Pé D'Água</title>
+    <desc lang="pt">Primeiro programa infantil criado pela TV UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/P%C3%89%20DA%20LETRA%20I%20P%C3%89%20D%27%C3%81GUA.jpg" />
+  </programme>
+  <programme start="20260424044010 +0000" stop="20260424044518 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Pós-Graduação em Educação</title>
+    <desc lang="pt">O programa mostra os cursos de pós graduação, de níveis mestrado e doutorado, oferecidos pela UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20P%C3%93S-GRADUA%C3%87%C3%83O%20EM%20EDUCA%C3%87%C3%83O.jpg" />
+  </programme>
+  <programme start="20260424044518 +0000" stop="20260424044851 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[Canal Futura] Que Corpo é Esse? - Masculinidade Tóxica</title>
+    <desc lang="pt">A série animada nos alerta sobre o conhecimento do próprio corpo e sobre o direito à sexualidade.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/QUE%20CORPO%20%C3%89%20ESSE%20I%20T2%20I%20EPIS%C3%93DIO%204%20I%20MODELO%20DE%20MASCULINIDADE%20T%C3%93XICA.jpg" />
+  </programme>
+  <programme start="20260424044851 +0000" stop="20260424045511 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Personalidades Femininas - Rosana Paulino</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20PERSONALIDADES%20FEMININAS%20-%20ROSANA%20PAULINO.jpg" />
+  </programme>
+  <programme start="20260424045511 +0000" stop="20260424050012 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Racismo Contra Indígenas</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20I%20RACISMO%20CONTRA%20IND%C3%8DGENAS.jpg" />
+  </programme>
+  <programme start="20260424050012 +0000" stop="20260424053657 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Além dos Muros (2024) - Dalila Xavier</title>
+    <desc lang="pt">Novas formas pedagógicas realizadas através de experiências que unem a educação e o audiovisual.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/AL%C3%89M%20DOS%20MUROS%20I%20DALILA%20XAVIER.jpg" />
+  </programme>
+  <programme start="20260424053657 +0000" stop="20260424054248 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Personalidades Femininas - Angel Vianna</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20PERSONALIDADES%20FEMININAS%20-%20ANGEL%20VIANNA.jpg" />
+  </programme>
+  <programme start="20260424054248 +0000" stop="20260424060019 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP em Casa - Correr Para O Jardim</title>
+    <desc lang="pt">Série desenvolvida por dezenas de voluntários durante a pandemia de Covid-19.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EM%20CASA%20I%20CORRER%20PARA%20O%20JARDIM.jpg" />
+  </programme>
+  <programme start="20260424060019 +0000" stop="20260424060752 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Abril Indígena celebra cultura e luta</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Abril%20Ind%C3%ADgena%20celebra%20cultura%20e%20luta.jpg" />
+  </programme>
+  <programme start="20260424060752 +0000" stop="20260424061522 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Reportagem - UFOP se destaca no Programa Capes Global</title>
+    <desc lang="pt">UFOP coordena rede que receberá R$ 70 milhões para fortalecer a produção científica no país.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Reportagem%20-%20UFOP%20se%20destaca%20no%20Programa%20Capes%20Global.jpg" />
+  </programme>
+  <programme start="20260424061522 +0000" stop="20260424064729 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[TV Brasil] Inclusão Para Valer - Ep3 - José Eduardo</title>
+    <desc lang="pt">Mariana Rosa nos convida para um bate-papo sobre a inclusão escolar de pessoas com deficiência.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/INCLUS%C3%83O%20PARA%20VALER%20-%20EP%2003.jpg" />
+  </programme>
+  <programme start="20260424064729 +0000" stop="20260424070013 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Sustentabilidade</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20-%20SUSTENTABILIDADE.jpg" />
+  </programme>
+  <programme start="20260424070013 +0000" stop="20260424080039 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[Canal Saúde] Sala de Convidados - Dengue</title>
+    <desc lang="pt">Programa do Canal Saúde que debate assuntos de saúde pública com especialistas e o público.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SALA%20DE%20CONVIDADOS%20I%20DENGUE.jpg" />
+  </programme>
+  <programme start="20260424080039 +0000" stop="20260424080816 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Inscrições abertas para o Jovens de Ouro 2.0</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Inscri%C3%A7%C3%B5es%20abertas%20para%20o%20Jovens%20de%20Ouro%202.0.jpg" />
+  </programme>
+  <programme start="20260424080816 +0000" stop="20260424081502 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Abril Indígena celebra cultura e luta</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Abril%20Ind%C3%ADgena%20celebra%20cultura%20e%20luta.jpg" />
+  </programme>
+  <programme start="20260424081502 +0000" stop="20260424081945 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[TV UFG] Hora do Conto - Cumbuca de Ouro</title>
+    <desc lang="pt">O programa Hora do Conto apresenta contos na Língua Brasileira de Sinais (Libras).</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/HORA%20DO%20CONTO%20I%20CUMBUCA%20DE%20OURO.jpg" />
+  </programme>
+  <programme start="20260424081945 +0000" stop="20260424082159 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Fala UFOP - A Troca de Conhecimento na Universidade</title>
+    <desc lang="pt">Fomos ouvir a opinião de algumas pessoas que fazem parte da comunidade da UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/FALA%20UFOP%20-%20A%20TROCA%20DE%20CONHECIMENTO%20NA%20UNIVERSIDADE.jpg" />
+  </programme>
+  <programme start="20260424082159 +0000" stop="20260424082616 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Formas de Mudar O Mundo</title>
+    <desc lang="pt">O que você faria para mudar o mundo? Quais são suas ideias? Seus ideais? Como podemos fazer isso?</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/FORMAS%20DE%20MUDAR%20O%20MUNDO%20I%201.jpg" />
+  </programme>
+  <programme start="20260424082616 +0000" stop="20260424082952 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Nilze Carvalho</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20NILZE%20CARVALHO.jpg" />
+  </programme>
+  <programme start="20260424082952 +0000" stop="20260424084559 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Veredas (2018) - EP3 - Miguel Burnier</title>
+    <desc lang="pt">Reflexões sobre o uso consciente dos recursos naturais e as possibilidades do ecoturismo.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/VEREDAS%20I%20MIGUEL%20BURNIER.jpg" />
+  </programme>
+  <programme start="20260424084559 +0000" stop="20260424084835 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Literatura - Jarid Arraes</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20LITERATURA%20-%20JARID%20ARRAES.jpg" />
+  </programme>
+  <programme start="20260424084835 +0000" stop="20260424085534 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Musicoterapia</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20I%20MUSICOTERAPIA.jpg" />
+  </programme>
+  <programme start="20260424085534 +0000" stop="20260424090025 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mutatis Mutandis - Povo Fala - O Que É Ciência</title>
+    <desc lang="pt">O programa "Mutatis Mutandis: à procura do saber" tenta desvendar o que é ciência.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MUTATIS%20MUTANDIS%20I%20POVO%20FALA%20O%20QUE%20%C3%89%20CI%C3%8ANCIA.jpg" />
+  </programme>
+  <programme start="20260424090025 +0000" stop="20260424092135 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Claquéticos (2025) - EP2 - Cinema Pop Vs Cinema de Arte</title>
+    <desc lang="pt">Videocast do Cine Vila Rica para refletir sobre o universo cinematográfico.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/CLAQU%C3%89TICOS%20%282025%29%20-%20EP1%20-%20J%C3%9ALIA%20E%20L%C3%89O.jpg" />
+  </programme>
+  <programme start="20260424092135 +0000" stop="20260424092954 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Interatividade</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20-%20INTERATIVIDADE.jpg" />
+  </programme>
+  <programme start="20260424092954 +0000" stop="20260424095528 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[Canal Futura] Almanaque Saúde - Cuidado Materno</title>
+    <desc lang="pt">Temas importantes para a saúde dos brasileiros de forma informativa e descontraída.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/ALMANAQUE%20SA%C3%9ADE%20I%20CUIDADO%20MATERNO%20.jpg" />
+  </programme>
+  <programme start="20260424095528 +0000" stop="20260424100020 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Engenharia de Controle e Automação</title>
+    <desc lang="pt">O programa mostra os cursos de graduação oferecidos pela Universidade Federal de Ouro Preto.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20ENGENHARIA%20DE%20CONTROLE%20E%20AUTOMA%C3%87%C3%83O.jpg" />
+  </programme>
+  <programme start="20260424100020 +0000" stop="20260424100327 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Inep abre pedidos de isenção para o Enem</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Inep%20abre%20pedidos%20de%20isen%C3%A7%C3%A3o%20para%20o%20Enem.jpg" />
+  </programme>
+  <programme start="20260424100327 +0000" stop="20260424101457 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Reportagem - Parque do Itacolomi Reabre ao Público</title>
+    <desc lang="pt">Parque Estadual do Itacolomi reabre com modelo de concessão e gratuidade para moradores locais.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/REPORTAGEM%20-%20PARQUE%20DO%20ITACOLOMI%20REABRE%20AO%20P%C3%9ABLICO.jpg" />
+  </programme>
+  <programme start="20260424101457 +0000" stop="20260424102359 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[TV UFMG] Maternidade Atípica - O Diagnóstico</title>
+    <desc lang="pt">A série aborda os desafios no cuidado de pessoas com deficiência.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MATERNIDADE%20ATIPICA%20-%20O%20MOMENTO%20DO%20DIAGNOSTICO.jpg" />
+  </programme>
+  <programme start="20260424102359 +0000" stop="20260424103010 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP em Casa - Minabloco</title>
+    <desc lang="pt">Série desenvolvida por dezenas de voluntários durante a pandemia de Covid-19.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EM%20CASA%20I%20MINABLOCO.jpg" />
+  </programme>
+  <programme start="20260424103010 +0000" stop="20260424105256 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[TVU Recife - UFPE] Na Estrada - Habib e Valéria</title>
+    <desc lang="pt">A série aborda aspectos relevantes dos campos artístico e cultural de Pernambuco e região.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/NA%20ESTRADA%20-%20HABIB%20E%20VAL%C3%89RIA.jpg" />
+  </programme>
+  <programme start="20260424105256 +0000" stop="20260424110022 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Energias Renováveis</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20-%20ENERGIAS%20RENOV%C3%81VEIS.jpg" />
+  </programme>
+  <programme start="20260424110022 +0000" stop="20260424111253 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Resenha (2025) - EP2 - Fabricio Boliveira</title>
+    <desc lang="pt">Um bate papo descontraído sobre arte, vida, cinema, sociedade e questões que envolvem nossa cultura.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/RESENHA%20I%20FABRICIO%20BOLIVEIRA%20I%20EP2.jpg" />
+  </programme>
+  <programme start="20260424111253 +0000" stop="20260424112129 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Jornal Lampião</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20I%20JORNAL%20LAMPI%C3%83O.jpg" />
+  </programme>
+  <programme start="20260424112129 +0000" stop="20260424112358 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Visibilidade Trans</title>
+    <desc lang="pt">No Brasil, o Dia da Visibilidade Trans é celebrado no dia 29 de janeiro.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/VISIBILIDADE%20TRANS.jpg" />
+  </programme>
+  <programme start="20260424112358 +0000" stop="20260424112905 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Personalidades Femininas - Amrita Sher-Gil</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20PERSONALIDADES%20FEMININAS%20-%20AMRITA%20SHER-GIL.jpg" />
+  </programme>
+  <programme start="20260424112905 +0000" stop="20260424114059 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Concertos Didáticos (2016) - Improviso Livre</title>
+    <desc lang="pt">Série que busca valorizar a música erudita clássica e seus reflexos na música contemporânea.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/CONCERTOS%20DID%C3%81TICOS%20I%20VIBRA%C3%87%C3%83O%20E%20IMPROVISO%20LIVRE.jpg" />
+  </programme>
+  <programme start="20260424114059 +0000" stop="20260424115953 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Apresentação - Harmonia é a Mãe da Música</title>
+    <desc lang="pt">Apresentação final de oficina realizada durante o Festival de Inverno da UFOP em 2023.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/APRESENTACAO%20HARMONIA%20E%20A%20MAE%20DA%20MUSICA.jpg" />
+  </programme>
+  <programme start="20260424115953 +0000" stop="20260424121114 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Inscrições abertas para o Jovens de Ouro 2.0</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Inscri%C3%A7%C3%B5es%20abertas%20para%20o%20Jovens%20de%20Ouro%202.0.jpg" />
+  </programme>
+  <programme start="20260424121114 +0000" stop="20260424121456 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Artes Cênicas</title>
+    <desc lang="pt">O programa mostra os cursos de graduação oferecidos pela Universidade Federal de Ouro Preto.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20ARTES%20C%C3%8ANICAS.jpg" />
+  </programme>
+  <programme start="20260424121456 +0000" stop="20260424122331 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Literal (2012) - Adriana Lunardi</title>
+    <desc lang="pt">Apresentação de obras literárias indicadas por pessoas abordadas nas ruas de Ouro Preto.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/LITERAL%20-%20ADRIANA%20LUNARDI.jpg" />
+  </programme>
+  <programme start="20260424122331 +0000" stop="20260424123044 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Pós-Graduação em Educação Matemática</title>
+    <desc lang="pt">O programa mostra os cursos de pós graduação, de níveis mestrado e doutorado, oferecidos pela UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20P%C3%93S%20GRADUA%C3%87%C3%83O%20EM%20EDUCA%C3%87%C3%83O%20MATEM%C3%81TICA.jpg" />
+  </programme>
+  <programme start="20260424123044 +0000" stop="20260424124441 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Português Daqui, Português de Lá - O Português Arcaico e o Tombamento</title>
+    <desc lang="pt">A série pretende desvendar as diversidades, complexidades e práticas da língua portuguesa.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/PORTUGU%C3%8AS%20DAQUI%2C%20PORTUGU%C3%8AS%20DE%20L%C3%81%20I%20O%20PORTUGU%C3%8AS%20ARCAICO%20E%20O%20TOMBAMENTO.jpg" />
+  </programme>
+  <programme start="20260424124441 +0000" stop="20260424124810 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Transfobia, Representatividade e o Fenômeno da Tokenização</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20I%20TRANSFOBIA%2C%20REPRESENTATIVIDADE%20E%20O%20FEN%C3%94MENO%20DA%20TOKENIZA%C3%87%C3%83O.jpg" />
+  </programme>
+  <programme start="20260424124810 +0000" stop="20260424125026 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">RNP - Conferenciaweb</title>
+    <desc lang="pt">ConferênciaWeb, o serviço da RNP que disponibiliza salas virtuais para encontros.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/RNP%20I%20CONFERENCIAWEB.jpg" />
+  </programme>
+  <programme start="20260424125026 +0000" stop="20260424125331 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Literatura - Livros de Maya Angelou</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20LITERATURA%20-%20LIVROS%20DE%20MAYA%20ANGELOU.jpg" />
+  </programme>
+  <programme start="20260424125331 +0000" stop="20260424125601 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mutatis Mutandis - Povo Fala - O Que É Saúde</title>
+    <desc lang="pt">O programa "Mutatis Mutandis: à procura do saber" tenta desvendar o que é ciência.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MUTATIS%20MUTANDIS%20I%20POVO%20FALA%20O%20QUE%20%C3%89%20SA%C3%9ADE.jpg" />
+  </programme>
+  <programme start="20260424125601 +0000" stop="20260424130027 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Pós-Graduação em Engenharia Civil</title>
+    <desc lang="pt">O programa mostra os cursos de pós graduação, de níveis mestrado e doutorado, oferecidos pela UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20-%20P%C3%93S-GRADUA%C3%87%C3%83O%20EM%20ENGENHARIA%20CIVIL.jpg" />
+  </programme>
+  <programme start="20260424130027 +0000" stop="20260424132705 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[Rede Minas] Estações - Belo Vale</title>
+    <desc lang="pt">As estações de trem como linha condutora das histórias do povo mineiro.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/ESTA%C3%87%C3%95ES%20I%20BELO%20VALE%20.jpg" />
+  </programme>
+  <programme start="20260424132705 +0000" stop="20260424133037 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Estatística</title>
+    <desc lang="pt">O programa mostra os cursos de graduação oferecidos pela Universidade Federal de Ouro Preto.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20ESTAT%C3%8DSTICA.jpg" />
+  </programme>
+  <programme start="20260424133037 +0000" stop="20260424140022 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[UERN TV] Vem Ver - Parelhas e Carnaúba Dos Dantas</title>
+    <desc lang="pt">As belezas do estado do Rio Grande do Norte para além dos pontos turísticos já conhecidos.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/VEM%20VER%20-%20EPIS%C3%93DIO%203%20-%20PARELHAS%20E%20CARNA%C3%9ABA%20DOS%20DANTAS.jpg" />
+  </programme>
+  <programme start="20260424140022 +0000" stop="20260424140803 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Abril Indígena celebra cultura e luta</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Abril%20Ind%C3%ADgena%20celebra%20cultura%20e%20luta.jpg" />
+  </programme>
+  <programme start="20260424140803 +0000" stop="20260424141506 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Reportagem - Casos de gripe alertam para vacinação</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Reportagem%20-%20Casos%20de%20gripe%20alertam%20para%20vacina%C3%A7%C3%A3o.jpg" />
+  </programme>
+  <programme start="20260424141506 +0000" stop="20260424141820 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">A Cena Muda (2015) - EP4 - Cortando Cebola</title>
+    <desc lang="pt">A Cena Muda é um programa inspirado no show antológico da cantora Maria Bethânia.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/A%20CENA%20MUDA%20I%20CORTADOR%20CEBOLA.jpg" />
+  </programme>
+  <programme start="20260424141820 +0000" stop="20260424142251 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Personalidades Femininas - Suely Machado</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20PERSONALIDADES%20FEMININAS%20-%20SUELY%20MACHADO.jpg" />
+  </programme>
+  <programme start="20260424142251 +0000" stop="20260424142501 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Pare Perceba Escute - Antimachista</title>
+    <desc lang="pt">A campanha discute, a partir de diversas vozes, situações comuns ligadas a temas sociais.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/PARE%20PERCEBA%20ESCUTE%20I%20ANTIMACHISTA.jpg" />
+  </programme>
+  <programme start="20260424142501 +0000" stop="20260424143002 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Venha Estudar com a Gente</title>
+    <desc lang="pt">Estudantes, servidores, trabalhadores e professores contam o que a UFOP tem de especial.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/VENHA%20ESTUDAR%20COM%20A%20GENTE.jpg" />
+  </programme>
+  <programme start="20260424143002 +0000" stop="20260424144926 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Congadeiros (2018) - EP1 - Histórias do Congado</title>
+    <desc lang="pt">A cultura do Congado em Ouro Preto e região.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/CONGADEIROS%20I%20EPIS%C3%93DIO%201.jpg" />
+  </programme>
+  <programme start="20260424144926 +0000" stop="20260424145613 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Personalidades Femininas, Heloísa Fernandes</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20PERSONALIDADES%20FEMININAS%2C%20HELO%C3%8DSA%20FERNANDES.jpg" />
+  </programme>
+  <programme start="20260424145613 +0000" stop="20260424145900 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">EMBRAPII - O que é a EMBRAPII?</title>
+    <desc lang="pt">A Embrapii conecta ciência e indústria com inovação ágil e apoio financeiro não reembolsável.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/EMBRAPII%201.jpg" />
+  </programme>
+  <programme start="20260424150001 +0000" stop="20260424151400 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[Canal Futura] Canal da História - Making Of</title>
+    <desc lang="pt">Clara e Neto usam uma máquina do tempo para conversar com importantes figuras da nossa História.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/CANAL%20DA%20HIST%C3%93RIA%20I%20MAKING%20OF%20DO%20CANAL%20DA%20HIST%C3%93RIA.jpg" />
+  </programme>
+  <programme start="20260424151400 +0000" stop="20260424151704 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Pós-Graduação em Química Multicêntrico</title>
+    <desc lang="pt">O programa mostra os cursos de pós graduação, de níveis mestrado e doutorado, oferecidos pela UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20P%C3%93S%20GRADUA%C3%87%C3%83O%20EM%20QU%C3%8DMICA%20MULTIC%C3%8ANTRICO.jpg" />
+  </programme>
+  <programme start="20260424151704 +0000" stop="20260424152332 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - 7 Dicas Para Combater o Sedentarismo</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20I%2007%20DICAS%20PARA%20COMBATER%20O%20SEDENTARISMO.jpg" />
+  </programme>
+  <programme start="20260424152332 +0000" stop="20260424153020 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Personalidades Femininas - Rosana Paulino</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20PERSONALIDADES%20FEMININAS%20-%20ROSANA%20PAULINO.jpg" />
+  </programme>
+  <programme start="20260424153020 +0000" stop="20260424153809 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Sabor de Memória (2018) - EP4 - Mara Lúcia</title>
+    <desc lang="pt">Um olhar para os pratos culinários como forma de reconhecimento da nossa cultura e memória.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SABOR%20DE%20MEM%C3%93RIA%20I%20MARA%20L%C3%9ACIA.jpg" />
+  </programme>
+  <programme start="20260424153809 +0000" stop="20260424154110 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Pós-Graduação em Química</title>
+    <desc lang="pt">O programa mostra os cursos de pós graduação, de níveis mestrado e doutorado, oferecidos pela UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20P%C3%93S-GRADUA%C3%87%C3%83O%20EM%20QU%C3%8DMICA.jpg" />
+  </programme>
+  <programme start="20260424154110 +0000" stop="20260424154318 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Formas de Mudar O Mundo</title>
+    <desc lang="pt">O que você faria para mudar o mundo? Quais são suas ideias? Seus ideais? Como podemos fazer isso?</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/FORMAS%20DE%20MUDAR%20O%20MUNDO%20-%207.jpg" />
+  </programme>
+  <programme start="20260424154318 +0000" stop="20260424154917 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - O que é Ansiedade?</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20I%20O%20QUE%20%C3%89%20ANSIEDADE.jpg" />
+  </programme>
+  <programme start="20260424154917 +0000" stop="20260424155448 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mutatis Mutandis - Entrevista O Que É Ciência</title>
+    <desc lang="pt">O programa "Mutatis Mutandis: à procura do saber" tenta desvendar o que é ciência.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MUTATIS%20MUTANDIS%20I%20ENTREVISTA%20O%20QUE%20%C3%89%20CI%C3%8ANCIA.jpg" />
+  </programme>
+  <programme start="20260424155448 +0000" stop="20260424155716 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Visibilidade Trans</title>
+    <desc lang="pt">No Brasil, o Dia da Visibilidade Trans é celebrado no dia 29 de janeiro.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/VISIBILIDADE%20TRANS.jpg" />
+  </programme>
+  <programme start="20260424155716 +0000" stop="20260424160038 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Pós-Graduação em Engenharia Geotécnica</title>
+    <desc lang="pt">O programa mostra os cursos de pós graduação, de níveis mestrado e doutorado, oferecidos pela UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20P%C3%93S-GRADUA%C3%87%C3%83O%20EM%20ENGENHARIA%20GEOT%C3%89CNICA.jpg" />
+  </programme>
+  <programme start="20260424160038 +0000" stop="20260424160424 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Inep abre pedidos de isenção para o Enem</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Inep%20abre%20pedidos%20de%20isen%C3%A7%C3%A3o%20para%20o%20Enem.jpg" />
+  </programme>
+  <programme start="20260424160424 +0000" stop="20260424161125 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Reportagem - Parque do Itacolomi Reabre ao Público</title>
+    <desc lang="pt">Parque Estadual do Itacolomi reabre com modelo de concessão e gratuidade para moradores locais.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/REPORTAGEM%20-%20PARQUE%20DO%20ITACOLOMI%20REABRE%20AO%20P%C3%9ABLICO.jpg" />
+  </programme>
+  <programme start="20260424161125 +0000" stop="20260424163014 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Entrevista - Cotas Raciais e Justiça Social</title>
+    <desc lang="pt">Adilson Pereira dos Santos, presidente da ABPN, discute cotas raciais como ferramenta de justiça.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/ENTREVISTA%20-%20COTAS%20RACIAIS%20E%20JUSTI%C3%87A%20SOCIAL.jpg" />
+  </programme>
+  <programme start="20260424163014 +0000" stop="20260424164010 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Pé da Letra (2014) - Pé D'Água</title>
+    <desc lang="pt">Primeiro programa infantil criado pela TV UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/P%C3%89%20DA%20LETRA%20I%20P%C3%89%20D%27%C3%81GUA.jpg" />
+  </programme>
+  <programme start="20260424164010 +0000" stop="20260424164518 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Pós-Graduação em Educação</title>
+    <desc lang="pt">O programa mostra os cursos de pós graduação, de níveis mestrado e doutorado, oferecidos pela UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20P%C3%93S-GRADUA%C3%87%C3%83O%20EM%20EDUCA%C3%87%C3%83O.jpg" />
+  </programme>
+  <programme start="20260424164518 +0000" stop="20260424164851 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[Canal Futura] Que Corpo é Esse? - Masculinidade Tóxica</title>
+    <desc lang="pt">A série animada nos alerta sobre o conhecimento do próprio corpo e sobre o direito à sexualidade.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/QUE%20CORPO%20%C3%89%20ESSE%20I%20T2%20I%20EPIS%C3%93DIO%204%20I%20MODELO%20DE%20MASCULINIDADE%20T%C3%93XICA.jpg" />
+  </programme>
+  <programme start="20260424164851 +0000" stop="20260424165511 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Personalidades Femininas - Rosana Paulino</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20PERSONALIDADES%20FEMININAS%20-%20ROSANA%20PAULINO.jpg" />
+  </programme>
+  <programme start="20260424165511 +0000" stop="20260424170012 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Racismo Contra Indígenas</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20I%20RACISMO%20CONTRA%20IND%C3%8DGENAS.jpg" />
+  </programme>
+  <programme start="20260424170012 +0000" stop="20260424173657 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Além dos Muros (2024) - Dalila Xavier</title>
+    <desc lang="pt">Novas formas pedagógicas realizadas através de experiências que unem a educação e o audiovisual.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/AL%C3%89M%20DOS%20MUROS%20I%20DALILA%20XAVIER.jpg" />
+  </programme>
+  <programme start="20260424173657 +0000" stop="20260424174248 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Personalidades Femininas - Angel Vianna</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20PERSONALIDADES%20FEMININAS%20-%20ANGEL%20VIANNA.jpg" />
+  </programme>
+  <programme start="20260424174248 +0000" stop="20260424180019 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP em Casa - Correr Para O Jardim</title>
+    <desc lang="pt">Série desenvolvida por dezenas de voluntários durante a pandemia de Covid-19.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EM%20CASA%20I%20CORRER%20PARA%20O%20JARDIM.jpg" />
+  </programme>
+  <programme start="20260424180019 +0000" stop="20260424180752 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Abril Indígena celebra cultura e luta</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Abril%20Ind%C3%ADgena%20celebra%20cultura%20e%20luta.jpg" />
+  </programme>
+  <programme start="20260424180752 +0000" stop="20260424181522 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Reportagem - UFOP se destaca no Programa Capes Global</title>
+    <desc lang="pt">UFOP coordena rede que receberá R$ 70 milhões para fortalecer a produção científica no país.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Reportagem%20-%20UFOP%20se%20destaca%20no%20Programa%20Capes%20Global.jpg" />
+  </programme>
+  <programme start="20260424181522 +0000" stop="20260424184729 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[TV Brasil] Inclusão Para Valer - Ep3 - José Eduardo</title>
+    <desc lang="pt">Mariana Rosa nos convida para um bate-papo sobre a inclusão escolar de pessoas com deficiência.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/INCLUS%C3%83O%20PARA%20VALER%20-%20EP%2003.jpg" />
+  </programme>
+  <programme start="20260424184729 +0000" stop="20260424190013 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Sustentabilidade</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20-%20SUSTENTABILIDADE.jpg" />
+  </programme>
+  <programme start="20260424190013 +0000" stop="20260424200039 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[Canal Saúde] Sala de Convidados - Dengue</title>
+    <desc lang="pt">Programa do Canal Saúde que debate assuntos de saúde pública com especialistas e o público.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SALA%20DE%20CONVIDADOS%20I%20DENGUE.jpg" />
+  </programme>
+  <programme start="20260424200039 +0000" stop="20260424200816 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Inscrições abertas para o Jovens de Ouro 2.0</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Inscri%C3%A7%C3%B5es%20abertas%20para%20o%20Jovens%20de%20Ouro%202.0.jpg" />
+  </programme>
+  <programme start="20260424200816 +0000" stop="20260424201502 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Abril Indígena celebra cultura e luta</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Abril%20Ind%C3%ADgena%20celebra%20cultura%20e%20luta.jpg" />
+  </programme>
+  <programme start="20260424201502 +0000" stop="20260424201945 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[TV UFG] Hora do Conto - Cumbuca de Ouro</title>
+    <desc lang="pt">O programa Hora do Conto apresenta contos na Língua Brasileira de Sinais (Libras).</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/HORA%20DO%20CONTO%20I%20CUMBUCA%20DE%20OURO.jpg" />
+  </programme>
+  <programme start="20260424201945 +0000" stop="20260424202159 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Fala UFOP - A Troca de Conhecimento na Universidade</title>
+    <desc lang="pt">Fomos ouvir a opinião de algumas pessoas que fazem parte da comunidade da UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/FALA%20UFOP%20-%20A%20TROCA%20DE%20CONHECIMENTO%20NA%20UNIVERSIDADE.jpg" />
+  </programme>
+  <programme start="20260424202159 +0000" stop="20260424202616 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Formas de Mudar O Mundo</title>
+    <desc lang="pt">O que você faria para mudar o mundo? Quais são suas ideias? Seus ideais? Como podemos fazer isso?</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/FORMAS%20DE%20MUDAR%20O%20MUNDO%20I%201.jpg" />
+  </programme>
+  <programme start="20260424202616 +0000" stop="20260424202952 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Nilze Carvalho</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20NILZE%20CARVALHO.jpg" />
+  </programme>
+  <programme start="20260424202952 +0000" stop="20260424204559 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Veredas (2018) - EP3 - Miguel Burnier</title>
+    <desc lang="pt">Reflexões sobre o uso consciente dos recursos naturais e as possibilidades do ecoturismo.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/VEREDAS%20I%20MIGUEL%20BURNIER.jpg" />
+  </programme>
+  <programme start="20260424204559 +0000" stop="20260424204835 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Literatura - Jarid Arraes</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20LITERATURA%20-%20JARID%20ARRAES.jpg" />
+  </programme>
+  <programme start="20260424204835 +0000" stop="20260424205534 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Musicoterapia</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20I%20MUSICOTERAPIA.jpg" />
+  </programme>
+  <programme start="20260424205534 +0000" stop="20260424210025 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mutatis Mutandis - Povo Fala - O Que É Ciência</title>
+    <desc lang="pt">O programa "Mutatis Mutandis: à procura do saber" tenta desvendar o que é ciência.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MUTATIS%20MUTANDIS%20I%20POVO%20FALA%20O%20QUE%20%C3%89%20CI%C3%8ANCIA.jpg" />
+  </programme>
+  <programme start="20260424210025 +0000" stop="20260424212135 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Claquéticos (2025) - EP2 - Cinema Pop Vs Cinema de Arte</title>
+    <desc lang="pt">Videocast do Cine Vila Rica para refletir sobre o universo cinematográfico.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/CLAQU%C3%89TICOS%20%282025%29%20-%20EP1%20-%20J%C3%9ALIA%20E%20L%C3%89O.jpg" />
+  </programme>
+  <programme start="20260424212135 +0000" stop="20260424212954 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Interatividade</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20-%20INTERATIVIDADE.jpg" />
+  </programme>
+  <programme start="20260424212954 +0000" stop="20260424215528 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[Canal Futura] Almanaque Saúde - Cuidado Materno</title>
+    <desc lang="pt">Temas importantes para a saúde dos brasileiros de forma informativa e descontraída.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/ALMANAQUE%20SA%C3%9ADE%20I%20CUIDADO%20MATERNO%20.jpg" />
+  </programme>
+  <programme start="20260424215528 +0000" stop="20260424220020 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Engenharia de Controle e Automação</title>
+    <desc lang="pt">O programa mostra os cursos de graduação oferecidos pela Universidade Federal de Ouro Preto.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20ENGENHARIA%20DE%20CONTROLE%20E%20AUTOMA%C3%87%C3%83O.jpg" />
+  </programme>
+  <programme start="20260424220020 +0000" stop="20260424220327 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Inep abre pedidos de isenção para o Enem</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Inep%20abre%20pedidos%20de%20isen%C3%A7%C3%A3o%20para%20o%20Enem.jpg" />
+  </programme>
+  <programme start="20260424220327 +0000" stop="20260424221457 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Reportagem - Parque do Itacolomi Reabre ao Público</title>
+    <desc lang="pt">Parque Estadual do Itacolomi reabre com modelo de concessão e gratuidade para moradores locais.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/REPORTAGEM%20-%20PARQUE%20DO%20ITACOLOMI%20REABRE%20AO%20P%C3%9ABLICO.jpg" />
+  </programme>
+  <programme start="20260424221457 +0000" stop="20260424222359 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[TV UFMG] Maternidade Atípica - O Diagnóstico</title>
+    <desc lang="pt">A série aborda os desafios no cuidado de pessoas com deficiência.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MATERNIDADE%20ATIPICA%20-%20O%20MOMENTO%20DO%20DIAGNOSTICO.jpg" />
+  </programme>
+  <programme start="20260424222359 +0000" stop="20260424223010 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP em Casa - Minabloco</title>
+    <desc lang="pt">Série desenvolvida por dezenas de voluntários durante a pandemia de Covid-19.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EM%20CASA%20I%20MINABLOCO.jpg" />
+  </programme>
+  <programme start="20260424223010 +0000" stop="20260424225256 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[TVU Recife - UFPE] Na Estrada - Habib e Valéria</title>
+    <desc lang="pt">A série aborda aspectos relevantes dos campos artístico e cultural de Pernambuco e região.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/NA%20ESTRADA%20-%20HABIB%20E%20VAL%C3%89RIA.jpg" />
+  </programme>
+  <programme start="20260424225256 +0000" stop="20260424230022 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Energias Renováveis</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20-%20ENERGIAS%20RENOV%C3%81VEIS.jpg" />
+  </programme>
+  <programme start="20260424230022 +0000" stop="20260424231253 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Resenha (2025) - EP2 - Fabricio Boliveira</title>
+    <desc lang="pt">Um bate papo descontraído sobre arte, vida, cinema, sociedade e questões que envolvem nossa cultura.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/RESENHA%20I%20FABRICIO%20BOLIVEIRA%20I%20EP2.jpg" />
+  </programme>
+  <programme start="20260424231253 +0000" stop="20260424232129 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Jornal Lampião</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20I%20JORNAL%20LAMPI%C3%83O.jpg" />
+  </programme>
+  <programme start="20260424232129 +0000" stop="20260424232358 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Visibilidade Trans</title>
+    <desc lang="pt">No Brasil, o Dia da Visibilidade Trans é celebrado no dia 29 de janeiro.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/VISIBILIDADE%20TRANS.jpg" />
+  </programme>
+  <programme start="20260424232358 +0000" stop="20260424232905 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Personalidades Femininas - Amrita Sher-Gil</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20PERSONALIDADES%20FEMININAS%20-%20AMRITA%20SHER-GIL.jpg" />
+  </programme>
+  <programme start="20260424232905 +0000" stop="20260424234059 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Concertos Didáticos (2016) - Improviso Livre</title>
+    <desc lang="pt">Série que busca valorizar a música erudita clássica e seus reflexos na música contemporânea.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/CONCERTOS%20DID%C3%81TICOS%20I%20VIBRA%C3%87%C3%83O%20E%20IMPROVISO%20LIVRE.jpg" />
+  </programme>
+  <programme start="20260424234059 +0000" stop="20260424235953 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Apresentação - Harmonia é a Mãe da Música</title>
+    <desc lang="pt">Apresentação final de oficina realizada durante o Festival de Inverno da UFOP em 2023.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/APRESENTACAO%20HARMONIA%20E%20A%20MAE%20DA%20MUSICA.jpg" />
+  </programme>
+  <programme start="20260424235953 +0000" stop="20260425001114 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Inscrições abertas para o Jovens de Ouro 2.0</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Inscri%C3%A7%C3%B5es%20abertas%20para%20o%20Jovens%20de%20Ouro%202.0.jpg" />
+  </programme>
+  <programme start="20260424235953 +0000" stop="20260425001114 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Inscrições abertas para o Jovens de Ouro 2.0</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Inscri%C3%A7%C3%B5es%20abertas%20para%20o%20Jovens%20de%20Ouro%202.0.jpg" />
+  </programme>
+  <programme start="20260425001114 +0000" stop="20260425001456 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Artes Cênicas</title>
+    <desc lang="pt">O programa mostra os cursos de graduação oferecidos pela Universidade Federal de Ouro Preto.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20ARTES%20C%C3%8ANICAS.jpg" />
+  </programme>
+  <programme start="20260425001456 +0000" stop="20260425002331 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Literal (2012) - Adriana Lunardi</title>
+    <desc lang="pt">Apresentação de obras literárias indicadas por pessoas abordadas nas ruas de Ouro Preto.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/LITERAL%20-%20ADRIANA%20LUNARDI.jpg" />
+  </programme>
+  <programme start="20260425002331 +0000" stop="20260425003044 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Pós-Graduação em Educação Matemática</title>
+    <desc lang="pt">O programa mostra os cursos de pós graduação, de níveis mestrado e doutorado, oferecidos pela UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20P%C3%93S%20GRADUA%C3%87%C3%83O%20EM%20EDUCA%C3%87%C3%83O%20MATEM%C3%81TICA.jpg" />
+  </programme>
+  <programme start="20260425003044 +0000" stop="20260425004441 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Português Daqui, Português de Lá - O Português Arcaico e o Tombamento</title>
+    <desc lang="pt">A série pretende desvendar as diversidades, complexidades e práticas da língua portuguesa.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/PORTUGU%C3%8AS%20DAQUI%2C%20PORTUGU%C3%8AS%20DE%20L%C3%81%20I%20O%20PORTUGU%C3%8AS%20ARCAICO%20E%20O%20TOMBAMENTO.jpg" />
+  </programme>
+  <programme start="20260425004441 +0000" stop="20260425004810 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">UFOP Explica - Transfobia, Representatividade e o Fenômeno da Tokenização</title>
+    <desc lang="pt">Série em que docentes da UFOP abordam, com linguagem acessível e rigor acadêmico, temas relevantes.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/UFOP%20EXPLICA%20I%20TRANSFOBIA%2C%20REPRESENTATIVIDADE%20E%20O%20FEN%C3%94MENO%20DA%20TOKENIZA%C3%87%C3%83O.jpg" />
+  </programme>
+  <programme start="20260425004810 +0000" stop="20260425005026 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">RNP - Conferenciaweb</title>
+    <desc lang="pt">ConferênciaWeb, o serviço da RNP que disponibiliza salas virtuais para encontros.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/RNP%20I%20CONFERENCIAWEB.jpg" />
+  </programme>
+  <programme start="20260425005026 +0000" stop="20260425005331 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Literatura - Livros de Maya Angelou</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20LITERATURA%20-%20LIVROS%20DE%20MAYA%20ANGELOU.jpg" />
+  </programme>
+  <programme start="20260425005331 +0000" stop="20260425005601 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mutatis Mutandis - Povo Fala - O Que É Saúde</title>
+    <desc lang="pt">O programa "Mutatis Mutandis: à procura do saber" tenta desvendar o que é ciência.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MUTATIS%20MUTANDIS%20I%20POVO%20FALA%20O%20QUE%20%C3%89%20SA%C3%9ADE.jpg" />
+  </programme>
+  <programme start="20260425005601 +0000" stop="20260425010027 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Pós-Graduação em Engenharia Civil</title>
+    <desc lang="pt">O programa mostra os cursos de pós graduação, de níveis mestrado e doutorado, oferecidos pela UFOP.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20-%20P%C3%93S-GRADUA%C3%87%C3%83O%20EM%20ENGENHARIA%20CIVIL.jpg" />
+  </programme>
+  <programme start="20260425010027 +0000" stop="20260425012705 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[Rede Minas] Estações - Belo Vale</title>
+    <desc lang="pt">As estações de trem como linha condutora das histórias do povo mineiro.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/ESTA%C3%87%C3%95ES%20I%20BELO%20VALE%20.jpg" />
+  </programme>
+  <programme start="20260425012705 +0000" stop="20260425013037 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Mais UFOP - Estatística</title>
+    <desc lang="pt">O programa mostra os cursos de graduação oferecidos pela Universidade Federal de Ouro Preto.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/MAIS%20UFOP%20I%20ESTAT%C3%8DSTICA.jpg" />
+  </programme>
+  <programme start="20260425013037 +0000" stop="20260425020022 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">[UERN TV] Vem Ver - Parelhas e Carnaúba Dos Dantas</title>
+    <desc lang="pt">As belezas do estado do Rio Grande do Norte para além dos pontos turísticos já conhecidos.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/VEM%20VER%20-%20EPIS%C3%93DIO%203%20-%20PARELHAS%20E%20CARNA%C3%9ABA%20DOS%20DANTAS.jpg" />
+  </programme>
+  <programme start="20260425020022 +0000" stop="20260425020803 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Boletim - Abril Indígena celebra cultura e luta</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Boletim%20-%20Abril%20Ind%C3%ADgena%20celebra%20cultura%20e%20luta.jpg" />
+  </programme>
+  <programme start="20260425020803 +0000" stop="20260425021506 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Reportagem - Casos de gripe alertam para vacinação</title>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/Reportagem%20-%20Casos%20de%20gripe%20alertam%20para%20vacina%C3%A7%C3%A3o.jpg" />
+  </programme>
+  <programme start="20260425021506 +0000" stop="20260425021820 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">A Cena Muda (2015) - EP4 - Cortando Cebola</title>
+    <desc lang="pt">A Cena Muda é um programa inspirado no show antológico da cantora Maria Bethânia.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/A%20CENA%20MUDA%20I%20CORTADOR%20CEBOLA.jpg" />
+  </programme>
+  <programme start="20260425021820 +0000" stop="20260425022251 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Personalidades Femininas - Suely Machado</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20PERSONALIDADES%20FEMININAS%20-%20SUELY%20MACHADO.jpg" />
+  </programme>
+  <programme start="20260425022251 +0000" stop="20260425022501 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Pare Perceba Escute - Antimachista</title>
+    <desc lang="pt">A campanha discute, a partir de diversas vozes, situações comuns ligadas a temas sociais.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/PARE%20PERCEBA%20ESCUTE%20I%20ANTIMACHISTA.jpg" />
+  </programme>
+  <programme start="20260425022501 +0000" stop="20260425023002 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Venha Estudar com a Gente</title>
+    <desc lang="pt">Estudantes, servidores, trabalhadores e professores contam o que a UFOP tem de especial.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/VENHA%20ESTUDAR%20COM%20A%20GENTE.jpg" />
+  </programme>
+  <programme start="20260425023002 +0000" stop="20260425024926 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Congadeiros (2018) - EP1 - Histórias do Congado</title>
+    <desc lang="pt">A cultura do Congado em Ouro Preto e região.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/CONGADEIROS%20I%20EPIS%C3%93DIO%201.jpg" />
+  </programme>
+  <programme start="20260425024926 +0000" stop="20260425025613 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">Se Liga Aí - Personalidades Femininas, Heloísa Fernandes</title>
+    <desc lang="pt">Websérie da TV UFOP que traz para o público a obra e a vida de mulheres de vários campos de atuação.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/SE%20LIGA%20A%C3%8D%20I%20PERSONALIDADES%20FEMININAS%2C%20HELO%C3%8DSA%20FERNANDES.jpg" />
+  </programme>
+  <programme start="20260425025613 +0000" stop="20260425025900 +0000" channel="TVUFOP.br@HD">
+    <title lang="pt">EMBRAPII - O que é a EMBRAPII?</title>
+    <desc lang="pt">A Embrapii conecta ciência e indústria com inovação ágil e apoio financeiro não reembolsável.</desc>
+    <rating>
+      <value>Livre</value>
+    </rating>
+    <icon src="https://app.tvufop.com.br/epg/EMBRAPII%201.jpg" />
+  </programme>
+</tv>

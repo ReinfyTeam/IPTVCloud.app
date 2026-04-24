@@ -1,0 +1,1201 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="QmusicVlaanderen.be@SD">
+    <display-name>Qmusic</display-name>
+    <icon src="https://i.imgur.com/J09lNZK.png" />
+    <url>https://vtm.be</url>
+  </channel>
+  <channel id="VTM.be@SD">
+    <display-name>VTM</display-name>
+    <icon src="https://i.imgur.com/N3nwyDd.png" />
+    <url>https://vtm.be</url>
+  </channel>
+  <channel id="VTM2.be@SD">
+    <display-name>VTM 2</display-name>
+    <icon src="https://i.imgur.com/kYBHMlw.png" />
+    <url>https://vtm.be</url>
+  </channel>
+  <channel id="VTM3.be@SD">
+    <display-name>VTM 3</display-name>
+    <icon src="https://i.imgur.com/vY6892N.png" />
+    <url>https://vtm.be</url>
+  </channel>
+  <channel id="VTM4.be@SD">
+    <display-name>VTM 4</display-name>
+    <icon src="https://i.imgur.com/vabFMLq.png" />
+    <url>https://vtm.be</url>
+  </channel>
+  <channel id="VTMGold.be@SD">
+    <display-name>VTM Gold</display-name>
+    <icon src="https://i.imgur.com/HF49zV1.png" />
+    <url>https://vtm.be</url>
+  </channel>
+  <channel id="vtmnonstop">
+    <display-name>VTM NON-STOP Dokters</display-name>
+    <url>https://vtm.be</url>
+  </channel>
+  <programme start="20260424140000 +0000" stop="20260424170000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Vincent Live</title>
+    <desc lang="nl">Vincent Fierens heeft voor jou de beste remedie tegen verkeerschaos en filefrustratie: een flinke dosis humor én de beste muziek. Thuis, in de auto of op het werk, Vincent Live sleurt je door de av...</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/OjY5Pqv5zMzo6qR-ZOBDISoZozA/diocontent/263036405/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424190000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Vrienden Van De Vrijdag</title>
+    <desc lang="nl">Q-dJ's Ulrike D'hauwer en Bert De Kock katapulteren jou het weekend in met veel energie, een overdosis aan lachsalvo’s en de zaligste muziek!</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images2.persgroep.net/rcs/TQGVIzI-FSbrrUm-Eiu8krdcq7I/diocontent/263135164/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424210000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Radio Regi</title>
+    <desc lang="nl">Regi stopt op vrijdagavond de allerbeste dancemuziek van het moment in een ideale mix om aan het weekend te beginnen!</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images4.persgroep.net/rcs/2Iek2rMqKJbB0JCvM7AdgLCvbQg/diocontent/263038472/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424220000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Lost Radio Show</title>
+    <desc lang="nl">Lost Frequencies duikt samen met jou de vrijdagnacht in en draait een uur lang de beste dancetracks van het moment.</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images4.persgroep.net/rcs/yJve2F-zDUA7nx--QAeGvBa95_8/diocontent/264700580/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424230000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">KARAKALS</title>
+    <desc lang="nl">DJ KARAKALS mixt de vetste tracks van het moment in 1 grote mix.</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images2.persgroep.net/rcs/BCECFAzL14EK8UUcy1ODYsnYW90/diocontent/263038480/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260425000000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Q-Party</title>
+    <desc lang="nl">Hier is dat feestje! De beste hits in de mix van opkomend DJ-talent!</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/6D2QcOGRVe0uB5lYfTcAiaSzAL8/diocontent/263040100/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425050000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Q-Maximum Hits</title>
+    <desc lang="nl">De beste hits van Q non-stop.</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/5g68VSwVZJKoxuV3lnf5lTY-CcA/diocontent/252746426/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425080000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Robbe Petitjean</title>
+    <desc lang="nl">Robbe laat je in het weekend opstaan met een smile en maakt met jou wilde plannen voor een toffe zaterdag en zondag.</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images1.persgroep.net/rcs/Ur_fK5_Z-vKvXhXJDnlqg-3sAMY/diocontent/263038487/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425110000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Q-Top 40</title>
+    <desc lang="nl">Elke zaterdag krijg je de 40 beste hits van het moment van Timo Piredda in de Q-Top 40.</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images2.persgroep.net/rcs/ik4LKoiHH2bhjIbBoXW94U52xiM/diocontent/263038471/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425140000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Liam Van Haverbeke</title>
+    <desc lang="nl">Liam Van Haverbeke houdt je weekend op gang met de beste muziek.</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/HHRhKsddbGC6xVQZTRLyAnwMBn4/diocontent/263038476/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425140000 +0000" stop="20260425170000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Naomi Vanderpoorten</title>
+    <desc lang="nl">Naomi gidst je door de middag met lekker veel muziek.</desc>
+    <category lang="nl">Radioprogramma</category>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425180000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Dimitri Wouters</title>
+    <desc lang="nl">Dimitri Wouters zorgt voor feest op je radio! De beste hits in de mix!</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images1.persgroep.net/rcs/i8y4vWQH1T_eGFWKEDG2fbHZagU/diocontent/263038473/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425190000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Voltage</title>
+    <desc lang="nl">Voltage mixt jouw zaterdagavond aan elkaar!</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images3.persgroep.net/rcs/QW0rcA0z3qgSa0VVTUD0ZCQP9pM/diocontent/263038483/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260425210000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Dance 30</title>
+    <desc lang="nl">Samen met Regi ontdek je elke week de 30 beste clubtracks van het moment!</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images3.persgroep.net/rcs/kkt_er5_4vC2oQ7r4zaOvksZJgw/diocontent/263038475/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425210000 +0000" stop="20260425220000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">VIKTOR</title>
+    <desc lang="nl">DJ Viktor Verhulst draait elke zaterdag zijn favoriete tracks van het moment.</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images1.persgroep.net/rcs/eaaDuZOtznkLLBg_ENtQ6i5KAWw/diocontent/263038478/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260425230000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Henri PFR</title>
+    <desc lang="nl">Henri PFR kiest de beats voor jouw zaterdagnacht!</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images2.persgroep.net/rcs/Fwfh2xH3TplYaahMrrrdBzrS3OE/diocontent/263038479/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425230000 +0000" stop="20260426000000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Q-Party</title>
+    <desc lang="nl">Hier is dat feestje! De beste hits in de mix van opkomend DJ-talent!</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/6D2QcOGRVe0uB5lYfTcAiaSzAL8/diocontent/263040100/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426000000 +0000" stop="20260426050000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Q-Maximum Hits</title>
+    <desc lang="nl">De beste hits van Q non-stop.</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/5g68VSwVZJKoxuV3lnf5lTY-CcA/diocontent/252746426/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426050000 +0000" stop="20260426080000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Robbe Petitjean</title>
+    <desc lang="nl">Robbe laat je in het weekend opstaan met een smile en maakt met jou wilde plannen voor een toffe zaterdag en zondag.</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images1.persgroep.net/rcs/Ur_fK5_Z-vKvXhXJDnlqg-3sAMY/diocontent/263038487/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426080000 +0000" stop="20260426110000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Qmusic op de Baloise Antwerp 10 Miles</title>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images4.persgroep.net/rcs/KZKcGHv8191_2t4WZ5Ev1ZZEz9k/diocontent/272390044/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426110000 +0000" stop="20260426160000 +0000" channel="QmusicVlaanderen.be@SD">
+    <title lang="nl">Qmusic op de Baloise Antwerp 10 Miles</title>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images1.persgroep.net/rcs/6MZOF39r2wPgUPDmvfBF38OnlkE/diocontent/272390042/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424135000 +0000" stop="20260424143500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Een Eigen Huis</title>
+    <desc lang="nl">De dakkapel wordt geleverd en geplaatst en de koppels zijn er enorm blij mee. Dominique blijft het lastig vinden om de groep aan te sturen vanuit zijn managementrol.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images4.persgroep.net/rcs/SEmAlac9ECV7yKjVzSRk6Hl4VM0/diocontent/252485198/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424143500 +0000" stop="20260424152500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Achter Gesloten Deuren</title>
+    <desc lang="nl">Jacob heeft samen met zijn vrouw een succesvol makelaarskantoor. Privé gaan de zaken echter minder goed: zijn vrouw verwijt zichzelf dat hun dochter is weggelopen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/QqEYD7zktCunZcaAjzH1F8aQYfM/diocontent/176884755/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424152500 +0000" stop="20260424160500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">De Pfaffs</title>
+    <desc lang="nl">Lyndsey heeft een fotoshoot voor een weekblad. Kelly gaat mee om haar make-up te verzorgen. Carmen en Jean-Marie babysitten intussen op Liam en Keano.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/PSINNTHncPHHHTdRXesOMX2LePg/diocontent/216542719/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424160500 +0000" stop="20260424170500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">MasterChef Australia</title>
+    <desc lang="nl">De Australische legende Curtis Stone keert terug voor een kooksessie met langzaam gegaard lamsvlees en raviolo. Er ontstaat chaos wanneer sommige kandidaten meerdere keren in de problemen komen doo...</desc>
+    <category lang="nl">Show</category>
+    <image>https://images2.persgroep.net/rcs/cVAx4Oun1NC20n25BLP4HbiGnbU/diocontent/272512867/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424170500 +0000" stop="20260424173500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Home and Away</title>
+    <desc lang="nl">Bree laat Remi weten dat ze hem niet meer wil zien en ze dreigt zelfs met een straatverbod. Sonny wordt door zijn ouders onder druk gezet om naar Dylans afstudeerceremonie te gaan.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/K3e8xxdTt7P8b_0fUPk-6eEWL5Y/diocontent/272472492/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424173500 +0000" stop="20260424183000 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Mr. Frank Visser Doet Uitspraak</title>
+    <desc lang="nl">In Lelystad zou kattenliefhebber Conny haar muziek zo hard zetten dat buurvrouw Tilly er gek van wordt. Conny beschuldigt haar buurvrouw er dan weer van bewust afval in haar tuin te gooien.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images0.persgroep.net/rcs/zoLKYxKhpzKM5ps8h5JiRm77WSU/diocontent/257483420/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424183000 +0000" stop="20260424201500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Honest Thief</title>
+    <desc lang="nl">Bankovervaller Tom is verliefd en besluit zichzelf aan te geven en gestolen geld in te leveren. Hij wordt echter misleid door twee corrupte FBI-agenten.</desc>
+    <category lang="nl">Film</category>
+    <image>https://images0.persgroep.net/rcs/Q71AR1jTThOdAKBjZ-axwb0dt8o/diocontent/213048400/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424201500 +0000" stop="20260424220000 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Mechanic: Resurrection</title>
+    <desc lang="nl">De voormalige huurmoordenaar Arthur Bishop moet weer in actie schieten wanneer zijn geliefde wordt ontvoerd door zijn aartsvijand.</desc>
+    <category lang="nl">Film</category>
+    <image>https://images3.persgroep.net/rcs/6MnP23-sTrIgnSIunI9UGDG5ZNs/diocontent/108181480/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424224500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Mr. Frank Visser Doet Uitspraak</title>
+    <desc lang="nl">In Lelystad zou kattenliefhebber Conny haar muziek zo hard zetten dat buurvrouw Tilly er gek van wordt. Conny beschuldigt haar buurvrouw er dan weer van bewust afval in haar tuin te gooien.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images0.persgroep.net/rcs/zoLKYxKhpzKM5ps8h5JiRm77WSU/diocontent/257483420/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424224500 +0000" stop="20260424230500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Random Breath Test</title>
+    <desc lang="nl">Alleenstaande vader Mark keert terug naar huis na een avondje in de stad met vrienden. Hij houdt van motorrijden en drinkt al graag eens een whiskey, maar kent hij de juiste balans?</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images2.persgroep.net/rcs/PbqI_NesYN4zb4bdepZyQXbrpJo/diocontent/231431626/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424230500 +0000" stop="20260425004000 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425004000 +0000" stop="20260425051500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425051500 +0000" stop="20260425060000 +0000" channel="VTM2.be@SD">
+    <title lang="nl">GPs: Behind Closed Doors</title>
+    <desc lang="nl">Sommige patiënten moeten de huisartsen doorverwijzen naar meer gespecialiseerde collega's omdat hun situatie specifiekere zorg vereist.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images0.persgroep.net/rcs/BQexcjSlON1yiZB6p9F82cXV-mQ/diocontent/242628291/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425080000 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425114000 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425114000 +0000" stop="20260425123500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">The Motorway</title>
+    <desc lang="nl">De vrijdagavondspits is in volle gang wanneer het North East Control-team opgeroepen wordt voor een zwaar ongeluk op de M18 nabij Doncaster. De bestuurder zit gekneld in het wrak.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images2.persgroep.net/rcs/jjFJ6RkAyiASkarpJd-rOUK_nfA/diocontent/249617786/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425123500 +0000" stop="20260425132500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">US Kitchen Nightmares</title>
+    <desc lang="nl">Gordon Ramsay biedt steun aan The Verdict, een restaurant dat traditionele New Orleans-gerechten serveert met een moderne en trendy twist.</desc>
+    <category lang="nl">Show</category>
+    <image>https://images2.persgroep.net/rcs/I0X_Pm73MqoqxgkBhyBqiKEsMZo/diocontent/272002867/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425132500 +0000" stop="20260425150500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Caught in His Web</title>
+    <desc lang="nl">Drie jonge vrouwen worden online geterroriseerd door een mysterieuze pester die zichzelf Blake noemt. Hij dwingt ze om hem naaktfoto's te sturen en houdt elke stap die ze zetten nauwlettend in de g...</desc>
+    <image>https://images1.persgroep.net/rcs/s8wOfOU4K_UVYQ_0_4NH6qpH5Eg/diocontent/259008579/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425150500 +0000" stop="20260425155500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Interrogation Raw</title>
+    <desc lang="nl">Augustus 2017, Ontario, Canada. Wanneer er menselijke resten worden gevonden in de riolering van een appartementsblok, krijgt de politie de 45-jarige Adam Strong in het vizier.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/xqaeQ0lglHXwBqJO8LXgtmLwFHg/diocontent/251847478/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425155500 +0000" stop="20260425164500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Verslaafd</title>
+    <desc lang="nl">De 54-jarige Rotterdammer John is altijd al een stevige drinker geweest, maar wanneer zijn grote liefde Adele overlijdt aan de gevolgen van leukemie, is het hek helemaal van de dam.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images2.persgroep.net/rcs/hPbH5d7FbgqOIHgiW5ua-4QjB8U/diocontent/241335765/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425164500 +0000" stop="20260425173500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Oplichters Aangepakt</title>
+    <desc lang="nl">Weduwnaar Hendrick uit Geldrop werd door zijn schoonzus gekoppeld aan Mieke, maar de dame bleek een oplichtster met een zeer duister verleden.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/TgFmPgx_mYIqEqYHkUX4zGM_EhM/diocontent/262958940/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425173500 +0000" stop="20260425183000 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Mr. Frank Visser Doet Uitspraak</title>
+    <desc lang="nl">In Lelystad zou kattenliefhebber Conny haar muziek zo hard zetten dat buurvrouw Tilly er gek van wordt. Conny beschuldigt haar buurvrouw er dan weer van bewust afval in haar tuin te gooien.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images0.persgroep.net/rcs/zoLKYxKhpzKM5ps8h5JiRm77WSU/diocontent/257483420/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425183000 +0000" stop="20260425205000 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Shang-Chi and the Legend of the Ten Rings</title>
+    <desc lang="nl">Shang-Chi is een meester in martial arts. Hij kent een verleden dat hij achter zich heeft gelaten, maar wordt hiermee opnieuw geconfronteerd wanneer hij in het web van de mysterieuze Ten Rings-orga...</desc>
+    <category lang="nl">Film</category>
+    <image>https://images3.persgroep.net/rcs/443C0fu2CAnxrDRIZY1uRZU4Gyg/diocontent/272274016/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425205000 +0000" stop="20260425223500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">The Boogeyman</title>
+    <desc lang="nl">Sadie en haar zusje Sawyer zijn in rouw na het overlijden van hun moeder. Van hun vader, een therapeut, krijgen ze amper steun. Na een bezoek van een van zijn patiënten gebeuren er plots vreemde di...</desc>
+    <category lang="nl">Film</category>
+    <image>https://images0.persgroep.net/rcs/n1y5rX7Hryt3dBbytKAUVCKvSX0/diocontent/260704866/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425223500 +0000" stop="20260425232500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Mee met de Flikken</title>
+    <desc lang="nl">Agenten Mike Templeman en Will Cawte reageren op een oproep over een gevecht op een begrafenis. Eenmaal ter plaatse belandt de onruststoker op hun wagen.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/fsP2Q5xXd6EW0yK1SdKqaf1LDTY/diocontent/228861384/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425232500 +0000" stop="20260426010000 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260426010000 +0000" stop="20260426051500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260426051500 +0000" stop="20260426060000 +0000" channel="VTM2.be@SD">
+    <title lang="nl">GPs: Behind Closed Doors</title>
+    <desc lang="nl">De dokters behandelen twee patiënten die eerder al geholpen werden en opnieuw dringende hulp nodig hebben.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images4.persgroep.net/rcs/Q1Vj7Zu-yfHO6VeLyeoj3nRSNvE/diocontent/242628287/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426060000 +0000" stop="20260426080000 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260426080000 +0000" stop="20260426083000 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Champions League Magazine</title>
+    <category lang="nl">Magazine</category>
+    <image>https://images1.persgroep.net/rcs/AdkM9i3lQe1fL6p11WDVpWN1460/diocontent/249066065/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426083000 +0000" stop="20260426103500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260426103500 +0000" stop="20260426112500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Achter Gesloten Deuren</title>
+    <desc lang="nl">Nicole is verantwoordelijk voor de dood van haar broertje, 30 jaar geleden. Ze heeft het altijd verzwegen, maar nu haar vader op sterven ligt, wil Nicole niet langer zwijgen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images3.persgroep.net/rcs/R_CCkQATEqCb6gE9iNlc2h0_gqg/diocontent/180611095/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426112500 +0000" stop="20260426121500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Vrouwen die bouwen</title>
+    <desc lang="nl">Chef-monteur Angelique is druk bezig in de marinehaven van Den Helder. Elektricien Elayne repareert de elektra van een reeks mutatiewoningen.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images4.persgroep.net/rcs/TvANUlPp5OjKsSYHMJ35n0xu4qo/diocontent/230930829/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426121500 +0000" stop="20260426142500 +0000" channel="VTM2.be@SD">
+    <title lang="nl">Shang-Chi and the Legend of the Ten Rings</title>
+    <desc lang="nl">Shang-Chi is een meester in martial arts. Hij kent een verleden dat hij achter zich heeft gelaten, maar wordt hiermee opnieuw geconfronteerd wanneer hij in het web van de mysterieuze Ten Rings-orga...</desc>
+    <category lang="nl">Film</category>
+    <image>https://images3.persgroep.net/rcs/443C0fu2CAnxrDRIZY1uRZU4Gyg/diocontent/272274016/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424132500 +0000" stop="20260424134500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">The Goldbergs</title>
+    <desc lang="nl">Beverly vraagt Miss Cinoman om Adam te laten playbacken in de schoolmusical aangezien hij de baard in de keel heeft. Murray spoort Erica aan om naar de schoolreünie te gaan met Geoff Schwartz.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/zMMtrpcqTlL5uBXKMACshDpGEQY/diocontent/208482070/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424134500 +0000" stop="20260424152500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Second Act</title>
+    <desc lang="nl">Maya werkt als assistent-manager. Ondanks haar ervaring grijpt ze naast een promotie omdat ze geen diploma heeft. Gefrustreerd smukt Maya haar cv op en solliciteert bij cosmeticabedrijf Madison Ave...</desc>
+    <category lang="nl">Film</category>
+    <image>https://images3.persgroep.net/rcs/XSgtaGnC5U1O3HNp0e7bXO04BOg/diocontent/154571680/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424152500 +0000" stop="20260424161500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">9-1-1</title>
+    <desc lang="nl">Na een vliegtuigcrash snellen Bobby en zijn team ter plaatse op zoek naar overlevenden. Ondertussen probeert Athena de gemoederen te bedaren op de luchthaven.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/O__vV2GFYLTR9cXQIyRDrPTLOT8/diocontent/141094604/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424161500 +0000" stop="20260424164500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">The Goldbergs</title>
+    <desc lang="nl">Murray bouwt samen met Adam een robot, maar door creatieve meningsverschillen worden ze uit elkaar gedreven. Barry wist per ongeluk Beverly's video van zijn vijfde verjaardag.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/BcmA4eU2-B5sGfyE1_XPozVXvpw/diocontent/208482072/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424164500 +0000" stop="20260424171000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">The Simpsons</title>
+    <desc lang="nl">De familie Simpson brengt een bezoek aan een grottencomplex. Wanneer Homer vast komt te zitten, gaan Marge en Bart hulp zoeken. Ondertussen vertelt Lisa haar vader een verhaal.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images3.persgroep.net/rcs/hi2X8YjJRrA5aBoouxaxFNOOLAU/diocontent/24662671/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424171000 +0000" stop="20260424174000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">The Simpsons</title>
+    <desc lang="nl">Marge leert Rod en Todd Flanders hoe ze plezier moeten maken. Een eenzame chimpansee grijpt Bart vast.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/Zov7nedGJ42sTMP6aVJP4ZrJq7M/diocontent/24672709/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424174000 +0000" stop="20260424181000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">The Big Bang Theory</title>
+    <desc lang="nl">Amy bekritiseert 'Raiders of the Lost Ark', een van Sheldons favoriete films. Die is daarom uit op wraak. Ondertussen ontdekt Leonard hoe hij Penny alles kan laten doen wat hij wil.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/Si7PpL3dTzPwE1GkdPSfAwXYO10/diocontent/39809923/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424181000 +0000" stop="20260424183500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">The Big Bang Theory</title>
+    <desc lang="nl">Na een zware discussie met Bernadette belandt Howard op de zetel bij Raj. Ook Sheldon en Amy krijgen ruzie, wanneer Amy aankondigt dat ze een tijdje aan de universiteit zal komen werken.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/i4SI6D1hqv4tm68p_Vw0fT3NeaE/diocontent/40059862/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424183500 +0000" stop="20260424201500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Neighbors</title>
+    <desc lang="nl">Mac en Kelly, een jong koppel met een pasgeboren baby, krijgen nieuwe buren. Het gaat om een studentenvereniging geleid door de charismatische Teddy Sanders, die te pas en te onpas wilde feestjes o...</desc>
+    <category lang="nl">Film</category>
+    <image>https://images1.persgroep.net/rcs/nU-fKPuQ63_qpTykiU2wceyvwdI/diocontent/132825321/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424201500 +0000" stop="20260424221000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">I Now Pronounce You Chuck &amp; Larry</title>
+    <desc lang="nl">Chuck en Larry zijn collega-brandweermannen en dikke vrienden. Ze besluiten zich uit te geven als homokoppel, opdat Larry's kinderen recht zouden hebben op een uitkering mocht hij vroegtijdig sterven.</desc>
+    <category lang="nl">Film</category>
+    <image>https://images3.persgroep.net/rcs/AkJO-LG7tB3Qj1HrMFqsTrIwy2Q/diocontent/208894118/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424221000 +0000" stop="20260424223500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">The Big Bang Theory</title>
+    <desc lang="nl">Amy bekritiseert 'Raiders of the Lost Ark', een van Sheldons favoriete films. Die is daarom uit op wraak. Ondertussen ontdekt Leonard hoe hij Penny alles kan laten doen wat hij wil.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/Si7PpL3dTzPwE1GkdPSfAwXYO10/diocontent/39809923/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424223500 +0000" stop="20260424230000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">The Big Bang Theory</title>
+    <desc lang="nl">Na een zware discussie met Bernadette belandt Howard op de zetel bij Raj. Ook Sheldon en Amy krijgen ruzie, wanneer Amy aankondigt dat ze een tijdje aan de universiteit zal komen werken.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/i4SI6D1hqv4tm68p_Vw0fT3NeaE/diocontent/40059862/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260425030000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Geen uitzending</title>
+    <category lang="nl">Magazine</category>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425073500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425073500 +0000" stop="20260425101000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425101000 +0000" stop="20260425105500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">The Irrational</title>
+    <desc lang="nl">Nadat een passagiersvliegtuig is neergestort in de Potomac-rivier, wordt de piloot aangewezen als verantwoordelijke. Mercer duikt in het persoonlijke leven van de piloot, op zoek naar aanwijzingen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/SffbIUe4YZZSm90IsOp3p0_CFs4/diocontent/247397186/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425105500 +0000" stop="20260425132500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425132500 +0000" stop="20260425152500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Everest</title>
+    <desc lang="nl">1996. Ondanks waarschuwingen over een grote storm die voorspeld is, gaan twee teams op klimexpeditie naar de top van de Mount Everest.</desc>
+    <category lang="nl">Film</category>
+    <image>https://images4.persgroep.net/rcs/Ay6-KF1ftleHFp3hWgY3bm2EwFY/diocontent/66861501/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425152500 +0000" stop="20260425161000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">S.W.A.T.</title>
+    <desc lang="nl">Wanneer iemand een scheikundelaboratorium van de universiteit inneemt, moet het team een mogelijke terreuraanslag zien te verijdelen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images3.persgroep.net/rcs/lvdNpMYHt8onyhe786ln3Mi7Wlg/diocontent/219939926/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425161000 +0000" stop="20260425170000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">9-1-1</title>
+    <desc lang="nl">In de 911-alarmcentrale werken tal van mensen. Een van hen is politie-inspecteur Athena Grant, die de onderzoeken leidt. Bobby Nash en zijn brandweerkorps doen al het mogelijke om levens te redden.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/G9lu9h_OHUIJ8s-4VUmgYjB58m4/diocontent/166202035/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425183000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Fit for a Prince</title>
+    <desc lang="nl">Cindy, een beloftevolle modeontwerpster, wordt ingehuurd om jurken te ontwerpen voor een liefdadigheidsbal. Haar leven neemt een onverwachte wending wanneer prins Ronan zijn oog op haar laat vallen.</desc>
+    <image>https://images2.persgroep.net/rcs/17289XNubGvykmoNrTFetL9dTeU/diocontent/254970822/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425183000 +0000" stop="20260425203000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">The Devil Wears Prada</title>
+    <desc lang="nl">De pas afgestudeerde Andy Sachs gaat aan de slag als assistente van Miranda Priestly, de meedogenloze uitgeefster van modeblad 'Runway'. Modeleek Andy moet zich grondig restylen om aanvaard te worden.</desc>
+    <category lang="nl">Film</category>
+    <image>https://images0.persgroep.net/rcs/ATdZVFhAtYNCqCG51r2xpGET9Zc/diocontent/138679480/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425203000 +0000" stop="20260425223500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Long Shot</title>
+    <desc lang="nl">Fred Flarsky is een aan lagerwal geraakte politiek journalist. Hij krijgt de kans om speechschrijver te worden van zijn vroegere oppas Charlotte, die een gooi wil doen naar het presidentschap.</desc>
+    <category lang="nl">Film</category>
+    <image>https://images2.persgroep.net/rcs/8Khdf62aKc5HVbWbh4GRawsjiVE/diocontent/201036428/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425223500 +0000" stop="20260425232000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">American Horror Story</title>
+    <desc lang="nl">In 1981 en 1987 zijn Sam en Patrick er slecht aan toe. Op hun sterfbed krijgen ze visioenen van overleden vrienden die met hen een reis door hun verleden maken.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images4.persgroep.net/rcs/XVeXYQ_I19LAc8zV-GlgOYWr-n4/diocontent/238789100/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425232000 +0000" stop="20260426000000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">American Horror Story</title>
+    <desc lang="nl">Gino krijgt af te rekenen met verdriet en er loert ook gevaar om de hoek. De ontdekking van een tragedie is tegelijkertijd een openbaring voor Adam.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images4.persgroep.net/rcs/ev-QOnnYvfxgqjt3ej63iIKBIC8/diocontent/238986222/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426000000 +0000" stop="20260426040000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Geen uitzending</title>
+    <category lang="nl">Magazine</category>
+  </programme>
+  <programme start="20260426040000 +0000" stop="20260426074000 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260426074000 +0000" stop="20260426101500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260426101500 +0000" stop="20260426110500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Law &amp; Order Toronto : Criminal Intent</title>
+    <desc lang="nl">Een moordonderzoek zet Graff en Bateman op het spoor van een wereldwijd misdaadsyndicaat. Een complex web van criminelen maakt het hen echter allesbehalve gemakkelijk om de dader op te sporen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/PiTk_ZuFGpw5etm22iz2IN9_cfo/diocontent/252883760/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426110500 +0000" stop="20260426133500 +0000" channel="VTM3.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260424131500 +0000" stop="20260424140500 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Police Interceptors</title>
+    <desc lang="nl">Rob achtervolgt een vermoedelijk gestolen Mercedes Sprinter die aan hoge snelheid over de weg raast. Ondertussen doorzoeken verschillende politieteams twee huizen die mogelijk worden gebruikt door ...</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/sowckLjlifGf7Z7LOSNaFzacNPk/diocontent/139702995/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424140500 +0000" stop="20260424145000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Police Interceptors</title>
+    <desc lang="nl">Tijdens een spectaculaire klopjacht steelt speurhond Bryn de show door de verdachten meer dan 1,5 km verderop op te sporen. Wanneer de interceptors een vermoedelijke inbreker wakker maken, reageert...</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/sowckLjlifGf7Z7LOSNaFzacNPk/diocontent/139702995/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424145000 +0000" stop="20260424154500 +0000" channel="VTM4.be@SD">
+    <title lang="nl">24</title>
+    <desc lang="nl">Terwijl Jack door Ramon wordt gegijzeld, komt CTU erachter dat Gael samenwerkt met de Salazars, en gaat Chase op eigen houtje op zoek naar Jack.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/zME1W0RxPEbcrrwLikRQoJmoixg/diocontent/259359471/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424154500 +0000" stop="20260424164500 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Police Interceptors</title>
+    <desc lang="nl">De interceptors achtervolgen mogelijke verdachten van een steekpartij, terwijl hondenbegeleidster Lucy te voet een bestuurder achternazit die probeert te ontsnappen.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/sowckLjlifGf7Z7LOSNaFzacNPk/diocontent/139702995/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424164500 +0000" stop="20260424174000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Police Interceptors</title>
+    <desc lang="nl">De zoektocht is geopend naar een grijze Mercedes met een passagier die verdacht wordt van stalking en mishandeling. Een man met een gewelddadig verleden weigert rustig mee te werken met de politie.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/sowckLjlifGf7Z7LOSNaFzacNPk/diocontent/139702995/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424174000 +0000" stop="20260424183500 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Police Interceptors</title>
+    <desc lang="nl">Richie en Harrison zetten de achtervolging in op een Toyota-bestuurder die weigerde te stoppen. Bij een verkeerscontrole worden agenten verrast: achter het stuur zit een veertienjarige jongen.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/sowckLjlifGf7Z7LOSNaFzacNPk/diocontent/139702995/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424183500 +0000" stop="20260424201500 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Piranha 3</title>
+    <desc lang="nl">In een stadje aan Lake Victoria is 'spring break' aan de gang. Maar het feestgedruis wordt verstoord wanneer scholen bloeddorstige piranha's na een aardbeving uit een ondergronds meer ontsnappen.</desc>
+    <category lang="nl">Film</category>
+    <image>https://images1.persgroep.net/rcs/20BxV1hN4aBVckt0c8RpxsVyTlE/diocontent/53006055/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424201500 +0000" stop="20260424222000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Jaws 2</title>
+    <desc lang="nl">Duikers die op zoek zijn naar het gezonken schip Orca worden aangevallen door een haai. Inspecteur Brody is ervan overtuigd dat Amity opnieuw het jachtterrein van een bloeddorstig monster is.</desc>
+    <category lang="nl">Film</category>
+    <image>https://images4.persgroep.net/rcs/IqB4h-iqiAvsoH-C2Js5gvpbeMI/diocontent/258384767/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424222000 +0000" stop="20260424231500 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Police Interceptors</title>
+    <desc lang="nl">De interceptors achtervolgen mogelijke verdachten van een steekpartij, terwijl hondenbegeleidster Lucy te voet een bestuurder achternazit die probeert te ontsnappen.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/sowckLjlifGf7Z7LOSNaFzacNPk/diocontent/139702995/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424231500 +0000" stop="20260425050000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Geen uitzending</title>
+    <category lang="nl">Magazine</category>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425080000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Willy</title>
+    <desc lang="nl">De Willy-dj's zorgen voor de beste platen met de nodige rock-'n-roll.</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/k2o0MKFCd4eV298iEpel1WjBOt4/diocontent/252485388/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425110000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Geen uitzending</title>
+    <category lang="nl">Magazine</category>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425133500 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425133500 +0000" stop="20260425142000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Baywatch Hawaii</title>
+    <desc lang="nl">Jason wordt verliefd op volleybalster Maya Morgan. Na een passionele nacht gedraagt Maya zich echter koel en afstandelijk. Wanneer hij haar hierover aanspreekt, krijgt ze een hartaanval.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/BXYpdPoi8FXcsj-9mzl_M4kwap0/diocontent/247497774/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425142000 +0000" stop="20260425151500 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Baywatch Hawaii</title>
+    <desc lang="nl">Jenna zet haar aanval op Seans team voort en probeert Leigh tegen hem op te zetten. Daarnaast heeft Sean zijn handen meer dan vol met de jonge zakkenroller Danny.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/8xSOVVnIWzjQ813am9bnA3rEf3A/diocontent/247497781/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425151500 +0000" stop="20260425160500 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Police Interceptors</title>
+    <desc lang="nl">Paul en Lewis maken jacht op drie tieners die een winkeleigenaar bedreigd zouden hebben met een geweer. In Stapleford worden Jen en haar hond Quantum opgeroepen voor een inbraak in een school.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images1.persgroep.net/rcs/1vgmGWQVNb9-WQJYvPCJm1wLbts/diocontent/223716538/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425160500 +0000" stop="20260425170500 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Police Interceptors</title>
+    <desc lang="nl">De arrestatie van een vermoedelijke drugsdealer verloopt allesbehalve vlot en de agenten moeten zelfs pepperspray gebruiken om de man in de boeien te kunnen slaan.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images0.persgroep.net/rcs/-9PPPoo9XvbpT4akvTnEMBwiWv8/diocontent/221150076/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425170500 +0000" stop="20260425175000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Police Interceptors</title>
+    <desc lang="nl">Speurhond Bryn gaat achter vermoedelijke dieven aan, terwijl bij een crash in een file een busje op de vangrail vast komt te zitten.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/sowckLjlifGf7Z7LOSNaFzacNPk/diocontent/139702995/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425175000 +0000" stop="20260425184500 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Police Interceptors</title>
+    <desc lang="nl">De interceptors riskeren alles tijdens de achtervolging van een vrachtwagen. Ondertussen leidt een TikTok-prankvideo tot een politieachtervolging.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/sowckLjlifGf7Z7LOSNaFzacNPk/diocontent/139702995/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425184500 +0000" stop="20260425193500 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Police Interceptors</title>
+    <desc lang="nl">Interceptor Charlie beleeft zijn eerste soloachtervolging en gaat aan een snelheid van 185 km/u achter een roekeloze bestuurder aan. Agent Beverley houdt een onervaren bestuurder tegen.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/sowckLjlifGf7Z7LOSNaFzacNPk/diocontent/139702995/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425193500 +0000" stop="20260425203000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Police Interceptors</title>
+    <desc lang="nl">Een gevaarlijke bestuurder in een gestolen Astra raast aan hoge snelheid door Northampton, waardoor de interceptors moeten ingrijpen. Ondertussen gebruikt een andere bestuurder de snelweg als een r...</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/sowckLjlifGf7Z7LOSNaFzacNPk/diocontent/139702995/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425203000 +0000" stop="20260425222000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Act of Valor</title>
+    <desc lang="nl">Een eliteteam van Amerikaanse Navy SEALs wordt op een geheime missie gestuurd om een ontvoerde CIA-agent te redden. Zo ontdekken ze dat er een terroristische aanslag wordt beraamd op Amerika.</desc>
+    <category lang="nl">Film</category>
+    <image>https://images3.persgroep.net/rcs/c4D7YncqYAWHRSlu4EFL1CgZXHQ/diocontent/78744765/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425222000 +0000" stop="20260425232000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Mee met de Flikken</title>
+    <desc lang="nl">Zo'n 60% van alle oproepen zijn gerelateerd aan mentale gezondheidsproblemen. Simon Berger reageert op een oproep over een man die roept naar voorbijgangers en deuren en ramen vernielt.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images4.persgroep.net/rcs/pjOmoPFAK7pID8IqY4NgfqUc5Cc/diocontent/253998684/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425232000 +0000" stop="20260426050000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Geen uitzending</title>
+    <category lang="nl">Magazine</category>
+  </programme>
+  <programme start="20260426050000 +0000" stop="20260426080000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Willy</title>
+    <desc lang="nl">De Willy-dj's zorgen voor de beste platen met de nodige rock-'n-roll.</desc>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/k2o0MKFCd4eV298iEpel1WjBOt4/diocontent/252485388/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426080000 +0000" stop="20260426110000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Geen uitzending</title>
+    <category lang="nl">Magazine</category>
+  </programme>
+  <programme start="20260426110000 +0000" stop="20260426132000 +0000" channel="VTM4.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260424131500 +0000" stop="20260424141000 +0000" channel="VTM.be@SD">
+    <title lang="nl">The Good Doctor</title>
+    <desc lang="nl">Door zijn inlevingsvermogen zorgt Shaun voor een doorbraak in de behandeling van een patiënt die lijdt aan een immuniteitsziekte. De spanning neemt toe tussen Melendez en Lim.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/xUsmzyVi7LBrsOCzhUmHtT-BJEA/diocontent/160055520/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424141000 +0000" stop="20260424144000 +0000" channel="VTM.be@SD">
+    <title lang="nl">America's Funniest Home Videos</title>
+    <category lang="nl">Show</category>
+    <image>https://images4.persgroep.net/rcs/UdqvolGUR2nKRR8e0CvdaIFBSlU/diocontent/51991350/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424144000 +0000" stop="20260424154500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Helden van Hier: De MUG</title>
+    <desc lang="nl">Op de spoedafdeling behandelt arts Johan een vrouw die zichzelf verbrandde tijdens het koken. Wanneer PIT-verpleegkundige Evy wordt opgeroepen voor een doofstomme man met ademnood, moet ze creatiev...</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/q3yV4bvZFzbv6rqVRk74L5KX_T4/diocontent/244266504/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424154500 +0000" stop="20260424170000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Eenmaal Andermaal</title>
+    <desc lang="nl">Op de grote rommelmarkt van het Zand in Brugge vormt Jacques een team met actrice Liesa Naert, in haar geboortestad. Axel krijgt acteur Manou Kersting aan zijn zijde voor een speurtocht met een Ned...</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images4.persgroep.net/rcs/dhjRhRumo8ZEaYuX3Vsqs32VUww/diocontent/272116792/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424175500 +0000" channel="VTM.be@SD">
+    <title lang="nl">VTM NIEUWS</title>
+    <desc lang="nl">Nieuws van de dag met achtergrondinformatie, gevolgd door uitgebreide sportverslaggeving.</desc>
+    <category lang="nl">Nieuws</category>
+    <image>https://images2.persgroep.net/rcs/6hBXmq3fBbt8Wn7hep2dUB0KxDw/diocontent/272467211/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424175500 +0000" stop="20260424180000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Het Weer</title>
+    <category lang="nl">Nieuws</category>
+    <image>https://images3.persgroep.net/rcs/fYwKgyvcseUNPKQzskuhQ9i8YkI/diocontent/248624422/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424183500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Familie</title>
+    <desc lang="nl">Maryse en Gerard zijn diep ontgoocheld in Simon. Simon begint aan zichzelf te twijfelen. Niko voelt zich onrechtvaardig behandeld. Emiel helpt Brahim om de mancave op te ruimen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/8VlyoSEG86zKnxOUhcRnJD6Vhm0/diocontent/272122259/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424183500 +0000" stop="20260424203000 +0000" channel="VTM.be@SD">
+    <title lang="nl">The Voice van Vlaanderen</title>
+    <desc lang="nl">Met de gevreesde Cross Battles begint een nieuwe fase: coaches zetten hun kandidaten in voor een zangduel tegen een kandidaat van een ander team. Winnaars, gekozen door de coaches van de negen voor...</desc>
+    <category lang="nl">Show</category>
+    <image>https://images4.persgroep.net/rcs/2-usKsw1QOKjvZwqj347BJ334SM/diocontent/272125450/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424203000 +0000" stop="20260424221000 +0000" channel="VTM.be@SD">
+    <title lang="nl">So You Think You Can Dance</title>
+    <desc lang="nl">Na de audities is het tijd voor de Callbacks. Tien dansers hebben al een Golden Ticket, de andere 40 strijden nog voor een van de tien beschikbare plekken.</desc>
+    <category lang="nl">Show</category>
+    <image>https://images3.persgroep.net/rcs/o_rJsdHJFpPkgFqQIZmbvJS5S2I/diocontent/272153367/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424221000 +0000" stop="20260424230000 +0000" channel="VTM.be@SD">
+    <title lang="nl">The Good Doctor</title>
+    <desc lang="nl">Door zijn inlevingsvermogen zorgt Shaun voor een doorbraak in de behandeling van een patiënt die lijdt aan een immuniteitsziekte. De spanning neemt toe tussen Melendez en Lim.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/xUsmzyVi7LBrsOCzhUmHtT-BJEA/diocontent/160055520/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260425030000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425042500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425042500 +0000" stop="20260425043500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Plop &amp; de Peppers</title>
+    <desc lang="nl">Pol en Pepijn vinden in het bos, tijdens hun wandeling, een balvormig voorwerp. De twee zijn overtuigd dat het een ei is. Gelukkig weet kabouter Plop het antwoord maar Pol is hier niet echt blij mee.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/e32LllPP8PCB-rFBnwDV3C9Y_io/diocontent/225592534/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425043500 +0000" stop="20260425044500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Plop &amp; de Peppers</title>
+    <desc lang="nl">Pepijn wil, net als één van zijn boekhelden, een stoere brandweerman zijn. Maan wanneer er echt een probleem is blijkt Pepijn toch niet zo dapper te zijn. Gelukkig zijn zijn vrienden er om hem te h...</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/nqoFb02RPVvXN9ZpGE6T_nHk9FQ/diocontent/225592529/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425044500 +0000" stop="20260425050500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Heidi</title>
+    <desc lang="nl">Het 5-jarige weesmeisje Heidi wordt door haar tante naar de Zwitserse Alpen gebracht, om daar bij haar grootvader te gaan wonen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images4.persgroep.net/rcs/w1Vj2R4QuSP55kOuWhyxwQcPUIw/diocontent/60010126/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425050500 +0000" stop="20260425051000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Jokie 3D</title>
+    <desc lang="nl">Hallo, ga je mee op avontuur? Jokie en Jet zien vanuit hun luchtballon een boerin met haar fiets. Haar band is lek en Jokie gaat haar helpen. Wanneer ze klaar zijn met het plakken van de band, mag ...</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images4.persgroep.net/rcs/agDR33JdxuTahMEcR-pys5HAMQw/diocontent/257974552/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425051000 +0000" stop="20260425051500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Vegesauriërs</title>
+    <desc lang="nl">Ginger helpt een aardbei-o-sauriër de moed te vinden voor een bijzondere vriendschapsdans.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/7nHBNCYXO2qMYIlsFn0h0ZCSioc/diocontent/261781536/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425051500 +0000" stop="20260425052000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Jokie 3D</title>
+    <desc lang="nl">Hallo, ga je mee op avontuur? Jokie en Jet zien vanuit hun luchtballon een herder met zijn schaapjes. Vandaag mag Jokie even op de schapen passen. Maar Jokie valt in slaap en de schapen lopen weg! ...</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/B2LVixEU770KPZfoDY8oihyKiMI/diocontent/257974464/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425052000 +0000" stop="20260425054000 +0000" channel="VTM.be@SD">
+    <title lang="nl">LEGO® Friends: The Next Chapter</title>
+    <desc lang="nl">Mia, Stephanie, Emma, Olivia en Andrea zitten vast in een oude tunnel die verborgen is onder Andrea's landhuis, terwijl Autumn, Nova, Leo en Liann Imani leren kennen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images4.persgroep.net/rcs/QXOk0Bsl_8ckY4XsibU2VtygtPA/diocontent/261347580/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425054000 +0000" stop="20260425060500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Hallo K3</title>
+    <desc lang="nl">Wanneer Karen hoort dat Josje met Bas gaat deelnemen aan een loopwedstrijd, besluit ze ook mee te doen. Ze vliegt erin met het trainen, maar doet dat net iets te enthousiast.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/t6Cd-WOEDe8gy6Zkv7p1MV3KXBY/diocontent/165435465/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425060500 +0000" stop="20260425063500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Echte Verhalen: De Buurtpolitie</title>
+    <desc lang="nl">Koen en Lotte betrappen twee inbrekers op heterdaad. Een van hen heeft er wel erg veel voor over om aan de politie te ontsnappen. Obi en Aziz zijn op zoek naar een nepagent.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/MYRUcJNTs8QycYM_iaqRjrHgUTE/diocontent/175272996/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425063500 +0000" stop="20260425072500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Code van Coppens</title>
+    <desc lang="nl">Geen hoogstaand kerstmenu voor Lize Feryn, Klaasje Meijer, Joke Emmers en Jasmijn Van Hoof, maar een stevige en vooral vettige portie frituursnacks. Wie trotseert het best liters saus en smerigheid?</desc>
+    <category lang="nl">Show</category>
+    <image>https://images3.persgroep.net/rcs/kqj7yGlPwWH4STAAxWdIa1jSHyU/diocontent/225539758/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425072500 +0000" stop="20260425074500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Nonkel Jef</title>
+    <desc lang="nl">Dré is stikjaloers wanneer hij verneemt dat Magda gaat zeilen met de hoofdredacteur van 't Annonceurke. Staf besluit Dré te leren zeilen op de vijver van de baron.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images3.persgroep.net/rcs/14QSnkqkFaCmM5POvrecvZKVZOs/diocontent/180348339/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425074500 +0000" stop="20260425095000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425095000 +0000" stop="20260425110000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Blind Gesprongen</title>
+    <desc lang="nl">Sarah gaat langs bij de experts, die zich afvragen of ze het talent heeft voor de specifieke baan die ze in gedachten hebben. Martyna maakt voor het eerst kennis met de gedetineerden, want het is h...</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/1kh3_2AurmVJ_Vp78f1_dV_5iGI/diocontent/241391129/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425112500 +0000" channel="VTM.be@SD">
+    <title lang="nl">VTM NIEUWS</title>
+    <desc lang="nl">Nieuws van de dag met achtergrondinformatie, gevolgd door uitgebreide sportverslaggeving.</desc>
+    <category lang="nl">Nieuws</category>
+    <image>https://images0.persgroep.net/rcs/25gefYpIy8obVA_PXa4CVVw9MTA/diocontent/272466763/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425112500 +0000" stop="20260425113500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Het Weer</title>
+    <category lang="nl">Nieuws</category>
+    <image>https://images3.persgroep.net/rcs/fYwKgyvcseUNPKQzskuhQ9i8YkI/diocontent/248624422/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425113500 +0000" stop="20260425121000 +0000" channel="VTM.be@SD">
+    <title lang="nl">De Branche-Expert</title>
+    <desc lang="nl">Wie met een vraag zit over een specifiek onderwerp, krijgt vaak pas het juiste antwoord als ze bij iemand langsgaan die er dagelijks mee bezig is. Daarom trekken onze presentatoren door heel Vlaand...</desc>
+    <category lang="nl">Magazine</category>
+    <image>https://images2.persgroep.net/rcs/iqMpbpCpp3V-_IeikDpC2zQpS70/diocontent/272516854/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425121000 +0000" stop="20260425125000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Design Secrets</title>
+    <desc lang="nl">De designers nemen ons mee naar mooie projecten in binnen- en buitenland, evenementen en netwerkborrels. Ze vertellen over hun passie, inspireren met de laatste trends en ontwikkelingen en laten ge...</desc>
+    <category lang="nl">Magazine</category>
+    <image>https://images1.persgroep.net/rcs/kKA00Fv_b3SNB2M99RatEMW2Zj0/diocontent/272517177/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425125000 +0000" stop="20260425131500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Florentina</title>
+    <desc lang="nl">Hoewel Florentina zich gekwetst voelt, besluit ze zich niet te laten kennen, ook al is er alweer een volgend plan voor 'Clami'.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/-xfU9OFsKmg2qLqo6jiEJLYzztw/diocontent/272115995/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425131500 +0000" stop="20260425134500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Florentina</title>
+    <desc lang="nl">Florentina leeft mee met Nadia, tot die een domme beslissing neemt. Terwijl Justin uitblinkt in zijn nieuwe job, wordt hij gemist op zijn oude werk. Het nieuws over het Bal Masqué verspreidt zich e...</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images3.persgroep.net/rcs/97Ps64HEGQBuA7guU2BX9fKNPB8/diocontent/272115992/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425134500 +0000" stop="20260425153500 +0000" channel="VTM.be@SD">
+    <title lang="nl">The Voice van Vlaanderen</title>
+    <desc lang="nl">Met de gevreesde Cross Battles begint een nieuwe fase: coaches zetten hun kandidaten in voor een zangduel tegen een kandidaat van een ander team. Winnaars, gekozen door de coaches van de negen voor...</desc>
+    <category lang="nl">Show</category>
+    <image>https://images4.persgroep.net/rcs/2-usKsw1QOKjvZwqj347BJ334SM/diocontent/272125450/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425153500 +0000" stop="20260425161500 +0000" channel="VTM.be@SD">
+    <title lang="nl">The Voice Comeback Stage</title>
+    <desc lang="nl">De finale van de Voice Comeback Stage barst los. Maarten en Dorothee gaan verder op zoek naar talent voor de liveshows.</desc>
+    <category lang="nl">Show</category>
+    <image>https://images0.persgroep.net/rcs/0hbf4hTe-4mylh6foZ70RHZqrwU/diocontent/272517715/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425161500 +0000" stop="20260425170000 +0000" channel="VTM.be@SD">
+    <title lang="nl">SOS Piet XL</title>
+    <desc lang="nl">De Oekraïense Nina uit Avelgem houdt van de Belgische keuken, maar haar hespenrolletjes met witloof zwemmen in de saus. Ook Tatjana kan hulp van Piet gebruiken, want haar wortelcake valt als een ba...</desc>
+    <category lang="nl">Magazine</category>
+    <image>https://images1.persgroep.net/rcs/63Z9hVdfpdLp2kd7KSHe_lvCY5c/diocontent/272352838/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425174500 +0000" channel="VTM.be@SD">
+    <title lang="nl">VTM NIEUWS</title>
+    <desc lang="nl">Nieuws van de dag met achtergrondinformatie, gevolgd door uitgebreide sportverslaggeving.</desc>
+    <category lang="nl">Nieuws</category>
+    <image>https://images1.persgroep.net/rcs/iFbHrujfbK_EzvUZ_ZhMv5ph9vQ/diocontent/272467207/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425174500 +0000" stop="20260425175500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Het Weer</title>
+    <category lang="nl">Nieuws</category>
+    <image>https://images3.persgroep.net/rcs/fYwKgyvcseUNPKQzskuhQ9i8YkI/diocontent/248624422/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425175500 +0000" stop="20260425183000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Het Echte Leven in de ZOO NL</title>
+    <desc lang="nl">Giraf Zeus is alleen sinds zijn vriendinnetje Twigga vorig jaar overleed, maar nu krijgt hij weer gezelschap. Zal hij overeenkomen met het nieuwe mannetje Taio? De pinguïns staan voor ingrijpende v...</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images0.persgroep.net/rcs/1lYn1Xy6gbPNIQUeGS4y62HSJVI/diocontent/269404280/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425183000 +0000" stop="20260425194500 +0000" channel="VTM.be@SD">
+    <title lang="nl">The Floor</title>
+    <desc lang="nl">De vloer wordt stilaan leger nu er nog maar 67 kandidaten overblijven. Sommigen hebben al behoorlijk wat vlakken veroverd, anderen moeten hun eerste duel nog spelen. Uiteraard moet er opnieuw afsch...</desc>
+    <category lang="nl">Show</category>
+    <image>https://images3.persgroep.net/rcs/RFuCEbY39cpmusbSzsBTAfC57M4/diocontent/272355305/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425194500 +0000" stop="20260425204000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Gooische Vrouwen</title>
+    <desc lang="nl">Tijdens Oliviers uitvaart ziet Martin een kans om zijn carrière een boost te geven, maar zijn manager vreest grote imagoschade. Cheryl voelt zich intussen weer helemaal gelukkig in haar huwelijk. O...</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images3.persgroep.net/rcs/Wi6Wv3QoyUWUCqS6dwWd3fd82ZA/diocontent/272385107/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425204000 +0000" stop="20260425215500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Sergio Over De Grens: Marco 2021</title>
+    <desc lang="nl">Vijf jaar na opname wordt deze speciale aflevering eindelijk uitgezonden. Sergio reist met Marco Borsato door Italië voor een culinaire roadtrip vol smaak en emotie, met openhartige gesprekken over...</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images0.persgroep.net/rcs/d7qWYOU1XSbZ8DaCVaJ4os1rRYU/diocontent/272332885/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425215500 +0000" stop="20260425230500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Huis Gemaakt</title>
+    <desc lang="nl">Het tweede weekend in de badkamer maakt duidelijk dat dit de moeilijkste kamer is. In Wielsbeke krijgen ze hulp van familie, terwijl ze in Kessel voor een stevige uitdaging staan.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images2.persgroep.net/rcs/2ExFYXq3jQjMFeZzYiEG5CrqKgU/diocontent/272117895/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425230500 +0000" stop="20260426031000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260426031000 +0000" stop="20260426043500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260426043500 +0000" stop="20260426044500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Plop &amp; de Peppers</title>
+    <desc lang="nl">Wanneer kabouter Plop ziek is gaan Pip, Pepijn en Pol op zoek naar een nieuwe zanger. Maar al snel komt het tot ruzie, want de drie denken van zichzelf de plaats van zanger Plop te kunnen innemen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images3.persgroep.net/rcs/19Px92wHiyKsyd5vzQyQYCD6tdk/diocontent/225592535/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426044500 +0000" stop="20260426045500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Plop &amp; de Peppers</title>
+    <desc lang="nl">Pip en kabouter Plop zijn druk in de weer om zich klaar te maken voor de winter die voor de deur staat. Pol en Pepijn zouden dit ook beter doen maar de twee zijn te lui. Maar hier hebben ze al snel...</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/rWm9L-SvllFOGDu8FpOBICdL1SM/diocontent/225592533/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426045500 +0000" stop="20260426051500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Heidi</title>
+    <desc lang="nl">Heidi vergezelt Peter naar de bergweide. Ze moet bij hem in de buurt blijven, maar haar nieuwsgierigheid haalt de bovenhand waardoor Heidi al gauw afdwaalt.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/XRHYvNqKc0nBAsIGTxZzpVIuasg/diocontent/179660768/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426051500 +0000" stop="20260426052000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Jokie 3D</title>
+    <desc lang="nl">Hallo, ga je mee op avontuur? Jokie en Jet horen vanuit hun luchtballon mooie muziek. Het is een jongetje die op zijn gitaar de Flamenco speelt. Jokie en Jet leren vandaag Flamenco dansen!</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images3.persgroep.net/rcs/g8WH9Vl_ZfBx2ZvG2Ox-rHln-Ws/diocontent/257974532/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426052000 +0000" stop="20260426054000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Vegesauriërs</title>
+    <desc lang="nl">Wanneer Ginger en haar vriendjes een ei vinden dat al snel uitkomt, proberen ze het jong te helpen om zijn kudde te vinden.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/42tSZv_4j7xBnQxj7XGJ-kLx-sU/diocontent/261781563/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426052500 +0000" stop="20260426053000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Jokie 3D</title>
+    <desc lang="nl">Hallo, ga je mee op avontuur? Jokie en Jet zien vanuit hun luchtballon een hoed voorbij waaien! Van wie zou die hoed zijn? Jokie en Jet gaan samen op zoek, naar de eigenaar van de hoed!</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/tK_l3tl0SbvaicWQnQbiQDxqhCs/diocontent/257974407/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426053000 +0000" stop="20260426055000 +0000" channel="VTM.be@SD">
+    <title lang="nl">LEGO® Friends: The Next Chapter</title>
+    <desc lang="nl">De cadeautjes zijn gestolen tijdens de Jolly Jingle Gift Swap. Nova en Liann gaan op zoek naar de dief, en de anderen maken nieuwe cadeautjes die de boel redden.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/Qm8jmOBufsQVRYEfoRqxaSvf7Ko/diocontent/260729997/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426055000 +0000" stop="20260426062000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Hallo K3</title>
+    <desc lang="nl">Wanneer Karen uitzinnig reageert op een spin in de badkamer, beslist Kristel dat ze in therapie moet om verlost te worden van haar fobie. Josje schept op over het feit dat zij echt nooit bang is.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/SvvUXWhYgT7ePEcSQYIxAephkLg/diocontent/60625555/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426062000 +0000" stop="20260426064000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Echte Verhalen: De Buurtpolitie</title>
+    <desc lang="nl">Een jongeman wordt van zijn rugzak beroofd en roept de hulp in van Koen en Lotte. Al snel blijkt dat het slachtoffer zelf niet helemaal zuiver op de graat is.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images1.persgroep.net/rcs/T9cXe7G_aqU1iq7McTa-IJAIjX0/diocontent/175272997/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426064000 +0000" stop="20260426073000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Code van Coppens</title>
+    <desc lang="nl">Jeroen Meus laat de kookpotten even voor wat ze zijn en trekt samen met Peter Vanlaet de bergen in. Het duo gaat net zoals Nora Gharib en Gers Pardoel naar de Himalaya/</desc>
+    <category lang="nl">Show</category>
+    <image>https://images0.persgroep.net/rcs/YgM0ZTKuvuGKLJhdY0RnJXBO6I8/diocontent/225547234/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426073000 +0000" stop="20260426075500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Nonkel Jef</title>
+    <desc lang="nl">De sjampetter heeft een bende sluikstokers opgerold. De burgemeester beloont hem voor zijn heldendaad met een gouden handdruk.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/tPy8l5cn7DIxGwLhDVuqTS1BI_c/diocontent/180348340/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426075500 +0000" stop="20260426100000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260426100000 +0000" stop="20260426110000 +0000" channel="VTM.be@SD">
+    <title lang="nl">De Branche-Expert</title>
+    <category lang="nl">Magazine</category>
+    <image>https://images4.persgroep.net/rcs/y0LFz8E4QDwS98lhF6jIvO17VUA/diocontent/272116582/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426110000 +0000" stop="20260426113500 +0000" channel="VTM.be@SD">
+    <title lang="nl">VTM NIEUWS</title>
+    <desc lang="nl">Nieuws van de dag met achtergrondinformatie, gevolgd door uitgebreide sportverslaggeving.</desc>
+    <category lang="nl">Nieuws</category>
+    <image>https://images3.persgroep.net/rcs/w1g4xvLPLcJj8SfR10gXH7ar3hQ/diocontent/272466766/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426113500 +0000" stop="20260426114500 +0000" channel="VTM.be@SD">
+    <title lang="nl">Het Weer</title>
+    <category lang="nl">Nieuws</category>
+    <image>https://images3.persgroep.net/rcs/fYwKgyvcseUNPKQzskuhQ9i8YkI/diocontent/248624422/_fill/608/342?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426114500 +0000" stop="20260426122000 +0000" channel="VTM.be@SD">
+    <title lang="nl">SOS Piet XL</title>
+    <desc lang="nl">Vandaag op het menu: een bleke cordon bleu bij Vallery uit Anzegem en een droge pulled pork bij Jens en Geraldine uit Lennik.</desc>
+    <category lang="nl">Magazine</category>
+    <image>https://images4.persgroep.net/rcs/x-fm8sM-KHJpjXga8yrV3o1Ey00/diocontent/272236862/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426122000 +0000" stop="20260426125000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Florentina</title>
+    <desc lang="nl">Florentina deelt haar frustraties met Nadia, maar krijgt weinig gehoor. Steph vindt het gedrag van Els onrustwekkend, maar ze lijkt de enige die er zo over denkt.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images4.persgroep.net/rcs/TxfD7E4gDUTnRvZ4hXry0ri0fdo/diocontent/272115993/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426125000 +0000" stop="20260426132000 +0000" channel="VTM.be@SD">
+    <title lang="nl">Florentina</title>
+    <desc lang="nl">Florentina laat op het Bal Masqué flink van zich horen. Jordy is er ook, maar zijn bedoelingen zijn verre van zuiver. Door omstandigheden kan Steph last minute haar act niet uitvoeren, maar dat bet...</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/CRG_n8xsc1r7h46mUFSXU7BZw4k/diocontent/272115999/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424131500 +0000" stop="20260424134500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260424134500 +0000" stop="20260424141500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Joe</title>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/G2yJGbS7qGim1nqH8VYADbK7UUk/diocontent/253260677/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424141500 +0000" stop="20260424144500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260424144500 +0000" stop="20260424152000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">WAT NU WEER ?</title>
+    <desc lang="nl">Wanneer Mark en Paulien thuiskomen vinden ze een brief van hun vader. Komt papa ooit nog terug? Fran zoekt Ben op en vraagt zonder omwegen om haar te leren zwemmen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/cQi9VATr1xEcgQTwpLTusaOxmQ8/diocontent/206953874/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424152000 +0000" stop="20260424155000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">SOS Piet</title>
+    <desc lang="nl">Op het kot van Geert en Dimi staan er pannenkoeken op het menu. Daisy roept de hulp in van Piet Huysentuyt voor het bereiden van waterzooi en Luc waagt zich aan versgebakken pizza.</desc>
+    <category lang="nl">Magazine</category>
+    <image>https://images3.persgroep.net/rcs/crFOQl4pjWk1JzFnp_o1CF5BpWA/diocontent/200461272/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424155000 +0000" stop="20260424161500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Nonkel Jef</title>
+    <desc lang="nl">Nu Odette de plas is overgestoken naar Engeland, is de pastoor ervan overtuigd dat de drie mannen en Jefke het niet lang zullen volhouden en hij stuurt hulp naar de boerderij.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/BD9gvi3hF_sLcONky4zdHd7ttBw/diocontent/180381891/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424161500 +0000" stop="20260424171000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Sturm der Liebe</title>
+    <desc lang="nl">Massimo houdt zich bezig met de voorbereiding van een romantische avond voor een belangrijke VIP-gast, terwijl Christoph een bijzonder kruidengerecht creëert. Sandy en haar vermiste telefoon veroor...</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/YR0QEGk0ye_7Vtt7Y_1bIdBADcw/diocontent/272457551/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424171000 +0000" stop="20260424172500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">De Keuken van Sofie</title>
+    <desc lang="nl">Het is tijd voor een heerlijk dessert. Sofie en Tanja Dexters maken een sabayon met pancakes en rood fruit klaar. Ook een bolletje roomijs mag uiteraard niet ontbreken.</desc>
+    <category lang="nl">Magazine</category>
+    <image>https://images3.persgroep.net/rcs/AhW3Bjp_l9E1Kl3LwAFEV7-Wwbw/diocontent/219099217/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424172500 +0000" stop="20260424180000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">David</title>
+    <desc lang="nl">Maarten gaat met David naar de hotelschool, waar hij een rondleiding krijgt en een culinaire proef tot een goed einde moet brengen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images4.persgroep.net/rcs/varanirLSMS7af2_i3cHt129yCs/diocontent/230384667/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424183500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Pa heeft een lief</title>
+    <desc lang="nl">Victor wil Bea aan zijn familie voorstellen, maar door problemen in de fabriek moet ze meteen vertrekken. De conservatieve Fernand ontslaat Betty wanneer hij ontdekt dat haar broer op mannen valt.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/9JhXktougSNNMK-h6D5myRkLzWE/diocontent/202980369/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424183500 +0000" stop="20260424195000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Columbo</title>
+    <desc lang="nl">Bart Kepple denkt zichzelf vrij te pleiten voor de moord op Vic Norris. Hij lijkt geen motief te hebben en beschikt ook over een waterdicht alibi. Columbo komt echter chantagepraktijken op het spoor.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/2T7AA_D-UBXn4OkdSg02tmZqA6I/diocontent/236046563/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424195000 +0000" stop="20260424204500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Baywatch</title>
+    <desc lang="nl">Vier Baywatch-redders trekken naar San Diego om er hun snelle motorboten te demonstreren aan de redders uit de streek. Maar volgens een lokaal gerucht zou er in hun hotel een geest door de gangen d...</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/2kC8TNUWtDVgx_gYc3Uu65ff4a4/diocontent/243986058/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424204500 +0000" stop="20260424211500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Nonkel Jef</title>
+    <desc lang="nl">Nu Odette de plas is overgestoken naar Engeland, is de pastoor ervan overtuigd dat de drie mannen en Jefke het niet lang zullen volhouden en hij stuurt hulp naar de boerderij.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/BD9gvi3hF_sLcONky4zdHd7ttBw/diocontent/180381891/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424211500 +0000" stop="20260424215000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Pa heeft een lief</title>
+    <desc lang="nl">Victor wil Bea aan zijn familie voorstellen, maar door problemen in de fabriek moet ze meteen vertrekken. De conservatieve Fernand ontslaat Betty wanneer hij ontdekt dat haar broer op mannen valt.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/9JhXktougSNNMK-h6D5myRkLzWE/diocontent/202980369/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424215000 +0000" stop="20260424222500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">WAT NU WEER ?</title>
+    <desc lang="nl">Wanneer Mark en Paulien thuiskomen vinden ze een brief van hun vader. Komt papa ooit nog terug? Fran zoekt Ben op en vraagt zonder omwegen om haar te leren zwemmen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/cQi9VATr1xEcgQTwpLTusaOxmQ8/diocontent/206953874/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260424222500 +0000" stop="20260425040000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425073000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Joe</title>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/G2yJGbS7qGim1nqH8VYADbK7UUk/diocontent/253260677/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425073000 +0000" stop="20260425080000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425132000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Joe</title>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/G2yJGbS7qGim1nqH8VYADbK7UUk/diocontent/253260677/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425132000 +0000" stop="20260425135000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425135000 +0000" stop="20260425142000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Joe</title>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/G2yJGbS7qGim1nqH8VYADbK7UUk/diocontent/253260677/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425142000 +0000" stop="20260425145000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260425145000 +0000" stop="20260425152500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">WAT NU WEER ?</title>
+    <desc lang="nl">Paulien is naar de gynaecoloog geweest als voorbereiding op haar eerste seksueel contact met Deedee. Mark gaat met Betty Joy zwemmen waar ze kennismaakt met Ben en Freek. Kittie krijgt na lange tij...</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/pSpYKZKmJ4pOoQaGKrIh2jap2jY/diocontent/206953866/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425152500 +0000" stop="20260425155500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Pa heeft een lief</title>
+    <desc lang="nl">Jean-Paul zit zonder secretaresse, wat betekent dat zijn echtgenote Charlotte moet inspringen. De samenwerking zorgt voor serieuze spanningen tussen het koppel.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/GFfuZ7RduvME-pMU9o_2PgN5Om0/diocontent/202980363/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425155500 +0000" stop="20260425162500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Pa heeft een lief</title>
+    <desc lang="nl">Jean-Paul mag van zijn echtgenote een andere secretaresse in dienst nemen op voorwaarde dat hij zich door een uroloog laat onderzoeken.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images2.persgroep.net/rcs/9pFuy34I3CpjOiGPgNKXdfWo8jo/diocontent/202980364/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425162500 +0000" stop="20260425165500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Pa heeft een lief</title>
+    <desc lang="nl">Charlotte is er zeker van dat Victor zijn zoektocht naar een lief heeft gestaakt omdat hij Emiel opnieuw is tegengekomen. Tijdens de familieraad wordt besloten om alle contact met pa te verbreken.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images4.persgroep.net/rcs/Absdz7ZNCetJ1nCBe5wHc9rEEO4/diocontent/202980365/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425165500 +0000" stop="20260425172500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Pa heeft een lief</title>
+    <desc lang="nl">Bea en Victor spelen toneel en laten zijn kinderen geloven dat ze een relatie hebben. Francis raakt de zwangere hond Charlotte kwijt. In paniek rent hij naar de beenhouwerij, waar hij zijn verhaal ...</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images4.persgroep.net/rcs/fmbARfQU0mCwoY15vY3v5dUa-jY/diocontent/202980367/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425172500 +0000" stop="20260425180000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Pa heeft een lief</title>
+    <desc lang="nl">Victor wil Bea aan zijn familie voorstellen, maar door problemen in de fabriek moet ze meteen vertrekken. De conservatieve Fernand ontslaat Betty wanneer hij ontdekt dat haar broer op mannen valt.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/9JhXktougSNNMK-h6D5myRkLzWE/diocontent/202980369/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425182500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Nonkel Jef</title>
+    <desc lang="nl">Het toneelstuk Het Heilig Treezeke gaat in première. Magda regisseert met Odette in de hoofdrol, terwijl Jef en Sander achter de schermen helpen.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/S_IbcghmksWgJ1ZfUqmb1IcUXjQ/diocontent/180056326/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425182500 +0000" stop="20260425185000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Nonkel Jef</title>
+    <desc lang="nl">Jef, Sander en Eduard brengen een bezoek aan een brouwerij. Terwijl Jef en Sander vooral komen om te proeven, wordt er tegelijk gewerkt aan een nieuw logo.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images4.persgroep.net/rcs/qn_9dPo3xGGVJaJ8ubDMkv6AWI8/diocontent/180212409/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425185000 +0000" stop="20260425192500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Nonkel Jef</title>
+    <desc lang="nl">Jef en Sander trekken met een oude camionette naar de Vlaamse Ardennen. Onderweg stoppen ze in een café, waar een bok alle dagen zijn trappist komt drinken.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images0.persgroep.net/rcs/4BcVWmJmS5DJT2nMSrP3ZE29o2c/diocontent/180348335/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425192500 +0000" stop="20260425195000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Nonkel Jef</title>
+    <desc lang="nl">Een taxi rijdt het erf van nonkel Jef op. Een zekere Jeanine stapt uit de wagen. De vrouw komt uit Engeland en heeft groot nieuws over de familie van Odette.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/kDRtDzdyfVNQSqzmiwzAVOO-K7A/diocontent/180348336/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425195000 +0000" stop="20260425202000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Nonkel Jef</title>
+    <desc lang="nl">Nu Odette de plas is overgestoken naar Engeland, is de pastoor ervan overtuigd dat de drie mannen en Jefke het niet lang zullen volhouden en hij stuurt hulp naar de boerderij.</desc>
+    <category lang="nl">Reeks</category>
+    <image>https://images1.persgroep.net/rcs/BD9gvi3hF_sLcONky4zdHd7ttBw/diocontent/180381891/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425202000 +0000" stop="20260425210000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">De Planckaerts</title>
+    <desc lang="nl">De Planckaerts gaan in Breda naar hun eerste uitzending op de Nederlandse tv kijken. Stephanie wordt gevraagd voor haar eerste betaalde job als fotomodel.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images3.persgroep.net/rcs/3t9btffhjIyD5b_KEIBYsO_yBsc/diocontent/201085390/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425210000 +0000" stop="20260425213000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">De Planckaerts</title>
+    <desc lang="nl">De Planckaerts krijgen een bezoekje van hun neef Jo. Nu hij ziet hoe gelukkig Stephanie en Christopher samenwonen, begint het bij Francesco ook te kriebelen.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images1.persgroep.net/rcs/Ud8TjS37xbS1DdSbQrVhkvFJEC4/diocontent/201085387/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425213000 +0000" stop="20260425220500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">De Planckaerts</title>
+    <desc lang="nl">Magali heeft ja gezegd op Francesco zijn huwelijksaanzoek. Hij neemt haar mee naar de Ardennen, haar nieuwe thuis. De rest van de familie zorgt voor een feestelijke ontvangst.</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images2.persgroep.net/rcs/IRhcDjId0R0TLubjOq2h5lJ6nWQ/diocontent/201085389/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425220500 +0000" stop="20260425224000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">De Planckaerts</title>
+    <desc lang="nl">Francesco bespreekt met zijn vader het droomscenario van Magali voor de trouw en wil haar daarmee verrassen. Na een drukke periode in de chambres d'hotes wil Eddy met zijn familie even tot rust kom...</desc>
+    <category lang="nl">Reportage</category>
+    <image>https://images2.persgroep.net/rcs/lf2mhzTn6p_tXuP-oL6eFjvmHwc/diocontent/201930955/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260425224000 +0000" stop="20260426040000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260426040000 +0000" stop="20260426073000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Joe</title>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/G2yJGbS7qGim1nqH8VYADbK7UUk/diocontent/253260677/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+  <programme start="20260426073000 +0000" stop="20260426080000 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Geen uitzending</title>
+  </programme>
+  <programme start="20260426080000 +0000" stop="20260426132500 +0000" channel="VTMGold.be@SD">
+    <title lang="nl">Joe</title>
+    <category lang="nl">Radioprogramma</category>
+    <image>https://images0.persgroep.net/rcs/G2yJGbS7qGim1nqH8VYADbK7UUk/diocontent/253260677/_fill/600/400?appId=da11c75db9b73ea0f41f0cd0da631c71</image>
+  </programme>
+</tv>

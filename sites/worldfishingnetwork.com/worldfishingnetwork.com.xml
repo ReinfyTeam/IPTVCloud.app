@@ -1,0 +1,548 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="WorldFishingNetwork.us@SD">
+    <display-name>World Fishing Network</display-name>
+    <icon src="https://i.imgur.com/2llPsSV.png" />
+    <url>https://worldfishingnetwork.com</url>
+  </channel>
+  <programme start="20260424040000 +0000" stop="20260424043000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Fish Guyz</title>
+    <sub-title lang="en">Chum Balls</sub-title>
+    <desc lang="en">The Guyz drift fish the wrecks and reefs of Key West with Captain Brandon Jimenez. George and Lain tour Key West in style in a hot pink Scoot Coupe and devour blackened yellowtail snapper at First Flight Restaurant and Brewery.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-fish-guyz-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424043000 +0000" stop="20260424050000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Big Coast</title>
+    <sub-title lang="en">Duncanby Spring Salmon</sub-title>
+    <desc lang="en">Travel to world famous Duncanby Lodge for an early season trip with Captain Tim Milne and Kyle Morton.</desc>
+    <image>https://content.osgnetworks.tv/shows/big-coast-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424050000 +0000" stop="20260424053000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">BigWater Adventures</title>
+    <sub-title lang="en">Venice, LA Bull Redfish with the MGFC</sub-title>
+    <desc lang="en">Bull Redfish with the inshore arm of the Mexican Gulf Fishing Company of Venice, LA.</desc>
+    <image>https://content.osgnetworks.tv/shows/bigwater-adventures-thumbnail2.jpg</image>
+  </programme>
+  <programme start="20260424053000 +0000" stop="20260424060000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Two Conchs Adventures</title>
+    <sub-title lang="en">Cooking Our Catch at Key Largo Fisheries</sub-title>
+    <desc lang="en">The Two Conchs Crew starts things out by visiting Key Largo Fisheries, before heading out on the water and doing a ''Cook your catch.''</desc>
+    <image>https://content.osgnetworks.tv/shows/two-conchs-adventures-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424060000 +0000" stop="20260424063000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">A Fishing Story with Ronnie Green</title>
+    <sub-title lang="en">Passing the rod</sub-title>
+    <desc lang="en">Bobby Bakewell is a Bassmaster Classic qualifier who honed his fishing skills through countless hours on the water with his father. He shares how his dad's guidance and passion for the sport shaped his journey and success as an angler.</desc>
+    <image>https://content.osgnetworks.tv/shows/a-fishing-story-with-ronnie-green-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424063000 +0000" stop="20260424070000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Salt Water Sportsman National Seminar Series</title>
+    <sub-title lang="en">Deep Dropping</sub-title>
+    <desc lang="en">George Poveromo leads a discussion on deep dropping for ocean bottom fish.</desc>
+    <image>https://content.osgnetworks.tv/shows/salt-water-sportman-national-seminar-series-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424070000 +0000" stop="20260424073000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Seahunter</title>
+    <sub-title lang="en">Shark Fly</sub-title>
+    <desc lang="en">Rob is alone and on a mission. HIs target? Sight fishing Shallow water sharks on fly.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-seahunter-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424073000 +0000" stop="20260424080000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Modern Fishing with Jared Jeffries</title>
+    <sub-title lang="en">Season 3 - A Look Ahead</sub-title>
+    <desc lang="en">Jared kicks off season three by introducing this year's cast of characters, and sets up all the fishing destinations and cuisine ahead of him this year.</desc>
+    <image>https://content.osgnetworks.tv/shows/modern-fishing-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424080000 +0000" stop="20260424083000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Fish Guyz</title>
+    <sub-title lang="en">Chum Balls</sub-title>
+    <desc lang="en">The Guyz drift fish the wrecks and reefs of Key West with Captain Brandon Jimenez. George and Lain tour Key West in style in a hot pink Scoot Coupe and devour blackened yellowtail snapper at First Flight Restaurant and Brewery.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-fish-guyz-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424083000 +0000" stop="20260424090000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Big Coast</title>
+    <sub-title lang="en">Duncanby Spring Salmon</sub-title>
+    <desc lang="en">Travel to world famous Duncanby Lodge for an early season trip with Captain Tim Milne and Kyle Morton.</desc>
+    <image>https://content.osgnetworks.tv/shows/big-coast-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424090000 +0000" stop="20260424093000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">BigWater Adventures</title>
+    <sub-title lang="en">Venice, LA Bull Redfish with the MGFC</sub-title>
+    <desc lang="en">Bull Redfish with the inshore arm of the Mexican Gulf Fishing Company of Venice, LA.</desc>
+    <image>https://content.osgnetworks.tv/shows/bigwater-adventures-thumbnail2.jpg</image>
+  </programme>
+  <programme start="20260424093000 +0000" stop="20260424100000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Two Conchs Adventures</title>
+    <sub-title lang="en">Cooking Our Catch at Key Largo Fisheries</sub-title>
+    <desc lang="en">The Two Conchs Crew starts things out by visiting Key Largo Fisheries, before heading out on the water and doing a ''Cook your catch.''</desc>
+    <image>https://content.osgnetworks.tv/shows/two-conchs-adventures-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424100000 +0000" stop="20260424103000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">A Fishing Story with Ronnie Green</title>
+    <sub-title lang="en">Passing the rod</sub-title>
+    <desc lang="en">Bobby Bakewell is a Bassmaster Classic qualifier who honed his fishing skills through countless hours on the water with his father. He shares how his dad's guidance and passion for the sport shaped his journey and success as an angler.</desc>
+    <image>https://content.osgnetworks.tv/shows/a-fishing-story-with-ronnie-green-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424103000 +0000" stop="20260424110000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Salt Water Sportsman National Seminar Series</title>
+    <sub-title lang="en">Deep Dropping</sub-title>
+    <desc lang="en">George Poveromo leads a discussion on deep dropping for ocean bottom fish.</desc>
+    <image>https://content.osgnetworks.tv/shows/salt-water-sportman-national-seminar-series-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424110000 +0000" stop="20260424113000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Seahunter</title>
+    <sub-title lang="en">Shark Fly</sub-title>
+    <desc lang="en">Rob is alone and on a mission. HIs target? Sight fishing Shallow water sharks on fly.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-seahunter-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424113000 +0000" stop="20260424120000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Modern Fishing with Jared Jeffries</title>
+    <sub-title lang="en">Season 3 - A Look Ahead</sub-title>
+    <desc lang="en">Jared kicks off season three by introducing this year's cast of characters, and sets up all the fishing destinations and cuisine ahead of him this year.</desc>
+    <image>https://content.osgnetworks.tv/shows/modern-fishing-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424120000 +0000" stop="20260424123000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Fish Guyz</title>
+    <sub-title lang="en">Chum Balls</sub-title>
+    <desc lang="en">The Guyz drift fish the wrecks and reefs of Key West with Captain Brandon Jimenez. George and Lain tour Key West in style in a hot pink Scoot Coupe and devour blackened yellowtail snapper at First Flight Restaurant and Brewery.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-fish-guyz-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424123000 +0000" stop="20260424130000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Big Coast</title>
+    <sub-title lang="en">Duncanby Spring Salmon</sub-title>
+    <desc lang="en">Travel to world famous Duncanby Lodge for an early season trip with Captain Tim Milne and Kyle Morton.</desc>
+    <image>https://content.osgnetworks.tv/shows/big-coast-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424130000 +0000" stop="20260424133000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">BigWater Adventures</title>
+    <sub-title lang="en">Venice, LA Bull Redfish with the MGFC</sub-title>
+    <desc lang="en">Bull Redfish with the inshore arm of the Mexican Gulf Fishing Company of Venice, LA.</desc>
+    <image>https://content.osgnetworks.tv/shows/bigwater-adventures-thumbnail2.jpg</image>
+  </programme>
+  <programme start="20260424133000 +0000" stop="20260424140000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Two Conchs Adventures</title>
+    <sub-title lang="en">Cooking Our Catch at Key Largo Fisheries</sub-title>
+    <desc lang="en">The Two Conchs Crew starts things out by visiting Key Largo Fisheries, before heading out on the water and doing a ''Cook your catch.''</desc>
+    <image>https://content.osgnetworks.tv/shows/two-conchs-adventures-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424140000 +0000" stop="20260424143000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">A Fishing Story with Ronnie Green</title>
+    <sub-title lang="en">Passing the rod</sub-title>
+    <desc lang="en">Bobby Bakewell is a Bassmaster Classic qualifier who honed his fishing skills through countless hours on the water with his father. He shares how his dad's guidance and passion for the sport shaped his journey and success as an angler.</desc>
+    <image>https://content.osgnetworks.tv/shows/a-fishing-story-with-ronnie-green-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424143000 +0000" stop="20260424150000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Salt Water Sportsman National Seminar Series</title>
+    <sub-title lang="en">Deep Dropping</sub-title>
+    <desc lang="en">George Poveromo leads a discussion on deep dropping for ocean bottom fish.</desc>
+    <image>https://content.osgnetworks.tv/shows/salt-water-sportman-national-seminar-series-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424150000 +0000" stop="20260424153000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Seahunter</title>
+    <sub-title lang="en">Shark Fly</sub-title>
+    <desc lang="en">Rob is alone and on a mission. HIs target? Sight fishing Shallow water sharks on fly.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-seahunter-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424153000 +0000" stop="20260424160000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Modern Fishing with Jared Jeffries</title>
+    <sub-title lang="en">Season 3 - A Look Ahead</sub-title>
+    <desc lang="en">Jared kicks off season three by introducing this year's cast of characters, and sets up all the fishing destinations and cuisine ahead of him this year.</desc>
+    <image>https://content.osgnetworks.tv/shows/modern-fishing-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424160000 +0000" stop="20260424163000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Fish Guyz</title>
+    <sub-title lang="en">Chum Balls</sub-title>
+    <desc lang="en">The Guyz drift fish the wrecks and reefs of Key West with Captain Brandon Jimenez. George and Lain tour Key West in style in a hot pink Scoot Coupe and devour blackened yellowtail snapper at First Flight Restaurant and Brewery.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-fish-guyz-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424163000 +0000" stop="20260424170000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Big Coast</title>
+    <sub-title lang="en">Duncanby Spring Salmon</sub-title>
+    <desc lang="en">Travel to world famous Duncanby Lodge for an early season trip with Captain Tim Milne and Kyle Morton.</desc>
+    <image>https://content.osgnetworks.tv/shows/big-coast-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424170000 +0000" stop="20260424173000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">BigWater Adventures</title>
+    <sub-title lang="en">Venice, LA Bull Redfish with the MGFC</sub-title>
+    <desc lang="en">Bull Redfish with the inshore arm of the Mexican Gulf Fishing Company of Venice, LA.</desc>
+    <image>https://content.osgnetworks.tv/shows/bigwater-adventures-thumbnail2.jpg</image>
+  </programme>
+  <programme start="20260424173000 +0000" stop="20260424180000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Two Conchs Adventures</title>
+    <sub-title lang="en">Cooking Our Catch at Key Largo Fisheries</sub-title>
+    <desc lang="en">The Two Conchs Crew starts things out by visiting Key Largo Fisheries, before heading out on the water and doing a ''Cook your catch.''</desc>
+    <image>https://content.osgnetworks.tv/shows/two-conchs-adventures-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424180000 +0000" stop="20260424183000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">A Fishing Story with Ronnie Green</title>
+    <sub-title lang="en">Passing the rod</sub-title>
+    <desc lang="en">Bobby Bakewell is a Bassmaster Classic qualifier who honed his fishing skills through countless hours on the water with his father. He shares how his dad's guidance and passion for the sport shaped his journey and success as an angler.</desc>
+    <image>https://content.osgnetworks.tv/shows/a-fishing-story-with-ronnie-green-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424183000 +0000" stop="20260424190000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Salt Water Sportsman National Seminar Series</title>
+    <sub-title lang="en">Deep Dropping</sub-title>
+    <desc lang="en">George Poveromo leads a discussion on deep dropping for ocean bottom fish.</desc>
+    <image>https://content.osgnetworks.tv/shows/salt-water-sportman-national-seminar-series-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424190000 +0000" stop="20260424193000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Seahunter</title>
+    <sub-title lang="en">Shark Fly</sub-title>
+    <desc lang="en">Rob is alone and on a mission. HIs target? Sight fishing Shallow water sharks on fly.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-seahunter-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424193000 +0000" stop="20260424200000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Modern Fishing with Jared Jeffries</title>
+    <sub-title lang="en">Season 3 - A Look Ahead</sub-title>
+    <desc lang="en">Jared kicks off season three by introducing this year's cast of characters, and sets up all the fishing destinations and cuisine ahead of him this year.</desc>
+    <image>https://content.osgnetworks.tv/shows/modern-fishing-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424200000 +0000" stop="20260424203000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Fish Guyz</title>
+    <sub-title lang="en">Chum Balls</sub-title>
+    <desc lang="en">The Guyz drift fish the wrecks and reefs of Key West with Captain Brandon Jimenez. George and Lain tour Key West in style in a hot pink Scoot Coupe and devour blackened yellowtail snapper at First Flight Restaurant and Brewery.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-fish-guyz-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424203000 +0000" stop="20260424210000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Big Coast</title>
+    <sub-title lang="en">Duncanby Spring Salmon</sub-title>
+    <desc lang="en">Travel to world famous Duncanby Lodge for an early season trip with Captain Tim Milne and Kyle Morton.</desc>
+    <image>https://content.osgnetworks.tv/shows/big-coast-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424210000 +0000" stop="20260424213000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">BigWater Adventures</title>
+    <sub-title lang="en">Venice, LA Bull Redfish with the MGFC</sub-title>
+    <desc lang="en">Bull Redfish with the inshore arm of the Mexican Gulf Fishing Company of Venice, LA.</desc>
+    <image>https://content.osgnetworks.tv/shows/bigwater-adventures-thumbnail2.jpg</image>
+  </programme>
+  <programme start="20260424213000 +0000" stop="20260424220000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Two Conchs Adventures</title>
+    <sub-title lang="en">Cooking Our Catch at Key Largo Fisheries</sub-title>
+    <desc lang="en">The Two Conchs Crew starts things out by visiting Key Largo Fisheries, before heading out on the water and doing a ''Cook your catch.''</desc>
+    <image>https://content.osgnetworks.tv/shows/two-conchs-adventures-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424220000 +0000" stop="20260424223000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Lisa Roper Outdoors</title>
+    <sub-title lang="en">Lower Chain Triple Catch</sub-title>
+    <desc lang="en">Lisa explores one of Alberta's stocked gems and reels in a trout trifecta...brown, tiger, and her personal best rainbow on an unforgettable day at Lower Chain Lake.</desc>
+    <image>https://content.osgnetworks.tv/shows/lisa-roper-outdoors-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424223000 +0000" stop="20260424230000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The New Fly Fisher</title>
+    <sub-title lang="en">Recovery Beyond</sub-title>
+    <desc lang="en">Mark Melnyk is fishing the Yakima River in Washington with participants of Recovery Beyond and Red's Fly Shop.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-new-fly-fisher-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424230000 +0000" stop="20260424233000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Connect Fishing Experiences</title>
+    <sub-title lang="en">Esperanza Inlet Adventure</sub-title>
+    <desc lang="en">Reel Obsession Fishing Resort Esperanza Inlet offers a truly world class sport fishing experience in picturesque Zeballos on North.</desc>
+    <image>https://content.osgnetworks.tv/shows/connect-fishing-experience-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260424233000 +0000" stop="20260425000000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Extreme Angler</title>
+    <sub-title lang="en">Wakomata Smallmouth Bass</sub-title>
+    <desc lang="en">Catch and release season for smallmouth bass in Algoma Country on Wakomata Lake</desc>
+    <image>https://content.osgnetworks.tv/shows/extreme-angler-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425000000 +0000" stop="20260425003000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Fish'n Canada Show</title>
+    <sub-title lang="en">Buck Lake: New Trip, New Plan</sub-title>
+    <desc lang="en">Pete travels to Obakamiga Lake. He employs a sneaky strategy for the ultimate Walleye adventure and has maybe his best trip ever.</desc>
+    <image>https://content.osgnetworks.tv/shows/fishn-canada-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425003000 +0000" stop="20260425010000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Westcoast Sporting Journal</title>
+    <sub-title lang="en">Precision Targeting Big King Salmon</sub-title>
+    <desc lang="en">Big King Salmon Strategy Westview Marina.</desc>
+    <image>https://content.osgnetworks.tv/shows/westcoast-sporting-journal-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425010000 +0000" stop="20260425013000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">BC Outdoors Sport Fishing</title>
+    <sub-title lang="en">Osoyoos Bass</sub-title>
+    <desc lang="en">Mike switches gears and heads to Osoyoos Lake for some early-season bass fishing action.</desc>
+    <image>https://content.osgnetworks.tv/shows/bc-outdoors-sportfishing-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425013000 +0000" stop="20260425020000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Fishing the Wild West TV</title>
+    <sub-title lang="en">Red River Cats</sub-title>
+    <desc lang="en">Wes targets channel cats in the murky depths of Manitoba's Red River.</desc>
+    <image>https://content.osgnetworks.tv/shows/fishing-the-wild-west-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425020000 +0000" stop="20260425023000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Lisa Roper Outdoors</title>
+    <sub-title lang="en">Lower Chain Triple Catch</sub-title>
+    <desc lang="en">Lisa explores one of Alberta's stocked gems and reels in a trout trifecta...brown, tiger, and her personal best rainbow on an unforgettable day at Lower Chain Lake.</desc>
+    <image>https://content.osgnetworks.tv/shows/lisa-roper-outdoors-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425023000 +0000" stop="20260425030000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The New Fly Fisher</title>
+    <sub-title lang="en">Recovery Beyond</sub-title>
+    <desc lang="en">Mark Melnyk is fishing the Yakima River in Washington with participants of Recovery Beyond and Red's Fly Shop.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-new-fly-fisher-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425030000 +0000" stop="20260425033000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Connect Fishing Experiences</title>
+    <sub-title lang="en">Esperanza Inlet Adventure</sub-title>
+    <desc lang="en">Reel Obsession Fishing Resort Esperanza Inlet offers a truly world class sport fishing experience in picturesque Zeballos on North.</desc>
+    <image>https://content.osgnetworks.tv/shows/connect-fishing-experience-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425033000 +0000" stop="20260425040000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Extreme Angler</title>
+    <sub-title lang="en">Wakomata Smallmouth Bass</sub-title>
+    <desc lang="en">Catch and release season for smallmouth bass in Algoma Country on Wakomata Lake</desc>
+    <image>https://content.osgnetworks.tv/shows/extreme-angler-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425040000 +0000" stop="20260425043000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Fish'n Canada Show</title>
+    <sub-title lang="en">Buck Lake: New Trip, New Plan</sub-title>
+    <desc lang="en">Pete travels to Obakamiga Lake. He employs a sneaky strategy for the ultimate Walleye adventure and has maybe his best trip ever.</desc>
+    <image>https://content.osgnetworks.tv/shows/fishn-canada-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425043000 +0000" stop="20260425050000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Westcoast Sporting Journal</title>
+    <sub-title lang="en">Precision Targeting Big King Salmon</sub-title>
+    <desc lang="en">Big King Salmon Strategy Westview Marina.</desc>
+    <image>https://content.osgnetworks.tv/shows/westcoast-sporting-journal-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425050000 +0000" stop="20260425053000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">BC Outdoors Sport Fishing</title>
+    <sub-title lang="en">Osoyoos Bass</sub-title>
+    <desc lang="en">Mike switches gears and heads to Osoyoos Lake for some early-season bass fishing action.</desc>
+    <image>https://content.osgnetworks.tv/shows/bc-outdoors-sportfishing-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425053000 +0000" stop="20260425060000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Fishing the Wild West TV</title>
+    <sub-title lang="en">Red River Cats</sub-title>
+    <desc lang="en">Wes targets channel cats in the murky depths of Manitoba's Red River.</desc>
+    <image>https://content.osgnetworks.tv/shows/fishing-the-wild-west-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425060000 +0000" stop="20260425063000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Lisa Roper Outdoors</title>
+    <sub-title lang="en">Lower Chain Triple Catch</sub-title>
+    <desc lang="en">Lisa explores one of Alberta's stocked gems and reels in a trout trifecta...brown, tiger, and her personal best rainbow on an unforgettable day at Lower Chain Lake.</desc>
+    <image>https://content.osgnetworks.tv/shows/lisa-roper-outdoors-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425063000 +0000" stop="20260425070000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The New Fly Fisher</title>
+    <sub-title lang="en">Recovery Beyond</sub-title>
+    <desc lang="en">Mark Melnyk is fishing the Yakima River in Washington with participants of Recovery Beyond and Red's Fly Shop.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-new-fly-fisher-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425070000 +0000" stop="20260425073000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Connect Fishing Experiences</title>
+    <sub-title lang="en">Esperanza Inlet Adventure</sub-title>
+    <desc lang="en">Reel Obsession Fishing Resort Esperanza Inlet offers a truly world class sport fishing experience in picturesque Zeballos on North.</desc>
+    <image>https://content.osgnetworks.tv/shows/connect-fishing-experience-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425073000 +0000" stop="20260425080000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Extreme Angler</title>
+    <sub-title lang="en">Wakomata Smallmouth Bass</sub-title>
+    <desc lang="en">Catch and release season for smallmouth bass in Algoma Country on Wakomata Lake</desc>
+    <image>https://content.osgnetworks.tv/shows/extreme-angler-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425080000 +0000" stop="20260425083000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Fish'n Canada Show</title>
+    <sub-title lang="en">Buck Lake: New Trip, New Plan</sub-title>
+    <desc lang="en">Pete travels to Obakamiga Lake. He employs a sneaky strategy for the ultimate Walleye adventure and has maybe his best trip ever.</desc>
+    <image>https://content.osgnetworks.tv/shows/fishn-canada-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425083000 +0000" stop="20260425090000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Westcoast Sporting Journal</title>
+    <sub-title lang="en">Precision Targeting Big King Salmon</sub-title>
+    <desc lang="en">Big King Salmon Strategy Westview Marina.</desc>
+    <image>https://content.osgnetworks.tv/shows/westcoast-sporting-journal-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425090000 +0000" stop="20260425093000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">BC Outdoors Sport Fishing</title>
+    <sub-title lang="en">Osoyoos Bass</sub-title>
+    <desc lang="en">Mike switches gears and heads to Osoyoos Lake for some early-season bass fishing action.</desc>
+    <image>https://content.osgnetworks.tv/shows/bc-outdoors-sportfishing-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425093000 +0000" stop="20260425100000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Fishing the Wild West TV</title>
+    <sub-title lang="en">Red River Cats</sub-title>
+    <desc lang="en">Wes targets channel cats in the murky depths of Manitoba's Red River.</desc>
+    <image>https://content.osgnetworks.tv/shows/fishing-the-wild-west-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425100000 +0000" stop="20260425103000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">In-Fisherman TV</title>
+    <sub-title lang="en">Monsters of the Moment-Times, Places, and Presentations</sub-title>
+    <desc lang="en">The In-Fisherman staff takes you to mauling and brawling muskies; heads to one of North America's finest waters for giant smallmouth bass; and takes you into the Alaskan wilderness for record-class northern pike, including a 54-inch monster that's the biggest pike in almost 50 years of filming.</desc>
+    <image>https://content.osgnetworks.tv/shows/in-fisherman-tv-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425103000 +0000" stop="20260425110000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Next Bite</title>
+    <sub-title lang="en">Solo Perch Mission</sub-title>
+    <desc lang="en">Korey Sprengel tours Green Bay while casting small glide baits for large Perch.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-next-bite-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425110000 +0000" stop="20260425113000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Legends of Rod &amp; Reel</title>
+    <sub-title lang="en">Frank Moore</sub-title>
+    <desc lang="en">Meet Frank Moore, a lifelong fisherman from Umpqua, Oregon. Learn about his pursuit of steelhead and conserving the waters they're in.</desc>
+    <image>https://content.osgnetworks.tv/shows/legends-rod-reel-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425113000 +0000" stop="20260425120000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Larry Smith Outdoors</title>
+    <sub-title lang="en">Spring Walleye Run</sub-title>
+    <desc lang="en">Follow along as Larry and his clients get an early start on the Wolf River walleye bite!</desc>
+    <image>https://content.osgnetworks.tv/shows/larry-smith-outdoors-wfn-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425120000 +0000" stop="20260425123000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Jokers Wild Off the Hook</title>
+    <sub-title lang="en">Reel Time Fishing Winter 25</sub-title>
+    <desc lang="en">Sparky takes friends fishing with Reel Time for Steelhead in the winter waters of the Clearwater.</desc>
+    <image>https://content.osgnetworks.tv/shows/jokers-wild-off-the-hook-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425123000 +0000" stop="20260425130000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Angling Edge Adventures</title>
+    <sub-title lang="en">Swimming Jigs for Crappies</sub-title>
+    <desc lang="en">Jeremy Smith and Jeff Simpson prove not all fall crappies head for deep basins. Hair jigs in the weeds produce big slabs.</desc>
+    <image>https://content.osgnetworks.tv/shows/angling-edge-adventures-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425130000 +0000" stop="20260425133000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Jon Thelen's Destination Fish</title>
+    <sub-title lang="en">Hunting Early Summer Giants - Parts 1 &amp; 2</sub-title>
+    <desc lang="en">Across two segments, Jon pursues earlysummer monsters - trophy-class fish that test tackle and tactics alike. From dialing in weather patterns to adapting presentations as the day evolves, Jon breaks down the mindset and mechanics behind consistently finding and landing giants on northern waters.</desc>
+    <image>https://content.osgnetworks.tv/shows/destination-fish-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425133000 +0000" stop="20260425140000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Bass Pro Shops Fisherman's Handbook</title>
+    <sub-title lang="en">Crankbaits For Bass Fishing</sub-title>
+    <desc lang="en">In this episode we spend time dissecting crankbaits and how to use them. We'll dissect choosing baits, talk about new tactics, fishing line and picking the right fishing rod. We'll hear from Wade Middleton, John Crews and Mike Mclleand who will each provide insight into catching bass on crankbaits.</desc>
+    <image>https://content.osgnetworks.tv/shows/cabelas-fishermans-handbook-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425140000 +0000" stop="20260425143000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Fishing University</title>
+    <sub-title lang="en">Fall Fishing On Lake Tenkiller</sub-title>
+    <desc lang="en">Elite pro Bryan New joins us for exciting fall fishing on Oklahoma's Lake Tenkiller</desc>
+    <image>https://content.osgnetworks.tv/shows/fishing-university-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425143000 +0000" stop="20260425150000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Ultimate Catch</title>
+    <sub-title lang="en">Red Daze of Winter</sub-title>
+    <desc lang="en">Captain Eric and son Joey fish the Space Coast of Florida looking for that perfect Redfish!</desc>
+    <image>https://content.osgnetworks.tv/shows/ultimate-catch-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425150000 +0000" stop="20260425153000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Texas Team Trail</title>
+    <sub-title lang="en">2026 Toledo Bend Reservoir</sub-title>
+    <desc lang="en">This year's kick-off to the Texas Team Trail takes us to Toledo Bend Reservoir where anglers from all over descended upon this famed fishery to compete for the first trophy of this season! Tune in for all the big catches!</desc>
+    <image>https://content.osgnetworks.tv/shows/texas-team-trail-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425153000 +0000" stop="20260425160000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Power-Pole National Redfish Tour</title>
+    <sub-title lang="en">25 Power-Pole NRT Jacksonville, FL Pt 1</sub-title>
+    <desc lang="en">The 2025 Power-Pole National Redfish Tour held at Jim King Park in Jacksonville, Florida - Part 1.</desc>
+    <image>https://content.osgnetworks.tv/shows/power-pole-national-redfish-tour-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425160000 +0000" stop="20260425163000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Jimmy Houston Outdoors</title>
+    <sub-title lang="en">Dinner Spinner</sub-title>
+    <desc lang="en">Jimmy is Fishing in Oklahoma catching crappie and bass.</desc>
+    <image>https://content.osgnetworks.tv/shows/jimmy-houston-outdoors-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425163000 +0000" stop="20260425170000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Fishing with Roland Martin</title>
+    <sub-title lang="en">Skipping Worms on the Docks</sub-title>
+    <desc lang="en">Roland skips Salt E Sink Worms under shady docks for largemouth bass with a musky bonus.</desc>
+    <image>https://content.osgnetworks.tv/shows/fishing-with-roland-martin-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425170000 +0000" stop="20260425173000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Bill Dance Outdoors</title>
+    <sub-title lang="en">Catching Crappie with a Professional P2</sub-title>
+    <desc lang="en">The excitement continues in part 2 with Bill and Randy catching more monster crappie on Bull Shoals.</desc>
+    <image>https://content.osgnetworks.tv/shows/bill-dance-outdoors-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425173000 +0000" stop="20260425180000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Bill Dance Saltwater</title>
+    <sub-title lang="en">Light Tackle Extravaganza</sub-title>
+    <desc lang="en">It's a light tackle extravaganza for bonefish and white marlin!</desc>
+    <image>https://content.osgnetworks.tv/shows/bill-dance-saltwater-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425180000 +0000" stop="20260425183000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Fish Guyz</title>
+    <sub-title lang="en">Chum Balls</sub-title>
+    <desc lang="en">The Guyz drift fish the wrecks and reefs of Key West with Captain Brandon Jimenez. George and Lain tour Key West in style in a hot pink Scoot Coupe and devour blackened yellowtail snapper at First Flight Restaurant and Brewery.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-fish-guyz-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425183000 +0000" stop="20260425190000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Big Coast</title>
+    <sub-title lang="en">Duncanby Spring Salmon</sub-title>
+    <desc lang="en">Travel to world famous Duncanby Lodge for an early season trip with Captain Tim Milne and Kyle Morton.</desc>
+    <image>https://content.osgnetworks.tv/shows/big-coast-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425190000 +0000" stop="20260425193000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">A Fishing Story with Ronnie Green</title>
+    <sub-title lang="en">Passing the rod</sub-title>
+    <desc lang="en">Bobby Bakewell is a Bassmaster Classic qualifier who honed his fishing skills through countless hours on the water with his father. He shares how his dad's guidance and passion for the sport shaped his journey and success as an angler.</desc>
+    <image>https://content.osgnetworks.tv/shows/a-fishing-story-with-ronnie-green-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425193000 +0000" stop="20260425200000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Salt Water Sportsman National Seminar Series</title>
+    <sub-title lang="en">Deep Dropping</sub-title>
+    <desc lang="en">George Poveromo leads a discussion on deep dropping for ocean bottom fish.</desc>
+    <image>https://content.osgnetworks.tv/shows/salt-water-sportman-national-seminar-series-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425200000 +0000" stop="20260425203000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">BigWater Adventures</title>
+    <sub-title lang="en">Venice, LA Bull Redfish with the MGFC</sub-title>
+    <desc lang="en">Bull Redfish with the inshore arm of the Mexican Gulf Fishing Company of Venice, LA.</desc>
+    <image>https://content.osgnetworks.tv/shows/bigwater-adventures-thumbnail2.jpg</image>
+  </programme>
+  <programme start="20260425203000 +0000" stop="20260425210000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Two Conchs Adventures</title>
+    <sub-title lang="en">Cooking Our Catch at Key Largo Fisheries</sub-title>
+    <desc lang="en">The Two Conchs Crew starts things out by visiting Key Largo Fisheries, before heading out on the water and doing a ''Cook your catch.''</desc>
+    <image>https://content.osgnetworks.tv/shows/two-conchs-adventures-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425210000 +0000" stop="20260425213000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Seahunter</title>
+    <sub-title lang="en">Shark Fly</sub-title>
+    <desc lang="en">Rob is alone and on a mission. HIs target? Sight fishing Shallow water sharks on fly.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-seahunter-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425213000 +0000" stop="20260425220000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Modern Fishing with Jared Jeffries</title>
+    <sub-title lang="en">Season 3 - A Look Ahead</sub-title>
+    <desc lang="en">Jared kicks off season three by introducing this year's cast of characters, and sets up all the fishing destinations and cuisine ahead of him this year.</desc>
+    <image>https://content.osgnetworks.tv/shows/modern-fishing-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260425220000 +0000" stop="20260426000000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">MLF Fishing Clash Team Series</title>
+    <sub-title lang="en">2025 Patriot Cup Elimination 3 - AL</sub-title>
+    <desc lang="en">Four Teams compete in Oxford, AL for Elimination Match 3 of the Patriot Cup to advance to the Knockout Rounds.</desc>
+    <image>https://content.osgnetworks.tv/shows/mlf-general-tire-team-series-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260426000000 +0000" stop="20260426003000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Hunt for Monster Bass</title>
+    <sub-title lang="en">Topwater Monster Bass</sub-title>
+    <desc lang="en">Professional angler Chris Lane uses all his skills to bring giant bass to the surface for some epic topwater eats.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-hunt-for-monster-bass-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260426003000 +0000" stop="20260426010000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">The Hunt for Monster Bass</title>
+    <sub-title lang="en">Dead of Winter Monster Bass Fishing</sub-title>
+    <desc lang="en">Host Ott DeFoe hunts down double-digit largemouth bass in these winter Tennessee waters.</desc>
+    <image>https://content.osgnetworks.tv/shows/the-hunt-for-monster-bass-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260426010000 +0000" stop="20260426013000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Zona's Awesome Fishing Show</title>
+    <sub-title lang="en">Adam Rasmussen Sturgeon Bay</sub-title>
+    <desc lang="en">Pro Bass angler Adam Rasmussen joins ZAFS for a Smallmouth adventure into the hallowed waters of Sturgeon Bay.</desc>
+    <image>https://content.osgnetworks.tv/shows/zonas-awesome-fishing-show-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260426013000 +0000" stop="20260426020000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">Ultimate Match Fishing</title>
+    <sub-title lang="en">Lowen vs. Goade</sub-title>
+    <desc lang="en">Elite Series pro Bill Lowen goes head-to-head against the NPFL's Todd Goade.</desc>
+    <image>https://content.osgnetworks.tv/shows/ultimate-match-fishing-thumbnail.jpg</image>
+  </programme>
+  <programme start="20260426020000 +0000" stop="20260426023000 +0000" channel="WorldFishingNetwork.us@SD">
+    <title lang="en">MLF Fishing Clash Team Series</title>
+    <sub-title lang="en">2025 Patriot Cup Elimination 3 - AL</sub-title>
+    <desc lang="en">Four Teams compete in Oxford, AL for Elimination Match 3 of the Patriot Cup to advance to the Knockout Rounds.</desc>
+    <image>https://content.osgnetworks.tv/shows/mlf-general-tire-team-series-thumbnail.jpg</image>
+  </programme>
+</tv>

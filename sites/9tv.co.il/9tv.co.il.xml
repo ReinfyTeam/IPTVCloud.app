@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv date="20260424">
+  <channel id="Channel9.il@SD">
+    <display-name>9 канал</display-name>
+    <icon src="https://i.imgur.com/pttM3KQ.png" />
+    <url>https://9tv.co.il</url>
+  </channel>
+  <programme start="20260423223500 +0000" stop="20260423232000 +0000" channel="Channel9.il@SD">
+    <title lang="ru">След. Похищение жениха</title>
+    <desc lang="ru">Сын главы района приезжает домой из Англии после двухлетнего отсутствия. Но радость родителей оказывается недолгой… В гл. роли: О.Копосова. Россия, 2012.</desc>
+    <image>https://www.9tv.co.il/download/pictures/img_id=8484.jpg</image>
+  </programme>
+  <programme start="20260423232000 +0000" stop="20260424000000 +0000" channel="Channel9.il@SD">
+    <title lang="ru">След. Кровь не вода</title>
+    <desc lang="ru">Брат и сестра не виделись много лет, но умерли в один день. Убийство сестры расследует ФЭС, убийство брата — областная полиция. Соревнование началось… В гл. роли: О.Копосова. Россия, 2012.</desc>
+    <image>https://www.9tv.co.il/download/pictures/img_id=8484.jpg</image>
+  </programme>
+  <programme start="20260424000000 +0000" stop="20260424004000 +0000" channel="Channel9.il@SD">
+    <title lang="ru">След. Спящий красавец</title>
+    <desc lang="ru">В торговом зале супермаркета покупатели обнаруживают труп мужчины. Им оказывается Феликс Галанов, проводивший в магазине аудит... В гл. роли: О.Копосова. Россия, 2012.</desc>
+    <image>https://www.9tv.co.il/download/pictures/img_id=8484.jpg</image>
+  </programme>
+  <programme start="20260424004000 +0000" stop="20260424011000 +0000" channel="Channel9.il@SD">
+    <title lang="ru">Понять. Простить - Солдатская каша</title>
+    <desc lang="ru">Героями сериала являются реальные люди, которые обращаются к психологу в сложной жизненной ситуации. Специалистами выступают Галина Тимошенко и Борис Егоров.</desc>
+    <image>https://www.9tv.co.il/download/pictures/img_id=8588.jpg</image>
+  </programme>
+  <programme start="20260424011000 +0000" stop="20260424013500 +0000" channel="Channel9.il@SD">
+    <title lang="ru">Понять. Простить - Двойная оплата</title>
+    <desc lang="ru">Героями сериала являются реальные люди, которые обращаются к психологу в сложной жизненной ситуации. Специалистами выступают Галина Тимошенко и Борис Егоров.</desc>
+    <image>https://www.9tv.co.il/download/pictures/img_id=8588.jpg</image>
+  </programme>
+  <programme start="20260424013500 +0000" stop="20260424020000 +0000" channel="Channel9.il@SD">
+    <title lang="ru">Понять. Простить - Булочка с корицей</title>
+    <desc lang="ru">Героями сериала являются реальные люди, которые обращаются к психологу в сложной жизненной ситуации. Специалистами выступают Галина Тимошенко и Борис Егоров.</desc>
+    <image>https://www.9tv.co.il/download/pictures/img_id=8588.jpg</image>
+  </programme>
+  <programme start="20260424020000 +0000" stop="20260424024500 +0000" channel="Channel9.il@SD">
+    <title lang="ru">Обручальное кольцо</title>
+    <desc lang="ru">391-я с. В одном поезде по дороге в Москву встречаются три совершенно не похожих друг на друга человека. Их пути расходятся, но не навсегда... В ролях: А.Сандрацкая, Ю.Пожидаева, А.Волков.</desc>
+    <image>https://www.9tv.co.il/download/pictures/img_id_59839.jpg</image>
+  </programme>
+  <programme start="20260424024500 +0000" stop="20260424034500 +0000" channel="Channel9.il@SD">
+    <title lang="ru">Обручальное кольцо</title>
+    <desc lang="ru">392-я с. В одном поезде по дороге в Москву встречаются три совершенно не похожих друг на друга человека. Их пути расходятся, но не навсегда... В ролях: А.Сандрацкая, Ю.Пожидаева, А.Волков.</desc>
+    <image>https://www.9tv.co.il/download/pictures/img_id_59839.jpg</image>
+  </programme>
+</tv>

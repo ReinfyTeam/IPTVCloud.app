@@ -53,9 +53,6 @@ jobs:
         run: |
           chmod +x ./start.sh
           ./start.sh
-          python3 split_xml.py ./sites/
-          python3 content.py ./sites/ ./content.json
-          python3 xml_prettier.py 
 
       - name: Commit & Push changes
         uses: actions-js/push@master
