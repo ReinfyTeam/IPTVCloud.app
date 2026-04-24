@@ -167,28 +167,45 @@ function SecurityCheckContent() {
               {/* IMAGE Challenge */}
               {challenge.type === 'IMAGE' && (
                 <div className="grid grid-cols-3 gap-2">
-                  {challenge.options?.map((img, i) => (
-                    <button
-                      key={i}
-                      disabled={loading}
-                      onClick={() => {
-                        const current = solution.split(',').filter((x) => x !== '');
-                        const idx = i.toString();
-                        let next;
-                        if (current.includes(idx)) {
-                          next = current.filter((x) => x !== idx);
-                        } else {
-                          next = [...current, idx];
-                        }
-                        setSolution(next.join(','));
-                      }}
-                      className={`aspect-square bg-slate-800 rounded-xl overflow-hidden border-2 transition-all active:scale-95 ${solution.split(',').includes(i.toString()) ? 'border-cyan-500 ring-4 ring-cyan-500/20' : 'border-transparent hover:border-white/20'}`}
-                    >
-                      <div className="w-full h-full flex items-center justify-center text-[10px] text-slate-600 uppercase font-bold text-center p-2">
-                        {img}
-                      </div>
-                    </button>
-                  ))}
+                  {challenge.options?.map((img, i) => {
+                    const isSelected = solution.split(',').includes(i.toString());
+                    return (
+                      <button
+                        key={i}
+                        disabled={loading}
+                        onClick={() => {
+                          const current = solution.split(',').filter((x) => x !== '');
+                          const idx = i.toString();
+                          let next;
+                          if (current.includes(idx)) {
+                            next = current.filter((x) => x !== idx);
+                          } else {
+                            next = [...current, idx];
+                          }
+                          // Keep sorted order to match server expectation easily
+                          next.sort((a, b) => parseInt(a) - parseInt(b));
+                          setSolution(next.join(','));
+                        }}
+                        className={`relative aspect-square bg-slate-800 rounded-xl overflow-hidden border-2 transition-all active:scale-95 ${isSelected ? 'border-cyan-500 ring-4 ring-cyan-500/20' : 'border-transparent hover:border-white/20'}`}
+                      >
+                        {/* Render real image */}
+                        <img
+                          src={img}
+                          alt="Challenge option"
+                          className={`w-full h-full object-cover transition-all duration-300 ${isSelected ? 'opacity-50 scale-110' : 'opacity-100'}`}
+                        />
+
+                        {/* Checkmark overlay for selected images */}
+                        {isSelected && (
+                          <div className="absolute inset-0 flex items-center justify-center animate-in zoom-in duration-200">
+                            <div className="bg-cyan-500 text-white rounded-full p-1 shadow-lg shadow-black/50">
+                              <span className="material-icons text-xl block">check</span>
+                            </div>
+                          </div>
+                        )}
+                      </button>
+                    );
+                  })}
                 </div>
               )}
 

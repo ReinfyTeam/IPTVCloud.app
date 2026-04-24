@@ -74,7 +74,7 @@ export async function verifyChallengeToken(token: string, solution: string): Pro
       keyData,
       { name: 'HMAC', hash: 'SHA-256' },
       false,
-      ['sign'],
+      ['verify'],
     );
 
     const decodedSignature = atob(signature);
@@ -93,6 +93,19 @@ export async function verifyChallengeToken(token: string, solution: string): Pro
     if (!validSignature) return false;
 
     // Check solution
+    if (type === 'IMAGE') {
+      const solArr = solution
+        .split(',')
+        .map((s) => s.trim())
+        .filter(Boolean)
+        .sort((a, b) => parseInt(a) - parseInt(b));
+      const ansArr = correctAnswer
+        .split(',')
+        .map((s) => s.trim())
+        .filter(Boolean)
+        .sort((a, b) => parseInt(a) - parseInt(b));
+      return solArr.join(',') === ansArr.join(',');
+    }
     return solution.trim().toLowerCase() === correctAnswer.toLowerCase();
   } catch {
     return false;
