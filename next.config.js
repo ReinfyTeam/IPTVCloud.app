@@ -1,12 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  serverExternalPackages: [
-    'pg',
-    '@vercel/blob',
-    'otplib',
-    '@otplib/plugin-base32-scure',
-    '@otplib/plugin-crypto-noble',
-  ],
+  serverExternalPackages: ['pg', '@vercel/blob', 'speakeasy'],
   staticPageGenerationTimeout: 120,
   images: {
     remotePatterns: [

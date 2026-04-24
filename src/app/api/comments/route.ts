@@ -3,10 +3,34 @@ import db from '@/lib/db';
 import { authorizeRequest } from '@/services/auth-service';
 import { createNotification } from '@/services/notification-service';
 import { randomUUID } from 'crypto';
+import { z } from 'zod';
+import { sanitizeMarkdown } from '@/lib/sanitize';
 
 const USER_FIELDS = `
   u.id, u.name, u.username, u.email, u.role, u."profileIcon", u."profileIconUrl"
 `;
+
+const commentSchema = z.object({
+  channelId: z.string().min(1),
+  text: z.string().min(1).max(500),
+  parentId: z.string().optional(),
+  attachments: z
+    .array(
+      z.object({
+        url: z.string().url(),
+        filename: z.string(),
+        type: z.string().optional(),
+        expiresAt: z.string().optional().nullable(),
+      }),
+    )
+    .optional(),
+});
+
+const commentUpdateSchema = z.object({
+  id: z.string().min(1),
+  text: z.string().min(1).max(500).optional(),
+  isPinned: z.boolean().optional(),
+});
 
 export async function GET(req: Request) {
   const url = new URL(req.url);
@@ -56,20 +80,23 @@ export async function POST(req: Request) {
   }
 
   try {
-    const { channelId, text, parentId, attachments } = await req.json();
-
-    if (!text || text.length > 500) {
-      return NextResponse.json({ error: 'Invalid comment text' }, { status: 400 });
-    }
+    const body = await req.json();
+    const validatedData = commentSchema.parse(body);
 
     const commentId = randomUUID();
     await db.query(
       'INSERT INTO "Comment" (id, "userId", "channelId", text, "parentId") VALUES ($1, $2, $3, $4, $5)',
-      [commentId, user.id, channelId, text, parentId],
+      [
+        commentId,
+        user.id,
+        validatedData.channelId,
+        sanitizeMarkdown(validatedData.text),
+        validatedData.parentId || null,
+      ],
     );
 
-    if (attachments && Array.isArray(attachments)) {
-      for (const a of attachments) {
+    if (validatedData.attachments && Array.isArray(validatedData.attachments)) {
+      for (const a of validatedData.attachments) {
         await db.query(
           'INSERT INTO "Attachment" (id, url, filename, type, "expiresAt", "commentId") VALUES ($1, $2, $3, $4, $5, $6)',
           [
@@ -99,18 +126,18 @@ export async function POST(req: Request) {
     const comment = commentRows[0];
 
     // Notify parent comment user
-    if (parentId) {
+    if (validatedData.parentId) {
       const { rows: parentRows } = await db.query('SELECT "userId" FROM "Comment" WHERE id = $1', [
-        parentId,
+        validatedData.parentId,
       ]);
       const parent = parentRows[0];
       if (parent && parent.userId !== user.id) {
         await createNotification({
           userId: parent.userId,
           title: `New reply in chat`,
-          message: `${user.username || 'Someone'} replied to your comment: "${text.substring(0, 50)}..."`,
+          message: `${user.username || 'Someone'} replied to your comment: "${validatedData.text.substring(0, 50)}..."`,
           type: 'POST',
-          link: `/channel/${channelId}`,
+          link: `/channel/${validatedData.channelId}`,
         });
       }
     }
@@ -158,7 +185,9 @@ export async function PATCH(req: Request) {
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
 
   try {
-    const { id, text, isPinned } = await req.json();
+    const body = await req.json();
+    const validatedData = commentUpdateSchema.parse(body);
+    const { id, text, isPinned } = validatedData;
 
     const { rows: existingRows } = await db.query('SELECT "userId" FROM "Comment" WHERE id = $1', [
       id,
@@ -185,7 +214,7 @@ export async function PATCH(req: Request) {
 
       const { rows } = await db.query(
         `UPDATE "Comment" SET text = $1, "updatedAt" = CURRENT_TIMESTAMP WHERE id = $2 RETURNING *`,
-        [text, id],
+        [sanitizeMarkdown(text), id],
       );
 
       const { rows: updatedRows } = await db.query(

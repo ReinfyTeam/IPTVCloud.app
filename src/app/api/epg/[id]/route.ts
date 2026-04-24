@@ -17,7 +17,7 @@ export async function GET(req: Request, { params }: { params: Promise<{ id: stri
       );
     }
 
-    const res = await fetchEpgForId(channel.epgId, channel.epgUrl);
+    const res = await fetchEpgForId(channel.epgId);
 
     if (!res || !res.found) {
       return NextResponse.json(

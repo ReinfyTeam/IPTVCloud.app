@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState, Suspense, useRef } from 'react';
+import React, { useEffect, useState, Suspense, useRef, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 
 interface ChallengeData {
@@ -21,11 +21,13 @@ function SecurityCheckContent() {
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
 
+  const isViolation = searchParams.get('violation') === '1';
+
   // Click challenge state
   const clickStartTime = useRef<number | null>(null);
   const [isHolding, setIsHolding] = useState(false);
 
-  const fetchChallenge = async () => {
+  const fetchChallenge = useCallback(async () => {
     setLoading(true);
     setError(null);
     setSolution('');
@@ -34,15 +36,15 @@ function SecurityCheckContent() {
       const data = await res.json();
       setChallenge(data);
       setLoading(false);
-      setStatus('Please verify you are human');
+      setStatus(isViolation ? 'Security Policy Violation Detected' : 'Please verify you are human');
     } catch (err) {
       setError('Failed to load challenge. Please refresh.');
     }
-  };
+  }, [isViolation]);
 
   useEffect(() => {
     fetchChallenge();
-  }, []);
+  }, [fetchChallenge]);
 
   const handleVerify = async (providedSolution?: string) => {
     const finalSolution = providedSolution || solution;

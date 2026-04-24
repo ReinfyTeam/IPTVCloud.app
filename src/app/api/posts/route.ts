@@ -2,8 +2,25 @@ import { NextResponse } from 'next/server';
 import db from '@/lib/db';
 import { authorizeRequest } from '@/services/auth-service';
 import { createNotification } from '@/services/notification-service';
+import { z } from 'zod';
+import { sanitizeMarkdown } from '@/lib/sanitize';
 
 export const dynamic = 'force-dynamic';
+
+const postSchema = z.object({
+  title: z.string().min(1).max(255),
+  content: z.string().min(1),
+  attachments: z
+    .array(
+      z.object({
+        url: z.string().url(),
+        filename: z.string(),
+        type: z.string().optional(),
+        expiresAt: z.string().optional().nullable(),
+      }),
+    )
+    .optional(),
+});
 
 export async function GET(req: Request) {
   try {
@@ -44,20 +61,19 @@ export async function POST(req: Request) {
     const auth = await authorizeRequest(req, { requireNotMuted: true });
     if (auth instanceof NextResponse) return auth;
 
-    const { title, content, attachments } = await req.json();
-    if (!title || !content)
-      return NextResponse.json({ error: 'Title and content are required.' }, { status: 400 });
+    const body = await req.json();
+    const validatedData = postSchema.parse(body);
 
     const postId = crypto.randomUUID();
     const postResult = await db.query(
       `INSERT INTO "Post" ("id", "userId", "title", "content", "updatedAt") 
        VALUES ($1, $2, $3, $4, NOW()) RETURNING *`,
-      [postId, auth.user!.id, title, content],
+      [validatedData.title, sanitizeMarkdown(validatedData.content), auth.user!.id],
     );
     const post = postResult.rows[0];
 
-    if (attachments && Array.isArray(attachments)) {
-      for (const a of attachments) {
+    if (validatedData.attachments && Array.isArray(validatedData.attachments)) {
+      for (const a of validatedData.attachments) {
         await db.query(
           `INSERT INTO "Attachment" ("id", "postId", "url", "filename", "type", "expiresAt")
            VALUES ($1, $2, $3, $4, $5, $6)`,
@@ -90,7 +106,7 @@ export async function POST(req: Request) {
       await createNotification({
         userId: f.followerId,
         title: `New signal from @${auth.user!.username || 'user'}`,
-        message: `Signal published: "${title}"`,
+        message: `Signal published: "${validatedData.title}"`,
         type: 'POST',
         link: `/posts/${postId}`,
       });

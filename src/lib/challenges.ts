@@ -1,7 +1,7 @@
-import { ChallengeType, CHALLENGE_TYPES } from './security';
+import { ChallengeType, CHALLENGE_TYPES, JWT_SECRET } from './security';
 import db from './db';
 
-const CHALLENGE_SECRET = process.env.JWT_SECRET || 'fallback-challenge-secret-123';
+const CHALLENGE_SECRET = JWT_SECRET;
 
 /**
  * Get enabled challenge types from database
@@ -77,18 +77,20 @@ export async function verifyChallengeToken(token: string, solution: string): Pro
       ['sign'],
     );
 
+    const decodedSignature = atob(signature);
+    const signatureBytes = new Uint8Array(decodedSignature.length);
+    for (let i = 0; i < decodedSignature.length; i++) {
+      signatureBytes[i] = decodedSignature.charCodeAt(i);
+    }
+
     const validSignature = await crypto.subtle.verify(
       'HMAC',
       cryptoKey,
-      encoder.encode(atob(signature)),
-      dataData,
+      signatureBytes, // The signature from the token
+      dataData, // The data that was signed
     );
 
-    // Simple verification for this implementation.
-    // In production, use crypto.subtle.verify correctly.
-    // For now, let's re-sign and compare.
-    const expectedSignature = await signState(type, correctAnswer, expiry);
-    if (expectedSignature.split('.')[0] !== signature) return false;
+    if (!validSignature) return false;
 
     // Check solution
     return solution.trim().toLowerCase() === correctAnswer.toLowerCase();

@@ -9,7 +9,7 @@ export const ATTACK_MODE = false;
 
 // Security constants
 const SECURITY_COOKIE_NAME = 'cf_clearance_clone';
-const JWT_SECRET = process.env.JWT_SECRET || 'fallback-security-secret-69420';
+export const JWT_SECRET = process.env.JWT_SECRET || 'fallback-security-secret-69420';
 const CHALLENGE_EXPIRY = 1000 * 60 * 5; // 5 minutes
 
 export type SecurityLevel = 'OFF' | 'LOW' | 'MEDIUM' | 'HIGH' | 'UNDER_ATTACK';
@@ -45,8 +45,6 @@ async function getSecuritySettings(): Promise<{ level: SecurityLevel; challenges
 
 export const CHALLENGE_TYPES = ['IMAGE', 'TEXT', 'MATH', 'CLICK'] as const;
 export type ChallengeType = (typeof CHALLENGE_TYPES)[number];
-
-// Risk score weights
 const WEIGHTS = {
   MISSING_USER_AGENT: 40,
   MISSING_ACCEPT_LANGUAGE: 10,
@@ -55,6 +53,9 @@ const WEIGHTS = {
   PATH_SCANNING: 100,
   DIRECT_ACCESS_DEEP: 20,
   ATTACK_MODE_PENALTY: 25,
+  // Browser Security Weights
+  BROWSER_ANOMALY: 50,
+  MISSING_CLIENT_HINTS: 30,
 };
 
 // Common bot signatures in User-Agent
@@ -77,10 +78,11 @@ const DANGEROUS_PATHS = [
   '/wp-admin',
   '/phpmyadmin',
   '/.env',
-  '/admin',
-  '/config',
-  '/backup',
+  '/config.php',
+  '/backup.sql',
   '/login.php',
+  '/shell.php',
+  '/xmlrpc.php',
   '.bak',
   '.sql',
   '.zip',
@@ -90,7 +92,36 @@ const DANGEROUS_PATHS = [
 export interface RiskResult {
   score: number;
   reasons: string[];
-  action: 'ALLOW' | 'CHALLENGE' | 'BLOCK';
+  action: 'ALLOW' | 'CHALLENGE' | 'BLOCK' | 'BROWSER_VERIFIED';
+}
+
+/**
+ * Assess basic browser security characteristics
+ */
+function assessBrowserSecurity(req: NextRequest): RiskResult {
+  let score = 0;
+  const reasons: string[] = [];
+
+  const ua = req.headers.get('user-agent') || '';
+  const secChUa = req.headers.get('sec-ch-ua') || '';
+  const secChUaMobile = req.headers.get('sec-ch-ua-mobile') || '';
+  const secChUaPlatform = req.headers.get('sec-ch-ua-platform') || '';
+
+  // Check for presence of modern browser client hints
+  if (!secChUa || !secChUaMobile || !secChUaPlatform) {
+    score += WEIGHTS.MISSING_CLIENT_HINTS;
+    reasons.push('Missing Client Hints');
+  }
+
+  // Heuristic: If User-Agent exists but client hints are missing, it might be an older browser or a bot.
+  if (ua && (!secChUa || !secChUaMobile)) {
+    score += WEIGHTS.BROWSER_ANOMALY;
+    reasons.push('User-Agent/Client Hints Mismatch');
+  }
+
+  // Add more heuristics here (e.g., UA inconsistencies, known bot UAs that try to mimic modern browsers but fail client hints)
+
+  return { score, reasons, action: score > 0 ? 'CHALLENGE' : 'ALLOW' };
 }
 
 /**
@@ -159,11 +190,22 @@ export async function generateClearanceToken(ip: string, ua: string): Promise<st
 export async function assessRisk(req: NextRequest): Promise<RiskResult> {
   const { level } = await getSecuritySettings();
 
+  // 0. Initial check for OFF mode
   if (level === 'OFF') {
     return { score: 0, reasons: [], action: 'ALLOW' };
   }
 
+  // 1. Assess browser security first (fast check)
+  const browserSecurityResult = assessBrowserSecurity(req);
+
+  // If browser itself is suspicious, it leads to a challenge or block
+  if (browserSecurityResult.score > 0) {
+    return { ...browserSecurityResult, action: 'CHALLENGE' };
+  }
+
+  // If browser is clean:
   if (level === 'UNDER_ATTACK') {
+    // Even clean browsers get challenged if in UNDER_ATTACK mode
     return { score: 100, reasons: ['Under Attack Mode Active'], action: 'CHALLENGE' };
   }
 
@@ -198,20 +240,26 @@ export async function assessRisk(req: NextRequest): Promise<RiskResult> {
 
   // 3. Path Scanning Detection
   const pathLower = path.toLowerCase();
-  if (DANGEROUS_PATHS.some((dp) => pathLower.includes(dp))) {
+  if (
+    DANGEROUS_PATHS.some(
+      (dp) =>
+        pathLower === dp ||
+        pathLower.startsWith(dp + '/') ||
+        (dp.startsWith('.') && pathLower.endsWith(dp)),
+    )
+  ) {
     score += WEIGHTS.PATH_SCANNING;
     reasons.push('Path Scanning Attempt');
   }
 
   // 4. Behavioral Heuristics
-  // Direct access to deep routes without referer is suspicious
   if (path.split('/').length > 2 && !path.startsWith('/api') && !req.headers.get('referer')) {
     score += WEIGHTS.DIRECT_ACCESS_DEEP;
     reasons.push('Direct Access to Deep Route');
   }
 
   // Action Determination logic based on SECURITY_LEVEL
-  let action: 'ALLOW' | 'CHALLENGE' | 'BLOCK' = 'ALLOW';
+  let action: RiskResult['action'] = 'ALLOW';
 
   const thresholds = {
     LOW: { challenge: 50, block: 150 },
@@ -225,6 +273,9 @@ export async function assessRisk(req: NextRequest): Promise<RiskResult> {
     action = 'BLOCK';
   } else if (score >= currentThresholds.challenge) {
     action = 'CHALLENGE';
+  } else {
+    // If browser was clean, and general risk is low, then it's BROWSER_VERIFIED
+    action = 'BROWSER_VERIFIED';
   }
 
   return { score, reasons, action };
