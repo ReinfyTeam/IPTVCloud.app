@@ -1,0 +1,19 @@
+name: Trigger EPG
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    permissions: write-all
+
+    steps:
+      - name: Trigger epg workflow
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: epg.yml
+          ref: epg
+          token: ${{ secrets.GITHUB_TOKEN }}
